@@ -51,6 +51,7 @@ struct Studio {
     life_started: Duration,
     generation: u64,
     viewport: Rect,
+    girl: bool,
 }
 impl Studio {
     fn new(now: Instant) -> Self {
@@ -61,7 +62,23 @@ impl Studio {
             life_started: Duration::ZERO,
             generation: 0,
             viewport: Rect::new(0, 0, 104, 30),
+            girl: false,
         }
+    }
+    fn avatar(&self) -> Option<codewhale_ratatui::avatar_sprite::Sprite<'static>> {
+        if !self.girl {
+            return None;
+        }
+        let d = self.stage.director();
+        let f = codewhale_ratatui::whale_girl::sample(d.acting.id(), d.f, d.reduced, None, None);
+        codewhale_ratatui::avatar_sprite::Sprite::new(
+            codewhale_ratatui::whale_girl::pack(),
+            codewhale_ratatui::whale_girl::TERMINAL,
+            96,
+            96,
+            f.index,
+        )
+        .ok()
     }
     fn elapsed(&self, now: Instant) -> Duration {
         now.saturating_duration_since(self.started)
@@ -220,6 +237,10 @@ impl Studio {
             }
             KeyCode::F(9) => {
                 cycle_palette(&mut self.view, key.modifiers.contains(KeyModifiers::SHIFT));
+                return false;
+            }
+            KeyCode::F(11) => {
+                self.girl = !self.girl;
                 return false;
             }
             KeyCode::F(10) => {
@@ -642,7 +663,9 @@ fn export_frames(export: Export) -> io::Result<()> {
         let actor = studio.actor(base + elapsed, area, &theme);
         let buf = testing::render(area.width, area.height, |area, buf| {
             let frame = ShowcaseFrame::new(&studio.view, elapsed);
-            if let Some(actor) = &actor {
+            if let Some(sprite) = studio.avatar() {
+                frame.avatar(sprite).paint(area, buf, &theme);
+            } else if let Some(actor) = &actor {
                 frame.whale(actor).paint(area, buf, &theme);
             } else {
                 frame.paint(area, buf, &theme);
@@ -690,7 +713,10 @@ fn main() -> io::Result<()> {
             } else {
                 None
             };
-            if let Some(actor) = &actor {
+            if let Some(sprite) = studio.avatar() {
+                view.avatar(sprite)
+                    .paint(frame.area(), frame.buffer_mut(), &theme);
+            } else if let Some(actor) = &actor {
                 view.whale(actor)
                     .paint(frame.area(), frame.buffer_mut(), &theme);
             } else {
