@@ -454,6 +454,7 @@ pub struct ShowcaseFrame<'a> {
     pub state: &'a ShowcaseState,
     pub elapsed: Duration,
     pub whale: Option<&'a ColoredGrid>,
+    pub avatar: Option<crate::avatar_sprite::Sprite<'a>>,
 }
 impl<'a> ShowcaseFrame<'a> {
     pub const fn new(state: &'a ShowcaseState, elapsed: Duration) -> Self {
@@ -461,8 +462,10 @@ impl<'a> ShowcaseFrame<'a> {
             state,
             elapsed,
             whale: None,
+            avatar: None,
         }
     }
+    pub const fn avatar(mut self, sprite: crate::avatar_sprite::Sprite<'a>) -> Self { self.avatar = Some(sprite); self }
     pub const fn whale(mut self, grid: &'a ColoredGrid) -> Self {
         self.whale = Some(grid);
         self
@@ -700,7 +703,10 @@ impl ShowcaseFrame<'_> {
     }
     fn paint_whale(&self, area: Rect, buf: &mut Buffer, theme: &Theme, state: WhaleState) {
         let whale = Whale::new(state).words(state.words());
-        if let Some(grid) = self.whale {
+        if let Some(sprite) = self.avatar {
+            sprite.paint(Rect::new(area.x, area.y, area.width, area.height.saturating_sub(1)), buf, theme);
+            caption(Rect::new(area.x, area.bottom().saturating_sub(1), area.width, 1), buf, theme, &state.words(), Role::Primary);
+        } else if let Some(grid) = self.whale {
             grid.paint_with_contrast(&whale, area, buf, theme, 3.0);
         } else {
             whale.paint(area, buf, theme);
@@ -1080,14 +1086,14 @@ impl ShowcaseFrame<'_> {
             band(area, 0, 1),
             buf,
             theme,
-            "One whale. Seventeen native actions.",
+            if self.avatar.is_some() { "Whale girl. Seventeen native actions." } else { "One whale. Seventeen native actions." },
         );
         caption(
             band(area, 2, 1),
             buf,
             theme,
             &format!(
-                "Action study / {} / {} of 17 / Left, Right / Space play",
+                "{} / {} of 17 / Left, Right / Space play / F11 avatar",
                 action.words(),
                 self.state.action.min(16) + 1
             ),

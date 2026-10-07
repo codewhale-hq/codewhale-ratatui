@@ -39,6 +39,11 @@ pub mod tokens;
 mod components;
 pub mod gallery;
 pub mod testing;
+#[path = "../assets/avatar-pack/contract.rs"]
+pub mod avatar;
+pub mod avatar_sprite;
+#[path = "../assets/whale-girl/player.rs"]
+pub mod whale_girl;
 pub mod whale;
 pub mod whale_motion;
 
