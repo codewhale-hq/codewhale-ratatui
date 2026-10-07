@@ -1,20 +1,21 @@
-# Whale girl asset provenance
+# Whale girl: active cel-shaded chibi
 
-Generated with the built-in image generation tool from the existing Codewhale
-loyalty-pledge maid mascot in the October 4 merch attempts. The user requested
-that her hair become whale tails at the ends, then rejected the first sheet's
-hair construction and low resolution.
+Original identity: Codewhale merch mascot and curled-C whale mark. The user's
+WeChat stickers guide oversized head, tiny body, short limbs and expressions.
+The seated plush guides proportions only. The final correction calls for a
+standing, active Genshin Impact-like cel-shaded character, deep slate/navy blue
+hair, pale blue tips and navy/cream clothing with restrained gold.
 
-The replacement uses exactly two continuous flowing hair sections, each ending
-in a narrow neck and two flukes made from the same hair strands. Nine separately
-authored 2x2 pages replace the rejected 6x6 sheet. Source cells are 627px rather
-than 209px; packaging adds equal transparent padding to 672px without enlarging
-the art. There are two keyframes per activity and one side/back view each.
+Two continuous hair locks taper, then split into notched whale flukes made
+from the same hair at their ends. Preserve the curled-C hair clip, crown curl,
+blue heart brooch and whale-belly apron lines across every view and action.
 
-Exact prompts are in `sources/page-00.prompt.txt` through `page-08.prompt.txt`.
-Each source and packaged PNG embeds its prompt. The source PNGs live in the
-app repository; the Ratatui copies include packaged pages and prompt sidecars.
-`manifest.json` records the resulting source/page/terminal hashes.
+The first seated, bright-blue plush draft was rejected and is not shipped.
+Claude supplied read-only critique; the user's standing/cel-shaded correction
+supersedes that critique's seated/matte recommendation.
 
-Reference: `artifacts/merch-20261004/design/mascot/codewhale-loyalty-pledge-lowercase-w.png`
-in the Codewhale workspace. No background, lettering or pledge text is included.
+Exact image-generation prompts accompany each original page under `sources/`.
+The packer performs deterministic cropping, padding, bounded palette encoding,
+and terminal conversion. It does not redraw or enlarge art. Full-color source
+PNGs are retained. Runtime movement is generated from shared bounded motion
+presets, not interpolated raster ghosts or a separate animation timer.

@@ -4,232 +4,388 @@
   "name": "Whale girl",
   "columns": 2,
   "rows": 2,
-  "tileWidth": 672,
-  "tileHeight": 672,
+  "tileWidth": 768,
+  "tileHeight": 768,
   "actions": {
     "rest": {
       "frames": [
         0,
-        1
+        1,
+        0,
+        2,
+        0,
+        51,
+        52,
+        0
       ],
       "durationsMs": [
-        3800,
-        180
+        1900,
+        100,
+        950,
+        180,
+        1200,
+        180,
+        240,
+        1100
       ],
       "poster": 0,
-      "repeat": true
+      "repeat": true,
+      "motion": "breathe"
     },
     "listen": {
       "frames": [
-        2,
+        3,
+        4,
+        5,
+        4,
         3
       ],
       "durationsMs": [
-        3800,
-        180
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 2,
-      "repeat": true
+      "poster": 3,
+      "repeat": true,
+      "motion": "work"
     },
     "think": {
       "frames": [
-        4,
-        5
+        6,
+        7,
+        8,
+        7,
+        6
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 4,
-      "repeat": true
+      "poster": 6,
+      "repeat": true,
+      "motion": "work"
     },
     "busy": {
       "frames": [
-        6,
-        7
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 6,
-      "repeat": true
-    },
-    "read": {
-      "frames": [
-        8,
+        9,
+        10,
+        11,
+        10,
         9
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 8,
-      "repeat": true
+      "poster": 9,
+      "repeat": true,
+      "motion": "work"
+    },
+    "read": {
+      "frames": [
+        12,
+        13,
+        14,
+        13,
+        12
+      ],
+      "durationsMs": [
+        800,
+        140,
+        200,
+        120,
+        650
+      ],
+      "poster": 12,
+      "repeat": true,
+      "motion": "work"
     },
     "search": {
       "frames": [
-        10,
-        11
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 10,
-      "repeat": true
-    },
-    "write": {
-      "frames": [
-        12,
-        13
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 12,
-      "repeat": true
-    },
-    "run": {
-      "frames": [
-        14,
+        15,
+        16,
+        17,
+        16,
         15
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 14,
-      "repeat": true
+      "poster": 15,
+      "repeat": true,
+      "motion": "work"
     },
-    "browse": {
-      "frames": [
-        16,
-        17
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 16,
-      "repeat": true
-    },
-    "talk": {
+    "write": {
       "frames": [
         18,
-        19
+        19,
+        20,
+        19,
+        18
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
       "poster": 18,
-      "repeat": true
+      "repeat": true,
+      "motion": "work"
     },
-    "pod": {
+    "run": {
       "frames": [
-        20,
+        21,
+        22,
+        23,
+        22,
         21
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 20,
-      "repeat": true
+      "poster": 21,
+      "repeat": true,
+      "motion": "work"
     },
-    "needs": {
-      "frames": [
-        22,
-        23
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 22,
-      "repeat": true
-    },
-    "done": {
+    "browse": {
       "frames": [
         24,
-        25
+        25,
+        26,
+        25,
+        24
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
       "poster": 24,
-      "repeat": true
+      "repeat": true,
+      "motion": "work"
     },
-    "hmm": {
+    "talk": {
       "frames": [
-        26,
+        27,
+        28,
+        29,
+        28,
         27
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 26,
-      "repeat": true
+      "poster": 27,
+      "repeat": true,
+      "motion": "work"
     },
-    "computer": {
-      "frames": [
-        28,
-        29
-      ],
-      "durationsMs": [
-        1300,
-        500
-      ],
-      "poster": 28,
-      "repeat": true
-    },
-    "connect": {
+    "pod": {
       "frames": [
         30,
-        31
+        31,
+        32,
+        31,
+        30
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
       "poster": 30,
-      "repeat": true
+      "repeat": true,
+      "motion": "work"
     },
-    "sleep": {
+    "needs": {
       "frames": [
-        32,
+        33,
+        34,
+        35,
+        34,
         33
       ],
       "durationsMs": [
-        1300,
-        500
+        800,
+        140,
+        200,
+        120,
+        650
       ],
-      "poster": 32,
-      "repeat": true
+      "poster": 33,
+      "repeat": true,
+      "motion": "work"
+    },
+    "done": {
+      "frames": [
+        36,
+        37,
+        38,
+        53,
+        54
+      ],
+      "durationsMs": [
+        120,
+        150,
+        150,
+        160,
+        1400
+      ],
+      "poster": 36,
+      "repeat": false,
+      "motion": "hop"
+    },
+    "hmm": {
+      "frames": [
+        39,
+        40,
+        41,
+        40,
+        39
+      ],
+      "durationsMs": [
+        800,
+        140,
+        200,
+        120,
+        650
+      ],
+      "poster": 39,
+      "repeat": true,
+      "motion": "work"
+    },
+    "computer": {
+      "frames": [
+        42,
+        43,
+        44,
+        43,
+        42
+      ],
+      "durationsMs": [
+        800,
+        140,
+        200,
+        120,
+        650
+      ],
+      "poster": 42,
+      "repeat": true,
+      "motion": "work"
+    },
+    "connect": {
+      "frames": [
+        45,
+        46,
+        47,
+        46,
+        45
+      ],
+      "durationsMs": [
+        800,
+        140,
+        200,
+        120,
+        650
+      ],
+      "poster": 45,
+      "repeat": true,
+      "motion": "work"
+    },
+    "sleep": {
+      "frames": [
+        48,
+        49,
+        50,
+        49
+      ],
+      "durationsMs": [
+        1800,
+        220,
+        1400,
+        240
+      ],
+      "poster": 48,
+      "repeat": true,
+      "motion": "sleep"
     },
     "side": {
       "frames": [
-        34
+        55,
+        56,
+        55,
+        57
       ],
       "durationsMs": [
-        1000
+        1900,
+        100,
+        1200,
+        400
       ],
-      "poster": 34,
-      "repeat": true
+      "poster": 55,
+      "repeat": true,
+      "motion": "none"
     },
     "back": {
       "frames": [
-        35
+        58,
+        59,
+        60,
+        59
       ],
       "durationsMs": [
-        1000
+        1600,
+        200,
+        1600,
+        200
       ],
-      "poster": 35,
-      "repeat": true
+      "poster": 58,
+      "repeat": true,
+      "motion": "none"
+    },
+    "wave": {
+      "frames": [
+        61,
+        62,
+        61,
+        62,
+        63
+      ],
+      "durationsMs": [
+        200,
+        140,
+        140,
+        140,
+        1200
+      ],
+      "poster": 61,
+      "repeat": false,
+      "motion": "work"
     }
   },
   "states": {
@@ -265,6 +421,19 @@
     "page-05.png",
     "page-06.png",
     "page-07.png",
-    "page-08.png"
-  ]
+    "page-08.png",
+    "page-09.png",
+    "page-10.png",
+    "page-11.png",
+    "page-12.png",
+    "page-13.png",
+    "page-14.png",
+    "page-15.png"
+  ],
+  "compact": {
+    "x": 182,
+    "y": 104,
+    "width": 403,
+    "height": 403
+  }
 }

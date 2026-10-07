@@ -25,6 +25,56 @@ pub struct Pack {
     pub states: BTreeMap<String, String>,
     #[serde(default)]
     pub views: BTreeMap<String, String>,
+    /// Optional pixel crop within every tile, used for compact carriers.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub compact: Option<Crop>,
+}
+
+#[derive(Clone, Copy, Debug, PartialEq, Serialize, Deserialize)]
+#[serde(deny_unknown_fields)]
+pub struct Crop {
+    pub x: u16,
+    pub y: u16,
+    pub width: u16,
+    pub height: u16,
+}
+
+pub const WHALE_KEY: &str = "codewhale:whale";
+pub const GIRL_KEY: &str = "codewhale:whale-girl";
+pub const WHALE_VIEWS: [&str; 3] = ["emblem", "cruise", "open"];
+
+/// One picker contract for both built-in renderers and reviewed sprite packs.
+/// A contour character does not pretend to have a PNG atlas.
+#[derive(Clone, Debug, PartialEq)]
+pub struct Character {
+    pub key: String,
+    pub name: String,
+    pub actions: Vec<String>,
+    pub views: Vec<String>,
+}
+pub fn characters(girl: &Pack, registered: &[RegisteredPack]) -> Vec<Character> {
+    let sprite = |key: &str, pack: &Pack| Character {
+        key: key.into(),
+        name: pack.name.clone(),
+        actions: pack.actions.keys().cloned().collect(),
+        views: pack.views.keys().cloned().collect(),
+    };
+    let mut out = vec![
+        Character {
+            key: WHALE_KEY.into(),
+            name: "Whale".into(),
+            actions: ACTS.iter().map(|s| (*s).into()).collect(),
+            views: WHALE_VIEWS.iter().map(|s| (*s).into()).collect(),
+        },
+        sprite(GIRL_KEY, girl),
+    ];
+    out.extend(
+        registered
+            .iter()
+            .filter(|p| p.key.starts_with("plugin:"))
+            .map(|p| sprite(&p.key, &p.pack)),
+    );
+    out
 }
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
@@ -35,11 +85,97 @@ pub struct Action {
     pub poster: u16,
     #[serde(default)]
     pub repeat: bool,
+    #[serde(default, skip_serializing_if = "Motion::is_none")]
+    pub motion: Motion,
+}
+
+/// Bounded presentation presets; plugins never supply executable animation.
+#[derive(Clone, Copy, Debug, Default, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "kebab-case")]
+pub enum Motion {
+    #[default]
+    None,
+    Breathe,
+    Work,
+    Hop,
+    Sleep,
+}
+impl Motion {
+    fn is_none(&self) -> bool {
+        *self == Self::None
+    }
+    fn sample(self, seconds: f64, within_frame: f64) -> Transform {
+        if self == Self::None {
+            return Transform::default();
+        }
+        let (amplitude, period) = match self {
+            Self::Sleep => (0.008, 4.8),
+            Self::Work => (0.015, 1.3),
+            _ => (0.012, 3.2),
+        };
+        let breath = amplitude * (seconds * std::f64::consts::TAU / period).sin();
+        // One arrival, then quiet work; no extra clock and no cross-fade ghosts.
+        let entry = if seconds < 0.5 {
+            -0.055 * (seconds * std::f64::consts::TAU / 0.32).sin() * (-seconds * 8.).exp()
+        } else {
+            0.
+        };
+        let accent = if self == Self::Work && within_frame < 0.12 {
+            -0.018 * (within_frame / 0.12 * std::f64::consts::PI).sin()
+        } else {
+            0.
+        };
+        let (lift, landing) = if self == Self::Hop && (0.12..0.98).contains(&seconds) {
+            let t = ((seconds - 0.12) % 0.43) / 0.43;
+            if t < 0.78 {
+                let p = t / 0.78;
+                (-5. * 4. * p * (1. - p), 0.)
+            } else {
+                (
+                    0.,
+                    -0.075 * ((t - 0.78) / 0.22 * std::f64::consts::PI).sin(),
+                )
+            }
+        } else {
+            (0., 0.)
+        };
+        let squash = (breath + entry + accent + landing).clamp(-0.10, 0.08);
+        Transform {
+            scale_x: 1. - squash * 0.6,
+            scale_y: 1. + squash,
+            lift,
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct Transform {
+    pub scale_x: f64,
+    pub scale_y: f64,
+    pub lift: f64,
+}
+impl Default for Transform {
+    fn default() -> Self {
+        Self {
+            scale_x: 1.,
+            scale_y: 1.,
+            lift: 0.,
+        }
+    }
 }
 
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub struct Frame {
     pub index: usize,
+    pub transform: Transform,
+}
+impl Frame {
+    fn still(index: usize) -> Self {
+        Self {
+            index,
+            transform: Transform::default(),
+        }
+    }
 }
 
 pub fn slug(value: &str) -> bool {
@@ -106,6 +242,14 @@ impl Pack {
             || !self.states.contains_key("rest")
         {
             return Err("Invalid avatar identity, atlas dimensions, or action limits".into());
+        }
+        if self.compact.is_some_and(|c| {
+            c.width == 0
+                || c.height == 0
+                || u32::from(c.x) + u32::from(c.width) > u32::from(self.tile_width)
+                || u32::from(c.y) + u32::from(c.height) > u32::from(self.tile_height)
+        }) {
+            return Err("Avatar compact crop exceeds tile bounds".into());
         }
         for (id, action) in &self.actions {
             if !slug(id)
@@ -178,20 +322,17 @@ impl Pack {
             .or_else(|| self.states.get(state).map(String::as_str))
             .or_else(|| self.states.get("rest").map(String::as_str));
         let Some(clip) = named.and_then(|name| self.actions.get(name)) else {
-            return Frame { index: 0 };
+            return Frame::still(0);
         };
         if reduced || !frame.is_finite() {
-            return Frame {
-                index: clip.poster as usize,
-            };
+            return Frame::still(clip.poster as usize);
         }
         let total: u64 = clip.durations_ms.iter().map(|&d| u64::from(d)).sum();
         if total == 0 {
-            return Frame {
-                index: clip.poster as usize,
-            };
+            return Frame::still(clip.poster as usize);
         }
-        let elapsed = (frame.max(0.) / 30. * 1000.).min(u64::MAX as f64) as u64;
+        let seconds = (frame.max(0.) / 30.).min(31_536_000.);
+        let elapsed = (seconds * 1000.) as u64;
         let mut elapsed = if clip.repeat {
             elapsed % total
         } else {
@@ -201,13 +342,16 @@ impl Pack {
             if elapsed < u64::from(duration) {
                 return Frame {
                     index: index as usize,
+                    transform: if view.is_some() {
+                        Transform::default()
+                    } else {
+                        clip.motion.sample(seconds, elapsed as f64 / 1000.)
+                    },
                 };
             }
             elapsed -= u64::from(duration);
         }
-        Frame {
-            index: clip.poster as usize,
-        }
+        Frame::still(clip.poster as usize)
     }
 }
 
@@ -233,6 +377,97 @@ mod tests {
     use super::*;
     fn example() -> Pack {
         Pack::parse(br#"{"version":1,"id":"studio","name":"Studio avatar","atlases":["art/atlas.png"],"columns":2,"rows":1,"tileWidth":8,"tileHeight":8,"actions":{"wave":{"frames":[0,1],"durationsMs":[100,200],"poster":1,"repeat":true}},"states":{"rest":"wave","done":"wave"},"views":{"side":"wave"}}"#).unwrap()
+    }
+    #[test]
+    fn motion_is_optional_bounded_and_freezes_with_reduced_motion() {
+        let mut pack = example();
+        let baseline = pack.sample("rest", 24., false, None, None);
+        assert_eq!(baseline.transform, Transform::default());
+        pack.actions.get_mut("wave").unwrap().motion = Motion::Breathe;
+        let t = pack.sample("rest", 24., false, None, None).transform;
+        assert!((t.scale_y - 1.012).abs() < 1e-10);
+        assert!((t.scale_x - 0.9928).abs() < 1e-10);
+        assert_eq!(
+            pack.sample("rest", 24., true, None, None).transform,
+            Transform::default()
+        );
+        assert_eq!(
+            pack.sample("rest", f64::NAN, false, None, None).transform,
+            Transform::default()
+        );
+        assert_eq!(
+            pack.sample("rest", 24., false, Some("side"), None)
+                .transform,
+            Transform::default()
+        );
+        for motion in [Motion::Breathe, Motion::Work, Motion::Hop, Motion::Sleep] {
+            pack.actions.get_mut("wave").unwrap().motion = motion;
+            for frame in (0..3000).map(|n| n as f64 / 10.).chain([f64::MAX]) {
+                let t = pack.sample("rest", frame, false, None, None).transform;
+                assert!((0.90..=1.08).contains(&t.scale_y));
+                assert!((0.90..=1.08).contains(&t.scale_x));
+                assert!((-5.0..=0.0).contains(&t.lift));
+                assert!(!(t.scale_x > 1. && t.scale_y > 1.));
+            }
+        }
+        let mut json = serde_json::to_value(&pack).unwrap();
+        json["actions"]["wave"]["motion"] = "javascript".into();
+        assert!(Pack::parse(&serde_json::to_vec(&json).unwrap()).is_err());
+    }
+
+    #[test]
+    fn catalog_keeps_builtins_and_custom_actions_together() {
+        let pack = example();
+        let registered = RegisteredPack {
+            key: "plugin:studio:studio".into(),
+            handle: 3,
+            content_hash: "hash".into(),
+            pack: pack.clone(),
+        };
+        let choices = characters(&pack, &[registered]);
+        assert_eq!(
+            choices.iter().map(|p| p.key.as_str()).collect::<Vec<_>>(),
+            [WHALE_KEY, GIRL_KEY, "plugin:studio:studio"]
+        );
+        assert_eq!(choices[0].actions, ACTS);
+        assert_eq!(choices[0].views, WHALE_VIEWS);
+        assert_eq!(choices[2].actions, ["wave"]);
+        assert_eq!(choices[2].views, ["side"]);
+    }
+    #[test]
+    fn compact_crop_is_optional_and_confined_to_each_tile() {
+        let mut pack = example();
+        assert_eq!(pack.compact, None);
+        pack.compact = Some(Crop {
+            x: 2,
+            y: 1,
+            width: 6,
+            height: 7,
+        });
+        assert!(pack.validate().is_ok());
+        for crop in [
+            Crop {
+                x: 3,
+                y: 1,
+                width: 6,
+                height: 7,
+            },
+            Crop {
+                x: 0,
+                y: 0,
+                width: 0,
+                height: 1,
+            },
+            Crop {
+                x: u16::MAX,
+                y: 0,
+                width: 1,
+                height: 1,
+            },
+        ] {
+            pack.compact = Some(crop);
+            assert!(pack.validate().is_err());
+        }
     }
     #[test]
     fn avatar_named_actions_share_clock_and_reduced_posters() {

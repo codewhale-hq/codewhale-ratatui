@@ -4,7 +4,7 @@ use crate::avatar::{Frame, Pack};
 use std::sync::OnceLock;
 pub const TERMINAL: &[u8] = include_bytes!("terminal.rgba");
 pub const TILE: usize = 96;
-pub const FRAMES: usize = 36;
+pub const FRAMES: usize = 64;
 pub fn pack() -> &'static Pack {
     static PACK: OnceLock<Pack> = OnceLock::new();
     PACK.get_or_init(|| {
@@ -32,11 +32,59 @@ pub fn pixel(index: usize, x: usize, y: usize) -> [u8; 4] {
 mod tests {
     use super::*;
     #[test]
+    fn authored_poses_keep_headroom_through_motion_and_gaze() {
+        // Inspect actual alpha coverage, not the transparent tile rectangle.
+        // This catches a complete drawing being cropped during a hop/stretch.
+        let bounds: Vec<_> = (0..FRAMES)
+            .map(|frame| {
+                let (mut left, mut top, mut right, mut bottom) = (TILE, TILE, 0, 0);
+                for y in 0..TILE {
+                    for x in 0..TILE {
+                        if pixel(frame, x, y)[3] >= 40 {
+                            left = left.min(x);
+                            top = top.min(y);
+                            right = right.max(x + 1);
+                            bottom = bottom.max(y + 1);
+                        }
+                    }
+                }
+                let at = |n| n as f64 / TILE as f64 * 124. - 62.;
+                (at(left), at(top), at(right), at(bottom))
+            })
+            .collect();
+        for (action, clip) in &pack().actions {
+            let duration: u32 = clip.durations_ms.iter().map(|&d| u32::from(d)).sum();
+            for tick in 0..duration * 60 / 1000 + 1 {
+                let frame = sample("rest", f64::from(tick) / 2., false, None, Some(action));
+                let (l, t, r, b) = bounds[frame.index];
+                let motion = frame.transform;
+                let y = |v| 62. + (v - 62.) * motion.scale_y + motion.lift;
+                // Shared carriers may add at most three design units of gaze.
+                assert!(
+                    l * motion.scale_x - 3. >= -62.
+                        && r * motion.scale_x + 3. <= 62.
+                        && y(t) - 3. >= -62.
+                        && y(b) + 3. <= 62.,
+                    "{action} clips frame {} at tick {tick}",
+                    frame.index
+                );
+            }
+        }
+    }
+
+    #[test]
     fn girl_has_distinct_frames_for_all_native_actions_and_authored_views() {
         assert_eq!(TERMINAL.len(), FRAMES * TILE * TILE * 4);
         for act in crate::avatar::ACTS {
             let clip = &pack().actions[&pack().states[act]];
-            assert_eq!(clip.frames.len(), 2, "{act} has two authored poses");
+            assert!(
+                clip.frames
+                    .iter()
+                    .collect::<std::collections::BTreeSet<_>>()
+                    .len()
+                    >= 3,
+                "{act} has at least three authored poses"
+            );
             let tile = |index: u16| {
                 &TERMINAL[index as usize * TILE * TILE * 4..(index as usize + 1) * TILE * TILE * 4]
             };

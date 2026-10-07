@@ -68,6 +68,8 @@ struct Screen<'a> {
     action: &'a str,
     frame: f64,
     reduced: bool,
+    contour: Option<&'a codewhale_ratatui::whale_motion::Director>,
+    view: Option<&'a str>,
 }
 impl Paint for Screen<'_> {
     fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
@@ -85,15 +87,29 @@ impl Paint for Screen<'_> {
             area.width,
             area.height.saturating_sub(4),
         );
-        if let Ok(sprite) = Sprite::new(self.pack, self.pixels, self.w, self.h, sampled.index) {
-            sprite.paint(art, buf, theme);
+        if let Some(director) = self.contour {
+            codewhale_ratatui::avatar_sprite::Contour {
+                director,
+                view: self.view,
+            }
+            .paint(art, buf, theme);
+        } else if let Ok(sprite) =
+            Sprite::new(self.pack, self.pixels, self.w, self.h, sampled.index)
+        {
+            sprite
+                .with_transform(sampled.transform)
+                .paint(art, buf, theme);
         }
         buf.set_stringn(
             area.x,
             area.y,
             format!(
                 "{} / {}{}",
-                self.pack.name,
+                if self.contour.is_some() {
+                    "Whale"
+                } else {
+                    &self.pack.name
+                },
                 self.action,
                 if self.reduced { " / still" } else { "" }
             ),
@@ -103,7 +119,7 @@ impl Paint for Screen<'_> {
         buf.set_stringn(
             area.x,
             area.bottom().saturating_sub(1),
-            "Left/Right action  V view  Space motion  Esc close",
+            "Tab character  Left/Right action  V view  Space motion  Esc close",
             usize::from(area.width),
             theme.fg(Role::Muted),
         );
@@ -120,15 +136,26 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut args = std::env::args().skip(1);
     let mut file = None;
     let mut frames = None;
+    let mut original = false;
     while let Some(arg) = args.next() {
         match arg.as_str() {
+            "--character" => {
+                original = match args.next().as_deref() {
+                    Some("whale") => true,
+                    Some("whale-girl") => false,
+                    _ => return Err("--character expects whale or whale-girl".into()),
+                };
+            }
             "--pack" => file = Some(PathBuf::from(args.next().ok_or("--pack needs a file")?)),
             "--frames" => {
                 frames = Some(PathBuf::from(
                     args.next().ok_or("--frames needs a directory")?,
                 ))
             }
-            _ => return Err("usage: avatar [--pack avatar.json] [--frames DIR]".into()),
+            _ => return Err(
+                "usage: avatar [--character whale|whale-girl] [--pack avatar.json] [--frames DIR]"
+                    .into(),
+            ),
         }
     }
     let (pack, pixels, w, h) = if let Some(file) = file {
@@ -141,7 +168,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             96,
         )
     };
-    let actions: Vec<_> = pack.actions.keys().map(String::as_str).collect();
+    let sprite_actions: Vec<_> = pack.actions.keys().map(String::as_str).collect();
+    let mut actions = if original {
+        codewhale_ratatui::avatar::ACTS.to_vec()
+    } else {
+        sprite_actions.clone()
+    };
     let views: Vec<_> = pack.views.values().map(String::as_str).collect();
     if let Some(dir) = frames {
         std::fs::create_dir_all(&dir)?;
@@ -154,6 +186,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let theme = profile.theme();
             for action in &actions {
                 for (step, frame) in [0., 18., 42.].iter().enumerate() {
+                    let mut director = codewhale_ratatui::whale_motion::Director::for_preview(
+                        codewhale_ratatui::whale_motion::Act::from_id(action)
+                            .unwrap_or(codewhale_ratatui::whale_motion::Act::Rest),
+                        step == 0,
+                    );
+                    for _ in 0..(*frame as usize) {
+                        director.step(1. / 30.);
+                    }
                     let screen = Screen {
                         pack: &pack,
                         pixels: &pixels,
@@ -162,6 +202,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         action,
                         frame: *frame,
                         reduced: step == 0,
+                        contour: original.then_some(&director),
+                        view: None,
                     };
                     let buf = testing::render(64, 36, |area, buf| screen.paint(area, buf, &theme));
                     std::fs::write(
@@ -179,10 +221,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let _guard = TerminalGuard;
     let mut terminal = Terminal::new(CrosstermBackend::new(io::stdout()))?;
     let theme = Theme::detect();
-    let started = Instant::now();
+    let mut started = Instant::now();
+    let mut last = started;
+    let mut original_view = 0;
+    let mut director = codewhale_ratatui::whale_motion::Director::for_preview(
+        codewhale_ratatui::whale_motion::Act::Rest,
+        false,
+    );
     let mut index = 0;
     let mut reduced = false;
     loop {
+        let now = Instant::now();
+        let mut dt = now.duration_since(last).as_secs_f64().min(1.);
+        last = now;
+        while dt > 1e-9 {
+            let step = dt.min(1. / 30.);
+            director.step(step);
+            dt -= step;
+        }
         let screen = Screen {
             pack: &pack,
             pixels: &pixels,
@@ -191,6 +247,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             action: actions[index],
             frame: started.elapsed().as_secs_f64() * 30.,
             reduced,
+            contour: original.then_some(&director),
+            view: Some(codewhale_ratatui::avatar::WHALE_VIEWS[original_view]),
         };
         terminal.draw(|f| screen.paint(f.area(), f.buffer_mut(), &theme))?;
         if event::poll(if reduced {
@@ -207,6 +265,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 KeyCode::Left => index = (index + actions.len() - 1) % actions.len(),
                 KeyCode::Right => index = (index + 1) % actions.len(),
                 KeyCode::Char(' ') => reduced = !reduced,
+                KeyCode::Tab => {
+                    original = !original;
+                    index = 0;
+                    actions = if original {
+                        codewhale_ratatui::avatar::ACTS.to_vec()
+                    } else {
+                        sprite_actions.clone()
+                    };
+                }
+                KeyCode::Char('v') if original => {
+                    original_view = (original_view + 1) % 3;
+                }
                 KeyCode::Char('v') => {
                     let current = views
                         .iter()
@@ -218,6 +288,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 }
                 _ => {}
             }
+            started = Instant::now();
+            director = codewhale_ratatui::whale_motion::Director::for_preview(
+                codewhale_ratatui::whale_motion::Act::from_id(actions[index])
+                    .unwrap_or(codewhale_ratatui::whale_motion::Act::Rest),
+                reduced,
+            );
         }
     }
     Ok(())

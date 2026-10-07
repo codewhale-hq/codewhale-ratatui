@@ -2,7 +2,7 @@ Create a high resolution square 2-by-2 animation sprite sheet, FOUR equal cells 
 She is STANDING and ACTIVE in all poses except sleep. Never default to sitting on her bottom with soles facing forward. Feet under her skirt, knees barely visible. Keep all the head/body/shoe dimensions EXACTLY constant from the reference in every cell; preserve face likeness. Eyes and hands and small purposeful weight shifts convey each activity.
 Registration: all four cells same camera and scale, body at x50%, lowest shoe pixel at y90%, crown at y10%, keep 8% clear border on each side. No contact between cells, no cropping. Reuse unchanged face/hair/costume shapes exactly, do not redesign across frames. Hair locks CONTINUOUSLY turn into two-lobed notched pale blue whale flukes at their ENDS, same material, no separately attached tails. Tips and crown curl follow gestures slightly. Hand props simple, legible, little navy/cream work objects, do not cover face.
 No text, cell numbers, labels, panels, separators, background, ground shadow, circles, sparkles, question marks or floating effects. EXACTLY four complete same-sized characters read top-left, top-right, bottom-left, bottom-right:
-Cell 1: rest 1/3: quiet neutral with half-lidded smug eyes; sleepy open eyes and calm relaxed mittens.
-Cell 2: rest 2/3: quiet neutral with half-lidded smug eyes; eyes completely closed in a quick BLINK, ALL OTHER PARTS IDENTICAL.
-Cell 3: rest 3/3: quiet neutral with half-lidded smug eyes; eyes open and tiny satisfied relaxed cheeks.
-Cell 4: listen 1/3: leans in attentively with one little mitten beside her ear; anticipation.
+Cell 1: BACK C: exact same back view, flukes relaxed.
+Cell 2: WAVE A: standing front, right mitten lifts in greeting, sleepy friendly open eyes.
+Cell 3: WAVE B: same standing front, mitten waves outward, cheerful closed-eye smile.
+Cell 4: WAVE C: same standing front, mitten settles at her side, small relaxed smile.

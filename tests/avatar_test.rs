@@ -35,7 +35,16 @@ fn avatar_obeys_clip_bounds_and_terminal_color_caps() {
 #[test]
 fn avatar_refuses_invalid_buffer_dimensions_and_frames() {
     assert!(Sprite::new(whale_girl::pack(), &[], 96, 96, 0).is_err());
-    assert!(Sprite::new(whale_girl::pack(), whale_girl::TERMINAL, 96, 96, 36).is_err());
+    assert!(
+        Sprite::new(
+            whale_girl::pack(),
+            whale_girl::TERMINAL,
+            96,
+            96,
+            whale_girl::FRAMES
+        )
+        .is_err()
+    );
     assert!(Sprite::new(whale_girl::pack(), whale_girl::TERMINAL, usize::MAX, 96, 0).is_err());
 }
 
@@ -55,5 +64,5 @@ fn avatar_page_render_matches_the_same_global_frame() {
     whole.paint(area, &mut a, &Profile::DarkTrue.theme());
     paged.paint(area, &mut b, &Profile::DarkTrue.theme());
     assert_eq!(a, b);
-    assert!(Sprite::page(pack, page, 96, 96, 36).is_err());
+    assert!(Sprite::page(pack, page, 96, 96, whale_girl::FRAMES).is_err());
 }

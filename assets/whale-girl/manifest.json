@@ -2,9 +2,9 @@
   "version": 1,
   "columns": 2,
   "rows": 2,
-  "tile": 672,
+  "tile": 768,
   "terminalTile": 96,
-  "frames": 36,
+  "frames": 64,
   "acts": [
     "rest",
     "listen",
@@ -25,58 +25,93 @@
     "sleep"
   ],
   "views": {
-    "side": 34,
-    "back": 35
+    "side": 55,
+    "back": 58
   },
   "pages": [
     {
       "file": "page-00.png",
-      "sha256": "68f1e41507f3e0c18ea4f22449249530128945d261da7f27ecdd7926dd44b5ea",
-      "sourceSha256": "d72a5c0e92e128ec5ca0003dde89cdfb6a027620af998eb1696b39917771bfee"
+      "sha256": "fc4eb36787bd7c45445eca813261a2c24c917965df8899eac624b49fe1884252",
+      "sourceSha256": "54bda142b63438c93a2edd1e6533164105051d0b1cf14cadd6c8cbf6bb3922a8"
     },
     {
       "file": "page-01.png",
-      "sha256": "0319f7d31e424aa5b9578d88c9be372f8e825ff3c32362cb77c37ed72e6baee0",
-      "sourceSha256": "c16256cd36afb01b9fd01fb8410133d240200903770a59fdb1ab721627ed41ec"
+      "sha256": "e358a1c11f27cb4138cb654ee5ce64ff0641fbda19dd05a9f31499125df68e9f",
+      "sourceSha256": "42e4109e5a3b3f73dc7410fe11c25d93c3c7107daf01603be0515e94415d8c8a"
     },
     {
       "file": "page-02.png",
-      "sha256": "591adaa8ef84ffe3037d9687e59aff932061433ae01042540421702a357c5ee5",
-      "sourceSha256": "861905631fb9aeca6feb1ea7ca04ae02d17c1c247e9c4ac4d24253d172ce8a60"
+      "sha256": "a4fd50bf0e0ba53e66341c6dca4c6964fd1ca2c593f6adcaadf8e7c1052435c6",
+      "sourceSha256": "5e2f9b701feba8aa5fa3a3da909ea974fc1c98b5e6d1b626ecccc176184afb03"
     },
     {
       "file": "page-03.png",
-      "sha256": "673a8d0482d1c5cd8ff1d6e7aa2014469a4b42a82d51bd3ea29f70428871d828",
-      "sourceSha256": "89469d6fd93552e9a95f2e1647b00e4572295f10e699f288b08b69ece6cd20a4"
+      "sha256": "880f1c61da6e5ff6fa5e6a2c2bbafdf79e6544cadc49acf551dbbaf6cd8c2f15",
+      "sourceSha256": "504c6099b02ee01c39bcf7dd83b68adcbfea6506e04bba9f9ec8f76b08eaf89e"
     },
     {
       "file": "page-04.png",
-      "sha256": "9ee00959e2948826544d215157597860661b99bfc1b1b18c8a98ef7ca59f4912",
-      "sourceSha256": "d43fdfa76bc4b8327864d657b257140a842553821dd1b479746c99893ffc5ba8"
+      "sha256": "36d80c5b31d08413aa5ac8178da267ac893e897804439c9df1dabe0b446a612f",
+      "sourceSha256": "500e8cfe3413bc0a63e7ccd63c31d5e8dcf40bd4520109ac257559d866b48dff"
     },
     {
       "file": "page-05.png",
-      "sha256": "f29f95593947fde25c77616bd907d609bc9448b98975ff191b5eafc48c0371e0",
-      "sourceSha256": "e815bf672c741ce127c329486de0b7681cc337c471b2d1fe0ea455f313bc7b58"
+      "sha256": "3d3d8faad2a653a0a3f8c58b43ad508fa0235b2faf1f1e8a5e74aea68e76c1a8",
+      "sourceSha256": "3b915a85147b203363194d4306f9f1a908602e766a4ba8b0635bc2b505feb0b1"
     },
     {
       "file": "page-06.png",
-      "sha256": "b9eaa5f00a1b3f3e35501ef7c35b5c27ecad68c802dbd4f5f50567d64be3e2ea",
-      "sourceSha256": "1a1474561b6ac3b1d21332cba23fb34db17d931748b6feae4987b65d805b84f3"
+      "sha256": "eb3dc17ad3b1711b1f2f057fe0e9267851dae3e41e9b86d249e98db7de68934a",
+      "sourceSha256": "ca2dc0e510f6785fa319eea2b2ef039b9145d166579760a43524678098b99708"
     },
     {
       "file": "page-07.png",
-      "sha256": "72f7a0d394c0985818e3034dca1583b8f3c3681efbe02eb217f88b68ca898fba",
-      "sourceSha256": "80ebbe716338268b7ac83ddfa89507559a5724481656ae7bff589c7466008d0f"
+      "sha256": "624ac0a948b06d16cd3e2a443406390f7e907508b4ba88291637a403b5fab773",
+      "sourceSha256": "ccca3db2a07e6cd1fc5f9f84adc91013fcfdf2d8e18d64b6dd1677f6c71501c2"
     },
     {
       "file": "page-08.png",
-      "sha256": "0cc4a1a44a13c9bcbfe3ae51a071c5e4d95fc20ead27b3d3e2cb2c53b86c68a0",
-      "sourceSha256": "235baa9fb9ec9803de48cb2457b5063a138f80178e909f002465c5392d3803a6"
+      "sha256": "9f72c10954614d37be2f27ae053109ef3c289452770e11dbb1e8e6c03461dc1b",
+      "sourceSha256": "c38ca784033067dee862e5e21ccfc2c852e3df2270ffe7ab4a053ee304db2109"
+    },
+    {
+      "file": "page-09.png",
+      "sha256": "7c3dd895fd75c129789142dfde875be2d2559247048f3aeed7392dee4d0def9e",
+      "sourceSha256": "d0bb6d8214f020b03aae4a1ff7ee1584824d6b9425bfa598254af79106dd00ec"
+    },
+    {
+      "file": "page-10.png",
+      "sha256": "462f035ae710cf45ea176c799bf7a462b79c53b57214dbf94ea4115baa801d17",
+      "sourceSha256": "839280ac31b9129ae2896f931726ffcb99a15f3f56cefd72c33ac13d1f9dd0ec"
+    },
+    {
+      "file": "page-11.png",
+      "sha256": "27fb33a36d3c75a9ca34af364b51e4bc703d2b01ef0969d24d3b541979ecdf25",
+      "sourceSha256": "0c819e6345ce07bcb506f539844a6d5211b7e080ba70988a6612c5247d4c3d62"
+    },
+    {
+      "file": "page-12.png",
+      "sha256": "eab30f52fc3b919a27d61017b27a6cc890012b83c45324bdb00d87037f920e32",
+      "sourceSha256": "24979f69a46c25897c097a865a38d6059c861404ad98669fa41c29e781b38432"
+    },
+    {
+      "file": "page-13.png",
+      "sha256": "a90f41233e349b3c942618740eedafcda8c81c5febc598a6ec0e7dd54b3569ee",
+      "sourceSha256": "eec3b2c206ea40aca392a4c92deb4221f340b6697f37ba104211c1e3500d394a"
+    },
+    {
+      "file": "page-14.png",
+      "sha256": "7bc308bf350994b71e9c57c1fd8d4e95463ebf3ef852721e60a29202153cac16",
+      "sourceSha256": "edae816d79fbfb9d3c1662413d458fd36a4573e2606bee201b04f652f44278e9"
+    },
+    {
+      "file": "page-15.png",
+      "sha256": "83d524bf5c017d3f30241f7c73a0a408201781e1d50d37bbb246584dcd7c4109",
+      "sourceSha256": "a3ef4014ef9368bb2c121baff43fb53690a0321686da6b17076d7e47478bb265"
     }
   ],
-  "terminalSha256": "850c496a7a88d5bf9bf732725d4a33bd2f5f82ff355af4e994ede8692f99002c",
-  "reference": "Codewhale loyalty-pledge merch mascot (October 4, 2026)",
+  "terminalSha256": "07c4f9454d2ea1bb570974ed6cea769c71352107fa90a15a2534615b43dd4929",
+  "reference": "Codewhale merch mascot + user WeChat proportion references; active cel-shaded revision (October 6, 2026)",
   "generator": "Built-in image generation; exact prompts in sources/*.prompt.txt",
-  "resolution": "Authored 627px source cells; padded to 672px without enlargement (old source cells were 209px)."
+  "resolution": "Authored 627px source cells; padded to 768px without enlargement, including motion headroom. 64 distinct cel-shaded poses; derivative atlases use a bounded palette, full-colour sources retained."
 }

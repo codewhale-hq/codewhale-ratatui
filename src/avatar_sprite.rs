@@ -20,6 +20,7 @@ pub struct Sprite<'a> {
     width: usize,
     height: usize,
     frame: usize,
+    transform: crate::avatar::Transform,
 }
 impl<'a> Sprite<'a> {
     pub fn new(
@@ -78,9 +79,33 @@ impl<'a> Sprite<'a> {
             width,
             height,
             frame,
+            transform: Default::default(),
         })
     }
+    pub fn with_transform(mut self, transform: crate::avatar::Transform) -> Self {
+        if transform.scale_x.is_finite()
+            && transform.scale_y.is_finite()
+            && transform.lift.is_finite()
+        {
+            self.transform = crate::avatar::Transform {
+                scale_x: transform.scale_x.clamp(0.90, 1.08),
+                scale_y: transform.scale_y.clamp(0.90, 1.08),
+                lift: transform.lift.clamp(-8., 8.),
+            };
+        }
+        self
+    }
     fn pixel(&self, x: usize, y: usize) -> [u8; 4] {
+        // Inverse sample about the feet; sub-cell movement stays on the same
+        // caller clock and does not resize the surrounding terminal layout.
+        let t = self.transform;
+        let x = (x as f64 - self.width as f64 / 2.) / t.scale_x + self.width as f64 / 2.;
+        let y = (y as f64 - self.height as f64 - t.lift / 124. * self.height as f64) / t.scale_y
+            + self.height as f64;
+        if x < 0. || y < 0. || x >= self.width as f64 || y >= self.height as f64 {
+            return [0; 4];
+        }
+        let (x, y) = (x as usize, y as usize);
         let offset = ((self.frame * self.height + y) * self.width + x) * 4;
         self.pixels[offset..offset + 4]
             .try_into()
@@ -178,5 +203,40 @@ impl Paint for Sprite<'_> {
                 }
             }
         }
+    }
+}
+
+/// The original whale in the same avatar carrier. Uses the existing rig,
+/// terminal ink/capability handling and caller-owned Director.
+pub struct Contour<'a> {
+    pub director: &'a crate::whale_motion::Director,
+    pub view: Option<&'a str>,
+}
+impl Paint for Contour<'_> {
+    fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
+        use crate::whale_motion::{View, rasterize_colored, rig, scene};
+        let area = area.intersection(buf.area);
+        let cols = usize::from(area.width.min(64));
+        let rows = usize::from(area.height.saturating_sub(1).min(32));
+        let mut view = View::hero((cols * 2).min(rows * 4) as f64, 1.);
+        view.dir = match self.view {
+            Some("cruise") => rig::CRUISE_DIRECTION,
+            Some("open") => rig::OPEN_DIRECTION,
+            _ => rig::MARK_DIRECTION,
+        };
+        let parts = scene(self.director, view);
+        rasterize_colored(
+            &parts,
+            cols,
+            rows,
+            0.5,
+            theme.caps().appearance != crate::detect::Appearance::Light,
+        )
+        .paint(
+            &crate::Whale::new(crate::WhaleState::Rest).words(""),
+            area,
+            buf,
+            theme,
+        );
     }
 }

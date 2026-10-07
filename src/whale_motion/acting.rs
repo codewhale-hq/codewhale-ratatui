@@ -294,6 +294,30 @@ impl Director {
         director
     }
 
+    /// A decorative action preview. The host advances it with the live clock;
+    /// it never enters the owner's presence, activity or event history.
+    pub fn for_preview(act: Act, reduced: bool) -> Self {
+        let mut preview = Self::new(Options {
+            reduced,
+            ambient: false,
+            ..Options::default()
+        });
+        preview.go(act, act == Act::Done, true);
+        if act == Act::Pod {
+            for calf in &mut preview.calves {
+                calf.target = 1.;
+                if reduced {
+                    calf.value = 1.;
+                }
+            }
+        }
+        preview
+    }
+
+    pub fn acting_frame(&self) -> f64 {
+        (self.f - self.changed_at).max(0.)
+    }
+
     pub fn target_for(&self, act: Act) -> Pose {
         let mut pose = tables().defaults;
         for (param, value) in &tables().act(act).base {

@@ -6,8 +6,8 @@ Director's existing 30Hz frame value into `pack.sample(...)`; the returned
 index selects a frame, with reduced motion always using the authored poster.
 There is no plugin loader, activity classifier or extra clock in the renderer.
 
-`whale_girl` includes 36 frames: two for each of the 17 existing states and a
-side/back view. The hair remains continuous into two flukes at each lock's tip.
+`whale_girl` includes 64 active, cel-shaded chibi poses: all 17 existing states,
+front/side/back views and a custom wave action. The hair remains continuous into two flukes at each lock's tip.
 Native PNG pages retain detailed art; `whale_girl::TERMINAL` is a predecoded
 96px derivative for terminal cells.
 The Rust package includes the portable player, manifest and terminal frames.
@@ -58,3 +58,29 @@ it to the live owner/scope and withdraws it on disable/revoke/failure. Ratatui
 only receives reviewed presentation data. In the Engine TUI use `/pet avatar`,
 `/pet avatar whale-girl`, `/pet action read`, `/pet view back`, and
 `/pet action live`. Selection and preview are session-local in the TUI.
+
+## Start from one sheet
+
+```sh
+cargo run --example create_avatar -- --sheet art.png --out my-avatar \
+  --id my-avatar --name 'My avatar' --columns 2 --rows 2 --actions rest,wave
+cargo run --example avatar -- --pack my-avatar/avatars/avatar.json
+```
+
+Rows name actions, columns hold frames. The new directory contains a Native
+plugin manifest, a Cordis `ctx.avatars.registerPack` entry, art and bindings.
+All 17 activity states get a valid fallback. Review/install uses the existing
+Native plugin workflow; preview does not grant authority. The generator
+requires a new output directory and never overwrites existing work.
+
+Both built-ins share the preview carrier: `--character whale` selects the
+original contour whale; Tab changes character interactively. Custom pack
+clips appear alongside the built-in activity choices.
+
+Clips may opt into `motion`: `breathe`, `work`, `hop`, or `sleep` (`none` is
+the default). These bounded presets sample the existing clock and deform the
+sprite about its feet. Reduced motion and named views use an identity
+transform. Terminal precision depends on the cell grid. The optional
+`compact` rectangle declares face framing for small native/browser carriers.
+Older hosts without these fields reject them; update the shared contract in
+all consumers together.
