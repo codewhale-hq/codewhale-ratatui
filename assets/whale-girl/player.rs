@@ -62,9 +62,12 @@ mod tests {
             );
             for index in &clip.frames {
                 let pixels = tile(*index);
-                assert!(pixels.chunks_exact(4).any(|p| p[3] > 200), "{act} paints");
                 assert!(
-                    pixels.chunks_exact(4).any(|p| p[3] == 0),
+                    pixels.as_chunks::<4>().0.iter().any(|p| p[3] > 200),
+                    "{act} paints"
+                );
+                assert!(
+                    pixels.as_chunks::<4>().0.iter().any(|p| p[3] == 0),
                     "{act} is transparent"
                 );
             }

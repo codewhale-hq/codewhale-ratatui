@@ -66,11 +66,19 @@ impl Studio {
         }
     }
     fn avatar(&self) -> Option<codewhale_ratatui::avatar_sprite::Sprite<'static>> {
-        if !self.girl { return None; }
+        if !self.girl {
+            return None;
+        }
         let d = self.stage.director();
         let f = codewhale_ratatui::whale_girl::sample(d.acting.id(), d.f, d.reduced, None, None);
-        codewhale_ratatui::avatar_sprite::Sprite::new(codewhale_ratatui::whale_girl::pack(),
-            codewhale_ratatui::whale_girl::TERMINAL, 96,96,f.index).ok()
+        codewhale_ratatui::avatar_sprite::Sprite::new(
+            codewhale_ratatui::whale_girl::pack(),
+            codewhale_ratatui::whale_girl::TERMINAL,
+            96,
+            96,
+            f.index,
+        )
+        .ok()
     }
     fn elapsed(&self, now: Instant) -> Duration {
         now.saturating_duration_since(self.started)
@@ -231,7 +239,10 @@ impl Studio {
                 cycle_palette(&mut self.view, key.modifiers.contains(KeyModifiers::SHIFT));
                 return false;
             }
-            KeyCode::F(11) => { self.girl = !self.girl; return false; }
+            KeyCode::F(11) => {
+                self.girl = !self.girl;
+                return false;
+            }
             KeyCode::F(10) => {
                 self.view.editing = false;
                 self.advance_phase(elapsed);
@@ -703,7 +714,8 @@ fn main() -> io::Result<()> {
                 None
             };
             if let Some(sprite) = studio.avatar() {
-                view.avatar(sprite).paint(frame.area(), frame.buffer_mut(), &theme);
+                view.avatar(sprite)
+                    .paint(frame.area(), frame.buffer_mut(), &theme);
             } else if let Some(actor) = &actor {
                 view.whale(actor)
                     .paint(frame.area(), frame.buffer_mut(), &theme);

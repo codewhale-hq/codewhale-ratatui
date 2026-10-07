@@ -222,6 +222,12 @@ pub struct RegisteredPack {
     pub pack: Pack,
 }
 
+impl RegisteredPack {
+    pub fn image_key(&self, page: usize) -> String {
+        format!("{}:{}:{}:{page}", self.key, self.content_hash, self.handle)
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -295,11 +301,5 @@ mod tests {
         header[20..24].copy_from_slice(&4096u32.to_be_bytes());
         assert!(p.validate_png(&header).is_err());
         assert!(p.validate_png(&[]).is_err());
-    }
-}
-
-impl RegisteredPack {
-    pub fn image_key(&self, page: usize) -> String {
-        format!("{}:{}:{}:{page}", self.key, self.content_hash, self.handle)
     }
 }

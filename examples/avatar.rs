@@ -20,7 +20,9 @@ use std::{
     time::{Duration, Instant},
 };
 
-fn load(path: &Path) -> Result<(Pack, Vec<u8>, usize, usize), Box<dyn std::error::Error>> {
+type LoadedAvatar = (Pack, Vec<u8>, usize, usize);
+
+fn load(path: &Path) -> Result<LoadedAvatar, Box<dyn std::error::Error>> {
     use std::io::Read;
     let mut bytes = Vec::new();
     std::fs::File::open(path)?
@@ -195,27 +197,26 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             Duration::from_secs(60)
         } else {
             Duration::from_millis(100)
-        })? {
-            if let Event::Key(key) = event::read()? {
-                if key.kind == KeyEventKind::Release {
-                    continue;
-                }
-                match key.code {
-                    KeyCode::Esc | KeyCode::Char('q') => break,
-                    KeyCode::Left => index = (index + actions.len() - 1) % actions.len(),
-                    KeyCode::Right => index = (index + 1) % actions.len(),
-                    KeyCode::Char(' ') => reduced = !reduced,
-                    KeyCode::Char('v') => {
-                        let current = views
-                            .iter()
-                            .position(|v| *v == actions[index])
-                            .map_or(0, |i| (i + 1) % views.len().max(1));
-                        if let Some(action) = views.get(current) {
-                            index = actions.iter().position(|a| a == action).unwrap_or(index);
-                        }
+        })? && let Event::Key(key) = event::read()?
+        {
+            if key.kind == KeyEventKind::Release {
+                continue;
+            }
+            match key.code {
+                KeyCode::Esc | KeyCode::Char('q') => break,
+                KeyCode::Left => index = (index + actions.len() - 1) % actions.len(),
+                KeyCode::Right => index = (index + 1) % actions.len(),
+                KeyCode::Char(' ') => reduced = !reduced,
+                KeyCode::Char('v') => {
+                    let current = views
+                        .iter()
+                        .position(|v| *v == actions[index])
+                        .map_or(0, |i| (i + 1) % views.len().max(1));
+                    if let Some(action) = views.get(current) {
+                        index = actions.iter().position(|a| a == action).unwrap_or(index);
                     }
-                    _ => {}
                 }
+                _ => {}
             }
         }
     }

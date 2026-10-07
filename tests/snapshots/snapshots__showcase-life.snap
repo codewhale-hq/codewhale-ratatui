@@ -5,7 +5,7 @@ expression: dump(&entry)
 == dark-truecolor
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -45,8 +45,8 @@ Space pause / Left, Right action / F8 motion
 r0 c0..36 fg=Foreground bg=Hover bold
 r0 c36..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..60 fg=Primary bg=#102843
-r2 c60..112 fg=Foreground bg=#102843
+r2 c0..58 fg=Primary bg=#102843
+r2 c58..112 fg=Foreground bg=#102843
 r3 c0..112 fg=Foreground bg=#102842
 r4 c0..112 fg=Foreground bg=#0e2842
 r5 c0..112 fg=Foreground bg=#0e2741
@@ -263,7 +263,7 @@ r37 c44..112 fg=Foreground bg=#071522
 == dark-graphite
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -303,8 +303,8 @@ Space pause / Left, Right action / F8 motion
 r0 c0..36 fg=Foreground bg=Hover bold
 r0 c36..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..60 fg=Primary bg=#102843
-r2 c60..112 fg=Foreground bg=#102843
+r2 c0..58 fg=Primary bg=#102843
+r2 c58..112 fg=Foreground bg=#102843
 r3 c0..112 fg=Foreground bg=#102842
 r4 c0..112 fg=Foreground bg=#0e2842
 r5 c0..112 fg=Foreground bg=#0e2741
@@ -521,7 +521,7 @@ r37 c44..112 fg=Foreground bg=#071522
 == light-truecolor
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -561,8 +561,8 @@ Space pause / Left, Right action / F8 motion
 r0 c0..36 fg=Foreground bold
 r0 c36..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..60 fg=Primary
-r2 c60..112 fg=Foreground
+r2 c0..58 fg=Primary
+r2 c58..112 fg=Foreground
 r3 c0..112 fg=Foreground
 r4 c0..112 fg=Foreground
 r5 c0..112 fg=Foreground
@@ -803,7 +803,7 @@ r37 c44..112 fg=Foreground
 == dark-256
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -843,8 +843,8 @@ Space pause / Left, Right action / F8 motion
 r0 c0..36 fg=Foreground bg=Background|DiffAddedTint bold
 r0 c36..112 fg=Foreground bg=Background|DiffAddedTint
 r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
-r2 c0..60 fg=Primary bg=Background|DiffAddedTint
-r2 c60..112 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..58 fg=Primary bg=Background|DiffAddedTint
+r2 c58..112 fg=Foreground bg=Background|DiffAddedTint
 r3 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r4 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r5 c0..112 fg=Foreground bg=Background|DiffAddedTint
@@ -962,7 +962,7 @@ r37 c44..112 fg=Foreground bg=Background|DiffAddedTint
 == light-256
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -1002,8 +1002,8 @@ Space pause / Left, Right action / F8 motion
 r0 c0..36 fg=Foreground bold
 r0 c36..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..60 fg=Primary
-r2 c60..112 fg=Foreground
+r2 c0..58 fg=Primary
+r2 c58..112 fg=Foreground
 r3 c0..112 fg=Foreground
 r4 c0..112 fg=Foreground
 r5 c0..112 fg=Foreground
@@ -1116,7 +1116,7 @@ r37 c44..112 fg=Foreground
 == ansi-16
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -1154,7 +1154,7 @@ Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭�
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
-r2 c0..60 fg=Primary
+r2 c0..58 fg=Primary
 r7 c70..71 fg=Primary
 r8 c50..59 fg=Primary
 r8 c64..71 fg=Primary
@@ -1195,7 +1195,7 @@ r37 c0..44 dim
 == unknown-ground
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -1233,7 +1233,7 @@ Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭�
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
-r2 c0..60 fg=Primary
+r2 c0..58 fg=Primary
 r7 c70..71 fg=Primary
 r8 c50..59 fg=Primary
 r8 c64..71 fg=Primary
@@ -1274,7 +1274,7 @@ r37 c0..44 dim
 == no-color
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
@@ -1330,7 +1330,7 @@ r37 c0..44 dim
 == ascii
 One whale. Seventeen native actions.
 
-Action study / Browsing / 9 of 17 / Left, Right / Space play
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
 
