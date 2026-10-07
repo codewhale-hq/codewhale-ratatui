@@ -1,0 +1,249 @@
+---
+source: tests/grid_sprite.rs
+expression: snapshot(sprite)
+---
+== dark-truecolor · 26x11
+     ▄▄▄▀█████    ▄▀▀▀▀▀▀▄
+   ▄▀██████▄▄▄▄▄  ██▀█▀▀██
+ ▄▀███▀    ▀▀████▀████▀███
+ ████              ██▀▀▀▀
+████               ▄▄▄▄▄
+████      ▄▄▄▄████████▀▀
+█████▄▄▄▄████▀▀███▀▀████
+ ████████████▀▀█▀██▀▀██
+  ▀███████████▀█▀▀▀█▀▀
+    ▀███████▀██▀█▀▀▀
+       ▀▀██▀▀▀█▀▀
+---
+r0 c0..5 bg=Background
+r0 c5..8 fg=#b1ccf8 bg=Background
+r0 c8..9 fg=#b1ccf8 bg=Primary
+r0 c9..14 fg=Primary bg=Background
+r0 c14..18 bg=Background
+r0 c18..19 fg=Foreground bg=Background
+r0 c19..21 fg=Foreground bg=Surface
+r0 c21..23 fg=Foreground bg=Attention
+r0 c23..25 fg=Foreground bg=Surface
+r0 c25..26 fg=Foreground bg=Background
+r1 c0..3 bg=Background
+r1 c3..4 fg=#b1ccf8 bg=Background
+r1 c4..5 fg=#b1ccf8 bg=Primary
+r1 c5..16 fg=Primary bg=Background
+r1 c16..18 bg=Background
+r1 c18..19 fg=Foreground bg=Background
+r1 c19..20 fg=Surface bg=Background
+r1 c20..21 fg=Attention bg=Surface
+r1 c21..22 fg=Surface bg=Background
+r1 c22..23 fg=Surface bg=Attention
+r1 c23..24 fg=Attention bg=Surface
+r1 c24..25 fg=Surface bg=Background
+r1 c25..26 fg=Foreground bg=Background
+r2 c0..1 bg=Background
+r2 c1..2 fg=#b1ccf8 bg=Background
+r2 c2..3 fg=#b1ccf8 bg=Primary
+r2 c3..7 fg=Primary bg=Background
+r2 c7..11 bg=Background
+r2 c11..18 fg=Primary bg=Background
+r2 c18..19 fg=Foreground bg=Background
+r2 c19..22 fg=Surface bg=Background
+r2 c22..23 fg=Surface bg=Attention
+r2 c23..25 fg=Surface bg=Background
+r2 c25..26 fg=Foreground bg=Background
+r3 c0..1 bg=Background
+r3 c1..2 fg=#b1ccf8 bg=Background
+r3 c2..5 fg=Primary bg=Background
+r3 c5..19 bg=Background
+r3 c19..25 fg=Foreground bg=Background
+r3 c25..26 bg=Background
+r4 c0..1 fg=#b1ccf8 bg=Background
+r4 c1..4 fg=Primary bg=Background
+r4 c4..19 bg=Background
+r4 c19..24 fg=Primary bg=Background
+r4 c24..26 bg=Background
+r5 c0..1 fg=#b1ccf8 bg=Background
+r5 c1..4 fg=Primary bg=Background
+r5 c4..10 bg=Background
+r5 c10..22 fg=Primary bg=Background
+r5 c22..23 fg=Primary bg=Foreground
+r5 c23..24 fg=Primary bg=#5979b1
+r5 c24..26 bg=Background
+r6 c0..1 fg=#b1ccf8 bg=Background
+r6 c1..13 fg=Primary bg=Background
+r6 c13..14 fg=Primary bg=Foreground
+r6 c14..15 fg=Primary bg=Sidebar
+r6 c15..18 fg=Primary bg=Background
+r6 c18..20 fg=Primary bg=Foreground
+r6 c20..23 fg=Foreground bg=Background
+r6 c23..24 fg=#5979b1 bg=Background
+r6 c24..26 bg=Background
+r7 c0..1 bg=Background
+r7 c1..13 fg=Primary bg=Background
+r7 c13..15 fg=Sidebar bg=Primary
+r7 c15..16 fg=Primary bg=Background
+r7 c16..17 fg=Primary bg=Foreground
+r7 c17..19 fg=Foreground bg=Background
+r7 c19..20 fg=Foreground bg=#d3def1
+r7 c20..21 fg=#d3def1 bg=Foreground
+r7 c21..22 fg=Foreground bg=Background
+r7 c22..23 fg=#5979b1 bg=Background
+r7 c23..26 bg=Background
+r8 c0..2 bg=Background
+r8 c2..14 fg=Primary bg=Background
+r8 c14..15 fg=Primary bg=Foreground
+r8 c15..16 fg=Foreground bg=Background
+r8 c16..18 fg=Foreground bg=#d3def1
+r8 c18..19 fg=#d3def1 bg=Foreground
+r8 c19..20 fg=Foreground bg=Background
+r8 c20..21 fg=Foreground bg=#5979b1
+r8 c21..22 fg=#5979b1 bg=Background
+r8 c22..26 bg=Background
+r9 c0..4 bg=Background
+r9 c4..12 fg=Primary bg=Background
+r9 c12..13 fg=Primary bg=Foreground
+r9 c13..15 fg=Foreground bg=Background
+r9 c15..16 fg=#d3def1 bg=Foreground
+r9 c16..17 fg=Foreground bg=Background
+r9 c17..19 fg=Foreground bg=#5979b1
+r9 c19..20 fg=#5979b1 bg=Background
+r9 c20..26 bg=Background
+r10 c0..7 bg=Background
+r10 c7..11 fg=#5979b1 bg=Background
+r10 c11..14 fg=Foreground bg=#5979b1
+r10 c14..17 fg=#5979b1 bg=Background
+r10 c17..26 bg=Background
+
+== light-truecolor · 26x11
+     ▄▄▄▀█████    ▄▀▀▀▀▀▀▄
+   ▄▀██████▄▄▄▄▄  ██▀█▀▀██
+ ▄▀███▀    ▀▀████▀████▀███
+ ████              ██▀▀▀▀
+████               ▄▄▄▄▄
+████      ▄▄▄▄████████▀▀
+█████▄▄▄▄████▀▀███▀▀████
+ ████████████▀▀█▀██▀▀██
+  ▀███████████▀█▀▀▀█▀▀
+    ▀███████▀██▀█▀▀▀
+       ▀▀██▀▀▀█▀▀
+---
+r0 c0..5 bg=Background
+r0 c5..8 fg=#7194db bg=Background
+r0 c8..9 fg=#7194db bg=Primary
+r0 c9..14 fg=Primary bg=Background
+r0 c14..18 bg=Background
+r0 c18..19 fg=Foreground bg=Background
+r0 c19..21 fg=Foreground bg=Surface
+r0 c21..23 fg=Foreground bg=Attention
+r0 c23..25 fg=Foreground bg=Surface
+r0 c25..26 fg=Foreground bg=Background
+r1 c0..3 bg=Background
+r1 c3..4 fg=#7194db bg=Background
+r1 c4..5 fg=#7194db bg=Primary
+r1 c5..16 fg=Primary bg=Background
+r1 c16..18 bg=Background
+r1 c18..19 fg=Foreground bg=Background
+r1 c19..20 fg=Surface bg=Background
+r1 c20..21 fg=Attention bg=Surface
+r1 c21..22 fg=Surface bg=Background
+r1 c22..23 fg=Surface bg=Attention
+r1 c23..24 fg=Attention bg=Surface
+r1 c24..25 fg=Surface bg=Background
+r1 c25..26 fg=Foreground bg=Background
+r2 c0..1 bg=Background
+r2 c1..2 fg=#7194db bg=Background
+r2 c2..3 fg=#7194db bg=Primary
+r2 c3..7 fg=Primary bg=Background
+r2 c7..11 bg=Background
+r2 c11..18 fg=Primary bg=Background
+r2 c18..19 fg=Foreground bg=Background
+r2 c19..22 fg=Surface bg=Background
+r2 c22..23 fg=Surface bg=Attention
+r2 c23..25 fg=Surface bg=Background
+r2 c25..26 fg=Foreground bg=Background
+r3 c0..1 bg=Background
+r3 c1..2 fg=#7194db bg=Background
+r3 c2..5 fg=Primary bg=Background
+r3 c5..19 bg=Background
+r3 c19..25 fg=Foreground bg=Background
+r3 c25..26 bg=Background
+r4 c0..1 fg=#7194db bg=Background
+r4 c1..4 fg=Primary bg=Background
+r4 c4..19 bg=Background
+r4 c19..24 fg=Primary bg=Background
+r4 c24..26 bg=Background
+r5 c0..1 fg=#7194db bg=Background
+r5 c1..4 fg=Primary bg=Background
+r5 c4..10 bg=Background
+r5 c10..22 fg=Primary bg=Background
+r5 c22..23 fg=Primary bg=Surface
+r5 c23..24 fg=Primary bg=#264789
+r5 c24..26 bg=Background
+r6 c0..1 fg=#7194db bg=Background
+r6 c1..13 fg=Primary bg=Background
+r6 c13..14 fg=Primary bg=Surface
+r6 c14..15 fg=Primary bg=Foreground
+r6 c15..18 fg=Primary bg=Background
+r6 c18..20 fg=Primary bg=Surface
+r6 c20..23 fg=Surface bg=Background
+r6 c23..24 fg=#264789 bg=Background
+r6 c24..26 bg=Background
+r7 c0..1 bg=Background
+r7 c1..13 fg=Primary bg=Background
+r7 c13..15 fg=Foreground bg=Primary
+r7 c15..16 fg=Primary bg=Background
+r7 c16..17 fg=Primary bg=Surface
+r7 c17..19 fg=Surface bg=Background
+r7 c19..20 fg=Surface bg=#bdceee
+r7 c20..21 fg=#bdceee bg=Surface
+r7 c21..22 fg=Surface bg=Background
+r7 c22..23 fg=#264789 bg=Background
+r7 c23..26 bg=Background
+r8 c0..2 bg=Background
+r8 c2..14 fg=Primary bg=Background
+r8 c14..15 fg=Primary bg=Surface
+r8 c15..16 fg=Surface bg=Background
+r8 c16..18 fg=Surface bg=#bdceee
+r8 c18..19 fg=#bdceee bg=Surface
+r8 c19..20 fg=Surface bg=Background
+r8 c20..21 fg=Surface bg=#264789
+r8 c21..22 fg=#264789 bg=Background
+r8 c22..26 bg=Background
+r9 c0..4 bg=Background
+r9 c4..12 fg=Primary bg=Background
+r9 c12..13 fg=Primary bg=Surface
+r9 c13..15 fg=Surface bg=Background
+r9 c15..16 fg=#bdceee bg=Surface
+r9 c16..17 fg=Surface bg=Background
+r9 c17..19 fg=Surface bg=#264789
+r9 c19..20 fg=#264789 bg=Background
+r9 c20..26 bg=Background
+r10 c0..7 bg=Background
+r10 c7..11 fg=#264789 bg=Background
+r10 c11..14 fg=Surface bg=#264789
+r10 c14..17 fg=#264789 bg=Background
+r10 c17..26 bg=Background
+
+== no-color · 26x11
+     ▄▄▄██████    ▄▀▀██▀▀▄
+   ▄███████▄▄▄▄▄  █ ▀ ▄▀ █
+ ▄████▀    ▀▀████▀█   ▄  █
+ ████              ██▀▀▀▀
+████               ▄▄▄▄▄
+████      ▄▄▄▄████████▀█
+█████▄▄▄▄████▀▀███▀▀   █
+ ████████████▄▄█▀     █
+  ▀███████████▀     ▄▀
+    ▀███████▀    ▄▄▀
+       ▀▀██▄▄▄█▀▀
+
+== ascii · 26x11
+     ___######    _""##""_
+   _#######_____  # " _" #
+ _####"    ""####"#   _  #
+ ####              ##""""
+####               _____
+####      ____########"#
+#####____####""###""   #
+ ############__#"     #
+  "###########"     _"
+    "#######"    __"
+       ""##___#""

@@ -154,3 +154,75 @@ geometry and offset fitting with Engine's body viewport. `WorkbarScrollbar`
 shares its rail math and paint. Native row composition, detail/focus gutters
 and caller action/tooltip projection remain Engine-owned; this does not yet
 claim full row-composer replacement by `Workbar`.
+
+## Pixel sprites
+
+`GridSprite` paints Codewhale's hand-written pixel characters with half
+blocks: one column per cell, two cells per row. It is separate from the painted
+avatar packs and from `Whale`; it replaces neither.
+
+Source: `assets/sprites/whale.grid` (v3) and `assets/sprites/whale-girl.grid`
+(v2) are byte copies of the design source,
+`pixel-system/sprites/` in the 2026-10-07 design study. `tests/grid_sprite.rs`
+pins each file's SHA-256, so a local edit or a stale copy fails. To take a new
+drawing, copy the file again and update its hash. The grammar is recorded at
+the top of `whale.grid`.
+
+| Body | Size | Poses |
+|---|---|---|
+| Whale `mark` | 16 columns by 7 rows | `rest` |
+| Whale `favicon` | 16 by 8 | `rest` |
+| Whale `companion` | 26 by 11 | `rest`, `think`, `read`, `write`, `run`, `needs-you`, `done`, `sleep` |
+| Whale `hero` | 42 by 19 | `rest`, `done`, `sleep` |
+| Whale girl `small` | 16 by 11 | the same eight |
+| Whale girl `hero` | 39 by 26 | the same eight |
+
+```rust
+use codewhale_ratatui::{GridSprite, Paint};
+if let Some(whale) = GridSprite::whale("companion", "done") {
+    whale.paint(area, buf, &theme);
+}
+```
+
+`GridSheet::parse` reads any grid in the grammar into `GridPose`s: a stage of
+cells, each empty or a `GridInk` (a `GridToken` and its `fill`/`open` level).
+It rejects what the design's reference parser rejects, and also a name
+defined twice and a canvas over 256 cells a side. `GridSheet::whale()` and
+`GridSheet::whale_girl()` parse the shipped files once.
+
+- **Still.** Nothing animates and the widget holds no clock. A layer written
+  as frames (`bubbles.0`, `bubbles.1`, `bubbles.2`) paints its last frame,
+  which the grammar defines as the still.
+- **Whole or absent.** Pixel art is never resampled or cropped. A pose is
+  centred in its area, and is not painted when the area is smaller than
+  `columns()` by `rows()`; `fits(area)` lets the host give that room to text.
+  A placement that crosses the buffer's edge is clipped safely.
+- **Decoration.** A sprite writes no words. Put the heading or status text
+  beside it; that text carries the meaning, and a sprite is never the only
+  carrier of a state. A host with a plain or screen-reader mode leaves the
+  sprite out. `examples/grid_sprite.rs` labels every pose with its name.
+- **Colors come from the theme.** No sprite color is stored. Each token
+  resolves at paint time, so the native palettes and both grounds work
+  without a second table:
+
+| Token | Resolves to | Note |
+|---|---|---|
+| `whale` | `Primary` | Blue means the whale is present. |
+| `text`, `panel`, `warn` | `Foreground`, `Surface`, `Attention` | Exact roles. |
+| `cream`, `line` | the theme's lightest and darkest of body ink and grounds | Measured by luminance, so a light and a dark theme both keep a pale belly and a dark eye. |
+| `whale-lite`, `whale-deep`, `whale-pleat` | `Primary` mixed 35% to lightest, 40% to darkest; lightest mixed 30% to `Primary` | No role matches; a fixed mix of two roles. |
+| `girl-hair`, `girl-cloth`, `girl-pale` | `Primary` mixed 55% to darkest; darkest mixed 30% to `Primary`; lightest mixed 40% to `Primary` | As above. |
+| `girl-skin`, `girl-blush`, `girl-gold` | lightest mixed 14% and 45% to `Danger`; `Attention` mixed 20% to lightest | As above. These three are the least faithful to the study's proposed values. |
+
+- **Fallbacks.** Truecolor on a measured ground paints exact RGB; 256 colors
+  use the role tables and the xterm cube for the mixes. `NO_COLOR`, 16 colors
+  and an unmeasured ground paint the grid's documented one-ink map in
+  `Primary`: `fill` inks print, `open` inks (cream, skin, paper, the whale's
+  eye) and empty cells do not. ASCII-safe output uses `"`, `_` and `#` for
+  the upper half, lower half and full cell. A role a native palette leaves to
+  the terminal is not painted.
+
+Run `cargo run --example grid_sprite` for every pose on every theme, or add
+`--text` for plain glyphs. The sprites have no gallery entry yet, so the
+generated README boards do not show them. No host has adopted them: the
+Engine's pet and avatar surfaces are unchanged.

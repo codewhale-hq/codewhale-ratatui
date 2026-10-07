@@ -15,6 +15,7 @@ include = [
     "/assets/whale-v2.scenes",
     "/assets/whale-motion/**",
     "/assets/avatar-pack/**",
+    "/assets/sprites/**",
     "/assets/whale-girl/avatar.json",
     "/assets/whale-girl/player.rs",
     "/assets/whale-girl/terminal.rgba",

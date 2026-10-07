@@ -41,6 +41,7 @@ pub mod avatar;
 pub mod avatar_sprite;
 mod components;
 pub mod gallery;
+pub mod grid_sprite;
 pub mod testing;
 pub mod whale;
 #[path = "../assets/whale-girl/player.rs"]
@@ -51,6 +52,7 @@ pub mod whale_motion;
 // a package that makes an item `pub` in its own file exports it from here
 // without touching this file.
 pub use components::*;
+pub use grid_sprite::{GridInk, GridPose, GridSheet, GridSprite, GridToken};
 pub use ocean::{OceanColumn, OceanPhase, OceanRamp};
 pub use ombre::{Ombre, OmbreDirection, WaterPalette};
 pub use theme::{Caps, Ground, Role, Theme};

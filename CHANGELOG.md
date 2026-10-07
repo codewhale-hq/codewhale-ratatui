@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Add `GridSprite`: Codewhale's hand-written pixel whale and whale girl,
+  parsed from `assets/sprites/*.grid` and painted still with half blocks in
+  theme inks, with the grids' fill/open map for limited-color terminals.
 - Simplify the native showcase: concise conversation, sparse ambient life,
   muted metrics and optional workflow progress, with the original workbar
   given room for its rows.
