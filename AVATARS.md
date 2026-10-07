@@ -10,6 +10,9 @@ There is no plugin loader, activity classifier or extra clock in the renderer.
 side/back view. The hair remains continuous into two flukes at each lock's tip.
 Native PNG pages retain detailed art; `whale_girl::TERMINAL` is a predecoded
 96px derivative for terminal cells.
+The Rust package includes the portable player, manifest and terminal frames.
+Full-resolution PNG pages remain in the repository and native app; the terminal
+renderer does not use them. Custom local packs still load their own PNG pages.
 
 `avatar_sprite::Sprite::new` paints an entire sequence of row-major RGBA tiles;
 `Sprite::page` paints a single page using a global frame index. Constructors

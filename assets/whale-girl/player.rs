@@ -2,17 +2,6 @@
 //! No separate action vocabulary or animation clock lives here.
 use crate::avatar::{Frame, Pack};
 use std::sync::OnceLock;
-pub const ATLASES: &[&[u8]] = &[
-    include_bytes!("page-00.png"),
-    include_bytes!("page-01.png"),
-    include_bytes!("page-02.png"),
-    include_bytes!("page-03.png"),
-    include_bytes!("page-04.png"),
-    include_bytes!("page-05.png"),
-    include_bytes!("page-06.png"),
-    include_bytes!("page-07.png"),
-    include_bytes!("page-08.png"),
-];
 pub const TERMINAL: &[u8] = include_bytes!("terminal.rgba");
 pub const TILE: usize = 96;
 pub const FRAMES: usize = 36;
@@ -44,10 +33,6 @@ mod tests {
     use super::*;
     #[test]
     fn girl_has_distinct_frames_for_all_native_actions_and_authored_views() {
-        assert_eq!(pack().atlases.len(), ATLASES.len());
-        for page in ATLASES {
-            pack().validate_png(page).unwrap();
-        }
         assert_eq!(TERMINAL.len(), FRAMES * TILE * TILE * 4);
         for act in crate::avatar::ACTS {
             let clip = &pack().actions[&pack().states[act]];
