@@ -455,6 +455,8 @@ pub struct ShowcaseFrame<'a> {
     pub elapsed: Duration,
     pub whale: Option<&'a ColoredGrid>,
     pub avatar: Option<crate::avatar_sprite::Sprite<'a>>,
+    /// The avatar character's name for the title, when one is shown.
+    pub avatar_name: &'a str,
 }
 impl<'a> ShowcaseFrame<'a> {
     pub const fn new(state: &'a ShowcaseState, elapsed: Duration) -> Self {
@@ -463,7 +465,12 @@ impl<'a> ShowcaseFrame<'a> {
             elapsed,
             whale: None,
             avatar: None,
+            avatar_name: "Whale girl",
         }
+    }
+    pub const fn avatar_name(mut self, name: &'a str) -> Self {
+        self.avatar_name = name;
+        self
     }
     pub const fn avatar(mut self, sprite: crate::avatar_sprite::Sprite<'a>) -> Self {
         self.avatar = Some(sprite);
@@ -1099,10 +1106,10 @@ impl ShowcaseFrame<'_> {
             band(area, 0, 1),
             buf,
             theme,
-            if self.avatar.is_some() {
-                "Whale girl. Seventeen native actions."
+            &if self.avatar.is_some() {
+                format!("{}. Seventeen native actions.", self.avatar_name)
             } else {
-                "One whale. Seventeen native actions."
+                "One whale. Seventeen native actions.".into()
             },
         );
         caption(

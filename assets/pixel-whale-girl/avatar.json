@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "pixel-whale-girl",
+  "name": "Pixel whale girl",
+  "atlases": [
+    "page-00.png"
+  ],
+  "columns": 3,
+  "rows": 8,
+  "tileWidth": 224,
+  "tileHeight": 224,
+  "actions": {
+    "rest": {
+      "frames": [
+        2
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 2,
+      "repeat": true
+    },
+    "think": {
+      "frames": [
+        3,
+        4,
+        5
+      ],
+      "durationsMs": [
+        500,
+        500,
+        900
+      ],
+      "poster": 5,
+      "repeat": true
+    },
+    "read": {
+      "frames": [
+        8
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 8,
+      "repeat": true
+    },
+    "write": {
+      "frames": [
+        11
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 11,
+      "repeat": true
+    },
+    "run": {
+      "frames": [
+        14
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 14,
+      "repeat": true
+    },
+    "needs": {
+      "frames": [
+        17
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 17,
+      "repeat": true
+    },
+    "done": {
+      "frames": [
+        18,
+        19,
+        20
+      ],
+      "durationsMs": [
+        220,
+        220,
+        2400
+      ],
+      "poster": 20,
+      "repeat": false
+    },
+    "sleep": {
+      "frames": [
+        23
+      ],
+      "durationsMs": [
+        4000
+      ],
+      "poster": 23,
+      "repeat": true
+    }
+  },
+  "states": {
+    "rest": "rest",
+    "listen": "rest",
+    "think": "think",
+    "busy": "run",
+    "read": "read",
+    "search": "read",
+    "write": "write",
+    "run": "run",
+    "browse": "read",
+    "talk": "think",
+    "pod": "rest",
+    "needs": "needs",
+    "done": "done",
+    "hmm": "think",
+    "computer": "run",
+    "connect": "think",
+    "sleep": "sleep"
+  },
+  "views": {
+    "front": "rest"
+  },
+  "compact": {
+    "x": 40,
+    "y": 40,
+    "width": 144,
+    "height": 144
+  }
+}

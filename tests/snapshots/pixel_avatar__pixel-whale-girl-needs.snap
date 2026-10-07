@@ -1,0 +1,465 @@
+---
+source: tests/pixel_avatar.rs
+expression: "dump(\"pixel-whale-girl\", \"needs\")"
+---
+== dark-truecolor
+          ▄▄▀▀▀▀▀▄▄              ▄▀▀▀▄
+        ▄▀▀▀▀▀▀▀▀▀▀▀▄           ▀▀▀▀▀▀▀
+       ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄          ▄▀▀▀▀
+        ▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▀▄▄       ▄▀▀▄
+          ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄  ▄▀▀▀▀
+        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+  ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀
+---
+r0 c10..12 fg=#070e1a
+r0 c12..17 fg=#070e1a bg=#3f61b0
+r0 c17..19 fg=#070e1a
+r0 c33..34 fg=#070e1a
+r0 c34..37 fg=#070e1a bg=#f0c36b
+r0 c37..38 fg=#070e1a
+r1 c8..9 fg=#070e1a
+r1 c9..10 fg=#070e1a bg=#3f61b0
+r1 c10..12 fg=#3f61b0 bg=#3f61b0
+r1 c12..17 fg=#4f8fe8 bg=#3f61b0
+r1 c17..19 fg=#3f61b0 bg=#3f61b0
+r1 c19..20 fg=#070e1a bg=#3f61b0
+r1 c20..21 fg=#070e1a
+r1 c32..33 fg=#070e1a
+r1 c33..35 fg=#f0c36b bg=#070e1a
+r1 c35..36 fg=#070e1a bg=#070e1a
+r1 c36..38 fg=#f0c36b bg=#f0c36b
+r1 c38..39 fg=#070e1a bg=#070e1a
+r2 c7..8 fg=#070e1a bg=#070e1a
+r2 c8..11 fg=#3f61b0 bg=#3f61b0
+r2 c11..12 fg=#3f61b0 bg=#070e1a
+r2 c12..16 fg=#070e1a
+r2 c16..17 fg=#3f61b0 bg=#070e1a
+r2 c17..21 fg=#3f61b0 bg=#3f61b0
+r2 c21..22 fg=#070e1a bg=#3f61b0
+r2 c22..23 fg=#070e1a
+r2 c33..34 fg=#070e1a
+r2 c34..35 fg=#070e1a bg=#f0c36b
+r2 c35..36 fg=#f0c36b bg=#f0c36b
+r2 c36..37 fg=#f0c36b bg=#070e1a
+r2 c37..38 fg=#070e1a
+r3 c8..9 fg=#070e1a
+r3 c9..12 fg=#3f61b0 bg=#070e1a
+r3 c12..15 fg=#070e1a
+r3 c15..16 fg=#070e1a bg=#b4d7fa
+r3 c16..18 fg=#070e1a bg=#f9f2e1
+r3 c18..19 fg=#3f61b0 bg=#b4d7fa
+r3 c19..21 fg=#3f61b0 bg=#f9f2e1
+r3 c21..22 fg=#3f61b0 bg=#b4d7fa
+r3 c22..24 fg=#070e1a bg=#f9f2e1
+r3 c24..26 fg=#070e1a
+r3 c33..34 fg=#070e1a
+r3 c34..36 fg=#070e1a bg=#f0c36b
+r3 c36..37 fg=#070e1a
+r4 c10..11 fg=#070e1a
+r4 c11..12 fg=#070e1a bg=#f9f2e1
+r4 c12..13 fg=#070e1a bg=#b4d7fa
+r4 c13..15 fg=#f9f2e1 bg=#f9f2e1
+r4 c15..24 fg=#f9f2e1 bg=#b4d7fa
+r4 c24..25 fg=#b4d7fa bg=#f9f2e1
+r4 c25..26 fg=#f9f2e1 bg=#f9f2e1
+r4 c26..27 fg=#070e1a bg=#f9f2e1
+r4 c27..28 fg=#070e1a bg=#b4d7fa
+r4 c28..30 fg=#070e1a
+r4 c32..34 fg=#070e1a
+r4 c34..36 fg=#f0c36b bg=#070e1a
+r4 c36..37 fg=#070e1a
+r5 c8..9 fg=#070e1a
+r5 c9..10 fg=#070e1a bg=#b4d7fa
+r5 c10..11 fg=#f9f2e1 bg=#f9f2e1
+r5 c11..13 fg=#f9f2e1 bg=#b4d7fa
+r5 c13..15 fg=#b4d7fa bg=#3f61b0
+r5 c15..23 fg=#3f61b0 bg=#3f61b0
+r5 c23..24 fg=#3f61b0 bg=#070e1a
+r5 c24..25 fg=#070e1a bg=#2b4075
+r5 c25..26 fg=#b4d7fa bg=#070e1a
+r5 c26..27 fg=#f9f2e1 bg=#070e1a
+r5 c27..30 fg=#070e1a bg=#2b4075
+r5 c30..32 fg=#070e1a bg=#070e1a
+r5 c32..33 fg=#070e1a bg=#2b4075
+r5 c33..34 fg=#070e1a bg=#070e1a
+r5 c34..35 fg=#070e1a
+r6 c7..8 fg=#070e1a
+r6 c8..9 fg=#070e1a bg=#3f61b0
+r6 c9..10 fg=#f9f2e1 bg=#b4d7fa
+r6 c10..11 fg=#b4d7fa bg=#3f61b0
+r6 c11..12 fg=#3f61b0 bg=#3f61b0
+r6 c12..16 fg=#3f61b0 bg=#4f8fe8
+r6 c16..19 fg=#3f61b0 bg=#3f61b0
+r6 c19..23 fg=#3f61b0 bg=#4f8fe8
+r6 c23..24 fg=#070e1a bg=#070e1a
+r6 c24..27 fg=#2b4075 bg=#2b4075
+r6 c27..28 fg=#f9f2e1 bg=#f9f2e1
+r6 c28..30 fg=#f9f2e1 bg=#2b4075
+r6 c30..33 fg=#2b4075 bg=#2b4075
+r6 c33..35 fg=#070e1a bg=#070e1a
+r7 c6..7 fg=#070e1a
+r7 c7..8 fg=#070e1a bg=#3f61b0
+r7 c8..11 fg=#3f61b0 bg=#3f61b0
+r7 c11..13 fg=#4f8fe8 bg=#3f61b0
+r7 c13..23 fg=#3f61b0 bg=#3f61b0
+r7 c23..24 fg=#070e1a bg=#070e1a
+r7 c24..25 fg=#2b4075 bg=#2b4075
+r7 c25..27 fg=#2b4075 bg=#070e1a
+r7 c27..30 fg=#f9f2e1 bg=#2b4075
+r7 c30..32 fg=#2b4075 bg=#070e1a
+r7 c32..33 fg=#2b4075 bg=#2b4075
+r7 c33..35 fg=#070e1a bg=#070e1a
+r8 c6..7 fg=#070e1a bg=#070e1a
+r8 c7..24 fg=#3f61b0 bg=#3f61b0
+r8 c24..25 fg=#070e1a bg=#3f61b0
+r8 c25..27 fg=#3f61b0 bg=#3f61b0
+r8 c27..30 fg=#070e1a bg=#3f61b0
+r8 c30..32 fg=#3f61b0 bg=#3f61b0
+r8 c32..33 fg=#070e1a bg=#070e1a
+r8 c33..34 fg=#070e1a
+r9 c4..5 fg=#070e1a
+r9 c5..7 fg=#070e1a bg=#3f61b0
+r9 c7..12 fg=#3f61b0 bg=#3f61b0
+r9 c12..13 fg=#3f61b0 bg=#fbdfca
+r9 c13..15 fg=#fbdfca bg=#fbdfca
+r9 c15..17 fg=#3f61b0 bg=#fbdfca
+r9 c17..18 fg=#fbdfca bg=#fbdfca
+r9 c18..20 fg=#3f61b0 bg=#3f61b0
+r9 c20..21 fg=#3f61b0 bg=#fbdfca
+r9 c21..22 fg=#fbdfca bg=#fbdfca
+r9 c22..24 fg=#3f61b0 bg=#fbdfca
+r9 c24..26 fg=#fbdfca bg=#fbdfca
+r9 c26..27 fg=#3f61b0 bg=#fbdfca
+r9 c27..32 fg=#3f61b0 bg=#3f61b0
+r9 c32..34 fg=#070e1a bg=#3f61b0
+r9 c34..35 fg=#070e1a
+r10 c2..3 fg=#070e1a
+r10 c3..4 fg=#070e1a bg=#3f61b0
+r10 c4..5 fg=#3f61b0 bg=#3f61b0
+r10 c5..7 fg=#3f61b0 bg=#b4d7fa
+r10 c7..10 fg=#3f61b0 bg=#3f61b0
+r10 c10..11 fg=#3f61b0 bg=#fbdfca
+r10 c11..12 fg=#fbdfca bg=#fbdfca
+r10 c12..13 fg=#070e1a bg=#070e1a
+r10 c13..14 fg=#070e1a bg=#f9f2e1
+r10 c14..16 fg=#070e1a bg=#070e1a
+r10 c16..19 fg=#fbdfca bg=#fbdfca
+r10 c19..20 fg=#3f61b0 bg=#fbdfca
+r10 c20..23 fg=#fbdfca bg=#fbdfca
+r10 c23..24 fg=#070e1a bg=#070e1a
+r10 c24..25 fg=#070e1a bg=#f9f2e1
+r10 c25..27 fg=#070e1a bg=#070e1a
+r10 c27..28 fg=#fbdfca bg=#fbdfca
+r10 c28..29 fg=#3f61b0 bg=#fbdfca
+r10 c29..32 fg=#3f61b0 bg=#3f61b0
+r10 c32..33 fg=#3f61b0 bg=#070e1a
+r10 c33..34 fg=#3f61b0 bg=#b4d7fa
+r10 c34..35 fg=#3f61b0 bg=#3f61b0
+r10 c35..36 fg=#070e1a bg=#3f61b0
+r10 c36..37 fg=#070e1a
+r11 c3..4 fg=#070e1a
+r11 c4..5 fg=#b4d7fa bg=#070e1a
+r11 c5..7 fg=#b4d7fa bg=#3f61b0
+r11 c7..9 fg=#3f61b0 bg=#3f61b0
+r11 c9..10 fg=#3f61b0 bg=#4f8fe8
+r11 c10..12 fg=#fbdfca bg=#fbdfca
+r11 c12..13 fg=#070e1a bg=#070e1a
+r11 c13..14 fg=#070e1a bg=#4f8fe8
+r11 c14..15 fg=#4f8fe8 bg=#4f8fe8
+r11 c15..16 fg=#070e1a bg=#070e1a
+r11 c16..23 fg=#fbdfca bg=#fbdfca
+r11 c23..24 fg=#070e1a bg=#070e1a
+r11 c24..25 fg=#070e1a bg=#4f8fe8
+r11 c25..26 fg=#4f8fe8 bg=#4f8fe8
+r11 c26..27 fg=#070e1a bg=#070e1a
+r11 c27..29 fg=#fbdfca bg=#fbdfca
+r11 c29..30 fg=#3f61b0 bg=#4f8fe8
+r11 c30..31 fg=#fbdfca bg=#fbdfca
+r11 c31..32 fg=#3f61b0 bg=#3f61b0
+r11 c32..33 fg=#fbdfca bg=#fbdfca
+r11 c33..34 fg=#070e1a bg=#3f61b0
+r11 c34..35 fg=#070e1a bg=#fbdfca
+r11 c35..36 fg=#070e1a bg=#070e1a
+r12 c3..4 fg=#070e1a bg=#070e1a
+r12 c4..6 fg=#3f61b0 bg=#3f61b0
+r12 c6..7 fg=#3f61b0 bg=#4f8fe8
+r12 c7..9 fg=#3f61b0 bg=#3f61b0
+r12 c9..10 fg=#4f8fe8 bg=#4f8fe8
+r12 c10..11 fg=#fbdfca bg=#3f61b0
+r12 c11..13 fg=#fbdfca bg=#eda592
+r12 c13..15 fg=#070e1a bg=#fbdfca
+r12 c15..24 fg=#fbdfca bg=#fbdfca
+r12 c24..26 fg=#070e1a bg=#fbdfca
+r12 c26..28 fg=#fbdfca bg=#eda592
+r12 c28..29 fg=#eda592 bg=#3f61b0
+r12 c29..34 fg=#fbdfca bg=#fbdfca
+r12 c34..35 fg=#3f61b0 bg=#3f61b0
+r12 c35..36 fg=#070e1a bg=#070e1a
+r13 c2..3 fg=#070e1a bg=#070e1a
+r13 c3..5 fg=#3f61b0 bg=#3f61b0
+r13 c5..6 fg=#4f8fe8 bg=#4f8fe8
+r13 c6..9 fg=#3f61b0 bg=#3f61b0
+r13 c9..10 fg=#4f8fe8 bg=#3f61b0
+r13 c10..11 fg=#3f61b0 bg=#4f8fe8
+r13 c11..12 fg=#3f61b0 bg=#3f61b0
+r13 c12..13 fg=#fbdfca bg=#3f61b0
+r13 c13..18 fg=#fbdfca bg=#fbdfca
+r13 c18..19 fg=#070e1a bg=#fbdfca
+r13 c19..20 fg=#fbdfca bg=#070e1a
+r13 c20..21 fg=#070e1a bg=#fbdfca
+r13 c21..26 fg=#fbdfca bg=#fbdfca
+r13 c26..27 fg=#fbdfca bg=#3f61b0
+r13 c27..28 fg=#3f61b0 bg=#3f61b0
+r13 c28..29 fg=#3f61b0 bg=#4f8fe8
+r13 c29..32 fg=#fbdfca bg=#f9f2e1
+r13 c32..33 fg=#fbdfca bg=#3f61b0
+r13 c33..34 fg=#4f8fe8 bg=#4f8fe8
+r13 c34..36 fg=#3f61b0 bg=#3f61b0
+r13 c36..37 fg=#070e1a bg=#070e1a
+r14 c2..3 fg=#070e1a bg=#070e1a
+r14 c3..5 fg=#3f61b0 bg=#3f61b0
+r14 c5..6 fg=#4f8fe8 bg=#3f61b0
+r14 c6..7 fg=#3f61b0 bg=#4f8fe8
+r14 c7..10 fg=#3f61b0 bg=#3f61b0
+r14 c10..11 fg=#4f8fe8 bg=#3f61b0
+r14 c11..15 fg=#3f61b0 bg=#3f61b0
+r14 c15..16 fg=#fbdfca bg=#3f61b0
+r14 c16..23 fg=#fbdfca bg=#070e1a
+r14 c23..24 fg=#fbdfca bg=#3f61b0
+r14 c24..27 fg=#3f61b0 bg=#3f61b0
+r14 c27..28 fg=#3f61b0 bg=#2b4075
+r14 c28..30 fg=#2b4075 bg=#2b4075
+r14 c30..31 fg=#2b4075 bg=#3f61b0
+r14 c31..32 fg=#3f61b0 bg=#3f61b0
+r14 c32..33 fg=#3f61b0 bg=#4f8fe8
+r14 c33..34 fg=#4f8fe8 bg=#3f61b0
+r14 c34..36 fg=#3f61b0 bg=#3f61b0
+r14 c36..37 fg=#070e1a bg=#070e1a
+r15 c3..4 fg=#070e1a bg=#070e1a
+r15 c4..5 fg=#3f61b0 bg=#3f61b0
+r15 c5..6 fg=#3f61b0 bg=#4f8fe8
+r15 c6..7 fg=#4f8fe8 bg=#3f61b0
+r15 c7..9 fg=#3f61b0 bg=#3f61b0
+r15 c9..10 fg=#3f61b0 bg=#4f8fe8
+r15 c10..11 fg=#3f61b0 bg=#2b4075
+r15 c11..17 fg=#2b4075 bg=#2b4075
+r15 c17..18 fg=#f9f2e1 bg=#4f8fe8
+r15 c18..19 fg=#4f8fe8 bg=#4f8fe8
+r15 c19..20 fg=#f9f2e1 bg=#4f8fe8
+r15 c20..21 fg=#4f8fe8 bg=#4f8fe8
+r15 c21..22 fg=#f9f2e1 bg=#4f8fe8
+r15 c22..28 fg=#2b4075 bg=#2b4075
+r15 c28..29 fg=#2b4075 bg=#3f61b0
+r15 c29..30 fg=#3f61b0 bg=#4f8fe8
+r15 c30..32 fg=#3f61b0 bg=#3f61b0
+r15 c32..33 fg=#4f8fe8 bg=#3f61b0
+r15 c33..34 fg=#3f61b0 bg=#4f8fe8
+r15 c34..35 fg=#3f61b0 bg=#3f61b0
+r15 c35..36 fg=#070e1a bg=#070e1a
+r16 c4..5 fg=#070e1a bg=#070e1a
+r16 c5..7 fg=#4f8fe8 bg=#4f8fe8
+r16 c7..8 fg=#3f61b0 bg=#4f8fe8
+r16 c8..10 fg=#4f8fe8 bg=#4f8fe8
+r16 c10..16 fg=#2b4075 bg=#2b4075
+r16 c16..17 fg=#2b4075 bg=#f9f2e1
+r16 c17..18 fg=#f9f2e1 bg=#f9f2e1
+r16 c18..19 fg=#4f8fe8 bg=#f9f2e1
+r16 c19..20 fg=#4f8fe8 bg=#4f8fe8
+r16 c20..21 fg=#4f8fe8 bg=#f9f2e1
+r16 c21..22 fg=#f9f2e1 bg=#f9f2e1
+r16 c22..23 fg=#2b4075 bg=#f9f2e1
+r16 c23..26 fg=#2b4075 bg=#2b4075
+r16 c26..27 fg=#4f8fe8 bg=#4f8fe8
+r16 c27..28 fg=#3f61b0 bg=#4f8fe8
+r16 c28..31 fg=#4f8fe8 bg=#4f8fe8
+r16 c31..32 fg=#3f61b0 bg=#4f8fe8
+r16 c32..34 fg=#4f8fe8 bg=#4f8fe8
+r16 c34..35 fg=#070e1a bg=#070e1a
+r17 c3..4 fg=#070e1a bg=#070e1a
+r17 c4..6 fg=#4f8fe8 bg=#4f8fe8
+r17 c6..7 fg=#4f8fe8 bg=#b4d7fa
+r17 c7..11 fg=#4f8fe8 bg=#4f8fe8
+r17 c11..13 fg=#f9f2e1 bg=#4f8fe8
+r17 c13..16 fg=#f9f2e1 bg=#fbdfca
+r17 c16..17 fg=#070e1a bg=#070e1a
+r17 c17..22 fg=#2b4075 bg=#f9f2e1
+r17 c22..23 fg=#e2b54e bg=#f9f2e1
+r17 c23..26 fg=#2b4075 bg=#2b4075
+r17 c26..32 fg=#4f8fe8 bg=#4f8fe8
+r17 c32..33 fg=#4f8fe8 bg=#b4d7fa
+r17 c33..35 fg=#4f8fe8 bg=#4f8fe8
+r17 c35..36 fg=#070e1a bg=#070e1a
+r18 c2..3 fg=#070e1a bg=#070e1a
+r18 c3..5 fg=#4f8fe8 bg=#4f8fe8
+r18 c5..6 fg=#b4d7fa bg=#b4d7fa
+r18 c6..12 fg=#4f8fe8 bg=#4f8fe8
+r18 c12..13 fg=#4f8fe8 bg=#2b4075
+r18 c13..14 fg=#fbdfca bg=#2b4075
+r18 c14..16 fg=#fbdfca bg=#070e1a
+r18 c16..17 fg=#070e1a bg=#f9f2e1
+r18 c17..23 fg=#f9f2e1 bg=#f9f2e1
+r18 c23..24 fg=#f9f2e1 bg=#b4d7fa
+r18 c24..25 fg=#2b4075 bg=#f9f2e1
+r18 c25..26 fg=#2b4075 bg=#2b4075
+r18 c26..27 fg=#4f8fe8 bg=#2b4075
+r18 c27..33 fg=#4f8fe8 bg=#4f8fe8
+r18 c33..34 fg=#b4d7fa bg=#b4d7fa
+r18 c34..36 fg=#4f8fe8 bg=#4f8fe8
+r18 c36..37 fg=#070e1a bg=#070e1a
+r19 c2..3 fg=#070e1a bg=#070e1a
+r19 c3..5 fg=#4f8fe8 bg=#4f8fe8
+r19 c5..6 fg=#4f8fe8 bg=#b4d7fa
+r19 c6..7 fg=#b4d7fa bg=#4f8fe8
+r19 c7..9 fg=#4f8fe8 bg=#4f8fe8
+r19 c9..10 fg=#4f8fe8 bg=#b4d7fa
+r19 c10..11 fg=#4f8fe8 bg=#4f8fe8
+r19 c11..12 fg=#4f8fe8 bg=#2b4075
+r19 c12..14 fg=#2b4075 bg=#2b4075
+r19 c14..16 fg=#f9f2e1 bg=#f9f2e1
+r19 c16..17 fg=#b4d7fa bg=#b4d7fa
+r19 c17..22 fg=#b4d7fa bg=#f9f2e1
+r19 c22..23 fg=#b4d7fa bg=#b4d7fa
+r19 c23..25 fg=#f9f2e1 bg=#f9f2e1
+r19 c25..27 fg=#2b4075 bg=#2b4075
+r19 c27..28 fg=#4f8fe8 bg=#2b4075
+r19 c28..29 fg=#4f8fe8 bg=#4f8fe8
+r19 c29..30 fg=#4f8fe8 bg=#b4d7fa
+r19 c30..32 fg=#4f8fe8 bg=#4f8fe8
+r19 c32..33 fg=#b4d7fa bg=#4f8fe8
+r19 c33..34 fg=#4f8fe8 bg=#b4d7fa
+r19 c34..36 fg=#4f8fe8 bg=#4f8fe8
+r19 c36..37 fg=#070e1a bg=#070e1a
+r20 c3..4 fg=#070e1a
+r20 c4..5 fg=#b4d7fa bg=#070e1a
+r20 c5..7 fg=#b4d7fa bg=#b4d7fa
+r20 c7..8 fg=#4f8fe8 bg=#b4d7fa
+r20 c8..11 fg=#b4d7fa bg=#b4d7fa
+r20 c11..14 fg=#2b4075 bg=#e2b54e
+r20 c14..15 fg=#f9f2e1 bg=#2b4075
+r20 c15..17 fg=#f9f2e1 bg=#f9f2e1
+r20 c17..22 fg=#b4d7fa bg=#f9f2e1
+r20 c22..24 fg=#f9f2e1 bg=#f9f2e1
+r20 c24..25 fg=#f9f2e1 bg=#2b4075
+r20 c25..28 fg=#2b4075 bg=#e2b54e
+r20 c28..31 fg=#b4d7fa bg=#b4d7fa
+r20 c31..32 fg=#4f8fe8 bg=#b4d7fa
+r20 c32..34 fg=#b4d7fa bg=#b4d7fa
+r20 c34..35 fg=#b4d7fa bg=#070e1a
+r20 c35..36 fg=#070e1a
+r21 c5..6 fg=#070e1a bg=#070e1a
+r21 c6..11 fg=#b4d7fa bg=#b4d7fa
+r21 c11..16 fg=#2b4075 bg=#f9f2e1
+r21 c16..23 fg=#f9f2e1 bg=#f9f2e1
+r21 c23..28 fg=#2b4075 bg=#f9f2e1
+r21 c28..33 fg=#b4d7fa bg=#b4d7fa
+r21 c33..34 fg=#070e1a bg=#070e1a
+r22 c2..4 fg=#070e1a
+r22 c4..6 fg=#070e1a bg=#b4d7fa
+r22 c6..12 fg=#b4d7fa bg=#b4d7fa
+r22 c12..14 fg=#f9f2e1 bg=#b4d7fa
+r22 c14..15 fg=#f9f2e1 bg=#070e1a
+r22 c15..16 fg=#b4d7fa bg=#fbdfca
+r22 c16..18 fg=#f9f2e1 bg=#fbdfca
+r22 c18..19 fg=#f9f2e1 bg=#070e1a
+r22 c19..20 fg=#b4d7fa bg=#070e1a
+r22 c20..21 fg=#f9f2e1 bg=#070e1a
+r22 c21..23 fg=#f9f2e1 bg=#fbdfca
+r22 c23..24 fg=#b4d7fa bg=#fbdfca
+r22 c24..25 fg=#f9f2e1 bg=#070e1a
+r22 c25..27 fg=#f9f2e1 bg=#b4d7fa
+r22 c27..33 fg=#b4d7fa bg=#b4d7fa
+r22 c33..35 fg=#070e1a bg=#b4d7fa
+r22 c35..37 fg=#070e1a
+r23 c0..1 fg=#070e1a
+r23 c1..2 fg=#070e1a bg=#b4d7fa
+r23 c2..14 fg=#b4d7fa bg=#b4d7fa
+r23 c14..15 fg=#070e1a bg=#070e1a
+r23 c15..18 fg=#f9f2e1 bg=#f9f2e1
+r23 c18..19 fg=#070e1a bg=#070e1a
+r23 c20..21 fg=#070e1a bg=#070e1a
+r23 c21..24 fg=#f9f2e1 bg=#f9f2e1
+r23 c24..25 fg=#070e1a bg=#070e1a
+r23 c25..37 fg=#b4d7fa bg=#b4d7fa
+r23 c37..38 fg=#070e1a bg=#b4d7fa
+r23 c38..39 fg=#070e1a
+r24 c0..1 fg=#070e1a bg=#070e1a
+r24 c1..5 fg=#b4d7fa bg=#b4d7fa
+r24 c5..7 fg=#b4d7fa bg=#070e1a
+r24 c7..11 fg=#b4d7fa bg=#b4d7fa
+r24 c11..13 fg=#070e1a bg=#070e1a
+r24 c13..14 fg=#070e1a bg=#2b4075
+r24 c14..16 fg=#2b4075 bg=#2b4075
+r24 c16..17 fg=#e2b54e bg=#2b4075
+r24 c17..19 fg=#2b4075 bg=#2b4075
+r24 c19..20 fg=#070e1a bg=#070e1a
+r24 c20..22 fg=#2b4075 bg=#2b4075
+r24 c22..23 fg=#e2b54e bg=#2b4075
+r24 c23..25 fg=#2b4075 bg=#2b4075
+r24 c25..26 fg=#070e1a bg=#2b4075
+r24 c26..28 fg=#070e1a bg=#070e1a
+r24 c28..32 fg=#b4d7fa bg=#b4d7fa
+r24 c32..34 fg=#b4d7fa bg=#070e1a
+r24 c34..38 fg=#b4d7fa bg=#b4d7fa
+r24 c38..39 fg=#070e1a bg=#070e1a
+r25 c0..1 fg=#070e1a
+r25 c1..3 fg=#b4d7fa bg=#070e1a
+r25 c3..5 fg=#070e1a
+r25 c7..9 fg=#070e1a
+r25 c9..11 fg=#b4d7fa bg=#070e1a
+r25 c11..13 fg=#070e1a
+r25 c13..19 fg=#2b4075 bg=#070e1a
+r25 c19..20 fg=#070e1a
+r25 c20..26 fg=#2b4075 bg=#070e1a
+r25 c26..28 fg=#070e1a
+r25 c28..30 fg=#b4d7fa bg=#070e1a
+r25 c30..32 fg=#070e1a
+r25 c34..36 fg=#070e1a
+r25 c36..38 fg=#b4d7fa bg=#070e1a
+r25 c38..39 fg=#070e1a
+
+== no-color
+          #########              #####
+        ####+++++####           ####++#
+       ################          ##+##
+        ##########++++####       ####
+          ###:::::::::::::####  #####
+        ##:::++####################
+       ##:+#++++###++++####:++#####
+      #####++##############+++#####
+      ############################
+    ########+::++:##+:++::+########
+  ###++###+:####:::+:::####:+####+###
+   ##++##+::##+#:::::::##+#::+:#:###
+   ###+##++++##:::::::::##+++:::::##
+  ###+###++#+:::::###:::::+#+:::++###
+  ###++###+####+#######+########++###
+   ##++##+#######+++++#######+##++##
+    #+++++######+:+++:+###++++++++#
+   #+++++++++:::#++++++###+++++++++#
+  #+++++++++#+###:::::::+##+++++++++#
+  #++++++++###::+:::::+::###++++++++#
+   ##++++++###+:::::::::+###++++++##
+     #++++++++++:::::::++++++++++#
+  ####++++++::#+::###::+#::++++++####
+##++++++++++++#:::# #:::#++++++++++++##
+#++++##++++#################++++##++++#
+#####  #########################  #####
