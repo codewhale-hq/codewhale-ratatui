@@ -337,3 +337,45 @@ fn populated_roster_and_response_remain_readable_at_wide_and_compact_sizes() {
         }
     }
 }
+
+#[test]
+fn clicking_reply_changes_focus_without_opening_or_messaging_an_agent() {
+    let theme = Profile::Ascii.theme();
+    let agents = [Subagent::new(
+        "worker",
+        AgentCard::new("Worker", State::Working),
+    )];
+    let mut state = PetModeState::default();
+    state.set_visible(true);
+    state.update(
+        Some("session"),
+        inputs(Presence::Working),
+        &agents,
+        Instant::now(),
+        MotionMode::Still,
+    );
+    state.focus_agents = true;
+    let output = [Line::raw("actual reply")];
+    testing::render(140, 40, |area, buf| {
+        let mut view = PetMode::new(&theme, StatusMark::new(State::Working));
+        view.agents = &agents;
+        view.output = &output;
+        view.render(area, buf, &mut state);
+    });
+    let output = PetModeAreas::new(Rect::new(0, 0, 140, 40), true, true, true).output;
+    assert!(state.handle_mouse(
+        &agents,
+        MouseEvent {
+            kind: MouseEventKind::Down(crossterm::event::MouseButton::Left),
+            column: output.x,
+            row: output.y,
+            modifiers: KeyModifiers::NONE,
+        }
+    ));
+    assert!(!state.focus_agents);
+    assert!(
+        state
+            .handle_key(&agents, KeyEvent::new(KeyCode::Enter, KeyModifiers::NONE))
+            .is_none()
+    );
+}

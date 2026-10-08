@@ -305,6 +305,10 @@ Streamed text follows the bottom until the reader scrolls back. End or scrolling
 to the bottom resumes following; Home keeps the beginning in view. A new typed
 turn identity resets following, and hosts can call `reset_output` at an explicit
 turn-start event when an identity is not available yet.
+The active pane has a visible heading marker in every color profile; clipped
+responses show their visible row range. Clicking the response returns keyboard
+focus to reading. Set `hints` for navigation and `pane_hints` for the focused
+pane's controls to keep both visible on separate footer rows.
 
 Call `set_visible` and `update` before paint, and schedule only the deadline
 returned by `next_frame_in`. Hidden/reduced views schedule no motion; a real
