@@ -65,9 +65,21 @@ Provenance and selected conformance fixtures live in
 
 One session-scoped `Stage` receives explicit owner inputs and advances on the
 host's clock. Changing session resets the performance. Hiding a surface stops
-painting; resuming discards missed motion. Terminal cadence is capped at six
-paints per second in action and two at rest. Reduced motion uses the authored
-poster. The compact view always keeps readable state words.
+painting; resuming discards missed motion. Braille cadence is capped at six
+paints per second in action and two at rest. The full-color `WhalePet` uses
+the GPUI hero cadence: 30 paints per second in action, eight at rest. These
+are scheduling ceilings; the host owns the redraw policy. Reduced motion
+uses the authored poster and schedules no redraw. Every pet keeps readable
+state words.
+
+`WhalePet` paints the GPUI cove and its full contour rig into a bounded,
+antialiased RGBA image, then reuses the avatar half-block painter. This keeps
+the two-stop body gradient, light eye/throat apertures, prop colors and partial
+opacity of entering/exiting shapes. Scenery is painted behind the whale and
+near water in front, in the native client's order. The same Stage supplies
+resting pointer attention and decorative water ripples. Monochrome, ANSI-16
+and unknown grounds retain Braille; ASCII and tiny viewports retain words.
+`examples/pet.rs` is the live action tour and reproducible buffer export.
 
 Braille has one foreground per cell. The colored adapter samples native ink at
 visible dots, chooses the majority shape, and resolves ties by paint order.

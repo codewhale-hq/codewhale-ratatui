@@ -92,6 +92,8 @@ pub use attention::*;
 pub use workbench::*;
 mod habitat;
 pub use habitat::*;
+mod whale_pet;
+pub use whale_pet::*;
 
 mod pending_input;
 mod transcript;
