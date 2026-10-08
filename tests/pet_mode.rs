@@ -4,7 +4,7 @@ use codewhale_ratatui::{
     testing::{self, Profile},
     whale_motion::{Context, Inputs, Presence},
 };
-use crossterm::event::{KeyCode, KeyEvent};
+use crossterm::event::{KeyCode, KeyEvent, KeyModifiers, MouseEvent, MouseEventKind};
 use ratatui::{layout::Rect, text::Line, widgets::StatefulWidget};
 use std::time::{Duration, Instant};
 fn inputs(presence: Presence) -> Inputs {
@@ -21,6 +21,64 @@ fn inputs(presence: Presence) -> Inputs {
 fn text(buf: &ratatui::buffer::Buffer) -> String {
     buf.content.iter().map(|cell| cell.symbol()).collect()
 }
+
+#[test]
+fn streamed_output_follows_without_displacing_a_reader() {
+    let theme = Profile::DarkTrue.theme();
+    let now = Instant::now();
+    let mut state = PetModeState::default();
+    state.set_visible(true);
+    state.update(
+        Some("session"),
+        inputs(Presence::Working),
+        &[],
+        now,
+        MotionMode::Reduced,
+    );
+    let paint = |state: &mut PetModeState, count| {
+        let output: Vec<_> = (0..count)
+            .map(|n| Line::raw(format!("Stream row {n}")))
+            .collect();
+        text(&testing::render(40, 12, |area, buf| {
+            let mut view = PetMode::new(&theme, StatusMark::new(State::Working));
+            view.output = &output;
+            view.render(area, buf, state);
+        }))
+    };
+    assert!(paint(&mut state, 20).contains("Stream row 19"));
+    assert!(paint(&mut state, 30).contains("Stream row 29"));
+    state.scroll(&[], -2);
+    let top = state.output_scroll;
+    assert!(!paint(&mut state, 40).contains("Stream row 39"));
+    assert_eq!(state.output_scroll, top);
+    state.scroll_end(&[], false);
+    assert!(paint(&mut state, 41).contains("Stream row 0"));
+    state.scroll_end(&[], true);
+    assert!(paint(&mut state, 42).contains("Stream row 41"));
+    state.scroll(&[], -1);
+    state.scroll(&[], 1);
+    assert!(paint(&mut state, 43).contains("Stream row 42"));
+    assert!(state.handle_mouse(
+        &[],
+        MouseEvent {
+            kind: MouseEventKind::ScrollUp,
+            column: 1,
+            row: 5,
+            modifiers: KeyModifiers::NONE,
+        }
+    ));
+    let top = state.output_scroll;
+    assert!(!paint(&mut state, 44).contains("Stream row 43"));
+    assert_eq!(state.output_scroll, top);
+    state.reset_output();
+    assert!(paint(&mut state, 45).contains("Stream row 44"));
+    state.scroll_end(&[], false);
+    let mut next = inputs(Presence::Working);
+    next.context.turn_id = Some("next-turn".into());
+    state.update(Some("session"), next, &[], now, MotionMode::Reduced);
+    assert!(paint(&mut state, 10).contains("Stream row 9"));
+}
+
 #[test]
 fn compact_response_wins_over_scenery_and_long_output_reaches_the_end() {
     let theme = Profile::DarkTrue.theme();
