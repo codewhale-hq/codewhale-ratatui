@@ -367,19 +367,25 @@ impl StatefulWidget for PetMode<'_> {
         );
         state.areas = plan;
         if !plan.header.is_empty() {
-            Paragraph::new(Line::from(
-                vec![
-                    Span::styled(
-                        text::display_safe(&self.title).into_owned(),
-                        self.theme.fg(Role::Primary),
-                    ),
-                    Span::raw("   "),
-                ]
-                .into_iter()
-                .chain(self.status.spans(self.theme))
-                .collect::<Vec<_>>(),
-            ))
-            .render(
+            let status = self.status.spans(self.theme);
+            let status_width: usize = status.iter().map(|span| text::width(&span.content)).sum();
+            let title = text::display_safe(&self.title);
+            let mut spans = Vec::new();
+            // Shed identity before phase; narrow/ASCII views still name the
+            // activity even when a caller supplies a long title.
+            if text::width(&title)
+                .saturating_add(3)
+                .saturating_add(status_width)
+                <= usize::from(plan.header.width)
+            {
+                spans.push(Span::styled(
+                    title.into_owned(),
+                    self.theme.fg(Role::Primary),
+                ));
+                spans.push(Span::raw("   "));
+            }
+            spans.extend(status);
+            Paragraph::new(Line::from(spans)).render(
                 Rect {
                     height: 1,
                     ..plan.header
@@ -496,7 +502,14 @@ impl StatefulWidget for PetMode<'_> {
         }
         if !plan.footer.is_empty() {
             let split = plan.footer.height > 1 && !self.pane_hints.is_empty();
-            Paragraph::new(text::display_safe(&self.hints).into_owned())
+            let hints = text::display_safe(&self.hints);
+            let hints = if split {
+                text::truncate(&hints, usize::from(plan.footer.width), self.theme.ascii())
+                    .into_owned()
+            } else {
+                hints.into_owned()
+            };
+            Paragraph::new(hints)
                 .wrap(Wrap { trim: true })
                 .style(self.theme.fg(Role::Muted))
                 .render(
@@ -507,12 +520,19 @@ impl StatefulWidget for PetMode<'_> {
                     buf,
                 );
             if split {
-                Paragraph::new(text::display_safe(&self.pane_hints).into_owned())
-                    .style(self.theme.fg(Role::Muted))
-                    .render(
-                        Rect::new(plan.footer.x, plan.footer.y + 1, plan.footer.width, 1),
-                        buf,
-                    );
+                Paragraph::new(
+                    text::truncate(
+                        &text::display_safe(&self.pane_hints),
+                        usize::from(plan.footer.width),
+                        self.theme.ascii(),
+                    )
+                    .into_owned(),
+                )
+                .style(self.theme.fg(Role::Muted))
+                .render(
+                    Rect::new(plan.footer.x, plan.footer.y + 1, plan.footer.width, 1),
+                    buf,
+                );
             }
         }
     }
