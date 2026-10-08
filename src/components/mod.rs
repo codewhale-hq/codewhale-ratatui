@@ -122,3 +122,6 @@ pub use dock_tabs::*;
 mod braille_frame;
 pub(crate) use braille_frame::paint_braille_cells;
 pub use braille_frame::*;
+
+mod pet_mode;
+pub use pet_mode::*;
