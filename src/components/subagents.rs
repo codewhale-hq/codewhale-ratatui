@@ -24,6 +24,7 @@ use crate::{
     duration, glyphs, spin, text,
     whale_motion::{Inputs, Stage, Tier},
 };
+use unicode_segmentation::UnicodeSegmentation;
 
 /// A reported event. Keep these in chronological order; the view follows the
 /// newest event until the person scrolls back. Text is sanitized before paint.
@@ -124,7 +125,7 @@ impl<'a> Subagent<'a> {
         }
     }
 
-    fn usage_text(&self, ascii: bool) -> String {
+    fn usage_text(&self, ascii: bool, steps_label: Option<&str>) -> String {
         [
             self.elapsed
                 .map(duration)
@@ -132,7 +133,12 @@ impl<'a> Subagent<'a> {
             self.usage
                 .map(|usage| usage.text(ascii))
                 .or_else(|| self.tokens.as_deref().map(str::to_owned)),
-            self.steps.map(|n| format!("{n} steps")),
+            self.steps.map(|n| {
+                steps_label.map_or_else(
+                    || format!("{n} {}", if n == 1 { "step" } else { "steps" }),
+                    |label| format!("{label}: {n}"),
+                )
+            }),
         ]
         .into_iter()
         .flatten()
@@ -150,6 +156,63 @@ pub enum SubagentIntent {
     Stop(String),
 }
 
+#[derive(Default)]
+struct OutputWindow {
+    source: String,
+    geometry: Option<(u16, u16, usize)>,
+    total: usize,
+    rows: Vec<String>,
+}
+impl OutputWindow {
+    fn prepare(&mut self, source: &str, width: u16, height: u16, top: usize) {
+        if self.source == source && self.geometry == Some((width, height, top)) {
+            return;
+        }
+        self.source.clear();
+        self.source.push_str(source);
+        self.geometry = Some((width, height, top));
+        self.rows.clear();
+        self.total = 0;
+        for logical in source.split('\n') {
+            let safe = text::display_safe(logical);
+            let mut rest = safe.as_ref();
+            if rest.is_empty() {
+                self.push("", top, height);
+            }
+            while !rest.is_empty() {
+                let mut end = 0;
+                let mut cells = 0;
+                let mut space = None;
+                for (byte, grapheme) in rest.grapheme_indices(true) {
+                    let count = text::width(grapheme);
+                    if cells + count > usize::from(width.max(1)) && cells != 0 {
+                        break;
+                    }
+                    end = byte + grapheme.len();
+                    cells += count;
+                    if grapheme == " " && !rest[..end].trim_start().is_empty() {
+                        space = Some(end);
+                    }
+                    if cells >= usize::from(width.max(1)) {
+                        break;
+                    }
+                }
+                if end < rest.len() {
+                    end = space.unwrap_or(end);
+                }
+                self.push(&rest[..end], top, height);
+                rest = &rest[end..];
+            }
+        }
+    }
+    fn push(&mut self, row: &str, top: usize, height: u16) {
+        if self.total >= top && self.rows.len() < usize::from(height) {
+            self.rows.push(row.to_owned());
+        }
+        self.total += 1;
+    }
+}
+
 /// Local presentation state for one roster. Feed a new roster when the session
 /// changes (or replace this state), retaining completed entries in owner data.
 /// Deliberately not Clone: the canonical Stage owns a unique performance clock.
@@ -163,6 +226,8 @@ pub struct SubagentViewState {
     output: bool,
     output_top: usize,
     output_end: usize,
+    had_outcome: bool,
+    output_window: OutputWindow,
     detail: bool,
     visible: bool,
     now: Option<Instant>,
@@ -188,6 +253,8 @@ impl Default for SubagentViewState {
             output: false,
             output_top: 0,
             output_end: 0,
+            had_outcome: false,
+            output_window: OutputWindow::default(),
             detail: false,
             visible: true,
             now: None,
@@ -226,6 +293,8 @@ impl SubagentViewState {
             self.event_top = None;
             self.event_end = 0;
             self.output = agents[index].outcome.is_some();
+            self.had_outcome = self.output;
+            self.output_window = OutputWindow::default();
             self.output_top = 0;
             self.output_end = 0;
         }
@@ -279,9 +348,13 @@ impl SubagentViewState {
             self.flourish_until = None;
             return;
         };
-        if agent.outcome.is_none() {
+        if agent.outcome.is_some() && !self.had_outcome {
+            self.output = true;
+            self.output_top = 0;
+        } else if agent.outcome.is_none() {
             self.output = false;
         }
+        self.had_outcome = agent.outcome.is_some();
         let identity = (agent.id.to_string(), agent.card.status.state);
         if self.observed.as_ref() != Some(&identity) {
             self.flourish_until = self
@@ -520,6 +593,8 @@ pub struct SubagentViewWords<'a> {
     pub open: Cow<'a, str>,
     pub message: Cow<'a, str>,
     pub stop: Cow<'a, str>,
+    /// Optional localized receipt label, painted as `label: count`.
+    pub steps_label: Option<Cow<'a, str>>,
     /// Override the default English summary with the owner's localized counts.
     pub summary: Option<Cow<'a, str>>,
 }
@@ -537,6 +612,7 @@ impl Default for SubagentViewWords<'_> {
             open: "Enter open".into(),
             message: "M message".into(),
             stop: "X stop".into(),
+            steps_label: None,
             summary: None,
         }
     }
@@ -657,6 +733,10 @@ impl<'a> SubagentView<'a> {
         if state.index >= state.offset + state.shown {
             state.offset = state.index + 1 - state.shown;
         }
+        let rows = Rect {
+            height: area.height.saturating_sub(u16::from(clipped)),
+            ..area
+        };
         for (index, agent) in self
             .agents
             .iter()
@@ -665,7 +745,10 @@ impl<'a> SubagentView<'a> {
             .take(state.shown)
         {
             let y = ((index - state.offset) as u16) * size;
-            let entry = Rect::new(area.x, area.y + y, area.width, size.min(area.height - y));
+            if y >= rows.height {
+                break;
+            }
+            let entry = Rect::new(rows.x, rows.y + y, rows.width, size.min(rows.height - y));
             let selected = state.selected_id() == Some(&*agent.id);
             state.rows.push((entry, agent.id.to_string()));
             if selected {
@@ -723,7 +806,7 @@ impl<'a> SubagentView<'a> {
             );
             self.line(body, 1, &agent.card.task, Role::Foreground, buf);
             if size == 4 {
-                let usage = agent.usage_text(self.theme.ascii());
+                let usage = agent.usage_text(self.theme.ascii(), self.words.steps_label.as_deref());
                 let facts: Vec<&str> = [
                     agent.card.role.as_deref(),
                     Some(usage.as_str()).filter(|s| !s.is_empty()),
@@ -798,8 +881,8 @@ impl<'a> SubagentView<'a> {
         y += self.wrapped(
             area,
             y,
-            &agent.usage_text(self.theme.ascii()),
-            3,
+            &agent.usage_text(self.theme.ascii(), self.words.steps_label.as_deref()),
+            area.height.saturating_sub(y),
             Role::Muted,
             buf,
         );
@@ -853,22 +936,22 @@ impl<'a> SubagentView<'a> {
             return;
         }
         let body = Rect::new(area.x, area.y + y, area.width, area.height - y);
-        // Reuse the Unicode-safe composer wrapper for output, then select rows
-        // with usize indices. Paragraph's u16 scroll cannot reach long results.
-        let output_lines = output.then(|| {
-            agent
-                .outcome
-                .as_deref()
-                .unwrap_or("")
-                .split('\n')
-                .flat_map(|line| {
-                    crate::native_composer_wrap_text(
-                        &text::display_safe(line),
-                        usize::from(body.width),
-                    )
-                })
-                .collect::<Vec<_>>()
-        });
+        // Cache only the visible window, never a String per physical row.
+        // Long results keep bounded paint memory, including newline-heavy data.
+        if output
+            && (state.output_window.source != agent.outcome.as_deref().unwrap_or("")
+                || state
+                    .output_window
+                    .geometry
+                    .is_none_or(|g| g.0 != body.width))
+        {
+            state.output_window.prepare(
+                agent.outcome.as_deref().unwrap_or(""),
+                body.width,
+                body.height,
+                state.output_top,
+            );
+        }
         let paragraph = if output {
             None
         } else {
@@ -900,10 +983,11 @@ impl<'a> SubagentView<'a> {
                 .collect();
             Some(Paragraph::new(lines).wrap(Wrap { trim: false }))
         };
-        let total = output_lines.as_ref().map_or_else(
-            || paragraph.as_ref().map_or(0, |p| p.line_count(body.width)),
-            Vec::len,
-        );
+        let total = if output {
+            state.output_window.total
+        } else {
+            paragraph.as_ref().map_or(0, |p| p.line_count(body.width))
+        };
         // Reserve a range indicator only when there is content to scroll.
         let clipped = total > usize::from(body.height) && body.height > 1;
         let content = Rect {
@@ -920,10 +1004,17 @@ impl<'a> SubagentView<'a> {
             state.event_top = state.event_top.map(|top| top.min(end));
             state.event_top.unwrap_or(end)
         };
-        if let Some(lines) = output_lines {
-            for (y, line) in lines
+        if output {
+            state.output_window.prepare(
+                agent.outcome.as_deref().unwrap_or(""),
+                body.width,
+                content.height,
+                top,
+            );
+            for (y, line) in state
+                .output_window
+                .rows
                 .iter()
-                .skip(top)
                 .take(usize::from(content.height))
                 .enumerate()
             {
@@ -1027,5 +1118,27 @@ impl StatefulWidget for SubagentView<'_> {
                 buf,
             );
         }
+    }
+}
+
+#[cfg(test)]
+mod output_window_tests {
+    use super::OutputWindow;
+    #[test]
+    fn newline_heavy_output_retains_only_the_viewport_and_reuses_it() {
+        let source = "\n".repeat(8 * 1024 * 1024);
+        let mut window = OutputWindow::default();
+        window.prepare(&source, 30, 12, 0);
+        assert_eq!(window.total, source.len() + 1);
+        assert_eq!(window.rows.len(), 12);
+        let allocation = window.rows.as_ptr();
+        window.prepare(&source, 30, 12, 0);
+        assert_eq!(window.rows.as_ptr(), allocation);
+    }
+    #[test]
+    fn exact_width_output_preserves_only_source_blank_lines() {
+        let mut window = OutputWindow::default();
+        window.prepare("12345\ndone\n\n", 5, 10, 0);
+        assert_eq!(window.rows, ["12345", "done", "", ""]);
     }
 }

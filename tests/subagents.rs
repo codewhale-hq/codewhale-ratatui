@@ -656,3 +656,64 @@ fn output_scrolling_reaches_beyond_the_terminal_scroll_integer_limit() {
     assert!(output.contains("line-69999"), "{output}");
     assert!(output.contains("/ 70001"));
 }
+
+#[test]
+fn newly_reported_outcome_opens_once_and_preserves_an_explicit_activity_choice() {
+    let now = Instant::now();
+    let mut agents = vec![fixture("a", State::Working)];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, now, MotionMode::Reduced);
+    agents[0].outcome = Some("New actual result".into());
+    agents[0].card.status = codewhale_ratatui::StatusMark::new(State::Done);
+    state.update(&agents, now + Duration::from_secs(1), MotionMode::Reduced);
+    let buf = render(&agents, &mut state, Profile::DarkTrue, 100, 32);
+    assert!(
+        buf.content
+            .iter()
+            .map(|c| c.symbol())
+            .collect::<String>()
+            .contains("New actual result")
+    );
+    state.handle_key(&agents, key(KeyCode::Char('o')));
+    state.update(&agents, now + Duration::from_secs(2), MotionMode::Reduced);
+    let buf = render(&agents, &mut state, Profile::DarkTrue, 100, 32);
+    assert!(
+        !buf.content
+            .iter()
+            .map(|c| c.symbol())
+            .collect::<String>()
+            .contains("New actual result")
+    );
+}
+
+#[test]
+fn a_tiny_roster_range_indicator_is_not_a_hidden_worker_hit_target() {
+    let agents: Vec<_> = (0..4)
+        .map(|id| fixture(&id.to_string(), State::Working))
+        .collect();
+    for height in [6, 7] {
+        let mut state = SubagentViewState::default();
+        state.update(&agents, Instant::now(), MotionMode::Reduced);
+        let frame = render(&agents, &mut state, Profile::DarkTrue, 40, height);
+        let row = frame
+            .content
+            .chunks(40)
+            .position(|row| {
+                row.iter()
+                    .map(|c| c.symbol())
+                    .collect::<String>()
+                    .contains("1-1 / 4")
+            })
+            .unwrap();
+        assert!(!state.handle_mouse(
+            &agents,
+            MouseEvent {
+                kind: MouseEventKind::Down(MouseButton::Left),
+                column: 2,
+                row: row as u16,
+                modifiers: KeyModifiers::NONE
+            }
+        ));
+        assert_eq!(state.selected_id(), Some("0"));
+    }
+}
