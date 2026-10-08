@@ -301,6 +301,10 @@ Engine connection, agents, responses, usage, or fabricated work.
 Markdown renderer. Wide terminals show the retained roster beside the pet and
 response; narrower terminals switch to the roster when focused. Content takes
 space before scenery. Response scrolling uses `usize`, including Home/End.
+Streamed text follows the bottom until the reader scrolls back. End or scrolling
+to the bottom resumes following; Home keeps the beginning in view. A new typed
+turn identity resets following, and hosts can call `reset_output` at an explicit
+turn-start event when an identity is not available yet.
 
 Call `set_visible` and `update` before paint, and schedule only the deadline
 returned by `next_frame_in`. Hidden/reduced views schedule no motion; a real
