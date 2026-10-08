@@ -6,7 +6,7 @@ use crate::{
     SubagentViewWords, Theme, WhalePet, text,
     whale_motion::{Inputs, Presence, Stage, Tier},
 };
-use crossterm::event::{KeyCode, KeyEvent, MouseEvent, MouseEventKind};
+use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseEvent, MouseEventKind};
 use ratatui::{
     buffer::Buffer,
     layout::Rect,
@@ -35,17 +35,18 @@ impl PetModeAreas {
             height: area.height.min(2),
             ..area
         };
+        let footer_height = area.height.saturating_sub(header.height).min(2);
         let footer = Rect::new(
             area.x,
-            area.bottom().saturating_sub(area.height.min(2)),
+            area.bottom().saturating_sub(footer_height),
             area.width,
-            area.height.min(2),
+            footer_height,
         );
         let body = Rect::new(
             area.x,
             header.bottom(),
             area.width,
-            area.height.saturating_sub(4),
+            area.height.saturating_sub(header.height + footer_height),
         );
         let mut plan = Self {
             header,
@@ -94,8 +95,6 @@ pub struct PetModeState {
     session: Option<String>,
     visible: bool,
     motion: MotionMode,
-    last_presence: Option<Presence>,
-    flourish_until: Option<Instant>,
     stage_animates: bool,
 }
 
@@ -114,25 +113,26 @@ impl PetModeState {
             self.agents.set_visible(self.visible);
             self.output_scroll = 0;
             self.focus_agents = false;
-            self.last_presence = None;
-            self.flourish_until = None;
             self.session = session.map(str::to_owned);
         }
-        if inputs.presence == Presence::Done
-            && self.last_presence.is_some_and(|p| p != Presence::Done)
-        {
-            self.flourish_until = now.checked_add(Duration::from_millis(1400));
-        }
-        self.last_presence = Some(inputs.presence);
-        let settled = matches!(
-            inputs.context.status.as_deref(),
-            Some("completed" | "failed" | "error" | "cancelled" | "canceled" | "interrupted")
-        ) || inputs.presence == Presence::Done;
-        self.stage_animates = !settled || self.flourish_until.is_some_and(|end| now < end);
+        let settled = inputs.presence == Presence::Done
+            || (matches!(
+                inputs.presence,
+                Presence::Idle | Presence::Listening | Presence::Offline
+            ) && matches!(
+                inputs.context.status.as_deref(),
+                Some("completed" | "failed" | "error" | "cancelled" | "canceled" | "interrupted")
+            ));
         self.motion = motion;
+        self.stage.set_visible(self.visible);
+        self.agents.set_visible(self.visible);
         self.stage
-            .observe(session, inputs, !motion.animates() || !self.stage_animates);
+            .observe(session, inputs.clone(), !motion.animates());
         self.stage.advance(now);
+        self.stage_animates = !settled || self.stage.director().completing();
+        if !self.stage_animates {
+            self.stage.observe(session, inputs, true);
+        }
         self.agents.update(agents, now, motion);
         if agents.is_empty() {
             self.focus_agents = false;
@@ -181,15 +181,21 @@ impl PetModeState {
 
     /// Result scrolling or roster navigation, depending on the visible focus.
     pub fn scroll(&mut self, agents: &[Subagent<'_>], lines: i16) {
+        if lines == 0 {
+            return;
+        }
         if self.focus_agents {
-            self.agents.handle_key(
-                agents,
-                KeyEvent::from(if lines < 0 {
-                    KeyCode::Up
-                } else {
-                    KeyCode::Down
-                }),
-            );
+            let index = self
+                .agents
+                .selected_id()
+                .and_then(|id| agents.iter().position(|agent| agent.id == id))
+                .unwrap_or(0);
+            let target = index
+                .saturating_add_signed(isize::from(lines))
+                .min(agents.len().saturating_sub(1));
+            if let Some(agent) = agents.get(target) {
+                self.agents.select(agents, &agent.id);
+            }
         } else {
             self.output_scroll = self.output_scroll.saturating_add_signed(isize::from(lines));
         }
@@ -215,6 +221,34 @@ impl PetModeState {
             .handle_key(agents, KeyEvent::from(KeyCode::Enter))
     }
 
+    /// Tab switches the composed pane. Focused roster keys return the same
+    /// capability-gated intents as SubagentView; the host owns every action.
+    pub fn handle_key(&mut self, agents: &[Subagent<'_>], key: KeyEvent) -> Option<SubagentIntent> {
+        if !self.visible
+            || key.kind == KeyEventKind::Release
+            || !key.modifiers.difference(KeyModifiers::SHIFT).is_empty()
+        {
+            return None;
+        }
+        if key.code == KeyCode::Tab && key.modifiers.is_empty() {
+            self.toggle_agents(agents);
+            return None;
+        }
+        if self.focus_agents {
+            return self.agents.handle_key(agents, key);
+        }
+        match key.code {
+            KeyCode::Up => self.scroll(agents, -1),
+            KeyCode::Down => self.scroll(agents, 1),
+            KeyCode::PageUp => self.scroll(agents, -10),
+            KeyCode::PageDown => self.scroll(agents, 10),
+            KeyCode::Home => self.scroll_end(agents, false),
+            KeyCode::End => self.scroll_end(agents, true),
+            _ => {}
+        }
+        None
+    }
+
     /// A click/wheel on the roster uses its recorded IDs; a wheel on the
     /// response scrolls it. No pointer input executes a worker action.
     pub fn handle_mouse(&mut self, agents: &[Subagent<'_>], mouse: MouseEvent) -> bool {
@@ -222,6 +256,10 @@ impl PetModeState {
             return false;
         }
         let point = (mouse.column, mouse.row).into();
+        let cove_point = WhalePet::point(self.areas.pet, mouse.column, mouse.row);
+        if cove_point.is_none() {
+            self.stage.cove_leave();
+        }
         if self.areas.agents.contains(point) && self.agents.handle_mouse(agents, mouse) {
             self.focus_agents = true;
             return true;
@@ -239,7 +277,7 @@ impl PetModeState {
             self.focus_agents = false;
             return true;
         }
-        if let Some((x, y)) = WhalePet::point(self.areas.pet, mouse.column, mouse.row) {
+        if let Some((x, y)) = cove_point {
             self.stage.cove_observe(x, y);
             if matches!(
                 mouse.kind,
@@ -249,7 +287,6 @@ impl PetModeState {
             }
             return true;
         }
-        self.stage.cove_leave();
         false
     }
 }
@@ -401,5 +438,39 @@ impl StatefulWidget for PetMode<'_> {
                 .style(self.theme.fg(Role::Muted))
                 .render(plan.footer, buf);
         }
+    }
+}
+
+#[cfg(test)]
+mod visibility_tests {
+    use super::*;
+    #[test]
+    fn default_hidden_updates_do_not_advance_the_parent_clock() {
+        let mut state = PetModeState::default();
+        let now = Instant::now();
+        let inputs = Inputs {
+            presence: Presence::Working,
+            activity: None,
+            context: Default::default(),
+        };
+        state.update(Some("session"), inputs.clone(), &[], now, MotionMode::Full);
+        state.update(
+            Some("session"),
+            inputs.clone(),
+            &[],
+            now + Duration::from_secs(30),
+            MotionMode::Full,
+        );
+        assert!(!state.stage.is_visible());
+        assert_eq!(state.stage.director().f, 0.);
+        state.set_visible(true);
+        state.update(
+            Some("session"),
+            inputs,
+            &[],
+            now + Duration::from_secs(30),
+            MotionMode::Full,
+        );
+        assert_eq!(state.stage.director().f, 0.);
     }
 }
