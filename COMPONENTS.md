@@ -201,11 +201,16 @@ view_state.update(&agents, std::time::Instant::now(), MotionMode::Full);
 ```
 
 Use a unique, nonempty `Subagent::id` and retain the view state between frames.
-Selection follows that identity through reordering. `handle_key` accepts
+Selection follows that identity through reordering. The state intentionally
+owns a unique canonical Stage and cannot be cloned: keep one state per surface
+instead of copying a running performance clock. `handle_key` accepts
 Up/Down (or J/K), Home/End, Tab/Shift-Tab for attention, Space or Left/Right
 for compact details, and PageUp/PageDown for activity history. Wide terminals
 show both panes; compact terminals switch between them. History follows the
-newest receipt until the person scrolls back. `SubagentViewWords` localizes
+newest receipt until the person scrolls back; appended receipts leave that
+older viewport anchored. Focused details retain reported elapsed time and
+tokens. Each newly observed working/checking interval earns its own native
+pending-mark delay. `SubagentViewWords` localizes
 labels and summary; each existing `AgentCard` owns its status word.
 
 Enable only currently authorized `SubagentControls`. Enter, M and X return

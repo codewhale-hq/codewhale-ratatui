@@ -3,6 +3,7 @@
 
 use std::{
     borrow::Cow,
+    collections::{HashMap, HashSet},
     time::{Duration, Instant},
 };
 
@@ -85,6 +86,19 @@ impl<'a> Subagent<'a> {
             controls: SubagentControls::default(),
         }
     }
+
+    fn usage(&self) -> String {
+        [
+            self.elapsed
+                .map(duration)
+                .or_else(|| self.card.elapsed.as_deref().map(str::to_owned)),
+            self.tokens.as_deref().map(str::to_owned),
+        ]
+        .into_iter()
+        .flatten()
+        .collect::<Vec<_>>()
+        .join(" / ")
+    }
 }
 
 /// Returned to the host only. In particular, Stop is a request, not a state
@@ -98,15 +112,18 @@ pub enum SubagentIntent {
 
 /// Local presentation state for one roster. Feed a new roster when the session
 /// changes (or replace this state), retaining completed entries in owner data.
+/// Deliberately not Clone: the canonical Stage owns a unique performance clock.
+/// Keep one state per surface instead of copying an in-flight Director.
 pub struct SubagentViewState {
     selected: Option<String>,
     index: usize,
     offset: usize,
-    event_scroll: usize,
+    event_top: Option<usize>,
+    event_end: usize,
     detail: bool,
     visible: bool,
     now: Option<Instant>,
-    started: Option<Instant>,
+    working: HashMap<String, (bool, Instant)>,
     motion: MotionMode,
     stage: Stage,
     observed: Option<(String, State)>,
@@ -121,11 +138,12 @@ impl Default for SubagentViewState {
             selected: None,
             index: 0,
             offset: 0,
-            event_scroll: 0,
+            event_top: None,
+            event_end: 0,
             detail: false,
             visible: true,
             now: None,
-            started: None,
+            working: HashMap::new(),
             motion: MotionMode::Full,
             stage: Stage::new(),
             observed: None,
@@ -155,7 +173,8 @@ impl SubagentViewState {
         }
         let index = agents.iter().position(|a| a.id == id).unwrap_or(0);
         if self.selected.as_deref() != Some(id) {
-            self.event_scroll = 0;
+            self.event_top = None;
+            self.event_end = 0;
         }
         self.selected = Some(id.to_owned());
         self.index = index;
@@ -167,8 +186,30 @@ impl SubagentViewState {
     /// settle; an observed Working -> Done earns one brief native flourish.
     pub fn update(&mut self, agents: &[Subagent<'_>], now: Instant, motion: MotionMode) {
         self.now = Some(now);
-        self.started.get_or_insert(now);
         self.motion = motion;
+        // Presentation onsets only: no worker lifecycle or elapsed-time claims
+        // are derived from this cache. Drop entries as soon as work stops.
+        let active: HashSet<_> = agents
+            .iter()
+            .filter(|a| a.card.status.state == State::Working)
+            .map(|a| a.id.as_ref())
+            .collect();
+        self.working
+            .retain(|id, _| self.visible && active.contains(id.as_str()));
+        if self.visible {
+            for agent in agents
+                .iter()
+                .filter(|a| a.card.status.state == State::Working)
+            {
+                let phase = self
+                    .working
+                    .entry(agent.id.to_string())
+                    .or_insert((agent.checking, now));
+                if phase.0 != agent.checking {
+                    *phase = (agent.checking, now);
+                }
+            }
+        }
         let retained = self
             .selected
             .clone()
@@ -219,14 +260,17 @@ impl SubagentViewState {
 
     /// Hiding stops animation; resuming discards the hidden interval.
     pub fn set_visible(&mut self, visible: bool) {
+        if self.visible == visible {
+            return;
+        }
         self.visible = visible;
         self.stage.set_visible(visible);
-        self.started = self.now;
+        self.working.clear();
     }
 
-    fn elapsed(&self) -> Duration {
+    fn mark_elapsed(&self, agent: &Subagent<'_>) -> Duration {
         self.now
-            .zip(self.started)
+            .zip(self.working.get(agent.id.as_ref()).map(|(_, start)| *start))
             .map_or(Duration::ZERO, |(now, start)| {
                 now.saturating_duration_since(start)
             })
@@ -244,9 +288,9 @@ impl SubagentViewState {
             .iter()
             .skip(self.offset)
             .take(self.shown)
-            .any(|a| a.card.status.state == State::Working)
-            .then(|| spin::next_frame_in(self.elapsed(), self.motion))
-            .flatten();
+            .filter(|a| a.card.status.state == State::Working)
+            .filter_map(|agent| spin::next_frame_in(self.mark_elapsed(agent), self.motion))
+            .min();
         let pet = self
             .pet_visible
             .then(|| {
@@ -312,11 +356,14 @@ impl SubagentViewState {
                 None
             }
             KeyCode::PageUp => {
-                self.event_scroll = self.event_scroll.saturating_add(5);
+                self.event_top = Some(self.event_top.unwrap_or(self.event_end).saturating_sub(5));
                 None
             }
             KeyCode::PageDown => {
-                self.event_scroll = self.event_scroll.saturating_sub(5);
+                self.event_top = self.event_top.and_then(|top| {
+                    let next = top.saturating_add(5);
+                    (next < self.event_end).then_some(next)
+                });
                 None
             }
             _ => None,
@@ -468,9 +515,9 @@ impl<'a> SubagentView<'a> {
         if agent.card.status.state != State::Working {
             agent.card.status.glyph(self.theme)
         } else if agent.checking {
-            VerificationSpinner::frame(state.elapsed(), state.motion, self.theme.ascii())
+            VerificationSpinner::frame(state.mark_elapsed(agent), state.motion, self.theme.ascii())
         } else {
-            spin::frame(state.elapsed(), state.motion, self.theme.ascii())
+            spin::frame(state.mark_elapsed(agent), state.motion, self.theme.ascii())
         }
     }
 
@@ -558,13 +605,10 @@ impl<'a> SubagentView<'a> {
             );
             self.line(body, 1, &agent.card.task, Role::Foreground, buf);
             if size == 4 {
-                let facts: Vec<String> = [
-                    agent.card.role.as_deref().map(str::to_owned),
-                    agent
-                        .elapsed
-                        .map(duration)
-                        .or_else(|| agent.card.elapsed.as_deref().map(str::to_owned)),
-                    agent.tokens.as_deref().map(str::to_owned),
+                let usage = agent.usage();
+                let facts: Vec<&str> = [
+                    agent.card.role.as_deref(),
+                    Some(usage.as_str()).filter(|s| !s.is_empty()),
                 ]
                 .into_iter()
                 .flatten()
@@ -628,6 +672,7 @@ impl<'a> SubagentView<'a> {
                 self.theme,
             );
         }
+        self.line(area, 6, &agent.usage(), Role::Muted, buf);
         let pet_height = if area.height >= 19
             && area.width >= 26
             && agent.performance.is_some()
@@ -643,8 +688,6 @@ impl<'a> SubagentView<'a> {
                 .words(agent.card.status.word.to_string())
                 .paint(pet, buf, &mut state.stage);
             state.pet_visible = true;
-        } else if agent.performance.is_none() {
-            self.line(area, 6, &self.words.no_performance, Role::Muted, buf);
         }
         let start = 7 + pet_height;
         if area.height <= start {
@@ -652,10 +695,14 @@ impl<'a> SubagentView<'a> {
         }
         let log = Rect::new(area.x, area.y + start, area.width, area.height - start);
         self.line(log, 0, &self.words.activity, Role::Primary, buf);
-        if log.height < 2 {
+        let header = 1 + u16::from(agent.performance.is_none());
+        if agent.performance.is_none() {
+            self.line(log, 1, &self.words.no_performance, Role::Muted, buf);
+        }
+        if log.height <= header {
             return;
         }
-        let body = Rect::new(log.x, log.y + 1, log.width, log.height - 1);
+        let body = Rect::new(log.x, log.y + header, log.width, log.height - header);
         if agent.events.is_empty() {
             self.line(body, 0, &self.words.no_events, Role::Muted, buf);
             return;
@@ -684,11 +731,11 @@ impl<'a> SubagentView<'a> {
         let end = paragraph
             .line_count(body.width)
             .saturating_sub(usize::from(body.height));
-        state.event_scroll = state.event_scroll.min(end);
+        state.event_end = end;
+        state.event_top = state.event_top.map(|top| top.min(end));
         paragraph
             .scroll((
-                end.saturating_sub(state.event_scroll)
-                    .min(usize::from(u16::MAX)) as u16,
+                state.event_top.unwrap_or(end).min(usize::from(u16::MAX)) as u16,
                 0,
             ))
             .render(body, buf);
@@ -735,7 +782,13 @@ impl StatefulWidget for SubagentView<'_> {
         self.line(area, 1, &summary, Role::Muted, buf);
         let (roster, detail) = Self::areas(area, state.detail);
         if self.agents.is_empty() {
-            self.line(roster, 0, &self.words.empty, Role::Muted, buf);
+            self.line(
+                if roster.is_empty() { detail } else { roster },
+                0,
+                &self.words.empty,
+                Role::Muted,
+                buf,
+            );
         } else {
             self.roster(roster, buf, state);
             self.details(detail, buf, state);

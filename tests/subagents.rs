@@ -426,3 +426,112 @@ fn live_native_pet_keeps_every_terminal_profiles_color_contract() {
         }
     }
 }
+
+#[test]
+fn compact_details_keep_reported_usage_and_authored_elapsed_fallback() {
+    let mut agents = [fixture("a", State::Working)];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    state.handle_key(&agents, key(KeyCode::Right));
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains("1m 23s / 12k tokens"));
+    agents[0].elapsed = None;
+    agents[0].card.elapsed = Some("owner time unavailable".into());
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains("owner time unavailable / 12k tokens"));
+}
+
+#[test]
+fn empty_roster_keeps_its_message_after_compact_peek() {
+    let agents = [fixture("a", State::Working)];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Full);
+    state.handle_key(&agents, key(KeyCode::Right));
+    state.update(&[], Instant::now(), MotionMode::Full);
+    let output = testing::text(&render(&[], &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains("No agents reported"));
+    assert_eq!(state.next_frame_in(&[], &Profile::DarkTrue.theme()), None);
+}
+
+#[test]
+fn each_working_and_checking_onset_earns_the_native_pending_delay() {
+    let mut agents = vec![fixture("a", State::Ready)];
+    agents[0].performance = None;
+    let mut state = SubagentViewState::default();
+    let start = Instant::now();
+    state.update(&agents, start, MotionMode::Full);
+    render(&agents, &mut state, Profile::DarkTrue, 48, 26);
+    let onset = start + Duration::from_secs(10);
+    agents[0].card.status = codewhale_ratatui::StatusMark::new(State::Working);
+    state.update(&agents, onset, MotionMode::Full);
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains(&format!(
+        "{} Working",
+        codewhale_ratatui::spin::PENDING_FRAME
+    )));
+    state.update(
+        &agents,
+        onset + Duration::from_millis(399),
+        MotionMode::Full,
+    );
+    assert_eq!(
+        state.next_frame_in(&agents, &Profile::DarkTrue.theme()),
+        Some(Duration::from_millis(1))
+    );
+    state.update(
+        &agents,
+        onset + Duration::from_millis(401),
+        MotionMode::Full,
+    );
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains(&format!("{} Working", codewhale_ratatui::spin::FRAMES[0])));
+    agents[0].checking = true;
+    state.update(&agents, onset + Duration::from_secs(2), MotionMode::Full);
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(output.contains(&format!(
+        "{} Working",
+        codewhale_ratatui::spin::PENDING_FRAME
+    )));
+    agents.push(fixture("b", State::Working));
+    state.update(&agents, onset + Duration::from_secs(3), MotionMode::Full);
+    let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+    assert!(
+        output
+            .lines()
+            .nth(7)
+            .unwrap()
+            .contains(codewhale_ratatui::spin::PENDING_FRAME)
+    );
+}
+
+#[test]
+fn appended_wrapped_receipts_do_not_move_a_paused_history_viewport() {
+    let mut agents = [fixture("a", State::Working)];
+    agents[0].events = (0..30)
+        .map(|i| SubagentEvent::new(format!("{i:02}"), State::Done, format!("receipt-{i:02}")))
+        .collect();
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    state.handle_key(&agents, key(KeyCode::Right));
+    render(&agents, &mut state, Profile::Ascii, 48, 26);
+    state.handle_key(&agents, key(KeyCode::PageUp));
+    let older = render(&agents, &mut state, Profile::Ascii, 48, 26);
+    agents[0].events.push(SubagentEvent::new(
+        "30",
+        State::Working,
+        "NEW-RECEIPT ".repeat(20),
+    ));
+    assert_eq!(older, render(&agents, &mut state, Profile::Ascii, 48, 26));
+    for _ in 0..10 {
+        state.handle_key(&agents, key(KeyCode::PageDown));
+    }
+    let latest = testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26));
+    assert!(latest.contains("NEW-RECEIPT"));
+    agents[0]
+        .events
+        .push(SubagentEvent::new("31", State::Done, "latest receipt"));
+    assert!(
+        testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26))
+            .contains("latest receipt")
+    );
+}
