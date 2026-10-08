@@ -337,3 +337,112 @@ fn populated_roster_and_response_remain_readable_at_wide_and_compact_sizes() {
         }
     }
 }
+
+#[test]
+fn clicking_reply_changes_focus_without_opening_or_messaging_an_agent() {
+    let theme = Profile::Ascii.theme();
+    let agents = [Subagent::new(
+        "worker",
+        AgentCard::new("Worker", State::Working),
+    )];
+    let mut state = PetModeState::default();
+    state.set_visible(true);
+    state.update(
+        Some("session"),
+        inputs(Presence::Working),
+        &agents,
+        Instant::now(),
+        MotionMode::Still,
+    );
+    state.focus_agents = true;
+    let output = [Line::raw("actual reply")];
+    testing::render(140, 40, |area, buf| {
+        let mut view = PetMode::new(&theme, StatusMark::new(State::Working));
+        view.agents = &agents;
+        view.output = &output;
+        view.render(area, buf, &mut state);
+    });
+    let output = PetModeAreas::new(Rect::new(0, 0, 140, 40), true, true, true).output;
+    assert!(state.handle_mouse(
+        &agents,
+        MouseEvent {
+            kind: MouseEventKind::Down(crossterm::event::MouseButton::Left),
+            column: output.x,
+            row: output.y,
+            modifiers: KeyModifiers::NONE,
+        }
+    ));
+    assert!(!state.focus_agents);
+    assert!(
+        state
+            .handle_key(&agents, KeyEvent::new(KeyCode::Enter, KeyModifiers::NONE))
+            .is_none()
+    );
+}
+
+#[test]
+fn focused_reading_and_clipped_hints_stay_legible_across_terminal_profiles() {
+    for profile in [
+        Profile::DarkTrue,
+        Profile::LightTrue,
+        Profile::NoColor,
+        Profile::Ascii,
+    ] {
+        let theme = profile.theme();
+        let agents = [Subagent::new(
+            "worker",
+            AgentCard::new("Worker", State::Working),
+        )];
+        let output: Vec<_> = (1..=90)
+            .map(|row| Line::raw(format!("Reply row {row}")))
+            .collect();
+        let mut state = PetModeState::default();
+        state.set_visible(true);
+        state.update(
+            Some("session"),
+            inputs(Presence::Working),
+            &agents,
+            Instant::now(),
+            MotionMode::Still,
+        );
+        for focus_agents in [false, true] {
+            state.focus_agents = focus_agents;
+            let buf = testing::render(140, 40, |area, buf| {
+                let mut view = PetMode::new(&theme, StatusMark::new(State::Working));
+                view.agents = &agents;
+                view.agent_words.title = "Agents".into();
+                view.output = &output;
+                view.output_title = "Reply".into();
+                view.hints = "Esc message · Tab switch view".into();
+                view.pane_hints = "Up/Down select · Enter transcript".into();
+                view.render(area, buf, &mut state);
+            });
+            let marker = if theme.ascii() { "> " } else { "› " };
+            let rendered = text(&buf);
+            assert!(rendered.contains(&format!(
+                "{marker}{}",
+                if focus_agents { "Agents" } else { "Reply" }
+            )));
+            assert!(rendered.contains("68-90 / 90"));
+            assert!(rendered.contains("Reply row 90"));
+            let plan = PetModeAreas::new(buf.area, true, true, focus_agents);
+            assert_eq!(
+                buf[(plan.agents.x - 1, plan.agents.y)].symbol(),
+                if theme.ascii() { "|" } else { "│" }
+            );
+            assert!(rendered.contains("Esc message"));
+            assert!(rendered.contains("Enter transcript"));
+        }
+        let buf = testing::render(12, 14, |area, buf| {
+            let mut view = PetMode::new(&theme, StatusMark::new(State::NeedsYou).word("Needs you"));
+            view.title = "A title that cannot fit".into();
+            view.hints = "Esc message · Tab switch view".into();
+            view.pane_hints = "Up select".into();
+            view.render(area, buf, &mut state);
+        });
+        let rendered = text(&buf);
+        assert!(rendered.contains("Needs you"));
+        assert!(rendered.contains("Up select"));
+        assert!(rendered.contains(if theme.ascii() { "..." } else { "…" }));
+    }
+}
