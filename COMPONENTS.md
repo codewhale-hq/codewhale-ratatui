@@ -168,6 +168,72 @@ reproducible actual-buffer animation frames; `--profile light-truecolor` selects
 the light preview. These are explicit demonstration inputs, not live Engine
 or shared-owner acceptance.
 
+## Live subagent view
+
+`SubagentView` extends the existing `Fleet` and `AgentCard` presentation with
+an interactive roster and a focused agent pane. Working and checking use the
+native phase marks. Reported task, elapsed time, token text, exact `CountBar`
+progress and chronological event receipts remain owner data. The focused
+`WhalePet` receives explicit canonical `Inputs`; no tool names or task text
+are classified by this view. Completed agents remain visible as long as the
+host retains them, and a full count never changes the owner's reported state.
+
+![Subagents reading, editing, waiting for input, checking and finishing](assets/readme/subagents-dark.gif)
+
+[Light appearance preview](assets/readme/subagents-light.gif).
+
+```rust,no_run
+use codewhale_ratatui::{
+    AgentCard, MotionMode, State, Subagent, SubagentView, SubagentViewState, Theme,
+};
+
+let agents = vec![Subagent::new(
+    "review",
+    AgentCard::new("Reef", State::Working).task("Review the patch"),
+)];
+let mut view_state = SubagentViewState::default();
+let theme = Theme::detect();
+view_state.update(&agents, std::time::Instant::now(), MotionMode::Full);
+// frame.render_stateful_widget(
+//     SubagentView::new(&agents, &theme), frame.area(), &mut view_state,
+// );
+// After painting, wait for view_state.next_frame_in(&agents, &theme) or input.
+```
+
+Use a unique, nonempty `Subagent::id` and retain the view state between frames.
+Selection follows that identity through reordering. `handle_key` accepts
+Up/Down (or J/K), Home/End, Tab/Shift-Tab for attention, Space or Left/Right
+for compact details, and PageUp/PageDown for activity history. Wide terminals
+show both panes; compact terminals switch between them. History follows the
+newest receipt until the person scrolls back. `SubagentViewWords` localizes
+labels and summary; each existing `AgentCard` owns its status word.
+
+Enable only currently authorized `SubagentControls`. Enter, M and X return
+`SubagentIntent::Open`, `Message` and `Stop` with the stable worker ID. They
+never open sessions, send messages, stop workers or change status themselves.
+The host must validate each intent against its current owner and permission
+state. Duplicate or empty IDs cannot receive an intent; held action keys do
+not repeat a request. This follows the familiar selected-row and detail
+interaction described in the [Claude Code agent view](https://code.claude.com/docs/en/agent-view),
+while keeping the existing Codewhale lifecycle and control boundaries.
+
+Call `update` on owner changes and scheduled frames; painting never advances
+time. Only visible working phase marks and the focused native pet schedule
+animation. An observed Working → Done earns a brief native flourish, then
+settles. Reduced/Still, hidden, empty and settled rosters schedule no timed
+redraws. Call `set_visible(false)` when the view is hidden. Unknown elapsed,
+usage, progress or performance stays absent. No count, receipt, status or
+percentage is generated from animation time.
+
+Run `cargo run --locked --example subagents` for the live fixture tour.
+N advances a phase, A toggles the tour, R replays, L changes motion and P
+cycles terminal profiles. Navigation and intent actions exercise the public
+component; example intents only print a local notice. `--frames DIR` exports
+200 actual-buffer frames; `--profile light-truecolor` selects the light preview.
+`--size 48x26` exports the compact roster and then its focused detail pane.
+The fixtures start no workers or providers. Engine integration and real-worker
+acceptance are separate from this reusable component.
+
 ## Shared native Dock tabs and packed character raster
 
 `Workbar` uses `DockTabRow` for its fitted tab paint and hitboxes. The Engine
