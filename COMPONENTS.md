@@ -308,7 +308,9 @@ turn-start event when an identity is not available yet.
 The active pane has a visible heading marker in every color profile; clipped
 responses show their visible row range. Clicking the response returns keyboard
 focus to reading. Set `hints` for navigation and `pane_hints` for the focused
-pane's controls to keep both visible on separate footer rows.
+pane's controls to keep both visible on separate footer rows. Narrow headers
+keep the activity label visible before the title, and clipped footer hints end
+with an ellipsis.
 
 Call `set_visible` and `update` before paint, and schedule only the deadline
 returned by `next_frame_in`. Hidden/reduced views schedule no motion; a real

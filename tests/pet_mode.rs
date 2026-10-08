@@ -379,3 +379,70 @@ fn clicking_reply_changes_focus_without_opening_or_messaging_an_agent() {
             .is_none()
     );
 }
+
+#[test]
+fn focused_reading_and_clipped_hints_stay_legible_across_terminal_profiles() {
+    for profile in [
+        Profile::DarkTrue,
+        Profile::LightTrue,
+        Profile::NoColor,
+        Profile::Ascii,
+    ] {
+        let theme = profile.theme();
+        let agents = [Subagent::new(
+            "worker",
+            AgentCard::new("Worker", State::Working),
+        )];
+        let output: Vec<_> = (1..=90)
+            .map(|row| Line::raw(format!("Reply row {row}")))
+            .collect();
+        let mut state = PetModeState::default();
+        state.set_visible(true);
+        state.update(
+            Some("session"),
+            inputs(Presence::Working),
+            &agents,
+            Instant::now(),
+            MotionMode::Still,
+        );
+        for focus_agents in [false, true] {
+            state.focus_agents = focus_agents;
+            let buf = testing::render(140, 40, |area, buf| {
+                let mut view = PetMode::new(&theme, StatusMark::new(State::Working));
+                view.agents = &agents;
+                view.agent_words.title = "Agents".into();
+                view.output = &output;
+                view.output_title = "Reply".into();
+                view.hints = "Esc message · Tab switch view".into();
+                view.pane_hints = "Up/Down select · Enter transcript".into();
+                view.render(area, buf, &mut state);
+            });
+            let marker = if theme.ascii() { "> " } else { "› " };
+            let rendered = text(&buf);
+            assert!(rendered.contains(&format!(
+                "{marker}{}",
+                if focus_agents { "Agents" } else { "Reply" }
+            )));
+            assert!(rendered.contains("68-90 / 90"));
+            assert!(rendered.contains("Reply row 90"));
+            let plan = PetModeAreas::new(buf.area, true, true, focus_agents);
+            assert_eq!(
+                buf[(plan.agents.x - 1, plan.agents.y)].symbol(),
+                if theme.ascii() { "|" } else { "│" }
+            );
+            assert!(rendered.contains("Esc message"));
+            assert!(rendered.contains("Enter transcript"));
+        }
+        let buf = testing::render(12, 14, |area, buf| {
+            let mut view = PetMode::new(&theme, StatusMark::new(State::NeedsYou).word("Needs you"));
+            view.title = "A title that cannot fit".into();
+            view.hints = "Esc message · Tab switch view".into();
+            view.pane_hints = "Up select".into();
+            view.render(area, buf, &mut state);
+        });
+        let rendered = text(&buf);
+        assert!(rendered.contains("Needs you"));
+        assert!(rendered.contains("Up select"));
+        assert!(rendered.contains(if theme.ascii() { "..." } else { "…" }));
+    }
+}
