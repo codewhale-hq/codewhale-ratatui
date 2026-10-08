@@ -281,3 +281,35 @@ geometry and offset fitting with Engine's body viewport. `WorkbarScrollbar`
 shares its rail math and paint. Native row composition, detail/focus gutters
 and caller action/tooltip projection remain Engine-owned; this does not yet
 claim full row-composer replacement by `Workbar`.
+
+
+## Full pet mode
+
+`PetMode` composes the canonical GPUI whale and cove, the host's retained agent
+roster, and its real response into one terminal work surface. `PetModeState`
+owns only presentation: one parent `Stage`, focus, scroll, and recorded pointer
+areas. The host supplies current session identity, typed `Inputs`, localized
+status/labels, wrapped transcript lines, and every execution action.
+
+![The full pet surface at rest; no worker activity is simulated](assets/readme/pet-mode-dark.gif)
+
+[Light appearance](assets/readme/pet-mode-light.gif). Run
+`cargo run --locked --example pet_mode` for this idle preview. It contains no
+Engine connection, agents, responses, usage, or fabricated work.
+
+`PetModeAreas::new` gives the host the exact response width for its existing
+Markdown renderer. Wide terminals show the retained roster beside the pet and
+response; narrower terminals switch to the roster when focused. Content takes
+space before scenery. Response scrolling uses `usize`, including Home/End.
+
+Call `set_visible` and `update` before paint, and schedule only the deadline
+returned by `next_frame_in`. Hidden/reduced views schedule no motion; a real
+completion earns one short flourish and then settles. A new session clears
+local focus and scroll. Roster clicks follow the painted worker ID; opening
+returns an intent for the host's existing transcript/permission path. A tap
+on the water affects only the canonical cove decoration.
+
+The Engine host adopts this surface through `/pet on`, using its current-session
+retained roster, active transcript, owner activity projection, modal stack and
+existing agent transcript event. Escape returns to its preserved composer;
+accepted turns return to the pet surface while the mode remains enabled.

@@ -51,6 +51,13 @@ jobs:
           cargo run --locked --example subagents -- --demo --frames target/subagents-light-frames --profile light-truecolor
           python3 tools/check-animation.py target/subagents-frames assets/readme/subagents-dark.gif
           python3 tools/check-animation.py target/subagents-light-frames assets/readme/subagents-light.gif
+      - name: Full pet surface tests and actual idle buffers
+        run: |
+          cargo test --locked --test pet_mode
+          cargo run --locked --example pet_mode -- --frames target/pet-mode-frames
+          cargo run --locked --example pet_mode -- --frames target/pet-mode-light-frames --profile light-truecolor
+          python3 tools/check-animation.py target/pet-mode-frames assets/readme/pet-mode-dark.gif
+          python3 tools/check-animation.py target/pet-mode-light-frames assets/readme/pet-mode-light.gif
       - name: Optional animation builder parses
         run: node --check tools/render-animation.cjs
       - name: Render the working and verification animation frames
