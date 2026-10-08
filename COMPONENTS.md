@@ -154,14 +154,3 @@ geometry and offset fitting with Engine's body viewport. `WorkbarScrollbar`
 shares its rail math and paint. Native row composition, detail/focus gutters
 and caller action/tooltip projection remain Engine-owned; this does not yet
 claim full row-composer replacement by `Workbar`.
-
-## Characters
-
-Codewhale has one pet system. `Whale` and `whale_motion` paint the Braille
-contour whale, which remains the default terminal whale. Every other
-character is an avatar pack painted by `avatar_sprite::Sprite`:
-`avatar_builtin::all()` lists the built-in Whale girl, Pixel whale and Pixel
-whale girl, and reviewed plugin packs join the same picker. The two pixel
-characters are hand-drawn pixel art and are painted on their own cell grid,
-never smoothed. See [AVATARS.md](AVATARS.md) for the pack format, the
-built-in list, sizes and fallbacks.

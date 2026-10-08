@@ -51,8 +51,7 @@ struct Studio {
     life_started: Duration,
     generation: u64,
     viewport: Rect,
-    /// 0 is the whale; then each built-in sprite character in picker order.
-    avatar: usize,
+    girl: bool,
 }
 impl Studio {
     fn new(now: Instant) -> Self {
@@ -63,21 +62,23 @@ impl Studio {
             life_started: Duration::ZERO,
             generation: 0,
             viewport: Rect::new(0, 0, 104, 30),
-            avatar: 0,
+            girl: false,
         }
     }
-    fn avatar(
-        &self,
-    ) -> Option<(
-        &'static str,
-        codewhale_ratatui::avatar_sprite::Sprite<'static>,
-    )> {
-        let builtin = codewhale_ratatui::avatar_builtin::all().get(self.avatar.checked_sub(1)?)?;
+    fn avatar(&self) -> Option<codewhale_ratatui::avatar_sprite::Sprite<'static>> {
+        if !self.girl {
+            return None;
+        }
         let d = self.stage.director();
-        let f = builtin
-            .pack()
-            .sample(d.acting.id(), d.f, d.reduced, None, None);
-        Some((&builtin.pack().name, builtin.sprite(f.index).ok()?))
+        let f = codewhale_ratatui::whale_girl::sample(d.acting.id(), d.f, d.reduced, None, None);
+        codewhale_ratatui::avatar_sprite::Sprite::new(
+            codewhale_ratatui::whale_girl::pack(),
+            codewhale_ratatui::whale_girl::TERMINAL,
+            96,
+            96,
+            f.index,
+        )
+        .ok()
     }
     fn elapsed(&self, now: Instant) -> Duration {
         now.saturating_duration_since(self.started)
@@ -239,8 +240,7 @@ impl Studio {
                 return false;
             }
             KeyCode::F(11) => {
-                self.avatar =
-                    (self.avatar + 1) % (codewhale_ratatui::avatar_builtin::all().len() + 1);
+                self.girl = !self.girl;
                 return false;
             }
             KeyCode::F(10) => {
@@ -663,11 +663,8 @@ fn export_frames(export: Export) -> io::Result<()> {
         let actor = studio.actor(base + elapsed, area, &theme);
         let buf = testing::render(area.width, area.height, |area, buf| {
             let frame = ShowcaseFrame::new(&studio.view, elapsed);
-            if let Some((name, sprite)) = studio.avatar() {
-                frame
-                    .avatar(sprite)
-                    .avatar_name(name)
-                    .paint(area, buf, &theme);
+            if let Some(sprite) = studio.avatar() {
+                frame.avatar(sprite).paint(area, buf, &theme);
             } else if let Some(actor) = &actor {
                 frame.whale(actor).paint(area, buf, &theme);
             } else {
@@ -716,12 +713,9 @@ fn main() -> io::Result<()> {
             } else {
                 None
             };
-            if let Some((name, sprite)) = studio.avatar() {
-                view.avatar(sprite).avatar_name(name).paint(
-                    frame.area(),
-                    frame.buffer_mut(),
-                    &theme,
-                );
+            if let Some(sprite) = studio.avatar() {
+                view.avatar(sprite)
+                    .paint(frame.area(), frame.buffer_mut(), &theme);
             } else if let Some(actor) = &actor {
                 view.whale(actor)
                     .paint(frame.area(), frame.buffer_mut(), &theme);

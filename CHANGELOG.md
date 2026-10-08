@@ -2,11 +2,6 @@
 
 ## Unreleased
 
-- Add two built-in avatar characters, Pixel whale and Pixel whale girl, as
-  packs of the one avatar system (`avatar_builtin`). `Sprite::pixel_art` keeps
-  hand-drawn pixel art on its own cell grid, cell for cell or at a whole-number
-  reduction, and `Sprite::crop` paints a pack's compact framing. The Braille
-  contour whale remains the default terminal whale.
 - Simplify the native showcase: concise conversation, sparse ambient life,
   muted metrics and optional workflow progress, with the original workbar
   given room for its rows.

@@ -21,9 +21,6 @@ pub struct Sprite<'a> {
     height: usize,
     frame: usize,
     transform: crate::avatar::Transform,
-    /// The part of every tile that is painted: x, y, width, height.
-    crop: (usize, usize, usize, usize),
-    pixel_art: bool,
 }
 impl<'a> Sprite<'a> {
     pub fn new(
@@ -83,43 +80,7 @@ impl<'a> Sprite<'a> {
             height,
             frame,
             transform: Default::default(),
-            crop: (0, 0, width, height),
-            pixel_art: false,
         })
-    }
-    /// Paint one rectangle of the tile instead of all of it: a pack's
-    /// `compact` head framing, or the art without its transparent margin.
-    /// The rectangle is in this sprite's own pixels. One that is empty or
-    /// leaves the tile is ignored.
-    pub fn crop(mut self, crop: crate::avatar::Crop) -> Self {
-        let (x, y) = (usize::from(crop.x), usize::from(crop.y));
-        let (width, height) = (usize::from(crop.width), usize::from(crop.height));
-        if width > 0 && height > 0 && x + width <= self.width && y + height <= self.height {
-            self.crop = (x, y, width, height);
-        }
-        self
-    }
-    /// Treat every source pixel as one hand-drawn art cell. The sprite is
-    /// then never resampled at a fraction: one source pixel is one half-block
-    /// pixel when the area has room, otherwise every [`Self::reduction`]th
-    /// pixel is kept. Motion transforms, which move art by parts of a pixel,
-    /// are not applied.
-    pub fn pixel_art(mut self) -> Self {
-        self.pixel_art = true;
-        self
-    }
-    /// How many source pixels one painted half-block pixel stands for when
-    /// this sprite is painted as pixel art in `area`: 1 is cell for cell, 2
-    /// keeps every second pixel, and 0 means the area is empty. A host with a
-    /// compact crop can prefer it when the whole character does not get 1.
-    pub fn reduction(&self, area: Rect) -> usize {
-        let (_, _, width, height) = self.crop;
-        if area.is_empty() {
-            return 0;
-        }
-        width
-            .div_ceil(usize::from(area.width))
-            .max(height.div_ceil(usize::from(area.height) * 2))
     }
     pub fn with_transform(mut self, transform: crate::avatar::Transform) -> Self {
         if transform.scale_x.is_finite()
@@ -144,9 +105,7 @@ impl<'a> Sprite<'a> {
         if x < 0. || y < 0. || x >= self.width as f64 || y >= self.height as f64 {
             return [0; 4];
         }
-        self.source(x as usize, y as usize)
-    }
-    fn source(&self, x: usize, y: usize) -> [u8; 4] {
+        let (x, y) = (x as usize, y as usize);
         let offset = ((self.frame * self.height + y) * self.width + x) * 4;
         self.pixels[offset..offset + 4]
             .try_into()
@@ -159,61 +118,28 @@ impl Paint for Sprite<'_> {
         if area.is_empty() {
             return;
         }
-        let (crop_x, crop_y, crop_width, crop_height) = self.crop;
-        // Pixel art keeps its grid: a whole number of source pixels per
-        // painted pixel, so no column or row is wider than its neighbour.
-        let step = if self.pixel_art {
-            self.reduction(area)
-        } else {
-            0
-        };
         // One cell is approximately twice as tall as wide. Fit without changing
         // the artwork's aspect ratio and never allocate from terminal geometry.
-        let scale = (f64::from(area.width) / crop_width as f64)
-            .min(f64::from(area.height) * 2. / crop_height as f64);
-        let (width, rows) = if step > 0 {
-            (
-                crop_width.div_ceil(step) as u16,
-                crop_height.div_ceil(step).div_ceil(2) as u16,
-            )
-        } else {
-            (
-                ((crop_width as f64 * scale).floor() as u16)
-                    .max(1)
-                    .min(area.width),
-                ((crop_height as f64 * scale / 2.).ceil() as u16)
-                    .max(1)
-                    .min(area.height),
-            )
-        };
+        let scale = (f64::from(area.width) / self.width as f64)
+            .min(f64::from(area.height) * 2. / self.height as f64);
+        let width = ((self.width as f64 * scale).floor() as u16)
+            .max(1)
+            .min(area.width);
+        let rows = ((self.height as f64 * scale / 2.).ceil() as u16)
+            .max(1)
+            .min(area.height);
         let left = area.x + (area.width - width) / 2;
         let top = area.y + (area.height - rows) / 2;
         let colored = theme.caps().paints_tokens() && !theme.ascii();
         for y in 0..rows {
             for x in 0..width {
-                let sample = |half: usize| {
-                    let line = usize::from(y) * 2 + half;
-                    if step > 0 {
-                        // The middle pixel of each block; an odd last line
-                        // has no lower half.
-                        let (sx, sy) = (usize::from(x) * step, line * step);
-                        if sy >= crop_height {
-                            return [0; 4];
-                        }
-                        return self.source(
-                            crop_x + (sx + step / 2).min(crop_width - 1),
-                            crop_y + (sy + step / 2).min(crop_height - 1),
-                        );
-                    }
-                    self.pixel(
-                        crop_x
-                            + (usize::from(x) * crop_width / usize::from(width))
-                                .min(crop_width - 1),
-                        crop_y
-                            + (line * crop_height / (usize::from(rows) * 2)).min(crop_height - 1),
-                    )
+                let sx = (usize::from(x) * self.width / usize::from(width)).min(self.width - 1);
+                let sy = |half: usize| {
+                    ((usize::from(y) * 2 + half) * self.height / (usize::from(rows) * 2))
+                        .min(self.height - 1)
                 };
-                let (a, b) = (sample(0), sample(1));
+                let a = self.pixel(sx, sy(0));
+                let b = self.pixel(sx, sy(1));
                 if a[3] < 40 && b[3] < 40 {
                     continue;
                 }

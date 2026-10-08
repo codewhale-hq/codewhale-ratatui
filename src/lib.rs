@@ -38,9 +38,6 @@ pub mod tokens;
 
 #[path = "../assets/avatar-pack/contract.rs"]
 pub mod avatar;
-/// The sprite characters this crate ships, beside the shared contract.
-#[path = "../assets/avatar-pack/builtin.rs"]
-pub mod avatar_builtin;
 pub mod avatar_sprite;
 mod components;
 pub mod gallery;
