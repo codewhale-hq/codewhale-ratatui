@@ -309,7 +309,7 @@ local focus and scroll. Roster clicks follow the painted worker ID; opening
 returns an intent for the host's existing transcript/permission path. A tap
 on the water affects only the canonical cove decoration.
 
-The Engine host adopts this surface through `/pet on`, using its current-session
+The separate Engine adapter under review adopts this surface through `/pet on`, using its current-session
 retained roster, active transcript, owner activity projection, modal stack and
 existing agent transcript event. Escape returns to its preserved composer;
 accepted turns return to the pet surface while the mode remains enabled.
