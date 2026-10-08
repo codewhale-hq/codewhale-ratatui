@@ -126,6 +126,48 @@ bytes used for copy or link actions.
   presets, lower depths and terminal-owned shells retain their own grounds. `Ombre` offers opt-in spatial washes, not new state
   hues. Character and syntax colors are content.
 
+## Live GPUI whale pet
+
+`WhalePet` is a stateful Ratatui widget over the same `whale_motion::Stage`
+as GPUI. It paints the full-color contour whale in its animated cove, including
+eyes, fins, spring transitions, authored props, particles and delegated calves.
+Its state is the host's existing Stage; rendering never advances time.
+
+![The native whale reading, editing, delegating and finishing in the terminal](assets/readme/pet-dark.gif)
+
+[Light appearance preview](assets/readme/pet-light.gif).
+
+```rust,no_run
+use codewhale_ratatui::{Theme, WhalePet, whale_motion::{Stage, Tier}};
+
+fn draw(frame: &mut ratatui::Frame<'_>, stage: &mut Stage, theme: &Theme) {
+    stage.advance(std::time::Instant::now());
+    frame.render_stateful_widget(WhalePet::new(theme), frame.area(), stage);
+    // The event loop schedules the next redraw with stage.cadence(Tier::Hero).
+}
+```
+
+Call `Stage::observe` with the foreground identity and authoritative owner
+inputs when they change. Use `.words(...)` for localized status text,
+`.cove(false)` for the standalone companion, `.direction(...)` for the rig's
+mark/cruise/open views, and `.style(PetStyle::Braille)` for the compact dot
+renderer. Hero color motion uses the existing 30/8 Hz action/rest ceilings;
+Braille uses `Tier::Terminal` at 6/2 Hz. Reduced motion schedules no animation.
+Monochrome and unknown grounds fall back to Braille; ASCII and tiny areas
+retain status words. Colors and state marks never replace those words.
+
+`WhalePet::point(area, column, row)` maps a terminal mouse cell to cove design
+coordinates. The host forwards a valid point to `Stage::cove_observe` or
+`Stage::cove_tap`, and calls `Stage::cove_leave` outside the art. These gestures
+are decorative and never change agent activity.
+
+Run `cargo run --locked --example pet` for a live tour of all 17 actions,
+with arrows for manual preview, pointer attention, water ripples, color/Braille,
+three views, terminal profiles and reduced motion. `--frames DIR` exports
+reproducible actual-buffer animation frames; `--profile light-truecolor` selects
+the light preview. These are explicit demonstration inputs, not live Engine
+or shared-owner acceptance.
+
 ## Shared native Dock tabs and packed character raster
 
 `Workbar` uses `DockTabRow` for its fitted tab paint and hitboxes. The Engine
