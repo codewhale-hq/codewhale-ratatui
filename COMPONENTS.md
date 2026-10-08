@@ -168,28 +168,28 @@ reproducible actual-buffer animation frames; `--profile light-truecolor` selects
 the light preview. These are explicit demonstration inputs, not live Engine
 or shared-owner acceptance.
 
-## Live subagent view
+## Subagent roster and full output
 
-`SubagentView` extends the existing `Fleet` and `AgentCard` presentation with
-an interactive roster and a focused agent pane. Working and checking use the
-native phase marks. Reported task, elapsed time, token text, exact `CountBar`
-progress and chronological event receipts remain owner data. The focused
-`WhalePet` receives explicit canonical `Inputs`; no tool names or task text
-are classified by this view. Completed agents remain visible as long as the
-host retains them, and a full count never changes the owner's reported state.
+`SubagentView` adds stable selection, a focused pane and scrollable full results
+to the existing `AgentCard` presentation. The host supplies every status,
+activity, timestamp and result. `SubagentUsage` keeps exact input/output token
+receipts and microdollar costs separate: missing is `—` (`-` in ASCII), zero is
+zero, and a subcent cost stays visible. Legacy token text is still supported.
+Reported step counts have no invented denominator or completion percentage.
 
-![Subagents reading, editing, waiting for input, checking and finishing](assets/readme/subagents-dark.gif)
+![Explicit sample states demonstrating the subagent component; no real workers](assets/readme/subagents-dark.gif)
 
-[Light appearance preview](assets/readme/subagents-light.gif).
+[Light sample preview](assets/readme/subagents-light.gif).
 
 ```rust,no_run
 use codewhale_ratatui::{
     AgentCard, MotionMode, State, Subagent, SubagentView, SubagentViewState, Theme,
 };
 
+// Populate these facts from your runtime's worker record.
 let agents = vec![Subagent::new(
     "review",
-    AgentCard::new("Reef", State::Working).task("Review the patch"),
+    AgentCard::new("Review", State::Working).task("Review the patch"),
 )];
 let mut view_state = SubagentViewState::default();
 let theme = Theme::detect();
@@ -200,44 +200,58 @@ view_state.update(&agents, std::time::Instant::now(), MotionMode::Full);
 // After painting, wait for view_state.next_frame_in(&agents, &theme) or input.
 ```
 
-Use a unique, nonempty `Subagent::id` and retain the view state between frames.
-Selection follows that identity through reordering. The state intentionally
-owns a unique canonical Stage and cannot be cloned: keep one state per surface
-instead of copying a running performance clock. `handle_key` accepts
-Up/Down (or J/K), Home/End, Tab/Shift-Tab for attention, Space or Left/Right
-for compact details, and PageUp/PageDown for activity history. Wide terminals
-show both panes; compact terminals switch between them. History follows the
-newest receipt until the person scrolls back; appended receipts leave that
-older viewport anchored. Focused details retain reported elapsed time and
-tokens. Each newly observed working/checking interval earns its own native
-pending-mark delay. `SubagentViewWords` localizes
-labels and summary; each existing `AgentCard` owns its status word.
+Use unique, nonempty IDs and keep one `SubagentViewState` per surface. Selection
+follows identity through reordering. The canonical Stage has one clock and is
+not Clone. Up/Down or J/K, Home/End and click select; Tab/Shift-Tab reaches
+NeedsYou/Failed workers. The mouse uses recorded painted IDs, checked against
+the current roster. Space or Left/Right switches compact roster/details.
+O switches output/activity when an outcome exists. PageUp/PageDown and the
+mouse wheel scroll the pane. Results open at the beginning; activity follows
+the newest receipt until scrolled back. Appended receipts preserve that older
+viewport. Full results use usize row indices, including beyond 65,535 lines.
 
-Enable only currently authorized `SubagentControls`. Enter, M and X return
-`SubagentIntent::Open`, `Message` and `Stop` with the stable worker ID. They
-never open sessions, send messages, stop workers or change status themselves.
-The host must validate each intent against its current owner and permission
-state. Duplicate or empty IDs cannot receive an intent; held action keys do
-not repeat a request. This follows the familiar selected-row and detail
-interaction described in the [Claude Code agent view](https://code.claude.com/docs/en/agent-view),
-while keeping the existing Codewhale lifecycle and control boundaries.
+Wide terminals show both panes. Compact details wrap reported usage and remove
+pet scenery before content. The native `WhalePet` is a smaller companion and
+receives explicit canonical `Inputs`; this component never classifies task
+text. Working/checking marks earn the native delay independently. Only visible
+work or a brief observed Working → Done flourish requests frames. Reduced,
+Still, hidden, empty and settled surfaces request no animation redraws. The
+host retains completed workers and calls `set_visible(false)` when hidden.
+`SubagentViewWords` owns labels and summary; `AgentCard` owns each status word.
 
-Call `update` on owner changes and scheduled frames; painting never advances
-time. Only visible working phase marks and the focused native pet schedule
-animation. An observed Working → Done earns a brief native flourish, then
-settles. Reduced/Still, hidden, empty and settled rosters schedule no timed
-redraws. Call `set_visible(false)` when the view is hidden. Unknown elapsed,
-usage, progress or performance stays absent. No count, receipt, status or
-percentage is generated from animation time.
+Enable only currently authorized `SubagentControls`. Enter/M/X return
+`SubagentIntent::Open`, `Message` or `Stop` with the worker ID. The host performs
+current ownership and permission checks, including stop confirmation. Empty or
+duplicate IDs cannot receive intents, and held action keys do not repeat them.
+The component never changes a worker's reported state or executes an action.
 
-Run `cargo run --locked --example subagents` for the live fixture tour.
-N advances a phase, A toggles the tour, R replays, L changes motion and P
-cycles terminal profiles. Navigation and intent actions exercise the public
-component; example intents only print a local notice. `--frames DIR` exports
-200 actual-buffer frames; `--profile light-truecolor` selects the light preview.
-`--size 48x26` exports the compact roster and then its focused detail pane.
-The fixtures start no workers or providers. Engine integration and real-worker
-acceptance are separate from this reusable component.
+The example starts **empty**, with no scripted work:
+
+```sh
+cargo run --locked --example subagents
+cargo run --locked --example subagents -- --roster /path/to/roster.json --watch
+```
+
+`--roster` reads the existing Engine `AgentRosterRow` array, an `AgentList`
+object with `roster`, or its protocol `EventEnvelope`. R reloads; `--watch`
+checks the file twice a second without repainting unchanged data. Invalid or
+partially written files keep the last good snapshot visible with an error.
+A changed owner/session ID resets selection and presentation history. Array
+inputs should contain a single owner's roster; they carry no session identity.
+Waiting, parked, cancelled and unknown states retain distinct labels. The
+adapter uses typed lifecycle state for the pet's presence; it invents no
+classified activity, event history, permissions, model route or usage. Snapshot
+viewing defaults to reduced motion. L changes motion, P changes profile.
+Worker controls stay disabled because a roster receipt grants no authority.
+
+This is a read-only **file viewer**, not a connection to a running Engine.
+The reusable component has not been adopted into the Engine subagent manager.
+
+`--demo` opts into explicitly labelled sample states with no fictional task
+outcomes or usage. N advances the sample state and R replays. Generate the
+sample GIF sources with `--demo --frames DIR`; `--profile light-truecolor`
+selects Paper and `--size 48x26` captures compact roster/details. These previews
+establish rendering and interaction only, not real worker execution.
 
 ## Shared native Dock tabs and packed character raster
 
@@ -267,3 +281,35 @@ geometry and offset fitting with Engine's body viewport. `WorkbarScrollbar`
 shares its rail math and paint. Native row composition, detail/focus gutters
 and caller action/tooltip projection remain Engine-owned; this does not yet
 claim full row-composer replacement by `Workbar`.
+
+
+## Full pet mode
+
+`PetMode` composes the canonical GPUI whale and cove, the host's retained agent
+roster, and its real response into one terminal work surface. `PetModeState`
+owns only presentation: one parent `Stage`, focus, scroll, and recorded pointer
+areas. The host supplies current session identity, typed `Inputs`, localized
+status/labels, wrapped transcript lines, and every execution action.
+
+![The full pet surface at rest; no worker activity is simulated](assets/readme/pet-mode-dark.gif)
+
+[Light appearance](assets/readme/pet-mode-light.gif). Run
+`cargo run --locked --example pet_mode` for this idle preview. It contains no
+Engine connection, agents, responses, usage, or fabricated work.
+
+`PetModeAreas::new` gives the host the exact response width for its existing
+Markdown renderer. Wide terminals show the retained roster beside the pet and
+response; narrower terminals switch to the roster when focused. Content takes
+space before scenery. Response scrolling uses `usize`, including Home/End.
+
+Call `set_visible` and `update` before paint, and schedule only the deadline
+returned by `next_frame_in`. Hidden/reduced views schedule no motion; a real
+completion earns one short flourish and then settles. A new session clears
+local focus and scroll. Roster clicks follow the painted worker ID; opening
+returns an intent for the host's existing transcript/permission path. A tap
+on the water affects only the canonical cove decoration.
+
+The separate Engine adapter under review adopts this surface through `/pet on`, using its current-session
+retained roster, active transcript, owner activity projection, modal stack and
+existing agent transcript event. Escape returns to its preserved composer;
+accepted turns return to the pet surface while the mode remains enabled.
