@@ -331,7 +331,7 @@ impl SubagentViewState {
             KeyCode::End => Some(agents.len().saturating_sub(1)),
             KeyCode::Tab | KeyCode::BackTab => (1..=agents.len())
                 .map(|step| {
-                    if key.code == KeyCode::BackTab {
+                    if key.code == KeyCode::BackTab || key.modifiers.contains(KeyModifiers::SHIFT) {
                         (index + agents.len() - step) % agents.len()
                     } else {
                         (index + step) % agents.len()
