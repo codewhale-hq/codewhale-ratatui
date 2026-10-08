@@ -43,6 +43,14 @@ jobs:
         run: python3 tools/check-animation.py target/habitat-frames assets/readme/habitat-motion.gif
       - name: Motion demonstration tests
         run: cargo test --locked --example motion
+      - name: Subagent roster adapter tests
+        run: cargo test --locked --example subagents
+      - name: Render explicit subagent sample states
+        run: |
+          cargo run --locked --example subagents -- --demo --frames target/subagents-frames
+          cargo run --locked --example subagents -- --demo --frames target/subagents-light-frames --profile light-truecolor
+          python3 tools/check-animation.py target/subagents-frames assets/readme/subagents-dark.gif
+          python3 tools/check-animation.py target/subagents-light-frames assets/readme/subagents-light.gif
       - name: Optional animation builder parses
         run: node --check tools/render-animation.cjs
       - name: Render the working and verification animation frames

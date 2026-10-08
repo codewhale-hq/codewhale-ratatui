@@ -7,7 +7,9 @@ use std::{
     time::{Duration, Instant},
 };
 
-use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers};
+use crossterm::event::{
+    KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseButton, MouseEvent, MouseEventKind,
+};
 use ratatui::{
     buffer::Buffer,
     layout::Rect,
@@ -56,6 +58,33 @@ pub struct SubagentControls {
     pub stop: bool,
 }
 
+/// Exact provider receipts. A missing field stays missing, including when
+/// another field is explicitly zero. Costs are microdollars, never estimated.
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq)]
+pub struct SubagentUsage {
+    pub input_tokens: Option<u64>,
+    pub output_tokens: Option<u64>,
+    pub cost_microusd: Option<u64>,
+}
+
+impl SubagentUsage {
+    fn text(self, ascii: bool) -> String {
+        let missing = if ascii { "-" } else { "—" };
+        let number = |n: Option<u64>| n.map_or_else(|| missing.to_owned(), |n| n.to_string());
+        let cost = self.cost_microusd.map_or_else(
+            || missing.to_owned(),
+            |n| format!("{}.{:06}", n / 1_000_000, n % 1_000_000),
+        );
+        format!(
+            "{} {} / {} {} / ${cost}",
+            if ascii { "in" } else { "↓" },
+            number(self.input_tokens),
+            if ascii { "out" } else { "↑" },
+            number(self.output_tokens),
+        )
+    }
+}
+
 /// One retained roster entry. IDs must be nonempty and unique in this roster.
 /// The view never expires a worker or infers success from its counts.
 #[derive(Clone, Debug)]
@@ -64,6 +93,11 @@ pub struct Subagent<'a> {
     pub card: AgentCard<'a>,
     pub elapsed: Option<Duration>,
     pub tokens: Option<Cow<'a, str>>,
+    /// Structured receipts take precedence over legacy token display text.
+    pub usage: Option<SubagentUsage>,
+    pub steps: Option<u32>,
+    /// Full owner-reported result or error; never shortened into the task line.
+    pub outcome: Option<Cow<'a, str>>,
     pub progress: Option<CountBar>,
     pub events: Vec<SubagentEvent<'a>>,
     pub performance: Option<Inputs>,
@@ -79,6 +113,9 @@ impl<'a> Subagent<'a> {
             card,
             elapsed: None,
             tokens: None,
+            usage: None,
+            steps: None,
+            outcome: None,
             progress: None,
             events: Vec::new(),
             performance: None,
@@ -87,12 +124,15 @@ impl<'a> Subagent<'a> {
         }
     }
 
-    fn usage(&self) -> String {
+    fn usage_text(&self, ascii: bool) -> String {
         [
             self.elapsed
                 .map(duration)
                 .or_else(|| self.card.elapsed.as_deref().map(str::to_owned)),
-            self.tokens.as_deref().map(str::to_owned),
+            self.usage
+                .map(|usage| usage.text(ascii))
+                .or_else(|| self.tokens.as_deref().map(str::to_owned)),
+            self.steps.map(|n| format!("{n} steps")),
         ]
         .into_iter()
         .flatten()
@@ -120,6 +160,9 @@ pub struct SubagentViewState {
     offset: usize,
     event_top: Option<usize>,
     event_end: usize,
+    output: bool,
+    output_top: usize,
+    output_end: usize,
     detail: bool,
     visible: bool,
     now: Option<Instant>,
@@ -130,6 +173,8 @@ pub struct SubagentViewState {
     flourish_until: Option<Instant>,
     shown: usize,
     pet_visible: bool,
+    rows: Vec<(Rect, String)>,
+    detail_area: Rect,
 }
 
 impl Default for SubagentViewState {
@@ -140,6 +185,9 @@ impl Default for SubagentViewState {
             offset: 0,
             event_top: None,
             event_end: 0,
+            output: false,
+            output_top: 0,
+            output_end: 0,
             detail: false,
             visible: true,
             now: None,
@@ -150,6 +198,8 @@ impl Default for SubagentViewState {
             flourish_until: None,
             shown: 0,
             pet_visible: false,
+            rows: Vec::new(),
+            detail_area: Rect::default(),
         }
     }
 }
@@ -175,6 +225,9 @@ impl SubagentViewState {
         if self.selected.as_deref() != Some(id) {
             self.event_top = None;
             self.event_end = 0;
+            self.output = agents[index].outcome.is_some();
+            self.output_top = 0;
+            self.output_end = 0;
         }
         self.selected = Some(id.to_owned());
         self.index = index;
@@ -226,6 +279,9 @@ impl SubagentViewState {
             self.flourish_until = None;
             return;
         };
+        if agent.outcome.is_none() {
+            self.output = false;
+        }
         let identity = (agent.id.to_string(), agent.card.status.state);
         if self.observed.as_ref() != Some(&identity) {
             self.flourish_until = self
@@ -266,6 +322,8 @@ impl SubagentViewState {
         self.visible = visible;
         self.stage.set_visible(visible);
         self.working.clear();
+        self.rows.clear();
+        self.detail_area = Rect::default();
     }
 
     fn mark_elapsed(&self, agent: &Subagent<'_>) -> Duration {
@@ -305,7 +363,8 @@ impl SubagentViewState {
     }
 
     /// Arrow/Home/End navigation, Tab to the next NeedsYou/Failed worker,
-    /// Left/Right for narrow details, PageUp/PageDown for event history.
+    /// Left/Right for narrow details, O for output/activity, PageUp/PageDown
+    /// for the visible content. Full output opens at its beginning.
     /// Enter/M/X return capability-gated Open/Message/Stop intents.
     pub fn handle_key(&mut self, agents: &[Subagent<'_>], key: KeyEvent) -> Option<SubagentIntent> {
         if !self.visible
@@ -355,15 +414,17 @@ impl SubagentViewState {
                 self.detail = false;
                 None
             }
+            KeyCode::Char('o') if self.agent(agents).is_some_and(|a| a.outcome.is_some()) => {
+                self.output = !self.output;
+                self.detail = true;
+                None
+            }
             KeyCode::PageUp => {
-                self.event_top = Some(self.event_top.unwrap_or(self.event_end).saturating_sub(5));
+                self.scroll_content(-5);
                 None
             }
             KeyCode::PageDown => {
-                self.event_top = self.event_top.and_then(|top| {
-                    let next = top.saturating_add(5);
-                    (next < self.event_end).then_some(next)
-                });
+                self.scroll_content(5);
                 None
             }
             _ => None,
@@ -389,6 +450,60 @@ impl SubagentViewState {
             _ => None,
         }
     }
+
+    fn scroll_content(&mut self, lines: isize) {
+        if self.output {
+            self.output_top = self
+                .output_top
+                .saturating_add_signed(lines)
+                .min(self.output_end);
+        } else {
+            let top = self
+                .event_top
+                .unwrap_or(self.event_end)
+                .saturating_add_signed(lines);
+            self.event_top = (top < self.event_end).then_some(top);
+        }
+    }
+
+    /// Click selects the painted ID, even if the owner reordered its roster
+    /// after paint. Wheel scrolls the pane under the pointer. No mouse action
+    /// executes an intent; the host owns opening, messaging and stopping.
+    pub fn handle_mouse(&mut self, agents: &[Subagent<'_>], mouse: MouseEvent) -> bool {
+        if !self.visible || !mouse.modifiers.is_empty() {
+            return false;
+        }
+        let point = (mouse.column, mouse.row).into();
+        match mouse.kind {
+            MouseEventKind::Down(MouseButton::Left) => {
+                let id = self
+                    .rows
+                    .iter()
+                    .find(|(area, _)| area.contains(point))
+                    .map(|(_, id)| id.clone());
+                id.is_some_and(|id| self.select(agents, &id))
+            }
+            MouseEventKind::ScrollUp | MouseEventKind::ScrollDown => {
+                let up = mouse.kind == MouseEventKind::ScrollUp;
+                if self.detail_area.contains(point) {
+                    self.scroll_content(if up { -3 } else { 3 });
+                    true
+                } else if self.rows.iter().any(|(area, _)| area.contains(point)) {
+                    self.handle_key(
+                        agents,
+                        KeyEvent::new(
+                            if up { KeyCode::Up } else { KeyCode::Down },
+                            KeyModifiers::NONE,
+                        ),
+                    );
+                    true
+                } else {
+                    false
+                }
+            }
+            _ => false,
+        }
+    }
 }
 
 /// Caller-owned labels and hints, including localization. State labels remain
@@ -398,8 +513,9 @@ pub struct SubagentViewWords<'a> {
     pub title: Cow<'a, str>,
     pub empty: Cow<'a, str>,
     pub activity: Cow<'a, str>,
+    pub output: Cow<'a, str>,
+    pub toggle_output: Cow<'a, str>,
     pub no_events: Cow<'a, str>,
-    pub no_performance: Cow<'a, str>,
     pub hints: Cow<'a, str>,
     pub open: Cow<'a, str>,
     pub message: Cow<'a, str>,
@@ -414,9 +530,10 @@ impl Default for SubagentViewWords<'_> {
             title: "Subagents".into(),
             empty: "No agents reported".into(),
             activity: "Activity".into(),
+            output: "Output".into(),
+            toggle_output: "O output/activity".into(),
             no_events: "No events reported".into(),
-            no_performance: "No activity animation reported".into(),
-            hints: "Up/Down select   Tab attention   Space details   PgUp/PgDn history".into(),
+            hints: "Up/Down select   Tab attention   Space details   PgUp/PgDn scroll".into(),
             open: "Enter open".into(),
             message: "M message".into(),
             stop: "X stop".into(),
@@ -550,6 +667,7 @@ impl<'a> SubagentView<'a> {
             let y = ((index - state.offset) as u16) * size;
             let entry = Rect::new(area.x, area.y + y, area.width, size.min(area.height - y));
             let selected = state.selected_id() == Some(&*agent.id);
+            state.rows.push((entry, agent.id.to_string()));
             if selected {
                 buf.set_style(entry, self.theme.bg(Role::Selected));
             }
@@ -605,7 +723,7 @@ impl<'a> SubagentView<'a> {
             );
             self.line(body, 1, &agent.card.task, Role::Foreground, buf);
             if size == 4 {
-                let usage = agent.usage();
+                let usage = agent.usage_text(self.theme.ascii());
                 let facts: Vec<&str> = [
                     agent.card.role.as_deref(),
                     Some(usage.as_str()).filter(|s| !s.is_empty()),
@@ -632,8 +750,30 @@ impl<'a> SubagentView<'a> {
         }
     }
 
+    fn wrapped(
+        &self,
+        area: Rect,
+        y: u16,
+        value: &str,
+        max: u16,
+        role: Role,
+        buf: &mut Buffer,
+    ) -> u16 {
+        let height = max.min(area.height.saturating_sub(y));
+        if height == 0 || area.width == 0 || value.is_empty() {
+            return 0;
+        }
+        let paragraph = Paragraph::new(text::display_safe(value).into_owned())
+            .style(self.theme.fg(role))
+            .wrap(Wrap { trim: false });
+        let height = paragraph.line_count(area.width).min(usize::from(height)) as u16;
+        paragraph.render(Rect::new(area.x, area.y + y, area.width, height), buf);
+        height
+    }
+
     fn details(&self, area: Rect, buf: &mut Buffer, state: &mut SubagentViewState) {
         state.pet_visible = false;
+        state.detail_area = area;
         if area.is_empty() {
             return;
         }
@@ -641,104 +781,173 @@ impl<'a> SubagentView<'a> {
             return;
         };
         self.line(area, 0, &agent.card.title, Role::Primary, buf);
-        row(
-            Rect {
-                y: area.y + 1,
-                height: 1,
-                ..area
-            },
-            buf,
-            &Line::from(agent.card.status.spans(self.theme)),
-        );
+        if area.height > 1 {
+            row(
+                Rect::new(area.x, area.y + 1, area.width, 1),
+                buf,
+                &Line::from(agent.card.status.spans(self.theme)),
+            );
+        }
         let identity: Vec<_> = [agent.card.role.as_deref(), agent.card.route.as_deref()]
             .into_iter()
             .flatten()
             .collect();
-        self.line(area, 2, &identity.join(" / "), Role::Muted, buf);
-        if area.height >= 5 {
-            Paragraph::new(text::display_safe(&agent.card.task).into_owned())
-                .style(self.theme.fg(Role::Foreground))
-                .wrap(Wrap { trim: false })
-                .render(Rect::new(area.x, area.y + 3, area.width, 2), buf);
-        } else {
-            self.line(area, 3, &agent.card.task, Role::Foreground, buf);
-        }
-        if area.height >= 7
+        let mut y = 2;
+        y += self.wrapped(area, y, &identity.join(" / "), 2, Role::Muted, buf);
+        y += self.wrapped(area, y, &agent.card.task, 3, Role::Foreground, buf);
+        y += self.wrapped(
+            area,
+            y,
+            &agent.usage_text(self.theme.ascii()),
+            3,
+            Role::Muted,
+            buf,
+        );
+        if y < area.height
             && let Some(progress) = &agent.progress
         {
             progress.paint(
-                Rect::new(area.x, area.y + 5, area.width, 1),
+                Rect::new(area.x, area.y + y, area.width, 1),
                 buf,
                 self.theme,
             );
+            y += 1;
         }
-        self.line(area, 6, &agent.usage(), Role::Muted, buf);
-        let pet_height = if area.height >= 19
+        // Keep at least nine lines for content. The pet is a small companion,
+        // never the reason a result or error becomes unreadable.
+        if area.height.saturating_sub(y) >= 18
             && area.width >= 26
             && agent.performance.is_some()
             && !self.theme.ascii()
         {
-            area.height.saturating_sub(14).clamp(9, 16)
-        } else {
-            0
-        };
-        if pet_height > 0 {
-            let pet = Rect::new(area.x, area.y + 7, area.width, pet_height);
+            let width = area.width.min(32);
             WhalePet::new(self.theme)
                 .words(agent.card.status.word.to_string())
-                .paint(pet, buf, &mut state.stage);
+                .paint(
+                    Rect::new(area.x + (area.width - width) / 2, area.y + y, width, 9),
+                    buf,
+                    &mut state.stage,
+                );
             state.pet_visible = true;
+            y += 9;
+        } else if y < area.height {
+            y += 1;
         }
-        let start = 7 + pet_height;
-        if area.height <= start {
+        if y >= area.height {
             return;
         }
-        let log = Rect::new(area.x, area.y + start, area.width, area.height - start);
-        self.line(log, 0, &self.words.activity, Role::Primary, buf);
-        let header = 1 + u16::from(agent.performance.is_none());
-        if agent.performance.is_none() {
-            self.line(log, 1, &self.words.no_performance, Role::Muted, buf);
-        }
-        if log.height <= header {
+        let output = state.output && agent.outcome.is_some();
+        let label = if output {
+            &self.words.output
+        } else {
+            &self.words.activity
+        };
+        let title = if agent.outcome.is_some() {
+            format!("{label}   /   {}", self.words.toggle_output)
+        } else {
+            label.to_string()
+        };
+        self.line(area, y, &title, Role::Primary, buf);
+        y += 1;
+        if y >= area.height {
             return;
         }
-        let body = Rect::new(log.x, log.y + header, log.width, log.height - header);
-        if agent.events.is_empty() {
-            self.line(body, 0, &self.words.no_events, Role::Muted, buf);
-            return;
+        let body = Rect::new(area.x, area.y + y, area.width, area.height - y);
+        // Reuse the Unicode-safe composer wrapper for output, then select rows
+        // with usize indices. Paragraph's u16 scroll cannot reach long results.
+        let output_lines = output.then(|| {
+            agent
+                .outcome
+                .as_deref()
+                .unwrap_or("")
+                .split('\n')
+                .flat_map(|line| {
+                    crate::native_composer_wrap_text(
+                        &text::display_safe(line),
+                        usize::from(body.width),
+                    )
+                })
+                .collect::<Vec<_>>()
+        });
+        let paragraph = if output {
+            None
+        } else {
+            if agent.events.is_empty() {
+                self.line(body, 0, &self.words.no_events, Role::Muted, buf);
+                state.event_end = 0;
+                state.event_top = None;
+                return;
+            }
+            let lines: Vec<_> = agent
+                .events
+                .iter()
+                .map(|event| {
+                    Line::from(vec![
+                        Span::styled(
+                            format!("{} ", text::display_safe(&event.when)),
+                            self.theme.fg(Role::Muted),
+                        ),
+                        Span::styled(
+                            format!("{} ", glyphs::pick(event.state.glyph(), self.theme.ascii())),
+                            self.theme.fg(event.state.role()),
+                        ),
+                        Span::styled(
+                            text::display_safe(&event.message).into_owned(),
+                            self.theme.fg(Role::Foreground),
+                        ),
+                    ])
+                })
+                .collect();
+            Some(Paragraph::new(lines).wrap(Wrap { trim: false }))
+        };
+        let total = output_lines.as_ref().map_or_else(
+            || paragraph.as_ref().map_or(0, |p| p.line_count(body.width)),
+            Vec::len,
+        );
+        // Reserve a range indicator only when there is content to scroll.
+        let clipped = total > usize::from(body.height) && body.height > 1;
+        let content = Rect {
+            height: body.height.saturating_sub(u16::from(clipped)),
+            ..body
+        };
+        let end = total.saturating_sub(usize::from(content.height));
+        let top = if output {
+            state.output_end = end;
+            state.output_top = state.output_top.min(end);
+            state.output_top
+        } else {
+            state.event_end = end;
+            state.event_top = state.event_top.map(|top| top.min(end));
+            state.event_top.unwrap_or(end)
+        };
+        if let Some(lines) = output_lines {
+            for (y, line) in lines
+                .iter()
+                .skip(top)
+                .take(usize::from(content.height))
+                .enumerate()
+            {
+                self.line(content, y as u16, line, Role::Foreground, buf);
+            }
+        } else if let Some(paragraph) = paragraph {
+            paragraph
+                .scroll((top.min(usize::from(u16::MAX)) as u16, 0))
+                .render(content, buf);
         }
-        let lines: Vec<_> = agent
-            .events
-            .iter()
-            .map(|event| {
-                Line::from(vec![
-                    Span::styled(
-                        format!("{} ", text::display_safe(&event.when)),
-                        self.theme.fg(Role::Muted),
-                    ),
-                    Span::styled(
-                        format!("{} ", glyphs::pick(event.state.glyph(), self.theme.ascii())),
-                        self.theme.fg(event.state.role()),
-                    ),
-                    Span::styled(
-                        text::display_safe(&event.message).into_owned(),
-                        self.theme.fg(Role::Foreground),
-                    ),
-                ])
-            })
-            .collect();
-        let paragraph = Paragraph::new(lines).wrap(Wrap { trim: false });
-        let end = paragraph
-            .line_count(body.width)
-            .saturating_sub(usize::from(body.height));
-        state.event_end = end;
-        state.event_top = state.event_top.map(|top| top.min(end));
-        paragraph
-            .scroll((
-                state.event_top.unwrap_or(end).min(usize::from(u16::MAX)) as u16,
-                0,
-            ))
-            .render(body, buf);
+        if clipped {
+            self.line(
+                body,
+                body.height - 1,
+                &format!(
+                    "{}-{} / {}",
+                    top + 1,
+                    (top + usize::from(content.height)).min(total),
+                    total
+                ),
+                Role::Muted,
+                buf,
+            );
+        }
     }
 }
 
@@ -748,6 +957,8 @@ impl StatefulWidget for SubagentView<'_> {
         let area = area.intersection(buf.area);
         state.shown = 0;
         state.pet_visible = false;
+        state.rows.clear();
+        state.detail_area = Rect::default();
         if area.is_empty() || !state.visible {
             return;
         }
@@ -770,14 +981,15 @@ impl StatefulWidget for SubagentView<'_> {
             .as_deref()
             .map(str::to_owned)
             .unwrap_or_else(|| {
-                format!(
-                    "{} working / {} need you / {} done / {} failed / {} total",
-                    count(State::Working),
-                    count(State::NeedsYou),
-                    count(State::Done),
-                    count(State::Failed),
-                    self.agents.len()
-                )
+                let mut counts: Vec<_> = State::ALL
+                    .into_iter()
+                    .filter_map(|status| {
+                        let n = count(status);
+                        (n > 0).then(|| format!("{n} {}", status.word().to_lowercase()))
+                    })
+                    .collect();
+                counts.push(format!("{} total", self.agents.len()));
+                counts.join(" / ")
             });
         self.line(area, 1, &summary, Role::Muted, buf);
         let (roster, detail) = Self::areas(area, state.detail);
