@@ -1,10 +1,12 @@
 use codewhale_ratatui::{
     AgentCard, CountBar, MotionMode, State, Subagent, SubagentControls, SubagentEvent,
-    SubagentIntent, SubagentView, SubagentViewState, SubagentViewWords,
+    SubagentIntent, SubagentUsage, SubagentView, SubagentViewState, SubagentViewWords,
     testing::{self, Profile},
     whale_motion::{Activity, Context, Inputs, Presence},
 };
-use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers};
+use crossterm::event::{
+    KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseButton, MouseEvent, MouseEventKind,
+};
 use ratatui::{
     buffer::{Buffer, Cell},
     layout::Rect,
@@ -204,7 +206,7 @@ fn all_profiles_keep_state_words_and_observed_counts_without_inferred_completion
         assert!(frame.violations().is_empty(), "{:?}", frame.violations());
         assert!(frame.text().contains("Failed"));
         assert!(frame.text().contains("9 of 7 checks"));
-        assert!(frame.text().contains("No activity animation reported"));
+        assert!(!frame.text().contains("No activity animation reported"));
         assert!(!frame.text().contains("1 done"));
     }
 }
@@ -523,7 +525,17 @@ fn appended_wrapped_receipts_do_not_move_a_paused_history_viewport() {
         State::Working,
         "NEW-RECEIPT ".repeat(20),
     ));
-    assert_eq!(older, render(&agents, &mut state, Profile::Ascii, 48, 26));
+    let content = |buf: &Buffer| {
+        testing::text(buf)
+            .lines()
+            .filter(|line| line.contains("receipt-"))
+            .map(str::to_owned)
+            .collect::<Vec<_>>()
+    };
+    assert_eq!(
+        content(&older),
+        content(&render(&agents, &mut state, Profile::Ascii, 48, 26))
+    );
     for _ in 0..10 {
         state.handle_key(&agents, key(KeyCode::PageDown));
     }
@@ -536,4 +548,111 @@ fn appended_wrapped_receipts_do_not_move_a_paused_history_viewport() {
         testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26))
             .contains("latest receipt")
     );
+}
+
+#[test]
+fn structured_receipts_distinguish_missing_zero_and_subcent_costs() {
+    let mut agent = Subagent::new("receipt", AgentCard::new("Receipt", State::Done));
+    agent.tokens = Some("legacy display must lose".into());
+    agent.usage = Some(SubagentUsage {
+        input_tokens: Some(0),
+        output_tokens: None,
+        cost_microusd: Some(1),
+    });
+    let agents = [agent];
+    for profile in Profile::ALL {
+        let mut state = SubagentViewState::default();
+        state.update(&agents, Instant::now(), MotionMode::Reduced);
+        state.handle_key(&agents, key(KeyCode::Right));
+        let output = testing::text(&render(&agents, &mut state, profile, 48, 26));
+        assert!(output.contains("$0.000001"), "{output}");
+        assert!(output.contains(if profile.theme().ascii() {
+            "in 0 / out -"
+        } else {
+            "↓ 0 / ↑ —"
+        }));
+        assert!(!output.contains("legacy display"));
+    }
+}
+
+#[test]
+fn full_result_opens_at_start_and_scrolls_to_the_end_without_changing_receipts() {
+    let mut agent = fixture("result", State::Failed);
+    agent.outcome = Some(
+        (0..80)
+            .map(|i| format!("result-line-{i:02}\n"))
+            .collect::<String>()
+            .into(),
+    );
+    let agents = [agent];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    state.handle_key(&agents, key(KeyCode::Right));
+    let initial = testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26));
+    assert!(initial.contains("Output"));
+    assert!(initial.contains("result-line-00"));
+    assert!(
+        initial.contains("/ 81"),
+        "newlines must stay separate rows: {initial}"
+    );
+    assert!(!initial.contains("result-line-79"));
+    for _ in 0..30 {
+        state.handle_key(&agents, key(KeyCode::PageDown));
+    }
+    let end = testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26));
+    assert!(end.contains("result-line-79"));
+    state.handle_key(&agents, key(KeyCode::Char('o')));
+    let events = testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26));
+    assert!(events.contains("Saved the receipt"));
+    assert!(!events.contains("result-line-79"));
+    state.handle_key(&agents, key(KeyCode::Char('o')));
+    assert_eq!(
+        end,
+        testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26))
+    );
+    assert_eq!(agents[0].card.status.state, State::Failed);
+}
+
+#[test]
+fn mouse_selects_painted_identity_across_reorder_and_rejects_hidden_or_removed_rows() {
+    let mut agents = vec![fixture("a", State::Working), fixture("b", State::Done)];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    render(&agents, &mut state, Profile::Ascii, 112, 38);
+    let roster = SubagentView::areas(Rect::new(0, 0, 112, 38), false).0;
+    let click = MouseEvent {
+        kind: MouseEventKind::Down(MouseButton::Left),
+        column: roster.x + 1,
+        row: roster.y + 4,
+        modifiers: KeyModifiers::NONE,
+    };
+    agents.swap(0, 1);
+    assert!(state.handle_mouse(&agents, click));
+    assert_eq!(state.selected_id(), Some("b"));
+    agents.remove(0);
+    assert!(!state.handle_mouse(&agents, click));
+    state.set_visible(false);
+    assert!(!state.handle_mouse(&agents, click));
+}
+
+#[test]
+fn output_scrolling_reaches_beyond_the_terminal_scroll_integer_limit() {
+    let mut agent = Subagent::new("long", AgentCard::new("Long result", State::Done));
+    agent.outcome = Some(
+        (0..70_000)
+            .map(|i| format!("line-{i}\n"))
+            .collect::<String>()
+            .into(),
+    );
+    let agents = [agent];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    state.handle_key(&agents, key(KeyCode::Right));
+    render(&agents, &mut state, Profile::Ascii, 48, 26);
+    for _ in 0..14_100 {
+        state.handle_key(&agents, key(KeyCode::PageDown));
+    }
+    let output = testing::text(&render(&agents, &mut state, Profile::Ascii, 48, 26));
+    assert!(output.contains("line-69999"), "{output}");
+    assert!(output.contains("/ 70001"));
 }
