@@ -264,8 +264,13 @@ impl Viewer {
             polled: now,
             notice: "Load roster JSON with --roster FILE; use --demo for sample states".into(),
         };
-        if viewer.path.is_some() {
-            viewer.reload()?;
+        if viewer.path.is_some()
+            && let Err(error) = viewer.reload()
+        {
+            if !watch {
+                return Err(error);
+            }
+            viewer.notice = error.to_string();
         }
         if sample {
             viewer.set_sample(0, now);
