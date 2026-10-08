@@ -22,6 +22,12 @@ pub struct Sprite<'a> {
     frame: usize,
 }
 impl<'a> Sprite<'a> {
+    /// One already-decoded RGBA image, without an avatar manifest. Useful for
+    /// live vector scenes; shares the same half-block and capability painter.
+    pub fn image(pixels: &'a [u8], width: usize, height: usize) -> Result<Self, String> {
+        Self::tiles(pixels, width, height, 0, 1)
+    }
+
     pub fn new(
         pack: &crate::avatar::Pack,
         pixels: &'a [u8],
