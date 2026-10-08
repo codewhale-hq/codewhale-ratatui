@@ -183,6 +183,8 @@ fn navigation_reaches_attention_and_offscreen_workers() {
     assert_eq!(state.selected_id(), Some("29"));
     state.handle_key(&agents, key(KeyCode::Home));
     assert_eq!(state.selected_id(), Some("00"));
+    state.handle_key(&agents, KeyEvent::new(KeyCode::Tab, KeyModifiers::SHIFT));
+    assert_eq!(state.selected_id(), Some("27"));
 }
 
 #[test]
