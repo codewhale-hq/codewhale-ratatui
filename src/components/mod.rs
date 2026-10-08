@@ -94,6 +94,8 @@ mod habitat;
 pub use habitat::*;
 mod whale_pet;
 pub use whale_pet::*;
+mod subagents;
+pub use subagents::*;
 
 mod pending_input;
 mod transcript;
