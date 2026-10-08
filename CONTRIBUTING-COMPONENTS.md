@@ -26,6 +26,9 @@ nothing else, so work never collides.
    `fn handle_key(&mut self, key: crossterm::event::KeyEvent, ..) -> Outcome`
    that ignores `KeyEventKind::Release`. The host decides what an outcome
    does. `PickerState::handle_key` and `PickerOutcome` are the model.
+   A state that owns a unique canonical performance clock, such as
+   `SubagentViewState`'s `Stage`, deliberately omits `Clone`; document that
+   ownership boundary instead of copying a running Director.
 5. **No new runtime dependency without the lead.** `ratatui`, `ratatui-core`, `crossterm`,
    `unicode-width`, `unicode-segmentation`, native character decoding through
    `serde`/`serde_json` (and `libc` on unix). `tests/contract.rs` and CI
