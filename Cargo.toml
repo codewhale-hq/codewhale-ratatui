@@ -20,6 +20,7 @@ include = [
     "/assets/whale-girl/terminal.rgba",
     "/assets/tui-palettes.json",
     "/assets/tui-source.json",
+    "/assets/dot-whale-search.json",
     "/tests/fixtures/whale-motion/**",
     "/examples/**",
     "/benches/**",

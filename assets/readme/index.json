@@ -77,6 +77,7 @@
     "showcase-color",
     "showcase-life",
     "showcase-narrow",
+    "pet-dot-search",
     "pet-cove",
     "pet-reading",
     "pet-needs-you",
@@ -256,9 +257,9 @@
       "profile": "dark-truecolor",
       "group": "pet",
       "entries": [
+        "pet-dot-search",
         "pet-cove",
-        "pet-reading",
-        "pet-needs-you"
+        "pet-reading"
       ]
     },
     {
@@ -266,7 +267,15 @@
       "profile": "dark-truecolor",
       "group": "pet",
       "entries": [
-        "pet-pod",
+        "pet-needs-you",
+        "pet-pod"
+      ]
+    },
+    {
+      "file": "pet.dark-truecolor-3.svg",
+      "profile": "dark-truecolor",
+      "group": "pet",
+      "entries": [
         "pet-mode"
       ]
     },
@@ -948,9 +957,9 @@
       "profile": "light-truecolor",
       "group": "pet",
       "entries": [
+        "pet-dot-search",
         "pet-cove",
-        "pet-reading",
-        "pet-needs-you"
+        "pet-reading"
       ]
     },
     {
@@ -958,7 +967,15 @@
       "profile": "light-truecolor",
       "group": "pet",
       "entries": [
-        "pet-pod",
+        "pet-needs-you",
+        "pet-pod"
+      ]
+    },
+    {
+      "file": "pet.light-truecolor-3.svg",
+      "profile": "light-truecolor",
+      "group": "pet",
+      "entries": [
         "pet-mode"
       ]
     },
