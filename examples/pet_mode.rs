@@ -2,7 +2,9 @@
 //! response, usage or agents. The actual terminal integration lives in `/pet on`.
 use codewhale_ratatui::{
     MotionMode, PetMode, PetModeState, State, StatusMark, Theme,
+    avatar_sprite::AvatarArt,
     testing::{self, Profile},
+    whale_girl,
     whale_motion::{Context, Inputs, Presence},
 };
 use crossterm::{
@@ -33,12 +35,27 @@ fn update(state: &mut PetModeState, now: Instant, motion: MotionMode) {
         motion,
     );
 }
-fn draw(state: &mut PetModeState, theme: &Theme, area: Rect, buf: &mut Buffer) {
+fn whale_girl_art() -> Result<AvatarArt<'static>, String> {
+    AvatarArt::new(
+        whale_girl::pack(),
+        whale_girl::TERMINAL,
+        whale_girl::TILE,
+        whale_girl::TILE,
+    )
+}
+fn draw(
+    state: &mut PetModeState,
+    theme: &Theme,
+    area: Rect,
+    buf: &mut Buffer,
+    avatar: Option<AvatarArt<'_>>,
+) {
     let mut view = PetMode::new(theme, StatusMark::new(State::Ready).word("Idle"));
-    view.hints = "Idle preview · L motion · Q close".into();
+    view.hints = "Idle preview · L motion · C character · Q close".into();
+    view.avatar = avatar;
     view.render(area, buf, state);
 }
-fn export(dir: &Path, profile: Profile) -> io::Result<()> {
+fn export(dir: &Path, profile: Profile, avatar: Option<AvatarArt<'_>>) -> io::Result<()> {
     std::fs::create_dir_all(dir)?;
     let mut state = PetModeState::default();
     state.set_visible(true);
@@ -52,7 +69,9 @@ fn export(dir: &Path, profile: Profile) -> io::Result<()> {
             now + Duration::from_millis(elapsed_ms),
             MotionMode::Full,
         );
-        let buf = testing::render(100, 36, |area, buf| draw(&mut state, &theme, area, buf));
+        let buf = testing::render(100, 36, |area, buf| {
+            draw(&mut state, &theme, area, buf, avatar)
+        });
         let file = format!("frame-{index:03}.svg");
         std::fs::write(dir.join(&file), testing::svg(&buf, &theme))?;
         manifest.push(serde_json::json!({"file":file,"elapsed_ms":elapsed_ms,"width":100,"height":36,"profile":profile.name()}));
@@ -77,6 +96,7 @@ impl Drop for Restore {
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut args = std::env::args().skip(1);
     let (mut frames, mut profile) = (None, None);
+    let mut girl = false;
     while let Some(arg) = args.next() {
         match arg.as_str() {
             "--frames" => frames = Some(args.next().ok_or("--frames requires a directory")?),
@@ -86,11 +106,29 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         .ok_or("unknown terminal profile")?,
                 )
             }
-            _ => return Err("usage: pet_mode [--frames DIR] [--profile NAME]".into()),
+            "--character" => {
+                girl = match args.next().as_deref() {
+                    Some("whale") => false,
+                    Some("whale-girl") => true,
+                    _ => return Err("--character expects whale or whale-girl".into()),
+                }
+            }
+            _ => {
+                return Err(
+                    "usage: pet_mode [--frames DIR] [--profile NAME] [--character whale|whale-girl]"
+                        .into(),
+                );
+            }
         }
     }
+    let art = whale_girl_art()?;
     if let Some(dir) = frames {
-        return export(Path::new(&dir), profile.unwrap_or(Profile::DarkTrue)).map_err(Into::into);
+        return export(
+            Path::new(&dir),
+            profile.unwrap_or(Profile::DarkTrue),
+            girl.then_some(art),
+        )
+        .map_err(Into::into);
     }
     codewhale_ratatui::detect::probe_terminal_background();
     let theme = profile.map_or_else(Theme::detect, |p| p.theme());
@@ -105,7 +143,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     loop {
         update(&mut state, Instant::now(), motion);
         if dirty {
-            terminal.draw(|frame| draw(&mut state, &theme, frame.area(), frame.buffer_mut()))?;
+            terminal.draw(|frame| {
+                draw(
+                    &mut state,
+                    &theme,
+                    frame.area(),
+                    frame.buffer_mut(),
+                    girl.then_some(art),
+                )
+            })?;
         }
         let wait = state.next_frame_in(&[], &theme);
         dirty = false;
@@ -120,6 +166,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         } else {
                             MotionMode::Full
                         };
+                        dirty = true;
+                    }
+                    KeyCode::Char('c') => {
+                        girl = !girl;
                         dirty = true;
                     }
                     _ => {}

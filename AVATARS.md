@@ -77,6 +77,12 @@ Both built-ins share the preview carrier: `--character whale` selects the
 original contour whale; Tab changes character interactively. Custom pack
 clips appear alongside the built-in activity choices.
 
+The full pet surface takes the same art. Build `avatar_sprite::AvatarArt` from
+a pack and its decoded tiles, then set `PetMode::avatar`; the pet samples the
+shared Stage clock, so reduced motion, settling and paint cadence match the
+whale. `cargo run --example pet_mode -- --character whale-girl` previews it,
+and `C` swaps characters in the live preview.
+
 Clips may opt into `motion`: `breathe`, `work`, `hop`, or `sleep` (`none` is
 the default). These bounded presets sample the existing clock and deform the
 sprite about its feet. Reduced motion and named views use an identity

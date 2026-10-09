@@ -2,8 +2,10 @@
 //! the host still owns sessions, roster receipts, responses and every action.
 
 use crate::{
-    MotionMode, Role, StatusMark, Subagent, SubagentIntent, SubagentView, SubagentViewState,
-    SubagentViewWords, Theme, WhalePet, text,
+    MotionMode, Paint, Role, StatusMark, Subagent, SubagentIntent, SubagentView, SubagentViewState,
+    SubagentViewWords, Theme, WhalePet,
+    avatar_sprite::AvatarArt,
+    text,
     whale_motion::{Inputs, Presence, Stage, Tier},
 };
 use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseEvent, MouseEventKind};
@@ -325,6 +327,7 @@ pub struct PetMode<'a> {
     /// Optional second footer row for the focused pane's controls.
     pub pane_hints: Cow<'a, str>,
     pub hints: Cow<'a, str>,
+    pub avatar: Option<AvatarArt<'a>>,
 }
 
 impl<'a> PetMode<'a> {
@@ -341,6 +344,7 @@ impl<'a> PetMode<'a> {
             output_title: "Response".into(),
             pane_hints: "".into(),
             hints: "Esc back".into(),
+            avatar: None,
         }
     }
 }
@@ -411,9 +415,16 @@ impl StatefulWidget for PetMode<'_> {
             );
         }
         if !plan.pet.is_empty() {
-            WhalePet::new(self.theme)
-                .words("")
-                .paint(plan.pet, buf, &mut state.stage);
+            match self.avatar {
+                Some(art) => {
+                    let director = state.stage.director();
+                    art.sprite(state.stage.acting().id(), director.f, director.reduced)
+                        .paint(plan.pet, buf, self.theme);
+                }
+                None => WhalePet::new(self.theme)
+                    .words("")
+                    .paint(plan.pet, buf, &mut state.stage),
+            }
         }
         let marker = if self.theme.ascii() { "> " } else { "› " };
         let mut agent_words = self.agent_words;

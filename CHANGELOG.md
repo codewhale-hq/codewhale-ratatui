@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Let the full pet surface paint a reviewed avatar pack in place of the whale:
+  `PetMode::avatar` takes an `avatar_sprite::AvatarArt`, samples the shared
+  Stage clock, and the `pet_mode` example swaps characters with `C`.
 - Add private vulnerability reporting guidance and contributor setup/check
   instructions; include both guides in the source package.
 - Feature the animated whale and full pet view in the README and catalogue,

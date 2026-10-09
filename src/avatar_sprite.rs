@@ -212,6 +212,31 @@ impl Paint for Sprite<'_> {
     }
 }
 
+#[derive(Clone, Copy)]
+pub struct AvatarArt<'a> {
+    pack: &'a crate::avatar::Pack,
+    sprite: Sprite<'a>,
+}
+impl<'a> AvatarArt<'a> {
+    pub fn new(
+        pack: &'a crate::avatar::Pack,
+        pixels: &'a [u8],
+        width: usize,
+        height: usize,
+    ) -> Result<Self, String> {
+        let sprite = Sprite::new(pack, pixels, width, height, 0)?;
+        Ok(Self { pack, sprite })
+    }
+    pub fn sprite(&self, state: &str, frame: f64, reduced: bool) -> Sprite<'a> {
+        let sampled = self.pack.sample(state, frame, reduced, None, None);
+        Sprite {
+            frame: sampled.index,
+            ..self.sprite
+        }
+        .with_transform(sampled.transform)
+    }
+}
+
 /// The original whale in the same avatar carrier. Uses the existing rig,
 /// terminal ink/capability handling and caller-owned Director.
 pub struct Contour<'a> {
