@@ -1,0 +1,78 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x3
+Organization
+  shannon-labs
+· Set by your administrator
+---
+r0 c0..12 fg=Muted bg=Background dim
+r0 c12..40 bg=Background
+r1 c0..2 bg=Background
+r1 c2..14 fg=Muted bg=Background dim
+r1 c14..40 bg=Background
+r2 c0..1 fg=Muted bg=Background
+r2 c1..2 bg=Background
+r2 c2..27 fg=Muted bg=Background
+r2 c27..40 bg=Background
+
+== dark-truecolor · 80x3
+Organization
+  shannon-labs
+· Set by your administrator
+---
+r0 c0..12 fg=Muted bg=Background dim
+r0 c12..80 bg=Background
+r1 c0..2 bg=Background
+r1 c2..14 fg=Muted bg=Background dim
+r1 c14..80 bg=Background
+r2 c0..1 fg=Muted bg=Background
+r2 c1..2 bg=Background
+r2 c2..27 fg=Muted bg=Background
+r2 c27..80 bg=Background
+
+== dark-truecolor · 120x3
+Organization
+  shannon-labs
+· Set by your administrator
+---
+r0 c0..12 fg=Muted bg=Background dim
+r0 c12..120 bg=Background
+r1 c0..2 bg=Background
+r1 c2..14 fg=Muted bg=Background dim
+r1 c14..120 bg=Background
+r2 c0..1 fg=Muted bg=Background
+r2 c1..2 bg=Background
+r2 c2..27 fg=Muted bg=Background
+r2 c27..120 bg=Background
+
+== no-color · 40x3
+Organization
+  shannon-labs
+· Set by your administrator
+
+== no-color · 80x3
+Organization
+  shannon-labs
+· Set by your administrator
+
+== no-color · 120x3
+Organization
+  shannon-labs
+· Set by your administrator
+
+== ascii · 40x3
+Organization
+  shannon-labs
+. Set by your administrator
+
+== ascii · 80x3
+Organization
+  shannon-labs
+. Set by your administrator
+
+== ascii · 120x3
+Organization
+  shannon-labs
+. Set by your administrator

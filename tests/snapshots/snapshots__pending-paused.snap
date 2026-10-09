@@ -1,0 +1,182 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention bg=Background
+r0 c8..11 fg=BorderStrong bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..40 bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..3 fg=Attention bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Attention bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..40 fg=Foreground bg=Selected
+r2 c0..2 fg=Primary bg=Background
+r2 c2..3 fg=Muted bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Muted bg=Background bold
+r2 c13..15 fg=BorderStrong bg=Background
+r2 c15..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== dark-graphite
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention bg=Background
+r0 c8..11 fg=BorderStrong bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..40 bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..3 fg=Attention bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Attention bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..40 fg=Foreground bg=Selected
+r2 c0..2 fg=Primary bg=Background
+r2 c2..3 fg=Muted bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Muted bg=Background bold
+r2 c13..15 fg=BorderStrong bg=Background
+r2 c15..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== light-truecolor
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention bg=Background
+r0 c8..11 fg=BorderStrong bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..40 bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..3 fg=Attention bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Attention bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..40 fg=Foreground bg=Selected
+r2 c0..2 fg=Primary bg=Background
+r2 c2..3 fg=Muted bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Muted bg=Background bold
+r2 c13..15 fg=BorderStrong bg=Background
+r2 c15..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== dark-256
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention bg=Background
+r0 c8..11 fg=BorderStrong bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..40 bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..3 fg=Attention bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Attention bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..40 fg=Foreground bg=Selected
+r2 c0..2 fg=Primary bg=Background
+r2 c2..3 fg=Muted bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Muted bg=Background bold
+r2 c13..15 fg=BorderStrong bg=Background
+r2 c15..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== light-256
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention bg=Background|Surface
+r0 c8..11 fg=BorderStrong bg=Background|Surface
+r0 c11..22 fg=Muted bg=Background|Surface
+r0 c22..40 bg=Background|Surface
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..3 fg=Attention bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Attention bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..40 fg=Foreground bg=Selected
+r2 c0..2 fg=Primary bg=Background|Surface
+r2 c2..3 fg=Muted bg=Background|Surface
+r2 c3..4 bg=Background|Surface
+r2 c4..13 fg=Muted bg=Background|Surface bold
+r2 c13..15 fg=BorderStrong bg=Background|Surface
+r2 c15..40 fg=Foreground bg=Background|Surface
+r3 c0..22 fg=Primary bg=Background|Surface
+r3 c22..40 bg=Background|Surface
+
+== ansi-16
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention
+r0 c11..22 dim
+r1 c0..2 fg=Primary
+r1 c2..3 fg=Attention
+r1 c4..10 fg=Attention bold
+r2 c0..2 fg=Primary
+r2 c2..3 dim
+r2 c4..13 bold dim
+r3 c0..22 fg=Primary
+
+== unknown-ground
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Attention
+r0 c11..22 dim
+r1 c0..2 fg=Primary
+r1 c2..3 fg=Attention
+r1 c4..10 fg=Attention bold
+r2 c0..2 fg=Primary
+r2 c2..3 dim
+r2 c4..13 bold dim
+r3 c0..22 fg=Primary
+
+== no-color
+1 paused · 1 in flight
+▸ ⏸ paused: Restart the shell after the
+  ● in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c11..22 dim
+r1 c4..10 bold
+r2 c2..3 dim
+r2 c4..13 bold dim
+
+== ascii
+1 paused / 1 in flight
+> = paused: Restart the shell after the
+  > in flight: Comparing the two snapsho
+Send now / Edit / Drop
+---
+r0 c11..22 dim
+r1 c4..10 bold
+r2 c2..3 dim
+r2 c4..13 bold dim

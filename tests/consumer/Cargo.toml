@@ -1,0 +1,13 @@
+[package]
+name = "codewhale-consumer-check"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.89"
+publish = false
+
+[dependencies]
+codewhale-ratatui = { path = "../.." }
+# This application uses only TestBackend. It chooses no terminal backend.
+ratatui = { version = "0.30.2", default-features = false, features = ["std"] }
+
+[workspace]

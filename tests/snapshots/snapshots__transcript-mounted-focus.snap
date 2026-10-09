@@ -1,0 +1,133 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Surface bold
+r0 c24..52 bg=Surface
+r1 c0..41 fg=Foreground bg=Surface
+r1 c41..52 bg=Surface
+r2 c0..41 fg=Foreground bg=Surface
+r2 c41..52 bg=Surface
+r3 c0..52 bg=Surface
+r4 c0..52 bg=Surface
+r5 c0..52 bg=Surface
+
+== dark-graphite
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Surface bold
+r0 c24..52 bg=Surface
+r1 c0..41 fg=Foreground bg=Surface
+r1 c41..52 bg=Surface
+r2 c0..41 fg=Foreground bg=Surface
+r2 c41..52 bg=Surface
+r3 c0..52 bg=Surface
+r4 c0..52 bg=Surface
+r5 c0..52 bg=Surface
+
+== light-truecolor
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Surface bold
+r0 c24..52 bg=Surface
+r1 c0..41 fg=Foreground bg=Surface
+r1 c41..52 bg=Surface
+r2 c0..41 fg=Foreground bg=Surface
+r2 c41..52 bg=Surface
+r3 c0..52 bg=Surface
+r4 c0..52 bg=Surface
+r5 c0..52 bg=Surface
+
+== dark-256
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Surface|Hover bold
+r0 c24..52 bg=Surface|Hover
+r1 c0..41 fg=Foreground bg=Surface|Hover
+r1 c41..52 bg=Surface|Hover
+r2 c0..41 fg=Foreground bg=Surface|Hover
+r2 c41..52 bg=Surface|Hover
+r3 c0..52 bg=Surface|Hover
+r4 c0..52 bg=Surface|Hover
+r5 c0..52 bg=Surface|Hover
+
+== light-256
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Background|Surface bold
+r0 c24..52 bg=Background|Surface
+r1 c0..41 fg=Foreground bg=Background|Surface
+r1 c41..52 bg=Background|Surface
+r2 c0..41 fg=Foreground bg=Background|Surface
+r2 c41..52 bg=Background|Surface
+r3 c0..52 bg=Background|Surface
+r4 c0..52 bg=Background|Surface
+r5 c0..52 bg=Background|Surface
+
+== ansi-16
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bold
+
+== unknown-ground
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bold
+
+== no-color
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 bold
+
+== ascii
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 bold

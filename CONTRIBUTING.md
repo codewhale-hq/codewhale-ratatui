@@ -1,42 +1,58 @@
 # Contributing
 
-Thanks for helping. This crate is the terminal half of one design language
-shared with the Codewhale desktop app and website, so most changes are either a
-component or a token/whale update.
+Codewhale Ratatui provides reusable terminal components and native Codewhale
+views. Start with the [getting-started guide](GETTING-STARTED.md) and
+[component catalogue](COMPONENTS.md) to find the existing component or example
+closest to your change.
 
 ## Set up
 
+Use Rust 1.89 or newer, as declared in `Cargo.toml`.
+`rust-toolchain.toml` selects the rolling stable channel, not a fixed version;
+CI checks the declared minimum separately.
+
 ```sh
-cargo build
-cargo test                       # unit, generated-roles, whale and snapshot tests
-cargo run --example gallery      # look at every component; p changes the profile
+cargo build --locked
+cargo run --locked --example starter
+cargo run --locked --example gallery
 ```
 
-The toolchain is pinned in `rust-toolchain.toml`.
+In the gallery, `p` changes the terminal profile and `w` changes the width.
 
-## Before you open a PR
+## Make and verify a change
 
-- Run `cargo test`. If a snapshot changes on purpose, review it with
-  `cargo insta review` and say why in the PR.
-- Paint from design roles, never raw colors. Snapshots record the role each cell
-  was painted with, so painting the wrong role fails them.
-- Pair every state with a mark and a word; nothing may depend on color alone.
-- Check the change in the gallery profiles that matter to it (`no-color`,
-  `ascii` and `ansi-16` catch most regressions).
-- Token and whale data are generated: use the commands in the README under
-  "Update the tokens" and "Update the whale" instead of editing `src/roles.rs`
-  or `assets/whale-v2.scenes` by hand.
+- Follow [Adding a component](CONTRIBUTING-COMPONENTS.md) for the rendering,
+  text, input, accessibility, gallery and snapshot contracts. It also explains
+  file ownership when several contributors are working together.
+- Preserve the native presentation described in [DESIGN.md](DESIGN.md).
+  Check relevant states at narrow widths and in the no-color, ASCII and
+  ANSI-16 profiles; color must not be the only way to recognize a state.
+- Use the [README's source-asset instructions](README.md#update-source-palettes-and-design-assets)
+  when updating generated palettes, tokens or whale data. Review generated
+  output with its source change.
+- Run the focused tests for the paths you changed, and inspect intentional
+  snapshot changes before accepting them. The component guide explains the
+  snapshot workflow.
+
+Before opening a pull request, check formatting and lint the targets:
+
+```sh
+cargo fmt --check
+cargo clippy --locked --all-targets -- -D warnings
+```
+
+For example, component contract changes can be checked with
+`cargo test --locked --test contract`. CI runs the full test suite across
+supported platforms and the minimum Rust version, plus documentation,
+consumer/package and generated-preview checks. [QUALITY.md](QUALITY.md)
+explains those gates and how to run the relevant ones locally.
 
 ## Pull requests
 
-Keep a PR to one change, with a short before/after description. Commits use a
-conventional prefix (`feat:`, `fix:`, `docs:`, `chore:`).
+Keep each PR focused. Describe the problem, resulting behavior and checks you
+actually ran; include before/after previews for visual changes. Use a short
+commit prefix such as `feat:`, `fix:`, `docs:` or `chore:`. Stage only the files
+belonging to your change, especially in a shared checkout.
 
-## Security
-
-See [SECURITY.md](SECURITY.md). Do not file vulnerabilities as public issues.
-
-## License
-
-By contributing you agree that your contribution is licensed under the MIT
-License in [LICENSE](LICENSE).
+Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+Contributions are covered by the repository's [MIT license](LICENSE).

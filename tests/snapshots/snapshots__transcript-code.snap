@@ -1,0 +1,177 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 fg=Foreground bg=Background bold
+r0 c20..40 bg=Background
+r1 c0..4 fg=Muted bg=Surface bold
+r1 c4..6 bg=Surface
+r1 c6..10 fg=Primary bg=Surface
+r1 c10..40 bg=Surface
+r2 c0..7 fg=Border bg=Surface
+r2 c7..35 fg=Foreground bg=Surface
+r2 c35..40 bg=Surface
+r3 c0..7 fg=Border bg=Surface
+r3 c7..40 fg=Foreground bg=Surface
+r4 c0..7 bg=Surface
+r4 c7..21 fg=Foreground bg=Surface
+r4 c21..40 bg=Surface
+r5 c0..40 bg=Background
+
+== dark-graphite
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 fg=Foreground bg=Background bold
+r0 c20..40 bg=Background
+r1 c0..4 fg=Muted bg=Surface bold
+r1 c4..6 bg=Surface
+r1 c6..10 fg=Primary bg=Surface
+r1 c10..40 bg=Surface
+r2 c0..7 fg=Border bg=Surface
+r2 c7..35 fg=Foreground bg=Surface
+r2 c35..40 bg=Surface
+r3 c0..7 fg=Border bg=Surface
+r3 c7..40 fg=Foreground bg=Surface
+r4 c0..7 bg=Surface
+r4 c7..21 fg=Foreground bg=Surface
+r4 c21..40 bg=Surface
+r5 c0..40 bg=Background
+
+== light-truecolor
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 fg=Foreground bg=Background bold
+r0 c20..40 bg=Background
+r1 c0..4 fg=Muted bg=Surface bold
+r1 c4..6 bg=Surface
+r1 c6..10 fg=Primary bg=Surface
+r1 c10..40 bg=Surface
+r2 c0..7 fg=Border bg=Surface
+r2 c7..35 fg=Foreground bg=Surface
+r2 c35..40 bg=Surface
+r3 c0..7 fg=Border bg=Surface
+r3 c7..40 fg=Foreground bg=Surface
+r4 c0..7 bg=Surface
+r4 c7..21 fg=Foreground bg=Surface
+r4 c21..40 bg=Surface
+r5 c0..40 bg=Background
+
+== dark-256
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 fg=Foreground bg=Background bold
+r0 c20..40 bg=Background
+r1 c0..4 fg=Muted bg=Surface|Hover bold
+r1 c4..6 bg=Surface|Hover
+r1 c6..10 fg=Primary bg=Surface|Hover
+r1 c10..40 bg=Surface|Hover
+r2 c0..7 fg=Border bg=Surface|Hover
+r2 c7..35 fg=Foreground bg=Surface|Hover
+r2 c35..40 bg=Surface|Hover
+r3 c0..7 fg=Border bg=Surface|Hover
+r3 c7..40 fg=Foreground bg=Surface|Hover
+r4 c0..7 bg=Surface|Hover
+r4 c7..21 fg=Foreground bg=Surface|Hover
+r4 c21..40 bg=Surface|Hover
+r5 c0..40 bg=Background
+
+== light-256
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 fg=Foreground bg=Background|Surface bold
+r0 c20..40 bg=Background|Surface
+r1 c0..4 fg=Muted bg=Background|Surface bold
+r1 c4..6 bg=Background|Surface
+r1 c6..10 fg=Primary bg=Background|Surface
+r1 c10..40 bg=Background|Surface
+r2 c0..7 fg=Border bg=Background|Surface
+r2 c7..35 fg=Foreground bg=Background|Surface
+r2 c35..40 bg=Background|Surface
+r3 c0..7 fg=Border bg=Background|Surface
+r3 c7..40 fg=Foreground bg=Background|Surface
+r4 c0..7 bg=Background|Surface
+r4 c7..21 fg=Foreground bg=Background|Surface
+r4 c21..40 bg=Background|Surface
+r5 c0..40 bg=Background|Surface
+
+== ansi-16
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 bold
+r1 c0..4 bold dim
+r1 c6..10 fg=Primary
+r2 c0..7 dim
+r3 c0..7 dim
+
+== unknown-ground
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 bold
+r1 c0..4 bold dim
+r1 c6..10 fg=Primary
+r2 c0..7 dim
+r3 c0..7 dim
+
+== no-color
+Paint into the frame
+rust  Copy
+ 1 │   let theme = Theme::detect();
+ 2 │   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 bold
+r1 c0..4 bold dim
+r2 c0..7 dim
+r3 c0..7 dim
+
+== ascii
+Paint into the frame
+rust  Copy
+ 1 |   let theme = Theme::detect();
+ 2 |   frame.render_widget(view.themed(&
+       theme), area);
+
+---
+r0 c0..20 bold
+r1 c0..4 bold dim
+r2 c0..7 dim
+r3 c0..7 dim

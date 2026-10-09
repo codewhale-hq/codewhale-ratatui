@@ -1,0 +1,50 @@
+---
+source: tests/artifacts.rs
+expression: "testing::snapshot(2, |area, buf, theme|\n{ ArtifactShelf::new(Vec::new()).paint(area, buf, theme); })"
+---
+== dark-truecolor · 40x2
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..40 bg=Background
+r1 c0..40 bg=Background
+
+== dark-truecolor · 80x2
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..80 bg=Background
+r1 c0..80 bg=Background
+
+== dark-truecolor · 120x2
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..120 bg=Background
+r1 c0..120 bg=Background
+
+== no-color · 40x2
+No artifacts reported
+
+
+== no-color · 80x2
+No artifacts reported
+
+
+== no-color · 120x2
+No artifacts reported
+
+
+== ascii · 40x2
+No artifacts reported
+
+
+== ascii · 80x2
+No artifacts reported
+
+
+== ascii · 120x2
+No artifacts reported

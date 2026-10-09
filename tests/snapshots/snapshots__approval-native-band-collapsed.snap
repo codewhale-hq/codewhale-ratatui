@@ -1,0 +1,74 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+ Run checks — command [Tab expand]
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..35 fg=Primary
+
+== dark-graphite
+
+
+ Run checks — command [Tab expand]
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..35 fg=Primary
+
+== light-truecolor
+
+
+ Run checks — command [Tab expand]
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..35 fg=Primary
+
+== dark-256
+
+
+ Run checks — command [Tab expand]
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..35 fg=Primary
+
+== light-256
+
+
+ Run checks — command [Tab expand]
+---
+r0 c0..70 bg=Background|Surface
+r1 c0..70 bg=Background|Surface
+r2 c0..35 fg=Primary
+
+== ansi-16
+
+
+ Run checks — command [Tab expand]
+---
+r2 c0..35 fg=Primary
+
+== unknown-ground
+
+
+ Run checks — command [Tab expand]
+---
+r2 c0..35 fg=Primary
+
+== no-color
+
+
+ Run checks — command [Tab expand]
+---
+
+== ascii
+
+
+ Run checks - command [Tab expand]
+---

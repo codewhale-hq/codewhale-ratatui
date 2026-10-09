@@ -1,0 +1,356 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention bg=Background
+r0 c31..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..4 fg=Muted bg=Background
+r2 c4..40 fg=Foreground bg=Background
+r3 c0..4 fg=Foreground bg=Selected bold
+r3 c4..39 fg=Foreground bg=Selected
+r3 c39..40 bg=Background
+r4 c0..4 fg=Foreground bg=Selected bold
+r4 c4..11 fg=Foreground bg=Selected
+r4 c11..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..34 fg=Dim bg=Background dim
+r7 c34..40 bg=Background
+r8 c0..39 fg=Dim bg=Background dim
+r8 c39..40 bg=Background
+r9 c0..38 fg=Dim bg=Background dim italic
+r9 c38..40 bg=Background
+r10 c0..29 fg=Dim bg=Background dim italic
+r10 c29..40 bg=Background
+r11 c0..33 fg=Dim bg=Background dim
+r11 c33..40 bg=Background
+r12 c0..37 fg=Dim bg=Background dim italic
+r12 c37..40 bg=Background
+r13 c0..30 fg=Dim bg=Background dim italic
+r13 c30..40 bg=Background
+r14 c0..23 fg=Dim bg=Background dim
+r14 c23..40 bg=Background
+
+== dark-graphite
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention bg=Background
+r0 c31..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..4 fg=Muted bg=Background
+r2 c4..40 fg=Foreground bg=Background
+r3 c0..4 fg=Foreground bg=Selected bold
+r3 c4..39 fg=Foreground bg=Selected
+r3 c39..40 bg=Background
+r4 c0..4 fg=Foreground bg=Selected bold
+r4 c4..11 fg=Foreground bg=Selected
+r4 c11..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..34 fg=Dim bg=Background dim
+r7 c34..40 bg=Background
+r8 c0..39 fg=Dim bg=Background dim
+r8 c39..40 bg=Background
+r9 c0..38 fg=Dim bg=Background dim italic
+r9 c38..40 bg=Background
+r10 c0..29 fg=Dim bg=Background dim italic
+r10 c29..40 bg=Background
+r11 c0..33 fg=Dim bg=Background dim
+r11 c33..40 bg=Background
+r12 c0..37 fg=Dim bg=Background dim italic
+r12 c37..40 bg=Background
+r13 c0..30 fg=Dim bg=Background dim italic
+r13 c30..40 bg=Background
+r14 c0..23 fg=Dim bg=Background dim
+r14 c23..40 bg=Background
+
+== light-truecolor
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention bg=Background
+r0 c31..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..4 fg=Muted bg=Background
+r2 c4..40 fg=Foreground bg=Background
+r3 c0..4 fg=Foreground bg=Selected bold
+r3 c4..39 fg=Foreground bg=Selected
+r3 c39..40 bg=Background
+r4 c0..4 fg=Foreground bg=Selected bold
+r4 c4..11 fg=Foreground bg=Selected
+r4 c11..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..34 fg=Dim bg=Background dim
+r7 c34..40 bg=Background
+r8 c0..39 fg=Dim bg=Background dim
+r8 c39..40 bg=Background
+r9 c0..38 fg=Dim bg=Background dim italic
+r9 c38..40 bg=Background
+r10 c0..29 fg=Dim bg=Background dim italic
+r10 c29..40 bg=Background
+r11 c0..33 fg=Dim bg=Background dim
+r11 c33..40 bg=Background
+r12 c0..37 fg=Dim bg=Background dim italic
+r12 c37..40 bg=Background
+r13 c0..30 fg=Dim bg=Background dim italic
+r13 c30..40 bg=Background
+r14 c0..23 fg=Dim bg=Background dim
+r14 c23..40 bg=Background
+
+== dark-256
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention bg=Background
+r0 c31..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..4 fg=Muted bg=Background
+r2 c4..40 fg=Foreground bg=Background
+r3 c0..4 fg=Foreground bg=Selected bold
+r3 c4..39 fg=Foreground bg=Selected
+r3 c39..40 bg=Background
+r4 c0..4 fg=Foreground bg=Selected bold
+r4 c4..11 fg=Foreground bg=Selected
+r4 c11..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..34 fg=Dim bg=Background dim
+r7 c34..40 bg=Background
+r8 c0..39 fg=Dim bg=Background dim
+r8 c39..40 bg=Background
+r9 c0..38 fg=Dim bg=Background dim italic
+r9 c38..40 bg=Background
+r10 c0..29 fg=Dim bg=Background dim italic
+r10 c29..40 bg=Background
+r11 c0..33 fg=Dim bg=Background dim
+r11 c33..40 bg=Background
+r12 c0..37 fg=Dim bg=Background dim italic
+r12 c37..40 bg=Background
+r13 c0..30 fg=Dim bg=Background dim italic
+r13 c30..40 bg=Background
+r14 c0..23 fg=Dim bg=Background dim
+r14 c23..40 bg=Background
+
+== light-256
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention bg=Background|Surface
+r0 c31..40 bg=Background|Surface
+r1 c0..40 bg=Background|Surface
+r2 c0..4 fg=Muted bg=Background|Surface
+r2 c4..40 fg=Foreground bg=Background|Surface
+r3 c0..4 fg=Foreground bg=Selected bold
+r3 c4..39 fg=Foreground bg=Selected
+r3 c39..40 bg=Background|Surface
+r4 c0..4 fg=Foreground bg=Selected bold
+r4 c4..11 fg=Foreground bg=Selected
+r4 c11..40 bg=Background|Surface
+r5 c0..40 bg=Background|Surface
+r6 c0..40 bg=Background|Surface
+r7 c0..34 fg=Dim bg=Background|Surface dim
+r7 c34..40 bg=Background|Surface
+r8 c0..39 fg=Dim bg=Background|Surface dim
+r8 c39..40 bg=Background|Surface
+r9 c0..38 fg=Dim bg=Background|Surface dim italic
+r9 c38..40 bg=Background|Surface
+r10 c0..29 fg=Dim bg=Background|Surface dim italic
+r10 c29..40 bg=Background|Surface
+r11 c0..33 fg=Dim bg=Background|Surface dim
+r11 c33..40 bg=Background|Surface
+r12 c0..37 fg=Dim bg=Background|Surface dim italic
+r12 c37..40 bg=Background|Surface
+r13 c0..30 fg=Dim bg=Background|Surface dim italic
+r13 c30..40 bg=Background|Surface
+r14 c0..23 fg=Dim bg=Background|Surface dim
+r14 c23..40 bg=Background|Surface
+
+== ansi-16
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention
+r2 c0..4 dim
+r3 c0..4 bold
+r4 c0..4 bold
+r7 c0..34 dim
+r8 c0..39 dim
+r9 c0..38 dim italic
+r10 c0..29 dim italic
+r11 c0..33 dim
+r12 c0..37 dim italic
+r13 c0..30 dim italic
+r14 c0..23 dim
+
+== unknown-ground
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r0 c0..31 fg=Attention
+r2 c0..4 dim
+r3 c0..4 bold
+r4 c0..4 bold
+r7 c0..34 dim
+r8 c0..39 dim
+r9 c0..38 dim italic
+r10 c0..29 dim italic
+r11 c0..33 dim
+r12 c0..37 dim italic
+r13 c0..30 dim italic
+r14 c0..23 dim
+
+== no-color
+1 child request needs attention
+• Context for next send
+  ↳ [file] notes.md · 4.2 kB · removable
+  ▸ [file] draft.md · Backspace/Delete
+    removes
+
+• Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now · ↑ edit
+---
+r2 c0..4 dim
+r3 c0..4 bold
+r4 c0..4 bold
+r7 c0..34 dim
+r8 c0..39 dim
+r9 c0..38 dim italic
+r10 c0..29 dim italic
+r11 c0..33 dim
+r12 c0..37 dim italic
+r13 c0..30 dim italic
+r14 c0..23 dim
+
+== ascii
+1 child request needs attention
+. Context for next send
+  + [file] notes.md . 4.2 kB . removable
+  > [file] draft.md . Backspace/Delete
+    removes
+
+. Pending inputs
+Sending into this turn: Check the
+                        parser boundary
+Editing follow-up: Keep the migration
+                   reversible
+Esc restores the queued follow-up
+Queued follow-up #1: Compare the two
+                     snapshots
+Enter send now . ^ edit
+---
+r2 c0..4 dim
+r3 c0..4 bold
+r4 c0..4 bold
+r7 c0..34 dim
+r8 c0..39 dim
+r9 c0..38 dim italic
+r10 c0..29 dim italic
+r11 c0..33 dim
+r12 c0..37 dim italic
+r13 c0..30 dim italic
+r14 c0..23 dim

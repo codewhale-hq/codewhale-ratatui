@@ -1,0 +1,92 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x3
+◆ 整理发布说明并翻译…   needs you · …
+└ ? review-with-a-ver…  unknown
+
+---
+r0 c0..1 fg=Attention bg=Background
+r0 c1..2 bg=Background
+r0 c2..24 fg=Foreground bg=Background
+r0 c24..33 fg=Muted bg=Background
+r0 c33..36 fg=Dim bg=Background
+r0 c36..37 fg=Foreground bg=Background
+r0 c37..40 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Muted bg=Background
+r1 c3..4 bg=Background
+r1 c4..24 fg=Foreground bg=Background
+r1 c24..31 fg=Muted bg=Background
+r1 c31..40 bg=Background
+r2 c0..40 bg=Background
+
+== dark-truecolor · 80x3
+◆ 整理发布说明并翻译成中文，然后提交审阅  needs you · 等待你批准运行 cargo pu…
+└ ? review-with-a-very-long-agent-name    unknown
+
+---
+r0 c0..1 fg=Attention bg=Background
+r0 c1..2 bg=Background
+r0 c2..42 fg=Foreground bg=Background
+r0 c42..51 fg=Muted bg=Background
+r0 c51..54 fg=Dim bg=Background
+r0 c54..78 fg=Foreground bg=Background
+r0 c78..80 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Muted bg=Background
+r1 c3..4 bg=Background
+r1 c4..42 fg=Foreground bg=Background
+r1 c42..49 fg=Muted bg=Background
+r1 c49..80 bg=Background
+r2 c0..80 bg=Background
+
+== dark-truecolor · 120x3
+◆ 整理发布说明并翻译成中文，然后提交审阅  needs you · 等待你批准运行 cargo publish，这一步不能撤销
+└ ? review-with-a-very-long-agent-name    unknown
+
+---
+r0 c0..1 fg=Attention bg=Background
+r0 c1..2 bg=Background
+r0 c2..42 fg=Foreground bg=Background
+r0 c42..51 fg=Muted bg=Background
+r0 c51..54 fg=Dim bg=Background
+r0 c54..98 fg=Foreground bg=Background
+r0 c98..120 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Muted bg=Background
+r1 c3..4 bg=Background
+r1 c4..42 fg=Foreground bg=Background
+r1 c42..49 fg=Muted bg=Background
+r1 c49..120 bg=Background
+r2 c0..120 bg=Background
+
+== no-color · 40x3
+◆ 整理发布说明并翻译…   needs you · …
+└ ? review-with-a-ver…  unknown
+
+
+== no-color · 80x3
+◆ 整理发布说明并翻译成中文，然后提交审阅  needs you · 等待你批准运行 cargo pu…
+└ ? review-with-a-very-long-agent-name    unknown
+
+
+== no-color · 120x3
+◆ 整理发布说明并翻译成中文，然后提交审阅  needs you · 等待你批准运行 cargo publish，这一步不能撤销
+└ ? review-with-a-very-long-agent-name    unknown
+
+
+== ascii · 40x3
+* Tidy the release...   needs you - W.
+\ ? review-with-a-v...  unknown
+
+
+== ascii · 80x3
+* Tidy the release notes, translate them, t...  needs you - Waiting for you...
+\ ? review-with-a-very-long-agent-name          unknown
+
+
+== ascii · 120x3
+* Tidy the release notes, translate them, then send for review  needs you - Waiting for you to approve cargo publis...
+\ ? review-with-a-very-long-agent-name                          unknown

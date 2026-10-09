@@ -1,0 +1,1551 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..103 fg=Foreground bg=Background
+r0 c103..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..112 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..47 fg=Foreground bg=Background bold
+r3 c47..103 fg=Foreground bg=Background
+r3 c103..110 fg=Muted bg=Background
+r3 c110..112 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..110 fg=Border bg=Background
+r4 c110..112 fg=Foreground bg=Background
+r5 c0..112 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..112 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..112 fg=Foreground bg=Background
+r8 c0..112 fg=Foreground bg=Background
+r9 c0..112 fg=Foreground bg=Background
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..3 fg=Live bg=Background
+r10 c3..48 fg=Foreground bg=Background
+r10 c48..55 fg=Muted bg=Background
+r10 c55..112 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Dim bg=Background
+r11 c4..5 fg=Live bg=Background
+r11 c5..48 fg=Foreground bg=Background
+r11 c48..52 fg=Muted bg=Background
+r11 c52..55 fg=Dim bg=Background
+r11 c55..108 fg=Muted bg=Background
+r11 c108..112 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Dim bg=Background
+r12 c4..5 fg=Attention bg=Background
+r12 c5..48 fg=Foreground bg=Background
+r12 c48..57 fg=Muted bg=Background
+r12 c57..60 fg=Dim bg=Background
+r12 c60..96 fg=Foreground bg=Background
+r12 c96..99 fg=Dim bg=Background
+r12 c99..108 fg=Muted bg=Background
+r12 c108..112 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Dim bg=Background
+r13 c4..5 fg=Live bg=Background
+r13 c5..48 fg=Foreground bg=Background
+r13 c48..55 fg=Muted bg=Background
+r13 c55..58 fg=Dim bg=Background
+r13 c58..106 fg=Muted bg=Background
+r13 c106..112 fg=Foreground bg=Background
+r14 c0..112 fg=Foreground bg=Background
+r15 c0..112 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..34 fg=Muted bg=Background
+r16 c34..112 fg=Foreground bg=Background
+r17 c0..112 fg=Foreground bg=Background
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 fg=Live bg=Background
+r18 c3..36 fg=Foreground bg=Background
+r18 c36..37 fg=Muted bg=Background
+r18 c37..51 fg=Live bg=Background
+r18 c51..61 fg=Dim bg=Background
+r18 c61..62 fg=Muted bg=Background
+r18 c62..112 fg=Foreground bg=Background
+r19 c0..112 fg=Foreground bg=Background
+r20 c0..112 fg=Foreground bg=Background
+r21 c0..112 fg=Foreground bg=Background
+r22 c0..112 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..3 fg=Live bg=Background
+r23 c3..25 fg=Foreground bg=Background
+r23 c25..32 fg=Muted bg=Background
+r23 c32..58 fg=Foreground bg=Background
+r23 c58..67 fg=Foreground bg=Background bold
+r23 c67..101 bg=Background
+r23 c101..110 fg=Muted bg=Background
+r23 c110..112 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Live bg=Background
+r24 c3..25 fg=Foreground bg=Background
+r24 c25..32 fg=Muted bg=Background
+r24 c32..38 fg=Foreground bg=Background
+r24 c38..45 fg=Hint bg=Background
+r24 c45..58 fg=Foreground bg=Background
+r24 c58..110 fg=Border bg=Background
+r24 c110..112 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Live bg=Background
+r25 c3..25 fg=Foreground bg=Background
+r25 c25..32 fg=Muted bg=Background
+r25 c32..58 fg=Foreground bg=Background
+r25 c58..59 fg=Primary bg=Selected
+r25 c59..60 bg=Selected
+r25 c60..61 fg=Attention bg=Selected
+r25 c61..62 bg=Selected
+r25 c62..71 fg=Foreground bg=Selected
+r25 c71..110 bg=Selected
+r25 c110..112 fg=Foreground bg=Background
+r26 c0..4 fg=Foreground bg=Background
+r26 c4..24 fg=Foreground bg=Background bold
+r26 c24..25 fg=Foreground bg=Background
+r26 c25..32 fg=Muted bg=Background
+r26 c32..33 fg=Foreground bg=Background
+r26 c33..37 fg=Foreground bg=Background bold
+r26 c37..38 fg=Foreground bg=Background
+r26 c38..45 fg=Foreground bg=Background bold
+r26 c45..58 fg=Foreground bg=Background
+r26 c58..59 fg=Primary bg=Selected
+r26 c59..60 bg=Selected
+r26 c60..79 fg=Foreground bg=Selected bold
+r26 c79..110 bg=Selected
+r26 c110..112 fg=Foreground bg=Background
+r27 c0..4 fg=Foreground bg=Background
+r27 c4..47 fg=Hint bg=Background
+r27 c47..58 fg=Foreground bg=Background
+r27 c58..59 fg=Primary bg=Selected
+r27 c59..60 bg=Selected
+r27 c60..109 fg=Foreground bg=Selected
+r27 c109..110 bg=Selected
+r27 c110..112 fg=Foreground bg=Background
+r28 c0..58 fg=Foreground bg=Background
+r28 c58..59 fg=Primary bg=Selected
+r28 c59..60 bg=Selected
+r28 c60..71 fg=Foreground bg=Selected
+r28 c71..110 bg=Selected
+r28 c110..112 fg=Foreground bg=Background
+r29 c0..58 fg=Foreground bg=Background
+r29 c58..59 fg=Primary bg=Selected
+r29 c59..60 bg=Selected
+r29 c60..79 fg=Primary bg=Selected
+r29 c79..110 bg=Selected
+r29 c110..112 fg=Foreground bg=Background
+r30 c0..58 fg=Foreground bg=Background
+r30 c58..110 bg=Background
+r30 c110..112 fg=Foreground bg=Background
+r31 c0..112 fg=Foreground bg=Background
+r32 c0..2 fg=Foreground bg=Background
+r32 c2..110 fg=Border bg=Sidebar
+r32 c110..112 fg=Foreground bg=Background
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=Foreground bg=Sidebar
+r33 c3..12 fg=Muted bg=Sidebar
+r33 c12..14 fg=Foreground bg=Sidebar
+r33 c14..23 fg=Foreground bg=Selected bold
+r33 c23..25 fg=Foreground bg=Sidebar
+r33 c25..33 fg=Muted bg=Sidebar
+r33 c33..35 fg=Foreground bg=Sidebar
+r33 c35..44 fg=Muted bg=Sidebar
+r33 c44..46 fg=Foreground bg=Sidebar
+r33 c46..55 fg=Muted bg=Sidebar
+r33 c55..57 fg=Foreground bg=Sidebar
+r33 c57..66 fg=Muted bg=Sidebar
+r33 c66..68 fg=Foreground bg=Sidebar
+r33 c68..73 fg=Muted bg=Sidebar
+r33 c73..75 fg=Foreground bg=Sidebar
+r33 c75..81 fg=Muted bg=Sidebar
+r33 c81..103 fg=Foreground bg=Sidebar
+r33 c103..110 fg=Hint bg=Sidebar
+r33 c110..112 fg=Foreground bg=Background
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..3 fg=Foreground bg=Sidebar
+r34 c3..5 fg=Foreground bg=Selected bold
+r34 c5..26 fg=Muted bg=Selected bold
+r34 c26..69 fg=Foreground bg=Selected bold
+r34 c69..109 fg=Muted bg=Selected bold
+r34 c109..110 fg=Foreground bg=Sidebar
+r34 c110..112 fg=Foreground bg=Background
+r35 c0..2 fg=Foreground bg=Background
+r35 c2..5 fg=Foreground bg=Sidebar
+r35 c5..26 fg=Muted bg=Sidebar
+r35 c26..60 fg=Foreground bg=Sidebar
+r35 c60..109 fg=Muted bg=Sidebar
+r35 c109..110 fg=Foreground bg=Sidebar
+r35 c110..112 fg=Foreground bg=Background
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..110 fg=Foreground bg=Sidebar
+r36 c110..112 fg=Foreground bg=Background
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..92 fg=Muted bg=Sidebar
+r37 c92..112 fg=Foreground bg=Sidebar
+
+== dark-graphite
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..103 fg=Foreground bg=Background
+r0 c103..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..112 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..47 fg=Foreground bg=Background bold
+r3 c47..103 fg=Foreground bg=Background
+r3 c103..110 fg=Muted bg=Background
+r3 c110..112 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..110 fg=Border bg=Background
+r4 c110..112 fg=Foreground bg=Background
+r5 c0..112 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..112 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..112 fg=Foreground bg=Background
+r8 c0..112 fg=Foreground bg=Background
+r9 c0..112 fg=Foreground bg=Background
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..3 fg=Live bg=Background
+r10 c3..48 fg=Foreground bg=Background
+r10 c48..55 fg=Muted bg=Background
+r10 c55..112 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Dim bg=Background
+r11 c4..5 fg=Live bg=Background
+r11 c5..48 fg=Foreground bg=Background
+r11 c48..52 fg=Muted bg=Background
+r11 c52..55 fg=Dim bg=Background
+r11 c55..108 fg=Muted bg=Background
+r11 c108..112 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Dim bg=Background
+r12 c4..5 fg=Attention bg=Background
+r12 c5..48 fg=Foreground bg=Background
+r12 c48..57 fg=Muted bg=Background
+r12 c57..60 fg=Dim bg=Background
+r12 c60..96 fg=Foreground bg=Background
+r12 c96..99 fg=Dim bg=Background
+r12 c99..108 fg=Muted bg=Background
+r12 c108..112 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Dim bg=Background
+r13 c4..5 fg=Live bg=Background
+r13 c5..48 fg=Foreground bg=Background
+r13 c48..55 fg=Muted bg=Background
+r13 c55..58 fg=Dim bg=Background
+r13 c58..106 fg=Muted bg=Background
+r13 c106..112 fg=Foreground bg=Background
+r14 c0..112 fg=Foreground bg=Background
+r15 c0..112 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..34 fg=Muted bg=Background
+r16 c34..112 fg=Foreground bg=Background
+r17 c0..112 fg=Foreground bg=Background
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 fg=Live bg=Background
+r18 c3..36 fg=Foreground bg=Background
+r18 c36..37 fg=Muted bg=Background
+r18 c37..51 fg=Live bg=Background
+r18 c51..61 fg=Dim bg=Background
+r18 c61..62 fg=Muted bg=Background
+r18 c62..112 fg=Foreground bg=Background
+r19 c0..112 fg=Foreground bg=Background
+r20 c0..112 fg=Foreground bg=Background
+r21 c0..112 fg=Foreground bg=Background
+r22 c0..112 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..3 fg=Live bg=Background
+r23 c3..25 fg=Foreground bg=Background
+r23 c25..32 fg=Muted bg=Background
+r23 c32..58 fg=Foreground bg=Background
+r23 c58..67 fg=Foreground bg=Background bold
+r23 c67..101 bg=Background
+r23 c101..110 fg=Muted bg=Background
+r23 c110..112 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Live bg=Background
+r24 c3..25 fg=Foreground bg=Background
+r24 c25..32 fg=Muted bg=Background
+r24 c32..38 fg=Foreground bg=Background
+r24 c38..45 fg=Hint bg=Background
+r24 c45..58 fg=Foreground bg=Background
+r24 c58..110 fg=Border bg=Background
+r24 c110..112 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Live bg=Background
+r25 c3..25 fg=Foreground bg=Background
+r25 c25..32 fg=Muted bg=Background
+r25 c32..58 fg=Foreground bg=Background
+r25 c58..59 fg=Primary bg=Selected
+r25 c59..60 bg=Selected
+r25 c60..61 fg=Attention bg=Selected
+r25 c61..62 bg=Selected
+r25 c62..71 fg=Foreground bg=Selected
+r25 c71..110 bg=Selected
+r25 c110..112 fg=Foreground bg=Background
+r26 c0..4 fg=Foreground bg=Background
+r26 c4..24 fg=Foreground bg=Background bold
+r26 c24..25 fg=Foreground bg=Background
+r26 c25..32 fg=Muted bg=Background
+r26 c32..33 fg=Foreground bg=Background
+r26 c33..37 fg=Foreground bg=Background bold
+r26 c37..38 fg=Foreground bg=Background
+r26 c38..45 fg=Foreground bg=Background bold
+r26 c45..58 fg=Foreground bg=Background
+r26 c58..59 fg=Primary bg=Selected
+r26 c59..60 bg=Selected
+r26 c60..79 fg=Foreground bg=Selected bold
+r26 c79..110 bg=Selected
+r26 c110..112 fg=Foreground bg=Background
+r27 c0..4 fg=Foreground bg=Background
+r27 c4..47 fg=Hint bg=Background
+r27 c47..58 fg=Foreground bg=Background
+r27 c58..59 fg=Primary bg=Selected
+r27 c59..60 bg=Selected
+r27 c60..109 fg=Foreground bg=Selected
+r27 c109..110 bg=Selected
+r27 c110..112 fg=Foreground bg=Background
+r28 c0..58 fg=Foreground bg=Background
+r28 c58..59 fg=Primary bg=Selected
+r28 c59..60 bg=Selected
+r28 c60..71 fg=Foreground bg=Selected
+r28 c71..110 bg=Selected
+r28 c110..112 fg=Foreground bg=Background
+r29 c0..58 fg=Foreground bg=Background
+r29 c58..59 fg=Primary bg=Selected
+r29 c59..60 bg=Selected
+r29 c60..79 fg=Primary bg=Selected
+r29 c79..110 bg=Selected
+r29 c110..112 fg=Foreground bg=Background
+r30 c0..58 fg=Foreground bg=Background
+r30 c58..110 bg=Background
+r30 c110..112 fg=Foreground bg=Background
+r31 c0..112 fg=Foreground bg=Background
+r32 c0..2 fg=Foreground bg=Background
+r32 c2..110 fg=Border bg=Sidebar
+r32 c110..112 fg=Foreground bg=Background
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=Foreground bg=Sidebar
+r33 c3..12 fg=Muted bg=Sidebar
+r33 c12..14 fg=Foreground bg=Sidebar
+r33 c14..23 fg=Foreground bg=Selected bold
+r33 c23..25 fg=Foreground bg=Sidebar
+r33 c25..33 fg=Muted bg=Sidebar
+r33 c33..35 fg=Foreground bg=Sidebar
+r33 c35..44 fg=Muted bg=Sidebar
+r33 c44..46 fg=Foreground bg=Sidebar
+r33 c46..55 fg=Muted bg=Sidebar
+r33 c55..57 fg=Foreground bg=Sidebar
+r33 c57..66 fg=Muted bg=Sidebar
+r33 c66..68 fg=Foreground bg=Sidebar
+r33 c68..73 fg=Muted bg=Sidebar
+r33 c73..75 fg=Foreground bg=Sidebar
+r33 c75..81 fg=Muted bg=Sidebar
+r33 c81..103 fg=Foreground bg=Sidebar
+r33 c103..110 fg=Hint bg=Sidebar
+r33 c110..112 fg=Foreground bg=Background
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..3 fg=Foreground bg=Sidebar
+r34 c3..5 fg=Foreground bg=Selected bold
+r34 c5..26 fg=Muted bg=Selected bold
+r34 c26..69 fg=Foreground bg=Selected bold
+r34 c69..109 fg=Muted bg=Selected bold
+r34 c109..110 fg=Foreground bg=Sidebar
+r34 c110..112 fg=Foreground bg=Background
+r35 c0..2 fg=Foreground bg=Background
+r35 c2..5 fg=Foreground bg=Sidebar
+r35 c5..26 fg=Muted bg=Sidebar
+r35 c26..60 fg=Foreground bg=Sidebar
+r35 c60..109 fg=Muted bg=Sidebar
+r35 c109..110 fg=Foreground bg=Sidebar
+r35 c110..112 fg=Foreground bg=Background
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..110 fg=Foreground bg=Sidebar
+r36 c110..112 fg=Foreground bg=Background
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..92 fg=Muted bg=Sidebar
+r37 c92..112 fg=Foreground bg=Sidebar
+
+== light-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..103 fg=Foreground bg=Background
+r0 c103..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..112 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..47 fg=Foreground bg=Background bold
+r3 c47..103 fg=Foreground bg=Background
+r3 c103..110 fg=Muted bg=Background
+r3 c110..112 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..110 fg=Border bg=Background
+r4 c110..112 fg=Foreground bg=Background
+r5 c0..112 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..112 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..112 fg=Foreground bg=Background
+r8 c0..112 fg=Foreground bg=Background
+r9 c0..112 fg=Foreground bg=Background
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..3 fg=Live bg=Background
+r10 c3..48 fg=Foreground bg=Background
+r10 c48..55 fg=Muted bg=Background
+r10 c55..112 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Dim bg=Background
+r11 c4..5 fg=Live bg=Background
+r11 c5..48 fg=Foreground bg=Background
+r11 c48..52 fg=Muted bg=Background
+r11 c52..55 fg=Dim bg=Background
+r11 c55..108 fg=Muted bg=Background
+r11 c108..112 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Dim bg=Background
+r12 c4..5 fg=Attention bg=Background
+r12 c5..48 fg=Foreground bg=Background
+r12 c48..57 fg=Muted bg=Background
+r12 c57..60 fg=Dim bg=Background
+r12 c60..96 fg=Foreground bg=Background
+r12 c96..99 fg=Dim bg=Background
+r12 c99..108 fg=Muted bg=Background
+r12 c108..112 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Dim bg=Background
+r13 c4..5 fg=Live bg=Background
+r13 c5..48 fg=Foreground bg=Background
+r13 c48..55 fg=Muted bg=Background
+r13 c55..58 fg=Dim bg=Background
+r13 c58..106 fg=Muted bg=Background
+r13 c106..112 fg=Foreground bg=Background
+r14 c0..112 fg=Foreground bg=Background
+r15 c0..112 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..34 fg=Muted bg=Background
+r16 c34..112 fg=Foreground bg=Background
+r17 c0..112 fg=Foreground bg=Background
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 fg=Live bg=Background
+r18 c3..36 fg=Foreground bg=Background
+r18 c36..37 fg=Muted bg=Background
+r18 c37..51 fg=Live bg=Background
+r18 c51..61 fg=Dim bg=Background
+r18 c61..62 fg=Muted bg=Background
+r18 c62..112 fg=Foreground bg=Background
+r19 c0..112 fg=Foreground bg=Background
+r20 c0..112 fg=Foreground bg=Background
+r21 c0..112 fg=Foreground bg=Background
+r22 c0..112 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..3 fg=Live bg=Background
+r23 c3..25 fg=Foreground bg=Background
+r23 c25..32 fg=Muted bg=Background
+r23 c32..58 fg=Foreground bg=Background
+r23 c58..67 fg=Foreground bg=Background bold
+r23 c67..101 bg=Background
+r23 c101..110 fg=Muted bg=Background
+r23 c110..112 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Live bg=Background
+r24 c3..25 fg=Foreground bg=Background
+r24 c25..32 fg=Muted bg=Background
+r24 c32..38 fg=Foreground bg=Background
+r24 c38..45 fg=Hint bg=Background
+r24 c45..58 fg=Foreground bg=Background
+r24 c58..110 fg=Border bg=Background
+r24 c110..112 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Live bg=Background
+r25 c3..25 fg=Foreground bg=Background
+r25 c25..32 fg=Muted bg=Background
+r25 c32..58 fg=Foreground bg=Background
+r25 c58..59 fg=Primary bg=Selected
+r25 c59..60 bg=Selected
+r25 c60..61 fg=Attention bg=Selected
+r25 c61..62 bg=Selected
+r25 c62..71 fg=Foreground bg=Selected
+r25 c71..110 bg=Selected
+r25 c110..112 fg=Foreground bg=Background
+r26 c0..4 fg=Foreground bg=Background
+r26 c4..24 fg=Foreground bg=Background bold
+r26 c24..25 fg=Foreground bg=Background
+r26 c25..32 fg=Muted bg=Background
+r26 c32..33 fg=Foreground bg=Background
+r26 c33..37 fg=Foreground bg=Background bold
+r26 c37..38 fg=Foreground bg=Background
+r26 c38..45 fg=Foreground bg=Background bold
+r26 c45..58 fg=Foreground bg=Background
+r26 c58..59 fg=Primary bg=Selected
+r26 c59..60 bg=Selected
+r26 c60..79 fg=Foreground bg=Selected bold
+r26 c79..110 bg=Selected
+r26 c110..112 fg=Foreground bg=Background
+r27 c0..4 fg=Foreground bg=Background
+r27 c4..47 fg=Hint bg=Background
+r27 c47..58 fg=Foreground bg=Background
+r27 c58..59 fg=Primary bg=Selected
+r27 c59..60 bg=Selected
+r27 c60..109 fg=Foreground bg=Selected
+r27 c109..110 bg=Selected
+r27 c110..112 fg=Foreground bg=Background
+r28 c0..58 fg=Foreground bg=Background
+r28 c58..59 fg=Primary bg=Selected
+r28 c59..60 bg=Selected
+r28 c60..71 fg=Foreground bg=Selected
+r28 c71..110 bg=Selected
+r28 c110..112 fg=Foreground bg=Background
+r29 c0..58 fg=Foreground bg=Background
+r29 c58..59 fg=Primary bg=Selected
+r29 c59..60 bg=Selected
+r29 c60..79 fg=Primary bg=Selected
+r29 c79..110 bg=Selected
+r29 c110..112 fg=Foreground bg=Background
+r30 c0..58 fg=Foreground bg=Background
+r30 c58..110 bg=Background
+r30 c110..112 fg=Foreground bg=Background
+r31 c0..112 fg=Foreground bg=Background
+r32 c0..2 fg=Foreground bg=Background
+r32 c2..110 fg=Border bg=Sidebar
+r32 c110..112 fg=Foreground bg=Background
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=Foreground bg=Sidebar
+r33 c3..12 fg=Muted bg=Sidebar
+r33 c12..14 fg=Foreground bg=Sidebar
+r33 c14..23 fg=Foreground bg=Selected bold
+r33 c23..25 fg=Foreground bg=Sidebar
+r33 c25..33 fg=Muted bg=Sidebar
+r33 c33..35 fg=Foreground bg=Sidebar
+r33 c35..44 fg=Muted bg=Sidebar
+r33 c44..46 fg=Foreground bg=Sidebar
+r33 c46..55 fg=Muted bg=Sidebar
+r33 c55..57 fg=Foreground bg=Sidebar
+r33 c57..66 fg=Muted bg=Sidebar
+r33 c66..68 fg=Foreground bg=Sidebar
+r33 c68..73 fg=Muted bg=Sidebar
+r33 c73..75 fg=Foreground bg=Sidebar
+r33 c75..81 fg=Muted bg=Sidebar
+r33 c81..103 fg=Foreground bg=Sidebar
+r33 c103..110 fg=Hint bg=Sidebar
+r33 c110..112 fg=Foreground bg=Background
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..3 fg=Foreground bg=Sidebar
+r34 c3..5 fg=Foreground bg=Selected bold
+r34 c5..26 fg=Muted bg=Selected bold
+r34 c26..69 fg=Foreground bg=Selected bold
+r34 c69..109 fg=Muted bg=Selected bold
+r34 c109..110 fg=Foreground bg=Sidebar
+r34 c110..112 fg=Foreground bg=Background
+r35 c0..2 fg=Foreground bg=Background
+r35 c2..5 fg=Foreground bg=Sidebar
+r35 c5..26 fg=Muted bg=Sidebar
+r35 c26..60 fg=Foreground bg=Sidebar
+r35 c60..109 fg=Muted bg=Sidebar
+r35 c109..110 fg=Foreground bg=Sidebar
+r35 c110..112 fg=Foreground bg=Background
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..110 fg=Foreground bg=Sidebar
+r36 c110..112 fg=Foreground bg=Background
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..92 fg=Muted bg=Sidebar
+r37 c92..112 fg=Foreground bg=Sidebar
+
+== dark-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..103 fg=Foreground bg=Background
+r0 c103..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..112 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..47 fg=Foreground bg=Background bold
+r3 c47..103 fg=Foreground bg=Background
+r3 c103..110 fg=Muted bg=Background
+r3 c110..112 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..110 fg=Border bg=Background
+r4 c110..112 fg=Foreground bg=Background
+r5 c0..112 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..112 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..112 fg=Foreground bg=Background
+r8 c0..112 fg=Foreground bg=Background
+r9 c0..112 fg=Foreground bg=Background
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..3 fg=Live bg=Background
+r10 c3..48 fg=Foreground bg=Background
+r10 c48..55 fg=Muted bg=Background
+r10 c55..112 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Dim bg=Background
+r11 c4..5 fg=Live bg=Background
+r11 c5..48 fg=Foreground bg=Background
+r11 c48..52 fg=Muted bg=Background
+r11 c52..55 fg=Dim bg=Background
+r11 c55..108 fg=Muted bg=Background
+r11 c108..112 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Dim bg=Background
+r12 c4..5 fg=Attention bg=Background
+r12 c5..48 fg=Foreground bg=Background
+r12 c48..57 fg=Muted bg=Background
+r12 c57..60 fg=Dim bg=Background
+r12 c60..96 fg=Foreground bg=Background
+r12 c96..99 fg=Dim bg=Background
+r12 c99..108 fg=Muted bg=Background
+r12 c108..112 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Dim bg=Background
+r13 c4..5 fg=Live bg=Background
+r13 c5..48 fg=Foreground bg=Background
+r13 c48..55 fg=Muted bg=Background
+r13 c55..58 fg=Dim bg=Background
+r13 c58..106 fg=Muted bg=Background
+r13 c106..112 fg=Foreground bg=Background
+r14 c0..112 fg=Foreground bg=Background
+r15 c0..112 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..34 fg=Muted bg=Background
+r16 c34..112 fg=Foreground bg=Background
+r17 c0..112 fg=Foreground bg=Background
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 fg=Live bg=Background
+r18 c3..36 fg=Foreground bg=Background
+r18 c36..37 fg=Muted bg=Background
+r18 c37..51 fg=Live bg=Background
+r18 c51..61 fg=Dim bg=Background
+r18 c61..62 fg=Muted bg=Background
+r18 c62..112 fg=Foreground bg=Background
+r19 c0..112 fg=Foreground bg=Background
+r20 c0..112 fg=Foreground bg=Background
+r21 c0..112 fg=Foreground bg=Background
+r22 c0..112 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..3 fg=Live bg=Background
+r23 c3..25 fg=Foreground bg=Background
+r23 c25..32 fg=Muted bg=Background
+r23 c32..58 fg=Foreground bg=Background
+r23 c58..67 fg=Foreground bg=Background bold
+r23 c67..101 bg=Background
+r23 c101..110 fg=Muted bg=Background
+r23 c110..112 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Live bg=Background
+r24 c3..25 fg=Foreground bg=Background
+r24 c25..32 fg=Muted bg=Background
+r24 c32..38 fg=Foreground bg=Background
+r24 c38..45 fg=Hint bg=Background
+r24 c45..58 fg=Foreground bg=Background
+r24 c58..110 fg=Border bg=Background
+r24 c110..112 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Live bg=Background
+r25 c3..25 fg=Foreground bg=Background
+r25 c25..32 fg=Muted bg=Background
+r25 c32..58 fg=Foreground bg=Background
+r25 c58..59 fg=Primary bg=Selected
+r25 c59..60 bg=Selected
+r25 c60..61 fg=Attention bg=Selected
+r25 c61..62 bg=Selected
+r25 c62..71 fg=Foreground bg=Selected
+r25 c71..110 bg=Selected
+r25 c110..112 fg=Foreground bg=Background
+r26 c0..4 fg=Foreground bg=Background
+r26 c4..24 fg=Foreground bg=Background bold
+r26 c24..25 fg=Foreground bg=Background
+r26 c25..32 fg=Muted bg=Background
+r26 c32..33 fg=Foreground bg=Background
+r26 c33..37 fg=Foreground bg=Background bold
+r26 c37..38 fg=Foreground bg=Background
+r26 c38..45 fg=Foreground bg=Background bold
+r26 c45..58 fg=Foreground bg=Background
+r26 c58..59 fg=Primary bg=Selected
+r26 c59..60 bg=Selected
+r26 c60..79 fg=Foreground bg=Selected bold
+r26 c79..110 bg=Selected
+r26 c110..112 fg=Foreground bg=Background
+r27 c0..4 fg=Foreground bg=Background
+r27 c4..47 fg=Hint bg=Background
+r27 c47..58 fg=Foreground bg=Background
+r27 c58..59 fg=Primary bg=Selected
+r27 c59..60 bg=Selected
+r27 c60..109 fg=Foreground bg=Selected
+r27 c109..110 bg=Selected
+r27 c110..112 fg=Foreground bg=Background
+r28 c0..58 fg=Foreground bg=Background
+r28 c58..59 fg=Primary bg=Selected
+r28 c59..60 bg=Selected
+r28 c60..71 fg=Foreground bg=Selected
+r28 c71..110 bg=Selected
+r28 c110..112 fg=Foreground bg=Background
+r29 c0..58 fg=Foreground bg=Background
+r29 c58..59 fg=Primary bg=Selected
+r29 c59..60 bg=Selected
+r29 c60..79 fg=Primary bg=Selected
+r29 c79..110 bg=Selected
+r29 c110..112 fg=Foreground bg=Background
+r30 c0..58 fg=Foreground bg=Background
+r30 c58..110 bg=Background
+r30 c110..112 fg=Foreground bg=Background
+r31 c0..112 fg=Foreground bg=Background
+r32 c0..2 fg=Foreground bg=Background
+r32 c2..110 fg=Border bg=Sidebar
+r32 c110..112 fg=Foreground bg=Background
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=Foreground bg=Sidebar
+r33 c3..12 fg=Muted bg=Sidebar
+r33 c12..14 fg=Foreground bg=Sidebar
+r33 c14..23 fg=Foreground bg=Selected bold
+r33 c23..25 fg=Foreground bg=Sidebar
+r33 c25..33 fg=Muted bg=Sidebar
+r33 c33..35 fg=Foreground bg=Sidebar
+r33 c35..44 fg=Muted bg=Sidebar
+r33 c44..46 fg=Foreground bg=Sidebar
+r33 c46..55 fg=Muted bg=Sidebar
+r33 c55..57 fg=Foreground bg=Sidebar
+r33 c57..66 fg=Muted bg=Sidebar
+r33 c66..68 fg=Foreground bg=Sidebar
+r33 c68..73 fg=Muted bg=Sidebar
+r33 c73..75 fg=Foreground bg=Sidebar
+r33 c75..81 fg=Muted bg=Sidebar
+r33 c81..103 fg=Foreground bg=Sidebar
+r33 c103..110 fg=Hint bg=Sidebar
+r33 c110..112 fg=Foreground bg=Background
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..3 fg=Foreground bg=Sidebar
+r34 c3..5 fg=Foreground bg=Selected bold
+r34 c5..26 fg=Muted bg=Selected bold
+r34 c26..69 fg=Foreground bg=Selected bold
+r34 c69..109 fg=Muted bg=Selected bold
+r34 c109..110 fg=Foreground bg=Sidebar
+r34 c110..112 fg=Foreground bg=Background
+r35 c0..2 fg=Foreground bg=Background
+r35 c2..5 fg=Foreground bg=Sidebar
+r35 c5..26 fg=Muted bg=Sidebar
+r35 c26..60 fg=Foreground bg=Sidebar
+r35 c60..109 fg=Muted bg=Sidebar
+r35 c109..110 fg=Foreground bg=Sidebar
+r35 c110..112 fg=Foreground bg=Background
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..110 fg=Foreground bg=Sidebar
+r36 c110..112 fg=Foreground bg=Background
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..92 fg=Muted bg=Sidebar
+r37 c92..112 fg=Foreground bg=Sidebar
+
+== light-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c0..2 fg=Foreground bg=Background|Surface
+r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c11..16 fg=BorderStrong bg=Background|Surface
+r0 c16..52 fg=Muted bg=Background|Surface
+r0 c52..103 fg=Foreground bg=Background|Surface
+r0 c103..110 fg=Foreground bg=Background|Surface bold
+r0 c110..112 fg=Foreground bg=Background|Surface
+r1 c0..112 fg=Border bg=Background|Surface
+r2 c0..112 fg=Foreground bg=Background|Surface
+r3 c0..2 fg=Foreground bg=Background|Surface
+r3 c2..47 fg=Foreground bg=Background|Surface bold
+r3 c47..103 fg=Foreground bg=Background|Surface
+r3 c103..110 fg=Muted bg=Background|Surface
+r3 c110..112 fg=Foreground bg=Background|Surface
+r4 c0..2 fg=Foreground bg=Background|Surface
+r4 c2..110 fg=Border bg=Background|Surface
+r4 c110..112 fg=Foreground bg=Background|Surface
+r5 c0..112 fg=Foreground bg=Background|Surface
+r6 c0..2 fg=Foreground bg=Background|Surface
+r6 c2..3 fg=Primary bg=Background|Surface
+r6 c3..4 fg=Foreground bg=Background|Surface
+r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c7..112 fg=Foreground bg=Background|Surface
+r7 c0..2 fg=Foreground bg=Background|Surface
+r7 c2..4 fg=Border bg=Background|Surface
+r7 c4..112 fg=Foreground bg=Background|Surface
+r8 c0..112 fg=Foreground bg=Background|Surface
+r9 c0..112 fg=Foreground bg=Background|Surface
+r10 c0..2 fg=Foreground bg=Background|Surface
+r10 c2..3 fg=Live bg=Background|Surface
+r10 c3..48 fg=Foreground bg=Background|Surface
+r10 c48..55 fg=Muted bg=Background|Surface
+r10 c55..112 fg=Foreground bg=Background|Surface
+r11 c0..2 fg=Foreground bg=Background|Surface
+r11 c2..4 fg=Dim bg=Background|Surface
+r11 c4..5 fg=Live bg=Background|Surface
+r11 c5..48 fg=Foreground bg=Background|Surface
+r11 c48..52 fg=Muted bg=Background|Surface
+r11 c52..55 fg=Dim bg=Background|Surface
+r11 c55..108 fg=Muted bg=Background|Surface
+r11 c108..112 fg=Foreground bg=Background|Surface
+r12 c0..2 fg=Foreground bg=Background|Surface
+r12 c2..4 fg=Dim bg=Background|Surface
+r12 c4..5 fg=Attention bg=Background|Surface
+r12 c5..48 fg=Foreground bg=Background|Surface
+r12 c48..57 fg=Muted bg=Background|Surface
+r12 c57..60 fg=Dim bg=Background|Surface
+r12 c60..96 fg=Foreground bg=Background|Surface
+r12 c96..99 fg=Dim bg=Background|Surface
+r12 c99..108 fg=Muted bg=Background|Surface
+r12 c108..112 fg=Foreground bg=Background|Surface
+r13 c0..2 fg=Foreground bg=Background|Surface
+r13 c2..4 fg=Dim bg=Background|Surface
+r13 c4..5 fg=Live bg=Background|Surface
+r13 c5..48 fg=Foreground bg=Background|Surface
+r13 c48..55 fg=Muted bg=Background|Surface
+r13 c55..58 fg=Dim bg=Background|Surface
+r13 c58..106 fg=Muted bg=Background|Surface
+r13 c106..112 fg=Foreground bg=Background|Surface
+r14 c0..112 fg=Foreground bg=Background|Surface
+r15 c0..112 fg=Foreground bg=Background|Surface
+r16 c0..2 fg=Foreground bg=Background|Surface
+r16 c2..34 fg=Muted bg=Background|Surface
+r16 c34..112 fg=Foreground bg=Background|Surface
+r17 c0..112 fg=Foreground bg=Background|Surface
+r18 c0..2 fg=Foreground bg=Background|Surface
+r18 c2..3 fg=Live bg=Background|Surface
+r18 c3..36 fg=Foreground bg=Background|Surface
+r18 c36..37 fg=Muted bg=Background|Surface
+r18 c37..51 fg=Live bg=Background|Surface
+r18 c51..61 fg=Dim bg=Background|Surface
+r18 c61..62 fg=Muted bg=Background|Surface
+r18 c62..112 fg=Foreground bg=Background|Surface
+r19 c0..112 fg=Foreground bg=Background|Surface
+r20 c0..112 fg=Foreground bg=Background|Surface
+r21 c0..112 fg=Foreground bg=Background|Surface
+r22 c0..112 fg=Foreground bg=Background|Surface
+r23 c0..2 fg=Foreground bg=Background|Surface
+r23 c2..3 fg=Live bg=Background|Surface
+r23 c3..25 fg=Foreground bg=Background|Surface
+r23 c25..32 fg=Muted bg=Background|Surface
+r23 c32..58 fg=Foreground bg=Background|Surface
+r23 c58..67 fg=Foreground bg=Background|Surface bold
+r23 c67..101 bg=Background|Surface
+r23 c101..110 fg=Muted bg=Background|Surface
+r23 c110..112 fg=Foreground bg=Background|Surface
+r24 c0..2 fg=Foreground bg=Background|Surface
+r24 c2..3 fg=Live bg=Background|Surface
+r24 c3..25 fg=Foreground bg=Background|Surface
+r24 c25..32 fg=Muted bg=Background|Surface
+r24 c32..38 fg=Foreground bg=Background|Surface
+r24 c38..45 fg=Hint bg=Background|Surface
+r24 c45..58 fg=Foreground bg=Background|Surface
+r24 c58..110 fg=Border bg=Background|Surface
+r24 c110..112 fg=Foreground bg=Background|Surface
+r25 c0..2 fg=Foreground bg=Background|Surface
+r25 c2..3 fg=Live bg=Background|Surface
+r25 c3..25 fg=Foreground bg=Background|Surface
+r25 c25..32 fg=Muted bg=Background|Surface
+r25 c32..58 fg=Foreground bg=Background|Surface
+r25 c58..59 fg=Primary bg=Selected
+r25 c59..60 bg=Selected
+r25 c60..61 fg=Attention bg=Selected
+r25 c61..62 bg=Selected
+r25 c62..71 fg=Foreground bg=Selected
+r25 c71..110 bg=Selected
+r25 c110..112 fg=Foreground bg=Background|Surface
+r26 c0..4 fg=Foreground bg=Background|Surface
+r26 c4..24 fg=Foreground bg=Background|Surface bold
+r26 c24..25 fg=Foreground bg=Background|Surface
+r26 c25..32 fg=Muted bg=Background|Surface
+r26 c32..33 fg=Foreground bg=Background|Surface
+r26 c33..37 fg=Foreground bg=Background|Surface bold
+r26 c37..38 fg=Foreground bg=Background|Surface
+r26 c38..45 fg=Foreground bg=Background|Surface bold
+r26 c45..58 fg=Foreground bg=Background|Surface
+r26 c58..59 fg=Primary bg=Selected
+r26 c59..60 bg=Selected
+r26 c60..79 fg=Foreground bg=Selected bold
+r26 c79..110 bg=Selected
+r26 c110..112 fg=Foreground bg=Background|Surface
+r27 c0..4 fg=Foreground bg=Background|Surface
+r27 c4..47 fg=Hint bg=Background|Surface
+r27 c47..58 fg=Foreground bg=Background|Surface
+r27 c58..59 fg=Primary bg=Selected
+r27 c59..60 bg=Selected
+r27 c60..109 fg=Foreground bg=Selected
+r27 c109..110 bg=Selected
+r27 c110..112 fg=Foreground bg=Background|Surface
+r28 c0..58 fg=Foreground bg=Background|Surface
+r28 c58..59 fg=Primary bg=Selected
+r28 c59..60 bg=Selected
+r28 c60..71 fg=Foreground bg=Selected
+r28 c71..110 bg=Selected
+r28 c110..112 fg=Foreground bg=Background|Surface
+r29 c0..58 fg=Foreground bg=Background|Surface
+r29 c58..59 fg=Primary bg=Selected
+r29 c59..60 bg=Selected
+r29 c60..79 fg=Primary bg=Selected
+r29 c79..110 bg=Selected
+r29 c110..112 fg=Foreground bg=Background|Surface
+r30 c0..58 fg=Foreground bg=Background|Surface
+r30 c58..110 bg=Background|Surface
+r30 c110..112 fg=Foreground bg=Background|Surface
+r31 c0..112 fg=Foreground bg=Background|Surface
+r32 c0..2 fg=Foreground bg=Background|Surface
+r32 c2..110 fg=Border bg=Sidebar
+r32 c110..112 fg=Foreground bg=Background|Surface
+r33 c0..2 fg=Foreground bg=Background|Surface
+r33 c2..3 fg=Foreground bg=Sidebar
+r33 c3..12 fg=Muted bg=Sidebar
+r33 c12..14 fg=Foreground bg=Sidebar
+r33 c14..23 fg=Foreground bg=Selected bold
+r33 c23..25 fg=Foreground bg=Sidebar
+r33 c25..33 fg=Muted bg=Sidebar
+r33 c33..35 fg=Foreground bg=Sidebar
+r33 c35..44 fg=Muted bg=Sidebar
+r33 c44..46 fg=Foreground bg=Sidebar
+r33 c46..55 fg=Muted bg=Sidebar
+r33 c55..57 fg=Foreground bg=Sidebar
+r33 c57..66 fg=Muted bg=Sidebar
+r33 c66..68 fg=Foreground bg=Sidebar
+r33 c68..73 fg=Muted bg=Sidebar
+r33 c73..75 fg=Foreground bg=Sidebar
+r33 c75..81 fg=Muted bg=Sidebar
+r33 c81..103 fg=Foreground bg=Sidebar
+r33 c103..110 fg=Hint bg=Sidebar
+r33 c110..112 fg=Foreground bg=Background|Surface
+r34 c0..2 fg=Foreground bg=Background|Surface
+r34 c2..3 fg=Foreground bg=Sidebar
+r34 c3..5 fg=Foreground bg=Selected bold
+r34 c5..26 fg=Muted bg=Selected bold
+r34 c26..69 fg=Foreground bg=Selected bold
+r34 c69..109 fg=Muted bg=Selected bold
+r34 c109..110 fg=Foreground bg=Sidebar
+r34 c110..112 fg=Foreground bg=Background|Surface
+r35 c0..2 fg=Foreground bg=Background|Surface
+r35 c2..5 fg=Foreground bg=Sidebar
+r35 c5..26 fg=Muted bg=Sidebar
+r35 c26..60 fg=Foreground bg=Sidebar
+r35 c60..109 fg=Muted bg=Sidebar
+r35 c109..110 fg=Foreground bg=Sidebar
+r35 c110..112 fg=Foreground bg=Background|Surface
+r36 c0..2 fg=Foreground bg=Background|Surface
+r36 c2..110 fg=Foreground bg=Sidebar
+r36 c110..112 fg=Foreground bg=Background|Surface
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..92 fg=Muted bg=Sidebar
+r37 c92..112 fg=Foreground bg=Sidebar
+
+== ansi-16
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c103..110 bold
+r1 c0..112 dim
+r3 c2..47 bold
+r3 c103..110 dim
+r4 c2..110 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r7 c2..4 dim
+r10 c2..3 fg=Live
+r10 c48..55 dim
+r11 c2..4 dim
+r11 c4..5 fg=Live
+r11 c48..108 dim
+r12 c2..4 dim
+r12 c4..5 fg=Attention
+r12 c48..60 dim
+r12 c96..108 dim
+r13 c2..4 dim
+r13 c4..5 fg=Live
+r13 c48..106 dim
+r16 c2..34 dim
+r18 c2..3 fg=Live
+r18 c36..37 dim
+r18 c37..51 fg=Live
+r18 c51..62 dim
+r23 c2..3 fg=Live
+r23 c25..32 dim
+r23 c58..67 bold
+r23 c101..110 dim
+r24 c2..3 fg=Live
+r24 c25..32 dim
+r24 c38..45 dim
+r24 c58..110 dim
+r25 c2..3 fg=Live
+r25 c25..32 dim
+r25 c58..59 fg=Primary
+r25 c60..61 fg=Attention
+r26 c4..24 bold
+r26 c25..32 dim
+r26 c33..37 bold
+r26 c38..45 bold
+r26 c58..59 fg=Primary
+r26 c60..79 bold
+r27 c4..47 dim
+r27 c58..59 fg=Primary
+r28 c58..59 fg=Primary
+r29 c58..59 fg=Primary
+r29 c60..79 fg=Primary
+r32 c2..110 dim
+r33 c3..12 dim
+r33 c14..23 bold
+r33 c25..33 dim
+r33 c35..44 dim
+r33 c46..55 dim
+r33 c57..66 dim
+r33 c68..73 dim
+r33 c75..81 dim
+r33 c103..110 dim
+r34 c3..5 bold
+r34 c5..26 bold dim
+r34 c26..69 bold
+r34 c69..109 bold dim
+r35 c5..26 dim
+r35 c60..109 dim
+r37 c2..92 dim
+
+== unknown-ground
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c103..110 bold
+r1 c0..112 dim
+r3 c2..47 bold
+r3 c103..110 dim
+r4 c2..110 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r7 c2..4 dim
+r10 c2..3 fg=Live
+r10 c48..55 dim
+r11 c2..4 dim
+r11 c4..5 fg=Live
+r11 c48..108 dim
+r12 c2..4 dim
+r12 c4..5 fg=Attention
+r12 c48..60 dim
+r12 c96..108 dim
+r13 c2..4 dim
+r13 c4..5 fg=Live
+r13 c48..106 dim
+r16 c2..34 dim
+r18 c2..3 fg=Live
+r18 c36..37 dim
+r18 c37..51 fg=Live
+r18 c51..62 dim
+r23 c2..3 fg=Live
+r23 c25..32 dim
+r23 c58..67 bold
+r23 c101..110 dim
+r24 c2..3 fg=Live
+r24 c25..32 dim
+r24 c38..45 dim
+r24 c58..110 dim
+r25 c2..3 fg=Live
+r25 c25..32 dim
+r25 c58..59 fg=Primary
+r25 c60..61 fg=Attention
+r26 c4..24 bold
+r26 c25..32 dim
+r26 c33..37 bold
+r26 c38..45 bold
+r26 c58..59 fg=Primary
+r26 c60..79 bold
+r27 c4..47 dim
+r27 c58..59 fg=Primary
+r28 c58..59 fg=Primary
+r29 c58..59 fg=Primary
+r29 c60..79 fg=Primary
+r32 c2..110 dim
+r33 c3..12 dim
+r33 c14..23 bold
+r33 c25..33 dim
+r33 c35..44 dim
+r33 c46..55 dim
+r33 c57..66 dim
+r33 c68..73 dim
+r33 c75..81 dim
+r33 c103..110 dim
+r34 c3..5 bold
+r34 c5..26 bold dim
+r34 c26..69 bold
+r34 c69..109 bold dim
+r35 c5..26 dim
+r35 c60..109 dim
+r37 c2..92 dim
+
+== no-color
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ● You
+  ▏ Build the workspace, review the interaction, and document the kit.
+
+
+  ● Finish the terminal workspace               working
+  ├ ✓ Builder / workspace composition           done · Responsive regions, module headers, composer conte… →
+  ├ ◆ Reviewer / interaction and accessibility  needs you · Choose the narrow preview to inspect · 1 deci… →
+  └ ● Documentation / gallery and usage         working · Actual cell buffers for every terminal profile →
+
+
+  1 needs you · 2 working · 1 done
+
+  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+
+
+
+
+  ✓ Inspect files        Done    12 s   $0.02             Needs you                                  1 waiting
+  ✓ Render previews      Done     4 s    —                ────────────────────────────────────────────────────
+  ● Review narrow layout Working 38 s   $0.12             ▸ ◆ Needs you
+    Total                        54 s ≥ $0.14             ▏ Terminal / Reviewer
+    — not reported · ≥ some rows did not report           ▏ Inspect the 40-column composition before landing
+                                                          ▏ the change.
+                                                          ▏ Open narrow preview
+
+
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+   ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
+   ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c103..110 bold
+r1 c0..112 dim
+r3 c2..47 bold
+r3 c103..110 dim
+r4 c2..110 dim
+r6 c4..7 bold
+r7 c2..4 dim
+r10 c48..55 dim
+r11 c2..4 dim
+r11 c48..108 dim
+r12 c2..4 dim
+r12 c48..60 dim
+r12 c96..108 dim
+r13 c2..4 dim
+r13 c48..106 dim
+r16 c2..34 dim
+r18 c36..37 dim
+r18 c51..62 dim
+r23 c25..32 dim
+r23 c58..67 bold
+r23 c101..110 dim
+r24 c25..32 dim
+r24 c38..45 dim
+r24 c58..110 dim
+r25 c25..32 dim
+r26 c4..24 bold
+r26 c25..32 dim
+r26 c33..37 bold
+r26 c38..45 bold
+r26 c60..79 bold
+r27 c4..47 dim
+r32 c2..110 dim
+r33 c3..12 dim
+r33 c14..23 bold
+r33 c25..33 dim
+r33 c35..44 dim
+r33 c46..55 dim
+r33 c57..66 dim
+r33 c68..73 dim
+r33 c75..81 dim
+r33 c103..110 dim
+r34 c3..5 bold
+r34 c5..26 bold dim
+r34 c26..69 bold
+r34 c69..109 bold dim
+r35 c5..26 dim
+r35 c60..109 dim
+r37 c2..92 dim
+
+== ascii
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                   Station
+----------------------------------------------------------------------------------------------------------------
+
+  One goal. Three agents. Every result visible.                                                        Station
+  ------------------------------------------------------------------------------------------------------------
+
+  . You
+  | Build the workspace, review the interaction, and document the kit.
+
+
+  . Finish the terminal workspace               working
+  + Y Builder / workspace composition           done - Responsive regions, module headers, composer con... >
+  + * Reviewer / interaction and accessibility  needs you - Choose the narrow preview to inspect - 1 de... >
+  \ . Documentation / gallery and usage         working - Actual cell buffers for every terminal profile >
+
+
+  1 needs you - 2 working - 1 done
+
+  . Working  3 of 5 Reported tasks  [##############::::::::::]
+
+
+
+
+  Y Inspect files        Done    12 s    $0.02            Needs you                                  1 waiting
+  Y Render previews      Done     4 s     -               ----------------------------------------------------
+  . Review narrow layout Working 38 s    $0.12            > * Needs you
+    Total                        54 s >= $0.14            | Terminal / Reviewer
+    - not reported  >= some rows did not report           | Inspect the 40-column composition before landing
+                                                          | the change.
+                                                          | Open narrow preview
+
+
+  ------------------------------------------------------------------------------------------------------------
+    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc X
+   . Builder   running    Extract the dock and keep the native layout      12m 34s . v 111.9k tokens . 2 left
+   Y Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
+
+  Illustrative / settled work keeps its receipt / host controls order, selection and actions
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c103..110 bold
+r1 c0..112 dim
+r3 c2..47 bold
+r3 c103..110 dim
+r4 c2..110 dim
+r6 c4..7 bold
+r7 c2..4 dim
+r10 c48..55 dim
+r11 c2..4 dim
+r11 c48..108 dim
+r12 c2..4 dim
+r12 c48..60 dim
+r12 c96..108 dim
+r13 c2..4 dim
+r13 c48..106 dim
+r16 c2..34 dim
+r18 c36..37 dim
+r18 c51..62 dim
+r23 c25..32 dim
+r23 c58..67 bold
+r23 c101..110 dim
+r24 c25..32 dim
+r24 c38..46 dim
+r24 c58..110 dim
+r25 c25..32 dim
+r26 c4..24 bold
+r26 c25..32 dim
+r26 c33..37 bold
+r26 c38..46 bold
+r26 c60..79 bold
+r27 c4..47 dim
+r32 c2..110 dim
+r33 c3..12 dim
+r33 c14..23 bold
+r33 c25..33 dim
+r33 c35..44 dim
+r33 c46..55 dim
+r33 c57..66 dim
+r33 c68..73 dim
+r33 c75..81 dim
+r33 c103..110 dim
+r34 c3..5 bold
+r34 c5..26 bold dim
+r34 c26..69 bold
+r34 c69..109 bold dim
+r35 c5..26 dim
+r35 c60..109 dim
+r37 c2..92 dim

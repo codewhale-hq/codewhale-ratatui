@@ -1,0 +1,257 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..70 bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..20 fg=Foreground bg=Background
+r1 c20..23 fg=Border bg=Background
+r1 c23..25 fg=Live bg=Background
+r1 c25..35 fg=Foreground bg=Background
+r1 c35..36 fg=Foreground bg=Background bold
+r1 c36..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..11 fg=Foreground bg=Background bold
+r3 c11..14 fg=Border bg=Background
+r3 c14..33 fg=Muted bg=Background
+r3 c33..70 bg=Background
+
+== dark-graphite
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..70 bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..20 fg=Foreground bg=Background
+r1 c20..23 fg=Border bg=Background
+r1 c23..25 fg=Live bg=Background
+r1 c25..35 fg=Foreground bg=Background
+r1 c35..36 fg=Foreground bg=Background bold
+r1 c36..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..11 fg=Foreground bg=Background bold
+r3 c11..14 fg=Border bg=Background
+r3 c14..33 fg=Muted bg=Background
+r3 c33..70 bg=Background
+
+== light-truecolor
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..70 bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..20 fg=Foreground bg=Background
+r1 c20..23 fg=Border bg=Background
+r1 c23..25 fg=Live bg=Background
+r1 c25..35 fg=Foreground bg=Background
+r1 c35..36 fg=Foreground bg=Background bold
+r1 c36..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..11 fg=Foreground bg=Background bold
+r3 c11..14 fg=Border bg=Background
+r3 c14..33 fg=Muted bg=Background
+r3 c33..70 bg=Background
+
+== dark-256
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..70 bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..20 fg=Foreground bg=Background
+r1 c20..23 fg=Border bg=Background
+r1 c23..25 fg=Live bg=Background
+r1 c25..35 fg=Foreground bg=Background
+r1 c35..36 fg=Foreground bg=Background bold
+r1 c36..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..11 fg=Foreground bg=Background bold
+r3 c11..14 fg=Border bg=Background
+r3 c14..33 fg=Muted bg=Background
+r3 c33..70 bg=Background
+
+== light-256
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 fg=Foreground bg=Background|Surface bold
+r0 c11..14 fg=Border bg=Background|Surface
+r0 c14..16 fg=Live bg=Background|Surface
+r0 c16..19 fg=Foreground bg=Background|Surface bold
+r0 c19..26 fg=Foreground bg=Background|Surface
+r0 c26..29 fg=Border bg=Background|Surface
+r0 c29..31 fg=Danger bg=Background|Surface
+r0 c31..33 fg=Foreground bg=Background|Surface bold
+r0 c33..39 fg=Foreground bg=Background|Surface
+r0 c39..42 fg=Border bg=Background|Surface
+r0 c42..44 fg=Attention bg=Background|Surface
+r0 c44..46 fg=Foreground bg=Background|Surface bold
+r0 c46..58 fg=Foreground bg=Background|Surface
+r0 c58..70 bg=Background|Surface
+r1 c0..2 fg=Muted bg=Background|Surface
+r1 c2..4 fg=Foreground bg=Background|Surface bold
+r1 c4..20 fg=Foreground bg=Background|Surface
+r1 c20..23 fg=Border bg=Background|Surface
+r1 c23..25 fg=Live bg=Background|Surface
+r1 c25..35 fg=Foreground bg=Background|Surface
+r1 c35..36 fg=Foreground bg=Background|Surface bold
+r1 c36..70 bg=Background|Surface
+r2 c0..70 bg=Background|Surface
+r3 c0..11 fg=Foreground bg=Background|Surface bold
+r3 c11..14 fg=Border bg=Background|Surface
+r3 c14..33 fg=Muted bg=Background|Surface
+r3 c33..70 bg=Background|Surface
+
+== ansi-16
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 bold
+r0 c11..14 dim
+r0 c14..16 fg=Live
+r0 c16..19 bold
+r0 c26..29 dim
+r0 c29..31 fg=Danger
+r0 c31..33 bold
+r0 c39..42 dim
+r0 c42..44 fg=Attention
+r0 c44..46 bold
+r1 c0..2 dim
+r1 c2..4 bold
+r1 c20..23 dim
+r1 c23..25 fg=Live
+r1 c35..36 bold
+r3 c0..11 bold
+r3 c11..33 dim
+
+== unknown-ground
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 bold
+r0 c11..14 dim
+r0 c14..16 fg=Live
+r0 c16..19 bold
+r0 c26..29 dim
+r0 c29..31 fg=Danger
+r0 c31..33 bold
+r0 c39..42 dim
+r0 c42..44 fg=Attention
+r0 c44..46 bold
+r1 c0..2 dim
+r1 c2..4 bold
+r1 c20..23 dim
+r1 c23..25 fg=Live
+r1 c35..36 bold
+r3 c0..11 bold
+r3 c11..33 dim
+
+== no-color
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+Auto-Review · nothing checked yet
+---
+r0 c0..11 bold
+r0 c11..14 dim
+r0 c16..19 bold
+r0 c26..29 dim
+r0 c31..33 bold
+r0 c39..42 dim
+r0 c44..46 bold
+r1 c0..2 dim
+r1 c2..4 bold
+r1 c20..23 dim
+r1 c35..36 bold
+r3 c0..11 bold
+r3 c11..33 dim
+
+== ascii
+Auto-Review  Y 42 allowed  X 3 denied  * 1 held for you
+? 1 could not decide  . reviewing 2
+
+Auto-Review  nothing checked yet
+---
+r0 c0..11 bold
+r0 c15..18 bold
+r0 c29..31 bold
+r0 c41..43 bold
+r1 c0..2 dim
+r1 c2..4 bold
+r1 c34..35 bold
+r3 c0..11 bold
+r3 c13..32 dim

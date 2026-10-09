@@ -1,0 +1,335 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 fg=Border bg=Sidebar
+r1 c0..1 fg=Foreground bg=Sidebar
+r1 c1..10 fg=Muted bg=Sidebar
+r1 c10..12 fg=Foreground bg=Sidebar
+r1 c12..21 fg=Muted bg=Sidebar
+r1 c21..23 fg=Foreground bg=Sidebar
+r1 c23..31 fg=Muted bg=Sidebar
+r1 c31..33 fg=Foreground bg=Sidebar
+r1 c33..42 fg=Foreground bg=Selected bold
+r1 c42..44 fg=Foreground bg=Sidebar
+r1 c44..53 fg=Muted bg=Sidebar
+r1 c53..55 fg=Foreground bg=Sidebar
+r1 c55..64 fg=Muted bg=Sidebar
+r1 c64..66 fg=Foreground bg=Sidebar
+r1 c66..71 fg=Muted bg=Sidebar
+r1 c71..73 fg=Foreground bg=Sidebar
+r1 c73..79 fg=Muted bg=Sidebar
+r1 c79..97 fg=Foreground bg=Sidebar
+r1 c97..104 fg=Hint|Dim bg=Sidebar
+r2 c0..1 fg=Foreground bg=Sidebar
+r2 c1..103 fg=Muted bg=Sidebar bold
+r2 c103..104 fg=Foreground bg=Sidebar
+r3 c0..1 fg=Foreground bg=Sidebar
+r3 c1..103 fg=#9bd66f bg=Selected bold
+r3 c103..104 fg=Foreground bg=Sidebar
+r4 c0..1 fg=Foreground bg=Sidebar
+r4 c1..103 fg=#9bd66f bg=Sidebar
+r4 c103..104 fg=Foreground bg=Sidebar
+r5 c0..1 fg=Foreground bg=Sidebar
+r5 c1..103 fg=Muted bg=Sidebar bold
+r5 c103..104 fg=Foreground bg=Sidebar
+r6 c0..1 fg=Foreground bg=Sidebar
+r6 c1..103 fg=Muted bg=Sidebar
+r6 c103..104 fg=Foreground bg=Sidebar
+r7 c0..104 fg=Foreground bg=Sidebar
+
+== dark-graphite
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 fg=Border bg=Sidebar
+r1 c0..1 fg=Foreground bg=Sidebar
+r1 c1..10 fg=Muted bg=Sidebar
+r1 c10..12 fg=Foreground bg=Sidebar
+r1 c12..21 fg=Muted bg=Sidebar
+r1 c21..23 fg=Foreground bg=Sidebar
+r1 c23..31 fg=Muted bg=Sidebar
+r1 c31..33 fg=Foreground bg=Sidebar
+r1 c33..42 fg=Foreground bg=Selected bold
+r1 c42..44 fg=Foreground bg=Sidebar
+r1 c44..53 fg=Muted bg=Sidebar
+r1 c53..55 fg=Foreground bg=Sidebar
+r1 c55..64 fg=Muted bg=Sidebar
+r1 c64..66 fg=Foreground bg=Sidebar
+r1 c66..71 fg=Muted bg=Sidebar
+r1 c71..73 fg=Foreground bg=Sidebar
+r1 c73..79 fg=Muted bg=Sidebar
+r1 c79..97 fg=Foreground bg=Sidebar
+r1 c97..104 fg=Hint|Dim bg=Sidebar
+r2 c0..1 fg=Foreground bg=Sidebar
+r2 c1..103 fg=Muted bg=Sidebar bold
+r2 c103..104 fg=Foreground bg=Sidebar
+r3 c0..1 fg=Foreground bg=Sidebar
+r3 c1..103 fg=#9bd66f bg=Selected bold
+r3 c103..104 fg=Foreground bg=Sidebar
+r4 c0..1 fg=Foreground bg=Sidebar
+r4 c1..103 fg=#9bd66f bg=Sidebar
+r4 c103..104 fg=Foreground bg=Sidebar
+r5 c0..1 fg=Foreground bg=Sidebar
+r5 c1..103 fg=Muted bg=Sidebar bold
+r5 c103..104 fg=Foreground bg=Sidebar
+r6 c0..1 fg=Foreground bg=Sidebar
+r6 c1..103 fg=Muted bg=Sidebar
+r6 c103..104 fg=Foreground bg=Sidebar
+r7 c0..104 fg=Foreground bg=Sidebar
+
+== light-truecolor
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 fg=Border
+r1 c0..1 fg=Foreground
+r1 c1..10 fg=Muted
+r1 c10..12 fg=Foreground
+r1 c12..21 fg=Muted
+r1 c21..23 fg=Foreground
+r1 c23..31 fg=Muted
+r1 c31..33 fg=Foreground
+r1 c33..42 fg=Foreground bg=Selected bold
+r1 c42..44 fg=Foreground
+r1 c44..53 fg=Muted
+r1 c53..55 fg=Foreground
+r1 c55..64 fg=Muted
+r1 c64..66 fg=Foreground
+r1 c66..71 fg=Muted
+r1 c71..73 fg=Foreground
+r1 c73..79 fg=Muted
+r1 c79..97 fg=Foreground
+r1 c97..104 fg=Hint|Dim
+r2 c0..1 fg=Foreground
+r2 c1..103 fg=Muted bold
+r2 c103..104 fg=Foreground
+r3 c0..1 fg=Foreground
+r3 c1..103 fg=#14763d bg=Selected bold
+r3 c103..104 fg=Foreground
+r4 c0..1 fg=Foreground
+r4 c1..103 fg=#14763d
+r4 c103..104 fg=Foreground
+r5 c0..1 fg=Foreground
+r5 c1..103 fg=Muted bold
+r5 c103..104 fg=Foreground
+r6 c0..1 fg=Foreground
+r6 c1..103 fg=Muted
+r6 c103..104 fg=Foreground
+r7 c0..104 fg=Foreground
+
+== dark-256
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 fg=Border bg=Sidebar
+r1 c0..1 fg=Foreground bg=Sidebar
+r1 c1..10 fg=Muted bg=Sidebar
+r1 c10..12 fg=Foreground bg=Sidebar
+r1 c12..21 fg=Muted bg=Sidebar
+r1 c21..23 fg=Foreground bg=Sidebar
+r1 c23..31 fg=Muted bg=Sidebar
+r1 c31..33 fg=Foreground bg=Sidebar
+r1 c33..42 fg=Foreground bg=Selected bold
+r1 c42..44 fg=Foreground bg=Sidebar
+r1 c44..53 fg=Muted bg=Sidebar
+r1 c53..55 fg=Foreground bg=Sidebar
+r1 c55..64 fg=Muted bg=Sidebar
+r1 c64..66 fg=Foreground bg=Sidebar
+r1 c66..71 fg=Muted bg=Sidebar
+r1 c71..73 fg=Foreground bg=Sidebar
+r1 c73..79 fg=Muted bg=Sidebar
+r1 c79..97 fg=Foreground bg=Sidebar
+r1 c97..104 fg=Hint|Dim bg=Sidebar
+r2 c0..1 fg=Foreground bg=Sidebar
+r2 c1..103 fg=Muted bg=Sidebar bold
+r2 c103..104 fg=Foreground bg=Sidebar
+r3 c0..1 fg=Foreground bg=Sidebar
+r3 c1..103 fg=idx113 bg=Selected bold
+r3 c103..104 fg=Foreground bg=Sidebar
+r4 c0..1 fg=Foreground bg=Sidebar
+r4 c1..103 fg=idx113 bg=Sidebar
+r4 c103..104 fg=Foreground bg=Sidebar
+r5 c0..1 fg=Foreground bg=Sidebar
+r5 c1..103 fg=Muted bg=Sidebar bold
+r5 c103..104 fg=Foreground bg=Sidebar
+r6 c0..1 fg=Foreground bg=Sidebar
+r6 c1..103 fg=Muted bg=Sidebar
+r6 c103..104 fg=Foreground bg=Sidebar
+r7 c0..104 fg=Foreground bg=Sidebar
+
+== light-256
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 fg=Border
+r1 c0..1 fg=Foreground
+r1 c1..10 fg=Muted|Hint|Dim
+r1 c10..12 fg=Foreground
+r1 c12..21 fg=Muted|Hint|Dim
+r1 c21..23 fg=Foreground
+r1 c23..31 fg=Muted|Hint|Dim
+r1 c31..33 fg=Foreground
+r1 c33..42 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r1 c42..44 fg=Foreground
+r1 c44..53 fg=Muted|Hint|Dim
+r1 c53..55 fg=Foreground
+r1 c55..64 fg=Muted|Hint|Dim
+r1 c64..66 fg=Foreground
+r1 c66..71 fg=Muted|Hint|Dim
+r1 c71..73 fg=Foreground
+r1 c73..79 fg=Muted|Hint|Dim
+r1 c79..97 fg=Foreground
+r1 c97..104 fg=Muted|Hint|Dim
+r2 c0..1 fg=Foreground
+r2 c1..103 fg=Muted|Hint|Dim bold
+r2 c103..104 fg=Foreground
+r3 c0..1 fg=Foreground
+r3 c1..103 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r3 c103..104 fg=Foreground
+r4 c0..1 fg=Foreground
+r4 c1..103 fg=Live
+r4 c103..104 fg=Foreground
+r5 c0..1 fg=Foreground
+r5 c1..103 fg=Muted|Hint|Dim bold
+r5 c103..104 fg=Foreground
+r6 c0..1 fg=Foreground
+r6 c1..103 fg=Muted|Hint|Dim
+r6 c103..104 fg=Foreground
+r7 c0..104 fg=Foreground
+
+== ansi-16
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 dim
+r1 c1..10 dim
+r1 c12..21 dim
+r1 c23..31 dim
+r1 c33..42 bold
+r1 c44..53 dim
+r1 c55..64 dim
+r1 c66..71 dim
+r1 c73..79 dim
+r1 c97..104 dim
+r2 c1..103 bold dim
+r3 c1..103 fg=Live bold
+r4 c1..103 fg=Live
+r5 c1..103 bold dim
+r6 c1..103 dim
+
+== unknown-ground
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 dim
+r1 c1..10 dim
+r1 c12..21 dim
+r1 c23..31 dim
+r1 c33..42 bold
+r1 c44..53 dim
+r1 c55..64 dim
+r1 c66..71 dim
+r1 c73..79 dim
+r1 c97..104 dim
+r2 c1..103 bold dim
+r3 c1..103 fg=Live bold
+r4 c1..103 fg=Live
+r5 c1..103 bold dim
+r6 c1..103 dim
+
+== no-color
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ ▾ Edited 2
+ ✎ src/components/workbar.rs                                                                    +48 -12
+ ✎ src/gallery/workbar.rs                                                                        +22 -4
+ ▾ Read 1
+ · work_surface/render/mod.rs
+
+---
+r0 c0..104 dim
+r1 c1..10 dim
+r1 c12..21 dim
+r1 c23..31 dim
+r1 c33..42 bold
+r1 c44..53 dim
+r1 c55..64 dim
+r1 c66..71 dim
+r1 c73..79 dim
+r1 c97..104 dim
+r2 c1..103 bold dim
+r3 c1..103 bold
+r5 c1..103 bold dim
+r6 c1..103 dim
+
+== ascii
+--------------------------------------------------------------------------------------------------------
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc X
+ v Edited 2
+ * src/components/workbar.rs                                                                    +48 -12
+ * src/gallery/workbar.rs                                                                        +22 -4
+ v Read 1
+ . work_surface/render/mod.rs
+
+---
+r0 c0..104 dim
+r1 c1..10 dim
+r1 c12..21 dim
+r1 c23..31 dim
+r1 c33..42 bold
+r1 c44..53 dim
+r1 c55..64 dim
+r1 c66..71 dim
+r1 c73..79 dim
+r1 c97..104 dim
+r2 c1..103 bold dim
+r3 c1..103 bold
+r5 c1..103 bold dim
+r6 c1..103 dim

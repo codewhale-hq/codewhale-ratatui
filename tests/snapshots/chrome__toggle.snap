@@ -1,0 +1,126 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(4, toggles)"
+---
+== dark-truecolor · 40x4
+  Show tool details                 ● On
+▸ Reduced motion                   ○ Off
+  Share usage data  set by your…   ○ Off
+▸ Show reasoning as it streams in…  ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..36 bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..35 bg=Selected
+r1 c35..40 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..32 fg=Muted bg=Background
+r2 c32..35 bg=Background
+r2 c35..40 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..34 fg=Foreground bg=Selected bold
+r3 c34..36 bg=Selected
+r3 c36..40 fg=Foreground bg=Selected
+
+== dark-truecolor · 80x4
+  Show tool details                                                         ● On
+▸ Reduced motion                                                           ○ Off
+  Share usage data  set by your admin                                      ○ Off
+▸ Show reasoning as it streams in the transcript                            ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..76 bg=Background
+r0 c76..80 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..75 bg=Selected
+r1 c75..80 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..75 bg=Background
+r2 c75..80 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..48 fg=Foreground bg=Selected bold
+r3 c48..76 bg=Selected
+r3 c76..80 fg=Foreground bg=Selected
+
+== dark-truecolor · 120x4
+  Show tool details                                                                                                 ● On
+▸ Reduced motion                                                                                                   ○ Off
+  Share usage data  set by your admin                                                                              ○ Off
+▸ Show reasoning as it streams in the transcript                                                                    ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..116 bg=Background
+r0 c116..120 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..115 bg=Selected
+r1 c115..120 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..115 bg=Background
+r2 c115..120 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..48 fg=Foreground bg=Selected bold
+r3 c48..116 bg=Selected
+r3 c116..120 fg=Foreground bg=Selected
+
+== no-color · 40x4
+  Show tool details                 ● On
+▸ Reduced motion                   ○ Off
+  Share usage data  set by your…   ○ Off
+▸ Show reasoning as it streams in…  ● On
+
+== no-color · 80x4
+  Show tool details                                                         ● On
+▸ Reduced motion                                                           ○ Off
+  Share usage data  set by your admin                                      ○ Off
+▸ Show reasoning as it streams in the transcript                            ● On
+
+== no-color · 120x4
+  Show tool details                                                                                                 ● On
+▸ Reduced motion                                                                                                   ○ Off
+  Share usage data  set by your admin                                                                              ○ Off
+▸ Show reasoning as it streams in the transcript                                                                    ● On
+
+== ascii · 40x4
+  Show tool details               [x] On
+> Reduced motion                 [ ] Off
+  Share usage data  set by...    [ ] Off
+> Show reasoning as it stream...  [x] On
+
+== ascii · 80x4
+  Show tool details                                                       [x] On
+> Reduced motion                                                         [ ] Off
+  Share usage data  set by your admin                                    [ ] Off
+> Show reasoning as it streams in the transcript                          [x] On
+
+== ascii · 120x4
+  Show tool details                                                                                               [x] On
+> Reduced motion                                                                                                 [ ] Off
+  Share usage data  set by your admin                                                                            [ ] Off
+> Show reasoning as it streams in the transcript                                                                  [x] On

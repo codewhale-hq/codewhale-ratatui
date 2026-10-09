@@ -1,0 +1,255 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..40 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..40 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..40 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..40 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..40 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..40 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..40 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..40 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..40 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..40 bg=Background
+r11 c0..40 bg=Background
+r12 c0..40 bg=Background
+r13 c0..40 bg=Background
+
+== dark-truecolor · 80x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..80 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..80 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..80 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..80 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..80 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..80 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..80 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..80 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..80 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+
+== dark-truecolor · 120x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..120 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..120 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..120 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..120 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..120 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..120 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..120 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..120 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..120 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..120 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..120 bg=Background
+r11 c0..120 bg=Background
+r12 c0..120 bg=Background
+r13 c0..120 bg=Background
+
+== no-color · 40x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+
+== no-color · 80x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+
+== no-color · 120x14
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+
+== ascii · 40x14
+Name
+  nightly-report
+Project
+> Choose a project
+X Choose a project.
+Schedule
+  every day at 7
+. Read only
+Notify me
+  [x] On
+  Sends one message when it finishes.
+
+
+
+
+== ascii · 80x14
+Name
+  nightly-report
+Project
+> Choose a project
+X Choose a project.
+Schedule
+  every day at 7
+. Read only
+Notify me
+  [x] On
+  Sends one message when it finishes.
+
+
+
+
+== ascii · 120x14
+Name
+  nightly-report
+Project
+> Choose a project
+X Choose a project.
+Schedule
+  every day at 7
+. Read only
+Notify me
+  [x] On
+  Sends one message when it finishes.

@@ -1,0 +1,508 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..80 bg=Background
+r2 c0..2 fg=Primary bg=Selected
+r2 c2..11 fg=Foreground bg=Selected bold
+r2 c11..42 fg=Muted bg=Selected
+r2 c42..45 bg=Selected
+r2 c45..46 bg=Background
+r2 c46..47 fg=Border bg=Background
+r2 c47..48 bg=Background
+r2 c48..57 fg=Foreground bg=Background bold
+r2 c57..80 bg=Background
+r3 c0..2 fg=Primary bg=Background
+r3 c2..11 fg=Foreground bg=Background
+r3 c11..36 fg=Muted bg=Background
+r3 c36..46 bg=Background
+r3 c46..47 fg=Border bg=Background
+r3 c47..48 bg=Background
+r3 c48..77 fg=Muted bg=Background
+r3 c77..80 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..46 bg=Background
+r4 c46..47 fg=Border bg=Background
+r4 c47..48 bg=Background
+r4 c48..49 fg=Live bg=Background
+r4 c49..50 bg=Background
+r4 c50..57 fg=Foreground bg=Background
+r4 c57..80 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..46 bg=Background
+r5 c46..47 fg=Border bg=Background
+r5 c47..48 bg=Background
+r5 c48..49 fg=Attention bg=Background
+r5 c49..50 bg=Background
+r5 c50..59 fg=Foreground bg=Background
+r5 c59..80 bg=Background
+r6 c0..2 fg=Primary bg=Background
+r6 c2..11 fg=Foreground bg=Background
+r6 c11..33 fg=Muted bg=Background
+r6 c33..46 bg=Background
+r6 c46..47 fg=Border bg=Background
+r6 c47..48 bg=Background
+r6 c48..49 fg=Live bg=Background
+r6 c49..50 bg=Background
+r6 c50..54 fg=Foreground bg=Background
+r6 c54..80 bg=Background
+r7 c0..46 bg=Background
+r7 c46..47 fg=Border bg=Background
+r7 c47..80 bg=Background
+
+== dark-graphite
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..80 bg=Background
+r2 c0..2 fg=Primary bg=Selected
+r2 c2..11 fg=Foreground bg=Selected bold
+r2 c11..42 fg=Muted bg=Selected
+r2 c42..45 bg=Selected
+r2 c45..46 bg=Background
+r2 c46..47 fg=Border bg=Background
+r2 c47..48 bg=Background
+r2 c48..57 fg=Foreground bg=Background bold
+r2 c57..80 bg=Background
+r3 c0..2 fg=Primary bg=Background
+r3 c2..11 fg=Foreground bg=Background
+r3 c11..36 fg=Muted bg=Background
+r3 c36..46 bg=Background
+r3 c46..47 fg=Border bg=Background
+r3 c47..48 bg=Background
+r3 c48..77 fg=Muted bg=Background
+r3 c77..80 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..46 bg=Background
+r4 c46..47 fg=Border bg=Background
+r4 c47..48 bg=Background
+r4 c48..49 fg=Live bg=Background
+r4 c49..50 bg=Background
+r4 c50..57 fg=Foreground bg=Background
+r4 c57..80 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..46 bg=Background
+r5 c46..47 fg=Border bg=Background
+r5 c47..48 bg=Background
+r5 c48..49 fg=Attention bg=Background
+r5 c49..50 bg=Background
+r5 c50..59 fg=Foreground bg=Background
+r5 c59..80 bg=Background
+r6 c0..2 fg=Primary bg=Background
+r6 c2..11 fg=Foreground bg=Background
+r6 c11..33 fg=Muted bg=Background
+r6 c33..46 bg=Background
+r6 c46..47 fg=Border bg=Background
+r6 c47..48 bg=Background
+r6 c48..49 fg=Live bg=Background
+r6 c49..50 bg=Background
+r6 c50..54 fg=Foreground bg=Background
+r6 c54..80 bg=Background
+r7 c0..46 bg=Background
+r7 c46..47 fg=Border bg=Background
+r7 c47..80 bg=Background
+
+== light-truecolor
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..80 bg=Background
+r2 c0..2 fg=Primary bg=Selected
+r2 c2..11 fg=Foreground bg=Selected bold
+r2 c11..42 fg=Muted bg=Selected
+r2 c42..45 bg=Selected
+r2 c45..46 bg=Background
+r2 c46..47 fg=Border bg=Background
+r2 c47..48 bg=Background
+r2 c48..57 fg=Foreground bg=Background bold
+r2 c57..80 bg=Background
+r3 c0..2 fg=Primary bg=Background
+r3 c2..11 fg=Foreground bg=Background
+r3 c11..36 fg=Muted bg=Background
+r3 c36..46 bg=Background
+r3 c46..47 fg=Border bg=Background
+r3 c47..48 bg=Background
+r3 c48..77 fg=Muted bg=Background
+r3 c77..80 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..46 bg=Background
+r4 c46..47 fg=Border bg=Background
+r4 c47..48 bg=Background
+r4 c48..49 fg=Live bg=Background
+r4 c49..50 bg=Background
+r4 c50..57 fg=Foreground bg=Background
+r4 c57..80 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..46 bg=Background
+r5 c46..47 fg=Border bg=Background
+r5 c47..48 bg=Background
+r5 c48..49 fg=Attention bg=Background
+r5 c49..50 bg=Background
+r5 c50..59 fg=Foreground bg=Background
+r5 c59..80 bg=Background
+r6 c0..2 fg=Primary bg=Background
+r6 c2..11 fg=Foreground bg=Background
+r6 c11..33 fg=Muted bg=Background
+r6 c33..46 bg=Background
+r6 c46..47 fg=Border bg=Background
+r6 c47..48 bg=Background
+r6 c48..49 fg=Live bg=Background
+r6 c49..50 bg=Background
+r6 c50..54 fg=Foreground bg=Background
+r6 c54..80 bg=Background
+r7 c0..46 bg=Background
+r7 c46..47 fg=Border bg=Background
+r7 c47..80 bg=Background
+
+== dark-256
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..80 bg=Background
+r2 c0..2 fg=Primary bg=Selected
+r2 c2..11 fg=Foreground bg=Selected bold
+r2 c11..42 fg=Muted bg=Selected
+r2 c42..45 bg=Selected
+r2 c45..46 bg=Background
+r2 c46..47 fg=Border bg=Background
+r2 c47..48 bg=Background
+r2 c48..57 fg=Foreground bg=Background bold
+r2 c57..80 bg=Background
+r3 c0..2 fg=Primary bg=Background
+r3 c2..11 fg=Foreground bg=Background
+r3 c11..36 fg=Muted bg=Background
+r3 c36..46 bg=Background
+r3 c46..47 fg=Border bg=Background
+r3 c47..48 bg=Background
+r3 c48..77 fg=Muted bg=Background
+r3 c77..80 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..46 bg=Background
+r4 c46..47 fg=Border bg=Background
+r4 c47..48 bg=Background
+r4 c48..49 fg=Live bg=Background
+r4 c49..50 bg=Background
+r4 c50..57 fg=Foreground bg=Background
+r4 c57..80 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..46 bg=Background
+r5 c46..47 fg=Border bg=Background
+r5 c47..48 bg=Background
+r5 c48..49 fg=Attention bg=Background
+r5 c49..50 bg=Background
+r5 c50..59 fg=Foreground bg=Background
+r5 c59..80 bg=Background
+r6 c0..2 fg=Primary bg=Background
+r6 c2..11 fg=Foreground bg=Background
+r6 c11..33 fg=Muted bg=Background
+r6 c33..46 bg=Background
+r6 c46..47 fg=Border bg=Background
+r6 c47..48 bg=Background
+r6 c48..49 fg=Live bg=Background
+r6 c49..50 bg=Background
+r6 c50..54 fg=Foreground bg=Background
+r6 c54..80 bg=Background
+r7 c0..46 bg=Background
+r7 c46..47 fg=Border bg=Background
+r7 c47..80 bg=Background
+
+== light-256
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background|Surface
+r0 c3..5 bg=Background|Surface
+r0 c5..7 fg=Primary bg=Background|Surface
+r0 c7..11 fg=Foreground bg=Background|Surface bold
+r0 c11..13 bg=Background|Surface
+r0 c13..18 fg=Muted bg=Background|Surface
+r0 c18..80 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..3 fg=Hint bg=Background|Surface reversed
+r1 c3..16 fg=Hint bg=Background|Surface
+r1 c16..80 bg=Background|Surface
+r2 c0..2 fg=Primary bg=Selected
+r2 c2..11 fg=Foreground bg=Selected bold
+r2 c11..42 fg=Muted bg=Selected
+r2 c42..45 bg=Selected
+r2 c45..46 bg=Background|Surface
+r2 c46..47 fg=Border bg=Background|Surface
+r2 c47..48 bg=Background|Surface
+r2 c48..57 fg=Foreground bg=Background|Surface bold
+r2 c57..80 bg=Background|Surface
+r3 c0..2 fg=Primary bg=Background|Surface
+r3 c2..11 fg=Foreground bg=Background|Surface
+r3 c11..36 fg=Muted bg=Background|Surface
+r3 c36..46 bg=Background|Surface
+r3 c46..47 fg=Border bg=Background|Surface
+r3 c47..48 bg=Background|Surface
+r3 c48..77 fg=Muted bg=Background|Surface
+r3 c77..80 bg=Background|Surface
+r4 c0..2 fg=Primary bg=Background|Surface
+r4 c2..11 fg=Foreground bg=Background|Surface
+r4 c11..36 fg=Muted bg=Background|Surface
+r4 c36..46 bg=Background|Surface
+r4 c46..47 fg=Border bg=Background|Surface
+r4 c47..48 bg=Background|Surface
+r4 c48..49 fg=Live bg=Background|Surface
+r4 c49..50 bg=Background|Surface
+r4 c50..57 fg=Foreground bg=Background|Surface
+r4 c57..80 bg=Background|Surface
+r5 c0..2 fg=Primary bg=Background|Surface
+r5 c2..11 fg=Foreground bg=Background|Surface
+r5 c11..29 fg=Muted bg=Background|Surface
+r5 c29..46 bg=Background|Surface
+r5 c46..47 fg=Border bg=Background|Surface
+r5 c47..48 bg=Background|Surface
+r5 c48..49 fg=Attention bg=Background|Surface
+r5 c49..50 bg=Background|Surface
+r5 c50..59 fg=Foreground bg=Background|Surface
+r5 c59..80 bg=Background|Surface
+r6 c0..2 fg=Primary bg=Background|Surface
+r6 c2..11 fg=Foreground bg=Background|Surface
+r6 c11..33 fg=Muted bg=Background|Surface
+r6 c33..46 bg=Background|Surface
+r6 c46..47 fg=Border bg=Background|Surface
+r6 c47..48 bg=Background|Surface
+r6 c48..49 fg=Live bg=Background|Surface
+r6 c49..50 bg=Background|Surface
+r6 c50..54 fg=Foreground bg=Background|Surface
+r6 c54..80 bg=Background|Surface
+r7 c0..46 bg=Background|Surface
+r7 c46..47 fg=Border bg=Background|Surface
+r7 c47..80 bg=Background|Surface
+
+== ansi-16
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 dim
+r0 c5..7 fg=Primary
+r0 c7..11 bold
+r0 c13..18 dim
+r1 c0..1 fg=Primary
+r1 c2..3 dim reversed
+r1 c3..16 dim
+r2 c0..2 fg=Primary
+r2 c2..11 bold
+r2 c11..42 dim
+r2 c46..47 dim
+r2 c48..57 bold
+r3 c0..2 fg=Primary
+r3 c11..36 dim
+r3 c46..47 dim
+r3 c48..77 dim
+r4 c0..2 fg=Primary
+r4 c11..36 dim
+r4 c46..47 dim
+r4 c48..49 fg=Live
+r5 c0..2 fg=Primary
+r5 c11..29 dim
+r5 c46..47 dim
+r5 c48..49 fg=Attention
+r6 c0..2 fg=Primary
+r6 c11..33 dim
+r6 c46..47 dim
+r6 c48..49 fg=Live
+r7 c46..47 dim
+
+== unknown-ground
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 dim
+r0 c5..7 fg=Primary
+r0 c7..11 bold
+r0 c13..18 dim
+r1 c0..1 fg=Primary
+r1 c2..3 dim reversed
+r1 c3..16 dim
+r2 c0..2 fg=Primary
+r2 c2..11 bold
+r2 c11..42 dim
+r2 c46..47 dim
+r2 c48..57 bold
+r3 c0..2 fg=Primary
+r3 c11..36 dim
+r3 c46..47 dim
+r3 c48..77 dim
+r4 c0..2 fg=Primary
+r4 c11..36 dim
+r4 c46..47 dim
+r4 c48..49 fg=Live
+r5 c0..2 fg=Primary
+r5 c11..29 dim
+r5 c46..47 dim
+r5 c48..49 fg=Attention
+r6 c0..2 fg=Primary
+r6 c11..33 dim
+r6 c46..47 dim
+r6 c48..49 fg=Live
+r7 c46..47 dim
+
+== no-color
+All  ● Dark  Light
+› Type to filter
+▸ Shoreline  Graphite ground, follows the…    │ Shoreline
+  Deep sea   Navy ground, blue ombre          │ Graphite ground, follows the…
+  Graphite   The exact token grounds          │ ● Working
+  Reef       Warm dark ground                 │ ◆ Needs you
+  Tidepool   Teal accents on dark             │ ✓ Done
+                                              │
+---
+r0 c0..3 dim
+r0 c7..11 bold
+r0 c13..18 dim
+r1 c2..3 dim reversed
+r1 c3..16 dim
+r2 c2..11 bold
+r2 c11..42 dim
+r2 c46..47 dim
+r2 c48..57 bold
+r3 c11..36 dim
+r3 c46..47 dim
+r3 c48..77 dim
+r4 c11..36 dim
+r4 c46..47 dim
+r5 c11..29 dim
+r5 c46..47 dim
+r6 c11..33 dim
+r6 c46..47 dim
+r7 c46..47 dim
+
+== ascii
+All  . Dark  Light
+/ Type to filter
+> Shoreline  Graphite ground, follows the...  | Shoreline
+  Deep sea   Navy ground, blue ombre          | Graphite ground, follows the...
+  Graphite   The exact token grounds          | . Working
+  Reef       Warm dark ground                 | * Needs you
+  Tidepool   Teal accents on dark             | Y Done
+                                              |
+---
+r0 c0..3 dim
+r0 c7..11 bold
+r0 c13..18 dim
+r1 c2..3 dim reversed
+r1 c3..16 dim
+r2 c2..11 bold
+r2 c11..44 dim
+r2 c46..47 dim
+r2 c48..57 bold
+r3 c11..36 dim
+r3 c46..47 dim
+r3 c48..79 dim
+r4 c11..36 dim
+r4 c46..47 dim
+r5 c11..29 dim
+r5 c46..47 dim
+r6 c11..33 dim
+r6 c46..47 dim
+r7 c46..47 dim

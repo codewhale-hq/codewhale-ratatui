@@ -1,0 +1,127 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..30 fg=Hint|Dim bg=Background
+r0 c30..34 fg=#7eb4e8 bg=Background
+r0 c34..43 fg=Hint|Dim bg=Background
+r0 c43..57 fg=Live bg=Background
+r0 c57..60 fg=Hint|Dim bg=Background
+r0 c60..68 fg=Live bg=Background
+r0 c68..71 fg=Hint|Dim bg=Background
+r0 c71..85 fg=Live bg=Background
+r0 c85..104 fg=Hint|Dim bg=Background
+r0 c104..112 bg=Background
+
+== dark-graphite
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..30 fg=Hint|Dim bg=Background
+r0 c30..34 fg=#7eb4e8 bg=Background
+r0 c34..43 fg=Hint|Dim bg=Background
+r0 c43..57 fg=Live bg=Background
+r0 c57..60 fg=Hint|Dim bg=Background
+r0 c60..68 fg=Live bg=Background
+r0 c68..71 fg=Hint|Dim bg=Background
+r0 c71..85 fg=Live bg=Background
+r0 c85..104 fg=Hint|Dim bg=Background
+r0 c104..112 bg=Background
+
+== light-truecolor
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 fg=#92400e bold
+r0 c6..30 fg=Hint|Dim
+r0 c30..34 fg=#1636b2
+r0 c34..43 fg=Hint|Dim
+r0 c43..57 fg=Live
+r0 c57..60 fg=Hint|Dim
+r0 c60..68 fg=Live
+r0 c68..71 fg=Hint|Dim
+r0 c71..85 fg=Live
+r0 c85..104 fg=Hint|Dim
+
+== dark-256
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
+r0 c6..30 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c30..34 fg=idx110 bg=Background|DiffAddedTint
+r0 c34..43 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c43..57 fg=Live bg=Background|DiffAddedTint
+r0 c57..60 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c60..68 fg=Live bg=Background|DiffAddedTint
+r0 c68..71 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c71..85 fg=Live bg=Background|DiffAddedTint
+r0 c85..104 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c104..112 bg=Background|DiffAddedTint
+
+== light-256
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 fg=Muted|Hint|Dim
+r0 c30..34 fg=Primary
+r0 c34..43 fg=Muted|Hint|Dim
+r0 c43..57 fg=Live
+r0 c57..60 fg=Muted|Hint|Dim
+r0 c60..68 fg=Live
+r0 c68..71 fg=Muted|Hint|Dim
+r0 c71..85 fg=Live
+r0 c85..104 fg=Muted|Hint|Dim
+
+== ansi-16
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 dim
+r0 c30..34 fg=Primary
+r0 c34..43 dim
+r0 c43..57 fg=Live
+r0 c57..60 dim
+r0 c60..68 fg=Live
+r0 c68..71 dim
+r0 c71..85 fg=Live
+r0 c85..104 dim
+
+== unknown-ground
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 dim
+r0 c30..34 fg=Primary
+r0 c34..43 dim
+r0 c43..57 fg=Live
+r0 c57..60 dim
+r0 c60..68 fg=Live
+r0 c68..71 dim
+r0 c71..85 fg=Live
+r0 c85..104 dim
+
+== no-color
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 bold
+r0 c6..30 dim
+r0 c34..43 dim
+r0 c57..60 dim
+r0 c68..71 dim
+r0 c85..104 dim
+
+== ascii
+ . ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+---
+r0 c1..6 bold
+r0 c6..30 dim
+r0 c34..43 dim
+r0 c57..60 dim
+r0 c68..71 dim
+r0 c85..104 dim

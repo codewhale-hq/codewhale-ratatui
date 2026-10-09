@@ -1,0 +1,66 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x2
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== dark-truecolor · 80x2
+Path
+› /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/edi…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..54 fg=Foreground bg=Selected
+r1 c54..55 fg=Foreground bg=Selected reversed
+r1 c55..79 fg=Foreground bg=Selected
+r1 c79..80 fg=Muted bg=Selected
+
+== dark-truecolor · 120x2
+Path
+› /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/editor.rs
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..54 fg=Foreground bg=Selected
+r1 c54..55 fg=Foreground bg=Selected reversed
+r1 c55..85 fg=Foreground bg=Selected
+r1 c85..120 bg=Selected
+
+== no-color · 40x2
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+
+== no-color · 80x2
+Path
+› /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/edi…
+
+== no-color · 120x2
+Path
+› /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/editor.rs
+
+== ascii · 40x2
+Path
+> <nnon-labs/codewhale/crates/tui/src/t>
+
+== ascii · 80x2
+Path
+> /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/edi>
+
+== ascii · 120x2
+Path
+> /Volumes/work/shannon-labs/codewhale/crates/tui/src/tui/views/automations/editor.rs

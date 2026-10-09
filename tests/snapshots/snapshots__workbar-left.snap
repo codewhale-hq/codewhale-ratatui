@@ -1,0 +1,379 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c0..1 fg=Foreground bg=Sidebar
+r0 c1..28 fg=Foreground bg=Selected bold
+r0 c28..29 fg=Foreground bg=Sidebar
+r0 c29..30 fg=Border bg=Sidebar
+r0 c30..39 fg=Foreground bg=Background
+r0 c39..104 bg=Background
+r1 c0..27 fg=Foreground bg=Sidebar
+r1 c27..28 fg=Muted bg=Sidebar
+r1 c28..29 fg=Foreground bg=Sidebar
+r1 c29..30 fg=Border bg=Sidebar
+r1 c30..104 bg=Background
+r2 c0..29 fg=Foreground bg=Sidebar
+r2 c29..30 fg=Border bg=Sidebar
+r2 c30..63 fg=Muted bg=Background
+r2 c63..104 bg=Background
+r3 c0..29 fg=Foreground bg=Sidebar
+r3 c29..30 fg=Border bg=Sidebar
+r3 c30..104 bg=Background
+r4 c0..29 fg=Foreground bg=Sidebar
+r4 c29..30 fg=Border bg=Sidebar
+r4 c30..104 bg=Background
+r5 c0..29 fg=Foreground bg=Sidebar
+r5 c29..30 fg=Border bg=Sidebar
+r5 c30..104 bg=Background
+r6 c0..29 fg=Foreground bg=Sidebar
+r6 c29..30 fg=Border bg=Sidebar
+r6 c30..104 bg=Background
+r7 c0..29 fg=Foreground bg=Sidebar
+r7 c29..30 fg=Border bg=Sidebar
+r7 c30..104 bg=Background
+r8 c0..29 fg=Foreground bg=Sidebar
+r8 c29..30 fg=Border bg=Sidebar
+r8 c30..104 bg=Background
+r9 c0..29 fg=Foreground bg=Sidebar
+r9 c29..30 fg=Border bg=Sidebar
+r9 c30..104 bg=Background
+r10 c0..29 fg=Foreground bg=Sidebar
+r10 c29..30 fg=Border bg=Sidebar
+r10 c30..104 bg=Background
+r11 c0..29 fg=Foreground bg=Sidebar
+r11 c29..30 fg=Border bg=Sidebar
+r11 c30..104 bg=Background
+
+== dark-graphite
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c0..1 fg=Foreground bg=Sidebar
+r0 c1..28 fg=Foreground bg=Selected bold
+r0 c28..29 fg=Foreground bg=Sidebar
+r0 c29..30 fg=Border bg=Sidebar
+r0 c30..39 fg=Foreground bg=Background
+r0 c39..104 bg=Background
+r1 c0..27 fg=Foreground bg=Sidebar
+r1 c27..28 fg=Muted bg=Sidebar
+r1 c28..29 fg=Foreground bg=Sidebar
+r1 c29..30 fg=Border bg=Sidebar
+r1 c30..104 bg=Background
+r2 c0..29 fg=Foreground bg=Sidebar
+r2 c29..30 fg=Border bg=Sidebar
+r2 c30..63 fg=Muted bg=Background
+r2 c63..104 bg=Background
+r3 c0..29 fg=Foreground bg=Sidebar
+r3 c29..30 fg=Border bg=Sidebar
+r3 c30..104 bg=Background
+r4 c0..29 fg=Foreground bg=Sidebar
+r4 c29..30 fg=Border bg=Sidebar
+r4 c30..104 bg=Background
+r5 c0..29 fg=Foreground bg=Sidebar
+r5 c29..30 fg=Border bg=Sidebar
+r5 c30..104 bg=Background
+r6 c0..29 fg=Foreground bg=Sidebar
+r6 c29..30 fg=Border bg=Sidebar
+r6 c30..104 bg=Background
+r7 c0..29 fg=Foreground bg=Sidebar
+r7 c29..30 fg=Border bg=Sidebar
+r7 c30..104 bg=Background
+r8 c0..29 fg=Foreground bg=Sidebar
+r8 c29..30 fg=Border bg=Sidebar
+r8 c30..104 bg=Background
+r9 c0..29 fg=Foreground bg=Sidebar
+r9 c29..30 fg=Border bg=Sidebar
+r9 c30..104 bg=Background
+r10 c0..29 fg=Foreground bg=Sidebar
+r10 c29..30 fg=Border bg=Sidebar
+r10 c30..104 bg=Background
+r11 c0..29 fg=Foreground bg=Sidebar
+r11 c29..30 fg=Border bg=Sidebar
+r11 c30..104 bg=Background
+
+== light-truecolor
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c0..1 fg=Foreground
+r0 c1..28 fg=Foreground bg=Selected bold
+r0 c28..29 fg=Foreground
+r0 c29..30 fg=Border
+r0 c30..39 fg=Foreground
+r1 c0..27 fg=Foreground
+r1 c27..28 fg=Muted
+r1 c28..29 fg=Foreground
+r1 c29..30 fg=Border
+r2 c0..29 fg=Foreground
+r2 c29..30 fg=Border
+r2 c30..63 fg=Muted
+r3 c0..29 fg=Foreground
+r3 c29..30 fg=Border
+r4 c0..29 fg=Foreground
+r4 c29..30 fg=Border
+r5 c0..29 fg=Foreground
+r5 c29..30 fg=Border
+r6 c0..29 fg=Foreground
+r6 c29..30 fg=Border
+r7 c0..29 fg=Foreground
+r7 c29..30 fg=Border
+r8 c0..29 fg=Foreground
+r8 c29..30 fg=Border
+r9 c0..29 fg=Foreground
+r9 c29..30 fg=Border
+r10 c0..29 fg=Foreground
+r10 c29..30 fg=Border
+r11 c0..29 fg=Foreground
+r11 c29..30 fg=Border
+
+== dark-256
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c0..1 fg=Foreground bg=Sidebar
+r0 c1..28 fg=Foreground bg=Selected bold
+r0 c28..29 fg=Foreground bg=Sidebar
+r0 c29..30 fg=Border bg=Sidebar
+r0 c30..39 fg=Foreground bg=Background|DiffAddedTint
+r0 c39..104 bg=Background|DiffAddedTint
+r1 c0..27 fg=Foreground bg=Sidebar
+r1 c27..28 fg=Muted bg=Sidebar
+r1 c28..29 fg=Foreground bg=Sidebar
+r1 c29..30 fg=Border bg=Sidebar
+r1 c30..104 bg=Background|DiffAddedTint
+r2 c0..29 fg=Foreground bg=Sidebar
+r2 c29..30 fg=Border bg=Sidebar
+r2 c30..63 fg=Muted bg=Background|DiffAddedTint
+r2 c63..104 bg=Background|DiffAddedTint
+r3 c0..29 fg=Foreground bg=Sidebar
+r3 c29..30 fg=Border bg=Sidebar
+r3 c30..104 bg=Background|DiffAddedTint
+r4 c0..29 fg=Foreground bg=Sidebar
+r4 c29..30 fg=Border bg=Sidebar
+r4 c30..104 bg=Background|DiffAddedTint
+r5 c0..29 fg=Foreground bg=Sidebar
+r5 c29..30 fg=Border bg=Sidebar
+r5 c30..104 bg=Background|DiffAddedTint
+r6 c0..29 fg=Foreground bg=Sidebar
+r6 c29..30 fg=Border bg=Sidebar
+r6 c30..104 bg=Background|DiffAddedTint
+r7 c0..29 fg=Foreground bg=Sidebar
+r7 c29..30 fg=Border bg=Sidebar
+r7 c30..104 bg=Background|DiffAddedTint
+r8 c0..29 fg=Foreground bg=Sidebar
+r8 c29..30 fg=Border bg=Sidebar
+r8 c30..104 bg=Background|DiffAddedTint
+r9 c0..29 fg=Foreground bg=Sidebar
+r9 c29..30 fg=Border bg=Sidebar
+r9 c30..104 bg=Background|DiffAddedTint
+r10 c0..29 fg=Foreground bg=Sidebar
+r10 c29..30 fg=Border bg=Sidebar
+r10 c30..104 bg=Background|DiffAddedTint
+r11 c0..29 fg=Foreground bg=Sidebar
+r11 c29..30 fg=Border bg=Sidebar
+r11 c30..104 bg=Background|DiffAddedTint
+
+== light-256
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c0..1 fg=Foreground
+r0 c1..28 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c28..29 fg=Foreground
+r0 c29..30 fg=Border
+r0 c30..39 fg=Foreground
+r1 c0..27 fg=Foreground
+r1 c27..28 fg=Muted|Hint|Dim
+r1 c28..29 fg=Foreground
+r1 c29..30 fg=Border
+r2 c0..29 fg=Foreground
+r2 c29..30 fg=Border
+r2 c30..63 fg=Muted|Hint|Dim
+r3 c0..29 fg=Foreground
+r3 c29..30 fg=Border
+r4 c0..29 fg=Foreground
+r4 c29..30 fg=Border
+r5 c0..29 fg=Foreground
+r5 c29..30 fg=Border
+r6 c0..29 fg=Foreground
+r6 c29..30 fg=Border
+r7 c0..29 fg=Foreground
+r7 c29..30 fg=Border
+r8 c0..29 fg=Foreground
+r8 c29..30 fg=Border
+r9 c0..29 fg=Foreground
+r9 c29..30 fg=Border
+r10 c0..29 fg=Foreground
+r10 c29..30 fg=Border
+r11 c0..29 fg=Foreground
+r11 c29..30 fg=Border
+
+== ansi-16
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c1..28 bold
+r0 c29..30 dim
+r1 c27..28 dim
+r1 c29..30 dim
+r2 c29..63 dim
+r3 c29..30 dim
+r4 c29..30 dim
+r5 c29..30 dim
+r6 c29..30 dim
+r7 c29..30 dim
+r8 c29..30 dim
+r9 c29..30 dim
+r10 c29..30 dim
+r11 c29..30 dim
+
+== unknown-ground
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c1..28 bold
+r0 c29..30 dim
+r1 c27..28 dim
+r1 c29..30 dim
+r2 c29..63 dim
+r3 c29..30 dim
+r4 c29..30 dim
+r5 c29..30 dim
+r6 c29..30 dim
+r7 c29..30 dim
+r8 c29..30 dim
+r9 c29..30 dim
+r10 c29..30 dim
+r11 c29..30 dim
+
+== no-color
+ ● Extract the dock and kee… │Codewhale
+ ✓ Review tab and keyboard…  │
+                             │The conversation keeps its space.
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+                             │
+---
+r0 c1..28 bold
+r0 c29..30 dim
+r1 c27..28 dim
+r1 c29..30 dim
+r2 c29..63 dim
+r3 c29..30 dim
+r4 c29..30 dim
+r5 c29..30 dim
+r6 c29..30 dim
+r7 c29..30 dim
+r8 c29..30 dim
+r9 c29..30 dim
+r10 c29..30 dim
+r11 c29..30 dim
+
+== ascii
+ . Extract the dock and k... |Codewhale
+ Y Review tab and keyboar... |
+                             |The conversation keeps its space.
+                             |
+                             |
+                             |
+                             |
+                             |
+                             |
+                             |
+                             |
+                             |
+---
+r0 c1..28 bold
+r0 c29..30 dim
+r1 c29..30 dim
+r2 c29..63 dim
+r3 c29..30 dim
+r4 c29..30 dim
+r5 c29..30 dim
+r6 c29..30 dim
+r7 c29..30 dim
+r8 c29..30 dim
+r9 c29..30 dim
+r10 c29..30 dim
+r11 c29..30 dim

@@ -1,0 +1,192 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(8, dialog_bare)"
+---
+== dark-truecolor · 40x8
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│ A dialog with no title and no    │le
+Ed│ hints.                           │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+---
+r0 c0..40 fg=Muted bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..38 fg=BorderStrong bg=Surface
+r1 c38..40 fg=Muted bg=Background
+r2 c0..2 fg=Muted bg=Background
+r2 c2..3 fg=BorderStrong bg=Surface
+r2 c3..4 bg=Surface
+r2 c4..36 fg=Foreground bg=Surface
+r2 c36..37 bg=Surface
+r2 c37..38 fg=BorderStrong bg=Surface
+r2 c38..40 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..3 fg=BorderStrong bg=Surface
+r3 c3..4 bg=Surface
+r3 c4..36 fg=Foreground bg=Surface
+r3 c36..37 bg=Surface
+r3 c37..38 fg=BorderStrong bg=Surface
+r3 c38..40 fg=Muted bg=Background
+r4 c0..2 fg=Muted bg=Background
+r4 c2..3 fg=BorderStrong bg=Surface
+r4 c3..4 bg=Surface
+r4 c4..36 fg=Foreground bg=Surface
+r4 c36..37 bg=Surface
+r4 c37..38 fg=BorderStrong bg=Surface
+r4 c38..40 fg=Muted bg=Background
+r5 c0..2 fg=Muted bg=Background
+r5 c2..38 fg=BorderStrong bg=Surface
+r5 c38..40 fg=Muted bg=Background
+r6 c0..40 fg=Muted bg=Background
+r7 c0..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited sum┌──────────────────────────────────────────────────────────┐
+Edited sum│ A dialog with no title and no hints.                     │
+Edited sum│                                                          │
+Edited sum│                                                          │
+Edited sum└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..80 bg=Background
+r1 c0..10 fg=Muted bg=Background
+r1 c10..70 fg=BorderStrong bg=Surface
+r1 c70..80 bg=Background
+r2 c0..10 fg=Muted bg=Background
+r2 c10..11 fg=BorderStrong bg=Surface
+r2 c11..12 bg=Surface
+r2 c12..68 fg=Foreground bg=Surface
+r2 c68..69 bg=Surface
+r2 c69..70 fg=BorderStrong bg=Surface
+r2 c70..80 bg=Background
+r3 c0..10 fg=Muted bg=Background
+r3 c10..11 fg=BorderStrong bg=Surface
+r3 c11..12 bg=Surface
+r3 c12..68 fg=Foreground bg=Surface
+r3 c68..69 bg=Surface
+r3 c69..70 fg=BorderStrong bg=Surface
+r3 c70..80 bg=Background
+r4 c0..10 fg=Muted bg=Background
+r4 c10..11 fg=BorderStrong bg=Surface
+r4 c11..12 bg=Surface
+r4 c12..68 fg=Foreground bg=Surface
+r4 c68..69 bg=Surface
+r4 c69..70 fg=BorderStrong bg=Surface
+r4 c70..80 bg=Background
+r5 c0..10 fg=Muted bg=Background
+r5 c10..70 fg=BorderStrong bg=Surface
+r5 c70..80 bg=Background
+r6 c0..69 fg=Muted bg=Background
+r6 c69..80 bg=Background
+r7 c0..69 fg=Muted bg=Background
+r7 c69..80 bg=Background
+
+== dark-truecolor · 120x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran┌──────────────────────────────────────────────────────────┐
+Edited summary.md and then ran│ A dialog with no title and no hints.                     │
+Edited summary.md and then ran│                                                          │
+Edited summary.md and then ran│                                                          │
+Edited summary.md and then ran└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..120 bg=Background
+r1 c0..30 fg=Muted bg=Background
+r1 c30..90 fg=BorderStrong bg=Surface
+r1 c90..120 bg=Background
+r2 c0..30 fg=Muted bg=Background
+r2 c30..31 fg=BorderStrong bg=Surface
+r2 c31..32 bg=Surface
+r2 c32..88 fg=Foreground bg=Surface
+r2 c88..89 bg=Surface
+r2 c89..90 fg=BorderStrong bg=Surface
+r2 c90..120 bg=Background
+r3 c0..30 fg=Muted bg=Background
+r3 c30..31 fg=BorderStrong bg=Surface
+r3 c31..32 bg=Surface
+r3 c32..88 fg=Foreground bg=Surface
+r3 c88..89 bg=Surface
+r3 c89..90 fg=BorderStrong bg=Surface
+r3 c90..120 bg=Background
+r4 c0..30 fg=Muted bg=Background
+r4 c30..31 fg=BorderStrong bg=Surface
+r4 c31..32 bg=Surface
+r4 c32..88 fg=Foreground bg=Surface
+r4 c88..89 bg=Surface
+r4 c89..90 fg=BorderStrong bg=Surface
+r4 c90..120 bg=Background
+r5 c0..30 fg=Muted bg=Background
+r5 c30..90 fg=BorderStrong bg=Surface
+r5 c90..120 bg=Background
+r6 c0..69 fg=Muted bg=Background
+r6 c69..120 bg=Background
+r7 c0..69 fg=Muted bg=Background
+r7 c69..120 bg=Background
+
+== no-color · 40x8
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│ A dialog with no title and no    │le
+Ed│ hints.                           │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+
+== no-color · 80x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited sum┌──────────────────────────────────────────────────────────┐
+Edited sum│ A dialog with no title and no hints.                     │
+Edited sum│                                                          │
+Edited sum│                                                          │
+Edited sum└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== no-color · 120x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran┌──────────────────────────────────────────────────────────┐
+Edited summary.md and then ran│ A dialog with no title and no hints.                     │
+Edited summary.md and then ran│                                                          │
+Edited summary.md and then ran│                                                          │
+Edited summary.md and then ran└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 40x8
+Edited summary.md and then ran the whole
+Ed+----------------------------------+le
+Ed| A dialog with no title and no    |le
+Ed| hints.                           |le
+Ed|                                  |le
+Ed+----------------------------------+le
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+
+== ascii · 80x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited sum+----------------------------------------------------------+
+Edited sum| A dialog with no title and no hints.                     |
+Edited sum|                                                          |
+Edited sum|                                                          |
+Edited sum+----------------------------------------------------------+
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 120x8
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran+----------------------------------------------------------+
+Edited summary.md and then ran| A dialog with no title and no hints.                     |
+Edited summary.md and then ran|                                                          |
+Edited summary.md and then ran|                                                          |
+Edited summary.md and then ran+----------------------------------------------------------+
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure

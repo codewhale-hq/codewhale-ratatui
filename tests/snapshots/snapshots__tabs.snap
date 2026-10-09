@@ -1,0 +1,293 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..53 fg=Muted bg=Background
+r0 c53..56 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..56 bg=Background
+r2 c0..56 bg=Background
+r3 c0..9 fg=Muted bg=Background
+r3 c9..10 fg=Foreground bg=Background
+r3 c10..17 fg=Foreground bg=Background bold
+r3 c17..18 fg=Foreground bg=Background
+r3 c18..28 fg=Muted bg=Background
+r3 c28..56 bg=Background
+r4 c0..10 bg=Background
+r4 c10..17 fg=Foreground bg=Background
+r4 c17..56 bg=Background
+r5 c0..56 bg=Background
+r6 c0..9 fg=Muted bg=Background
+r6 c9..10 fg=Foreground bg=Background
+r6 c10..20 fg=Foreground bg=Background bold
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..28 fg=Muted bg=Background
+r6 c28..29 bg=Background
+r6 c29..31 fg=Muted bg=Background
+r6 c31..56 bg=Background
+
+== dark-graphite
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..53 fg=Muted bg=Background
+r0 c53..56 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..56 bg=Background
+r2 c0..56 bg=Background
+r3 c0..9 fg=Muted bg=Background
+r3 c9..10 fg=Foreground bg=Background
+r3 c10..17 fg=Foreground bg=Background bold
+r3 c17..18 fg=Foreground bg=Background
+r3 c18..28 fg=Muted bg=Background
+r3 c28..56 bg=Background
+r4 c0..10 bg=Background
+r4 c10..17 fg=Foreground bg=Background
+r4 c17..56 bg=Background
+r5 c0..56 bg=Background
+r6 c0..9 fg=Muted bg=Background
+r6 c9..10 fg=Foreground bg=Background
+r6 c10..20 fg=Foreground bg=Background bold
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..28 fg=Muted bg=Background
+r6 c28..29 bg=Background
+r6 c29..31 fg=Muted bg=Background
+r6 c31..56 bg=Background
+
+== light-truecolor
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..53 fg=Muted bg=Background
+r0 c53..56 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..56 bg=Background
+r2 c0..56 bg=Background
+r3 c0..9 fg=Muted bg=Background
+r3 c9..10 fg=Foreground bg=Background
+r3 c10..17 fg=Foreground bg=Background bold
+r3 c17..18 fg=Foreground bg=Background
+r3 c18..28 fg=Muted bg=Background
+r3 c28..56 bg=Background
+r4 c0..10 bg=Background
+r4 c10..17 fg=Foreground bg=Background
+r4 c17..56 bg=Background
+r5 c0..56 bg=Background
+r6 c0..9 fg=Muted bg=Background
+r6 c9..10 fg=Foreground bg=Background
+r6 c10..20 fg=Foreground bg=Background bold
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..28 fg=Muted bg=Background
+r6 c28..29 bg=Background
+r6 c29..31 fg=Muted bg=Background
+r6 c31..56 bg=Background
+
+== dark-256
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..53 fg=Muted bg=Background
+r0 c53..56 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..56 bg=Background
+r2 c0..56 bg=Background
+r3 c0..9 fg=Muted bg=Background
+r3 c9..10 fg=Foreground bg=Background
+r3 c10..17 fg=Foreground bg=Background bold
+r3 c17..18 fg=Foreground bg=Background
+r3 c18..28 fg=Muted bg=Background
+r3 c28..56 bg=Background
+r4 c0..10 bg=Background
+r4 c10..17 fg=Foreground bg=Background
+r4 c17..56 bg=Background
+r5 c0..56 bg=Background
+r6 c0..9 fg=Muted bg=Background
+r6 c9..10 fg=Foreground bg=Background
+r6 c10..20 fg=Foreground bg=Background bold
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..28 fg=Muted bg=Background
+r6 c28..29 bg=Background
+r6 c29..31 fg=Muted bg=Background
+r6 c31..56 bg=Background
+
+== light-256
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 fg=Muted bg=Background|Surface
+r0 c21..22 fg=Primary bg=Background|Surface
+r0 c22..28 fg=Foreground bg=Background|Surface bold
+r0 c28..29 bg=Background|Surface
+r0 c29..30 fg=Muted bg=Background|Surface
+r0 c30..31 fg=Primary bg=Background|Surface
+r0 c31..53 fg=Muted bg=Background|Surface
+r0 c53..56 bg=Background|Surface
+r1 c0..22 bg=Background|Surface
+r1 c22..30 fg=Primary bg=Background|Surface
+r1 c30..56 bg=Background|Surface
+r2 c0..56 bg=Background|Surface
+r3 c0..9 fg=Muted bg=Background|Surface
+r3 c9..10 fg=Foreground bg=Background|Surface
+r3 c10..17 fg=Foreground bg=Background|Surface bold
+r3 c17..18 fg=Foreground bg=Background|Surface
+r3 c18..28 fg=Muted bg=Background|Surface
+r3 c28..56 bg=Background|Surface
+r4 c0..10 bg=Background|Surface
+r4 c10..17 fg=Foreground bg=Background|Surface
+r4 c17..56 bg=Background|Surface
+r5 c0..56 bg=Background|Surface
+r6 c0..9 fg=Muted bg=Background|Surface
+r6 c9..10 fg=Foreground bg=Background|Surface
+r6 c10..20 fg=Foreground bg=Background|Surface bold
+r6 c20..21 fg=Foreground bg=Background|Surface
+r6 c21..28 fg=Muted bg=Background|Surface
+r6 c28..29 bg=Background|Surface
+r6 c29..31 fg=Muted bg=Background|Surface
+r6 c31..56 bg=Background|Surface
+
+== ansi-16
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 dim
+r0 c21..22 fg=Primary
+r0 c22..28 bold
+r0 c29..30 dim
+r0 c30..31 fg=Primary
+r0 c31..53 dim
+r1 c22..30 fg=Primary
+r3 c0..9 dim
+r3 c10..17 bold
+r3 c18..28 dim
+r6 c0..9 dim
+r6 c10..20 bold
+r6 c21..28 dim
+r6 c29..31 dim
+
+== unknown-ground
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 dim
+r0 c21..22 fg=Primary
+r0 c22..28 bold
+r0 c29..30 dim
+r0 c30..31 fg=Primary
+r0 c31..53 dim
+r1 c22..30 fg=Primary
+r3 c0..9 dim
+r3 c10..17 bold
+r3 c18..28 dim
+r6 c0..9 dim
+r6 c10..20 bold
+r6 c21..28 dim
+r6 c29..31 dim
+
+== no-color
+ General  Appearance  Agents 3  Connections  2 more ›
+                      ────────
+
+‹ 4 more  Privacy  Advanced
+          ───────
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 dim
+r0 c22..28 bold
+r0 c29..30 dim
+r0 c31..53 dim
+r3 c0..9 dim
+r3 c10..17 bold
+r3 c18..28 dim
+r6 c0..9 dim
+r6 c10..20 bold
+r6 c21..28 dim
+r6 c29..31 dim
+
+== ascii
+ General  Appearance  Agents 3  Connections  2 more >
+                      --------
+
+< 4 more  Privacy  Advanced
+          -------
+
+ General [Appearance] Agents 3
+---
+r0 c0..21 dim
+r0 c22..28 bold
+r0 c29..30 dim
+r0 c31..53 dim
+r3 c0..9 dim
+r3 c10..17 bold
+r3 c18..28 dim
+r6 c0..9 dim
+r6 c10..20 bold
+r6 c21..28 dim
+r6 c29..31 dim

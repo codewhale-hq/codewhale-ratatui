@@ -1,0 +1,976 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r0 c0..90 bg=Background
+r1 c0..90 bg=Background
+r2 c0..90 bg=Background
+r3 c0..90 bg=Background
+r4 c0..13 bg=Background
+r4 c13..14 fg=Border bg=Background
+r4 c14..27 fg=Primary bg=Background bold
+r4 c27..77 fg=Border bg=Background
+r4 c77..90 bg=Background
+r5 c0..13 bg=Background
+r5 c13..14 fg=Border bg=Background
+r5 c14..76 bg=Background
+r5 c76..77 fg=Border bg=Background
+r5 c77..78 bg=Hover
+r5 c78..90 bg=Background
+r6 c0..13 bg=Background
+r6 c13..14 fg=Border bg=Background
+r6 c14..15 bg=Background
+r6 c15..44 fg=Muted bg=Background
+r6 c44..76 bg=Background
+r6 c76..77 fg=Border bg=Background
+r6 c77..78 bg=Hover
+r6 c78..90 bg=Background
+r7 c0..13 bg=Background
+r7 c13..14 fg=Border bg=Background
+r7 c14..76 bg=Background
+r7 c76..77 fg=Border bg=Background
+r7 c77..78 bg=Hover
+r7 c78..90 bg=Background
+r8 c0..13 bg=Background
+r8 c13..14 fg=Border bg=Background
+r8 c14..15 bg=Background
+r8 c15..75 fg=Foreground bg=Selected bold
+r8 c75..76 bg=Background
+r8 c76..77 fg=Border bg=Background
+r8 c77..78 bg=Hover
+r8 c78..90 bg=Background
+r9 c0..13 bg=Background
+r9 c13..14 fg=Border bg=Background
+r9 c14..15 bg=Background
+r9 c15..75 fg=Foreground bg=Background
+r9 c75..76 bg=Background
+r9 c76..77 fg=Border bg=Background
+r9 c77..78 bg=Hover
+r9 c78..90 bg=Background
+r10 c0..13 bg=Background
+r10 c13..14 fg=Border bg=Background
+r10 c14..15 bg=Background
+r10 c15..75 fg=Foreground bg=Background
+r10 c75..76 bg=Background
+r10 c76..77 fg=Border bg=Background
+r10 c77..78 bg=Hover
+r10 c78..90 bg=Background
+r11 c0..13 bg=Background
+r11 c13..14 fg=Border bg=Background
+r11 c14..15 bg=Background
+r11 c15..75 fg=Foreground bg=Background
+r11 c75..76 bg=Background
+r11 c76..77 fg=Border bg=Background
+r11 c77..78 bg=Hover
+r11 c78..90 bg=Background
+r12 c0..13 bg=Background
+r12 c13..14 fg=Border bg=Background
+r12 c14..15 bg=Background
+r12 c15..75 fg=Muted bg=Background
+r12 c75..76 bg=Background
+r12 c76..77 fg=Border bg=Background
+r12 c77..78 bg=Hover
+r12 c78..90 bg=Background
+r13 c0..13 bg=Background
+r13 c13..14 fg=Border bg=Background
+r13 c14..15 bg=Background
+r13 c15..75 fg=Foreground bg=Background
+r13 c75..76 bg=Background
+r13 c76..77 fg=Border bg=Background
+r13 c77..78 bg=Hover
+r13 c78..90 bg=Background
+r14 c0..13 bg=Background
+r14 c13..14 fg=Border bg=Background
+r14 c14..15 bg=Background
+r14 c15..75 fg=Foreground bg=Background
+r14 c75..76 bg=Background
+r14 c76..77 fg=Border bg=Background
+r14 c77..78 bg=Hover
+r14 c78..90 bg=Background
+r15 c0..13 bg=Background
+r15 c13..14 fg=Border bg=Background
+r15 c14..15 bg=Background
+r15 c15..75 fg=Foreground bg=Background
+r15 c75..76 bg=Background
+r15 c76..77 fg=Border bg=Background
+r15 c77..78 bg=Hover
+r15 c78..90 bg=Background
+r16 c0..13 bg=Background
+r16 c13..14 fg=Border bg=Background
+r16 c14..15 bg=Background
+r16 c15..75 fg=Foreground bg=Background
+r16 c75..76 bg=Background
+r16 c76..77 fg=Border bg=Background
+r16 c77..78 bg=Hover
+r16 c78..90 bg=Background
+r17 c0..13 bg=Background
+r17 c13..14 fg=Border bg=Background
+r17 c14..15 bg=Background
+r17 c15..22 fg=Primary bg=Background bold
+r17 c22..28 fg=Muted bg=Background
+r17 c28..29 bg=Background
+r17 c29..32 fg=Primary bg=Background bold
+r17 c32..35 fg=Muted bg=Background
+r17 c35..36 bg=Background
+r17 c36..39 fg=Primary bg=Background bold
+r17 c39..43 fg=Muted bg=Background
+r17 c43..44 bg=Background
+r17 c44..51 fg=Primary bg=Background bold
+r17 c51..55 fg=Muted bg=Background
+r17 c55..56 bg=Background
+r17 c56..61 fg=Primary bg=Background bold
+r17 c61..67 fg=Muted bg=Background
+r17 c67..76 bg=Background
+r17 c76..77 fg=Border bg=Background
+r17 c77..78 bg=Hover
+r17 c78..90 bg=Background
+r18 c0..13 bg=Background
+r18 c13..14 fg=Border bg=Background
+r18 c14..76 bg=Background
+r18 c76..77 fg=Border bg=Background
+r18 c77..78 bg=Hover
+r18 c78..90 bg=Background
+r19 c0..13 bg=Background
+r19 c13..77 fg=Border bg=Background
+r19 c77..78 bg=Hover
+r19 c78..90 bg=Background
+r20 c0..14 bg=Background
+r20 c14..78 bg=Hover
+r20 c78..90 bg=Background
+r21 c0..90 bg=Background
+r22 c0..90 bg=Background
+r23 c0..90 bg=Background
+
+== dark-graphite
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r0 c0..90 bg=Background
+r1 c0..90 bg=Background
+r2 c0..90 bg=Background
+r3 c0..90 bg=Background
+r4 c0..13 bg=Background
+r4 c13..14 fg=Border bg=Background
+r4 c14..27 fg=Primary bg=Background bold
+r4 c27..77 fg=Border bg=Background
+r4 c77..90 bg=Background
+r5 c0..13 bg=Background
+r5 c13..14 fg=Border bg=Background
+r5 c14..76 bg=Background
+r5 c76..77 fg=Border bg=Background
+r5 c77..78 bg=Hover
+r5 c78..90 bg=Background
+r6 c0..13 bg=Background
+r6 c13..14 fg=Border bg=Background
+r6 c14..15 bg=Background
+r6 c15..44 fg=Muted bg=Background
+r6 c44..76 bg=Background
+r6 c76..77 fg=Border bg=Background
+r6 c77..78 bg=Hover
+r6 c78..90 bg=Background
+r7 c0..13 bg=Background
+r7 c13..14 fg=Border bg=Background
+r7 c14..76 bg=Background
+r7 c76..77 fg=Border bg=Background
+r7 c77..78 bg=Hover
+r7 c78..90 bg=Background
+r8 c0..13 bg=Background
+r8 c13..14 fg=Border bg=Background
+r8 c14..15 bg=Background
+r8 c15..75 fg=Foreground bg=Selected bold
+r8 c75..76 bg=Background
+r8 c76..77 fg=Border bg=Background
+r8 c77..78 bg=Hover
+r8 c78..90 bg=Background
+r9 c0..13 bg=Background
+r9 c13..14 fg=Border bg=Background
+r9 c14..15 bg=Background
+r9 c15..75 fg=Foreground bg=Background
+r9 c75..76 bg=Background
+r9 c76..77 fg=Border bg=Background
+r9 c77..78 bg=Hover
+r9 c78..90 bg=Background
+r10 c0..13 bg=Background
+r10 c13..14 fg=Border bg=Background
+r10 c14..15 bg=Background
+r10 c15..75 fg=Foreground bg=Background
+r10 c75..76 bg=Background
+r10 c76..77 fg=Border bg=Background
+r10 c77..78 bg=Hover
+r10 c78..90 bg=Background
+r11 c0..13 bg=Background
+r11 c13..14 fg=Border bg=Background
+r11 c14..15 bg=Background
+r11 c15..75 fg=Foreground bg=Background
+r11 c75..76 bg=Background
+r11 c76..77 fg=Border bg=Background
+r11 c77..78 bg=Hover
+r11 c78..90 bg=Background
+r12 c0..13 bg=Background
+r12 c13..14 fg=Border bg=Background
+r12 c14..15 bg=Background
+r12 c15..75 fg=Muted bg=Background
+r12 c75..76 bg=Background
+r12 c76..77 fg=Border bg=Background
+r12 c77..78 bg=Hover
+r12 c78..90 bg=Background
+r13 c0..13 bg=Background
+r13 c13..14 fg=Border bg=Background
+r13 c14..15 bg=Background
+r13 c15..75 fg=Foreground bg=Background
+r13 c75..76 bg=Background
+r13 c76..77 fg=Border bg=Background
+r13 c77..78 bg=Hover
+r13 c78..90 bg=Background
+r14 c0..13 bg=Background
+r14 c13..14 fg=Border bg=Background
+r14 c14..15 bg=Background
+r14 c15..75 fg=Foreground bg=Background
+r14 c75..76 bg=Background
+r14 c76..77 fg=Border bg=Background
+r14 c77..78 bg=Hover
+r14 c78..90 bg=Background
+r15 c0..13 bg=Background
+r15 c13..14 fg=Border bg=Background
+r15 c14..15 bg=Background
+r15 c15..75 fg=Foreground bg=Background
+r15 c75..76 bg=Background
+r15 c76..77 fg=Border bg=Background
+r15 c77..78 bg=Hover
+r15 c78..90 bg=Background
+r16 c0..13 bg=Background
+r16 c13..14 fg=Border bg=Background
+r16 c14..15 bg=Background
+r16 c15..75 fg=Foreground bg=Background
+r16 c75..76 bg=Background
+r16 c76..77 fg=Border bg=Background
+r16 c77..78 bg=Hover
+r16 c78..90 bg=Background
+r17 c0..13 bg=Background
+r17 c13..14 fg=Border bg=Background
+r17 c14..15 bg=Background
+r17 c15..22 fg=Primary bg=Background bold
+r17 c22..28 fg=Muted bg=Background
+r17 c28..29 bg=Background
+r17 c29..32 fg=Primary bg=Background bold
+r17 c32..35 fg=Muted bg=Background
+r17 c35..36 bg=Background
+r17 c36..39 fg=Primary bg=Background bold
+r17 c39..43 fg=Muted bg=Background
+r17 c43..44 bg=Background
+r17 c44..51 fg=Primary bg=Background bold
+r17 c51..55 fg=Muted bg=Background
+r17 c55..56 bg=Background
+r17 c56..61 fg=Primary bg=Background bold
+r17 c61..67 fg=Muted bg=Background
+r17 c67..76 bg=Background
+r17 c76..77 fg=Border bg=Background
+r17 c77..78 bg=Hover
+r17 c78..90 bg=Background
+r18 c0..13 bg=Background
+r18 c13..14 fg=Border bg=Background
+r18 c14..76 bg=Background
+r18 c76..77 fg=Border bg=Background
+r18 c77..78 bg=Hover
+r18 c78..90 bg=Background
+r19 c0..13 bg=Background
+r19 c13..77 fg=Border bg=Background
+r19 c77..78 bg=Hover
+r19 c78..90 bg=Background
+r20 c0..14 bg=Background
+r20 c14..78 bg=Hover
+r20 c78..90 bg=Background
+r21 c0..90 bg=Background
+r22 c0..90 bg=Background
+r23 c0..90 bg=Background
+
+== light-truecolor
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r4 c13..14 fg=Border
+r4 c14..27 fg=Primary bold
+r4 c27..77 fg=Border
+r5 c13..14 fg=Border
+r5 c76..77 fg=Border
+r5 c77..78 bg=Hover
+r6 c13..14 fg=Border
+r6 c15..44 fg=Muted
+r6 c76..77 fg=Border
+r6 c77..78 bg=Hover
+r7 c13..14 fg=Border
+r7 c76..77 fg=Border
+r7 c77..78 bg=Hover
+r8 c13..14 fg=Border
+r8 c15..75 fg=Foreground bg=Selected bold
+r8 c76..77 fg=Border
+r8 c77..78 bg=Hover
+r9 c13..14 fg=Border
+r9 c15..75 fg=Foreground
+r9 c76..77 fg=Border
+r9 c77..78 bg=Hover
+r10 c13..14 fg=Border
+r10 c15..75 fg=Foreground
+r10 c76..77 fg=Border
+r10 c77..78 bg=Hover
+r11 c13..14 fg=Border
+r11 c15..75 fg=Foreground
+r11 c76..77 fg=Border
+r11 c77..78 bg=Hover
+r12 c13..14 fg=Border
+r12 c15..75 fg=Muted
+r12 c76..77 fg=Border
+r12 c77..78 bg=Hover
+r13 c13..14 fg=Border
+r13 c15..75 fg=Foreground
+r13 c76..77 fg=Border
+r13 c77..78 bg=Hover
+r14 c13..14 fg=Border
+r14 c15..75 fg=Foreground
+r14 c76..77 fg=Border
+r14 c77..78 bg=Hover
+r15 c13..14 fg=Border
+r15 c15..75 fg=Foreground
+r15 c76..77 fg=Border
+r15 c77..78 bg=Hover
+r16 c13..14 fg=Border
+r16 c15..75 fg=Foreground
+r16 c76..77 fg=Border
+r16 c77..78 bg=Hover
+r17 c13..14 fg=Border
+r17 c15..22 fg=Primary bold
+r17 c22..28 fg=Muted
+r17 c29..32 fg=Primary bold
+r17 c32..35 fg=Muted
+r17 c36..39 fg=Primary bold
+r17 c39..43 fg=Muted
+r17 c44..51 fg=Primary bold
+r17 c51..55 fg=Muted
+r17 c56..61 fg=Primary bold
+r17 c61..67 fg=Muted
+r17 c76..77 fg=Border
+r17 c77..78 bg=Hover
+r18 c13..14 fg=Border
+r18 c76..77 fg=Border
+r18 c77..78 bg=Hover
+r19 c13..77 fg=Border
+r19 c77..78 bg=Hover
+r20 c14..78 bg=Hover
+
+== dark-256
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r0 c0..90 bg=Background|DiffAddedTint
+r1 c0..90 bg=Background|DiffAddedTint
+r2 c0..90 bg=Background|DiffAddedTint
+r3 c0..90 bg=Background|DiffAddedTint
+r4 c0..13 bg=Background|DiffAddedTint
+r4 c13..14 fg=Border bg=Background|DiffAddedTint
+r4 c14..27 fg=Primary bg=Background|DiffAddedTint bold
+r4 c27..77 fg=Border bg=Background|DiffAddedTint
+r4 c77..90 bg=Background|DiffAddedTint
+r5 c0..13 bg=Background|DiffAddedTint
+r5 c13..14 fg=Border bg=Background|DiffAddedTint
+r5 c14..76 bg=Background|DiffAddedTint
+r5 c76..77 fg=Border bg=Background|DiffAddedTint
+r5 c77..78 bg=Surface|Hover|DiffRemovedTint
+r5 c78..90 bg=Background|DiffAddedTint
+r6 c0..13 bg=Background|DiffAddedTint
+r6 c13..14 fg=Border bg=Background|DiffAddedTint
+r6 c14..15 bg=Background|DiffAddedTint
+r6 c15..44 fg=Muted bg=Background|DiffAddedTint
+r6 c44..76 bg=Background|DiffAddedTint
+r6 c76..77 fg=Border bg=Background|DiffAddedTint
+r6 c77..78 bg=Surface|Hover|DiffRemovedTint
+r6 c78..90 bg=Background|DiffAddedTint
+r7 c0..13 bg=Background|DiffAddedTint
+r7 c13..14 fg=Border bg=Background|DiffAddedTint
+r7 c14..76 bg=Background|DiffAddedTint
+r7 c76..77 fg=Border bg=Background|DiffAddedTint
+r7 c77..78 bg=Surface|Hover|DiffRemovedTint
+r7 c78..90 bg=Background|DiffAddedTint
+r8 c0..13 bg=Background|DiffAddedTint
+r8 c13..14 fg=Border bg=Background|DiffAddedTint
+r8 c14..15 bg=Background|DiffAddedTint
+r8 c15..75 fg=Foreground bg=Selected bold
+r8 c75..76 bg=Background|DiffAddedTint
+r8 c76..77 fg=Border bg=Background|DiffAddedTint
+r8 c77..78 bg=Surface|Hover|DiffRemovedTint
+r8 c78..90 bg=Background|DiffAddedTint
+r9 c0..13 bg=Background|DiffAddedTint
+r9 c13..14 fg=Border bg=Background|DiffAddedTint
+r9 c14..15 bg=Background|DiffAddedTint
+r9 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r9 c75..76 bg=Background|DiffAddedTint
+r9 c76..77 fg=Border bg=Background|DiffAddedTint
+r9 c77..78 bg=Surface|Hover|DiffRemovedTint
+r9 c78..90 bg=Background|DiffAddedTint
+r10 c0..13 bg=Background|DiffAddedTint
+r10 c13..14 fg=Border bg=Background|DiffAddedTint
+r10 c14..15 bg=Background|DiffAddedTint
+r10 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r10 c75..76 bg=Background|DiffAddedTint
+r10 c76..77 fg=Border bg=Background|DiffAddedTint
+r10 c77..78 bg=Surface|Hover|DiffRemovedTint
+r10 c78..90 bg=Background|DiffAddedTint
+r11 c0..13 bg=Background|DiffAddedTint
+r11 c13..14 fg=Border bg=Background|DiffAddedTint
+r11 c14..15 bg=Background|DiffAddedTint
+r11 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r11 c75..76 bg=Background|DiffAddedTint
+r11 c76..77 fg=Border bg=Background|DiffAddedTint
+r11 c77..78 bg=Surface|Hover|DiffRemovedTint
+r11 c78..90 bg=Background|DiffAddedTint
+r12 c0..13 bg=Background|DiffAddedTint
+r12 c13..14 fg=Border bg=Background|DiffAddedTint
+r12 c14..15 bg=Background|DiffAddedTint
+r12 c15..75 fg=Muted bg=Background|DiffAddedTint
+r12 c75..76 bg=Background|DiffAddedTint
+r12 c76..77 fg=Border bg=Background|DiffAddedTint
+r12 c77..78 bg=Surface|Hover|DiffRemovedTint
+r12 c78..90 bg=Background|DiffAddedTint
+r13 c0..13 bg=Background|DiffAddedTint
+r13 c13..14 fg=Border bg=Background|DiffAddedTint
+r13 c14..15 bg=Background|DiffAddedTint
+r13 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r13 c75..76 bg=Background|DiffAddedTint
+r13 c76..77 fg=Border bg=Background|DiffAddedTint
+r13 c77..78 bg=Surface|Hover|DiffRemovedTint
+r13 c78..90 bg=Background|DiffAddedTint
+r14 c0..13 bg=Background|DiffAddedTint
+r14 c13..14 fg=Border bg=Background|DiffAddedTint
+r14 c14..15 bg=Background|DiffAddedTint
+r14 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r14 c75..76 bg=Background|DiffAddedTint
+r14 c76..77 fg=Border bg=Background|DiffAddedTint
+r14 c77..78 bg=Surface|Hover|DiffRemovedTint
+r14 c78..90 bg=Background|DiffAddedTint
+r15 c0..13 bg=Background|DiffAddedTint
+r15 c13..14 fg=Border bg=Background|DiffAddedTint
+r15 c14..15 bg=Background|DiffAddedTint
+r15 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r15 c75..76 bg=Background|DiffAddedTint
+r15 c76..77 fg=Border bg=Background|DiffAddedTint
+r15 c77..78 bg=Surface|Hover|DiffRemovedTint
+r15 c78..90 bg=Background|DiffAddedTint
+r16 c0..13 bg=Background|DiffAddedTint
+r16 c13..14 fg=Border bg=Background|DiffAddedTint
+r16 c14..15 bg=Background|DiffAddedTint
+r16 c15..75 fg=Foreground bg=Background|DiffAddedTint
+r16 c75..76 bg=Background|DiffAddedTint
+r16 c76..77 fg=Border bg=Background|DiffAddedTint
+r16 c77..78 bg=Surface|Hover|DiffRemovedTint
+r16 c78..90 bg=Background|DiffAddedTint
+r17 c0..13 bg=Background|DiffAddedTint
+r17 c13..14 fg=Border bg=Background|DiffAddedTint
+r17 c14..15 bg=Background|DiffAddedTint
+r17 c15..22 fg=Primary bg=Background|DiffAddedTint bold
+r17 c22..28 fg=Muted bg=Background|DiffAddedTint
+r17 c28..29 bg=Background|DiffAddedTint
+r17 c29..32 fg=Primary bg=Background|DiffAddedTint bold
+r17 c32..35 fg=Muted bg=Background|DiffAddedTint
+r17 c35..36 bg=Background|DiffAddedTint
+r17 c36..39 fg=Primary bg=Background|DiffAddedTint bold
+r17 c39..43 fg=Muted bg=Background|DiffAddedTint
+r17 c43..44 bg=Background|DiffAddedTint
+r17 c44..51 fg=Primary bg=Background|DiffAddedTint bold
+r17 c51..55 fg=Muted bg=Background|DiffAddedTint
+r17 c55..56 bg=Background|DiffAddedTint
+r17 c56..61 fg=Primary bg=Background|DiffAddedTint bold
+r17 c61..67 fg=Muted bg=Background|DiffAddedTint
+r17 c67..76 bg=Background|DiffAddedTint
+r17 c76..77 fg=Border bg=Background|DiffAddedTint
+r17 c77..78 bg=Surface|Hover|DiffRemovedTint
+r17 c78..90 bg=Background|DiffAddedTint
+r18 c0..13 bg=Background|DiffAddedTint
+r18 c13..14 fg=Border bg=Background|DiffAddedTint
+r18 c14..76 bg=Background|DiffAddedTint
+r18 c76..77 fg=Border bg=Background|DiffAddedTint
+r18 c77..78 bg=Surface|Hover|DiffRemovedTint
+r18 c78..90 bg=Background|DiffAddedTint
+r19 c0..13 bg=Background|DiffAddedTint
+r19 c13..77 fg=Border bg=Background|DiffAddedTint
+r19 c77..78 bg=Surface|Hover|DiffRemovedTint
+r19 c78..90 bg=Background|DiffAddedTint
+r20 c0..14 bg=Background|DiffAddedTint
+r20 c14..78 bg=Surface|Hover|DiffRemovedTint
+r20 c78..90 bg=Background|DiffAddedTint
+r21 c0..90 bg=Background|DiffAddedTint
+r22 c0..90 bg=Background|DiffAddedTint
+r23 c0..90 bg=Background|DiffAddedTint
+
+== light-256
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r4 c13..14 fg=Border
+r4 c14..27 fg=Primary bold
+r4 c27..77 fg=Border
+r5 c13..14 fg=Border
+r5 c76..77 fg=Border
+r5 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c13..14 fg=Border
+r6 c15..44 fg=Muted|Hint|Dim
+r6 c76..77 fg=Border
+r6 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c13..14 fg=Border
+r7 c76..77 fg=Border
+r7 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c13..14 fg=Border
+r8 c15..75 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r8 c76..77 fg=Border
+r8 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r9 c13..14 fg=Border
+r9 c15..75 fg=Foreground
+r9 c76..77 fg=Border
+r9 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r10 c13..14 fg=Border
+r10 c15..75 fg=Foreground
+r10 c76..77 fg=Border
+r10 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r11 c13..14 fg=Border
+r11 c15..75 fg=Foreground
+r11 c76..77 fg=Border
+r11 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c13..14 fg=Border
+r12 c15..75 fg=Muted|Hint|Dim
+r12 c76..77 fg=Border
+r12 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r13 c13..14 fg=Border
+r13 c15..75 fg=Foreground
+r13 c76..77 fg=Border
+r13 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r14 c13..14 fg=Border
+r14 c15..75 fg=Foreground
+r14 c76..77 fg=Border
+r14 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r15 c13..14 fg=Border
+r15 c15..75 fg=Foreground
+r15 c76..77 fg=Border
+r15 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r16 c13..14 fg=Border
+r16 c15..75 fg=Foreground
+r16 c76..77 fg=Border
+r16 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c13..14 fg=Border
+r17 c15..22 fg=Primary bold
+r17 c22..28 fg=Muted|Hint|Dim
+r17 c29..32 fg=Primary bold
+r17 c32..35 fg=Muted|Hint|Dim
+r17 c36..39 fg=Primary bold
+r17 c39..43 fg=Muted|Hint|Dim
+r17 c44..51 fg=Primary bold
+r17 c51..55 fg=Muted|Hint|Dim
+r17 c56..61 fg=Primary bold
+r17 c61..67 fg=Muted|Hint|Dim
+r17 c76..77 fg=Border
+r17 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r18 c13..14 fg=Border
+r18 c76..77 fg=Border
+r18 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r19 c13..77 fg=Border
+r19 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r20 c14..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+
+== ansi-16
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r4 c13..14 dim
+r4 c14..27 fg=Primary bold dim
+r4 c27..77 dim
+r5 c13..14 dim
+r5 c76..77 dim
+r6 c13..14 dim
+r6 c15..44 dim
+r6 c76..77 dim
+r7 c13..14 dim
+r7 c76..77 dim
+r8 c13..14 dim
+r8 c15..75 bold
+r8 c76..77 dim
+r9 c13..14 dim
+r9 c76..77 dim
+r10 c13..14 dim
+r10 c76..77 dim
+r11 c13..14 dim
+r11 c76..77 dim
+r12 c13..14 dim
+r12 c15..75 dim
+r12 c76..77 dim
+r13 c13..14 dim
+r13 c76..77 dim
+r14 c13..14 dim
+r14 c76..77 dim
+r15 c13..14 dim
+r15 c76..77 dim
+r16 c13..14 dim
+r16 c76..77 dim
+r17 c13..14 dim
+r17 c15..22 fg=Primary bold
+r17 c22..28 dim
+r17 c29..32 fg=Primary bold
+r17 c32..35 dim
+r17 c36..39 fg=Primary bold
+r17 c39..43 dim
+r17 c44..51 fg=Primary bold
+r17 c51..55 dim
+r17 c56..61 fg=Primary bold
+r17 c61..67 dim
+r17 c76..77 dim
+r18 c13..14 dim
+r18 c76..77 dim
+r19 c13..77 dim
+
+== unknown-ground
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r4 c13..14 dim
+r4 c14..27 fg=Primary bold dim
+r4 c27..77 dim
+r5 c13..14 dim
+r5 c76..77 dim
+r6 c13..14 dim
+r6 c15..44 dim
+r6 c76..77 dim
+r7 c13..14 dim
+r7 c76..77 dim
+r8 c13..14 dim
+r8 c15..75 bold
+r8 c76..77 dim
+r9 c13..14 dim
+r9 c76..77 dim
+r10 c13..14 dim
+r10 c76..77 dim
+r11 c13..14 dim
+r11 c76..77 dim
+r12 c13..14 dim
+r12 c15..75 dim
+r12 c76..77 dim
+r13 c13..14 dim
+r13 c76..77 dim
+r14 c13..14 dim
+r14 c76..77 dim
+r15 c13..14 dim
+r15 c76..77 dim
+r16 c13..14 dim
+r16 c76..77 dim
+r17 c13..14 dim
+r17 c15..22 fg=Primary bold
+r17 c22..28 dim
+r17 c29..32 fg=Primary bold
+r17 c32..35 dim
+r17 c36..39 fg=Primary bold
+r17 c39..43 dim
+r17 c44..51 fg=Primary bold
+r17 c51..55 dim
+r17 c56..61 fg=Primary bold
+r17 c61..67 dim
+r17 c76..77 dim
+r18 c13..14 dim
+r18 c76..77 dim
+r19 c13..77 dim
+
+== no-color
+
+
+
+
+             ┌ Status line ─────────────────────────────────────────────────┐
+             │                                                              │
+             │ Choose what the footer shows:                                │
+             │                                                              │
+             │  ▸ [✓] Mode  (plan · act · operate)                          │
+             │    [✓] Model  (the model id you'll send to)                  │
+             │    [✓] Context window %  (tokens used / model context…)      │
+             │    [✓] Session cost  (running total for this session)        │
+             │    [ ] Account balance  (remaining prepaid credit from…)     │
+             │    [✓] Prompt cache hit rate  (% of prompt served from…)     │
+             │    [✓] Output tokens  (output tokens of the live or last…)   │
+             │    [✓] Time to first token  (average wait for the first…)    │
+             │    [✓] Output rate  (average tok/s, including first-token…)  │
+             │  Space toggle  a all  n none  Enter save  Esc cancel         │
+             │                                                              │
+             └──────────────────────────────────────────────────────────────┘
+
+
+
+
+---
+r4 c13..14 dim
+r4 c14..27 bold dim
+r4 c27..77 dim
+r5 c13..14 dim
+r5 c76..77 dim
+r6 c13..14 dim
+r6 c15..44 dim
+r6 c76..77 dim
+r7 c13..14 dim
+r7 c76..77 dim
+r8 c13..14 dim
+r8 c15..75 bold
+r8 c76..77 dim
+r9 c13..14 dim
+r9 c76..77 dim
+r10 c13..14 dim
+r10 c76..77 dim
+r11 c13..14 dim
+r11 c76..77 dim
+r12 c13..14 dim
+r12 c15..75 dim
+r12 c76..77 dim
+r13 c13..14 dim
+r13 c76..77 dim
+r14 c13..14 dim
+r14 c76..77 dim
+r15 c13..14 dim
+r15 c76..77 dim
+r16 c13..14 dim
+r16 c76..77 dim
+r17 c13..14 dim
+r17 c15..22 bold
+r17 c22..28 dim
+r17 c29..32 bold
+r17 c32..35 dim
+r17 c36..39 bold
+r17 c39..43 dim
+r17 c44..51 bold
+r17 c51..55 dim
+r17 c56..61 bold
+r17 c61..67 dim
+r17 c76..77 dim
+r18 c13..14 dim
+r18 c76..77 dim
+r19 c13..77 dim
+
+== ascii
+
+
+
+
+             + Status line -------------------------------------------------+
+             |                                                              |
+             | Choose what the footer shows:                                |
+             |                                                              |
+             |  > [x] Mode  (plan . act . operate)                          |
+             |    [x] Model  (the model id you'll send to)                  |
+             |    [x] Context window %  (tokens used / model context...)    |
+             |    [x] Session cost  (running total for this session)        |
+             |    [ ] Account balance  (remaining prepaid credit from...)   |
+             |    [x] Prompt cache hit rate  (% of prompt served from...)   |
+             |    [x] Output tokens  (output tokens of the live or...)      |
+             |    [x] Time to first token  (average wait for the first...)  |
+             |    [x] Output rate  (average tok/s, including...)            |
+             |  Space toggle  a all  n none  Enter save  Esc cancel         |
+             |                                                              |
+             +--------------------------------------------------------------+
+
+
+
+
+---
+r4 c13..14 dim
+r4 c14..27 bold dim
+r4 c27..77 dim
+r5 c13..14 dim
+r5 c76..77 dim
+r6 c13..14 dim
+r6 c15..44 dim
+r6 c76..77 dim
+r7 c13..14 dim
+r7 c76..77 dim
+r8 c13..14 dim
+r8 c15..75 bold
+r8 c76..77 dim
+r9 c13..14 dim
+r9 c76..77 dim
+r10 c13..14 dim
+r10 c76..77 dim
+r11 c13..14 dim
+r11 c76..77 dim
+r12 c13..14 dim
+r12 c15..75 dim
+r12 c76..77 dim
+r13 c13..14 dim
+r13 c76..77 dim
+r14 c13..14 dim
+r14 c76..77 dim
+r15 c13..14 dim
+r15 c76..77 dim
+r16 c13..14 dim
+r16 c76..77 dim
+r17 c13..14 dim
+r17 c15..22 bold
+r17 c22..28 dim
+r17 c29..32 bold
+r17 c32..35 dim
+r17 c36..39 bold
+r17 c39..43 dim
+r17 c44..51 bold
+r17 c51..55 dim
+r17 c56..61 bold
+r17 c61..67 dim
+r17 c76..77 dim
+r18 c13..14 dim
+r18 c76..77 dim
+r19 c13..77 dim

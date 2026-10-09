@@ -58,11 +58,35 @@ impl State {
         }
     }
 
-    /// The English word. Hosts pass a localized word with
+    /// The English default word, from [`StateWords::english`]. Hosts pass
+    /// their own words with [`StatusMark::with_words`] or
     /// [`StatusMark::word`].
     #[must_use]
     pub const fn word(self) -> &'static str {
-        match self {
+        StateWords::english(self)
+    }
+}
+
+/// The word shown beside each [`State`]'s mark. The kit owns no copy beyond
+/// this default: a host fills one per locale and passes it in. `Default` is
+/// English.
+#[derive(Clone, Debug, PartialEq, Eq)]
+pub struct StateWords {
+    pub working: Cow<'static, str>,
+    pub done: Cow<'static, str>,
+    pub needs_you: Cow<'static, str>,
+    pub failed: Cow<'static, str>,
+    pub stopped: Cow<'static, str>,
+    pub ready: Cow<'static, str>,
+    pub unknown: Cow<'static, str>,
+}
+
+impl StateWords {
+    /// The English word for `state`: the only copy in the kit's status
+    /// marks, and what [`StateWords::default`] holds.
+    #[must_use]
+    pub const fn english(state: State) -> &'static str {
+        match state {
             State::Working => "Working",
             State::Done => "Done",
             State::NeedsYou => "Needs you",
@@ -70,6 +94,35 @@ impl State {
             State::Stopped => "Stopped",
             State::Ready => "Ready",
             State::Unknown => "Unknown",
+        }
+    }
+
+    /// The word for `state`.
+    #[must_use]
+    pub fn get(&self, state: State) -> &str {
+        match state {
+            State::Working => &self.working,
+            State::Done => &self.done,
+            State::NeedsYou => &self.needs_you,
+            State::Failed => &self.failed,
+            State::Stopped => &self.stopped,
+            State::Ready => &self.ready,
+            State::Unknown => &self.unknown,
+        }
+    }
+}
+
+impl Default for StateWords {
+    fn default() -> Self {
+        let english = |state| Cow::Borrowed(Self::english(state));
+        Self {
+            working: english(State::Working),
+            done: english(State::Done),
+            needs_you: english(State::NeedsYou),
+            failed: english(State::Failed),
+            stopped: english(State::Stopped),
+            ready: english(State::Ready),
+            unknown: english(State::Unknown),
         }
     }
 }
@@ -90,6 +143,16 @@ impl StatusMark {
         Self {
             state,
             word: Cow::Borrowed(state.word()),
+            tinted: false,
+        }
+    }
+
+    /// A mark whose word comes from the host's [`StateWords`].
+    #[must_use]
+    pub fn with_words(state: State, words: &StateWords) -> Self {
+        Self {
+            state,
+            word: Cow::Owned(words.get(state).to_owned()),
             tinted: false,
         }
     }
@@ -157,5 +220,29 @@ mod tests {
         for state in State::ALL {
             assert!(!state.word().is_empty());
         }
+    }
+
+    /// The default words are the English ones, and a host's words reach the
+    /// painted mark.
+    #[test]
+    fn words_are_parameters_with_english_defaults() {
+        let english = StateWords::default();
+        for state in State::ALL {
+            assert_eq!(english.get(state), state.word());
+            assert_eq!(
+                StatusMark::new(state),
+                StatusMark::with_words(state, &english)
+            );
+        }
+        let host = StateWords {
+            needs_you: "Braucht dich".into(),
+            ..StateWords::default()
+        };
+        let theme = Profile::DarkTrue.theme();
+        let buf = crate::testing::render(20, 1, |area, buf| {
+            StatusMark::with_words(State::NeedsYou, &host).paint(area, buf, &theme);
+        });
+        assert_eq!(crate::testing::text(&buf), "\u{25c6} Braucht dich");
+        assert_eq!(host.get(State::Done), "Done");
     }
 }

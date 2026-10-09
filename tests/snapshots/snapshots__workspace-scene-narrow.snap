@@ -1,0 +1,813 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..36 fg=Muted bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..40 fg=Border bg=Background
+r2 c0..40 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..30 fg=Foreground bg=Background bold
+r3 c30..40 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..38 fg=Border bg=Background
+r4 c38..40 fg=Foreground bg=Background
+r5 c0..40 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..40 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..40 fg=Foreground bg=Background
+r8 c0..2 fg=Foreground bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..40 fg=Foreground bg=Background
+r9 c0..40 fg=Foreground bg=Background
+r10 c0..4 fg=Foreground bg=Background
+r10 c4..13 fg=Foreground bg=Background bold
+r10 c13..40 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..40 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..40 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..40 fg=Foreground bg=Background
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..40 fg=Foreground bg=Background
+r15 c0..2 fg=Foreground bg=Background
+r15 c2..4 fg=Border bg=Background
+r15 c4..40 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..4 fg=Border bg=Background
+r16 c4..40 fg=Foreground bg=Background
+r17 c0..40 fg=Foreground bg=Background
+r18 c0..40 fg=Foreground bg=Background
+r19 c0..40 fg=Foreground bg=Background
+r20 c0..40 fg=Foreground bg=Background
+r21 c0..19 fg=Foreground bg=Background
+r21 c19..22 fg=BorderStrong bg=Background
+r21 c22..32 fg=Muted bg=Background
+r21 c32..40 fg=Foreground bg=Background
+r22 c0..2 fg=Foreground bg=Background
+r22 c2..3 fg=#0e244f bg=Background
+r22 c3..4 fg=#122a57 bg=Background
+r22 c4..5 fg=Hover bg=Background
+r22 c5..6 fg=#1a3568 bg=Background
+r22 c6..34 fg=Border bg=Background
+r22 c34..35 fg=#1a3568 bg=Background
+r22 c35..36 fg=Hover bg=Background
+r22 c36..37 fg=#122a57 bg=Background
+r22 c37..38 fg=#0e244f bg=Background
+r22 c38..40 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..4 fg=Primary bg=Background
+r23 c4..40 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..4 fg=Primary bg=Background
+r24 c4..40 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..7 fg=Foreground bg=Background bold
+r25 c7..8 fg=Foreground bg=Background
+r25 c8..12 fg=Muted bg=Background
+r25 c12..15 fg=Border bg=Background
+r25 c15..18 fg=Foreground bg=Background bold
+r25 c18..19 fg=Foreground bg=Background
+r25 c19..26 fg=Muted bg=Background
+r25 c26..40 fg=Foreground bg=Background
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Background bold
+r26 c3..4 fg=Foreground bg=Background
+r26 c4..12 fg=Muted bg=Background
+r26 c12..40 fg=Foreground bg=Background
+r27 c0..2 fg=Foreground bg=Sidebar
+r27 c2..35 fg=Muted bg=Sidebar
+r27 c35..40 fg=Foreground bg=Sidebar
+
+== dark-graphite
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..36 fg=Muted bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..40 fg=Border bg=Background
+r2 c0..40 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..30 fg=Foreground bg=Background bold
+r3 c30..40 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..38 fg=Border bg=Background
+r4 c38..40 fg=Foreground bg=Background
+r5 c0..40 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..40 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..40 fg=Foreground bg=Background
+r8 c0..2 fg=Foreground bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..40 fg=Foreground bg=Background
+r9 c0..40 fg=Foreground bg=Background
+r10 c0..4 fg=Foreground bg=Background
+r10 c4..13 fg=Foreground bg=Background bold
+r10 c13..40 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..40 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..40 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..40 fg=Foreground bg=Background
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..40 fg=Foreground bg=Background
+r15 c0..2 fg=Foreground bg=Background
+r15 c2..4 fg=Border bg=Background
+r15 c4..40 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..4 fg=Border bg=Background
+r16 c4..40 fg=Foreground bg=Background
+r17 c0..40 fg=Foreground bg=Background
+r18 c0..40 fg=Foreground bg=Background
+r19 c0..40 fg=Foreground bg=Background
+r20 c0..40 fg=Foreground bg=Background
+r21 c0..19 fg=Foreground bg=Background
+r21 c19..22 fg=BorderStrong bg=Background
+r21 c22..32 fg=Muted bg=Background
+r21 c32..40 fg=Foreground bg=Background
+r22 c0..2 fg=Foreground bg=Background
+r22 c2..3 fg=#252629 bg=Background
+r22 c3..4 fg=#2b2c2e bg=Background
+r22 c4..5 fg=Hover bg=Background
+r22 c5..6 fg=#363739 bg=Background
+r22 c6..34 fg=Border bg=Background
+r22 c34..35 fg=#363739 bg=Background
+r22 c35..36 fg=Hover bg=Background
+r22 c36..37 fg=#2b2c2e bg=Background
+r22 c37..38 fg=#252629 bg=Background
+r22 c38..40 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..4 fg=Primary bg=Background
+r23 c4..40 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..4 fg=Primary bg=Background
+r24 c4..40 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..7 fg=Foreground bg=Background bold
+r25 c7..8 fg=Foreground bg=Background
+r25 c8..12 fg=Muted bg=Background
+r25 c12..15 fg=Border bg=Background
+r25 c15..18 fg=Foreground bg=Background bold
+r25 c18..19 fg=Foreground bg=Background
+r25 c19..26 fg=Muted bg=Background
+r25 c26..40 fg=Foreground bg=Background
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Background bold
+r26 c3..4 fg=Foreground bg=Background
+r26 c4..12 fg=Muted bg=Background
+r26 c12..40 fg=Foreground bg=Background
+r27 c0..2 fg=Foreground bg=Sidebar
+r27 c2..35 fg=Muted bg=Sidebar
+r27 c35..40 fg=Foreground bg=Sidebar
+
+== light-truecolor
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..36 fg=Muted bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..40 fg=Border bg=Background
+r2 c0..40 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..30 fg=Foreground bg=Background bold
+r3 c30..40 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..38 fg=Border bg=Background
+r4 c38..40 fg=Foreground bg=Background
+r5 c0..40 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..40 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..40 fg=Foreground bg=Background
+r8 c0..2 fg=Foreground bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..40 fg=Foreground bg=Background
+r9 c0..40 fg=Foreground bg=Background
+r10 c0..4 fg=Foreground bg=Background
+r10 c4..13 fg=Foreground bg=Background bold
+r10 c13..40 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..40 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..40 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..40 fg=Foreground bg=Background
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..40 fg=Foreground bg=Background
+r15 c0..2 fg=Foreground bg=Background
+r15 c2..4 fg=Border bg=Background
+r15 c4..40 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..4 fg=Border bg=Background
+r16 c4..40 fg=Foreground bg=Background
+r17 c0..40 fg=Foreground bg=Background
+r18 c0..40 fg=Foreground bg=Background
+r19 c0..40 fg=Foreground bg=Background
+r20 c0..40 fg=Foreground bg=Background
+r21 c0..19 fg=Foreground bg=Background
+r21 c19..22 fg=BorderStrong bg=Background
+r21 c22..32 fg=Muted bg=Background
+r21 c32..40 fg=Foreground bg=Background
+r22 c0..2 fg=Foreground bg=Background
+r22 c2..3 fg=#f3f1ed bg=Background
+r22 c3..4 fg=#edeae6 bg=Background
+r22 c4..5 fg=#e6e3de bg=Background
+r22 c5..6 fg=#e0dcd7 bg=Background
+r22 c6..34 fg=Border bg=Background
+r22 c34..35 fg=#e0dcd7 bg=Background
+r22 c35..36 fg=#e6e3de bg=Background
+r22 c36..37 fg=#edeae6 bg=Background
+r22 c37..38 fg=#f3f1ed bg=Background
+r22 c38..40 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..4 fg=Primary bg=Background
+r23 c4..40 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..4 fg=Primary bg=Background
+r24 c4..40 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..7 fg=Foreground bg=Background bold
+r25 c7..8 fg=Foreground bg=Background
+r25 c8..12 fg=Muted bg=Background
+r25 c12..15 fg=Border bg=Background
+r25 c15..18 fg=Foreground bg=Background bold
+r25 c18..19 fg=Foreground bg=Background
+r25 c19..26 fg=Muted bg=Background
+r25 c26..40 fg=Foreground bg=Background
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Background bold
+r26 c3..4 fg=Foreground bg=Background
+r26 c4..12 fg=Muted bg=Background
+r26 c12..40 fg=Foreground bg=Background
+r27 c0..2 fg=Foreground bg=Sidebar
+r27 c2..35 fg=Muted bg=Sidebar
+r27 c35..40 fg=Foreground bg=Sidebar
+
+== dark-256
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..36 fg=Muted bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..40 fg=Border bg=Background
+r2 c0..40 fg=Foreground bg=Background
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..30 fg=Foreground bg=Background bold
+r3 c30..40 fg=Foreground bg=Background
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..38 fg=Border bg=Background
+r4 c38..40 fg=Foreground bg=Background
+r5 c0..40 fg=Foreground bg=Background
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..40 fg=Foreground bg=Background
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..40 fg=Foreground bg=Background
+r8 c0..2 fg=Foreground bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..40 fg=Foreground bg=Background
+r9 c0..40 fg=Foreground bg=Background
+r10 c0..4 fg=Foreground bg=Background
+r10 c4..13 fg=Foreground bg=Background bold
+r10 c13..40 fg=Foreground bg=Background
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..40 fg=Foreground bg=Background
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..40 fg=Foreground bg=Background
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..40 fg=Foreground bg=Background
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..40 fg=Foreground bg=Background
+r15 c0..2 fg=Foreground bg=Background
+r15 c2..4 fg=Border bg=Background
+r15 c4..40 fg=Foreground bg=Background
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..4 fg=Border bg=Background
+r16 c4..40 fg=Foreground bg=Background
+r17 c0..40 fg=Foreground bg=Background
+r18 c0..40 fg=Foreground bg=Background
+r19 c0..40 fg=Foreground bg=Background
+r20 c0..40 fg=Foreground bg=Background
+r21 c0..19 fg=Foreground bg=Background
+r21 c19..22 fg=BorderStrong bg=Background
+r21 c22..32 fg=Muted bg=Background
+r21 c32..40 fg=Foreground bg=Background
+r22 c0..2 fg=Foreground bg=Background
+r22 c2..38 fg=Border bg=Background
+r22 c38..40 fg=Foreground bg=Background
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..4 fg=Primary bg=Background
+r23 c4..40 fg=Foreground bg=Background
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..4 fg=Primary bg=Background
+r24 c4..40 fg=Foreground bg=Background
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..7 fg=Foreground bg=Background bold
+r25 c7..8 fg=Foreground bg=Background
+r25 c8..12 fg=Muted bg=Background
+r25 c12..15 fg=Border bg=Background
+r25 c15..18 fg=Foreground bg=Background bold
+r25 c18..19 fg=Foreground bg=Background
+r25 c19..26 fg=Muted bg=Background
+r25 c26..40 fg=Foreground bg=Background
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Background bold
+r26 c3..4 fg=Foreground bg=Background
+r26 c4..12 fg=Muted bg=Background
+r26 c12..40 fg=Foreground bg=Background
+r27 c0..2 fg=Foreground bg=Sidebar
+r27 c2..35 fg=Muted bg=Sidebar
+r27 c35..40 fg=Foreground bg=Sidebar
+
+== light-256
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c0..2 fg=Foreground bg=Background|Surface
+r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c11..16 fg=BorderStrong bg=Background|Surface
+r0 c16..36 fg=Muted bg=Background|Surface
+r0 c36..40 fg=Foreground bg=Background|Surface
+r1 c0..40 fg=Border bg=Background|Surface
+r2 c0..40 fg=Foreground bg=Background|Surface
+r3 c0..2 fg=Foreground bg=Background|Surface
+r3 c2..30 fg=Foreground bg=Background|Surface bold
+r3 c30..40 fg=Foreground bg=Background|Surface
+r4 c0..2 fg=Foreground bg=Background|Surface
+r4 c2..38 fg=Border bg=Background|Surface
+r4 c38..40 fg=Foreground bg=Background|Surface
+r5 c0..40 fg=Foreground bg=Background|Surface
+r6 c0..2 fg=Foreground bg=Background|Surface
+r6 c2..3 fg=Primary bg=Background|Surface
+r6 c3..4 fg=Foreground bg=Background|Surface
+r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c7..40 fg=Foreground bg=Background|Surface
+r7 c0..2 fg=Foreground bg=Background|Surface
+r7 c2..4 fg=Border bg=Background|Surface
+r7 c4..40 fg=Foreground bg=Background|Surface
+r8 c0..2 fg=Foreground bg=Background|Surface
+r8 c2..4 fg=Border bg=Background|Surface
+r8 c4..40 fg=Foreground bg=Background|Surface
+r9 c0..40 fg=Foreground bg=Background|Surface
+r10 c0..4 fg=Foreground bg=Background|Surface
+r10 c4..13 fg=Foreground bg=Background|Surface bold
+r10 c13..40 fg=Foreground bg=Background|Surface
+r11 c0..2 fg=Foreground bg=Background|Surface
+r11 c2..4 fg=Border bg=Background|Surface
+r11 c4..40 fg=Foreground bg=Background|Surface
+r12 c0..2 fg=Foreground bg=Background|Surface
+r12 c2..4 fg=Border bg=Background|Surface
+r12 c4..40 fg=Foreground bg=Background|Surface
+r13 c0..2 fg=Foreground bg=Background|Surface
+r13 c2..4 fg=Border bg=Background|Surface
+r13 c4..40 fg=Foreground bg=Background|Surface
+r14 c0..2 fg=Foreground bg=Background|Surface
+r14 c2..4 fg=Border bg=Background|Surface
+r14 c4..40 fg=Foreground bg=Background|Surface
+r15 c0..2 fg=Foreground bg=Background|Surface
+r15 c2..4 fg=Border bg=Background|Surface
+r15 c4..40 fg=Foreground bg=Background|Surface
+r16 c0..2 fg=Foreground bg=Background|Surface
+r16 c2..4 fg=Border bg=Background|Surface
+r16 c4..40 fg=Foreground bg=Background|Surface
+r17 c0..40 fg=Foreground bg=Background|Surface
+r18 c0..40 fg=Foreground bg=Background|Surface
+r19 c0..40 fg=Foreground bg=Background|Surface
+r20 c0..40 fg=Foreground bg=Background|Surface
+r21 c0..19 fg=Foreground bg=Background|Surface
+r21 c19..22 fg=BorderStrong bg=Background|Surface
+r21 c22..32 fg=Muted bg=Background|Surface
+r21 c32..40 fg=Foreground bg=Background|Surface
+r22 c0..2 fg=Foreground bg=Background|Surface
+r22 c2..38 fg=Border bg=Background|Surface
+r22 c38..40 fg=Foreground bg=Background|Surface
+r23 c0..2 fg=Foreground bg=Background|Surface
+r23 c2..4 fg=Primary bg=Background|Surface
+r23 c4..40 fg=Foreground bg=Background|Surface
+r24 c0..2 fg=Foreground bg=Background|Surface
+r24 c2..4 fg=Primary bg=Background|Surface
+r24 c4..40 fg=Foreground bg=Background|Surface
+r25 c0..2 fg=Foreground bg=Background|Surface
+r25 c2..7 fg=Foreground bg=Background|Surface bold
+r25 c7..8 fg=Foreground bg=Background|Surface
+r25 c8..12 fg=Muted bg=Background|Surface
+r25 c12..15 fg=Border bg=Background|Surface
+r25 c15..18 fg=Foreground bg=Background|Surface bold
+r25 c18..19 fg=Foreground bg=Background|Surface
+r25 c19..26 fg=Muted bg=Background|Surface
+r25 c26..40 fg=Foreground bg=Background|Surface
+r26 c0..2 fg=Foreground bg=Background|Surface
+r26 c2..3 fg=Foreground bg=Background|Surface bold
+r26 c3..4 fg=Foreground bg=Background|Surface
+r26 c4..12 fg=Muted bg=Background|Surface
+r26 c12..40 fg=Foreground bg=Background|Surface
+r27 c0..2 fg=Foreground bg=Sidebar
+r27 c2..35 fg=Muted bg=Sidebar
+r27 c35..40 fg=Foreground bg=Sidebar
+
+== ansi-16
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c2..11 fg=Primary bold
+r0 c16..36 dim
+r1 c0..40 dim
+r3 c2..30 bold
+r4 c2..38 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r7 c2..4 dim
+r8 c2..4 dim
+r10 c4..13 bold
+r11 c2..4 dim
+r12 c2..4 dim
+r13 c2..4 dim
+r14 c2..4 dim
+r15 c2..4 dim
+r16 c2..4 dim
+r21 c22..32 dim
+r22 c2..38 dim
+r23 c2..4 fg=Primary
+r24 c2..4 fg=Primary
+r25 c2..7 bold
+r25 c8..15 dim
+r25 c15..18 bold
+r25 c19..26 dim
+r26 c2..3 bold
+r26 c4..12 dim
+r27 c2..35 dim
+
+== unknown-ground
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c2..11 fg=Primary bold
+r0 c16..36 dim
+r1 c0..40 dim
+r3 c2..30 bold
+r4 c2..38 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r7 c2..4 dim
+r8 c2..4 dim
+r10 c4..13 bold
+r11 c2..4 dim
+r12 c2..4 dim
+r13 c2..4 dim
+r14 c2..4 dim
+r15 c2..4 dim
+r16 c2..4 dim
+r21 c22..32 dim
+r22 c2..38 dim
+r23 c2..4 fg=Primary
+r24 c2..4 fg=Primary
+r25 c2..7 bold
+r25 c8..15 dim
+r25 c15..18 bold
+r25 c19..26 dim
+r26 c2..3 bold
+r26 c4..12 dim
+r27 c2..35 dim
+
+== no-color
+  Codewhale  /  codewhale-ratatui /…
+────────────────────────────────────────
+
+  Make the terminal feel like…
+  ────────────────────────────────────
+
+  ● You
+  ▏ Build a beautiful workspace. Keep
+  ▏ the receipts legible.
+
+  ● Codewhale
+  ▏ The conversation stays at the
+  ▏ center. Files and decisions are
+  ▏ one action away.
+  ▏
+  ▏ I am keeping the narrow layout
+  ▏ readable.
+
+
+
+
+  codewhale-ratatui · +3 details
+  ────────────────────────────────────
+  › Show me the review, then keep
+    going.
+  Enter send · Tab details
+  / commands
+  Illustrative / Tab opens files &…
+---
+r0 c2..11 bold
+r0 c16..36 dim
+r1 c0..40 dim
+r3 c2..30 bold
+r4 c2..38 dim
+r6 c4..7 bold
+r7 c2..4 dim
+r8 c2..4 dim
+r10 c4..13 bold
+r11 c2..4 dim
+r12 c2..4 dim
+r13 c2..4 dim
+r14 c2..4 dim
+r15 c2..4 dim
+r16 c2..4 dim
+r21 c22..32 dim
+r22 c2..38 dim
+r25 c2..7 bold
+r25 c8..15 dim
+r25 c15..18 bold
+r25 c19..26 dim
+r26 c2..3 bold
+r26 c4..12 dim
+r27 c2..35 dim
+
+== ascii
+  Codewhale  /  codewhale-ratatui...
+----------------------------------------
+
+  Make the terminal feel like...
+  ------------------------------------
+
+  . You
+  | Build a beautiful workspace. Keep
+  | the receipts legible.
+
+  . Codewhale
+  | The conversation stays at the
+  | center. Files and decisions are
+  | one action away.
+  |
+  | I am keeping the narrow layout
+  | readable.
+
+
+
+
+
+  codewhale-ratatui / +3 details
+  ------------------------------------
+  > Show me the review, then keep
+    going.
+  Enter send  Tab details  / commands
+  Illustrative / Tab opens files &...
+---
+r0 c2..11 bold
+r0 c16..36 dim
+r1 c0..40 dim
+r3 c2..32 bold
+r4 c2..38 dim
+r6 c4..7 bold
+r7 c2..4 dim
+r8 c2..4 dim
+r10 c4..13 bold
+r11 c2..4 dim
+r12 c2..4 dim
+r13 c2..4 dim
+r14 c2..4 dim
+r15 c2..4 dim
+r16 c2..4 dim
+r22 c22..32 dim
+r23 c2..38 dim
+r26 c2..7 bold
+r26 c8..12 dim
+r26 c14..17 bold
+r26 c18..25 dim
+r26 c27..28 bold
+r26 c29..37 dim
+r27 c2..37 dim

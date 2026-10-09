@@ -1,0 +1,640 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..6 bg=Background
+r3 c6..7 fg=Border bg=Background
+r3 c7..13 fg=Primary bg=Background bold
+r3 c13..74 fg=Border bg=Background
+r3 c74..80 bg=Background
+r4 c0..6 bg=Background
+r4 c6..7 fg=Border bg=Background
+r4 c7..73 bg=Background
+r4 c73..74 fg=Border bg=Background
+r4 c74..75 bg=Hover
+r4 c75..80 bg=Background
+r5 c0..6 bg=Background
+r5 c6..7 fg=Border bg=Background
+r5 c7..8 bg=Background
+r5 c8..9 fg=Primary bg=Selected
+r5 c9..10 bg=Selected
+r5 c10..21 fg=Foreground bg=Selected bold
+r5 c21..71 fg=Foreground bg=Selected
+r5 c71..72 bg=Selected
+r5 c72..73 bg=Background
+r5 c73..74 fg=Border bg=Background
+r5 c74..75 bg=Hover
+r5 c75..80 bg=Background
+r6 c0..6 bg=Background
+r6 c6..7 fg=Border bg=Background
+r6 c7..10 bg=Background
+r6 c10..21 fg=Foreground bg=Background
+r6 c21..70 fg=Muted bg=Background
+r6 c70..73 bg=Background
+r6 c73..74 fg=Border bg=Background
+r6 c74..75 bg=Hover
+r6 c75..80 bg=Background
+r7 c0..6 bg=Background
+r7 c6..7 fg=Border bg=Background
+r7 c7..10 bg=Background
+r7 c10..21 fg=Foreground bg=Background
+r7 c21..69 fg=Muted bg=Background
+r7 c69..73 bg=Background
+r7 c73..74 fg=Border bg=Background
+r7 c74..75 bg=Hover
+r7 c75..80 bg=Background
+r8 c0..6 bg=Background
+r8 c6..7 fg=Border bg=Background
+r8 c7..73 bg=Background
+r8 c73..74 fg=Border bg=Background
+r8 c74..75 bg=Hover
+r8 c75..80 bg=Background
+r9 c0..6 bg=Background
+r9 c6..7 fg=Border bg=Background
+r9 c7..73 bg=Background
+r9 c73..74 fg=Border bg=Background
+r9 c74..75 bg=Hover
+r9 c75..80 bg=Background
+r10 c0..6 bg=Background
+r10 c6..7 fg=Border bg=Background
+r10 c7..8 bg=Background
+r10 c8..13 fg=Primary bg=Background bold
+r10 c13..17 fg=Muted bg=Background
+r10 c17..18 bg=Background
+r10 c18..25 fg=Primary bg=Background bold
+r10 c25..31 fg=Muted bg=Background
+r10 c31..32 bg=Background
+r10 c32..37 fg=Primary bg=Background bold
+r10 c37..43 fg=Muted bg=Background
+r10 c43..73 bg=Background
+r10 c73..74 fg=Border bg=Background
+r10 c74..75 bg=Hover
+r10 c75..80 bg=Background
+r11 c0..6 bg=Background
+r11 c6..7 fg=Border bg=Background
+r11 c7..73 bg=Background
+r11 c73..74 fg=Border bg=Background
+r11 c74..75 bg=Hover
+r11 c75..80 bg=Background
+r12 c0..6 bg=Background
+r12 c6..74 fg=Border bg=Background
+r12 c74..75 bg=Hover
+r12 c75..80 bg=Background
+r13 c0..7 bg=Background
+r13 c7..75 bg=Hover
+r13 c75..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+
+== dark-graphite
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..6 bg=Background
+r3 c6..7 fg=Border bg=Background
+r3 c7..13 fg=Primary bg=Background bold
+r3 c13..74 fg=Border bg=Background
+r3 c74..80 bg=Background
+r4 c0..6 bg=Background
+r4 c6..7 fg=Border bg=Background
+r4 c7..73 bg=Background
+r4 c73..74 fg=Border bg=Background
+r4 c74..75 bg=Hover
+r4 c75..80 bg=Background
+r5 c0..6 bg=Background
+r5 c6..7 fg=Border bg=Background
+r5 c7..8 bg=Background
+r5 c8..9 fg=Primary bg=Selected
+r5 c9..10 bg=Selected
+r5 c10..21 fg=Foreground bg=Selected bold
+r5 c21..71 fg=Foreground bg=Selected
+r5 c71..72 bg=Selected
+r5 c72..73 bg=Background
+r5 c73..74 fg=Border bg=Background
+r5 c74..75 bg=Hover
+r5 c75..80 bg=Background
+r6 c0..6 bg=Background
+r6 c6..7 fg=Border bg=Background
+r6 c7..10 bg=Background
+r6 c10..21 fg=Foreground bg=Background
+r6 c21..70 fg=Muted bg=Background
+r6 c70..73 bg=Background
+r6 c73..74 fg=Border bg=Background
+r6 c74..75 bg=Hover
+r6 c75..80 bg=Background
+r7 c0..6 bg=Background
+r7 c6..7 fg=Border bg=Background
+r7 c7..10 bg=Background
+r7 c10..21 fg=Foreground bg=Background
+r7 c21..69 fg=Muted bg=Background
+r7 c69..73 bg=Background
+r7 c73..74 fg=Border bg=Background
+r7 c74..75 bg=Hover
+r7 c75..80 bg=Background
+r8 c0..6 bg=Background
+r8 c6..7 fg=Border bg=Background
+r8 c7..73 bg=Background
+r8 c73..74 fg=Border bg=Background
+r8 c74..75 bg=Hover
+r8 c75..80 bg=Background
+r9 c0..6 bg=Background
+r9 c6..7 fg=Border bg=Background
+r9 c7..73 bg=Background
+r9 c73..74 fg=Border bg=Background
+r9 c74..75 bg=Hover
+r9 c75..80 bg=Background
+r10 c0..6 bg=Background
+r10 c6..7 fg=Border bg=Background
+r10 c7..8 bg=Background
+r10 c8..13 fg=Primary bg=Background bold
+r10 c13..17 fg=Muted bg=Background
+r10 c17..18 bg=Background
+r10 c18..25 fg=Primary bg=Background bold
+r10 c25..31 fg=Muted bg=Background
+r10 c31..32 bg=Background
+r10 c32..37 fg=Primary bg=Background bold
+r10 c37..43 fg=Muted bg=Background
+r10 c43..73 bg=Background
+r10 c73..74 fg=Border bg=Background
+r10 c74..75 bg=Hover
+r10 c75..80 bg=Background
+r11 c0..6 bg=Background
+r11 c6..7 fg=Border bg=Background
+r11 c7..73 bg=Background
+r11 c73..74 fg=Border bg=Background
+r11 c74..75 bg=Hover
+r11 c75..80 bg=Background
+r12 c0..6 bg=Background
+r12 c6..74 fg=Border bg=Background
+r12 c74..75 bg=Hover
+r12 c75..80 bg=Background
+r13 c0..7 bg=Background
+r13 c7..75 bg=Hover
+r13 c75..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+
+== light-truecolor
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c6..7 fg=Border
+r3 c7..13 fg=Primary bold
+r3 c13..74 fg=Border
+r4 c6..7 fg=Border
+r4 c73..74 fg=Border
+r4 c74..75 bg=Hover
+r5 c6..7 fg=Border
+r5 c8..9 fg=Primary bg=Selected
+r5 c9..10 bg=Selected
+r5 c10..21 fg=Foreground bg=Selected bold
+r5 c21..71 fg=Foreground bg=Selected
+r5 c71..72 bg=Selected
+r5 c73..74 fg=Border
+r5 c74..75 bg=Hover
+r6 c6..7 fg=Border
+r6 c10..21 fg=Foreground
+r6 c21..70 fg=Muted
+r6 c73..74 fg=Border
+r6 c74..75 bg=Hover
+r7 c6..7 fg=Border
+r7 c10..21 fg=Foreground
+r7 c21..69 fg=Muted
+r7 c73..74 fg=Border
+r7 c74..75 bg=Hover
+r8 c6..7 fg=Border
+r8 c73..74 fg=Border
+r8 c74..75 bg=Hover
+r9 c6..7 fg=Border
+r9 c73..74 fg=Border
+r9 c74..75 bg=Hover
+r10 c6..7 fg=Border
+r10 c8..13 fg=Primary bold
+r10 c13..17 fg=Muted
+r10 c18..25 fg=Primary bold
+r10 c25..31 fg=Muted
+r10 c32..37 fg=Primary bold
+r10 c37..43 fg=Muted
+r10 c73..74 fg=Border
+r10 c74..75 bg=Hover
+r11 c6..7 fg=Border
+r11 c73..74 fg=Border
+r11 c74..75 bg=Hover
+r12 c6..74 fg=Border
+r12 c74..75 bg=Hover
+r13 c7..75 bg=Hover
+
+== dark-256
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..80 bg=Background|DiffAddedTint
+r1 c0..80 bg=Background|DiffAddedTint
+r2 c0..80 bg=Background|DiffAddedTint
+r3 c0..6 bg=Background|DiffAddedTint
+r3 c6..7 fg=Border bg=Background|DiffAddedTint
+r3 c7..13 fg=Primary bg=Background|DiffAddedTint bold
+r3 c13..74 fg=Border bg=Background|DiffAddedTint
+r3 c74..80 bg=Background|DiffAddedTint
+r4 c0..6 bg=Background|DiffAddedTint
+r4 c6..7 fg=Border bg=Background|DiffAddedTint
+r4 c7..73 bg=Background|DiffAddedTint
+r4 c73..74 fg=Border bg=Background|DiffAddedTint
+r4 c74..75 bg=Surface|Hover|DiffRemovedTint
+r4 c75..80 bg=Background|DiffAddedTint
+r5 c0..6 bg=Background|DiffAddedTint
+r5 c6..7 fg=Border bg=Background|DiffAddedTint
+r5 c7..8 bg=Background|DiffAddedTint
+r5 c8..9 fg=Primary bg=Selected
+r5 c9..10 bg=Selected
+r5 c10..21 fg=Foreground bg=Selected bold
+r5 c21..71 fg=Foreground bg=Selected
+r5 c71..72 bg=Selected
+r5 c72..73 bg=Background|DiffAddedTint
+r5 c73..74 fg=Border bg=Background|DiffAddedTint
+r5 c74..75 bg=Surface|Hover|DiffRemovedTint
+r5 c75..80 bg=Background|DiffAddedTint
+r6 c0..6 bg=Background|DiffAddedTint
+r6 c6..7 fg=Border bg=Background|DiffAddedTint
+r6 c7..10 bg=Background|DiffAddedTint
+r6 c10..21 fg=Foreground bg=Background|DiffAddedTint
+r6 c21..70 fg=Muted bg=Background|DiffAddedTint
+r6 c70..73 bg=Background|DiffAddedTint
+r6 c73..74 fg=Border bg=Background|DiffAddedTint
+r6 c74..75 bg=Surface|Hover|DiffRemovedTint
+r6 c75..80 bg=Background|DiffAddedTint
+r7 c0..6 bg=Background|DiffAddedTint
+r7 c6..7 fg=Border bg=Background|DiffAddedTint
+r7 c7..10 bg=Background|DiffAddedTint
+r7 c10..21 fg=Foreground bg=Background|DiffAddedTint
+r7 c21..69 fg=Muted bg=Background|DiffAddedTint
+r7 c69..73 bg=Background|DiffAddedTint
+r7 c73..74 fg=Border bg=Background|DiffAddedTint
+r7 c74..75 bg=Surface|Hover|DiffRemovedTint
+r7 c75..80 bg=Background|DiffAddedTint
+r8 c0..6 bg=Background|DiffAddedTint
+r8 c6..7 fg=Border bg=Background|DiffAddedTint
+r8 c7..73 bg=Background|DiffAddedTint
+r8 c73..74 fg=Border bg=Background|DiffAddedTint
+r8 c74..75 bg=Surface|Hover|DiffRemovedTint
+r8 c75..80 bg=Background|DiffAddedTint
+r9 c0..6 bg=Background|DiffAddedTint
+r9 c6..7 fg=Border bg=Background|DiffAddedTint
+r9 c7..73 bg=Background|DiffAddedTint
+r9 c73..74 fg=Border bg=Background|DiffAddedTint
+r9 c74..75 bg=Surface|Hover|DiffRemovedTint
+r9 c75..80 bg=Background|DiffAddedTint
+r10 c0..6 bg=Background|DiffAddedTint
+r10 c6..7 fg=Border bg=Background|DiffAddedTint
+r10 c7..8 bg=Background|DiffAddedTint
+r10 c8..13 fg=Primary bg=Background|DiffAddedTint bold
+r10 c13..17 fg=Muted bg=Background|DiffAddedTint
+r10 c17..18 bg=Background|DiffAddedTint
+r10 c18..25 fg=Primary bg=Background|DiffAddedTint bold
+r10 c25..31 fg=Muted bg=Background|DiffAddedTint
+r10 c31..32 bg=Background|DiffAddedTint
+r10 c32..37 fg=Primary bg=Background|DiffAddedTint bold
+r10 c37..43 fg=Muted bg=Background|DiffAddedTint
+r10 c43..73 bg=Background|DiffAddedTint
+r10 c73..74 fg=Border bg=Background|DiffAddedTint
+r10 c74..75 bg=Surface|Hover|DiffRemovedTint
+r10 c75..80 bg=Background|DiffAddedTint
+r11 c0..6 bg=Background|DiffAddedTint
+r11 c6..7 fg=Border bg=Background|DiffAddedTint
+r11 c7..73 bg=Background|DiffAddedTint
+r11 c73..74 fg=Border bg=Background|DiffAddedTint
+r11 c74..75 bg=Surface|Hover|DiffRemovedTint
+r11 c75..80 bg=Background|DiffAddedTint
+r12 c0..6 bg=Background|DiffAddedTint
+r12 c6..74 fg=Border bg=Background|DiffAddedTint
+r12 c74..75 bg=Surface|Hover|DiffRemovedTint
+r12 c75..80 bg=Background|DiffAddedTint
+r13 c0..7 bg=Background|DiffAddedTint
+r13 c7..75 bg=Surface|Hover|DiffRemovedTint
+r13 c75..80 bg=Background|DiffAddedTint
+r14 c0..80 bg=Background|DiffAddedTint
+r15 c0..80 bg=Background|DiffAddedTint
+
+== light-256
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c6..7 fg=Border
+r3 c7..13 fg=Primary bold
+r3 c13..74 fg=Border
+r4 c6..7 fg=Border
+r4 c73..74 fg=Border
+r4 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c6..7 fg=Border
+r5 c8..9 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c9..10 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c10..21 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r5 c21..71 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c71..72 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c73..74 fg=Border
+r5 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c6..7 fg=Border
+r6 c10..21 fg=Foreground
+r6 c21..70 fg=Muted|Hint|Dim
+r6 c73..74 fg=Border
+r6 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c6..7 fg=Border
+r7 c10..21 fg=Foreground
+r7 c21..69 fg=Muted|Hint|Dim
+r7 c73..74 fg=Border
+r7 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c6..7 fg=Border
+r8 c73..74 fg=Border
+r8 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r9 c6..7 fg=Border
+r9 c73..74 fg=Border
+r9 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r10 c6..7 fg=Border
+r10 c8..13 fg=Primary bold
+r10 c13..17 fg=Muted|Hint|Dim
+r10 c18..25 fg=Primary bold
+r10 c25..31 fg=Muted|Hint|Dim
+r10 c32..37 fg=Primary bold
+r10 c37..43 fg=Muted|Hint|Dim
+r10 c73..74 fg=Border
+r10 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r11 c6..7 fg=Border
+r11 c73..74 fg=Border
+r11 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c6..74 fg=Border
+r12 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r13 c7..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+
+== ansi-16
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c6..7 dim
+r3 c7..13 fg=Primary bold dim
+r3 c13..74 dim
+r4 c6..7 dim
+r4 c73..74 dim
+r5 c6..7 dim
+r5 c8..9 fg=Primary
+r5 c10..21 bold
+r5 c73..74 dim
+r6 c6..7 dim
+r6 c21..70 dim
+r6 c73..74 dim
+r7 c6..7 dim
+r7 c21..69 dim
+r7 c73..74 dim
+r8 c6..7 dim
+r8 c73..74 dim
+r9 c6..7 dim
+r9 c73..74 dim
+r10 c6..7 dim
+r10 c8..13 fg=Primary bold
+r10 c13..17 dim
+r10 c18..25 fg=Primary bold
+r10 c25..31 dim
+r10 c32..37 fg=Primary bold
+r10 c37..43 dim
+r10 c73..74 dim
+r11 c6..7 dim
+r11 c73..74 dim
+r12 c6..74 dim
+
+== unknown-ground
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c6..7 dim
+r3 c7..13 fg=Primary bold dim
+r3 c13..74 dim
+r4 c6..7 dim
+r4 c73..74 dim
+r5 c6..7 dim
+r5 c8..9 fg=Primary
+r5 c10..21 bold
+r5 c73..74 dim
+r6 c6..7 dim
+r6 c21..70 dim
+r6 c73..74 dim
+r7 c6..7 dim
+r7 c21..69 dim
+r7 c73..74 dim
+r8 c6..7 dim
+r8 c73..74 dim
+r9 c6..7 dim
+r9 c73..74 dim
+r10 c6..7 dim
+r10 c8..13 fg=Primary bold
+r10 c13..17 dim
+r10 c18..25 fg=Primary bold
+r10 c25..31 dim
+r10 c32..37 fg=Primary bold
+r10 c37..43 dim
+r10 c73..74 dim
+r11 c6..7 dim
+r11 c73..74 dim
+r12 c6..74 dim
+
+== no-color
+
+
+
+      ┌ Mode ────────────────────────────────────────────────────────────┐
+      │                                                                  │
+      │ ▸ 1. Work    Direct work in this session — edits and shell ask…  │
+      │   2. Plan    Read-only research first — present a plan before…   │
+      │   3. Operate Turns your prompt into a goal: parallel agents,…    │
+      │                                                                  │
+      │                                                                  │
+      │  ↑/↓ move  Enter select  Esc cancel                              │
+      │                                                                  │
+      └──────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c6..7 dim
+r3 c7..13 bold dim
+r3 c13..74 dim
+r4 c6..7 dim
+r4 c73..74 dim
+r5 c6..7 dim
+r5 c10..21 bold
+r5 c73..74 dim
+r6 c6..7 dim
+r6 c21..70 dim
+r6 c73..74 dim
+r7 c6..7 dim
+r7 c21..69 dim
+r7 c73..74 dim
+r8 c6..7 dim
+r8 c73..74 dim
+r9 c6..7 dim
+r9 c73..74 dim
+r10 c6..7 dim
+r10 c8..13 bold
+r10 c13..17 dim
+r10 c18..25 bold
+r10 c25..31 dim
+r10 c32..37 bold
+r10 c37..43 dim
+r10 c73..74 dim
+r11 c6..7 dim
+r11 c73..74 dim
+r12 c6..74 dim
+
+== ascii
+
+
+
+      + Mode ------------------------------------------------------------+
+      |                                                                  |
+      | > 1. Work    Direct work in this session - edits and shell...    |
+      |   2. Plan    Read-only research first - present a plan...        |
+      |   3. Operate Turns your prompt into a goal: parallel agents,...  |
+      |                                                                  |
+      |                                                                  |
+      |  Up/Dn move  Enter select  Esc cancel                            |
+      |                                                                  |
+      +------------------------------------------------------------------+
+
+
+
+---
+r3 c6..7 dim
+r3 c7..13 bold dim
+r3 c13..74 dim
+r4 c6..7 dim
+r4 c73..74 dim
+r5 c6..7 dim
+r5 c10..21 bold
+r5 c73..74 dim
+r6 c6..7 dim
+r6 c21..65 dim
+r6 c73..74 dim
+r7 c6..7 dim
+r7 c21..71 dim
+r7 c73..74 dim
+r8 c6..7 dim
+r8 c73..74 dim
+r9 c6..7 dim
+r9 c73..74 dim
+r10 c6..7 dim
+r10 c8..15 bold
+r10 c15..19 dim
+r10 c20..27 bold
+r10 c27..33 dim
+r10 c34..39 bold
+r10 c39..45 dim
+r10 c73..74 dim
+r11 c6..7 dim
+r11 c73..74 dim
+r12 c6..74 dim

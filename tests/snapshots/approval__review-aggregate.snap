@@ -1,0 +1,118 @@
+---
+source: tests/approval.rs
+expression: "testing::snapshot(3, paint)"
+---
+== dark-truecolor · 40x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied
+◆ 1 held for you · ? 1 could not decide
+● reviewing 2
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..40 bg=Background
+r1 c0..2 fg=Attention bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..16 fg=Foreground bg=Background
+r1 c16..19 fg=Border bg=Background
+r1 c19..21 fg=Muted bg=Background
+r1 c21..23 fg=Foreground bg=Background bold
+r1 c23..39 fg=Foreground bg=Background
+r1 c39..40 bg=Background
+r2 c0..2 fg=Live bg=Background
+r2 c2..12 fg=Foreground bg=Background
+r2 c12..13 fg=Foreground bg=Background bold
+r2 c13..40 bg=Background
+
+== dark-truecolor · 80x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..80 bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..4 fg=Foreground bg=Background bold
+r1 c4..20 fg=Foreground bg=Background
+r1 c20..23 fg=Border bg=Background
+r1 c23..25 fg=Live bg=Background
+r1 c25..35 fg=Foreground bg=Background
+r1 c35..36 fg=Foreground bg=Background bold
+r1 c36..80 bg=Background
+r2 c0..80 bg=Background
+
+== dark-truecolor · 120x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you · ? 1 could not decide · ● reviewing 2
+
+
+---
+r0 c0..11 fg=Foreground bg=Background bold
+r0 c11..14 fg=Border bg=Background
+r0 c14..16 fg=Live bg=Background
+r0 c16..19 fg=Foreground bg=Background bold
+r0 c19..26 fg=Foreground bg=Background
+r0 c26..29 fg=Border bg=Background
+r0 c29..31 fg=Danger bg=Background
+r0 c31..33 fg=Foreground bg=Background bold
+r0 c33..39 fg=Foreground bg=Background
+r0 c39..42 fg=Border bg=Background
+r0 c42..44 fg=Attention bg=Background
+r0 c44..46 fg=Foreground bg=Background bold
+r0 c46..58 fg=Foreground bg=Background
+r0 c58..61 fg=Border bg=Background
+r0 c61..63 fg=Muted bg=Background
+r0 c63..65 fg=Foreground bg=Background bold
+r0 c65..81 fg=Foreground bg=Background
+r0 c81..84 fg=Border bg=Background
+r0 c84..86 fg=Live bg=Background
+r0 c86..96 fg=Foreground bg=Background
+r0 c96..97 fg=Foreground bg=Background bold
+r0 c97..120 bg=Background
+r1 c0..120 bg=Background
+r2 c0..120 bg=Background
+
+== no-color · 40x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied
+◆ 1 held for you · ? 1 could not decide
+● reviewing 2
+
+== no-color · 80x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
+? 1 could not decide · ● reviewing 2
+
+
+== no-color · 120x3
+Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you · ? 1 could not decide · ● reviewing 2
+
+
+
+== ascii · 40x3
+Auto-Review  Y 42 allowed  X 3 denied
+* 1 held for you  ? 1 could not decide
+. reviewing 2
+
+== ascii · 80x3
+Auto-Review  Y 42 allowed  X 3 denied  * 1 held for you  ? 1 could not decide
+. reviewing 2
+
+
+== ascii · 120x3
+Auto-Review  Y 42 allowed  X 3 denied  * 1 held for you  ? 1 could not decide  . reviewing 2

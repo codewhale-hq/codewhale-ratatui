@@ -1,0 +1,929 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c0..90 bg=Background
+r0 c90..91 fg=Border bg=Sidebar
+r0 c91..92 fg=Foreground bg=Sidebar
+r0 c92..119 fg=Live bg=Selected bold
+r0 c119..120 fg=Foreground bg=Sidebar
+r1 c0..4 fg=Muted bg=Background
+r1 c4..90 bg=Background
+r1 c90..91 fg=Border bg=Sidebar
+r1 c91..92 fg=Foreground bg=Sidebar
+r1 c92..119 fg=Live bg=Sidebar
+r1 c119..120 fg=Foreground bg=Sidebar
+r2 c0..32 fg=Foreground bg=Background
+r2 c32..90 bg=Background
+r2 c90..91 fg=Border bg=Sidebar
+r2 c91..92 fg=Foreground bg=Sidebar
+r2 c92..119 fg=Muted bg=Sidebar
+r2 c119..120 fg=Foreground bg=Sidebar
+r3 c0..90 bg=Background
+r3 c90..91 fg=Border bg=Sidebar
+r3 c91..120 fg=Foreground bg=Sidebar
+r4 c0..90 bg=Background
+r4 c90..91 fg=Border bg=Sidebar
+r4 c91..120 fg=Foreground bg=Sidebar
+r5 c0..9 fg=Muted bg=Background
+r5 c9..90 bg=Background
+r5 c90..91 fg=Border bg=Sidebar
+r5 c91..120 fg=Foreground bg=Sidebar
+r6 c0..54 fg=Foreground bg=Background
+r6 c54..90 bg=Background
+r6 c90..91 fg=Border bg=Sidebar
+r6 c91..120 fg=Foreground bg=Sidebar
+r7 c0..90 bg=Background
+r7 c90..91 fg=Border bg=Sidebar
+r7 c91..120 fg=Foreground bg=Sidebar
+r8 c0..90 bg=Background
+r8 c90..91 fg=Border bg=Sidebar
+r8 c91..120 fg=Foreground bg=Sidebar
+r9 c0..90 bg=Background
+r9 c90..91 fg=Border bg=Sidebar
+r9 c91..120 fg=Foreground bg=Sidebar
+r10 c0..90 bg=Background
+r10 c90..91 fg=Border bg=Sidebar
+r10 c91..120 fg=Foreground bg=Sidebar
+r11 c0..90 bg=Background
+r11 c90..91 fg=Border bg=Sidebar
+r11 c91..120 fg=Foreground bg=Sidebar
+r12 c0..90 bg=Background
+r12 c90..91 fg=Border bg=Sidebar
+r12 c91..120 fg=Foreground bg=Sidebar
+r13 c0..90 bg=Background
+r13 c90..91 fg=Border bg=Sidebar
+r13 c91..120 fg=Foreground bg=Sidebar
+r14 c0..90 bg=Background
+r14 c90..91 fg=Border bg=Sidebar
+r14 c91..120 fg=Foreground bg=Sidebar
+r15 c0..90 bg=Background
+r15 c90..91 fg=Border bg=Sidebar
+r15 c91..120 fg=Foreground bg=Sidebar
+r16 c0..90 bg=Background
+r16 c90..91 fg=Border bg=Sidebar
+r16 c91..120 fg=Foreground bg=Sidebar
+r17 c0..90 bg=Background
+r17 c90..91 fg=Border bg=Sidebar
+r17 c91..120 fg=Foreground bg=Sidebar
+r18 c0..90 bg=Background
+r18 c90..91 fg=Border bg=Sidebar
+r18 c91..120 fg=Foreground bg=Sidebar
+r19 c0..90 fg=Primary bg=Surface
+r19 c90..91 fg=Border bg=Sidebar
+r19 c91..120 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Primary bg=Surface
+r20 c2..3 bg=Surface
+r20 c3..28 fg=Foreground bg=Surface
+r20 c28..85 bg=Surface
+r20 c85..88 fg=Primary bg=Surface bold
+r20 c88..89 bg=Surface
+r20 c89..90 fg=Primary bg=Surface
+r20 c90..91 fg=Border bg=Sidebar
+r20 c91..120 fg=Foreground bg=Sidebar
+r21 c0..90 fg=Primary bg=Surface
+r21 c90..91 fg=Border bg=Sidebar
+r21 c91..120 fg=Foreground bg=Sidebar
+r22 c0..1 bg=Background
+r22 c1..6 fg=#e09948 bg=Background bold
+r22 c6..30 fg=Hint|Dim bg=Background
+r22 c30..34 fg=#7eb4e8 bg=Background
+r22 c34..43 fg=Hint|Dim bg=Background
+r22 c43..51 fg=Live bg=Background
+r22 c51..54 fg=Hint|Dim bg=Background
+r22 c54..68 fg=Live bg=Background
+r22 c68..87 fg=Hint|Dim bg=Background
+r22 c87..90 bg=Background
+r22 c90..91 fg=Border bg=Sidebar
+r22 c91..120 fg=Foreground bg=Sidebar
+r23 c0..11 fg=Primary bg=Background
+r23 c11..14 fg=Hint|Dim bg=Background
+r23 c14..17 fg=Muted bg=Background
+r23 c17..18 bg=Background
+r23 c18..21 fg=Primary bg=Background
+r23 c21..24 fg=Hint|Dim bg=Background
+r23 c24..29 fg=Muted bg=Background
+r23 c29..32 fg=Hint|Dim bg=Background
+r23 c32..36 fg=Muted bg=Background
+r23 c36..37 bg=Background
+r23 c37..42 fg=Muted bg=Background
+r23 c42..45 fg=Hint|Dim bg=Background
+r23 c45..53 fg=Muted bg=Background
+r23 c53..56 fg=Hint|Dim bg=Background
+r23 c56..57 fg=Muted bg=Background
+r23 c57..58 bg=Background
+r23 c58..62 fg=Muted bg=Background
+r23 c62..85 bg=Background
+r23 c85..90 fg=Hint|Dim bg=Background
+r23 c90..91 fg=Border bg=Sidebar
+r23 c91..120 fg=Foreground bg=Sidebar
+
+== dark-graphite
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c0..90 bg=Background
+r0 c90..91 fg=Border bg=Sidebar
+r0 c91..92 fg=Foreground bg=Sidebar
+r0 c92..119 fg=Live bg=Selected bold
+r0 c119..120 fg=Foreground bg=Sidebar
+r1 c0..4 fg=Muted bg=Background
+r1 c4..90 bg=Background
+r1 c90..91 fg=Border bg=Sidebar
+r1 c91..92 fg=Foreground bg=Sidebar
+r1 c92..119 fg=Live bg=Sidebar
+r1 c119..120 fg=Foreground bg=Sidebar
+r2 c0..32 fg=Foreground bg=Background
+r2 c32..90 bg=Background
+r2 c90..91 fg=Border bg=Sidebar
+r2 c91..92 fg=Foreground bg=Sidebar
+r2 c92..119 fg=Muted bg=Sidebar
+r2 c119..120 fg=Foreground bg=Sidebar
+r3 c0..90 bg=Background
+r3 c90..91 fg=Border bg=Sidebar
+r3 c91..120 fg=Foreground bg=Sidebar
+r4 c0..90 bg=Background
+r4 c90..91 fg=Border bg=Sidebar
+r4 c91..120 fg=Foreground bg=Sidebar
+r5 c0..9 fg=Muted bg=Background
+r5 c9..90 bg=Background
+r5 c90..91 fg=Border bg=Sidebar
+r5 c91..120 fg=Foreground bg=Sidebar
+r6 c0..54 fg=Foreground bg=Background
+r6 c54..90 bg=Background
+r6 c90..91 fg=Border bg=Sidebar
+r6 c91..120 fg=Foreground bg=Sidebar
+r7 c0..90 bg=Background
+r7 c90..91 fg=Border bg=Sidebar
+r7 c91..120 fg=Foreground bg=Sidebar
+r8 c0..90 bg=Background
+r8 c90..91 fg=Border bg=Sidebar
+r8 c91..120 fg=Foreground bg=Sidebar
+r9 c0..90 bg=Background
+r9 c90..91 fg=Border bg=Sidebar
+r9 c91..120 fg=Foreground bg=Sidebar
+r10 c0..90 bg=Background
+r10 c90..91 fg=Border bg=Sidebar
+r10 c91..120 fg=Foreground bg=Sidebar
+r11 c0..90 bg=Background
+r11 c90..91 fg=Border bg=Sidebar
+r11 c91..120 fg=Foreground bg=Sidebar
+r12 c0..90 bg=Background
+r12 c90..91 fg=Border bg=Sidebar
+r12 c91..120 fg=Foreground bg=Sidebar
+r13 c0..90 bg=Background
+r13 c90..91 fg=Border bg=Sidebar
+r13 c91..120 fg=Foreground bg=Sidebar
+r14 c0..90 bg=Background
+r14 c90..91 fg=Border bg=Sidebar
+r14 c91..120 fg=Foreground bg=Sidebar
+r15 c0..90 bg=Background
+r15 c90..91 fg=Border bg=Sidebar
+r15 c91..120 fg=Foreground bg=Sidebar
+r16 c0..90 bg=Background
+r16 c90..91 fg=Border bg=Sidebar
+r16 c91..120 fg=Foreground bg=Sidebar
+r17 c0..90 bg=Background
+r17 c90..91 fg=Border bg=Sidebar
+r17 c91..120 fg=Foreground bg=Sidebar
+r18 c0..90 bg=Background
+r18 c90..91 fg=Border bg=Sidebar
+r18 c91..120 fg=Foreground bg=Sidebar
+r19 c0..90 fg=Primary bg=Surface
+r19 c90..91 fg=Border bg=Sidebar
+r19 c91..120 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Primary bg=Surface
+r20 c2..3 bg=Surface
+r20 c3..28 fg=Foreground bg=Surface
+r20 c28..85 bg=Surface
+r20 c85..88 fg=Primary bg=Surface bold
+r20 c88..89 bg=Surface
+r20 c89..90 fg=Primary bg=Surface
+r20 c90..91 fg=Border bg=Sidebar
+r20 c91..120 fg=Foreground bg=Sidebar
+r21 c0..90 fg=Primary bg=Surface
+r21 c90..91 fg=Border bg=Sidebar
+r21 c91..120 fg=Foreground bg=Sidebar
+r22 c0..1 bg=Background
+r22 c1..6 fg=#e09948 bg=Background bold
+r22 c6..30 fg=Hint|Dim bg=Background
+r22 c30..34 fg=#7eb4e8 bg=Background
+r22 c34..43 fg=Hint|Dim bg=Background
+r22 c43..51 fg=Live bg=Background
+r22 c51..54 fg=Hint|Dim bg=Background
+r22 c54..68 fg=Live bg=Background
+r22 c68..87 fg=Hint|Dim bg=Background
+r22 c87..90 bg=Background
+r22 c90..91 fg=Border bg=Sidebar
+r22 c91..120 fg=Foreground bg=Sidebar
+r23 c0..11 fg=Primary bg=Background
+r23 c11..14 fg=Hint|Dim bg=Background
+r23 c14..17 fg=Muted bg=Background
+r23 c17..18 bg=Background
+r23 c18..21 fg=Primary bg=Background
+r23 c21..24 fg=Hint|Dim bg=Background
+r23 c24..29 fg=Muted bg=Background
+r23 c29..32 fg=Hint|Dim bg=Background
+r23 c32..36 fg=Muted bg=Background
+r23 c36..37 bg=Background
+r23 c37..42 fg=Muted bg=Background
+r23 c42..45 fg=Hint|Dim bg=Background
+r23 c45..53 fg=Muted bg=Background
+r23 c53..56 fg=Hint|Dim bg=Background
+r23 c56..57 fg=Muted bg=Background
+r23 c57..58 bg=Background
+r23 c58..62 fg=Muted bg=Background
+r23 c62..85 bg=Background
+r23 c85..90 fg=Hint|Dim bg=Background
+r23 c90..91 fg=Border bg=Sidebar
+r23 c91..120 fg=Foreground bg=Sidebar
+
+== light-truecolor
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c90..91 fg=Border
+r0 c91..92 fg=Foreground
+r0 c92..119 fg=Live bg=Selected bold
+r0 c119..120 fg=Foreground
+r1 c0..4 fg=Muted
+r1 c90..91 fg=Border
+r1 c91..92 fg=Foreground
+r1 c92..119 fg=Live
+r1 c119..120 fg=Foreground
+r2 c0..32 fg=Foreground
+r2 c90..91 fg=Border
+r2 c91..92 fg=Foreground
+r2 c92..119 fg=Muted
+r2 c119..120 fg=Foreground
+r3 c90..91 fg=Border
+r3 c91..120 fg=Foreground
+r4 c90..91 fg=Border
+r4 c91..120 fg=Foreground
+r5 c0..9 fg=Muted
+r5 c90..91 fg=Border
+r5 c91..120 fg=Foreground
+r6 c0..54 fg=Foreground
+r6 c90..91 fg=Border
+r6 c91..120 fg=Foreground
+r7 c90..91 fg=Border
+r7 c91..120 fg=Foreground
+r8 c90..91 fg=Border
+r8 c91..120 fg=Foreground
+r9 c90..91 fg=Border
+r9 c91..120 fg=Foreground
+r10 c90..91 fg=Border
+r10 c91..120 fg=Foreground
+r11 c90..91 fg=Border
+r11 c91..120 fg=Foreground
+r12 c90..91 fg=Border
+r12 c91..120 fg=Foreground
+r13 c90..91 fg=Border
+r13 c91..120 fg=Foreground
+r14 c90..91 fg=Border
+r14 c91..120 fg=Foreground
+r15 c90..91 fg=Border
+r15 c91..120 fg=Foreground
+r16 c90..91 fg=Border
+r16 c91..120 fg=Foreground
+r17 c90..91 fg=Border
+r17 c91..120 fg=Foreground
+r18 c90..91 fg=Border
+r18 c91..120 fg=Foreground
+r19 c0..90 fg=Primary
+r19 c90..91 fg=Border
+r19 c91..120 fg=Foreground
+r20 c0..2 fg=Primary
+r20 c3..28 fg=Foreground
+r20 c85..88 fg=Primary bold
+r20 c89..90 fg=Primary
+r20 c90..91 fg=Border
+r20 c91..120 fg=Foreground
+r21 c0..90 fg=Primary
+r21 c90..91 fg=Border
+r21 c91..120 fg=Foreground
+r22 c1..6 fg=#92400e bold
+r22 c6..30 fg=Hint|Dim
+r22 c30..34 fg=#1636b2
+r22 c34..43 fg=Hint|Dim
+r22 c43..51 fg=Live
+r22 c51..54 fg=Hint|Dim
+r22 c54..68 fg=Live
+r22 c68..87 fg=Hint|Dim
+r22 c90..91 fg=Border
+r22 c91..120 fg=Foreground
+r23 c0..11 fg=Primary
+r23 c11..14 fg=Hint|Dim
+r23 c14..17 fg=Muted
+r23 c18..21 fg=Primary
+r23 c21..24 fg=Hint|Dim
+r23 c24..29 fg=Muted
+r23 c29..32 fg=Hint|Dim
+r23 c32..36 fg=Muted
+r23 c37..42 fg=Muted
+r23 c42..45 fg=Hint|Dim
+r23 c45..53 fg=Muted
+r23 c53..56 fg=Hint|Dim
+r23 c56..57 fg=Muted
+r23 c58..62 fg=Muted
+r23 c85..90 fg=Hint|Dim
+r23 c90..91 fg=Border
+r23 c91..120 fg=Foreground
+
+== dark-256
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c0..90 bg=Background|DiffAddedTint
+r0 c90..91 fg=Border bg=Sidebar
+r0 c91..92 fg=Foreground bg=Sidebar
+r0 c92..119 fg=Live bg=Selected bold
+r0 c119..120 fg=Foreground bg=Sidebar
+r1 c0..4 fg=Muted bg=Background|DiffAddedTint
+r1 c4..90 bg=Background|DiffAddedTint
+r1 c90..91 fg=Border bg=Sidebar
+r1 c91..92 fg=Foreground bg=Sidebar
+r1 c92..119 fg=Live bg=Sidebar
+r1 c119..120 fg=Foreground bg=Sidebar
+r2 c0..32 fg=Foreground bg=Background|DiffAddedTint
+r2 c32..90 bg=Background|DiffAddedTint
+r2 c90..91 fg=Border bg=Sidebar
+r2 c91..92 fg=Foreground bg=Sidebar
+r2 c92..119 fg=Muted bg=Sidebar
+r2 c119..120 fg=Foreground bg=Sidebar
+r3 c0..90 bg=Background|DiffAddedTint
+r3 c90..91 fg=Border bg=Sidebar
+r3 c91..120 fg=Foreground bg=Sidebar
+r4 c0..90 bg=Background|DiffAddedTint
+r4 c90..91 fg=Border bg=Sidebar
+r4 c91..120 fg=Foreground bg=Sidebar
+r5 c0..9 fg=Muted bg=Background|DiffAddedTint
+r5 c9..90 bg=Background|DiffAddedTint
+r5 c90..91 fg=Border bg=Sidebar
+r5 c91..120 fg=Foreground bg=Sidebar
+r6 c0..54 fg=Foreground bg=Background|DiffAddedTint
+r6 c54..90 bg=Background|DiffAddedTint
+r6 c90..91 fg=Border bg=Sidebar
+r6 c91..120 fg=Foreground bg=Sidebar
+r7 c0..90 bg=Background|DiffAddedTint
+r7 c90..91 fg=Border bg=Sidebar
+r7 c91..120 fg=Foreground bg=Sidebar
+r8 c0..90 bg=Background|DiffAddedTint
+r8 c90..91 fg=Border bg=Sidebar
+r8 c91..120 fg=Foreground bg=Sidebar
+r9 c0..90 bg=Background|DiffAddedTint
+r9 c90..91 fg=Border bg=Sidebar
+r9 c91..120 fg=Foreground bg=Sidebar
+r10 c0..90 bg=Background|DiffAddedTint
+r10 c90..91 fg=Border bg=Sidebar
+r10 c91..120 fg=Foreground bg=Sidebar
+r11 c0..90 bg=Background|DiffAddedTint
+r11 c90..91 fg=Border bg=Sidebar
+r11 c91..120 fg=Foreground bg=Sidebar
+r12 c0..90 bg=Background|DiffAddedTint
+r12 c90..91 fg=Border bg=Sidebar
+r12 c91..120 fg=Foreground bg=Sidebar
+r13 c0..90 bg=Background|DiffAddedTint
+r13 c90..91 fg=Border bg=Sidebar
+r13 c91..120 fg=Foreground bg=Sidebar
+r14 c0..90 bg=Background|DiffAddedTint
+r14 c90..91 fg=Border bg=Sidebar
+r14 c91..120 fg=Foreground bg=Sidebar
+r15 c0..90 bg=Background|DiffAddedTint
+r15 c90..91 fg=Border bg=Sidebar
+r15 c91..120 fg=Foreground bg=Sidebar
+r16 c0..90 bg=Background|DiffAddedTint
+r16 c90..91 fg=Border bg=Sidebar
+r16 c91..120 fg=Foreground bg=Sidebar
+r17 c0..90 bg=Background|DiffAddedTint
+r17 c90..91 fg=Border bg=Sidebar
+r17 c91..120 fg=Foreground bg=Sidebar
+r18 c0..90 bg=Background|DiffAddedTint
+r18 c90..91 fg=Border bg=Sidebar
+r18 c91..120 fg=Foreground bg=Sidebar
+r19 c0..90 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r19 c90..91 fg=Border bg=Sidebar
+r19 c91..120 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r20 c2..3 bg=Surface|Hover|DiffRemovedTint
+r20 c3..28 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r20 c28..85 bg=Surface|Hover|DiffRemovedTint
+r20 c85..88 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r20 c88..89 bg=Surface|Hover|DiffRemovedTint
+r20 c89..90 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r20 c90..91 fg=Border bg=Sidebar
+r20 c91..120 fg=Foreground bg=Sidebar
+r21 c0..90 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r21 c90..91 fg=Border bg=Sidebar
+r21 c91..120 fg=Foreground bg=Sidebar
+r22 c0..1 bg=Background|DiffAddedTint
+r22 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
+r22 c6..30 fg=Hint|Dim bg=Background|DiffAddedTint
+r22 c30..34 fg=idx110 bg=Background|DiffAddedTint
+r22 c34..43 fg=Hint|Dim bg=Background|DiffAddedTint
+r22 c43..51 fg=Live bg=Background|DiffAddedTint
+r22 c51..54 fg=Hint|Dim bg=Background|DiffAddedTint
+r22 c54..68 fg=Live bg=Background|DiffAddedTint
+r22 c68..87 fg=Hint|Dim bg=Background|DiffAddedTint
+r22 c87..90 bg=Background|DiffAddedTint
+r22 c90..91 fg=Border bg=Sidebar
+r22 c91..120 fg=Foreground bg=Sidebar
+r23 c0..11 fg=Primary bg=Background|DiffAddedTint
+r23 c11..14 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c14..17 fg=Muted bg=Background|DiffAddedTint
+r23 c17..18 bg=Background|DiffAddedTint
+r23 c18..21 fg=Primary bg=Background|DiffAddedTint
+r23 c21..24 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c24..29 fg=Muted bg=Background|DiffAddedTint
+r23 c29..32 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c32..36 fg=Muted bg=Background|DiffAddedTint
+r23 c36..37 bg=Background|DiffAddedTint
+r23 c37..42 fg=Muted bg=Background|DiffAddedTint
+r23 c42..45 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c45..53 fg=Muted bg=Background|DiffAddedTint
+r23 c53..56 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c56..57 fg=Muted bg=Background|DiffAddedTint
+r23 c57..58 bg=Background|DiffAddedTint
+r23 c58..62 fg=Muted bg=Background|DiffAddedTint
+r23 c62..85 bg=Background|DiffAddedTint
+r23 c85..90 fg=Hint|Dim bg=Background|DiffAddedTint
+r23 c90..91 fg=Border bg=Sidebar
+r23 c91..120 fg=Foreground bg=Sidebar
+
+== light-256
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c90..91 fg=Border
+r0 c91..92 fg=Foreground
+r0 c92..119 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c119..120 fg=Foreground
+r1 c0..4 fg=Muted|Hint|Dim
+r1 c90..91 fg=Border
+r1 c91..92 fg=Foreground
+r1 c92..119 fg=Live
+r1 c119..120 fg=Foreground
+r2 c0..32 fg=Foreground
+r2 c90..91 fg=Border
+r2 c91..92 fg=Foreground
+r2 c92..119 fg=Muted|Hint|Dim
+r2 c119..120 fg=Foreground
+r3 c90..91 fg=Border
+r3 c91..120 fg=Foreground
+r4 c90..91 fg=Border
+r4 c91..120 fg=Foreground
+r5 c0..9 fg=Muted|Hint|Dim
+r5 c90..91 fg=Border
+r5 c91..120 fg=Foreground
+r6 c0..54 fg=Foreground
+r6 c90..91 fg=Border
+r6 c91..120 fg=Foreground
+r7 c90..91 fg=Border
+r7 c91..120 fg=Foreground
+r8 c90..91 fg=Border
+r8 c91..120 fg=Foreground
+r9 c90..91 fg=Border
+r9 c91..120 fg=Foreground
+r10 c90..91 fg=Border
+r10 c91..120 fg=Foreground
+r11 c90..91 fg=Border
+r11 c91..120 fg=Foreground
+r12 c90..91 fg=Border
+r12 c91..120 fg=Foreground
+r13 c90..91 fg=Border
+r13 c91..120 fg=Foreground
+r14 c90..91 fg=Border
+r14 c91..120 fg=Foreground
+r15 c90..91 fg=Border
+r15 c91..120 fg=Foreground
+r16 c90..91 fg=Border
+r16 c91..120 fg=Foreground
+r17 c90..91 fg=Border
+r17 c91..120 fg=Foreground
+r18 c90..91 fg=Border
+r18 c91..120 fg=Foreground
+r19 c0..90 fg=Primary
+r19 c90..91 fg=Border
+r19 c91..120 fg=Foreground
+r20 c0..2 fg=Primary
+r20 c3..28 fg=Foreground
+r20 c85..88 fg=Primary bold
+r20 c89..90 fg=Primary
+r20 c90..91 fg=Border
+r20 c91..120 fg=Foreground
+r21 c0..90 fg=Primary
+r21 c90..91 fg=Border
+r21 c91..120 fg=Foreground
+r22 c1..6 fg=Attention bold
+r22 c6..30 fg=Muted|Hint|Dim
+r22 c30..34 fg=Primary
+r22 c34..43 fg=Muted|Hint|Dim
+r22 c43..51 fg=Live
+r22 c51..54 fg=Muted|Hint|Dim
+r22 c54..68 fg=Live
+r22 c68..87 fg=Muted|Hint|Dim
+r22 c90..91 fg=Border
+r22 c91..120 fg=Foreground
+r23 c0..11 fg=Primary
+r23 c11..17 fg=Muted|Hint|Dim
+r23 c18..21 fg=Primary
+r23 c21..36 fg=Muted|Hint|Dim
+r23 c37..57 fg=Muted|Hint|Dim
+r23 c58..62 fg=Muted|Hint|Dim
+r23 c85..90 fg=Muted|Hint|Dim
+r23 c90..91 fg=Border
+r23 c91..120 fg=Foreground
+
+== ansi-16
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c90..91 dim
+r0 c92..119 fg=Live bold
+r1 c0..4 dim
+r1 c90..91 dim
+r1 c92..119 fg=Live
+r2 c90..91 dim
+r2 c92..119 dim
+r3 c90..91 dim
+r4 c90..91 dim
+r5 c0..9 dim
+r5 c90..91 dim
+r6 c90..91 dim
+r7 c90..91 dim
+r8 c90..91 dim
+r9 c90..91 dim
+r10 c90..91 dim
+r11 c90..91 dim
+r12 c90..91 dim
+r13 c90..91 dim
+r14 c90..91 dim
+r15 c90..91 dim
+r16 c90..91 dim
+r17 c90..91 dim
+r18 c90..91 dim
+r19 c0..90 fg=Primary
+r19 c90..91 dim
+r20 c0..2 fg=Primary
+r20 c85..88 fg=Primary bold
+r20 c89..90 fg=Primary
+r20 c90..91 dim
+r21 c0..90 fg=Primary
+r21 c90..91 dim
+r22 c1..6 fg=Attention bold
+r22 c6..30 dim
+r22 c30..34 fg=Primary
+r22 c34..43 dim
+r22 c43..51 fg=Live
+r22 c51..54 dim
+r22 c54..68 fg=Live
+r22 c68..87 dim
+r22 c90..91 dim
+r23 c0..11 fg=Primary
+r23 c11..17 dim
+r23 c18..21 fg=Primary
+r23 c21..36 dim
+r23 c37..57 dim
+r23 c58..62 dim
+r23 c85..91 dim
+
+== unknown-ground
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c90..91 dim
+r0 c92..119 fg=Live bold
+r1 c0..4 dim
+r1 c90..91 dim
+r1 c92..119 fg=Live
+r2 c90..91 dim
+r2 c92..119 dim
+r3 c90..91 dim
+r4 c90..91 dim
+r5 c0..9 dim
+r5 c90..91 dim
+r6 c90..91 dim
+r7 c90..91 dim
+r8 c90..91 dim
+r9 c90..91 dim
+r10 c90..91 dim
+r11 c90..91 dim
+r12 c90..91 dim
+r13 c90..91 dim
+r14 c90..91 dim
+r15 c90..91 dim
+r16 c90..91 dim
+r17 c90..91 dim
+r18 c90..91 dim
+r19 c0..90 fg=Primary
+r19 c90..91 dim
+r20 c0..2 fg=Primary
+r20 c85..88 fg=Primary bold
+r20 c89..90 fg=Primary
+r20 c90..91 dim
+r21 c0..90 fg=Primary
+r21 c90..91 dim
+r22 c1..6 fg=Attention bold
+r22 c6..30 dim
+r22 c30..34 fg=Primary
+r22 c34..43 dim
+r22 c43..51 fg=Live
+r22 c51..54 dim
+r22 c54..68 fg=Live
+r22 c68..87 dim
+r22 c90..91 dim
+r23 c0..11 fg=Primary
+r23 c11..17 dim
+r23 c18..21 fg=Primary
+r23 c21..36 dim
+r23 c37..57 dim
+r23 c58..62 dim
+r23 c85..91 dim
+
+== no-color
+                                                                                          │ ⎇ feature/work-dock · up t…
+USER                                                                                      │ ± 2 modified files
+Review the changes and continue.                                                          │ · Extract reusable work do…
+                                                                                          │
+                                                                                          │
+ASSISTANT                                                                                 │
+I’m checking the selected files and the running tasks.                                    │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+                                                                                          │
+╭────────────────────────────────────────────────────────────────────────────────────────╮│
+│❯ Keep the changes focused.                                                         [↵] ││
+╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
+---
+r0 c90..91 dim
+r0 c92..119 bold
+r1 c0..4 dim
+r1 c90..91 dim
+r2 c90..91 dim
+r2 c92..119 dim
+r3 c90..91 dim
+r4 c90..91 dim
+r5 c0..9 dim
+r5 c90..91 dim
+r6 c90..91 dim
+r7 c90..91 dim
+r8 c90..91 dim
+r9 c90..91 dim
+r10 c90..91 dim
+r11 c90..91 dim
+r12 c90..91 dim
+r13 c90..91 dim
+r14 c90..91 dim
+r15 c90..91 dim
+r16 c90..91 dim
+r17 c90..91 dim
+r18 c90..91 dim
+r19 c90..91 dim
+r20 c85..88 bold
+r20 c90..91 dim
+r21 c90..91 dim
+r22 c1..6 bold
+r22 c6..30 dim
+r22 c34..43 dim
+r22 c51..54 dim
+r22 c68..87 dim
+r22 c90..91 dim
+r23 c11..17 dim
+r23 c21..36 dim
+r23 c37..57 dim
+r23 c58..62 dim
+r23 c85..91 dim
+
+== ascii
+                                                                                          | @ feature/work-dock . up...
+USER                                                                                      | +/- 2 modified files
+Review the changes and continue.                                                          | . Extract reusable work...
+                                                                                          |
+                                                                                          |
+ASSISTANT                                                                                 |
+I'm checking the selected files and the running tasks.                                    |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
+                                                                                          |
++----------------------------------------------------------------------------------------+|
+|> Keep the changes focused.                                                         [>] ||
++Enter send -----------------------------------------------------------------------------+|
+ . ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   |
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   v 1.2K                       /help|
+---
+r0 c90..91 dim
+r0 c92..119 bold
+r1 c0..4 dim
+r1 c90..91 dim
+r2 c90..91 dim
+r2 c92..119 dim
+r3 c90..91 dim
+r4 c90..91 dim
+r5 c0..9 dim
+r5 c90..91 dim
+r6 c90..91 dim
+r7 c90..91 dim
+r8 c90..91 dim
+r9 c90..91 dim
+r10 c90..91 dim
+r11 c90..91 dim
+r12 c90..91 dim
+r13 c90..91 dim
+r14 c90..91 dim
+r15 c90..91 dim
+r16 c90..91 dim
+r17 c90..91 dim
+r18 c90..91 dim
+r19 c90..91 dim
+r20 c85..88 bold
+r20 c90..91 dim
+r21 c90..91 dim
+r22 c1..6 bold
+r22 c6..30 dim
+r22 c34..43 dim
+r22 c51..54 dim
+r22 c68..87 dim
+r22 c90..91 dim
+r23 c11..17 dim
+r23 c21..36 dim
+r23 c37..57 dim
+r23 c58..62 dim
+r23 c85..91 dim

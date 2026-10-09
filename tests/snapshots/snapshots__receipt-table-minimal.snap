@@ -1,0 +1,293 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..26 fg=Foreground bg=Background
+r0 c26..27 bg=Background
+r0 c27..33 fg=Foreground bg=Background
+r0 c33..40 bg=Background
+r1 c0..1 fg=Danger bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..27 bg=Background
+r1 c27..33 fg=Foreground bg=Background
+r1 c33..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..27 bg=Background
+r2 c27..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..27 bg=Background
+r3 c27..33 fg=Foreground bg=Background
+r3 c33..40 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..27 bg=Background
+r4 c27..33 fg=Foreground bg=Background
+r4 c33..40 bg=Background
+r5 c0..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background bold
+r5 c26..27 bg=Background
+r5 c27..33 fg=Foreground bg=Background bold
+r5 c33..40 bg=Background
+r6 c0..40 bg=Background
+
+== dark-graphite
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..26 fg=Foreground bg=Background
+r0 c26..27 bg=Background
+r0 c27..33 fg=Foreground bg=Background
+r0 c33..40 bg=Background
+r1 c0..1 fg=Danger bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..27 bg=Background
+r1 c27..33 fg=Foreground bg=Background
+r1 c33..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..27 bg=Background
+r2 c27..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..27 bg=Background
+r3 c27..33 fg=Foreground bg=Background
+r3 c33..40 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..27 bg=Background
+r4 c27..33 fg=Foreground bg=Background
+r4 c33..40 bg=Background
+r5 c0..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background bold
+r5 c26..27 bg=Background
+r5 c27..33 fg=Foreground bg=Background bold
+r5 c33..40 bg=Background
+r6 c0..40 bg=Background
+
+== light-truecolor
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..26 fg=Foreground bg=Background
+r0 c26..27 bg=Background
+r0 c27..33 fg=Foreground bg=Background
+r0 c33..40 bg=Background
+r1 c0..1 fg=Danger bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..27 bg=Background
+r1 c27..33 fg=Foreground bg=Background
+r1 c33..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..27 bg=Background
+r2 c27..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..27 bg=Background
+r3 c27..33 fg=Foreground bg=Background
+r3 c33..40 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..27 bg=Background
+r4 c27..33 fg=Foreground bg=Background
+r4 c33..40 bg=Background
+r5 c0..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background bold
+r5 c26..27 bg=Background
+r5 c27..33 fg=Foreground bg=Background bold
+r5 c33..40 bg=Background
+r6 c0..40 bg=Background
+
+== dark-256
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..26 fg=Foreground bg=Background
+r0 c26..27 bg=Background
+r0 c27..33 fg=Foreground bg=Background
+r0 c33..40 bg=Background
+r1 c0..1 fg=Danger bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..27 bg=Background
+r1 c27..33 fg=Foreground bg=Background
+r1 c33..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..27 bg=Background
+r2 c27..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..27 bg=Background
+r3 c27..33 fg=Foreground bg=Background
+r3 c33..40 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..27 bg=Background
+r4 c27..33 fg=Foreground bg=Background
+r4 c33..40 bg=Background
+r5 c0..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background bold
+r5 c26..27 bg=Background
+r5 c27..33 fg=Foreground bg=Background bold
+r5 c33..40 bg=Background
+r6 c0..40 bg=Background
+
+== light-256
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..26 fg=Foreground bg=Background|Surface
+r0 c26..27 bg=Background|Surface
+r0 c27..33 fg=Foreground bg=Background|Surface
+r0 c33..40 bg=Background|Surface
+r1 c0..1 fg=Danger bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..26 fg=Foreground bg=Background|Surface
+r1 c26..27 bg=Background|Surface
+r1 c27..33 fg=Foreground bg=Background|Surface
+r1 c33..40 bg=Background|Surface
+r2 c0..1 fg=Live bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..26 fg=Foreground bg=Background|Surface
+r2 c26..27 bg=Background|Surface
+r2 c27..33 fg=Foreground bg=Background|Surface
+r2 c33..40 bg=Background|Surface
+r3 c0..1 fg=Live bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..26 fg=Foreground bg=Background|Surface
+r3 c26..27 bg=Background|Surface
+r3 c27..33 fg=Foreground bg=Background|Surface
+r3 c33..40 bg=Background|Surface
+r4 c0..1 fg=Muted bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..26 fg=Foreground bg=Background|Surface
+r4 c26..27 bg=Background|Surface
+r4 c27..33 fg=Foreground bg=Background|Surface
+r4 c33..40 bg=Background|Surface
+r5 c0..2 bg=Background|Surface
+r5 c2..26 fg=Foreground bg=Background|Surface bold
+r5 c26..27 bg=Background|Surface
+r5 c27..33 fg=Foreground bg=Background|Surface bold
+r5 c33..40 bg=Background|Surface
+r6 c0..40 bg=Background|Surface
+
+== ansi-16
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live
+r1 c0..1 fg=Danger
+r2 c0..1 fg=Live
+r3 c0..1 fg=Live
+r4 c0..1 dim
+r5 c2..26 bold
+r5 c27..33 bold
+
+== unknown-ground
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r0 c0..1 fg=Live
+r1 c0..1 fg=Danger
+r2 c0..1 fg=Live
+r3 c0..1 fg=Live
+r4 c0..1 dim
+r5 c2..26 bold
+r5 c27..33 bold
+
+== no-color
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+● Writing CHANGELOG.md       38 s
+■ 整理发布说明，翻译成中文 1h 02m
+  Total                    1h 03m
+
+---
+r4 c0..1 dim
+r5 c2..26 bold
+r5 c27..33 bold
+
+== ascii
+Y Edited summary.md              4 s
+X Ran cargo test              1m 12s
+Y Read 14 files               850 ms
+. Writing CHANGELOG.md          38 s
+# Translate the release notes 1h 02m
+  Total                       1h 03m
+
+---
+r4 c0..1 dim
+r5 c2..29 bold
+r5 c30..36 bold

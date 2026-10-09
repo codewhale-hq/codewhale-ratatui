@@ -1,0 +1,488 @@
+---
+source: tests/approval.rs
+expression: "testing :: snapshot(18, paint)"
+---
+== dark-truecolor · 40x18
+┌──────────────────────────────────────┐
+│                                      │
+│ ◆ Needs you · Run a command          │
+│                                      │
+│ Requested by reviewer-3 (sub-agent)  │
+│ $ rm -rf ../build /tmp/cache         │
+│ ⚠ Outside this project               │
+│ In /Users/me/work/codewhale          │
+│ Risk: deletes files outside this     │
+│ project                              │
+│                                      │
+│   y Allow once                       │
+│   a Allow for this session           │
+│ ▸ n Deny ·   e Deny and say why      │
+│                                      │
+│ ←→ move · Enter choose · Esc cancel  │
+│                                      │
+└──────────────────────────────────────┘
+---
+r0 c0..40 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..39 bg=Surface
+r1 c39..40 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..39 bg=Surface
+r2 c39..40 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..39 bg=Surface
+r3 c39..40 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..25 fg=Foreground bg=Surface bold
+r4 c25..37 fg=Muted bg=Surface
+r4 c37..39 bg=Surface
+r4 c39..40 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..30 fg=Foreground bg=Surface bold
+r5 c30..39 bg=Surface
+r5 c39..40 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..24 fg=Attention bg=Surface bold
+r6 c24..39 bg=Surface
+r6 c39..40 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..29 fg=Foreground bg=Surface
+r7 c29..39 bg=Surface
+r7 c39..40 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..35 fg=Foreground bg=Surface
+r8 c35..39 bg=Surface
+r8 c39..40 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..2 bg=Surface
+r9 c2..9 fg=Foreground bg=Surface
+r9 c9..39 bg=Surface
+r9 c39..40 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..39 bg=Surface
+r10 c39..40 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..3 fg=Primary bg=Surface bold
+r11 c3..4 fg=Foreground bg=Surface
+r11 c4..5 fg=Foreground bg=Surface bold
+r11 c5..16 fg=Foreground bg=Surface
+r11 c16..39 bg=Surface
+r11 c39..40 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..2 bg=Surface
+r12 c2..3 fg=Primary bg=Surface bold
+r12 c3..4 fg=Foreground bg=Surface
+r12 c4..5 fg=Foreground bg=Surface bold
+r12 c5..28 fg=Foreground bg=Surface
+r12 c28..39 bg=Surface
+r12 c39..40 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..2 bg=Surface
+r13 c2..3 fg=Primary bg=Selected bold
+r13 c3..4 fg=Foreground bg=Selected
+r13 c4..5 fg=Foreground bg=Selected bold
+r13 c5..6 fg=Foreground bg=Selected
+r13 c6..10 fg=Foreground bg=Selected bold
+r13 c10..13 fg=Border bg=Surface
+r13 c13..14 fg=Primary bg=Surface bold
+r13 c14..15 fg=Foreground bg=Surface
+r13 c15..16 fg=Foreground bg=Surface bold
+r13 c16..33 fg=Foreground bg=Surface
+r13 c33..39 bg=Surface
+r13 c39..40 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..39 bg=Surface
+r14 c39..40 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..2 bg=Surface
+r15 c2..4 fg=Foreground bg=Surface bold
+r15 c4..5 bg=Surface
+r15 c5..9 fg=Muted bg=Surface
+r15 c9..12 fg=Border bg=Surface
+r15 c12..17 fg=Foreground bg=Surface bold
+r15 c17..18 bg=Surface
+r15 c18..24 fg=Muted bg=Surface
+r15 c24..27 fg=Border bg=Surface
+r15 c27..30 fg=Foreground bg=Surface bold
+r15 c30..31 bg=Surface
+r15 c31..37 fg=Muted bg=Surface
+r15 c37..39 bg=Surface
+r15 c39..40 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..39 bg=Surface
+r16 c39..40 fg=Primary bg=Surface
+r17 c0..40 fg=Primary bg=Surface
+
+== dark-truecolor · 80x18
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ ◆ Needs you · Run a command                                                  │
+│                                                                              │
+│ Requested by reviewer-3 (sub-agent)                                          │
+│ $ rm -rf ../build /tmp/cache                                                 │
+│ ⚠ Outside this project                                                       │
+│ In /Users/me/work/codewhale                                                  │
+│ Risk: deletes files outside this project                                     │
+│                                                                              │
+│   y Allow once ·   a Allow for this session · ▸ n Deny                       │
+│   e Deny and say why                                                         │
+│                                                                              │
+│ ←→ move · Enter choose · Esc cancel                                          │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..80 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..79 bg=Surface
+r1 c79..80 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..79 bg=Surface
+r2 c79..80 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..79 bg=Surface
+r3 c79..80 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..25 fg=Foreground bg=Surface bold
+r4 c25..37 fg=Muted bg=Surface
+r4 c37..79 bg=Surface
+r4 c79..80 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..30 fg=Foreground bg=Surface bold
+r5 c30..79 bg=Surface
+r5 c79..80 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..24 fg=Attention bg=Surface bold
+r6 c24..79 bg=Surface
+r6 c79..80 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..29 fg=Foreground bg=Surface
+r7 c29..79 bg=Surface
+r7 c79..80 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..42 fg=Foreground bg=Surface
+r8 c42..79 bg=Surface
+r8 c79..80 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..79 bg=Surface
+r9 c79..80 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..3 fg=Primary bg=Surface bold
+r10 c3..4 fg=Foreground bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..16 fg=Foreground bg=Surface
+r10 c16..19 fg=Border bg=Surface
+r10 c19..20 fg=Primary bg=Surface bold
+r10 c20..21 fg=Foreground bg=Surface
+r10 c21..22 fg=Foreground bg=Surface bold
+r10 c22..45 fg=Foreground bg=Surface
+r10 c45..48 fg=Border bg=Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..79 bg=Surface
+r10 c79..80 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..3 fg=Primary bg=Surface bold
+r11 c3..4 fg=Foreground bg=Surface
+r11 c4..5 fg=Foreground bg=Surface bold
+r11 c5..22 fg=Foreground bg=Surface
+r11 c22..79 bg=Surface
+r11 c79..80 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..79 bg=Surface
+r12 c79..80 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..2 bg=Surface
+r13 c2..4 fg=Foreground bg=Surface bold
+r13 c4..5 bg=Surface
+r13 c5..9 fg=Muted bg=Surface
+r13 c9..12 fg=Border bg=Surface
+r13 c12..17 fg=Foreground bg=Surface bold
+r13 c17..18 bg=Surface
+r13 c18..24 fg=Muted bg=Surface
+r13 c24..27 fg=Border bg=Surface
+r13 c27..30 fg=Foreground bg=Surface bold
+r13 c30..31 bg=Surface
+r13 c31..37 fg=Muted bg=Surface
+r13 c37..79 bg=Surface
+r13 c79..80 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..79 bg=Surface
+r14 c79..80 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..79 bg=Surface
+r15 c79..80 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..79 bg=Surface
+r16 c79..80 fg=Primary bg=Surface
+r17 c0..80 fg=Primary bg=Surface
+
+== dark-truecolor · 120x18
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                      │
+│ ◆ Needs you · Run a command                                                                                          │
+│                                                                                                                      │
+│ Requested by reviewer-3 (sub-agent)                                                                                  │
+│ $ rm -rf ../build /tmp/cache                                                                                         │
+│ ⚠ Outside this project                                                                                               │
+│ In /Users/me/work/codewhale                                                                                          │
+│ Risk: deletes files outside this project                                                                             │
+│                                                                                                                      │
+│   y Allow once ·   a Allow for this session · ▸ n Deny ·   e Deny and say why                                        │
+│                                                                                                                      │
+│ ←→ move · Enter choose · Esc cancel                                                                                  │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..120 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..119 bg=Surface
+r1 c119..120 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..119 bg=Surface
+r2 c119..120 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..119 bg=Surface
+r3 c119..120 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..25 fg=Foreground bg=Surface bold
+r4 c25..37 fg=Muted bg=Surface
+r4 c37..119 bg=Surface
+r4 c119..120 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..30 fg=Foreground bg=Surface bold
+r5 c30..119 bg=Surface
+r5 c119..120 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..24 fg=Attention bg=Surface bold
+r6 c24..119 bg=Surface
+r6 c119..120 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..29 fg=Foreground bg=Surface
+r7 c29..119 bg=Surface
+r7 c119..120 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..42 fg=Foreground bg=Surface
+r8 c42..119 bg=Surface
+r8 c119..120 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..119 bg=Surface
+r9 c119..120 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..3 fg=Primary bg=Surface bold
+r10 c3..4 fg=Foreground bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..16 fg=Foreground bg=Surface
+r10 c16..19 fg=Border bg=Surface
+r10 c19..20 fg=Primary bg=Surface bold
+r10 c20..21 fg=Foreground bg=Surface
+r10 c21..22 fg=Foreground bg=Surface bold
+r10 c22..45 fg=Foreground bg=Surface
+r10 c45..48 fg=Border bg=Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..59 fg=Border bg=Surface
+r10 c59..60 fg=Primary bg=Surface bold
+r10 c60..61 fg=Foreground bg=Surface
+r10 c61..62 fg=Foreground bg=Surface bold
+r10 c62..79 fg=Foreground bg=Surface
+r10 c79..119 bg=Surface
+r10 c119..120 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..119 bg=Surface
+r11 c119..120 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..2 bg=Surface
+r12 c2..4 fg=Foreground bg=Surface bold
+r12 c4..5 bg=Surface
+r12 c5..9 fg=Muted bg=Surface
+r12 c9..12 fg=Border bg=Surface
+r12 c12..17 fg=Foreground bg=Surface bold
+r12 c17..18 bg=Surface
+r12 c18..24 fg=Muted bg=Surface
+r12 c24..27 fg=Border bg=Surface
+r12 c27..30 fg=Foreground bg=Surface bold
+r12 c30..31 bg=Surface
+r12 c31..37 fg=Muted bg=Surface
+r12 c37..119 bg=Surface
+r12 c119..120 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..119 bg=Surface
+r13 c119..120 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..119 bg=Surface
+r14 c119..120 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..119 bg=Surface
+r15 c119..120 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..119 bg=Surface
+r16 c119..120 fg=Primary bg=Surface
+r17 c0..120 fg=Primary bg=Surface
+
+== no-color · 40x18
+┌──────────────────────────────────────┐
+│                                      │
+│ ◆ Needs you · Run a command          │
+│                                      │
+│ Requested by reviewer-3 (sub-agent)  │
+│ $ rm -rf ../build /tmp/cache         │
+│ ⚠ Outside this project               │
+│ In /Users/me/work/codewhale          │
+│ Risk: deletes files outside this     │
+│ project                              │
+│                                      │
+│   y Allow once                       │
+│   a Allow for this session           │
+│ ▸ n Deny ·   e Deny and say why      │
+│                                      │
+│ ←→ move · Enter choose · Esc cancel  │
+│                                      │
+└──────────────────────────────────────┘
+
+== no-color · 80x18
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ ◆ Needs you · Run a command                                                  │
+│                                                                              │
+│ Requested by reviewer-3 (sub-agent)                                          │
+│ $ rm -rf ../build /tmp/cache                                                 │
+│ ⚠ Outside this project                                                       │
+│ In /Users/me/work/codewhale                                                  │
+│ Risk: deletes files outside this project                                     │
+│                                                                              │
+│   y Allow once ·   a Allow for this session · ▸ n Deny                       │
+│   e Deny and say why                                                         │
+│                                                                              │
+│ ←→ move · Enter choose · Esc cancel                                          │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+== no-color · 120x18
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                      │
+│ ◆ Needs you · Run a command                                                                                          │
+│                                                                                                                      │
+│ Requested by reviewer-3 (sub-agent)                                                                                  │
+│ $ rm -rf ../build /tmp/cache                                                                                         │
+│ ⚠ Outside this project                                                                                               │
+│ In /Users/me/work/codewhale                                                                                          │
+│ Risk: deletes files outside this project                                                                             │
+│                                                                                                                      │
+│   y Allow once ·   a Allow for this session · ▸ n Deny ·   e Deny and say why                                        │
+│                                                                                                                      │
+│ ←→ move · Enter choose · Esc cancel                                                                                  │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+== ascii · 40x18
++--------------------------------------+
+|                                      |
+| * Needs you - Run a command          |
+|                                      |
+| Requested by reviewer-3 (sub-agent)  |
+| $ rm -rf ../build /tmp/cache         |
+| ! Outside this project               |
+| In /Users/me/work/codewhale          |
+| Risk: deletes files outside this     |
+| project                              |
+|                                      |
+|   y Allow once                       |
+|   a Allow for this session  > n Deny |
+|   e Deny and say why                 |
+|                                      |
+|                                      |
+|                                      |
++--------------------------------------+
+
+== ascii · 80x18
++------------------------------------------------------------------------------+
+|                                                                              |
+| * Needs you - Run a command                                                  |
+|                                                                              |
+| Requested by reviewer-3 (sub-agent)                                          |
+| $ rm -rf ../build /tmp/cache                                                 |
+| ! Outside this project                                                       |
+| In /Users/me/work/codewhale                                                  |
+| Risk: deletes files outside this project                                     |
+|                                                                              |
+|   y Allow once    a Allow for this session  > n Deny    e Deny and say why   |
+|                                                                              |
+| Left/Right move  Enter choose  Esc cancel                                    |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+== ascii · 120x18
++----------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                      |
+| * Needs you - Run a command                                                                                          |
+|                                                                                                                      |
+| Requested by reviewer-3 (sub-agent)                                                                                  |
+| $ rm -rf ../build /tmp/cache                                                                                         |
+| ! Outside this project                                                                                               |
+| In /Users/me/work/codewhale                                                                                          |
+| Risk: deletes files outside this project                                                                             |
+|                                                                                                                      |
+|   y Allow once    a Allow for this session  > n Deny    e Deny and say why                                           |
+|                                                                                                                      |
+| Left/Right move  Enter choose  Esc cancel                                                                            |
+|                                                                                                                      |
+|                                                                                                                      |
+|                                                                                                                      |
+|                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+

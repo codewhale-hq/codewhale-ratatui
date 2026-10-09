@@ -1,0 +1,759 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 fg=Foreground bg=Background bold
+r0 c36..80 bg=Background
+r1 c0..29 fg=Foreground bg=Background
+r1 c29..80 bg=Background
+r2 c0..16 fg=Foreground bg=Background
+r2 c16..80 bg=Background
+r3 c0..16 fg=Foreground bg=Background bold
+r3 c16..80 bg=Background
+r4 c0..29 fg=Muted bg=Background
+r4 c29..80 bg=Background
+r5 c0..6 fg=Muted bg=Background
+r5 c6..7 fg=Foreground bg=Background
+r5 c7..8 bg=Background
+r5 c8..19 fg=Foreground bg=Background
+r5 c19..80 bg=Background
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..31 fg=Foreground bg=Background
+r6 c31..80 bg=Background
+r7 c0..6 fg=Muted bg=DiffRemovedTint
+r7 c6..7 fg=Danger bg=DiffRemovedTint bold
+r7 c7..8 bg=DiffRemovedTint
+r7 c8..26 fg=Foreground bg=DiffRemovedTint
+r7 c26..80 bg=DiffRemovedTint
+r8 c0..6 fg=Muted bg=DiffAddedTint
+r8 c6..7 fg=Live bg=DiffAddedTint bold
+r8 c7..8 bg=DiffAddedTint
+r8 c8..26 fg=Foreground bg=DiffAddedTint
+r8 c26..80 bg=DiffAddedTint
+r9 c0..6 fg=Muted bg=DiffAddedTint
+r9 c6..7 fg=Live bg=DiffAddedTint bold
+r9 c7..8 bg=DiffAddedTint
+r9 c8..25 fg=Foreground bg=DiffAddedTint
+r9 c25..80 bg=DiffAddedTint
+r10 c0..6 fg=Muted bg=Background
+r10 c6..7 fg=Foreground bg=Background
+r10 c7..8 bg=Background
+r10 c8..31 fg=Foreground bg=Background
+r10 c31..80 bg=Background
+r11 c0..6 fg=Muted bg=Background
+r11 c6..7 fg=Foreground bg=Background
+r11 c7..8 bg=Background
+r11 c8..9 fg=Foreground bg=Background
+r11 c9..80 bg=Background
+r12 c0..28 fg=Muted bg=Background
+r12 c28..80 bg=Background
+r13 c0..6 fg=Muted bg=Background
+r13 c6..7 fg=Foreground bg=Background
+r13 c7..8 bg=Background
+r13 c8..42 fg=Foreground bg=Background
+r13 c42..80 bg=Background
+r14 c0..6 fg=Muted bg=DiffRemovedTint
+r14 c6..7 fg=Danger bg=DiffRemovedTint bold
+r14 c7..8 bg=DiffRemovedTint
+r14 c8..79 fg=Foreground bg=DiffRemovedTint
+r14 c79..80 fg=Muted bg=DiffRemovedTint
+r15 c0..6 fg=Muted bg=DiffAddedTint
+r15 c6..7 fg=Live bg=DiffAddedTint bold
+r15 c7..8 bg=DiffAddedTint
+r15 c8..79 fg=Foreground bg=DiffAddedTint
+r15 c79..80 fg=Muted bg=DiffAddedTint
+r16 c0..6 fg=Muted bg=Background
+r16 c6..7 fg=Foreground bg=Background
+r16 c7..8 bg=Background
+r16 c8..13 fg=Foreground bg=Background
+r16 c13..80 bg=Background
+r17 c0..28 fg=Muted bg=Background
+r17 c28..80 bg=Background
+r18 c0..6 fg=Muted bg=DiffRemovedTint
+r18 c6..7 fg=Danger bg=DiffRemovedTint bold
+r18 c7..8 bg=DiffRemovedTint
+r18 c8..42 fg=Foreground bg=DiffRemovedTint
+r18 c42..80 bg=DiffRemovedTint
+r19 c0..6 fg=Muted bg=DiffAddedTint
+r19 c6..7 fg=Live bg=DiffAddedTint bold
+r19 c7..8 bg=DiffAddedTint
+r19 c8..46 fg=Foreground bg=DiffAddedTint
+r19 c46..80 bg=DiffAddedTint
+r20 c0..6 fg=Muted bg=Background
+r20 c6..7 fg=Foreground bg=Background
+r20 c7..8 bg=Background
+r20 c8..9 fg=Foreground bg=Background
+r20 c9..80 bg=Background
+r21 c0..80 bg=Background
+
+== dark-graphite
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 fg=Foreground bg=Background bold
+r0 c36..80 bg=Background
+r1 c0..29 fg=Foreground bg=Background
+r1 c29..80 bg=Background
+r2 c0..16 fg=Foreground bg=Background
+r2 c16..80 bg=Background
+r3 c0..16 fg=Foreground bg=Background bold
+r3 c16..80 bg=Background
+r4 c0..29 fg=Muted bg=Background
+r4 c29..80 bg=Background
+r5 c0..6 fg=Muted bg=Background
+r5 c6..7 fg=Foreground bg=Background
+r5 c7..8 bg=Background
+r5 c8..19 fg=Foreground bg=Background
+r5 c19..80 bg=Background
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..31 fg=Foreground bg=Background
+r6 c31..80 bg=Background
+r7 c0..6 fg=Muted bg=DiffRemovedTint
+r7 c6..7 fg=Danger bg=DiffRemovedTint bold
+r7 c7..8 bg=DiffRemovedTint
+r7 c8..26 fg=Foreground bg=DiffRemovedTint
+r7 c26..80 bg=DiffRemovedTint
+r8 c0..6 fg=Muted bg=DiffAddedTint
+r8 c6..7 fg=Live bg=DiffAddedTint bold
+r8 c7..8 bg=DiffAddedTint
+r8 c8..26 fg=Foreground bg=DiffAddedTint
+r8 c26..80 bg=DiffAddedTint
+r9 c0..6 fg=Muted bg=DiffAddedTint
+r9 c6..7 fg=Live bg=DiffAddedTint bold
+r9 c7..8 bg=DiffAddedTint
+r9 c8..25 fg=Foreground bg=DiffAddedTint
+r9 c25..80 bg=DiffAddedTint
+r10 c0..6 fg=Muted bg=Background
+r10 c6..7 fg=Foreground bg=Background
+r10 c7..8 bg=Background
+r10 c8..31 fg=Foreground bg=Background
+r10 c31..80 bg=Background
+r11 c0..6 fg=Muted bg=Background
+r11 c6..7 fg=Foreground bg=Background
+r11 c7..8 bg=Background
+r11 c8..9 fg=Foreground bg=Background
+r11 c9..80 bg=Background
+r12 c0..28 fg=Muted bg=Background
+r12 c28..80 bg=Background
+r13 c0..6 fg=Muted bg=Background
+r13 c6..7 fg=Foreground bg=Background
+r13 c7..8 bg=Background
+r13 c8..42 fg=Foreground bg=Background
+r13 c42..80 bg=Background
+r14 c0..6 fg=Muted bg=DiffRemovedTint
+r14 c6..7 fg=Danger bg=DiffRemovedTint bold
+r14 c7..8 bg=DiffRemovedTint
+r14 c8..79 fg=Foreground bg=DiffRemovedTint
+r14 c79..80 fg=Muted bg=DiffRemovedTint
+r15 c0..6 fg=Muted bg=DiffAddedTint
+r15 c6..7 fg=Live bg=DiffAddedTint bold
+r15 c7..8 bg=DiffAddedTint
+r15 c8..79 fg=Foreground bg=DiffAddedTint
+r15 c79..80 fg=Muted bg=DiffAddedTint
+r16 c0..6 fg=Muted bg=Background
+r16 c6..7 fg=Foreground bg=Background
+r16 c7..8 bg=Background
+r16 c8..13 fg=Foreground bg=Background
+r16 c13..80 bg=Background
+r17 c0..28 fg=Muted bg=Background
+r17 c28..80 bg=Background
+r18 c0..6 fg=Muted bg=DiffRemovedTint
+r18 c6..7 fg=Danger bg=DiffRemovedTint bold
+r18 c7..8 bg=DiffRemovedTint
+r18 c8..42 fg=Foreground bg=DiffRemovedTint
+r18 c42..80 bg=DiffRemovedTint
+r19 c0..6 fg=Muted bg=DiffAddedTint
+r19 c6..7 fg=Live bg=DiffAddedTint bold
+r19 c7..8 bg=DiffAddedTint
+r19 c8..46 fg=Foreground bg=DiffAddedTint
+r19 c46..80 bg=DiffAddedTint
+r20 c0..6 fg=Muted bg=Background
+r20 c6..7 fg=Foreground bg=Background
+r20 c7..8 bg=Background
+r20 c8..9 fg=Foreground bg=Background
+r20 c9..80 bg=Background
+r21 c0..80 bg=Background
+
+== light-truecolor
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 fg=Foreground bg=Background bold
+r0 c36..80 bg=Background
+r1 c0..29 fg=Foreground bg=Background
+r1 c29..80 bg=Background
+r2 c0..16 fg=Foreground bg=Background
+r2 c16..80 bg=Background
+r3 c0..16 fg=Foreground bg=Background bold
+r3 c16..80 bg=Background
+r4 c0..29 fg=Muted bg=Background
+r4 c29..80 bg=Background
+r5 c0..6 fg=Muted bg=Background
+r5 c6..7 fg=Foreground bg=Background
+r5 c7..8 bg=Background
+r5 c8..19 fg=Foreground bg=Background
+r5 c19..80 bg=Background
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..31 fg=Foreground bg=Background
+r6 c31..80 bg=Background
+r7 c0..6 fg=Muted bg=DiffRemovedTint
+r7 c6..7 fg=Danger bg=DiffRemovedTint bold
+r7 c7..8 bg=DiffRemovedTint
+r7 c8..26 fg=Foreground bg=DiffRemovedTint
+r7 c26..80 bg=DiffRemovedTint
+r8 c0..6 fg=Muted bg=DiffAddedTint
+r8 c6..7 fg=Live bg=DiffAddedTint bold
+r8 c7..8 bg=DiffAddedTint
+r8 c8..26 fg=Foreground bg=DiffAddedTint
+r8 c26..80 bg=DiffAddedTint
+r9 c0..6 fg=Muted bg=DiffAddedTint
+r9 c6..7 fg=Live bg=DiffAddedTint bold
+r9 c7..8 bg=DiffAddedTint
+r9 c8..25 fg=Foreground bg=DiffAddedTint
+r9 c25..80 bg=DiffAddedTint
+r10 c0..6 fg=Muted bg=Background
+r10 c6..7 fg=Foreground bg=Background
+r10 c7..8 bg=Background
+r10 c8..31 fg=Foreground bg=Background
+r10 c31..80 bg=Background
+r11 c0..6 fg=Muted bg=Background
+r11 c6..7 fg=Foreground bg=Background
+r11 c7..8 bg=Background
+r11 c8..9 fg=Foreground bg=Background
+r11 c9..80 bg=Background
+r12 c0..28 fg=Muted bg=Background
+r12 c28..80 bg=Background
+r13 c0..6 fg=Muted bg=Background
+r13 c6..7 fg=Foreground bg=Background
+r13 c7..8 bg=Background
+r13 c8..42 fg=Foreground bg=Background
+r13 c42..80 bg=Background
+r14 c0..6 fg=Muted bg=DiffRemovedTint
+r14 c6..7 fg=Danger bg=DiffRemovedTint bold
+r14 c7..8 bg=DiffRemovedTint
+r14 c8..79 fg=Foreground bg=DiffRemovedTint
+r14 c79..80 fg=Muted bg=DiffRemovedTint
+r15 c0..6 fg=Muted bg=DiffAddedTint
+r15 c6..7 fg=Live bg=DiffAddedTint bold
+r15 c7..8 bg=DiffAddedTint
+r15 c8..79 fg=Foreground bg=DiffAddedTint
+r15 c79..80 fg=Muted bg=DiffAddedTint
+r16 c0..6 fg=Muted bg=Background
+r16 c6..7 fg=Foreground bg=Background
+r16 c7..8 bg=Background
+r16 c8..13 fg=Foreground bg=Background
+r16 c13..80 bg=Background
+r17 c0..28 fg=Muted bg=Background
+r17 c28..80 bg=Background
+r18 c0..6 fg=Muted bg=DiffRemovedTint
+r18 c6..7 fg=Danger bg=DiffRemovedTint bold
+r18 c7..8 bg=DiffRemovedTint
+r18 c8..42 fg=Foreground bg=DiffRemovedTint
+r18 c42..80 bg=DiffRemovedTint
+r19 c0..6 fg=Muted bg=DiffAddedTint
+r19 c6..7 fg=Live bg=DiffAddedTint bold
+r19 c7..8 bg=DiffAddedTint
+r19 c8..46 fg=Foreground bg=DiffAddedTint
+r19 c46..80 bg=DiffAddedTint
+r20 c0..6 fg=Muted bg=Background
+r20 c6..7 fg=Foreground bg=Background
+r20 c7..8 bg=Background
+r20 c8..9 fg=Foreground bg=Background
+r20 c9..80 bg=Background
+r21 c0..80 bg=Background
+
+== dark-256
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 fg=Foreground bg=Background bold
+r0 c36..80 bg=Background
+r1 c0..29 fg=Foreground bg=Background
+r1 c29..80 bg=Background
+r2 c0..16 fg=Foreground bg=Background
+r2 c16..80 bg=Background
+r3 c0..16 fg=Foreground bg=Background bold
+r3 c16..80 bg=Background
+r4 c0..29 fg=Muted bg=Background
+r4 c29..80 bg=Background
+r5 c0..6 fg=Muted bg=Background
+r5 c6..7 fg=Foreground bg=Background
+r5 c7..8 bg=Background
+r5 c8..19 fg=Foreground bg=Background
+r5 c19..80 bg=Background
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..31 fg=Foreground bg=Background
+r6 c31..80 bg=Background
+r7 c0..6 fg=Muted bg=DiffRemovedTint
+r7 c6..7 fg=Danger bg=DiffRemovedTint bold
+r7 c7..8 bg=DiffRemovedTint
+r7 c8..26 fg=Foreground bg=DiffRemovedTint
+r7 c26..80 bg=DiffRemovedTint
+r8 c0..6 fg=Muted bg=DiffAddedTint
+r8 c6..7 fg=Live bg=DiffAddedTint bold
+r8 c7..8 bg=DiffAddedTint
+r8 c8..26 fg=Foreground bg=DiffAddedTint
+r8 c26..80 bg=DiffAddedTint
+r9 c0..6 fg=Muted bg=DiffAddedTint
+r9 c6..7 fg=Live bg=DiffAddedTint bold
+r9 c7..8 bg=DiffAddedTint
+r9 c8..25 fg=Foreground bg=DiffAddedTint
+r9 c25..80 bg=DiffAddedTint
+r10 c0..6 fg=Muted bg=Background
+r10 c6..7 fg=Foreground bg=Background
+r10 c7..8 bg=Background
+r10 c8..31 fg=Foreground bg=Background
+r10 c31..80 bg=Background
+r11 c0..6 fg=Muted bg=Background
+r11 c6..7 fg=Foreground bg=Background
+r11 c7..8 bg=Background
+r11 c8..9 fg=Foreground bg=Background
+r11 c9..80 bg=Background
+r12 c0..28 fg=Muted bg=Background
+r12 c28..80 bg=Background
+r13 c0..6 fg=Muted bg=Background
+r13 c6..7 fg=Foreground bg=Background
+r13 c7..8 bg=Background
+r13 c8..42 fg=Foreground bg=Background
+r13 c42..80 bg=Background
+r14 c0..6 fg=Muted bg=DiffRemovedTint
+r14 c6..7 fg=Danger bg=DiffRemovedTint bold
+r14 c7..8 bg=DiffRemovedTint
+r14 c8..79 fg=Foreground bg=DiffRemovedTint
+r14 c79..80 fg=Muted bg=DiffRemovedTint
+r15 c0..6 fg=Muted bg=DiffAddedTint
+r15 c6..7 fg=Live bg=DiffAddedTint bold
+r15 c7..8 bg=DiffAddedTint
+r15 c8..79 fg=Foreground bg=DiffAddedTint
+r15 c79..80 fg=Muted bg=DiffAddedTint
+r16 c0..6 fg=Muted bg=Background
+r16 c6..7 fg=Foreground bg=Background
+r16 c7..8 bg=Background
+r16 c8..13 fg=Foreground bg=Background
+r16 c13..80 bg=Background
+r17 c0..28 fg=Muted bg=Background
+r17 c28..80 bg=Background
+r18 c0..6 fg=Muted bg=DiffRemovedTint
+r18 c6..7 fg=Danger bg=DiffRemovedTint bold
+r18 c7..8 bg=DiffRemovedTint
+r18 c8..42 fg=Foreground bg=DiffRemovedTint
+r18 c42..80 bg=DiffRemovedTint
+r19 c0..6 fg=Muted bg=DiffAddedTint
+r19 c6..7 fg=Live bg=DiffAddedTint bold
+r19 c7..8 bg=DiffAddedTint
+r19 c8..46 fg=Foreground bg=DiffAddedTint
+r19 c46..80 bg=DiffAddedTint
+r20 c0..6 fg=Muted bg=Background
+r20 c6..7 fg=Foreground bg=Background
+r20 c7..8 bg=Background
+r20 c8..9 fg=Foreground bg=Background
+r20 c9..80 bg=Background
+r21 c0..80 bg=Background
+
+== light-256
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 fg=Foreground bg=Background|Surface bold
+r0 c36..80 bg=Background|Surface
+r1 c0..29 fg=Foreground bg=Background|Surface
+r1 c29..80 bg=Background|Surface
+r2 c0..16 fg=Foreground bg=Background|Surface
+r2 c16..80 bg=Background|Surface
+r3 c0..16 fg=Foreground bg=Background|Surface bold
+r3 c16..80 bg=Background|Surface
+r4 c0..29 fg=Muted bg=Background|Surface
+r4 c29..80 bg=Background|Surface
+r5 c0..6 fg=Muted bg=Background|Surface
+r5 c6..7 fg=Foreground bg=Background|Surface
+r5 c7..8 bg=Background|Surface
+r5 c8..19 fg=Foreground bg=Background|Surface
+r5 c19..80 bg=Background|Surface
+r6 c0..6 fg=Muted bg=Background|Surface
+r6 c6..7 fg=Foreground bg=Background|Surface
+r6 c7..8 bg=Background|Surface
+r6 c8..31 fg=Foreground bg=Background|Surface
+r6 c31..80 bg=Background|Surface
+r7 c0..6 fg=Muted bg=DiffRemovedTint
+r7 c6..7 fg=Danger bg=DiffRemovedTint bold
+r7 c7..8 bg=DiffRemovedTint
+r7 c8..26 fg=Foreground bg=DiffRemovedTint
+r7 c26..80 bg=DiffRemovedTint
+r8 c0..6 fg=Muted bg=DiffAddedTint
+r8 c6..7 fg=Live bg=DiffAddedTint bold
+r8 c7..8 bg=DiffAddedTint
+r8 c8..26 fg=Foreground bg=DiffAddedTint
+r8 c26..80 bg=DiffAddedTint
+r9 c0..6 fg=Muted bg=DiffAddedTint
+r9 c6..7 fg=Live bg=DiffAddedTint bold
+r9 c7..8 bg=DiffAddedTint
+r9 c8..25 fg=Foreground bg=DiffAddedTint
+r9 c25..80 bg=DiffAddedTint
+r10 c0..6 fg=Muted bg=Background|Surface
+r10 c6..7 fg=Foreground bg=Background|Surface
+r10 c7..8 bg=Background|Surface
+r10 c8..31 fg=Foreground bg=Background|Surface
+r10 c31..80 bg=Background|Surface
+r11 c0..6 fg=Muted bg=Background|Surface
+r11 c6..7 fg=Foreground bg=Background|Surface
+r11 c7..8 bg=Background|Surface
+r11 c8..9 fg=Foreground bg=Background|Surface
+r11 c9..80 bg=Background|Surface
+r12 c0..28 fg=Muted bg=Background|Surface
+r12 c28..80 bg=Background|Surface
+r13 c0..6 fg=Muted bg=Background|Surface
+r13 c6..7 fg=Foreground bg=Background|Surface
+r13 c7..8 bg=Background|Surface
+r13 c8..42 fg=Foreground bg=Background|Surface
+r13 c42..80 bg=Background|Surface
+r14 c0..6 fg=Muted bg=DiffRemovedTint
+r14 c6..7 fg=Danger bg=DiffRemovedTint bold
+r14 c7..8 bg=DiffRemovedTint
+r14 c8..79 fg=Foreground bg=DiffRemovedTint
+r14 c79..80 fg=Muted bg=DiffRemovedTint
+r15 c0..6 fg=Muted bg=DiffAddedTint
+r15 c6..7 fg=Live bg=DiffAddedTint bold
+r15 c7..8 bg=DiffAddedTint
+r15 c8..79 fg=Foreground bg=DiffAddedTint
+r15 c79..80 fg=Muted bg=DiffAddedTint
+r16 c0..6 fg=Muted bg=Background|Surface
+r16 c6..7 fg=Foreground bg=Background|Surface
+r16 c7..8 bg=Background|Surface
+r16 c8..13 fg=Foreground bg=Background|Surface
+r16 c13..80 bg=Background|Surface
+r17 c0..28 fg=Muted bg=Background|Surface
+r17 c28..80 bg=Background|Surface
+r18 c0..6 fg=Muted bg=DiffRemovedTint
+r18 c6..7 fg=Danger bg=DiffRemovedTint bold
+r18 c7..8 bg=DiffRemovedTint
+r18 c8..42 fg=Foreground bg=DiffRemovedTint
+r18 c42..80 bg=DiffRemovedTint
+r19 c0..6 fg=Muted bg=DiffAddedTint
+r19 c6..7 fg=Live bg=DiffAddedTint bold
+r19 c7..8 bg=DiffAddedTint
+r19 c8..46 fg=Foreground bg=DiffAddedTint
+r19 c46..80 bg=DiffAddedTint
+r20 c0..6 fg=Muted bg=Background|Surface
+r20 c6..7 fg=Foreground bg=Background|Surface
+r20 c7..8 bg=Background|Surface
+r20 c8..9 fg=Foreground bg=Background|Surface
+r20 c9..80 bg=Background|Surface
+r21 c0..80 bg=Background|Surface
+
+== ansi-16
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 bold
+r3 c0..16 bold
+r4 c0..29 dim
+r5 c0..6 dim
+r6 c0..6 dim
+r7 c0..6 dim
+r7 c6..7 fg=Danger bold
+r8 c0..6 dim
+r8 c6..7 fg=Live bold
+r9 c0..6 dim
+r9 c6..7 fg=Live bold
+r10 c0..6 dim
+r11 c0..6 dim
+r12 c0..28 dim
+r13 c0..6 dim
+r14 c0..6 dim
+r14 c6..7 fg=Danger bold
+r14 c79..80 dim
+r15 c0..6 dim
+r15 c6..7 fg=Live bold
+r15 c79..80 dim
+r16 c0..6 dim
+r17 c0..28 dim
+r18 c0..6 dim
+r18 c6..7 fg=Danger bold
+r19 c0..6 dim
+r19 c6..7 fg=Live bold
+r20 c0..6 dim
+
+== unknown-ground
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 bold
+r3 c0..16 bold
+r4 c0..29 dim
+r5 c0..6 dim
+r6 c0..6 dim
+r7 c0..6 dim
+r7 c6..7 fg=Danger bold
+r8 c0..6 dim
+r8 c6..7 fg=Live bold
+r9 c0..6 dim
+r9 c6..7 fg=Live bold
+r10 c0..6 dim
+r11 c0..6 dim
+r12 c0..28 dim
+r13 c0..6 dim
+r14 c0..6 dim
+r14 c6..7 fg=Danger bold
+r14 c79..80 dim
+r15 c0..6 dim
+r15 c6..7 fg=Live bold
+r15 c79..80 dim
+r16 c0..6 dim
+r17 c0..28 dim
+r18 c0..6 dim
+r18 c6..7 fg=Danger bold
+r19 c0..6 dim
+r19 c6..7 fg=Live bold
+r20 c0..6 dim
+
+== no-color
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
+   42 +         format!("a pod of {} whales swimming together in the deep blue …
+42 43       }
+@@ -70,2 +71,2 @@ impl Pod {
+70    −     let note = "鲸鱼在深海里游动";
+   71 +     let note = "鲸鱼在深蓝的海里游动";
+71 72   }
+
+---
+r0 c0..36 bold
+r3 c0..16 bold
+r4 c0..29 dim
+r5 c0..6 dim
+r6 c0..6 dim
+r7 c0..6 dim
+r7 c6..7 bold
+r8 c0..6 dim
+r8 c6..7 bold
+r9 c0..6 dim
+r9 c6..7 bold
+r10 c0..6 dim
+r11 c0..6 dim
+r12 c0..28 dim
+r13 c0..6 dim
+r14 c0..6 dim
+r14 c6..7 bold
+r14 c79..80 dim
+r15 c0..6 dim
+r15 c6..7 bold
+r15 c79..80 dim
+r16 c0..6 dim
+r17 c0..28 dim
+r18 c0..6 dim
+r18 c6..7 bold
+r19 c0..6 dim
+r19 c6..7 bold
+r20 c0..6 dim
+
+== ascii
+diff --git a/src/lib.rs b/src/lib.rs
+index 3f2a1c9..8b7d4e0 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    -     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    -         format!("a pod of {} whales swimming together in the deep blu...
+   42 +         format!("a pod of {} whales swimming together in the deep blu...
+42 43       }
+
+
+
+
+
+---
+r0 c0..36 bold
+r3 c0..16 bold
+r4 c0..29 dim
+r5 c0..6 dim
+r6 c0..6 dim
+r7 c0..6 dim
+r7 c6..7 bold
+r8 c0..6 dim
+r8 c6..7 bold
+r9 c0..6 dim
+r9 c6..7 bold
+r10 c0..6 dim
+r11 c0..6 dim
+r12 c0..28 dim
+r13 c0..6 dim
+r14 c0..6 dim
+r14 c6..7 bold
+r14 c77..80 dim
+r15 c0..6 dim
+r15 c6..7 bold
+r15 c77..80 dim
+r16 c0..6 dim

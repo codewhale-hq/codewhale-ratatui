@@ -1,0 +1,73 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..40 bg=Surface
+
+== dark-graphite
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..40 bg=Surface
+
+== light-truecolor
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..40 bg=Surface
+
+== dark-256
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface|Hover
+r1 c2..16 fg=Foreground bg=Surface|Hover
+r1 c16..40 bg=Surface|Hover
+
+== light-256
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background|Surface
+r0 c4..40 bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..16 fg=Foreground bg=Background|Surface
+r1 c16..40 bg=Background|Surface
+
+== ansi-16
+Name
+  nightly-report
+---
+
+== unknown-ground
+Name
+  nightly-report
+---
+
+== no-color
+Name
+  nightly-report
+---
+
+== ascii
+Name
+  nightly-report
+---

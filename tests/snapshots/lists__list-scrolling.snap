@@ -1,0 +1,135 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(5, paint_list_scrolling)"
+---
+== dark-truecolor · 40x5
+  row 5                                │
+  row 6                                │
+  row 7                                █
+  row 8                                █
+▸ row 9                                │
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..39 bg=Background
+r0 c39..40 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..7 fg=Foreground bg=Background
+r1 c7..39 bg=Background
+r1 c39..40 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..39 bg=Background
+r2 c39..40 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Foreground bg=Background
+r3 c7..39 bg=Background
+r3 c39..40 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..38 bg=Selected
+r4 c38..39 bg=Background
+r4 c39..40 fg=Border bg=Background
+
+== dark-truecolor · 80x5
+  row 5                                                                        │
+  row 6                                                                        │
+  row 7                                                                        █
+  row 8                                                                        █
+▸ row 9                                                                        │
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..79 bg=Background
+r0 c79..80 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..7 fg=Foreground bg=Background
+r1 c7..79 bg=Background
+r1 c79..80 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..79 bg=Background
+r2 c79..80 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Foreground bg=Background
+r3 c7..79 bg=Background
+r3 c79..80 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..78 bg=Selected
+r4 c78..79 bg=Background
+r4 c79..80 fg=Border bg=Background
+
+== dark-truecolor · 120x5
+  row 5                                                                                                                │
+  row 6                                                                                                                │
+  row 7                                                                                                                █
+  row 8                                                                                                                █
+▸ row 9                                                                                                                │
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..119 bg=Background
+r0 c119..120 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..7 fg=Foreground bg=Background
+r1 c7..119 bg=Background
+r1 c119..120 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..119 bg=Background
+r2 c119..120 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Foreground bg=Background
+r3 c7..119 bg=Background
+r3 c119..120 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..118 bg=Selected
+r4 c118..119 bg=Background
+r4 c119..120 fg=Border bg=Background
+
+== no-color · 40x5
+  row 5                                │
+  row 6                                │
+  row 7                                █
+  row 8                                █
+▸ row 9                                │
+
+== no-color · 80x5
+  row 5                                                                        │
+  row 6                                                                        │
+  row 7                                                                        █
+  row 8                                                                        █
+▸ row 9                                                                        │
+
+== no-color · 120x5
+  row 5                                                                                                                │
+  row 6                                                                                                                │
+  row 7                                                                                                                █
+  row 8                                                                                                                █
+▸ row 9                                                                                                                │
+
+== ascii · 40x5
+  row 5                                |
+  row 6                                |
+  row 7                                #
+  row 8                                #
+> row 9                                |
+
+== ascii · 80x5
+  row 5                                                                        |
+  row 6                                                                        |
+  row 7                                                                        #
+  row 8                                                                        #
+> row 9                                                                        |
+
+== ascii · 120x5
+  row 5                                                                                                                |
+  row 6                                                                                                                |
+  row 7                                                                                                                #
+  row 8                                                                                                                #
+> row 9                                                                                                                |

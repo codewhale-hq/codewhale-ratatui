@@ -7,14 +7,13 @@
 
 use codewhale_ratatui::{
     Paint, State, Toast, Toasts, gallery,
-    testing::{self, Profile},
+    testing::{self, Frame, Profile},
 };
-use ratatui::style::Color;
 
 fn dump(entry: &gallery::Entry) -> String {
     let mut out = String::new();
     for profile in Profile::ALL {
-        let theme = profile.theme();
+        let theme = gallery::theme_for(entry, &profile.theme());
         let buf = gallery::render(entry, &theme);
         out.push_str(&format!("== {}\n", profile.name()));
         out.push_str(&testing::styled(&buf, &theme));
@@ -39,72 +38,21 @@ fn gallery_snapshots() {
     }
 }
 
-/// What each profile may put on the screen.
-fn color_allowed(profile: Profile, color: Color) -> bool {
-    match (profile, color) {
-        (_, Color::Reset) => true,
-        (Profile::NoColor | Profile::Ascii, _) => false,
-        (Profile::Ansi16 | Profile::UnknownGround, Color::Rgb(..) | Color::Indexed(_)) => false,
-        (Profile::Dark256 | Profile::Light256, Color::Rgb(..)) => false,
-        (Profile::Dark256 | Profile::Light256, Color::Indexed(i)) => i >= 16,
-        // Truecolor on a known ground paints exact RGB: tokens, and the
-        // whale's ombre and the horizon's fade blended from them.
-        (Profile::DarkTrue | Profile::DarkGraphite | Profile::LightTrue, c) => {
-            matches!(c, Color::Rgb(..))
-        }
-        (Profile::Dark256 | Profile::Light256, _) => false,
-        _ => true,
-    }
-}
-
+/// The rules every frame keeps live in `testing::rule_violations`, so a
+/// component's own test file can check its frames the same way.
 #[test]
 fn every_frame_keeps_the_rules() {
-    let mut broken = Vec::new();
-    for profile in Profile::ALL {
-        let theme = profile.theme();
-        for entry in gallery::entries() {
-            let buf = gallery::render(&entry, &theme);
-            let text = testing::text(&buf);
-            let at = format!("{} · {}", entry.name, profile.name());
-            // ASCII has no `…`; there `...` is the honest ellipsis.
-            if profile != Profile::Ascii && text.contains("...") {
-                broken.push(format!("{at}: `...` where the one ellipsis is `…`"));
-            }
-            if profile == Profile::Ascii && !text.is_ascii() {
-                broken.push(format!("{at}: non-ASCII glyph in ASCII-safe output"));
-            }
-            for banned in ['═', '≈', '∿'] {
-                if text.contains(banned) {
-                    broken.push(format!("{at}: `{banned}` rule"));
-                }
-            }
-            let rules = text
-                .lines()
-                // A horizon runs from the left edge; a panel's edge starts
-                // with a corner.
-                .filter(|l| {
-                    l.starts_with('─')
-                        && l.chars().filter(|c| *c == '─').count() * 2 > usize::from(entry.width)
-                })
-                .count();
-            if rules > 1 {
-                broken.push(format!("{at}: {rules} horizons; one per frame"));
-            }
-            for cell in buf.content() {
-                for color in [cell.fg, cell.bg] {
-                    if !color_allowed(profile, color) {
-                        broken.push(format!("{at}: {color:?} is not allowed here"));
-                        break;
-                    }
-                }
-            }
-            if !theme.paints_grounds() && buf.content().iter().any(|c| c.bg != Color::Reset) {
-                broken.push(format!("{at}: painted a ground the terminal cannot show"));
-            }
-        }
-    }
-    broken.dedup();
-    assert!(broken.is_empty(), "{}", broken.join("\n"));
+    let frames: Vec<Frame> = Profile::ALL
+        .into_iter()
+        .flat_map(|profile| {
+            let theme = profile.theme();
+            gallery::entries()
+                .into_iter()
+                .map(move |entry| Frame::new(entry.name, profile, gallery::render(&entry, &theme)))
+                .collect::<Vec<_>>()
+        })
+        .collect();
+    testing::assert_frames_keep_the_rules(&frames);
 }
 
 #[test]

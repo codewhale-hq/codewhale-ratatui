@@ -1,0 +1,84 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..40 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..31 fg=Foreground bg=Background
+r2 c31..40 bg=Background
+
+== dark-truecolor · 80x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..80 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..31 fg=Foreground bg=Background
+r2 c31..80 bg=Background
+
+== dark-truecolor · 120x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..120 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..31 fg=Foreground bg=Background
+r2 c31..120 bg=Background
+
+== no-color · 40x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+
+== no-color · 80x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+
+== no-color · 120x3
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+
+== ascii · 40x3
+Port
+> 70000
+X Enter a port from 1 to 65535.
+
+== ascii · 80x3
+Port
+> 70000
+X Enter a port from 1 to 65535.
+
+== ascii · 120x3
+Port
+> 70000
+X Enter a port from 1 to 65535.

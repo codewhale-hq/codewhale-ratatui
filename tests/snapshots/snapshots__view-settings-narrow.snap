@@ -1,0 +1,646 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..80 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..79 fg=Border bg=Background
+r1 c79..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..75 fg=Muted bg=Background
+r3 c75..76 bg=Background
+r3 c76..78 fg=Hint|Dim bg=Background
+r3 c78..80 bg=Background
+r4 c0..2 bg=Background
+r4 c2..32 fg=Muted bg=Background
+r4 c32..80 bg=Background
+r5 c0..2 bg=Background
+r5 c2..11 fg=Hint|Dim bg=Background bold underline
+r5 c11..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..74 fg=Foreground bg=Selected bold
+r6 c74..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..74 fg=Foreground bg=Background
+r7 c74..80 bg=Background
+r8 c0..2 bg=Background
+r8 c2..74 fg=Foreground bg=Background
+r8 c74..80 bg=Background
+r9 c0..2 bg=Background
+r9 c2..74 fg=Foreground bg=Background
+r9 c74..80 bg=Background
+r10 c0..2 bg=Background
+r10 c2..74 fg=Foreground bg=Background
+r10 c74..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..80 bg=Background
+r17 c0..2 bg=Background
+r17 c2..35 fg=Muted bg=Background
+r17 c35..80 bg=Background
+r18 c0..2 bg=Background
+r18 c2..61 fg=Muted bg=Background
+r18 c61..80 bg=Background
+r19 c0..2 bg=Background
+r19 c2..60 fg=Muted bg=Background
+r19 c60..80 bg=Background
+r20 c0..3 bg=Background
+r20 c3..8 fg=#e09948 bg=Background bold
+r20 c8..32 fg=Hint|Dim bg=Background
+r20 c32..36 fg=#7eb4e8 bg=Background
+r20 c36..45 fg=Hint|Dim bg=Background
+r20 c45..53 fg=Live bg=Background
+r20 c53..72 fg=Hint|Dim bg=Background
+r20 c72..80 bg=Background
+r21 c0..2 bg=Background
+r21 c2..8 fg=Primary bg=Background bold
+r21 c8..14 fg=Muted bg=Background
+r21 c14..15 bg=Background
+r21 c15..20 fg=Primary bg=Background bold
+r21 c20..24 fg=Muted bg=Background
+r21 c24..25 bg=Background
+r21 c25..32 fg=Primary bg=Background bold
+r21 c32..36 fg=Muted bg=Background
+r21 c36..37 bg=Background
+r21 c37..48 fg=Primary bg=Background bold
+r21 c48..54 fg=Muted bg=Background
+r21 c54..55 bg=Background
+r21 c55..60 fg=Primary bg=Background bold
+r21 c60..65 fg=Muted bg=Background
+r21 c65..80 bg=Background
+r22 c0..1 bg=Background
+r22 c1..79 fg=Border bg=Background
+r22 c79..80 bg=Background
+r23 c0..80 bg=Background
+
+== dark-graphite
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..80 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..79 fg=Border bg=Background
+r1 c79..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..75 fg=Muted bg=Background
+r3 c75..76 bg=Background
+r3 c76..78 fg=Hint|Dim bg=Background
+r3 c78..80 bg=Background
+r4 c0..2 bg=Background
+r4 c2..32 fg=Muted bg=Background
+r4 c32..80 bg=Background
+r5 c0..2 bg=Background
+r5 c2..11 fg=Hint|Dim bg=Background bold underline
+r5 c11..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..74 fg=Foreground bg=Selected bold
+r6 c74..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..74 fg=Foreground bg=Background
+r7 c74..80 bg=Background
+r8 c0..2 bg=Background
+r8 c2..74 fg=Foreground bg=Background
+r8 c74..80 bg=Background
+r9 c0..2 bg=Background
+r9 c2..74 fg=Foreground bg=Background
+r9 c74..80 bg=Background
+r10 c0..2 bg=Background
+r10 c2..74 fg=Foreground bg=Background
+r10 c74..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..80 bg=Background
+r17 c0..2 bg=Background
+r17 c2..35 fg=Muted bg=Background
+r17 c35..80 bg=Background
+r18 c0..2 bg=Background
+r18 c2..61 fg=Muted bg=Background
+r18 c61..80 bg=Background
+r19 c0..2 bg=Background
+r19 c2..60 fg=Muted bg=Background
+r19 c60..80 bg=Background
+r20 c0..3 bg=Background
+r20 c3..8 fg=#e09948 bg=Background bold
+r20 c8..32 fg=Hint|Dim bg=Background
+r20 c32..36 fg=#7eb4e8 bg=Background
+r20 c36..45 fg=Hint|Dim bg=Background
+r20 c45..53 fg=Live bg=Background
+r20 c53..72 fg=Hint|Dim bg=Background
+r20 c72..80 bg=Background
+r21 c0..2 bg=Background
+r21 c2..8 fg=Primary bg=Background bold
+r21 c8..14 fg=Muted bg=Background
+r21 c14..15 bg=Background
+r21 c15..20 fg=Primary bg=Background bold
+r21 c20..24 fg=Muted bg=Background
+r21 c24..25 bg=Background
+r21 c25..32 fg=Primary bg=Background bold
+r21 c32..36 fg=Muted bg=Background
+r21 c36..37 bg=Background
+r21 c37..48 fg=Primary bg=Background bold
+r21 c48..54 fg=Muted bg=Background
+r21 c54..55 bg=Background
+r21 c55..60 fg=Primary bg=Background bold
+r21 c60..65 fg=Muted bg=Background
+r21 c65..80 bg=Background
+r22 c0..1 bg=Background
+r22 c1..79 fg=Border bg=Background
+r22 c79..80 bg=Background
+r23 c0..80 bg=Background
+
+== light-truecolor
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..79 fg=Border
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..75 fg=Muted
+r3 c76..78 fg=Hint|Dim
+r4 c2..32 fg=Muted
+r5 c2..11 fg=Hint|Dim bold underline
+r6 c2..74 fg=Foreground bg=Selected bold
+r7 c2..74 fg=Foreground
+r8 c2..74 fg=Foreground
+r9 c2..74 fg=Foreground
+r10 c2..74 fg=Foreground
+r17 c2..35 fg=Muted
+r18 c2..61 fg=Muted
+r19 c2..60 fg=Muted
+r20 c3..8 fg=#92400e bold
+r20 c8..32 fg=Hint|Dim
+r20 c32..36 fg=#1636b2
+r20 c36..45 fg=Hint|Dim
+r20 c45..53 fg=Live
+r20 c53..72 fg=Hint|Dim
+r21 c2..8 fg=Primary bold
+r21 c8..14 fg=Muted
+r21 c15..20 fg=Primary bold
+r21 c20..24 fg=Muted
+r21 c25..32 fg=Primary bold
+r21 c32..36 fg=Muted
+r21 c37..48 fg=Primary bold
+r21 c48..54 fg=Muted
+r21 c55..60 fg=Primary bold
+r21 c60..65 fg=Muted
+r22 c1..79 fg=Border
+
+== dark-256
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..80 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r1 c11..79 fg=Border bg=Background|DiffAddedTint
+r1 c79..80 bg=Background|DiffAddedTint
+r2 c0..80 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..75 fg=Muted bg=Background|DiffAddedTint
+r3 c75..76 bg=Background|DiffAddedTint
+r3 c76..78 fg=Hint|Dim bg=Background|DiffAddedTint
+r3 c78..80 bg=Background|DiffAddedTint
+r4 c0..2 bg=Background|DiffAddedTint
+r4 c2..32 fg=Muted bg=Background|DiffAddedTint
+r4 c32..80 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..11 fg=Hint|Dim bg=Background|DiffAddedTint bold underline
+r5 c11..80 bg=Background|DiffAddedTint
+r6 c0..2 bg=Background|DiffAddedTint
+r6 c2..74 fg=Foreground bg=Selected bold
+r6 c74..80 bg=Background|DiffAddedTint
+r7 c0..2 bg=Background|DiffAddedTint
+r7 c2..74 fg=Foreground bg=Background|DiffAddedTint
+r7 c74..80 bg=Background|DiffAddedTint
+r8 c0..2 bg=Background|DiffAddedTint
+r8 c2..74 fg=Foreground bg=Background|DiffAddedTint
+r8 c74..80 bg=Background|DiffAddedTint
+r9 c0..2 bg=Background|DiffAddedTint
+r9 c2..74 fg=Foreground bg=Background|DiffAddedTint
+r9 c74..80 bg=Background|DiffAddedTint
+r10 c0..2 bg=Background|DiffAddedTint
+r10 c2..74 fg=Foreground bg=Background|DiffAddedTint
+r10 c74..80 bg=Background|DiffAddedTint
+r11 c0..80 bg=Background|DiffAddedTint
+r12 c0..80 bg=Background|DiffAddedTint
+r13 c0..80 bg=Background|DiffAddedTint
+r14 c0..80 bg=Background|DiffAddedTint
+r15 c0..80 bg=Background|DiffAddedTint
+r16 c0..80 bg=Background|DiffAddedTint
+r17 c0..2 bg=Background|DiffAddedTint
+r17 c2..35 fg=Muted bg=Background|DiffAddedTint
+r17 c35..80 bg=Background|DiffAddedTint
+r18 c0..2 bg=Background|DiffAddedTint
+r18 c2..61 fg=Muted bg=Background|DiffAddedTint
+r18 c61..80 bg=Background|DiffAddedTint
+r19 c0..2 bg=Background|DiffAddedTint
+r19 c2..60 fg=Muted bg=Background|DiffAddedTint
+r19 c60..80 bg=Background|DiffAddedTint
+r20 c0..3 bg=Background|DiffAddedTint
+r20 c3..8 fg=idx173 bg=Background|DiffAddedTint bold
+r20 c8..32 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c32..36 fg=idx110 bg=Background|DiffAddedTint
+r20 c36..45 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c45..53 fg=Live bg=Background|DiffAddedTint
+r20 c53..72 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c72..80 bg=Background|DiffAddedTint
+r21 c0..2 bg=Background|DiffAddedTint
+r21 c2..8 fg=Primary bg=Background|DiffAddedTint bold
+r21 c8..14 fg=Muted bg=Background|DiffAddedTint
+r21 c14..15 bg=Background|DiffAddedTint
+r21 c15..20 fg=Primary bg=Background|DiffAddedTint bold
+r21 c20..24 fg=Muted bg=Background|DiffAddedTint
+r21 c24..25 bg=Background|DiffAddedTint
+r21 c25..32 fg=Primary bg=Background|DiffAddedTint bold
+r21 c32..36 fg=Muted bg=Background|DiffAddedTint
+r21 c36..37 bg=Background|DiffAddedTint
+r21 c37..48 fg=Primary bg=Background|DiffAddedTint bold
+r21 c48..54 fg=Muted bg=Background|DiffAddedTint
+r21 c54..55 bg=Background|DiffAddedTint
+r21 c55..60 fg=Primary bg=Background|DiffAddedTint bold
+r21 c60..65 fg=Muted bg=Background|DiffAddedTint
+r21 c65..80 bg=Background|DiffAddedTint
+r22 c0..1 bg=Background|DiffAddedTint
+r22 c1..79 fg=Border bg=Background|DiffAddedTint
+r22 c79..80 bg=Background|DiffAddedTint
+r23 c0..80 bg=Background|DiffAddedTint
+
+== light-256
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..79 fg=Border
+r3 c2..14 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r3 c14..75 fg=Muted|Hint|Dim
+r3 c76..78 fg=Muted|Hint|Dim
+r4 c2..32 fg=Muted|Hint|Dim
+r5 c2..11 fg=Muted|Hint|Dim bold underline
+r6 c2..74 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r7 c2..74 fg=Foreground
+r8 c2..74 fg=Foreground
+r9 c2..74 fg=Foreground
+r10 c2..74 fg=Foreground
+r17 c2..35 fg=Muted|Hint|Dim
+r18 c2..61 fg=Muted|Hint|Dim
+r19 c2..60 fg=Muted|Hint|Dim
+r20 c3..8 fg=Attention bold
+r20 c8..32 fg=Muted|Hint|Dim
+r20 c32..36 fg=Primary
+r20 c36..45 fg=Muted|Hint|Dim
+r20 c45..53 fg=Live
+r20 c53..72 fg=Muted|Hint|Dim
+r21 c2..8 fg=Primary bold
+r21 c8..14 fg=Muted|Hint|Dim
+r21 c15..20 fg=Primary bold
+r21 c20..24 fg=Muted|Hint|Dim
+r21 c25..32 fg=Primary bold
+r21 c32..36 fg=Muted|Hint|Dim
+r21 c37..48 fg=Primary bold
+r21 c48..54 fg=Muted|Hint|Dim
+r21 c55..60 fg=Primary bold
+r21 c60..65 fg=Muted|Hint|Dim
+r22 c1..79 fg=Border
+
+== ansi-16
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..79 dim
+r3 c2..14 bold
+r3 c14..75 dim
+r3 c76..78 dim
+r4 c2..32 dim
+r5 c2..11 bold dim underline
+r6 c2..74 bold
+r17 c2..35 dim
+r18 c2..61 dim
+r19 c2..60 dim
+r20 c3..8 fg=Attention bold
+r20 c8..32 dim
+r20 c32..36 fg=Primary
+r20 c36..45 dim
+r20 c45..53 fg=Live
+r20 c53..72 dim
+r21 c2..8 fg=Primary bold
+r21 c8..14 dim
+r21 c15..20 fg=Primary bold
+r21 c20..24 dim
+r21 c25..32 fg=Primary bold
+r21 c32..36 dim
+r21 c37..48 fg=Primary bold
+r21 c48..54 dim
+r21 c55..60 fg=Primary bold
+r21 c60..65 dim
+r22 c1..79 dim
+
+== unknown-ground
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..79 dim
+r3 c2..14 bold
+r3 c14..75 dim
+r3 c76..78 dim
+r4 c2..32 dim
+r5 c2..11 bold dim underline
+r6 c2..74 bold
+r17 c2..35 dim
+r18 c2..61 dim
+r19 c2..60 dim
+r20 c3..8 fg=Attention bold
+r20 c8..32 dim
+r20 c32..36 fg=Primary
+r20 c36..45 dim
+r20 c45..53 fg=Live
+r20 c53..72 dim
+r21 c2..8 fg=Primary bold
+r21 c8..14 dim
+r21 c15..20 fg=Primary bold
+r21 c20..24 dim
+r21 c25..32 fg=Primary bold
+r21 c32..36 dim
+r21 c37..48 fg=Primary bold
+r21 c48..54 dim
+r21 c55..60 fg=Primary bold
+r21 c60..65 dim
+r22 c1..79 dim
+
+== no-color
+
+  Settings ────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   ›
+   Search: type to filter  (5/5)
+    Display
+  ❯Theme                underwater                               ‹ ›  user
+   Thinking backgroun…  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     ‹ ›  user
+   Transcript spacing   comfortable                              ‹ ›  user
+
+
+
+
+
+
+  Theme: underwater — Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 bold dim
+r1 c11..79 dim
+r3 c2..14 bold
+r3 c14..75 dim
+r3 c76..78 dim
+r4 c2..32 dim
+r5 c2..11 bold dim underline
+r6 c2..74 bold
+r17 c2..35 dim
+r18 c2..61 dim
+r19 c2..60 dim
+r20 c3..8 bold
+r20 c8..32 dim
+r20 c36..45 dim
+r20 c53..72 dim
+r21 c2..8 bold
+r21 c8..14 dim
+r21 c15..20 bold
+r21 c20..24 dim
+r21 c25..32 bold
+r21 c32..36 dim
+r21 c37..48 bold
+r21 c48..54 dim
+r21 c55..60 bold
+r21 c60..65 dim
+r22 c1..79 dim
+
+== ascii
+
+  Settings --------------------------------------------------------------------
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion   >
+   Search: type to filter  (5/5)
+    Display
+  >Theme                underwater                               < >  user
+   Thinking backgro...  true                                     [x]  user
+   Contextual tips      true                                     [x]  user
+   Inline file changes  full                                     < >  user
+   Transcript spacing   comfortable                              < >  user
+
+
+
+
+
+
+  Theme: underwater - Enter to edit
+  current: underwater  saved: underwater  startup: underwater
+  source: settings.toml  scope: user  apply: applies on save
+   . ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   type filter  Up/Dn move  Enter edit  PgUp/PgDn scroll  Esc close
+ ------------------------------------------------------------------------------
+
+---
+r1 c1..11 bold dim
+r1 c11..79 dim
+r3 c2..14 bold
+r3 c14..75 dim
+r3 c76..78 dim
+r4 c2..32 dim
+r5 c2..11 bold dim underline
+r6 c2..74 bold
+r17 c2..35 dim
+r18 c2..61 dim
+r19 c2..60 dim
+r20 c3..8 bold
+r20 c8..32 dim
+r20 c36..45 dim
+r20 c53..72 dim
+r21 c2..8 bold
+r21 c8..14 dim
+r21 c15..22 bold
+r21 c22..26 dim
+r21 c27..34 bold
+r21 c34..38 dim
+r21 c39..50 bold
+r21 c50..56 dim
+r21 c57..62 bold
+r21 c62..67 dim
+r22 c1..79 dim

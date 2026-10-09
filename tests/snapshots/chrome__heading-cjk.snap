@@ -1,0 +1,56 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(2, heading_cjk)"
+---
+== dark-truecolor · 40x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                         已修改 3 项
+---
+r0 c0..40 fg=Foreground bg=Background bold
+r1 c0..4 fg=Foreground bg=Background bold
+r1 c4..29 bg=Background
+r1 c29..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                 已修改 3 项
+---
+r0 c0..40 fg=Foreground bg=Background bold
+r0 c40..80 bg=Background
+r1 c0..4 fg=Foreground bg=Background bold
+r1 c4..69 bg=Background
+r1 c69..80 fg=Muted bg=Background
+
+== dark-truecolor · 120x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                                                         已修改 3 项
+---
+r0 c0..40 fg=Foreground bg=Background bold
+r0 c40..120 bg=Background
+r1 c0..4 fg=Foreground bg=Background bold
+r1 c4..109 bg=Background
+r1 c109..120 fg=Muted bg=Background
+
+== no-color · 40x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                         已修改 3 项
+
+== no-color · 80x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                 已修改 3 项
+
+== no-color · 120x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                                                         已修改 3 项
+
+== ascii · 40x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                         已修改 3 项
+
+== ascii · 80x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                 已修改 3 项
+
+== ascii · 120x2
+鲸鱼的设置页面标题非常非常长，终端放不下
+设置                                                                                                         已修改 3 项

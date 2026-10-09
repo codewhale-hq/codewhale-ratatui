@@ -1,0 +1,536 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..16 fg=Muted bg=Background
+r1 c16..64 fg=BorderStrong bg=Surface
+r1 c64..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..17 fg=BorderStrong bg=Surface
+r2 c17..63 bg=Surface
+r2 c63..64 fg=BorderStrong bg=Surface
+r2 c64..80 bg=Background
+r3 c0..16 fg=Muted bg=Background
+r3 c16..17 fg=BorderStrong bg=Surface
+r3 c17..18 bg=Surface
+r3 c18..44 fg=Foreground bg=Surface bold
+r3 c44..63 bg=Surface
+r3 c63..64 fg=BorderStrong bg=Surface
+r3 c64..80 bg=Background
+r4 c0..16 fg=Muted bg=Background
+r4 c16..17 fg=BorderStrong bg=Surface
+r4 c17..63 bg=Surface
+r4 c63..64 fg=BorderStrong bg=Surface
+r4 c64..80 bg=Background
+r5 c0..16 fg=Muted bg=Background
+r5 c16..17 fg=BorderStrong bg=Surface
+r5 c17..18 bg=Surface
+r5 c18..62 fg=Foreground bg=Surface
+r5 c62..63 bg=Surface
+r5 c63..64 fg=BorderStrong bg=Surface
+r5 c64..80 bg=Background
+r6 c0..16 fg=Muted bg=Background
+r6 c16..17 fg=BorderStrong bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..62 fg=Foreground bg=Surface
+r6 c62..63 bg=Surface
+r6 c63..64 fg=BorderStrong bg=Surface
+r6 c64..80 bg=Background
+r7 c0..16 fg=Muted bg=Background
+r7 c16..17 fg=BorderStrong bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..62 fg=Foreground bg=Surface
+r7 c62..63 bg=Surface
+r7 c63..64 fg=BorderStrong bg=Surface
+r7 c64..80 bg=Background
+r8 c0..16 fg=Muted bg=Background
+r8 c16..17 fg=BorderStrong bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..19 fg=Foreground bg=Surface bold
+r8 c19..20 bg=Surface
+r8 c20..24 fg=Muted bg=Surface
+r8 c24..27 fg=Border bg=Surface
+r8 c27..28 fg=Foreground bg=Surface bold
+r8 c28..29 bg=Surface
+r8 c29..41 fg=Muted bg=Surface
+r8 c41..63 bg=Surface
+r8 c63..64 fg=BorderStrong bg=Surface
+r8 c64..80 bg=Background
+r9 c0..16 fg=Muted bg=Background
+r9 c16..17 fg=BorderStrong bg=Surface
+r9 c17..63 bg=Surface
+r9 c63..64 fg=BorderStrong bg=Surface
+r9 c64..80 bg=Background
+r10 c0..16 fg=Muted bg=Background
+r10 c16..64 fg=BorderStrong bg=Surface
+r10 c64..80 bg=Background
+r11 c0..26 fg=Muted bg=Background
+r11 c26..80 bg=Background
+
+== dark-graphite
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..16 fg=Muted bg=Background
+r1 c16..64 fg=BorderStrong bg=Surface
+r1 c64..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..17 fg=BorderStrong bg=Surface
+r2 c17..63 bg=Surface
+r2 c63..64 fg=BorderStrong bg=Surface
+r2 c64..80 bg=Background
+r3 c0..16 fg=Muted bg=Background
+r3 c16..17 fg=BorderStrong bg=Surface
+r3 c17..18 bg=Surface
+r3 c18..44 fg=Foreground bg=Surface bold
+r3 c44..63 bg=Surface
+r3 c63..64 fg=BorderStrong bg=Surface
+r3 c64..80 bg=Background
+r4 c0..16 fg=Muted bg=Background
+r4 c16..17 fg=BorderStrong bg=Surface
+r4 c17..63 bg=Surface
+r4 c63..64 fg=BorderStrong bg=Surface
+r4 c64..80 bg=Background
+r5 c0..16 fg=Muted bg=Background
+r5 c16..17 fg=BorderStrong bg=Surface
+r5 c17..18 bg=Surface
+r5 c18..62 fg=Foreground bg=Surface
+r5 c62..63 bg=Surface
+r5 c63..64 fg=BorderStrong bg=Surface
+r5 c64..80 bg=Background
+r6 c0..16 fg=Muted bg=Background
+r6 c16..17 fg=BorderStrong bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..62 fg=Foreground bg=Surface
+r6 c62..63 bg=Surface
+r6 c63..64 fg=BorderStrong bg=Surface
+r6 c64..80 bg=Background
+r7 c0..16 fg=Muted bg=Background
+r7 c16..17 fg=BorderStrong bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..62 fg=Foreground bg=Surface
+r7 c62..63 bg=Surface
+r7 c63..64 fg=BorderStrong bg=Surface
+r7 c64..80 bg=Background
+r8 c0..16 fg=Muted bg=Background
+r8 c16..17 fg=BorderStrong bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..19 fg=Foreground bg=Surface bold
+r8 c19..20 bg=Surface
+r8 c20..24 fg=Muted bg=Surface
+r8 c24..27 fg=Border bg=Surface
+r8 c27..28 fg=Foreground bg=Surface bold
+r8 c28..29 bg=Surface
+r8 c29..41 fg=Muted bg=Surface
+r8 c41..63 bg=Surface
+r8 c63..64 fg=BorderStrong bg=Surface
+r8 c64..80 bg=Background
+r9 c0..16 fg=Muted bg=Background
+r9 c16..17 fg=BorderStrong bg=Surface
+r9 c17..63 bg=Surface
+r9 c63..64 fg=BorderStrong bg=Surface
+r9 c64..80 bg=Background
+r10 c0..16 fg=Muted bg=Background
+r10 c16..64 fg=BorderStrong bg=Surface
+r10 c64..80 bg=Background
+r11 c0..26 fg=Muted bg=Background
+r11 c26..80 bg=Background
+
+== light-truecolor
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..16 fg=Muted bg=Background
+r1 c16..64 fg=BorderStrong bg=Surface
+r1 c64..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..17 fg=BorderStrong bg=Surface
+r2 c17..63 bg=Surface
+r2 c63..64 fg=BorderStrong bg=Surface
+r2 c64..80 bg=Background
+r3 c0..16 fg=Muted bg=Background
+r3 c16..17 fg=BorderStrong bg=Surface
+r3 c17..18 bg=Surface
+r3 c18..44 fg=Foreground bg=Surface bold
+r3 c44..63 bg=Surface
+r3 c63..64 fg=BorderStrong bg=Surface
+r3 c64..80 bg=Background
+r4 c0..16 fg=Muted bg=Background
+r4 c16..17 fg=BorderStrong bg=Surface
+r4 c17..63 bg=Surface
+r4 c63..64 fg=BorderStrong bg=Surface
+r4 c64..80 bg=Background
+r5 c0..16 fg=Muted bg=Background
+r5 c16..17 fg=BorderStrong bg=Surface
+r5 c17..18 bg=Surface
+r5 c18..62 fg=Foreground bg=Surface
+r5 c62..63 bg=Surface
+r5 c63..64 fg=BorderStrong bg=Surface
+r5 c64..80 bg=Background
+r6 c0..16 fg=Muted bg=Background
+r6 c16..17 fg=BorderStrong bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..62 fg=Foreground bg=Surface
+r6 c62..63 bg=Surface
+r6 c63..64 fg=BorderStrong bg=Surface
+r6 c64..80 bg=Background
+r7 c0..16 fg=Muted bg=Background
+r7 c16..17 fg=BorderStrong bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..62 fg=Foreground bg=Surface
+r7 c62..63 bg=Surface
+r7 c63..64 fg=BorderStrong bg=Surface
+r7 c64..80 bg=Background
+r8 c0..16 fg=Muted bg=Background
+r8 c16..17 fg=BorderStrong bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..19 fg=Foreground bg=Surface bold
+r8 c19..20 bg=Surface
+r8 c20..24 fg=Muted bg=Surface
+r8 c24..27 fg=Border bg=Surface
+r8 c27..28 fg=Foreground bg=Surface bold
+r8 c28..29 bg=Surface
+r8 c29..41 fg=Muted bg=Surface
+r8 c41..63 bg=Surface
+r8 c63..64 fg=BorderStrong bg=Surface
+r8 c64..80 bg=Background
+r9 c0..16 fg=Muted bg=Background
+r9 c16..17 fg=BorderStrong bg=Surface
+r9 c17..63 bg=Surface
+r9 c63..64 fg=BorderStrong bg=Surface
+r9 c64..80 bg=Background
+r10 c0..16 fg=Muted bg=Background
+r10 c16..64 fg=BorderStrong bg=Surface
+r10 c64..80 bg=Background
+r11 c0..26 fg=Muted bg=Background
+r11 c26..80 bg=Background
+
+== dark-256
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..16 fg=Muted bg=Background
+r1 c16..64 fg=BorderStrong bg=Surface|Hover
+r1 c64..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..17 fg=BorderStrong bg=Surface|Hover
+r2 c17..63 bg=Surface|Hover
+r2 c63..64 fg=BorderStrong bg=Surface|Hover
+r2 c64..80 bg=Background
+r3 c0..16 fg=Muted bg=Background
+r3 c16..17 fg=BorderStrong bg=Surface|Hover
+r3 c17..18 bg=Surface|Hover
+r3 c18..44 fg=Foreground bg=Surface|Hover bold
+r3 c44..63 bg=Surface|Hover
+r3 c63..64 fg=BorderStrong bg=Surface|Hover
+r3 c64..80 bg=Background
+r4 c0..16 fg=Muted bg=Background
+r4 c16..17 fg=BorderStrong bg=Surface|Hover
+r4 c17..63 bg=Surface|Hover
+r4 c63..64 fg=BorderStrong bg=Surface|Hover
+r4 c64..80 bg=Background
+r5 c0..16 fg=Muted bg=Background
+r5 c16..17 fg=BorderStrong bg=Surface|Hover
+r5 c17..18 bg=Surface|Hover
+r5 c18..62 fg=Foreground bg=Surface|Hover
+r5 c62..63 bg=Surface|Hover
+r5 c63..64 fg=BorderStrong bg=Surface|Hover
+r5 c64..80 bg=Background
+r6 c0..16 fg=Muted bg=Background
+r6 c16..17 fg=BorderStrong bg=Surface|Hover
+r6 c17..18 bg=Surface|Hover
+r6 c18..62 fg=Foreground bg=Surface|Hover
+r6 c62..63 bg=Surface|Hover
+r6 c63..64 fg=BorderStrong bg=Surface|Hover
+r6 c64..80 bg=Background
+r7 c0..16 fg=Muted bg=Background
+r7 c16..17 fg=BorderStrong bg=Surface|Hover
+r7 c17..18 bg=Surface|Hover
+r7 c18..62 fg=Foreground bg=Surface|Hover
+r7 c62..63 bg=Surface|Hover
+r7 c63..64 fg=BorderStrong bg=Surface|Hover
+r7 c64..80 bg=Background
+r8 c0..16 fg=Muted bg=Background
+r8 c16..17 fg=BorderStrong bg=Surface|Hover
+r8 c17..18 bg=Surface|Hover
+r8 c18..19 fg=Foreground bg=Surface|Hover bold
+r8 c19..20 bg=Surface|Hover
+r8 c20..24 fg=Muted bg=Surface|Hover
+r8 c24..27 fg=Border bg=Surface|Hover
+r8 c27..28 fg=Foreground bg=Surface|Hover bold
+r8 c28..29 bg=Surface|Hover
+r8 c29..41 fg=Muted bg=Surface|Hover
+r8 c41..63 bg=Surface|Hover
+r8 c63..64 fg=BorderStrong bg=Surface|Hover
+r8 c64..80 bg=Background
+r9 c0..16 fg=Muted bg=Background
+r9 c16..17 fg=BorderStrong bg=Surface|Hover
+r9 c17..63 bg=Surface|Hover
+r9 c63..64 fg=BorderStrong bg=Surface|Hover
+r9 c64..80 bg=Background
+r10 c0..16 fg=Muted bg=Background
+r10 c16..64 fg=BorderStrong bg=Surface|Hover
+r10 c64..80 bg=Background
+r11 c0..26 fg=Muted bg=Background
+r11 c26..80 bg=Background
+
+== light-256
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 fg=Muted bg=Background|Surface
+r0 c17..80 bg=Background|Surface
+r1 c0..16 fg=Muted bg=Background|Surface
+r1 c16..64 fg=BorderStrong bg=Background|Surface
+r1 c64..80 bg=Background|Surface
+r2 c0..16 fg=Muted bg=Background|Surface
+r2 c16..17 fg=BorderStrong bg=Background|Surface
+r2 c17..63 bg=Background|Surface
+r2 c63..64 fg=BorderStrong bg=Background|Surface
+r2 c64..80 bg=Background|Surface
+r3 c0..16 fg=Muted bg=Background|Surface
+r3 c16..17 fg=BorderStrong bg=Background|Surface
+r3 c17..18 bg=Background|Surface
+r3 c18..44 fg=Foreground bg=Background|Surface bold
+r3 c44..63 bg=Background|Surface
+r3 c63..64 fg=BorderStrong bg=Background|Surface
+r3 c64..80 bg=Background|Surface
+r4 c0..16 fg=Muted bg=Background|Surface
+r4 c16..17 fg=BorderStrong bg=Background|Surface
+r4 c17..63 bg=Background|Surface
+r4 c63..64 fg=BorderStrong bg=Background|Surface
+r4 c64..80 bg=Background|Surface
+r5 c0..16 fg=Muted bg=Background|Surface
+r5 c16..17 fg=BorderStrong bg=Background|Surface
+r5 c17..18 bg=Background|Surface
+r5 c18..62 fg=Foreground bg=Background|Surface
+r5 c62..63 bg=Background|Surface
+r5 c63..64 fg=BorderStrong bg=Background|Surface
+r5 c64..80 bg=Background|Surface
+r6 c0..16 fg=Muted bg=Background|Surface
+r6 c16..17 fg=BorderStrong bg=Background|Surface
+r6 c17..18 bg=Background|Surface
+r6 c18..62 fg=Foreground bg=Background|Surface
+r6 c62..63 bg=Background|Surface
+r6 c63..64 fg=BorderStrong bg=Background|Surface
+r6 c64..80 bg=Background|Surface
+r7 c0..16 fg=Muted bg=Background|Surface
+r7 c16..17 fg=BorderStrong bg=Background|Surface
+r7 c17..18 bg=Background|Surface
+r7 c18..62 fg=Foreground bg=Background|Surface
+r7 c62..63 bg=Background|Surface
+r7 c63..64 fg=BorderStrong bg=Background|Surface
+r7 c64..80 bg=Background|Surface
+r8 c0..16 fg=Muted bg=Background|Surface
+r8 c16..17 fg=BorderStrong bg=Background|Surface
+r8 c17..18 bg=Background|Surface
+r8 c18..19 fg=Foreground bg=Background|Surface bold
+r8 c19..20 bg=Background|Surface
+r8 c20..24 fg=Muted bg=Background|Surface
+r8 c24..27 fg=Border bg=Background|Surface
+r8 c27..28 fg=Foreground bg=Background|Surface bold
+r8 c28..29 bg=Background|Surface
+r8 c29..41 fg=Muted bg=Background|Surface
+r8 c41..63 bg=Background|Surface
+r8 c63..64 fg=BorderStrong bg=Background|Surface
+r8 c64..80 bg=Background|Surface
+r9 c0..16 fg=Muted bg=Background|Surface
+r9 c16..17 fg=BorderStrong bg=Background|Surface
+r9 c17..63 bg=Background|Surface
+r9 c63..64 fg=BorderStrong bg=Background|Surface
+r9 c64..80 bg=Background|Surface
+r10 c0..16 fg=Muted bg=Background|Surface
+r10 c16..64 fg=BorderStrong bg=Background|Surface
+r10 c64..80 bg=Background|Surface
+r11 c0..26 fg=Muted bg=Background|Surface
+r11 c26..80 bg=Background|Surface
+
+== ansi-16
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 dim
+r1 c0..16 dim
+r2 c0..16 dim
+r3 c0..16 dim
+r3 c18..44 bold
+r4 c0..16 dim
+r5 c0..16 dim
+r6 c0..16 dim
+r7 c0..16 dim
+r8 c0..16 dim
+r8 c18..19 bold
+r8 c20..27 dim
+r8 c27..28 bold
+r8 c29..41 dim
+r9 c0..16 dim
+r10 c0..16 dim
+r11 c0..26 dim
+
+== unknown-ground
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 dim
+r1 c0..16 dim
+r2 c0..16 dim
+r3 c0..16 dim
+r3 c18..44 bold
+r4 c0..16 dim
+r5 c0..16 dim
+r6 c0..16 dim
+r7 c0..16 dim
+r8 c0..16 dim
+r8 c18..19 bold
+r8 c20..27 dim
+r8 c27..28 bold
+r8 c29..41 dim
+r9 c0..16 dim
+r10 c0..16 dim
+r11 c0..26 dim
+
+== no-color
+Edited summary.md
+Ran cargo test: ┌──────────────────────────────────────────────┐
+Read crates/tui/│                                              │
+Searched the web│ Stop the running workflow?                   │
+Edited settings.│                                              │
+Edited summary.m│ 2 agents are still working. Their edits so   │
+Ran cargo test: │ far are kept.                                │
+Read crates/tui/│                                              │
+Searched the web│ y stop · n keep running                      │
+Edited settings.│                                              │
+Edited summary.m└──────────────────────────────────────────────┘
+Ran cargo test: 212 passed
+---
+r0 c0..17 dim
+r1 c0..16 dim
+r2 c0..16 dim
+r3 c0..16 dim
+r3 c18..44 bold
+r4 c0..16 dim
+r5 c0..16 dim
+r6 c0..16 dim
+r7 c0..16 dim
+r8 c0..16 dim
+r8 c18..19 bold
+r8 c20..27 dim
+r8 c27..28 bold
+r8 c29..41 dim
+r9 c0..16 dim
+r10 c0..16 dim
+r11 c0..26 dim
+
+== ascii
+Edited summary.md
+Ran cargo test: +----------------------------------------------+
+Read crates/tui/|                                              |
+Searched the web| Stop the running workflow?                   |
+Edited settings.|                                              |
+Edited summary.m| 2 agents are still working. Their edits so   |
+Ran cargo test: | far are kept.                                |
+Read crates/tui/|                                              |
+Searched the web| y stop  n keep running                       |
+Edited settings.|                                              |
+Edited summary.m+----------------------------------------------+
+Ran cargo test: 212 passed
+---
+r0 c0..17 dim
+r1 c0..16 dim
+r2 c0..16 dim
+r3 c0..16 dim
+r3 c18..44 bold
+r4 c0..16 dim
+r5 c0..16 dim
+r6 c0..16 dim
+r7 c0..16 dim
+r8 c0..16 dim
+r8 c18..19 bold
+r8 c20..24 dim
+r8 c26..27 bold
+r8 c28..40 dim
+r9 c0..16 dim
+r10 c0..16 dim
+r11 c0..26 dim

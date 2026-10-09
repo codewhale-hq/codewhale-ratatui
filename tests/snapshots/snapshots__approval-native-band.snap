@@ -1,0 +1,464 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..70 bg=Background
+r4 c0..70 bg=Background
+r5 c0..70 bg=Background
+r6 c0..70 bg=Background
+r7 c0..70 bg=Background
+r8 c0..70 bg=Background
+r9 c0..70 bg=Background
+r10 c0..70 bg=Background
+r11 c0..70 bg=Background
+r12 c0..70 bg=Background
+r13 c0..70 fg=Border bg=Background
+r14 c0..37 fg=Primary bg=Background bold
+r14 c37..70 bg=Background
+r15 c0..24 fg=Foreground bg=Background
+r15 c24..70 bg=Background
+r16 c0..2 bg=Background
+r16 c2..10 fg=Primary bg=Background
+r16 c10..26 fg=Foreground bg=Background
+r16 c26..70 bg=Background
+r17 c0..4 bg=Background
+r17 c4..46 fg=Muted bg=Background
+r17 c46..70 bg=Background
+r18 c0..25 fg=Foreground bg=Background bold
+r18 c25..70 bg=Background
+r19 c0..18 fg=Foreground bg=Background
+r19 c18..70 bg=Background
+r20 c0..30 fg=Foreground bg=Background
+r20 c30..70 bg=Background
+r21 c0..34 fg=Foreground bg=Background
+r21 c34..70 bg=Background
+r22 c0..12 fg=Primary bg=Background bold
+r22 c12..70 bg=Background
+r23 c0..41 fg=Muted bg=Background
+r23 c41..59 fg=Primary bg=Background
+r23 c59..70 bg=Background
+
+== dark-graphite
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..70 bg=Background
+r4 c0..70 bg=Background
+r5 c0..70 bg=Background
+r6 c0..70 bg=Background
+r7 c0..70 bg=Background
+r8 c0..70 bg=Background
+r9 c0..70 bg=Background
+r10 c0..70 bg=Background
+r11 c0..70 bg=Background
+r12 c0..70 bg=Background
+r13 c0..70 fg=Border bg=Background
+r14 c0..37 fg=Primary bg=Background bold
+r14 c37..70 bg=Background
+r15 c0..24 fg=Foreground bg=Background
+r15 c24..70 bg=Background
+r16 c0..2 bg=Background
+r16 c2..10 fg=Primary bg=Background
+r16 c10..26 fg=Foreground bg=Background
+r16 c26..70 bg=Background
+r17 c0..4 bg=Background
+r17 c4..46 fg=Muted bg=Background
+r17 c46..70 bg=Background
+r18 c0..25 fg=Foreground bg=Background bold
+r18 c25..70 bg=Background
+r19 c0..18 fg=Foreground bg=Background
+r19 c18..70 bg=Background
+r20 c0..30 fg=Foreground bg=Background
+r20 c30..70 bg=Background
+r21 c0..34 fg=Foreground bg=Background
+r21 c34..70 bg=Background
+r22 c0..12 fg=Primary bg=Background bold
+r22 c12..70 bg=Background
+r23 c0..41 fg=Muted bg=Background
+r23 c41..59 fg=Primary bg=Background
+r23 c59..70 bg=Background
+
+== light-truecolor
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..70 bg=Background
+r4 c0..70 bg=Background
+r5 c0..70 bg=Background
+r6 c0..70 bg=Background
+r7 c0..70 bg=Background
+r8 c0..70 bg=Background
+r9 c0..70 bg=Background
+r10 c0..70 bg=Background
+r11 c0..70 bg=Background
+r12 c0..70 bg=Background
+r13 c0..70 fg=Border bg=Background
+r14 c0..37 fg=Primary bg=Background bold
+r14 c37..70 bg=Background
+r15 c0..24 fg=Foreground bg=Background
+r15 c24..70 bg=Background
+r16 c0..2 bg=Background
+r16 c2..10 fg=Primary bg=Background
+r16 c10..26 fg=Foreground bg=Background
+r16 c26..70 bg=Background
+r17 c0..4 bg=Background
+r17 c4..46 fg=Muted bg=Background
+r17 c46..70 bg=Background
+r18 c0..25 fg=Foreground bg=Background bold
+r18 c25..70 bg=Background
+r19 c0..18 fg=Foreground bg=Background
+r19 c18..70 bg=Background
+r20 c0..30 fg=Foreground bg=Background
+r20 c30..70 bg=Background
+r21 c0..34 fg=Foreground bg=Background
+r21 c34..70 bg=Background
+r22 c0..12 fg=Primary bg=Background bold
+r22 c12..70 bg=Background
+r23 c0..41 fg=Muted bg=Background
+r23 c41..59 fg=Primary bg=Background
+r23 c59..70 bg=Background
+
+== dark-256
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
+r2 c0..70 bg=Background
+r3 c0..70 bg=Background
+r4 c0..70 bg=Background
+r5 c0..70 bg=Background
+r6 c0..70 bg=Background
+r7 c0..70 bg=Background
+r8 c0..70 bg=Background
+r9 c0..70 bg=Background
+r10 c0..70 bg=Background
+r11 c0..70 bg=Background
+r12 c0..70 bg=Background
+r13 c0..70 fg=Border bg=Background
+r14 c0..37 fg=Primary bg=Background bold
+r14 c37..70 bg=Background
+r15 c0..24 fg=Foreground bg=Background
+r15 c24..70 bg=Background
+r16 c0..2 bg=Background
+r16 c2..10 fg=Primary bg=Background
+r16 c10..26 fg=Foreground bg=Background
+r16 c26..70 bg=Background
+r17 c0..4 bg=Background
+r17 c4..46 fg=Muted bg=Background
+r17 c46..70 bg=Background
+r18 c0..25 fg=Foreground bg=Background bold
+r18 c25..70 bg=Background
+r19 c0..18 fg=Foreground bg=Background
+r19 c18..70 bg=Background
+r20 c0..30 fg=Foreground bg=Background
+r20 c30..70 bg=Background
+r21 c0..34 fg=Foreground bg=Background
+r21 c34..70 bg=Background
+r22 c0..12 fg=Primary bg=Background bold
+r22 c12..70 bg=Background
+r23 c0..41 fg=Muted bg=Background
+r23 c41..59 fg=Primary bg=Background
+r23 c59..70 bg=Background
+
+== light-256
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r0 c0..70 bg=Background|Surface
+r1 c0..70 bg=Background|Surface
+r2 c0..70 bg=Background|Surface
+r3 c0..70 bg=Background|Surface
+r4 c0..70 bg=Background|Surface
+r5 c0..70 bg=Background|Surface
+r6 c0..70 bg=Background|Surface
+r7 c0..70 bg=Background|Surface
+r8 c0..70 bg=Background|Surface
+r9 c0..70 bg=Background|Surface
+r10 c0..70 bg=Background|Surface
+r11 c0..70 bg=Background|Surface
+r12 c0..70 bg=Background|Surface
+r13 c0..70 fg=Border bg=Background|Surface
+r14 c0..37 fg=Primary bg=Background|Surface bold
+r14 c37..70 bg=Background|Surface
+r15 c0..24 fg=Foreground bg=Background|Surface
+r15 c24..70 bg=Background|Surface
+r16 c0..2 bg=Background|Surface
+r16 c2..10 fg=Primary bg=Background|Surface
+r16 c10..26 fg=Foreground bg=Background|Surface
+r16 c26..70 bg=Background|Surface
+r17 c0..4 bg=Background|Surface
+r17 c4..46 fg=Muted bg=Background|Surface
+r17 c46..70 bg=Background|Surface
+r18 c0..25 fg=Foreground bg=Background|Surface bold
+r18 c25..70 bg=Background|Surface
+r19 c0..18 fg=Foreground bg=Background|Surface
+r19 c18..70 bg=Background|Surface
+r20 c0..30 fg=Foreground bg=Background|Surface
+r20 c30..70 bg=Background|Surface
+r21 c0..34 fg=Foreground bg=Background|Surface
+r21 c34..70 bg=Background|Surface
+r22 c0..12 fg=Primary bg=Background|Surface bold
+r22 c12..70 bg=Background|Surface
+r23 c0..41 fg=Muted bg=Background|Surface
+r23 c41..59 fg=Primary bg=Background|Surface
+r23 c59..70 bg=Background|Surface
+
+== ansi-16
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r13 c0..70 dim
+r14 c0..37 fg=Primary bold
+r16 c2..10 fg=Primary
+r17 c4..46 dim
+r18 c0..25 bold
+r22 c0..12 fg=Primary bold
+r23 c0..41 dim
+r23 c41..59 fg=Primary dim
+
+== unknown-ground
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r13 c0..70 dim
+r14 c0..37 fg=Primary bold
+r16 c2..10 fg=Primary
+r17 c4..46 dim
+r18 c0..25 bold
+r22 c0..12 fg=Primary bold
+r23 c0..41 dim
+r23 c41..59 fg=Primary dim
+
+== no-color
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────────────────────────────────────────────
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r13 c0..70 dim
+r14 c0..37 bold
+r17 c4..46 dim
+r18 c0..25 bold
+r22 c0..12 bold
+r23 c0..59 dim
+
+== ascii
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+  Runs a command: verify this project
+  cargo test --workspace
+  Save:   always ask first
+    run cargo test --workspace in this project
+  Do you want to proceed?
+  [1/y] Allow once
+  [2/a] Allow for this session
+  [p] Save this exact project rule
+> [3/n] Deny
+  Enter chooses; Esc stops; Alt+V details / s save ask rule
+---
+r13 c0..70 dim
+r14 c0..37 bold
+r17 c4..46 dim
+r18 c0..25 bold
+r22 c0..12 bold
+r23 c0..59 dim

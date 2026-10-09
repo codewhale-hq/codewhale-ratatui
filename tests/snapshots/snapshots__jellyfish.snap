@@ -1,0 +1,198 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..17 bg=Background
+r3 c17..22 fg=Hint bg=Background
+r3 c22..40 bg=Background
+r4 c0..17 bg=Background
+r4 c17..22 fg=Dim bg=Background
+r4 c22..40 bg=Background
+r5 c0..17 bg=Background
+r5 c17..22 fg=Dim bg=Background
+r5 c22..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+
+== dark-graphite
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..17 bg=Background
+r3 c17..22 fg=Hint bg=Background
+r3 c22..40 bg=Background
+r4 c0..17 bg=Background
+r4 c17..22 fg=Dim bg=Background
+r4 c22..40 bg=Background
+r5 c0..17 bg=Background
+r5 c17..22 fg=Dim bg=Background
+r5 c22..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+
+== light-truecolor
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..17 bg=Background
+r3 c17..22 fg=Hint bg=Background
+r3 c22..40 bg=Background
+r4 c0..17 bg=Background
+r4 c17..22 fg=Dim bg=Background
+r4 c22..40 bg=Background
+r5 c0..17 bg=Background
+r5 c17..22 fg=Dim bg=Background
+r5 c22..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+
+== dark-256
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..17 bg=Background
+r3 c17..22 fg=Hint bg=Background
+r3 c22..40 bg=Background
+r4 c0..17 bg=Background
+r4 c17..22 fg=Dim bg=Background
+r4 c22..40 bg=Background
+r5 c0..17 bg=Background
+r5 c17..22 fg=Dim bg=Background
+r5 c22..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+
+== light-256
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background|Surface
+r1 c0..40 bg=Background|Surface
+r2 c0..40 bg=Background|Surface
+r3 c0..17 bg=Background|Surface
+r3 c17..22 fg=Hint bg=Background|Surface
+r3 c22..40 bg=Background|Surface
+r4 c0..17 bg=Background|Surface
+r4 c17..22 fg=Dim bg=Background|Surface
+r4 c22..40 bg=Background|Surface
+r5 c0..17 bg=Background|Surface
+r5 c17..22 fg=Dim bg=Background|Surface
+r5 c22..40 bg=Background|Surface
+r6 c0..40 bg=Background|Surface
+r7 c0..40 bg=Background|Surface
+r8 c0..40 bg=Background|Surface
+
+== ansi-16
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r3 c17..22 dim
+r4 c17..22 dim
+r5 c17..22 dim
+
+== unknown-ground
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r3 c17..22 dim
+r4 c17..22 dim
+r5 c17..22 dim
+
+== no-color
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r3 c17..22 dim
+r4 c17..22 dim
+r5 c17..22 dim
+
+== ascii
+
+
+
+                  .-.
+                  \_/
+                  | |
+
+
+
+---
+r3 c18..21 dim
+r4 c18..21 dim
+r5 c18..21 dim

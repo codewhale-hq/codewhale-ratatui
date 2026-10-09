@@ -1,0 +1,242 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 fg=Muted bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..17 fg=Foreground bg=Selected bold
+r0 c17..73 bg=Selected
+r0 c73..80 fg=Primary bg=Selected
+r1 c0..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..11 fg=Foreground bg=Selected
+r1 c11..14 fg=Dim bg=Selected
+r1 c14..18 fg=Muted bg=Selected
+r1 c18..21 fg=Dim bg=Selected
+r1 c21..26 fg=Muted bg=Selected
+r1 c26..27 fg=Hint bg=Selected
+r1 c27..30 fg=Dim bg=Selected
+r1 c30..54 fg=Muted bg=Selected
+r1 c54..80 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..14 fg=Foreground bg=Background
+r2 c14..70 bg=Background
+r2 c70..80 fg=Primary bg=Background
+r3 c0..2 bg=Background
+r3 c2..3 fg=Danger bg=Background
+r3 c3..4 bg=Background
+r3 c4..10 fg=Foreground bg=Background
+r3 c10..13 fg=Dim bg=Background
+r3 c13..16 fg=Muted bg=Background
+r3 c16..19 fg=Dim bg=Background
+r3 c19..45 fg=Muted bg=Background
+r3 c45..80 bg=Background
+
+== dark-graphite
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 fg=Muted bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..17 fg=Foreground bg=Selected bold
+r0 c17..73 bg=Selected
+r0 c73..80 fg=Primary bg=Selected
+r1 c0..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..11 fg=Foreground bg=Selected
+r1 c11..14 fg=Dim bg=Selected
+r1 c14..18 fg=Muted bg=Selected
+r1 c18..21 fg=Dim bg=Selected
+r1 c21..26 fg=Muted bg=Selected
+r1 c26..27 fg=Hint bg=Selected
+r1 c27..30 fg=Dim bg=Selected
+r1 c30..54 fg=Muted bg=Selected
+r1 c54..80 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..14 fg=Foreground bg=Background
+r2 c14..70 bg=Background
+r2 c70..80 fg=Primary bg=Background
+r3 c0..2 bg=Background
+r3 c2..3 fg=Danger bg=Background
+r3 c3..4 bg=Background
+r3 c4..10 fg=Foreground bg=Background
+r3 c10..13 fg=Dim bg=Background
+r3 c13..16 fg=Muted bg=Background
+r3 c16..19 fg=Dim bg=Background
+r3 c19..45 fg=Muted bg=Background
+r3 c45..80 bg=Background
+
+== light-truecolor
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 fg=Muted bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..17 fg=Foreground bg=Selected bold
+r0 c17..73 bg=Selected
+r0 c73..80 fg=Primary bg=Selected
+r1 c0..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..11 fg=Foreground bg=Selected
+r1 c11..14 fg=Dim bg=Selected
+r1 c14..18 fg=Muted bg=Selected
+r1 c18..21 fg=Dim bg=Selected
+r1 c21..26 fg=Muted bg=Selected
+r1 c26..27 fg=Hint bg=Selected
+r1 c27..30 fg=Dim bg=Selected
+r1 c30..54 fg=Muted bg=Selected
+r1 c54..80 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..14 fg=Foreground bg=Background
+r2 c14..70 bg=Background
+r2 c70..80 fg=Primary bg=Background
+r3 c0..2 bg=Background
+r3 c2..3 fg=Danger bg=Background
+r3 c3..4 bg=Background
+r3 c4..10 fg=Foreground bg=Background
+r3 c10..13 fg=Dim bg=Background
+r3 c13..16 fg=Muted bg=Background
+r3 c16..19 fg=Dim bg=Background
+r3 c19..45 fg=Muted bg=Background
+r3 c45..80 bg=Background
+
+== dark-256
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 fg=Muted bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..17 fg=Foreground bg=Selected bold
+r0 c17..73 bg=Selected
+r0 c73..80 fg=Primary bg=Selected
+r1 c0..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..11 fg=Foreground bg=Selected
+r1 c11..14 fg=Dim bg=Selected
+r1 c14..18 fg=Muted bg=Selected
+r1 c18..21 fg=Dim bg=Selected
+r1 c21..26 fg=Muted bg=Selected
+r1 c26..27 fg=Hint bg=Selected
+r1 c27..30 fg=Dim bg=Selected
+r1 c30..54 fg=Muted bg=Selected
+r1 c54..80 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..14 fg=Foreground bg=Background
+r2 c14..70 bg=Background
+r2 c70..80 fg=Primary bg=Background
+r3 c0..2 bg=Background
+r3 c2..3 fg=Danger bg=Background
+r3 c3..4 bg=Background
+r3 c4..10 fg=Foreground bg=Background
+r3 c10..13 fg=Dim bg=Background
+r3 c13..16 fg=Muted bg=Background
+r3 c16..19 fg=Dim bg=Background
+r3 c19..45 fg=Muted bg=Background
+r3 c45..80 bg=Background
+
+== light-256
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 fg=Muted bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..17 fg=Foreground bg=Selected bold
+r0 c17..73 bg=Selected
+r0 c73..80 fg=Primary bg=Selected
+r1 c0..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..11 fg=Foreground bg=Selected
+r1 c11..14 fg=Dim bg=Selected
+r1 c14..18 fg=Muted bg=Selected
+r1 c18..21 fg=Dim bg=Selected
+r1 c21..26 fg=Muted bg=Selected
+r1 c26..27 fg=Hint bg=Selected
+r1 c27..30 fg=Dim bg=Selected
+r1 c30..54 fg=Muted bg=Selected
+r1 c54..80 bg=Selected
+r2 c0..2 bg=Background|Surface
+r2 c2..14 fg=Foreground bg=Background|Surface
+r2 c14..70 bg=Background|Surface
+r2 c70..80 fg=Primary bg=Background|Surface
+r3 c0..2 bg=Background|Surface
+r3 c2..3 fg=Danger bg=Background|Surface
+r3 c3..4 bg=Background|Surface
+r3 c4..10 fg=Foreground bg=Background|Surface
+r3 c10..13 fg=Dim bg=Background|Surface
+r3 c13..16 fg=Muted bg=Background|Surface
+r3 c16..19 fg=Dim bg=Background|Surface
+r3 c19..45 fg=Muted bg=Background|Surface
+r3 c45..80 bg=Background|Surface
+
+== ansi-16
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 dim
+r0 c2..17 bold
+r0 c73..80 fg=Primary
+r1 c2..3 dim
+r1 c11..54 dim
+r2 c70..80 fg=Primary
+r3 c2..3 fg=Danger
+r3 c10..45 dim
+
+== unknown-ground
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 dim
+r0 c2..17 bold
+r0 c73..80 fg=Primary
+r1 c2..3 dim
+r1 c11..54 dim
+r2 c70..80 fg=Primary
+r3 c2..3 fg=Danger
+r3 c10..45 dim
+
+== no-color
+▸ Imported report                                                        Inspect
+  ? Unknown · File · Size — · No verification reported
+  Check failed                                                        Read error
+  ✕ Failed · Run · The host reported an error
+---
+r0 c0..1 dim
+r0 c2..17 bold
+r1 c2..3 dim
+r1 c11..54 dim
+r3 c10..45 dim
+
+== ascii
+> Imported report                                                        Inspect
+  ? Unknown . File . Size - . No verification reported
+  Check failed                                                        Read error
+  X Failed . Run . The host reported an error
+---
+r0 c0..1 dim
+r0 c2..17 bold
+r1 c2..3 dim
+r1 c11..54 dim
+r3 c10..45 dim

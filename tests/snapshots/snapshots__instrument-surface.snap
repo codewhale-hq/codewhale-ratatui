@@ -1,0 +1,437 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background
+r1 c0..1 bg=Background
+r1 c1..10 fg=Primary bg=Background bold
+r1 c10..99 fg=Border bg=Background
+r1 c99..100 bg=Background
+r2 c0..100 bg=Background
+r3 c0..2 bg=Background
+r3 c2..37 fg=Foreground bg=Background
+r3 c37..100 bg=Background
+r4 c0..100 bg=Background
+r5 c0..2 bg=Background
+r5 c2..34 fg=Muted bg=Background
+r5 c34..100 bg=Background
+r6 c0..2 bg=Background
+r6 c2..36 fg=Muted bg=Background
+r6 c36..100 bg=Background
+r7 c0..2 bg=Background
+r7 c2..21 fg=Muted bg=Background
+r7 c21..100 bg=Background
+r8 c0..100 bg=Background
+r9 c0..100 bg=Background
+r10 c0..100 bg=Background
+r11 c0..100 bg=Background
+r12 c0..100 bg=Background
+r13 c0..100 bg=Background
+r14 c0..100 bg=Background
+r15 c0..100 bg=Background
+r16 c0..100 bg=Background
+r17 c0..100 bg=Background
+r18 c0..100 bg=Background
+r19 c0..100 bg=Background
+r20 c0..100 bg=Background
+r21 c0..2 bg=Background
+r21 c2..9 fg=Primary bg=Background bold
+r21 c9..16 fg=Muted bg=Background
+r21 c16..17 bg=Background
+r21 c17..22 fg=Primary bg=Background bold
+r21 c22..27 fg=Muted bg=Background
+r21 c27..100 bg=Background
+r22 c0..1 bg=Background
+r22 c1..99 fg=Border bg=Background
+r22 c99..100 bg=Background
+r23 c0..100 bg=Background
+
+== dark-graphite
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background
+r1 c0..1 bg=Background
+r1 c1..10 fg=Primary bg=Background bold
+r1 c10..99 fg=Border bg=Background
+r1 c99..100 bg=Background
+r2 c0..100 bg=Background
+r3 c0..2 bg=Background
+r3 c2..37 fg=Foreground bg=Background
+r3 c37..100 bg=Background
+r4 c0..100 bg=Background
+r5 c0..2 bg=Background
+r5 c2..34 fg=Muted bg=Background
+r5 c34..100 bg=Background
+r6 c0..2 bg=Background
+r6 c2..36 fg=Muted bg=Background
+r6 c36..100 bg=Background
+r7 c0..2 bg=Background
+r7 c2..21 fg=Muted bg=Background
+r7 c21..100 bg=Background
+r8 c0..100 bg=Background
+r9 c0..100 bg=Background
+r10 c0..100 bg=Background
+r11 c0..100 bg=Background
+r12 c0..100 bg=Background
+r13 c0..100 bg=Background
+r14 c0..100 bg=Background
+r15 c0..100 bg=Background
+r16 c0..100 bg=Background
+r17 c0..100 bg=Background
+r18 c0..100 bg=Background
+r19 c0..100 bg=Background
+r20 c0..100 bg=Background
+r21 c0..2 bg=Background
+r21 c2..9 fg=Primary bg=Background bold
+r21 c9..16 fg=Muted bg=Background
+r21 c16..17 bg=Background
+r21 c17..22 fg=Primary bg=Background bold
+r21 c22..27 fg=Muted bg=Background
+r21 c27..100 bg=Background
+r22 c0..1 bg=Background
+r22 c1..99 fg=Border bg=Background
+r22 c99..100 bg=Background
+r23 c0..100 bg=Background
+
+== light-truecolor
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..10 fg=Primary bold
+r1 c10..99 fg=Border
+r3 c2..37 fg=Foreground
+r5 c2..34 fg=Muted
+r6 c2..36 fg=Muted
+r7 c2..21 fg=Muted
+r21 c2..9 fg=Primary bold
+r21 c9..16 fg=Muted
+r21 c17..22 fg=Primary bold
+r21 c22..27 fg=Muted
+r22 c1..99 fg=Border
+
+== dark-256
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..10 fg=Primary bg=Background|DiffAddedTint bold
+r1 c10..99 fg=Border bg=Background|DiffAddedTint
+r1 c99..100 bg=Background|DiffAddedTint
+r2 c0..100 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..37 fg=Foreground bg=Background|DiffAddedTint
+r3 c37..100 bg=Background|DiffAddedTint
+r4 c0..100 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..34 fg=Muted bg=Background|DiffAddedTint
+r5 c34..100 bg=Background|DiffAddedTint
+r6 c0..2 bg=Background|DiffAddedTint
+r6 c2..36 fg=Muted bg=Background|DiffAddedTint
+r6 c36..100 bg=Background|DiffAddedTint
+r7 c0..2 bg=Background|DiffAddedTint
+r7 c2..21 fg=Muted bg=Background|DiffAddedTint
+r7 c21..100 bg=Background|DiffAddedTint
+r8 c0..100 bg=Background|DiffAddedTint
+r9 c0..100 bg=Background|DiffAddedTint
+r10 c0..100 bg=Background|DiffAddedTint
+r11 c0..100 bg=Background|DiffAddedTint
+r12 c0..100 bg=Background|DiffAddedTint
+r13 c0..100 bg=Background|DiffAddedTint
+r14 c0..100 bg=Background|DiffAddedTint
+r15 c0..100 bg=Background|DiffAddedTint
+r16 c0..100 bg=Background|DiffAddedTint
+r17 c0..100 bg=Background|DiffAddedTint
+r18 c0..100 bg=Background|DiffAddedTint
+r19 c0..100 bg=Background|DiffAddedTint
+r20 c0..100 bg=Background|DiffAddedTint
+r21 c0..2 bg=Background|DiffAddedTint
+r21 c2..9 fg=Primary bg=Background|DiffAddedTint bold
+r21 c9..16 fg=Muted bg=Background|DiffAddedTint
+r21 c16..17 bg=Background|DiffAddedTint
+r21 c17..22 fg=Primary bg=Background|DiffAddedTint bold
+r21 c22..27 fg=Muted bg=Background|DiffAddedTint
+r21 c27..100 bg=Background|DiffAddedTint
+r22 c0..1 bg=Background|DiffAddedTint
+r22 c1..99 fg=Border bg=Background|DiffAddedTint
+r22 c99..100 bg=Background|DiffAddedTint
+r23 c0..100 bg=Background|DiffAddedTint
+
+== light-256
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..10 fg=Primary bold
+r1 c10..99 fg=Border
+r3 c2..37 fg=Foreground
+r5 c2..34 fg=Muted|Hint|Dim
+r6 c2..36 fg=Muted|Hint|Dim
+r7 c2..21 fg=Muted|Hint|Dim
+r21 c2..9 fg=Primary bold
+r21 c9..16 fg=Muted|Hint|Dim
+r21 c17..22 fg=Primary bold
+r21 c22..27 fg=Muted|Hint|Dim
+r22 c1..99 fg=Border
+
+== ansi-16
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..10 fg=Primary bold dim
+r1 c10..99 dim
+r5 c2..34 dim
+r6 c2..36 dim
+r7 c2..21 dim
+r21 c2..9 fg=Primary bold
+r21 c9..16 dim
+r21 c17..22 fg=Primary bold
+r21 c22..27 dim
+r22 c1..99 dim
+
+== unknown-ground
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..10 fg=Primary bold dim
+r1 c10..99 dim
+r5 c2..34 dim
+r6 c2..36 dim
+r7 c2..21 dim
+r21 c2..9 fg=Primary bold
+r21 c9..16 dim
+r21 c17..22 fg=Primary bold
+r21 c22..27 dim
+r22 c1..99 dim
+
+== no-color
+
+  context ─────────────────────────────────────────────────────────────────────────────────────────
+
+  48k of 128k · 38% · compacts at 90%
+
+  system + tools · 8.4k · 24 tools
+  conversation · 18 messages · 29.2k
+  tool output · 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..10 bold dim
+r1 c10..99 dim
+r5 c2..34 dim
+r6 c2..36 dim
+r7 c2..21 dim
+r21 c2..9 bold
+r21 c9..16 dim
+r21 c17..22 bold
+r21 c22..27 dim
+r22 c1..99 dim
+
+== ascii
+
+  context -----------------------------------------------------------------------------------------
+
+  48k of 128k . 38% . compacts at 90%
+
+  system + tools . 8.4k . 24 tools
+  conversation . 18 messages . 29.2k
+  tool output . 10.4k
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Enter details  Esc close
+ --------------------------------------------------------------------------------------------------
+
+---
+r1 c1..10 bold dim
+r1 c10..99 dim
+r5 c2..34 dim
+r6 c2..36 dim
+r7 c2..21 dim
+r21 c2..9 bold
+r21 c9..16 dim
+r21 c17..22 bold
+r21 c22..27 dim
+r22 c1..99 dim

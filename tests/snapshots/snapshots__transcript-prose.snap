@@ -1,0 +1,272 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bg=Background bold
+r0 c13..40 bg=Background
+r1 c0..4 fg=Foreground bg=Background
+r1 c4..11 fg=Foreground bg=Background bold
+r1 c11..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..7 fg=Foreground bg=Background italic
+r2 c7..25 fg=Foreground bg=Background
+r2 c25..40 bg=Background
+r3 c0..19 fg=Live bg=Background
+r3 c19..20 fg=Foreground bg=Background
+r3 c20..40 bg=Background
+r4 c0..22 fg=Muted bg=Background
+r4 c22..36 fg=Live bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..31 fg=Foreground bg=Background italic
+r5 c31..40 bg=Background
+r6 c0..2 fg=Border bg=Background
+r6 c2..17 fg=Muted bg=Background
+r6 c17..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+r9 c0..40 bg=Background
+
+== dark-graphite
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bg=Background bold
+r0 c13..40 bg=Background
+r1 c0..4 fg=Foreground bg=Background
+r1 c4..11 fg=Foreground bg=Background bold
+r1 c11..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..7 fg=Foreground bg=Background italic
+r2 c7..25 fg=Foreground bg=Background
+r2 c25..40 bg=Background
+r3 c0..19 fg=Live bg=Background
+r3 c19..20 fg=Foreground bg=Background
+r3 c20..40 bg=Background
+r4 c0..22 fg=Muted bg=Background
+r4 c22..36 fg=Live bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..31 fg=Foreground bg=Background italic
+r5 c31..40 bg=Background
+r6 c0..2 fg=Border bg=Background
+r6 c2..17 fg=Muted bg=Background
+r6 c17..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+r9 c0..40 bg=Background
+
+== light-truecolor
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bg=Background bold
+r0 c13..40 bg=Background
+r1 c0..4 fg=Foreground bg=Background
+r1 c4..11 fg=Foreground bg=Background bold
+r1 c11..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..7 fg=Foreground bg=Background italic
+r2 c7..25 fg=Foreground bg=Background
+r2 c25..40 bg=Background
+r3 c0..19 fg=Live bg=Background
+r3 c19..20 fg=Foreground bg=Background
+r3 c20..40 bg=Background
+r4 c0..22 fg=Muted bg=Background
+r4 c22..36 fg=Live bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..31 fg=Foreground bg=Background italic
+r5 c31..40 bg=Background
+r6 c0..2 fg=Border bg=Background
+r6 c2..17 fg=Muted bg=Background
+r6 c17..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+r9 c0..40 bg=Background
+
+== dark-256
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bg=Background bold
+r0 c13..40 bg=Background
+r1 c0..4 fg=Foreground bg=Background
+r1 c4..11 fg=Foreground bg=Background bold
+r1 c11..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..7 fg=Foreground bg=Background italic
+r2 c7..25 fg=Foreground bg=Background
+r2 c25..40 bg=Background
+r3 c0..19 fg=Live bg=Background
+r3 c19..20 fg=Foreground bg=Background
+r3 c20..40 bg=Background
+r4 c0..22 fg=Muted bg=Background
+r4 c22..36 fg=Live bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..31 fg=Foreground bg=Background italic
+r5 c31..40 bg=Background
+r6 c0..2 fg=Border bg=Background
+r6 c2..17 fg=Muted bg=Background
+r6 c17..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+r9 c0..40 bg=Background
+
+== light-256
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bg=Background|Surface bold
+r0 c13..40 bg=Background|Surface
+r1 c0..4 fg=Foreground bg=Background|Surface
+r1 c4..11 fg=Foreground bg=Background|Surface bold
+r1 c11..32 fg=Foreground bg=Background|Surface
+r1 c32..40 bg=Background|Surface
+r2 c0..7 fg=Foreground bg=Background|Surface italic
+r2 c7..25 fg=Foreground bg=Background|Surface
+r2 c25..40 bg=Background|Surface
+r3 c0..19 fg=Live bg=Background|Surface
+r3 c19..20 fg=Foreground bg=Background|Surface
+r3 c20..40 bg=Background|Surface
+r4 c0..22 fg=Muted bg=Background|Surface
+r4 c22..36 fg=Live bg=Background|Surface
+r4 c36..40 bg=Background|Surface
+r5 c0..2 fg=Border bg=Background|Surface
+r5 c2..31 fg=Foreground bg=Background|Surface italic
+r5 c31..40 bg=Background|Surface
+r6 c0..2 fg=Border bg=Background|Surface
+r6 c2..17 fg=Muted bg=Background|Surface
+r6 c17..40 bg=Background|Surface
+r7 c0..40 bg=Background|Surface
+r8 c0..40 bg=Background|Surface
+r9 c0..40 bg=Background|Surface
+
+== ansi-16
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bold
+r1 c4..11 bold
+r2 c0..7 italic
+r3 c0..19 fg=Live
+r4 c0..22 dim
+r4 c22..36 fg=Live
+r5 c0..2 dim
+r5 c2..31 italic
+r6 c0..17 dim
+
+== unknown-ground
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Primary bold
+r1 c4..11 bold
+r2 c0..7 italic
+r3 c0..19 fg=Live
+r4 c0..22 dim
+r4 c22..36 fg=Live
+r5 c0..2 dim
+r5 c2..31 italic
+r6 c0..17 dim
+
+== no-color
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 bold
+r1 c4..11 bold
+r2 c0..7 italic
+r4 c0..22 dim
+r5 c0..2 dim
+r5 c2..31 italic
+r6 c0..17 dim
+
+== ascii
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+| Ship the quiet version first.
+| - a review note
+
+
+
+---
+r0 c0..13 bold
+r1 c4..11 bold
+r2 c0..7 italic
+r4 c0..22 dim
+r5 c0..2 dim
+r5 c2..31 italic
+r6 c0..17 dim

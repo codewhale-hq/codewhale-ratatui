@@ -1,0 +1,203 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c0..2 bg=Background
+r0 c2..12 fg=Foreground bg=Background
+r0 c12..63 bg=Background
+r0 c63..64 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..63 bg=Background
+r1 c63..64 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..12 fg=Foreground bg=Background
+r2 c12..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..12 fg=Foreground bg=Selected bold
+r4 c12..62 bg=Selected
+r4 c62..63 bg=Background
+r4 c63..64 fg=Border bg=Background
+
+== dark-graphite
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c0..2 bg=Background
+r0 c2..12 fg=Foreground bg=Background
+r0 c12..63 bg=Background
+r0 c63..64 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..63 bg=Background
+r1 c63..64 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..12 fg=Foreground bg=Background
+r2 c12..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..12 fg=Foreground bg=Selected bold
+r4 c12..62 bg=Selected
+r4 c62..63 bg=Background
+r4 c63..64 fg=Border bg=Background
+
+== light-truecolor
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c0..2 bg=Background
+r0 c2..12 fg=Foreground bg=Background
+r0 c12..63 bg=Background
+r0 c63..64 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..63 bg=Background
+r1 c63..64 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..12 fg=Foreground bg=Background
+r2 c12..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..12 fg=Foreground bg=Selected bold
+r4 c12..62 bg=Selected
+r4 c62..63 bg=Background
+r4 c63..64 fg=Border bg=Background
+
+== dark-256
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c0..2 bg=Background
+r0 c2..12 fg=Foreground bg=Background
+r0 c12..63 bg=Background
+r0 c63..64 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..63 bg=Background
+r1 c63..64 fg=Border bg=Background
+r2 c0..2 bg=Background
+r2 c2..12 fg=Foreground bg=Background
+r2 c12..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..12 fg=Foreground bg=Selected bold
+r4 c12..62 bg=Selected
+r4 c62..63 bg=Background
+r4 c63..64 fg=Border bg=Background
+
+== light-256
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..12 fg=Foreground bg=Background|Surface
+r0 c12..63 bg=Background|Surface
+r0 c63..64 fg=Border bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..12 fg=Foreground bg=Background|Surface
+r1 c12..63 bg=Background|Surface
+r1 c63..64 fg=Border bg=Background|Surface
+r2 c0..2 bg=Background|Surface
+r2 c2..12 fg=Foreground bg=Background|Surface
+r2 c12..63 bg=Background|Surface
+r2 c63..64 fg=Foreground bg=Background|Surface
+r3 c0..2 bg=Background|Surface
+r3 c2..12 fg=Foreground bg=Background|Surface
+r3 c12..63 bg=Background|Surface
+r3 c63..64 fg=Foreground bg=Background|Surface
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..12 fg=Foreground bg=Selected bold
+r4 c12..62 bg=Selected
+r4 c62..63 bg=Background|Surface
+r4 c63..64 fg=Border bg=Background|Surface
+
+== ansi-16
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c63..64 dim
+r1 c63..64 dim
+r4 c0..1 fg=Primary
+r4 c2..12 bold
+r4 c63..64 dim
+
+== unknown-ground
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c63..64 dim
+r1 c63..64 dim
+r4 c0..1 fg=Primary
+r4 c2..12 bold
+r4 c63..64 dim
+
+== no-color
+  Session 05                                                   │
+  Session 06                                                   │
+  Session 07                                                   █
+  Session 08                                                   █
+▸ Session 09                                                   │
+---
+r0 c63..64 dim
+r1 c63..64 dim
+r4 c2..12 bold
+r4 c63..64 dim
+
+== ascii
+  Session 05                                                   |
+  Session 06                                                   |
+  Session 07                                                   #
+  Session 08                                                   #
+> Session 09                                                   |
+---
+r0 c63..64 dim
+r1 c63..64 dim
+r4 c2..12 bold
+r4 c63..64 dim

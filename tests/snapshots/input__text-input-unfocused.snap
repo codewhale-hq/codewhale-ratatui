@@ -1,0 +1,57 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x2
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..40 bg=Surface
+
+== dark-truecolor · 80x2
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..80 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..80 bg=Surface
+
+== dark-truecolor · 120x2
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..120 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..120 bg=Surface
+
+== no-color · 40x2
+Name
+  nightly-report
+
+== no-color · 80x2
+Name
+  nightly-report
+
+== no-color · 120x2
+Name
+  nightly-report
+
+== ascii · 40x2
+Name
+  nightly-report
+
+== ascii · 80x2
+Name
+  nightly-report
+
+== ascii · 120x2
+Name
+  nightly-report

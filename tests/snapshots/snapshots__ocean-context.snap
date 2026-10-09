@@ -1,0 +1,415 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=#102a45 bold
+r0 c10..26 bg=#102a45
+r0 c26..37 fg=Foreground bg=#0b1f33 bold
+r0 c37..53 bg=#0b1f33
+r0 c53..65 fg=Foreground bg=#061320 bold
+r0 c65..80 bg=#061320
+r1 c0..26 bg=#0f2841
+r1 c26..53 bg=#0a1d2f
+r1 c53..80 bg=#061320
+r2 c0..26 bg=#0e263f
+r2 c26..53 bg=#091b2c
+r2 c53..80 bg=#061320
+r3 c0..1 fg=Foreground bg=#0d243b
+r3 c1..2 bg=#0d243b
+r3 c2..9 fg=Foreground bg=#0d243b bold
+r3 c9..26 bg=#0d243b
+r3 c26..27 fg=Foreground bg=#081928
+r3 c27..28 bg=#081928
+r3 c28..35 fg=Foreground bg=#081928 bold
+r3 c35..53 bg=#081928
+r3 c53..54 fg=Foreground bg=#061320
+r3 c54..55 bg=#061320
+r3 c55..62 fg=Foreground bg=#061320 bold
+r3 c62..80 bg=#061320
+r4 c0..2 fg=Border bg=#0c2237
+r4 c2..22 fg=Foreground bg=#0c2237
+r4 c22..26 bg=#0c2237
+r4 c26..28 fg=Border bg=#081725
+r4 c28..48 fg=Foreground bg=#081725
+r4 c48..53 bg=#081725
+r4 c53..55 fg=Border bg=#061320
+r4 c55..75 fg=Foreground bg=#061320
+r4 c75..80 bg=#061320
+r5 c0..2 fg=Border bg=#0b2034
+r5 c2..8 fg=Foreground bg=#0b2034
+r5 c8..26 bg=#0b2034
+r5 c26..28 fg=Border bg=#061522
+r5 c28..34 fg=Foreground bg=#061522
+r5 c34..53 bg=#061522
+r5 c53..55 fg=Border bg=#061320
+r5 c55..61 fg=Foreground bg=#061320
+r5 c61..80 bg=#061320
+r6 c0..26 bg=#0a1d31
+r6 c26..80 bg=#061320
+r7 c0..26 bg=#091b2e
+r7 c26..80 bg=#061320
+r8 c0..26 bg=#08192a
+r8 c26..80 bg=#061320
+r9 c0..26 bg=#081726
+r9 c26..80 bg=#061320
+r10 c0..26 bg=#061524
+r10 c26..80 bg=#061320
+r11 c0..80 bg=#061320
+
+== dark-graphite
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Background bold
+r0 c10..26 bg=Background
+r0 c26..37 fg=Foreground bg=Background bold
+r0 c37..53 bg=Background
+r0 c53..65 fg=Foreground bg=Background bold
+r0 c65..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..2 bg=Background
+r3 c2..9 fg=Foreground bg=Background bold
+r3 c9..26 bg=Background
+r3 c26..27 fg=Foreground bg=Background
+r3 c27..28 bg=Background
+r3 c28..35 fg=Foreground bg=Background bold
+r3 c35..53 bg=Background
+r3 c53..54 fg=Foreground bg=Background
+r3 c54..55 bg=Background
+r3 c55..62 fg=Foreground bg=Background bold
+r3 c62..80 bg=Background
+r4 c0..2 fg=Border bg=Background
+r4 c2..22 fg=Foreground bg=Background
+r4 c22..26 bg=Background
+r4 c26..28 fg=Border bg=Background
+r4 c28..48 fg=Foreground bg=Background
+r4 c48..53 bg=Background
+r4 c53..55 fg=Border bg=Background
+r4 c55..75 fg=Foreground bg=Background
+r4 c75..80 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..8 fg=Foreground bg=Background
+r5 c8..26 bg=Background
+r5 c26..28 fg=Border bg=Background
+r5 c28..34 fg=Foreground bg=Background
+r5 c34..53 bg=Background
+r5 c53..55 fg=Border bg=Background
+r5 c55..61 fg=Foreground bg=Background
+r5 c61..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+
+== light-truecolor
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Background bold
+r0 c10..26 bg=Background
+r0 c26..37 fg=Foreground bg=Background bold
+r0 c37..53 bg=Background
+r0 c53..65 fg=Foreground bg=Background bold
+r0 c65..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..2 bg=Background
+r3 c2..9 fg=Foreground bg=Background bold
+r3 c9..26 bg=Background
+r3 c26..27 fg=Foreground bg=Background
+r3 c27..28 bg=Background
+r3 c28..35 fg=Foreground bg=Background bold
+r3 c35..53 bg=Background
+r3 c53..54 fg=Foreground bg=Background
+r3 c54..55 bg=Background
+r3 c55..62 fg=Foreground bg=Background bold
+r3 c62..80 bg=Background
+r4 c0..2 fg=Border bg=Background
+r4 c2..22 fg=Foreground bg=Background
+r4 c22..26 bg=Background
+r4 c26..28 fg=Border bg=Background
+r4 c28..48 fg=Foreground bg=Background
+r4 c48..53 bg=Background
+r4 c53..55 fg=Border bg=Background
+r4 c55..75 fg=Foreground bg=Background
+r4 c75..80 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..8 fg=Foreground bg=Background
+r5 c8..26 bg=Background
+r5 c26..28 fg=Border bg=Background
+r5 c28..34 fg=Foreground bg=Background
+r5 c34..53 bg=Background
+r5 c53..55 fg=Border bg=Background
+r5 c55..61 fg=Foreground bg=Background
+r5 c61..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+
+== dark-256
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Background bold
+r0 c10..26 bg=Background
+r0 c26..37 fg=Foreground bg=Background bold
+r0 c37..53 bg=Background
+r0 c53..65 fg=Foreground bg=Background bold
+r0 c65..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..2 bg=Background
+r3 c2..9 fg=Foreground bg=Background bold
+r3 c9..26 bg=Background
+r3 c26..27 fg=Foreground bg=Background
+r3 c27..28 bg=Background
+r3 c28..35 fg=Foreground bg=Background bold
+r3 c35..53 bg=Background
+r3 c53..54 fg=Foreground bg=Background
+r3 c54..55 bg=Background
+r3 c55..62 fg=Foreground bg=Background bold
+r3 c62..80 bg=Background
+r4 c0..2 fg=Border bg=Background
+r4 c2..22 fg=Foreground bg=Background
+r4 c22..26 bg=Background
+r4 c26..28 fg=Border bg=Background
+r4 c28..48 fg=Foreground bg=Background
+r4 c48..53 bg=Background
+r4 c53..55 fg=Border bg=Background
+r4 c55..75 fg=Foreground bg=Background
+r4 c75..80 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..8 fg=Foreground bg=Background
+r5 c8..26 bg=Background
+r5 c26..28 fg=Border bg=Background
+r5 c28..34 fg=Foreground bg=Background
+r5 c34..53 bg=Background
+r5 c53..55 fg=Border bg=Background
+r5 c55..61 fg=Foreground bg=Background
+r5 c61..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+
+== light-256
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Background|Surface bold
+r0 c10..26 bg=Background|Surface
+r0 c26..37 fg=Foreground bg=Background|Surface bold
+r0 c37..53 bg=Background|Surface
+r0 c53..65 fg=Foreground bg=Background|Surface bold
+r0 c65..80 bg=Background|Surface
+r1 c0..80 bg=Background|Surface
+r2 c0..80 bg=Background|Surface
+r3 c0..1 fg=Foreground bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..9 fg=Foreground bg=Background|Surface bold
+r3 c9..26 bg=Background|Surface
+r3 c26..27 fg=Foreground bg=Background|Surface
+r3 c27..28 bg=Background|Surface
+r3 c28..35 fg=Foreground bg=Background|Surface bold
+r3 c35..53 bg=Background|Surface
+r3 c53..54 fg=Foreground bg=Background|Surface
+r3 c54..55 bg=Background|Surface
+r3 c55..62 fg=Foreground bg=Background|Surface bold
+r3 c62..80 bg=Background|Surface
+r4 c0..2 fg=Border bg=Background|Surface
+r4 c2..22 fg=Foreground bg=Background|Surface
+r4 c22..26 bg=Background|Surface
+r4 c26..28 fg=Border bg=Background|Surface
+r4 c28..48 fg=Foreground bg=Background|Surface
+r4 c48..53 bg=Background|Surface
+r4 c53..55 fg=Border bg=Background|Surface
+r4 c55..75 fg=Foreground bg=Background|Surface
+r4 c75..80 bg=Background|Surface
+r5 c0..2 fg=Border bg=Background|Surface
+r5 c2..8 fg=Foreground bg=Background|Surface
+r5 c8..26 bg=Background|Surface
+r5 c26..28 fg=Border bg=Background|Surface
+r5 c28..34 fg=Foreground bg=Background|Surface
+r5 c34..53 bg=Background|Surface
+r5 c53..55 fg=Border bg=Background|Surface
+r5 c55..61 fg=Foreground bg=Background|Surface
+r5 c61..80 bg=Background|Surface
+r6 c0..80 bg=Background|Surface
+r7 c0..80 bg=Background|Surface
+r8 c0..80 bg=Background|Surface
+r9 c0..80 bg=Background|Surface
+r10 c0..80 bg=Background|Surface
+r11 c0..80 bg=Background|Surface
+
+== ansi-16
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r0 c26..37 bold
+r0 c53..65 bold
+r3 c2..9 bold
+r3 c28..35 bold
+r3 c55..62 bold
+r4 c0..2 dim
+r4 c26..28 dim
+r4 c53..55 dim
+r5 c0..2 dim
+r5 c26..28 dim
+r5 c53..55 dim
+
+== unknown-ground
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r0 c26..37 bold
+r0 c53..65 bold
+r3 c2..9 bold
+r3 c28..35 bold
+r3 c55..62 bold
+r4 c0..2 dim
+r4 c26..28 dim
+r4 c53..55 dim
+r5 c0..2 dim
+r5 c26..28 dim
+r5 c53..55 dim
+
+== no-color
+0% context                50% context                100% context
+
+
+● Fixture                 ● Fixture                  ● Fixture
+▏ Fullness raises the     ▏ Fullness raises the      ▏ Fullness raises the
+▏ abyss.                  ▏ abyss.                   ▏ abyss.
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r0 c26..37 bold
+r0 c53..65 bold
+r3 c2..9 bold
+r3 c28..35 bold
+r3 c55..62 bold
+r4 c0..2 dim
+r4 c26..28 dim
+r4 c53..55 dim
+r5 c0..2 dim
+r5 c26..28 dim
+r5 c53..55 dim
+
+== ascii
+0% context                50% context                100% context
+
+
+. Fixture                 . Fixture                  . Fixture
+| Fullness raises the     | Fullness raises the      | Fullness raises the
+| abyss.                  | abyss.                   | abyss.
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r0 c26..37 bold
+r0 c53..65 bold
+r3 c2..9 bold
+r3 c28..35 bold
+r3 c55..62 bold
+r4 c0..2 dim
+r4 c26..28 dim
+r4 c53..55 dim
+r5 c0..2 dim
+r5 c26..28 dim
+r5 c53..55 dim

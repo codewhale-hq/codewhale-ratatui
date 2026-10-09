@@ -1,0 +1,135 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r0 c0..48 bg=Background
+r1 c0..14 bg=Background
+r1 c14..16 fg=Muted bg=Background
+r1 c16..33 fg=Foreground bg=Background bold
+r1 c33..48 bg=Background
+r2 c0..12 bg=Background
+r2 c12..36 fg=Primary bg=Background
+r2 c36..48 bg=Background
+r3 c0..48 bg=Background
+r4 c0..48 bg=Background
+
+== dark-graphite
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r0 c0..48 bg=Background
+r1 c0..14 bg=Background
+r1 c14..16 fg=Muted bg=Background
+r1 c16..33 fg=Foreground bg=Background bold
+r1 c33..48 bg=Background
+r2 c0..12 bg=Background
+r2 c12..36 fg=Primary bg=Background
+r2 c36..48 bg=Background
+r3 c0..48 bg=Background
+r4 c0..48 bg=Background
+
+== light-truecolor
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r0 c0..48 bg=Background
+r1 c0..14 bg=Background
+r1 c14..16 fg=Muted bg=Background
+r1 c16..33 fg=Foreground bg=Background bold
+r1 c33..48 bg=Background
+r2 c0..12 bg=Background
+r2 c12..36 fg=Primary bg=Background
+r2 c36..48 bg=Background
+r3 c0..48 bg=Background
+r4 c0..48 bg=Background
+
+== dark-256
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r0 c0..48 bg=Background
+r1 c0..14 bg=Background
+r1 c14..16 fg=Muted bg=Background
+r1 c16..33 fg=Foreground bg=Background bold
+r1 c33..48 bg=Background
+r2 c0..12 bg=Background
+r2 c12..36 fg=Primary bg=Background
+r2 c36..48 bg=Background
+r3 c0..48 bg=Background
+r4 c0..48 bg=Background
+
+== light-256
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r0 c0..48 bg=Background|Surface
+r1 c0..14 bg=Background|Surface
+r1 c14..16 fg=Muted bg=Background|Surface
+r1 c16..33 fg=Foreground bg=Background|Surface bold
+r1 c33..48 bg=Background|Surface
+r2 c0..12 bg=Background|Surface
+r2 c12..36 fg=Primary bg=Background|Surface
+r2 c36..48 bg=Background|Surface
+r3 c0..48 bg=Background|Surface
+r4 c0..48 bg=Background|Surface
+
+== ansi-16
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r1 c14..16 dim
+r1 c16..33 bold
+r2 c12..36 fg=Primary
+
+== unknown-ground
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r1 c14..16 dim
+r1 c16..33 bold
+r2 c12..36 fg=Primary
+
+== no-color
+
+              ○ No saved sessions
+            Start one with a message
+
+
+---
+r1 c14..16 dim
+r1 c16..33 bold
+
+== ascii
+
+              o No saved sessions
+            Start one with a message
+
+
+---
+r1 c14..16 dim
+r1 c16..33 bold

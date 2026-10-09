@@ -1,0 +1,134 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary bg=Surface
+r1 c0..2 fg=Primary bg=Surface
+r1 c2..3 bg=Surface
+r1 c3..63 fg=Foreground bg=Surface
+r1 c63..99 bg=Surface
+r1 c99..100 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..95 bg=Surface
+r2 c95..98 fg=Primary bg=Surface bold
+r2 c98..99 bg=Surface
+r2 c99..100 fg=Primary bg=Surface
+r3 c0..100 fg=Primary bg=Surface
+
+== dark-graphite
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary bg=Surface
+r1 c0..2 fg=Primary bg=Surface
+r1 c2..3 bg=Surface
+r1 c3..63 fg=Foreground bg=Surface
+r1 c63..99 bg=Surface
+r1 c99..100 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..95 bg=Surface
+r2 c95..98 fg=Primary bg=Surface bold
+r2 c98..99 bg=Surface
+r2 c99..100 fg=Primary bg=Surface
+r3 c0..100 fg=Primary bg=Surface
+
+== light-truecolor
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary
+r1 c0..2 fg=Primary
+r1 c3..63 fg=Foreground
+r1 c99..100 fg=Primary
+r2 c0..1 fg=Primary
+r2 c95..98 fg=Primary bold
+r2 c99..100 fg=Primary
+r3 c0..100 fg=Primary
+
+== dark-256
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c2..3 bg=Surface|Hover|DiffRemovedTint
+r1 c3..63 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r1 c63..99 bg=Surface|Hover|DiffRemovedTint
+r1 c99..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c1..95 bg=Surface|Hover|DiffRemovedTint
+r2 c95..98 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r2 c98..99 bg=Surface|Hover|DiffRemovedTint
+r2 c99..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c0..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
+
+== light-256
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary
+r1 c0..2 fg=Primary
+r1 c3..63 fg=Foreground
+r1 c99..100 fg=Primary
+r2 c0..1 fg=Primary
+r2 c95..98 fg=Primary bold
+r2 c99..100 fg=Primary
+r3 c0..100 fg=Primary
+
+== ansi-16
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary
+r1 c0..2 fg=Primary
+r1 c99..100 fg=Primary
+r2 c0..1 fg=Primary
+r2 c95..98 fg=Primary bold
+r2 c99..100 fg=Primary
+r3 c0..100 fg=Primary
+
+== unknown-ground
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r0 c0..100 fg=Primary
+r1 c0..2 fg=Primary
+r1 c99..100 fg=Primary
+r2 c0..1 fg=Primary
+r2 c95..98 fg=Primary bold
+r2 c99..100 fg=Primary
+r3 c0..100 fg=Primary
+
+== no-color
+╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Keep the composer compact and the workflow progress visible.                                    │
+│                                                                                              [↵] │
+╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
+---
+r2 c95..98 bold
+
+== ascii
++--------------------------------------------------------------------------------------------------+
+|> Keep the composer compact and the workflow progress visible.                                    |
+|                                                                                              [>] |
++Enter send  Shift+Enter newline ------------------------------------------------------------------+
+---
+r2 c95..98 bold

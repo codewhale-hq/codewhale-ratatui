@@ -1,0 +1,252 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(12, sheet_bottom)"
+---
+== dark-truecolor · 40x12
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+ Settings                     3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..40 fg=Muted bg=Background
+r1 c0..40 fg=Muted bg=Background
+r2 c0..40 fg=Muted bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..30 bg=Surface
+r3 c30..39 fg=Muted bg=Surface
+r3 c39..40 bg=Surface
+r4 c0..40 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..39 fg=Foreground bg=Surface
+r5 c39..40 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..39 fg=Foreground bg=Surface
+r6 c39..40 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..39 fg=Foreground bg=Surface
+r7 c39..40 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..39 fg=Foreground bg=Surface
+r8 c39..40 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..39 fg=Foreground bg=Surface
+r9 c39..40 bg=Surface
+r10 c0..40 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..40 bg=Surface
+
+== dark-truecolor · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+ Settings                                                             3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..80 bg=Background
+r1 c0..69 fg=Muted bg=Background
+r1 c69..80 bg=Background
+r2 c0..69 fg=Muted bg=Background
+r2 c69..80 bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..70 bg=Surface
+r3 c70..79 fg=Muted bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..80 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..79 fg=Foreground bg=Surface
+r5 c79..80 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..79 fg=Foreground bg=Surface
+r6 c79..80 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..79 fg=Foreground bg=Surface
+r7 c79..80 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..79 fg=Foreground bg=Surface
+r8 c79..80 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..79 fg=Foreground bg=Surface
+r9 c79..80 bg=Surface
+r10 c0..80 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..80 bg=Surface
+
+== dark-truecolor · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+ Settings                                                                                                     3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..120 bg=Background
+r1 c0..69 fg=Muted bg=Background
+r1 c69..120 bg=Background
+r2 c0..69 fg=Muted bg=Background
+r2 c69..120 bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..110 bg=Surface
+r3 c110..119 fg=Muted bg=Surface
+r3 c119..120 bg=Surface
+r4 c0..120 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..119 fg=Foreground bg=Surface
+r5 c119..120 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..119 fg=Foreground bg=Surface
+r6 c119..120 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..119 fg=Foreground bg=Surface
+r7 c119..120 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..119 fg=Foreground bg=Surface
+r8 c119..120 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..119 fg=Foreground bg=Surface
+r9 c119..120 bg=Surface
+r10 c0..120 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..120 bg=Surface
+
+== no-color · 40x12
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+┌──────────────────────────────────────┐
+│                                      │
+│ Settings                   3 changed │
+│ Theme       Shoreline                │
+│ Motion      Reduced                  │
+│ Tool detail Collapsed                │
+│ ↑↓ move · Enter change · Esc close   │
+│                                      │
+└──────────────────────────────────────┘
+
+== no-color · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ Settings                                                           3 changed │
+│ Theme       Shoreline                                                        │
+│ Motion      Reduced                                                          │
+│ Tool detail Collapsed                                                        │
+│ ↑↓ move · Enter change · Esc close                                           │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+== no-color · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                      │
+│ Settings                                                                                                   3 changed │
+│ Theme       Shoreline                                                                                                │
+│ Motion      Reduced                                                                                                  │
+│ Tool detail Collapsed                                                                                                │
+│ ↑↓ move · Enter change · Esc close                                                                                   │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+== ascii · 40x12
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
+Edited summary.md and then ran the whole
++--------------------------------------+
+|                                      |
+| Settings                   3 changed |
+| Theme       Shoreline                |
+| Motion      Reduced                  |
+| Up/Down move  Enter change           |
+| Esc close                            |
+|                                      |
++--------------------------------------+
+
+== ascii · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
++------------------------------------------------------------------------------+
+|                                                                              |
+| Settings                                                           3 changed |
+| Theme       Shoreline                                                        |
+| Motion      Reduced                                                          |
+| Tool detail Collapsed                                                        |
+| Up/Down move  Enter change  Esc close                                        |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+== ascii · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
++----------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                      |
+| Settings                                                                                                   3 changed |
+| Theme       Shoreline                                                                                                |
+| Motion      Reduced                                                                                                  |
+| Tool detail Collapsed                                                                                                |
+| Up/Down move  Enter change  Esc close                                                                                |
+|                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+

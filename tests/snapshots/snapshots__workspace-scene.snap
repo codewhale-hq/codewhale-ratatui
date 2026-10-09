@@ -1,0 +1,2542 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+   ✓ Inspect  Done  12s                                                    │
+   workspace layout and rendered cells                                     │  ▸ ◆ Needs you
+   ▏ Wide: conversation + files                                            │  ▏ Terminal / Review
+   ▏ Narrow: conversation, details on demand                               │  ▏ Choose which preview to
+   ▏ Host facts: preserved                                                 │  ▏ inspect first.
+                                                                           │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..106 fg=Foreground bg=Background
+r0 c106..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..39 fg=Foreground bg=Background bold
+r3 c39..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..103 fg=Foreground bg=Sidebar
+r3 c103..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..106 fg=Foreground bg=Sidebar
+r6 c106..110 fg=Primary bg=Sidebar
+r6 c110..112 fg=Foreground bg=Sidebar
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..80 fg=Foreground bg=Sidebar
+r7 c80..81 fg=Live bg=Sidebar
+r7 c81..86 fg=Foreground bg=Sidebar
+r7 c86..89 fg=Dim bg=Sidebar
+r7 c89..93 fg=Muted bg=Sidebar
+r7 c93..96 fg=Dim bg=Sidebar
+r7 c96..109 fg=Muted bg=Sidebar
+r7 c109..110 fg=Hint bg=Sidebar
+r7 c110..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..106 fg=Foreground bg=Sidebar
+r8 c106..110 fg=Primary bg=Sidebar
+r8 c110..112 fg=Foreground bg=Sidebar
+r9 c0..4 fg=Foreground bg=Background
+r9 c4..13 fg=Foreground bg=Background bold
+r9 c13..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..80 fg=Foreground bg=Sidebar
+r9 c80..81 fg=Live bg=Sidebar
+r9 c81..89 fg=Foreground bg=Sidebar
+r9 c89..92 fg=Dim bg=Sidebar
+r9 c92..96 fg=Muted bg=Sidebar
+r9 c96..99 fg=Dim bg=Sidebar
+r9 c99..109 fg=Muted bg=Sidebar
+r9 c109..110 fg=Hint bg=Sidebar
+r9 c110..112 fg=Foreground bg=Sidebar
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..4 fg=Border bg=Background
+r10 c4..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..78 fg=Foreground bg=Sidebar
+r10 c78..79 fg=Muted bg=Selected
+r10 c79..80 fg=Foreground bg=Selected
+r10 c80..93 fg=Foreground bg=Selected bold
+r10 c93..104 fg=Foreground bg=Selected
+r10 c104..110 fg=Primary bg=Selected
+r10 c110..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..75 fg=Foreground bg=Background
+r11 c75..76 fg=Border bg=Background
+r11 c76..78 fg=Foreground bg=Sidebar
+r11 c78..80 fg=Foreground bg=Selected
+r11 c80..81 fg=Attention bg=Selected
+r11 c81..91 fg=Foreground bg=Selected
+r11 c91..94 fg=Dim bg=Selected
+r11 c94..100 fg=Muted bg=Selected
+r11 c100..103 fg=Dim bg=Selected
+r11 c103..108 fg=Muted bg=Selected
+r11 c108..109 fg=Hint bg=Selected
+r11 c109..110 fg=Foreground bg=Selected
+r11 c110..112 fg=Foreground bg=Sidebar
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..75 fg=Foreground bg=Background
+r12 c75..76 fg=Border bg=Background
+r12 c76..112 fg=Foreground bg=Sidebar
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..75 fg=Foreground bg=Background
+r13 c75..76 fg=Border bg=Background
+r13 c76..80 fg=Foreground bg=Sidebar
+r13 c80..81 fg=Live bg=Sidebar
+r13 c81..86 fg=Foreground bg=Sidebar
+r13 c86..89 fg=Dim bg=Sidebar
+r13 c89..92 fg=Muted bg=Sidebar
+r13 c92..95 fg=Dim bg=Sidebar
+r13 c95..100 fg=Muted bg=Sidebar
+r13 c100..104 fg=Foreground bg=Sidebar
+r13 c104..107 fg=Dim bg=Sidebar
+r13 c107..109 fg=Muted bg=Sidebar
+r13 c109..110 fg=Hint bg=Sidebar
+r13 c110..112 fg=Foreground bg=Sidebar
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..75 fg=Foreground bg=Background
+r14 c75..76 fg=Border bg=Background
+r14 c76..112 fg=Foreground bg=Sidebar
+r15 c0..75 fg=Foreground bg=Background
+r15 c75..76 fg=Border bg=Background
+r15 c76..112 fg=Foreground bg=Sidebar
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..3 bg=Surface
+r16 c3..4 fg=Live bg=Surface
+r16 c4..5 bg=Surface
+r16 c5..12 fg=Foreground bg=Surface bold
+r16 c12..14 bg=Surface
+r16 c14..18 fg=Live bg=Surface
+r16 c18..20 bg=Surface
+r16 c20..23 fg=Muted bg=Surface
+r16 c23..73 bg=Surface
+r16 c73..75 fg=Foreground bg=Background
+r16 c75..76 fg=Border bg=Background
+r16 c76..112 fg=Foreground bg=Sidebar
+r17 c0..2 fg=Foreground bg=Background
+r17 c2..3 bg=Surface
+r17 c3..38 fg=Primary bg=Surface
+r17 c38..73 bg=Surface
+r17 c73..75 fg=Foreground bg=Background
+r17 c75..76 fg=Border bg=Background
+r17 c76..78 fg=Foreground bg=Sidebar
+r17 c78..79 fg=Primary bg=Selected
+r17 c79..80 bg=Selected
+r17 c80..81 fg=Attention bg=Selected
+r17 c81..82 bg=Selected
+r17 c82..91 fg=Foreground bg=Selected
+r17 c91..110 bg=Selected
+r17 c110..112 fg=Foreground bg=Sidebar
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 bg=Surface
+r18 c3..5 fg=Border bg=Surface
+r18 c5..31 fg=Muted bg=Surface
+r18 c31..73 bg=Surface
+r18 c73..75 fg=Foreground bg=Background
+r18 c75..76 fg=Border bg=Background
+r18 c76..78 fg=Foreground bg=Sidebar
+r18 c78..79 fg=Primary bg=Selected
+r18 c79..80 bg=Selected
+r18 c80..97 fg=Foreground bg=Selected bold
+r18 c97..110 bg=Selected
+r18 c110..112 fg=Foreground bg=Sidebar
+r19 c0..2 fg=Foreground bg=Background
+r19 c2..3 bg=Surface
+r19 c3..5 fg=Border bg=Surface
+r19 c5..44 fg=Muted bg=Surface
+r19 c44..73 bg=Surface
+r19 c73..75 fg=Foreground bg=Background
+r19 c75..76 fg=Border bg=Background
+r19 c76..78 fg=Foreground bg=Sidebar
+r19 c78..79 fg=Primary bg=Selected
+r19 c79..80 bg=Selected
+r19 c80..104 fg=Foreground bg=Selected
+r19 c104..110 bg=Selected
+r19 c110..112 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Foreground bg=Background
+r20 c2..3 bg=Surface
+r20 c3..5 fg=Border bg=Surface
+r20 c5..26 fg=Muted bg=Surface
+r20 c26..73 bg=Surface
+r20 c73..75 fg=Foreground bg=Background
+r20 c75..76 fg=Border bg=Background
+r20 c76..78 fg=Foreground bg=Sidebar
+r20 c78..79 fg=Primary bg=Selected
+r20 c79..80 bg=Selected
+r20 c80..94 fg=Foreground bg=Selected
+r20 c94..110 bg=Selected
+r20 c110..112 fg=Foreground bg=Sidebar
+r21 c0..2 fg=Foreground bg=Background
+r21 c2..73 bg=Surface
+r21 c73..75 fg=Foreground bg=Background
+r21 c75..76 fg=Border bg=Background
+r21 c76..78 fg=Foreground bg=Sidebar
+r21 c78..79 fg=Primary bg=Selected
+r21 c79..80 bg=Selected
+r21 c80..98 fg=Primary bg=Selected
+r21 c98..110 bg=Selected
+r21 c110..112 fg=Foreground bg=Sidebar
+r22 c0..75 fg=Foreground bg=Background
+r22 c75..76 fg=Border bg=Background
+r22 c76..78 fg=Foreground bg=Sidebar
+r22 c78..110 bg=Selected
+r22 c110..112 fg=Foreground bg=Sidebar
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..73 fg=Border bg=Sidebar
+r23 c73..75 fg=Foreground bg=Background
+r23 c75..76 fg=Border bg=Background
+r23 c76..78 fg=Foreground bg=Sidebar
+r23 c78..110 bg=Selected
+r23 c110..112 fg=Foreground bg=Sidebar
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Foreground bg=Sidebar
+r24 c3..10 fg=Foreground bg=Selected bold
+r24 c10..12 fg=Foreground bg=Sidebar
+r24 c12..19 fg=Muted bg=Sidebar
+r24 c19..21 fg=Foreground bg=Sidebar
+r24 c21..27 fg=Muted bg=Sidebar
+r24 c27..29 fg=Foreground bg=Sidebar
+r24 c29..36 fg=Muted bg=Sidebar
+r24 c36..38 fg=Foreground bg=Sidebar
+r24 c38..45 fg=Muted bg=Sidebar
+r24 c45..47 fg=Foreground bg=Sidebar
+r24 c47..56 fg=Muted bg=Sidebar
+r24 c56..58 fg=Foreground bg=Sidebar
+r24 c58..63 fg=Muted bg=Sidebar
+r24 c63..66 fg=Foreground bg=Sidebar
+r24 c66..73 fg=Hint bg=Sidebar
+r24 c73..75 fg=Foreground bg=Background
+r24 c75..76 fg=Border bg=Background
+r24 c76..112 fg=Foreground bg=Sidebar
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Foreground bg=Sidebar
+r25 c3..36 fg=Live bg=Sidebar bold
+r25 c36..73 fg=Foreground bg=Sidebar
+r25 c73..75 fg=Foreground bg=Background
+r25 c75..76 fg=Border bg=Background
+r25 c76..112 fg=Foreground bg=Sidebar
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Sidebar
+r26 c3..22 fg=Muted bg=Sidebar
+r26 c22..73 fg=Foreground bg=Sidebar
+r26 c73..75 fg=Foreground bg=Background
+r26 c75..76 fg=Border bg=Background
+r26 c76..112 fg=Foreground bg=Sidebar
+r27 c0..2 fg=Foreground bg=Background
+r27 c2..3 fg=Foreground bg=Sidebar
+r27 c3..71 fg=Live bg=Selected bold
+r27 c71..72 fg=Foreground bg=Sidebar
+r27 c72..73 fg=Live bg=Sidebar
+r27 c73..75 fg=Foreground bg=Background
+r27 c75..76 fg=Border bg=Background
+r27 c76..91 fg=Foreground bg=Sidebar
+r27 c91..93 fg=#83b4fb bg=Sidebar
+r27 c93..112 fg=Foreground bg=Sidebar
+r28 c0..75 fg=Foreground bg=Background
+r28 c75..76 fg=Border bg=Background
+r28 c76..88 fg=Foreground bg=Sidebar
+r28 c88..96 fg=#77b0f6 bg=Sidebar
+r28 c96..97 fg=Foreground bg=Sidebar
+r28 c97..101 fg=#77b0f6 bg=Sidebar
+r28 c101..112 fg=Foreground bg=Sidebar
+r29 c0..75 fg=Foreground bg=Background
+r29 c75..76 fg=Border bg=Background
+r29 c76..87 fg=Foreground bg=Sidebar
+r29 c87..91 fg=#6aabf2 bg=Sidebar
+r29 c91..93 fg=Foreground bg=Sidebar
+r29 c93..101 fg=#6aabf2 bg=Sidebar
+r29 c101..112 fg=Foreground bg=Sidebar
+r30 c0..75 fg=Foreground bg=Background
+r30 c75..76 fg=Border bg=Background
+r30 c76..87 fg=Foreground bg=Sidebar
+r30 c87..90 fg=#5da6ee bg=Sidebar
+r30 c90..94 fg=Foreground bg=Sidebar
+r30 c94..101 fg=#5da6ee bg=Sidebar
+r30 c101..112 fg=Foreground bg=Sidebar
+r31 c0..75 fg=Foreground bg=Background
+r31 c75..76 fg=Border bg=Background
+r31 c76..87 fg=Foreground bg=Sidebar
+r31 c87..101 fg=#51a2e9 bg=Sidebar
+r31 c101..112 fg=Foreground bg=Sidebar
+r32 c0..19 fg=Foreground bg=Background
+r32 c19..22 fg=BorderStrong bg=Background
+r32 c22..38 fg=Foreground bg=Background
+r32 c38..41 fg=BorderStrong bg=Background
+r32 c41..54 fg=Foreground bg=Background
+r32 c54..57 fg=BorderStrong bg=Background
+r32 c57..67 fg=Muted bg=Background
+r32 c67..75 fg=Foreground bg=Background
+r32 c75..76 fg=Border bg=Background
+r32 c76..87 fg=Foreground bg=Sidebar
+r32 c87..97 fg=#449de5 bg=Sidebar
+r32 c97..99 fg=Foreground bg=Sidebar
+r32 c99..100 fg=#449de5 bg=Sidebar
+r32 c100..112 fg=Foreground bg=Sidebar
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=#0d234d bg=Background
+r33 c3..4 fg=#102753 bg=Background
+r33 c4..5 fg=#132b59 bg=Background
+r33 c5..6 fg=#152e5e bg=Background
+r33 c6..7 fg=#183264 bg=Background
+r33 c7..8 fg=#1b366a bg=Background
+r33 c8..67 fg=Border bg=Background
+r33 c67..68 fg=#1b366a bg=Background
+r33 c68..69 fg=#183264 bg=Background
+r33 c69..70 fg=#152e5e bg=Background
+r33 c70..71 fg=#132b59 bg=Background
+r33 c71..72 fg=#102753 bg=Background
+r33 c72..73 fg=#0d234d bg=Background
+r33 c73..75 fg=Foreground bg=Background
+r33 c75..76 fg=Border bg=Background
+r33 c76..88 fg=Foreground bg=Sidebar
+r33 c88..98 fg=#3798e1 bg=Sidebar
+r33 c98..112 fg=Foreground bg=Sidebar
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..4 fg=Primary bg=Background
+r34 c4..75 fg=Foreground bg=Background
+r34 c75..76 fg=Border bg=Background
+r34 c76..92 fg=Foreground bg=Sidebar
+r34 c92..94 fg=#2b94dc bg=Sidebar
+r34 c94..112 fg=Foreground bg=Sidebar
+r35 c0..75 fg=Foreground bg=Background
+r35 c75..76 fg=Border bg=Background
+r35 c76..112 fg=Foreground bg=Sidebar
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..7 fg=Foreground bg=Background bold
+r36 c7..8 fg=Foreground bg=Background
+r36 c8..12 fg=Muted bg=Background
+r36 c12..15 fg=Border bg=Background
+r36 c15..18 fg=Foreground bg=Background bold
+r36 c18..19 fg=Foreground bg=Background
+r36 c19..26 fg=Muted bg=Background
+r36 c26..29 fg=Border bg=Background
+r36 c29..30 fg=Foreground bg=Background bold
+r36 c30..31 fg=Foreground bg=Background
+r36 c31..39 fg=Muted bg=Background
+r36 c39..75 fg=Foreground bg=Background
+r36 c75..76 fg=Border bg=Background
+r36 c76..82 fg=Foreground bg=Sidebar
+r36 c82..83 fg=Live bg=Sidebar
+r36 c83..112 fg=Foreground bg=Sidebar
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..90 fg=Muted bg=Sidebar
+r37 c90..112 fg=Foreground bg=Sidebar
+
+== dark-graphite
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+   ✓ Inspect  Done  12s                                                    │
+   workspace layout and rendered cells                                     │  ▸ ◆ Needs you
+   ▏ Wide: conversation + files                                            │  ▏ Terminal / Review
+   ▏ Narrow: conversation, details on demand                               │  ▏ Choose which preview to
+   ▏ Host facts: preserved                                                 │  ▏ inspect first.
+                                                                           │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..106 fg=Foreground bg=Background
+r0 c106..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..39 fg=Foreground bg=Background bold
+r3 c39..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..103 fg=Foreground bg=Sidebar
+r3 c103..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..106 fg=Foreground bg=Sidebar
+r6 c106..110 fg=Primary bg=Sidebar
+r6 c110..112 fg=Foreground bg=Sidebar
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..80 fg=Foreground bg=Sidebar
+r7 c80..81 fg=Live bg=Sidebar
+r7 c81..86 fg=Foreground bg=Sidebar
+r7 c86..89 fg=Dim bg=Sidebar
+r7 c89..93 fg=Muted bg=Sidebar
+r7 c93..96 fg=Dim bg=Sidebar
+r7 c96..109 fg=Muted bg=Sidebar
+r7 c109..110 fg=Hint bg=Sidebar
+r7 c110..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..106 fg=Foreground bg=Sidebar
+r8 c106..110 fg=Primary bg=Sidebar
+r8 c110..112 fg=Foreground bg=Sidebar
+r9 c0..4 fg=Foreground bg=Background
+r9 c4..13 fg=Foreground bg=Background bold
+r9 c13..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..80 fg=Foreground bg=Sidebar
+r9 c80..81 fg=Live bg=Sidebar
+r9 c81..89 fg=Foreground bg=Sidebar
+r9 c89..92 fg=Dim bg=Sidebar
+r9 c92..96 fg=Muted bg=Sidebar
+r9 c96..99 fg=Dim bg=Sidebar
+r9 c99..109 fg=Muted bg=Sidebar
+r9 c109..110 fg=Hint bg=Sidebar
+r9 c110..112 fg=Foreground bg=Sidebar
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..4 fg=Border bg=Background
+r10 c4..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..78 fg=Foreground bg=Sidebar
+r10 c78..79 fg=Muted bg=Selected
+r10 c79..80 fg=Foreground bg=Selected
+r10 c80..93 fg=Foreground bg=Selected bold
+r10 c93..104 fg=Foreground bg=Selected
+r10 c104..110 fg=Primary bg=Selected
+r10 c110..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..75 fg=Foreground bg=Background
+r11 c75..76 fg=Border bg=Background
+r11 c76..78 fg=Foreground bg=Sidebar
+r11 c78..80 fg=Foreground bg=Selected
+r11 c80..81 fg=Attention bg=Selected
+r11 c81..91 fg=Foreground bg=Selected
+r11 c91..94 fg=Dim bg=Selected
+r11 c94..100 fg=Muted bg=Selected
+r11 c100..103 fg=Dim bg=Selected
+r11 c103..108 fg=Muted bg=Selected
+r11 c108..109 fg=Hint bg=Selected
+r11 c109..110 fg=Foreground bg=Selected
+r11 c110..112 fg=Foreground bg=Sidebar
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..75 fg=Foreground bg=Background
+r12 c75..76 fg=Border bg=Background
+r12 c76..112 fg=Foreground bg=Sidebar
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..75 fg=Foreground bg=Background
+r13 c75..76 fg=Border bg=Background
+r13 c76..80 fg=Foreground bg=Sidebar
+r13 c80..81 fg=Live bg=Sidebar
+r13 c81..86 fg=Foreground bg=Sidebar
+r13 c86..89 fg=Dim bg=Sidebar
+r13 c89..92 fg=Muted bg=Sidebar
+r13 c92..95 fg=Dim bg=Sidebar
+r13 c95..100 fg=Muted bg=Sidebar
+r13 c100..104 fg=Foreground bg=Sidebar
+r13 c104..107 fg=Dim bg=Sidebar
+r13 c107..109 fg=Muted bg=Sidebar
+r13 c109..110 fg=Hint bg=Sidebar
+r13 c110..112 fg=Foreground bg=Sidebar
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..75 fg=Foreground bg=Background
+r14 c75..76 fg=Border bg=Background
+r14 c76..112 fg=Foreground bg=Sidebar
+r15 c0..75 fg=Foreground bg=Background
+r15 c75..76 fg=Border bg=Background
+r15 c76..112 fg=Foreground bg=Sidebar
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..3 bg=Surface
+r16 c3..4 fg=Live bg=Surface
+r16 c4..5 bg=Surface
+r16 c5..12 fg=Foreground bg=Surface bold
+r16 c12..14 bg=Surface
+r16 c14..18 fg=Live bg=Surface
+r16 c18..20 bg=Surface
+r16 c20..23 fg=Muted bg=Surface
+r16 c23..73 bg=Surface
+r16 c73..75 fg=Foreground bg=Background
+r16 c75..76 fg=Border bg=Background
+r16 c76..112 fg=Foreground bg=Sidebar
+r17 c0..2 fg=Foreground bg=Background
+r17 c2..3 bg=Surface
+r17 c3..38 fg=Primary bg=Surface
+r17 c38..73 bg=Surface
+r17 c73..75 fg=Foreground bg=Background
+r17 c75..76 fg=Border bg=Background
+r17 c76..78 fg=Foreground bg=Sidebar
+r17 c78..79 fg=Primary bg=Selected
+r17 c79..80 bg=Selected
+r17 c80..81 fg=Attention bg=Selected
+r17 c81..82 bg=Selected
+r17 c82..91 fg=Foreground bg=Selected
+r17 c91..110 bg=Selected
+r17 c110..112 fg=Foreground bg=Sidebar
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 bg=Surface
+r18 c3..5 fg=Border bg=Surface
+r18 c5..31 fg=Muted bg=Surface
+r18 c31..73 bg=Surface
+r18 c73..75 fg=Foreground bg=Background
+r18 c75..76 fg=Border bg=Background
+r18 c76..78 fg=Foreground bg=Sidebar
+r18 c78..79 fg=Primary bg=Selected
+r18 c79..80 bg=Selected
+r18 c80..97 fg=Foreground bg=Selected bold
+r18 c97..110 bg=Selected
+r18 c110..112 fg=Foreground bg=Sidebar
+r19 c0..2 fg=Foreground bg=Background
+r19 c2..3 bg=Surface
+r19 c3..5 fg=Border bg=Surface
+r19 c5..44 fg=Muted bg=Surface
+r19 c44..73 bg=Surface
+r19 c73..75 fg=Foreground bg=Background
+r19 c75..76 fg=Border bg=Background
+r19 c76..78 fg=Foreground bg=Sidebar
+r19 c78..79 fg=Primary bg=Selected
+r19 c79..80 bg=Selected
+r19 c80..104 fg=Foreground bg=Selected
+r19 c104..110 bg=Selected
+r19 c110..112 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Foreground bg=Background
+r20 c2..3 bg=Surface
+r20 c3..5 fg=Border bg=Surface
+r20 c5..26 fg=Muted bg=Surface
+r20 c26..73 bg=Surface
+r20 c73..75 fg=Foreground bg=Background
+r20 c75..76 fg=Border bg=Background
+r20 c76..78 fg=Foreground bg=Sidebar
+r20 c78..79 fg=Primary bg=Selected
+r20 c79..80 bg=Selected
+r20 c80..94 fg=Foreground bg=Selected
+r20 c94..110 bg=Selected
+r20 c110..112 fg=Foreground bg=Sidebar
+r21 c0..2 fg=Foreground bg=Background
+r21 c2..73 bg=Surface
+r21 c73..75 fg=Foreground bg=Background
+r21 c75..76 fg=Border bg=Background
+r21 c76..78 fg=Foreground bg=Sidebar
+r21 c78..79 fg=Primary bg=Selected
+r21 c79..80 bg=Selected
+r21 c80..98 fg=Primary bg=Selected
+r21 c98..110 bg=Selected
+r21 c110..112 fg=Foreground bg=Sidebar
+r22 c0..75 fg=Foreground bg=Background
+r22 c75..76 fg=Border bg=Background
+r22 c76..78 fg=Foreground bg=Sidebar
+r22 c78..110 bg=Selected
+r22 c110..112 fg=Foreground bg=Sidebar
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..73 fg=Border bg=Sidebar
+r23 c73..75 fg=Foreground bg=Background
+r23 c75..76 fg=Border bg=Background
+r23 c76..78 fg=Foreground bg=Sidebar
+r23 c78..110 bg=Selected
+r23 c110..112 fg=Foreground bg=Sidebar
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Foreground bg=Sidebar
+r24 c3..10 fg=Foreground bg=Selected bold
+r24 c10..12 fg=Foreground bg=Sidebar
+r24 c12..19 fg=Muted bg=Sidebar
+r24 c19..21 fg=Foreground bg=Sidebar
+r24 c21..27 fg=Muted bg=Sidebar
+r24 c27..29 fg=Foreground bg=Sidebar
+r24 c29..36 fg=Muted bg=Sidebar
+r24 c36..38 fg=Foreground bg=Sidebar
+r24 c38..45 fg=Muted bg=Sidebar
+r24 c45..47 fg=Foreground bg=Sidebar
+r24 c47..56 fg=Muted bg=Sidebar
+r24 c56..58 fg=Foreground bg=Sidebar
+r24 c58..63 fg=Muted bg=Sidebar
+r24 c63..66 fg=Foreground bg=Sidebar
+r24 c66..73 fg=Hint bg=Sidebar
+r24 c73..75 fg=Foreground bg=Background
+r24 c75..76 fg=Border bg=Background
+r24 c76..112 fg=Foreground bg=Sidebar
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Foreground bg=Sidebar
+r25 c3..36 fg=Live bg=Sidebar bold
+r25 c36..73 fg=Foreground bg=Sidebar
+r25 c73..75 fg=Foreground bg=Background
+r25 c75..76 fg=Border bg=Background
+r25 c76..112 fg=Foreground bg=Sidebar
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Sidebar
+r26 c3..22 fg=Muted bg=Sidebar
+r26 c22..73 fg=Foreground bg=Sidebar
+r26 c73..75 fg=Foreground bg=Background
+r26 c75..76 fg=Border bg=Background
+r26 c76..112 fg=Foreground bg=Sidebar
+r27 c0..2 fg=Foreground bg=Background
+r27 c2..3 fg=Foreground bg=Sidebar
+r27 c3..71 fg=Live bg=Selected bold
+r27 c71..72 fg=Foreground bg=Sidebar
+r27 c72..73 fg=Live bg=Sidebar
+r27 c73..75 fg=Foreground bg=Background
+r27 c75..76 fg=Border bg=Background
+r27 c76..91 fg=Foreground bg=Sidebar
+r27 c91..93 fg=#83b4fb bg=Sidebar
+r27 c93..112 fg=Foreground bg=Sidebar
+r28 c0..75 fg=Foreground bg=Background
+r28 c75..76 fg=Border bg=Background
+r28 c76..88 fg=Foreground bg=Sidebar
+r28 c88..96 fg=#77b0f6 bg=Sidebar
+r28 c96..97 fg=Foreground bg=Sidebar
+r28 c97..101 fg=#77b0f6 bg=Sidebar
+r28 c101..112 fg=Foreground bg=Sidebar
+r29 c0..75 fg=Foreground bg=Background
+r29 c75..76 fg=Border bg=Background
+r29 c76..87 fg=Foreground bg=Sidebar
+r29 c87..91 fg=#6aabf2 bg=Sidebar
+r29 c91..93 fg=Foreground bg=Sidebar
+r29 c93..101 fg=#6aabf2 bg=Sidebar
+r29 c101..112 fg=Foreground bg=Sidebar
+r30 c0..75 fg=Foreground bg=Background
+r30 c75..76 fg=Border bg=Background
+r30 c76..87 fg=Foreground bg=Sidebar
+r30 c87..90 fg=#5da6ee bg=Sidebar
+r30 c90..94 fg=Foreground bg=Sidebar
+r30 c94..101 fg=#5da6ee bg=Sidebar
+r30 c101..112 fg=Foreground bg=Sidebar
+r31 c0..75 fg=Foreground bg=Background
+r31 c75..76 fg=Border bg=Background
+r31 c76..87 fg=Foreground bg=Sidebar
+r31 c87..101 fg=#51a2e9 bg=Sidebar
+r31 c101..112 fg=Foreground bg=Sidebar
+r32 c0..19 fg=Foreground bg=Background
+r32 c19..22 fg=BorderStrong bg=Background
+r32 c22..38 fg=Foreground bg=Background
+r32 c38..41 fg=BorderStrong bg=Background
+r32 c41..54 fg=Foreground bg=Background
+r32 c54..57 fg=BorderStrong bg=Background
+r32 c57..67 fg=Muted bg=Background
+r32 c67..75 fg=Foreground bg=Background
+r32 c75..76 fg=Border bg=Background
+r32 c76..87 fg=Foreground bg=Sidebar
+r32 c87..97 fg=#449de5 bg=Sidebar
+r32 c97..99 fg=Foreground bg=Sidebar
+r32 c99..100 fg=#449de5 bg=Sidebar
+r32 c100..112 fg=Foreground bg=Sidebar
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=#242527 bg=Background
+r33 c3..4 fg=#28292b bg=Background
+r33 c4..5 fg=#2c2d2f bg=Background
+r33 c5..6 fg=#2f3033 bg=Background
+r33 c6..7 fg=#333437 bg=Background
+r33 c7..8 fg=#37383b bg=Background
+r33 c8..67 fg=Border bg=Background
+r33 c67..68 fg=#37383b bg=Background
+r33 c68..69 fg=#333437 bg=Background
+r33 c69..70 fg=#2f3033 bg=Background
+r33 c70..71 fg=#2c2d2f bg=Background
+r33 c71..72 fg=#28292b bg=Background
+r33 c72..73 fg=#242527 bg=Background
+r33 c73..75 fg=Foreground bg=Background
+r33 c75..76 fg=Border bg=Background
+r33 c76..88 fg=Foreground bg=Sidebar
+r33 c88..98 fg=#3798e1 bg=Sidebar
+r33 c98..112 fg=Foreground bg=Sidebar
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..4 fg=Primary bg=Background
+r34 c4..75 fg=Foreground bg=Background
+r34 c75..76 fg=Border bg=Background
+r34 c76..92 fg=Foreground bg=Sidebar
+r34 c92..94 fg=#2b94dc bg=Sidebar
+r34 c94..112 fg=Foreground bg=Sidebar
+r35 c0..75 fg=Foreground bg=Background
+r35 c75..76 fg=Border bg=Background
+r35 c76..112 fg=Foreground bg=Sidebar
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..7 fg=Foreground bg=Background bold
+r36 c7..8 fg=Foreground bg=Background
+r36 c8..12 fg=Muted bg=Background
+r36 c12..15 fg=Border bg=Background
+r36 c15..18 fg=Foreground bg=Background bold
+r36 c18..19 fg=Foreground bg=Background
+r36 c19..26 fg=Muted bg=Background
+r36 c26..29 fg=Border bg=Background
+r36 c29..30 fg=Foreground bg=Background bold
+r36 c30..31 fg=Foreground bg=Background
+r36 c31..39 fg=Muted bg=Background
+r36 c39..75 fg=Foreground bg=Background
+r36 c75..76 fg=Border bg=Background
+r36 c76..82 fg=Foreground bg=Sidebar
+r36 c82..83 fg=Live bg=Sidebar
+r36 c83..112 fg=Foreground bg=Sidebar
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..90 fg=Muted bg=Sidebar
+r37 c90..112 fg=Foreground bg=Sidebar
+
+== light-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+   ✓ Inspect  Done  12s                                                    │
+   workspace layout and rendered cells                                     │  ▸ ◆ Needs you
+   ▏ Wide: conversation + files                                            │  ▏ Terminal / Review
+   ▏ Narrow: conversation, details on demand                               │  ▏ Choose which preview to
+   ▏ Host facts: preserved                                                 │  ▏ inspect first.
+                                                                           │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..106 fg=Foreground bg=Background
+r0 c106..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..39 fg=Foreground bg=Background bold
+r3 c39..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..103 fg=Foreground bg=Sidebar
+r3 c103..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..106 fg=Foreground bg=Sidebar
+r6 c106..110 fg=Primary bg=Sidebar
+r6 c110..112 fg=Foreground bg=Sidebar
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..80 fg=Foreground bg=Sidebar
+r7 c80..81 fg=Live bg=Sidebar
+r7 c81..86 fg=Foreground bg=Sidebar
+r7 c86..89 fg=Dim bg=Sidebar
+r7 c89..93 fg=Muted bg=Sidebar
+r7 c93..96 fg=Dim bg=Sidebar
+r7 c96..109 fg=Muted bg=Sidebar
+r7 c109..110 fg=Hint bg=Sidebar
+r7 c110..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..106 fg=Foreground bg=Sidebar
+r8 c106..110 fg=Primary bg=Sidebar
+r8 c110..112 fg=Foreground bg=Sidebar
+r9 c0..4 fg=Foreground bg=Background
+r9 c4..13 fg=Foreground bg=Background bold
+r9 c13..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..80 fg=Foreground bg=Sidebar
+r9 c80..81 fg=Live bg=Sidebar
+r9 c81..89 fg=Foreground bg=Sidebar
+r9 c89..92 fg=Dim bg=Sidebar
+r9 c92..96 fg=Muted bg=Sidebar
+r9 c96..99 fg=Dim bg=Sidebar
+r9 c99..109 fg=Muted bg=Sidebar
+r9 c109..110 fg=Hint bg=Sidebar
+r9 c110..112 fg=Foreground bg=Sidebar
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..4 fg=Border bg=Background
+r10 c4..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..78 fg=Foreground bg=Sidebar
+r10 c78..79 fg=Muted bg=Selected
+r10 c79..80 fg=Foreground bg=Selected
+r10 c80..93 fg=Foreground bg=Selected bold
+r10 c93..104 fg=Foreground bg=Selected
+r10 c104..110 fg=Primary bg=Selected
+r10 c110..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..75 fg=Foreground bg=Background
+r11 c75..76 fg=Border bg=Background
+r11 c76..78 fg=Foreground bg=Sidebar
+r11 c78..80 fg=Foreground bg=Selected
+r11 c80..81 fg=Attention bg=Selected
+r11 c81..91 fg=Foreground bg=Selected
+r11 c91..94 fg=Dim bg=Selected
+r11 c94..100 fg=Muted bg=Selected
+r11 c100..103 fg=Dim bg=Selected
+r11 c103..108 fg=Muted bg=Selected
+r11 c108..109 fg=Hint bg=Selected
+r11 c109..110 fg=Foreground bg=Selected
+r11 c110..112 fg=Foreground bg=Sidebar
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..75 fg=Foreground bg=Background
+r12 c75..76 fg=Border bg=Background
+r12 c76..112 fg=Foreground bg=Sidebar
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..75 fg=Foreground bg=Background
+r13 c75..76 fg=Border bg=Background
+r13 c76..80 fg=Foreground bg=Sidebar
+r13 c80..81 fg=Live bg=Sidebar
+r13 c81..86 fg=Foreground bg=Sidebar
+r13 c86..89 fg=Dim bg=Sidebar
+r13 c89..92 fg=Muted bg=Sidebar
+r13 c92..95 fg=Dim bg=Sidebar
+r13 c95..100 fg=Muted bg=Sidebar
+r13 c100..104 fg=Foreground bg=Sidebar
+r13 c104..107 fg=Dim bg=Sidebar
+r13 c107..109 fg=Muted bg=Sidebar
+r13 c109..110 fg=Hint bg=Sidebar
+r13 c110..112 fg=Foreground bg=Sidebar
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..75 fg=Foreground bg=Background
+r14 c75..76 fg=Border bg=Background
+r14 c76..112 fg=Foreground bg=Sidebar
+r15 c0..75 fg=Foreground bg=Background
+r15 c75..76 fg=Border bg=Background
+r15 c76..112 fg=Foreground bg=Sidebar
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..3 bg=Surface
+r16 c3..4 fg=Live bg=Surface
+r16 c4..5 bg=Surface
+r16 c5..12 fg=Foreground bg=Surface bold
+r16 c12..14 bg=Surface
+r16 c14..18 fg=Live bg=Surface
+r16 c18..20 bg=Surface
+r16 c20..23 fg=Muted bg=Surface
+r16 c23..73 bg=Surface
+r16 c73..75 fg=Foreground bg=Background
+r16 c75..76 fg=Border bg=Background
+r16 c76..112 fg=Foreground bg=Sidebar
+r17 c0..2 fg=Foreground bg=Background
+r17 c2..3 bg=Surface
+r17 c3..38 fg=Primary bg=Surface
+r17 c38..73 bg=Surface
+r17 c73..75 fg=Foreground bg=Background
+r17 c75..76 fg=Border bg=Background
+r17 c76..78 fg=Foreground bg=Sidebar
+r17 c78..79 fg=Primary bg=Selected
+r17 c79..80 bg=Selected
+r17 c80..81 fg=Attention bg=Selected
+r17 c81..82 bg=Selected
+r17 c82..91 fg=Foreground bg=Selected
+r17 c91..110 bg=Selected
+r17 c110..112 fg=Foreground bg=Sidebar
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 bg=Surface
+r18 c3..5 fg=Border bg=Surface
+r18 c5..31 fg=Muted bg=Surface
+r18 c31..73 bg=Surface
+r18 c73..75 fg=Foreground bg=Background
+r18 c75..76 fg=Border bg=Background
+r18 c76..78 fg=Foreground bg=Sidebar
+r18 c78..79 fg=Primary bg=Selected
+r18 c79..80 bg=Selected
+r18 c80..97 fg=Foreground bg=Selected bold
+r18 c97..110 bg=Selected
+r18 c110..112 fg=Foreground bg=Sidebar
+r19 c0..2 fg=Foreground bg=Background
+r19 c2..3 bg=Surface
+r19 c3..5 fg=Border bg=Surface
+r19 c5..44 fg=Muted bg=Surface
+r19 c44..73 bg=Surface
+r19 c73..75 fg=Foreground bg=Background
+r19 c75..76 fg=Border bg=Background
+r19 c76..78 fg=Foreground bg=Sidebar
+r19 c78..79 fg=Primary bg=Selected
+r19 c79..80 bg=Selected
+r19 c80..104 fg=Foreground bg=Selected
+r19 c104..110 bg=Selected
+r19 c110..112 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Foreground bg=Background
+r20 c2..3 bg=Surface
+r20 c3..5 fg=Border bg=Surface
+r20 c5..26 fg=Muted bg=Surface
+r20 c26..73 bg=Surface
+r20 c73..75 fg=Foreground bg=Background
+r20 c75..76 fg=Border bg=Background
+r20 c76..78 fg=Foreground bg=Sidebar
+r20 c78..79 fg=Primary bg=Selected
+r20 c79..80 bg=Selected
+r20 c80..94 fg=Foreground bg=Selected
+r20 c94..110 bg=Selected
+r20 c110..112 fg=Foreground bg=Sidebar
+r21 c0..2 fg=Foreground bg=Background
+r21 c2..73 bg=Surface
+r21 c73..75 fg=Foreground bg=Background
+r21 c75..76 fg=Border bg=Background
+r21 c76..78 fg=Foreground bg=Sidebar
+r21 c78..79 fg=Primary bg=Selected
+r21 c79..80 bg=Selected
+r21 c80..98 fg=Primary bg=Selected
+r21 c98..110 bg=Selected
+r21 c110..112 fg=Foreground bg=Sidebar
+r22 c0..75 fg=Foreground bg=Background
+r22 c75..76 fg=Border bg=Background
+r22 c76..78 fg=Foreground bg=Sidebar
+r22 c78..110 bg=Selected
+r22 c110..112 fg=Foreground bg=Sidebar
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..73 fg=Border bg=Sidebar
+r23 c73..75 fg=Foreground bg=Background
+r23 c75..76 fg=Border bg=Background
+r23 c76..78 fg=Foreground bg=Sidebar
+r23 c78..110 bg=Selected
+r23 c110..112 fg=Foreground bg=Sidebar
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Foreground bg=Sidebar
+r24 c3..10 fg=Foreground bg=Selected bold
+r24 c10..12 fg=Foreground bg=Sidebar
+r24 c12..19 fg=Muted bg=Sidebar
+r24 c19..21 fg=Foreground bg=Sidebar
+r24 c21..27 fg=Muted bg=Sidebar
+r24 c27..29 fg=Foreground bg=Sidebar
+r24 c29..36 fg=Muted bg=Sidebar
+r24 c36..38 fg=Foreground bg=Sidebar
+r24 c38..45 fg=Muted bg=Sidebar
+r24 c45..47 fg=Foreground bg=Sidebar
+r24 c47..56 fg=Muted bg=Sidebar
+r24 c56..58 fg=Foreground bg=Sidebar
+r24 c58..63 fg=Muted bg=Sidebar
+r24 c63..66 fg=Foreground bg=Sidebar
+r24 c66..73 fg=Hint bg=Sidebar
+r24 c73..75 fg=Foreground bg=Background
+r24 c75..76 fg=Border bg=Background
+r24 c76..112 fg=Foreground bg=Sidebar
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Foreground bg=Sidebar
+r25 c3..36 fg=Live bg=Sidebar bold
+r25 c36..73 fg=Foreground bg=Sidebar
+r25 c73..75 fg=Foreground bg=Background
+r25 c75..76 fg=Border bg=Background
+r25 c76..112 fg=Foreground bg=Sidebar
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Sidebar
+r26 c3..22 fg=Muted bg=Sidebar
+r26 c22..73 fg=Foreground bg=Sidebar
+r26 c73..75 fg=Foreground bg=Background
+r26 c75..76 fg=Border bg=Background
+r26 c76..112 fg=Foreground bg=Sidebar
+r27 c0..2 fg=Foreground bg=Background
+r27 c2..3 fg=Foreground bg=Sidebar
+r27 c3..71 fg=Live bg=Selected bold
+r27 c71..72 fg=Foreground bg=Sidebar
+r27 c72..73 fg=Live bg=Sidebar
+r27 c73..75 fg=Foreground bg=Background
+r27 c75..76 fg=Border bg=Background
+r27 c76..91 fg=Foreground bg=Sidebar
+r27 c91..93 fg=#1c87d5 bg=Sidebar
+r27 c93..112 fg=Foreground bg=Sidebar
+r28 c0..75 fg=Foreground bg=Background
+r28 c75..76 fg=Border bg=Background
+r28 c76..88 fg=Foreground bg=Sidebar
+r28 c88..96 fg=#1a7fd2 bg=Sidebar
+r28 c96..97 fg=Foreground bg=Sidebar
+r28 c97..101 fg=#1a7fd2 bg=Sidebar
+r28 c101..112 fg=Foreground bg=Sidebar
+r29 c0..75 fg=Foreground bg=Background
+r29 c75..76 fg=Border bg=Background
+r29 c76..87 fg=Foreground bg=Sidebar
+r29 c87..91 fg=#1877ce bg=Sidebar
+r29 c91..93 fg=Foreground bg=Sidebar
+r29 c93..101 fg=#1877ce bg=Sidebar
+r29 c101..112 fg=Foreground bg=Sidebar
+r30 c0..75 fg=Foreground bg=Background
+r30 c75..76 fg=Border bg=Background
+r30 c76..87 fg=Foreground bg=Sidebar
+r30 c87..90 fg=#166fcb bg=Sidebar
+r30 c90..94 fg=Foreground bg=Sidebar
+r30 c94..101 fg=#166fcb bg=Sidebar
+r30 c101..112 fg=Foreground bg=Sidebar
+r31 c0..75 fg=Foreground bg=Background
+r31 c75..76 fg=Border bg=Background
+r31 c76..87 fg=Foreground bg=Sidebar
+r31 c87..101 fg=#1368c8 bg=Sidebar
+r31 c101..112 fg=Foreground bg=Sidebar
+r32 c0..19 fg=Foreground bg=Background
+r32 c19..22 fg=BorderStrong bg=Background
+r32 c22..38 fg=Foreground bg=Background
+r32 c38..41 fg=BorderStrong bg=Background
+r32 c41..54 fg=Foreground bg=Background
+r32 c54..57 fg=BorderStrong bg=Background
+r32 c57..67 fg=Muted bg=Background
+r32 c67..75 fg=Foreground bg=Background
+r32 c75..76 fg=Border bg=Background
+r32 c76..87 fg=Foreground bg=Sidebar
+r32 c87..97 fg=#1160c5 bg=Sidebar
+r32 c97..99 fg=Foreground bg=Sidebar
+r32 c99..100 fg=#1160c5 bg=Sidebar
+r32 c100..112 fg=Foreground bg=Sidebar
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..3 fg=#f5f3f0 bg=Background
+r33 c3..4 fg=#f1eeea bg=Background
+r33 c4..5 fg=#ece9e5 bg=Background
+r33 c5..6 fg=#e7e4df bg=Background
+r33 c6..7 fg=#e2dfda bg=Background
+r33 c7..8 fg=#dedad4 bg=Background
+r33 c8..67 fg=Border bg=Background
+r33 c67..68 fg=#dedad4 bg=Background
+r33 c68..69 fg=#e2dfda bg=Background
+r33 c69..70 fg=#e7e4df bg=Background
+r33 c70..71 fg=#ece9e5 bg=Background
+r33 c71..72 fg=#f1eeea bg=Background
+r33 c72..73 fg=#f5f3f0 bg=Background
+r33 c73..75 fg=Foreground bg=Background
+r33 c75..76 fg=Border bg=Background
+r33 c76..88 fg=Foreground bg=Sidebar
+r33 c88..98 fg=#0f58c1 bg=Sidebar
+r33 c98..112 fg=Foreground bg=Sidebar
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..4 fg=Primary bg=Background
+r34 c4..75 fg=Foreground bg=Background
+r34 c75..76 fg=Border bg=Background
+r34 c76..92 fg=Foreground bg=Sidebar
+r34 c92..94 fg=#0d50be bg=Sidebar
+r34 c94..112 fg=Foreground bg=Sidebar
+r35 c0..75 fg=Foreground bg=Background
+r35 c75..76 fg=Border bg=Background
+r35 c76..112 fg=Foreground bg=Sidebar
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..7 fg=Foreground bg=Background bold
+r36 c7..8 fg=Foreground bg=Background
+r36 c8..12 fg=Muted bg=Background
+r36 c12..15 fg=Border bg=Background
+r36 c15..18 fg=Foreground bg=Background bold
+r36 c18..19 fg=Foreground bg=Background
+r36 c19..26 fg=Muted bg=Background
+r36 c26..29 fg=Border bg=Background
+r36 c29..30 fg=Foreground bg=Background bold
+r36 c30..31 fg=Foreground bg=Background
+r36 c31..39 fg=Muted bg=Background
+r36 c39..75 fg=Foreground bg=Background
+r36 c75..76 fg=Border bg=Background
+r36 c76..82 fg=Foreground bg=Sidebar
+r36 c82..83 fg=Live bg=Sidebar
+r36 c83..112 fg=Foreground bg=Sidebar
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..90 fg=Muted bg=Sidebar
+r37 c90..112 fg=Foreground bg=Sidebar
+
+== dark-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+   ✓ Inspect  Done  12s                                                    │
+   workspace layout and rendered cells                                     │  ▸ ◆ Needs you
+   ▏ Wide: conversation + files                                            │  ▏ Terminal / Review
+   ▏ Narrow: conversation, details on demand                               │  ▏ Choose which preview to
+   ▏ Host facts: preserved                                                 │  ▏ inspect first.
+                                                                           │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..106 fg=Foreground bg=Background
+r0 c106..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..39 fg=Foreground bg=Background bold
+r3 c39..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..103 fg=Foreground bg=Sidebar
+r3 c103..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..2 fg=Foreground bg=Background
+r6 c2..3 fg=Primary bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..7 fg=Primary bg=Background bold
+r6 c7..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..106 fg=Foreground bg=Sidebar
+r6 c106..110 fg=Primary bg=Sidebar
+r6 c110..112 fg=Foreground bg=Sidebar
+r7 c0..2 fg=Foreground bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..80 fg=Foreground bg=Sidebar
+r7 c80..81 fg=Live bg=Sidebar
+r7 c81..86 fg=Foreground bg=Sidebar
+r7 c86..89 fg=Dim bg=Sidebar
+r7 c89..93 fg=Muted bg=Sidebar
+r7 c93..96 fg=Dim bg=Sidebar
+r7 c96..109 fg=Muted bg=Sidebar
+r7 c109..110 fg=Hint bg=Sidebar
+r7 c110..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..106 fg=Foreground bg=Sidebar
+r8 c106..110 fg=Primary bg=Sidebar
+r8 c110..112 fg=Foreground bg=Sidebar
+r9 c0..4 fg=Foreground bg=Background
+r9 c4..13 fg=Foreground bg=Background bold
+r9 c13..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..80 fg=Foreground bg=Sidebar
+r9 c80..81 fg=Live bg=Sidebar
+r9 c81..89 fg=Foreground bg=Sidebar
+r9 c89..92 fg=Dim bg=Sidebar
+r9 c92..96 fg=Muted bg=Sidebar
+r9 c96..99 fg=Dim bg=Sidebar
+r9 c99..109 fg=Muted bg=Sidebar
+r9 c109..110 fg=Hint bg=Sidebar
+r9 c110..112 fg=Foreground bg=Sidebar
+r10 c0..2 fg=Foreground bg=Background
+r10 c2..4 fg=Border bg=Background
+r10 c4..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..78 fg=Foreground bg=Sidebar
+r10 c78..79 fg=Muted bg=Selected
+r10 c79..80 fg=Foreground bg=Selected
+r10 c80..93 fg=Foreground bg=Selected bold
+r10 c93..104 fg=Foreground bg=Selected
+r10 c104..110 fg=Primary bg=Selected
+r10 c110..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Background
+r11 c2..4 fg=Border bg=Background
+r11 c4..75 fg=Foreground bg=Background
+r11 c75..76 fg=Border bg=Background
+r11 c76..78 fg=Foreground bg=Sidebar
+r11 c78..80 fg=Foreground bg=Selected
+r11 c80..81 fg=Attention bg=Selected
+r11 c81..91 fg=Foreground bg=Selected
+r11 c91..94 fg=Dim bg=Selected
+r11 c94..100 fg=Muted bg=Selected
+r11 c100..103 fg=Dim bg=Selected
+r11 c103..108 fg=Muted bg=Selected
+r11 c108..109 fg=Hint bg=Selected
+r11 c109..110 fg=Foreground bg=Selected
+r11 c110..112 fg=Foreground bg=Sidebar
+r12 c0..2 fg=Foreground bg=Background
+r12 c2..4 fg=Border bg=Background
+r12 c4..75 fg=Foreground bg=Background
+r12 c75..76 fg=Border bg=Background
+r12 c76..112 fg=Foreground bg=Sidebar
+r13 c0..2 fg=Foreground bg=Background
+r13 c2..4 fg=Border bg=Background
+r13 c4..75 fg=Foreground bg=Background
+r13 c75..76 fg=Border bg=Background
+r13 c76..80 fg=Foreground bg=Sidebar
+r13 c80..81 fg=Live bg=Sidebar
+r13 c81..86 fg=Foreground bg=Sidebar
+r13 c86..89 fg=Dim bg=Sidebar
+r13 c89..92 fg=Muted bg=Sidebar
+r13 c92..95 fg=Dim bg=Sidebar
+r13 c95..100 fg=Muted bg=Sidebar
+r13 c100..104 fg=Foreground bg=Sidebar
+r13 c104..107 fg=Dim bg=Sidebar
+r13 c107..109 fg=Muted bg=Sidebar
+r13 c109..110 fg=Hint bg=Sidebar
+r13 c110..112 fg=Foreground bg=Sidebar
+r14 c0..2 fg=Foreground bg=Background
+r14 c2..4 fg=Border bg=Background
+r14 c4..75 fg=Foreground bg=Background
+r14 c75..76 fg=Border bg=Background
+r14 c76..112 fg=Foreground bg=Sidebar
+r15 c0..75 fg=Foreground bg=Background
+r15 c75..76 fg=Border bg=Background
+r15 c76..112 fg=Foreground bg=Sidebar
+r16 c0..2 fg=Foreground bg=Background
+r16 c2..3 bg=Surface|Hover
+r16 c3..4 fg=Live bg=Surface|Hover
+r16 c4..5 bg=Surface|Hover
+r16 c5..12 fg=Foreground bg=Surface|Hover bold
+r16 c12..14 bg=Surface|Hover
+r16 c14..18 fg=Live bg=Surface|Hover
+r16 c18..20 bg=Surface|Hover
+r16 c20..23 fg=Muted bg=Surface|Hover
+r16 c23..73 bg=Surface|Hover
+r16 c73..75 fg=Foreground bg=Background
+r16 c75..76 fg=Border bg=Background
+r16 c76..112 fg=Foreground bg=Sidebar
+r17 c0..2 fg=Foreground bg=Background
+r17 c2..3 bg=Surface|Hover
+r17 c3..38 fg=Primary bg=Surface|Hover
+r17 c38..73 bg=Surface|Hover
+r17 c73..75 fg=Foreground bg=Background
+r17 c75..76 fg=Border bg=Background
+r17 c76..78 fg=Foreground bg=Sidebar
+r17 c78..79 fg=Primary bg=Selected
+r17 c79..80 bg=Selected
+r17 c80..81 fg=Attention bg=Selected
+r17 c81..82 bg=Selected
+r17 c82..91 fg=Foreground bg=Selected
+r17 c91..110 bg=Selected
+r17 c110..112 fg=Foreground bg=Sidebar
+r18 c0..2 fg=Foreground bg=Background
+r18 c2..3 bg=Surface|Hover
+r18 c3..5 fg=Border bg=Surface|Hover
+r18 c5..31 fg=Muted bg=Surface|Hover
+r18 c31..73 bg=Surface|Hover
+r18 c73..75 fg=Foreground bg=Background
+r18 c75..76 fg=Border bg=Background
+r18 c76..78 fg=Foreground bg=Sidebar
+r18 c78..79 fg=Primary bg=Selected
+r18 c79..80 bg=Selected
+r18 c80..97 fg=Foreground bg=Selected bold
+r18 c97..110 bg=Selected
+r18 c110..112 fg=Foreground bg=Sidebar
+r19 c0..2 fg=Foreground bg=Background
+r19 c2..3 bg=Surface|Hover
+r19 c3..5 fg=Border bg=Surface|Hover
+r19 c5..44 fg=Muted bg=Surface|Hover
+r19 c44..73 bg=Surface|Hover
+r19 c73..75 fg=Foreground bg=Background
+r19 c75..76 fg=Border bg=Background
+r19 c76..78 fg=Foreground bg=Sidebar
+r19 c78..79 fg=Primary bg=Selected
+r19 c79..80 bg=Selected
+r19 c80..104 fg=Foreground bg=Selected
+r19 c104..110 bg=Selected
+r19 c110..112 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Foreground bg=Background
+r20 c2..3 bg=Surface|Hover
+r20 c3..5 fg=Border bg=Surface|Hover
+r20 c5..26 fg=Muted bg=Surface|Hover
+r20 c26..73 bg=Surface|Hover
+r20 c73..75 fg=Foreground bg=Background
+r20 c75..76 fg=Border bg=Background
+r20 c76..78 fg=Foreground bg=Sidebar
+r20 c78..79 fg=Primary bg=Selected
+r20 c79..80 bg=Selected
+r20 c80..94 fg=Foreground bg=Selected
+r20 c94..110 bg=Selected
+r20 c110..112 fg=Foreground bg=Sidebar
+r21 c0..2 fg=Foreground bg=Background
+r21 c2..73 bg=Surface|Hover
+r21 c73..75 fg=Foreground bg=Background
+r21 c75..76 fg=Border bg=Background
+r21 c76..78 fg=Foreground bg=Sidebar
+r21 c78..79 fg=Primary bg=Selected
+r21 c79..80 bg=Selected
+r21 c80..98 fg=Primary bg=Selected
+r21 c98..110 bg=Selected
+r21 c110..112 fg=Foreground bg=Sidebar
+r22 c0..75 fg=Foreground bg=Background
+r22 c75..76 fg=Border bg=Background
+r22 c76..78 fg=Foreground bg=Sidebar
+r22 c78..110 bg=Selected
+r22 c110..112 fg=Foreground bg=Sidebar
+r23 c0..2 fg=Foreground bg=Background
+r23 c2..73 fg=Border bg=Sidebar
+r23 c73..75 fg=Foreground bg=Background
+r23 c75..76 fg=Border bg=Background
+r23 c76..78 fg=Foreground bg=Sidebar
+r23 c78..110 bg=Selected
+r23 c110..112 fg=Foreground bg=Sidebar
+r24 c0..2 fg=Foreground bg=Background
+r24 c2..3 fg=Foreground bg=Sidebar
+r24 c3..10 fg=Foreground bg=Selected bold
+r24 c10..12 fg=Foreground bg=Sidebar
+r24 c12..19 fg=Muted bg=Sidebar
+r24 c19..21 fg=Foreground bg=Sidebar
+r24 c21..27 fg=Muted bg=Sidebar
+r24 c27..29 fg=Foreground bg=Sidebar
+r24 c29..36 fg=Muted bg=Sidebar
+r24 c36..38 fg=Foreground bg=Sidebar
+r24 c38..45 fg=Muted bg=Sidebar
+r24 c45..47 fg=Foreground bg=Sidebar
+r24 c47..56 fg=Muted bg=Sidebar
+r24 c56..58 fg=Foreground bg=Sidebar
+r24 c58..63 fg=Muted bg=Sidebar
+r24 c63..66 fg=Foreground bg=Sidebar
+r24 c66..73 fg=Hint bg=Sidebar
+r24 c73..75 fg=Foreground bg=Background
+r24 c75..76 fg=Border bg=Background
+r24 c76..112 fg=Foreground bg=Sidebar
+r25 c0..2 fg=Foreground bg=Background
+r25 c2..3 fg=Foreground bg=Sidebar
+r25 c3..36 fg=Live bg=Sidebar bold
+r25 c36..73 fg=Foreground bg=Sidebar
+r25 c73..75 fg=Foreground bg=Background
+r25 c75..76 fg=Border bg=Background
+r25 c76..112 fg=Foreground bg=Sidebar
+r26 c0..2 fg=Foreground bg=Background
+r26 c2..3 fg=Foreground bg=Sidebar
+r26 c3..22 fg=Muted bg=Sidebar
+r26 c22..73 fg=Foreground bg=Sidebar
+r26 c73..75 fg=Foreground bg=Background
+r26 c75..76 fg=Border bg=Background
+r26 c76..112 fg=Foreground bg=Sidebar
+r27 c0..2 fg=Foreground bg=Background
+r27 c2..3 fg=Foreground bg=Sidebar
+r27 c3..71 fg=Live bg=Selected bold
+r27 c71..72 fg=Foreground bg=Sidebar
+r27 c72..73 fg=Live bg=Sidebar
+r27 c73..75 fg=Foreground bg=Background
+r27 c75..76 fg=Border bg=Background
+r27 c76..91 fg=Foreground bg=Sidebar
+r27 c91..93 fg=Primary bg=Sidebar
+r27 c93..112 fg=Foreground bg=Sidebar
+r28 c0..75 fg=Foreground bg=Background
+r28 c75..76 fg=Border bg=Background
+r28 c76..88 fg=Foreground bg=Sidebar
+r28 c88..96 fg=Primary bg=Sidebar
+r28 c96..97 fg=Foreground bg=Sidebar
+r28 c97..101 fg=Primary bg=Sidebar
+r28 c101..112 fg=Foreground bg=Sidebar
+r29 c0..75 fg=Foreground bg=Background
+r29 c75..76 fg=Border bg=Background
+r29 c76..87 fg=Foreground bg=Sidebar
+r29 c87..91 fg=idx75 bg=Sidebar
+r29 c91..93 fg=Foreground bg=Sidebar
+r29 c93..101 fg=idx75 bg=Sidebar
+r29 c101..112 fg=Foreground bg=Sidebar
+r30 c0..75 fg=Foreground bg=Background
+r30 c75..76 fg=Border bg=Background
+r30 c76..87 fg=Foreground bg=Sidebar
+r30 c87..90 fg=idx75 bg=Sidebar
+r30 c90..94 fg=Foreground bg=Sidebar
+r30 c94..101 fg=idx75 bg=Sidebar
+r30 c101..112 fg=Foreground bg=Sidebar
+r31 c0..75 fg=Foreground bg=Background
+r31 c75..76 fg=Border bg=Background
+r31 c76..87 fg=Foreground bg=Sidebar
+r31 c87..101 fg=idx74 bg=Sidebar
+r31 c101..112 fg=Foreground bg=Sidebar
+r32 c0..19 fg=Foreground bg=Background
+r32 c19..22 fg=BorderStrong bg=Background
+r32 c22..38 fg=Foreground bg=Background
+r32 c38..41 fg=BorderStrong bg=Background
+r32 c41..54 fg=Foreground bg=Background
+r32 c54..57 fg=BorderStrong bg=Background
+r32 c57..67 fg=Muted bg=Background
+r32 c67..75 fg=Foreground bg=Background
+r32 c75..76 fg=Border bg=Background
+r32 c76..87 fg=Foreground bg=Sidebar
+r32 c87..97 fg=idx74 bg=Sidebar
+r32 c97..99 fg=Foreground bg=Sidebar
+r32 c99..100 fg=idx74 bg=Sidebar
+r32 c100..112 fg=Foreground bg=Sidebar
+r33 c0..2 fg=Foreground bg=Background
+r33 c2..73 fg=Border bg=Background
+r33 c73..75 fg=Foreground bg=Background
+r33 c75..76 fg=Border bg=Background
+r33 c76..88 fg=Foreground bg=Sidebar
+r33 c88..98 fg=idx68 bg=Sidebar
+r33 c98..112 fg=Foreground bg=Sidebar
+r34 c0..2 fg=Foreground bg=Background
+r34 c2..4 fg=Primary bg=Background
+r34 c4..75 fg=Foreground bg=Background
+r34 c75..76 fg=Border bg=Background
+r34 c76..92 fg=Foreground bg=Sidebar
+r34 c92..94 fg=idx32 bg=Sidebar
+r34 c94..112 fg=Foreground bg=Sidebar
+r35 c0..75 fg=Foreground bg=Background
+r35 c75..76 fg=Border bg=Background
+r35 c76..112 fg=Foreground bg=Sidebar
+r36 c0..2 fg=Foreground bg=Background
+r36 c2..7 fg=Foreground bg=Background bold
+r36 c7..8 fg=Foreground bg=Background
+r36 c8..12 fg=Muted bg=Background
+r36 c12..15 fg=Border bg=Background
+r36 c15..18 fg=Foreground bg=Background bold
+r36 c18..19 fg=Foreground bg=Background
+r36 c19..26 fg=Muted bg=Background
+r36 c26..29 fg=Border bg=Background
+r36 c29..30 fg=Foreground bg=Background bold
+r36 c30..31 fg=Foreground bg=Background
+r36 c31..39 fg=Muted bg=Background
+r36 c39..75 fg=Foreground bg=Background
+r36 c75..76 fg=Border bg=Background
+r36 c76..82 fg=Foreground bg=Sidebar
+r36 c82..83 fg=Live bg=Sidebar
+r36 c83..112 fg=Foreground bg=Sidebar
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..90 fg=Muted bg=Sidebar
+r37 c90..112 fg=Foreground bg=Sidebar
+
+== light-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+  ┌─────────────────────────────────────────────────────────────────────┐  │
+  │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
+  │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
+  │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
+  │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
+  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c0..2 fg=Foreground bg=Background|Surface
+r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c11..16 fg=BorderStrong bg=Background|Surface
+r0 c16..52 fg=Muted bg=Background|Surface
+r0 c52..106 fg=Foreground bg=Background|Surface
+r0 c106..110 fg=Foreground bg=Background|Surface bold
+r0 c110..112 fg=Foreground bg=Background|Surface
+r1 c0..112 fg=Border bg=Background|Surface
+r2 c0..75 fg=Foreground bg=Background|Surface
+r2 c75..76 fg=Border bg=Background|Surface
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background|Surface
+r3 c2..39 fg=Foreground bg=Background|Surface bold
+r3 c39..68 fg=Foreground bg=Background|Surface
+r3 c68..73 fg=Muted bg=Background|Surface
+r3 c73..75 fg=Foreground bg=Background|Surface
+r3 c75..76 fg=Border bg=Background|Surface
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..103 fg=Foreground bg=Sidebar
+r3 c103..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background|Surface
+r4 c2..73 fg=Border bg=Background|Surface
+r4 c73..75 fg=Foreground bg=Background|Surface
+r4 c75..76 fg=Border bg=Background|Surface
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background|Surface
+r5 c75..76 fg=Border bg=Background|Surface
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..2 fg=Foreground bg=Background|Surface
+r6 c2..3 fg=Primary bg=Background|Surface
+r6 c3..4 fg=Foreground bg=Background|Surface
+r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c7..75 fg=Foreground bg=Background|Surface
+r6 c75..76 fg=Border bg=Background|Surface
+r6 c76..106 fg=Foreground bg=Sidebar
+r6 c106..110 fg=Primary bg=Sidebar
+r6 c110..112 fg=Foreground bg=Sidebar
+r7 c0..2 fg=Foreground bg=Background|Surface
+r7 c2..4 fg=Border bg=Background|Surface
+r7 c4..75 fg=Foreground bg=Background|Surface
+r7 c75..76 fg=Border bg=Background|Surface
+r7 c76..80 fg=Foreground bg=Sidebar
+r7 c80..81 fg=Live bg=Sidebar
+r7 c81..86 fg=Foreground bg=Sidebar
+r7 c86..89 fg=Dim bg=Sidebar
+r7 c89..93 fg=Muted bg=Sidebar
+r7 c93..96 fg=Dim bg=Sidebar
+r7 c96..109 fg=Muted bg=Sidebar
+r7 c109..110 fg=Hint bg=Sidebar
+r7 c110..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background|Surface
+r8 c75..76 fg=Border bg=Background|Surface
+r8 c76..106 fg=Foreground bg=Sidebar
+r8 c106..110 fg=Primary bg=Sidebar
+r8 c110..112 fg=Foreground bg=Sidebar
+r9 c0..4 fg=Foreground bg=Background|Surface
+r9 c4..13 fg=Foreground bg=Background|Surface bold
+r9 c13..75 fg=Foreground bg=Background|Surface
+r9 c75..76 fg=Border bg=Background|Surface
+r9 c76..80 fg=Foreground bg=Sidebar
+r9 c80..81 fg=Live bg=Sidebar
+r9 c81..89 fg=Foreground bg=Sidebar
+r9 c89..92 fg=Dim bg=Sidebar
+r9 c92..96 fg=Muted bg=Sidebar
+r9 c96..99 fg=Dim bg=Sidebar
+r9 c99..109 fg=Muted bg=Sidebar
+r9 c109..110 fg=Hint bg=Sidebar
+r9 c110..112 fg=Foreground bg=Sidebar
+r10 c0..2 fg=Foreground bg=Background|Surface
+r10 c2..4 fg=Border bg=Background|Surface
+r10 c4..75 fg=Foreground bg=Background|Surface
+r10 c75..76 fg=Border bg=Background|Surface
+r10 c76..78 fg=Foreground bg=Sidebar
+r10 c78..79 fg=Muted bg=Selected
+r10 c79..80 fg=Foreground bg=Selected
+r10 c80..93 fg=Foreground bg=Selected bold
+r10 c93..104 fg=Foreground bg=Selected
+r10 c104..110 fg=Primary bg=Selected
+r10 c110..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Background|Surface
+r11 c2..4 fg=Border bg=Background|Surface
+r11 c4..75 fg=Foreground bg=Background|Surface
+r11 c75..76 fg=Border bg=Background|Surface
+r11 c76..78 fg=Foreground bg=Sidebar
+r11 c78..80 fg=Foreground bg=Selected
+r11 c80..81 fg=Attention bg=Selected
+r11 c81..91 fg=Foreground bg=Selected
+r11 c91..94 fg=Dim bg=Selected
+r11 c94..100 fg=Muted bg=Selected
+r11 c100..103 fg=Dim bg=Selected
+r11 c103..108 fg=Muted bg=Selected
+r11 c108..109 fg=Hint bg=Selected
+r11 c109..110 fg=Foreground bg=Selected
+r11 c110..112 fg=Foreground bg=Sidebar
+r12 c0..2 fg=Foreground bg=Background|Surface
+r12 c2..4 fg=Border bg=Background|Surface
+r12 c4..75 fg=Foreground bg=Background|Surface
+r12 c75..76 fg=Border bg=Background|Surface
+r12 c76..112 fg=Foreground bg=Sidebar
+r13 c0..2 fg=Foreground bg=Background|Surface
+r13 c2..4 fg=Border bg=Background|Surface
+r13 c4..75 fg=Foreground bg=Background|Surface
+r13 c75..76 fg=Border bg=Background|Surface
+r13 c76..80 fg=Foreground bg=Sidebar
+r13 c80..81 fg=Live bg=Sidebar
+r13 c81..86 fg=Foreground bg=Sidebar
+r13 c86..89 fg=Dim bg=Sidebar
+r13 c89..92 fg=Muted bg=Sidebar
+r13 c92..95 fg=Dim bg=Sidebar
+r13 c95..100 fg=Muted bg=Sidebar
+r13 c100..104 fg=Foreground bg=Sidebar
+r13 c104..107 fg=Dim bg=Sidebar
+r13 c107..109 fg=Muted bg=Sidebar
+r13 c109..110 fg=Hint bg=Sidebar
+r13 c110..112 fg=Foreground bg=Sidebar
+r14 c0..2 fg=Foreground bg=Background|Surface
+r14 c2..4 fg=Border bg=Background|Surface
+r14 c4..75 fg=Foreground bg=Background|Surface
+r14 c75..76 fg=Border bg=Background|Surface
+r14 c76..112 fg=Foreground bg=Sidebar
+r15 c0..75 fg=Foreground bg=Background|Surface
+r15 c75..76 fg=Border bg=Background|Surface
+r15 c76..112 fg=Foreground bg=Sidebar
+r16 c0..2 fg=Foreground bg=Background|Surface
+r16 c2..73 fg=Border bg=Background|Surface
+r16 c73..75 fg=Foreground bg=Background|Surface
+r16 c75..76 fg=Border bg=Background|Surface
+r16 c76..112 fg=Foreground bg=Sidebar
+r17 c0..2 fg=Foreground bg=Background|Surface
+r17 c2..3 fg=Border bg=Background|Surface
+r17 c3..4 bg=Background|Surface
+r17 c4..5 fg=Live bg=Background|Surface
+r17 c5..6 bg=Background|Surface
+r17 c6..13 fg=Foreground bg=Background|Surface bold
+r17 c13..15 bg=Background|Surface
+r17 c15..19 fg=Live bg=Background|Surface
+r17 c19..21 bg=Background|Surface
+r17 c21..24 fg=Muted bg=Background|Surface
+r17 c24..72 bg=Background|Surface
+r17 c72..73 fg=Border bg=Background|Surface
+r17 c73..75 fg=Foreground bg=Background|Surface
+r17 c75..76 fg=Border bg=Background|Surface
+r17 c76..78 fg=Foreground bg=Sidebar
+r17 c78..79 fg=Primary bg=Selected
+r17 c79..80 bg=Selected
+r17 c80..81 fg=Attention bg=Selected
+r17 c81..82 bg=Selected
+r17 c82..91 fg=Foreground bg=Selected
+r17 c91..110 bg=Selected
+r17 c110..112 fg=Foreground bg=Sidebar
+r18 c0..2 fg=Foreground bg=Background|Surface
+r18 c2..3 fg=Border bg=Background|Surface
+r18 c3..4 bg=Background|Surface
+r18 c4..39 fg=Primary bg=Background|Surface
+r18 c39..72 bg=Background|Surface
+r18 c72..73 fg=Border bg=Background|Surface
+r18 c73..75 fg=Foreground bg=Background|Surface
+r18 c75..76 fg=Border bg=Background|Surface
+r18 c76..78 fg=Foreground bg=Sidebar
+r18 c78..79 fg=Primary bg=Selected
+r18 c79..80 bg=Selected
+r18 c80..97 fg=Foreground bg=Selected bold
+r18 c97..110 bg=Selected
+r18 c110..112 fg=Foreground bg=Sidebar
+r19 c0..2 fg=Foreground bg=Background|Surface
+r19 c2..3 fg=Border bg=Background|Surface
+r19 c3..4 bg=Background|Surface
+r19 c4..6 fg=Border bg=Background|Surface
+r19 c6..32 fg=Muted bg=Background|Surface
+r19 c32..72 bg=Background|Surface
+r19 c72..73 fg=Border bg=Background|Surface
+r19 c73..75 fg=Foreground bg=Background|Surface
+r19 c75..76 fg=Border bg=Background|Surface
+r19 c76..78 fg=Foreground bg=Sidebar
+r19 c78..79 fg=Primary bg=Selected
+r19 c79..80 bg=Selected
+r19 c80..104 fg=Foreground bg=Selected
+r19 c104..110 bg=Selected
+r19 c110..112 fg=Foreground bg=Sidebar
+r20 c0..2 fg=Foreground bg=Background|Surface
+r20 c2..3 fg=Border bg=Background|Surface
+r20 c3..4 bg=Background|Surface
+r20 c4..34 fg=Hint bg=Background|Surface
+r20 c34..72 bg=Background|Surface
+r20 c72..73 fg=Border bg=Background|Surface
+r20 c73..75 fg=Foreground bg=Background|Surface
+r20 c75..76 fg=Border bg=Background|Surface
+r20 c76..78 fg=Foreground bg=Sidebar
+r20 c78..79 fg=Primary bg=Selected
+r20 c79..80 bg=Selected
+r20 c80..94 fg=Foreground bg=Selected
+r20 c94..110 bg=Selected
+r20 c110..112 fg=Foreground bg=Sidebar
+r21 c0..2 fg=Foreground bg=Background|Surface
+r21 c2..73 fg=Border bg=Background|Surface
+r21 c73..75 fg=Foreground bg=Background|Surface
+r21 c75..76 fg=Border bg=Background|Surface
+r21 c76..78 fg=Foreground bg=Sidebar
+r21 c78..79 fg=Primary bg=Selected
+r21 c79..80 bg=Selected
+r21 c80..98 fg=Primary bg=Selected
+r21 c98..110 bg=Selected
+r21 c110..112 fg=Foreground bg=Sidebar
+r22 c0..75 fg=Foreground bg=Background|Surface
+r22 c75..76 fg=Border bg=Background|Surface
+r22 c76..78 fg=Foreground bg=Sidebar
+r22 c78..110 bg=Selected
+r22 c110..112 fg=Foreground bg=Sidebar
+r23 c0..2 fg=Foreground bg=Background|Surface
+r23 c2..73 fg=Border bg=Sidebar
+r23 c73..75 fg=Foreground bg=Background|Surface
+r23 c75..76 fg=Border bg=Background|Surface
+r23 c76..78 fg=Foreground bg=Sidebar
+r23 c78..110 bg=Selected
+r23 c110..112 fg=Foreground bg=Sidebar
+r24 c0..2 fg=Foreground bg=Background|Surface
+r24 c2..3 fg=Foreground bg=Sidebar
+r24 c3..10 fg=Foreground bg=Selected bold
+r24 c10..12 fg=Foreground bg=Sidebar
+r24 c12..19 fg=Muted bg=Sidebar
+r24 c19..21 fg=Foreground bg=Sidebar
+r24 c21..27 fg=Muted bg=Sidebar
+r24 c27..29 fg=Foreground bg=Sidebar
+r24 c29..36 fg=Muted bg=Sidebar
+r24 c36..38 fg=Foreground bg=Sidebar
+r24 c38..45 fg=Muted bg=Sidebar
+r24 c45..47 fg=Foreground bg=Sidebar
+r24 c47..56 fg=Muted bg=Sidebar
+r24 c56..58 fg=Foreground bg=Sidebar
+r24 c58..63 fg=Muted bg=Sidebar
+r24 c63..66 fg=Foreground bg=Sidebar
+r24 c66..73 fg=Hint bg=Sidebar
+r24 c73..75 fg=Foreground bg=Background|Surface
+r24 c75..76 fg=Border bg=Background|Surface
+r24 c76..112 fg=Foreground bg=Sidebar
+r25 c0..2 fg=Foreground bg=Background|Surface
+r25 c2..3 fg=Foreground bg=Sidebar
+r25 c3..36 fg=Live bg=Sidebar bold
+r25 c36..73 fg=Foreground bg=Sidebar
+r25 c73..75 fg=Foreground bg=Background|Surface
+r25 c75..76 fg=Border bg=Background|Surface
+r25 c76..112 fg=Foreground bg=Sidebar
+r26 c0..2 fg=Foreground bg=Background|Surface
+r26 c2..3 fg=Foreground bg=Sidebar
+r26 c3..22 fg=Muted bg=Sidebar
+r26 c22..73 fg=Foreground bg=Sidebar
+r26 c73..75 fg=Foreground bg=Background|Surface
+r26 c75..76 fg=Border bg=Background|Surface
+r26 c76..112 fg=Foreground bg=Sidebar
+r27 c0..2 fg=Foreground bg=Background|Surface
+r27 c2..3 fg=Foreground bg=Sidebar
+r27 c3..71 fg=Live bg=Selected bold
+r27 c71..72 fg=Foreground bg=Sidebar
+r27 c72..73 fg=Live bg=Sidebar
+r27 c73..75 fg=Foreground bg=Background|Surface
+r27 c75..76 fg=Border bg=Background|Surface
+r27 c76..91 fg=Foreground bg=Sidebar
+r27 c91..93 fg=idx32 bg=Sidebar
+r27 c93..112 fg=Foreground bg=Sidebar
+r28 c0..75 fg=Foreground bg=Background|Surface
+r28 c75..76 fg=Border bg=Background|Surface
+r28 c76..88 fg=Foreground bg=Sidebar
+r28 c88..96 fg=idx32 bg=Sidebar
+r28 c96..97 fg=Foreground bg=Sidebar
+r28 c97..101 fg=idx32 bg=Sidebar
+r28 c101..112 fg=Foreground bg=Sidebar
+r29 c0..75 fg=Foreground bg=Background|Surface
+r29 c75..76 fg=Border bg=Background|Surface
+r29 c76..87 fg=Foreground bg=Sidebar
+r29 c87..91 fg=idx32 bg=Sidebar
+r29 c91..93 fg=Foreground bg=Sidebar
+r29 c93..101 fg=idx32 bg=Sidebar
+r29 c101..112 fg=Foreground bg=Sidebar
+r30 c0..75 fg=Foreground bg=Background|Surface
+r30 c75..76 fg=Border bg=Background|Surface
+r30 c76..87 fg=Foreground bg=Sidebar
+r30 c87..90 fg=idx26 bg=Sidebar
+r30 c90..94 fg=Foreground bg=Sidebar
+r30 c94..101 fg=idx26 bg=Sidebar
+r30 c101..112 fg=Foreground bg=Sidebar
+r31 c0..75 fg=Foreground bg=Background|Surface
+r31 c75..76 fg=Border bg=Background|Surface
+r31 c76..87 fg=Foreground bg=Sidebar
+r31 c87..101 fg=idx26 bg=Sidebar
+r31 c101..112 fg=Foreground bg=Sidebar
+r32 c0..19 fg=Foreground bg=Background|Surface
+r32 c19..22 fg=BorderStrong bg=Background|Surface
+r32 c22..38 fg=Foreground bg=Background|Surface
+r32 c38..41 fg=BorderStrong bg=Background|Surface
+r32 c41..54 fg=Foreground bg=Background|Surface
+r32 c54..57 fg=BorderStrong bg=Background|Surface
+r32 c57..67 fg=Muted bg=Background|Surface
+r32 c67..75 fg=Foreground bg=Background|Surface
+r32 c75..76 fg=Border bg=Background|Surface
+r32 c76..87 fg=Foreground bg=Sidebar
+r32 c87..97 fg=idx26 bg=Sidebar
+r32 c97..99 fg=Foreground bg=Sidebar
+r32 c99..100 fg=idx26 bg=Sidebar
+r32 c100..112 fg=Foreground bg=Sidebar
+r33 c0..2 fg=Foreground bg=Background|Surface
+r33 c2..73 fg=Border bg=Background|Surface
+r33 c73..75 fg=Foreground bg=Background|Surface
+r33 c75..76 fg=Border bg=Background|Surface
+r33 c76..88 fg=Foreground bg=Sidebar
+r33 c88..98 fg=Primary bg=Sidebar
+r33 c98..112 fg=Foreground bg=Sidebar
+r34 c0..2 fg=Foreground bg=Background|Surface
+r34 c2..4 fg=Primary bg=Background|Surface
+r34 c4..75 fg=Foreground bg=Background|Surface
+r34 c75..76 fg=Border bg=Background|Surface
+r34 c76..92 fg=Foreground bg=Sidebar
+r34 c92..94 fg=Primary bg=Sidebar
+r34 c94..112 fg=Foreground bg=Sidebar
+r35 c0..75 fg=Foreground bg=Background|Surface
+r35 c75..76 fg=Border bg=Background|Surface
+r35 c76..112 fg=Foreground bg=Sidebar
+r36 c0..2 fg=Foreground bg=Background|Surface
+r36 c2..7 fg=Foreground bg=Background|Surface bold
+r36 c7..8 fg=Foreground bg=Background|Surface
+r36 c8..12 fg=Muted bg=Background|Surface
+r36 c12..15 fg=Border bg=Background|Surface
+r36 c15..18 fg=Foreground bg=Background|Surface bold
+r36 c18..19 fg=Foreground bg=Background|Surface
+r36 c19..26 fg=Muted bg=Background|Surface
+r36 c26..29 fg=Border bg=Background|Surface
+r36 c29..30 fg=Foreground bg=Background|Surface bold
+r36 c30..31 fg=Foreground bg=Background|Surface
+r36 c31..39 fg=Muted bg=Background|Surface
+r36 c39..75 fg=Foreground bg=Background|Surface
+r36 c75..76 fg=Border bg=Background|Surface
+r36 c76..82 fg=Foreground bg=Sidebar
+r36 c82..83 fg=Live bg=Sidebar
+r36 c83..112 fg=Foreground bg=Sidebar
+r37 c0..2 fg=Foreground bg=Sidebar
+r37 c2..90 fg=Muted bg=Sidebar
+r37 c90..112 fg=Foreground bg=Sidebar
+
+== ansi-16
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+  ┌─────────────────────────────────────────────────────────────────────┐  │
+  │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
+  │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
+  │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
+  │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
+  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c106..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..39 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c103..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r6 c75..76 dim
+r6 c106..110 fg=Primary
+r7 c2..4 dim
+r7 c75..76 dim
+r7 c80..81 fg=Live
+r7 c86..110 dim
+r8 c75..76 dim
+r8 c106..110 fg=Primary
+r9 c4..13 bold
+r9 c75..76 dim
+r9 c80..81 fg=Live
+r9 c89..110 dim
+r10 c2..4 dim
+r10 c75..76 dim
+r10 c78..79 dim
+r10 c80..93 bold
+r10 c104..110 fg=Primary
+r11 c2..4 dim
+r11 c75..76 dim
+r11 c80..81 fg=Attention
+r11 c91..109 dim
+r12 c2..4 dim
+r12 c75..76 dim
+r13 c2..4 dim
+r13 c75..76 dim
+r13 c80..81 fg=Live
+r13 c86..100 dim
+r13 c104..110 dim
+r14 c2..4 dim
+r14 c75..76 dim
+r15 c75..76 dim
+r16 c2..73 dim
+r16 c75..76 dim
+r17 c2..3 dim
+r17 c4..5 fg=Live
+r17 c6..13 bold
+r17 c15..19 fg=Live
+r17 c21..24 dim
+r17 c72..73 dim
+r17 c75..76 dim
+r17 c78..79 fg=Primary
+r17 c80..81 fg=Attention
+r18 c2..3 dim
+r18 c4..39 fg=Primary
+r18 c72..73 dim
+r18 c75..76 dim
+r18 c78..79 fg=Primary
+r18 c80..97 bold
+r19 c2..3 dim
+r19 c4..32 dim
+r19 c72..73 dim
+r19 c75..76 dim
+r19 c78..79 fg=Primary
+r20 c2..3 dim
+r20 c4..34 dim
+r20 c72..73 dim
+r20 c75..76 dim
+r20 c78..79 fg=Primary
+r21 c2..73 dim
+r21 c75..76 dim
+r21 c78..79 fg=Primary
+r21 c80..98 fg=Primary
+r22 c75..76 dim
+r23 c2..73 dim
+r23 c75..76 dim
+r24 c3..10 bold
+r24 c12..19 dim
+r24 c21..27 dim
+r24 c29..36 dim
+r24 c38..45 dim
+r24 c47..56 dim
+r24 c58..63 dim
+r24 c66..73 dim
+r24 c75..76 dim
+r25 c3..36 fg=Live bold
+r25 c75..76 dim
+r26 c3..22 dim
+r26 c75..76 dim
+r27 c3..71 fg=Live bold
+r27 c72..73 fg=Live
+r27 c75..76 dim
+r27 c91..93 fg=Primary
+r28 c75..76 dim
+r28 c88..96 fg=Primary
+r28 c97..101 fg=Primary
+r29 c75..76 dim
+r29 c87..91 fg=Primary
+r29 c93..101 fg=Primary
+r30 c75..76 dim
+r30 c87..90 fg=Primary
+r30 c94..101 fg=Primary
+r31 c75..76 dim
+r31 c87..101 fg=Primary
+r32 c57..67 dim
+r32 c75..76 dim
+r32 c87..97 fg=Primary
+r32 c99..100 fg=Primary
+r33 c2..73 dim
+r33 c75..76 dim
+r33 c88..98 fg=Primary
+r34 c2..4 fg=Primary
+r34 c75..76 dim
+r34 c92..94 fg=Primary
+r35 c75..76 dim
+r36 c2..7 bold
+r36 c8..15 dim
+r36 c15..18 bold
+r36 c19..29 dim
+r36 c29..30 bold
+r36 c31..39 dim
+r36 c75..76 dim
+r36 c82..83 fg=Live
+r37 c2..90 dim
+
+== unknown-ground
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+  ┌─────────────────────────────────────────────────────────────────────┐  │
+  │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
+  │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
+  │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
+  │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
+  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c106..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..39 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c103..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c2..3 fg=Primary
+r6 c4..7 fg=Primary bold
+r6 c75..76 dim
+r6 c106..110 fg=Primary
+r7 c2..4 dim
+r7 c75..76 dim
+r7 c80..81 fg=Live
+r7 c86..110 dim
+r8 c75..76 dim
+r8 c106..110 fg=Primary
+r9 c4..13 bold
+r9 c75..76 dim
+r9 c80..81 fg=Live
+r9 c89..110 dim
+r10 c2..4 dim
+r10 c75..76 dim
+r10 c78..79 dim
+r10 c80..93 bold
+r10 c104..110 fg=Primary
+r11 c2..4 dim
+r11 c75..76 dim
+r11 c80..81 fg=Attention
+r11 c91..109 dim
+r12 c2..4 dim
+r12 c75..76 dim
+r13 c2..4 dim
+r13 c75..76 dim
+r13 c80..81 fg=Live
+r13 c86..100 dim
+r13 c104..110 dim
+r14 c2..4 dim
+r14 c75..76 dim
+r15 c75..76 dim
+r16 c2..73 dim
+r16 c75..76 dim
+r17 c2..3 dim
+r17 c4..5 fg=Live
+r17 c6..13 bold
+r17 c15..19 fg=Live
+r17 c21..24 dim
+r17 c72..73 dim
+r17 c75..76 dim
+r17 c78..79 fg=Primary
+r17 c80..81 fg=Attention
+r18 c2..3 dim
+r18 c4..39 fg=Primary
+r18 c72..73 dim
+r18 c75..76 dim
+r18 c78..79 fg=Primary
+r18 c80..97 bold
+r19 c2..3 dim
+r19 c4..32 dim
+r19 c72..73 dim
+r19 c75..76 dim
+r19 c78..79 fg=Primary
+r20 c2..3 dim
+r20 c4..34 dim
+r20 c72..73 dim
+r20 c75..76 dim
+r20 c78..79 fg=Primary
+r21 c2..73 dim
+r21 c75..76 dim
+r21 c78..79 fg=Primary
+r21 c80..98 fg=Primary
+r22 c75..76 dim
+r23 c2..73 dim
+r23 c75..76 dim
+r24 c3..10 bold
+r24 c12..19 dim
+r24 c21..27 dim
+r24 c29..36 dim
+r24 c38..45 dim
+r24 c47..56 dim
+r24 c58..63 dim
+r24 c66..73 dim
+r24 c75..76 dim
+r25 c3..36 fg=Live bold
+r25 c75..76 dim
+r26 c3..22 dim
+r26 c75..76 dim
+r27 c3..71 fg=Live bold
+r27 c72..73 fg=Live
+r27 c75..76 dim
+r27 c91..93 fg=Primary
+r28 c75..76 dim
+r28 c88..96 fg=Primary
+r28 c97..101 fg=Primary
+r29 c75..76 dim
+r29 c87..91 fg=Primary
+r29 c93..101 fg=Primary
+r30 c75..76 dim
+r30 c87..90 fg=Primary
+r30 c94..101 fg=Primary
+r31 c75..76 dim
+r31 c87..101 fg=Primary
+r32 c57..67 dim
+r32 c75..76 dim
+r32 c87..97 fg=Primary
+r32 c99..100 fg=Primary
+r33 c2..73 dim
+r33 c75..76 dim
+r33 c88..98 fg=Primary
+r34 c2..4 fg=Primary
+r34 c75..76 dim
+r34 c92..94 fg=Primary
+r35 c75..76 dim
+r36 c2..7 bold
+r36 c8..15 dim
+r36 c15..18 bold
+r36 c19..29 dim
+r36 c29..30 bold
+r36 c31..39 dim
+r36 c75..76 dim
+r36 c82..83 fg=Live
+r37 c2..90 dim
+
+== no-color
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Make the terminal feel like Codewhale                             Today  │  Files & review           4 items
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+  ● You                                                                    │    WorkspaceFrame            Open
+  ▏ Build a beautiful workspace. Keep the receipts legible.                │    ✓ Done · File · src/component…
+                                                                           │    Habitat                   Open
+  ● Codewhale                                                              │    ● Working · File · src/compon…
+  ▏ The conversation stays at the center. Files, decisions and agent       │  ▸ Visual review           Review
+  ▏ work sit alongside it.                                                 │    ◆ Needs you · Review · dark,…
+  ▏                                                                        │    Verification
+  ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
+  ▏ workspace when the job needs it.                                       │
+                                                                           │
+  ┌─────────────────────────────────────────────────────────────────────┐  │
+  │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
+  │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
+  │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
+  │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
+  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+                                                                           │
+  ───────────────────────────────────────────────────────────────────────  │
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+   Goal: Make the work dock reusable                                       │
+   TODO · 1/3 · 2 left                                                     │
+   1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
+                                                                           │            ⢀⣴⣿⣿⣿⣿⣟⣉ ⢠⣴⣷⣦
+                                                                           │           ⢠⣿⡿⠋  ⠈⠛⠛⢋⠱⠟⠛⠁
+                                                                           │           ⣼⣿⡇    ⢀⣠⣤⣶⣶⣶⣶
+                                                                           │           ⢾⣿⣷⣤⣤⣶⣾⣿⢿⣿⡿⠉⠉⡏
+  codewhale-ratatui · workspace-polish · 3 attachments · +1 details        │           ⠘⢿⣿⣿⣿⣿⣿⣿⣶⠏  ⠌
+  ───────────────────────────────────────────────────────────────────────  │            ⠈⠉⠛⣛⣽⣿⣟⣁⠤⠔
+  › Show me the review, then keep going.                                   │                ⠈⠁
+                                                                           │
+  Enter send · Tab details · / commands                                    │      ● Working alongside you
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c106..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..39 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c103..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c4..7 bold
+r6 c75..76 dim
+r7 c2..4 dim
+r7 c75..76 dim
+r7 c86..110 dim
+r8 c75..76 dim
+r9 c4..13 bold
+r9 c75..76 dim
+r9 c89..110 dim
+r10 c2..4 dim
+r10 c75..76 dim
+r10 c78..79 dim
+r10 c80..93 bold
+r11 c2..4 dim
+r11 c75..76 dim
+r11 c91..109 dim
+r12 c2..4 dim
+r12 c75..76 dim
+r13 c2..4 dim
+r13 c75..76 dim
+r13 c86..100 dim
+r13 c104..110 dim
+r14 c2..4 dim
+r14 c75..76 dim
+r15 c75..76 dim
+r16 c2..73 dim
+r16 c75..76 dim
+r17 c2..3 dim
+r17 c6..13 bold
+r17 c21..24 dim
+r17 c72..73 dim
+r17 c75..76 dim
+r18 c2..3 dim
+r18 c72..73 dim
+r18 c75..76 dim
+r18 c80..97 bold
+r19 c2..3 dim
+r19 c4..32 dim
+r19 c72..73 dim
+r19 c75..76 dim
+r20 c2..3 dim
+r20 c4..34 dim
+r20 c72..73 dim
+r20 c75..76 dim
+r21 c2..73 dim
+r21 c75..76 dim
+r22 c75..76 dim
+r23 c2..73 dim
+r23 c75..76 dim
+r24 c3..10 bold
+r24 c12..19 dim
+r24 c21..27 dim
+r24 c29..36 dim
+r24 c38..45 dim
+r24 c47..56 dim
+r24 c58..63 dim
+r24 c66..73 dim
+r24 c75..76 dim
+r25 c3..36 bold
+r25 c75..76 dim
+r26 c3..22 dim
+r26 c75..76 dim
+r27 c3..71 bold
+r27 c75..76 dim
+r28 c75..76 dim
+r29 c75..76 dim
+r30 c75..76 dim
+r31 c75..76 dim
+r32 c57..67 dim
+r32 c75..76 dim
+r33 c2..73 dim
+r33 c75..76 dim
+r34 c75..76 dim
+r35 c75..76 dim
+r36 c2..7 bold
+r36 c8..15 dim
+r36 c15..18 bold
+r36 c19..29 dim
+r36 c29..30 bold
+r36 c31..39 dim
+r36 c75..76 dim
+r37 c2..90 dim
+
+== ascii
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                      Work
+----------------------------------------------------------------------------------------------------------------
+                                                                           |
+  Make the terminal feel like Codewhale                             Today  |  Files & review           4 items
+  -----------------------------------------------------------------------  |  --------------------------------
+                                                                           |
+  . You                                                                    |    WorkspaceFrame            Open
+  | Build a beautiful workspace. Keep the receipts legible.                |    Y Done . File . src/compone...
+                                                                           |    Habitat                   Open
+  . Codewhale                                                              |    . Working . File . src/comp...
+  | The conversation stays at the center. Files, decisions and agent       |  > Visual review           Review
+  | work sit alongside it.                                                 |    * Needs you . Review . dark...
+  |                                                                        |    Verification
+  | You can open a result, inspect a command, or compose a denser          |    Y Done . Run . Time 12 s ....
+  | workspace when the job needs it.                                       |
+                                                                           |
+  +---------------------------------------------------------------------+  |
+  | Y Inspect  Done  12s                                                |  |  > * Needs you
+  | workspace layout and rendered cells                                 |  |  | Terminal / Review
+  | | Wide: conversation + files                                        |  |  | Choose which preview to
+  | 2 output lines not fully shown                                      |  |  | inspect first.
+  +---------------------------------------------------------------------+  |  | Open visual review
+                                                                           |
+  -----------------------------------------------------------------------  |
+    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc X   |
+   Goal: Make the work dock reusable                                       |
+   TODO . 1/3 . 2 left                                                     |      . Working alongside you
+   1 . Y Read the existing component                          completed |  |
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+  codewhale-ratatui / workspace-polish / 3 attachments / +1 details        |
+  -----------------------------------------------------------------------  |
+  > Show me the review, then keep going.                                   |
+                                                                           |
+  Enter send  Tab details  / commands                                      |
+  Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c106..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..39 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c103..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c4..7 bold
+r6 c75..76 dim
+r7 c2..4 dim
+r7 c75..76 dim
+r7 c86..110 dim
+r8 c75..76 dim
+r9 c4..13 bold
+r9 c75..76 dim
+r9 c89..110 dim
+r10 c2..4 dim
+r10 c75..76 dim
+r10 c78..79 dim
+r10 c80..93 bold
+r11 c2..4 dim
+r11 c75..76 dim
+r11 c91..110 dim
+r12 c2..4 dim
+r12 c75..76 dim
+r13 c2..4 dim
+r13 c75..76 dim
+r13 c86..100 dim
+r13 c104..109 dim
+r14 c2..4 dim
+r14 c75..76 dim
+r15 c75..76 dim
+r16 c2..73 dim
+r16 c75..76 dim
+r17 c2..3 dim
+r17 c6..13 bold
+r17 c21..24 dim
+r17 c72..73 dim
+r17 c75..76 dim
+r18 c2..3 dim
+r18 c72..73 dim
+r18 c75..76 dim
+r18 c80..97 bold
+r19 c2..3 dim
+r19 c4..32 dim
+r19 c72..73 dim
+r19 c75..76 dim
+r20 c2..3 dim
+r20 c4..34 dim
+r20 c72..73 dim
+r20 c75..76 dim
+r21 c2..73 dim
+r21 c75..76 dim
+r22 c75..76 dim
+r23 c2..73 dim
+r23 c75..76 dim
+r24 c3..10 bold
+r24 c12..19 dim
+r24 c21..27 dim
+r24 c29..36 dim
+r24 c38..45 dim
+r24 c47..56 dim
+r24 c58..63 dim
+r24 c66..73 dim
+r24 c75..76 dim
+r25 c3..36 bold
+r25 c75..76 dim
+r26 c3..22 dim
+r26 c75..76 dim
+r27 c3..71 bold
+r27 c75..76 dim
+r28 c75..76 dim
+r29 c75..76 dim
+r30 c75..76 dim
+r31 c75..76 dim
+r32 c57..67 dim
+r32 c75..76 dim
+r33 c2..73 dim
+r33 c75..76 dim
+r34 c75..76 dim
+r35 c75..76 dim
+r36 c2..7 bold
+r36 c8..12 dim
+r36 c14..17 bold
+r36 c18..25 dim
+r36 c27..28 bold
+r36 c29..37 dim
+r36 c75..76 dim
+r37 c2..90 dim

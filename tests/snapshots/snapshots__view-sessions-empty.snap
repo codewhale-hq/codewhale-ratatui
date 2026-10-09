@@ -1,0 +1,285 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c0..1 bg=Background
+r0 c1..11 fg=Primary bg=Background bold
+r0 c11..79 fg=Border bg=Background
+r0 c79..80 bg=Background
+r1 c0..2 bg=Background
+r1 c2..25 fg=Muted bg=Background
+r1 c25..80 bg=Background
+r2 c0..2 bg=Background
+r2 c2..24 fg=Muted bg=Background
+r2 c24..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..55 fg=Hint|Dim bg=Background
+r3 c55..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..2 bg=Background
+r10 c2..5 fg=Primary bg=Background bold
+r10 c5..11 fg=Muted bg=Background
+r10 c11..12 bg=Background
+r10 c12..17 fg=Primary bg=Background bold
+r10 c17..22 fg=Muted bg=Background
+r10 c22..80 bg=Background
+r11 c0..1 bg=Background
+r11 c1..79 fg=Border bg=Background
+r11 c79..80 bg=Background
+
+== dark-graphite
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c0..1 bg=Background
+r0 c1..11 fg=Primary bg=Background bold
+r0 c11..79 fg=Border bg=Background
+r0 c79..80 bg=Background
+r1 c0..2 bg=Background
+r1 c2..25 fg=Muted bg=Background
+r1 c25..80 bg=Background
+r2 c0..2 bg=Background
+r2 c2..24 fg=Muted bg=Background
+r2 c24..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..55 fg=Hint|Dim bg=Background
+r3 c55..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..2 bg=Background
+r10 c2..5 fg=Primary bg=Background bold
+r10 c5..11 fg=Muted bg=Background
+r10 c11..12 bg=Background
+r10 c12..17 fg=Primary bg=Background bold
+r10 c17..22 fg=Muted bg=Background
+r10 c22..80 bg=Background
+r11 c0..1 bg=Background
+r11 c1..79 fg=Border bg=Background
+r11 c79..80 bg=Background
+
+== light-truecolor
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c1..11 fg=Primary bold
+r0 c11..79 fg=Border
+r1 c2..25 fg=Muted
+r2 c2..24 fg=Muted
+r3 c2..55 fg=Hint|Dim
+r10 c2..5 fg=Primary bold
+r10 c5..11 fg=Muted
+r10 c12..17 fg=Primary bold
+r10 c17..22 fg=Muted
+r11 c1..79 fg=Border
+
+== dark-256
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r0 c11..79 fg=Border bg=Background|DiffAddedTint
+r0 c79..80 bg=Background|DiffAddedTint
+r1 c0..2 bg=Background|DiffAddedTint
+r1 c2..25 fg=Muted bg=Background|DiffAddedTint
+r1 c25..80 bg=Background|DiffAddedTint
+r2 c0..2 bg=Background|DiffAddedTint
+r2 c2..24 fg=Muted bg=Background|DiffAddedTint
+r2 c24..80 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..55 fg=Hint|Dim bg=Background|DiffAddedTint
+r3 c55..80 bg=Background|DiffAddedTint
+r4 c0..80 bg=Background|DiffAddedTint
+r5 c0..80 bg=Background|DiffAddedTint
+r6 c0..80 bg=Background|DiffAddedTint
+r7 c0..80 bg=Background|DiffAddedTint
+r8 c0..80 bg=Background|DiffAddedTint
+r9 c0..80 bg=Background|DiffAddedTint
+r10 c0..2 bg=Background|DiffAddedTint
+r10 c2..5 fg=Primary bg=Background|DiffAddedTint bold
+r10 c5..11 fg=Muted bg=Background|DiffAddedTint
+r10 c11..12 bg=Background|DiffAddedTint
+r10 c12..17 fg=Primary bg=Background|DiffAddedTint bold
+r10 c17..22 fg=Muted bg=Background|DiffAddedTint
+r10 c22..80 bg=Background|DiffAddedTint
+r11 c0..1 bg=Background|DiffAddedTint
+r11 c1..79 fg=Border bg=Background|DiffAddedTint
+r11 c79..80 bg=Background|DiffAddedTint
+
+== light-256
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c1..11 fg=Primary bold
+r0 c11..79 fg=Border
+r1 c2..25 fg=Muted|Hint|Dim
+r2 c2..24 fg=Muted|Hint|Dim
+r3 c2..55 fg=Muted|Hint|Dim
+r10 c2..5 fg=Primary bold
+r10 c5..11 fg=Muted|Hint|Dim
+r10 c12..17 fg=Primary bold
+r10 c17..22 fg=Muted|Hint|Dim
+r11 c1..79 fg=Border
+
+== ansi-16
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c1..11 fg=Primary bold dim
+r0 c11..79 dim
+r1 c2..25 dim
+r2 c2..24 dim
+r3 c2..55 dim
+r10 c2..5 fg=Primary bold
+r10 c5..11 dim
+r10 c12..17 fg=Primary bold
+r10 c17..22 dim
+r11 c1..79 dim
+
+== unknown-ground
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c1..11 fg=Primary bold dim
+r0 c11..79 dim
+r1 c2..25 dim
+r2 c2..24 dim
+r3 c2..55 dim
+r10 c2..5 fg=Primary bold
+r10 c5..11 dim
+r10 c12..17 fg=Primary bold
+r10 c17..22 dim
+r11 c1..79 dim
+
+== no-color
+  sessions ────────────────────────────────────────────────────────────────────
+  scope and sort · recent
+  No saved sessions yet.
+  Send a message to start one — it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ──────────────────────────────────────────────────────────────────────────────
+---
+r0 c1..11 bold dim
+r0 c11..79 dim
+r1 c2..25 dim
+r2 c2..24 dim
+r3 c2..55 dim
+r10 c2..5 bold
+r10 c5..11 dim
+r10 c12..17 bold
+r10 c17..22 dim
+r11 c1..79 dim
+
+== ascii
+  sessions --------------------------------------------------------------------
+  scope and sort . recent
+  No saved sessions yet.
+  Send a message to start one - it saves automatically.
+
+
+
+
+
+
+   / search  Esc close
+ ------------------------------------------------------------------------------
+---
+r0 c1..11 bold dim
+r0 c11..79 dim
+r1 c2..25 dim
+r2 c2..24 dim
+r3 c2..55 dim
+r10 c2..5 bold
+r10 c5..11 dim
+r10 c12..17 bold
+r10 c17..22 dim
+r11 c1..79 dim

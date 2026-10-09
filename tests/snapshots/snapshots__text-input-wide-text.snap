@@ -1,0 +1,94 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== dark-graphite
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== light-truecolor
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== dark-256
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== light-256
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background|Surface bold
+r0 c5..40 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== ansi-16
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 bold
+r1 c0..1 fg=Primary
+r1 c21..23 reversed
+
+== unknown-ground
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 bold
+r1 c0..1 fg=Primary
+r1 c21..23 reversed
+
+== no-color
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 bold
+r1 c21..23 reversed
+
+== ascii
+Title
+> <e, combining and emoji text goes here
+---
+r0 c0..5 bold
+r1 c2..3 dim
+r1 c39..40 reversed

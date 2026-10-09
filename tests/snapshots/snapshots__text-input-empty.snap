@@ -1,0 +1,97 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== dark-graphite
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== light-truecolor
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== dark-256
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== light-256
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background|Surface bold
+r0 c4..40 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== ansi-16
+Port
+› e.g. 8080
+---
+r0 c0..4 bold
+r1 c0..1 fg=Primary
+r1 c2..3 dim reversed
+r1 c3..11 dim
+
+== unknown-ground
+Port
+› e.g. 8080
+---
+r0 c0..4 bold
+r1 c0..1 fg=Primary
+r1 c2..3 dim reversed
+r1 c3..11 dim
+
+== no-color
+Port
+› e.g. 8080
+---
+r0 c0..4 bold
+r1 c2..3 dim reversed
+r1 c3..11 dim
+
+== ascii
+Port
+> e.g. 8080
+---
+r0 c0..4 bold
+r1 c2..3 dim reversed
+r1 c3..11 dim

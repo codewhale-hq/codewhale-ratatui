@@ -1,0 +1,61 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+› Checking the received result
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..30 fg=Foreground bg=Background
+r0 c30..40 bg=Background
+
+== dark-graphite
+› Checking the received result
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..30 fg=Foreground bg=Background
+r0 c30..40 bg=Background
+
+== light-truecolor
+› Checking the received result
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..30 fg=Foreground bg=Background
+r0 c30..40 bg=Background
+
+== dark-256
+› Checking the received result
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..30 fg=Foreground bg=Background
+r0 c30..40 bg=Background
+
+== light-256
+› Checking the received result
+---
+r0 c0..1 fg=Live bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..30 fg=Foreground bg=Background|Surface
+r0 c30..40 bg=Background|Surface
+
+== ansi-16
+› Checking the received result
+---
+r0 c0..1 fg=Live
+
+== unknown-ground
+› Checking the received result
+---
+r0 c0..1 fg=Live
+
+== no-color
+› Checking the received result
+---
+
+== ascii
+> Checking the received result
+---

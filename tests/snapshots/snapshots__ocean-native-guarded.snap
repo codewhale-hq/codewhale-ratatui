@@ -1,0 +1,328 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..6 bg=#102a46
+r0 c6..7 bg=#112d4c
+r0 c7..18 bg=#102a46
+r0 c18..19 bg=#112d4c
+r0 c19..30 bg=#102a46
+r0 c30..31 bg=#112d4c
+r0 c31..42 bg=#102a46
+r0 c42..43 bg=#112d4c
+r0 c43..54 bg=#102a46
+r0 c54..55 bg=#112d4c
+r0 c55..66 bg=#102a46
+r0 c66..67 bg=#112d4c
+r0 c67..78 bg=#102a46
+r0 c78..79 bg=#112d4c
+r0 c79..80 bg=#102a46
+r1 c0..3 bg=#102944
+r1 c3..4 bg=#112b47
+r1 c4..15 bg=#102944
+r1 c15..16 bg=#112b47
+r1 c16..27 bg=#102944
+r1 c27..28 bg=#112b47
+r1 c28..39 bg=#102944
+r1 c39..40 bg=#112b47
+r1 c40..51 bg=#102944
+r1 c51..52 bg=#112b47
+r1 c52..63 bg=#102944
+r1 c63..64 bg=#112b47
+r1 c64..75 bg=#102944
+r1 c75..76 bg=#112b47
+r1 c76..80 bg=#102944
+r2 c0..1 bg=#0e2942
+r2 c1..12 bg=#0e2841
+r2 c12..13 bg=#0e2942
+r2 c13..24 bg=#0e2841
+r2 c24..25 bg=#0e2942
+r2 c25..36 bg=#0e2841
+r2 c36..37 bg=#0e2942
+r2 c37..48 bg=#0e2841
+r2 c48..49 bg=#0e2942
+r2 c49..60 bg=#0e2841
+r2 c60..61 bg=#0e2942
+r2 c61..72 bg=#0e2841
+r2 c72..73 bg=#0e2942
+r2 c73..80 bg=#0e2841
+r3 c0..80 bg=#0f273e
+r4 c0..22 fg=Foreground bg=#0e253c
+r4 c22..80 bg=#0e253c
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=#0d233a
+r6 c0..80 bg=Background
+r7 c0..34 fg=Foreground bg=Background
+r7 c34..80 bg=#0c2035
+r8 c0..16 fg=Foreground bg=Background reversed
+r8 c16..80 bg=#0b1f33
+r9 c0..31 fg=Dim bg=#0b1d31
+r9 c31..80 bg=#0b1d31
+r10 c0..80 bg=#0a1d2e
+r11 c0..80 bg=#091b2c
+r12 c0..80 bg=#09192a
+r13 c0..80 bg=#091828
+r14 c0..80 bg=#071725
+r15 c0..80 bg=#071523
+
+== dark-graphite
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..22 fg=Foreground bg=Background
+r4 c22..80 bg=Background
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..34 fg=Foreground bg=Background
+r7 c34..80 bg=Background
+r8 c0..16 fg=Foreground bg=Background reversed
+r8 c16..80 bg=Background
+r9 c0..31 fg=Dim bg=Background
+r9 c31..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+
+== light-truecolor
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..22 fg=Foreground bg=Background
+r4 c22..80 bg=Background
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..34 fg=Foreground bg=Background
+r7 c34..80 bg=Background
+r8 c0..16 fg=Foreground bg=Background reversed
+r8 c16..80 bg=Background
+r9 c0..31 fg=Dim bg=Background
+r9 c31..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+
+== dark-256
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..22 fg=Foreground bg=Background
+r4 c22..80 bg=Background
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..34 fg=Foreground bg=Background
+r7 c34..80 bg=Background
+r8 c0..16 fg=Foreground bg=Background reversed
+r8 c16..80 bg=Background
+r9 c0..31 fg=Dim bg=Background
+r9 c31..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+
+== light-256
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..80 bg=Background|Surface
+r1 c0..80 bg=Background|Surface
+r2 c0..80 bg=Background|Surface
+r3 c0..80 bg=Background|Surface
+r4 c0..22 fg=Foreground bg=Background|Surface
+r4 c22..80 bg=Background|Surface
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=Background|Surface
+r6 c0..80 bg=Background|Surface
+r7 c0..34 fg=Foreground bg=Background|Surface
+r7 c34..80 bg=Background|Surface
+r8 c0..16 fg=Foreground bg=Background|Surface reversed
+r8 c16..80 bg=Background|Surface
+r9 c0..31 fg=Dim bg=Background|Surface
+r9 c31..80 bg=Background|Surface
+r10 c0..80 bg=Background|Surface
+r11 c0..80 bg=Background|Surface
+r12 c0..80 bg=Background|Surface
+r13 c0..80 bg=Background|Surface
+r14 c0..80 bg=Background|Surface
+r15 c0..80 bg=Background|Surface
+
+== ansi-16
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r8 c0..16 reversed
+r9 c0..31 dim
+
+== unknown-ground
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r8 c0..16 reversed
+r9 c0..31 dim
+
+== no-color
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r8 c0..16 reversed
+r9 c0..31 dim
+
+== ascii
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r8 c0..16 reversed
+r9 c0..31 dim

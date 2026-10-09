@@ -1,0 +1,86 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ● ask   work (Tab)   2 agents
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..9 fg=Hint|Dim bg=Background
+r0 c9..13 fg=#7eb4e8 bg=Background
+r0 c13..22 fg=Hint|Dim bg=Background
+r0 c22..30 fg=Live bg=Background
+r0 c30..40 bg=Background
+
+== dark-graphite
+ ● ask   work (Tab)   2 agents
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..9 fg=Hint|Dim bg=Background
+r0 c9..13 fg=#7eb4e8 bg=Background
+r0 c13..22 fg=Hint|Dim bg=Background
+r0 c22..30 fg=Live bg=Background
+r0 c30..40 bg=Background
+
+== light-truecolor
+ ● ask   work (Tab)   2 agents
+---
+r0 c1..6 fg=#92400e bold
+r0 c6..9 fg=Hint|Dim
+r0 c9..13 fg=#1636b2
+r0 c13..22 fg=Hint|Dim
+r0 c22..30 fg=Live
+
+== dark-256
+ ● ask   work (Tab)   2 agents
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
+r0 c6..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c9..13 fg=idx110 bg=Background|DiffAddedTint
+r0 c13..22 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c22..30 fg=Live bg=Background|DiffAddedTint
+r0 c30..40 bg=Background|DiffAddedTint
+
+== light-256
+ ● ask   work (Tab)   2 agents
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 fg=Muted|Hint|Dim
+r0 c9..13 fg=Primary
+r0 c13..22 fg=Muted|Hint|Dim
+r0 c22..30 fg=Live
+
+== ansi-16
+ ● ask   work (Tab)   2 agents
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 dim
+r0 c9..13 fg=Primary
+r0 c13..22 dim
+r0 c22..30 fg=Live
+
+== unknown-ground
+ ● ask   work (Tab)   2 agents
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 dim
+r0 c9..13 fg=Primary
+r0 c13..22 dim
+r0 c22..30 fg=Live
+
+== no-color
+ ● ask   work (Tab)   2 agents
+---
+r0 c1..6 bold
+r0 c6..9 dim
+r0 c13..22 dim
+
+== ascii
+ . ask   work (Tab)   2 agents
+---
+r0 c1..6 bold
+r0 c6..9 dim
+r0 c13..22 dim

@@ -1,0 +1,183 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x5
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+  +2 more
+  Total                    1h 03m
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..26 fg=Foreground bg=Background
+r0 c26..27 bg=Background
+r0 c27..33 fg=Foreground bg=Background
+r0 c33..40 bg=Background
+r1 c0..1 fg=Danger bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..27 bg=Background
+r1 c27..33 fg=Foreground bg=Background
+r1 c33..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..27 bg=Background
+r2 c27..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..9 fg=Muted bg=Background
+r3 c9..40 bg=Background
+r4 c0..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background bold
+r4 c26..27 bg=Background
+r4 c27..33 fg=Foreground bg=Background bold
+r4 c33..40 bg=Background
+
+== dark-truecolor · 80x5
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+  +4 more
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..80 bg=Background
+r2 c0..2 bg=Background
+r2 c2..9 fg=Muted bg=Background
+r2 c9..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background bold
+r3 c43..45 bg=Background
+r3 c45..51 fg=Foreground bg=Background bold
+r3 c51..53 bg=Background
+r3 c53..62 fg=Muted bg=Background bold
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..80 bg=Background
+r4 c0..2 bg=Background
+r4 c2..59 fg=Hint bg=Background
+r4 c59..80 bg=Background
+
+== dark-truecolor · 120x5
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+  +4 more
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..120 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..120 bg=Background
+r2 c0..2 bg=Background
+r2 c2..9 fg=Muted bg=Background
+r2 c9..120 bg=Background
+r3 c0..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background bold
+r3 c43..45 bg=Background
+r3 c45..51 fg=Foreground bg=Background bold
+r3 c51..53 bg=Background
+r3 c53..62 fg=Muted bg=Background bold
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..59 fg=Hint bg=Background
+r4 c59..120 bg=Background
+
+== no-color · 40x5
+✓ Edited summary.md           4 s
+✕ Ran cargo test           1m 12s
+✓ Read 14 files            850 ms
+  +2 more
+  Total                    1h 03m
+
+== no-color · 80x5
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+  +4 more
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+
+== no-color · 120x5
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+  +4 more
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+
+== ascii · 40x5
+Y Edited summary.md              4 s
+X Ran cargo test              1m 12s
+Y Read 14 files               850 ms
+  +2 more
+  Total                       1h 03m
+
+== ascii · 80x5
+  Action                       Outcome    Time   Tokens        Cost
+Y Edited summary.md            Done        4 s     1.2k       $0.01
+  +4 more
+  Total                                 1h 03m  >= 2.1M  >= ~$12.79
+  - not reported  ~ estimated  >= some rows did not report
+
+== ascii · 120x5
+  Action                       Outcome    Time   Tokens        Cost
+Y Edited summary.md            Done        4 s     1.2k       $0.01
+  +4 more
+  Total                                 1h 03m  >= 2.1M  >= ~$12.79
+  - not reported  ~ estimated  >= some rows did not report

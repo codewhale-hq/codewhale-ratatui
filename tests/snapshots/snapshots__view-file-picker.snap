@@ -1,0 +1,476 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background
+r1 c0..1 bg=Background
+r1 c1..23 fg=Primary bg=Background bold
+r1 c23..99 fg=Border bg=Background
+r1 c99..100 bg=Background
+r2 c0..100 bg=Background
+r3 c0..2 bg=Background
+r3 c2..4 fg=Primary bg=Background bold
+r3 c4..8 fg=Foreground bg=Background
+r3 c8..9 fg=PrimaryForeground bg=Primary
+r3 c9..100 bg=Background
+r4 c0..100 bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Foreground bg=Selected
+r5 c38..100 bg=Background
+r6 c0..2 bg=Background
+r6 c2..41 fg=Foreground bg=Background
+r6 c41..100 bg=Background
+r7 c0..2 bg=Background
+r7 c2..53 fg=Foreground bg=Background
+r7 c53..100 bg=Background
+r8 c0..2 bg=Background
+r8 c2..44 fg=Foreground bg=Background
+r8 c44..100 bg=Background
+r9 c0..2 bg=Background
+r9 c2..42 fg=Foreground bg=Background
+r9 c42..100 bg=Background
+r10 c0..100 bg=Background
+r11 c0..100 bg=Background
+r12 c0..100 bg=Background
+r13 c0..100 bg=Background
+r14 c0..100 bg=Background
+r15 c0..100 bg=Background
+r16 c0..100 bg=Background
+r17 c0..100 bg=Background
+r18 c0..100 bg=Background
+r19 c0..100 bg=Background
+r20 c0..100 bg=Background
+r21 c0..2 bg=Background
+r21 c2..7 fg=Primary bg=Background bold
+r21 c7..11 fg=Muted bg=Background
+r21 c11..12 bg=Background
+r21 c12..19 fg=Primary bg=Background bold
+r21 c19..31 fg=Muted bg=Background
+r21 c31..32 bg=Background
+r21 c32..37 fg=Primary bg=Background bold
+r21 c37..43 fg=Muted bg=Background
+r21 c43..100 bg=Background
+r22 c0..1 bg=Background
+r22 c1..99 fg=Border bg=Background
+r22 c99..100 bg=Background
+r23 c0..100 bg=Background
+
+== dark-graphite
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background
+r1 c0..1 bg=Background
+r1 c1..23 fg=Primary bg=Background bold
+r1 c23..99 fg=Border bg=Background
+r1 c99..100 bg=Background
+r2 c0..100 bg=Background
+r3 c0..2 bg=Background
+r3 c2..4 fg=Primary bg=Background bold
+r3 c4..8 fg=Foreground bg=Background
+r3 c8..9 fg=PrimaryForeground bg=Primary
+r3 c9..100 bg=Background
+r4 c0..100 bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Foreground bg=Selected
+r5 c38..100 bg=Background
+r6 c0..2 bg=Background
+r6 c2..41 fg=Foreground bg=Background
+r6 c41..100 bg=Background
+r7 c0..2 bg=Background
+r7 c2..53 fg=Foreground bg=Background
+r7 c53..100 bg=Background
+r8 c0..2 bg=Background
+r8 c2..44 fg=Foreground bg=Background
+r8 c44..100 bg=Background
+r9 c0..2 bg=Background
+r9 c2..42 fg=Foreground bg=Background
+r9 c42..100 bg=Background
+r10 c0..100 bg=Background
+r11 c0..100 bg=Background
+r12 c0..100 bg=Background
+r13 c0..100 bg=Background
+r14 c0..100 bg=Background
+r15 c0..100 bg=Background
+r16 c0..100 bg=Background
+r17 c0..100 bg=Background
+r18 c0..100 bg=Background
+r19 c0..100 bg=Background
+r20 c0..100 bg=Background
+r21 c0..2 bg=Background
+r21 c2..7 fg=Primary bg=Background bold
+r21 c7..11 fg=Muted bg=Background
+r21 c11..12 bg=Background
+r21 c12..19 fg=Primary bg=Background bold
+r21 c19..31 fg=Muted bg=Background
+r21 c31..32 bg=Background
+r21 c32..37 fg=Primary bg=Background bold
+r21 c37..43 fg=Muted bg=Background
+r21 c43..100 bg=Background
+r22 c0..1 bg=Background
+r22 c1..99 fg=Border bg=Background
+r22 c99..100 bg=Background
+r23 c0..100 bg=Background
+
+== light-truecolor
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold
+r1 c23..99 fg=Border
+r3 c2..4 fg=Primary bold
+r3 c4..8 fg=Foreground
+r3 c8..9 bg=Primary
+r5 c2..38 fg=Foreground bg=Selected
+r6 c2..41 fg=Foreground
+r7 c2..53 fg=Foreground
+r8 c2..44 fg=Foreground
+r9 c2..42 fg=Foreground
+r21 c2..7 fg=Primary bold
+r21 c7..11 fg=Muted
+r21 c12..19 fg=Primary bold
+r21 c19..31 fg=Muted
+r21 c32..37 fg=Primary bold
+r21 c37..43 fg=Muted
+r22 c1..99 fg=Border
+
+== dark-256
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..100 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..23 fg=Primary bg=Background|DiffAddedTint bold
+r1 c23..99 fg=Border bg=Background|DiffAddedTint
+r1 c99..100 bg=Background|DiffAddedTint
+r2 c0..100 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..4 fg=Primary bg=Background|DiffAddedTint bold
+r3 c4..8 fg=Foreground bg=Background|DiffAddedTint
+r3 c8..9 fg=PrimaryForeground bg=Primary
+r3 c9..100 bg=Background|DiffAddedTint
+r4 c0..100 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..38 fg=Foreground bg=Selected
+r5 c38..100 bg=Background|DiffAddedTint
+r6 c0..2 bg=Background|DiffAddedTint
+r6 c2..41 fg=Foreground bg=Background|DiffAddedTint
+r6 c41..100 bg=Background|DiffAddedTint
+r7 c0..2 bg=Background|DiffAddedTint
+r7 c2..53 fg=Foreground bg=Background|DiffAddedTint
+r7 c53..100 bg=Background|DiffAddedTint
+r8 c0..2 bg=Background|DiffAddedTint
+r8 c2..44 fg=Foreground bg=Background|DiffAddedTint
+r8 c44..100 bg=Background|DiffAddedTint
+r9 c0..2 bg=Background|DiffAddedTint
+r9 c2..42 fg=Foreground bg=Background|DiffAddedTint
+r9 c42..100 bg=Background|DiffAddedTint
+r10 c0..100 bg=Background|DiffAddedTint
+r11 c0..100 bg=Background|DiffAddedTint
+r12 c0..100 bg=Background|DiffAddedTint
+r13 c0..100 bg=Background|DiffAddedTint
+r14 c0..100 bg=Background|DiffAddedTint
+r15 c0..100 bg=Background|DiffAddedTint
+r16 c0..100 bg=Background|DiffAddedTint
+r17 c0..100 bg=Background|DiffAddedTint
+r18 c0..100 bg=Background|DiffAddedTint
+r19 c0..100 bg=Background|DiffAddedTint
+r20 c0..100 bg=Background|DiffAddedTint
+r21 c0..2 bg=Background|DiffAddedTint
+r21 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r21 c7..11 fg=Muted bg=Background|DiffAddedTint
+r21 c11..12 bg=Background|DiffAddedTint
+r21 c12..19 fg=Primary bg=Background|DiffAddedTint bold
+r21 c19..31 fg=Muted bg=Background|DiffAddedTint
+r21 c31..32 bg=Background|DiffAddedTint
+r21 c32..37 fg=Primary bg=Background|DiffAddedTint bold
+r21 c37..43 fg=Muted bg=Background|DiffAddedTint
+r21 c43..100 bg=Background|DiffAddedTint
+r22 c0..1 bg=Background|DiffAddedTint
+r22 c1..99 fg=Border bg=Background|DiffAddedTint
+r22 c99..100 bg=Background|DiffAddedTint
+r23 c0..100 bg=Background|DiffAddedTint
+
+== light-256
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold
+r1 c23..99 fg=Border
+r3 c2..4 fg=Primary bold
+r3 c4..8 fg=Foreground
+r3 c8..9 bg=Primary
+r5 c2..38 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c2..41 fg=Foreground
+r7 c2..53 fg=Foreground
+r8 c2..44 fg=Foreground
+r9 c2..42 fg=Foreground
+r21 c2..7 fg=Primary bold
+r21 c7..11 fg=Muted|Hint|Dim
+r21 c12..19 fg=Primary bold
+r21 c19..31 fg=Muted|Hint|Dim
+r21 c32..37 fg=Primary bold
+r21 c37..43 fg=Muted|Hint|Dim
+r22 c1..99 fg=Border
+
+== ansi-16
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold dim
+r1 c23..99 dim
+r3 c2..4 fg=Primary bold
+r21 c2..7 fg=Primary bold
+r21 c7..11 dim
+r21 c12..19 fg=Primary bold
+r21 c19..31 dim
+r21 c32..37 fg=Primary bold
+r21 c37..43 dim
+r22 c1..99 dim
+
+== unknown-ground
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold dim
+r1 c23..99 dim
+r3 c2..4 fg=Primary bold
+r21 c2..7 fg=Primary bold
+r21 c7..11 dim
+r21 c12..19 fg=Primary bold
+r21 c19..31 dim
+r21 c32..37 fg=Primary bold
+r21 c37..43 dim
+r22 c1..99 dim
+
+== no-color
+
+  @ attach · 5 matches ────────────────────────────────────────────────────────────────────────────
+
+  > tui/
+
+  ▸     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Enter insert @path  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 bold dim
+r1 c23..99 dim
+r3 c2..4 bold
+r21 c2..7 bold
+r21 c7..11 dim
+r21 c12..19 bold
+r21 c19..31 dim
+r21 c32..37 bold
+r21 c37..43 dim
+r22 c1..99 dim
+
+== ascii
+
+  @ attach . 5 matches ----------------------------------------------------------------------------
+
+  > tui/
+
+  >     crates/tui/src/tui/ui/frame.rs
+        crates/tui/src/tui/widgets/mod.rs
+        crates/tui/src/tui/work_surface/render/mod.rs
+        crates/tui/src/tui/session_picker.rs
+        crates/tui/src/tui/theme_picker.rs
+
+
+
+
+
+
+
+
+
+
+
+   Up/Dn move  Enter insert @path  Esc cancel
+ --------------------------------------------------------------------------------------------------
+
+---
+r1 c1..23 bold dim
+r1 c23..99 dim
+r3 c2..4 bold
+r21 c2..9 bold
+r21 c9..13 dim
+r21 c14..21 bold
+r21 c21..33 dim
+r21 c34..39 bold
+r21 c39..45 dim
+r22 c1..99 dim

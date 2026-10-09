@@ -1,0 +1,1312 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c0..16 fg=Foreground bg=#273946
+r0 c16..29 fg=Foreground bg=Surface bold
+r0 c29..88 fg=Foreground bg=Surface
+r0 c88..104 fg=Foreground bg=#273946
+r1 c0..16 fg=Foreground bg=#273945
+r1 c16..88 fg=Foreground bg=Surface
+r1 c88..104 fg=Foreground bg=#273945
+r2 c0..16 fg=Foreground bg=#263745
+r2 c16..88 fg=Primary bg=Surface
+r2 c88..104 fg=Foreground bg=#263745
+r3 c0..16 fg=Foreground bg=#243743
+r3 c16..17 fg=Primary bg=Surface
+r3 c17..87 bg=Surface
+r3 c87..88 fg=Primary bg=Surface
+r3 c88..104 fg=Foreground bg=#243743
+r4 c0..16 fg=Foreground bg=#243542
+r4 c16..17 fg=Primary bg=Surface
+r4 c17..18 bg=Surface
+r4 c18..45 fg=Foreground bg=Surface bold
+r4 c45..87 bg=Surface
+r4 c87..88 fg=Primary bg=Surface
+r4 c88..104 fg=Foreground bg=#243542
+r5 c0..16 fg=Foreground bg=#243541
+r5 c16..17 fg=Primary bg=Surface
+r5 c17..87 bg=Surface
+r5 c87..88 fg=Primary bg=Surface
+r5 c88..104 fg=Foreground bg=#243541
+r6 c0..16 fg=Foreground bg=#23343f
+r6 c16..17 fg=Primary bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..31 fg=Muted bg=Surface
+r6 c31..39 fg=Foreground bg=Surface bold
+r6 c39..87 bg=Surface
+r6 c87..88 fg=Primary bg=Surface
+r6 c88..104 fg=Foreground bg=#23343f
+r7 c0..16 fg=Foreground bg=#23323e
+r7 c16..17 fg=Primary bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..20 fg=Primary bg=Surface bold
+r7 c20..36 fg=Foreground bg=Surface bold
+r7 c36..87 bg=Surface
+r7 c87..88 fg=Primary bg=Surface
+r7 c88..104 fg=Foreground bg=#23323e
+r8 c0..16 fg=Foreground bg=#22323d
+r8 c16..17 fg=Primary bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..37 fg=Muted bg=Surface
+r8 c37..87 bg=Surface
+r8 c87..88 fg=Primary bg=Surface
+r8 c88..104 fg=Foreground bg=#22323d
+r9 c0..16 fg=Foreground bg=#20313b
+r9 c16..17 fg=Primary bg=Surface
+r9 c17..18 bg=Surface
+r9 c18..21 fg=Muted bg=Surface
+r9 c21..38 fg=Foreground bg=Surface
+r9 c38..87 bg=Surface
+r9 c87..88 fg=Primary bg=Surface
+r9 c88..104 fg=Foreground bg=#20313b
+r10 c0..16 fg=Foreground bg=#20303a
+r10 c16..17 fg=Primary bg=Surface
+r10 c17..18 bg=Surface
+r10 c18..24 fg=Attention bg=Surface bold
+r10 c24..65 fg=Foreground bg=Surface
+r10 c65..87 bg=Surface
+r10 c87..88 fg=Primary bg=Surface
+r10 c88..104 fg=Foreground bg=#20303a
+r11 c0..16 fg=Foreground bg=#202f39
+r11 c16..17 fg=Primary bg=Surface
+r11 c17..87 bg=Surface
+r11 c87..88 fg=Primary bg=Surface
+r11 c88..104 fg=Foreground bg=#202f39
+r12 c0..16 fg=Foreground bg=#202e38
+r12 c16..17 fg=Primary bg=Surface
+r12 c17..18 bg=Surface
+r12 c18..19 fg=Primary bg=Surface bold
+r12 c19..20 fg=Foreground bg=Surface
+r12 c20..21 fg=Foreground bg=Surface bold
+r12 c21..32 fg=Foreground bg=Surface
+r12 c32..35 fg=Border bg=Surface
+r12 c35..36 fg=Primary bg=Selected bold
+r12 c36..37 fg=Foreground bg=Selected
+r12 c37..38 fg=Foreground bg=Selected bold
+r12 c38..39 fg=Foreground bg=Selected
+r12 c39..51 fg=Foreground bg=Selected bold
+r12 c51..87 bg=Surface
+r12 c87..88 fg=Primary bg=Surface
+r12 c88..104 fg=Foreground bg=#202e38
+r13 c0..16 fg=Foreground bg=#1e2d37
+r13 c16..17 fg=Primary bg=Surface
+r13 c17..87 bg=Surface
+r13 c87..88 fg=Primary bg=Surface
+r13 c88..104 fg=Foreground bg=#1e2d37
+r14 c0..16 fg=Foreground bg=#1e2c36
+r14 c16..17 fg=Primary bg=Surface
+r14 c17..18 bg=Surface
+r14 c18..20 fg=Foreground bg=Surface bold
+r14 c20..21 bg=Surface
+r14 c21..25 fg=Muted bg=Surface
+r14 c25..28 fg=Border bg=Surface
+r14 c28..33 fg=Foreground bg=Surface bold
+r14 c33..34 bg=Surface
+r14 c34..40 fg=Muted bg=Surface
+r14 c40..43 fg=Border bg=Surface
+r14 c43..46 fg=Foreground bg=Surface bold
+r14 c46..47 bg=Surface
+r14 c47..53 fg=Muted bg=Surface
+r14 c53..87 bg=Surface
+r14 c87..88 fg=Primary bg=Surface
+r14 c88..104 fg=Foreground bg=#1e2c36
+r15 c0..16 fg=Foreground bg=#1d2b35
+r15 c16..17 fg=Primary bg=Surface
+r15 c17..87 bg=Surface
+r15 c87..88 fg=Primary bg=Surface
+r15 c88..104 fg=Foreground bg=#1d2b35
+r16 c0..16 fg=Foreground bg=#1c2a34
+r16 c16..17 fg=Primary bg=Surface
+r16 c17..87 bg=Surface
+r16 c87..88 fg=Primary bg=Surface
+r16 c88..104 fg=Foreground bg=#1c2a34
+r17 c0..16 fg=Foreground bg=#1c2a32
+r17 c16..17 fg=Primary bg=Surface
+r17 c17..87 bg=Surface
+r17 c87..88 fg=Primary bg=Surface
+r17 c88..104 fg=Foreground bg=#1c2a32
+r18 c0..16 fg=Foreground bg=#1c2931
+r18 c16..17 fg=Primary bg=Surface
+r18 c17..87 bg=Surface
+r18 c87..88 fg=Primary bg=Surface
+r18 c88..104 fg=Foreground bg=#1c2931
+r19 c0..16 fg=Foreground bg=#1a2730
+r19 c16..17 fg=Primary bg=Surface
+r19 c17..87 bg=Surface
+r19 c87..88 fg=Primary bg=Surface
+r19 c88..104 fg=Foreground bg=#1a2730
+r20 c0..16 fg=Foreground bg=#1a262f
+r20 c16..17 fg=Primary bg=Surface
+r20 c17..87 bg=Surface
+r20 c87..88 fg=Primary bg=Surface
+r20 c88..104 fg=Foreground bg=#1a262f
+r21 c0..16 fg=Foreground bg=#19252d
+r21 c16..17 fg=Primary bg=Surface
+r21 c17..87 bg=Surface
+r21 c87..88 fg=Primary bg=Surface
+r21 c88..104 fg=Foreground bg=#19252d
+r22 c0..16 fg=Foreground bg=#19252c
+r22 c16..17 fg=Primary bg=Surface
+r22 c17..87 bg=Surface
+r22 c87..88 fg=Primary bg=Surface
+r22 c88..104 fg=Foreground bg=#19252c
+r23 c0..16 fg=Foreground bg=#18232b
+r23 c16..17 fg=Primary bg=Surface
+r23 c17..87 bg=Surface
+r23 c87..88 fg=Primary bg=Surface
+r23 c88..104 fg=Foreground bg=#18232b
+r24 c0..16 fg=Foreground bg=#182329
+r24 c16..17 fg=Primary bg=Surface
+r24 c17..87 bg=Surface
+r24 c87..88 fg=Primary bg=Surface
+r24 c88..104 fg=Foreground bg=#182329
+r25 c0..16 fg=Foreground bg=#182228
+r25 c16..17 fg=Primary bg=Surface
+r25 c17..87 bg=Surface
+r25 c87..88 fg=Primary bg=Surface
+r25 c88..104 fg=Foreground bg=#182228
+r26 c0..16 fg=Foreground bg=#162027
+r26 c16..17 fg=Primary bg=Surface
+r26 c17..87 bg=Surface
+r26 c87..88 fg=Primary bg=Surface
+r26 c88..104 fg=Foreground bg=#162027
+r27 c0..16 fg=Foreground bg=#152025
+r27 c16..17 fg=Primary bg=Surface
+r27 c17..87 bg=Surface
+r27 c87..88 fg=Primary bg=Surface
+r27 c88..104 fg=Foreground bg=#152025
+r28 c0..16 fg=Foreground bg=#151e25
+r28 c16..88 fg=Primary bg=Surface
+r28 c88..104 fg=Foreground bg=#151e25
+r29 c0..16 fg=Foreground bg=#141e23
+r29 c16..55 fg=Attention bg=Surface
+r29 c55..88 fg=Foreground bg=Surface
+r29 c88..104 fg=Foreground bg=#141e23
+
+== dark-graphite
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c0..16 fg=Foreground bg=#273946
+r0 c16..29 fg=Foreground bg=Surface bold
+r0 c29..88 fg=Foreground bg=Surface
+r0 c88..104 fg=Foreground bg=#273946
+r1 c0..16 fg=Foreground bg=#273945
+r1 c16..88 fg=Foreground bg=Surface
+r1 c88..104 fg=Foreground bg=#273945
+r2 c0..16 fg=Foreground bg=#263745
+r2 c16..88 fg=Primary bg=Surface
+r2 c88..104 fg=Foreground bg=#263745
+r3 c0..16 fg=Foreground bg=#243743
+r3 c16..17 fg=Primary bg=Surface
+r3 c17..87 bg=Surface
+r3 c87..88 fg=Primary bg=Surface
+r3 c88..104 fg=Foreground bg=#243743
+r4 c0..16 fg=Foreground bg=#243542
+r4 c16..17 fg=Primary bg=Surface
+r4 c17..18 bg=Surface
+r4 c18..45 fg=Foreground bg=Surface bold
+r4 c45..87 bg=Surface
+r4 c87..88 fg=Primary bg=Surface
+r4 c88..104 fg=Foreground bg=#243542
+r5 c0..16 fg=Foreground bg=#243541
+r5 c16..17 fg=Primary bg=Surface
+r5 c17..87 bg=Surface
+r5 c87..88 fg=Primary bg=Surface
+r5 c88..104 fg=Foreground bg=#243541
+r6 c0..16 fg=Foreground bg=#23343f
+r6 c16..17 fg=Primary bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..31 fg=Muted bg=Surface
+r6 c31..39 fg=Foreground bg=Surface bold
+r6 c39..87 bg=Surface
+r6 c87..88 fg=Primary bg=Surface
+r6 c88..104 fg=Foreground bg=#23343f
+r7 c0..16 fg=Foreground bg=#23323e
+r7 c16..17 fg=Primary bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..20 fg=Primary bg=Surface bold
+r7 c20..36 fg=Foreground bg=Surface bold
+r7 c36..87 bg=Surface
+r7 c87..88 fg=Primary bg=Surface
+r7 c88..104 fg=Foreground bg=#23323e
+r8 c0..16 fg=Foreground bg=#22323d
+r8 c16..17 fg=Primary bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..37 fg=Muted bg=Surface
+r8 c37..87 bg=Surface
+r8 c87..88 fg=Primary bg=Surface
+r8 c88..104 fg=Foreground bg=#22323d
+r9 c0..16 fg=Foreground bg=#20313b
+r9 c16..17 fg=Primary bg=Surface
+r9 c17..18 bg=Surface
+r9 c18..21 fg=Muted bg=Surface
+r9 c21..38 fg=Foreground bg=Surface
+r9 c38..87 bg=Surface
+r9 c87..88 fg=Primary bg=Surface
+r9 c88..104 fg=Foreground bg=#20313b
+r10 c0..16 fg=Foreground bg=#20303a
+r10 c16..17 fg=Primary bg=Surface
+r10 c17..18 bg=Surface
+r10 c18..24 fg=Attention bg=Surface bold
+r10 c24..65 fg=Foreground bg=Surface
+r10 c65..87 bg=Surface
+r10 c87..88 fg=Primary bg=Surface
+r10 c88..104 fg=Foreground bg=#20303a
+r11 c0..16 fg=Foreground bg=#202f39
+r11 c16..17 fg=Primary bg=Surface
+r11 c17..87 bg=Surface
+r11 c87..88 fg=Primary bg=Surface
+r11 c88..104 fg=Foreground bg=#202f39
+r12 c0..16 fg=Foreground bg=#202e38
+r12 c16..17 fg=Primary bg=Surface
+r12 c17..18 bg=Surface
+r12 c18..19 fg=Primary bg=Surface bold
+r12 c19..20 fg=Foreground bg=Surface
+r12 c20..21 fg=Foreground bg=Surface bold
+r12 c21..32 fg=Foreground bg=Surface
+r12 c32..35 fg=Border bg=Surface
+r12 c35..36 fg=Primary bg=Selected bold
+r12 c36..37 fg=Foreground bg=Selected
+r12 c37..38 fg=Foreground bg=Selected bold
+r12 c38..39 fg=Foreground bg=Selected
+r12 c39..51 fg=Foreground bg=Selected bold
+r12 c51..87 bg=Surface
+r12 c87..88 fg=Primary bg=Surface
+r12 c88..104 fg=Foreground bg=#202e38
+r13 c0..16 fg=Foreground bg=#1e2d37
+r13 c16..17 fg=Primary bg=Surface
+r13 c17..87 bg=Surface
+r13 c87..88 fg=Primary bg=Surface
+r13 c88..104 fg=Foreground bg=#1e2d37
+r14 c0..16 fg=Foreground bg=#1e2c36
+r14 c16..17 fg=Primary bg=Surface
+r14 c17..18 bg=Surface
+r14 c18..20 fg=Foreground bg=Surface bold
+r14 c20..21 bg=Surface
+r14 c21..25 fg=Muted bg=Surface
+r14 c25..28 fg=Border bg=Surface
+r14 c28..33 fg=Foreground bg=Surface bold
+r14 c33..34 bg=Surface
+r14 c34..40 fg=Muted bg=Surface
+r14 c40..43 fg=Border bg=Surface
+r14 c43..46 fg=Foreground bg=Surface bold
+r14 c46..47 bg=Surface
+r14 c47..53 fg=Muted bg=Surface
+r14 c53..87 bg=Surface
+r14 c87..88 fg=Primary bg=Surface
+r14 c88..104 fg=Foreground bg=#1e2c36
+r15 c0..16 fg=Foreground bg=#1d2b35
+r15 c16..17 fg=Primary bg=Surface
+r15 c17..87 bg=Surface
+r15 c87..88 fg=Primary bg=Surface
+r15 c88..104 fg=Foreground bg=#1d2b35
+r16 c0..16 fg=Foreground bg=#1c2a34
+r16 c16..17 fg=Primary bg=Surface
+r16 c17..87 bg=Surface
+r16 c87..88 fg=Primary bg=Surface
+r16 c88..104 fg=Foreground bg=#1c2a34
+r17 c0..16 fg=Foreground bg=#1c2a32
+r17 c16..17 fg=Primary bg=Surface
+r17 c17..87 bg=Surface
+r17 c87..88 fg=Primary bg=Surface
+r17 c88..104 fg=Foreground bg=#1c2a32
+r18 c0..16 fg=Foreground bg=#1c2931
+r18 c16..17 fg=Primary bg=Surface
+r18 c17..87 bg=Surface
+r18 c87..88 fg=Primary bg=Surface
+r18 c88..104 fg=Foreground bg=#1c2931
+r19 c0..16 fg=Foreground bg=#1a2730
+r19 c16..17 fg=Primary bg=Surface
+r19 c17..87 bg=Surface
+r19 c87..88 fg=Primary bg=Surface
+r19 c88..104 fg=Foreground bg=#1a2730
+r20 c0..16 fg=Foreground bg=#1a262f
+r20 c16..17 fg=Primary bg=Surface
+r20 c17..87 bg=Surface
+r20 c87..88 fg=Primary bg=Surface
+r20 c88..104 fg=Foreground bg=#1a262f
+r21 c0..16 fg=Foreground bg=#19252d
+r21 c16..17 fg=Primary bg=Surface
+r21 c17..87 bg=Surface
+r21 c87..88 fg=Primary bg=Surface
+r21 c88..104 fg=Foreground bg=#19252d
+r22 c0..16 fg=Foreground bg=#19252c
+r22 c16..17 fg=Primary bg=Surface
+r22 c17..87 bg=Surface
+r22 c87..88 fg=Primary bg=Surface
+r22 c88..104 fg=Foreground bg=#19252c
+r23 c0..16 fg=Foreground bg=#18232b
+r23 c16..17 fg=Primary bg=Surface
+r23 c17..87 bg=Surface
+r23 c87..88 fg=Primary bg=Surface
+r23 c88..104 fg=Foreground bg=#18232b
+r24 c0..16 fg=Foreground bg=#182329
+r24 c16..17 fg=Primary bg=Surface
+r24 c17..87 bg=Surface
+r24 c87..88 fg=Primary bg=Surface
+r24 c88..104 fg=Foreground bg=#182329
+r25 c0..16 fg=Foreground bg=#182228
+r25 c16..17 fg=Primary bg=Surface
+r25 c17..87 bg=Surface
+r25 c87..88 fg=Primary bg=Surface
+r25 c88..104 fg=Foreground bg=#182228
+r26 c0..16 fg=Foreground bg=#162027
+r26 c16..17 fg=Primary bg=Surface
+r26 c17..87 bg=Surface
+r26 c87..88 fg=Primary bg=Surface
+r26 c88..104 fg=Foreground bg=#162027
+r27 c0..16 fg=Foreground bg=#152025
+r27 c16..17 fg=Primary bg=Surface
+r27 c17..87 bg=Surface
+r27 c87..88 fg=Primary bg=Surface
+r27 c88..104 fg=Foreground bg=#152025
+r28 c0..16 fg=Foreground bg=#151e25
+r28 c16..88 fg=Primary bg=Surface
+r28 c88..104 fg=Foreground bg=#151e25
+r29 c0..16 fg=Foreground bg=#141e23
+r29 c16..55 fg=Attention bg=Surface
+r29 c55..88 fg=Foreground bg=Surface
+r29 c88..104 fg=Foreground bg=#141e23
+
+== light-truecolor
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c0..16 fg=Foreground
+r0 c16..29 fg=Foreground bold
+r0 c29..104 fg=Foreground
+r1 c0..104 fg=Foreground
+r2 c0..16 fg=Foreground
+r2 c16..88 fg=Primary
+r2 c88..104 fg=Foreground
+r3 c0..16 fg=Foreground
+r3 c16..17 fg=Primary
+r3 c87..88 fg=Primary
+r3 c88..104 fg=Foreground
+r4 c0..16 fg=Foreground
+r4 c16..17 fg=Primary
+r4 c18..45 fg=Foreground bold
+r4 c87..88 fg=Primary
+r4 c88..104 fg=Foreground
+r5 c0..16 fg=Foreground
+r5 c16..17 fg=Primary
+r5 c87..88 fg=Primary
+r5 c88..104 fg=Foreground
+r6 c0..16 fg=Foreground
+r6 c16..17 fg=Primary
+r6 c18..31 fg=Muted
+r6 c31..39 fg=Foreground bold
+r6 c87..88 fg=Primary
+r6 c88..104 fg=Foreground
+r7 c0..16 fg=Foreground
+r7 c16..17 fg=Primary
+r7 c18..20 fg=Primary bold
+r7 c20..36 fg=Foreground bold
+r7 c87..88 fg=Primary
+r7 c88..104 fg=Foreground
+r8 c0..16 fg=Foreground
+r8 c16..17 fg=Primary
+r8 c18..37 fg=Muted
+r8 c87..88 fg=Primary
+r8 c88..104 fg=Foreground
+r9 c0..16 fg=Foreground
+r9 c16..17 fg=Primary
+r9 c18..21 fg=Muted
+r9 c21..38 fg=Foreground
+r9 c87..88 fg=Primary
+r9 c88..104 fg=Foreground
+r10 c0..16 fg=Foreground
+r10 c16..17 fg=Primary
+r10 c18..24 fg=Attention bold
+r10 c24..65 fg=Foreground
+r10 c87..88 fg=Primary
+r10 c88..104 fg=Foreground
+r11 c0..16 fg=Foreground
+r11 c16..17 fg=Primary
+r11 c87..88 fg=Primary
+r11 c88..104 fg=Foreground
+r12 c0..16 fg=Foreground
+r12 c16..17 fg=Primary
+r12 c18..19 fg=Primary bold
+r12 c19..20 fg=Foreground
+r12 c20..21 fg=Foreground bold
+r12 c21..32 fg=Foreground
+r12 c32..35 fg=Border
+r12 c35..36 fg=Primary bg=Selected bold
+r12 c36..37 fg=Foreground bg=Selected
+r12 c37..38 fg=Foreground bg=Selected bold
+r12 c38..39 fg=Foreground bg=Selected
+r12 c39..51 fg=Foreground bg=Selected bold
+r12 c87..88 fg=Primary
+r12 c88..104 fg=Foreground
+r13 c0..16 fg=Foreground
+r13 c16..17 fg=Primary
+r13 c87..88 fg=Primary
+r13 c88..104 fg=Foreground
+r14 c0..16 fg=Foreground
+r14 c16..17 fg=Primary
+r14 c18..20 fg=Foreground bold
+r14 c21..25 fg=Muted
+r14 c25..28 fg=Border
+r14 c28..33 fg=Foreground bold
+r14 c34..40 fg=Muted
+r14 c40..43 fg=Border
+r14 c43..46 fg=Foreground bold
+r14 c47..53 fg=Muted
+r14 c87..88 fg=Primary
+r14 c88..104 fg=Foreground
+r15 c0..16 fg=Foreground
+r15 c16..17 fg=Primary
+r15 c87..88 fg=Primary
+r15 c88..104 fg=Foreground
+r16 c0..16 fg=Foreground
+r16 c16..17 fg=Primary
+r16 c87..88 fg=Primary
+r16 c88..104 fg=Foreground
+r17 c0..16 fg=Foreground
+r17 c16..17 fg=Primary
+r17 c87..88 fg=Primary
+r17 c88..104 fg=Foreground
+r18 c0..16 fg=Foreground
+r18 c16..17 fg=Primary
+r18 c87..88 fg=Primary
+r18 c88..104 fg=Foreground
+r19 c0..16 fg=Foreground
+r19 c16..17 fg=Primary
+r19 c87..88 fg=Primary
+r19 c88..104 fg=Foreground
+r20 c0..16 fg=Foreground
+r20 c16..17 fg=Primary
+r20 c87..88 fg=Primary
+r20 c88..104 fg=Foreground
+r21 c0..16 fg=Foreground
+r21 c16..17 fg=Primary
+r21 c87..88 fg=Primary
+r21 c88..104 fg=Foreground
+r22 c0..16 fg=Foreground
+r22 c16..17 fg=Primary
+r22 c87..88 fg=Primary
+r22 c88..104 fg=Foreground
+r23 c0..16 fg=Foreground
+r23 c16..17 fg=Primary
+r23 c87..88 fg=Primary
+r23 c88..104 fg=Foreground
+r24 c0..16 fg=Foreground
+r24 c16..17 fg=Primary
+r24 c87..88 fg=Primary
+r24 c88..104 fg=Foreground
+r25 c0..16 fg=Foreground
+r25 c16..17 fg=Primary
+r25 c87..88 fg=Primary
+r25 c88..104 fg=Foreground
+r26 c0..16 fg=Foreground
+r26 c16..17 fg=Primary
+r26 c87..88 fg=Primary
+r26 c88..104 fg=Foreground
+r27 c0..16 fg=Foreground
+r27 c16..17 fg=Primary
+r27 c87..88 fg=Primary
+r27 c88..104 fg=Foreground
+r28 c0..16 fg=Foreground
+r28 c16..88 fg=Primary
+r28 c88..104 fg=Foreground
+r29 c0..16 fg=Foreground
+r29 c16..55 fg=Attention
+r29 c55..104 fg=Foreground
+
+== dark-256
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r0 c16..29 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r0 c29..88 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r0 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r1 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r1 c16..88 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r1 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r2 c16..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r3 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r3 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c17..87 bg=Surface|Hover|DiffRemovedTint
+r3 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r4 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c17..18 bg=Surface|Hover|DiffRemovedTint
+r4 c18..45 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r4 c45..87 bg=Surface|Hover|DiffRemovedTint
+r4 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r5 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r5 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c17..87 bg=Surface|Hover|DiffRemovedTint
+r5 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r6 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r6 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c17..18 bg=Surface|Hover|DiffRemovedTint
+r6 c18..31 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r6 c31..39 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r6 c39..87 bg=Surface|Hover|DiffRemovedTint
+r6 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r7 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r7 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r7 c17..18 bg=Surface|Hover|DiffRemovedTint
+r7 c18..20 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r7 c20..36 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r7 c36..87 bg=Surface|Hover|DiffRemovedTint
+r7 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r7 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r8 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r8 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r8 c17..18 bg=Surface|Hover|DiffRemovedTint
+r8 c18..37 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r8 c37..87 bg=Surface|Hover|DiffRemovedTint
+r8 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r8 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r9 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r9 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r9 c17..18 bg=Surface|Hover|DiffRemovedTint
+r9 c18..21 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r9 c21..38 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r9 c38..87 bg=Surface|Hover|DiffRemovedTint
+r9 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r9 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r10 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r10 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r10 c17..18 bg=Surface|Hover|DiffRemovedTint
+r10 c18..24 fg=Attention bg=Surface|Hover|DiffRemovedTint bold
+r10 c24..65 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r10 c65..87 bg=Surface|Hover|DiffRemovedTint
+r10 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r10 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r11 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r11 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r11 c17..87 bg=Surface|Hover|DiffRemovedTint
+r11 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r11 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r12 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r12 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r12 c17..18 bg=Surface|Hover|DiffRemovedTint
+r12 c18..19 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r12 c19..20 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r12 c20..21 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r12 c21..32 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r12 c32..35 fg=Border bg=Surface|Hover|DiffRemovedTint
+r12 c35..36 fg=Primary bg=Selected bold
+r12 c36..37 fg=Foreground bg=Selected
+r12 c37..38 fg=Foreground bg=Selected bold
+r12 c38..39 fg=Foreground bg=Selected
+r12 c39..51 fg=Foreground bg=Selected bold
+r12 c51..87 bg=Surface|Hover|DiffRemovedTint
+r12 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r12 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r13 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r13 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r13 c17..87 bg=Surface|Hover|DiffRemovedTint
+r13 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r13 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r14 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r14 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r14 c17..18 bg=Surface|Hover|DiffRemovedTint
+r14 c18..20 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r14 c20..21 bg=Surface|Hover|DiffRemovedTint
+r14 c21..25 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r14 c25..28 fg=Border bg=Surface|Hover|DiffRemovedTint
+r14 c28..33 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r14 c33..34 bg=Surface|Hover|DiffRemovedTint
+r14 c34..40 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r14 c40..43 fg=Border bg=Surface|Hover|DiffRemovedTint
+r14 c43..46 fg=Foreground bg=Surface|Hover|DiffRemovedTint bold
+r14 c46..47 bg=Surface|Hover|DiffRemovedTint
+r14 c47..53 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r14 c53..87 bg=Surface|Hover|DiffRemovedTint
+r14 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r14 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r15 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r15 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r15 c17..87 bg=Surface|Hover|DiffRemovedTint
+r15 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r15 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r16 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r16 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r16 c17..87 bg=Surface|Hover|DiffRemovedTint
+r16 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r16 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r17 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r17 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r17 c17..87 bg=Surface|Hover|DiffRemovedTint
+r17 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r17 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r18 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r18 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r18 c17..87 bg=Surface|Hover|DiffRemovedTint
+r18 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r18 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r19 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r19 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r19 c17..87 bg=Surface|Hover|DiffRemovedTint
+r19 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r19 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r20 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r20 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r20 c17..87 bg=Surface|Hover|DiffRemovedTint
+r20 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r20 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r21 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r21 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r21 c17..87 bg=Surface|Hover|DiffRemovedTint
+r21 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r21 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r22 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r22 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r22 c17..87 bg=Surface|Hover|DiffRemovedTint
+r22 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r22 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r23 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r23 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r23 c17..87 bg=Surface|Hover|DiffRemovedTint
+r23 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r23 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r24 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r24 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r24 c17..87 bg=Surface|Hover|DiffRemovedTint
+r24 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r24 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r25 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r25 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r25 c17..87 bg=Surface|Hover|DiffRemovedTint
+r25 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r25 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r26 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r26 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r26 c17..87 bg=Surface|Hover|DiffRemovedTint
+r26 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r26 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r27 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r27 c16..17 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r27 c17..87 bg=Surface|Hover|DiffRemovedTint
+r27 c87..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r27 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r28 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r28 c16..88 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r28 c88..104 fg=Foreground bg=Background|DiffAddedTint
+r29 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r29 c16..55 fg=Attention bg=Surface|Hover|DiffRemovedTint
+r29 c55..88 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r29 c88..104 fg=Foreground bg=Background|DiffAddedTint
+
+== light-256
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c0..16 fg=Foreground
+r0 c16..29 fg=Foreground bold
+r0 c29..104 fg=Foreground
+r1 c0..104 fg=Foreground
+r2 c0..16 fg=Foreground
+r2 c16..88 fg=Primary
+r2 c88..104 fg=Foreground
+r3 c0..16 fg=Foreground
+r3 c16..17 fg=Primary
+r3 c87..88 fg=Primary
+r3 c88..104 fg=Foreground
+r4 c0..16 fg=Foreground
+r4 c16..17 fg=Primary
+r4 c18..45 fg=Foreground bold
+r4 c87..88 fg=Primary
+r4 c88..104 fg=Foreground
+r5 c0..16 fg=Foreground
+r5 c16..17 fg=Primary
+r5 c87..88 fg=Primary
+r5 c88..104 fg=Foreground
+r6 c0..16 fg=Foreground
+r6 c16..17 fg=Primary
+r6 c18..31 fg=Muted|Hint|Dim
+r6 c31..39 fg=Foreground bold
+r6 c87..88 fg=Primary
+r6 c88..104 fg=Foreground
+r7 c0..16 fg=Foreground
+r7 c16..17 fg=Primary
+r7 c18..20 fg=Primary bold
+r7 c20..36 fg=Foreground bold
+r7 c87..88 fg=Primary
+r7 c88..104 fg=Foreground
+r8 c0..16 fg=Foreground
+r8 c16..17 fg=Primary
+r8 c18..37 fg=Muted|Hint|Dim
+r8 c87..88 fg=Primary
+r8 c88..104 fg=Foreground
+r9 c0..16 fg=Foreground
+r9 c16..17 fg=Primary
+r9 c18..21 fg=Muted|Hint|Dim
+r9 c21..38 fg=Foreground
+r9 c87..88 fg=Primary
+r9 c88..104 fg=Foreground
+r10 c0..16 fg=Foreground
+r10 c16..17 fg=Primary
+r10 c18..24 fg=Attention bold
+r10 c24..65 fg=Foreground
+r10 c87..88 fg=Primary
+r10 c88..104 fg=Foreground
+r11 c0..16 fg=Foreground
+r11 c16..17 fg=Primary
+r11 c87..88 fg=Primary
+r11 c88..104 fg=Foreground
+r12 c0..16 fg=Foreground
+r12 c16..17 fg=Primary
+r12 c18..19 fg=Primary bold
+r12 c19..20 fg=Foreground
+r12 c20..21 fg=Foreground bold
+r12 c21..32 fg=Foreground
+r12 c32..35 fg=Border
+r12 c35..36 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r12 c36..37 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c37..38 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r12 c38..39 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c39..51 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r12 c87..88 fg=Primary
+r12 c88..104 fg=Foreground
+r13 c0..16 fg=Foreground
+r13 c16..17 fg=Primary
+r13 c87..88 fg=Primary
+r13 c88..104 fg=Foreground
+r14 c0..16 fg=Foreground
+r14 c16..17 fg=Primary
+r14 c18..20 fg=Foreground bold
+r14 c21..25 fg=Muted|Hint|Dim
+r14 c25..28 fg=Border
+r14 c28..33 fg=Foreground bold
+r14 c34..40 fg=Muted|Hint|Dim
+r14 c40..43 fg=Border
+r14 c43..46 fg=Foreground bold
+r14 c47..53 fg=Muted|Hint|Dim
+r14 c87..88 fg=Primary
+r14 c88..104 fg=Foreground
+r15 c0..16 fg=Foreground
+r15 c16..17 fg=Primary
+r15 c87..88 fg=Primary
+r15 c88..104 fg=Foreground
+r16 c0..16 fg=Foreground
+r16 c16..17 fg=Primary
+r16 c87..88 fg=Primary
+r16 c88..104 fg=Foreground
+r17 c0..16 fg=Foreground
+r17 c16..17 fg=Primary
+r17 c87..88 fg=Primary
+r17 c88..104 fg=Foreground
+r18 c0..16 fg=Foreground
+r18 c16..17 fg=Primary
+r18 c87..88 fg=Primary
+r18 c88..104 fg=Foreground
+r19 c0..16 fg=Foreground
+r19 c16..17 fg=Primary
+r19 c87..88 fg=Primary
+r19 c88..104 fg=Foreground
+r20 c0..16 fg=Foreground
+r20 c16..17 fg=Primary
+r20 c87..88 fg=Primary
+r20 c88..104 fg=Foreground
+r21 c0..16 fg=Foreground
+r21 c16..17 fg=Primary
+r21 c87..88 fg=Primary
+r21 c88..104 fg=Foreground
+r22 c0..16 fg=Foreground
+r22 c16..17 fg=Primary
+r22 c87..88 fg=Primary
+r22 c88..104 fg=Foreground
+r23 c0..16 fg=Foreground
+r23 c16..17 fg=Primary
+r23 c87..88 fg=Primary
+r23 c88..104 fg=Foreground
+r24 c0..16 fg=Foreground
+r24 c16..17 fg=Primary
+r24 c87..88 fg=Primary
+r24 c88..104 fg=Foreground
+r25 c0..16 fg=Foreground
+r25 c16..17 fg=Primary
+r25 c87..88 fg=Primary
+r25 c88..104 fg=Foreground
+r26 c0..16 fg=Foreground
+r26 c16..17 fg=Primary
+r26 c87..88 fg=Primary
+r26 c88..104 fg=Foreground
+r27 c0..16 fg=Foreground
+r27 c16..17 fg=Primary
+r27 c87..88 fg=Primary
+r27 c88..104 fg=Foreground
+r28 c0..16 fg=Foreground
+r28 c16..88 fg=Primary
+r28 c88..104 fg=Foreground
+r29 c0..16 fg=Foreground
+r29 c16..55 fg=Attention
+r29 c55..104 fg=Foreground
+
+== ansi-16
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c16..29 bold
+r2 c16..88 fg=Primary
+r3 c16..17 fg=Primary
+r3 c87..88 fg=Primary
+r4 c16..17 fg=Primary
+r4 c18..45 bold
+r4 c87..88 fg=Primary
+r5 c16..17 fg=Primary
+r5 c87..88 fg=Primary
+r6 c16..17 fg=Primary
+r6 c18..31 dim
+r6 c31..39 bold
+r6 c87..88 fg=Primary
+r7 c16..17 fg=Primary
+r7 c18..20 fg=Primary bold
+r7 c20..36 bold
+r7 c87..88 fg=Primary
+r8 c16..17 fg=Primary
+r8 c18..37 dim
+r8 c87..88 fg=Primary
+r9 c16..17 fg=Primary
+r9 c18..21 dim
+r9 c87..88 fg=Primary
+r10 c16..17 fg=Primary
+r10 c18..24 fg=Attention bold
+r10 c87..88 fg=Primary
+r11 c16..17 fg=Primary
+r11 c87..88 fg=Primary
+r12 c16..17 fg=Primary
+r12 c18..19 fg=Primary bold
+r12 c20..21 bold
+r12 c32..35 dim
+r12 c35..36 fg=Primary bold
+r12 c37..38 bold
+r12 c39..51 bold
+r12 c87..88 fg=Primary
+r13 c16..17 fg=Primary
+r13 c87..88 fg=Primary
+r14 c16..17 fg=Primary
+r14 c18..20 bold
+r14 c21..28 dim
+r14 c28..33 bold
+r14 c34..43 dim
+r14 c43..46 bold
+r14 c47..53 dim
+r14 c87..88 fg=Primary
+r15 c16..17 fg=Primary
+r15 c87..88 fg=Primary
+r16 c16..17 fg=Primary
+r16 c87..88 fg=Primary
+r17 c16..17 fg=Primary
+r17 c87..88 fg=Primary
+r18 c16..17 fg=Primary
+r18 c87..88 fg=Primary
+r19 c16..17 fg=Primary
+r19 c87..88 fg=Primary
+r20 c16..17 fg=Primary
+r20 c87..88 fg=Primary
+r21 c16..17 fg=Primary
+r21 c87..88 fg=Primary
+r22 c16..17 fg=Primary
+r22 c87..88 fg=Primary
+r23 c16..17 fg=Primary
+r23 c87..88 fg=Primary
+r24 c16..17 fg=Primary
+r24 c87..88 fg=Primary
+r25 c16..17 fg=Primary
+r25 c87..88 fg=Primary
+r26 c16..17 fg=Primary
+r26 c87..88 fg=Primary
+r27 c16..17 fg=Primary
+r27 c87..88 fg=Primary
+r28 c16..88 fg=Primary
+r29 c16..55 fg=Attention
+
+== unknown-ground
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c16..29 bold
+r2 c16..88 fg=Primary
+r3 c16..17 fg=Primary
+r3 c87..88 fg=Primary
+r4 c16..17 fg=Primary
+r4 c18..45 bold
+r4 c87..88 fg=Primary
+r5 c16..17 fg=Primary
+r5 c87..88 fg=Primary
+r6 c16..17 fg=Primary
+r6 c18..31 dim
+r6 c31..39 bold
+r6 c87..88 fg=Primary
+r7 c16..17 fg=Primary
+r7 c18..20 fg=Primary bold
+r7 c20..36 bold
+r7 c87..88 fg=Primary
+r8 c16..17 fg=Primary
+r8 c18..37 dim
+r8 c87..88 fg=Primary
+r9 c16..17 fg=Primary
+r9 c18..21 dim
+r9 c87..88 fg=Primary
+r10 c16..17 fg=Primary
+r10 c18..24 fg=Attention bold
+r10 c87..88 fg=Primary
+r11 c16..17 fg=Primary
+r11 c87..88 fg=Primary
+r12 c16..17 fg=Primary
+r12 c18..19 fg=Primary bold
+r12 c20..21 bold
+r12 c32..35 dim
+r12 c35..36 fg=Primary bold
+r12 c37..38 bold
+r12 c39..51 bold
+r12 c87..88 fg=Primary
+r13 c16..17 fg=Primary
+r13 c87..88 fg=Primary
+r14 c16..17 fg=Primary
+r14 c18..20 bold
+r14 c21..28 dim
+r14 c28..33 bold
+r14 c34..43 dim
+r14 c43..46 bold
+r14 c47..53 dim
+r14 c87..88 fg=Primary
+r15 c16..17 fg=Primary
+r15 c87..88 fg=Primary
+r16 c16..17 fg=Primary
+r16 c87..88 fg=Primary
+r17 c16..17 fg=Primary
+r17 c87..88 fg=Primary
+r18 c16..17 fg=Primary
+r18 c87..88 fg=Primary
+r19 c16..17 fg=Primary
+r19 c87..88 fg=Primary
+r20 c16..17 fg=Primary
+r20 c87..88 fg=Primary
+r21 c16..17 fg=Primary
+r21 c87..88 fg=Primary
+r22 c16..17 fg=Primary
+r22 c87..88 fg=Primary
+r23 c16..17 fg=Primary
+r23 c87..88 fg=Primary
+r24 c16..17 fg=Primary
+r24 c87..88 fg=Primary
+r25 c16..17 fg=Primary
+r25 c87..88 fg=Primary
+r26 c16..17 fg=Primary
+r26 c87..88 fg=Primary
+r27 c16..17 fg=Primary
+r27 c87..88 fg=Primary
+r28 c16..88 fg=Primary
+r29 c16..55 fg=Attention
+
+== no-color
+                Run a command
+
+                ┌──────────────────────────────────────────────────────────────────────┐
+                │                                                                      │
+                │ ◆ Needs you · Run a command                                          │
+                │                                                                      │
+                │ Requested by Verifier                                                │
+                │ $ git diff --check                                                   │
+                │ Inside this project                                                  │
+                │ In codewhale-ratatui                                                 │
+                │ Risk: Checks whitespace in the current changes.                      │
+                │                                                                      │
+                │   y Allow once · ▸ n Keep waiting                                    │
+                │                                                                      │
+                │ ←→ move · Enter choose · Esc cancel                                  │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                │                                                                      │
+                └──────────────────────────────────────────────────────────────────────┘
+                y advance / n wait / Esc preserve draft
+---
+r0 c16..29 bold
+r4 c18..45 bold
+r6 c18..31 dim
+r6 c31..39 bold
+r7 c18..36 bold
+r8 c18..37 dim
+r9 c18..21 dim
+r10 c18..24 bold
+r12 c18..19 bold
+r12 c20..21 bold
+r12 c32..35 dim
+r12 c35..36 bold
+r12 c37..38 bold
+r12 c39..51 bold
+r14 c18..20 bold
+r14 c21..28 dim
+r14 c28..33 bold
+r14 c34..43 dim
+r14 c43..46 bold
+r14 c47..53 dim
+
+== ascii
+                Run a command
+
+                +----------------------------------------------------------------------+
+                |                                                                      |
+                | * Needs you - Run a command                                          |
+                |                                                                      |
+                | Requested by Verifier                                                |
+                | $ git diff --check                                                   |
+                | Inside this project                                                  |
+                | In codewhale-ratatui                                                 |
+                | Risk: Checks whitespace in the current changes.                      |
+                |                                                                      |
+                |   y Allow once  > n Keep waiting                                     |
+                |                                                                      |
+                | Left/Right move  Enter choose  Esc cancel                            |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                |                                                                      |
+                +----------------------------------------------------------------------+
+                y advance / n wait / Esc preserve draft
+---
+r0 c16..29 bold
+r4 c18..45 bold
+r6 c18..31 dim
+r6 c31..39 bold
+r7 c18..36 bold
+r8 c18..37 dim
+r9 c18..21 dim
+r10 c18..24 bold
+r12 c18..19 bold
+r12 c20..21 bold
+r12 c34..35 bold
+r12 c36..37 bold
+r12 c38..50 bold
+r14 c18..28 bold
+r14 c29..33 dim
+r14 c35..40 bold
+r14 c41..47 dim
+r14 c49..52 bold
+r14 c53..59 dim

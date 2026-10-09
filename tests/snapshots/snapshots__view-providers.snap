@@ -1,0 +1,665 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..108 fg=Border bg=Background
+r1 c108..118 fg=Primary bg=Background underline
+r1 c118..119 fg=Border bg=Background
+r1 c119..120 bg=Background
+r2 c0..120 bg=Background
+r3 c0..2 bg=Background
+r3 c2..26 fg=Foreground bg=Selected bold
+r3 c26..51 bg=Background
+r3 c51..59 fg=Foreground bg=Background
+r3 c59..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..120 bg=Background
+r5 c0..2 bg=Background
+r5 c2..24 fg=Foreground bg=Background
+r5 c24..51 bg=Background
+r5 c51..60 fg=Muted bg=Background
+r5 c60..120 bg=Background
+r6 c0..51 bg=Background
+r6 c51..77 fg=Foreground bg=Background
+r6 c77..120 bg=Background
+r7 c0..51 bg=Background
+r7 c51..85 fg=Muted bg=Background
+r7 c85..120 bg=Background
+r8 c0..51 bg=Background
+r8 c51..74 fg=Muted bg=Background
+r8 c74..120 bg=Background
+r9 c0..120 bg=Background
+r10 c0..120 bg=Background
+r11 c0..120 bg=Background
+r12 c0..120 bg=Background
+r13 c0..120 bg=Background
+r14 c0..120 bg=Background
+r15 c0..120 bg=Background
+r16 c0..120 bg=Background
+r17 c0..120 bg=Background
+r18 c0..120 bg=Background
+r19 c0..120 bg=Background
+r20 c0..120 bg=Background
+r21 c0..120 bg=Background
+r22 c0..120 bg=Background
+r23 c0..120 bg=Background
+r24 c0..120 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..11 fg=Muted bg=Background
+r25 c11..12 bg=Background
+r25 c12..15 fg=Primary bg=Background bold
+r25 c15..21 fg=Muted bg=Background
+r25 c21..22 bg=Background
+r25 c22..29 fg=Primary bg=Background bold
+r25 c29..32 fg=Muted bg=Background
+r25 c32..33 bg=Background
+r25 c33..36 fg=Primary bg=Background bold
+r25 c36..46 fg=Muted bg=Background
+r25 c46..47 bg=Background
+r25 c47..50 fg=Primary bg=Background bold
+r25 c50..58 fg=Muted bg=Background
+r25 c58..59 bg=Background
+r25 c59..62 fg=Primary bg=Background bold
+r25 c62..68 fg=Muted bg=Background
+r25 c68..69 bg=Background
+r25 c69..74 fg=Primary bg=Background bold
+r25 c74..89 fg=Muted bg=Background
+r25 c89..90 bg=Background
+r25 c90..95 fg=Primary bg=Background bold
+r25 c95..101 fg=Muted bg=Background
+r25 c101..120 bg=Background
+r26 c0..1 bg=Background
+r26 c1..119 fg=Border bg=Background
+r26 c119..120 bg=Background
+r27 c0..120 bg=Background
+
+== dark-graphite
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..108 fg=Border bg=Background
+r1 c108..118 fg=Primary bg=Background underline
+r1 c118..119 fg=Border bg=Background
+r1 c119..120 bg=Background
+r2 c0..120 bg=Background
+r3 c0..2 bg=Background
+r3 c2..26 fg=Foreground bg=Selected bold
+r3 c26..51 bg=Background
+r3 c51..59 fg=Foreground bg=Background
+r3 c59..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..120 bg=Background
+r5 c0..2 bg=Background
+r5 c2..24 fg=Foreground bg=Background
+r5 c24..51 bg=Background
+r5 c51..60 fg=Muted bg=Background
+r5 c60..120 bg=Background
+r6 c0..51 bg=Background
+r6 c51..77 fg=Foreground bg=Background
+r6 c77..120 bg=Background
+r7 c0..51 bg=Background
+r7 c51..85 fg=Muted bg=Background
+r7 c85..120 bg=Background
+r8 c0..51 bg=Background
+r8 c51..74 fg=Muted bg=Background
+r8 c74..120 bg=Background
+r9 c0..120 bg=Background
+r10 c0..120 bg=Background
+r11 c0..120 bg=Background
+r12 c0..120 bg=Background
+r13 c0..120 bg=Background
+r14 c0..120 bg=Background
+r15 c0..120 bg=Background
+r16 c0..120 bg=Background
+r17 c0..120 bg=Background
+r18 c0..120 bg=Background
+r19 c0..120 bg=Background
+r20 c0..120 bg=Background
+r21 c0..120 bg=Background
+r22 c0..120 bg=Background
+r23 c0..120 bg=Background
+r24 c0..120 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..11 fg=Muted bg=Background
+r25 c11..12 bg=Background
+r25 c12..15 fg=Primary bg=Background bold
+r25 c15..21 fg=Muted bg=Background
+r25 c21..22 bg=Background
+r25 c22..29 fg=Primary bg=Background bold
+r25 c29..32 fg=Muted bg=Background
+r25 c32..33 bg=Background
+r25 c33..36 fg=Primary bg=Background bold
+r25 c36..46 fg=Muted bg=Background
+r25 c46..47 bg=Background
+r25 c47..50 fg=Primary bg=Background bold
+r25 c50..58 fg=Muted bg=Background
+r25 c58..59 bg=Background
+r25 c59..62 fg=Primary bg=Background bold
+r25 c62..68 fg=Muted bg=Background
+r25 c68..69 bg=Background
+r25 c69..74 fg=Primary bg=Background bold
+r25 c74..89 fg=Muted bg=Background
+r25 c89..90 bg=Background
+r25 c90..95 fg=Primary bg=Background bold
+r25 c95..101 fg=Muted bg=Background
+r25 c101..120 bg=Background
+r26 c0..1 bg=Background
+r26 c1..119 fg=Border bg=Background
+r26 c119..120 bg=Background
+r27 c0..120 bg=Background
+
+== light-truecolor
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..108 fg=Border
+r1 c108..118 fg=Primary underline
+r1 c118..119 fg=Border
+r3 c2..26 fg=Foreground bg=Selected bold
+r3 c51..59 fg=Foreground
+r4 c2..20 fg=Foreground
+r5 c2..24 fg=Foreground
+r5 c51..60 fg=Muted
+r6 c51..77 fg=Foreground
+r7 c51..85 fg=Muted
+r8 c51..74 fg=Muted
+r25 c2..7 fg=Primary bold
+r25 c7..11 fg=Muted
+r25 c12..15 fg=Primary bold
+r25 c15..21 fg=Muted
+r25 c22..29 fg=Primary bold
+r25 c29..32 fg=Muted
+r25 c33..36 fg=Primary bold
+r25 c36..46 fg=Muted
+r25 c47..50 fg=Primary bold
+r25 c50..58 fg=Muted
+r25 c59..62 fg=Primary bold
+r25 c62..68 fg=Muted
+r25 c69..74 fg=Primary bold
+r25 c74..89 fg=Muted
+r25 c90..95 fg=Primary bold
+r25 c95..101 fg=Muted
+r26 c1..119 fg=Border
+
+== dark-256
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r1 c11..108 fg=Border bg=Background|DiffAddedTint
+r1 c108..118 fg=Primary bg=Background|DiffAddedTint underline
+r1 c118..119 fg=Border bg=Background|DiffAddedTint
+r1 c119..120 bg=Background|DiffAddedTint
+r2 c0..120 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..26 fg=Foreground bg=Selected bold
+r3 c26..51 bg=Background|DiffAddedTint
+r3 c51..59 fg=Foreground bg=Background|DiffAddedTint
+r3 c59..120 bg=Background|DiffAddedTint
+r4 c0..2 bg=Background|DiffAddedTint
+r4 c2..20 fg=Foreground bg=Background|DiffAddedTint
+r4 c20..120 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..24 fg=Foreground bg=Background|DiffAddedTint
+r5 c24..51 bg=Background|DiffAddedTint
+r5 c51..60 fg=Muted bg=Background|DiffAddedTint
+r5 c60..120 bg=Background|DiffAddedTint
+r6 c0..51 bg=Background|DiffAddedTint
+r6 c51..77 fg=Foreground bg=Background|DiffAddedTint
+r6 c77..120 bg=Background|DiffAddedTint
+r7 c0..51 bg=Background|DiffAddedTint
+r7 c51..85 fg=Muted bg=Background|DiffAddedTint
+r7 c85..120 bg=Background|DiffAddedTint
+r8 c0..51 bg=Background|DiffAddedTint
+r8 c51..74 fg=Muted bg=Background|DiffAddedTint
+r8 c74..120 bg=Background|DiffAddedTint
+r9 c0..120 bg=Background|DiffAddedTint
+r10 c0..120 bg=Background|DiffAddedTint
+r11 c0..120 bg=Background|DiffAddedTint
+r12 c0..120 bg=Background|DiffAddedTint
+r13 c0..120 bg=Background|DiffAddedTint
+r14 c0..120 bg=Background|DiffAddedTint
+r15 c0..120 bg=Background|DiffAddedTint
+r16 c0..120 bg=Background|DiffAddedTint
+r17 c0..120 bg=Background|DiffAddedTint
+r18 c0..120 bg=Background|DiffAddedTint
+r19 c0..120 bg=Background|DiffAddedTint
+r20 c0..120 bg=Background|DiffAddedTint
+r21 c0..120 bg=Background|DiffAddedTint
+r22 c0..120 bg=Background|DiffAddedTint
+r23 c0..120 bg=Background|DiffAddedTint
+r24 c0..120 bg=Background|DiffAddedTint
+r25 c0..2 bg=Background|DiffAddedTint
+r25 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r25 c7..11 fg=Muted bg=Background|DiffAddedTint
+r25 c11..12 bg=Background|DiffAddedTint
+r25 c12..15 fg=Primary bg=Background|DiffAddedTint bold
+r25 c15..21 fg=Muted bg=Background|DiffAddedTint
+r25 c21..22 bg=Background|DiffAddedTint
+r25 c22..29 fg=Primary bg=Background|DiffAddedTint bold
+r25 c29..32 fg=Muted bg=Background|DiffAddedTint
+r25 c32..33 bg=Background|DiffAddedTint
+r25 c33..36 fg=Primary bg=Background|DiffAddedTint bold
+r25 c36..46 fg=Muted bg=Background|DiffAddedTint
+r25 c46..47 bg=Background|DiffAddedTint
+r25 c47..50 fg=Primary bg=Background|DiffAddedTint bold
+r25 c50..58 fg=Muted bg=Background|DiffAddedTint
+r25 c58..59 bg=Background|DiffAddedTint
+r25 c59..62 fg=Primary bg=Background|DiffAddedTint bold
+r25 c62..68 fg=Muted bg=Background|DiffAddedTint
+r25 c68..69 bg=Background|DiffAddedTint
+r25 c69..74 fg=Primary bg=Background|DiffAddedTint bold
+r25 c74..89 fg=Muted bg=Background|DiffAddedTint
+r25 c89..90 bg=Background|DiffAddedTint
+r25 c90..95 fg=Primary bg=Background|DiffAddedTint bold
+r25 c95..101 fg=Muted bg=Background|DiffAddedTint
+r25 c101..120 bg=Background|DiffAddedTint
+r26 c0..1 bg=Background|DiffAddedTint
+r26 c1..119 fg=Border bg=Background|DiffAddedTint
+r26 c119..120 bg=Background|DiffAddedTint
+r27 c0..120 bg=Background|DiffAddedTint
+
+== light-256
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..108 fg=Border
+r1 c108..118 fg=Primary underline
+r1 c118..119 fg=Border
+r3 c2..26 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r3 c51..59 fg=Foreground
+r4 c2..20 fg=Foreground
+r5 c2..24 fg=Foreground
+r5 c51..60 fg=Muted|Hint|Dim
+r6 c51..77 fg=Foreground
+r7 c51..85 fg=Muted|Hint|Dim
+r8 c51..74 fg=Muted|Hint|Dim
+r25 c2..7 fg=Primary bold
+r25 c7..11 fg=Muted|Hint|Dim
+r25 c12..15 fg=Primary bold
+r25 c15..21 fg=Muted|Hint|Dim
+r25 c22..29 fg=Primary bold
+r25 c29..32 fg=Muted|Hint|Dim
+r25 c33..36 fg=Primary bold
+r25 c36..46 fg=Muted|Hint|Dim
+r25 c47..50 fg=Primary bold
+r25 c50..58 fg=Muted|Hint|Dim
+r25 c59..62 fg=Primary bold
+r25 c62..68 fg=Muted|Hint|Dim
+r25 c69..74 fg=Primary bold
+r25 c74..89 fg=Muted|Hint|Dim
+r25 c90..95 fg=Primary bold
+r25 c95..101 fg=Muted|Hint|Dim
+r26 c1..119 fg=Border
+
+== ansi-16
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..108 dim
+r1 c108..118 fg=Primary dim underline
+r1 c118..119 dim
+r3 c2..26 bold
+r5 c51..60 dim
+r7 c51..85 dim
+r8 c51..74 dim
+r25 c2..7 fg=Primary bold
+r25 c7..11 dim
+r25 c12..15 fg=Primary bold
+r25 c15..21 dim
+r25 c22..29 fg=Primary bold
+r25 c29..32 dim
+r25 c33..36 fg=Primary bold
+r25 c36..46 dim
+r25 c47..50 fg=Primary bold
+r25 c50..58 dim
+r25 c59..62 fg=Primary bold
+r25 c62..68 dim
+r25 c69..74 fg=Primary bold
+r25 c74..89 dim
+r25 c90..95 fg=Primary bold
+r25 c95..101 dim
+r26 c1..119 dim
+
+== unknown-ground
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..108 dim
+r1 c108..118 fg=Primary dim underline
+r1 c118..119 dim
+r3 c2..26 bold
+r5 c51..60 dim
+r7 c51..85 dim
+r8 c51..74 dim
+r25 c2..7 fg=Primary bold
+r25 c7..11 dim
+r25 c12..15 fg=Primary bold
+r25 c15..21 dim
+r25 c22..29 fg=Primary bold
+r25 c29..32 dim
+r25 c33..36 fg=Primary bold
+r25 c36..46 dim
+r25 c47..50 fg=Primary bold
+r25 c50..58 dim
+r25 c59..62 fg=Primary bold
+r25 c62..68 dim
+r25 c69..74 fg=Primary bold
+r25 c74..89 dim
+r25 c90..95 fg=Primary bold
+r25 c95..101 dim
+r26 c1..119 dim
+
+== no-color
+
+  Provider ─────────────────────────────────────────────────────────────────────────────────────────────────browse all─
+
+   ▸ DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 · saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 bold dim
+r1 c11..108 dim
+r1 c108..118 dim underline
+r1 c118..119 dim
+r3 c2..26 bold
+r5 c51..60 dim
+r7 c51..85 dim
+r8 c51..74 dim
+r25 c2..7 bold
+r25 c7..11 dim
+r25 c12..15 bold
+r25 c15..21 dim
+r25 c22..29 bold
+r25 c29..32 dim
+r25 c33..36 bold
+r25 c36..46 dim
+r25 c47..50 bold
+r25 c50..58 dim
+r25 c59..62 bold
+r25 c62..68 dim
+r25 c69..74 bold
+r25 c74..89 dim
+r25 c90..95 bold
+r25 c95..101 dim
+r26 c1..119 dim
+
+== ascii
+
+  Provider -------------------------------------------------------------------------------------------------browse all-
+
+   > DeepSeek *  key saved                         DeepSeek
+     Ollama    local
+     OpenAI    key saved                           key saved
+                                                   Model: deepseek-v4 . saved
+                                                   Endpoint: https://api.deepseek.com
+                                                   Credential: environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Up/Dn move  / search  Enter use  A browse all  R edit key  M models  C-t test connection  Esc cancel
+ ----------------------------------------------------------------------------------------------------------------------
+
+---
+r1 c1..11 bold dim
+r1 c11..108 dim
+r1 c108..118 dim underline
+r1 c118..119 dim
+r3 c2..26 bold
+r5 c51..60 dim
+r7 c51..85 dim
+r8 c51..74 dim
+r25 c2..9 bold
+r25 c9..13 dim
+r25 c14..17 bold
+r25 c17..23 dim
+r25 c24..31 bold
+r25 c31..34 dim
+r25 c35..38 bold
+r25 c38..48 dim
+r25 c49..52 bold
+r25 c52..60 dim
+r25 c61..64 bold
+r25 c64..70 dim
+r25 c71..76 bold
+r25 c76..91 dim
+r25 c92..97 bold
+r25 c97..103 dim
+r26 c1..119 dim

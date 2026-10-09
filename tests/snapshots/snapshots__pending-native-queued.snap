@@ -1,0 +1,76 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 fg=Dim bg=Background dim italic
+r0 c39..40 bg=Background
+r1 c0..39 fg=Dim bg=Background dim
+r1 c39..40 bg=Background
+
+== dark-graphite
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 fg=Dim bg=Background dim italic
+r0 c39..40 bg=Background
+r1 c0..39 fg=Dim bg=Background dim
+r1 c39..40 bg=Background
+
+== light-truecolor
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 fg=Dim bg=Background dim italic
+r0 c39..40 bg=Background
+r1 c0..39 fg=Dim bg=Background dim
+r1 c39..40 bg=Background
+
+== dark-256
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 fg=Dim bg=Background dim italic
+r0 c39..40 bg=Background
+r1 c0..39 fg=Dim bg=Background dim
+r1 c39..40 bg=Background
+
+== light-256
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 fg=Dim bg=Background|Surface dim italic
+r0 c39..40 bg=Background|Surface
+r1 c0..39 fg=Dim bg=Background|Surface dim
+r1 c39..40 bg=Background|Surface
+
+== ansi-16
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 dim italic
+r1 c0..39 dim
+
+== unknown-ground
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 dim italic
+r1 c0..39 dim
+
+== no-color
+Queued 2; next: Check the narrow layout
+Enter send now · ↑ edit · /queue drop 1
+---
+r0 c0..39 dim italic
+r1 c0..39 dim
+
+== ascii
+Queued 2; next: Check the narrow layout
+Enter send now . ^ edit . /queue drop 1
+---
+r0 c0..39 dim italic
+r1 c0..39 dim

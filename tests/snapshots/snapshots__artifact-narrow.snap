@@ -1,0 +1,246 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c0..2 bg=Background
+r0 c2..31 fg=Foreground bg=Background
+r0 c31..34 bg=Background
+r0 c34..40 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Attention bg=Background
+r1 c3..4 bg=Background
+r1 c4..13 fg=Foreground bg=Background
+r1 c13..16 fg=Dim bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..25 fg=Dim bg=Background
+r1 c25..39 fg=Muted bg=Background
+r1 c39..40 fg=Hint bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..23 fg=Foreground bg=Selected bold
+r2 c23..33 bg=Selected
+r2 c33..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..22 fg=Foreground bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..28 fg=Muted bg=Selected
+r3 c28..31 fg=Dim bg=Selected
+r3 c31..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..27 fg=Hint bg=Background
+r4 c27..40 bg=Background
+
+== dark-graphite
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c0..2 bg=Background
+r0 c2..31 fg=Foreground bg=Background
+r0 c31..34 bg=Background
+r0 c34..40 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Attention bg=Background
+r1 c3..4 bg=Background
+r1 c4..13 fg=Foreground bg=Background
+r1 c13..16 fg=Dim bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..25 fg=Dim bg=Background
+r1 c25..39 fg=Muted bg=Background
+r1 c39..40 fg=Hint bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..23 fg=Foreground bg=Selected bold
+r2 c23..33 bg=Selected
+r2 c33..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..22 fg=Foreground bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..28 fg=Muted bg=Selected
+r3 c28..31 fg=Dim bg=Selected
+r3 c31..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..27 fg=Hint bg=Background
+r4 c27..40 bg=Background
+
+== light-truecolor
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c0..2 bg=Background
+r0 c2..31 fg=Foreground bg=Background
+r0 c31..34 bg=Background
+r0 c34..40 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Attention bg=Background
+r1 c3..4 bg=Background
+r1 c4..13 fg=Foreground bg=Background
+r1 c13..16 fg=Dim bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..25 fg=Dim bg=Background
+r1 c25..39 fg=Muted bg=Background
+r1 c39..40 fg=Hint bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..23 fg=Foreground bg=Selected bold
+r2 c23..33 bg=Selected
+r2 c33..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..22 fg=Foreground bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..28 fg=Muted bg=Selected
+r3 c28..31 fg=Dim bg=Selected
+r3 c31..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..27 fg=Hint bg=Background
+r4 c27..40 bg=Background
+
+== dark-256
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c0..2 bg=Background
+r0 c2..31 fg=Foreground bg=Background
+r0 c31..34 bg=Background
+r0 c34..40 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Attention bg=Background
+r1 c3..4 bg=Background
+r1 c4..13 fg=Foreground bg=Background
+r1 c13..16 fg=Dim bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..25 fg=Dim bg=Background
+r1 c25..39 fg=Muted bg=Background
+r1 c39..40 fg=Hint bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..23 fg=Foreground bg=Selected bold
+r2 c23..33 bg=Selected
+r2 c33..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..22 fg=Foreground bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..28 fg=Muted bg=Selected
+r3 c28..31 fg=Dim bg=Selected
+r3 c31..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..27 fg=Hint bg=Background
+r4 c27..40 bg=Background
+
+== light-256
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..31 fg=Foreground bg=Background|Surface
+r0 c31..34 bg=Background|Surface
+r0 c34..40 fg=Primary bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..3 fg=Attention bg=Background|Surface
+r1 c3..4 bg=Background|Surface
+r1 c4..13 fg=Foreground bg=Background|Surface
+r1 c13..16 fg=Dim bg=Background|Surface
+r1 c16..22 fg=Muted bg=Background|Surface
+r1 c22..25 fg=Dim bg=Background|Surface
+r1 c25..39 fg=Muted bg=Background|Surface
+r1 c39..40 fg=Hint bg=Background|Surface
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..23 fg=Foreground bg=Selected bold
+r2 c23..33 bg=Selected
+r2 c33..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..22 fg=Foreground bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..28 fg=Muted bg=Selected
+r3 c28..31 fg=Dim bg=Selected
+r3 c31..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..27 fg=Hint bg=Background|Surface
+r4 c27..40 bg=Background|Surface
+
+== ansi-16
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c34..40 fg=Primary
+r1 c2..3 fg=Attention
+r1 c13..40 dim
+r2 c0..1 fg=Primary
+r2 c2..23 bold
+r2 c33..40 fg=Primary
+r3 c2..3 fg=Attention
+r3 c22..40 dim
+r4 c0..27 dim
+
+== unknown-ground
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r0 c34..40 fg=Primary
+r1 c2..3 fg=Attention
+r1 c13..40 dim
+r2 c0..1 fg=Primary
+r2 c2..23 bold
+r2 c33..40 fg=Primary
+r3 c2..3 fg=Attention
+r3 c22..40 dim
+r4 c0..27 dim
+
+== no-color
+  Changes still need a decision   Review
+  ◆ Needs you · Review · A long caller-…
+▸ Verification has gaps          Inspect
+  ◆ Finished with gaps · Run · One chec…
+2 artifacts not fully shown
+---
+r1 c13..40 dim
+r2 c2..23 bold
+r3 c22..40 dim
+r4 c0..27 dim
+
+== ascii
+  Changes still need a decision   Review
+  * Needs you . Review . A long calle...
+> Verification has gaps          Inspect
+  * Finished with gaps . Run . One ch...
+2 artifacts not fully shown
+---
+r1 c13..40 dim
+r2 c2..23 bold
+r3 c22..40 dim
+r4 c0..27 dim

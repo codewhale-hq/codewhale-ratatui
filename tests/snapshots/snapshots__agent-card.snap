@@ -1,0 +1,314 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ◆ Terminal review  Needs you  48s
+ Reviewer / Local / caller-selected model
+ ▏ Choose translated state words.
+ ▏ Keep the preview aligned with the host's locale.
+
+
+
+
+---
+r0 c0..1 bg=Surface
+r0 c1..2 fg=Attention bg=Surface
+r0 c2..3 bg=Surface
+r0 c3..18 fg=Foreground bg=Surface bold
+r0 c18..20 bg=Surface
+r0 c20..29 fg=Attention bg=Surface
+r0 c29..31 bg=Surface
+r0 c31..34 fg=Muted bg=Surface
+r0 c34..64 bg=Surface
+r1 c0..1 bg=Surface
+r1 c1..41 fg=Muted bg=Surface
+r1 c41..64 bg=Surface
+r2 c0..1 bg=Surface
+r2 c1..3 fg=Border bg=Surface
+r2 c3..33 fg=Foreground bg=Surface
+r2 c33..64 bg=Surface
+r3 c0..1 bg=Surface
+r3 c1..3 fg=Border bg=Surface
+r3 c3..51 fg=Foreground bg=Surface
+r3 c51..64 bg=Surface
+r4 c0..64 bg=Surface
+r5 c0..64 bg=Surface
+r6 c0..64 bg=Surface
+r7 c0..64 bg=Surface
+
+== dark-graphite
+ ◆ Terminal review  Needs you  48s
+ Reviewer / Local / caller-selected model
+ ▏ Choose translated state words.
+ ▏ Keep the preview aligned with the host's locale.
+
+
+
+
+---
+r0 c0..1 bg=Surface
+r0 c1..2 fg=Attention bg=Surface
+r0 c2..3 bg=Surface
+r0 c3..18 fg=Foreground bg=Surface bold
+r0 c18..20 bg=Surface
+r0 c20..29 fg=Attention bg=Surface
+r0 c29..31 bg=Surface
+r0 c31..34 fg=Muted bg=Surface
+r0 c34..64 bg=Surface
+r1 c0..1 bg=Surface
+r1 c1..41 fg=Muted bg=Surface
+r1 c41..64 bg=Surface
+r2 c0..1 bg=Surface
+r2 c1..3 fg=Border bg=Surface
+r2 c3..33 fg=Foreground bg=Surface
+r2 c33..64 bg=Surface
+r3 c0..1 bg=Surface
+r3 c1..3 fg=Border bg=Surface
+r3 c3..51 fg=Foreground bg=Surface
+r3 c51..64 bg=Surface
+r4 c0..64 bg=Surface
+r5 c0..64 bg=Surface
+r6 c0..64 bg=Surface
+r7 c0..64 bg=Surface
+
+== light-truecolor
+ ◆ Terminal review  Needs you  48s
+ Reviewer / Local / caller-selected model
+ ▏ Choose translated state words.
+ ▏ Keep the preview aligned with the host's locale.
+
+
+
+
+---
+r0 c0..1 bg=Surface
+r0 c1..2 fg=Attention bg=Surface
+r0 c2..3 bg=Surface
+r0 c3..18 fg=Foreground bg=Surface bold
+r0 c18..20 bg=Surface
+r0 c20..29 fg=Attention bg=Surface
+r0 c29..31 bg=Surface
+r0 c31..34 fg=Muted bg=Surface
+r0 c34..64 bg=Surface
+r1 c0..1 bg=Surface
+r1 c1..41 fg=Muted bg=Surface
+r1 c41..64 bg=Surface
+r2 c0..1 bg=Surface
+r2 c1..3 fg=Border bg=Surface
+r2 c3..33 fg=Foreground bg=Surface
+r2 c33..64 bg=Surface
+r3 c0..1 bg=Surface
+r3 c1..3 fg=Border bg=Surface
+r3 c3..51 fg=Foreground bg=Surface
+r3 c51..64 bg=Surface
+r4 c0..64 bg=Surface
+r5 c0..64 bg=Surface
+r6 c0..64 bg=Surface
+r7 c0..64 bg=Surface
+
+== dark-256
+ ◆ Terminal review  Needs you  48s
+ Reviewer / Local / caller-selected model
+ ▏ Choose translated state words.
+ ▏ Keep the preview aligned with the host's locale.
+
+
+
+
+---
+r0 c0..1 bg=Surface|Hover
+r0 c1..2 fg=Attention bg=Surface|Hover
+r0 c2..3 bg=Surface|Hover
+r0 c3..18 fg=Foreground bg=Surface|Hover bold
+r0 c18..20 bg=Surface|Hover
+r0 c20..29 fg=Attention bg=Surface|Hover
+r0 c29..31 bg=Surface|Hover
+r0 c31..34 fg=Muted bg=Surface|Hover
+r0 c34..64 bg=Surface|Hover
+r1 c0..1 bg=Surface|Hover
+r1 c1..41 fg=Muted bg=Surface|Hover
+r1 c41..64 bg=Surface|Hover
+r2 c0..1 bg=Surface|Hover
+r2 c1..3 fg=Border bg=Surface|Hover
+r2 c3..33 fg=Foreground bg=Surface|Hover
+r2 c33..64 bg=Surface|Hover
+r3 c0..1 bg=Surface|Hover
+r3 c1..3 fg=Border bg=Surface|Hover
+r3 c3..51 fg=Foreground bg=Surface|Hover
+r3 c51..64 bg=Surface|Hover
+r4 c0..64 bg=Surface|Hover
+r5 c0..64 bg=Surface|Hover
+r6 c0..64 bg=Surface|Hover
+r7 c0..64 bg=Surface|Hover
+
+== light-256
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│ ◆ Terminal review  Needs you  48s                            │
+│ Reviewer / Local / caller-selected model                     │
+│ ▏ Choose translated state words.                             │
+│ ▏ Keep the preview aligned with the host's locale.           │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+---
+r0 c0..64 fg=Border bg=Background|Surface
+r1 c0..1 fg=Border bg=Background|Surface
+r1 c1..63 bg=Background|Surface
+r1 c63..64 fg=Border bg=Background|Surface
+r2 c0..1 fg=Border bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..3 fg=Attention bg=Background|Surface
+r2 c3..4 bg=Background|Surface
+r2 c4..19 fg=Foreground bg=Background|Surface bold
+r2 c19..21 bg=Background|Surface
+r2 c21..30 fg=Attention bg=Background|Surface
+r2 c30..32 bg=Background|Surface
+r2 c32..35 fg=Muted bg=Background|Surface
+r2 c35..63 bg=Background|Surface
+r2 c63..64 fg=Border bg=Background|Surface
+r3 c0..1 fg=Border bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..42 fg=Muted bg=Background|Surface
+r3 c42..63 bg=Background|Surface
+r3 c63..64 fg=Border bg=Background|Surface
+r4 c0..1 fg=Border bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..4 fg=Border bg=Background|Surface
+r4 c4..34 fg=Foreground bg=Background|Surface
+r4 c34..63 bg=Background|Surface
+r4 c63..64 fg=Border bg=Background|Surface
+r5 c0..1 fg=Border bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..4 fg=Border bg=Background|Surface
+r5 c4..52 fg=Foreground bg=Background|Surface
+r5 c52..63 bg=Background|Surface
+r5 c63..64 fg=Border bg=Background|Surface
+r6 c0..1 fg=Border bg=Background|Surface
+r6 c1..63 bg=Background|Surface
+r6 c63..64 fg=Border bg=Background|Surface
+r7 c0..64 fg=Border bg=Background|Surface
+
+== ansi-16
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│ ◆ Terminal review  Needs you  48s                            │
+│ Reviewer / Local / caller-selected model                     │
+│ ▏ Choose translated state words.                             │
+│ ▏ Keep the preview aligned with the host's locale.           │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+---
+r0 c0..64 dim
+r1 c0..1 dim
+r1 c63..64 dim
+r2 c0..1 dim
+r2 c2..3 fg=Attention
+r2 c4..19 bold
+r2 c21..30 fg=Attention
+r2 c32..35 dim
+r2 c63..64 dim
+r3 c0..1 dim
+r3 c2..42 dim
+r3 c63..64 dim
+r4 c0..1 dim
+r4 c2..4 dim
+r4 c63..64 dim
+r5 c0..1 dim
+r5 c2..4 dim
+r5 c63..64 dim
+r6 c0..1 dim
+r6 c63..64 dim
+r7 c0..64 dim
+
+== unknown-ground
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│ ◆ Terminal review  Needs you  48s                            │
+│ Reviewer / Local / caller-selected model                     │
+│ ▏ Choose translated state words.                             │
+│ ▏ Keep the preview aligned with the host's locale.           │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+---
+r0 c0..64 dim
+r1 c0..1 dim
+r1 c63..64 dim
+r2 c0..1 dim
+r2 c2..3 fg=Attention
+r2 c4..19 bold
+r2 c21..30 fg=Attention
+r2 c32..35 dim
+r2 c63..64 dim
+r3 c0..1 dim
+r3 c2..42 dim
+r3 c63..64 dim
+r4 c0..1 dim
+r4 c2..4 dim
+r4 c63..64 dim
+r5 c0..1 dim
+r5 c2..4 dim
+r5 c63..64 dim
+r6 c0..1 dim
+r6 c63..64 dim
+r7 c0..64 dim
+
+== no-color
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│ ◆ Terminal review  Needs you  48s                            │
+│ Reviewer / Local / caller-selected model                     │
+│ ▏ Choose translated state words.                             │
+│ ▏ Keep the preview aligned with the host's locale.           │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+---
+r0 c0..64 dim
+r1 c0..1 dim
+r1 c63..64 dim
+r2 c0..1 dim
+r2 c4..19 bold
+r2 c32..35 dim
+r2 c63..64 dim
+r3 c0..1 dim
+r3 c2..42 dim
+r3 c63..64 dim
+r4 c0..1 dim
+r4 c2..4 dim
+r4 c63..64 dim
+r5 c0..1 dim
+r5 c2..4 dim
+r5 c63..64 dim
+r6 c0..1 dim
+r6 c63..64 dim
+r7 c0..64 dim
+
+== ascii
++--------------------------------------------------------------+
+|                                                              |
+| * Terminal review  Needs you  48s                            |
+| Reviewer / Local / caller-selected model                     |
+| | Choose translated state words.                             |
+| | Keep the preview aligned with the host's locale.           |
+|                                                              |
++--------------------------------------------------------------+
+---
+r0 c0..64 dim
+r1 c0..1 dim
+r1 c63..64 dim
+r2 c0..1 dim
+r2 c4..19 bold
+r2 c32..35 dim
+r2 c63..64 dim
+r3 c0..1 dim
+r3 c2..42 dim
+r3 c63..64 dim
+r4 c0..1 dim
+r4 c2..4 dim
+r4 c63..64 dim
+r5 c0..1 dim
+r5 c2..4 dim
+r5 c63..64 dim
+r6 c0..1 dim
+r6 c63..64 dim
+r7 c0..64 dim

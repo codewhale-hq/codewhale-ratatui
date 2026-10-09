@@ -1,0 +1,165 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..13 fg=Border bg=Background
+r0 c13..16 fg=Muted bg=Background
+r0 c16..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..30 fg=Foreground bg=Background
+r1 c30..33 fg=Border bg=Background
+r1 c33..36 fg=Muted bg=Background
+r1 c36..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..28 fg=Foreground bg=Background
+r2 c28..31 fg=Border bg=Background
+r2 c31..34 fg=Muted bg=Background
+r2 c34..40 bg=Background
+
+== dark-graphite
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..13 fg=Border bg=Background
+r0 c13..16 fg=Muted bg=Background
+r0 c16..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..30 fg=Foreground bg=Background
+r1 c30..33 fg=Border bg=Background
+r1 c33..36 fg=Muted bg=Background
+r1 c36..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..28 fg=Foreground bg=Background
+r2 c28..31 fg=Border bg=Background
+r2 c31..34 fg=Muted bg=Background
+r2 c34..40 bg=Background
+
+== light-truecolor
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..13 fg=Border bg=Background
+r0 c13..16 fg=Muted bg=Background
+r0 c16..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..30 fg=Foreground bg=Background
+r1 c30..33 fg=Border bg=Background
+r1 c33..36 fg=Muted bg=Background
+r1 c36..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..28 fg=Foreground bg=Background
+r2 c28..31 fg=Border bg=Background
+r2 c31..34 fg=Muted bg=Background
+r2 c34..40 bg=Background
+
+== dark-256
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..13 fg=Border bg=Background
+r0 c13..16 fg=Muted bg=Background
+r0 c16..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..30 fg=Foreground bg=Background
+r1 c30..33 fg=Border bg=Background
+r1 c33..36 fg=Muted bg=Background
+r1 c36..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..28 fg=Foreground bg=Background
+r2 c28..31 fg=Border bg=Background
+r2 c31..34 fg=Muted bg=Background
+r2 c34..40 bg=Background
+
+== light-256
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..10 fg=Foreground bg=Background|Surface
+r0 c10..13 fg=Border bg=Background|Surface
+r0 c13..16 fg=Muted bg=Background|Surface
+r0 c16..40 bg=Background|Surface
+r1 c0..1 fg=Live bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..30 fg=Foreground bg=Background|Surface
+r1 c30..33 fg=Border bg=Background|Surface
+r1 c33..36 fg=Muted bg=Background|Surface
+r1 c36..40 bg=Background|Surface
+r2 c0..1 fg=Live bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..28 fg=Foreground bg=Background|Surface
+r2 c28..31 fg=Border bg=Background|Surface
+r2 c31..34 fg=Muted bg=Background|Surface
+r2 c34..40 bg=Background|Surface
+
+== ansi-16
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live
+r0 c10..16 dim
+r1 c0..1 fg=Live
+r1 c30..36 dim
+r2 c0..1 fg=Live
+r2 c28..34 dim
+
+== unknown-ground
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c0..1 fg=Live
+r0 c10..16 dim
+r1 c0..1 fg=Live
+r1 c30..36 dim
+r2 c0..1 fg=Live
+r2 c28..34 dim
+
+== no-color
+⠴ Checking · 3 s
+● Checking with reduced motion · 3 s
+● Checking with still motion · 3 s
+---
+r0 c10..16 dim
+r1 c30..36 dim
+r2 c28..34 dim
+
+== ascii
+\ Checking - 3 s
+. Checking with reduced motion - 3 s
+. Checking with still motion - 3 s
+---
+r0 c10..16 dim
+r1 c30..36 dim
+r2 c28..34 dim

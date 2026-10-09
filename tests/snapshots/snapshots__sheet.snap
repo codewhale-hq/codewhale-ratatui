@@ -1,0 +1,461 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+ Settings                                                             3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..26 fg=Muted bg=Background
+r1 c26..80 bg=Background
+r2 c0..36 fg=Muted bg=Background
+r2 c36..80 bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..70 bg=Surface
+r3 c70..79 fg=Muted bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..80 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..79 fg=Foreground bg=Surface
+r5 c79..80 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..79 fg=Foreground bg=Surface
+r6 c79..80 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..79 fg=Foreground bg=Surface
+r7 c79..80 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..79 fg=Foreground bg=Surface
+r8 c79..80 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..79 fg=Foreground bg=Surface
+r9 c79..80 bg=Surface
+r10 c0..80 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..80 bg=Surface
+
+== dark-graphite
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+ Settings                                                             3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..26 fg=Muted bg=Background
+r1 c26..80 bg=Background
+r2 c0..36 fg=Muted bg=Background
+r2 c36..80 bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..70 bg=Surface
+r3 c70..79 fg=Muted bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..80 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..79 fg=Foreground bg=Surface
+r5 c79..80 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..79 fg=Foreground bg=Surface
+r6 c79..80 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..79 fg=Foreground bg=Surface
+r7 c79..80 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..79 fg=Foreground bg=Surface
+r8 c79..80 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..79 fg=Foreground bg=Surface
+r9 c79..80 bg=Surface
+r10 c0..80 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..80 bg=Surface
+
+== light-truecolor
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+ Settings                                                             3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..26 fg=Muted bg=Background
+r1 c26..80 bg=Background
+r2 c0..36 fg=Muted bg=Background
+r2 c36..80 bg=Background
+r3 c0..1 bg=Surface
+r3 c1..9 fg=Foreground bg=Surface bold
+r3 c9..70 bg=Surface
+r3 c70..79 fg=Muted bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..80 bg=Surface
+r5 c0..1 bg=Surface
+r5 c1..79 fg=Foreground bg=Surface
+r5 c79..80 bg=Surface
+r6 c0..1 bg=Surface
+r6 c1..79 fg=Foreground bg=Surface
+r6 c79..80 bg=Surface
+r7 c0..1 bg=Surface
+r7 c1..79 fg=Foreground bg=Surface
+r7 c79..80 bg=Surface
+r8 c0..1 bg=Surface
+r8 c1..79 fg=Foreground bg=Surface
+r8 c79..80 bg=Surface
+r9 c0..1 bg=Surface
+r9 c1..79 fg=Foreground bg=Surface
+r9 c79..80 bg=Surface
+r10 c0..80 bg=Surface
+r11 c0..1 bg=Surface
+r11 c1..3 fg=Foreground bg=Surface bold
+r11 c3..4 bg=Surface
+r11 c4..8 fg=Muted bg=Surface
+r11 c8..11 fg=Border bg=Surface
+r11 c11..16 fg=Foreground bg=Surface bold
+r11 c16..17 bg=Surface
+r11 c17..23 fg=Muted bg=Surface
+r11 c23..26 fg=Border bg=Surface
+r11 c26..29 fg=Foreground bg=Surface bold
+r11 c29..30 bg=Surface
+r11 c30..35 fg=Muted bg=Surface
+r11 c35..80 bg=Surface
+
+== dark-256
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+ Settings                                                             3 changed
+
+ Theme       Shoreline
+ Motion      Reduced
+ Tool detail Collapsed
+
+
+
+ ↑↓ move · Enter change · Esc close
+---
+r0 c0..17 fg=Muted bg=Background
+r0 c17..80 bg=Background
+r1 c0..26 fg=Muted bg=Background
+r1 c26..80 bg=Background
+r2 c0..36 fg=Muted bg=Background
+r2 c36..80 bg=Background
+r3 c0..1 bg=Surface|Hover
+r3 c1..9 fg=Foreground bg=Surface|Hover bold
+r3 c9..70 bg=Surface|Hover
+r3 c70..79 fg=Muted bg=Surface|Hover
+r3 c79..80 bg=Surface|Hover
+r4 c0..80 bg=Surface|Hover
+r5 c0..1 bg=Surface|Hover
+r5 c1..79 fg=Foreground bg=Surface|Hover
+r5 c79..80 bg=Surface|Hover
+r6 c0..1 bg=Surface|Hover
+r6 c1..79 fg=Foreground bg=Surface|Hover
+r6 c79..80 bg=Surface|Hover
+r7 c0..1 bg=Surface|Hover
+r7 c1..79 fg=Foreground bg=Surface|Hover
+r7 c79..80 bg=Surface|Hover
+r8 c0..1 bg=Surface|Hover
+r8 c1..79 fg=Foreground bg=Surface|Hover
+r8 c79..80 bg=Surface|Hover
+r9 c0..1 bg=Surface|Hover
+r9 c1..79 fg=Foreground bg=Surface|Hover
+r9 c79..80 bg=Surface|Hover
+r10 c0..80 bg=Surface|Hover
+r11 c0..1 bg=Surface|Hover
+r11 c1..3 fg=Foreground bg=Surface|Hover bold
+r11 c3..4 bg=Surface|Hover
+r11 c4..8 fg=Muted bg=Surface|Hover
+r11 c8..11 fg=Border bg=Surface|Hover
+r11 c11..16 fg=Foreground bg=Surface|Hover bold
+r11 c16..17 bg=Surface|Hover
+r11 c17..23 fg=Muted bg=Surface|Hover
+r11 c23..26 fg=Border bg=Surface|Hover
+r11 c26..29 fg=Foreground bg=Surface|Hover bold
+r11 c29..30 bg=Surface|Hover
+r11 c30..35 fg=Muted bg=Surface|Hover
+r11 c35..80 bg=Surface|Hover
+
+== light-256
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ Settings                                                           3 changed │
+│ Theme       Shoreline                                                        │
+│ Motion      Reduced                                                          │
+│ Tool detail Collapsed                                                        │
+│ ↑↓ move · Enter change · Esc close                                           │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..17 fg=Muted bg=Background|Surface
+r0 c17..80 bg=Background|Surface
+r1 c0..26 fg=Muted bg=Background|Surface
+r1 c26..80 bg=Background|Surface
+r2 c0..36 fg=Muted bg=Background|Surface
+r2 c36..80 bg=Background|Surface
+r3 c0..80 fg=Border bg=Background|Surface
+r4 c0..1 fg=Border bg=Background|Surface
+r4 c1..79 bg=Background|Surface
+r4 c79..80 fg=Border bg=Background|Surface
+r5 c0..1 fg=Border bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..10 fg=Foreground bg=Background|Surface bold
+r5 c10..69 bg=Background|Surface
+r5 c69..78 fg=Muted bg=Background|Surface
+r5 c78..79 bg=Background|Surface
+r5 c79..80 fg=Border bg=Background|Surface
+r6 c0..1 fg=Border bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..78 fg=Foreground bg=Background|Surface
+r6 c78..79 bg=Background|Surface
+r6 c79..80 fg=Border bg=Background|Surface
+r7 c0..1 fg=Border bg=Background|Surface
+r7 c1..2 bg=Background|Surface
+r7 c2..78 fg=Foreground bg=Background|Surface
+r7 c78..79 bg=Background|Surface
+r7 c79..80 fg=Border bg=Background|Surface
+r8 c0..1 fg=Border bg=Background|Surface
+r8 c1..2 bg=Background|Surface
+r8 c2..78 fg=Foreground bg=Background|Surface
+r8 c78..79 bg=Background|Surface
+r8 c79..80 fg=Border bg=Background|Surface
+r9 c0..1 fg=Border bg=Background|Surface
+r9 c1..2 bg=Background|Surface
+r9 c2..4 fg=Foreground bg=Background|Surface bold
+r9 c4..5 bg=Background|Surface
+r9 c5..9 fg=Muted bg=Background|Surface
+r9 c9..12 fg=Border bg=Background|Surface
+r9 c12..17 fg=Foreground bg=Background|Surface bold
+r9 c17..18 bg=Background|Surface
+r9 c18..24 fg=Muted bg=Background|Surface
+r9 c24..27 fg=Border bg=Background|Surface
+r9 c27..30 fg=Foreground bg=Background|Surface bold
+r9 c30..31 bg=Background|Surface
+r9 c31..36 fg=Muted bg=Background|Surface
+r9 c36..79 bg=Background|Surface
+r9 c79..80 fg=Border bg=Background|Surface
+r10 c0..1 fg=Border bg=Background|Surface
+r10 c1..79 bg=Background|Surface
+r10 c79..80 fg=Border bg=Background|Surface
+r11 c0..80 fg=Border bg=Background|Surface
+
+== ansi-16
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ Settings                                                           3 changed │
+│ Theme       Shoreline                                                        │
+│ Motion      Reduced                                                          │
+│ Tool detail Collapsed                                                        │
+│ ↑↓ move · Enter change · Esc close                                           │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..17 dim
+r1 c0..26 dim
+r2 c0..36 dim
+r3 c0..80 dim
+r4 c0..1 dim
+r4 c79..80 dim
+r5 c0..1 dim
+r5 c2..10 bold
+r5 c69..78 dim
+r5 c79..80 dim
+r6 c0..1 dim
+r6 c79..80 dim
+r7 c0..1 dim
+r7 c79..80 dim
+r8 c0..1 dim
+r8 c79..80 dim
+r9 c0..1 dim
+r9 c2..4 bold
+r9 c5..12 dim
+r9 c12..17 bold
+r9 c18..27 dim
+r9 c27..30 bold
+r9 c31..36 dim
+r9 c79..80 dim
+r10 c0..1 dim
+r10 c79..80 dim
+r11 c0..80 dim
+
+== unknown-ground
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ Settings                                                           3 changed │
+│ Theme       Shoreline                                                        │
+│ Motion      Reduced                                                          │
+│ Tool detail Collapsed                                                        │
+│ ↑↓ move · Enter change · Esc close                                           │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..17 dim
+r1 c0..26 dim
+r2 c0..36 dim
+r3 c0..80 dim
+r4 c0..1 dim
+r4 c79..80 dim
+r5 c0..1 dim
+r5 c2..10 bold
+r5 c69..78 dim
+r5 c79..80 dim
+r6 c0..1 dim
+r6 c79..80 dim
+r7 c0..1 dim
+r7 c79..80 dim
+r8 c0..1 dim
+r8 c79..80 dim
+r9 c0..1 dim
+r9 c2..4 bold
+r9 c5..12 dim
+r9 c12..17 bold
+r9 c18..27 dim
+r9 c27..30 bold
+r9 c31..36 dim
+r9 c79..80 dim
+r10 c0..1 dim
+r10 c79..80 dim
+r11 c0..80 dim
+
+== no-color
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ Settings                                                           3 changed │
+│ Theme       Shoreline                                                        │
+│ Motion      Reduced                                                          │
+│ Tool detail Collapsed                                                        │
+│ ↑↓ move · Enter change · Esc close                                           │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..17 dim
+r1 c0..26 dim
+r2 c0..36 dim
+r3 c0..80 dim
+r4 c0..1 dim
+r4 c79..80 dim
+r5 c0..1 dim
+r5 c2..10 bold
+r5 c69..78 dim
+r5 c79..80 dim
+r6 c0..1 dim
+r6 c79..80 dim
+r7 c0..1 dim
+r7 c79..80 dim
+r8 c0..1 dim
+r8 c79..80 dim
+r9 c0..1 dim
+r9 c2..4 bold
+r9 c5..12 dim
+r9 c12..17 bold
+r9 c18..27 dim
+r9 c27..30 bold
+r9 c31..36 dim
+r9 c79..80 dim
+r10 c0..1 dim
+r10 c79..80 dim
+r11 c0..80 dim
+
+== ascii
+Edited summary.md
+Ran cargo test: 212 passed
+Read crates/tui/src/tui/views/mod.rs
++------------------------------------------------------------------------------+
+|                                                                              |
+| Settings                                                           3 changed |
+| Theme       Shoreline                                                        |
+| Motion      Reduced                                                          |
+| Tool detail Collapsed                                                        |
+| Up/Down move  Enter change  Esc close                                        |
+|                                                                              |
++------------------------------------------------------------------------------+
+---
+r0 c0..17 dim
+r1 c0..26 dim
+r2 c0..36 dim
+r3 c0..80 dim
+r4 c0..1 dim
+r4 c79..80 dim
+r5 c0..1 dim
+r5 c2..10 bold
+r5 c69..78 dim
+r5 c79..80 dim
+r6 c0..1 dim
+r6 c79..80 dim
+r7 c0..1 dim
+r7 c79..80 dim
+r8 c0..1 dim
+r8 c79..80 dim
+r9 c0..1 dim
+r9 c2..9 bold
+r9 c10..14 dim
+r9 c16..21 bold
+r9 c22..28 dim
+r9 c30..33 bold
+r9 c34..39 dim
+r9 c79..80 dim
+r10 c0..1 dim
+r10 c79..80 dim
+r11 c0..80 dim

@@ -1,0 +1,77 @@
+---
+source: tests/motion.rs
+expression: "testing::snapshot(3, demo(t0, MotionMode::Full, Duration::ZERO))"
+---
+== dark-truecolor · 40x3
+✓ Done
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..40 bg=Background
+r2 c0..40 bg=Background
+
+== dark-truecolor · 80x3
+✓ Done
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..80 bg=Background
+r2 c0..80 bg=Background
+
+== dark-truecolor · 120x3
+✓ Done
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..120 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..120 bg=Background
+r2 c0..120 bg=Background
+
+== no-color · 40x3
+✓ Done
+▸ Selected
+
+
+== no-color · 80x3
+✓ Done
+▸ Selected
+
+
+== no-color · 120x3
+✓ Done
+▸ Selected
+
+
+== ascii · 40x3
+Y Done
+> Selected
+
+
+== ascii · 80x3
+Y Done
+> Selected
+
+
+== ascii · 120x3
+Y Done
+> Selected

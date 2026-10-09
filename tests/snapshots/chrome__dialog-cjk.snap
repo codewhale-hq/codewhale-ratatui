@@ -1,0 +1,338 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(12, dialog_cjk)"
+---
+== dark-truecolor · 40x12
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│                                  │le
+Ed│ 要停止正在运行的工作流吗？       │le
+Ed│                                  │le
+Ed│ 仍有两个智能体在工作。它们到目前 │le
+Ed│ 为止的改动会保留。               │le
+Ed│                                  │le
+Ed│ y 停止 · n 继续运行              │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+---
+r0 c0..40 fg=Muted bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..38 fg=BorderStrong bg=Surface
+r1 c38..40 fg=Muted bg=Background
+r2 c0..2 fg=Muted bg=Background
+r2 c2..3 fg=BorderStrong bg=Surface
+r2 c3..37 bg=Surface
+r2 c37..38 fg=BorderStrong bg=Surface
+r2 c38..40 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..3 fg=BorderStrong bg=Surface
+r3 c3..4 bg=Surface
+r3 c4..30 fg=Foreground bg=Surface bold
+r3 c30..37 bg=Surface
+r3 c37..38 fg=BorderStrong bg=Surface
+r3 c38..40 fg=Muted bg=Background
+r4 c0..2 fg=Muted bg=Background
+r4 c2..3 fg=BorderStrong bg=Surface
+r4 c3..37 bg=Surface
+r4 c37..38 fg=BorderStrong bg=Surface
+r4 c38..40 fg=Muted bg=Background
+r5 c0..2 fg=Muted bg=Background
+r5 c2..3 fg=BorderStrong bg=Surface
+r5 c3..4 bg=Surface
+r5 c4..36 fg=Foreground bg=Surface
+r5 c36..37 bg=Surface
+r5 c37..38 fg=BorderStrong bg=Surface
+r5 c38..40 fg=Muted bg=Background
+r6 c0..2 fg=Muted bg=Background
+r6 c2..3 fg=BorderStrong bg=Surface
+r6 c3..4 bg=Surface
+r6 c4..36 fg=Foreground bg=Surface
+r6 c36..37 bg=Surface
+r6 c37..38 fg=BorderStrong bg=Surface
+r6 c38..40 fg=Muted bg=Background
+r7 c0..2 fg=Muted bg=Background
+r7 c2..3 fg=BorderStrong bg=Surface
+r7 c3..4 bg=Surface
+r7 c4..36 fg=Foreground bg=Surface
+r7 c36..37 bg=Surface
+r7 c37..38 fg=BorderStrong bg=Surface
+r7 c38..40 fg=Muted bg=Background
+r8 c0..2 fg=Muted bg=Background
+r8 c2..3 fg=BorderStrong bg=Surface
+r8 c3..4 bg=Surface
+r8 c4..5 fg=Foreground bg=Surface bold
+r8 c5..6 bg=Surface
+r8 c6..10 fg=Muted bg=Surface
+r8 c10..13 fg=Border bg=Surface
+r8 c13..14 fg=Foreground bg=Surface bold
+r8 c14..15 bg=Surface
+r8 c15..23 fg=Muted bg=Surface
+r8 c23..37 bg=Surface
+r8 c37..38 fg=BorderStrong bg=Surface
+r8 c38..40 fg=Muted bg=Background
+r9 c0..2 fg=Muted bg=Background
+r9 c2..3 fg=BorderStrong bg=Surface
+r9 c3..37 bg=Surface
+r9 c37..38 fg=BorderStrong bg=Surface
+r9 c38..40 fg=Muted bg=Background
+r10 c0..2 fg=Muted bg=Background
+r10 c2..38 fg=BorderStrong bg=Surface
+r10 c38..40 fg=Muted bg=Background
+r11 c0..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m│                                              │asure
+Edited summary.m│ 要停止正在运行的工作流吗？                   │asure
+Edited summary.m│                                              │asure
+Edited summary.m│ 仍有两个智能体在工作。它们到目前为止的改动会 │asure
+Edited summary.m│ 保留。                                       │asure
+Edited summary.m│                                              │asure
+Edited summary.m│ y 停止 · n 继续运行                          │asure
+Edited summary.m│                                              │asure
+Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..80 bg=Background
+r1 c0..16 fg=Muted bg=Background
+r1 c16..64 fg=BorderStrong bg=Surface
+r1 c64..69 fg=Muted bg=Background
+r1 c69..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..17 fg=BorderStrong bg=Surface
+r2 c17..63 bg=Surface
+r2 c63..64 fg=BorderStrong bg=Surface
+r2 c64..69 fg=Muted bg=Background
+r2 c69..80 bg=Background
+r3 c0..16 fg=Muted bg=Background
+r3 c16..17 fg=BorderStrong bg=Surface
+r3 c17..18 bg=Surface
+r3 c18..44 fg=Foreground bg=Surface bold
+r3 c44..63 bg=Surface
+r3 c63..64 fg=BorderStrong bg=Surface
+r3 c64..69 fg=Muted bg=Background
+r3 c69..80 bg=Background
+r4 c0..16 fg=Muted bg=Background
+r4 c16..17 fg=BorderStrong bg=Surface
+r4 c17..63 bg=Surface
+r4 c63..64 fg=BorderStrong bg=Surface
+r4 c64..69 fg=Muted bg=Background
+r4 c69..80 bg=Background
+r5 c0..16 fg=Muted bg=Background
+r5 c16..17 fg=BorderStrong bg=Surface
+r5 c17..18 bg=Surface
+r5 c18..62 fg=Foreground bg=Surface
+r5 c62..63 bg=Surface
+r5 c63..64 fg=BorderStrong bg=Surface
+r5 c64..69 fg=Muted bg=Background
+r5 c69..80 bg=Background
+r6 c0..16 fg=Muted bg=Background
+r6 c16..17 fg=BorderStrong bg=Surface
+r6 c17..18 bg=Surface
+r6 c18..62 fg=Foreground bg=Surface
+r6 c62..63 bg=Surface
+r6 c63..64 fg=BorderStrong bg=Surface
+r6 c64..69 fg=Muted bg=Background
+r6 c69..80 bg=Background
+r7 c0..16 fg=Muted bg=Background
+r7 c16..17 fg=BorderStrong bg=Surface
+r7 c17..18 bg=Surface
+r7 c18..62 fg=Foreground bg=Surface
+r7 c62..63 bg=Surface
+r7 c63..64 fg=BorderStrong bg=Surface
+r7 c64..69 fg=Muted bg=Background
+r7 c69..80 bg=Background
+r8 c0..16 fg=Muted bg=Background
+r8 c16..17 fg=BorderStrong bg=Surface
+r8 c17..18 bg=Surface
+r8 c18..19 fg=Foreground bg=Surface bold
+r8 c19..20 bg=Surface
+r8 c20..24 fg=Muted bg=Surface
+r8 c24..27 fg=Border bg=Surface
+r8 c27..28 fg=Foreground bg=Surface bold
+r8 c28..29 bg=Surface
+r8 c29..37 fg=Muted bg=Surface
+r8 c37..63 bg=Surface
+r8 c63..64 fg=BorderStrong bg=Surface
+r8 c64..69 fg=Muted bg=Background
+r8 c69..80 bg=Background
+r9 c0..16 fg=Muted bg=Background
+r9 c16..17 fg=BorderStrong bg=Surface
+r9 c17..63 bg=Surface
+r9 c63..64 fg=BorderStrong bg=Surface
+r9 c64..69 fg=Muted bg=Background
+r9 c69..80 bg=Background
+r10 c0..16 fg=Muted bg=Background
+r10 c16..64 fg=BorderStrong bg=Surface
+r10 c64..69 fg=Muted bg=Background
+r10 c69..80 bg=Background
+r11 c0..69 fg=Muted bg=Background
+r11 c69..80 bg=Background
+
+== dark-truecolor · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ 要停止正在运行的工作流吗？                   │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ 仍有两个智能体在工作。它们到目前为止的改动会 │
+Edited summary.md and then ran the w│ 保留。                                       │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ y 停止 · n 继续运行                          │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..120 bg=Background
+r1 c0..36 fg=Muted bg=Background
+r1 c36..84 fg=BorderStrong bg=Surface
+r1 c84..120 bg=Background
+r2 c0..36 fg=Muted bg=Background
+r2 c36..37 fg=BorderStrong bg=Surface
+r2 c37..83 bg=Surface
+r2 c83..84 fg=BorderStrong bg=Surface
+r2 c84..120 bg=Background
+r3 c0..36 fg=Muted bg=Background
+r3 c36..37 fg=BorderStrong bg=Surface
+r3 c37..38 bg=Surface
+r3 c38..64 fg=Foreground bg=Surface bold
+r3 c64..83 bg=Surface
+r3 c83..84 fg=BorderStrong bg=Surface
+r3 c84..120 bg=Background
+r4 c0..36 fg=Muted bg=Background
+r4 c36..37 fg=BorderStrong bg=Surface
+r4 c37..83 bg=Surface
+r4 c83..84 fg=BorderStrong bg=Surface
+r4 c84..120 bg=Background
+r5 c0..36 fg=Muted bg=Background
+r5 c36..37 fg=BorderStrong bg=Surface
+r5 c37..38 bg=Surface
+r5 c38..82 fg=Foreground bg=Surface
+r5 c82..83 bg=Surface
+r5 c83..84 fg=BorderStrong bg=Surface
+r5 c84..120 bg=Background
+r6 c0..36 fg=Muted bg=Background
+r6 c36..37 fg=BorderStrong bg=Surface
+r6 c37..38 bg=Surface
+r6 c38..82 fg=Foreground bg=Surface
+r6 c82..83 bg=Surface
+r6 c83..84 fg=BorderStrong bg=Surface
+r6 c84..120 bg=Background
+r7 c0..36 fg=Muted bg=Background
+r7 c36..37 fg=BorderStrong bg=Surface
+r7 c37..38 bg=Surface
+r7 c38..82 fg=Foreground bg=Surface
+r7 c82..83 bg=Surface
+r7 c83..84 fg=BorderStrong bg=Surface
+r7 c84..120 bg=Background
+r8 c0..36 fg=Muted bg=Background
+r8 c36..37 fg=BorderStrong bg=Surface
+r8 c37..38 bg=Surface
+r8 c38..39 fg=Foreground bg=Surface bold
+r8 c39..40 bg=Surface
+r8 c40..44 fg=Muted bg=Surface
+r8 c44..47 fg=Border bg=Surface
+r8 c47..48 fg=Foreground bg=Surface bold
+r8 c48..49 bg=Surface
+r8 c49..57 fg=Muted bg=Surface
+r8 c57..83 bg=Surface
+r8 c83..84 fg=BorderStrong bg=Surface
+r8 c84..120 bg=Background
+r9 c0..36 fg=Muted bg=Background
+r9 c36..37 fg=BorderStrong bg=Surface
+r9 c37..83 bg=Surface
+r9 c83..84 fg=BorderStrong bg=Surface
+r9 c84..120 bg=Background
+r10 c0..36 fg=Muted bg=Background
+r10 c36..84 fg=BorderStrong bg=Surface
+r10 c84..120 bg=Background
+r11 c0..69 fg=Muted bg=Background
+r11 c69..120 bg=Background
+
+== no-color · 40x12
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│                                  │le
+Ed│ 要停止正在运行的工作流吗？       │le
+Ed│                                  │le
+Ed│ 仍有两个智能体在工作。它们到目前 │le
+Ed│ 为止的改动会保留。               │le
+Ed│                                  │le
+Ed│ y 停止 · n 继续运行              │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+
+== no-color · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m│                                              │asure
+Edited summary.m│ 要停止正在运行的工作流吗？                   │asure
+Edited summary.m│                                              │asure
+Edited summary.m│ 仍有两个智能体在工作。它们到目前为止的改动会 │asure
+Edited summary.m│ 保留。                                       │asure
+Edited summary.m│                                              │asure
+Edited summary.m│ y 停止 · n 继续运行                          │asure
+Edited summary.m│                                              │asure
+Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.md and then ran the whole suite again for good measure
+
+== no-color · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ 要停止正在运行的工作流吗？                   │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ 仍有两个智能体在工作。它们到目前为止的改动会 │
+Edited summary.md and then ran the w│ 保留。                                       │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w│ y 停止 · n 继续运行                          │
+Edited summary.md and then ran the w│                                              │
+Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 40x12
+Edited summary.md and then ran the whole
+Ed+----------------------------------+le
+Ed|                                  |le
+Ed| 要停止正在运行的工作流吗？       |le
+Ed|                                  |le
+Ed| 仍有两个智能体在工作。它们到目前 |le
+Ed| 为止的改动会保留。               |le
+Ed|                                  |le
+Ed| y 停止  n 继续运行               |le
+Ed|                                  |le
+Ed+----------------------------------+le
+Edited summary.md and then ran the whole
+
+== ascii · 80x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.m+----------------------------------------------+asure
+Edited summary.m|                                              |asure
+Edited summary.m| 要停止正在运行的工作流吗？                   |asure
+Edited summary.m|                                              |asure
+Edited summary.m| 仍有两个智能体在工作。它们到目前为止的改动会 |asure
+Edited summary.m| 保留。                                       |asure
+Edited summary.m|                                              |asure
+Edited summary.m| y 停止  n 继续运行                           |asure
+Edited summary.m|                                              |asure
+Edited summary.m+----------------------------------------------+asure
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 120x12
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the w+----------------------------------------------+
+Edited summary.md and then ran the w|                                              |
+Edited summary.md and then ran the w| 要停止正在运行的工作流吗？                   |
+Edited summary.md and then ran the w|                                              |
+Edited summary.md and then ran the w| 仍有两个智能体在工作。它们到目前为止的改动会 |
+Edited summary.md and then ran the w| 保留。                                       |
+Edited summary.md and then ran the w|                                              |
+Edited summary.md and then ran the w| y 停止  n 继续运行                           |
+Edited summary.md and then ran the w|                                              |
+Edited summary.md and then ran the w+----------------------------------------------+
+Edited summary.md and then ran the whole suite again for good measure

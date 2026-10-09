@@ -1,0 +1,159 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(6, paint_list_tall)"
+---
+== dark-truecolor · 40x6
+  row 1                                │
+    and more                           █
+  row 2                                █
+    and more                           █
+▸ row 3                                █
+    and more                           █
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..39 bg=Background
+r0 c39..40 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..39 bg=Background
+r1 c39..40 fg=Foreground bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..39 bg=Background
+r2 c39..40 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..39 bg=Background
+r3 c39..40 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..38 bg=Selected
+r4 c38..39 bg=Background
+r4 c39..40 fg=Foreground bg=Background
+r5 c0..2 bg=Selected
+r5 c2..12 fg=Foreground bg=Selected bold
+r5 c12..38 bg=Selected
+r5 c38..39 bg=Background
+r5 c39..40 fg=Foreground bg=Background
+
+== dark-truecolor · 80x6
+  row 1                                                                        │
+    and more                                                                   █
+  row 2                                                                        █
+    and more                                                                   █
+▸ row 3                                                                        █
+    and more                                                                   █
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..79 bg=Background
+r0 c79..80 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..79 bg=Background
+r1 c79..80 fg=Foreground bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..79 bg=Background
+r2 c79..80 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..79 bg=Background
+r3 c79..80 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..78 bg=Selected
+r4 c78..79 bg=Background
+r4 c79..80 fg=Foreground bg=Background
+r5 c0..2 bg=Selected
+r5 c2..12 fg=Foreground bg=Selected bold
+r5 c12..78 bg=Selected
+r5 c78..79 bg=Background
+r5 c79..80 fg=Foreground bg=Background
+
+== dark-truecolor · 120x6
+  row 1                                                                                                                │
+    and more                                                                                                           █
+  row 2                                                                                                                █
+    and more                                                                                                           █
+▸ row 3                                                                                                                █
+    and more                                                                                                           █
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..119 bg=Background
+r0 c119..120 fg=Border bg=Background
+r1 c0..2 bg=Background
+r1 c2..12 fg=Foreground bg=Background
+r1 c12..119 bg=Background
+r1 c119..120 fg=Foreground bg=Background
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..119 bg=Background
+r2 c119..120 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..119 bg=Background
+r3 c119..120 fg=Foreground bg=Background
+r4 c0..1 fg=Primary bg=Selected
+r4 c1..2 bg=Selected
+r4 c2..7 fg=Foreground bg=Selected bold
+r4 c7..118 bg=Selected
+r4 c118..119 bg=Background
+r4 c119..120 fg=Foreground bg=Background
+r5 c0..2 bg=Selected
+r5 c2..12 fg=Foreground bg=Selected bold
+r5 c12..118 bg=Selected
+r5 c118..119 bg=Background
+r5 c119..120 fg=Foreground bg=Background
+
+== no-color · 40x6
+  row 1                                │
+    and more                           █
+  row 2                                █
+    and more                           █
+▸ row 3                                █
+    and more                           █
+
+== no-color · 80x6
+  row 1                                                                        │
+    and more                                                                   █
+  row 2                                                                        █
+    and more                                                                   █
+▸ row 3                                                                        █
+    and more                                                                   █
+
+== no-color · 120x6
+  row 1                                                                                                                │
+    and more                                                                                                           █
+  row 2                                                                                                                █
+    and more                                                                                                           █
+▸ row 3                                                                                                                █
+    and more                                                                                                           █
+
+== ascii · 40x6
+  row 1                                |
+    and more                           #
+  row 2                                #
+    and more                           #
+> row 3                                #
+    and more                           #
+
+== ascii · 80x6
+  row 1                                                                        |
+    and more                                                                   #
+  row 2                                                                        #
+    and more                                                                   #
+> row 3                                                                        #
+    and more                                                                   #
+
+== ascii · 120x6
+  row 1                                                                                                                |
+    and more                                                                                                           #
+  row 2                                                                                                                #
+    and more                                                                                                           #
+> row 3                                                                                                                #
+    and more                                                                                                           #

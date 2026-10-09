@@ -1,0 +1,161 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary bg=Background
+r0 c8..40 bg=Background
+r1 c0..3 fg=Primary bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Primary bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..18 fg=Muted bg=Selected
+r1 c18..40 fg=Foreground bg=Selected
+r2 c0..3 fg=Primary bg=Background
+r2 c3..4 bg=Background
+r2 c4..10 fg=Primary bg=Background bold
+r2 c10..12 fg=BorderStrong bg=Background
+r2 c12..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== dark-graphite
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary bg=Background
+r0 c8..40 bg=Background
+r1 c0..3 fg=Primary bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Primary bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..18 fg=Muted bg=Selected
+r1 c18..40 fg=Foreground bg=Selected
+r2 c0..3 fg=Primary bg=Background
+r2 c3..4 bg=Background
+r2 c4..10 fg=Primary bg=Background bold
+r2 c10..12 fg=BorderStrong bg=Background
+r2 c12..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== light-truecolor
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary bg=Background
+r0 c8..40 bg=Background
+r1 c0..3 fg=Primary bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Primary bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..18 fg=Muted bg=Selected
+r1 c18..40 fg=Foreground bg=Selected
+r2 c0..3 fg=Primary bg=Background
+r2 c3..4 bg=Background
+r2 c4..10 fg=Primary bg=Background bold
+r2 c10..12 fg=BorderStrong bg=Background
+r2 c12..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== dark-256
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary bg=Background
+r0 c8..40 bg=Background
+r1 c0..3 fg=Primary bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Primary bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..18 fg=Muted bg=Selected
+r1 c18..40 fg=Foreground bg=Selected
+r2 c0..3 fg=Primary bg=Background
+r2 c3..4 bg=Background
+r2 c4..10 fg=Primary bg=Background bold
+r2 c10..12 fg=BorderStrong bg=Background
+r2 c12..40 fg=Foreground bg=Background
+r3 c0..22 fg=Primary bg=Background
+r3 c22..40 bg=Background
+
+== light-256
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary bg=Background|Surface
+r0 c8..40 bg=Background|Surface
+r1 c0..3 fg=Primary bg=Selected
+r1 c3..4 bg=Selected
+r1 c4..10 fg=Primary bg=Selected bold
+r1 c10..12 fg=BorderStrong bg=Selected
+r1 c12..18 fg=Muted bg=Selected
+r1 c18..40 fg=Foreground bg=Selected
+r2 c0..3 fg=Primary bg=Background|Surface
+r2 c3..4 bg=Background|Surface
+r2 c4..10 fg=Primary bg=Background|Surface bold
+r2 c10..12 fg=BorderStrong bg=Background|Surface
+r2 c12..40 fg=Foreground bg=Background|Surface
+r3 c0..22 fg=Primary bg=Background|Surface
+r3 c22..40 bg=Background|Surface
+
+== ansi-16
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary
+r1 c0..3 fg=Primary
+r1 c4..10 fg=Primary bold
+r1 c12..18 dim
+r2 c0..3 fg=Primary
+r2 c4..10 fg=Primary bold
+r3 c0..22 fg=Primary
+
+== unknown-ground
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r0 c0..8 fg=Primary
+r1 c0..3 fg=Primary
+r1 c4..10 fg=Primary bold
+r1 c12..18 dim
+r2 c0..3 fg=Primary
+r2 c4..10 fg=Primary bold
+r3 c0..22 fg=Primary
+
+== no-color
+2 queued
+▸ ○ queued: tests Tighten the parser tes
+  ○ queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r1 c4..10 bold
+r1 c12..18 dim
+r2 c4..10 bold
+
+== ascii
+2 queued
+> o queued: tests Tighten the parser tes
+  o queued: Run the release checklist af
+Send now / Edit / Drop
+---
+r1 c4..10 bold
+r1 c12..18 dim
+r2 c4..10 bold

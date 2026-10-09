@@ -1,0 +1,77 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+codewhale-ratatui · +3 details
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..30 fg=Muted bg=Background
+r0 c30..40 bg=Background
+r1 c0..40 bg=Background
+
+== dark-graphite
+codewhale-ratatui · +3 details
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..30 fg=Muted bg=Background
+r0 c30..40 bg=Background
+r1 c0..40 bg=Background
+
+== light-truecolor
+codewhale-ratatui · +3 details
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..30 fg=Muted bg=Background
+r0 c30..40 bg=Background
+r1 c0..40 bg=Background
+
+== dark-256
+codewhale-ratatui · +3 details
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..30 fg=Muted bg=Background
+r0 c30..40 bg=Background
+r1 c0..40 bg=Background
+
+== light-256
+codewhale-ratatui · +3 details
+
+---
+r0 c0..17 fg=Foreground bg=Background|Surface
+r0 c17..20 fg=BorderStrong bg=Background|Surface
+r0 c20..30 fg=Muted bg=Background|Surface
+r0 c30..40 bg=Background|Surface
+r1 c0..40 bg=Background|Surface
+
+== ansi-16
+codewhale-ratatui · +3 details
+
+---
+r0 c20..30 dim
+
+== unknown-ground
+codewhale-ratatui · +3 details
+
+---
+r0 c20..30 dim
+
+== no-color
+codewhale-ratatui · +3 details
+
+---
+r0 c20..30 dim
+
+== ascii
+codewhale-ratatui / +3 details
+
+---
+r0 c20..30 dim

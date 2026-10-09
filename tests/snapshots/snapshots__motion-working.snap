@@ -1,0 +1,108 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+● Working
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..40 bg=Background
+r2 c0..40 bg=Background
+
+== dark-graphite
+● Working
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..40 bg=Background
+r2 c0..40 bg=Background
+
+== light-truecolor
+● Working
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..40 bg=Background
+r2 c0..40 bg=Background
+
+== dark-256
+● Working
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Foreground bg=Background
+r1 c10..40 bg=Background
+r2 c0..40 bg=Background
+
+== light-256
+● Working
+▸ Selected
+
+---
+r0 c0..1 fg=Muted bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..9 fg=Foreground bg=Background|Surface
+r0 c9..40 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..10 fg=Foreground bg=Background|Surface
+r1 c10..40 bg=Background|Surface
+r2 c0..40 bg=Background|Surface
+
+== ansi-16
+● Working
+▸ Selected
+
+---
+r0 c0..1 dim
+r1 c0..1 fg=Primary
+
+== unknown-ground
+● Working
+▸ Selected
+
+---
+r0 c0..1 dim
+r1 c0..1 fg=Primary
+
+== no-color
+● Working
+▸ Selected
+
+---
+r0 c0..1 dim
+
+== ascii
+. Working
+> Selected
+
+---
+r0 c0..1 dim

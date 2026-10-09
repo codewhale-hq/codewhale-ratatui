@@ -1,0 +1,290 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x9
+● Release notes  working · 4m 06s · $…
+├ ✓ Gather       done · 3 agents · 1m…
+├ ● Draft        working · 2 of 4 age…
+│ ├ ● writer-1   working · Editing CH…
+│ ├ ✕ writer-2   failed · tests did… →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..17 fg=Foreground bg=Background
+r0 c17..24 fg=Muted bg=Background
+r0 c24..27 fg=Dim bg=Background
+r0 c27..33 fg=Muted bg=Background
+r0 c33..36 fg=Dim bg=Background
+r0 c36..38 fg=Muted bg=Background
+r0 c38..40 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..17 fg=Foreground bg=Background
+r1 c17..21 fg=Muted bg=Background
+r1 c21..24 fg=Dim bg=Background
+r1 c24..32 fg=Muted bg=Background
+r1 c32..35 fg=Dim bg=Background
+r1 c35..38 fg=Muted bg=Background
+r1 c38..40 bg=Background
+r2 c0..2 fg=Dim bg=Background
+r2 c2..3 fg=Live bg=Background
+r2 c3..4 bg=Background
+r2 c4..17 fg=Foreground bg=Background
+r2 c17..24 fg=Muted bg=Background
+r2 c24..27 fg=Dim bg=Background
+r2 c27..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..4 fg=Dim bg=Background
+r3 c4..5 fg=Live bg=Background
+r3 c5..6 bg=Background
+r3 c6..17 fg=Foreground bg=Background
+r3 c17..24 fg=Muted bg=Background
+r3 c24..27 fg=Dim bg=Background
+r3 c27..38 fg=Muted bg=Background
+r3 c38..40 bg=Background
+r4 c0..4 fg=Dim bg=Background
+r4 c4..5 fg=Danger bg=Background
+r4 c5..6 bg=Background
+r4 c6..17 fg=Foreground bg=Background
+r4 c17..23 fg=Muted bg=Background
+r4 c23..26 fg=Dim bg=Background
+r4 c26..36 fg=Foreground bg=Background
+r4 c36..38 fg=Muted bg=Background
+r4 c38..40 bg=Background
+r5 c0..4 fg=Dim bg=Background
+r5 c4..5 fg=Muted bg=Background
+r5 c5..6 bg=Background
+r5 c6..17 fg=Foreground bg=Background
+r5 c17..22 fg=Muted bg=Background
+r5 c22..40 bg=Background
+r6 c0..2 fg=Dim bg=Background
+r6 c2..3 fg=Muted bg=Background
+r6 c3..4 bg=Background
+r6 c4..17 fg=Foreground bg=Background
+r6 c17..22 fg=Muted bg=Background
+r6 c22..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..39 fg=Muted bg=Background
+r8 c39..40 bg=Background
+
+== dark-truecolor · 80x9
+● Release notes  working · 4m 06s · $0.38
+├ ✓ Gather       done · 3 agents · 1m 12s · +3 hidden · 3 done
+├ ● Draft        working · 2 of 4 agents
+│ ├ ● writer-1   working · Editing CHANGELOG.md · 38 s
+│ ├ ✕ writer-2   failed · tests did not pass →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..17 fg=Foreground bg=Background
+r0 c17..24 fg=Muted bg=Background
+r0 c24..27 fg=Dim bg=Background
+r0 c27..33 fg=Muted bg=Background
+r0 c33..36 fg=Dim bg=Background
+r0 c36..41 fg=Muted bg=Background
+r0 c41..80 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..17 fg=Foreground bg=Background
+r1 c17..21 fg=Muted bg=Background
+r1 c21..24 fg=Dim bg=Background
+r1 c24..32 fg=Muted bg=Background
+r1 c32..35 fg=Dim bg=Background
+r1 c35..41 fg=Muted bg=Background
+r1 c41..44 fg=Dim bg=Background
+r1 c44..62 fg=Muted bg=Background
+r1 c62..80 bg=Background
+r2 c0..2 fg=Dim bg=Background
+r2 c2..3 fg=Live bg=Background
+r2 c3..4 bg=Background
+r2 c4..17 fg=Foreground bg=Background
+r2 c17..24 fg=Muted bg=Background
+r2 c24..27 fg=Dim bg=Background
+r2 c27..40 fg=Muted bg=Background
+r2 c40..80 bg=Background
+r3 c0..4 fg=Dim bg=Background
+r3 c4..5 fg=Live bg=Background
+r3 c5..6 bg=Background
+r3 c6..17 fg=Foreground bg=Background
+r3 c17..24 fg=Muted bg=Background
+r3 c24..27 fg=Dim bg=Background
+r3 c27..47 fg=Muted bg=Background
+r3 c47..50 fg=Dim bg=Background
+r3 c50..54 fg=Muted bg=Background
+r3 c54..80 bg=Background
+r4 c0..4 fg=Dim bg=Background
+r4 c4..5 fg=Danger bg=Background
+r4 c5..6 bg=Background
+r4 c6..17 fg=Foreground bg=Background
+r4 c17..23 fg=Muted bg=Background
+r4 c23..26 fg=Dim bg=Background
+r4 c26..44 fg=Foreground bg=Background
+r4 c44..46 fg=Muted bg=Background
+r4 c46..80 bg=Background
+r5 c0..4 fg=Dim bg=Background
+r5 c4..5 fg=Muted bg=Background
+r5 c5..6 bg=Background
+r5 c6..17 fg=Foreground bg=Background
+r5 c17..22 fg=Muted bg=Background
+r5 c22..80 bg=Background
+r6 c0..2 fg=Dim bg=Background
+r6 c2..3 fg=Muted bg=Background
+r6 c3..4 bg=Background
+r6 c4..17 fg=Foreground bg=Background
+r6 c17..22 fg=Muted bg=Background
+r6 c22..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..39 fg=Muted bg=Background
+r8 c39..80 bg=Background
+
+== dark-truecolor · 120x9
+● Release notes  working · 4m 06s · $0.38
+├ ✓ Gather       done · 3 agents · 1m 12s · +3 hidden · 3 done
+├ ● Draft        working · 2 of 4 agents
+│ ├ ● writer-1   working · Editing CHANGELOG.md · 38 s
+│ ├ ✕ writer-2   failed · tests did not pass →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..17 fg=Foreground bg=Background
+r0 c17..24 fg=Muted bg=Background
+r0 c24..27 fg=Dim bg=Background
+r0 c27..33 fg=Muted bg=Background
+r0 c33..36 fg=Dim bg=Background
+r0 c36..41 fg=Muted bg=Background
+r0 c41..120 bg=Background
+r1 c0..2 fg=Dim bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..17 fg=Foreground bg=Background
+r1 c17..21 fg=Muted bg=Background
+r1 c21..24 fg=Dim bg=Background
+r1 c24..32 fg=Muted bg=Background
+r1 c32..35 fg=Dim bg=Background
+r1 c35..41 fg=Muted bg=Background
+r1 c41..44 fg=Dim bg=Background
+r1 c44..62 fg=Muted bg=Background
+r1 c62..120 bg=Background
+r2 c0..2 fg=Dim bg=Background
+r2 c2..3 fg=Live bg=Background
+r2 c3..4 bg=Background
+r2 c4..17 fg=Foreground bg=Background
+r2 c17..24 fg=Muted bg=Background
+r2 c24..27 fg=Dim bg=Background
+r2 c27..40 fg=Muted bg=Background
+r2 c40..120 bg=Background
+r3 c0..4 fg=Dim bg=Background
+r3 c4..5 fg=Live bg=Background
+r3 c5..6 bg=Background
+r3 c6..17 fg=Foreground bg=Background
+r3 c17..24 fg=Muted bg=Background
+r3 c24..27 fg=Dim bg=Background
+r3 c27..47 fg=Muted bg=Background
+r3 c47..50 fg=Dim bg=Background
+r3 c50..54 fg=Muted bg=Background
+r3 c54..120 bg=Background
+r4 c0..4 fg=Dim bg=Background
+r4 c4..5 fg=Danger bg=Background
+r4 c5..6 bg=Background
+r4 c6..17 fg=Foreground bg=Background
+r4 c17..23 fg=Muted bg=Background
+r4 c23..26 fg=Dim bg=Background
+r4 c26..44 fg=Foreground bg=Background
+r4 c44..46 fg=Muted bg=Background
+r4 c46..120 bg=Background
+r5 c0..4 fg=Dim bg=Background
+r5 c4..5 fg=Muted bg=Background
+r5 c5..6 bg=Background
+r5 c6..17 fg=Foreground bg=Background
+r5 c17..22 fg=Muted bg=Background
+r5 c22..120 bg=Background
+r6 c0..2 fg=Dim bg=Background
+r6 c2..3 fg=Muted bg=Background
+r6 c3..4 bg=Background
+r6 c4..17 fg=Foreground bg=Background
+r6 c17..22 fg=Muted bg=Background
+r6 c22..120 bg=Background
+r7 c0..120 bg=Background
+r8 c0..39 fg=Muted bg=Background
+r8 c39..120 bg=Background
+
+== no-color · 40x9
+● Release notes  working · 4m 06s · $…
+├ ✓ Gather       done · 3 agents · 1m…
+├ ● Draft        working · 2 of 4 age…
+│ ├ ● writer-1   working · Editing CH…
+│ ├ ✕ writer-2   failed · tests did… →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+
+== no-color · 80x9
+● Release notes  working · 4m 06s · $0.38
+├ ✓ Gather       done · 3 agents · 1m 12s · +3 hidden · 3 done
+├ ● Draft        working · 2 of 4 agents
+│ ├ ● writer-1   working · Editing CHANGELOG.md · 38 s
+│ ├ ✕ writer-2   failed · tests did not pass →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+
+== no-color · 120x9
+● Release notes  working · 4m 06s · $0.38
+├ ✓ Gather       done · 3 agents · 1m 12s · +3 hidden · 3 done
+├ ● Draft        working · 2 of 4 agents
+│ ├ ● writer-1   working · Editing CHANGELOG.md · 38 s
+│ ├ ✕ writer-2   failed · tests did not pass →
+│ └ ○ writer-3   ready
+└ ○ Review       ready
+
+1 failed · 3 working · 2 ready · 4 done
+
+== ascii · 40x9
+. Release notes  working - 4m 06s - $.
++ Y Gather       done - 3 agents - 1m.
++ . Draft        working - 2 of 4 a...
+| + . writer-1   working - Editing...
+| + X writer-2   failed - tests d... >
+| \ o writer-3   ready
+\ o Review       ready
+
+1 failed - 3 working - 2 ready - 4 done
+
+== ascii · 80x9
+. Release notes  working - 4m 06s - $0.38
++ Y Gather       done - 3 agents - 1m 12s - +3 hidden - 3 done
++ . Draft        working - 2 of 4 agents
+| + . writer-1   working - Editing CHANGELOG.md - 38 s
+| + X writer-2   failed - tests did not pass >
+| \ o writer-3   ready
+\ o Review       ready
+
+1 failed - 3 working - 2 ready - 4 done
+
+== ascii · 120x9
+. Release notes  working - 4m 06s - $0.38
++ Y Gather       done - 3 agents - 1m 12s - +3 hidden - 3 done
++ . Draft        working - 2 of 4 agents
+| + . writer-1   working - Editing CHANGELOG.md - 38 s
+| + X writer-2   failed - tests did not pass >
+| \ o writer-3   ready
+\ o Review       ready
+
+1 failed - 3 working - 2 ready - 4 done

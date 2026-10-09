@@ -1,0 +1,210 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary bg=Surface
+r0 c67..79 fg=Attention bg=Surface bold
+r0 c79..80 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..79 bg=Surface
+r1 c79..80 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..3 bg=Surface
+r2 c3..28 fg=Foreground bg=Surface
+r2 c28..79 bg=Surface
+r2 c79..80 fg=Primary bg=Surface
+r3 c0..2 fg=Primary bg=Surface
+r3 c2..3 bg=Surface
+r3 c3..33 fg=Foreground bg=Surface
+r3 c33..79 bg=Surface
+r3 c79..80 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..75 bg=Surface
+r4 c75..78 fg=Primary bg=Surface bold
+r4 c78..79 bg=Surface
+r4 c79..80 fg=Primary bg=Surface
+r5 c0..80 fg=Primary bg=Surface
+
+== dark-graphite
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary bg=Surface
+r0 c67..79 fg=Attention bg=Surface bold
+r0 c79..80 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..79 bg=Surface
+r1 c79..80 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..3 bg=Surface
+r2 c3..28 fg=Foreground bg=Surface
+r2 c28..79 bg=Surface
+r2 c79..80 fg=Primary bg=Surface
+r3 c0..2 fg=Primary bg=Surface
+r3 c2..3 bg=Surface
+r3 c3..33 fg=Foreground bg=Surface
+r3 c33..79 bg=Surface
+r3 c79..80 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..75 bg=Surface
+r4 c75..78 fg=Primary bg=Surface bold
+r4 c78..79 bg=Surface
+r4 c79..80 fg=Primary bg=Surface
+r5 c0..80 fg=Primary bg=Surface
+
+== light-truecolor
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary
+r0 c67..79 fg=Attention bold
+r0 c79..80 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c79..80 fg=Primary
+r2 c0..1 fg=Primary
+r2 c3..28 fg=Foreground
+r2 c79..80 fg=Primary
+r3 c0..2 fg=Primary
+r3 c3..33 fg=Foreground
+r3 c79..80 fg=Primary
+r4 c0..1 fg=Primary
+r4 c75..78 fg=Primary bold
+r4 c79..80 fg=Primary
+r5 c0..80 fg=Primary
+
+== dark-256
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c67..79 fg=Attention bg=Surface|Hover|DiffRemovedTint bold
+r0 c79..80 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r1 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c1..79 bg=Surface|Hover|DiffRemovedTint
+r1 c79..80 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c1..3 bg=Surface|Hover|DiffRemovedTint
+r2 c3..28 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r2 c28..79 bg=Surface|Hover|DiffRemovedTint
+r2 c79..80 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c2..3 bg=Surface|Hover|DiffRemovedTint
+r3 c3..33 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r3 c33..79 bg=Surface|Hover|DiffRemovedTint
+r3 c79..80 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c1..75 bg=Surface|Hover|DiffRemovedTint
+r4 c75..78 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r4 c78..79 bg=Surface|Hover|DiffRemovedTint
+r4 c79..80 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c0..80 fg=Primary bg=Surface|Hover|DiffRemovedTint
+
+== light-256
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary
+r0 c67..79 fg=Attention bold
+r0 c79..80 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c79..80 fg=Primary
+r2 c0..1 fg=Primary
+r2 c3..28 fg=Foreground
+r2 c79..80 fg=Primary
+r3 c0..2 fg=Primary
+r3 c3..33 fg=Foreground
+r3 c79..80 fg=Primary
+r4 c0..1 fg=Primary
+r4 c75..78 fg=Primary bold
+r4 c79..80 fg=Primary
+r5 c0..80 fg=Primary
+
+== ansi-16
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary
+r0 c67..79 fg=Attention bold
+r0 c79..80 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c79..80 fg=Primary
+r2 c0..1 fg=Primary
+r2 c79..80 fg=Primary
+r3 c0..2 fg=Primary
+r3 c79..80 fg=Primary
+r4 c0..1 fg=Primary
+r4 c75..78 fg=Primary bold
+r4 c79..80 fg=Primary
+r5 c0..80 fg=Primary
+
+== unknown-ground
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c0..67 fg=Primary
+r0 c67..79 fg=Attention bold
+r0 c79..80 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c79..80 fg=Primary
+r2 c0..1 fg=Primary
+r2 c79..80 fg=Primary
+r3 c0..2 fg=Primary
+r3 c79..80 fg=Primary
+r4 c0..1 fg=Primary
+r4 c75..78 fg=Primary bold
+r4 c79..80 fg=Primary
+r5 c0..80 fg=Primary
+
+== no-color
+╭────────────────────────────────────────────────────────────────── To reviewer╮
+│                                                                              │
+│  Check the selected files.                                                   │
+│❯ Keep the draft until I answer.                                              │
+│                                                                          [↵] │
+╰Enter send ───────────────────────────────────────────────────────────────────╯
+---
+r0 c67..80 bold
+r4 c75..78 bold
+
+== ascii
++------------------------------------------------------------------ To reviewer+
+|                                                                              |
+|  Check the selected files.                                                   |
+|> Keep the draft until I answer.                                              |
+|                                                                          [>] |
++Enter send -------------------------------------------------------------------+
+---
+r0 c67..80 bold
+r4 c75..78 bold

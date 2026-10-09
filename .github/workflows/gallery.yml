@@ -1,0 +1,94 @@
+name: Gallery previews
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('gallery-pr-{0}', github.event.pull_request.number) || format('gallery-{0}', github.sha) }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  previews:
+    name: README matches the components
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Gallery scrolling tests
+        run: cargo test --locked --example gallery
+      - name: Render every component in every terminal profile
+        run: cargo run --locked --example gallery -- --svg target/readme-buffers
+      - name: README previews match the actual buffers
+        run: python3 tools/render-gallery.py target/readme-buffers assets/readme --readme README.md --check
+      - name: Component website exports remain complete
+        run: |
+          cargo run --locked --example website -- target/website-buffers
+          python3 -B tools/export-website.py target/website-buffers target/website-public
+          python3 -B tools/export-website.py target/website-buffers target/website-public --check
+          python3 -B -m unittest discover -s tests -p 'website_export_test.py'
+      - name: Render the habitat motion frames
+        run: cargo run --locked --example habitat -- --frames target/habitat-frames
+      - name: Habitat animation matches the actual buffers
+        run: python3 tools/check-animation.py target/habitat-frames assets/readme/habitat-motion.gif
+      - name: Motion demonstration tests
+        run: cargo test --locked --example motion
+      - name: Subagent roster adapter tests
+        run: cargo test --locked --example subagents
+      - name: Render explicit subagent sample states
+        run: |
+          cargo run --locked --example subagents -- --demo --frames target/subagents-frames
+          cargo run --locked --example subagents -- --demo --frames target/subagents-light-frames --profile light-truecolor
+          python3 tools/check-animation.py target/subagents-frames assets/readme/subagents-dark.gif
+          python3 tools/check-animation.py target/subagents-light-frames assets/readme/subagents-light.gif
+      - name: Native whale pet tests and actual activity buffers
+        run: |
+          cargo test --locked --test whale_pet
+          cargo run --locked --example pet -- --frames target/pet-frames
+          cargo run --locked --example pet -- --frames target/pet-light-frames --profile light-truecolor
+          python3 tools/check-animation.py target/pet-frames assets/readme/pet-dark.gif
+          python3 tools/check-animation.py target/pet-light-frames assets/readme/pet-light.gif
+      - name: Full pet surface tests and actual idle buffers
+        run: |
+          cargo test --locked --test pet_mode
+          cargo run --locked --example pet_mode -- --frames target/pet-mode-frames
+          cargo run --locked --example pet_mode -- --frames target/pet-mode-light-frames --profile light-truecolor
+          python3 tools/check-animation.py target/pet-mode-frames assets/readme/pet-mode-dark.gif
+          python3 tools/check-animation.py target/pet-mode-light-frames assets/readme/pet-mode-light.gif
+      - name: Optional animation builder parses
+        run: node --check tools/render-animation.cjs
+      - name: Render the working and verification animation frames
+        run: |
+          cargo run --locked --example motion -- --frames target/motion-frames
+          cargo run --locked --example motion -- --frames target/motion-light-frames --profile light-truecolor
+      - name: Motion animations match the actual buffers
+        run: |
+          python3 tools/check-animation.py target/motion-frames assets/readme/motion-demo.gif
+          python3 tools/check-animation.py target/motion-light-frames assets/readme/motion-demo-light.gif
+      - name: Studio interaction and scheduling tests
+        run: cargo test --locked --example showcase
+      - name: Render the native studio and all seventeen performances
+        run: |
+          cargo run --locked --example showcase -- --frames target/showcase-frames
+          cargo run --locked --example showcase -- --frames target/showcase-light-frames --profile light-truecolor
+          cargo run --locked --example showcase -- --frames target/whale-action-frames --section life
+      - name: Studio animations match the actual buffers
+        run: |
+          python3 tools/check-animation.py target/showcase-frames assets/readme/showcase.gif
+          python3 tools/check-animation.py target/showcase-light-frames assets/readme/showcase-light.gif
+          python3 tools/check-animation.py target/whale-action-frames assets/readme/whale-performance.gif
+      - name: Website motion preserves the native frames
+        run: |
+          python3 -B tools/export-web-motion.py target/website-public/motion
+          python3 -B tools/export-web-motion.py target/website-public/motion --check
+          python3 -B -m unittest discover -s tests -p 'web_motion_test.py'

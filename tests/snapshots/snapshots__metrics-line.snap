@@ -1,0 +1,142 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary bg=Background
+r0 c11..14 fg=Hint|Dim bg=Background
+r0 c14..17 fg=Muted bg=Background
+r0 c17..18 bg=Background
+r0 c18..21 fg=Primary bg=Background
+r0 c21..24 fg=Hint|Dim bg=Background
+r0 c24..29 fg=Muted bg=Background
+r0 c29..32 fg=Hint|Dim bg=Background
+r0 c32..36 fg=Muted bg=Background
+r0 c36..37 bg=Background
+r0 c37..42 fg=Muted bg=Background
+r0 c42..45 fg=Hint|Dim bg=Background
+r0 c45..53 fg=Muted bg=Background
+r0 c53..56 fg=Hint|Dim bg=Background
+r0 c56..57 fg=Muted bg=Background
+r0 c57..58 bg=Background
+r0 c58..62 fg=Muted bg=Background
+r0 c62..107 bg=Background
+r0 c107..112 fg=Hint|Dim bg=Background
+
+== dark-graphite
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary bg=Background
+r0 c11..14 fg=Hint|Dim bg=Background
+r0 c14..17 fg=Muted bg=Background
+r0 c17..18 bg=Background
+r0 c18..21 fg=Primary bg=Background
+r0 c21..24 fg=Hint|Dim bg=Background
+r0 c24..29 fg=Muted bg=Background
+r0 c29..32 fg=Hint|Dim bg=Background
+r0 c32..36 fg=Muted bg=Background
+r0 c36..37 bg=Background
+r0 c37..42 fg=Muted bg=Background
+r0 c42..45 fg=Hint|Dim bg=Background
+r0 c45..53 fg=Muted bg=Background
+r0 c53..56 fg=Hint|Dim bg=Background
+r0 c56..57 fg=Muted bg=Background
+r0 c57..58 bg=Background
+r0 c58..62 fg=Muted bg=Background
+r0 c62..107 bg=Background
+r0 c107..112 fg=Hint|Dim bg=Background
+
+== light-truecolor
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary
+r0 c11..14 fg=Hint|Dim
+r0 c14..17 fg=Muted
+r0 c18..21 fg=Primary
+r0 c21..24 fg=Hint|Dim
+r0 c24..29 fg=Muted
+r0 c29..32 fg=Hint|Dim
+r0 c32..36 fg=Muted
+r0 c37..42 fg=Muted
+r0 c42..45 fg=Hint|Dim
+r0 c45..53 fg=Muted
+r0 c53..56 fg=Hint|Dim
+r0 c56..57 fg=Muted
+r0 c58..62 fg=Muted
+r0 c107..112 fg=Hint|Dim
+
+== dark-256
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary bg=Background|DiffAddedTint
+r0 c11..14 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c14..17 fg=Muted bg=Background|DiffAddedTint
+r0 c17..18 bg=Background|DiffAddedTint
+r0 c18..21 fg=Primary bg=Background|DiffAddedTint
+r0 c21..24 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c24..29 fg=Muted bg=Background|DiffAddedTint
+r0 c29..32 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c32..36 fg=Muted bg=Background|DiffAddedTint
+r0 c36..37 bg=Background|DiffAddedTint
+r0 c37..42 fg=Muted bg=Background|DiffAddedTint
+r0 c42..45 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c45..53 fg=Muted bg=Background|DiffAddedTint
+r0 c53..56 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c56..57 fg=Muted bg=Background|DiffAddedTint
+r0 c57..58 bg=Background|DiffAddedTint
+r0 c58..62 fg=Muted bg=Background|DiffAddedTint
+r0 c62..107 bg=Background|DiffAddedTint
+r0 c107..112 fg=Hint|Dim bg=Background|DiffAddedTint
+
+== light-256
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary
+r0 c11..17 fg=Muted|Hint|Dim
+r0 c18..21 fg=Primary
+r0 c21..36 fg=Muted|Hint|Dim
+r0 c37..57 fg=Muted|Hint|Dim
+r0 c58..62 fg=Muted|Hint|Dim
+r0 c107..112 fg=Muted|Hint|Dim
+
+== ansi-16
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary
+r0 c11..17 dim
+r0 c18..21 fg=Primary
+r0 c21..36 dim
+r0 c37..57 dim
+r0 c58..62 dim
+r0 c107..112 dim
+
+== unknown-ground
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c0..11 fg=Primary
+r0 c11..17 dim
+r0 c18..21 fg=Primary
+r0 c21..36 dim
+r0 c37..57 dim
+r0 c58..62 dim
+r0 c107..112 dim
+
+== no-color
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                                             /help
+---
+r0 c11..17 dim
+r0 c21..36 dim
+r0 c37..57 dim
+r0 c58..62 dim
+r0 c107..112 dim
+
+== ascii
+deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   v 1.2K                                             /help
+---
+r0 c11..17 dim
+r0 c21..36 dim
+r0 c37..57 dim
+r0 c58..62 dim
+r0 c107..112 dim

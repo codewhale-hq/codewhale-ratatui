@@ -1,0 +1,97 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(5, paint_empty_list)"
+---
+== dark-truecolor · 40x5
+
+          ○ No saved sessions
+        Start one with a message
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..10 bg=Background
+r1 c10..12 fg=Muted bg=Background
+r1 c12..29 fg=Foreground bg=Background bold
+r1 c29..40 bg=Background
+r2 c0..8 bg=Background
+r2 c8..32 fg=Primary bg=Background
+r2 c32..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..40 bg=Background
+
+== dark-truecolor · 80x5
+
+                              ○ No saved sessions
+                            Start one with a message
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..30 bg=Background
+r1 c30..32 fg=Muted bg=Background
+r1 c32..49 fg=Foreground bg=Background bold
+r1 c49..80 bg=Background
+r2 c0..28 bg=Background
+r2 c28..52 fg=Primary bg=Background
+r2 c52..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+
+== dark-truecolor · 120x5
+
+                                                  ○ No saved sessions
+                                                Start one with a message
+
+
+---
+r0 c0..120 bg=Background
+r1 c0..50 bg=Background
+r1 c50..52 fg=Muted bg=Background
+r1 c52..69 fg=Foreground bg=Background bold
+r1 c69..120 bg=Background
+r2 c0..48 bg=Background
+r2 c48..72 fg=Primary bg=Background
+r2 c72..120 bg=Background
+r3 c0..120 bg=Background
+r4 c0..120 bg=Background
+
+== no-color · 40x5
+
+          ○ No saved sessions
+        Start one with a message
+
+
+
+== no-color · 80x5
+
+                              ○ No saved sessions
+                            Start one with a message
+
+
+
+== no-color · 120x5
+
+                                                  ○ No saved sessions
+                                                Start one with a message
+
+
+
+== ascii · 40x5
+
+          o No saved sessions
+        Start one with a message
+
+
+
+== ascii · 80x5
+
+                              o No saved sessions
+                            Start one with a message
+
+
+
+== ascii · 120x5
+
+                                                  o No saved sessions
+                                                Start one with a message

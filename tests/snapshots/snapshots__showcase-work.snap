@@ -1,0 +1,924 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r0 c0..104 fg=Foreground bg=#0e253d
+r1 c0..1 fg=Primary bg=#0d253c bold
+r1 c1..104 fg=Foreground bg=#0d253c
+r2 c0..104 fg=Foreground bg=#0c243a
+r3 c0..1 fg=Primary bg=#0c2339 bold
+r3 c1..104 fg=Foreground bg=#0c2339
+r4 c0..2 fg=Hint|Dim bg=#0d2238
+r4 c2..104 fg=Foreground bg=#0d2238
+r5 c0..2 fg=Hint|Dim bg=#0d2137
+r5 c2..104 fg=Foreground bg=#0d2137
+r6 c0..2 fg=Hint|Dim bg=#0c2136
+r6 c2..104 fg=Foreground bg=#0c2136
+r7 c0..104 fg=Foreground bg=#0c2034
+r8 c0..1 fg=Live bg=#0b1f33
+r8 c1..28 fg=Foreground bg=#0b1f33
+r8 c28..31 fg=Border bg=#0b1f33
+r8 c31..34 fg=Muted bg=#0b1f33
+r8 c34..104 fg=Foreground bg=#0b1f33
+r9 c0..104 fg=Foreground bg=#0b1e32
+r10 c0..104 fg=Foreground bg=#0b1e30
+r11 c0..86 fg=Foreground bg=#0b1d2f
+r11 c86..91 fg=Hint|Dim bg=#0b1d2f
+r11 c91..104 fg=Foreground bg=#0b1d2f
+r12 c0..86 fg=Foreground bg=#0a1c2e
+r12 c86..91 fg=Hint|Dim bg=#0a1c2e
+r12 c91..104 fg=Foreground bg=#0a1c2e
+r13 c0..86 fg=Foreground bg=#0a1b2e
+r13 c86..91 fg=Hint|Dim bg=#0a1b2e
+r13 c91..104 fg=Foreground bg=#0a1b2e
+r14 c0..33 fg=Foreground bg=#091a2c
+r14 c33..34 fg=Hint|Dim bg=#091a2c
+r14 c34..104 fg=Foreground bg=#091a2c
+r15 c0..104 fg=Foreground bg=#091a2b
+r16 c0..67 fg=Foreground bg=#09182a
+r16 c67..71 fg=Hint|Dim bg=#09182a
+r16 c71..104 fg=Foreground bg=#09182a
+r17 c0..70 fg=Foreground bg=#091828
+r17 c70..74 fg=Primary bg=#091828
+r17 c74..104 fg=Foreground bg=#091828
+r18 c0..64 fg=Foreground bg=#091828
+r18 c64..68 fg=Hint|Dim bg=#091828
+r18 c68..86 fg=Foreground bg=#091828
+r18 c86..87 fg=Hint|Dim bg=#091828
+r18 c87..104 fg=Foreground bg=#091828
+r19 c0..104 fg=Foreground bg=#081726
+r20 c0..104 fg=Primary bg=#071724
+r21 c0..2 fg=Primary bg=#071524
+r21 c2..99 fg=Foreground bg=#071524
+r21 c99..102 fg=Primary bg=#071524 bold
+r21 c102..103 fg=Foreground bg=#071524
+r21 c103..104 fg=Primary bg=#071524
+r22 c0..104 fg=Primary bg=#071522
+r23 c0..1 fg=Foreground bg=#071522
+r23 c1..6 fg=#e09948 bg=#071522 bold
+r23 c6..20 fg=Hint|Dim bg=#071522
+r23 c20..24 fg=#7eb4e8 bg=#071522
+r23 c24..27 fg=Hint|Dim bg=#071522
+r23 c27..38 fg=Live bg=#071522
+r23 c38..57 fg=Hint|Dim bg=#071522
+r23 c57..104 fg=Foreground bg=#071522
+r24 c0..1 fg=Foreground bg=#071522
+r24 c1..12 fg=Muted bg=#071522
+r24 c12..15 fg=Hint|Dim bg=#071522
+r24 c15..18 fg=Muted bg=#071522
+r24 c18..19 fg=Foreground bg=#071522
+r24 c19..22 fg=Muted bg=#071522
+r24 c22..25 fg=Hint|Dim bg=#071522
+r24 c25..42 fg=Muted bg=#071522
+r24 c42..45 fg=Hint|Dim bg=#071522
+r24 c45..59 fg=Muted bg=#071522
+r24 c59..90 fg=Foreground bg=#071522
+r24 c90..103 fg=Hint|Dim bg=#071522
+r24 c103..104 fg=Foreground bg=#071522
+r25 c0..104 fg=Border bg=#071522
+r26 c0..1 fg=Foreground bg=#071522
+r26 c1..10 fg=Foreground bg=Selected bold
+r26 c10..12 fg=Foreground bg=#071522
+r26 c12..21 fg=Muted bg=#071522
+r26 c21..23 fg=Foreground bg=#071522
+r26 c23..31 fg=Muted bg=#071522
+r26 c31..33 fg=Foreground bg=#071522
+r26 c33..42 fg=Muted bg=#071522
+r26 c42..44 fg=Foreground bg=#071522
+r26 c44..53 fg=Muted bg=#071522
+r26 c53..55 fg=Foreground bg=#071522
+r26 c55..64 fg=Muted bg=#071522
+r26 c64..66 fg=Foreground bg=#071522
+r26 c66..71 fg=Muted bg=#071522
+r26 c71..73 fg=Foreground bg=#071522
+r26 c73..79 fg=Muted bg=#071522
+r26 c79..101 fg=Foreground bg=#071522
+r26 c101..104 fg=Hint|Dim bg=#071522
+r27 c0..1 fg=Foreground bg=#071522
+r27 c1..46 fg=Live bg=#071522 bold
+r27 c46..103 fg=Muted bg=#071522
+r27 c103..104 fg=Foreground bg=#071522
+r28 c0..1 fg=Foreground bg=#071522
+r28 c1..103 fg=#9bd66f bg=#071522
+r28 c103..104 fg=Foreground bg=#071522
+r29 c0..1 fg=Foreground bg=#071522
+r29 c1..103 fg=Live bg=#071522
+r29 c103..104 fg=Foreground bg=#071522
+
+== dark-graphite
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r0 c0..104 fg=Foreground bg=#0e253d
+r1 c0..1 fg=Primary bg=#0d253c bold
+r1 c1..104 fg=Foreground bg=#0d253c
+r2 c0..104 fg=Foreground bg=#0c243a
+r3 c0..1 fg=Primary bg=#0c2339 bold
+r3 c1..104 fg=Foreground bg=#0c2339
+r4 c0..2 fg=Hint|Dim bg=#0d2238
+r4 c2..104 fg=Foreground bg=#0d2238
+r5 c0..2 fg=Hint|Dim bg=#0d2137
+r5 c2..104 fg=Foreground bg=#0d2137
+r6 c0..2 fg=Hint|Dim bg=#0c2136
+r6 c2..104 fg=Foreground bg=#0c2136
+r7 c0..104 fg=Foreground bg=#0c2034
+r8 c0..1 fg=Live bg=#0b1f33
+r8 c1..28 fg=Foreground bg=#0b1f33
+r8 c28..31 fg=Border bg=#0b1f33
+r8 c31..34 fg=Muted bg=#0b1f33
+r8 c34..104 fg=Foreground bg=#0b1f33
+r9 c0..104 fg=Foreground bg=#0b1e32
+r10 c0..104 fg=Foreground bg=#0b1e30
+r11 c0..86 fg=Foreground bg=#0b1d2f
+r11 c86..91 fg=Hint|Dim bg=#0b1d2f
+r11 c91..104 fg=Foreground bg=#0b1d2f
+r12 c0..86 fg=Foreground bg=#0a1c2e
+r12 c86..91 fg=Hint|Dim bg=#0a1c2e
+r12 c91..104 fg=Foreground bg=#0a1c2e
+r13 c0..86 fg=Foreground bg=#0a1b2e
+r13 c86..91 fg=Hint|Dim bg=#0a1b2e
+r13 c91..104 fg=Foreground bg=#0a1b2e
+r14 c0..33 fg=Foreground bg=#091a2c
+r14 c33..34 fg=Hint|Dim bg=#091a2c
+r14 c34..104 fg=Foreground bg=#091a2c
+r15 c0..104 fg=Foreground bg=#091a2b
+r16 c0..67 fg=Foreground bg=#09182a
+r16 c67..71 fg=Hint|Dim bg=#09182a
+r16 c71..104 fg=Foreground bg=#09182a
+r17 c0..70 fg=Foreground bg=#091828
+r17 c70..74 fg=Primary bg=#091828
+r17 c74..104 fg=Foreground bg=#091828
+r18 c0..64 fg=Foreground bg=#091828
+r18 c64..68 fg=Hint|Dim bg=#091828
+r18 c68..86 fg=Foreground bg=#091828
+r18 c86..87 fg=Hint|Dim bg=#091828
+r18 c87..104 fg=Foreground bg=#091828
+r19 c0..104 fg=Foreground bg=#081726
+r20 c0..104 fg=Primary bg=#071724
+r21 c0..2 fg=Primary bg=#071524
+r21 c2..99 fg=Foreground bg=#071524
+r21 c99..102 fg=Primary bg=#071524 bold
+r21 c102..103 fg=Foreground bg=#071524
+r21 c103..104 fg=Primary bg=#071524
+r22 c0..104 fg=Primary bg=#071522
+r23 c0..1 fg=Foreground bg=#071522
+r23 c1..6 fg=#e09948 bg=#071522 bold
+r23 c6..20 fg=Hint|Dim bg=#071522
+r23 c20..24 fg=#7eb4e8 bg=#071522
+r23 c24..27 fg=Hint|Dim bg=#071522
+r23 c27..38 fg=Live bg=#071522
+r23 c38..57 fg=Hint|Dim bg=#071522
+r23 c57..104 fg=Foreground bg=#071522
+r24 c0..1 fg=Foreground bg=#071522
+r24 c1..12 fg=Muted bg=#071522
+r24 c12..15 fg=Hint|Dim bg=#071522
+r24 c15..18 fg=Muted bg=#071522
+r24 c18..19 fg=Foreground bg=#071522
+r24 c19..22 fg=Muted bg=#071522
+r24 c22..25 fg=Hint|Dim bg=#071522
+r24 c25..42 fg=Muted bg=#071522
+r24 c42..45 fg=Hint|Dim bg=#071522
+r24 c45..59 fg=Muted bg=#071522
+r24 c59..90 fg=Foreground bg=#071522
+r24 c90..103 fg=Hint|Dim bg=#071522
+r24 c103..104 fg=Foreground bg=#071522
+r25 c0..104 fg=Border bg=#071522
+r26 c0..1 fg=Foreground bg=#071522
+r26 c1..10 fg=Foreground bg=Selected bold
+r26 c10..12 fg=Foreground bg=#071522
+r26 c12..21 fg=Muted bg=#071522
+r26 c21..23 fg=Foreground bg=#071522
+r26 c23..31 fg=Muted bg=#071522
+r26 c31..33 fg=Foreground bg=#071522
+r26 c33..42 fg=Muted bg=#071522
+r26 c42..44 fg=Foreground bg=#071522
+r26 c44..53 fg=Muted bg=#071522
+r26 c53..55 fg=Foreground bg=#071522
+r26 c55..64 fg=Muted bg=#071522
+r26 c64..66 fg=Foreground bg=#071522
+r26 c66..71 fg=Muted bg=#071522
+r26 c71..73 fg=Foreground bg=#071522
+r26 c73..79 fg=Muted bg=#071522
+r26 c79..101 fg=Foreground bg=#071522
+r26 c101..104 fg=Hint|Dim bg=#071522
+r27 c0..1 fg=Foreground bg=#071522
+r27 c1..46 fg=Live bg=#071522 bold
+r27 c46..103 fg=Muted bg=#071522
+r27 c103..104 fg=Foreground bg=#071522
+r28 c0..1 fg=Foreground bg=#071522
+r28 c1..103 fg=#9bd66f bg=#071522
+r28 c103..104 fg=Foreground bg=#071522
+r29 c0..1 fg=Foreground bg=#071522
+r29 c1..103 fg=Live bg=#071522
+r29 c103..104 fg=Foreground bg=#071522
+
+== light-truecolor
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+
+
+
+
+
+
+
+
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r0 c0..104 fg=Foreground
+r1 c0..1 fg=Primary bold
+r1 c1..104 fg=Foreground
+r2 c0..104 fg=Foreground
+r3 c0..1 fg=Primary bold
+r3 c1..104 fg=Foreground
+r4 c0..2 fg=Hint|Dim
+r4 c2..104 fg=Foreground
+r5 c0..2 fg=Hint|Dim
+r5 c2..104 fg=Foreground
+r6 c0..2 fg=Hint|Dim
+r6 c2..104 fg=Foreground
+r7 c0..104 fg=Foreground
+r8 c0..1 fg=Live
+r8 c1..28 fg=Foreground
+r8 c28..31 fg=Border
+r8 c31..34 fg=Muted
+r8 c34..104 fg=Foreground
+r9 c0..104 fg=Foreground
+r10 c0..104 fg=Foreground
+r11 c0..104 fg=Foreground
+r12 c0..104 fg=Foreground
+r13 c0..104 fg=Foreground
+r14 c0..104 fg=Foreground
+r15 c0..104 fg=Foreground
+r16 c0..104 fg=Foreground
+r17 c0..104 fg=Foreground
+r18 c0..104 fg=Foreground
+r19 c0..104 fg=Foreground
+r20 c0..104 fg=Primary
+r21 c0..2 fg=Primary
+r21 c2..99 fg=Foreground
+r21 c99..102 fg=Primary bold
+r21 c102..103 fg=Foreground
+r21 c103..104 fg=Primary
+r22 c0..104 fg=Primary
+r23 c0..1 fg=Foreground
+r23 c1..6 fg=#92400e bold
+r23 c6..20 fg=Hint|Dim
+r23 c20..24 fg=#1636b2
+r23 c24..27 fg=Hint|Dim
+r23 c27..38 fg=Live
+r23 c38..57 fg=Hint|Dim
+r23 c57..104 fg=Foreground
+r24 c0..1 fg=Foreground
+r24 c1..12 fg=Muted
+r24 c12..15 fg=Hint|Dim
+r24 c15..18 fg=Muted
+r24 c18..19 fg=Foreground
+r24 c19..22 fg=Muted
+r24 c22..25 fg=Hint|Dim
+r24 c25..42 fg=Muted
+r24 c42..45 fg=Hint|Dim
+r24 c45..59 fg=Muted
+r24 c59..90 fg=Foreground
+r24 c90..103 fg=Hint|Dim
+r24 c103..104 fg=Foreground
+r25 c0..104 fg=Border
+r26 c0..1 fg=Foreground
+r26 c1..10 fg=Foreground bg=Selected bold
+r26 c10..12 fg=Foreground
+r26 c12..21 fg=Muted
+r26 c21..23 fg=Foreground
+r26 c23..31 fg=Muted
+r26 c31..33 fg=Foreground
+r26 c33..42 fg=Muted
+r26 c42..44 fg=Foreground
+r26 c44..53 fg=Muted
+r26 c53..55 fg=Foreground
+r26 c55..64 fg=Muted
+r26 c64..66 fg=Foreground
+r26 c66..71 fg=Muted
+r26 c71..73 fg=Foreground
+r26 c73..79 fg=Muted
+r26 c79..101 fg=Foreground
+r26 c101..104 fg=Hint|Dim
+r27 c0..1 fg=Foreground
+r27 c1..46 fg=Live bold
+r27 c46..103 fg=Muted
+r27 c103..104 fg=Foreground
+r28 c0..1 fg=Foreground
+r28 c1..103 fg=#14763d
+r28 c103..104 fg=Foreground
+r29 c0..1 fg=Foreground
+r29 c1..103 fg=Live
+r29 c103..104 fg=Foreground
+
+== dark-256
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r0 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r1 c0..1 fg=Primary bg=Background|DiffAddedTint bold
+r1 c1..104 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r3 c0..1 fg=Primary bg=Background|DiffAddedTint bold
+r3 c1..104 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
+r4 c2..104 fg=Foreground bg=Background|DiffAddedTint
+r5 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
+r5 c2..104 fg=Foreground bg=Background|DiffAddedTint
+r6 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
+r6 c2..104 fg=Foreground bg=Background|DiffAddedTint
+r7 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r8 c0..1 fg=Live bg=Background|DiffAddedTint
+r8 c1..28 fg=Foreground bg=Background|DiffAddedTint
+r8 c28..31 fg=Border bg=Background|DiffAddedTint
+r8 c31..34 fg=Muted bg=Background|DiffAddedTint
+r8 c34..104 fg=Foreground bg=Background|DiffAddedTint
+r9 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r10 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r11 c0..86 fg=Foreground bg=Background|DiffAddedTint
+r11 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
+r11 c91..104 fg=Foreground bg=Background|DiffAddedTint
+r12 c0..86 fg=Foreground bg=Background|DiffAddedTint
+r12 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
+r12 c91..104 fg=Foreground bg=Background|DiffAddedTint
+r13 c0..86 fg=Foreground bg=Background|DiffAddedTint
+r13 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
+r13 c91..104 fg=Foreground bg=Background|DiffAddedTint
+r14 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r14 c33..34 fg=Hint|Dim bg=Background|DiffAddedTint
+r14 c34..104 fg=Foreground bg=Background|DiffAddedTint
+r15 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r16 c0..67 fg=Foreground bg=Background|DiffAddedTint
+r16 c67..71 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c71..104 fg=Foreground bg=Background|DiffAddedTint
+r17 c0..70 fg=Foreground bg=Background|DiffAddedTint
+r17 c70..74 fg=Primary bg=Background|DiffAddedTint
+r17 c74..104 fg=Foreground bg=Background|DiffAddedTint
+r18 c0..64 fg=Foreground bg=Background|DiffAddedTint
+r18 c64..68 fg=Hint|Dim bg=Background|DiffAddedTint
+r18 c68..86 fg=Foreground bg=Background|DiffAddedTint
+r18 c86..87 fg=Hint|Dim bg=Background|DiffAddedTint
+r18 c87..104 fg=Foreground bg=Background|DiffAddedTint
+r19 c0..104 fg=Foreground bg=Background|DiffAddedTint
+r20 c0..104 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r21 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r21 c2..99 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r21 c99..102 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r21 c102..103 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r21 c103..104 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r22 c0..104 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r23 c0..1 fg=Foreground bg=Sidebar
+r23 c1..6 fg=idx173 bg=Sidebar bold
+r23 c6..20 fg=Hint|Dim bg=Sidebar
+r23 c20..24 fg=idx110 bg=Sidebar
+r23 c24..27 fg=Hint|Dim bg=Sidebar
+r23 c27..38 fg=Live bg=Sidebar
+r23 c38..57 fg=Hint|Dim bg=Sidebar
+r23 c57..104 fg=Foreground bg=Sidebar
+r24 c0..1 fg=Foreground bg=Sidebar
+r24 c1..12 fg=Muted bg=Sidebar
+r24 c12..15 fg=Hint|Dim bg=Sidebar
+r24 c15..18 fg=Muted bg=Sidebar
+r24 c18..19 fg=Foreground bg=Sidebar
+r24 c19..22 fg=Muted bg=Sidebar
+r24 c22..25 fg=Hint|Dim bg=Sidebar
+r24 c25..42 fg=Muted bg=Sidebar
+r24 c42..45 fg=Hint|Dim bg=Sidebar
+r24 c45..59 fg=Muted bg=Sidebar
+r24 c59..90 fg=Foreground bg=Sidebar
+r24 c90..103 fg=Hint|Dim bg=Sidebar
+r24 c103..104 fg=Foreground bg=Sidebar
+r25 c0..104 fg=Border bg=Sidebar
+r26 c0..1 fg=Foreground bg=Sidebar
+r26 c1..10 fg=Foreground bg=Selected bold
+r26 c10..12 fg=Foreground bg=Sidebar
+r26 c12..21 fg=Muted bg=Sidebar
+r26 c21..23 fg=Foreground bg=Sidebar
+r26 c23..31 fg=Muted bg=Sidebar
+r26 c31..33 fg=Foreground bg=Sidebar
+r26 c33..42 fg=Muted bg=Sidebar
+r26 c42..44 fg=Foreground bg=Sidebar
+r26 c44..53 fg=Muted bg=Sidebar
+r26 c53..55 fg=Foreground bg=Sidebar
+r26 c55..64 fg=Muted bg=Sidebar
+r26 c64..66 fg=Foreground bg=Sidebar
+r26 c66..71 fg=Muted bg=Sidebar
+r26 c71..73 fg=Foreground bg=Sidebar
+r26 c73..79 fg=Muted bg=Sidebar
+r26 c79..101 fg=Foreground bg=Sidebar
+r26 c101..104 fg=Hint|Dim bg=Sidebar
+r27 c0..1 fg=Foreground bg=Sidebar
+r27 c1..46 fg=Live bg=Sidebar bold
+r27 c46..103 fg=Muted bg=Sidebar
+r27 c103..104 fg=Foreground bg=Sidebar
+r28 c0..1 fg=Foreground bg=Sidebar
+r28 c1..103 fg=idx113 bg=Sidebar
+r28 c103..104 fg=Foreground bg=Sidebar
+r29 c0..1 fg=Foreground bg=Sidebar
+r29 c1..103 fg=Live bg=Sidebar
+r29 c103..104 fg=Foreground bg=Sidebar
+
+== light-256
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+
+
+
+
+
+
+
+
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r0 c0..104 fg=Foreground
+r1 c0..1 fg=Primary bold
+r1 c1..104 fg=Foreground
+r2 c0..104 fg=Foreground
+r3 c0..1 fg=Primary bold
+r3 c1..104 fg=Foreground
+r4 c0..2 fg=Muted|Hint|Dim
+r4 c2..104 fg=Foreground
+r5 c0..2 fg=Muted|Hint|Dim
+r5 c2..104 fg=Foreground
+r6 c0..2 fg=Muted|Hint|Dim
+r6 c2..104 fg=Foreground
+r7 c0..104 fg=Foreground
+r8 c0..1 fg=Live
+r8 c1..28 fg=Foreground
+r8 c28..31 fg=Border
+r8 c31..34 fg=Muted|Hint|Dim
+r8 c34..104 fg=Foreground
+r9 c0..104 fg=Foreground
+r10 c0..104 fg=Foreground
+r11 c0..104 fg=Foreground
+r12 c0..104 fg=Foreground
+r13 c0..104 fg=Foreground
+r14 c0..104 fg=Foreground
+r15 c0..104 fg=Foreground
+r16 c0..104 fg=Foreground
+r17 c0..104 fg=Foreground
+r18 c0..104 fg=Foreground
+r19 c0..104 fg=Foreground
+r20 c0..104 fg=Primary
+r21 c0..2 fg=Primary
+r21 c2..99 fg=Foreground
+r21 c99..102 fg=Primary bold
+r21 c102..103 fg=Foreground
+r21 c103..104 fg=Primary
+r22 c0..104 fg=Primary
+r23 c0..1 fg=Foreground
+r23 c1..6 fg=Attention bold
+r23 c6..20 fg=Muted|Hint|Dim
+r23 c20..24 fg=Primary
+r23 c24..27 fg=Muted|Hint|Dim
+r23 c27..38 fg=Live
+r23 c38..57 fg=Muted|Hint|Dim
+r23 c57..104 fg=Foreground
+r24 c0..1 fg=Foreground
+r24 c1..18 fg=Muted|Hint|Dim
+r24 c18..19 fg=Foreground
+r24 c19..59 fg=Muted|Hint|Dim
+r24 c59..90 fg=Foreground
+r24 c90..103 fg=Muted|Hint|Dim
+r24 c103..104 fg=Foreground
+r25 c0..104 fg=Border
+r26 c0..1 fg=Foreground
+r26 c1..10 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r26 c10..12 fg=Foreground
+r26 c12..21 fg=Muted|Hint|Dim
+r26 c21..23 fg=Foreground
+r26 c23..31 fg=Muted|Hint|Dim
+r26 c31..33 fg=Foreground
+r26 c33..42 fg=Muted|Hint|Dim
+r26 c42..44 fg=Foreground
+r26 c44..53 fg=Muted|Hint|Dim
+r26 c53..55 fg=Foreground
+r26 c55..64 fg=Muted|Hint|Dim
+r26 c64..66 fg=Foreground
+r26 c66..71 fg=Muted|Hint|Dim
+r26 c71..73 fg=Foreground
+r26 c73..79 fg=Muted|Hint|Dim
+r26 c79..101 fg=Foreground
+r26 c101..104 fg=Muted|Hint|Dim
+r27 c0..1 fg=Foreground
+r27 c1..46 fg=Live bold
+r27 c46..103 fg=Muted|Hint|Dim
+r27 c103..104 fg=Foreground
+r28 c0..1 fg=Foreground
+r28 c1..103 fg=Live
+r28 c103..104 fg=Foreground
+r29 c0..1 fg=Foreground
+r29 c1..103 fg=Live
+r29 c103..104 fg=Foreground
+
+== ansi-16
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r1 c0..1 fg=Primary bold
+r3 c0..1 fg=Primary bold
+r4 c0..2 dim
+r5 c0..2 dim
+r6 c0..2 dim
+r8 c0..1 fg=Live
+r8 c28..34 dim
+r11 c86..91 dim
+r12 c86..91 dim
+r13 c86..91 dim
+r14 c33..34 dim
+r16 c67..71 dim
+r17 c70..74 fg=Primary
+r18 c64..68 dim
+r18 c86..87 dim
+r20 c0..104 fg=Primary
+r21 c0..2 fg=Primary
+r21 c99..102 fg=Primary bold
+r21 c103..104 fg=Primary
+r22 c0..104 fg=Primary
+r23 c1..6 fg=Attention bold
+r23 c6..20 dim
+r23 c20..24 fg=Primary
+r23 c24..27 dim
+r23 c27..38 fg=Live
+r23 c38..57 dim
+r24 c1..18 dim
+r24 c19..59 dim
+r24 c90..103 dim
+r25 c0..104 dim
+r26 c1..10 bold
+r26 c12..21 dim
+r26 c23..31 dim
+r26 c33..42 dim
+r26 c44..53 dim
+r26 c55..64 dim
+r26 c66..71 dim
+r26 c73..79 dim
+r26 c101..104 dim
+r27 c1..46 fg=Live bold
+r27 c46..103 dim
+r28 c1..103 fg=Live
+r29 c1..103 fg=Live
+
+== unknown-ground
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r1 c0..1 fg=Primary bold
+r3 c0..1 fg=Primary bold
+r4 c0..2 dim
+r5 c0..2 dim
+r6 c0..2 dim
+r8 c0..1 fg=Live
+r8 c28..34 dim
+r11 c86..91 dim
+r12 c86..91 dim
+r13 c86..91 dim
+r14 c33..34 dim
+r16 c67..71 dim
+r17 c70..74 fg=Primary
+r18 c64..68 dim
+r18 c86..87 dim
+r20 c0..104 fg=Primary
+r21 c0..2 fg=Primary
+r21 c99..102 fg=Primary bold
+r21 c103..104 fg=Primary
+r22 c0..104 fg=Primary
+r23 c1..6 fg=Attention bold
+r23 c6..20 dim
+r23 c20..24 fg=Primary
+r23 c24..27 dim
+r23 c27..38 fg=Live
+r23 c38..57 dim
+r24 c1..18 dim
+r24 c19..59 dim
+r24 c90..103 dim
+r25 c0..104 dim
+r26 c1..10 bold
+r26 c12..21 dim
+r26 c23..31 dim
+r26 c33..42 dim
+r26 c44..53 dim
+r26 c55..64 dim
+r26 c66..71 dim
+r26 c73..79 dim
+r26 c101..104 dim
+r27 c1..46 fg=Live bold
+r27 c46..103 dim
+r28 c1..103 fg=Live
+r29 c1..103 fg=Live
+
+== no-color
+
+▎ Make the session picker readable in narrow windows.
+
+● The list now keeps its search field, numbering and current-session marker.
+▏ Long titles wrap cleanly, and the selection stays visible as the window narrows.
+▏
+▏ I'm checking the compact layout before wrapping up.
+
+⣀ Checking the narrow layout · 6 s
+
+
+                                                                                      ⠴⡭⢭⠦
+                                                                                      ⢠⠃⡇
+
+                                 °
+
+                                                                   ⡰⢔⡢⠄
+                                                                      ⠐⠕⠭⠒
+                                                                ⠕⠪⠕⠂                  ·
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│❯ Also preserve the search shortcut.                                                              [↵] │
+╰↵ send after this turn ───────────────────────────────────────────────────────────────────────────────╯
+ ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+ Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
+ ✓ Preserve session selection
+ ● Refine the narrow layout
+---
+r1 c0..1 bold
+r3 c0..1 bold
+r4 c0..2 dim
+r5 c0..2 dim
+r6 c0..2 dim
+r8 c28..34 dim
+r11 c86..91 dim
+r12 c86..91 dim
+r13 c86..91 dim
+r14 c33..34 dim
+r16 c67..71 dim
+r18 c64..68 dim
+r18 c86..87 dim
+r21 c99..102 bold
+r23 c1..6 bold
+r23 c6..20 dim
+r23 c24..27 dim
+r23 c38..57 dim
+r24 c1..18 dim
+r24 c19..59 dim
+r24 c90..103 dim
+r25 c0..104 dim
+r26 c1..10 bold
+r26 c12..21 dim
+r26 c23..31 dim
+r26 c33..42 dim
+r26 c44..53 dim
+r26 c55..64 dim
+r26 c66..71 dim
+r26 c73..79 dim
+r26 c101..104 dim
+r27 c1..46 bold
+r27 c46..103 dim
+
+== ascii
+
+| Make the session picker readable in narrow windows.
+
+. The list now keeps its search field, numbering and current-session marker.
+| Long titles wrap cleanly, and the selection stays visible as the window narrows.
+|
+| I'm checking the compact layout before wrapping up.
+
+- Checking the narrow layout - 6 s
+
+
+                                                                                      .-~-.
+                                                                                      \___/
+                                                                                       / \
+                                 O
+
+
+                                                                   ><>><o>
+                                                                 ><>                  .
+
++------------------------------------------------------------------------------------------------------+
+|> Also preserve the search shortcut.                                                              [>] |
++Enter send after this turn ---------------------------------------------------------------------------+
+ . ask  Shift+Tab   work   working 6 s   Esc to interrupt
+ deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
+--------------------------------------------------------------------------------------------------------
+  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        X
+ Goal: Make session navigation feel effortless                                      TODO . 1/2 . 1 left
+ Y Preserve session selection
+ . Refine the narrow layout
+---
+r1 c0..1 bold
+r3 c0..1 bold
+r4 c0..2 dim
+r5 c0..2 dim
+r6 c0..2 dim
+r8 c28..34 dim
+r11 c86..91 dim
+r12 c86..91 dim
+r13 c86..91 dim
+r14 c33..34 dim
+r17 c67..70 dim
+r18 c65..68 dim
+r18 c86..87 dim
+r21 c99..102 bold
+r23 c1..6 bold
+r23 c6..20 dim
+r23 c24..27 dim
+r23 c38..57 dim
+r24 c1..18 dim
+r24 c19..59 dim
+r24 c90..103 dim
+r25 c0..104 dim
+r26 c1..10 bold
+r26 c12..21 dim
+r26 c23..31 dim
+r26 c33..42 dim
+r26 c44..53 dim
+r26 c55..64 dim
+r26 c66..71 dim
+r26 c73..79 dim
+r26 c101..104 dim
+r27 c1..46 bold
+r27 c46..103 dim

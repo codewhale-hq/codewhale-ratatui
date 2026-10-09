@@ -1,0 +1,85 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary bg=Background
+r0 c11..14 fg=Hint|Dim bg=Background
+r0 c14..17 fg=Muted bg=Background
+r0 c17..18 bg=Background
+r0 c18..21 fg=Primary bg=Background
+r0 c21..24 fg=Hint|Dim bg=Background
+r0 c24..29 fg=Muted bg=Background
+r0 c29..32 bg=Background
+
+== dark-graphite
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary bg=Background
+r0 c11..14 fg=Hint|Dim bg=Background
+r0 c14..17 fg=Muted bg=Background
+r0 c17..18 bg=Background
+r0 c18..21 fg=Primary bg=Background
+r0 c21..24 fg=Hint|Dim bg=Background
+r0 c24..29 fg=Muted bg=Background
+r0 c29..32 bg=Background
+
+== light-truecolor
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary
+r0 c11..14 fg=Hint|Dim
+r0 c14..17 fg=Muted
+r0 c18..21 fg=Primary
+r0 c21..24 fg=Hint|Dim
+r0 c24..29 fg=Muted
+
+== dark-256
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary bg=Background|DiffAddedTint
+r0 c11..14 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c14..17 fg=Muted bg=Background|DiffAddedTint
+r0 c17..18 bg=Background|DiffAddedTint
+r0 c18..21 fg=Primary bg=Background|DiffAddedTint
+r0 c21..24 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c24..29 fg=Muted bg=Background|DiffAddedTint
+r0 c29..32 bg=Background|DiffAddedTint
+
+== light-256
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary
+r0 c11..17 fg=Muted|Hint|Dim
+r0 c18..21 fg=Primary
+r0 c21..29 fg=Muted|Hint|Dim
+
+== ansi-16
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary
+r0 c11..17 dim
+r0 c18..21 fg=Primary
+r0 c21..29 dim
+
+== unknown-ground
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c0..11 fg=Primary
+r0 c11..17 dim
+r0 c18..21 fg=Primary
+r0 c21..29 dim
+
+== no-color
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c11..17 dim
+r0 c21..29 dim
+
+== ascii
+deepseek-v4   ctx 61%   $0.42
+---
+r0 c11..17 dim
+r0 c21..29 dim

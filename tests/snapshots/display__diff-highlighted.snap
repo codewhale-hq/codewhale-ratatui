@@ -1,0 +1,322 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x12
+@@ -10,5 +10,6 @@ fn main() {
+10   fn main() {
+11       let name = "whale";
+12 −     let depth = 1;
+12 +     let depth = 2;
+13 +     let pods = 3;
+14       println!("{name}");
+15   }
+@@ -40,3 +41,3 @@ impl Pod {
+41       fn describe(&self) -> String {
+41 −         format!("a pod of {} whale…
++6 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..40 bg=Background
+r1 c0..3 fg=Muted bg=Background
+r1 c3..4 fg=Foreground bg=Background
+r1 c4..5 bg=Background
+r1 c5..7 fg=Primary bg=Background
+r1 c7..16 fg=Foreground bg=Background
+r1 c16..40 bg=Background
+r2 c0..3 fg=Muted bg=Background
+r2 c3..4 fg=Foreground bg=Background
+r2 c4..5 bg=Background
+r2 c5..9 fg=Foreground bg=Background
+r2 c9..12 fg=Primary bg=Background
+r2 c12..20 fg=Foreground bg=Background
+r2 c20..27 fg=Muted bg=Background
+r2 c27..28 fg=Foreground bg=Background
+r2 c28..40 bg=Background
+r3 c0..3 fg=Muted bg=DiffRemovedTint
+r3 c3..4 fg=Danger bg=DiffRemovedTint bold
+r3 c4..5 bg=DiffRemovedTint
+r3 c5..23 fg=Foreground bg=DiffRemovedTint
+r3 c23..40 bg=DiffRemovedTint
+r4 c0..3 fg=Muted bg=DiffAddedTint
+r4 c3..4 fg=Live bg=DiffAddedTint bold
+r4 c4..5 bg=DiffAddedTint
+r4 c5..23 fg=Foreground bg=DiffAddedTint
+r4 c23..40 bg=DiffAddedTint
+r5 c0..3 fg=Muted bg=DiffAddedTint
+r5 c3..4 fg=Live bg=DiffAddedTint bold
+r5 c4..5 bg=DiffAddedTint
+r5 c5..22 fg=Foreground bg=DiffAddedTint
+r5 c22..40 bg=DiffAddedTint
+r6 c0..3 fg=Muted bg=Background
+r6 c3..4 fg=Foreground bg=Background
+r6 c4..5 bg=Background
+r6 c5..9 fg=Foreground bg=Background
+r6 c9..17 fg=Primary bg=Background
+r6 c17..18 fg=Foreground bg=Background
+r6 c18..26 fg=Muted bg=Background
+r6 c26..28 fg=Foreground bg=Background
+r6 c28..40 bg=Background
+r7 c0..3 fg=Muted bg=Background
+r7 c3..4 fg=Foreground bg=Background
+r7 c4..5 bg=Background
+r7 c5..6 fg=Foreground bg=Background
+r7 c6..40 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..40 bg=Background
+r9 c0..3 fg=Muted bg=Background
+r9 c3..4 fg=Foreground bg=Background
+r9 c4..5 bg=Background
+r9 c5..9 fg=Foreground bg=Background
+r9 c9..11 fg=Primary bg=Background
+r9 c11..39 fg=Foreground bg=Background
+r9 c39..40 bg=Background
+r10 c0..3 fg=Muted bg=DiffRemovedTint
+r10 c3..4 fg=Danger bg=DiffRemovedTint bold
+r10 c4..5 bg=DiffRemovedTint
+r10 c5..21 fg=Foreground bg=DiffRemovedTint
+r10 c21..40 fg=Muted bg=DiffRemovedTint
+r11 c0..7 fg=Muted bg=Background
+r11 c7..40 bg=Background
+
+== dark-truecolor · 80x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
++6 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..80 bg=Background
+r1 c0..6 fg=Muted bg=Background
+r1 c6..7 fg=Foreground bg=Background
+r1 c7..8 bg=Background
+r1 c8..10 fg=Primary bg=Background
+r1 c10..19 fg=Foreground bg=Background
+r1 c19..80 bg=Background
+r2 c0..6 fg=Muted bg=Background
+r2 c6..7 fg=Foreground bg=Background
+r2 c7..8 bg=Background
+r2 c8..12 fg=Foreground bg=Background
+r2 c12..15 fg=Primary bg=Background
+r2 c15..23 fg=Foreground bg=Background
+r2 c23..30 fg=Muted bg=Background
+r2 c30..31 fg=Foreground bg=Background
+r2 c31..80 bg=Background
+r3 c0..6 fg=Muted bg=DiffRemovedTint
+r3 c6..7 fg=Danger bg=DiffRemovedTint bold
+r3 c7..8 bg=DiffRemovedTint
+r3 c8..26 fg=Foreground bg=DiffRemovedTint
+r3 c26..80 bg=DiffRemovedTint
+r4 c0..6 fg=Muted bg=DiffAddedTint
+r4 c6..7 fg=Live bg=DiffAddedTint bold
+r4 c7..8 bg=DiffAddedTint
+r4 c8..26 fg=Foreground bg=DiffAddedTint
+r4 c26..80 bg=DiffAddedTint
+r5 c0..6 fg=Muted bg=DiffAddedTint
+r5 c6..7 fg=Live bg=DiffAddedTint bold
+r5 c7..8 bg=DiffAddedTint
+r5 c8..25 fg=Foreground bg=DiffAddedTint
+r5 c25..80 bg=DiffAddedTint
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..12 fg=Foreground bg=Background
+r6 c12..20 fg=Primary bg=Background
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..29 fg=Muted bg=Background
+r6 c29..31 fg=Foreground bg=Background
+r6 c31..80 bg=Background
+r7 c0..6 fg=Muted bg=Background
+r7 c6..7 fg=Foreground bg=Background
+r7 c7..8 bg=Background
+r7 c8..9 fg=Foreground bg=Background
+r7 c9..80 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..80 bg=Background
+r9 c0..6 fg=Muted bg=Background
+r9 c6..7 fg=Foreground bg=Background
+r9 c7..8 bg=Background
+r9 c8..12 fg=Foreground bg=Background
+r9 c12..14 fg=Primary bg=Background
+r9 c14..42 fg=Foreground bg=Background
+r9 c42..80 bg=Background
+r10 c0..6 fg=Muted bg=DiffRemovedTint
+r10 c6..7 fg=Danger bg=DiffRemovedTint bold
+r10 c7..8 bg=DiffRemovedTint
+r10 c8..24 fg=Foreground bg=DiffRemovedTint
+r10 c24..80 fg=Muted bg=DiffRemovedTint
+r11 c0..7 fg=Muted bg=Background
+r11 c7..80 bg=Background
+
+== dark-truecolor · 120x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue ocean at night", self.count)
++6 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..120 bg=Background
+r1 c0..6 fg=Muted bg=Background
+r1 c6..7 fg=Foreground bg=Background
+r1 c7..8 bg=Background
+r1 c8..10 fg=Primary bg=Background
+r1 c10..19 fg=Foreground bg=Background
+r1 c19..120 bg=Background
+r2 c0..6 fg=Muted bg=Background
+r2 c6..7 fg=Foreground bg=Background
+r2 c7..8 bg=Background
+r2 c8..12 fg=Foreground bg=Background
+r2 c12..15 fg=Primary bg=Background
+r2 c15..23 fg=Foreground bg=Background
+r2 c23..30 fg=Muted bg=Background
+r2 c30..31 fg=Foreground bg=Background
+r2 c31..120 bg=Background
+r3 c0..6 fg=Muted bg=DiffRemovedTint
+r3 c6..7 fg=Danger bg=DiffRemovedTint bold
+r3 c7..8 bg=DiffRemovedTint
+r3 c8..26 fg=Foreground bg=DiffRemovedTint
+r3 c26..120 bg=DiffRemovedTint
+r4 c0..6 fg=Muted bg=DiffAddedTint
+r4 c6..7 fg=Live bg=DiffAddedTint bold
+r4 c7..8 bg=DiffAddedTint
+r4 c8..26 fg=Foreground bg=DiffAddedTint
+r4 c26..120 bg=DiffAddedTint
+r5 c0..6 fg=Muted bg=DiffAddedTint
+r5 c6..7 fg=Live bg=DiffAddedTint bold
+r5 c7..8 bg=DiffAddedTint
+r5 c8..25 fg=Foreground bg=DiffAddedTint
+r5 c25..120 bg=DiffAddedTint
+r6 c0..6 fg=Muted bg=Background
+r6 c6..7 fg=Foreground bg=Background
+r6 c7..8 bg=Background
+r6 c8..12 fg=Foreground bg=Background
+r6 c12..20 fg=Primary bg=Background
+r6 c20..21 fg=Foreground bg=Background
+r6 c21..29 fg=Muted bg=Background
+r6 c29..31 fg=Foreground bg=Background
+r6 c31..120 bg=Background
+r7 c0..6 fg=Muted bg=Background
+r7 c6..7 fg=Foreground bg=Background
+r7 c7..8 bg=Background
+r7 c8..9 fg=Foreground bg=Background
+r7 c9..120 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..120 bg=Background
+r9 c0..6 fg=Muted bg=Background
+r9 c6..7 fg=Foreground bg=Background
+r9 c7..8 bg=Background
+r9 c8..12 fg=Foreground bg=Background
+r9 c12..14 fg=Primary bg=Background
+r9 c14..42 fg=Foreground bg=Background
+r9 c42..120 bg=Background
+r10 c0..6 fg=Muted bg=DiffRemovedTint
+r10 c6..7 fg=Danger bg=DiffRemovedTint bold
+r10 c7..8 bg=DiffRemovedTint
+r10 c8..24 fg=Foreground bg=DiffRemovedTint
+r10 c24..88 fg=Muted bg=DiffRemovedTint
+r10 c88..93 fg=Danger bg=DiffRemovedTint bold
+r10 c93..94 fg=Muted bg=DiffRemovedTint
+r10 c94..107 fg=Foreground bg=DiffRemovedTint
+r10 c107..120 bg=DiffRemovedTint
+r11 c0..7 fg=Muted bg=Background
+r11 c7..120 bg=Background
+
+== no-color · 40x12
+@@ -10,5 +10,6 @@ fn main() {
+10   fn main() {
+11       let name = "whale";
+12 −     let depth = 1;
+12 +     let depth = 2;
+13 +     let pods = 3;
+14       println!("{name}");
+15   }
+@@ -40,3 +41,3 @@ impl Pod {
+41       fn describe(&self) -> String {
+41 −         format!("a pod of {} whale…
++6 more
+
+== no-color · 80x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue …
++6 more
+
+== no-color · 120x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    −     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    −         format!("a pod of {} whales swimming together in the deep blue ocean at night", self.count)
++6 more
+
+== ascii · 40x12
+@@ -10,5 +10,6 @@ fn main() {
+10   fn main() {
+11       let name = "whale";
+12 -     let depth = 1;
+12 +     let depth = 2;
+13 +     let pods = 3;
+14       println!("{name}");
+15   }
+@@ -40,3 +41,3 @@ impl Pod {
+41       fn describe(&self) -> String {
+41 -         format!("a pod of {} wha...
++2 more
+
+== ascii · 80x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    -     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    -         format!("a pod of {} whales swimming together in the deep blu...
++2 more
+
+== ascii · 120x12
+@@ -10,5 +10,6 @@ fn main() {
+10 10   fn main() {
+11 11       let name = "whale";
+12    -     let depth = 1;
+   12 +     let depth = 2;
+   13 +     let pods = 3;
+13 14       println!("{name}");
+14 15   }
+@@ -40,3 +41,3 @@ impl Pod {
+40 41       fn describe(&self) -> String {
+41    -         format!("a pod of {} whales swimming together in the deep blue ocean at night", self.count)
++2 more

@@ -1,0 +1,165 @@
+---
+source: tests/approval.rs
+expression: "testing::snapshot(8, paint)"
+---
+== dark-truecolor · 40x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+---
+r0 c0..2 fg=Attention bg=Background
+r0 c2..14 fg=Foreground bg=Background bold
+r0 c14..17 fg=Border bg=Background
+r0 c17..28 fg=Muted bg=Background
+r0 c28..40 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..22 fg=Foreground bg=Background bold
+r1 c22..40 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..33 fg=Foreground bg=Background
+r2 c33..40 bg=Background
+r3 c0..10 fg=Foreground bg=Background bold
+r3 c10..40 bg=Background
+r4 c0..1 fg=Foreground bg=Background bold
+r4 c1..2 bg=Background
+r4 c2..12 fg=Muted bg=Background
+r4 c12..15 fg=Border bg=Background
+r4 c15..16 fg=Foreground bg=Background bold
+r4 c16..17 bg=Background
+r4 c17..21 fg=Muted bg=Background
+r4 c21..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+
+== dark-truecolor · 80x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+---
+r0 c0..2 fg=Attention bg=Background
+r0 c2..14 fg=Foreground bg=Background bold
+r0 c14..17 fg=Border bg=Background
+r0 c17..28 fg=Muted bg=Background
+r0 c28..80 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..22 fg=Foreground bg=Background bold
+r1 c22..80 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..33 fg=Foreground bg=Background
+r2 c33..80 bg=Background
+r3 c0..10 fg=Foreground bg=Background bold
+r3 c10..80 bg=Background
+r4 c0..1 fg=Foreground bg=Background bold
+r4 c1..2 bg=Background
+r4 c2..12 fg=Muted bg=Background
+r4 c12..15 fg=Border bg=Background
+r4 c15..16 fg=Foreground bg=Background bold
+r4 c16..17 bg=Background
+r4 c17..21 fg=Muted bg=Background
+r4 c21..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+
+== dark-truecolor · 120x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+---
+r0 c0..2 fg=Attention bg=Background
+r0 c2..14 fg=Foreground bg=Background bold
+r0 c14..17 fg=Border bg=Background
+r0 c17..28 fg=Muted bg=Background
+r0 c28..120 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..22 fg=Foreground bg=Background bold
+r1 c22..120 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..33 fg=Foreground bg=Background
+r2 c33..120 bg=Background
+r3 c0..10 fg=Foreground bg=Background bold
+r3 c10..120 bg=Background
+r4 c0..1 fg=Foreground bg=Background bold
+r4 c1..2 bg=Background
+r4 c2..12 fg=Muted bg=Background
+r4 c12..15 fg=Border bg=Background
+r4 c15..16 fg=Foreground bg=Background bold
+r4 c16..17 bg=Background
+r4 c17..21 fg=Muted bg=Background
+r4 c21..120 bg=Background
+r5 c0..120 bg=Background
+r6 c0..120 bg=Background
+r7 c0..120 bg=Background
+
+== no-color · 40x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+
+== no-color · 80x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+
+== no-color · 120x8
+◆ Held for you · Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+
+
+
+== ascii · 40x8
+* Held for you - Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once  n deny
+
+
+
+
+== ascii · 80x8
+* Held for you - Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once  n deny
+
+
+
+
+== ascii · 120x8
+* Held for you - Auto-Review
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once  n deny

@@ -1,0 +1,218 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(6, segmenteds)"
+---
+== dark-truecolor · 40x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+[On]  Off
+Redu… (2 of 3)
+High contrast (4 of 5)
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..3 fg=Foreground bg=Background bold underline
+r3 c3..4 fg=Foreground bg=Background
+r3 c4..6 bg=Background
+r3 c6..9 fg=Muted bg=Background
+r3 c9..40 bg=Background
+r4 c0..5 fg=Foreground bg=Background bold
+r4 c5..14 fg=Muted bg=Background
+r4 c14..40 bg=Background
+r5 c0..13 fg=Foreground bg=Background bold
+r5 c13..22 fg=Muted bg=Background
+r5 c22..40 bg=Background
+
+== dark-truecolor · 80x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Redu… (2 of 3)
+ Light   Dark   System  [High contrast]  Auto
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..80 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..43 fg=Muted bg=Background
+r2 c43..80 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..3 fg=Foreground bg=Background bold underline
+r3 c3..4 fg=Foreground bg=Background
+r3 c4..6 bg=Background
+r3 c6..9 fg=Muted bg=Background
+r3 c9..80 bg=Background
+r4 c0..5 fg=Foreground bg=Background bold
+r4 c5..14 fg=Muted bg=Background
+r4 c14..80 bg=Background
+r5 c0..1 bg=Background
+r5 c1..6 fg=Muted bg=Background
+r5 c6..9 bg=Background
+r5 c9..13 fg=Muted bg=Background
+r5 c13..16 bg=Background
+r5 c16..22 fg=Muted bg=Background
+r5 c22..24 bg=Background
+r5 c24..25 fg=Foreground bg=Background
+r5 c25..38 fg=Foreground bg=Background bold underline
+r5 c38..39 fg=Foreground bg=Background
+r5 c39..41 bg=Background
+r5 c41..45 fg=Muted bg=Background
+r5 c45..80 bg=Background
+
+== dark-truecolor · 120x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Redu… (2 of 3)
+ Light   Dark   System  [High contrast]  Auto
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..120 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..120 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..43 fg=Muted bg=Background
+r2 c43..120 bg=Background
+r3 c0..1 fg=Foreground bg=Background
+r3 c1..3 fg=Foreground bg=Background bold underline
+r3 c3..4 fg=Foreground bg=Background
+r3 c4..6 bg=Background
+r3 c6..9 fg=Muted bg=Background
+r3 c9..120 bg=Background
+r4 c0..5 fg=Foreground bg=Background bold
+r4 c5..14 fg=Muted bg=Background
+r4 c14..120 bg=Background
+r5 c0..1 bg=Background
+r5 c1..6 fg=Muted bg=Background
+r5 c6..9 bg=Background
+r5 c9..13 fg=Muted bg=Background
+r5 c13..16 bg=Background
+r5 c16..22 fg=Muted bg=Background
+r5 c22..24 bg=Background
+r5 c24..25 fg=Foreground bg=Background
+r5 c25..38 fg=Foreground bg=Background bold underline
+r5 c38..39 fg=Foreground bg=Background
+r5 c39..41 bg=Background
+r5 c41..45 fg=Muted bg=Background
+r5 c45..120 bg=Background
+
+== no-color · 40x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+[On]  Off
+Redu… (2 of 3)
+High contrast (4 of 5)
+
+== no-color · 80x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Redu… (2 of 3)
+ Light   Dark   System  [High contrast]  Auto
+
+== no-color · 120x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Redu… (2 of 3)
+ Light   Dark   System  [High contrast]  Auto
+
+== ascii · 40x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by...
+[On]  Off
+Re... (2 of 3)
+High contrast (4 of 5)
+
+== ascii · 80x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Re... (2 of 3)
+ Light   Dark   System  [High contrast]  Auto
+
+== ascii · 120x6
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your admin
+[On]  Off
+Re... (2 of 3)
+ Light   Dark   System  [High contrast]  Auto

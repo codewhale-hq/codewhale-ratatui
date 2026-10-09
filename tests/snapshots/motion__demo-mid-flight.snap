@@ -1,0 +1,84 @@
+---
+source: tests/motion.rs
+expression: "testing::snapshot(3, demo(t0, MotionMode::Full, ms(100)))"
+---
+== dark-truecolor · 40x3
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
+
+== dark-truecolor · 80x3
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..80 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..80 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..80 bg=Background
+
+== dark-truecolor · 120x3
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..120 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..120 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..120 bg=Background
+
+== no-color · 40x3
+✓ Done
+                      ▸ Selected
+patch applied to
+
+== no-color · 80x3
+✓ Done
+                      ▸ Selected
+patch applied to
+
+== no-color · 120x3
+✓ Done
+                      ▸ Selected
+patch applied to
+
+== ascii · 40x3
+Y Done
+                      > Selected
+patch applied to
+
+== ascii · 80x3
+Y Done
+                      > Selected
+patch applied to
+
+== ascii · 120x3
+Y Done
+                      > Selected
+patch applied to

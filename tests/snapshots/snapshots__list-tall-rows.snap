@@ -1,0 +1,279 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c0..2 bg=Background
+r0 c2..11 fg=Foreground bg=Background
+r0 c11..24 bg=Background
+r0 c24..27 fg=Muted bg=Background
+r0 c27..63 bg=Background
+r0 c63..64 fg=Foreground bg=Background
+r1 c0..2 bg=Background
+r1 c2..46 fg=Muted bg=Background
+r1 c46..63 bg=Background
+r1 c63..64 fg=Foreground bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..9 fg=Foreground bg=Selected bold
+r2 c9..24 bg=Selected
+r2 c24..33 fg=Muted bg=Selected
+r2 c33..62 bg=Selected
+r2 c62..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Selected
+r3 c2..28 fg=Muted bg=Selected
+r3 c28..62 bg=Selected
+r3 c62..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..2 bg=Background
+r4 c2..9 fg=Foreground bg=Background
+r4 c9..24 bg=Background
+r4 c24..27 fg=Muted bg=Background
+r4 c27..63 bg=Background
+r4 c63..64 fg=Foreground bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Muted bg=Background
+r5 c38..63 bg=Background
+r5 c63..64 fg=Foreground bg=Background
+
+== dark-graphite
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c0..2 bg=Background
+r0 c2..11 fg=Foreground bg=Background
+r0 c11..24 bg=Background
+r0 c24..27 fg=Muted bg=Background
+r0 c27..63 bg=Background
+r0 c63..64 fg=Foreground bg=Background
+r1 c0..2 bg=Background
+r1 c2..46 fg=Muted bg=Background
+r1 c46..63 bg=Background
+r1 c63..64 fg=Foreground bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..9 fg=Foreground bg=Selected bold
+r2 c9..24 bg=Selected
+r2 c24..33 fg=Muted bg=Selected
+r2 c33..62 bg=Selected
+r2 c62..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Selected
+r3 c2..28 fg=Muted bg=Selected
+r3 c28..62 bg=Selected
+r3 c62..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..2 bg=Background
+r4 c2..9 fg=Foreground bg=Background
+r4 c9..24 bg=Background
+r4 c24..27 fg=Muted bg=Background
+r4 c27..63 bg=Background
+r4 c63..64 fg=Foreground bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Muted bg=Background
+r5 c38..63 bg=Background
+r5 c63..64 fg=Foreground bg=Background
+
+== light-truecolor
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c0..2 bg=Background
+r0 c2..11 fg=Foreground bg=Background
+r0 c11..24 bg=Background
+r0 c24..27 fg=Muted bg=Background
+r0 c27..63 bg=Background
+r0 c63..64 fg=Foreground bg=Background
+r1 c0..2 bg=Background
+r1 c2..46 fg=Muted bg=Background
+r1 c46..63 bg=Background
+r1 c63..64 fg=Foreground bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..9 fg=Foreground bg=Selected bold
+r2 c9..24 bg=Selected
+r2 c24..33 fg=Muted bg=Selected
+r2 c33..62 bg=Selected
+r2 c62..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Selected
+r3 c2..28 fg=Muted bg=Selected
+r3 c28..62 bg=Selected
+r3 c62..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..2 bg=Background
+r4 c2..9 fg=Foreground bg=Background
+r4 c9..24 bg=Background
+r4 c24..27 fg=Muted bg=Background
+r4 c27..63 bg=Background
+r4 c63..64 fg=Foreground bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Muted bg=Background
+r5 c38..63 bg=Background
+r5 c63..64 fg=Foreground bg=Background
+
+== dark-256
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c0..2 bg=Background
+r0 c2..11 fg=Foreground bg=Background
+r0 c11..24 bg=Background
+r0 c24..27 fg=Muted bg=Background
+r0 c27..63 bg=Background
+r0 c63..64 fg=Foreground bg=Background
+r1 c0..2 bg=Background
+r1 c2..46 fg=Muted bg=Background
+r1 c46..63 bg=Background
+r1 c63..64 fg=Foreground bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..9 fg=Foreground bg=Selected bold
+r2 c9..24 bg=Selected
+r2 c24..33 fg=Muted bg=Selected
+r2 c33..62 bg=Selected
+r2 c62..63 bg=Background
+r2 c63..64 fg=Foreground bg=Background
+r3 c0..2 bg=Selected
+r3 c2..28 fg=Muted bg=Selected
+r3 c28..62 bg=Selected
+r3 c62..63 bg=Background
+r3 c63..64 fg=Foreground bg=Background
+r4 c0..2 bg=Background
+r4 c2..9 fg=Foreground bg=Background
+r4 c9..24 bg=Background
+r4 c24..27 fg=Muted bg=Background
+r4 c27..63 bg=Background
+r4 c63..64 fg=Foreground bg=Background
+r5 c0..2 bg=Background
+r5 c2..38 fg=Muted bg=Background
+r5 c38..63 bg=Background
+r5 c63..64 fg=Foreground bg=Background
+
+== light-256
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..11 fg=Foreground bg=Background|Surface
+r0 c11..24 bg=Background|Surface
+r0 c24..27 fg=Muted bg=Background|Surface
+r0 c27..63 bg=Background|Surface
+r0 c63..64 fg=Foreground bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..46 fg=Muted bg=Background|Surface
+r1 c46..63 bg=Background|Surface
+r1 c63..64 fg=Foreground bg=Background|Surface
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..9 fg=Foreground bg=Selected bold
+r2 c9..24 bg=Selected
+r2 c24..33 fg=Muted bg=Selected
+r2 c33..62 bg=Selected
+r2 c62..63 bg=Background|Surface
+r2 c63..64 fg=Foreground bg=Background|Surface
+r3 c0..2 bg=Selected
+r3 c2..28 fg=Muted bg=Selected
+r3 c28..62 bg=Selected
+r3 c62..63 bg=Background|Surface
+r3 c63..64 fg=Foreground bg=Background|Surface
+r4 c0..2 bg=Background|Surface
+r4 c2..9 fg=Foreground bg=Background|Surface
+r4 c9..24 bg=Background|Surface
+r4 c24..27 fg=Muted bg=Background|Surface
+r4 c27..63 bg=Background|Surface
+r4 c63..64 fg=Foreground bg=Background|Surface
+r5 c0..2 bg=Background|Surface
+r5 c2..38 fg=Muted bg=Background|Surface
+r5 c38..63 bg=Background|Surface
+r5 c63..64 fg=Foreground bg=Background|Surface
+
+== ansi-16
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c24..27 dim
+r1 c2..46 dim
+r2 c0..1 fg=Primary
+r2 c2..9 bold
+r2 c24..33 dim
+r3 c2..28 dim
+r4 c24..27 dim
+r5 c2..38 dim
+
+== unknown-ground
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c24..27 dim
+r1 c2..46 dim
+r2 c0..1 fg=Primary
+r2 c2..9 bold
+r2 c24..33 dim
+r3 c2..28 dim
+r4 c24..27 dim
+r5 c2..38 dim
+
+== no-color
+  Approvals             Ask                                    █
+  When the agent may run a command without you                 █
+▸ Sandbox               Workspace                              █
+  Where files can be written                                   █
+  Network               Off                                    █
+  Whether tools can reach the internet                         █
+---
+r0 c24..27 dim
+r1 c2..46 dim
+r2 c2..9 bold
+r2 c24..33 dim
+r3 c2..28 dim
+r4 c24..27 dim
+r5 c2..38 dim
+
+== ascii
+  Approvals             Ask                                    #
+  When the agent may run a command without you                 #
+> Sandbox               Workspace                              #
+  Where files can be written                                   #
+  Network               Off                                    #
+  Whether tools can reach the internet                         #
+---
+r0 c24..27 dim
+r1 c2..46 dim
+r2 c2..9 bold
+r2 c24..33 dim
+r3 c2..28 dim
+r4 c24..27 dim
+r5 c2..38 dim

@@ -1,0 +1,377 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r0 c0..64 bg=Background
+r1 c0..28 bg=Background
+r1 c28..34 fg=Primary bg=Background
+r1 c34..64 bg=Background
+r2 c0..27 bg=Background
+r2 c27..35 fg=Primary bg=Background
+r2 c35..64 bg=Background
+r3 c0..26 bg=Background
+r3 c26..29 fg=Primary bg=Background
+r3 c29..32 bg=Background
+r3 c32..38 fg=Primary bg=Background
+r3 c38..64 bg=Background
+r4 c0..26 bg=Background
+r4 c26..38 fg=Primary bg=Background
+r4 c38..64 bg=Background
+r5 c0..27 bg=Background
+r5 c27..34 fg=Primary bg=Background
+r5 c34..35 bg=Background
+r5 c35..37 fg=Primary bg=Background
+r5 c37..64 bg=Background
+r6 c0..30 bg=Background
+r6 c30..35 fg=Primary bg=Background
+r6 c35..64 bg=Background
+r7 c0..64 bg=Background
+r8 c0..22 bg=Background
+r8 c22..42 fg=Foreground bg=Background bold
+r8 c42..64 bg=Background
+r9 c0..2 bg=Background
+r9 c2..61 fg=Muted bg=Background
+r9 c61..64 bg=Background
+r10 c0..28 bg=Background
+r10 c28..36 fg=Muted bg=Background
+r10 c36..64 bg=Background
+r11 c0..14 bg=Background
+r11 c14..50 fg=Primary bg=Background
+r11 c50..64 bg=Background
+r12 c0..64 bg=Background
+r13 c0..64 bg=Background
+
+== dark-graphite
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r0 c0..64 bg=Background
+r1 c0..28 bg=Background
+r1 c28..34 fg=Primary bg=Background
+r1 c34..64 bg=Background
+r2 c0..27 bg=Background
+r2 c27..35 fg=Primary bg=Background
+r2 c35..64 bg=Background
+r3 c0..26 bg=Background
+r3 c26..29 fg=Primary bg=Background
+r3 c29..32 bg=Background
+r3 c32..38 fg=Primary bg=Background
+r3 c38..64 bg=Background
+r4 c0..26 bg=Background
+r4 c26..38 fg=Primary bg=Background
+r4 c38..64 bg=Background
+r5 c0..27 bg=Background
+r5 c27..34 fg=Primary bg=Background
+r5 c34..35 bg=Background
+r5 c35..37 fg=Primary bg=Background
+r5 c37..64 bg=Background
+r6 c0..30 bg=Background
+r6 c30..35 fg=Primary bg=Background
+r6 c35..64 bg=Background
+r7 c0..64 bg=Background
+r8 c0..22 bg=Background
+r8 c22..42 fg=Foreground bg=Background bold
+r8 c42..64 bg=Background
+r9 c0..2 bg=Background
+r9 c2..61 fg=Muted bg=Background
+r9 c61..64 bg=Background
+r10 c0..28 bg=Background
+r10 c28..36 fg=Muted bg=Background
+r10 c36..64 bg=Background
+r11 c0..14 bg=Background
+r11 c14..50 fg=Primary bg=Background
+r11 c50..64 bg=Background
+r12 c0..64 bg=Background
+r13 c0..64 bg=Background
+
+== light-truecolor
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r0 c0..64 bg=Background
+r1 c0..28 bg=Background
+r1 c28..34 fg=Primary bg=Background
+r1 c34..64 bg=Background
+r2 c0..27 bg=Background
+r2 c27..35 fg=Primary bg=Background
+r2 c35..64 bg=Background
+r3 c0..26 bg=Background
+r3 c26..29 fg=Primary bg=Background
+r3 c29..32 bg=Background
+r3 c32..38 fg=Primary bg=Background
+r3 c38..64 bg=Background
+r4 c0..26 bg=Background
+r4 c26..38 fg=Primary bg=Background
+r4 c38..64 bg=Background
+r5 c0..27 bg=Background
+r5 c27..34 fg=Primary bg=Background
+r5 c34..35 bg=Background
+r5 c35..37 fg=Primary bg=Background
+r5 c37..64 bg=Background
+r6 c0..30 bg=Background
+r6 c30..35 fg=Primary bg=Background
+r6 c35..64 bg=Background
+r7 c0..64 bg=Background
+r8 c0..22 bg=Background
+r8 c22..42 fg=Foreground bg=Background bold
+r8 c42..64 bg=Background
+r9 c0..2 bg=Background
+r9 c2..61 fg=Muted bg=Background
+r9 c61..64 bg=Background
+r10 c0..28 bg=Background
+r10 c28..36 fg=Muted bg=Background
+r10 c36..64 bg=Background
+r11 c0..14 bg=Background
+r11 c14..50 fg=Primary bg=Background
+r11 c50..64 bg=Background
+r12 c0..64 bg=Background
+r13 c0..64 bg=Background
+
+== dark-256
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r0 c0..64 bg=Background
+r1 c0..28 bg=Background
+r1 c28..34 fg=Primary bg=Background
+r1 c34..64 bg=Background
+r2 c0..27 bg=Background
+r2 c27..35 fg=Primary bg=Background
+r2 c35..64 bg=Background
+r3 c0..26 bg=Background
+r3 c26..29 fg=Primary bg=Background
+r3 c29..32 bg=Background
+r3 c32..38 fg=Primary bg=Background
+r3 c38..64 bg=Background
+r4 c0..26 bg=Background
+r4 c26..38 fg=Primary bg=Background
+r4 c38..64 bg=Background
+r5 c0..27 bg=Background
+r5 c27..34 fg=Primary bg=Background
+r5 c34..35 bg=Background
+r5 c35..37 fg=Primary bg=Background
+r5 c37..64 bg=Background
+r6 c0..30 bg=Background
+r6 c30..35 fg=Primary bg=Background
+r6 c35..64 bg=Background
+r7 c0..64 bg=Background
+r8 c0..22 bg=Background
+r8 c22..42 fg=Foreground bg=Background bold
+r8 c42..64 bg=Background
+r9 c0..2 bg=Background
+r9 c2..61 fg=Muted bg=Background
+r9 c61..64 bg=Background
+r10 c0..28 bg=Background
+r10 c28..36 fg=Muted bg=Background
+r10 c36..64 bg=Background
+r11 c0..14 bg=Background
+r11 c14..50 fg=Primary bg=Background
+r11 c50..64 bg=Background
+r12 c0..64 bg=Background
+r13 c0..64 bg=Background
+
+== light-256
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r0 c0..64 bg=Background|Surface
+r1 c0..28 bg=Background|Surface
+r1 c28..34 fg=Primary bg=Background|Surface
+r1 c34..64 bg=Background|Surface
+r2 c0..27 bg=Background|Surface
+r2 c27..35 fg=Primary bg=Background|Surface
+r2 c35..64 bg=Background|Surface
+r3 c0..26 bg=Background|Surface
+r3 c26..29 fg=Primary bg=Background|Surface
+r3 c29..32 bg=Background|Surface
+r3 c32..38 fg=Primary bg=Background|Surface
+r3 c38..64 bg=Background|Surface
+r4 c0..26 bg=Background|Surface
+r4 c26..38 fg=Primary bg=Background|Surface
+r4 c38..64 bg=Background|Surface
+r5 c0..27 bg=Background|Surface
+r5 c27..34 fg=Primary bg=Background|Surface
+r5 c34..35 bg=Background|Surface
+r5 c35..37 fg=Primary bg=Background|Surface
+r5 c37..64 bg=Background|Surface
+r6 c0..30 bg=Background|Surface
+r6 c30..35 fg=Primary bg=Background|Surface
+r6 c35..64 bg=Background|Surface
+r7 c0..64 bg=Background|Surface
+r8 c0..22 bg=Background|Surface
+r8 c22..42 fg=Foreground bg=Background|Surface bold
+r8 c42..64 bg=Background|Surface
+r9 c0..2 bg=Background|Surface
+r9 c2..61 fg=Muted bg=Background|Surface
+r9 c61..64 bg=Background|Surface
+r10 c0..28 bg=Background|Surface
+r10 c28..36 fg=Muted bg=Background|Surface
+r10 c36..64 bg=Background|Surface
+r11 c0..14 bg=Background|Surface
+r11 c14..50 fg=Primary bg=Background|Surface
+r11 c50..64 bg=Background|Surface
+r12 c0..64 bg=Background|Surface
+r13 c0..64 bg=Background|Surface
+
+== ansi-16
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r1 c28..34 fg=Primary
+r2 c27..35 fg=Primary
+r3 c26..29 fg=Primary
+r3 c32..38 fg=Primary
+r4 c26..38 fg=Primary
+r5 c27..34 fg=Primary
+r5 c35..37 fg=Primary
+r6 c30..35 fg=Primary
+r8 c22..42 bold
+r9 c2..61 dim
+r10 c28..36 dim
+r11 c14..50 fg=Primary
+
+== unknown-ground
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r1 c28..34 fg=Primary
+r2 c27..35 fg=Primary
+r3 c26..29 fg=Primary
+r3 c32..38 fg=Primary
+r4 c26..38 fg=Primary
+r5 c27..34 fg=Primary
+r5 c35..37 fg=Primary
+r6 c30..35 fg=Primary
+r8 c22..42 bold
+r9 c2..61 dim
+r10 c28..36 dim
+r11 c14..50 fg=Primary
+
+== no-color
+
+                            ⢀⣠⣤⣤⣤⠄
+                           ⣴⡿⠟⠋⠛⠿⠶⠒
+                          ⢠⣿⡇   ⢀⣠⣤⣤⣤⡄
+                          ⠘⣿⣷⣤⣴⣾⣿⢿⡿⠋⢉⠇
+                           ⠻⢿⣿⡿⣿⣿⠟ ⡠⠂
+                              ⠚⠛⠒⠂⠁
+
+                      No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+---
+r8 c22..42 bold
+r9 c2..61 dim
+r10 c28..36 dim
+
+== ascii
+
+
+
+
+
+                     o No workflow runs yet
+  Runs appear here once a workflow starts, with what each one
+                            changed.
+              Start one with /workflow, or press n
+
+
+
+
+
+---
+r5 c21..23 dim
+r5 c23..43 bold
+r6 c2..61 dim
+r7 c28..36 dim

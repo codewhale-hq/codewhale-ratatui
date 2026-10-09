@@ -1,0 +1,111 @@
+---
+source: tests/input.rs
+expression: "testing::snapshot(rows, paint)"
+---
+== dark-truecolor · 40x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not
+  one that another service on this
+  machine already uses.
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..40 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..39 fg=Foreground bg=Background
+r2 c39..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..34 fg=Foreground bg=Background
+r3 c34..40 bg=Background
+r4 c0..2 bg=Background
+r4 c2..23 fg=Foreground bg=Background
+r4 c23..40 bg=Background
+
+== dark-truecolor · 80x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not one that another service on this machine
+  already uses.
+
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..80 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..80 fg=Foreground bg=Background
+r3 c0..2 bg=Background
+r3 c2..15 fg=Foreground bg=Background
+r3 c15..80 bg=Background
+r4 c0..80 bg=Background
+
+== dark-truecolor · 120x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not one that another service on this machine already uses.
+
+
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..120 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..94 fg=Foreground bg=Background
+r2 c94..120 bg=Background
+r3 c0..120 bg=Background
+r4 c0..120 bg=Background
+
+== no-color · 40x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not
+  one that another service on this
+  machine already uses.
+
+== no-color · 80x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not one that another service on this machine
+  already uses.
+
+
+== no-color · 120x5
+Port
+› 70000
+✕ Enter a port from 1 to 65535, and not one that another service on this machine already uses.
+
+
+
+== ascii · 40x5
+Port
+> 70000
+X Enter a port from 1 to 65535, and not
+  one that another service on this
+  machine already uses.
+
+== ascii · 80x5
+Port
+> 70000
+X Enter a port from 1 to 65535, and not one that another service on this machine
+  already uses.
+
+
+== ascii · 120x5
+Port
+> 70000
+X Enter a port from 1 to 65535, and not one that another service on this machine already uses.

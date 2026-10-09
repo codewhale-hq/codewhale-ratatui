@@ -1,7 +1,7 @@
-// Generated from Codewhale GPUI design 1.1.1; sha256 c08d7d4b253afe340207658b1f233dd1a9dbe94fa57e925bde025a3db70543ee. Do not edit.
+// Generated from Codewhale GPUI design 1.1.2; sha256 433b18a41c526da0b5a1bbaa461c37feac987c7688fbe7de660acfbbdafa9bd5. Do not edit.
 #![allow(dead_code)]
 
-pub const VERSION: &str = "1.1.1";
+pub const VERSION: &str = "1.1.2";
 #[derive(Clone, Copy, Debug)]
 pub struct Colors {
     pub background: u32,
@@ -23,7 +23,7 @@ pub const DARK: Colors = Colors {
     background: 0x202123,
     foreground: 0xefeeeb,
     surface: 0x2a2b2e,
-    muted_foreground: 0xb1b1ad,
+    muted_foreground: 0xc2c1bd,
     border: 0x3b3c3f,
     sidebar: 0x191a1c,
     primary: 0x90b9ff,
@@ -39,7 +39,7 @@ pub const LIGHT: Colors = Colors {
     background: 0xfaf8f5,
     foreground: 0x28292b,
     surface: 0xffffff,
-    muted_foreground: 0x5f605d,
+    muted_foreground: 0x535451,
     border: 0xd9d5cf,
     sidebar: 0xf0ede8,
     primary: 0x245bc7,

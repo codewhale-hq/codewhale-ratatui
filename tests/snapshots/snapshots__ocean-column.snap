@@ -1,0 +1,413 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+ Semantic surface / own ground
+ ● Working
+
+
+---
+r0 c0..24 fg=Foreground bg=#102a46 bold
+r0 c24..63 bg=#102a46
+r0 c63..80 fg=Muted bg=#102a46
+r1 c0..80 bg=#102944
+r2 c0..1 fg=Primary bg=#0e2841
+r2 c1..2 bg=#0e2841
+r2 c2..5 fg=Primary bg=#0e2841 bold
+r2 c5..80 bg=#0e2841
+r3 c0..2 fg=Border bg=#0f273e
+r3 c2..39 fg=Foreground bg=#0f273e
+r3 c39..80 bg=#0f273e
+r4 c0..80 bg=#0e253c
+r5 c0..80 bg=#0d233a
+r6 c0..1 fg=Foreground bg=#0d2237
+r6 c1..2 bg=#0d2237
+r6 c2..11 fg=Foreground bg=#0d2237 bold
+r6 c11..80 bg=#0d2237
+r7 c0..2 fg=Border bg=#0c2035
+r7 c2..48 fg=Foreground bg=#0c2035
+r7 c48..80 bg=#0c2035
+r8 c0..80 bg=#0b1f33
+r9 c0..80 bg=#0b1d31
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=#091b2c
+r12 c0..1 bg=Surface
+r12 c1..30 fg=Foreground bg=Surface bold
+r12 c30..80 bg=Surface
+r13 c0..1 bg=Surface
+r13 c1..2 fg=Live bg=Surface
+r13 c2..3 bg=Surface
+r13 c3..10 fg=Foreground bg=Surface
+r13 c10..80 bg=Surface
+r14 c0..80 bg=Surface
+r15 c0..80 bg=Surface
+
+== dark-graphite
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+ Semantic surface / own ground
+ ● Working
+
+
+---
+r0 c0..24 fg=Foreground bg=Background bold
+r0 c24..63 bg=Background
+r0 c63..80 fg=Muted bg=Background
+r1 c0..80 bg=Background
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..5 fg=Primary bg=Background bold
+r2 c5..80 bg=Background
+r3 c0..2 fg=Border bg=Background
+r3 c2..39 fg=Foreground bg=Background
+r3 c39..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..11 fg=Foreground bg=Background bold
+r6 c11..80 bg=Background
+r7 c0..2 fg=Border bg=Background
+r7 c2..48 fg=Foreground bg=Background
+r7 c48..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=Background
+r12 c0..1 bg=Surface
+r12 c1..30 fg=Foreground bg=Surface bold
+r12 c30..80 bg=Surface
+r13 c0..1 bg=Surface
+r13 c1..2 fg=Live bg=Surface
+r13 c2..3 bg=Surface
+r13 c3..10 fg=Foreground bg=Surface
+r13 c10..80 bg=Surface
+r14 c0..80 bg=Surface
+r15 c0..80 bg=Surface
+
+== light-truecolor
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+ Semantic surface / own ground
+ ● Working
+
+
+---
+r0 c0..24 fg=Foreground bg=Background bold
+r0 c24..63 bg=Background
+r0 c63..80 fg=Muted bg=Background
+r1 c0..80 bg=Background
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..5 fg=Primary bg=Background bold
+r2 c5..80 bg=Background
+r3 c0..2 fg=Border bg=Background
+r3 c2..39 fg=Foreground bg=Background
+r3 c39..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..11 fg=Foreground bg=Background bold
+r6 c11..80 bg=Background
+r7 c0..2 fg=Border bg=Background
+r7 c2..48 fg=Foreground bg=Background
+r7 c48..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=Background
+r12 c0..1 bg=Surface
+r12 c1..30 fg=Foreground bg=Surface bold
+r12 c30..80 bg=Surface
+r13 c0..1 bg=Surface
+r13 c1..2 fg=Live bg=Surface
+r13 c2..3 bg=Surface
+r13 c3..10 fg=Foreground bg=Surface
+r13 c10..80 bg=Surface
+r14 c0..80 bg=Surface
+r15 c0..80 bg=Surface
+
+== dark-256
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+ Semantic surface / own ground
+ ● Working
+
+
+---
+r0 c0..24 fg=Foreground bg=Background bold
+r0 c24..63 bg=Background
+r0 c63..80 fg=Muted bg=Background
+r1 c0..80 bg=Background
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..5 fg=Primary bg=Background bold
+r2 c5..80 bg=Background
+r3 c0..2 fg=Border bg=Background
+r3 c2..39 fg=Foreground bg=Background
+r3 c39..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..11 fg=Foreground bg=Background bold
+r6 c11..80 bg=Background
+r7 c0..2 fg=Border bg=Background
+r7 c2..48 fg=Foreground bg=Background
+r7 c48..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=Background
+r12 c0..1 bg=Surface|Hover
+r12 c1..30 fg=Foreground bg=Surface|Hover bold
+r12 c30..80 bg=Surface|Hover
+r13 c0..1 bg=Surface|Hover
+r13 c1..2 fg=Live bg=Surface|Hover
+r13 c2..3 bg=Surface|Hover
+r13 c3..10 fg=Foreground bg=Surface|Hover
+r13 c10..80 bg=Surface|Hover
+r14 c0..80 bg=Surface|Hover
+r15 c0..80 bg=Surface|Hover
+
+== light-256
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Semantic surface / own ground                                                │
+│ ● Working                                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..24 fg=Foreground bg=Background|Surface bold
+r0 c24..63 bg=Background|Surface
+r0 c63..80 fg=Muted bg=Background|Surface
+r1 c0..80 bg=Background|Surface
+r2 c0..1 fg=Primary bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..5 fg=Primary bg=Background|Surface bold
+r2 c5..80 bg=Background|Surface
+r3 c0..2 fg=Border bg=Background|Surface
+r3 c2..39 fg=Foreground bg=Background|Surface
+r3 c39..80 bg=Background|Surface
+r4 c0..80 bg=Background|Surface
+r5 c0..80 bg=Background|Surface
+r6 c0..1 fg=Foreground bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..11 fg=Foreground bg=Background|Surface bold
+r6 c11..80 bg=Background|Surface
+r7 c0..2 fg=Border bg=Background|Surface
+r7 c2..48 fg=Foreground bg=Background|Surface
+r7 c48..80 bg=Background|Surface
+r8 c0..80 bg=Background|Surface
+r9 c0..80 bg=Background|Surface
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=Background|Surface
+r12 c0..80 fg=Border bg=Background|Surface
+r13 c0..1 fg=Border bg=Background|Surface
+r13 c1..2 bg=Background|Surface
+r13 c2..31 fg=Foreground bg=Background|Surface bold
+r13 c31..79 bg=Background|Surface
+r13 c79..80 fg=Border bg=Background|Surface
+r14 c0..1 fg=Border bg=Background|Surface
+r14 c1..2 bg=Background|Surface
+r14 c2..3 fg=Live bg=Background|Surface
+r14 c3..4 bg=Background|Surface
+r14 c4..11 fg=Foreground bg=Background|Surface
+r14 c11..79 bg=Background|Surface
+r14 c79..80 fg=Border bg=Background|Surface
+r15 c0..80 fg=Border bg=Background|Surface
+
+== ansi-16
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Semantic surface / own ground                                                │
+│ ● Working                                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..24 bold
+r0 c63..80 dim
+r2 c0..1 fg=Primary
+r2 c2..5 fg=Primary bold
+r3 c0..2 dim
+r6 c2..11 bold
+r7 c0..2 dim
+r10 c0..23 dim
+r12 c0..80 dim
+r13 c0..1 dim
+r13 c2..31 bold
+r13 c79..80 dim
+r14 c0..1 dim
+r14 c2..3 fg=Live
+r14 c79..80 dim
+r15 c0..80 dim
+
+== unknown-ground
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Semantic surface / own ground                                                │
+│ ● Working                                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..24 bold
+r0 c63..80 dim
+r2 c0..1 fg=Primary
+r2 c2..5 fg=Primary bold
+r3 c0..2 dim
+r6 c2..11 bold
+r7 c0..2 dim
+r10 c0..23 dim
+r12 c0..80 dim
+r13 c0..1 dim
+r13 c2..31 bold
+r13 c79..80 dim
+r14 c0..1 dim
+r14 c2..3 fg=Live
+r14 c79..80 dim
+r15 c0..80 dim
+
+== no-color
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Semantic surface / own ground                                                │
+│ ● Working                                                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..24 bold
+r0 c63..80 dim
+r2 c2..5 bold
+r3 c0..2 dim
+r6 c2..11 bold
+r7 c0..2 dim
+r10 c0..23 dim
+r12 c0..80 dim
+r13 c0..1 dim
+r13 c2..31 bold
+r13 c79..80 dim
+r14 c0..1 dim
+r14 c79..80 dim
+r15 c0..80 dim
+
+== ascii
+Codewhale / native ocean                                       Working / fixture
+
+. You
+| Keep the code and the decision clear.
+
+
+. Codewhale
+| One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
++------------------------------------------------------------------------------+
+| Semantic surface / own ground                                                |
+| . Working                                                                    |
++------------------------------------------------------------------------------+
+---
+r0 c0..24 bold
+r0 c63..80 dim
+r2 c2..5 bold
+r3 c0..2 dim
+r6 c2..11 bold
+r7 c0..2 dim
+r10 c0..23 dim
+r12 c0..80 dim
+r13 c0..1 dim
+r13 c2..31 bold
+r13 c79..80 dim
+r14 c0..1 dim
+r14 c79..80 dim
+r15 c0..80 dim

@@ -1,0 +1,63 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x2
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..40 bg=Selected
+
+== dark-truecolor · 80x2
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..80 bg=Selected
+
+== dark-truecolor · 120x2
+Port
+› e.g. 8080
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Hint bg=Selected reversed
+r1 c3..11 fg=Hint bg=Selected
+r1 c11..120 bg=Selected
+
+== no-color · 40x2
+Port
+› e.g. 8080
+
+== no-color · 80x2
+Port
+› e.g. 8080
+
+== no-color · 120x2
+Port
+› e.g. 8080
+
+== ascii · 40x2
+Port
+> e.g. 8080
+
+== ascii · 80x2
+Port
+> e.g. 8080
+
+== ascii · 120x2
+Port
+> e.g. 8080

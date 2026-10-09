@@ -1,0 +1,763 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..160 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..159 fg=Border bg=Background
+r1 c159..160 bg=Background
+r2 c0..160 bg=Background
+r3 c0..2 bg=Background
+r3 c2..29 fg=Primary bg=Background bold
+r3 c29..89 fg=Border bg=Background
+r3 c89..116 fg=Primary bg=Background bold
+r3 c116..158 fg=Border bg=Background
+r3 c158..160 bg=Background
+r4 c0..160 bg=Background
+r5 c0..3 bg=Background
+r5 c3..31 fg=Foreground bg=Background
+r5 c31..90 bg=Background
+r5 c90..113 fg=Muted bg=Background
+r5 c113..160 bg=Background
+r6 c0..3 bg=Background
+r6 c3..43 fg=Foreground bg=Background
+r6 c43..90 bg=Background
+r6 c90..156 fg=Foreground bg=Selected bold
+r6 c156..160 bg=Background
+r7 c0..3 bg=Background
+r7 c3..28 fg=Foreground bg=Background
+r7 c28..90 bg=Background
+r7 c90..156 fg=Foreground bg=Background
+r7 c156..160 bg=Background
+r8 c0..3 bg=Background
+r8 c3..36 fg=Foreground bg=Background
+r8 c36..90 bg=Background
+r8 c90..156 fg=Foreground bg=Background
+r8 c156..160 bg=Background
+r9 c0..3 bg=Background
+r9 c3..13 fg=Foreground bg=Background
+r9 c13..90 bg=Background
+r9 c90..156 fg=Foreground bg=Background
+r9 c156..160 bg=Background
+r10 c0..90 bg=Background
+r10 c90..156 fg=Foreground bg=Background
+r10 c156..160 bg=Background
+r11 c0..3 bg=Background
+r11 c3..8 fg=Foreground bg=Background
+r11 c8..160 bg=Background
+r12 c0..3 bg=Background
+r12 c3..52 fg=Foreground bg=Background
+r12 c52..160 bg=Background
+r13 c0..160 bg=Background
+r14 c0..3 bg=Background
+r14 c3..13 fg=Foreground bg=Background
+r14 c13..160 bg=Background
+r15 c0..3 bg=Background
+r15 c3..64 fg=Foreground bg=Background
+r15 c64..160 bg=Background
+r16 c0..3 bg=Background
+r16 c3..63 fg=Foreground bg=Background
+r16 c63..160 bg=Background
+r17 c0..160 bg=Background
+r18 c0..160 bg=Background
+r19 c0..160 bg=Background
+r20 c0..160 bg=Background
+r21 c0..160 bg=Background
+r22 c0..160 bg=Background
+r23 c0..160 bg=Background
+r24 c0..160 bg=Background
+r25 c0..2 bg=Background
+r25 c2..9 fg=Primary bg=Background bold
+r25 c9..15 fg=Muted bg=Background
+r25 c15..16 bg=Background
+r25 c16..19 fg=Primary bg=Background bold
+r25 c19..25 fg=Muted bg=Background
+r25 c25..26 bg=Background
+r25 c26..29 fg=Primary bg=Background bold
+r25 c29..33 fg=Muted bg=Background
+r25 c33..34 bg=Background
+r25 c34..37 fg=Primary bg=Background bold
+r25 c37..43 fg=Muted bg=Background
+r25 c43..44 bg=Background
+r25 c44..47 fg=Primary bg=Background bold
+r25 c47..61 fg=Muted bg=Background
+r25 c61..62 bg=Background
+r25 c62..65 fg=Primary bg=Background bold
+r25 c65..72 fg=Muted bg=Background
+r25 c72..73 bg=Background
+r25 c73..76 fg=Primary bg=Background bold
+r25 c76..84 fg=Muted bg=Background
+r25 c84..85 bg=Background
+r25 c85..88 fg=Primary bg=Background bold
+r25 c88..94 fg=Muted bg=Background
+r25 c94..95 bg=Background
+r25 c95..100 fg=Primary bg=Background bold
+r25 c100..105 fg=Muted bg=Background
+r25 c105..160 bg=Background
+r26 c0..1 bg=Background
+r26 c1..159 fg=Border bg=Background
+r26 c159..160 bg=Background
+r27 c0..160 bg=Background
+
+== dark-graphite
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..160 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..159 fg=Border bg=Background
+r1 c159..160 bg=Background
+r2 c0..160 bg=Background
+r3 c0..2 bg=Background
+r3 c2..29 fg=Primary bg=Background bold
+r3 c29..89 fg=Border bg=Background
+r3 c89..116 fg=Primary bg=Background bold
+r3 c116..158 fg=Border bg=Background
+r3 c158..160 bg=Background
+r4 c0..160 bg=Background
+r5 c0..3 bg=Background
+r5 c3..31 fg=Foreground bg=Background
+r5 c31..90 bg=Background
+r5 c90..113 fg=Muted bg=Background
+r5 c113..160 bg=Background
+r6 c0..3 bg=Background
+r6 c3..43 fg=Foreground bg=Background
+r6 c43..90 bg=Background
+r6 c90..156 fg=Foreground bg=Selected bold
+r6 c156..160 bg=Background
+r7 c0..3 bg=Background
+r7 c3..28 fg=Foreground bg=Background
+r7 c28..90 bg=Background
+r7 c90..156 fg=Foreground bg=Background
+r7 c156..160 bg=Background
+r8 c0..3 bg=Background
+r8 c3..36 fg=Foreground bg=Background
+r8 c36..90 bg=Background
+r8 c90..156 fg=Foreground bg=Background
+r8 c156..160 bg=Background
+r9 c0..3 bg=Background
+r9 c3..13 fg=Foreground bg=Background
+r9 c13..90 bg=Background
+r9 c90..156 fg=Foreground bg=Background
+r9 c156..160 bg=Background
+r10 c0..90 bg=Background
+r10 c90..156 fg=Foreground bg=Background
+r10 c156..160 bg=Background
+r11 c0..3 bg=Background
+r11 c3..8 fg=Foreground bg=Background
+r11 c8..160 bg=Background
+r12 c0..3 bg=Background
+r12 c3..52 fg=Foreground bg=Background
+r12 c52..160 bg=Background
+r13 c0..160 bg=Background
+r14 c0..3 bg=Background
+r14 c3..13 fg=Foreground bg=Background
+r14 c13..160 bg=Background
+r15 c0..3 bg=Background
+r15 c3..64 fg=Foreground bg=Background
+r15 c64..160 bg=Background
+r16 c0..3 bg=Background
+r16 c3..63 fg=Foreground bg=Background
+r16 c63..160 bg=Background
+r17 c0..160 bg=Background
+r18 c0..160 bg=Background
+r19 c0..160 bg=Background
+r20 c0..160 bg=Background
+r21 c0..160 bg=Background
+r22 c0..160 bg=Background
+r23 c0..160 bg=Background
+r24 c0..160 bg=Background
+r25 c0..2 bg=Background
+r25 c2..9 fg=Primary bg=Background bold
+r25 c9..15 fg=Muted bg=Background
+r25 c15..16 bg=Background
+r25 c16..19 fg=Primary bg=Background bold
+r25 c19..25 fg=Muted bg=Background
+r25 c25..26 bg=Background
+r25 c26..29 fg=Primary bg=Background bold
+r25 c29..33 fg=Muted bg=Background
+r25 c33..34 bg=Background
+r25 c34..37 fg=Primary bg=Background bold
+r25 c37..43 fg=Muted bg=Background
+r25 c43..44 bg=Background
+r25 c44..47 fg=Primary bg=Background bold
+r25 c47..61 fg=Muted bg=Background
+r25 c61..62 bg=Background
+r25 c62..65 fg=Primary bg=Background bold
+r25 c65..72 fg=Muted bg=Background
+r25 c72..73 bg=Background
+r25 c73..76 fg=Primary bg=Background bold
+r25 c76..84 fg=Muted bg=Background
+r25 c84..85 bg=Background
+r25 c85..88 fg=Primary bg=Background bold
+r25 c88..94 fg=Muted bg=Background
+r25 c94..95 bg=Background
+r25 c95..100 fg=Primary bg=Background bold
+r25 c100..105 fg=Muted bg=Background
+r25 c105..160 bg=Background
+r26 c0..1 bg=Background
+r26 c1..159 fg=Border bg=Background
+r26 c159..160 bg=Background
+r27 c0..160 bg=Background
+
+== light-truecolor
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..159 fg=Border
+r3 c2..29 fg=Primary bold
+r3 c29..89 fg=Border
+r3 c89..116 fg=Primary bold
+r3 c116..158 fg=Border
+r5 c3..31 fg=Foreground
+r5 c90..113 fg=Muted
+r6 c3..43 fg=Foreground
+r6 c90..156 fg=Foreground bg=Selected bold
+r7 c3..28 fg=Foreground
+r7 c90..156 fg=Foreground
+r8 c3..36 fg=Foreground
+r8 c90..156 fg=Foreground
+r9 c3..13 fg=Foreground
+r9 c90..156 fg=Foreground
+r10 c90..156 fg=Foreground
+r11 c3..8 fg=Foreground
+r12 c3..52 fg=Foreground
+r14 c3..13 fg=Foreground
+r15 c3..64 fg=Foreground
+r16 c3..63 fg=Foreground
+r25 c2..9 fg=Primary bold
+r25 c9..15 fg=Muted
+r25 c16..19 fg=Primary bold
+r25 c19..25 fg=Muted
+r25 c26..29 fg=Primary bold
+r25 c29..33 fg=Muted
+r25 c34..37 fg=Primary bold
+r25 c37..43 fg=Muted
+r25 c44..47 fg=Primary bold
+r25 c47..61 fg=Muted
+r25 c62..65 fg=Primary bold
+r25 c65..72 fg=Muted
+r25 c73..76 fg=Primary bold
+r25 c76..84 fg=Muted
+r25 c85..88 fg=Primary bold
+r25 c88..94 fg=Muted
+r25 c95..100 fg=Primary bold
+r25 c100..105 fg=Muted
+r26 c1..159 fg=Border
+
+== dark-256
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..160 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r1 c11..159 fg=Border bg=Background|DiffAddedTint
+r1 c159..160 bg=Background|DiffAddedTint
+r2 c0..160 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..29 fg=Primary bg=Background|DiffAddedTint bold
+r3 c29..89 fg=Border bg=Background|DiffAddedTint
+r3 c89..116 fg=Primary bg=Background|DiffAddedTint bold
+r3 c116..158 fg=Border bg=Background|DiffAddedTint
+r3 c158..160 bg=Background|DiffAddedTint
+r4 c0..160 bg=Background|DiffAddedTint
+r5 c0..3 bg=Background|DiffAddedTint
+r5 c3..31 fg=Foreground bg=Background|DiffAddedTint
+r5 c31..90 bg=Background|DiffAddedTint
+r5 c90..113 fg=Muted bg=Background|DiffAddedTint
+r5 c113..160 bg=Background|DiffAddedTint
+r6 c0..3 bg=Background|DiffAddedTint
+r6 c3..43 fg=Foreground bg=Background|DiffAddedTint
+r6 c43..90 bg=Background|DiffAddedTint
+r6 c90..156 fg=Foreground bg=Selected bold
+r6 c156..160 bg=Background|DiffAddedTint
+r7 c0..3 bg=Background|DiffAddedTint
+r7 c3..28 fg=Foreground bg=Background|DiffAddedTint
+r7 c28..90 bg=Background|DiffAddedTint
+r7 c90..156 fg=Foreground bg=Background|DiffAddedTint
+r7 c156..160 bg=Background|DiffAddedTint
+r8 c0..3 bg=Background|DiffAddedTint
+r8 c3..36 fg=Foreground bg=Background|DiffAddedTint
+r8 c36..90 bg=Background|DiffAddedTint
+r8 c90..156 fg=Foreground bg=Background|DiffAddedTint
+r8 c156..160 bg=Background|DiffAddedTint
+r9 c0..3 bg=Background|DiffAddedTint
+r9 c3..13 fg=Foreground bg=Background|DiffAddedTint
+r9 c13..90 bg=Background|DiffAddedTint
+r9 c90..156 fg=Foreground bg=Background|DiffAddedTint
+r9 c156..160 bg=Background|DiffAddedTint
+r10 c0..90 bg=Background|DiffAddedTint
+r10 c90..156 fg=Foreground bg=Background|DiffAddedTint
+r10 c156..160 bg=Background|DiffAddedTint
+r11 c0..3 bg=Background|DiffAddedTint
+r11 c3..8 fg=Foreground bg=Background|DiffAddedTint
+r11 c8..160 bg=Background|DiffAddedTint
+r12 c0..3 bg=Background|DiffAddedTint
+r12 c3..52 fg=Foreground bg=Background|DiffAddedTint
+r12 c52..160 bg=Background|DiffAddedTint
+r13 c0..160 bg=Background|DiffAddedTint
+r14 c0..3 bg=Background|DiffAddedTint
+r14 c3..13 fg=Foreground bg=Background|DiffAddedTint
+r14 c13..160 bg=Background|DiffAddedTint
+r15 c0..3 bg=Background|DiffAddedTint
+r15 c3..64 fg=Foreground bg=Background|DiffAddedTint
+r15 c64..160 bg=Background|DiffAddedTint
+r16 c0..3 bg=Background|DiffAddedTint
+r16 c3..63 fg=Foreground bg=Background|DiffAddedTint
+r16 c63..160 bg=Background|DiffAddedTint
+r17 c0..160 bg=Background|DiffAddedTint
+r18 c0..160 bg=Background|DiffAddedTint
+r19 c0..160 bg=Background|DiffAddedTint
+r20 c0..160 bg=Background|DiffAddedTint
+r21 c0..160 bg=Background|DiffAddedTint
+r22 c0..160 bg=Background|DiffAddedTint
+r23 c0..160 bg=Background|DiffAddedTint
+r24 c0..160 bg=Background|DiffAddedTint
+r25 c0..2 bg=Background|DiffAddedTint
+r25 c2..9 fg=Primary bg=Background|DiffAddedTint bold
+r25 c9..15 fg=Muted bg=Background|DiffAddedTint
+r25 c15..16 bg=Background|DiffAddedTint
+r25 c16..19 fg=Primary bg=Background|DiffAddedTint bold
+r25 c19..25 fg=Muted bg=Background|DiffAddedTint
+r25 c25..26 bg=Background|DiffAddedTint
+r25 c26..29 fg=Primary bg=Background|DiffAddedTint bold
+r25 c29..33 fg=Muted bg=Background|DiffAddedTint
+r25 c33..34 bg=Background|DiffAddedTint
+r25 c34..37 fg=Primary bg=Background|DiffAddedTint bold
+r25 c37..43 fg=Muted bg=Background|DiffAddedTint
+r25 c43..44 bg=Background|DiffAddedTint
+r25 c44..47 fg=Primary bg=Background|DiffAddedTint bold
+r25 c47..61 fg=Muted bg=Background|DiffAddedTint
+r25 c61..62 bg=Background|DiffAddedTint
+r25 c62..65 fg=Primary bg=Background|DiffAddedTint bold
+r25 c65..72 fg=Muted bg=Background|DiffAddedTint
+r25 c72..73 bg=Background|DiffAddedTint
+r25 c73..76 fg=Primary bg=Background|DiffAddedTint bold
+r25 c76..84 fg=Muted bg=Background|DiffAddedTint
+r25 c84..85 bg=Background|DiffAddedTint
+r25 c85..88 fg=Primary bg=Background|DiffAddedTint bold
+r25 c88..94 fg=Muted bg=Background|DiffAddedTint
+r25 c94..95 bg=Background|DiffAddedTint
+r25 c95..100 fg=Primary bg=Background|DiffAddedTint bold
+r25 c100..105 fg=Muted bg=Background|DiffAddedTint
+r25 c105..160 bg=Background|DiffAddedTint
+r26 c0..1 bg=Background|DiffAddedTint
+r26 c1..159 fg=Border bg=Background|DiffAddedTint
+r26 c159..160 bg=Background|DiffAddedTint
+r27 c0..160 bg=Background|DiffAddedTint
+
+== light-256
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..159 fg=Border
+r3 c2..29 fg=Primary bold
+r3 c29..89 fg=Border
+r3 c89..116 fg=Primary bold
+r3 c116..158 fg=Border
+r5 c3..31 fg=Foreground
+r5 c90..113 fg=Muted|Hint|Dim
+r6 c3..43 fg=Foreground
+r6 c90..156 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r7 c3..28 fg=Foreground
+r7 c90..156 fg=Foreground
+r8 c3..36 fg=Foreground
+r8 c90..156 fg=Foreground
+r9 c3..13 fg=Foreground
+r9 c90..156 fg=Foreground
+r10 c90..156 fg=Foreground
+r11 c3..8 fg=Foreground
+r12 c3..52 fg=Foreground
+r14 c3..13 fg=Foreground
+r15 c3..64 fg=Foreground
+r16 c3..63 fg=Foreground
+r25 c2..9 fg=Primary bold
+r25 c9..15 fg=Muted|Hint|Dim
+r25 c16..19 fg=Primary bold
+r25 c19..25 fg=Muted|Hint|Dim
+r25 c26..29 fg=Primary bold
+r25 c29..33 fg=Muted|Hint|Dim
+r25 c34..37 fg=Primary bold
+r25 c37..43 fg=Muted|Hint|Dim
+r25 c44..47 fg=Primary bold
+r25 c47..61 fg=Muted|Hint|Dim
+r25 c62..65 fg=Primary bold
+r25 c65..72 fg=Muted|Hint|Dim
+r25 c73..76 fg=Primary bold
+r25 c76..84 fg=Muted|Hint|Dim
+r25 c85..88 fg=Primary bold
+r25 c88..94 fg=Muted|Hint|Dim
+r25 c95..100 fg=Primary bold
+r25 c100..105 fg=Muted|Hint|Dim
+r26 c1..159 fg=Border
+
+== ansi-16
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..159 dim
+r3 c2..29 fg=Primary bold dim
+r3 c29..89 dim
+r3 c89..116 fg=Primary bold dim
+r3 c116..158 dim
+r5 c90..113 dim
+r6 c90..156 bold
+r25 c2..9 fg=Primary bold
+r25 c9..15 dim
+r25 c16..19 fg=Primary bold
+r25 c19..25 dim
+r25 c26..29 fg=Primary bold
+r25 c29..33 dim
+r25 c34..37 fg=Primary bold
+r25 c37..43 dim
+r25 c44..47 fg=Primary bold
+r25 c47..61 dim
+r25 c62..65 fg=Primary bold
+r25 c65..72 dim
+r25 c73..76 fg=Primary bold
+r25 c76..84 dim
+r25 c85..88 fg=Primary bold
+r25 c88..94 dim
+r25 c95..100 fg=Primary bold
+r25 c100..105 dim
+r26 c1..159 dim
+
+== unknown-ground
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..159 dim
+r3 c2..29 fg=Primary bold dim
+r3 c29..89 dim
+r3 c89..116 fg=Primary bold dim
+r3 c116..158 dim
+r5 c90..113 dim
+r6 c90..156 bold
+r25 c2..9 fg=Primary bold
+r25 c9..15 dim
+r25 c16..19 fg=Primary bold
+r25 c19..25 dim
+r25 c26..29 fg=Primary bold
+r25 c29..33 dim
+r25 c34..37 fg=Primary bold
+r25 c37..43 dim
+r25 c44..47 fg=Primary bold
+r25 c47..61 dim
+r25 c62..65 fg=Primary bold
+r25 c65..72 dim
+r25 c73..76 fg=Primary bold
+r25 c76..84 dim
+r25 c85..88 fg=Primary bold
+r25 c88..94 dim
+r25 c95..100 fg=Primary bold
+r25 c100..105 dim
+r26 c1..159 dim
+
+== no-color
+
+  sessions ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   history (Shift+PgUp/PgDn) ──────────────────────────────────────────────────────────── sessions (1-9, PgUp/PgDn) ──────────────────────────────────────────
+
+   Title: Review authentication                                                           scope and sort · recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 bold dim
+r1 c11..159 dim
+r3 c2..29 bold dim
+r3 c29..89 dim
+r3 c89..116 bold dim
+r3 c116..158 dim
+r5 c90..113 dim
+r6 c90..156 bold
+r25 c2..9 bold
+r25 c9..15 dim
+r25 c16..19 bold
+r25 c19..25 dim
+r25 c26..29 bold
+r25 c29..33 dim
+r25 c34..37 bold
+r25 c37..43 dim
+r25 c44..47 bold
+r25 c47..61 dim
+r25 c62..65 bold
+r25 c65..72 dim
+r25 c73..76 bold
+r25 c76..84 dim
+r25 c85..88 bold
+r25 c88..94 dim
+r25 c95..100 bold
+r25 c100..105 dim
+r26 c1..159 dim
+
+== ascii
+
+  sessions ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+   history (Shift+PgUp/PgDn) ------------------------------------------------------------ sessions (1-9, PgUp/PgDn) ------------------------------------------
+
+   Title: Review authentication                                                           scope and sort . recent
+   ID: 4a80c752-28b1-4a96-9638-11a6ac1e394d                                               1. 4a80c752 | Review authentication | 18 msgs | current | work ...
+   Updated: 2026-10-01 14:12                                                              2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13...
+   Messages: 18 | Model: deepseek-v4                                                      3. 936efb90 | Review the alternate approach | 8 msgs | fork | w...
+   Mode: Work                                                                             4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 202...
+                                                                                          5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 1...
+   USER:
+     Check the sign-in flow and keyboard navigation.
+
+   ASSISTANT:
+     The sign-in screen now returns focus to the account button.
+     I also updated the tab order through the provider choices.
+
+
+
+
+
+
+
+
+   Enter resume  / search  s sort  r rename  a all workspaces  e archive  x archived  d delete  Esc close
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+r1 c1..11 bold dim
+r1 c11..159 dim
+r3 c2..29 bold dim
+r3 c29..89 dim
+r3 c89..116 bold dim
+r3 c116..158 dim
+r5 c90..113 dim
+r6 c90..156 bold
+r25 c2..9 bold
+r25 c9..15 dim
+r25 c16..19 bold
+r25 c19..25 dim
+r25 c26..29 bold
+r25 c29..33 dim
+r25 c34..37 bold
+r25 c37..43 dim
+r25 c44..47 bold
+r25 c47..61 dim
+r25 c62..65 bold
+r25 c65..72 dim
+r25 c73..76 bold
+r25 c76..84 dim
+r25 c85..88 bold
+r25 c88..94 dim
+r25 c95..100 bold
+r25 c100..105 dim
+r26 c1..159 dim

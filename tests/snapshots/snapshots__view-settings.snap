@@ -1,0 +1,1161 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..131 fg=Border bg=Background
+r1 c131..132 bg=Background
+r2 c0..132 bg=Background
+r3 c0..2 bg=Background
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..85 fg=Muted bg=Background
+r3 c85..132 bg=Background
+r4 c0..2 bg=Background
+r4 c2..32 fg=Muted bg=Background
+r4 c32..132 bg=Background
+r5 c0..2 bg=Background
+r5 c2..9 fg=Primary bg=Background
+r5 c9..20 bg=Background
+r5 c20..21 fg=Border bg=Background
+r5 c21..30 fg=Hint|Dim bg=Background bold underline
+r5 c30..86 bg=Background
+r5 c86..87 fg=Border bg=Background
+r5 c87..92 fg=Primary bg=Background
+r5 c92..132 bg=Background
+r6 c0..20 bg=Background
+r6 c20..21 fg=Border bg=Background
+r6 c21..82 fg=Foreground bg=Selected bold
+r6 c82..86 bg=Background
+r6 c86..87 fg=Border bg=Background
+r6 c87..92 fg=Hint|Dim bg=Background
+r6 c92..132 bg=Background
+r7 c0..20 bg=Background
+r7 c20..21 fg=Border bg=Background
+r7 c21..82 fg=Foreground bg=Background
+r7 c82..86 bg=Background
+r7 c86..87 fg=Border bg=Background
+r7 c87..132 bg=Background
+r8 c0..20 bg=Background
+r8 c20..21 fg=Border bg=Background
+r8 c21..82 fg=Foreground bg=Background
+r8 c82..86 bg=Background
+r8 c86..87 fg=Border bg=Background
+r8 c87..107 fg=Foreground bg=Background
+r8 c107..132 bg=Background
+r9 c0..20 bg=Background
+r9 c20..21 fg=Border bg=Background
+r9 c21..82 fg=Foreground bg=Background
+r9 c82..86 bg=Background
+r9 c86..87 fg=Border bg=Background
+r9 c87..107 fg=Foreground bg=Background
+r9 c107..132 bg=Background
+r10 c0..20 bg=Background
+r10 c20..21 fg=Border bg=Background
+r10 c21..82 fg=Foreground bg=Background
+r10 c82..86 bg=Background
+r10 c86..87 fg=Border bg=Background
+r10 c87..107 fg=Foreground bg=Background
+r10 c107..132 bg=Background
+r11 c0..20 bg=Background
+r11 c20..21 fg=Border bg=Background
+r11 c21..86 bg=Background
+r11 c86..87 fg=Border bg=Background
+r11 c87..110 fg=Foreground bg=Background
+r11 c110..132 bg=Background
+r12 c0..20 bg=Background
+r12 c20..21 fg=Border bg=Background
+r12 c21..86 bg=Background
+r12 c86..87 fg=Border bg=Background
+r12 c87..101 fg=Foreground bg=Background
+r12 c101..132 bg=Background
+r13 c0..20 bg=Background
+r13 c20..21 fg=Border bg=Background
+r13 c21..86 bg=Background
+r13 c86..87 fg=Border bg=Background
+r13 c87..112 fg=Foreground bg=Background
+r13 c112..132 bg=Background
+r14 c0..20 bg=Background
+r14 c20..21 fg=Border bg=Background
+r14 c21..86 bg=Background
+r14 c86..87 fg=Border bg=Background
+r14 c87..103 fg=Foreground bg=Background
+r14 c103..132 bg=Background
+r15 c0..20 bg=Background
+r15 c20..21 fg=Border bg=Background
+r15 c21..86 bg=Background
+r15 c86..87 fg=Border bg=Background
+r15 c87..132 bg=Background
+r16 c0..20 bg=Background
+r16 c20..21 fg=Border bg=Background
+r16 c21..86 bg=Background
+r16 c86..87 fg=Border bg=Background
+r16 c87..132 bg=Background
+r17 c0..20 bg=Background
+r17 c20..21 fg=Border bg=Background
+r17 c21..86 bg=Background
+r17 c86..87 fg=Border bg=Background
+r17 c87..132 bg=Background
+r18 c0..20 bg=Background
+r18 c20..21 fg=Border bg=Background
+r18 c21..86 bg=Background
+r18 c86..87 fg=Border bg=Background
+r18 c87..132 bg=Background
+r19 c0..20 bg=Background
+r19 c20..21 fg=Border bg=Background
+r19 c21..86 bg=Background
+r19 c86..87 fg=Border bg=Background
+r19 c87..132 bg=Background
+r20 c0..20 bg=Background
+r20 c20..21 fg=Border bg=Background
+r20 c21..86 bg=Background
+r20 c86..87 fg=Border bg=Background
+r20 c87..132 bg=Background
+r21 c0..20 bg=Background
+r21 c20..21 fg=Border bg=Background
+r21 c21..86 bg=Background
+r21 c86..87 fg=Border bg=Background
+r21 c87..132 bg=Background
+r22 c0..20 bg=Background
+r22 c20..21 fg=Border bg=Background
+r22 c21..86 bg=Background
+r22 c86..87 fg=Border bg=Background
+r22 c87..132 bg=Background
+r23 c0..2 bg=Background
+r23 c2..35 fg=Muted bg=Background
+r23 c35..132 bg=Background
+r24 c0..3 bg=Background
+r24 c3..8 fg=#e09948 bg=Background bold
+r24 c8..32 fg=Hint|Dim bg=Background
+r24 c32..36 fg=#7eb4e8 bg=Background
+r24 c36..45 fg=Hint|Dim bg=Background
+r24 c45..59 fg=Live bg=Background
+r24 c59..62 fg=Hint|Dim bg=Background
+r24 c62..70 fg=Live bg=Background
+r24 c70..73 fg=Hint|Dim bg=Background
+r24 c73..87 fg=Live bg=Background
+r24 c87..106 fg=Hint|Dim bg=Background
+r24 c106..132 bg=Background
+r25 c0..2 bg=Background
+r25 c2..8 fg=Primary bg=Background bold
+r25 c8..14 fg=Muted bg=Background
+r25 c14..15 bg=Background
+r25 c15..20 fg=Primary bg=Background bold
+r25 c20..24 fg=Muted bg=Background
+r25 c24..25 bg=Background
+r25 c25..32 fg=Primary bg=Background bold
+r25 c32..36 fg=Muted bg=Background
+r25 c36..37 bg=Background
+r25 c37..48 fg=Primary bg=Background bold
+r25 c48..54 fg=Muted bg=Background
+r25 c54..55 bg=Background
+r25 c55..60 fg=Primary bg=Background bold
+r25 c60..65 fg=Muted bg=Background
+r25 c65..132 bg=Background
+r26 c0..1 bg=Background
+r26 c1..131 fg=Border bg=Background
+r26 c131..132 bg=Background
+r27 c0..132 bg=Background
+
+== dark-graphite
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background
+r1 c0..1 bg=Background
+r1 c1..11 fg=Primary bg=Background bold
+r1 c11..131 fg=Border bg=Background
+r1 c131..132 bg=Background
+r2 c0..132 bg=Background
+r3 c0..2 bg=Background
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..85 fg=Muted bg=Background
+r3 c85..132 bg=Background
+r4 c0..2 bg=Background
+r4 c2..32 fg=Muted bg=Background
+r4 c32..132 bg=Background
+r5 c0..2 bg=Background
+r5 c2..9 fg=Primary bg=Background
+r5 c9..20 bg=Background
+r5 c20..21 fg=Border bg=Background
+r5 c21..30 fg=Hint|Dim bg=Background bold underline
+r5 c30..86 bg=Background
+r5 c86..87 fg=Border bg=Background
+r5 c87..92 fg=Primary bg=Background
+r5 c92..132 bg=Background
+r6 c0..20 bg=Background
+r6 c20..21 fg=Border bg=Background
+r6 c21..82 fg=Foreground bg=Selected bold
+r6 c82..86 bg=Background
+r6 c86..87 fg=Border bg=Background
+r6 c87..92 fg=Hint|Dim bg=Background
+r6 c92..132 bg=Background
+r7 c0..20 bg=Background
+r7 c20..21 fg=Border bg=Background
+r7 c21..82 fg=Foreground bg=Background
+r7 c82..86 bg=Background
+r7 c86..87 fg=Border bg=Background
+r7 c87..132 bg=Background
+r8 c0..20 bg=Background
+r8 c20..21 fg=Border bg=Background
+r8 c21..82 fg=Foreground bg=Background
+r8 c82..86 bg=Background
+r8 c86..87 fg=Border bg=Background
+r8 c87..107 fg=Foreground bg=Background
+r8 c107..132 bg=Background
+r9 c0..20 bg=Background
+r9 c20..21 fg=Border bg=Background
+r9 c21..82 fg=Foreground bg=Background
+r9 c82..86 bg=Background
+r9 c86..87 fg=Border bg=Background
+r9 c87..107 fg=Foreground bg=Background
+r9 c107..132 bg=Background
+r10 c0..20 bg=Background
+r10 c20..21 fg=Border bg=Background
+r10 c21..82 fg=Foreground bg=Background
+r10 c82..86 bg=Background
+r10 c86..87 fg=Border bg=Background
+r10 c87..107 fg=Foreground bg=Background
+r10 c107..132 bg=Background
+r11 c0..20 bg=Background
+r11 c20..21 fg=Border bg=Background
+r11 c21..86 bg=Background
+r11 c86..87 fg=Border bg=Background
+r11 c87..110 fg=Foreground bg=Background
+r11 c110..132 bg=Background
+r12 c0..20 bg=Background
+r12 c20..21 fg=Border bg=Background
+r12 c21..86 bg=Background
+r12 c86..87 fg=Border bg=Background
+r12 c87..101 fg=Foreground bg=Background
+r12 c101..132 bg=Background
+r13 c0..20 bg=Background
+r13 c20..21 fg=Border bg=Background
+r13 c21..86 bg=Background
+r13 c86..87 fg=Border bg=Background
+r13 c87..112 fg=Foreground bg=Background
+r13 c112..132 bg=Background
+r14 c0..20 bg=Background
+r14 c20..21 fg=Border bg=Background
+r14 c21..86 bg=Background
+r14 c86..87 fg=Border bg=Background
+r14 c87..103 fg=Foreground bg=Background
+r14 c103..132 bg=Background
+r15 c0..20 bg=Background
+r15 c20..21 fg=Border bg=Background
+r15 c21..86 bg=Background
+r15 c86..87 fg=Border bg=Background
+r15 c87..132 bg=Background
+r16 c0..20 bg=Background
+r16 c20..21 fg=Border bg=Background
+r16 c21..86 bg=Background
+r16 c86..87 fg=Border bg=Background
+r16 c87..132 bg=Background
+r17 c0..20 bg=Background
+r17 c20..21 fg=Border bg=Background
+r17 c21..86 bg=Background
+r17 c86..87 fg=Border bg=Background
+r17 c87..132 bg=Background
+r18 c0..20 bg=Background
+r18 c20..21 fg=Border bg=Background
+r18 c21..86 bg=Background
+r18 c86..87 fg=Border bg=Background
+r18 c87..132 bg=Background
+r19 c0..20 bg=Background
+r19 c20..21 fg=Border bg=Background
+r19 c21..86 bg=Background
+r19 c86..87 fg=Border bg=Background
+r19 c87..132 bg=Background
+r20 c0..20 bg=Background
+r20 c20..21 fg=Border bg=Background
+r20 c21..86 bg=Background
+r20 c86..87 fg=Border bg=Background
+r20 c87..132 bg=Background
+r21 c0..20 bg=Background
+r21 c20..21 fg=Border bg=Background
+r21 c21..86 bg=Background
+r21 c86..87 fg=Border bg=Background
+r21 c87..132 bg=Background
+r22 c0..20 bg=Background
+r22 c20..21 fg=Border bg=Background
+r22 c21..86 bg=Background
+r22 c86..87 fg=Border bg=Background
+r22 c87..132 bg=Background
+r23 c0..2 bg=Background
+r23 c2..35 fg=Muted bg=Background
+r23 c35..132 bg=Background
+r24 c0..3 bg=Background
+r24 c3..8 fg=#e09948 bg=Background bold
+r24 c8..32 fg=Hint|Dim bg=Background
+r24 c32..36 fg=#7eb4e8 bg=Background
+r24 c36..45 fg=Hint|Dim bg=Background
+r24 c45..59 fg=Live bg=Background
+r24 c59..62 fg=Hint|Dim bg=Background
+r24 c62..70 fg=Live bg=Background
+r24 c70..73 fg=Hint|Dim bg=Background
+r24 c73..87 fg=Live bg=Background
+r24 c87..106 fg=Hint|Dim bg=Background
+r24 c106..132 bg=Background
+r25 c0..2 bg=Background
+r25 c2..8 fg=Primary bg=Background bold
+r25 c8..14 fg=Muted bg=Background
+r25 c14..15 bg=Background
+r25 c15..20 fg=Primary bg=Background bold
+r25 c20..24 fg=Muted bg=Background
+r25 c24..25 bg=Background
+r25 c25..32 fg=Primary bg=Background bold
+r25 c32..36 fg=Muted bg=Background
+r25 c36..37 bg=Background
+r25 c37..48 fg=Primary bg=Background bold
+r25 c48..54 fg=Muted bg=Background
+r25 c54..55 bg=Background
+r25 c55..60 fg=Primary bg=Background bold
+r25 c60..65 fg=Muted bg=Background
+r25 c65..132 bg=Background
+r26 c0..1 bg=Background
+r26 c1..131 fg=Border bg=Background
+r26 c131..132 bg=Background
+r27 c0..132 bg=Background
+
+== light-truecolor
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..131 fg=Border
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..85 fg=Muted
+r4 c2..32 fg=Muted
+r5 c2..9 fg=Primary
+r5 c20..21 fg=Border
+r5 c21..30 fg=Hint|Dim bold underline
+r5 c86..87 fg=Border
+r5 c87..92 fg=Primary
+r6 c20..21 fg=Border
+r6 c21..82 fg=Foreground bg=Selected bold
+r6 c86..87 fg=Border
+r6 c87..92 fg=Hint|Dim
+r7 c20..21 fg=Border
+r7 c21..82 fg=Foreground
+r7 c86..87 fg=Border
+r8 c20..21 fg=Border
+r8 c21..82 fg=Foreground
+r8 c86..87 fg=Border
+r8 c87..107 fg=Foreground
+r9 c20..21 fg=Border
+r9 c21..82 fg=Foreground
+r9 c86..87 fg=Border
+r9 c87..107 fg=Foreground
+r10 c20..21 fg=Border
+r10 c21..82 fg=Foreground
+r10 c86..87 fg=Border
+r10 c87..107 fg=Foreground
+r11 c20..21 fg=Border
+r11 c86..87 fg=Border
+r11 c87..110 fg=Foreground
+r12 c20..21 fg=Border
+r12 c86..87 fg=Border
+r12 c87..101 fg=Foreground
+r13 c20..21 fg=Border
+r13 c86..87 fg=Border
+r13 c87..112 fg=Foreground
+r14 c20..21 fg=Border
+r14 c86..87 fg=Border
+r14 c87..103 fg=Foreground
+r15 c20..21 fg=Border
+r15 c86..87 fg=Border
+r16 c20..21 fg=Border
+r16 c86..87 fg=Border
+r17 c20..21 fg=Border
+r17 c86..87 fg=Border
+r18 c20..21 fg=Border
+r18 c86..87 fg=Border
+r19 c20..21 fg=Border
+r19 c86..87 fg=Border
+r20 c20..21 fg=Border
+r20 c86..87 fg=Border
+r21 c20..21 fg=Border
+r21 c86..87 fg=Border
+r22 c20..21 fg=Border
+r22 c86..87 fg=Border
+r23 c2..35 fg=Muted
+r24 c3..8 fg=#92400e bold
+r24 c8..32 fg=Hint|Dim
+r24 c32..36 fg=#1636b2
+r24 c36..45 fg=Hint|Dim
+r24 c45..59 fg=Live
+r24 c59..62 fg=Hint|Dim
+r24 c62..70 fg=Live
+r24 c70..73 fg=Hint|Dim
+r24 c73..87 fg=Live
+r24 c87..106 fg=Hint|Dim
+r25 c2..8 fg=Primary bold
+r25 c8..14 fg=Muted
+r25 c15..20 fg=Primary bold
+r25 c20..24 fg=Muted
+r25 c25..32 fg=Primary bold
+r25 c32..36 fg=Muted
+r25 c37..48 fg=Primary bold
+r25 c48..54 fg=Muted
+r25 c55..60 fg=Primary bold
+r25 c60..65 fg=Muted
+r26 c1..131 fg=Border
+
+== dark-256
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r1 c11..131 fg=Border bg=Background|DiffAddedTint
+r1 c131..132 bg=Background|DiffAddedTint
+r2 c0..132 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..14 fg=Foreground bg=Selected bold
+r3 c14..85 fg=Muted bg=Background|DiffAddedTint
+r3 c85..132 bg=Background|DiffAddedTint
+r4 c0..2 bg=Background|DiffAddedTint
+r4 c2..32 fg=Muted bg=Background|DiffAddedTint
+r4 c32..132 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..9 fg=Primary bg=Background|DiffAddedTint
+r5 c9..20 bg=Background|DiffAddedTint
+r5 c20..21 fg=Border bg=Background|DiffAddedTint
+r5 c21..30 fg=Hint|Dim bg=Background|DiffAddedTint bold underline
+r5 c30..86 bg=Background|DiffAddedTint
+r5 c86..87 fg=Border bg=Background|DiffAddedTint
+r5 c87..92 fg=Primary bg=Background|DiffAddedTint
+r5 c92..132 bg=Background|DiffAddedTint
+r6 c0..20 bg=Background|DiffAddedTint
+r6 c20..21 fg=Border bg=Background|DiffAddedTint
+r6 c21..82 fg=Foreground bg=Selected bold
+r6 c82..86 bg=Background|DiffAddedTint
+r6 c86..87 fg=Border bg=Background|DiffAddedTint
+r6 c87..92 fg=Hint|Dim bg=Background|DiffAddedTint
+r6 c92..132 bg=Background|DiffAddedTint
+r7 c0..20 bg=Background|DiffAddedTint
+r7 c20..21 fg=Border bg=Background|DiffAddedTint
+r7 c21..82 fg=Foreground bg=Background|DiffAddedTint
+r7 c82..86 bg=Background|DiffAddedTint
+r7 c86..87 fg=Border bg=Background|DiffAddedTint
+r7 c87..132 bg=Background|DiffAddedTint
+r8 c0..20 bg=Background|DiffAddedTint
+r8 c20..21 fg=Border bg=Background|DiffAddedTint
+r8 c21..82 fg=Foreground bg=Background|DiffAddedTint
+r8 c82..86 bg=Background|DiffAddedTint
+r8 c86..87 fg=Border bg=Background|DiffAddedTint
+r8 c87..107 fg=Foreground bg=Background|DiffAddedTint
+r8 c107..132 bg=Background|DiffAddedTint
+r9 c0..20 bg=Background|DiffAddedTint
+r9 c20..21 fg=Border bg=Background|DiffAddedTint
+r9 c21..82 fg=Foreground bg=Background|DiffAddedTint
+r9 c82..86 bg=Background|DiffAddedTint
+r9 c86..87 fg=Border bg=Background|DiffAddedTint
+r9 c87..107 fg=Foreground bg=Background|DiffAddedTint
+r9 c107..132 bg=Background|DiffAddedTint
+r10 c0..20 bg=Background|DiffAddedTint
+r10 c20..21 fg=Border bg=Background|DiffAddedTint
+r10 c21..82 fg=Foreground bg=Background|DiffAddedTint
+r10 c82..86 bg=Background|DiffAddedTint
+r10 c86..87 fg=Border bg=Background|DiffAddedTint
+r10 c87..107 fg=Foreground bg=Background|DiffAddedTint
+r10 c107..132 bg=Background|DiffAddedTint
+r11 c0..20 bg=Background|DiffAddedTint
+r11 c20..21 fg=Border bg=Background|DiffAddedTint
+r11 c21..86 bg=Background|DiffAddedTint
+r11 c86..87 fg=Border bg=Background|DiffAddedTint
+r11 c87..110 fg=Foreground bg=Background|DiffAddedTint
+r11 c110..132 bg=Background|DiffAddedTint
+r12 c0..20 bg=Background|DiffAddedTint
+r12 c20..21 fg=Border bg=Background|DiffAddedTint
+r12 c21..86 bg=Background|DiffAddedTint
+r12 c86..87 fg=Border bg=Background|DiffAddedTint
+r12 c87..101 fg=Foreground bg=Background|DiffAddedTint
+r12 c101..132 bg=Background|DiffAddedTint
+r13 c0..20 bg=Background|DiffAddedTint
+r13 c20..21 fg=Border bg=Background|DiffAddedTint
+r13 c21..86 bg=Background|DiffAddedTint
+r13 c86..87 fg=Border bg=Background|DiffAddedTint
+r13 c87..112 fg=Foreground bg=Background|DiffAddedTint
+r13 c112..132 bg=Background|DiffAddedTint
+r14 c0..20 bg=Background|DiffAddedTint
+r14 c20..21 fg=Border bg=Background|DiffAddedTint
+r14 c21..86 bg=Background|DiffAddedTint
+r14 c86..87 fg=Border bg=Background|DiffAddedTint
+r14 c87..103 fg=Foreground bg=Background|DiffAddedTint
+r14 c103..132 bg=Background|DiffAddedTint
+r15 c0..20 bg=Background|DiffAddedTint
+r15 c20..21 fg=Border bg=Background|DiffAddedTint
+r15 c21..86 bg=Background|DiffAddedTint
+r15 c86..87 fg=Border bg=Background|DiffAddedTint
+r15 c87..132 bg=Background|DiffAddedTint
+r16 c0..20 bg=Background|DiffAddedTint
+r16 c20..21 fg=Border bg=Background|DiffAddedTint
+r16 c21..86 bg=Background|DiffAddedTint
+r16 c86..87 fg=Border bg=Background|DiffAddedTint
+r16 c87..132 bg=Background|DiffAddedTint
+r17 c0..20 bg=Background|DiffAddedTint
+r17 c20..21 fg=Border bg=Background|DiffAddedTint
+r17 c21..86 bg=Background|DiffAddedTint
+r17 c86..87 fg=Border bg=Background|DiffAddedTint
+r17 c87..132 bg=Background|DiffAddedTint
+r18 c0..20 bg=Background|DiffAddedTint
+r18 c20..21 fg=Border bg=Background|DiffAddedTint
+r18 c21..86 bg=Background|DiffAddedTint
+r18 c86..87 fg=Border bg=Background|DiffAddedTint
+r18 c87..132 bg=Background|DiffAddedTint
+r19 c0..20 bg=Background|DiffAddedTint
+r19 c20..21 fg=Border bg=Background|DiffAddedTint
+r19 c21..86 bg=Background|DiffAddedTint
+r19 c86..87 fg=Border bg=Background|DiffAddedTint
+r19 c87..132 bg=Background|DiffAddedTint
+r20 c0..20 bg=Background|DiffAddedTint
+r20 c20..21 fg=Border bg=Background|DiffAddedTint
+r20 c21..86 bg=Background|DiffAddedTint
+r20 c86..87 fg=Border bg=Background|DiffAddedTint
+r20 c87..132 bg=Background|DiffAddedTint
+r21 c0..20 bg=Background|DiffAddedTint
+r21 c20..21 fg=Border bg=Background|DiffAddedTint
+r21 c21..86 bg=Background|DiffAddedTint
+r21 c86..87 fg=Border bg=Background|DiffAddedTint
+r21 c87..132 bg=Background|DiffAddedTint
+r22 c0..20 bg=Background|DiffAddedTint
+r22 c20..21 fg=Border bg=Background|DiffAddedTint
+r22 c21..86 bg=Background|DiffAddedTint
+r22 c86..87 fg=Border bg=Background|DiffAddedTint
+r22 c87..132 bg=Background|DiffAddedTint
+r23 c0..2 bg=Background|DiffAddedTint
+r23 c2..35 fg=Muted bg=Background|DiffAddedTint
+r23 c35..132 bg=Background|DiffAddedTint
+r24 c0..3 bg=Background|DiffAddedTint
+r24 c3..8 fg=idx173 bg=Background|DiffAddedTint bold
+r24 c8..32 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c32..36 fg=idx110 bg=Background|DiffAddedTint
+r24 c36..45 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c45..59 fg=Live bg=Background|DiffAddedTint
+r24 c59..62 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c62..70 fg=Live bg=Background|DiffAddedTint
+r24 c70..73 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c73..87 fg=Live bg=Background|DiffAddedTint
+r24 c87..106 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c106..132 bg=Background|DiffAddedTint
+r25 c0..2 bg=Background|DiffAddedTint
+r25 c2..8 fg=Primary bg=Background|DiffAddedTint bold
+r25 c8..14 fg=Muted bg=Background|DiffAddedTint
+r25 c14..15 bg=Background|DiffAddedTint
+r25 c15..20 fg=Primary bg=Background|DiffAddedTint bold
+r25 c20..24 fg=Muted bg=Background|DiffAddedTint
+r25 c24..25 bg=Background|DiffAddedTint
+r25 c25..32 fg=Primary bg=Background|DiffAddedTint bold
+r25 c32..36 fg=Muted bg=Background|DiffAddedTint
+r25 c36..37 bg=Background|DiffAddedTint
+r25 c37..48 fg=Primary bg=Background|DiffAddedTint bold
+r25 c48..54 fg=Muted bg=Background|DiffAddedTint
+r25 c54..55 bg=Background|DiffAddedTint
+r25 c55..60 fg=Primary bg=Background|DiffAddedTint bold
+r25 c60..65 fg=Muted bg=Background|DiffAddedTint
+r25 c65..132 bg=Background|DiffAddedTint
+r26 c0..1 bg=Background|DiffAddedTint
+r26 c1..131 fg=Border bg=Background|DiffAddedTint
+r26 c131..132 bg=Background|DiffAddedTint
+r27 c0..132 bg=Background|DiffAddedTint
+
+== light-256
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold
+r1 c11..131 fg=Border
+r3 c2..14 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r3 c14..85 fg=Muted|Hint|Dim
+r4 c2..32 fg=Muted|Hint|Dim
+r5 c2..9 fg=Primary
+r5 c20..21 fg=Border
+r5 c21..30 fg=Muted|Hint|Dim bold underline
+r5 c86..87 fg=Border
+r5 c87..92 fg=Primary
+r6 c20..21 fg=Border
+r6 c21..82 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r6 c86..87 fg=Border
+r6 c87..92 fg=Muted|Hint|Dim
+r7 c20..21 fg=Border
+r7 c21..82 fg=Foreground
+r7 c86..87 fg=Border
+r8 c20..21 fg=Border
+r8 c21..82 fg=Foreground
+r8 c86..87 fg=Border
+r8 c87..107 fg=Foreground
+r9 c20..21 fg=Border
+r9 c21..82 fg=Foreground
+r9 c86..87 fg=Border
+r9 c87..107 fg=Foreground
+r10 c20..21 fg=Border
+r10 c21..82 fg=Foreground
+r10 c86..87 fg=Border
+r10 c87..107 fg=Foreground
+r11 c20..21 fg=Border
+r11 c86..87 fg=Border
+r11 c87..110 fg=Foreground
+r12 c20..21 fg=Border
+r12 c86..87 fg=Border
+r12 c87..101 fg=Foreground
+r13 c20..21 fg=Border
+r13 c86..87 fg=Border
+r13 c87..112 fg=Foreground
+r14 c20..21 fg=Border
+r14 c86..87 fg=Border
+r14 c87..103 fg=Foreground
+r15 c20..21 fg=Border
+r15 c86..87 fg=Border
+r16 c20..21 fg=Border
+r16 c86..87 fg=Border
+r17 c20..21 fg=Border
+r17 c86..87 fg=Border
+r18 c20..21 fg=Border
+r18 c86..87 fg=Border
+r19 c20..21 fg=Border
+r19 c86..87 fg=Border
+r20 c20..21 fg=Border
+r20 c86..87 fg=Border
+r21 c20..21 fg=Border
+r21 c86..87 fg=Border
+r22 c20..21 fg=Border
+r22 c86..87 fg=Border
+r23 c2..35 fg=Muted|Hint|Dim
+r24 c3..8 fg=Attention bold
+r24 c8..32 fg=Muted|Hint|Dim
+r24 c32..36 fg=Primary
+r24 c36..45 fg=Muted|Hint|Dim
+r24 c45..59 fg=Live
+r24 c59..62 fg=Muted|Hint|Dim
+r24 c62..70 fg=Live
+r24 c70..73 fg=Muted|Hint|Dim
+r24 c73..87 fg=Live
+r24 c87..106 fg=Muted|Hint|Dim
+r25 c2..8 fg=Primary bold
+r25 c8..14 fg=Muted|Hint|Dim
+r25 c15..20 fg=Primary bold
+r25 c20..24 fg=Muted|Hint|Dim
+r25 c25..32 fg=Primary bold
+r25 c32..36 fg=Muted|Hint|Dim
+r25 c37..48 fg=Primary bold
+r25 c48..54 fg=Muted|Hint|Dim
+r25 c55..60 fg=Primary bold
+r25 c60..65 fg=Muted|Hint|Dim
+r26 c1..131 fg=Border
+
+== ansi-16
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..131 dim
+r3 c2..14 bold
+r3 c14..85 dim
+r4 c2..32 dim
+r5 c2..9 fg=Primary
+r5 c20..21 dim
+r5 c21..30 bold dim underline
+r5 c86..87 dim
+r5 c87..92 fg=Primary
+r6 c20..21 dim
+r6 c21..82 bold
+r6 c86..92 dim
+r7 c20..21 dim
+r7 c86..87 dim
+r8 c20..21 dim
+r8 c86..87 dim
+r9 c20..21 dim
+r9 c86..87 dim
+r10 c20..21 dim
+r10 c86..87 dim
+r11 c20..21 dim
+r11 c86..87 dim
+r12 c20..21 dim
+r12 c86..87 dim
+r13 c20..21 dim
+r13 c86..87 dim
+r14 c20..21 dim
+r14 c86..87 dim
+r15 c20..21 dim
+r15 c86..87 dim
+r16 c20..21 dim
+r16 c86..87 dim
+r17 c20..21 dim
+r17 c86..87 dim
+r18 c20..21 dim
+r18 c86..87 dim
+r19 c20..21 dim
+r19 c86..87 dim
+r20 c20..21 dim
+r20 c86..87 dim
+r21 c20..21 dim
+r21 c86..87 dim
+r22 c20..21 dim
+r22 c86..87 dim
+r23 c2..35 dim
+r24 c3..8 fg=Attention bold
+r24 c8..32 dim
+r24 c32..36 fg=Primary
+r24 c36..45 dim
+r24 c45..59 fg=Live
+r24 c59..62 dim
+r24 c62..70 fg=Live
+r24 c70..73 dim
+r24 c73..87 fg=Live
+r24 c87..106 dim
+r25 c2..8 fg=Primary bold
+r25 c8..14 dim
+r25 c15..20 fg=Primary bold
+r25 c20..24 dim
+r25 c25..32 fg=Primary bold
+r25 c32..36 dim
+r25 c37..48 fg=Primary bold
+r25 c48..54 dim
+r25 c55..60 fg=Primary bold
+r25 c60..65 dim
+r26 c1..131 dim
+
+== unknown-ground
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 fg=Primary bold dim
+r1 c11..131 dim
+r3 c2..14 bold
+r3 c14..85 dim
+r4 c2..32 dim
+r5 c2..9 fg=Primary
+r5 c20..21 dim
+r5 c21..30 bold dim underline
+r5 c86..87 dim
+r5 c87..92 fg=Primary
+r6 c20..21 dim
+r6 c21..82 bold
+r6 c86..92 dim
+r7 c20..21 dim
+r7 c86..87 dim
+r8 c20..21 dim
+r8 c86..87 dim
+r9 c20..21 dim
+r9 c86..87 dim
+r10 c20..21 dim
+r10 c86..87 dim
+r11 c20..21 dim
+r11 c86..87 dim
+r12 c20..21 dim
+r12 c86..87 dim
+r13 c20..21 dim
+r13 c86..87 dim
+r14 c20..21 dim
+r14 c86..87 dim
+r15 c20..21 dim
+r15 c86..87 dim
+r16 c20..21 dim
+r16 c86..87 dim
+r17 c20..21 dim
+r17 c86..87 dim
+r18 c20..21 dim
+r18 c86..87 dim
+r19 c20..21 dim
+r19 c86..87 dim
+r20 c20..21 dim
+r20 c86..87 dim
+r21 c20..21 dim
+r21 c86..87 dim
+r22 c20..21 dim
+r22 c86..87 dim
+r23 c2..35 dim
+r24 c3..8 fg=Attention bold
+r24 c8..32 dim
+r24 c32..36 fg=Primary
+r24 c36..45 dim
+r24 c45..59 fg=Live
+r24 c59..62 dim
+r24 c62..70 fg=Live
+r24 c70..73 dim
+r24 c73..87 fg=Live
+r24 c87..106 dim
+r25 c2..8 fg=Primary bold
+r25 c8..14 dim
+r25 c15..20 fg=Primary bold
+r25 c20..24 dim
+r25 c25..32 fg=Primary bold
+r25 c32..36 dim
+r25 c37..48 fg=Primary bold
+r25 c48..54 dim
+r25 c55..60 fg=Primary bold
+r25 c60..65 dim
+r26 c1..131 dim
+
+== no-color
+
+  Settings ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           │  Display                                                        │Theme
+                    │❯Theme                underwater                    ‹ ›  user    │theme
+                    │ Thinking backgroun…  true                          [x]  user    │
+                    │ Contextual tips      true                          [x]  user    │current   underwater
+                    │ Inline file changes  full                          ‹ ›  user    │saved     underwater
+                    │ Transcript spacing   comfortable                   ‹ ›  user    │startup   underwater
+                    │                                                                 │source    settings.toml
+                    │                                                                 │scope     user
+                    │                                                                 │apply     applies on save
+                    │                                                                 │kind      choice
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+                    │                                                                 │
+  Theme: underwater — Enter to edit
+   ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..11 bold dim
+r1 c11..131 dim
+r3 c2..14 bold
+r3 c14..85 dim
+r4 c2..32 dim
+r5 c20..21 dim
+r5 c21..30 bold dim underline
+r5 c86..87 dim
+r6 c20..21 dim
+r6 c21..82 bold
+r6 c86..92 dim
+r7 c20..21 dim
+r7 c86..87 dim
+r8 c20..21 dim
+r8 c86..87 dim
+r9 c20..21 dim
+r9 c86..87 dim
+r10 c20..21 dim
+r10 c86..87 dim
+r11 c20..21 dim
+r11 c86..87 dim
+r12 c20..21 dim
+r12 c86..87 dim
+r13 c20..21 dim
+r13 c86..87 dim
+r14 c20..21 dim
+r14 c86..87 dim
+r15 c20..21 dim
+r15 c86..87 dim
+r16 c20..21 dim
+r16 c86..87 dim
+r17 c20..21 dim
+r17 c86..87 dim
+r18 c20..21 dim
+r18 c86..87 dim
+r19 c20..21 dim
+r19 c86..87 dim
+r20 c20..21 dim
+r20 c86..87 dim
+r21 c20..21 dim
+r21 c86..87 dim
+r22 c20..21 dim
+r22 c86..87 dim
+r23 c2..35 dim
+r24 c3..8 bold
+r24 c8..32 dim
+r24 c36..45 dim
+r24 c59..62 dim
+r24 c70..73 dim
+r24 c87..106 dim
+r25 c2..8 bold
+r25 c8..14 dim
+r25 c15..20 bold
+r25 c20..24 dim
+r25 c25..32 bold
+r25 c32..36 dim
+r25 c37..48 bold
+r25 c48..54 dim
+r25 c55..60 bold
+r25 c60..65 dim
+r26 c1..131 dim
+
+== ascii
+
+  Settings ------------------------------------------------------------------------------------------------------------------------
+
+   Appearance  Models & providers  Fleet  Work  Tools & MCP  Trust  Motion  Advanced
+   Search: type to filter  (5/5)
+  Display           |  Display                                                        |Theme
+                    |>Theme                underwater                    < >  user    |theme
+                    | Thinking backgro...  true                          [x]  user    |
+                    | Contextual tips      true                          [x]  user    |current   underwater
+                    | Inline file changes  full                          < >  user    |saved     underwater
+                    | Transcript spacing   comfortable                   < >  user    |startup   underwater
+                    |                                                                 |source    settings.toml
+                    |                                                                 |scope     user
+                    |                                                                 |apply     applies on save
+                    |                                                                 |kind      choice
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+                    |                                                                 |
+  Theme: underwater - Enter to edit
+   . ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   worked 41m 12s   Esc to interrupt
+   type filter  Up/Dn move  Enter edit  PgUp/PgDn scroll  Esc close
+ ----------------------------------------------------------------------------------------------------------------------------------
+
+---
+r1 c1..11 bold dim
+r1 c11..131 dim
+r3 c2..14 bold
+r3 c14..85 dim
+r4 c2..32 dim
+r5 c20..21 dim
+r5 c21..30 bold dim underline
+r5 c86..87 dim
+r6 c20..21 dim
+r6 c21..82 bold
+r6 c86..92 dim
+r7 c20..21 dim
+r7 c86..87 dim
+r8 c20..21 dim
+r8 c86..87 dim
+r9 c20..21 dim
+r9 c86..87 dim
+r10 c20..21 dim
+r10 c86..87 dim
+r11 c20..21 dim
+r11 c86..87 dim
+r12 c20..21 dim
+r12 c86..87 dim
+r13 c20..21 dim
+r13 c86..87 dim
+r14 c20..21 dim
+r14 c86..87 dim
+r15 c20..21 dim
+r15 c86..87 dim
+r16 c20..21 dim
+r16 c86..87 dim
+r17 c20..21 dim
+r17 c86..87 dim
+r18 c20..21 dim
+r18 c86..87 dim
+r19 c20..21 dim
+r19 c86..87 dim
+r20 c20..21 dim
+r20 c86..87 dim
+r21 c20..21 dim
+r21 c86..87 dim
+r22 c20..21 dim
+r22 c86..87 dim
+r23 c2..35 dim
+r24 c3..8 bold
+r24 c8..32 dim
+r24 c36..45 dim
+r24 c59..62 dim
+r24 c70..73 dim
+r24 c87..106 dim
+r25 c2..8 bold
+r25 c8..14 dim
+r25 c15..22 bold
+r25 c22..26 dim
+r25 c27..34 bold
+r25 c34..38 dim
+r25 c39..50 bold
+r25 c50..56 dim
+r25 c57..62 bold
+r25 c62..67 dim
+r26 c1..131 dim

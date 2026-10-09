@@ -1,0 +1,978 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..28 fg=Foreground bg=Surface bold
+r2 c28..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..28 fg=Foreground bg=Surface bold
+r5 c28..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..22 fg=Foreground bg=Surface
+r7 c22..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..9 fg=Muted bg=Surface
+r8 c9..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..2 bg=Surface
+r9 c2..4 fg=Border bg=Surface
+r9 c4..21 fg=Foreground bg=Surface
+r9 c21..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..4 fg=Border bg=Surface
+r10 c4..37 fg=Foreground bg=Surface
+r10 c37..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..4 fg=Border bg=Surface
+r11 c4..38 fg=Foreground bg=Surface
+r11 c38..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..2 bg=Surface
+r12 c2..4 fg=Border bg=Surface
+r12 c4..22 fg=Foreground bg=Surface
+r12 c22..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..2 bg=Surface
+r14 c2..3 fg=Primary bg=Surface bold
+r14 c3..4 fg=Foreground bg=Surface
+r14 c4..5 fg=Foreground bg=Surface bold
+r14 c5..16 fg=Foreground bg=Surface
+r14 c16..19 fg=Border bg=Surface
+r14 c19..20 fg=Primary bg=Surface bold
+r14 c20..21 fg=Foreground bg=Surface
+r14 c21..22 fg=Foreground bg=Surface bold
+r14 c22..45 fg=Foreground bg=Surface
+r14 c45..48 fg=Border bg=Surface
+r14 c48..49 fg=Primary bg=Selected bold
+r14 c49..50 fg=Foreground bg=Selected
+r14 c50..51 fg=Foreground bg=Selected bold
+r14 c51..52 fg=Foreground bg=Selected
+r14 c52..56 fg=Foreground bg=Selected bold
+r14 c56..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..2 bg=Surface
+r15 c2..3 fg=Primary bg=Surface bold
+r15 c3..4 fg=Foreground bg=Surface
+r15 c4..5 fg=Foreground bg=Surface bold
+r15 c5..22 fg=Foreground bg=Surface
+r15 c22..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..69 bg=Surface
+r16 c69..70 fg=Primary bg=Surface
+r17 c0..1 fg=Primary bg=Surface
+r17 c1..2 bg=Surface
+r17 c2..4 fg=Foreground bg=Surface bold
+r17 c4..5 bg=Surface
+r17 c5..9 fg=Muted bg=Surface
+r17 c9..12 fg=Border bg=Surface
+r17 c12..17 fg=Foreground bg=Surface bold
+r17 c17..18 bg=Surface
+r17 c18..24 fg=Muted bg=Surface
+r17 c24..27 fg=Border bg=Surface
+r17 c27..30 fg=Foreground bg=Surface bold
+r17 c30..31 bg=Surface
+r17 c31..37 fg=Muted bg=Surface
+r17 c37..69 bg=Surface
+r17 c69..70 fg=Primary bg=Surface
+r18 c0..1 fg=Primary bg=Surface
+r18 c1..69 bg=Surface
+r18 c69..70 fg=Primary bg=Surface
+r19 c0..70 fg=Primary bg=Surface
+
+== dark-graphite
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..28 fg=Foreground bg=Surface bold
+r2 c28..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..28 fg=Foreground bg=Surface bold
+r5 c28..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..22 fg=Foreground bg=Surface
+r7 c22..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..9 fg=Muted bg=Surface
+r8 c9..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..2 bg=Surface
+r9 c2..4 fg=Border bg=Surface
+r9 c4..21 fg=Foreground bg=Surface
+r9 c21..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..4 fg=Border bg=Surface
+r10 c4..37 fg=Foreground bg=Surface
+r10 c37..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..4 fg=Border bg=Surface
+r11 c4..38 fg=Foreground bg=Surface
+r11 c38..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..2 bg=Surface
+r12 c2..4 fg=Border bg=Surface
+r12 c4..22 fg=Foreground bg=Surface
+r12 c22..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..2 bg=Surface
+r14 c2..3 fg=Primary bg=Surface bold
+r14 c3..4 fg=Foreground bg=Surface
+r14 c4..5 fg=Foreground bg=Surface bold
+r14 c5..16 fg=Foreground bg=Surface
+r14 c16..19 fg=Border bg=Surface
+r14 c19..20 fg=Primary bg=Surface bold
+r14 c20..21 fg=Foreground bg=Surface
+r14 c21..22 fg=Foreground bg=Surface bold
+r14 c22..45 fg=Foreground bg=Surface
+r14 c45..48 fg=Border bg=Surface
+r14 c48..49 fg=Primary bg=Selected bold
+r14 c49..50 fg=Foreground bg=Selected
+r14 c50..51 fg=Foreground bg=Selected bold
+r14 c51..52 fg=Foreground bg=Selected
+r14 c52..56 fg=Foreground bg=Selected bold
+r14 c56..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..2 bg=Surface
+r15 c2..3 fg=Primary bg=Surface bold
+r15 c3..4 fg=Foreground bg=Surface
+r15 c4..5 fg=Foreground bg=Surface bold
+r15 c5..22 fg=Foreground bg=Surface
+r15 c22..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..69 bg=Surface
+r16 c69..70 fg=Primary bg=Surface
+r17 c0..1 fg=Primary bg=Surface
+r17 c1..2 bg=Surface
+r17 c2..4 fg=Foreground bg=Surface bold
+r17 c4..5 bg=Surface
+r17 c5..9 fg=Muted bg=Surface
+r17 c9..12 fg=Border bg=Surface
+r17 c12..17 fg=Foreground bg=Surface bold
+r17 c17..18 bg=Surface
+r17 c18..24 fg=Muted bg=Surface
+r17 c24..27 fg=Border bg=Surface
+r17 c27..30 fg=Foreground bg=Surface bold
+r17 c30..31 bg=Surface
+r17 c31..37 fg=Muted bg=Surface
+r17 c37..69 bg=Surface
+r17 c69..70 fg=Primary bg=Surface
+r18 c0..1 fg=Primary bg=Surface
+r18 c1..69 bg=Surface
+r18 c69..70 fg=Primary bg=Surface
+r19 c0..70 fg=Primary bg=Surface
+
+== light-truecolor
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..28 fg=Foreground bg=Surface bold
+r2 c28..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..28 fg=Foreground bg=Surface bold
+r5 c28..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..22 fg=Foreground bg=Surface
+r7 c22..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..9 fg=Muted bg=Surface
+r8 c9..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..2 bg=Surface
+r9 c2..4 fg=Border bg=Surface
+r9 c4..21 fg=Foreground bg=Surface
+r9 c21..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..4 fg=Border bg=Surface
+r10 c4..37 fg=Foreground bg=Surface
+r10 c37..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..4 fg=Border bg=Surface
+r11 c4..38 fg=Foreground bg=Surface
+r11 c38..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..2 bg=Surface
+r12 c2..4 fg=Border bg=Surface
+r12 c4..22 fg=Foreground bg=Surface
+r12 c22..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..2 bg=Surface
+r14 c2..3 fg=Primary bg=Surface bold
+r14 c3..4 fg=Foreground bg=Surface
+r14 c4..5 fg=Foreground bg=Surface bold
+r14 c5..16 fg=Foreground bg=Surface
+r14 c16..19 fg=Border bg=Surface
+r14 c19..20 fg=Primary bg=Surface bold
+r14 c20..21 fg=Foreground bg=Surface
+r14 c21..22 fg=Foreground bg=Surface bold
+r14 c22..45 fg=Foreground bg=Surface
+r14 c45..48 fg=Border bg=Surface
+r14 c48..49 fg=Primary bg=Selected bold
+r14 c49..50 fg=Foreground bg=Selected
+r14 c50..51 fg=Foreground bg=Selected bold
+r14 c51..52 fg=Foreground bg=Selected
+r14 c52..56 fg=Foreground bg=Selected bold
+r14 c56..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..2 bg=Surface
+r15 c2..3 fg=Primary bg=Surface bold
+r15 c3..4 fg=Foreground bg=Surface
+r15 c4..5 fg=Foreground bg=Surface bold
+r15 c5..22 fg=Foreground bg=Surface
+r15 c22..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..1 fg=Primary bg=Surface
+r16 c1..69 bg=Surface
+r16 c69..70 fg=Primary bg=Surface
+r17 c0..1 fg=Primary bg=Surface
+r17 c1..2 bg=Surface
+r17 c2..4 fg=Foreground bg=Surface bold
+r17 c4..5 bg=Surface
+r17 c5..9 fg=Muted bg=Surface
+r17 c9..12 fg=Border bg=Surface
+r17 c12..17 fg=Foreground bg=Surface bold
+r17 c17..18 bg=Surface
+r17 c18..24 fg=Muted bg=Surface
+r17 c24..27 fg=Border bg=Surface
+r17 c27..30 fg=Foreground bg=Surface bold
+r17 c30..31 bg=Surface
+r17 c31..37 fg=Muted bg=Surface
+r17 c37..69 bg=Surface
+r17 c69..70 fg=Primary bg=Surface
+r18 c0..1 fg=Primary bg=Surface
+r18 c1..69 bg=Surface
+r18 c69..70 fg=Primary bg=Surface
+r19 c0..70 fg=Primary bg=Surface
+
+== dark-256
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface|Hover
+r1 c0..1 fg=Primary bg=Surface|Hover
+r1 c1..69 bg=Surface|Hover
+r1 c69..70 fg=Primary bg=Surface|Hover
+r2 c0..1 fg=Primary bg=Surface|Hover
+r2 c1..2 bg=Surface|Hover
+r2 c2..28 fg=Foreground bg=Surface|Hover bold
+r2 c28..69 bg=Surface|Hover
+r2 c69..70 fg=Primary bg=Surface|Hover
+r3 c0..1 fg=Primary bg=Surface|Hover
+r3 c1..69 bg=Surface|Hover
+r3 c69..70 fg=Primary bg=Surface|Hover
+r4 c0..1 fg=Primary bg=Surface|Hover
+r4 c1..2 bg=Surface|Hover
+r4 c2..15 fg=Muted bg=Surface|Hover
+r4 c15..22 fg=Foreground bg=Surface|Hover bold
+r4 c22..69 bg=Surface|Hover
+r4 c69..70 fg=Primary bg=Surface|Hover
+r5 c0..1 fg=Primary bg=Surface|Hover
+r5 c1..2 bg=Surface|Hover
+r5 c2..4 fg=Primary bg=Surface|Hover bold
+r5 c4..28 fg=Foreground bg=Surface|Hover bold
+r5 c28..69 bg=Surface|Hover
+r5 c69..70 fg=Primary bg=Surface|Hover
+r6 c0..1 fg=Primary bg=Surface|Hover
+r6 c1..2 bg=Surface|Hover
+r6 c2..21 fg=Muted bg=Surface|Hover
+r6 c21..69 bg=Surface|Hover
+r6 c69..70 fg=Primary bg=Surface|Hover
+r7 c0..1 fg=Primary bg=Surface|Hover
+r7 c1..2 bg=Surface|Hover
+r7 c2..5 fg=Muted bg=Surface|Hover
+r7 c5..22 fg=Foreground bg=Surface|Hover
+r7 c22..69 bg=Surface|Hover
+r7 c69..70 fg=Primary bg=Surface|Hover
+r8 c0..1 fg=Primary bg=Surface|Hover
+r8 c1..2 bg=Surface|Hover
+r8 c2..9 fg=Muted bg=Surface|Hover
+r8 c9..69 bg=Surface|Hover
+r8 c69..70 fg=Primary bg=Surface|Hover
+r9 c0..1 fg=Primary bg=Surface|Hover
+r9 c1..2 bg=Surface|Hover
+r9 c2..4 fg=Border bg=Surface|Hover
+r9 c4..21 fg=Foreground bg=Surface|Hover
+r9 c21..69 bg=Surface|Hover
+r9 c69..70 fg=Primary bg=Surface|Hover
+r10 c0..1 fg=Primary bg=Surface|Hover
+r10 c1..2 bg=Surface|Hover
+r10 c2..4 fg=Border bg=Surface|Hover
+r10 c4..37 fg=Foreground bg=Surface|Hover
+r10 c37..69 bg=Surface|Hover
+r10 c69..70 fg=Primary bg=Surface|Hover
+r11 c0..1 fg=Primary bg=Surface|Hover
+r11 c1..2 bg=Surface|Hover
+r11 c2..4 fg=Border bg=Surface|Hover
+r11 c4..38 fg=Foreground bg=Surface|Hover
+r11 c38..69 bg=Surface|Hover
+r11 c69..70 fg=Primary bg=Surface|Hover
+r12 c0..1 fg=Primary bg=Surface|Hover
+r12 c1..2 bg=Surface|Hover
+r12 c2..4 fg=Border bg=Surface|Hover
+r12 c4..22 fg=Foreground bg=Surface|Hover
+r12 c22..69 bg=Surface|Hover
+r12 c69..70 fg=Primary bg=Surface|Hover
+r13 c0..1 fg=Primary bg=Surface|Hover
+r13 c1..69 bg=Surface|Hover
+r13 c69..70 fg=Primary bg=Surface|Hover
+r14 c0..1 fg=Primary bg=Surface|Hover
+r14 c1..2 bg=Surface|Hover
+r14 c2..3 fg=Primary bg=Surface|Hover bold
+r14 c3..4 fg=Foreground bg=Surface|Hover
+r14 c4..5 fg=Foreground bg=Surface|Hover bold
+r14 c5..16 fg=Foreground bg=Surface|Hover
+r14 c16..19 fg=Border bg=Surface|Hover
+r14 c19..20 fg=Primary bg=Surface|Hover bold
+r14 c20..21 fg=Foreground bg=Surface|Hover
+r14 c21..22 fg=Foreground bg=Surface|Hover bold
+r14 c22..45 fg=Foreground bg=Surface|Hover
+r14 c45..48 fg=Border bg=Surface|Hover
+r14 c48..49 fg=Primary bg=Selected bold
+r14 c49..50 fg=Foreground bg=Selected
+r14 c50..51 fg=Foreground bg=Selected bold
+r14 c51..52 fg=Foreground bg=Selected
+r14 c52..56 fg=Foreground bg=Selected bold
+r14 c56..69 bg=Surface|Hover
+r14 c69..70 fg=Primary bg=Surface|Hover
+r15 c0..1 fg=Primary bg=Surface|Hover
+r15 c1..2 bg=Surface|Hover
+r15 c2..3 fg=Primary bg=Surface|Hover bold
+r15 c3..4 fg=Foreground bg=Surface|Hover
+r15 c4..5 fg=Foreground bg=Surface|Hover bold
+r15 c5..22 fg=Foreground bg=Surface|Hover
+r15 c22..69 bg=Surface|Hover
+r15 c69..70 fg=Primary bg=Surface|Hover
+r16 c0..1 fg=Primary bg=Surface|Hover
+r16 c1..69 bg=Surface|Hover
+r16 c69..70 fg=Primary bg=Surface|Hover
+r17 c0..1 fg=Primary bg=Surface|Hover
+r17 c1..2 bg=Surface|Hover
+r17 c2..4 fg=Foreground bg=Surface|Hover bold
+r17 c4..5 bg=Surface|Hover
+r17 c5..9 fg=Muted bg=Surface|Hover
+r17 c9..12 fg=Border bg=Surface|Hover
+r17 c12..17 fg=Foreground bg=Surface|Hover bold
+r17 c17..18 bg=Surface|Hover
+r17 c18..24 fg=Muted bg=Surface|Hover
+r17 c24..27 fg=Border bg=Surface|Hover
+r17 c27..30 fg=Foreground bg=Surface|Hover bold
+r17 c30..31 bg=Surface|Hover
+r17 c31..37 fg=Muted bg=Surface|Hover
+r17 c37..69 bg=Surface|Hover
+r17 c69..70 fg=Primary bg=Surface|Hover
+r18 c0..1 fg=Primary bg=Surface|Hover
+r18 c1..69 bg=Surface|Hover
+r18 c69..70 fg=Primary bg=Surface|Hover
+r19 c0..70 fg=Primary bg=Surface|Hover
+
+== light-256
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Background|Surface
+r1 c0..1 fg=Primary bg=Background|Surface
+r1 c1..69 bg=Background|Surface
+r1 c69..70 fg=Primary bg=Background|Surface
+r2 c0..1 fg=Primary bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..28 fg=Foreground bg=Background|Surface bold
+r2 c28..69 bg=Background|Surface
+r2 c69..70 fg=Primary bg=Background|Surface
+r3 c0..1 fg=Primary bg=Background|Surface
+r3 c1..69 bg=Background|Surface
+r3 c69..70 fg=Primary bg=Background|Surface
+r4 c0..1 fg=Primary bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..15 fg=Muted bg=Background|Surface
+r4 c15..22 fg=Foreground bg=Background|Surface bold
+r4 c22..69 bg=Background|Surface
+r4 c69..70 fg=Primary bg=Background|Surface
+r5 c0..1 fg=Primary bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..4 fg=Primary bg=Background|Surface bold
+r5 c4..28 fg=Foreground bg=Background|Surface bold
+r5 c28..69 bg=Background|Surface
+r5 c69..70 fg=Primary bg=Background|Surface
+r6 c0..1 fg=Primary bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..21 fg=Muted bg=Background|Surface
+r6 c21..69 bg=Background|Surface
+r6 c69..70 fg=Primary bg=Background|Surface
+r7 c0..1 fg=Primary bg=Background|Surface
+r7 c1..2 bg=Background|Surface
+r7 c2..5 fg=Muted bg=Background|Surface
+r7 c5..22 fg=Foreground bg=Background|Surface
+r7 c22..69 bg=Background|Surface
+r7 c69..70 fg=Primary bg=Background|Surface
+r8 c0..1 fg=Primary bg=Background|Surface
+r8 c1..2 bg=Background|Surface
+r8 c2..9 fg=Muted bg=Background|Surface
+r8 c9..69 bg=Background|Surface
+r8 c69..70 fg=Primary bg=Background|Surface
+r9 c0..1 fg=Primary bg=Background|Surface
+r9 c1..2 bg=Background|Surface
+r9 c2..4 fg=Border bg=Background|Surface
+r9 c4..21 fg=Foreground bg=Background|Surface
+r9 c21..69 bg=Background|Surface
+r9 c69..70 fg=Primary bg=Background|Surface
+r10 c0..1 fg=Primary bg=Background|Surface
+r10 c1..2 bg=Background|Surface
+r10 c2..4 fg=Border bg=Background|Surface
+r10 c4..37 fg=Foreground bg=Background|Surface
+r10 c37..69 bg=Background|Surface
+r10 c69..70 fg=Primary bg=Background|Surface
+r11 c0..1 fg=Primary bg=Background|Surface
+r11 c1..2 bg=Background|Surface
+r11 c2..4 fg=Border bg=Background|Surface
+r11 c4..38 fg=Foreground bg=Background|Surface
+r11 c38..69 bg=Background|Surface
+r11 c69..70 fg=Primary bg=Background|Surface
+r12 c0..1 fg=Primary bg=Background|Surface
+r12 c1..2 bg=Background|Surface
+r12 c2..4 fg=Border bg=Background|Surface
+r12 c4..22 fg=Foreground bg=Background|Surface
+r12 c22..69 bg=Background|Surface
+r12 c69..70 fg=Primary bg=Background|Surface
+r13 c0..1 fg=Primary bg=Background|Surface
+r13 c1..69 bg=Background|Surface
+r13 c69..70 fg=Primary bg=Background|Surface
+r14 c0..1 fg=Primary bg=Background|Surface
+r14 c1..2 bg=Background|Surface
+r14 c2..3 fg=Primary bg=Background|Surface bold
+r14 c3..4 fg=Foreground bg=Background|Surface
+r14 c4..5 fg=Foreground bg=Background|Surface bold
+r14 c5..16 fg=Foreground bg=Background|Surface
+r14 c16..19 fg=Border bg=Background|Surface
+r14 c19..20 fg=Primary bg=Background|Surface bold
+r14 c20..21 fg=Foreground bg=Background|Surface
+r14 c21..22 fg=Foreground bg=Background|Surface bold
+r14 c22..45 fg=Foreground bg=Background|Surface
+r14 c45..48 fg=Border bg=Background|Surface
+r14 c48..49 fg=Primary bg=Selected bold
+r14 c49..50 fg=Foreground bg=Selected
+r14 c50..51 fg=Foreground bg=Selected bold
+r14 c51..52 fg=Foreground bg=Selected
+r14 c52..56 fg=Foreground bg=Selected bold
+r14 c56..69 bg=Background|Surface
+r14 c69..70 fg=Primary bg=Background|Surface
+r15 c0..1 fg=Primary bg=Background|Surface
+r15 c1..2 bg=Background|Surface
+r15 c2..3 fg=Primary bg=Background|Surface bold
+r15 c3..4 fg=Foreground bg=Background|Surface
+r15 c4..5 fg=Foreground bg=Background|Surface bold
+r15 c5..22 fg=Foreground bg=Background|Surface
+r15 c22..69 bg=Background|Surface
+r15 c69..70 fg=Primary bg=Background|Surface
+r16 c0..1 fg=Primary bg=Background|Surface
+r16 c1..69 bg=Background|Surface
+r16 c69..70 fg=Primary bg=Background|Surface
+r17 c0..1 fg=Primary bg=Background|Surface
+r17 c1..2 bg=Background|Surface
+r17 c2..4 fg=Foreground bg=Background|Surface bold
+r17 c4..5 bg=Background|Surface
+r17 c5..9 fg=Muted bg=Background|Surface
+r17 c9..12 fg=Border bg=Background|Surface
+r17 c12..17 fg=Foreground bg=Background|Surface bold
+r17 c17..18 bg=Background|Surface
+r17 c18..24 fg=Muted bg=Background|Surface
+r17 c24..27 fg=Border bg=Background|Surface
+r17 c27..30 fg=Foreground bg=Background|Surface bold
+r17 c30..31 bg=Background|Surface
+r17 c31..37 fg=Muted bg=Background|Surface
+r17 c37..69 bg=Background|Surface
+r17 c69..70 fg=Primary bg=Background|Surface
+r18 c0..1 fg=Primary bg=Background|Surface
+r18 c1..69 bg=Background|Surface
+r18 c69..70 fg=Primary bg=Background|Surface
+r19 c0..70 fg=Primary bg=Background|Surface
+
+== ansi-16
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary
+r1 c0..1 fg=Primary
+r1 c69..70 fg=Primary
+r2 c0..1 fg=Primary
+r2 c2..28 bold
+r2 c69..70 fg=Primary
+r3 c0..1 fg=Primary
+r3 c69..70 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..15 dim
+r4 c15..22 bold
+r4 c69..70 fg=Primary
+r5 c0..1 fg=Primary
+r5 c2..4 fg=Primary bold
+r5 c4..28 bold
+r5 c69..70 fg=Primary
+r6 c0..1 fg=Primary
+r6 c2..21 dim
+r6 c69..70 fg=Primary
+r7 c0..1 fg=Primary
+r7 c2..5 dim
+r7 c69..70 fg=Primary
+r8 c0..1 fg=Primary
+r8 c2..9 dim
+r8 c69..70 fg=Primary
+r9 c0..1 fg=Primary
+r9 c2..4 dim
+r9 c69..70 fg=Primary
+r10 c0..1 fg=Primary
+r10 c2..4 dim
+r10 c69..70 fg=Primary
+r11 c0..1 fg=Primary
+r11 c2..4 dim
+r11 c69..70 fg=Primary
+r12 c0..1 fg=Primary
+r12 c2..4 dim
+r12 c69..70 fg=Primary
+r13 c0..1 fg=Primary
+r13 c69..70 fg=Primary
+r14 c0..1 fg=Primary
+r14 c2..3 fg=Primary bold
+r14 c4..5 bold
+r14 c16..19 dim
+r14 c19..20 fg=Primary bold
+r14 c21..22 bold
+r14 c45..48 dim
+r14 c48..49 fg=Primary bold
+r14 c50..51 bold
+r14 c52..56 bold
+r14 c69..70 fg=Primary
+r15 c0..1 fg=Primary
+r15 c2..3 fg=Primary bold
+r15 c4..5 bold
+r15 c69..70 fg=Primary
+r16 c0..1 fg=Primary
+r16 c69..70 fg=Primary
+r17 c0..1 fg=Primary
+r17 c2..4 bold
+r17 c5..12 dim
+r17 c12..17 bold
+r17 c18..27 dim
+r17 c27..30 bold
+r17 c31..37 dim
+r17 c69..70 fg=Primary
+r18 c0..1 fg=Primary
+r18 c69..70 fg=Primary
+r19 c0..70 fg=Primary
+
+== unknown-ground
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary
+r1 c0..1 fg=Primary
+r1 c69..70 fg=Primary
+r2 c0..1 fg=Primary
+r2 c2..28 bold
+r2 c69..70 fg=Primary
+r3 c0..1 fg=Primary
+r3 c69..70 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..15 dim
+r4 c15..22 bold
+r4 c69..70 fg=Primary
+r5 c0..1 fg=Primary
+r5 c2..4 fg=Primary bold
+r5 c4..28 bold
+r5 c69..70 fg=Primary
+r6 c0..1 fg=Primary
+r6 c2..21 dim
+r6 c69..70 fg=Primary
+r7 c0..1 fg=Primary
+r7 c2..5 dim
+r7 c69..70 fg=Primary
+r8 c0..1 fg=Primary
+r8 c2..9 dim
+r8 c69..70 fg=Primary
+r9 c0..1 fg=Primary
+r9 c2..4 dim
+r9 c69..70 fg=Primary
+r10 c0..1 fg=Primary
+r10 c2..4 dim
+r10 c69..70 fg=Primary
+r11 c0..1 fg=Primary
+r11 c2..4 dim
+r11 c69..70 fg=Primary
+r12 c0..1 fg=Primary
+r12 c2..4 dim
+r12 c69..70 fg=Primary
+r13 c0..1 fg=Primary
+r13 c69..70 fg=Primary
+r14 c0..1 fg=Primary
+r14 c2..3 fg=Primary bold
+r14 c4..5 bold
+r14 c16..19 dim
+r14 c19..20 fg=Primary bold
+r14 c21..22 bold
+r14 c45..48 dim
+r14 c48..49 fg=Primary bold
+r14 c50..51 bold
+r14 c52..56 bold
+r14 c69..70 fg=Primary
+r15 c0..1 fg=Primary
+r15 c2..3 fg=Primary bold
+r15 c4..5 bold
+r15 c69..70 fg=Primary
+r16 c0..1 fg=Primary
+r16 c69..70 fg=Primary
+r17 c0..1 fg=Primary
+r17 c2..4 bold
+r17 c5..12 dim
+r17 c12..17 bold
+r17 c18..27 dim
+r17 c27..30 bold
+r17 c31..37 dim
+r17 c69..70 fg=Primary
+r18 c0..1 fg=Primary
+r18 c69..70 fg=Primary
+r19 c0..70 fg=Primary
+
+== no-color
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Change files                                         │
+│                                                                    │
+│ Requested by builder                                               │
+│ › src/lib.rs, src/theme.rs                                         │
+│ Inside this project                                                │
+│ In codewhale-ratatui                                               │
+│ Preview                                                            │
+│ │ @@ -12,3 +12,4 @@                                                │
+│ │ -pub const OCEAN_TINT: f64 = 0.5;                                │
+│ │ +pub const OCEAN_TINT: f64 = 0.55;                               │
+│ │  pub enum Ground {                                               │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r2 c2..28 bold
+r4 c2..15 dim
+r4 c15..22 bold
+r5 c2..28 bold
+r6 c2..21 dim
+r7 c2..5 dim
+r8 c2..9 dim
+r9 c2..4 dim
+r10 c2..4 dim
+r11 c2..4 dim
+r12 c2..4 dim
+r14 c2..3 bold
+r14 c4..5 bold
+r14 c16..19 dim
+r14 c19..20 bold
+r14 c21..22 bold
+r14 c45..48 dim
+r14 c48..49 bold
+r14 c50..51 bold
+r14 c52..56 bold
+r15 c2..3 bold
+r15 c4..5 bold
+r17 c2..4 bold
+r17 c5..12 dim
+r17 c12..17 bold
+r17 c18..27 dim
+r17 c27..30 bold
+r17 c31..37 dim
+
+== ascii
++--------------------------------------------------------------------+
+|                                                                    |
+| * Needs you - Change files                                         |
+|                                                                    |
+| Requested by builder                                               |
+| > src/lib.rs, src/theme.rs                                         |
+| Inside this project                                                |
+| In codewhale-ratatui                                               |
+| Preview                                                            |
+| | @@ -12,3 +12,4 @@                                                |
+| | -pub const OCEAN_TINT: f64 = 0.5;                                |
+| | +pub const OCEAN_TINT: f64 = 0.55;                               |
+| |  pub enum Ground {                                               |
+|                                                                    |
+|   y Allow once    a Allow for this session  > n Deny               |
+|   e Deny and say why                                               |
+|                                                                    |
+| Left/Right move  Enter choose  Esc cancel                          |
+|                                                                    |
++--------------------------------------------------------------------+
+---
+r2 c2..28 bold
+r4 c2..15 dim
+r4 c15..22 bold
+r5 c2..28 bold
+r6 c2..21 dim
+r7 c2..5 dim
+r8 c2..9 dim
+r9 c2..4 dim
+r10 c2..4 dim
+r11 c2..4 dim
+r12 c2..4 dim
+r14 c2..3 bold
+r14 c4..5 bold
+r14 c18..19 bold
+r14 c20..21 bold
+r14 c46..47 bold
+r14 c48..49 bold
+r14 c50..54 bold
+r15 c2..3 bold
+r15 c4..5 bold
+r17 c2..12 bold
+r17 c13..17 dim
+r17 c19..24 bold
+r17 c25..31 dim
+r17 c33..36 bold
+r17 c37..43 dim

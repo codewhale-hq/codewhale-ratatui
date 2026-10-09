@@ -1,0 +1,206 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary bg=Selected
+r0 c2..7 fg=Foreground bg=Selected bold
+r0 c7..9 bg=Selected
+r0 c9..18 fg=Foreground bg=Selected
+r0 c18..78 fg=Muted bg=Selected
+r0 c78..80 bg=Selected
+r1 c0..2 fg=Primary bg=Background
+r1 c2..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..17 fg=Foreground bg=Background
+r1 c17..47 fg=Muted bg=Background
+r1 c47..80 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..16 fg=Foreground bg=Background
+r2 c16..18 bg=Background
+r2 c18..61 fg=Muted bg=Background
+r2 c61..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+
+== dark-graphite
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary bg=Selected
+r0 c2..7 fg=Foreground bg=Selected bold
+r0 c7..9 bg=Selected
+r0 c9..18 fg=Foreground bg=Selected
+r0 c18..78 fg=Muted bg=Selected
+r0 c78..80 bg=Selected
+r1 c0..2 fg=Primary bg=Background
+r1 c2..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..17 fg=Foreground bg=Background
+r1 c17..47 fg=Muted bg=Background
+r1 c47..80 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..16 fg=Foreground bg=Background
+r2 c16..18 bg=Background
+r2 c18..61 fg=Muted bg=Background
+r2 c61..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+
+== light-truecolor
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary bg=Selected
+r0 c2..7 fg=Foreground bg=Selected bold
+r0 c7..9 bg=Selected
+r0 c9..18 fg=Foreground bg=Selected
+r0 c18..78 fg=Muted bg=Selected
+r0 c78..80 bg=Selected
+r1 c0..2 fg=Primary bg=Background
+r1 c2..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..17 fg=Foreground bg=Background
+r1 c17..47 fg=Muted bg=Background
+r1 c47..80 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..16 fg=Foreground bg=Background
+r2 c16..18 bg=Background
+r2 c18..61 fg=Muted bg=Background
+r2 c61..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+
+== dark-256
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary bg=Selected
+r0 c2..7 fg=Foreground bg=Selected bold
+r0 c7..9 bg=Selected
+r0 c9..18 fg=Foreground bg=Selected
+r0 c18..78 fg=Muted bg=Selected
+r0 c78..80 bg=Selected
+r1 c0..2 fg=Primary bg=Background
+r1 c2..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..17 fg=Foreground bg=Background
+r1 c17..47 fg=Muted bg=Background
+r1 c47..80 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..16 fg=Foreground bg=Background
+r2 c16..18 bg=Background
+r2 c18..61 fg=Muted bg=Background
+r2 c61..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+
+== light-256
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary bg=Selected
+r0 c2..7 fg=Foreground bg=Selected bold
+r0 c7..9 bg=Selected
+r0 c9..18 fg=Foreground bg=Selected
+r0 c18..78 fg=Muted bg=Selected
+r0 c78..80 bg=Selected
+r1 c0..2 fg=Primary bg=Background|Surface
+r1 c2..8 fg=Foreground bg=Background|Surface
+r1 c8..10 bg=Background|Surface
+r1 c10..17 fg=Foreground bg=Background|Surface
+r1 c17..47 fg=Muted bg=Background|Surface
+r1 c47..80 bg=Background|Surface
+r2 c0..2 fg=Primary bg=Background|Surface
+r2 c2..16 fg=Foreground bg=Background|Surface
+r2 c16..18 bg=Background|Surface
+r2 c18..61 fg=Muted bg=Background|Surface
+r2 c61..80 bg=Background|Surface
+r3 c0..80 bg=Background|Surface
+r4 c0..80 bg=Background|Surface
+r5 c0..80 bg=Background|Surface
+
+== ansi-16
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary
+r0 c2..7 bold
+r0 c18..78 dim
+r1 c0..2 fg=Primary
+r1 c17..47 dim
+r2 c0..2 fg=Primary
+r2 c18..61 dim
+
+== unknown-ground
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c0..2 fg=Primary
+r0 c2..7 bold
+r0 c18..78 dim
+r1 c0..2 fg=Primary
+r1 c17..47 dim
+r2 c0..2 fg=Primary
+r2 c18..61 dim
+
+== no-color
+▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
+  Motion  Reduced · your settings · Applies now
+  Context window  200k tokens · Read only · Set by your admin
+
+
+
+---
+r0 c2..7 bold
+r0 c18..78 dim
+r1 c17..47 dim
+r2 c18..61 dim
+
+== ascii
+> Theme  Shoreline  this project  Applies now  changed  r reset to default
+  Motion  Reduced  your settings  Applies now
+  Context window  200k tokens  Read only  Set by your admin
+
+
+
+---
+r0 c2..7 bold
+r0 c18..74 dim
+r1 c17..45 dim
+r2 c18..59 dim

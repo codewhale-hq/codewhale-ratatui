@@ -1,0 +1,759 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 fg=Foreground bg=Sidebar|Surface bold
+r0 c23..104 fg=Foreground bg=Sidebar|Surface
+r1 c0..10 fg=Muted bg=Sidebar|Surface
+r1 c10..104 fg=Foreground bg=Sidebar|Surface
+r2 c0..104 fg=Foreground bg=Background
+r3 c0..104 fg=Foreground bg=Background
+r4 c0..104 fg=Foreground bg=Background
+r5 c0..20 fg=Foreground bg=Background
+r5 c20..41 fg=Foreground bg=Sidebar|Surface
+r5 c41..62 fg=Foreground bg=Hover
+r5 c62..83 fg=Foreground bg=Sidebar|Surface
+r5 c83..104 fg=Foreground bg=Selected
+r6 c0..20 fg=Foreground bg=Background
+r6 c20..41 fg=Foreground bg=Sidebar|Surface
+r6 c41..62 fg=Foreground bg=Hover
+r6 c62..83 fg=Foreground bg=Sidebar|Surface
+r6 c83..104 fg=Foreground bg=Selected
+r7 c0..20 fg=Foreground bg=Background
+r7 c20..41 fg=Foreground bg=Sidebar|Surface
+r7 c41..62 fg=Foreground bg=Hover
+r7 c62..83 fg=Foreground bg=Sidebar|Surface
+r7 c83..104 fg=Foreground bg=Selected
+r8 c0..104 fg=Foreground bg=Background
+r9 c0..104 fg=Foreground bg=Background
+r10 c0..1 fg=Foreground bg=Background
+r10 c1..8 fg=Live bg=Background
+r10 c8..27 fg=Foreground bg=Background
+r10 c27..36 fg=#9ece6a bg=Background
+r10 c36..53 fg=Foreground bg=Background
+r10 c53..62 fg=#e0af68 bg=Background
+r10 c62..79 fg=Foreground bg=Background
+r10 c79..85 fg=Danger bg=Background
+r10 c85..104 fg=Foreground bg=Background
+r11 c0..104 fg=Foreground bg=Background
+r12 c0..1 fg=Foreground bg=Background
+r12 c1..5 fg=#7ba2f7 bg=Background
+r12 c5..35 fg=Foreground bg=Background
+r12 c35..39 fg=#ff9f64 bg=Background
+r12 c39..70 fg=Foreground bg=Background
+r12 c70..77 fg=#bb9af7 bg=Background
+r12 c77..104 fg=Foreground bg=Background
+r13 c0..104 fg=Foreground bg=Background
+r14 c0..1 fg=Foreground bg=Background
+r14 c1..4 fg=#e0af68 bg=Background
+r14 c4..35 fg=Foreground bg=Background
+r14 c35..46 fg=Attention bg=Background
+r14 c46..70 fg=Foreground bg=Background
+r14 c70..81 fg=Danger bg=Background
+r14 c81..104 fg=Foreground bg=Background
+r15 c0..104 fg=Foreground bg=Background
+r16 c0..39 fg=BorderStrong bg=Background
+r16 c39..104 fg=Foreground bg=Background
+r17 c0..104 fg=Foreground bg=Background
+r18 c0..104 fg=Foreground bg=Background
+r19 c0..104 fg=Border bg=Sidebar|Surface
+r20 c0..1 fg=Foreground bg=Sidebar|Surface
+r20 c1..10 fg=Foreground bg=Selected bold
+r20 c10..12 fg=Foreground bg=Sidebar|Surface
+r20 c12..21 fg=Muted bg=Sidebar|Surface
+r20 c21..23 fg=Foreground bg=Sidebar|Surface
+r20 c23..31 fg=Muted bg=Sidebar|Surface
+r20 c31..33 fg=Foreground bg=Sidebar|Surface
+r20 c33..42 fg=Muted bg=Sidebar|Surface
+r20 c42..44 fg=Foreground bg=Sidebar|Surface
+r20 c44..53 fg=Muted bg=Sidebar|Surface
+r20 c53..55 fg=Foreground bg=Sidebar|Surface
+r20 c55..64 fg=Muted bg=Sidebar|Surface
+r20 c64..66 fg=Foreground bg=Sidebar|Surface
+r20 c66..71 fg=Muted bg=Sidebar|Surface
+r20 c71..73 fg=Foreground bg=Sidebar|Surface
+r20 c73..79 fg=Muted bg=Sidebar|Surface
+r20 c79..97 fg=Foreground bg=Sidebar|Surface
+r20 c97..104 fg=Hint bg=Sidebar|Surface
+r21 c0..1 fg=Foreground bg=Sidebar|Surface
+r21 c1..34 fg=Live bg=Sidebar|Surface bold
+r21 c34..102 fg=Muted bg=Sidebar|Surface
+r21 c102..104 fg=Foreground bg=Sidebar|Surface
+r22 c0..1 fg=Foreground bg=Sidebar|Surface
+r22 c1..102 fg=Live bg=Selected bold
+r22 c102..103 fg=Foreground bg=Sidebar|Surface
+r22 c103..104 fg=Live bg=Sidebar|Surface
+r23 c0..1 fg=Foreground bg=Sidebar|Surface
+r23 c1..102 fg=Muted bg=Sidebar|Surface
+r23 c102..103 fg=Foreground bg=Sidebar|Surface
+r23 c103..104 fg=Border bg=Sidebar|Surface
+
+== dark-graphite
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 fg=Foreground bg=Sidebar|Surface bold
+r0 c23..104 fg=Foreground bg=Sidebar|Surface
+r1 c0..10 fg=Muted bg=Sidebar|Surface
+r1 c10..104 fg=Foreground bg=Sidebar|Surface
+r2 c0..104 fg=Foreground bg=Background
+r3 c0..104 fg=Foreground bg=Background
+r4 c0..104 fg=Foreground bg=Background
+r5 c0..20 fg=Foreground bg=Background
+r5 c20..41 fg=Foreground bg=Sidebar|Surface
+r5 c41..62 fg=Foreground bg=Hover
+r5 c62..83 fg=Foreground bg=Sidebar|Surface
+r5 c83..104 fg=Foreground bg=Selected
+r6 c0..20 fg=Foreground bg=Background
+r6 c20..41 fg=Foreground bg=Sidebar|Surface
+r6 c41..62 fg=Foreground bg=Hover
+r6 c62..83 fg=Foreground bg=Sidebar|Surface
+r6 c83..104 fg=Foreground bg=Selected
+r7 c0..20 fg=Foreground bg=Background
+r7 c20..41 fg=Foreground bg=Sidebar|Surface
+r7 c41..62 fg=Foreground bg=Hover
+r7 c62..83 fg=Foreground bg=Sidebar|Surface
+r7 c83..104 fg=Foreground bg=Selected
+r8 c0..104 fg=Foreground bg=Background
+r9 c0..104 fg=Foreground bg=Background
+r10 c0..1 fg=Foreground bg=Background
+r10 c1..8 fg=Live bg=Background
+r10 c8..27 fg=Foreground bg=Background
+r10 c27..36 fg=#9ece6a bg=Background
+r10 c36..53 fg=Foreground bg=Background
+r10 c53..62 fg=#e0af68 bg=Background
+r10 c62..79 fg=Foreground bg=Background
+r10 c79..85 fg=Danger bg=Background
+r10 c85..104 fg=Foreground bg=Background
+r11 c0..104 fg=Foreground bg=Background
+r12 c0..1 fg=Foreground bg=Background
+r12 c1..5 fg=#7ba2f7 bg=Background
+r12 c5..35 fg=Foreground bg=Background
+r12 c35..39 fg=#ff9f64 bg=Background
+r12 c39..70 fg=Foreground bg=Background
+r12 c70..77 fg=#bb9af7 bg=Background
+r12 c77..104 fg=Foreground bg=Background
+r13 c0..104 fg=Foreground bg=Background
+r14 c0..1 fg=Foreground bg=Background
+r14 c1..4 fg=#e0af68 bg=Background
+r14 c4..35 fg=Foreground bg=Background
+r14 c35..46 fg=Attention bg=Background
+r14 c46..70 fg=Foreground bg=Background
+r14 c70..81 fg=Danger bg=Background
+r14 c81..104 fg=Foreground bg=Background
+r15 c0..104 fg=Foreground bg=Background
+r16 c0..39 fg=BorderStrong bg=Background
+r16 c39..104 fg=Foreground bg=Background
+r17 c0..104 fg=Foreground bg=Background
+r18 c0..104 fg=Foreground bg=Background
+r19 c0..104 fg=Border bg=Sidebar|Surface
+r20 c0..1 fg=Foreground bg=Sidebar|Surface
+r20 c1..10 fg=Foreground bg=Selected bold
+r20 c10..12 fg=Foreground bg=Sidebar|Surface
+r20 c12..21 fg=Muted bg=Sidebar|Surface
+r20 c21..23 fg=Foreground bg=Sidebar|Surface
+r20 c23..31 fg=Muted bg=Sidebar|Surface
+r20 c31..33 fg=Foreground bg=Sidebar|Surface
+r20 c33..42 fg=Muted bg=Sidebar|Surface
+r20 c42..44 fg=Foreground bg=Sidebar|Surface
+r20 c44..53 fg=Muted bg=Sidebar|Surface
+r20 c53..55 fg=Foreground bg=Sidebar|Surface
+r20 c55..64 fg=Muted bg=Sidebar|Surface
+r20 c64..66 fg=Foreground bg=Sidebar|Surface
+r20 c66..71 fg=Muted bg=Sidebar|Surface
+r20 c71..73 fg=Foreground bg=Sidebar|Surface
+r20 c73..79 fg=Muted bg=Sidebar|Surface
+r20 c79..97 fg=Foreground bg=Sidebar|Surface
+r20 c97..104 fg=Hint bg=Sidebar|Surface
+r21 c0..1 fg=Foreground bg=Sidebar|Surface
+r21 c1..34 fg=Live bg=Sidebar|Surface bold
+r21 c34..102 fg=Muted bg=Sidebar|Surface
+r21 c102..104 fg=Foreground bg=Sidebar|Surface
+r22 c0..1 fg=Foreground bg=Sidebar|Surface
+r22 c1..102 fg=Live bg=Selected bold
+r22 c102..103 fg=Foreground bg=Sidebar|Surface
+r22 c103..104 fg=Live bg=Sidebar|Surface
+r23 c0..1 fg=Foreground bg=Sidebar|Surface
+r23 c1..102 fg=Muted bg=Sidebar|Surface
+r23 c102..103 fg=Foreground bg=Sidebar|Surface
+r23 c103..104 fg=Border bg=Sidebar|Surface
+
+== light-truecolor
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 fg=Foreground bg=Sidebar|Surface bold
+r0 c23..104 fg=Foreground bg=Sidebar|Surface
+r1 c0..10 fg=Muted bg=Sidebar|Surface
+r1 c10..104 fg=Foreground bg=Sidebar|Surface
+r2 c0..104 fg=Foreground bg=Background
+r3 c0..104 fg=Foreground bg=Background
+r4 c0..104 fg=Foreground bg=Background
+r5 c0..20 fg=Foreground bg=Background
+r5 c20..41 fg=Foreground bg=Sidebar|Surface
+r5 c41..62 fg=Foreground bg=Hover
+r5 c62..83 fg=Foreground bg=Sidebar|Surface
+r5 c83..104 fg=Foreground bg=Selected
+r6 c0..20 fg=Foreground bg=Background
+r6 c20..41 fg=Foreground bg=Sidebar|Surface
+r6 c41..62 fg=Foreground bg=Hover
+r6 c62..83 fg=Foreground bg=Sidebar|Surface
+r6 c83..104 fg=Foreground bg=Selected
+r7 c0..20 fg=Foreground bg=Background
+r7 c20..41 fg=Foreground bg=Sidebar|Surface
+r7 c41..62 fg=Foreground bg=Hover
+r7 c62..83 fg=Foreground bg=Sidebar|Surface
+r7 c83..104 fg=Foreground bg=Selected
+r8 c0..104 fg=Foreground bg=Background
+r9 c0..104 fg=Foreground bg=Background
+r10 c0..1 fg=Foreground bg=Background
+r10 c1..8 fg=Live bg=Background
+r10 c8..27 fg=Foreground bg=Background
+r10 c27..36 fg=#9ece6a bg=Background
+r10 c36..53 fg=Foreground bg=Background
+r10 c53..62 fg=#e0af68 bg=Background
+r10 c62..79 fg=Foreground bg=Background
+r10 c79..85 fg=Danger bg=Background
+r10 c85..104 fg=Foreground bg=Background
+r11 c0..104 fg=Foreground bg=Background
+r12 c0..1 fg=Foreground bg=Background
+r12 c1..5 fg=#7ba2f7 bg=Background
+r12 c5..35 fg=Foreground bg=Background
+r12 c35..39 fg=#ff9f64 bg=Background
+r12 c39..70 fg=Foreground bg=Background
+r12 c70..77 fg=#bb9af7 bg=Background
+r12 c77..104 fg=Foreground bg=Background
+r13 c0..104 fg=Foreground bg=Background
+r14 c0..1 fg=Foreground bg=Background
+r14 c1..4 fg=#e0af68 bg=Background
+r14 c4..35 fg=Foreground bg=Background
+r14 c35..46 fg=Attention bg=Background
+r14 c46..70 fg=Foreground bg=Background
+r14 c70..81 fg=Danger bg=Background
+r14 c81..104 fg=Foreground bg=Background
+r15 c0..104 fg=Foreground bg=Background
+r16 c0..39 fg=BorderStrong bg=Background
+r16 c39..104 fg=Foreground bg=Background
+r17 c0..104 fg=Foreground bg=Background
+r18 c0..104 fg=Foreground bg=Background
+r19 c0..104 fg=Border bg=Sidebar|Surface
+r20 c0..1 fg=Foreground bg=Sidebar|Surface
+r20 c1..10 fg=Foreground bg=Selected bold
+r20 c10..12 fg=Foreground bg=Sidebar|Surface
+r20 c12..21 fg=Muted bg=Sidebar|Surface
+r20 c21..23 fg=Foreground bg=Sidebar|Surface
+r20 c23..31 fg=Muted bg=Sidebar|Surface
+r20 c31..33 fg=Foreground bg=Sidebar|Surface
+r20 c33..42 fg=Muted bg=Sidebar|Surface
+r20 c42..44 fg=Foreground bg=Sidebar|Surface
+r20 c44..53 fg=Muted bg=Sidebar|Surface
+r20 c53..55 fg=Foreground bg=Sidebar|Surface
+r20 c55..64 fg=Muted bg=Sidebar|Surface
+r20 c64..66 fg=Foreground bg=Sidebar|Surface
+r20 c66..71 fg=Muted bg=Sidebar|Surface
+r20 c71..73 fg=Foreground bg=Sidebar|Surface
+r20 c73..79 fg=Muted bg=Sidebar|Surface
+r20 c79..97 fg=Foreground bg=Sidebar|Surface
+r20 c97..104 fg=Hint bg=Sidebar|Surface
+r21 c0..1 fg=Foreground bg=Sidebar|Surface
+r21 c1..34 fg=Live bg=Sidebar|Surface bold
+r21 c34..102 fg=Muted bg=Sidebar|Surface
+r21 c102..104 fg=Foreground bg=Sidebar|Surface
+r22 c0..1 fg=Foreground bg=Sidebar|Surface
+r22 c1..102 fg=Live bg=Selected bold
+r22 c102..103 fg=Foreground bg=Sidebar|Surface
+r22 c103..104 fg=Live bg=Sidebar|Surface
+r23 c0..1 fg=Foreground bg=Sidebar|Surface
+r23 c1..102 fg=Muted bg=Sidebar|Surface
+r23 c102..103 fg=Foreground bg=Sidebar|Surface
+r23 c103..104 fg=Border bg=Sidebar|Surface
+
+== dark-256
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c23..104 fg=Foreground bg=Sidebar|Background|Surface
+r1 c0..10 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r1 c10..104 fg=Foreground bg=Sidebar|Background|Surface
+r2 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r3 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r4 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r5 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r5 c41..62 fg=Foreground bg=Hover
+r5 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r5 c83..104 fg=Foreground bg=Selected
+r6 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r6 c41..62 fg=Foreground bg=Hover
+r6 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r6 c83..104 fg=Foreground bg=Selected
+r7 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r7 c41..62 fg=Foreground bg=Hover
+r7 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r7 c83..104 fg=Foreground bg=Selected
+r8 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r9 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r10 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r10 c1..8 fg=Live bg=Sidebar|Background|Surface
+r10 c8..27 fg=Foreground bg=Sidebar|Background|Surface
+r10 c27..36 fg=idx149 bg=Sidebar|Background|Surface
+r10 c36..53 fg=Foreground bg=Sidebar|Background|Surface
+r10 c53..62 fg=idx179 bg=Sidebar|Background|Surface
+r10 c62..79 fg=Foreground bg=Sidebar|Background|Surface
+r10 c79..85 fg=Danger bg=Sidebar|Background|Surface
+r10 c85..104 fg=Foreground bg=Sidebar|Background|Surface
+r11 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r12 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r12 c1..5 fg=Primary bg=Sidebar|Background|Surface
+r12 c5..35 fg=Foreground bg=Sidebar|Background|Surface
+r12 c35..39 fg=Attention bg=Sidebar|Background|Surface
+r12 c39..70 fg=Foreground bg=Sidebar|Background|Surface
+r12 c70..77 fg=idx141 bg=Sidebar|Background|Surface
+r12 c77..104 fg=Foreground bg=Sidebar|Background|Surface
+r13 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r14 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r14 c1..4 fg=idx179 bg=Sidebar|Background|Surface
+r14 c4..35 fg=Foreground bg=Sidebar|Background|Surface
+r14 c35..46 fg=Attention bg=Sidebar|Background|Surface
+r14 c46..70 fg=Foreground bg=Sidebar|Background|Surface
+r14 c70..81 fg=Danger bg=Sidebar|Background|Surface
+r14 c81..104 fg=Foreground bg=Sidebar|Background|Surface
+r15 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r16 c0..39 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r16 c39..104 fg=Foreground bg=Sidebar|Background|Surface
+r17 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r18 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border bg=Sidebar|Background|Surface
+r20 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r20 c1..10 fg=Foreground bg=Selected bold
+r20 c10..12 fg=Foreground bg=Sidebar|Background|Surface
+r20 c12..21 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c21..23 fg=Foreground bg=Sidebar|Background|Surface
+r20 c23..31 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c31..33 fg=Foreground bg=Sidebar|Background|Surface
+r20 c33..42 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c42..44 fg=Foreground bg=Sidebar|Background|Surface
+r20 c44..53 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c53..55 fg=Foreground bg=Sidebar|Background|Surface
+r20 c55..64 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c64..66 fg=Foreground bg=Sidebar|Background|Surface
+r20 c66..71 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c71..73 fg=Foreground bg=Sidebar|Background|Surface
+r20 c73..79 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c79..97 fg=Foreground bg=Sidebar|Background|Surface
+r20 c97..104 fg=Hint bg=Sidebar|Background|Surface
+r21 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r21 c1..34 fg=Live bg=Sidebar|Background|Surface bold
+r21 c34..102 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r21 c102..104 fg=Foreground bg=Sidebar|Background|Surface
+r22 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r22 c1..102 fg=Live bg=Selected bold
+r22 c102..103 fg=Foreground bg=Sidebar|Background|Surface
+r22 c103..104 fg=Live bg=Sidebar|Background|Surface
+r23 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r23 c1..102 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r23 c102..103 fg=Foreground bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border bg=Sidebar|Background|Surface
+
+== light-256
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c23..104 fg=Foreground bg=Sidebar|Background|Surface
+r1 c0..10 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r1 c10..104 fg=Foreground bg=Sidebar|Background|Surface
+r2 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r3 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r4 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r5 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r5 c41..62 fg=Foreground bg=Hover
+r5 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r5 c83..104 fg=Foreground bg=Selected
+r6 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r6 c41..62 fg=Foreground bg=Hover
+r6 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r6 c83..104 fg=Foreground bg=Selected
+r7 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r7 c41..62 fg=Foreground bg=Hover
+r7 c62..83 fg=Foreground bg=Sidebar|Background|Surface
+r7 c83..104 fg=Foreground bg=Selected
+r8 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r9 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r10 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r10 c1..8 fg=Live bg=Sidebar|Background|Surface
+r10 c8..27 fg=Foreground bg=Sidebar|Background|Surface
+r10 c27..36 fg=idx149 bg=Sidebar|Background|Surface
+r10 c36..53 fg=Foreground bg=Sidebar|Background|Surface
+r10 c53..62 fg=idx179 bg=Sidebar|Background|Surface
+r10 c62..79 fg=Foreground bg=Sidebar|Background|Surface
+r10 c79..85 fg=Danger bg=Sidebar|Background|Surface
+r10 c85..104 fg=Foreground bg=Sidebar|Background|Surface
+r11 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r12 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r12 c1..5 fg=Primary bg=Sidebar|Background|Surface
+r12 c5..35 fg=Foreground bg=Sidebar|Background|Surface
+r12 c35..39 fg=Attention bg=Sidebar|Background|Surface
+r12 c39..70 fg=Foreground bg=Sidebar|Background|Surface
+r12 c70..77 fg=idx141 bg=Sidebar|Background|Surface
+r12 c77..104 fg=Foreground bg=Sidebar|Background|Surface
+r13 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r14 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r14 c1..4 fg=idx179 bg=Sidebar|Background|Surface
+r14 c4..35 fg=Foreground bg=Sidebar|Background|Surface
+r14 c35..46 fg=Attention bg=Sidebar|Background|Surface
+r14 c46..70 fg=Foreground bg=Sidebar|Background|Surface
+r14 c70..81 fg=Danger bg=Sidebar|Background|Surface
+r14 c81..104 fg=Foreground bg=Sidebar|Background|Surface
+r15 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r16 c0..39 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r16 c39..104 fg=Foreground bg=Sidebar|Background|Surface
+r17 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r18 c0..104 fg=Foreground bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border bg=Sidebar|Background|Surface
+r20 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r20 c1..10 fg=Foreground bg=Selected bold
+r20 c10..12 fg=Foreground bg=Sidebar|Background|Surface
+r20 c12..21 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c21..23 fg=Foreground bg=Sidebar|Background|Surface
+r20 c23..31 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c31..33 fg=Foreground bg=Sidebar|Background|Surface
+r20 c33..42 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c42..44 fg=Foreground bg=Sidebar|Background|Surface
+r20 c44..53 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c53..55 fg=Foreground bg=Sidebar|Background|Surface
+r20 c55..64 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c64..66 fg=Foreground bg=Sidebar|Background|Surface
+r20 c66..71 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c71..73 fg=Foreground bg=Sidebar|Background|Surface
+r20 c73..79 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r20 c79..97 fg=Foreground bg=Sidebar|Background|Surface
+r20 c97..104 fg=Hint bg=Sidebar|Background|Surface
+r21 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r21 c1..34 fg=Live bg=Sidebar|Background|Surface bold
+r21 c34..102 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r21 c102..104 fg=Foreground bg=Sidebar|Background|Surface
+r22 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r22 c1..102 fg=Live bg=Selected bold
+r22 c102..103 fg=Foreground bg=Sidebar|Background|Surface
+r22 c103..104 fg=Live bg=Sidebar|Background|Surface
+r23 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r23 c1..102 fg=Muted|BorderStrong bg=Sidebar|Background|Surface
+r23 c102..103 fg=Foreground bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border bg=Sidebar|Background|Surface
+
+== ansi-16
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 bold
+r1 c0..10 dim
+r10 c1..8 fg=Live
+r10 c27..36 fg=Live
+r10 c53..62 fg=Attention
+r10 c79..85 fg=Danger
+r12 c1..5 fg=Primary
+r12 c35..39 fg=Primary
+r12 c70..77 fg=Primary
+r14 c1..4 fg=Attention
+r14 c35..46 fg=Attention
+r14 c70..81 fg=Attention
+r16 c0..39 dim
+r19 c0..104 dim
+r20 c1..10 bold
+r20 c12..21 dim
+r20 c23..31 dim
+r20 c33..42 dim
+r20 c44..53 dim
+r20 c55..64 dim
+r20 c66..71 dim
+r20 c73..79 dim
+r20 c97..104 dim
+r21 c1..34 fg=Live bold
+r21 c34..102 dim
+r22 c1..102 fg=Live bold
+r22 c103..104 fg=Live
+r23 c1..102 dim
+r23 c103..104 dim
+
+== unknown-ground
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 bold
+r1 c0..10 dim
+r10 c1..8 fg=Live
+r10 c27..36 fg=Live
+r10 c53..62 fg=Attention
+r10 c79..85 fg=Danger
+r12 c1..5 fg=Primary
+r12 c35..39 fg=Primary
+r12 c70..77 fg=Primary
+r14 c1..4 fg=Attention
+r14 c35..46 fg=Attention
+r14 c70..81 fg=Attention
+r16 c0..39 dim
+r19 c0..104 dim
+r20 c1..10 bold
+r20 c12..21 dim
+r20 c23..31 dim
+r20 c33..42 dim
+r20 c44..53 dim
+r20 c55..64 dim
+r20 c66..71 dim
+r20 c73..79 dim
+r20 c97..104 dim
+r21 c1..34 fg=Live bold
+r21 c34..102 dim
+r22 c1..102 fg=Live bold
+r22 c103..104 fg=Live
+r23 c1..102 dim
+r23 c103..104 dim
+
+== no-color
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+ Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
+ 2 · ● Extract the native work dock                                                        in progress ┃
+                                                                                              ↓ 1 more │
+---
+r0 c0..23 bold
+r1 c0..10 dim
+r16 c0..39 dim
+r19 c0..104 dim
+r20 c1..10 bold
+r20 c12..21 dim
+r20 c23..31 dim
+r20 c33..42 dim
+r20 c44..53 dim
+r20 c55..64 dim
+r20 c66..71 dim
+r20 c73..79 dim
+r20 c97..104 dim
+r21 c1..34 bold
+r21 c34..102 dim
+r22 c1..102 bold
+r23 c1..102 dim
+r23 c103..104 dim
+
+== ascii
+Codewhale / tokyo-night
+Dark theme
+
+Build with the colors already in Codewhale.
+
+
+ Stage               Panel                Raised               Chrome               Selected
+
+
+
+ Working                   Completed                 Needs you                 Failed
+
+ Work                              Plan                               Operate
+
+ Ask                               Auto review                        Full access
+
+Keep the work visible. Stay in control.
+
+
+--------------------------------------------------------------------------------------------------------
+  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc X
+ Goal: Make the work dock reusable                                                 TODO . 1/3 . 2 left
+ 2 . . Extract the native work dock                                                        in progress |
+                                                                                              v 1 more |
+---
+r0 c0..23 bold
+r1 c0..10 dim
+r16 c0..39 dim
+r19 c0..104 dim
+r20 c1..10 bold
+r20 c12..21 dim
+r20 c23..31 dim
+r20 c33..42 dim
+r20 c44..53 dim
+r20 c55..64 dim
+r20 c66..71 dim
+r20 c73..79 dim
+r20 c97..104 dim
+r21 c1..34 bold
+r21 c34..102 dim
+r22 c1..102 bold
+r23 c1..102 dim
+r23 c103..104 dim

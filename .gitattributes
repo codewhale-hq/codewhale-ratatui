@@ -1,0 +1,7 @@
+# Source exports and buffer snapshots are byte-for-byte fixtures on every OS.
+* text=auto eol=lf
+*.gif binary
+*.png binary
+
+# Native terminal fixtures retain every cell, including blank final columns.
+tests/fixtures/whale-motion/braille/*.txt whitespace=-blank-at-eol,-blank-at-eof

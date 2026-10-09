@@ -1,0 +1,122 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background
+r0 c2..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background
+r2 c2..10 fg=Foreground bg=Background
+r2 c10..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..40 fg=Foreground bg=Background
+
+== dark-graphite
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background
+r0 c2..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background
+r2 c2..10 fg=Foreground bg=Background
+r2 c10..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..40 fg=Foreground bg=Background
+
+== light-truecolor
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background
+r0 c2..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background
+r2 c2..10 fg=Foreground bg=Background
+r2 c10..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..40 fg=Foreground bg=Background
+
+== dark-256
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background
+r0 c2..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background
+r2 c2..10 fg=Foreground bg=Background
+r2 c10..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..40 fg=Foreground bg=Background
+
+== light-256
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..40 fg=Foreground bg=Background|Surface
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background|Surface
+r2 c2..10 fg=Foreground bg=Background|Surface
+r2 c10..40 bg=Background|Surface
+r3 c0..2 bg=Background|Surface
+r3 c2..40 fg=Foreground bg=Background|Surface
+
+== ansi-16
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r1 c0..1 fg=Primary
+r1 c2..40 bold
+
+== unknown-ground
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r1 c0..1 fg=Primary
+r1 c2..40 bold
+
+== no-color
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r1 c2..40 bold
+
+== ascii
+  Refactor the session store so it ke...
+> src/components/receipt_table/cell_a...
+  Untitled
+  A name with trailing words that run...
+---
+r1 c2..40 bold

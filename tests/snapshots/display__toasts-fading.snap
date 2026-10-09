@@ -1,0 +1,132 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x4
+               ✓ Theme set to Shoreline
+                     ✓ Saved summary.md
+               ✓ Theme set to Shoreline
+                     ✓ Saved summary.md
+---
+r0 c0..14 bg=Background
+r0 c14..15 bg=Surface
+r0 c15..16 fg=Live bg=Surface
+r0 c16..17 bg=Surface
+r0 c17..39 fg=Hint bg=Surface
+r0 c39..40 bg=Surface
+r1 c0..20 bg=Background
+r1 c20..21 bg=Surface
+r1 c21..22 fg=Live bg=Surface
+r1 c22..23 bg=Surface
+r1 c23..39 fg=Dim bg=Surface
+r1 c39..40 bg=Surface
+r2 c0..14 bg=Background
+r2 c14..15 bg=Surface
+r2 c15..16 fg=Live bg=Surface
+r2 c16..17 bg=Surface
+r2 c17..39 fg=Foreground bg=Surface
+r2 c39..40 bg=Surface
+r3 c0..20 bg=Background
+r3 c20..21 bg=Surface
+r3 c21..22 fg=Live bg=Surface
+r3 c22..23 bg=Surface
+r3 c23..39 fg=Foreground bg=Surface
+r3 c39..40 bg=Surface
+
+== dark-truecolor · 80x4
+                                                       ✓ Theme set to Shoreline
+                                                             ✓ Saved summary.md
+                                                       ✓ Theme set to Shoreline
+                                                             ✓ Saved summary.md
+---
+r0 c0..54 bg=Background
+r0 c54..55 bg=Surface
+r0 c55..56 fg=Live bg=Surface
+r0 c56..57 bg=Surface
+r0 c57..79 fg=Hint bg=Surface
+r0 c79..80 bg=Surface
+r1 c0..60 bg=Background
+r1 c60..61 bg=Surface
+r1 c61..62 fg=Live bg=Surface
+r1 c62..63 bg=Surface
+r1 c63..79 fg=Dim bg=Surface
+r1 c79..80 bg=Surface
+r2 c0..54 bg=Background
+r2 c54..55 bg=Surface
+r2 c55..56 fg=Live bg=Surface
+r2 c56..57 bg=Surface
+r2 c57..79 fg=Foreground bg=Surface
+r2 c79..80 bg=Surface
+r3 c0..60 bg=Background
+r3 c60..61 bg=Surface
+r3 c61..62 fg=Live bg=Surface
+r3 c62..63 bg=Surface
+r3 c63..79 fg=Foreground bg=Surface
+r3 c79..80 bg=Surface
+
+== dark-truecolor · 120x4
+                                                                                               ✓ Theme set to Shoreline
+                                                                                                     ✓ Saved summary.md
+                                                                                               ✓ Theme set to Shoreline
+                                                                                                     ✓ Saved summary.md
+---
+r0 c0..94 bg=Background
+r0 c94..95 bg=Surface
+r0 c95..96 fg=Live bg=Surface
+r0 c96..97 bg=Surface
+r0 c97..119 fg=Hint bg=Surface
+r0 c119..120 bg=Surface
+r1 c0..100 bg=Background
+r1 c100..101 bg=Surface
+r1 c101..102 fg=Live bg=Surface
+r1 c102..103 bg=Surface
+r1 c103..119 fg=Dim bg=Surface
+r1 c119..120 bg=Surface
+r2 c0..94 bg=Background
+r2 c94..95 bg=Surface
+r2 c95..96 fg=Live bg=Surface
+r2 c96..97 bg=Surface
+r2 c97..119 fg=Foreground bg=Surface
+r2 c119..120 bg=Surface
+r3 c0..100 bg=Background
+r3 c100..101 bg=Surface
+r3 c101..102 fg=Live bg=Surface
+r3 c102..103 bg=Surface
+r3 c103..119 fg=Foreground bg=Surface
+r3 c119..120 bg=Surface
+
+== no-color · 40x4
+               ✓ Theme set to Shoreline
+                     ✓ Saved summary.md
+               ✓ Theme set to Shoreline
+                     ✓ Saved summary.md
+
+== no-color · 80x4
+                                                       ✓ Theme set to Shoreline
+                                                             ✓ Saved summary.md
+                                                       ✓ Theme set to Shoreline
+                                                             ✓ Saved summary.md
+
+== no-color · 120x4
+                                                                                               ✓ Theme set to Shoreline
+                                                                                                     ✓ Saved summary.md
+                                                                                               ✓ Theme set to Shoreline
+                                                                                                     ✓ Saved summary.md
+
+== ascii · 40x4
+               Y Theme set to Shoreline
+                     Y Saved summary.md
+               Y Theme set to Shoreline
+                     Y Saved summary.md
+
+== ascii · 80x4
+                                                       Y Theme set to Shoreline
+                                                             Y Saved summary.md
+                                                       Y Theme set to Shoreline
+                                                             Y Saved summary.md
+
+== ascii · 120x4
+                                                                                               Y Theme set to Shoreline
+                                                                                                     Y Saved summary.md
+                                                                                               Y Theme set to Shoreline
+                                                                                                     Y Saved summary.md

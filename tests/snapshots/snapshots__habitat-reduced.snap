@@ -1,0 +1,765 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 fg=Foreground bg=Background bold
+r0 c23..98 bg=Background
+r0 c98..112 fg=Muted bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..112 bg=Background
+r4 c0..2 bg=Background
+r4 c2..3 fg=Foreground bg=Background
+r4 c3..4 bg=Background
+r4 c4..13 fg=Foreground bg=Background bold
+r4 c13..112 bg=Background
+r5 c0..2 bg=Background
+r5 c2..4 fg=Border bg=Background
+r5 c4..19 fg=Foreground bg=Background
+r5 c19..112 bg=Background
+r6 c0..2 bg=Background
+r6 c2..4 fg=Border bg=Background
+r6 c4..27 fg=Foreground bg=Background
+r6 c27..48 bg=Background
+r6 c48..59 fg=#79b1f7 bg=Background
+r6 c59..112 bg=Background
+r7 c0..2 bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..30 fg=Foreground bg=Background
+r7 c30..46 bg=Background
+r7 c46..62 fg=#72aef5 bg=Background
+r7 c62..112 bg=Background
+r8 c0..45 bg=Background
+r8 c45..51 fg=#6aabf2 bg=Background
+r8 c51..55 bg=Background
+r8 c55..61 fg=#6aabf2 bg=Background
+r8 c61..112 bg=Background
+r9 c0..45 bg=Background
+r9 c45..49 fg=#62a8ef bg=Background
+r9 c49..62 bg=Background
+r9 c62..67 fg=#62a8ef bg=Background
+r9 c67..112 bg=Background
+r10 c0..45 bg=Background
+r10 c45..49 fg=#5ba5ed bg=Background
+r10 c49..56 bg=Background
+r10 c56..68 fg=#5ba5ed bg=Background
+r10 c68..112 bg=Background
+r11 c0..45 bg=Background
+r11 c45..68 fg=#53a3ea bg=Background
+r11 c68..112 bg=Background
+r12 c0..45 bg=Background
+r12 c45..62 fg=#4ca0e8 bg=Background
+r12 c62..65 bg=Background
+r12 c65..67 fg=#4ca0e8 bg=Background
+r12 c67..112 bg=Background
+r13 c0..46 bg=Background
+r13 c46..61 fg=#449de5 bg=Background
+r13 c61..64 bg=Background
+r13 c64..66 fg=#449de5 bg=Background
+r13 c66..112 bg=Background
+r14 c0..47 bg=Background
+r14 c47..59 fg=#3c9ae2 bg=Background
+r14 c59..61 bg=Background
+r14 c61..64 fg=#3c9ae2 bg=Background
+r14 c64..112 bg=Background
+r15 c0..51 bg=Background
+r15 c51..62 fg=#3597e0 bg=Background
+r15 c62..112 bg=Background
+r16 c0..112 bg=Background
+r17 c0..112 bg=Background
+r18 c0..112 bg=Background
+r19 c0..51 bg=Background
+r19 c51..52 fg=Muted bg=Background
+r19 c52..53 bg=Background
+r19 c53..60 fg=Foreground bg=Background
+r19 c60..112 bg=Background
+r20 c0..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..112 bg=Background
+r23 c0..112 bg=Background
+r24 c0..112 bg=Background
+r25 c0..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+r28 c0..112 bg=Background
+r29 c0..112 bg=Background
+
+== dark-graphite
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 fg=Foreground bg=Background bold
+r0 c23..98 bg=Background
+r0 c98..112 fg=Muted bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..112 bg=Background
+r4 c0..2 bg=Background
+r4 c2..3 fg=Foreground bg=Background
+r4 c3..4 bg=Background
+r4 c4..13 fg=Foreground bg=Background bold
+r4 c13..112 bg=Background
+r5 c0..2 bg=Background
+r5 c2..4 fg=Border bg=Background
+r5 c4..19 fg=Foreground bg=Background
+r5 c19..112 bg=Background
+r6 c0..2 bg=Background
+r6 c2..4 fg=Border bg=Background
+r6 c4..27 fg=Foreground bg=Background
+r6 c27..48 bg=Background
+r6 c48..59 fg=#79b1f7 bg=Background
+r6 c59..112 bg=Background
+r7 c0..2 bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..30 fg=Foreground bg=Background
+r7 c30..46 bg=Background
+r7 c46..62 fg=#72aef5 bg=Background
+r7 c62..112 bg=Background
+r8 c0..45 bg=Background
+r8 c45..51 fg=#6aabf2 bg=Background
+r8 c51..55 bg=Background
+r8 c55..61 fg=#6aabf2 bg=Background
+r8 c61..112 bg=Background
+r9 c0..45 bg=Background
+r9 c45..49 fg=#62a8ef bg=Background
+r9 c49..62 bg=Background
+r9 c62..67 fg=#62a8ef bg=Background
+r9 c67..112 bg=Background
+r10 c0..45 bg=Background
+r10 c45..49 fg=#5ba5ed bg=Background
+r10 c49..56 bg=Background
+r10 c56..68 fg=#5ba5ed bg=Background
+r10 c68..112 bg=Background
+r11 c0..45 bg=Background
+r11 c45..68 fg=#53a3ea bg=Background
+r11 c68..112 bg=Background
+r12 c0..45 bg=Background
+r12 c45..62 fg=#4ca0e8 bg=Background
+r12 c62..65 bg=Background
+r12 c65..67 fg=#4ca0e8 bg=Background
+r12 c67..112 bg=Background
+r13 c0..46 bg=Background
+r13 c46..61 fg=#449de5 bg=Background
+r13 c61..64 bg=Background
+r13 c64..66 fg=#449de5 bg=Background
+r13 c66..112 bg=Background
+r14 c0..47 bg=Background
+r14 c47..59 fg=#3c9ae2 bg=Background
+r14 c59..61 bg=Background
+r14 c61..64 fg=#3c9ae2 bg=Background
+r14 c64..112 bg=Background
+r15 c0..51 bg=Background
+r15 c51..62 fg=#3597e0 bg=Background
+r15 c62..112 bg=Background
+r16 c0..112 bg=Background
+r17 c0..112 bg=Background
+r18 c0..112 bg=Background
+r19 c0..51 bg=Background
+r19 c51..52 fg=Muted bg=Background
+r19 c52..53 bg=Background
+r19 c53..60 fg=Foreground bg=Background
+r19 c60..112 bg=Background
+r20 c0..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..112 bg=Background
+r23 c0..112 bg=Background
+r24 c0..112 bg=Background
+r25 c0..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+r28 c0..112 bg=Background
+r29 c0..112 bg=Background
+
+== light-truecolor
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 fg=Foreground bg=Background bold
+r0 c23..98 bg=Background
+r0 c98..112 fg=Muted bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..112 bg=Background
+r4 c0..2 bg=Background
+r4 c2..3 fg=Foreground bg=Background
+r4 c3..4 bg=Background
+r4 c4..13 fg=Foreground bg=Background bold
+r4 c13..112 bg=Background
+r5 c0..2 bg=Background
+r5 c2..4 fg=Border bg=Background
+r5 c4..19 fg=Foreground bg=Background
+r5 c19..112 bg=Background
+r6 c0..2 bg=Background
+r6 c2..4 fg=Border bg=Background
+r6 c4..27 fg=Foreground bg=Background
+r6 c27..48 bg=Background
+r6 c48..59 fg=#1a81d2 bg=Background
+r6 c59..112 bg=Background
+r7 c0..2 bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..30 fg=Foreground bg=Background
+r7 c30..46 bg=Background
+r7 c46..62 fg=#197cd0 bg=Background
+r7 c62..112 bg=Background
+r8 c0..45 bg=Background
+r8 c45..51 fg=#1877ce bg=Background
+r8 c51..55 bg=Background
+r8 c55..61 fg=#1877ce bg=Background
+r8 c61..112 bg=Background
+r9 c0..45 bg=Background
+r9 c45..49 fg=#1673cc bg=Background
+r9 c49..62 bg=Background
+r9 c62..67 fg=#1673cc bg=Background
+r9 c67..112 bg=Background
+r10 c0..45 bg=Background
+r10 c45..49 fg=#156eca bg=Background
+r10 c49..56 bg=Background
+r10 c56..68 fg=#156eca bg=Background
+r10 c68..112 bg=Background
+r11 c0..45 bg=Background
+r11 c45..68 fg=#1469c9 bg=Background
+r11 c68..112 bg=Background
+r12 c0..45 bg=Background
+r12 c45..62 fg=#1364c7 bg=Background
+r12 c62..65 bg=Background
+r12 c65..67 fg=#1364c7 bg=Background
+r12 c67..112 bg=Background
+r13 c0..46 bg=Background
+r13 c46..61 fg=#1160c5 bg=Background
+r13 c61..64 bg=Background
+r13 c64..66 fg=#1160c5 bg=Background
+r13 c66..112 bg=Background
+r14 c0..47 bg=Background
+r14 c47..59 fg=#105bc3 bg=Background
+r14 c59..61 bg=Background
+r14 c61..64 fg=#105bc3 bg=Background
+r14 c64..112 bg=Background
+r15 c0..51 bg=Background
+r15 c51..62 fg=#0f56c1 bg=Background
+r15 c62..112 bg=Background
+r16 c0..112 bg=Background
+r17 c0..112 bg=Background
+r18 c0..112 bg=Background
+r19 c0..51 bg=Background
+r19 c51..52 fg=Muted bg=Background
+r19 c52..53 bg=Background
+r19 c53..60 fg=Foreground bg=Background
+r19 c60..112 bg=Background
+r20 c0..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..112 bg=Background
+r23 c0..112 bg=Background
+r24 c0..112 bg=Background
+r25 c0..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+r28 c0..112 bg=Background
+r29 c0..112 bg=Background
+
+== dark-256
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 fg=Foreground bg=Background bold
+r0 c23..98 bg=Background
+r0 c98..112 fg=Muted bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..112 bg=Background
+r4 c0..2 bg=Background
+r4 c2..3 fg=Foreground bg=Background
+r4 c3..4 bg=Background
+r4 c4..13 fg=Foreground bg=Background bold
+r4 c13..112 bg=Background
+r5 c0..2 bg=Background
+r5 c2..4 fg=Border bg=Background
+r5 c4..19 fg=Foreground bg=Background
+r5 c19..112 bg=Background
+r6 c0..2 bg=Background
+r6 c2..4 fg=Border bg=Background
+r6 c4..27 fg=Foreground bg=Background
+r6 c27..48 bg=Background
+r6 c48..59 fg=Primary bg=Background
+r6 c59..112 bg=Background
+r7 c0..2 bg=Background
+r7 c2..4 fg=Border bg=Background
+r7 c4..30 fg=Foreground bg=Background
+r7 c30..46 bg=Background
+r7 c46..62 fg=idx75 bg=Background
+r7 c62..112 bg=Background
+r8 c0..45 bg=Background
+r8 c45..51 fg=idx75 bg=Background
+r8 c51..55 bg=Background
+r8 c55..61 fg=idx75 bg=Background
+r8 c61..112 bg=Background
+r9 c0..45 bg=Background
+r9 c45..49 fg=idx75 bg=Background
+r9 c49..62 bg=Background
+r9 c62..67 fg=idx75 bg=Background
+r9 c67..112 bg=Background
+r10 c0..45 bg=Background
+r10 c45..49 fg=idx75 bg=Background
+r10 c49..56 bg=Background
+r10 c56..68 fg=idx75 bg=Background
+r10 c68..112 bg=Background
+r11 c0..45 bg=Background
+r11 c45..68 fg=idx74 bg=Background
+r11 c68..112 bg=Background
+r12 c0..45 bg=Background
+r12 c45..62 fg=idx74 bg=Background
+r12 c62..65 bg=Background
+r12 c65..67 fg=idx74 bg=Background
+r12 c67..112 bg=Background
+r13 c0..46 bg=Background
+r13 c46..61 fg=idx74 bg=Background
+r13 c61..64 bg=Background
+r13 c64..66 fg=idx74 bg=Background
+r13 c66..112 bg=Background
+r14 c0..47 bg=Background
+r14 c47..59 fg=idx68 bg=Background
+r14 c59..61 bg=Background
+r14 c61..64 fg=idx68 bg=Background
+r14 c64..112 bg=Background
+r15 c0..51 bg=Background
+r15 c51..62 fg=idx68 bg=Background
+r15 c62..112 bg=Background
+r16 c0..112 bg=Background
+r17 c0..112 bg=Background
+r18 c0..112 bg=Background
+r19 c0..51 bg=Background
+r19 c51..52 fg=Muted bg=Background
+r19 c52..53 bg=Background
+r19 c53..60 fg=Foreground bg=Background
+r19 c60..112 bg=Background
+r20 c0..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..112 bg=Background
+r23 c0..112 bg=Background
+r24 c0..112 bg=Background
+r25 c0..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+r28 c0..112 bg=Background
+r29 c0..112 bg=Background
+
+== light-256
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 fg=Foreground bg=Background|Surface bold
+r0 c23..98 bg=Background|Surface
+r0 c98..112 fg=Muted bg=Background|Surface
+r1 c0..112 bg=Background|Surface
+r2 c0..112 bg=Background|Surface
+r3 c0..112 bg=Background|Surface
+r4 c0..2 bg=Background|Surface
+r4 c2..3 fg=Foreground bg=Background|Surface
+r4 c3..4 bg=Background|Surface
+r4 c4..13 fg=Foreground bg=Background|Surface bold
+r4 c13..112 bg=Background|Surface
+r5 c0..2 bg=Background|Surface
+r5 c2..4 fg=Border bg=Background|Surface
+r5 c4..19 fg=Foreground bg=Background|Surface
+r5 c19..112 bg=Background|Surface
+r6 c0..2 bg=Background|Surface
+r6 c2..4 fg=Border bg=Background|Surface
+r6 c4..27 fg=Foreground bg=Background|Surface
+r6 c27..48 bg=Background|Surface
+r6 c48..59 fg=idx32 bg=Background|Surface
+r6 c59..112 bg=Background|Surface
+r7 c0..2 bg=Background|Surface
+r7 c2..4 fg=Border bg=Background|Surface
+r7 c4..30 fg=Foreground bg=Background|Surface
+r7 c30..46 bg=Background|Surface
+r7 c46..62 fg=idx32 bg=Background|Surface
+r7 c62..112 bg=Background|Surface
+r8 c0..45 bg=Background|Surface
+r8 c45..51 fg=idx32 bg=Background|Surface
+r8 c51..55 bg=Background|Surface
+r8 c55..61 fg=idx32 bg=Background|Surface
+r8 c61..112 bg=Background|Surface
+r9 c0..45 bg=Background|Surface
+r9 c45..49 fg=idx26 bg=Background|Surface
+r9 c49..62 bg=Background|Surface
+r9 c62..67 fg=idx26 bg=Background|Surface
+r9 c67..112 bg=Background|Surface
+r10 c0..45 bg=Background|Surface
+r10 c45..49 fg=idx26 bg=Background|Surface
+r10 c49..56 bg=Background|Surface
+r10 c56..68 fg=idx26 bg=Background|Surface
+r10 c68..112 bg=Background|Surface
+r11 c0..45 bg=Background|Surface
+r11 c45..68 fg=idx26 bg=Background|Surface
+r11 c68..112 bg=Background|Surface
+r12 c0..45 bg=Background|Surface
+r12 c45..62 fg=idx26 bg=Background|Surface
+r12 c62..65 bg=Background|Surface
+r12 c65..67 fg=idx26 bg=Background|Surface
+r12 c67..112 bg=Background|Surface
+r13 c0..46 bg=Background|Surface
+r13 c46..61 fg=idx26 bg=Background|Surface
+r13 c61..64 bg=Background|Surface
+r13 c64..66 fg=idx26 bg=Background|Surface
+r13 c66..112 bg=Background|Surface
+r14 c0..47 bg=Background|Surface
+r14 c47..59 fg=Primary bg=Background|Surface
+r14 c59..61 bg=Background|Surface
+r14 c61..64 fg=Primary bg=Background|Surface
+r14 c64..112 bg=Background|Surface
+r15 c0..51 bg=Background|Surface
+r15 c51..62 fg=Primary bg=Background|Surface
+r15 c62..112 bg=Background|Surface
+r16 c0..112 bg=Background|Surface
+r17 c0..112 bg=Background|Surface
+r18 c0..112 bg=Background|Surface
+r19 c0..51 bg=Background|Surface
+r19 c51..52 fg=Muted bg=Background|Surface
+r19 c52..53 bg=Background|Surface
+r19 c53..60 fg=Foreground bg=Background|Surface
+r19 c60..112 bg=Background|Surface
+r20 c0..112 bg=Background|Surface
+r21 c0..112 bg=Background|Surface
+r22 c0..112 bg=Background|Surface
+r23 c0..112 bg=Background|Surface
+r24 c0..112 bg=Background|Surface
+r25 c0..112 bg=Background|Surface
+r26 c0..112 bg=Background|Surface
+r27 c0..112 bg=Background|Surface
+r28 c0..112 bg=Background|Surface
+r29 c0..112 bg=Background|Surface
+
+== ansi-16
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 bold
+r0 c98..112 dim
+r4 c4..13 bold
+r5 c2..4 dim
+r6 c2..4 dim
+r6 c48..59 fg=Primary
+r7 c2..4 dim
+r7 c46..62 fg=Primary
+r8 c45..51 fg=Primary
+r8 c55..61 fg=Primary
+r9 c45..49 fg=Primary
+r9 c62..67 fg=Primary
+r10 c45..49 fg=Primary
+r10 c56..68 fg=Primary
+r11 c45..68 fg=Primary
+r12 c45..62 fg=Primary
+r12 c65..67 fg=Primary
+r13 c46..61 fg=Primary
+r13 c64..66 fg=Primary
+r14 c47..59 fg=Primary
+r14 c61..64 fg=Primary
+r15 c51..62 fg=Primary
+r19 c51..52 dim
+
+== unknown-ground
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 bold
+r0 c98..112 dim
+r4 c4..13 bold
+r5 c2..4 dim
+r6 c2..4 dim
+r6 c48..59 fg=Primary
+r7 c2..4 dim
+r7 c46..62 fg=Primary
+r8 c45..51 fg=Primary
+r8 c55..61 fg=Primary
+r9 c45..49 fg=Primary
+r9 c62..67 fg=Primary
+r10 c45..49 fg=Primary
+r10 c56..68 fg=Primary
+r11 c45..68 fg=Primary
+r12 c45..62 fg=Primary
+r12 c65..67 fg=Primary
+r13 c46..61 fg=Primary
+r13 c64..66 fg=Primary
+r14 c47..59 fg=Primary
+r14 c61..64 fg=Primary
+r15 c51..62 fg=Primary
+r19 c51..52 dim
+
+== no-color
+Codewhale / clear water                                                                           Reduced motion
+
+
+
+  ● One ocean
+  ▏ A small school.
+  ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
+  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+                                             ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
+                                             ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
+                                             ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
+                                             ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
+                                              ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
+                                               ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
+                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+
+
+
+                                                   ○ Resting
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 bold
+r0 c98..112 dim
+r4 c4..13 bold
+r5 c2..4 dim
+r6 c2..4 dim
+r7 c2..4 dim
+r19 c51..52 dim
+
+== ascii
+Codewhale / clear water                                                                           Reduced motion
+
+
+                                                   o Resting
+  . One ocean
+  | A small school.
+  | One visiting jellyfish.
+  | Bubbles in the deep water.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..23 bold
+r0 c98..112 dim
+r3 c51..52 dim
+r4 c4..13 bold
+r5 c2..4 dim
+r6 c2..4 dim
+r7 c2..4 dim

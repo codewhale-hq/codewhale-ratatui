@@ -1,0 +1,314 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..60 bg=Background
+r1 c0..1 fg=Foreground bg=Background
+r1 c1..2 bg=Background
+r1 c2..13 fg=Foreground bg=Background
+r1 c13..60 bg=Background
+r2 c0..1 fg=Foreground bg=Background
+r2 c1..2 bg=Background
+r2 c2..25 fg=Foreground bg=Background
+r2 c25..60 bg=Background
+r3 c0..1 fg=Danger bg=DiffRemovedTint bold
+r3 c1..2 bg=DiffRemovedTint
+r3 c2..20 fg=Foreground bg=DiffRemovedTint
+r3 c20..60 bg=DiffRemovedTint
+r4 c0..1 fg=Live bg=DiffAddedTint bold
+r4 c1..2 bg=DiffAddedTint
+r4 c2..20 fg=Foreground bg=DiffAddedTint
+r4 c20..60 bg=DiffAddedTint
+r5 c0..1 fg=Live bg=DiffAddedTint bold
+r5 c1..2 bg=DiffAddedTint
+r5 c2..19 fg=Foreground bg=DiffAddedTint
+r5 c19..60 bg=DiffAddedTint
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..25 fg=Foreground bg=Background
+r6 c25..60 bg=Background
+r7 c0..1 fg=Foreground bg=Background
+r7 c1..2 bg=Background
+r7 c2..3 fg=Foreground bg=Background
+r7 c3..60 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..60 bg=Background
+r9 c0..7 fg=Muted bg=Background
+r9 c7..60 bg=Background
+
+== dark-graphite
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..60 bg=Background
+r1 c0..1 fg=Foreground bg=Background
+r1 c1..2 bg=Background
+r1 c2..13 fg=Foreground bg=Background
+r1 c13..60 bg=Background
+r2 c0..1 fg=Foreground bg=Background
+r2 c1..2 bg=Background
+r2 c2..25 fg=Foreground bg=Background
+r2 c25..60 bg=Background
+r3 c0..1 fg=Danger bg=DiffRemovedTint bold
+r3 c1..2 bg=DiffRemovedTint
+r3 c2..20 fg=Foreground bg=DiffRemovedTint
+r3 c20..60 bg=DiffRemovedTint
+r4 c0..1 fg=Live bg=DiffAddedTint bold
+r4 c1..2 bg=DiffAddedTint
+r4 c2..20 fg=Foreground bg=DiffAddedTint
+r4 c20..60 bg=DiffAddedTint
+r5 c0..1 fg=Live bg=DiffAddedTint bold
+r5 c1..2 bg=DiffAddedTint
+r5 c2..19 fg=Foreground bg=DiffAddedTint
+r5 c19..60 bg=DiffAddedTint
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..25 fg=Foreground bg=Background
+r6 c25..60 bg=Background
+r7 c0..1 fg=Foreground bg=Background
+r7 c1..2 bg=Background
+r7 c2..3 fg=Foreground bg=Background
+r7 c3..60 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..60 bg=Background
+r9 c0..7 fg=Muted bg=Background
+r9 c7..60 bg=Background
+
+== light-truecolor
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..60 bg=Background
+r1 c0..1 fg=Foreground bg=Background
+r1 c1..2 bg=Background
+r1 c2..13 fg=Foreground bg=Background
+r1 c13..60 bg=Background
+r2 c0..1 fg=Foreground bg=Background
+r2 c1..2 bg=Background
+r2 c2..25 fg=Foreground bg=Background
+r2 c25..60 bg=Background
+r3 c0..1 fg=Danger bg=DiffRemovedTint bold
+r3 c1..2 bg=DiffRemovedTint
+r3 c2..20 fg=Foreground bg=DiffRemovedTint
+r3 c20..60 bg=DiffRemovedTint
+r4 c0..1 fg=Live bg=DiffAddedTint bold
+r4 c1..2 bg=DiffAddedTint
+r4 c2..20 fg=Foreground bg=DiffAddedTint
+r4 c20..60 bg=DiffAddedTint
+r5 c0..1 fg=Live bg=DiffAddedTint bold
+r5 c1..2 bg=DiffAddedTint
+r5 c2..19 fg=Foreground bg=DiffAddedTint
+r5 c19..60 bg=DiffAddedTint
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..25 fg=Foreground bg=Background
+r6 c25..60 bg=Background
+r7 c0..1 fg=Foreground bg=Background
+r7 c1..2 bg=Background
+r7 c2..3 fg=Foreground bg=Background
+r7 c3..60 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..60 bg=Background
+r9 c0..7 fg=Muted bg=Background
+r9 c7..60 bg=Background
+
+== dark-256
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 fg=Muted bg=Background
+r0 c29..60 bg=Background
+r1 c0..1 fg=Foreground bg=Background
+r1 c1..2 bg=Background
+r1 c2..13 fg=Foreground bg=Background
+r1 c13..60 bg=Background
+r2 c0..1 fg=Foreground bg=Background
+r2 c1..2 bg=Background
+r2 c2..25 fg=Foreground bg=Background
+r2 c25..60 bg=Background
+r3 c0..1 fg=Danger bg=DiffRemovedTint bold
+r3 c1..2 bg=DiffRemovedTint
+r3 c2..20 fg=Foreground bg=DiffRemovedTint
+r3 c20..60 bg=DiffRemovedTint
+r4 c0..1 fg=Live bg=DiffAddedTint bold
+r4 c1..2 bg=DiffAddedTint
+r4 c2..20 fg=Foreground bg=DiffAddedTint
+r4 c20..60 bg=DiffAddedTint
+r5 c0..1 fg=Live bg=DiffAddedTint bold
+r5 c1..2 bg=DiffAddedTint
+r5 c2..19 fg=Foreground bg=DiffAddedTint
+r5 c19..60 bg=DiffAddedTint
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..25 fg=Foreground bg=Background
+r6 c25..60 bg=Background
+r7 c0..1 fg=Foreground bg=Background
+r7 c1..2 bg=Background
+r7 c2..3 fg=Foreground bg=Background
+r7 c3..60 bg=Background
+r8 c0..28 fg=Muted bg=Background
+r8 c28..60 bg=Background
+r9 c0..7 fg=Muted bg=Background
+r9 c7..60 bg=Background
+
+== light-256
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 fg=Muted bg=Background|Surface
+r0 c29..60 bg=Background|Surface
+r1 c0..1 fg=Foreground bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..13 fg=Foreground bg=Background|Surface
+r1 c13..60 bg=Background|Surface
+r2 c0..1 fg=Foreground bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..25 fg=Foreground bg=Background|Surface
+r2 c25..60 bg=Background|Surface
+r3 c0..1 fg=Danger bg=DiffRemovedTint bold
+r3 c1..2 bg=DiffRemovedTint
+r3 c2..20 fg=Foreground bg=DiffRemovedTint
+r3 c20..60 bg=DiffRemovedTint
+r4 c0..1 fg=Live bg=DiffAddedTint bold
+r4 c1..2 bg=DiffAddedTint
+r4 c2..20 fg=Foreground bg=DiffAddedTint
+r4 c20..60 bg=DiffAddedTint
+r5 c0..1 fg=Live bg=DiffAddedTint bold
+r5 c1..2 bg=DiffAddedTint
+r5 c2..19 fg=Foreground bg=DiffAddedTint
+r5 c19..60 bg=DiffAddedTint
+r6 c0..1 fg=Foreground bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..25 fg=Foreground bg=Background|Surface
+r6 c25..60 bg=Background|Surface
+r7 c0..1 fg=Foreground bg=Background|Surface
+r7 c1..2 bg=Background|Surface
+r7 c2..3 fg=Foreground bg=Background|Surface
+r7 c3..60 bg=Background|Surface
+r8 c0..28 fg=Muted bg=Background|Surface
+r8 c28..60 bg=Background|Surface
+r9 c0..7 fg=Muted bg=Background|Surface
+r9 c7..60 bg=Background|Surface
+
+== ansi-16
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 dim
+r3 c0..1 fg=Danger bold
+r4 c0..1 fg=Live bold
+r5 c0..1 fg=Live bold
+r8 c0..28 dim
+r9 c0..7 dim
+
+== unknown-ground
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 dim
+r3 c0..1 fg=Danger bold
+r4 c0..1 fg=Live bold
+r5 c0..1 fg=Live bold
+r8 c0..28 dim
+r9 c0..7 dim
+
+== no-color
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+−     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++8 more
+---
+r0 c0..29 dim
+r3 c0..1 bold
+r4 c0..1 bold
+r5 c0..1 bold
+r8 c0..28 dim
+r9 c0..7 dim
+
+== ascii
+@@ -10,5 +10,6 @@ fn main() {
+  fn main() {
+      let name = "whale";
+-     let depth = 1;
++     let depth = 2;
++     let pods = 3;
+      println!("{name}");
+  }
+@@ -40,3 +41,3 @@ impl Pod {
++4 more
+---
+r0 c0..29 dim
+r3 c0..1 bold
+r4 c0..1 bold
+r5 c0..1 bold
+r8 c0..28 dim
+r9 c0..7 dim

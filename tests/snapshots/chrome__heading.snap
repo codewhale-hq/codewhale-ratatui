@@ -1,0 +1,129 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(7, heading_paint)"
+---
+== dark-truecolor · 40x7
+Settings           saved to this project
+
+Appearance                     3 changed
+
+Defaults
+
+A page title far too long for…  12 items
+---
+r0 c0..8 fg=Foreground bg=Background bold
+r0 c8..19 bg=Background
+r0 c19..40 fg=Muted bg=Background
+r1 c0..40 bg=Background
+r2 c0..10 fg=Foreground bg=Background bold
+r2 c10..31 bg=Background
+r2 c31..40 fg=Muted bg=Background
+r3 c0..40 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..30 fg=Foreground bg=Background bold
+r6 c30..32 bg=Background
+r6 c32..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x7
+Settings                                                   saved to this project
+
+Appearance                                                             3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                 12 items
+---
+r0 c0..8 fg=Foreground bg=Background bold
+r0 c8..59 bg=Background
+r0 c59..80 fg=Muted bg=Background
+r1 c0..80 bg=Background
+r2 c0..10 fg=Foreground bg=Background bold
+r2 c10..71 bg=Background
+r2 c71..80 fg=Muted bg=Background
+r3 c0..80 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..55 fg=Foreground bg=Background bold
+r6 c55..72 bg=Background
+r6 c72..80 fg=Muted bg=Background
+
+== dark-truecolor · 120x7
+Settings                                                                                           saved to this project
+
+Appearance                                                                                                     3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                                                         12 items
+---
+r0 c0..8 fg=Foreground bg=Background bold
+r0 c8..99 bg=Background
+r0 c99..120 fg=Muted bg=Background
+r1 c0..120 bg=Background
+r2 c0..10 fg=Foreground bg=Background bold
+r2 c10..111 bg=Background
+r2 c111..120 fg=Muted bg=Background
+r3 c0..120 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..120 bg=Background
+r5 c0..120 bg=Background
+r6 c0..55 fg=Foreground bg=Background bold
+r6 c55..112 bg=Background
+r6 c112..120 fg=Muted bg=Background
+
+== no-color · 40x7
+Settings           saved to this project
+
+Appearance                     3 changed
+
+Defaults
+
+A page title far too long for…  12 items
+
+== no-color · 80x7
+Settings                                                   saved to this project
+
+Appearance                                                             3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                 12 items
+
+== no-color · 120x7
+Settings                                                                                           saved to this project
+
+Appearance                                                                                                     3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                                                         12 items
+
+== ascii · 40x7
+Settings           saved to this project
+
+Appearance                     3 changed
+
+Defaults
+
+A page title far too long f...  12 items
+
+== ascii · 80x7
+Settings                                                   saved to this project
+
+Appearance                                                             3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                 12 items
+
+== ascii · 120x7
+Settings                                                                                           saved to this project
+
+Appearance                                                                                                     3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to hold                                                         12 items

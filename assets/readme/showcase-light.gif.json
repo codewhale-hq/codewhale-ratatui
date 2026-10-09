@@ -1,0 +1,8 @@
+{
+  "source_sha256": "208ff696cfdd784e21320f8aa421c2ee28a80e25b2b86d580d0f7233820ceb9b",
+  "gif_sha256": "13c9c4fec8683ba3c4b740fd1e3a7418a6b40525b31daf299993ba2ecaf57a6a",
+  "frames": 128,
+  "width": 1040,
+  "height": 600,
+  "frame_ms": 200
+}

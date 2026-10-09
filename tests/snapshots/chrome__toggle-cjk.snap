@@ -1,0 +1,72 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(2, toggle_cjk)"
+---
+== dark-truecolor · 40x2
+  鲸鱼模式                          ● 开
+▸ 显示工具详情，并在对话记录里展…   ○ 关
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..36 bg=Background
+r0 c36..40 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..33 fg=Foreground bg=Selected bold
+r1 c33..36 bg=Selected
+r1 c36..40 fg=Muted bg=Selected
+
+== dark-truecolor · 80x2
+  鲸鱼模式                                                                  ● 开
+▸ 显示工具详情，并在对话记录里展开推理过程                                  ○ 关
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..76 bg=Background
+r0 c76..80 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..42 fg=Foreground bg=Selected bold
+r1 c42..76 bg=Selected
+r1 c76..80 fg=Muted bg=Selected
+
+== dark-truecolor · 120x2
+  鲸鱼模式                                                                                                          ● 开
+▸ 显示工具详情，并在对话记录里展开推理过程                                                                          ○ 关
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..10 fg=Foreground bg=Background
+r0 c10..116 bg=Background
+r0 c116..120 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..42 fg=Foreground bg=Selected bold
+r1 c42..116 bg=Selected
+r1 c116..120 fg=Muted bg=Selected
+
+== no-color · 40x2
+  鲸鱼模式                          ● 开
+▸ 显示工具详情，并在对话记录里展…   ○ 关
+
+== no-color · 80x2
+  鲸鱼模式                                                                  ● 开
+▸ 显示工具详情，并在对话记录里展开推理过程                                  ○ 关
+
+== no-color · 120x2
+  鲸鱼模式                                                                                                          ● 开
+▸ 显示工具详情，并在对话记录里展开推理过程                                                                          ○ 关
+
+== ascii · 40x2
+  鲸鱼模式                        [x] 开
+> 显示工具详情，并在对话记录...   [ ] 关
+
+== ascii · 80x2
+  鲸鱼模式                                                                [x] 开
+> 显示工具详情，并在对话记录里展开推理过程                                [ ] 关
+
+== ascii · 120x2
+  鲸鱼模式                                                                                                        [x] 开
+> 显示工具详情，并在对话记录里展开推理过程                                                                        [ ] 关

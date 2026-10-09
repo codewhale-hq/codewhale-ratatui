@@ -105,8 +105,75 @@ impl<'a> Panel<'a> {
         }
     }
 
+    /// Where everything goes in `area`, without painting. [`Panel::draw`]
+    /// paints from this, and [`Panel::body`] and [`Dialog`] size from it, so
+    /// the three cannot disagree.
+    fn layout(&self, area: Rect, theme: &Theme) -> PanelLayout {
+        let edged = self.edged(theme);
+        let mut inner = area;
+        if edged {
+            inner = Block::default().borders(Borders::ALL).inner(area);
+        }
+
+        let gutter = match self.depth {
+            Depth::Stage if inner.width >= 24 => 2,
+            _ if inner.width >= 8 => 1,
+            _ => 0,
+        };
+        let vpad = u16::from(edged && inner.height >= 6);
+        inner = Rect {
+            x: inner.x + gutter,
+            y: inner.y + vpad,
+            width: inner.width.saturating_sub(gutter * 2),
+            height: inner.height.saturating_sub(vpad * 2),
+        };
+
+        let mut title_row = None;
+        if self.title.is_some() && inner.height > 0 {
+            title_row = Some(Rect { height: 1, ..inner });
+            let used = 1 + u16::from(inner.height >= 6);
+            inner.y += used.min(inner.height);
+            inner.height = inner.height.saturating_sub(used);
+        }
+
+        let mut rail = None;
+        if let Some(hints) = self.hints {
+            let lines = hints.lines(inner.width, theme);
+            let h = u16::try_from(lines.len())
+                .unwrap_or(u16::MAX)
+                .min(inner.height);
+            if h > 0 {
+                let rect = Rect {
+                    y: inner.bottom() - h,
+                    height: h,
+                    ..inner
+                };
+                rail = Some((rect, lines));
+                let gap = u16::from(inner.height >= h + 4);
+                inner.height = inner.height.saturating_sub(h + gap);
+            }
+        }
+        PanelLayout {
+            edged,
+            title_row,
+            rail,
+            body: inner,
+        }
+    }
+
+    /// The content area [`Panel::draw`] returns for `area`, without
+    /// painting: for sizing a popup to what goes in it.
+    #[must_use]
+    pub fn body(&self, area: Rect, theme: &Theme) -> Rect {
+        if area.is_empty() {
+            return area;
+        }
+        self.layout(area, theme).body
+    }
+
     /// Paint the panel and return the area left for content.
     pub fn draw(&self, area: Rect, buf: &mut Buffer, theme: &Theme) -> Rect {
+        let area = area.intersection(buf.area);
         if area.is_empty() {
             return area;
         }
@@ -114,8 +181,8 @@ impl<'a> Panel<'a> {
         let ground = theme.bg(self.depth.ground());
         buf.set_style(area, ground);
 
-        let mut inner = area;
-        if self.edged(theme) {
+        let layout = self.layout(area, theme);
+        if layout.edged {
             let edge_role = if self.focused {
                 Role::Primary
             } else if self.depth == Depth::Overlay {
@@ -137,35 +204,28 @@ impl<'a> Panel<'a> {
             } else {
                 border::PLAIN
             };
-            let block = Block::default()
+            Block::default()
                 .borders(Borders::ALL)
                 .border_set(set)
-                .border_style(theme.fg(edge_role).patch(ground));
-            inner = block.inner(area);
-            block.render(area, buf);
+                .border_style(theme.fg(edge_role).patch(ground))
+                .render(area, buf);
         }
 
-        let gutter = match self.depth {
-            Depth::Stage if inner.width >= 24 => 2,
-            _ if inner.width >= 8 => 1,
-            _ => 0,
-        };
-        let vpad = u16::from(self.edged(theme) && inner.height >= 6);
-        inner = Rect {
-            x: inner.x + gutter,
-            y: inner.y + vpad,
-            width: inner.width.saturating_sub(gutter * 2),
-            height: inner.height.saturating_sub(vpad * 2),
-        };
-
-        if let Some(title) = &self.title
-            && inner.height > 0
-        {
-            let row = Rect { height: 1, ..inner };
+        if let (Some(title), Some(row)) = (&self.title, layout.title_row) {
             let title = text::display_safe(title);
-            let aside = self.aside.as_deref().map(text::display_safe);
+            // The title keeps its room: an aside that cannot sit beside it
+            // is cut to a third of the row, or dropped.
+            let row_w = usize::from(row.width);
+            let aside = self.aside.as_deref().map(text::display_safe).and_then(|a| {
+                if text::width(&title) + 2 + text::width(&a) <= row_w {
+                    Some(a.into_owned())
+                } else {
+                    let cut = text::truncate(&a, row_w / 3, theme.ascii());
+                    (row_w / 3 >= 4 && !cut.is_empty()).then(|| cut.into_owned())
+                }
+            });
             let aside_w = aside.as_deref().map_or(0, |a| text::width(a) + 2);
-            let title_w = usize::from(row.width).saturating_sub(aside_w);
+            let title_w = row_w.saturating_sub(aside_w);
             let title = text::truncate(&title, title_w, theme.ascii());
             Line::from(Span::styled(
                 title.into_owned(),
@@ -176,33 +236,25 @@ impl<'a> Panel<'a> {
                 && aside_w > 0
                 && aside_w <= usize::from(row.width)
             {
-                Line::from(Span::styled(aside.into_owned(), theme.fg(Role::Muted)))
+                Line::from(Span::styled(aside, theme.fg(Role::Muted)))
                     .right_aligned()
                     .render(row, buf);
             }
-            let used = 1 + u16::from(inner.height >= 6);
-            inner.y += used.min(inner.height);
-            inner.height = inner.height.saturating_sub(used);
         }
 
-        if let Some(hints) = self.hints {
-            let lines = hints.lines(inner.width, theme);
-            let h = u16::try_from(lines.len())
-                .unwrap_or(u16::MAX)
-                .min(inner.height);
-            if h > 0 {
-                let rail = Rect {
-                    y: inner.bottom() - h,
-                    height: h,
-                    ..inner
-                };
-                Paragraph::new(lines).render(rail, buf);
-                let gap = u16::from(inner.height >= h + 4);
-                inner.height = inner.height.saturating_sub(h + gap);
-            }
+        if let Some((rect, lines)) = layout.rail {
+            Paragraph::new(lines).render(rect, buf);
         }
-        inner
+        layout.body
     }
+}
+
+/// The geometry of a [`Panel`] in an area.
+struct PanelLayout {
+    edged: bool,
+    title_row: Option<Rect>,
+    rail: Option<(Rect, Vec<Line<'static>>)>,
+    body: Rect,
 }
 
 impl Paint for Panel<'_> {
@@ -223,6 +275,9 @@ pub fn centered(
     min_width: u16,
     min_height: u16,
 ) -> Rect {
+    if area.is_empty() {
+        return area;
+    }
     let avail_width = area.width.saturating_sub(2).max(1);
     let avail_height = area.height.saturating_sub(2).max(1);
     let width = preferred_width.clamp(min_width.min(avail_width), avail_width);
@@ -232,6 +287,326 @@ pub fn centered(
         y: area.y + area.height.saturating_sub(height) / 2,
         width,
         height,
+    }
+}
+
+/// How wide a [`Dialog`] wants to be before the terminal clamps it.
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq, Hash)]
+pub enum DialogWidth {
+    /// A yes-or-no question: 48 cells.
+    Narrow,
+    /// Most decisions: 60 cells.
+    #[default]
+    Standard,
+    /// Detail worth reading before deciding: 72 cells.
+    Wide,
+}
+
+impl DialogWidth {
+    /// The preferred width in cells.
+    #[must_use]
+    pub const fn cells(self) -> u16 {
+        match self {
+            DialogWidth::Narrow => 48,
+            DialogWidth::Standard => 60,
+            DialogWidth::Wide => 72,
+        }
+    }
+}
+
+/// `preferred` cells of a `total`-cell axis, leaving `margin` cells of
+/// backdrop when the axis can spare them, never below `floor` unless the
+/// axis itself is smaller, and never more than the axis.
+fn fit_axis(total: u16, preferred: u16, margin: u16, floor: u16) -> u16 {
+    preferred.min(total.saturating_sub(margin).max(floor.min(total)))
+}
+
+/// A decision, centered over everything else: confirmations, approvals,
+/// destructive actions. Always edged in `BorderStrong`, so it stays legible
+/// where grounds do not paint (16 colors, `NO_COLOR`), with no shadow and no
+/// rounded corners. Replaces the engine's modal surface with its shadow and
+/// the hand-rolled `Clear` blocks.
+///
+/// ```
+/// # use codewhale_ratatui::{Dialog, DialogWidth, KeyHint, KeyHints, Theme};
+/// # use ratatui::{buffer::Buffer, layout::Rect};
+/// # let (theme, area) = (Theme::detect(), Rect::new(0, 0, 80, 24));
+/// # let mut buf = Buffer::empty(area);
+/// let hints = KeyHints::new(vec![KeyHint::new("y", "stop"), KeyHint::new("n", "keep running")]);
+/// let body = Dialog::new()
+///     .title("Stop the running workflow?")
+///     .width(DialogWidth::Narrow)
+///     .body_rows(2)
+///     .hints(&hints)
+///     .draw(area, &mut buf, &theme);
+/// // paint the question into `body`
+/// # let _ = body;
+/// ```
+#[derive(Clone, Debug, Default)]
+pub struct Dialog<'a> {
+    pub title: Option<Cow<'a, str>>,
+    pub width: DialogWidth,
+    /// Rows of body the caller will fill. The dialog is as tall as that
+    /// needs, with padding and a blank row between its parts, then clamped
+    /// to the terminal. The body it returns has at least this many rows
+    /// unless the terminal is too short.
+    pub body_rows: u16,
+    pub hints: Option<&'a KeyHints>,
+}
+
+impl<'a> Dialog<'a> {
+    /// The narrowest a dialog gets while the terminal can still spare it a
+    /// margin.
+    const MIN_WIDTH: u16 = 20;
+    const MIN_HEIGHT: u16 = 5;
+
+    #[must_use]
+    pub fn new() -> Self {
+        Self::default()
+    }
+
+    #[must_use]
+    pub fn title(mut self, title: impl Into<Cow<'a, str>>) -> Self {
+        self.title = Some(title.into());
+        self
+    }
+
+    #[must_use]
+    pub fn width(mut self, width: DialogWidth) -> Self {
+        self.width = width;
+        self
+    }
+
+    #[must_use]
+    pub fn body_rows(mut self, rows: u16) -> Self {
+        self.body_rows = rows;
+        self
+    }
+
+    #[must_use]
+    pub fn hints(mut self, hints: &'a KeyHints) -> Self {
+        self.hints = Some(hints);
+        self
+    }
+
+    fn panel(&self) -> Panel<'a> {
+        Panel {
+            title: self.title.clone(),
+            aside: None,
+            depth: Depth::Overlay,
+            focused: false,
+            hints: self.hints,
+        }
+    }
+
+    fn width_in(&self, area_width: u16) -> u16 {
+        fit_axis(area_width, self.width.cells(), 4, Self::MIN_WIDTH)
+    }
+
+    /// Rows that leave `body_rows` of body at `width`, before clamping.
+    /// Starts from the roomy layout (padding, a blank row under the title and
+    /// above the hints) and grows until the panel really leaves that body.
+    fn rows_for(&self, width: u16, theme: &Theme) -> u16 {
+        let panel = self.panel();
+        let want = self.body_rows.max(1);
+        let hint_rows = self.hints.map_or(0, |h| h.height(width, theme));
+        let chrome = 4
+            + if self.title.is_some() { 2 } else { 0 }
+            + if hint_rows > 0 { hint_rows + 1 } else { 0 };
+        let start = want.saturating_add(chrome);
+        let limit = start.saturating_add(8);
+        (start..=limit)
+            .find(|&h| panel.body(Rect::new(0, 0, width, h), theme).height >= want)
+            .unwrap_or(limit)
+    }
+
+    /// Where the dialog goes in `area`: centered, at most the width asked
+    /// for, never wider or taller than `area`, with a two-cell margin at the
+    /// sides and one row above and below when `area` can spare them.
+    #[must_use]
+    pub fn rect(&self, area: Rect, theme: &Theme) -> Rect {
+        let width = self.width_in(area.width);
+        let rows = self.rows_for(width, theme);
+        let height = fit_axis(area.height, rows, 2, Self::MIN_HEIGHT);
+        Rect {
+            x: area.x + (area.width - width) / 2,
+            y: area.y + (area.height - height) / 2,
+            width,
+            height,
+        }
+    }
+
+    /// Paint the dialog over whatever is in `area` and return the body area
+    /// for the caller to fill.
+    pub fn draw(&self, area: Rect, buf: &mut Buffer, theme: &Theme) -> Rect {
+        let area = area.intersection(buf.area);
+        if area.is_empty() {
+            return area;
+        }
+        self.panel().draw(self.rect(area, theme), buf, theme)
+    }
+}
+
+impl Paint for Dialog<'_> {
+    fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
+        self.draw(area, buf, theme);
+    }
+
+    /// Rows the dialog wants at `width`, before the terminal clamps it.
+    fn height(&self, width: u16, theme: &Theme) -> u16 {
+        self.rows_for(self.width_in(width), theme)
+    }
+}
+
+/// The edge a [`Sheet`] is anchored to.
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq, Hash)]
+pub enum SheetEdge {
+    #[default]
+    Bottom,
+    Top,
+    Left,
+    Right,
+}
+
+impl SheetEdge {
+    /// Whether the sheet's size is a height (it spans the width).
+    #[must_use]
+    pub const fn spans_width(self) -> bool {
+        matches!(self, SheetEdge::Top | SheetEdge::Bottom)
+    }
+}
+
+/// A raised surface anchored to one edge of the screen: settings, managers
+/// and pickers that slide in over the work. The ground separates it where
+/// grounds paint; where they do not (16 colors, `NO_COLOR`, a 256-color
+/// ground that collapses) [`Panel`] draws an edge, so a sheet is never an
+/// unmarked patch of text. Replaces the engine's underwater surface, whose
+/// two rules broke the one-horizon rule.
+#[derive(Clone, Debug, Default)]
+pub struct Sheet<'a> {
+    pub title: Option<Cow<'a, str>>,
+    /// Muted text at the right of the title row.
+    pub aside: Option<Cow<'a, str>>,
+    pub edge: SheetEdge,
+    /// Rows (top and bottom) or columns (left and right) wanted; half the
+    /// screen when unset.
+    pub size: Option<u16>,
+    /// The most rows or columns the sheet takes, however much is wanted.
+    pub max_size: Option<u16>,
+    pub focused: bool,
+    pub hints: Option<&'a KeyHints>,
+}
+
+impl<'a> Sheet<'a> {
+    /// A sheet anchored to the bottom edge.
+    #[must_use]
+    pub fn new() -> Self {
+        Self::default()
+    }
+
+    #[must_use]
+    pub fn edge(mut self, edge: SheetEdge) -> Self {
+        self.edge = edge;
+        self
+    }
+
+    #[must_use]
+    pub fn title(mut self, title: impl Into<Cow<'a, str>>) -> Self {
+        self.title = Some(title.into());
+        self
+    }
+
+    #[must_use]
+    pub fn aside(mut self, aside: impl Into<Cow<'a, str>>) -> Self {
+        self.aside = Some(aside.into());
+        self
+    }
+
+    #[must_use]
+    pub fn size(mut self, size: u16) -> Self {
+        self.size = Some(size);
+        self
+    }
+
+    #[must_use]
+    pub fn max_size(mut self, max: u16) -> Self {
+        self.max_size = Some(max);
+        self
+    }
+
+    #[must_use]
+    pub fn focused(mut self, focused: bool) -> Self {
+        self.focused = focused;
+        self
+    }
+
+    #[must_use]
+    pub fn hints(mut self, hints: &'a KeyHints) -> Self {
+        self.hints = Some(hints);
+        self
+    }
+
+    /// Where the sheet goes in `area`: against its edge, across the whole
+    /// other axis, and as large as asked for, no larger than `max_size` or
+    /// `area`.
+    #[must_use]
+    pub fn rect(&self, area: Rect) -> Rect {
+        let total = if self.edge.spans_width() {
+            area.height
+        } else {
+            area.width
+        };
+        let size = self
+            .size
+            .unwrap_or_else(|| total.div_ceil(2))
+            .min(self.max_size.unwrap_or(u16::MAX))
+            .min(total);
+        match self.edge {
+            SheetEdge::Bottom => Rect {
+                y: area.bottom() - size,
+                height: size,
+                ..area
+            },
+            SheetEdge::Top => Rect {
+                height: size,
+                ..area
+            },
+            SheetEdge::Left => Rect {
+                width: size,
+                ..area
+            },
+            SheetEdge::Right => Rect {
+                x: area.right() - size,
+                width: size,
+                ..area
+            },
+        }
+    }
+
+    fn panel(&self) -> Panel<'a> {
+        Panel {
+            title: self.title.clone(),
+            aside: self.aside.clone(),
+            depth: Depth::Raised,
+            focused: self.focused,
+            hints: self.hints,
+        }
+    }
+
+    /// Paint the sheet over whatever is in `area` and return the body area
+    /// for the caller to fill.
+    pub fn draw(&self, area: Rect, buf: &mut Buffer, theme: &Theme) -> Rect {
+        let area = area.intersection(buf.area);
+        if area.is_empty() {
+            return area;
+        }
+        self.panel().draw(self.rect(area), buf, theme)
+    }
+}
+
+impl Paint for Sheet<'_> {
+    fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
+        self.draw(area, buf, theme);
     }
 }
 
@@ -270,6 +645,7 @@ impl<'a> HorizonRule<'a> {
 
 impl Paint for HorizonRule<'_> {
     fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
+        let area = area.intersection(buf.area);
         if area.is_empty() {
             return;
         }

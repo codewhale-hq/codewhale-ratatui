@@ -1,0 +1,1426 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background
+r1 c0..1 bg=Background
+r1 c1..23 fg=Primary bg=Background bold
+r1 c23..119 fg=Border bg=Background
+r1 c119..120 bg=Background
+r2 c0..120 bg=Background
+r3 c0..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..5 fg=Foreground bg=Background
+r4 c5..8 fg=Hint|Dim bg=Background
+r4 c8..30 fg=Foreground bg=Background
+r4 c30..32 bg=Background
+r4 c32..34 bg=Surface
+r4 c34..36 bg=Live
+r4 c36..38 bg=Attention
+r4 c38..40 bg=Primary
+r4 c40..42 bg=Background
+r4 c42..99 fg=Hint|Dim bg=Background
+r4 c99..120 bg=Background
+r5 c0..2 bg=Background
+r5 c2..5 fg=Foreground bg=Background
+r5 c5..8 fg=Hint|Dim bg=Background
+r5 c8..30 fg=Foreground bg=Background
+r5 c34..36 bg=Cyan
+r5 c36..38 bg=Yellow
+r5 c38..40 bg=Blue
+r5 c40..42 bg=Background
+r5 c42..108 fg=Hint|Dim bg=Background
+r5 c108..120 bg=Background
+r6 c0..2 bg=Background
+r6 c2..5 fg=Foreground bg=Background
+r6 c5..8 fg=Hint|Dim bg=Background
+r6 c8..30 fg=Foreground bg=Background
+r6 c30..32 bg=#211f23
+r6 c32..34 bg=#2b282e
+r6 c34..36 bg=#7fd6c6
+r6 c36..38 bg=Attention
+r6 c38..40 bg=#67b8d6
+r6 c40..42 bg=Background
+r6 c42..107 fg=Hint|Dim bg=Background
+r6 c107..120 bg=Background
+r7 c0..2 bg=Background
+r7 c2..5 fg=Foreground bg=Background
+r7 c5..8 fg=Hint|Dim bg=Background
+r7 c8..30 fg=Foreground bg=Background
+r7 c30..32 bg=#f5f0e9
+r7 c32..34 bg=#ece5e0
+r7 c34..36 bg=#1f7a6b
+r7 c36..38 bg=#7a5500
+r7 c38..40 bg=#006684
+r7 c40..42 bg=Background
+r7 c42..99 fg=Hint|Dim bg=Background
+r7 c99..120 bg=Background
+r8 c0..2 bg=Background
+r8 c2..5 fg=Foreground bg=Selected bold
+r8 c5..8 fg=Live bg=Selected bold
+r8 c8..30 fg=Foreground bg=Selected bold
+r8 c30..32 bg=Hover
+r8 c32..34 bg=Background
+r8 c34..36 bg=Sidebar
+r8 c36..38 bg=#264866
+r8 c38..40 bg=Live
+r8 c40..42 bg=Background
+r8 c42..103 fg=Hint|Dim bg=Selected
+r8 c103..120 bg=Background
+r9 c0..2 bg=Background
+r9 c2..5 fg=Foreground bg=Background
+r9 c5..8 fg=Hint|Dim bg=Background
+r9 c8..30 fg=Foreground bg=Background
+r9 c30..32 bg=#051019
+r9 c32..34 bg=#071522
+r9 c34..36 bg=Live
+r9 c36..38 bg=Attention
+r9 c38..40 bg=Primary
+r9 c40..42 bg=Background
+r9 c42..101 fg=Hint|Dim bg=Background
+r9 c101..120 bg=Background
+r10 c0..2 bg=Background
+r10 c2..5 fg=Foreground bg=Background
+r10 c5..8 fg=Hint|Dim bg=Background
+r10 c8..30 fg=Foreground bg=Background
+r10 c34..36 bg=Live
+r10 c36..38 bg=Attention
+r10 c38..40 bg=Primary
+r10 c40..42 bg=Background
+r10 c42..100 fg=Hint|Dim bg=Background
+r10 c100..120 bg=Background
+r11 c0..2 bg=Background
+r11 c2..5 fg=Foreground bg=Background
+r11 c5..8 fg=Hint|Dim bg=Background
+r11 c8..30 fg=Foreground bg=Background
+r11 c34..36 bg=#08766d
+r11 c36..38 bg=#7a5500
+r11 c38..40 bg=#1535b2
+r11 c40..42 bg=Background
+r11 c42..96 fg=Hint|Dim bg=Background
+r11 c96..120 bg=Background
+r12 c0..2 bg=Background
+r12 c2..5 fg=Foreground bg=Background
+r12 c5..8 fg=Hint|Dim bg=Background
+r12 c8..30 fg=Foreground bg=Background
+r12 c30..32 bg=#0a0a0a
+r12 c32..34 bg=#121212
+r12 c34..36 bg=#b4b4b4
+r12 c36..38 bg=#d2d2d2
+r12 c38..40 bg=#dcdcdc
+r12 c40..42 bg=Background
+r12 c42..69 fg=Hint|Dim bg=Background
+r12 c69..120 bg=Background
+r13 c0..2 bg=Background
+r13 c2..5 fg=Foreground bg=Background
+r13 c5..9 fg=Hint|Dim bg=Background
+r13 c9..31 fg=Foreground bg=Background
+r13 c31..33 bg=#1e1e2e
+r13 c33..35 bg=#181825
+r13 c35..37 bg=#74c7ec
+r13 c37..39 bg=#fab387
+r13 c39..41 bg=#89b4fa
+r13 c41..43 bg=Background
+r13 c43..68 fg=Hint|Dim bg=Background
+r13 c68..120 bg=Background
+r14 c0..2 bg=Background
+r14 c2..5 fg=Foreground bg=Background
+r14 c5..9 fg=Hint|Dim bg=Background
+r14 c9..31 fg=Foreground bg=Background
+r14 c31..33 bg=#1a1b26
+r14 c33..35 bg=#16161e
+r14 c35..37 bg=#7dcfff
+r14 c37..39 bg=#ff9e64
+r14 c39..41 bg=#7aa2f7
+r14 c41..43 bg=Background
+r14 c43..73 fg=Hint|Dim bg=Background
+r14 c73..120 bg=Background
+r15 c0..2 bg=Background
+r15 c2..5 fg=Foreground bg=Background
+r15 c5..9 fg=Hint|Dim bg=Background
+r15 c9..31 fg=Foreground bg=Background
+r15 c31..33 bg=#282a36
+r15 c33..35 bg=#21222c
+r15 c35..37 bg=#8be9fd
+r15 c37..39 bg=#ffb86c
+r15 c39..41 bg=#bd93f9
+r15 c41..43 bg=Background
+r15 c43..71 fg=Hint|Dim bg=Background
+r15 c71..120 bg=Background
+r16 c0..2 bg=Background
+r16 c2..5 fg=Foreground bg=Background
+r16 c5..9 fg=Hint|Dim bg=Background
+r16 c9..31 fg=Foreground bg=Background
+r16 c31..33 bg=#282828
+r16 c33..35 bg=#3c3836
+r16 c35..37 bg=#8ec07c
+r16 c37..39 bg=#fe8019
+r16 c39..41 bg=#83a598
+r16 c41..43 bg=Background
+r16 c43..67 fg=Hint|Dim bg=Background
+r16 c67..120 bg=Background
+r17 c0..2 bg=Background
+r17 c2..5 fg=Foreground bg=Background
+r17 c5..9 fg=Hint|Dim bg=Background
+r17 c9..31 fg=Foreground bg=Background
+r17 c31..33 bg=#181715
+r17 c33..35 bg=#252320
+r17 c35..37 bg=#5db8a6
+r17 c37..39 bg=#e8a55a
+r17 c39..41 bg=#cc785c
+r17 c41..43 bg=Background
+r17 c43..60 fg=Hint|Dim bg=Background
+r17 c60..120 bg=Background
+r18 c0..2 bg=Background
+r18 c2..5 fg=Foreground bg=Background
+r18 c5..9 fg=Hint|Dim bg=Background
+r18 c9..31 fg=Foreground bg=Background
+r18 c31..35 bg=#000a00
+r18 c35..37 bg=#009900
+r18 c37..39 bg=#88ff88
+r18 c39..41 bg=#00cc00
+r18 c41..43 bg=Background
+r18 c43..74 fg=Hint|Dim bg=Background
+r18 c74..120 bg=Background
+r19 c0..2 bg=Background
+r19 c2..5 fg=Foreground bg=Background
+r19 c5..9 fg=Hint|Dim bg=Background
+r19 c9..31 fg=Foreground bg=Background
+r19 c31..33 bg=#fdf6e3
+r19 c33..35 bg=#f0ede7
+r19 c35..37 bg=#299e96
+r19 c37..39 bg=#cb4b16
+r19 c39..41 bg=#268bd2
+r19 c41..43 bg=Background
+r19 c43..116 fg=Hint|Dim bg=Background
+r19 c116..120 bg=Background
+r20 c0..2 bg=Background
+r20 c2..5 fg=Foreground bg=Background
+r20 c5..9 fg=Hint|Dim bg=Background
+r20 c9..31 fg=Foreground bg=Background
+r20 c31..33 bg=#16121c
+r20 c33..35 bg=#1f1828
+r20 c35..37 bg=#9aece0
+r20 c37..39 bg=#ffd69a
+r20 c39..41 bg=#ff9ecd
+r20 c41..43 bg=Background
+r20 c43..86 fg=Hint|Dim bg=Background
+r20 c86..120 bg=Background
+r21 c0..120 bg=Background
+r22 c0..120 bg=Background
+r23 c0..120 bg=Background
+r24 c0..120 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..14 fg=Muted bg=Background
+r25 c14..15 bg=Background
+r25 c15..22 fg=Primary bg=Background bold
+r25 c22..26 fg=Muted bg=Background
+r25 c26..27 bg=Background
+r25 c27..32 fg=Primary bg=Background bold
+r25 c32..38 fg=Muted bg=Background
+r25 c38..120 bg=Background
+r26 c0..1 bg=Background
+r26 c1..119 fg=Border bg=Background
+r26 c119..120 bg=Background
+r27 c0..120 bg=Background
+
+== dark-graphite
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background
+r1 c0..1 bg=Background
+r1 c1..23 fg=Primary bg=Background bold
+r1 c23..119 fg=Border bg=Background
+r1 c119..120 bg=Background
+r2 c0..120 bg=Background
+r3 c0..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..5 fg=Foreground bg=Background
+r4 c5..8 fg=Hint|Dim bg=Background
+r4 c8..30 fg=Foreground bg=Background
+r4 c30..32 bg=Background
+r4 c32..34 bg=Surface
+r4 c34..36 bg=Live
+r4 c36..38 bg=Attention
+r4 c38..40 bg=Primary
+r4 c40..42 bg=Background
+r4 c42..99 fg=Hint|Dim bg=Background
+r4 c99..120 bg=Background
+r5 c0..2 bg=Background
+r5 c2..5 fg=Foreground bg=Background
+r5 c5..8 fg=Hint|Dim bg=Background
+r5 c8..30 fg=Foreground bg=Background
+r5 c34..36 bg=Cyan
+r5 c36..38 bg=Yellow
+r5 c38..40 bg=Blue
+r5 c40..42 bg=Background
+r5 c42..108 fg=Hint|Dim bg=Background
+r5 c108..120 bg=Background
+r6 c0..2 bg=Background
+r6 c2..5 fg=Foreground bg=Background
+r6 c5..8 fg=Hint|Dim bg=Background
+r6 c8..30 fg=Foreground bg=Background
+r6 c30..32 bg=#211f23
+r6 c32..34 bg=#2b282e
+r6 c34..36 bg=#7fd6c6
+r6 c36..38 bg=Attention
+r6 c38..40 bg=#67b8d6
+r6 c40..42 bg=Background
+r6 c42..107 fg=Hint|Dim bg=Background
+r6 c107..120 bg=Background
+r7 c0..2 bg=Background
+r7 c2..5 fg=Foreground bg=Background
+r7 c5..8 fg=Hint|Dim bg=Background
+r7 c8..30 fg=Foreground bg=Background
+r7 c30..32 bg=#f5f0e9
+r7 c32..34 bg=#ece5e0
+r7 c34..36 bg=#1f7a6b
+r7 c36..38 bg=#7a5500
+r7 c38..40 bg=#006684
+r7 c40..42 bg=Background
+r7 c42..99 fg=Hint|Dim bg=Background
+r7 c99..120 bg=Background
+r8 c0..2 bg=Background
+r8 c2..5 fg=Foreground bg=Selected bold
+r8 c5..8 fg=Live bg=Selected bold
+r8 c8..30 fg=Foreground bg=Selected bold
+r8 c30..32 bg=Background
+r8 c32..34 bg=Surface
+r8 c34..36 bg=Live
+r8 c36..38 bg=Attention
+r8 c38..40 bg=Primary
+r8 c40..42 bg=Background
+r8 c42..103 fg=Hint|Dim bg=Selected
+r8 c103..120 bg=Background
+r9 c0..2 bg=Background
+r9 c2..5 fg=Foreground bg=Background
+r9 c5..8 fg=Hint|Dim bg=Background
+r9 c8..30 fg=Foreground bg=Background
+r9 c30..32 bg=#051019
+r9 c32..34 bg=#071522
+r9 c34..36 bg=Live
+r9 c36..38 bg=Attention
+r9 c38..40 bg=Primary
+r9 c40..42 bg=Background
+r9 c42..101 fg=Hint|Dim bg=Background
+r9 c101..120 bg=Background
+r10 c0..2 bg=Background
+r10 c2..5 fg=Foreground bg=Background
+r10 c5..8 fg=Hint|Dim bg=Background
+r10 c8..30 fg=Foreground bg=Background
+r10 c34..36 bg=Live
+r10 c36..38 bg=Attention
+r10 c38..40 bg=Primary
+r10 c40..42 bg=Background
+r10 c42..100 fg=Hint|Dim bg=Background
+r10 c100..120 bg=Background
+r11 c0..2 bg=Background
+r11 c2..5 fg=Foreground bg=Background
+r11 c5..8 fg=Hint|Dim bg=Background
+r11 c8..30 fg=Foreground bg=Background
+r11 c34..36 bg=#08766d
+r11 c36..38 bg=#7a5500
+r11 c38..40 bg=#1535b2
+r11 c40..42 bg=Background
+r11 c42..96 fg=Hint|Dim bg=Background
+r11 c96..120 bg=Background
+r12 c0..2 bg=Background
+r12 c2..5 fg=Foreground bg=Background
+r12 c5..8 fg=Hint|Dim bg=Background
+r12 c8..30 fg=Foreground bg=Background
+r12 c30..32 bg=#0a0a0a
+r12 c32..34 bg=#121212
+r12 c34..36 bg=#b4b4b4
+r12 c36..38 bg=#d2d2d2
+r12 c38..40 bg=#dcdcdc
+r12 c40..42 bg=Background
+r12 c42..69 fg=Hint|Dim bg=Background
+r12 c69..120 bg=Background
+r13 c0..2 bg=Background
+r13 c2..5 fg=Foreground bg=Background
+r13 c5..9 fg=Hint|Dim bg=Background
+r13 c9..31 fg=Foreground bg=Background
+r13 c31..33 bg=#1e1e2e
+r13 c33..35 bg=#181825
+r13 c35..37 bg=#74c7ec
+r13 c37..39 bg=#fab387
+r13 c39..41 bg=#89b4fa
+r13 c41..43 bg=Background
+r13 c43..68 fg=Hint|Dim bg=Background
+r13 c68..120 bg=Background
+r14 c0..2 bg=Background
+r14 c2..5 fg=Foreground bg=Background
+r14 c5..9 fg=Hint|Dim bg=Background
+r14 c9..31 fg=Foreground bg=Background
+r14 c31..33 bg=#1a1b26
+r14 c33..35 bg=#16161e
+r14 c35..37 bg=#7dcfff
+r14 c37..39 bg=#ff9e64
+r14 c39..41 bg=#7aa2f7
+r14 c41..43 bg=Background
+r14 c43..73 fg=Hint|Dim bg=Background
+r14 c73..120 bg=Background
+r15 c0..2 bg=Background
+r15 c2..5 fg=Foreground bg=Background
+r15 c5..9 fg=Hint|Dim bg=Background
+r15 c9..31 fg=Foreground bg=Background
+r15 c31..33 bg=#282a36
+r15 c33..35 bg=#21222c
+r15 c35..37 bg=#8be9fd
+r15 c37..39 bg=#ffb86c
+r15 c39..41 bg=#bd93f9
+r15 c41..43 bg=Background
+r15 c43..71 fg=Hint|Dim bg=Background
+r15 c71..120 bg=Background
+r16 c0..2 bg=Background
+r16 c2..5 fg=Foreground bg=Background
+r16 c5..9 fg=Hint|Dim bg=Background
+r16 c9..31 fg=Foreground bg=Background
+r16 c31..33 bg=#282828
+r16 c33..35 bg=#3c3836
+r16 c35..37 bg=#8ec07c
+r16 c37..39 bg=#fe8019
+r16 c39..41 bg=#83a598
+r16 c41..43 bg=Background
+r16 c43..67 fg=Hint|Dim bg=Background
+r16 c67..120 bg=Background
+r17 c0..2 bg=Background
+r17 c2..5 fg=Foreground bg=Background
+r17 c5..9 fg=Hint|Dim bg=Background
+r17 c9..31 fg=Foreground bg=Background
+r17 c31..33 bg=#181715
+r17 c33..35 bg=#252320
+r17 c35..37 bg=#5db8a6
+r17 c37..39 bg=#e8a55a
+r17 c39..41 bg=#cc785c
+r17 c41..43 bg=Background
+r17 c43..60 fg=Hint|Dim bg=Background
+r17 c60..120 bg=Background
+r18 c0..2 bg=Background
+r18 c2..5 fg=Foreground bg=Background
+r18 c5..9 fg=Hint|Dim bg=Background
+r18 c9..31 fg=Foreground bg=Background
+r18 c31..35 bg=#000a00
+r18 c35..37 bg=#009900
+r18 c37..39 bg=#88ff88
+r18 c39..41 bg=#00cc00
+r18 c41..43 bg=Background
+r18 c43..74 fg=Hint|Dim bg=Background
+r18 c74..120 bg=Background
+r19 c0..2 bg=Background
+r19 c2..5 fg=Foreground bg=Background
+r19 c5..9 fg=Hint|Dim bg=Background
+r19 c9..31 fg=Foreground bg=Background
+r19 c31..33 bg=#fdf6e3
+r19 c33..35 bg=#f0ede7
+r19 c35..37 bg=#299e96
+r19 c37..39 bg=#cb4b16
+r19 c39..41 bg=#268bd2
+r19 c41..43 bg=Background
+r19 c43..116 fg=Hint|Dim bg=Background
+r19 c116..120 bg=Background
+r20 c0..2 bg=Background
+r20 c2..5 fg=Foreground bg=Background
+r20 c5..9 fg=Hint|Dim bg=Background
+r20 c9..31 fg=Foreground bg=Background
+r20 c31..33 bg=#16121c
+r20 c33..35 bg=#1f1828
+r20 c35..37 bg=#9aece0
+r20 c37..39 bg=#ffd69a
+r20 c39..41 bg=#ff9ecd
+r20 c41..43 bg=Background
+r20 c43..86 fg=Hint|Dim bg=Background
+r20 c86..120 bg=Background
+r21 c0..120 bg=Background
+r22 c0..120 bg=Background
+r23 c0..120 bg=Background
+r24 c0..120 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..14 fg=Muted bg=Background
+r25 c14..15 bg=Background
+r25 c15..22 fg=Primary bg=Background bold
+r25 c22..26 fg=Muted bg=Background
+r25 c26..27 bg=Background
+r25 c27..32 fg=Primary bg=Background bold
+r25 c32..38 fg=Muted bg=Background
+r25 c38..120 bg=Background
+r26 c0..1 bg=Background
+r26 c1..119 fg=Border bg=Background
+r26 c119..120 bg=Background
+r27 c0..120 bg=Background
+
+== light-truecolor
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold
+r1 c23..119 fg=Border
+r4 c2..5 fg=Foreground
+r4 c5..8 fg=Hint|Dim
+r4 c8..30 fg=Foreground
+r4 c34..36 bg=Live
+r4 c36..38 bg=Attention
+r4 c38..40 bg=Primary
+r4 c42..99 fg=Hint|Dim
+r5 c2..5 fg=Foreground
+r5 c5..8 fg=Hint|Dim
+r5 c8..30 fg=Foreground
+r5 c34..36 bg=Cyan
+r5 c36..38 bg=Yellow
+r5 c38..40 bg=Blue
+r5 c42..108 fg=Hint|Dim
+r6 c2..5 fg=Foreground
+r6 c5..8 fg=Hint|Dim
+r6 c8..30 fg=Foreground
+r6 c30..32 bg=#211f23
+r6 c32..34 bg=#2b282e
+r6 c34..36 bg=#7fd6c6
+r6 c36..38 bg=#f6c453
+r6 c38..40 bg=#67b8d6
+r6 c42..107 fg=Hint|Dim
+r7 c2..5 fg=Foreground
+r7 c5..8 fg=Hint|Dim
+r7 c8..30 fg=Foreground
+r7 c30..32 bg=#f5f0e9
+r7 c32..34 bg=#ece5e0
+r7 c34..36 bg=#1f7a6b
+r7 c36..38 bg=Attention
+r7 c38..40 bg=#006684
+r7 c42..99 fg=Hint|Dim
+r8 c2..5 fg=Foreground bg=Selected bold
+r8 c5..8 fg=Live bg=Selected bold
+r8 c8..30 fg=Foreground bg=Selected bold
+r8 c30..32 bg=#0a1e33
+r8 c32..34 bg=#0d223a
+r8 c34..36 bg=#4fd1c5
+r8 c36..38 bg=#f6c453
+r8 c38..40 bg=#6aa6dc
+r8 c42..103 fg=Hint|Dim bg=Selected
+r9 c2..5 fg=Foreground
+r9 c5..8 fg=Hint|Dim
+r9 c8..30 fg=Foreground
+r9 c30..32 bg=#051019
+r9 c32..34 bg=#071522
+r9 c34..36 bg=#4fd1c5
+r9 c36..38 bg=#f6c453
+r9 c38..40 bg=#6aa6dc
+r9 c42..101 fg=Hint|Dim
+r10 c2..5 fg=Foreground
+r10 c5..8 fg=Hint|Dim
+r10 c8..30 fg=Foreground
+r10 c34..36 bg=#4fd1c5
+r10 c36..38 bg=#f6c453
+r10 c38..40 bg=#6aa6dc
+r10 c42..100 fg=Hint|Dim
+r11 c2..5 fg=Foreground
+r11 c5..8 fg=Hint|Dim
+r11 c8..30 fg=Foreground
+r11 c34..36 bg=Live
+r11 c36..38 bg=Attention
+r11 c38..40 bg=Primary
+r11 c42..96 fg=Hint|Dim
+r12 c2..5 fg=Foreground
+r12 c5..8 fg=Hint|Dim
+r12 c8..30 fg=Foreground
+r12 c30..32 bg=#0a0a0a
+r12 c32..34 bg=#121212
+r12 c34..36 bg=#b4b4b4
+r12 c36..38 bg=#d2d2d2
+r12 c38..40 bg=#dcdcdc
+r12 c42..69 fg=Hint|Dim
+r13 c2..5 fg=Foreground
+r13 c5..9 fg=Hint|Dim
+r13 c9..31 fg=Foreground
+r13 c31..33 bg=#1e1e2e
+r13 c33..35 bg=#181825
+r13 c35..37 bg=#74c7ec
+r13 c37..39 bg=#fab387
+r13 c39..41 bg=#89b4fa
+r13 c43..68 fg=Hint|Dim
+r14 c2..5 fg=Foreground
+r14 c5..9 fg=Hint|Dim
+r14 c9..31 fg=Foreground
+r14 c31..33 bg=#1a1b26
+r14 c33..35 bg=#16161e
+r14 c35..37 bg=#7dcfff
+r14 c37..39 bg=#ff9e64
+r14 c39..41 bg=#7aa2f7
+r14 c43..73 fg=Hint|Dim
+r15 c2..5 fg=Foreground
+r15 c5..9 fg=Hint|Dim
+r15 c9..31 fg=Foreground
+r15 c31..33 bg=#282a36
+r15 c33..35 bg=#21222c
+r15 c35..37 bg=#8be9fd
+r15 c37..39 bg=#ffb86c
+r15 c39..41 bg=#bd93f9
+r15 c43..71 fg=Hint|Dim
+r16 c2..5 fg=Foreground
+r16 c5..9 fg=Hint|Dim
+r16 c9..31 fg=Foreground
+r16 c31..33 bg=#282828
+r16 c33..35 bg=#3c3836
+r16 c35..37 bg=#8ec07c
+r16 c37..39 bg=#fe8019
+r16 c39..41 bg=#83a598
+r16 c43..67 fg=Hint|Dim
+r17 c2..5 fg=Foreground
+r17 c5..9 fg=Hint|Dim
+r17 c9..31 fg=Foreground
+r17 c31..33 bg=#181715
+r17 c33..35 bg=#252320
+r17 c35..37 bg=#5db8a6
+r17 c37..39 bg=#e8a55a
+r17 c39..41 bg=#cc785c
+r17 c43..60 fg=Hint|Dim
+r18 c2..5 fg=Foreground
+r18 c5..9 fg=Hint|Dim
+r18 c9..31 fg=Foreground
+r18 c31..35 bg=#000a00
+r18 c35..37 bg=#009900
+r18 c37..39 bg=#88ff88
+r18 c39..41 bg=#00cc00
+r18 c43..74 fg=Hint|Dim
+r19 c2..5 fg=Foreground
+r19 c5..9 fg=Hint|Dim
+r19 c9..31 fg=Foreground
+r19 c31..33 bg=#fdf6e3
+r19 c33..35 bg=#f0ede7
+r19 c35..37 bg=#299e96
+r19 c37..39 bg=#cb4b16
+r19 c39..41 bg=#268bd2
+r19 c43..116 fg=Hint|Dim
+r20 c2..5 fg=Foreground
+r20 c5..9 fg=Hint|Dim
+r20 c9..31 fg=Foreground
+r20 c31..33 bg=#16121c
+r20 c33..35 bg=#1f1828
+r20 c35..37 bg=#9aece0
+r20 c37..39 bg=#ffd69a
+r20 c39..41 bg=#ff9ecd
+r20 c43..86 fg=Hint|Dim
+r25 c2..7 fg=Primary bold
+r25 c7..14 fg=Muted
+r25 c15..22 fg=Primary bold
+r25 c22..26 fg=Muted
+r25 c27..32 fg=Primary bold
+r25 c32..38 fg=Muted
+r26 c1..119 fg=Border
+
+== dark-256
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..120 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..23 fg=Primary bg=Background|DiffAddedTint bold
+r1 c23..119 fg=Border bg=Background|DiffAddedTint
+r1 c119..120 bg=Background|DiffAddedTint
+r2 c0..120 bg=Background|DiffAddedTint
+r3 c0..120 bg=Background|DiffAddedTint
+r4 c0..2 bg=Background|DiffAddedTint
+r4 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r4 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r4 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r4 c30..32 bg=Background|DiffAddedTint
+r4 c32..34 bg=Surface|Hover|DiffRemovedTint
+r4 c34..36 bg=Live
+r4 c36..38 bg=Attention
+r4 c38..40 bg=Primary
+r4 c40..42 bg=Background|DiffAddedTint
+r4 c42..99 fg=Hint|Dim bg=Background|DiffAddedTint
+r4 c99..120 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r5 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r5 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r5 c34..36 bg=Cyan
+r5 c36..38 bg=Yellow
+r5 c38..40 bg=Blue
+r5 c40..42 bg=Background|DiffAddedTint
+r5 c42..108 fg=Hint|Dim bg=Background|DiffAddedTint
+r5 c108..120 bg=Background|DiffAddedTint
+r6 c0..2 bg=Background|DiffAddedTint
+r6 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r6 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r6 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r6 c30..32 bg=Surface|Hover|DiffRemovedTint
+r6 c32..34 bg=Selected
+r6 c34..36 bg=idx116
+r6 c36..38 bg=Attention
+r6 c38..40 bg=Primary
+r6 c40..42 bg=Background|DiffAddedTint
+r6 c42..107 fg=Hint|Dim bg=Background|DiffAddedTint
+r6 c107..120 bg=Background|DiffAddedTint
+r7 c0..2 bg=Background|DiffAddedTint
+r7 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r7 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r7 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r7 c30..32 bg=Foreground
+r7 c32..34 bg=idx254
+r7 c34..36 bg=idx29
+r7 c36..38 bg=idx94
+r7 c38..40 bg=idx24
+r7 c40..42 bg=Background|DiffAddedTint
+r7 c42..99 fg=Hint|Dim bg=Background|DiffAddedTint
+r7 c99..120 bg=Background|DiffAddedTint
+r8 c0..2 bg=Background|DiffAddedTint
+r8 c2..5 fg=Foreground bg=Selected bold
+r8 c5..8 fg=Live bg=Selected bold
+r8 c8..30 fg=Foreground bg=Selected bold
+r8 c30..32 bg=Background|DiffAddedTint
+r8 c32..34 bg=Surface|Hover|DiffRemovedTint
+r8 c34..36 bg=Live
+r8 c36..38 bg=Attention
+r8 c38..40 bg=Primary
+r8 c40..42 bg=Background|DiffAddedTint
+r8 c42..103 fg=Hint|Dim bg=Selected
+r8 c103..120 bg=Background|DiffAddedTint
+r9 c0..2 bg=Background|DiffAddedTint
+r9 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r9 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r9 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r9 c30..34 bg=Sidebar
+r9 c34..36 bg=Live
+r9 c36..38 bg=Attention
+r9 c38..40 bg=Primary
+r9 c40..42 bg=Background|DiffAddedTint
+r9 c42..101 fg=Hint|Dim bg=Background|DiffAddedTint
+r9 c101..120 bg=Background|DiffAddedTint
+r10 c0..2 bg=Background|DiffAddedTint
+r10 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r10 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r10 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r10 c34..36 bg=Live
+r10 c36..38 bg=Attention
+r10 c38..40 bg=Primary
+r10 c40..42 bg=Background|DiffAddedTint
+r10 c42..100 fg=Hint|Dim bg=Background|DiffAddedTint
+r10 c100..120 bg=Background|DiffAddedTint
+r11 c0..2 bg=Background|DiffAddedTint
+r11 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r11 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r11 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r11 c34..36 bg=idx29
+r11 c36..38 bg=idx94
+r11 c38..40 bg=idx25
+r11 c40..42 bg=Background|DiffAddedTint
+r11 c42..96 fg=Hint|Dim bg=Background|DiffAddedTint
+r11 c96..120 bg=Background|DiffAddedTint
+r12 c0..2 bg=Background|DiffAddedTint
+r12 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r12 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r12 c8..30 fg=Foreground bg=Background|DiffAddedTint
+r12 c30..32 bg=idx232
+r12 c32..34 bg=Sidebar
+r12 c34..36 bg=idx249
+r12 c36..38 bg=idx252
+r12 c38..40 bg=idx253
+r12 c40..42 bg=Background|DiffAddedTint
+r12 c42..69 fg=Hint|Dim bg=Background|DiffAddedTint
+r12 c69..120 bg=Background|DiffAddedTint
+r13 c0..2 bg=Background|DiffAddedTint
+r13 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r13 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r13 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r13 c31..33 bg=Surface|Hover|DiffRemovedTint
+r13 c33..35 bg=Background|DiffAddedTint
+r13 c35..37 bg=idx117
+r13 c37..39 bg=idx216
+r13 c39..41 bg=idx111
+r13 c41..43 bg=Background|DiffAddedTint
+r13 c43..68 fg=Hint|Dim bg=Background|DiffAddedTint
+r13 c68..120 bg=Background|DiffAddedTint
+r14 c0..2 bg=Background|DiffAddedTint
+r14 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r14 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r14 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r14 c31..35 bg=Background|DiffAddedTint
+r14 c35..37 bg=idx117
+r14 c37..39 bg=idx215
+r14 c39..41 bg=idx111
+r14 c41..43 bg=Background|DiffAddedTint
+r14 c43..73 fg=Hint|Dim bg=Background|DiffAddedTint
+r14 c73..120 bg=Background|DiffAddedTint
+r15 c0..2 bg=Background|DiffAddedTint
+r15 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r15 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r15 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r15 c31..33 bg=Selected
+r15 c33..35 bg=Surface|Hover|DiffRemovedTint
+r15 c35..37 bg=idx117
+r15 c37..39 bg=idx215
+r15 c39..41 bg=idx141
+r15 c41..43 bg=Background|DiffAddedTint
+r15 c43..71 fg=Hint|Dim bg=Background|DiffAddedTint
+r15 c71..120 bg=Background|DiffAddedTint
+r16 c0..2 bg=Background|DiffAddedTint
+r16 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r16 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r16 c31..33 bg=Surface|Hover|DiffRemovedTint
+r16 c33..35 bg=idx237
+r16 c35..37 bg=idx108
+r16 c37..39 bg=idx208
+r16 c39..41 bg=idx108
+r16 c41..43 bg=Background|DiffAddedTint
+r16 c43..67 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c67..120 bg=Background|DiffAddedTint
+r17 c0..2 bg=Background|DiffAddedTint
+r17 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r17 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r17 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r17 c31..33 bg=Sidebar
+r17 c33..35 bg=Surface|Hover|DiffRemovedTint
+r17 c35..37 bg=idx73
+r17 c37..39 bg=idx179
+r17 c39..41 bg=idx173
+r17 c41..43 bg=Background|DiffAddedTint
+r17 c43..60 fg=Hint|Dim bg=Background|DiffAddedTint
+r17 c60..120 bg=Background|DiffAddedTint
+r18 c0..2 bg=Background|DiffAddedTint
+r18 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r18 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r18 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r18 c31..35 bg=idx16
+r18 c35..37 bg=idx28
+r18 c37..39 bg=idx120
+r18 c39..41 bg=idx40
+r18 c41..43 bg=Background|DiffAddedTint
+r18 c43..74 fg=Hint|Dim bg=Background|DiffAddedTint
+r18 c74..120 bg=Background|DiffAddedTint
+r19 c0..2 bg=Background|DiffAddedTint
+r19 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r19 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r19 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r19 c31..33 bg=idx230
+r19 c33..35 bg=Foreground
+r19 c35..37 bg=idx36
+r19 c37..39 bg=idx166
+r19 c39..41 bg=idx32
+r19 c41..43 bg=Background|DiffAddedTint
+r19 c43..116 fg=Hint|Dim bg=Background|DiffAddedTint
+r19 c116..120 bg=Background|DiffAddedTint
+r20 c0..2 bg=Background|DiffAddedTint
+r20 c2..5 fg=Foreground bg=Background|DiffAddedTint
+r20 c5..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c9..31 fg=Foreground bg=Background|DiffAddedTint
+r20 c31..33 bg=Sidebar
+r20 c33..35 bg=Background|DiffAddedTint
+r20 c35..37 bg=idx122
+r20 c37..39 bg=idx222
+r20 c39..41 bg=idx218
+r20 c41..43 bg=Background|DiffAddedTint
+r20 c43..86 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c86..120 bg=Background|DiffAddedTint
+r21 c0..120 bg=Background|DiffAddedTint
+r22 c0..120 bg=Background|DiffAddedTint
+r23 c0..120 bg=Background|DiffAddedTint
+r24 c0..120 bg=Background|DiffAddedTint
+r25 c0..2 bg=Background|DiffAddedTint
+r25 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r25 c7..14 fg=Muted bg=Background|DiffAddedTint
+r25 c14..15 bg=Background|DiffAddedTint
+r25 c15..22 fg=Primary bg=Background|DiffAddedTint bold
+r25 c22..26 fg=Muted bg=Background|DiffAddedTint
+r25 c26..27 bg=Background|DiffAddedTint
+r25 c27..32 fg=Primary bg=Background|DiffAddedTint bold
+r25 c32..38 fg=Muted bg=Background|DiffAddedTint
+r25 c38..120 bg=Background|DiffAddedTint
+r26 c0..1 bg=Background|DiffAddedTint
+r26 c1..119 fg=Border bg=Background|DiffAddedTint
+r26 c119..120 bg=Background|DiffAddedTint
+r27 c0..120 bg=Background|DiffAddedTint
+
+== light-256
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold
+r1 c23..119 fg=Border
+r4 c2..5 fg=Foreground
+r4 c5..8 fg=Muted|Hint|Dim
+r4 c8..30 fg=Foreground
+r4 c34..36 bg=Live
+r4 c36..38 bg=Attention
+r4 c38..40 bg=Primary
+r4 c42..99 fg=Muted|Hint|Dim
+r5 c2..5 fg=Foreground
+r5 c5..8 fg=Muted|Hint|Dim
+r5 c8..30 fg=Foreground
+r5 c34..36 bg=Cyan
+r5 c36..38 bg=Yellow
+r5 c38..40 bg=Blue
+r5 c42..108 fg=Muted|Hint|Dim
+r6 c2..5 fg=Foreground
+r6 c5..8 fg=Muted|Hint|Dim
+r6 c8..30 fg=Foreground
+r6 c30..32 bg=Foreground
+r6 c32..34 bg=idx236
+r6 c34..36 bg=idx116
+r6 c36..38 bg=idx221
+r6 c38..40 bg=idx74
+r6 c42..107 fg=Muted|Hint|Dim
+r7 c2..5 fg=Foreground
+r7 c5..8 fg=Muted|Hint|Dim
+r7 c8..30 fg=Foreground
+r7 c30..32 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c32..34 bg=idx254
+r7 c34..36 bg=Live
+r7 c36..38 bg=Attention
+r7 c38..40 bg=idx24
+r7 c42..99 fg=Muted|Hint|Dim
+r8 c2..5 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r8 c5..8 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r8 c8..30 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r8 c30..32 bg=idx234
+r8 c32..34 bg=Foreground
+r8 c34..36 bg=idx80
+r8 c36..38 bg=idx221
+r8 c38..40 bg=idx74
+r8 c42..103 fg=Muted|Hint|Dim bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r9 c2..5 fg=Foreground
+r9 c5..8 fg=Muted|Hint|Dim
+r9 c8..30 fg=Foreground
+r9 c30..34 bg=idx233
+r9 c34..36 bg=idx80
+r9 c36..38 bg=idx221
+r9 c38..40 bg=idx74
+r9 c42..101 fg=Muted|Hint|Dim
+r10 c2..5 fg=Foreground
+r10 c5..8 fg=Muted|Hint|Dim
+r10 c8..30 fg=Foreground
+r10 c34..36 bg=idx80
+r10 c36..38 bg=idx221
+r10 c38..40 bg=idx74
+r10 c42..100 fg=Muted|Hint|Dim
+r11 c2..5 fg=Foreground
+r11 c5..8 fg=Muted|Hint|Dim
+r11 c8..30 fg=Foreground
+r11 c34..36 bg=Live
+r11 c36..38 bg=Attention
+r11 c38..40 bg=Primary
+r11 c42..96 fg=Muted|Hint|Dim
+r12 c2..5 fg=Foreground
+r12 c5..8 fg=Muted|Hint|Dim
+r12 c8..30 fg=Foreground
+r12 c30..32 bg=idx232
+r12 c32..34 bg=idx233
+r12 c34..36 bg=idx249
+r12 c36..38 bg=idx252
+r12 c38..40 bg=idx253
+r12 c42..69 fg=Muted|Hint|Dim
+r13 c2..5 fg=Foreground
+r13 c5..9 fg=Muted|Hint|Dim
+r13 c9..31 fg=Foreground
+r13 c31..33 bg=Foreground
+r13 c33..35 bg=idx234
+r13 c35..37 bg=idx117
+r13 c37..39 bg=idx216
+r13 c39..41 bg=idx111
+r13 c43..68 fg=Muted|Hint|Dim
+r14 c2..5 fg=Foreground
+r14 c5..9 fg=Muted|Hint|Dim
+r14 c9..31 fg=Foreground
+r14 c31..35 bg=idx234
+r14 c35..37 bg=idx117
+r14 c37..39 bg=idx215
+r14 c39..41 bg=idx111
+r14 c43..73 fg=Muted|Hint|Dim
+r15 c2..5 fg=Foreground
+r15 c5..9 fg=Muted|Hint|Dim
+r15 c9..31 fg=Foreground
+r15 c31..33 bg=idx236
+r15 c33..35 bg=Foreground
+r15 c35..37 bg=idx117
+r15 c37..39 bg=idx215
+r15 c39..41 bg=idx141
+r15 c43..71 fg=Muted|Hint|Dim
+r16 c2..5 fg=Foreground
+r16 c5..9 fg=Muted|Hint|Dim
+r16 c9..31 fg=Foreground
+r16 c31..33 bg=Foreground
+r16 c33..35 bg=idx237
+r16 c35..37 bg=idx108
+r16 c37..39 bg=idx208
+r16 c39..41 bg=idx108
+r16 c43..67 fg=Muted|Hint|Dim
+r17 c2..5 fg=Foreground
+r17 c5..9 fg=Muted|Hint|Dim
+r17 c9..31 fg=Foreground
+r17 c31..33 bg=idx233
+r17 c33..35 bg=Foreground
+r17 c35..37 bg=idx73
+r17 c37..39 bg=idx179
+r17 c39..41 bg=idx173
+r17 c43..60 fg=Muted|Hint|Dim
+r18 c2..5 fg=Foreground
+r18 c5..9 fg=Muted|Hint|Dim
+r18 c9..31 fg=Foreground
+r18 c31..35 bg=idx16
+r18 c35..37 bg=idx28
+r18 c37..39 bg=idx120
+r18 c39..41 bg=idx40
+r18 c43..74 fg=Muted|Hint|Dim
+r19 c2..5 fg=Foreground
+r19 c5..9 fg=Muted|Hint|Dim
+r19 c9..31 fg=Foreground
+r19 c31..33 bg=idx230
+r19 c33..35 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r19 c35..37 bg=idx36
+r19 c37..39 bg=idx166
+r19 c39..41 bg=idx32
+r19 c43..116 fg=Muted|Hint|Dim
+r20 c2..5 fg=Foreground
+r20 c5..9 fg=Muted|Hint|Dim
+r20 c9..31 fg=Foreground
+r20 c31..33 bg=idx233
+r20 c33..35 bg=idx234
+r20 c35..37 bg=idx122
+r20 c37..39 bg=idx222
+r20 c39..41 bg=idx218
+r20 c43..86 fg=Muted|Hint|Dim
+r25 c2..7 fg=Primary bold
+r25 c7..14 fg=Muted|Hint|Dim
+r25 c15..22 fg=Primary bold
+r25 c22..26 fg=Muted|Hint|Dim
+r25 c27..32 fg=Primary bold
+r25 c32..38 fg=Muted|Hint|Dim
+r26 c1..119 fg=Border
+
+== ansi-16
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold dim
+r1 c23..119 dim
+r4 c5..8 dim
+r4 c42..99 dim
+r5 c5..8 dim
+r5 c42..108 dim
+r6 c5..8 dim
+r6 c42..107 dim
+r7 c5..8 dim
+r7 c42..99 dim
+r8 c2..5 bold
+r8 c5..8 fg=Live bold
+r8 c8..30 bold
+r8 c42..103 dim
+r9 c5..8 dim
+r9 c42..101 dim
+r10 c5..8 dim
+r10 c42..100 dim
+r11 c5..8 dim
+r11 c42..96 dim
+r12 c5..8 dim
+r12 c42..69 dim
+r13 c5..9 dim
+r13 c43..68 dim
+r14 c5..9 dim
+r14 c43..73 dim
+r15 c5..9 dim
+r15 c43..71 dim
+r16 c5..9 dim
+r16 c43..67 dim
+r17 c5..9 dim
+r17 c43..60 dim
+r18 c5..9 dim
+r18 c43..74 dim
+r19 c5..9 dim
+r19 c43..116 dim
+r20 c5..9 dim
+r20 c43..86 dim
+r25 c2..7 fg=Primary bold
+r25 c7..14 dim
+r25 c15..22 fg=Primary bold
+r25 c22..26 dim
+r25 c27..32 fg=Primary bold
+r25 c32..38 dim
+r26 c1..119 dim
+
+== unknown-ground
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 fg=Primary bold dim
+r1 c23..119 dim
+r4 c5..8 dim
+r4 c42..99 dim
+r5 c5..8 dim
+r5 c42..108 dim
+r6 c5..8 dim
+r6 c42..107 dim
+r7 c5..8 dim
+r7 c42..99 dim
+r8 c2..5 bold
+r8 c5..8 fg=Live bold
+r8 c8..30 bold
+r8 c42..103 dim
+r9 c5..8 dim
+r9 c42..101 dim
+r10 c5..8 dim
+r10 c42..100 dim
+r11 c5..8 dim
+r11 c42..96 dim
+r12 c5..8 dim
+r12 c42..69 dim
+r13 c5..9 dim
+r13 c43..68 dim
+r14 c5..9 dim
+r14 c43..73 dim
+r15 c5..9 dim
+r15 c43..71 dim
+r16 c5..9 dim
+r16 c43..67 dim
+r17 c5..9 dim
+r17 c43..60 dim
+r18 c5..9 dim
+r18 c43..74 dim
+r19 c5..9 dim
+r19 c43..116 dim
+r20 c5..9 dim
+r20 c43..86 dim
+r25 c2..7 fg=Primary bold
+r25 c7..14 dim
+r25 c15..22 fg=Primary bold
+r25 c22..26 dim
+r25 c27..32 fg=Primary bold
+r25 c32..38 dim
+r26 c1..119 dim
+
+== no-color
+
+  theme · live preview ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue — the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper — the desktop client's light mode
+   ▸ 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light — Light, calming palette on warm ivory — easy on the eyes
+     17. Uwu                               Soft kawaii night — sakura, mint, and peach
+
+
+
+
+   ↑/↓ preview  Enter save  Esc revert
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..23 bold dim
+r1 c23..119 dim
+r4 c5..8 dim
+r4 c42..99 dim
+r5 c5..8 dim
+r5 c42..108 dim
+r6 c5..8 dim
+r6 c42..107 dim
+r7 c5..8 dim
+r7 c42..99 dim
+r8 c2..30 bold
+r8 c42..103 dim
+r9 c5..8 dim
+r9 c42..101 dim
+r10 c5..8 dim
+r10 c42..100 dim
+r11 c5..8 dim
+r11 c42..96 dim
+r12 c5..8 dim
+r12 c42..69 dim
+r13 c5..9 dim
+r13 c43..68 dim
+r14 c5..9 dim
+r14 c43..73 dim
+r15 c5..9 dim
+r15 c43..71 dim
+r16 c5..9 dim
+r16 c43..67 dim
+r17 c5..9 dim
+r17 c43..60 dim
+r18 c5..9 dim
+r18 c43..74 dim
+r19 c5..9 dim
+r19 c43..116 dim
+r20 c5..9 dim
+r20 c43..86 dim
+r25 c2..7 bold
+r25 c7..14 dim
+r25 c15..22 bold
+r25 c22..26 dim
+r25 c27..32 bold
+r25 c32..38 dim
+r26 c1..119 dim
+
+== ascii
+
+  theme . live preview ------------------------------------------------------------------------------------------------
+
+
+     1. System                            Follow terminal background (COLORFGBG / macOS appearance)
+     2. Terminal                          Inherit terminal colors fully (transparent surfaces, ANSI accents)
+     3. Shoreline                         Warm charcoal, one restrained blue - the desktop client's palette
+     4. Shoreline Light                   Shoreline on warm paper - the desktop client's light mode
+   > 5. Underwater                        The painted ocean field: ombre water, ambient life, the whale
+     6. Underwater Retro                  Flat phosphor-teal ocean: the legacy deepsea look, no ombre
+     7. Blue Stage                        Stage black, action blue, and one Signal Gold human beacon
+     8. Blue Stage Light                  Paper, cobalt action, and one Signal Gold human beacon
+     9. Grayscale                         Color-minimal high contrast
+     10. Catppuccin Mocha                  Soft pastels on warm dark
+     11. Tokyo Night                       Deep blue/violet night palette
+     12. Dracula                           Classic high-contrast purple
+     13. Gruvbox Dark                      Vintage warm earth tones
+     14. Claude                            Warm navy & coral
+     15. Matrix                            The Matrix films inspired theme
+     16. Solarized Light                   Solarized light - Light, calming palette on warm ivory - easy on the eyes
+     17. Uwu                               Soft kawaii night - sakura, mint, and peach
+
+
+
+
+   Up/Dn preview  Enter save  Esc revert
+ ----------------------------------------------------------------------------------------------------------------------
+
+---
+r1 c1..23 bold dim
+r1 c23..119 dim
+r4 c5..8 dim
+r4 c42..99 dim
+r5 c5..8 dim
+r5 c42..108 dim
+r6 c5..8 dim
+r6 c42..107 dim
+r7 c5..8 dim
+r7 c42..99 dim
+r8 c2..30 bold
+r8 c42..103 dim
+r9 c5..8 dim
+r9 c42..101 dim
+r10 c5..8 dim
+r10 c42..100 dim
+r11 c5..8 dim
+r11 c42..96 dim
+r12 c5..8 dim
+r12 c42..69 dim
+r13 c5..9 dim
+r13 c43..68 dim
+r14 c5..9 dim
+r14 c43..73 dim
+r15 c5..9 dim
+r15 c43..71 dim
+r16 c5..9 dim
+r16 c43..67 dim
+r17 c5..9 dim
+r17 c43..60 dim
+r18 c5..9 dim
+r18 c43..74 dim
+r19 c5..9 dim
+r19 c43..116 dim
+r20 c5..9 dim
+r20 c43..86 dim
+r25 c2..9 bold
+r25 c9..16 dim
+r25 c17..24 bold
+r25 c24..28 dim
+r25 c29..34 bold
+r25 c34..40 dim
+r26 c1..119 dim

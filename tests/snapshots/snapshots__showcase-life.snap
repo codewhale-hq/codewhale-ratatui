@@ -1,0 +1,1383 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 fg=Foreground bg=Hover bold
+r0 c36..112 fg=Foreground bg=Hover
+r1 c0..112 fg=Foreground bg=#102a44
+r2 c0..58 fg=Primary bg=#102843
+r2 c58..112 fg=Foreground bg=#102843
+r3 c0..112 fg=Foreground bg=#102842
+r4 c0..112 fg=Foreground bg=#0e2842
+r5 c0..112 fg=Foreground bg=#0e2741
+r6 c0..112 fg=Foreground bg=#0e2740
+r7 c0..70 fg=Foreground bg=#0e273f
+r7 c70..71 fg=#faf8f5 bg=#0e273f
+r7 c71..112 fg=Foreground bg=#0e273f
+r8 c0..50 fg=Foreground bg=#0e263e
+r8 c50..51 fg=#338dd7 bg=#0e263e
+r8 c51..53 fg=#338cd7 bg=#0e263e
+r8 c53..54 fg=#338bd7 bg=#0e263e
+r8 c54..56 fg=#328ad7 bg=#0e263e
+r8 c56..57 fg=#3289d7 bg=#0e263e
+r8 c57..59 fg=#3288d7 bg=#0e263e
+r8 c59..64 fg=Foreground bg=#0e263e
+r8 c64..70 fg=#d2a34e bg=#0e263e
+r8 c70..71 fg=#faf8f5 bg=#0e263e
+r8 c71..112 fg=Foreground bg=#0e263e
+r9 c0..48 fg=Foreground bg=#0e253d
+r9 c48..50 fg=#338dd7 bg=#0e253d
+r9 c50..51 fg=#338cd7 bg=#0e253d
+r9 c51..52 fg=#338bd7 bg=#0e253d
+r9 c52..53 fg=#328bd7 bg=#0e253d
+r9 c53..54 fg=#328ad7 bg=#0e253d
+r9 c54..56 fg=#3289d7 bg=#0e253d
+r9 c56..58 fg=#3288d7 bg=#0e253d
+r9 c58..59 fg=#3187d7 bg=#0e253d
+r9 c59..64 fg=Foreground bg=#0e253d
+r9 c64..70 fg=#d2a34e bg=#0e253d
+r9 c70..71 fg=#faf8f5 bg=#0e253d
+r9 c71..112 fg=Foreground bg=#0e253d
+r10 c0..46 fg=Foreground bg=#0d253c
+r10 c46..48 fg=#338dd7 bg=#0d253c
+r10 c48..49 fg=#338cd7 bg=#0d253c
+r10 c49..50 fg=#338bd7 bg=#0d253c
+r10 c50..51 fg=#328bd7 bg=#0d253c
+r10 c51..53 fg=#328ad7 bg=#0d253c
+r10 c53..54 fg=#3289d7 bg=#0d253c
+r10 c54..56 fg=#3288d7 bg=#0d253c
+r10 c56..57 fg=#3187d7 bg=#0d253c
+r10 c57..58 fg=#3186d7 bg=#0d253c
+r10 c58..59 fg=#3185d7 bg=#0d253c
+r10 c59..60 fg=#3184d7 bg=#0d253c
+r10 c60..61 fg=#3084d7 bg=#0d253c
+r10 c61..62 fg=#3083d7 bg=#0d253c
+r10 c62..112 fg=Foreground bg=#0d253c
+r11 c0..45 fg=Foreground bg=#0d243b
+r11 c45..47 fg=#338cd7 bg=#0d243b
+r11 c47..48 fg=#338bd7 bg=#0d243b
+r11 c48..49 fg=#328bd7 bg=#0d243b
+r11 c49..50 fg=#328ad7 bg=#0d243b
+r11 c50..56 fg=Foreground bg=#0d243b
+r11 c56..58 fg=#3185d7 bg=#0d243b
+r11 c58..59 fg=#3184d7 bg=#0d243b
+r11 c59..60 fg=#3084d7 bg=#0d243b
+r11 c60..61 fg=#3083d7 bg=#0d243b
+r11 c61..112 fg=Foreground bg=#0d243b
+r12 c0..45 fg=Foreground bg=#0c233a
+r12 c45..46 fg=#338bd7 bg=#0c233a
+r12 c46..47 fg=#328bd7 bg=#0c233a
+r12 c47..49 fg=#328ad7 bg=#0c233a
+r12 c49..60 fg=Foreground bg=#0c233a
+r12 c60..61 fg=#3080d6 bg=#0c233a
+r12 c61..62 fg=#2f80d6 bg=#0c233a
+r12 c62..64 fg=#2f7fd6 bg=#0c233a
+r12 c64..65 fg=#2f7ed6 bg=#0c233a
+r12 c65..66 fg=#2f7dd6 bg=#0c233a
+r12 c66..67 fg=#2e7cd6 bg=#0c233a
+r12 c67..112 fg=Foreground bg=#0c233a
+r13 c0..45 fg=Foreground bg=#0c2339
+r13 c45..46 fg=#328ad7 bg=#0c2339
+r13 c46..48 fg=#3289d7 bg=#0c2339
+r13 c48..49 fg=#3288d7 bg=#0c2339
+r13 c49..55 fg=Foreground bg=#0c2339
+r13 c55..56 fg=#3083d7 bg=#0c2339
+r13 c56..57 fg=#3082d7 bg=#0c2339
+r13 c57..59 fg=#3081d6 bg=#0c2339
+r13 c59..60 fg=#3080d6 bg=#0c2339
+r13 c60..61 fg=#2f80d6 bg=#0c2339
+r13 c61..62 fg=#2f7fd6 bg=#0c2339
+r13 c62..63 fg=#2f7ed6 bg=#0c2339
+r13 c63..65 fg=#2f7dd6 bg=#0c2339
+r13 c65..66 fg=#2e7cd6 bg=#0c2339
+r13 c66..68 fg=#2e7bd6 bg=#0c2339
+r13 c68..112 fg=Foreground bg=#0c2339
+r14 c0..45 fg=Foreground bg=#0d2238
+r14 c45..46 fg=#3289d7 bg=#0d2238
+r14 c46..47 fg=#3288d7 bg=#0d2238
+r14 c47..49 fg=#3187d7 bg=#0d2238
+r14 c49..50 fg=#3186d7 bg=#0d2238
+r14 c50..51 fg=#3185d7 bg=#0d2238
+r14 c51..52 fg=#3184d7 bg=#0d2238
+r14 c52..53 fg=#3084d7 bg=#0d2238
+r14 c53..54 fg=#3083d7 bg=#0d2238
+r14 c54..55 fg=#3082d7 bg=#0d2238
+r14 c55..56 fg=#3082d6 bg=#0d2238
+r14 c56..57 fg=#3081d6 bg=#0d2238
+r14 c57..58 fg=#3080d6 bg=#0d2238
+r14 c58..59 fg=#2f80d6 bg=#0d2238
+r14 c59..60 fg=#2f7fd6 bg=#0d2238
+r14 c60..61 fg=#2f7ed6 bg=#0d2238
+r14 c61..64 fg=#2f7dd6 bg=#0d2238
+r14 c64..65 fg=#2e7cd6 bg=#0d2238
+r14 c65..67 fg=#2e7ad6 bg=#0d2238
+r14 c67..112 fg=Foreground bg=#0d2238
+r15 c0..45 fg=Foreground bg=#0d2237
+r15 c45..46 fg=#3288d7 bg=#0d2237
+r15 c46..47 fg=#3187d7 bg=#0d2237
+r15 c47..48 fg=#3186d7 bg=#0d2237
+r15 c48..49 fg=#3185d7 bg=#0d2237
+r15 c49..50 fg=#3184d7 bg=#0d2237
+r15 c50..51 fg=#3084d7 bg=#0d2237
+r15 c51..52 fg=#3083d7 bg=#0d2237
+r15 c52..53 fg=#3082d7 bg=#0d2237
+r15 c53..54 fg=#3082d6 bg=#0d2237
+r15 c54..55 fg=#3081d6 bg=#0d2237
+r15 c55..56 fg=#3080d6 bg=#0d2237
+r15 c56..57 fg=#2f80d6 bg=#0d2237
+r15 c57..58 fg=#2f7fd6 bg=#0d2237
+r15 c58..59 fg=#2f7ed6 bg=#0d2237
+r15 c59..62 fg=#2f7dd6 bg=#0d2237
+r15 c62..64 fg=Foreground bg=#0d2237
+r15 c64..66 fg=#2e79d6 bg=#0d2237
+r15 c66..112 fg=Foreground bg=#0d2237
+r16 c0..46 fg=Foreground bg=#0c2136
+r16 c46..47 fg=#3185d7 bg=#0c2136
+r16 c47..48 fg=#3184d7 bg=#0c2136
+r16 c48..49 fg=#3084d7 bg=#0c2136
+r16 c49..50 fg=#3083d7 bg=#0c2136
+r16 c50..51 fg=#3082d7 bg=#0c2136
+r16 c51..52 fg=#3082d6 bg=#0c2136
+r16 c52..53 fg=#3081d6 bg=#0c2136
+r16 c53..54 fg=#3080d6 bg=#0c2136
+r16 c54..55 fg=#2f80d6 bg=#0c2136
+r16 c55..56 fg=#2f7fd6 bg=#0c2136
+r16 c56..57 fg=#2f7ed6 bg=#0c2136
+r16 c57..60 fg=#2f7dd6 bg=#0c2136
+r16 c60..64 fg=Foreground bg=#0c2136
+r16 c64..65 fg=#2d79d6 bg=#0c2136
+r16 c65..112 fg=Foreground bg=#0c2136
+r17 c0..48 fg=Foreground bg=#0c2035
+r17 c48..49 fg=#3083d7 bg=#0c2035
+r17 c49..50 fg=#3082d7 bg=#0c2035
+r17 c50..52 fg=#3081d6 bg=#0c2035
+r17 c52..53 fg=#2f80d6 bg=#0c2035
+r17 c53..54 fg=#2f7fd6 bg=#0c2035
+r17 c54..55 fg=#2f7ed6 bg=#0c2035
+r17 c55..57 fg=#2f7dd6 bg=#0c2035
+r17 c57..58 fg=#2e7cd6 bg=#0c2035
+r17 c58..60 fg=Foreground bg=#0c2035
+r17 c60..61 fg=#2e7ad6 bg=#0c2035
+r17 c61..63 fg=#2d79d6 bg=#0c2035
+r17 c63..112 fg=Foreground bg=#0c2035
+r18 c0..50 fg=Foreground bg=#0c2034
+r18 c50..51 fg=#2f80d6 bg=#0c2034
+r18 c51..53 fg=#2f7fd6 bg=#0c2034
+r18 c53..54 fg=#2f7ed6 bg=#0c2034
+r18 c54..55 fg=#2f7dd6 bg=#0c2034
+r18 c55..57 fg=#2e7cd6 bg=#0c2034
+r18 c57..58 fg=#2e7bd6 bg=#0c2034
+r18 c58..60 fg=#2e7ad6 bg=#0c2034
+r18 c60..61 fg=#2e79d6 bg=#0c2034
+r18 c61..112 fg=Foreground bg=#0c2034
+r19 c0..112 fg=Foreground bg=#0b1f33
+r20 c0..112 fg=Foreground bg=#0b1f32
+r21 c0..112 fg=Foreground bg=#0b1e31
+r22 c0..51 fg=Foreground bg=#0b1d30
+r22 c51..52 fg=Live bg=#0b1d30
+r22 c52..112 fg=Foreground bg=#0b1d30
+r23 c0..112 fg=Foreground bg=#0b1d2f
+r24 c0..112 fg=Foreground bg=#0a1c2e
+r25 c0..112 fg=Foreground bg=#0a1c2e
+r26 c0..112 fg=Foreground bg=#091b2d
+r27 c0..112 fg=Foreground bg=#091a2c
+r28 c0..112 fg=Foreground bg=#091a2b
+r29 c0..93 fg=Foreground bg=#09192a
+r29 c93..98 fg=Hint|Dim bg=#09192a
+r29 c98..112 fg=Foreground bg=#09192a
+r30 c0..93 fg=Foreground bg=#091829
+r30 c93..98 fg=Hint|Dim bg=#091829
+r30 c98..112 fg=Foreground bg=#091829
+r31 c0..93 fg=Foreground bg=#091828
+r31 c93..98 fg=Hint|Dim bg=#091828
+r31 c98..112 fg=Foreground bg=#091828
+r32 c0..1 fg=Foreground bg=#091727
+r32 c1..2 fg=Hint|Dim bg=#091727
+r32 c2..112 fg=Foreground bg=#091727
+r33 c0..92 fg=Foreground bg=#081726
+r33 c92..93 fg=Hint|Dim bg=#081726
+r33 c93..112 fg=Foreground bg=#081726
+r34 c0..63 fg=Foreground bg=#071725
+r34 c63..67 fg=Hint|Dim bg=#071725
+r34 c67..70 fg=Foreground bg=#071725
+r34 c70..74 fg=Hint|Dim bg=#071725
+r34 c74..76 fg=Foreground bg=#071725
+r34 c76..80 fg=Hint|Dim bg=#071725
+r34 c80..112 fg=Foreground bg=#071725
+r35 c0..16 fg=Foreground bg=#071724
+r35 c16..17 fg=Hint|Dim bg=#071724
+r35 c17..65 fg=Foreground bg=#071724
+r35 c65..69 fg=Hint|Dim bg=#071724
+r35 c69..80 fg=Foreground bg=#071724
+r35 c80..84 fg=Primary bg=#071724
+r35 c84..112 fg=Foreground bg=#071724
+r36 c0..57 fg=Muted bg=#071523
+r36 c57..69 fg=Foreground bg=#071523
+r36 c69..77 fg=Hint|Dim bg=#071523
+r36 c77..78 fg=Foreground bg=#071523
+r36 c78..79 fg=Hint|Dim bg=#071523
+r36 c79..112 fg=Foreground bg=#071523
+r37 c0..44 fg=Muted bg=#071522
+r37 c44..112 fg=Foreground bg=#071522
+
+== dark-graphite
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 fg=Foreground bg=Hover bold
+r0 c36..112 fg=Foreground bg=Hover
+r1 c0..112 fg=Foreground bg=#102a44
+r2 c0..58 fg=Primary bg=#102843
+r2 c58..112 fg=Foreground bg=#102843
+r3 c0..112 fg=Foreground bg=#102842
+r4 c0..112 fg=Foreground bg=#0e2842
+r5 c0..112 fg=Foreground bg=#0e2741
+r6 c0..112 fg=Foreground bg=#0e2740
+r7 c0..70 fg=Foreground bg=#0e273f
+r7 c70..71 fg=#faf8f5 bg=#0e273f
+r7 c71..112 fg=Foreground bg=#0e273f
+r8 c0..50 fg=Foreground bg=#0e263e
+r8 c50..51 fg=#338dd7 bg=#0e263e
+r8 c51..53 fg=#338cd7 bg=#0e263e
+r8 c53..54 fg=#338bd7 bg=#0e263e
+r8 c54..56 fg=#328ad7 bg=#0e263e
+r8 c56..57 fg=#3289d7 bg=#0e263e
+r8 c57..59 fg=#3288d7 bg=#0e263e
+r8 c59..64 fg=Foreground bg=#0e263e
+r8 c64..70 fg=#d2a34e bg=#0e263e
+r8 c70..71 fg=#faf8f5 bg=#0e263e
+r8 c71..112 fg=Foreground bg=#0e263e
+r9 c0..48 fg=Foreground bg=#0e253d
+r9 c48..50 fg=#338dd7 bg=#0e253d
+r9 c50..51 fg=#338cd7 bg=#0e253d
+r9 c51..52 fg=#338bd7 bg=#0e253d
+r9 c52..53 fg=#328bd7 bg=#0e253d
+r9 c53..54 fg=#328ad7 bg=#0e253d
+r9 c54..56 fg=#3289d7 bg=#0e253d
+r9 c56..58 fg=#3288d7 bg=#0e253d
+r9 c58..59 fg=#3187d7 bg=#0e253d
+r9 c59..64 fg=Foreground bg=#0e253d
+r9 c64..70 fg=#d2a34e bg=#0e253d
+r9 c70..71 fg=#faf8f5 bg=#0e253d
+r9 c71..112 fg=Foreground bg=#0e253d
+r10 c0..46 fg=Foreground bg=#0d253c
+r10 c46..48 fg=#338dd7 bg=#0d253c
+r10 c48..49 fg=#338cd7 bg=#0d253c
+r10 c49..50 fg=#338bd7 bg=#0d253c
+r10 c50..51 fg=#328bd7 bg=#0d253c
+r10 c51..53 fg=#328ad7 bg=#0d253c
+r10 c53..54 fg=#3289d7 bg=#0d253c
+r10 c54..56 fg=#3288d7 bg=#0d253c
+r10 c56..57 fg=#3187d7 bg=#0d253c
+r10 c57..58 fg=#3186d7 bg=#0d253c
+r10 c58..59 fg=#3185d7 bg=#0d253c
+r10 c59..60 fg=#3184d7 bg=#0d253c
+r10 c60..61 fg=#3084d7 bg=#0d253c
+r10 c61..62 fg=#3083d7 bg=#0d253c
+r10 c62..112 fg=Foreground bg=#0d253c
+r11 c0..45 fg=Foreground bg=#0d243b
+r11 c45..47 fg=#338cd7 bg=#0d243b
+r11 c47..48 fg=#338bd7 bg=#0d243b
+r11 c48..49 fg=#328bd7 bg=#0d243b
+r11 c49..50 fg=#328ad7 bg=#0d243b
+r11 c50..56 fg=Foreground bg=#0d243b
+r11 c56..58 fg=#3185d7 bg=#0d243b
+r11 c58..59 fg=#3184d7 bg=#0d243b
+r11 c59..60 fg=#3084d7 bg=#0d243b
+r11 c60..61 fg=#3083d7 bg=#0d243b
+r11 c61..112 fg=Foreground bg=#0d243b
+r12 c0..45 fg=Foreground bg=#0c233a
+r12 c45..46 fg=#338bd7 bg=#0c233a
+r12 c46..47 fg=#328bd7 bg=#0c233a
+r12 c47..49 fg=#328ad7 bg=#0c233a
+r12 c49..60 fg=Foreground bg=#0c233a
+r12 c60..61 fg=#3080d6 bg=#0c233a
+r12 c61..62 fg=#2f80d6 bg=#0c233a
+r12 c62..64 fg=#2f7fd6 bg=#0c233a
+r12 c64..65 fg=#2f7ed6 bg=#0c233a
+r12 c65..66 fg=#2f7dd6 bg=#0c233a
+r12 c66..67 fg=#2e7cd6 bg=#0c233a
+r12 c67..112 fg=Foreground bg=#0c233a
+r13 c0..45 fg=Foreground bg=#0c2339
+r13 c45..46 fg=#328ad7 bg=#0c2339
+r13 c46..48 fg=#3289d7 bg=#0c2339
+r13 c48..49 fg=#3288d7 bg=#0c2339
+r13 c49..55 fg=Foreground bg=#0c2339
+r13 c55..56 fg=#3083d7 bg=#0c2339
+r13 c56..57 fg=#3082d7 bg=#0c2339
+r13 c57..59 fg=#3081d6 bg=#0c2339
+r13 c59..60 fg=#3080d6 bg=#0c2339
+r13 c60..61 fg=#2f80d6 bg=#0c2339
+r13 c61..62 fg=#2f7fd6 bg=#0c2339
+r13 c62..63 fg=#2f7ed6 bg=#0c2339
+r13 c63..65 fg=#2f7dd6 bg=#0c2339
+r13 c65..66 fg=#2e7cd6 bg=#0c2339
+r13 c66..68 fg=#2e7bd6 bg=#0c2339
+r13 c68..112 fg=Foreground bg=#0c2339
+r14 c0..45 fg=Foreground bg=#0d2238
+r14 c45..46 fg=#3289d7 bg=#0d2238
+r14 c46..47 fg=#3288d7 bg=#0d2238
+r14 c47..49 fg=#3187d7 bg=#0d2238
+r14 c49..50 fg=#3186d7 bg=#0d2238
+r14 c50..51 fg=#3185d7 bg=#0d2238
+r14 c51..52 fg=#3184d7 bg=#0d2238
+r14 c52..53 fg=#3084d7 bg=#0d2238
+r14 c53..54 fg=#3083d7 bg=#0d2238
+r14 c54..55 fg=#3082d7 bg=#0d2238
+r14 c55..56 fg=#3082d6 bg=#0d2238
+r14 c56..57 fg=#3081d6 bg=#0d2238
+r14 c57..58 fg=#3080d6 bg=#0d2238
+r14 c58..59 fg=#2f80d6 bg=#0d2238
+r14 c59..60 fg=#2f7fd6 bg=#0d2238
+r14 c60..61 fg=#2f7ed6 bg=#0d2238
+r14 c61..64 fg=#2f7dd6 bg=#0d2238
+r14 c64..65 fg=#2e7cd6 bg=#0d2238
+r14 c65..67 fg=#2e7ad6 bg=#0d2238
+r14 c67..112 fg=Foreground bg=#0d2238
+r15 c0..45 fg=Foreground bg=#0d2237
+r15 c45..46 fg=#3288d7 bg=#0d2237
+r15 c46..47 fg=#3187d7 bg=#0d2237
+r15 c47..48 fg=#3186d7 bg=#0d2237
+r15 c48..49 fg=#3185d7 bg=#0d2237
+r15 c49..50 fg=#3184d7 bg=#0d2237
+r15 c50..51 fg=#3084d7 bg=#0d2237
+r15 c51..52 fg=#3083d7 bg=#0d2237
+r15 c52..53 fg=#3082d7 bg=#0d2237
+r15 c53..54 fg=#3082d6 bg=#0d2237
+r15 c54..55 fg=#3081d6 bg=#0d2237
+r15 c55..56 fg=#3080d6 bg=#0d2237
+r15 c56..57 fg=#2f80d6 bg=#0d2237
+r15 c57..58 fg=#2f7fd6 bg=#0d2237
+r15 c58..59 fg=#2f7ed6 bg=#0d2237
+r15 c59..62 fg=#2f7dd6 bg=#0d2237
+r15 c62..64 fg=Foreground bg=#0d2237
+r15 c64..66 fg=#2e79d6 bg=#0d2237
+r15 c66..112 fg=Foreground bg=#0d2237
+r16 c0..46 fg=Foreground bg=#0c2136
+r16 c46..47 fg=#3185d7 bg=#0c2136
+r16 c47..48 fg=#3184d7 bg=#0c2136
+r16 c48..49 fg=#3084d7 bg=#0c2136
+r16 c49..50 fg=#3083d7 bg=#0c2136
+r16 c50..51 fg=#3082d7 bg=#0c2136
+r16 c51..52 fg=#3082d6 bg=#0c2136
+r16 c52..53 fg=#3081d6 bg=#0c2136
+r16 c53..54 fg=#3080d6 bg=#0c2136
+r16 c54..55 fg=#2f80d6 bg=#0c2136
+r16 c55..56 fg=#2f7fd6 bg=#0c2136
+r16 c56..57 fg=#2f7ed6 bg=#0c2136
+r16 c57..60 fg=#2f7dd6 bg=#0c2136
+r16 c60..64 fg=Foreground bg=#0c2136
+r16 c64..65 fg=#2d79d6 bg=#0c2136
+r16 c65..112 fg=Foreground bg=#0c2136
+r17 c0..48 fg=Foreground bg=#0c2035
+r17 c48..49 fg=#3083d7 bg=#0c2035
+r17 c49..50 fg=#3082d7 bg=#0c2035
+r17 c50..52 fg=#3081d6 bg=#0c2035
+r17 c52..53 fg=#2f80d6 bg=#0c2035
+r17 c53..54 fg=#2f7fd6 bg=#0c2035
+r17 c54..55 fg=#2f7ed6 bg=#0c2035
+r17 c55..57 fg=#2f7dd6 bg=#0c2035
+r17 c57..58 fg=#2e7cd6 bg=#0c2035
+r17 c58..60 fg=Foreground bg=#0c2035
+r17 c60..61 fg=#2e7ad6 bg=#0c2035
+r17 c61..63 fg=#2d79d6 bg=#0c2035
+r17 c63..112 fg=Foreground bg=#0c2035
+r18 c0..50 fg=Foreground bg=#0c2034
+r18 c50..51 fg=#2f80d6 bg=#0c2034
+r18 c51..53 fg=#2f7fd6 bg=#0c2034
+r18 c53..54 fg=#2f7ed6 bg=#0c2034
+r18 c54..55 fg=#2f7dd6 bg=#0c2034
+r18 c55..57 fg=#2e7cd6 bg=#0c2034
+r18 c57..58 fg=#2e7bd6 bg=#0c2034
+r18 c58..60 fg=#2e7ad6 bg=#0c2034
+r18 c60..61 fg=#2e79d6 bg=#0c2034
+r18 c61..112 fg=Foreground bg=#0c2034
+r19 c0..112 fg=Foreground bg=#0b1f33
+r20 c0..112 fg=Foreground bg=#0b1f32
+r21 c0..112 fg=Foreground bg=#0b1e31
+r22 c0..51 fg=Foreground bg=#0b1d30
+r22 c51..52 fg=Live bg=#0b1d30
+r22 c52..112 fg=Foreground bg=#0b1d30
+r23 c0..112 fg=Foreground bg=#0b1d2f
+r24 c0..112 fg=Foreground bg=#0a1c2e
+r25 c0..112 fg=Foreground bg=#0a1c2e
+r26 c0..112 fg=Foreground bg=#091b2d
+r27 c0..112 fg=Foreground bg=#091a2c
+r28 c0..112 fg=Foreground bg=#091a2b
+r29 c0..93 fg=Foreground bg=#09192a
+r29 c93..98 fg=Hint|Dim bg=#09192a
+r29 c98..112 fg=Foreground bg=#09192a
+r30 c0..93 fg=Foreground bg=#091829
+r30 c93..98 fg=Hint|Dim bg=#091829
+r30 c98..112 fg=Foreground bg=#091829
+r31 c0..93 fg=Foreground bg=#091828
+r31 c93..98 fg=Hint|Dim bg=#091828
+r31 c98..112 fg=Foreground bg=#091828
+r32 c0..1 fg=Foreground bg=#091727
+r32 c1..2 fg=Hint|Dim bg=#091727
+r32 c2..112 fg=Foreground bg=#091727
+r33 c0..92 fg=Foreground bg=#081726
+r33 c92..93 fg=Hint|Dim bg=#081726
+r33 c93..112 fg=Foreground bg=#081726
+r34 c0..63 fg=Foreground bg=#071725
+r34 c63..67 fg=Hint|Dim bg=#071725
+r34 c67..70 fg=Foreground bg=#071725
+r34 c70..74 fg=Hint|Dim bg=#071725
+r34 c74..76 fg=Foreground bg=#071725
+r34 c76..80 fg=Hint|Dim bg=#071725
+r34 c80..112 fg=Foreground bg=#071725
+r35 c0..16 fg=Foreground bg=#071724
+r35 c16..17 fg=Hint|Dim bg=#071724
+r35 c17..65 fg=Foreground bg=#071724
+r35 c65..69 fg=Hint|Dim bg=#071724
+r35 c69..80 fg=Foreground bg=#071724
+r35 c80..84 fg=Primary bg=#071724
+r35 c84..112 fg=Foreground bg=#071724
+r36 c0..57 fg=Muted bg=#071523
+r36 c57..69 fg=Foreground bg=#071523
+r36 c69..77 fg=Hint|Dim bg=#071523
+r36 c77..78 fg=Foreground bg=#071523
+r36 c78..79 fg=Hint|Dim bg=#071523
+r36 c79..112 fg=Foreground bg=#071523
+r37 c0..44 fg=Muted bg=#071522
+r37 c44..112 fg=Foreground bg=#071522
+
+== light-truecolor
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 fg=Foreground bold
+r0 c36..112 fg=Foreground
+r1 c0..112 fg=Foreground
+r2 c0..58 fg=Primary
+r2 c58..112 fg=Foreground
+r3 c0..112 fg=Foreground
+r4 c0..112 fg=Foreground
+r5 c0..112 fg=Foreground
+r6 c0..112 fg=Foreground
+r7 c0..70 fg=Foreground
+r7 c70..71 fg=#202123
+r7 c71..112 fg=Foreground
+r8 c0..50 fg=Foreground
+r8 c50..51 fg=#1a82d2
+r8 c51..52 fg=#1a80d2
+r8 c52..53 fg=#1a7fd1
+r8 c53..54 fg=#197dd1
+r8 c54..55 fg=#197cd0
+r8 c55..56 fg=#197bd0
+r8 c56..57 fg=#1879cf
+r8 c57..58 fg=#1878cf
+r8 c58..59 fg=#1777ce
+r8 c59..64 fg=Foreground
+r8 c64..70 fg=#d2a34e
+r8 c70..71 fg=#202123
+r8 c71..112 fg=Foreground
+r9 c0..48 fg=Foreground
+r9 c48..49 fg=#1a82d2
+r9 c49..50 fg=#1a81d2
+r9 c50..51 fg=#1a7fd2
+r9 c51..52 fg=#197ed1
+r9 c52..53 fg=#197dd1
+r9 c53..54 fg=#197bd0
+r9 c54..55 fg=#187acf
+r9 c55..56 fg=#1879cf
+r9 c56..57 fg=#1878ce
+r9 c57..58 fg=#1777ce
+r9 c58..59 fg=#1775cd
+r9 c59..64 fg=Foreground
+r9 c64..70 fg=#d2a34e
+r9 c70..71 fg=#202123
+r9 c71..112 fg=Foreground
+r10 c0..46 fg=Foreground
+r10 c46..48 fg=#1a81d2
+r10 c48..49 fg=#1a7fd2
+r10 c49..50 fg=#197ed1
+r10 c50..51 fg=#197dd1
+r10 c51..52 fg=#197cd0
+r10 c52..53 fg=#197bd0
+r10 c53..54 fg=#187acf
+r10 c54..55 fg=#1878cf
+r10 c55..56 fg=#1776ce
+r10 c56..57 fg=#1774cd
+r10 c57..58 fg=#1773cd
+r10 c58..59 fg=#1672cc
+r10 c59..60 fg=#1670cb
+r10 c60..61 fg=#156fcb
+r10 c61..62 fg=#156eca
+r10 c62..112 fg=Foreground
+r11 c0..45 fg=Foreground
+r11 c45..46 fg=#1a80d2
+r11 c46..47 fg=#1a7fd2
+r11 c47..48 fg=#197ed1
+r11 c48..49 fg=#197dd1
+r11 c49..50 fg=#197cd0
+r11 c50..56 fg=Foreground
+r11 c56..58 fg=#1672cc
+r11 c58..59 fg=#1670cb
+r11 c59..60 fg=#156fcb
+r11 c60..61 fg=#156eca
+r11 c61..112 fg=Foreground
+r12 c0..45 fg=Foreground
+r12 c45..46 fg=#197ed1
+r12 c46..47 fg=#197dd1
+r12 c47..48 fg=#197bd0
+r12 c48..49 fg=#197ad0
+r12 c49..60 fg=Foreground
+r12 c60..61 fg=#1468c8
+r12 c61..62 fg=#1367c8
+r12 c62..63 fg=#1366c7
+r12 c63..64 fg=#1365c7
+r12 c64..65 fg=#1263c6
+r12 c65..66 fg=#1262c6
+r12 c66..67 fg=#1260c5
+r12 c67..112 fg=Foreground
+r13 c0..45 fg=Foreground
+r13 c45..46 fg=#197bd0
+r13 c46..47 fg=#187acf
+r13 c47..48 fg=#1879cf
+r13 c48..49 fg=#1877ce
+r13 c49..55 fg=Foreground
+r13 c55..56 fg=#156dca
+r13 c56..57 fg=#156cca
+r13 c57..58 fg=#146ac9
+r13 c58..59 fg=#1469c9
+r13 c59..60 fg=#1468c8
+r13 c60..61 fg=#1367c8
+r13 c61..62 fg=#1365c7
+r13 c62..63 fg=#1264c6
+r13 c63..64 fg=#1263c6
+r13 c64..65 fg=#1261c5
+r13 c65..66 fg=#1160c5
+r13 c66..68 fg=#115ec4
+r13 c68..112 fg=Foreground
+r14 c0..45 fg=Foreground
+r14 c45..46 fg=#1879cf
+r14 c46..47 fg=#1877ce
+r14 c47..48 fg=#1776ce
+r14 c48..49 fg=#1774cd
+r14 c49..50 fg=#1773cd
+r14 c50..51 fg=#1671cc
+r14 c51..52 fg=#1670cb
+r14 c52..53 fg=#156fcb
+r14 c53..54 fg=#156dca
+r14 c54..55 fg=#156cca
+r14 c55..56 fg=#146bc9
+r14 c56..57 fg=#1469c9
+r14 c57..58 fg=#1468c8
+r14 c58..59 fg=#1367c8
+r14 c59..60 fg=#1365c7
+r14 c60..61 fg=#1264c6
+r14 c61..62 fg=#1263c6
+r14 c62..63 fg=#1262c6
+r14 c63..64 fg=#1261c5
+r14 c64..65 fg=#1160c5
+r14 c65..67 fg=#105cc3
+r14 c67..112 fg=Foreground
+r15 c0..45 fg=Foreground
+r15 c45..46 fg=#1777ce
+r15 c46..47 fg=#1774cd
+r15 c47..48 fg=#1773cd
+r15 c48..49 fg=#1672cc
+r15 c49..50 fg=#1670cb
+r15 c50..51 fg=#156fcb
+r15 c51..52 fg=#156eca
+r15 c52..53 fg=#156cca
+r15 c53..54 fg=#146bc9
+r15 c54..55 fg=#1469c9
+r15 c55..56 fg=#1468c8
+r15 c56..57 fg=#1367c8
+r15 c57..58 fg=#1365c7
+r15 c58..59 fg=#1364c7
+r15 c59..60 fg=#1263c6
+r15 c60..61 fg=#1262c6
+r15 c61..62 fg=#1261c5
+r15 c62..64 fg=Foreground
+r15 c64..66 fg=#105ac2
+r15 c66..112 fg=Foreground
+r16 c0..46 fg=Foreground
+r16 c46..47 fg=#1672cc
+r16 c47..48 fg=#1670cb
+r16 c48..49 fg=#156fcb
+r16 c49..50 fg=#156eca
+r16 c50..51 fg=#156cca
+r16 c51..52 fg=#146bc9
+r16 c52..53 fg=#1469c9
+r16 c53..54 fg=#1468c8
+r16 c54..55 fg=#1367c8
+r16 c55..56 fg=#1365c7
+r16 c56..57 fg=#1264c6
+r16 c57..58 fg=#1263c6
+r16 c58..60 fg=#1261c5
+r16 c60..64 fg=Foreground
+r16 c64..65 fg=#105ac2
+r16 c65..112 fg=Foreground
+r17 c0..48 fg=Foreground
+r17 c48..49 fg=#156eca
+r17 c49..50 fg=#156cca
+r17 c50..51 fg=#146ac9
+r17 c51..52 fg=#1469c8
+r17 c52..53 fg=#1367c8
+r17 c53..54 fg=#1365c7
+r17 c54..55 fg=#1264c6
+r17 c55..56 fg=#1263c6
+r17 c56..57 fg=#1261c5
+r17 c57..58 fg=#1260c5
+r17 c58..60 fg=Foreground
+r17 c60..61 fg=#105bc3
+r17 c61..63 fg=#105ac2
+r17 c63..112 fg=Foreground
+r18 c0..50 fg=Foreground
+r18 c50..51 fg=#1367c8
+r18 c51..52 fg=#1366c7
+r18 c52..53 fg=#1365c7
+r18 c53..54 fg=#1263c6
+r18 c54..55 fg=#1262c6
+r18 c55..56 fg=#1260c5
+r18 c56..57 fg=#115fc4
+r18 c57..58 fg=#115ec4
+r18 c58..60 fg=#105cc3
+r18 c60..61 fg=#105ac2
+r18 c61..112 fg=Foreground
+r19 c0..112 fg=Foreground
+r20 c0..112 fg=Foreground
+r21 c0..112 fg=Foreground
+r22 c0..51 fg=Foreground
+r22 c51..52 fg=Live
+r22 c52..112 fg=Foreground
+r23 c0..112 fg=Foreground
+r24 c0..112 fg=Foreground
+r25 c0..112 fg=Foreground
+r26 c0..112 fg=Foreground
+r27 c0..112 fg=Foreground
+r28 c0..112 fg=Foreground
+r29 c0..93 fg=Foreground
+r29 c93..98 fg=Hint|Dim
+r29 c98..112 fg=Foreground
+r30 c0..93 fg=Foreground
+r30 c93..98 fg=Hint|Dim
+r30 c98..112 fg=Foreground
+r31 c0..93 fg=Foreground
+r31 c93..98 fg=Hint|Dim
+r31 c98..112 fg=Foreground
+r32 c0..1 fg=Foreground
+r32 c1..2 fg=Hint|Dim
+r32 c2..112 fg=Foreground
+r33 c0..92 fg=Foreground
+r33 c92..93 fg=Hint|Dim
+r33 c93..112 fg=Foreground
+r34 c0..63 fg=Foreground
+r34 c63..67 fg=Hint|Dim
+r34 c67..70 fg=Foreground
+r34 c70..74 fg=Hint|Dim
+r34 c74..76 fg=Foreground
+r34 c76..80 fg=Hint|Dim
+r34 c80..112 fg=Foreground
+r35 c0..16 fg=Foreground
+r35 c16..17 fg=Hint|Dim
+r35 c17..65 fg=Foreground
+r35 c65..69 fg=Hint|Dim
+r35 c69..80 fg=Foreground
+r35 c80..84 fg=Primary
+r35 c84..112 fg=Foreground
+r36 c0..57 fg=Muted
+r36 c57..69 fg=Foreground
+r36 c69..77 fg=Hint|Dim
+r36 c77..78 fg=Foreground
+r36 c78..79 fg=Hint|Dim
+r36 c79..112 fg=Foreground
+r37 c0..44 fg=Muted
+r37 c44..112 fg=Foreground
+
+== dark-256
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c36..112 fg=Foreground bg=Background|DiffAddedTint
+r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..58 fg=Primary bg=Background|DiffAddedTint
+r2 c58..112 fg=Foreground bg=Background|DiffAddedTint
+r3 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r5 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r6 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r7 c0..70 fg=Foreground bg=Background|DiffAddedTint
+r7 c70..71 fg=idx231 bg=Background|DiffAddedTint
+r7 c71..112 fg=Foreground bg=Background|DiffAddedTint
+r8 c0..50 fg=Foreground bg=Background|DiffAddedTint
+r8 c50..59 fg=idx68 bg=Background|DiffAddedTint
+r8 c59..64 fg=Foreground bg=Background|DiffAddedTint
+r8 c64..70 fg=idx179 bg=Background|DiffAddedTint
+r8 c70..71 fg=idx231 bg=Background|DiffAddedTint
+r8 c71..112 fg=Foreground bg=Background|DiffAddedTint
+r9 c0..48 fg=Foreground bg=Background|DiffAddedTint
+r9 c48..59 fg=idx68 bg=Background|DiffAddedTint
+r9 c59..64 fg=Foreground bg=Background|DiffAddedTint
+r9 c64..70 fg=idx179 bg=Background|DiffAddedTint
+r9 c70..71 fg=idx231 bg=Background|DiffAddedTint
+r9 c71..112 fg=Foreground bg=Background|DiffAddedTint
+r10 c0..46 fg=Foreground bg=Background|DiffAddedTint
+r10 c46..62 fg=idx68 bg=Background|DiffAddedTint
+r10 c62..112 fg=Foreground bg=Background|DiffAddedTint
+r11 c0..45 fg=Foreground bg=Background|DiffAddedTint
+r11 c45..50 fg=idx68 bg=Background|DiffAddedTint
+r11 c50..56 fg=Foreground bg=Background|DiffAddedTint
+r11 c56..61 fg=idx68 bg=Background|DiffAddedTint
+r11 c61..112 fg=Foreground bg=Background|DiffAddedTint
+r12 c0..45 fg=Foreground bg=Background|DiffAddedTint
+r12 c45..49 fg=idx68 bg=Background|DiffAddedTint
+r12 c49..60 fg=Foreground bg=Background|DiffAddedTint
+r12 c60..61 fg=idx68 bg=Background|DiffAddedTint
+r12 c61..67 fg=idx32 bg=Background|DiffAddedTint
+r12 c67..112 fg=Foreground bg=Background|DiffAddedTint
+r13 c0..45 fg=Foreground bg=Background|DiffAddedTint
+r13 c45..49 fg=idx68 bg=Background|DiffAddedTint
+r13 c49..55 fg=Foreground bg=Background|DiffAddedTint
+r13 c55..60 fg=idx68 bg=Background|DiffAddedTint
+r13 c60..68 fg=idx32 bg=Background|DiffAddedTint
+r13 c68..112 fg=Foreground bg=Background|DiffAddedTint
+r14 c0..45 fg=Foreground bg=Background|DiffAddedTint
+r14 c45..58 fg=idx68 bg=Background|DiffAddedTint
+r14 c58..67 fg=idx32 bg=Background|DiffAddedTint
+r14 c67..112 fg=Foreground bg=Background|DiffAddedTint
+r15 c0..45 fg=Foreground bg=Background|DiffAddedTint
+r15 c45..56 fg=idx68 bg=Background|DiffAddedTint
+r15 c56..62 fg=idx32 bg=Background|DiffAddedTint
+r15 c62..64 fg=Foreground bg=Background|DiffAddedTint
+r15 c64..66 fg=idx32 bg=Background|DiffAddedTint
+r15 c66..112 fg=Foreground bg=Background|DiffAddedTint
+r16 c0..46 fg=Foreground bg=Background|DiffAddedTint
+r16 c46..54 fg=idx68 bg=Background|DiffAddedTint
+r16 c54..60 fg=idx32 bg=Background|DiffAddedTint
+r16 c60..64 fg=Foreground bg=Background|DiffAddedTint
+r16 c64..65 fg=idx32 bg=Background|DiffAddedTint
+r16 c65..112 fg=Foreground bg=Background|DiffAddedTint
+r17 c0..48 fg=Foreground bg=Background|DiffAddedTint
+r17 c48..52 fg=idx68 bg=Background|DiffAddedTint
+r17 c52..58 fg=idx32 bg=Background|DiffAddedTint
+r17 c58..60 fg=Foreground bg=Background|DiffAddedTint
+r17 c60..63 fg=idx32 bg=Background|DiffAddedTint
+r17 c63..112 fg=Foreground bg=Background|DiffAddedTint
+r18 c0..50 fg=Foreground bg=Background|DiffAddedTint
+r18 c50..61 fg=idx32 bg=Background|DiffAddedTint
+r18 c61..112 fg=Foreground bg=Background|DiffAddedTint
+r19 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r20 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r21 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r22 c0..51 fg=Foreground bg=Background|DiffAddedTint
+r22 c51..52 fg=Live bg=Background|DiffAddedTint
+r22 c52..112 fg=Foreground bg=Background|DiffAddedTint
+r23 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r24 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r25 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r26 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r27 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r28 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r29 c0..93 fg=Foreground bg=Background|DiffAddedTint
+r29 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
+r29 c98..112 fg=Foreground bg=Background|DiffAddedTint
+r30 c0..93 fg=Foreground bg=Background|DiffAddedTint
+r30 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
+r30 c98..112 fg=Foreground bg=Background|DiffAddedTint
+r31 c0..93 fg=Foreground bg=Background|DiffAddedTint
+r31 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
+r31 c98..112 fg=Foreground bg=Background|DiffAddedTint
+r32 c0..1 fg=Foreground bg=Background|DiffAddedTint
+r32 c1..2 fg=Hint|Dim bg=Background|DiffAddedTint
+r32 c2..112 fg=Foreground bg=Background|DiffAddedTint
+r33 c0..92 fg=Foreground bg=Background|DiffAddedTint
+r33 c92..93 fg=Hint|Dim bg=Background|DiffAddedTint
+r33 c93..112 fg=Foreground bg=Background|DiffAddedTint
+r34 c0..63 fg=Foreground bg=Background|DiffAddedTint
+r34 c63..67 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c67..70 fg=Foreground bg=Background|DiffAddedTint
+r34 c70..74 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c74..76 fg=Foreground bg=Background|DiffAddedTint
+r34 c76..80 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c80..112 fg=Foreground bg=Background|DiffAddedTint
+r35 c0..16 fg=Foreground bg=Background|DiffAddedTint
+r35 c16..17 fg=Hint|Dim bg=Background|DiffAddedTint
+r35 c17..65 fg=Foreground bg=Background|DiffAddedTint
+r35 c65..69 fg=Hint|Dim bg=Background|DiffAddedTint
+r35 c69..80 fg=Foreground bg=Background|DiffAddedTint
+r35 c80..84 fg=Primary bg=Background|DiffAddedTint
+r35 c84..112 fg=Foreground bg=Background|DiffAddedTint
+r36 c0..57 fg=Muted bg=Background|DiffAddedTint
+r36 c57..69 fg=Foreground bg=Background|DiffAddedTint
+r36 c69..77 fg=Hint|Dim bg=Background|DiffAddedTint
+r36 c77..78 fg=Foreground bg=Background|DiffAddedTint
+r36 c78..79 fg=Hint|Dim bg=Background|DiffAddedTint
+r36 c79..112 fg=Foreground bg=Background|DiffAddedTint
+r37 c0..44 fg=Muted bg=Background|DiffAddedTint
+r37 c44..112 fg=Foreground bg=Background|DiffAddedTint
+
+== light-256
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 fg=Foreground bold
+r0 c36..112 fg=Foreground
+r1 c0..112 fg=Foreground
+r2 c0..58 fg=Primary
+r2 c58..112 fg=Foreground
+r3 c0..112 fg=Foreground
+r4 c0..112 fg=Foreground
+r5 c0..112 fg=Foreground
+r6 c0..112 fg=Foreground
+r7 c0..112 fg=Foreground
+r8 c0..50 fg=Foreground
+r8 c50..59 fg=idx32
+r8 c59..64 fg=Foreground
+r8 c64..70 fg=idx179
+r8 c70..112 fg=Foreground
+r9 c0..48 fg=Foreground
+r9 c48..59 fg=idx32
+r9 c59..64 fg=Foreground
+r9 c64..70 fg=idx179
+r9 c70..112 fg=Foreground
+r10 c0..46 fg=Foreground
+r10 c46..57 fg=idx32
+r10 c57..62 fg=idx26
+r10 c62..112 fg=Foreground
+r11 c0..45 fg=Foreground
+r11 c45..50 fg=idx32
+r11 c50..56 fg=Foreground
+r11 c56..61 fg=idx26
+r11 c61..112 fg=Foreground
+r12 c0..45 fg=Foreground
+r12 c45..49 fg=idx32
+r12 c49..60 fg=Foreground
+r12 c60..67 fg=idx26
+r12 c67..112 fg=Foreground
+r13 c0..45 fg=Foreground
+r13 c45..49 fg=idx32
+r13 c49..55 fg=Foreground
+r13 c55..68 fg=idx26
+r13 c68..112 fg=Foreground
+r14 c0..45 fg=Foreground
+r14 c45..49 fg=idx32
+r14 c49..65 fg=idx26
+r14 c65..67 fg=Primary
+r14 c67..112 fg=Foreground
+r15 c0..45 fg=Foreground
+r15 c45..47 fg=idx32
+r15 c47..62 fg=idx26
+r15 c62..64 fg=Foreground
+r15 c64..66 fg=Primary
+r15 c66..112 fg=Foreground
+r16 c0..46 fg=Foreground
+r16 c46..60 fg=idx26
+r16 c60..64 fg=Foreground
+r16 c64..65 fg=Primary
+r16 c65..112 fg=Foreground
+r17 c0..48 fg=Foreground
+r17 c48..58 fg=idx26
+r17 c58..60 fg=Foreground
+r17 c60..63 fg=Primary
+r17 c63..112 fg=Foreground
+r18 c0..50 fg=Foreground
+r18 c50..58 fg=idx26
+r18 c58..61 fg=Primary
+r18 c61..112 fg=Foreground
+r19 c0..112 fg=Foreground
+r20 c0..112 fg=Foreground
+r21 c0..112 fg=Foreground
+r22 c0..51 fg=Foreground
+r22 c51..52 fg=Live
+r22 c52..112 fg=Foreground
+r23 c0..112 fg=Foreground
+r24 c0..112 fg=Foreground
+r25 c0..112 fg=Foreground
+r26 c0..112 fg=Foreground
+r27 c0..112 fg=Foreground
+r28 c0..112 fg=Foreground
+r29 c0..93 fg=Foreground
+r29 c93..98 fg=Muted|Hint|Dim
+r29 c98..112 fg=Foreground
+r30 c0..93 fg=Foreground
+r30 c93..98 fg=Muted|Hint|Dim
+r30 c98..112 fg=Foreground
+r31 c0..93 fg=Foreground
+r31 c93..98 fg=Muted|Hint|Dim
+r31 c98..112 fg=Foreground
+r32 c0..1 fg=Foreground
+r32 c1..2 fg=Muted|Hint|Dim
+r32 c2..112 fg=Foreground
+r33 c0..92 fg=Foreground
+r33 c92..93 fg=Muted|Hint|Dim
+r33 c93..112 fg=Foreground
+r34 c0..63 fg=Foreground
+r34 c63..67 fg=Muted|Hint|Dim
+r34 c67..70 fg=Foreground
+r34 c70..74 fg=Muted|Hint|Dim
+r34 c74..76 fg=Foreground
+r34 c76..80 fg=Muted|Hint|Dim
+r34 c80..112 fg=Foreground
+r35 c0..16 fg=Foreground
+r35 c16..17 fg=Muted|Hint|Dim
+r35 c17..65 fg=Foreground
+r35 c65..69 fg=Muted|Hint|Dim
+r35 c69..80 fg=Foreground
+r35 c80..84 fg=Primary
+r35 c84..112 fg=Foreground
+r36 c0..57 fg=Muted|Hint|Dim
+r36 c57..69 fg=Foreground
+r36 c69..77 fg=Muted|Hint|Dim
+r36 c77..78 fg=Foreground
+r36 c78..79 fg=Muted|Hint|Dim
+r36 c79..112 fg=Foreground
+r37 c0..44 fg=Muted|Hint|Dim
+r37 c44..112 fg=Foreground
+
+== ansi-16
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 bold
+r2 c0..58 fg=Primary
+r7 c70..71 fg=Primary
+r8 c50..59 fg=Primary
+r8 c64..71 fg=Primary
+r9 c48..59 fg=Primary
+r9 c64..71 fg=Primary
+r10 c46..62 fg=Primary
+r11 c45..50 fg=Primary
+r11 c56..61 fg=Primary
+r12 c45..49 fg=Primary
+r12 c60..67 fg=Primary
+r13 c45..49 fg=Primary
+r13 c55..68 fg=Primary
+r14 c45..67 fg=Primary
+r15 c45..62 fg=Primary
+r15 c64..66 fg=Primary
+r16 c46..60 fg=Primary
+r16 c64..65 fg=Primary
+r17 c48..58 fg=Primary
+r17 c60..63 fg=Primary
+r18 c50..61 fg=Primary
+r22 c51..52 fg=Live
+r29 c93..98 dim
+r30 c93..98 dim
+r31 c93..98 dim
+r32 c1..2 dim
+r33 c92..93 dim
+r34 c63..67 dim
+r34 c70..74 dim
+r34 c76..80 dim
+r35 c16..17 dim
+r35 c65..69 dim
+r35 c80..84 fg=Primary
+r36 c0..57 dim
+r36 c69..77 dim
+r36 c78..79 dim
+r37 c0..44 dim
+
+== unknown-ground
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 bold
+r2 c0..58 fg=Primary
+r7 c70..71 fg=Primary
+r8 c50..59 fg=Primary
+r8 c64..71 fg=Primary
+r9 c48..59 fg=Primary
+r9 c64..71 fg=Primary
+r10 c46..62 fg=Primary
+r11 c45..50 fg=Primary
+r11 c56..61 fg=Primary
+r12 c45..49 fg=Primary
+r12 c60..67 fg=Primary
+r13 c45..49 fg=Primary
+r13 c55..68 fg=Primary
+r14 c45..67 fg=Primary
+r15 c45..62 fg=Primary
+r15 c64..66 fg=Primary
+r16 c46..60 fg=Primary
+r16 c64..65 fg=Primary
+r17 c48..58 fg=Primary
+r17 c60..63 fg=Primary
+r18 c50..61 fg=Primary
+r22 c51..52 fg=Live
+r29 c93..98 dim
+r30 c93..98 dim
+r31 c93..98 dim
+r32 c1..2 dim
+r33 c92..93 dim
+r34 c63..67 dim
+r34 c70..74 dim
+r34 c76..80 dim
+r35 c16..17 dim
+r35 c65..69 dim
+r35 c80..84 fg=Primary
+r36 c0..57 dim
+r36 c69..77 dim
+r36 c78..79 dim
+r37 c0..44 dim
+
+== no-color
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+
+                                                                      ⡀
+                                                  ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
+                                                ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                             ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
+                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+                                             ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
+                                             ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
+                                             ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
+                                              ⠙⢿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⡿⠃    ⠊
+                                                ⠉⠛⠛⠛⣋⣵⣿⣿⡿⠋  ⣀⡠⠂
+                                                  ⠈⠙⠛⠛⠛⠒⠒⠒⠚⠉⠁
+
+
+
+                                                   ● Browsing
+
+
+
+
+
+
+                                                                                             ⠴⡭⢭⠦
+                                                                                             ⢠⠃⡇
+
+ °
+                                                                                            ˚
+                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
+                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
+Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 bold
+r29 c93..98 dim
+r30 c93..98 dim
+r31 c93..98 dim
+r32 c1..2 dim
+r33 c92..93 dim
+r34 c63..67 dim
+r34 c70..74 dim
+r34 c76..80 dim
+r35 c16..17 dim
+r35 c65..69 dim
+r36 c0..57 dim
+r36 c69..77 dim
+r36 c78..79 dim
+r37 c0..44 dim
+
+== ascii
+One whale. Seventeen native actions.
+
+Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
+
+
+
+                                                   . Browsing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                             .-~-.
+                                                                                             \___/
+                                                                                              / \
+ O
+                                                                                            o
+                                                                ><>
+                .                                                       ><>  ><>><o>
+Native dots, colored ink, fish, one jellyfish and bubbles          ><>><>  ><>
+Space pause / Left, Right action / F8 motion
+---
+r0 c0..36 bold
+r29 c93..98 dim
+r30 c93..98 dim
+r31 c93..98 dim
+r32 c1..2 dim
+r33 c92..93 dim
+r34 c64..67 dim
+r35 c16..17 dim
+r35 c72..75 dim
+r35 c77..80 dim
+r36 c0..57 dim
+r36 c67..73 dim
+r36 c75..78 dim
+r37 c0..44 dim

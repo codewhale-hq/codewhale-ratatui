@@ -1,0 +1,80 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Danger bg=Background
+r0 c3..13 fg=Foreground bg=Background bold
+r0 c13..15 bg=Background
+r0 c15..23 fg=Muted bg=Background
+r0 c23..34 fg=Danger bg=Background
+r0 c34..40 bg=Background
+
+== dark-graphite
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Danger bg=Background
+r0 c3..13 fg=Foreground bg=Background bold
+r0 c13..15 bg=Background
+r0 c15..23 fg=Muted bg=Background
+r0 c23..34 fg=Danger bg=Background
+r0 c34..40 bg=Background
+
+== light-truecolor
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c1..3 fg=Danger
+r0 c3..13 fg=Foreground bold
+r0 c15..23 fg=Muted
+r0 c23..34 fg=Danger
+
+== dark-256
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..3 fg=Danger bg=Background|DiffAddedTint
+r0 c3..13 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c13..15 bg=Background|DiffAddedTint
+r0 c15..23 fg=Muted bg=Background|DiffAddedTint
+r0 c23..34 fg=Danger bg=Background|DiffAddedTint
+r0 c34..40 bg=Background|DiffAddedTint
+
+== light-256
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c1..3 fg=Danger
+r0 c3..13 fg=Foreground bold
+r0 c15..23 fg=Muted|Hint|Dim
+r0 c23..34 fg=Danger
+
+== ansi-16
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c1..3 fg=Danger
+r0 c3..13 bold
+r0 c15..23 dim
+r0 c23..34 fg=Danger
+
+== unknown-ground
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c1..3 fg=Danger
+r0 c3..13 bold
+r0 c15..23 dim
+r0 c23..34 fg=Danger
+
+== no-color
+ ✕ Read-only…  0/2 done · 2 failed
+---
+r0 c3..13 bold
+r0 c15..23 dim
+
+== ascii
+ X Read-only...  0/2 done . 2 failed
+---
+r0 c3..15 bold
+r0 c17..25 dim

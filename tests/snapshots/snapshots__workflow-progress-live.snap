@@ -1,0 +1,130 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Live bg=Background
+r0 c3..31 fg=Foreground bg=Background bold
+r0 c31..33 bg=Background
+r0 c33..41 fg=#9bd66f bg=Background
+r0 c41..43 fg=Danger bg=Background
+r0 c43..53 fg=Hint|Dim bg=Background
+r0 c53..55 bg=Background
+r0 c55..64 fg=Muted bg=Background
+r0 c64..75 fg=Danger bg=Background
+r0 c75..77 bg=Background
+r0 c77..83 fg=Muted bg=Background
+r0 c83..85 bg=Background
+r0 c85..90 fg=Muted bg=Background
+r0 c90..110 bg=Background
+
+== dark-graphite
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Live bg=Background
+r0 c3..31 fg=Foreground bg=Background bold
+r0 c31..33 bg=Background
+r0 c33..41 fg=#9bd66f bg=Background
+r0 c41..43 fg=Danger bg=Background
+r0 c43..53 fg=Hint|Dim bg=Background
+r0 c53..55 bg=Background
+r0 c55..64 fg=Muted bg=Background
+r0 c64..75 fg=Danger bg=Background
+r0 c75..77 bg=Background
+r0 c77..83 fg=Muted bg=Background
+r0 c83..85 bg=Background
+r0 c85..90 fg=Muted bg=Background
+r0 c90..110 bg=Background
+
+== light-truecolor
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c1..3 fg=Live
+r0 c3..31 fg=Foreground bold
+r0 c33..41 fg=#14763d
+r0 c41..43 fg=Danger
+r0 c43..53 fg=Hint|Dim
+r0 c55..64 fg=Muted
+r0 c64..75 fg=Danger
+r0 c77..83 fg=Muted
+r0 c85..90 fg=Muted
+
+== dark-256
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..3 fg=Live bg=Background|DiffAddedTint
+r0 c3..31 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c31..33 bg=Background|DiffAddedTint
+r0 c33..41 fg=idx113 bg=Background|DiffAddedTint
+r0 c41..43 fg=Danger bg=Background|DiffAddedTint
+r0 c43..53 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c53..55 bg=Background|DiffAddedTint
+r0 c55..64 fg=Muted bg=Background|DiffAddedTint
+r0 c64..75 fg=Danger bg=Background|DiffAddedTint
+r0 c75..77 bg=Background|DiffAddedTint
+r0 c77..83 fg=Muted bg=Background|DiffAddedTint
+r0 c83..85 bg=Background|DiffAddedTint
+r0 c85..90 fg=Muted bg=Background|DiffAddedTint
+r0 c90..110 bg=Background|DiffAddedTint
+
+== light-256
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c1..3 fg=Live
+r0 c3..31 fg=Foreground bold
+r0 c33..41 fg=Live
+r0 c41..43 fg=Danger
+r0 c43..53 fg=Muted|Hint|Dim
+r0 c55..64 fg=Muted|Hint|Dim
+r0 c64..75 fg=Danger
+r0 c77..83 fg=Muted|Hint|Dim
+r0 c85..90 fg=Muted|Hint|Dim
+
+== ansi-16
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c1..3 fg=Live
+r0 c3..31 bold
+r0 c33..41 fg=Live
+r0 c41..43 fg=Danger
+r0 c43..53 dim
+r0 c55..64 dim
+r0 c64..75 fg=Danger
+r0 c77..83 dim
+r0 c85..90 dim
+
+== unknown-ground
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c1..3 fg=Live
+r0 c3..31 bold
+r0 c33..41 fg=Live
+r0 c41..43 fg=Danger
+r0 c43..53 dim
+r0 c55..64 dim
+r0 c64..75 fg=Danger
+r0 c77..83 dim
+r0 c85..90 dim
+
+== no-color
+ • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M
+---
+r0 c3..31 bold
+r0 c43..53 dim
+r0 c55..64 dim
+r0 c77..83 dim
+r0 c85..90 dim
+
+== ascii
+ . Compare Cline with Codewhale  ########XX::::::::::  4/10 done . 1 failed  2m 14s  v1.2M
+---
+r0 c3..31 bold
+r0 c43..53 dim
+r0 c55..64 dim
+r0 c77..83 dim
+r0 c85..90 dim

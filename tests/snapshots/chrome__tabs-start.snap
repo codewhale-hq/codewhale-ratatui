@@ -1,0 +1,74 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(2, tabs_start)"
+---
+== dark-truecolor · 40x2
+ General  Appearance  Agents 3  3 more ›
+                      ────────
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..40 fg=Muted bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..40 bg=Background
+
+== dark-truecolor · 80x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      ────────
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..63 fg=Muted bg=Background
+r0 c63..80 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..80 bg=Background
+
+== dark-truecolor · 120x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      ────────
+---
+r0 c0..21 fg=Muted bg=Background
+r0 c21..22 fg=Primary bg=Background
+r0 c22..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..30 fg=Muted bg=Background
+r0 c30..31 fg=Primary bg=Background
+r0 c31..63 fg=Muted bg=Background
+r0 c63..120 bg=Background
+r1 c0..22 bg=Background
+r1 c22..30 fg=Primary bg=Background
+r1 c30..120 bg=Background
+
+== no-color · 40x2
+ General  Appearance  Agents 3  3 more ›
+                      ────────
+
+== no-color · 80x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      ────────
+
+== no-color · 120x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      ────────
+
+== ascii · 40x2
+ General  Appearance  Agents 3  3 more >
+                      --------
+
+== ascii · 80x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      --------
+
+== ascii · 120x2
+ General  Appearance  Agents 3  Connections  Privacy  Advanced
+                      --------

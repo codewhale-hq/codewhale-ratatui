@@ -1,0 +1,574 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 fg=Foreground bg=Background bold
+r0 c9..27 bg=Background
+r0 c27..36 fg=Muted bg=Background
+r1 c0..36 fg=Border bg=Background
+r2 c0..1 fg=BorderStrong bg=Background
+r2 c1..2 bg=Background
+r2 c2..3 fg=Attention bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Foreground bg=Background
+r2 c13..15 bg=Background
+r2 c15..21 fg=Muted bg=Background
+r2 c21..36 bg=Background
+r3 c0..1 fg=BorderStrong bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..36 bg=Background
+r4 c0..1 fg=BorderStrong bg=Background
+r4 c1..2 bg=Background
+r4 c2..33 fg=Foreground bg=Background
+r4 c33..36 bg=Background
+r5 c0..1 fg=BorderStrong bg=Background
+r5 c1..2 bg=Background
+r5 c2..22 fg=Foreground bg=Background
+r5 c22..36 bg=Background
+r6 c0..1 fg=BorderStrong bg=Background
+r6 c1..2 bg=Background
+r6 c2..12 fg=Muted bg=Background
+r6 c12..36 bg=Background
+r7 c0..36 bg=Background
+r8 c0..1 fg=Primary bg=Selected
+r8 c1..2 bg=Selected
+r8 c2..3 fg=Attention bg=Selected
+r8 c3..4 bg=Selected
+r8 c4..13 fg=Foreground bg=Selected
+r8 c13..15 bg=Selected
+r8 c15..21 fg=Muted bg=Selected
+r8 c21..36 bg=Selected
+r9 c0..1 fg=Primary bg=Selected
+r9 c1..2 bg=Selected
+r9 c2..18 fg=Foreground bg=Selected bold
+r9 c18..36 bg=Selected
+r10 c0..1 fg=Primary bg=Selected
+r10 c1..2 bg=Selected
+r10 c2..32 fg=Foreground bg=Selected
+r10 c32..36 bg=Selected
+r11 c0..1 fg=Primary bg=Selected
+r11 c1..2 bg=Selected
+r11 c2..30 fg=Foreground bg=Selected
+r11 c30..36 bg=Selected
+r12 c0..1 fg=Primary bg=Selected
+r12 c1..2 bg=Selected
+r12 c2..16 fg=Primary bg=Selected
+r12 c16..36 bg=Selected
+r13 c0..1 fg=Primary bg=Selected
+r13 c1..2 bg=Selected
+r13 c2..7 fg=Foreground bg=Selected bold
+r13 c7..8 bg=Selected
+r13 c8..12 fg=Muted bg=Selected
+r13 c12..15 fg=Border bg=Selected
+r13 c15..16 fg=Foreground bg=Selected bold
+r13 c16..17 bg=Selected
+r13 c17..22 fg=Muted bg=Selected
+r13 c22..36 bg=Selected
+r14 c0..36 bg=Background
+r15 c0..17 fg=Muted bg=Background
+r15 c17..36 bg=Background
+
+== dark-graphite
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 fg=Foreground bg=Background bold
+r0 c9..27 bg=Background
+r0 c27..36 fg=Muted bg=Background
+r1 c0..36 fg=Border bg=Background
+r2 c0..1 fg=BorderStrong bg=Background
+r2 c1..2 bg=Background
+r2 c2..3 fg=Attention bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Foreground bg=Background
+r2 c13..15 bg=Background
+r2 c15..21 fg=Muted bg=Background
+r2 c21..36 bg=Background
+r3 c0..1 fg=BorderStrong bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..36 bg=Background
+r4 c0..1 fg=BorderStrong bg=Background
+r4 c1..2 bg=Background
+r4 c2..33 fg=Foreground bg=Background
+r4 c33..36 bg=Background
+r5 c0..1 fg=BorderStrong bg=Background
+r5 c1..2 bg=Background
+r5 c2..22 fg=Foreground bg=Background
+r5 c22..36 bg=Background
+r6 c0..1 fg=BorderStrong bg=Background
+r6 c1..2 bg=Background
+r6 c2..12 fg=Muted bg=Background
+r6 c12..36 bg=Background
+r7 c0..36 bg=Background
+r8 c0..1 fg=Primary bg=Selected
+r8 c1..2 bg=Selected
+r8 c2..3 fg=Attention bg=Selected
+r8 c3..4 bg=Selected
+r8 c4..13 fg=Foreground bg=Selected
+r8 c13..15 bg=Selected
+r8 c15..21 fg=Muted bg=Selected
+r8 c21..36 bg=Selected
+r9 c0..1 fg=Primary bg=Selected
+r9 c1..2 bg=Selected
+r9 c2..18 fg=Foreground bg=Selected bold
+r9 c18..36 bg=Selected
+r10 c0..1 fg=Primary bg=Selected
+r10 c1..2 bg=Selected
+r10 c2..32 fg=Foreground bg=Selected
+r10 c32..36 bg=Selected
+r11 c0..1 fg=Primary bg=Selected
+r11 c1..2 bg=Selected
+r11 c2..30 fg=Foreground bg=Selected
+r11 c30..36 bg=Selected
+r12 c0..1 fg=Primary bg=Selected
+r12 c1..2 bg=Selected
+r12 c2..16 fg=Primary bg=Selected
+r12 c16..36 bg=Selected
+r13 c0..1 fg=Primary bg=Selected
+r13 c1..2 bg=Selected
+r13 c2..7 fg=Foreground bg=Selected bold
+r13 c7..8 bg=Selected
+r13 c8..12 fg=Muted bg=Selected
+r13 c12..15 fg=Border bg=Selected
+r13 c15..16 fg=Foreground bg=Selected bold
+r13 c16..17 bg=Selected
+r13 c17..22 fg=Muted bg=Selected
+r13 c22..36 bg=Selected
+r14 c0..36 bg=Background
+r15 c0..17 fg=Muted bg=Background
+r15 c17..36 bg=Background
+
+== light-truecolor
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 fg=Foreground bg=Background bold
+r0 c9..27 bg=Background
+r0 c27..36 fg=Muted bg=Background
+r1 c0..36 fg=Border bg=Background
+r2 c0..1 fg=BorderStrong bg=Background
+r2 c1..2 bg=Background
+r2 c2..3 fg=Attention bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Foreground bg=Background
+r2 c13..15 bg=Background
+r2 c15..21 fg=Muted bg=Background
+r2 c21..36 bg=Background
+r3 c0..1 fg=BorderStrong bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..36 bg=Background
+r4 c0..1 fg=BorderStrong bg=Background
+r4 c1..2 bg=Background
+r4 c2..33 fg=Foreground bg=Background
+r4 c33..36 bg=Background
+r5 c0..1 fg=BorderStrong bg=Background
+r5 c1..2 bg=Background
+r5 c2..22 fg=Foreground bg=Background
+r5 c22..36 bg=Background
+r6 c0..1 fg=BorderStrong bg=Background
+r6 c1..2 bg=Background
+r6 c2..12 fg=Muted bg=Background
+r6 c12..36 bg=Background
+r7 c0..36 bg=Background
+r8 c0..1 fg=Primary bg=Selected
+r8 c1..2 bg=Selected
+r8 c2..3 fg=Attention bg=Selected
+r8 c3..4 bg=Selected
+r8 c4..13 fg=Foreground bg=Selected
+r8 c13..15 bg=Selected
+r8 c15..21 fg=Muted bg=Selected
+r8 c21..36 bg=Selected
+r9 c0..1 fg=Primary bg=Selected
+r9 c1..2 bg=Selected
+r9 c2..18 fg=Foreground bg=Selected bold
+r9 c18..36 bg=Selected
+r10 c0..1 fg=Primary bg=Selected
+r10 c1..2 bg=Selected
+r10 c2..32 fg=Foreground bg=Selected
+r10 c32..36 bg=Selected
+r11 c0..1 fg=Primary bg=Selected
+r11 c1..2 bg=Selected
+r11 c2..30 fg=Foreground bg=Selected
+r11 c30..36 bg=Selected
+r12 c0..1 fg=Primary bg=Selected
+r12 c1..2 bg=Selected
+r12 c2..16 fg=Primary bg=Selected
+r12 c16..36 bg=Selected
+r13 c0..1 fg=Primary bg=Selected
+r13 c1..2 bg=Selected
+r13 c2..7 fg=Foreground bg=Selected bold
+r13 c7..8 bg=Selected
+r13 c8..12 fg=Muted bg=Selected
+r13 c12..15 fg=Border bg=Selected
+r13 c15..16 fg=Foreground bg=Selected bold
+r13 c16..17 bg=Selected
+r13 c17..22 fg=Muted bg=Selected
+r13 c22..36 bg=Selected
+r14 c0..36 bg=Background
+r15 c0..17 fg=Muted bg=Background
+r15 c17..36 bg=Background
+
+== dark-256
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 fg=Foreground bg=Background bold
+r0 c9..27 bg=Background
+r0 c27..36 fg=Muted bg=Background
+r1 c0..36 fg=Border bg=Background
+r2 c0..1 fg=BorderStrong bg=Background
+r2 c1..2 bg=Background
+r2 c2..3 fg=Attention bg=Background
+r2 c3..4 bg=Background
+r2 c4..13 fg=Foreground bg=Background
+r2 c13..15 bg=Background
+r2 c15..21 fg=Muted bg=Background
+r2 c21..36 bg=Background
+r3 c0..1 fg=BorderStrong bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background bold
+r3 c26..36 bg=Background
+r4 c0..1 fg=BorderStrong bg=Background
+r4 c1..2 bg=Background
+r4 c2..33 fg=Foreground bg=Background
+r4 c33..36 bg=Background
+r5 c0..1 fg=BorderStrong bg=Background
+r5 c1..2 bg=Background
+r5 c2..22 fg=Foreground bg=Background
+r5 c22..36 bg=Background
+r6 c0..1 fg=BorderStrong bg=Background
+r6 c1..2 bg=Background
+r6 c2..12 fg=Muted bg=Background
+r6 c12..36 bg=Background
+r7 c0..36 bg=Background
+r8 c0..1 fg=Primary bg=Selected
+r8 c1..2 bg=Selected
+r8 c2..3 fg=Attention bg=Selected
+r8 c3..4 bg=Selected
+r8 c4..13 fg=Foreground bg=Selected
+r8 c13..15 bg=Selected
+r8 c15..21 fg=Muted bg=Selected
+r8 c21..36 bg=Selected
+r9 c0..1 fg=Primary bg=Selected
+r9 c1..2 bg=Selected
+r9 c2..18 fg=Foreground bg=Selected bold
+r9 c18..36 bg=Selected
+r10 c0..1 fg=Primary bg=Selected
+r10 c1..2 bg=Selected
+r10 c2..32 fg=Foreground bg=Selected
+r10 c32..36 bg=Selected
+r11 c0..1 fg=Primary bg=Selected
+r11 c1..2 bg=Selected
+r11 c2..30 fg=Foreground bg=Selected
+r11 c30..36 bg=Selected
+r12 c0..1 fg=Primary bg=Selected
+r12 c1..2 bg=Selected
+r12 c2..16 fg=Primary bg=Selected
+r12 c16..36 bg=Selected
+r13 c0..1 fg=Primary bg=Selected
+r13 c1..2 bg=Selected
+r13 c2..7 fg=Foreground bg=Selected bold
+r13 c7..8 bg=Selected
+r13 c8..12 fg=Muted bg=Selected
+r13 c12..15 fg=Border bg=Selected
+r13 c15..16 fg=Foreground bg=Selected bold
+r13 c16..17 bg=Selected
+r13 c17..22 fg=Muted bg=Selected
+r13 c22..36 bg=Selected
+r14 c0..36 bg=Background
+r15 c0..17 fg=Muted bg=Background
+r15 c17..36 bg=Background
+
+== light-256
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 fg=Foreground bg=Background|Surface bold
+r0 c9..27 bg=Background|Surface
+r0 c27..36 fg=Muted bg=Background|Surface
+r1 c0..36 fg=Border bg=Background|Surface
+r2 c0..1 fg=BorderStrong bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..3 fg=Attention bg=Background|Surface
+r2 c3..4 bg=Background|Surface
+r2 c4..13 fg=Foreground bg=Background|Surface
+r2 c13..15 bg=Background|Surface
+r2 c15..21 fg=Muted bg=Background|Surface
+r2 c21..36 bg=Background|Surface
+r3 c0..1 fg=BorderStrong bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..26 fg=Foreground bg=Background|Surface bold
+r3 c26..36 bg=Background|Surface
+r4 c0..1 fg=BorderStrong bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..33 fg=Foreground bg=Background|Surface
+r4 c33..36 bg=Background|Surface
+r5 c0..1 fg=BorderStrong bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..22 fg=Foreground bg=Background|Surface
+r5 c22..36 bg=Background|Surface
+r6 c0..1 fg=BorderStrong bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..12 fg=Muted bg=Background|Surface
+r6 c12..36 bg=Background|Surface
+r7 c0..36 bg=Background|Surface
+r8 c0..1 fg=Primary bg=Selected
+r8 c1..2 bg=Selected
+r8 c2..3 fg=Attention bg=Selected
+r8 c3..4 bg=Selected
+r8 c4..13 fg=Foreground bg=Selected
+r8 c13..15 bg=Selected
+r8 c15..21 fg=Muted bg=Selected
+r8 c21..36 bg=Selected
+r9 c0..1 fg=Primary bg=Selected
+r9 c1..2 bg=Selected
+r9 c2..18 fg=Foreground bg=Selected bold
+r9 c18..36 bg=Selected
+r10 c0..1 fg=Primary bg=Selected
+r10 c1..2 bg=Selected
+r10 c2..32 fg=Foreground bg=Selected
+r10 c32..36 bg=Selected
+r11 c0..1 fg=Primary bg=Selected
+r11 c1..2 bg=Selected
+r11 c2..30 fg=Foreground bg=Selected
+r11 c30..36 bg=Selected
+r12 c0..1 fg=Primary bg=Selected
+r12 c1..2 bg=Selected
+r12 c2..16 fg=Primary bg=Selected
+r12 c16..36 bg=Selected
+r13 c0..1 fg=Primary bg=Selected
+r13 c1..2 bg=Selected
+r13 c2..7 fg=Foreground bg=Selected bold
+r13 c7..8 bg=Selected
+r13 c8..12 fg=Muted bg=Selected
+r13 c12..15 fg=Border bg=Selected
+r13 c15..16 fg=Foreground bg=Selected bold
+r13 c16..17 bg=Selected
+r13 c17..22 fg=Muted bg=Selected
+r13 c22..36 bg=Selected
+r14 c0..36 bg=Background|Surface
+r15 c0..17 fg=Muted bg=Background|Surface
+r15 c17..36 bg=Background|Surface
+
+== ansi-16
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 bold
+r0 c27..36 dim
+r1 c0..36 dim
+r2 c2..3 fg=Attention
+r2 c15..21 dim
+r3 c2..26 bold
+r6 c2..12 dim
+r8 c0..1 fg=Primary
+r8 c2..3 fg=Attention
+r8 c15..21 dim
+r9 c0..1 fg=Primary
+r9 c2..18 bold
+r10 c0..1 fg=Primary
+r11 c0..1 fg=Primary
+r12 c0..1 fg=Primary
+r12 c2..16 fg=Primary
+r13 c0..1 fg=Primary
+r13 c2..7 bold
+r13 c8..15 dim
+r13 c15..16 bold
+r13 c17..22 dim
+r15 c0..17 dim
+
+== unknown-ground
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 bold
+r0 c27..36 dim
+r1 c0..36 dim
+r2 c2..3 fg=Attention
+r2 c15..21 dim
+r3 c2..26 bold
+r6 c2..12 dim
+r8 c0..1 fg=Primary
+r8 c2..3 fg=Attention
+r8 c15..21 dim
+r9 c0..1 fg=Primary
+r9 c2..18 bold
+r10 c0..1 fg=Primary
+r11 c0..1 fg=Primary
+r12 c0..1 fg=Primary
+r12 c2..16 fg=Primary
+r13 c0..1 fg=Primary
+r13 c2..7 bold
+r13 c8..15 dim
+r13 c15..16 bold
+r13 c17..22 dim
+r15 c0..17 dim
+
+== no-color
+Needs you                  3 waiting
+────────────────────────────────────
+▏ ◆ Needs you  2m ago
+▏ Codewhale / Verification
+▏ Choose the validation gate for
+▏ the interrupted run.
+▏ Review run
+
+▸ ◆ Needs you  8m ago
+▏ Desktop / Review
+▏ Confirm which files should be
+▏ included in the next change.
+▏ Review changes
+▏ Enter open · s later
+
+1 not fully shown
+---
+r0 c0..9 bold
+r0 c27..36 dim
+r1 c0..36 dim
+r2 c15..21 dim
+r3 c2..26 bold
+r6 c2..12 dim
+r8 c15..21 dim
+r9 c2..18 bold
+r13 c2..7 bold
+r13 c8..15 dim
+r13 c15..16 bold
+r13 c17..22 dim
+r15 c0..17 dim
+
+== ascii
+Needs you                  3 waiting
+------------------------------------
+| * Needs you  2m ago
+| Codewhale / Verification
+| Choose the validation gate for
+| the interrupted run.
+| Review run
+
+> * Needs you  8m ago
+| Desktop / Review
+| Confirm which files should be
+| included in the next change.
+| Review changes
+| Enter open  s later
+
+1 not fully shown
+---
+r0 c0..9 bold
+r0 c27..36 dim
+r1 c0..36 dim
+r2 c15..21 dim
+r3 c2..26 bold
+r6 c2..12 dim
+r8 c15..21 dim
+r9 c2..18 bold
+r13 c2..7 bold
+r13 c8..12 dim
+r13 c14..15 bold
+r13 c16..21 dim
+r15 c0..17 dim

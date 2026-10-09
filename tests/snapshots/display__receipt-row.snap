@@ -1,0 +1,64 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x1
+✓ Edited summary.md                  4 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..36 fg=Foreground bg=Background
+r0 c36..37 bg=Background
+r0 c37..40 fg=Foreground bg=Background
+
+== dark-truecolor · 80x1
+✓ Edited summary.md                                    Done  4 s  1.2k  $0.01  →
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..53 fg=Foreground bg=Background
+r0 c53..55 bg=Background
+r0 c55..59 fg=Muted bg=Background
+r0 c59..61 bg=Background
+r0 c61..64 fg=Foreground bg=Background
+r0 c64..66 bg=Background
+r0 c66..70 fg=Foreground bg=Background
+r0 c70..72 bg=Background
+r0 c72..77 fg=Foreground bg=Background
+r0 c77..79 bg=Background
+r0 c79..80 fg=Muted bg=Background
+
+== dark-truecolor · 120x1
+✓ Edited summary.md                                                                            Done  4 s  1.2k  $0.01  →
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..93 fg=Foreground bg=Background
+r0 c93..95 bg=Background
+r0 c95..99 fg=Muted bg=Background
+r0 c99..101 bg=Background
+r0 c101..104 fg=Foreground bg=Background
+r0 c104..106 bg=Background
+r0 c106..110 fg=Foreground bg=Background
+r0 c110..112 bg=Background
+r0 c112..117 fg=Foreground bg=Background
+r0 c117..119 bg=Background
+r0 c119..120 fg=Muted bg=Background
+
+== no-color · 40x1
+✓ Edited summary.md                  4 s
+
+== no-color · 80x1
+✓ Edited summary.md                                    Done  4 s  1.2k  $0.01  →
+
+== no-color · 120x1
+✓ Edited summary.md                                                                            Done  4 s  1.2k  $0.01  →
+
+== ascii · 40x1
+Y Edited summary.md                  4 s
+
+== ascii · 80x1
+Y Edited summary.md                                    Done  4 s  1.2k  $0.01  >
+
+== ascii · 120x1
+Y Edited summary.md                                                                            Done  4 s  1.2k  $0.01  >

@@ -1,0 +1,161 @@
+---
+source: tests/approval.rs
+expression: "testing::snapshot(8, paint)"
+---
+== dark-truecolor · 40x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+---
+r0 c0..2 fg=Danger bg=Background
+r0 c2..8 fg=Foreground bg=Background bold
+r0 c8..11 fg=Border bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..40 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..17 fg=Foreground bg=Background bold
+r1 c17..40 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..39 fg=Foreground bg=Background
+r2 c39..40 bg=Background
+r3 c0..1 fg=Foreground bg=Background bold
+r3 c1..2 bg=Background
+r3 c2..12 fg=Muted bg=Background
+r3 c12..15 fg=Border bg=Background
+r3 c15..16 fg=Foreground bg=Background bold
+r3 c16..17 bg=Background
+r3 c17..21 fg=Muted bg=Background
+r3 c21..40 bg=Background
+r4 c0..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+
+== dark-truecolor · 80x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+---
+r0 c0..2 fg=Danger bg=Background
+r0 c2..8 fg=Foreground bg=Background bold
+r0 c8..11 fg=Border bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..80 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..17 fg=Foreground bg=Background bold
+r1 c17..80 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..39 fg=Foreground bg=Background
+r2 c39..80 bg=Background
+r3 c0..1 fg=Foreground bg=Background bold
+r3 c1..2 bg=Background
+r3 c2..12 fg=Muted bg=Background
+r3 c12..15 fg=Border bg=Background
+r3 c15..16 fg=Foreground bg=Background bold
+r3 c16..17 bg=Background
+r3 c17..21 fg=Muted bg=Background
+r3 c21..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+
+== dark-truecolor · 120x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+---
+r0 c0..2 fg=Danger bg=Background
+r0 c2..8 fg=Foreground bg=Background bold
+r0 c8..11 fg=Border bg=Background
+r0 c11..22 fg=Muted bg=Background
+r0 c22..120 bg=Background
+r1 c0..2 fg=Primary bg=Background bold
+r1 c2..17 fg=Foreground bg=Background bold
+r1 c17..120 bg=Background
+r2 c0..5 fg=Muted bg=Background
+r2 c5..39 fg=Foreground bg=Background
+r2 c39..120 bg=Background
+r3 c0..1 fg=Foreground bg=Background bold
+r3 c1..2 bg=Background
+r3 c2..12 fg=Muted bg=Background
+r3 c12..15 fg=Border bg=Background
+r3 c15..16 fg=Foreground bg=Background bold
+r3 c16..17 bg=Background
+r3 c17..21 fg=Muted bg=Background
+r3 c21..120 bg=Background
+r4 c0..120 bg=Background
+r5 c0..120 bg=Background
+r6 c0..120 bg=Background
+r7 c0..120 bg=Background
+
+== no-color · 40x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+
+== no-color · 80x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+
+== no-color · 120x8
+✕ Denied · Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+
+
+
+
+== ascii · 40x8
+X Denied - Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once  n deny
+
+
+
+
+
+== ascii · 80x8
+X Denied - Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once  n deny
+
+
+
+
+
+== ascii · 120x8
+X Denied - Auto-Review
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once  n deny

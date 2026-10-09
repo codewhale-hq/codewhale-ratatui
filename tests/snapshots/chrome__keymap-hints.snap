@@ -1,0 +1,171 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(3, keymap_hints)"
+---
+== dark-truecolor · 40x3
+Enter change · Esc close · ? more
+Enter change · Esc close · ? more
+Enter change · ? more
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..6 bg=Background
+r0 c6..12 fg=Muted bg=Background
+r0 c12..15 fg=Border bg=Background
+r0 c15..18 fg=Foreground bg=Background bold
+r0 c18..19 bg=Background
+r0 c19..24 fg=Muted bg=Background
+r0 c24..27 fg=Border bg=Background
+r0 c27..28 fg=Foreground bg=Background bold
+r0 c28..29 bg=Background
+r0 c29..33 fg=Muted bg=Background
+r0 c33..40 bg=Background
+r1 c0..5 fg=Foreground bg=Background bold
+r1 c5..6 bg=Background
+r1 c6..12 fg=Muted bg=Background
+r1 c12..15 fg=Border bg=Background
+r1 c15..18 fg=Foreground bg=Background bold
+r1 c18..19 bg=Background
+r1 c19..24 fg=Muted bg=Background
+r1 c24..27 fg=Border bg=Background
+r1 c27..28 fg=Foreground bg=Background bold
+r1 c28..29 bg=Background
+r1 c29..33 fg=Muted bg=Background
+r1 c33..40 bg=Background
+r2 c0..5 fg=Foreground bg=Background bold
+r2 c5..6 bg=Background
+r2 c6..12 fg=Muted bg=Background
+r2 c12..15 fg=Border bg=Background
+r2 c15..16 fg=Foreground bg=Background bold
+r2 c16..17 bg=Background
+r2 c17..21 fg=Muted bg=Background
+r2 c21..40 bg=Background
+
+== dark-truecolor · 80x3
+↑↓ move · Enter change · r reset · / search · Ctrl+S save · Esc close
+Enter change · Esc close · ? more
+Enter change · ? more
+---
+r0 c0..2 fg=Foreground bg=Background bold
+r0 c2..3 bg=Background
+r0 c3..7 fg=Muted bg=Background
+r0 c7..10 fg=Border bg=Background
+r0 c10..15 fg=Foreground bg=Background bold
+r0 c15..16 bg=Background
+r0 c16..22 fg=Muted bg=Background
+r0 c22..25 fg=Border bg=Background
+r0 c25..26 fg=Foreground bg=Background bold
+r0 c26..27 bg=Background
+r0 c27..32 fg=Muted bg=Background
+r0 c32..35 fg=Border bg=Background
+r0 c35..36 fg=Foreground bg=Background bold
+r0 c36..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..46 fg=Border bg=Background
+r0 c46..52 fg=Muted bg=Background
+r0 c52..53 bg=Background
+r0 c53..57 fg=Muted bg=Background dim
+r0 c57..60 fg=Border bg=Background
+r0 c60..63 fg=Foreground bg=Background bold
+r0 c63..64 bg=Background
+r0 c64..69 fg=Muted bg=Background
+r0 c69..80 bg=Background
+r1 c0..5 fg=Foreground bg=Background bold
+r1 c5..6 bg=Background
+r1 c6..12 fg=Muted bg=Background
+r1 c12..15 fg=Border bg=Background
+r1 c15..18 fg=Foreground bg=Background bold
+r1 c18..19 bg=Background
+r1 c19..24 fg=Muted bg=Background
+r1 c24..27 fg=Border bg=Background
+r1 c27..28 fg=Foreground bg=Background bold
+r1 c28..29 bg=Background
+r1 c29..33 fg=Muted bg=Background
+r1 c33..80 bg=Background
+r2 c0..5 fg=Foreground bg=Background bold
+r2 c5..6 bg=Background
+r2 c6..12 fg=Muted bg=Background
+r2 c12..15 fg=Border bg=Background
+r2 c15..16 fg=Foreground bg=Background bold
+r2 c16..17 bg=Background
+r2 c17..21 fg=Muted bg=Background
+r2 c21..80 bg=Background
+
+== dark-truecolor · 120x3
+↑↓ move · Enter change · r reset · / search · Ctrl+S save · Esc close
+Enter change · Esc close · ? more
+Enter change · ? more
+---
+r0 c0..2 fg=Foreground bg=Background bold
+r0 c2..3 bg=Background
+r0 c3..7 fg=Muted bg=Background
+r0 c7..10 fg=Border bg=Background
+r0 c10..15 fg=Foreground bg=Background bold
+r0 c15..16 bg=Background
+r0 c16..22 fg=Muted bg=Background
+r0 c22..25 fg=Border bg=Background
+r0 c25..26 fg=Foreground bg=Background bold
+r0 c26..27 bg=Background
+r0 c27..32 fg=Muted bg=Background
+r0 c32..35 fg=Border bg=Background
+r0 c35..36 fg=Foreground bg=Background bold
+r0 c36..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..46 fg=Border bg=Background
+r0 c46..52 fg=Muted bg=Background
+r0 c52..53 bg=Background
+r0 c53..57 fg=Muted bg=Background dim
+r0 c57..60 fg=Border bg=Background
+r0 c60..63 fg=Foreground bg=Background bold
+r0 c63..64 bg=Background
+r0 c64..69 fg=Muted bg=Background
+r0 c69..120 bg=Background
+r1 c0..5 fg=Foreground bg=Background bold
+r1 c5..6 bg=Background
+r1 c6..12 fg=Muted bg=Background
+r1 c12..15 fg=Border bg=Background
+r1 c15..18 fg=Foreground bg=Background bold
+r1 c18..19 bg=Background
+r1 c19..24 fg=Muted bg=Background
+r1 c24..27 fg=Border bg=Background
+r1 c27..28 fg=Foreground bg=Background bold
+r1 c28..29 bg=Background
+r1 c29..33 fg=Muted bg=Background
+r1 c33..120 bg=Background
+r2 c0..5 fg=Foreground bg=Background bold
+r2 c5..6 bg=Background
+r2 c6..12 fg=Muted bg=Background
+r2 c12..15 fg=Border bg=Background
+r2 c15..16 fg=Foreground bg=Background bold
+r2 c16..17 bg=Background
+r2 c17..21 fg=Muted bg=Background
+r2 c21..120 bg=Background
+
+== no-color · 40x3
+Enter change · Esc close · ? more
+Enter change · Esc close · ? more
+Enter change · ? more
+
+== no-color · 80x3
+↑↓ move · Enter change · r reset · / search · Ctrl+S save · Esc close
+Enter change · Esc close · ? more
+Enter change · ? more
+
+== no-color · 120x3
+↑↓ move · Enter change · r reset · / search · Ctrl+S save · Esc close
+Enter change · Esc close · ? more
+Enter change · ? more
+
+== ascii · 40x3
+Enter change  Esc close  ? more
+Enter change  Esc close  ? more
+Enter change  ? more
+
+== ascii · 80x3
+Up/Down move  Enter change  r reset  / search  Ctrl+S save  Esc close
+Enter change  Esc close  ? more
+Enter change  ? more
+
+== ascii · 120x3
+Up/Down move  Enter change  r reset  / search  Ctrl+S save  Esc close
+Enter change  Esc close  ? more
+Enter change  ? more

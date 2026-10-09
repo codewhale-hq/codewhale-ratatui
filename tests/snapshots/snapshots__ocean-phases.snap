@@ -1,0 +1,440 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=#102a46 bold
+r0 c21..80 bg=#102a46
+r1 c0..1 fg=Live bg=#102944
+r1 c1..2 bg=#102944
+r1 c2..9 fg=Foreground bg=#102944
+r1 c9..80 bg=#102944
+r2 c0..80 bg=#0e2942
+r3 c0..80 bg=#0e2740
+r4 c0..23 fg=Foreground bg=#0f273f bold
+r4 c23..80 bg=#0f273f
+r5 c0..1 fg=Live bg=#0e263d
+r5 c1..2 bg=#0e263d
+r5 c2..9 fg=Foreground bg=#0e263d
+r5 c9..80 bg=#0e263d
+r6 c0..80 bg=#0d253b
+r7 c0..80 bg=#0d2439
+r8 c0..28 fg=Foreground bg=#1d2c3a bold
+r8 c28..80 bg=#1d2c3a
+r9 c0..1 fg=Attention bg=#1d2b39
+r9 c1..2 bg=#1d2b39
+r9 c2..11 fg=Foreground bg=#1d2b39
+r9 c11..80 bg=#1d2b39
+r10 c0..80 bg=#1c2a37
+r11 c0..80 bg=#1b2835
+r12 c0..20 fg=Foreground bg=#1d2637 bold
+r12 c20..80 bg=#1d2637
+r13 c0..1 fg=Danger bg=#1d2635
+r13 c1..2 bg=#1d2635
+r13 c2..8 fg=Foreground bg=#1d2635
+r13 c8..80 bg=#1d2635
+r14 c0..80 bg=#1c2533
+r15 c0..80 bg=#1c2431
+r16 c0..27 fg=Foreground bg=#091a2b bold
+r16 c27..80 bg=#091a2b
+r17 c0..1 fg=Live bg=#081828
+r17 c1..2 bg=#081828
+r17 c2..6 fg=Foreground bg=#081828
+r17 c6..80 bg=#081828
+r18 c0..80 bg=#071826
+r19 c0..80 bg=#071524
+
+== dark-graphite
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=Background bold
+r0 c21..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..9 fg=Foreground bg=Background
+r1 c9..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..23 fg=Foreground bg=Background bold
+r4 c23..80 bg=Background
+r5 c0..1 fg=Live bg=Background
+r5 c1..2 bg=Background
+r5 c2..9 fg=Foreground bg=Background
+r5 c9..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..28 fg=Foreground bg=Background bold
+r8 c28..80 bg=Background
+r9 c0..1 fg=Attention bg=Background
+r9 c1..2 bg=Background
+r9 c2..11 fg=Foreground bg=Background
+r9 c11..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..20 fg=Foreground bg=Background bold
+r12 c20..80 bg=Background
+r13 c0..1 fg=Danger bg=Background
+r13 c1..2 bg=Background
+r13 c2..8 fg=Foreground bg=Background
+r13 c8..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..27 fg=Foreground bg=Background bold
+r16 c27..80 bg=Background
+r17 c0..1 fg=Live bg=Background
+r17 c1..2 bg=Background
+r17 c2..6 fg=Foreground bg=Background
+r17 c6..80 bg=Background
+r18 c0..80 bg=Background
+r19 c0..80 bg=Background
+
+== light-truecolor
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=Background bold
+r0 c21..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..9 fg=Foreground bg=Background
+r1 c9..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..23 fg=Foreground bg=Background bold
+r4 c23..80 bg=Background
+r5 c0..1 fg=Live bg=Background
+r5 c1..2 bg=Background
+r5 c2..9 fg=Foreground bg=Background
+r5 c9..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..28 fg=Foreground bg=Background bold
+r8 c28..80 bg=Background
+r9 c0..1 fg=Attention bg=Background
+r9 c1..2 bg=Background
+r9 c2..11 fg=Foreground bg=Background
+r9 c11..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..20 fg=Foreground bg=Background bold
+r12 c20..80 bg=Background
+r13 c0..1 fg=Danger bg=Background
+r13 c1..2 bg=Background
+r13 c2..8 fg=Foreground bg=Background
+r13 c8..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..27 fg=Foreground bg=Background bold
+r16 c27..80 bg=Background
+r17 c0..1 fg=Live bg=Background
+r17 c1..2 bg=Background
+r17 c2..6 fg=Foreground bg=Background
+r17 c6..80 bg=Background
+r18 c0..80 bg=Background
+r19 c0..80 bg=Background
+
+== dark-256
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=Background bold
+r0 c21..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..9 fg=Foreground bg=Background
+r1 c9..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..23 fg=Foreground bg=Background bold
+r4 c23..80 bg=Background
+r5 c0..1 fg=Live bg=Background
+r5 c1..2 bg=Background
+r5 c2..9 fg=Foreground bg=Background
+r5 c9..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..28 fg=Foreground bg=Background bold
+r8 c28..80 bg=Background
+r9 c0..1 fg=Attention bg=Background
+r9 c1..2 bg=Background
+r9 c2..11 fg=Foreground bg=Background
+r9 c11..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..20 fg=Foreground bg=Background bold
+r12 c20..80 bg=Background
+r13 c0..1 fg=Danger bg=Background
+r13 c1..2 bg=Background
+r13 c2..8 fg=Foreground bg=Background
+r13 c8..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..27 fg=Foreground bg=Background bold
+r16 c27..80 bg=Background
+r17 c0..1 fg=Live bg=Background
+r17 c1..2 bg=Background
+r17 c2..6 fg=Foreground bg=Background
+r17 c6..80 bg=Background
+r18 c0..80 bg=Background
+r19 c0..80 bg=Background
+
+== light-256
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=Background|Surface bold
+r0 c21..80 bg=Background|Surface
+r1 c0..1 fg=Live bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..9 fg=Foreground bg=Background|Surface
+r1 c9..80 bg=Background|Surface
+r2 c0..80 bg=Background|Surface
+r3 c0..80 bg=Background|Surface
+r4 c0..23 fg=Foreground bg=Background|Surface bold
+r4 c23..80 bg=Background|Surface
+r5 c0..1 fg=Live bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..9 fg=Foreground bg=Background|Surface
+r5 c9..80 bg=Background|Surface
+r6 c0..80 bg=Background|Surface
+r7 c0..80 bg=Background|Surface
+r8 c0..28 fg=Foreground bg=Background|Surface bold
+r8 c28..80 bg=Background|Surface
+r9 c0..1 fg=Attention bg=Background|Surface
+r9 c1..2 bg=Background|Surface
+r9 c2..11 fg=Foreground bg=Background|Surface
+r9 c11..80 bg=Background|Surface
+r10 c0..80 bg=Background|Surface
+r11 c0..80 bg=Background|Surface
+r12 c0..20 fg=Foreground bg=Background|Surface bold
+r12 c20..80 bg=Background|Surface
+r13 c0..1 fg=Danger bg=Background|Surface
+r13 c1..2 bg=Background|Surface
+r13 c2..8 fg=Foreground bg=Background|Surface
+r13 c8..80 bg=Background|Surface
+r14 c0..80 bg=Background|Surface
+r15 c0..80 bg=Background|Surface
+r16 c0..27 fg=Foreground bg=Background|Surface bold
+r16 c27..80 bg=Background|Surface
+r17 c0..1 fg=Live bg=Background|Surface
+r17 c1..2 bg=Background|Surface
+r17 c2..6 fg=Foreground bg=Background|Surface
+r17 c6..80 bg=Background|Surface
+r18 c0..80 bg=Background|Surface
+r19 c0..80 bg=Background|Surface
+
+== ansi-16
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 bold
+r1 c0..1 fg=Live
+r4 c0..23 bold
+r5 c0..1 fg=Live
+r8 c0..28 bold
+r9 c0..1 fg=Attention
+r12 c0..20 bold
+r13 c0..1 fg=Danger
+r16 c0..27 bold
+r17 c0..1 fg=Live
+
+== unknown-ground
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 bold
+r1 c0..1 fg=Live
+r4 c0..23 bold
+r5 c0..1 fg=Live
+r8 c0..28 bold
+r9 c0..1 fg=Attention
+r12 c0..20 bold
+r13 c0..1 fg=Danger
+r16 c0..27 bold
+r17 c0..1 fg=Live
+
+== no-color
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 bold
+r4 c0..23 bold
+r8 c0..28 bold
+r12 c0..20 bold
+r16 c0..27 bold
+
+== ascii
+Working / quiet light
+. Working
+
+
+Verifying / quiet light
+. Working
+
+
+Approval / steady warm water
+* Needs you
+
+
+Failed / steady tint
+X Failed
+
+
+Done / completion at 320 ms
+Y Done
+
+
+---
+r0 c0..21 bold
+r4 c0..23 bold
+r8 c0..28 bold
+r12 c0..20 bold
+r16 c0..27 bold

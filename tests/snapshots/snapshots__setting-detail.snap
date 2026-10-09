@@ -1,0 +1,183 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..80 bg=Background
+r1 c0..77 fg=Foreground bg=Background
+r1 c77..80 bg=Background
+r2 c0..12 fg=Foreground bg=Background
+r2 c12..80 bg=Background
+r3 c0..11 fg=Muted bg=Background
+r3 c11..80 bg=Background
+r4 c0..21 fg=Muted bg=Background
+r4 c21..80 bg=Background
+r5 c0..15 fg=Muted bg=Background
+r5 c15..80 bg=Background
+r6 c0..18 fg=Muted bg=Background
+r6 c18..80 bg=Background
+
+== dark-graphite
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..80 bg=Background
+r1 c0..77 fg=Foreground bg=Background
+r1 c77..80 bg=Background
+r2 c0..12 fg=Foreground bg=Background
+r2 c12..80 bg=Background
+r3 c0..11 fg=Muted bg=Background
+r3 c11..80 bg=Background
+r4 c0..21 fg=Muted bg=Background
+r4 c21..80 bg=Background
+r5 c0..15 fg=Muted bg=Background
+r5 c15..80 bg=Background
+r6 c0..18 fg=Muted bg=Background
+r6 c18..80 bg=Background
+
+== light-truecolor
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..80 bg=Background
+r1 c0..77 fg=Foreground bg=Background
+r1 c77..80 bg=Background
+r2 c0..12 fg=Foreground bg=Background
+r2 c12..80 bg=Background
+r3 c0..11 fg=Muted bg=Background
+r3 c11..80 bg=Background
+r4 c0..21 fg=Muted bg=Background
+r4 c21..80 bg=Background
+r5 c0..15 fg=Muted bg=Background
+r5 c15..80 bg=Background
+r6 c0..18 fg=Muted bg=Background
+r6 c18..80 bg=Background
+
+== dark-256
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..80 bg=Background
+r1 c0..77 fg=Foreground bg=Background
+r1 c77..80 bg=Background
+r2 c0..12 fg=Foreground bg=Background
+r2 c12..80 bg=Background
+r3 c0..11 fg=Muted bg=Background
+r3 c11..80 bg=Background
+r4 c0..21 fg=Muted bg=Background
+r4 c21..80 bg=Background
+r5 c0..15 fg=Muted bg=Background
+r5 c15..80 bg=Background
+r6 c0..18 fg=Muted bg=Background
+r6 c18..80 bg=Background
+
+== light-256
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 fg=Foreground bg=Background|Surface bold
+r0 c5..80 bg=Background|Surface
+r1 c0..77 fg=Foreground bg=Background|Surface
+r1 c77..80 bg=Background|Surface
+r2 c0..12 fg=Foreground bg=Background|Surface
+r2 c12..80 bg=Background|Surface
+r3 c0..11 fg=Muted bg=Background|Surface
+r3 c11..80 bg=Background|Surface
+r4 c0..21 fg=Muted bg=Background|Surface
+r4 c21..80 bg=Background|Surface
+r5 c0..15 fg=Muted bg=Background|Surface
+r5 c15..80 bg=Background|Surface
+r6 c0..18 fg=Muted bg=Background|Surface
+r6 c18..80 bg=Background|Surface
+
+== ansi-16
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 bold
+r3 c0..11 dim
+r4 c0..21 dim
+r5 c0..15 dim
+r6 c0..18 dim
+
+== unknown-ground
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 bold
+r3 c0..11 dim
+r4 c0..21 dim
+r5 c0..15 dim
+r6 c0..18 dim
+
+== no-color
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 bold
+r3 c0..11 dim
+r4 c0..21 dim
+r5 c0..15 dim
+r6 c0..18 dim
+
+== ascii
+Theme
+Sets the colors Codewhale paints. Shoreline follows your terminal's light or
+dark ground.
+Applies now
+saved to this project
+Default: System
+r reset to default
+---
+r0 c0..5 bold
+r3 c0..11 dim
+r4 c0..21 dim
+r5 c0..15 dim
+r6 c0..18 dim

@@ -1,0 +1,224 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..32 bg=Background
+r4 c32..36 fg=Hint bg=Background
+r4 c36..40 bg=Background
+r4 c40..48 fg=Hint bg=Background
+r4 c48..72 bg=Background
+r5 c0..35 bg=Background
+r5 c35..39 fg=Hint bg=Background
+r5 c39..49 bg=Background
+r5 c49..53 fg=Primary bg=Background
+r5 c53..72 bg=Background
+r6 c0..38 bg=Background
+r6 c38..42 fg=Hint bg=Background
+r6 c42..43 bg=Background
+r6 c43..47 fg=Hint bg=Background
+r6 c47..72 bg=Background
+r7 c0..72 bg=Background
+
+== dark-graphite
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..32 bg=Background
+r4 c32..36 fg=Hint bg=Background
+r4 c36..40 bg=Background
+r4 c40..48 fg=Hint bg=Background
+r4 c48..72 bg=Background
+r5 c0..35 bg=Background
+r5 c35..39 fg=Hint bg=Background
+r5 c39..49 bg=Background
+r5 c49..53 fg=Primary bg=Background
+r5 c53..72 bg=Background
+r6 c0..38 bg=Background
+r6 c38..42 fg=Hint bg=Background
+r6 c42..43 bg=Background
+r6 c43..47 fg=Hint bg=Background
+r6 c47..72 bg=Background
+r7 c0..72 bg=Background
+
+== light-truecolor
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..32 bg=Background
+r4 c32..36 fg=Hint bg=Background
+r4 c36..40 bg=Background
+r4 c40..48 fg=Hint bg=Background
+r4 c48..72 bg=Background
+r5 c0..35 bg=Background
+r5 c35..39 fg=Hint bg=Background
+r5 c39..49 bg=Background
+r5 c49..53 fg=Primary bg=Background
+r5 c53..72 bg=Background
+r6 c0..38 bg=Background
+r6 c38..42 fg=Hint bg=Background
+r6 c42..43 bg=Background
+r6 c43..47 fg=Hint bg=Background
+r6 c47..72 bg=Background
+r7 c0..72 bg=Background
+
+== dark-256
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..32 bg=Background
+r4 c32..36 fg=Hint bg=Background
+r4 c36..40 bg=Background
+r4 c40..48 fg=Hint bg=Background
+r4 c48..72 bg=Background
+r5 c0..35 bg=Background
+r5 c35..39 fg=Hint bg=Background
+r5 c39..49 bg=Background
+r5 c49..53 fg=Primary bg=Background
+r5 c53..72 bg=Background
+r6 c0..38 bg=Background
+r6 c38..42 fg=Hint bg=Background
+r6 c42..43 bg=Background
+r6 c43..47 fg=Hint bg=Background
+r6 c47..72 bg=Background
+r7 c0..72 bg=Background
+
+== light-256
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background|Surface
+r1 c0..72 bg=Background|Surface
+r2 c0..72 bg=Background|Surface
+r3 c0..72 bg=Background|Surface
+r4 c0..32 bg=Background|Surface
+r4 c32..36 fg=Hint bg=Background|Surface
+r4 c36..40 bg=Background|Surface
+r4 c40..48 fg=Hint bg=Background|Surface
+r4 c48..72 bg=Background|Surface
+r5 c0..35 bg=Background|Surface
+r5 c35..39 fg=Hint bg=Background|Surface
+r5 c39..49 bg=Background|Surface
+r5 c49..53 fg=Primary bg=Background|Surface
+r5 c53..72 bg=Background|Surface
+r6 c0..38 bg=Background|Surface
+r6 c38..42 fg=Hint bg=Background|Surface
+r6 c42..43 bg=Background|Surface
+r6 c43..47 fg=Hint bg=Background|Surface
+r6 c47..72 bg=Background|Surface
+r7 c0..72 bg=Background|Surface
+
+== ansi-16
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r4 c32..36 dim
+r4 c40..48 dim
+r5 c35..39 dim
+r5 c49..53 fg=Primary
+r6 c38..42 dim
+r6 c43..47 dim
+
+== unknown-ground
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r4 c32..36 dim
+r4 c40..48 dim
+r5 c35..39 dim
+r5 c49..53 fg=Primary
+r6 c38..42 dim
+r6 c43..47 dim
+
+== no-color
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r4 c32..36 dim
+r4 c40..48 dim
+r5 c35..39 dim
+r6 c38..42 dim
+r6 c43..47 dim
+
+== ascii
+
+
+
+
+                                ><>
+                                        ><>  ><>><o>
+                                   ><>><>  ><>
+
+---
+r4 c32..35 dim
+r5 c40..43 dim
+r5 c45..48 dim
+r6 c35..41 dim
+r6 c43..46 dim

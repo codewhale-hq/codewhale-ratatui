@@ -1,0 +1,225 @@
+---
+source: tests/artifacts.rs
+expression: "testing::snapshot(6, shelf)"
+---
+== dark-truecolor · 40x6
+  Release checklist.md              Open
+  ✓ Done · File · Size 4.2 KiB · docs/r…
+▸ Conversation changes            Review
+  ◆ Needs you · Review · Files 3 · Comp…
+  Local verification             Inspect
+  ✓ Done · Run · Checks 15 · Reported b…
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..36 bg=Background
+r0 c36..40 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..39 fg=Muted bg=Background
+r1 c39..40 fg=Hint bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..34 bg=Selected
+r2 c34..40 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..39 fg=Muted bg=Selected
+r3 c39..40 fg=Hint bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..33 bg=Background
+r4 c33..40 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..39 fg=Muted bg=Background
+r5 c39..40 fg=Hint bg=Background
+
+== dark-truecolor · 80x6
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+
+== dark-truecolor · 120x6
+  Release checklist.md                                                                                              Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                                                            Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                                                             Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..116 bg=Background
+r0 c116..120 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..120 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..114 bg=Selected
+r2 c114..120 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..120 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..113 bg=Background
+r4 c113..120 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..120 bg=Background
+
+== no-color · 40x6
+  Release checklist.md              Open
+  ✓ Done · File · Size 4.2 KiB · docs/r…
+▸ Conversation changes            Review
+  ◆ Needs you · Review · Files 3 · Comp…
+  Local verification             Inspect
+  ✓ Done · Run · Checks 15 · Reported b…
+
+== no-color · 80x6
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+
+== no-color · 120x6
+  Release checklist.md                                                                                              Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                                                            Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                                                             Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+
+== ascii · 40x6
+  Release checklist.md              Open
+  Y Done . File . Size 4.2 KiB . docs...
+> Conversation changes            Review
+  * Needs you . Review . Files 3 . Co...
+  Local verification             Inspect
+  Y Done . Run . Checks 15 . Reported...
+
+== ascii · 80x6
+  Release checklist.md                                                      Open
+  Y Done . File . Size 4.2 KiB . docs/release-checklist.md
+> Conversation changes                                                    Review
+  * Needs you . Review . Files 3 . Composer and transcript
+  Local verification                                                     Inspect
+  Y Done . Run . Checks 15 . Reported by the host
+
+== ascii · 120x6
+  Release checklist.md                                                                                              Open
+  Y Done . File . Size 4.2 KiB . docs/release-checklist.md
+> Conversation changes                                                                                            Review
+  * Needs you . Review . Files 3 . Composer and transcript
+  Local verification                                                                                             Inspect
+  Y Done . Run . Checks 15 . Reported by the host

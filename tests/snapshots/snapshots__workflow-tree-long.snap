@@ -1,0 +1,129 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention bg=Background
+r0 c1..2 bg=Background
+r0 c2..28 fg=Foreground bg=Background
+r0 c28..37 fg=Muted bg=Background
+r0 c37..40 fg=Hint|Dim bg=Background
+r0 c40..45 fg=Foreground bg=Background
+r0 c45..48 bg=Background
+r1 c0..2 fg=Hint|Dim bg=Background
+r1 c2..3 fg=Muted bg=Background
+r1 c3..4 bg=Background
+r1 c4..28 fg=Foreground bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..48 bg=Background
+r2 c0..48 bg=Background
+
+== dark-graphite
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention bg=Background
+r0 c1..2 bg=Background
+r0 c2..28 fg=Foreground bg=Background
+r0 c28..37 fg=Muted bg=Background
+r0 c37..40 fg=Hint|Dim bg=Background
+r0 c40..45 fg=Foreground bg=Background
+r0 c45..48 bg=Background
+r1 c0..2 fg=Hint|Dim bg=Background
+r1 c2..3 fg=Muted bg=Background
+r1 c3..4 bg=Background
+r1 c4..28 fg=Foreground bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..48 bg=Background
+r2 c0..48 bg=Background
+
+== light-truecolor
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention
+r0 c2..28 fg=Foreground
+r0 c28..37 fg=Muted
+r0 c37..40 fg=Hint|Dim
+r0 c40..45 fg=Foreground
+r1 c0..2 fg=Hint|Dim
+r1 c2..3 fg=Muted
+r1 c4..28 fg=Foreground
+r1 c28..35 fg=Muted
+
+== dark-256
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention bg=Background|DiffAddedTint
+r0 c1..2 bg=Background|DiffAddedTint
+r0 c2..28 fg=Foreground bg=Background|DiffAddedTint
+r0 c28..37 fg=Muted bg=Background|DiffAddedTint
+r0 c37..40 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c40..45 fg=Foreground bg=Background|DiffAddedTint
+r0 c45..48 bg=Background|DiffAddedTint
+r1 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
+r1 c2..3 fg=Muted bg=Background|DiffAddedTint
+r1 c3..4 bg=Background|DiffAddedTint
+r1 c4..28 fg=Foreground bg=Background|DiffAddedTint
+r1 c28..35 fg=Muted bg=Background|DiffAddedTint
+r1 c35..48 bg=Background|DiffAddedTint
+r2 c0..48 bg=Background|DiffAddedTint
+
+== light-256
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention
+r0 c2..28 fg=Foreground
+r0 c28..40 fg=Muted|Hint|Dim
+r0 c40..45 fg=Foreground
+r1 c0..3 fg=Muted|Hint|Dim
+r1 c4..28 fg=Foreground
+r1 c28..35 fg=Muted|Hint|Dim
+
+== ansi-16
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention
+r0 c28..40 dim
+r1 c0..3 dim
+r1 c28..35 dim
+
+== unknown-ground
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c0..1 fg=Attention
+r0 c28..40 dim
+r1 c0..3 dim
+r1 c28..35 dim
+
+== no-color
+◆ 整理发布说明并翻译成中…   needs you · 等待…
+└ ? review-with-a-very-lo…  unknown
+
+---
+r0 c28..40 dim
+r1 c0..3 dim
+r1 c28..35 dim
+
+== ascii
+* Tidy the release note...  needs you - Wai...
+\ ? review-with-a-very-...  unknown
+
+---
+r0 c28..40 dim
+r1 c0..3 dim
+r1 c28..35 dim

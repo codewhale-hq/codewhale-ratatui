@@ -1,0 +1,63 @@
+---
+source: tests/input.rs
+expression: "testing :: snapshot(height, draw)"
+---
+== dark-truecolor · 40x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..40 bg=Selected
+
+== dark-truecolor · 80x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..80 bg=Selected
+
+== dark-truecolor · 120x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+---
+r0 c0..5 fg=Foreground bg=Background bold
+r0 c5..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..21 fg=Foreground bg=Selected
+r1 c21..23 fg=Foreground bg=Selected reversed
+r1 c23..120 bg=Selected
+
+== no-color · 40x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+
+== no-color · 80x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+
+== no-color · 120x2
+Title
+› 鲸鱼日报 café 👩‍💻 夜间
+
+== ascii · 40x2
+Title
+> <e, combining and emoji text goes here
+
+== ascii · 80x2
+Title
+> wide, combining and emoji text goes here
+
+== ascii · 120x2
+Title
+> wide, combining and emoji text goes here

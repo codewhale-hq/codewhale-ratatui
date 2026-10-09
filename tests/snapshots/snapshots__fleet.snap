@@ -1,0 +1,495 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c0..1 bg=Sidebar
+r0 c1..6 fg=Foreground bg=Sidebar bold
+r0 c6..64 bg=Sidebar
+r1 c0..1 bg=Sidebar
+r1 c1..2 fg=Live bg=Sidebar
+r1 c2..3 bg=Sidebar
+r1 c3..13 fg=Foreground bg=Sidebar bold
+r1 c13..15 bg=Sidebar
+r1 c15..22 fg=Live bg=Sidebar
+r1 c22..24 bg=Sidebar
+r1 c24..30 fg=Muted bg=Sidebar
+r1 c30..64 bg=Sidebar
+r2 c0..1 bg=Sidebar
+r2 c1..40 fg=Muted bg=Sidebar
+r2 c40..64 bg=Sidebar
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Border bg=Sidebar
+r3 c3..46 fg=Foreground bg=Sidebar
+r3 c46..64 bg=Sidebar
+r4 c0..64 bg=Sidebar
+r5 c0..1 bg=Sidebar
+r5 c1..2 fg=Attention bg=Sidebar
+r5 c2..3 bg=Sidebar
+r5 c3..16 fg=Foreground bg=Sidebar bold
+r5 c16..18 bg=Sidebar
+r5 c18..27 fg=Attention bg=Sidebar
+r5 c27..29 bg=Sidebar
+r5 c29..32 fg=Muted bg=Sidebar
+r5 c32..64 bg=Sidebar
+r6 c0..1 bg=Sidebar
+r6 c1..9 fg=Muted bg=Sidebar
+r6 c9..64 bg=Sidebar
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Border bg=Sidebar
+r7 c3..43 fg=Foreground bg=Sidebar
+r7 c43..64 bg=Sidebar
+r8 c0..64 bg=Sidebar
+r9 c0..1 bg=Sidebar
+r9 c1..2 fg=Live bg=Sidebar
+r9 c2..3 bg=Sidebar
+r9 c3..10 fg=Foreground bg=Sidebar bold
+r9 c10..12 bg=Sidebar
+r9 c12..16 fg=Live bg=Sidebar
+r9 c16..18 bg=Sidebar
+r9 c18..24 fg=Muted bg=Sidebar
+r9 c24..64 bg=Sidebar
+r10 c0..1 bg=Sidebar
+r10 c1..9 fg=Muted bg=Sidebar
+r10 c9..64 bg=Sidebar
+r11 c0..1 bg=Sidebar
+r11 c1..3 fg=Border bg=Sidebar
+r11 c3..41 fg=Foreground bg=Sidebar
+r11 c41..64 bg=Sidebar
+r12 c0..64 bg=Sidebar
+r13 c0..64 bg=Sidebar
+
+== dark-graphite
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c0..1 bg=Sidebar
+r0 c1..6 fg=Foreground bg=Sidebar bold
+r0 c6..64 bg=Sidebar
+r1 c0..1 bg=Sidebar
+r1 c1..2 fg=Live bg=Sidebar
+r1 c2..3 bg=Sidebar
+r1 c3..13 fg=Foreground bg=Sidebar bold
+r1 c13..15 bg=Sidebar
+r1 c15..22 fg=Live bg=Sidebar
+r1 c22..24 bg=Sidebar
+r1 c24..30 fg=Muted bg=Sidebar
+r1 c30..64 bg=Sidebar
+r2 c0..1 bg=Sidebar
+r2 c1..40 fg=Muted bg=Sidebar
+r2 c40..64 bg=Sidebar
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Border bg=Sidebar
+r3 c3..46 fg=Foreground bg=Sidebar
+r3 c46..64 bg=Sidebar
+r4 c0..64 bg=Sidebar
+r5 c0..1 bg=Sidebar
+r5 c1..2 fg=Attention bg=Sidebar
+r5 c2..3 bg=Sidebar
+r5 c3..16 fg=Foreground bg=Sidebar bold
+r5 c16..18 bg=Sidebar
+r5 c18..27 fg=Attention bg=Sidebar
+r5 c27..29 bg=Sidebar
+r5 c29..32 fg=Muted bg=Sidebar
+r5 c32..64 bg=Sidebar
+r6 c0..1 bg=Sidebar
+r6 c1..9 fg=Muted bg=Sidebar
+r6 c9..64 bg=Sidebar
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Border bg=Sidebar
+r7 c3..43 fg=Foreground bg=Sidebar
+r7 c43..64 bg=Sidebar
+r8 c0..64 bg=Sidebar
+r9 c0..1 bg=Sidebar
+r9 c1..2 fg=Live bg=Sidebar
+r9 c2..3 bg=Sidebar
+r9 c3..10 fg=Foreground bg=Sidebar bold
+r9 c10..12 bg=Sidebar
+r9 c12..16 fg=Live bg=Sidebar
+r9 c16..18 bg=Sidebar
+r9 c18..24 fg=Muted bg=Sidebar
+r9 c24..64 bg=Sidebar
+r10 c0..1 bg=Sidebar
+r10 c1..9 fg=Muted bg=Sidebar
+r10 c9..64 bg=Sidebar
+r11 c0..1 bg=Sidebar
+r11 c1..3 fg=Border bg=Sidebar
+r11 c3..41 fg=Foreground bg=Sidebar
+r11 c41..64 bg=Sidebar
+r12 c0..64 bg=Sidebar
+r13 c0..64 bg=Sidebar
+
+== light-truecolor
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c0..1 bg=Sidebar
+r0 c1..6 fg=Foreground bg=Sidebar bold
+r0 c6..64 bg=Sidebar
+r1 c0..1 bg=Sidebar
+r1 c1..2 fg=Live bg=Sidebar
+r1 c2..3 bg=Sidebar
+r1 c3..13 fg=Foreground bg=Sidebar bold
+r1 c13..15 bg=Sidebar
+r1 c15..22 fg=Live bg=Sidebar
+r1 c22..24 bg=Sidebar
+r1 c24..30 fg=Muted bg=Sidebar
+r1 c30..64 bg=Sidebar
+r2 c0..1 bg=Sidebar
+r2 c1..40 fg=Muted bg=Sidebar
+r2 c40..64 bg=Sidebar
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Border bg=Sidebar
+r3 c3..46 fg=Foreground bg=Sidebar
+r3 c46..64 bg=Sidebar
+r4 c0..64 bg=Sidebar
+r5 c0..1 bg=Sidebar
+r5 c1..2 fg=Attention bg=Sidebar
+r5 c2..3 bg=Sidebar
+r5 c3..16 fg=Foreground bg=Sidebar bold
+r5 c16..18 bg=Sidebar
+r5 c18..27 fg=Attention bg=Sidebar
+r5 c27..29 bg=Sidebar
+r5 c29..32 fg=Muted bg=Sidebar
+r5 c32..64 bg=Sidebar
+r6 c0..1 bg=Sidebar
+r6 c1..9 fg=Muted bg=Sidebar
+r6 c9..64 bg=Sidebar
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Border bg=Sidebar
+r7 c3..43 fg=Foreground bg=Sidebar
+r7 c43..64 bg=Sidebar
+r8 c0..64 bg=Sidebar
+r9 c0..1 bg=Sidebar
+r9 c1..2 fg=Live bg=Sidebar
+r9 c2..3 bg=Sidebar
+r9 c3..10 fg=Foreground bg=Sidebar bold
+r9 c10..12 bg=Sidebar
+r9 c12..16 fg=Live bg=Sidebar
+r9 c16..18 bg=Sidebar
+r9 c18..24 fg=Muted bg=Sidebar
+r9 c24..64 bg=Sidebar
+r10 c0..1 bg=Sidebar
+r10 c1..9 fg=Muted bg=Sidebar
+r10 c9..64 bg=Sidebar
+r11 c0..1 bg=Sidebar
+r11 c1..3 fg=Border bg=Sidebar
+r11 c3..41 fg=Foreground bg=Sidebar
+r11 c41..64 bg=Sidebar
+r12 c0..64 bg=Sidebar
+r13 c0..64 bg=Sidebar
+
+== dark-256
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c0..1 bg=Sidebar
+r0 c1..6 fg=Foreground bg=Sidebar bold
+r0 c6..64 bg=Sidebar
+r1 c0..1 bg=Sidebar
+r1 c1..2 fg=Live bg=Sidebar
+r1 c2..3 bg=Sidebar
+r1 c3..13 fg=Foreground bg=Sidebar bold
+r1 c13..15 bg=Sidebar
+r1 c15..22 fg=Live bg=Sidebar
+r1 c22..24 bg=Sidebar
+r1 c24..30 fg=Muted bg=Sidebar
+r1 c30..64 bg=Sidebar
+r2 c0..1 bg=Sidebar
+r2 c1..40 fg=Muted bg=Sidebar
+r2 c40..64 bg=Sidebar
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Border bg=Sidebar
+r3 c3..46 fg=Foreground bg=Sidebar
+r3 c46..64 bg=Sidebar
+r4 c0..64 bg=Sidebar
+r5 c0..1 bg=Sidebar
+r5 c1..2 fg=Attention bg=Sidebar
+r5 c2..3 bg=Sidebar
+r5 c3..16 fg=Foreground bg=Sidebar bold
+r5 c16..18 bg=Sidebar
+r5 c18..27 fg=Attention bg=Sidebar
+r5 c27..29 bg=Sidebar
+r5 c29..32 fg=Muted bg=Sidebar
+r5 c32..64 bg=Sidebar
+r6 c0..1 bg=Sidebar
+r6 c1..9 fg=Muted bg=Sidebar
+r6 c9..64 bg=Sidebar
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Border bg=Sidebar
+r7 c3..43 fg=Foreground bg=Sidebar
+r7 c43..64 bg=Sidebar
+r8 c0..64 bg=Sidebar
+r9 c0..1 bg=Sidebar
+r9 c1..2 fg=Live bg=Sidebar
+r9 c2..3 bg=Sidebar
+r9 c3..10 fg=Foreground bg=Sidebar bold
+r9 c10..12 bg=Sidebar
+r9 c12..16 fg=Live bg=Sidebar
+r9 c16..18 bg=Sidebar
+r9 c18..24 fg=Muted bg=Sidebar
+r9 c24..64 bg=Sidebar
+r10 c0..1 bg=Sidebar
+r10 c1..9 fg=Muted bg=Sidebar
+r10 c9..64 bg=Sidebar
+r11 c0..1 bg=Sidebar
+r11 c1..3 fg=Border bg=Sidebar
+r11 c3..41 fg=Foreground bg=Sidebar
+r11 c41..64 bg=Sidebar
+r12 c0..64 bg=Sidebar
+r13 c0..64 bg=Sidebar
+
+== light-256
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c0..1 bg=Sidebar
+r0 c1..6 fg=Foreground bg=Sidebar bold
+r0 c6..64 bg=Sidebar
+r1 c0..1 bg=Sidebar
+r1 c1..2 fg=Live bg=Sidebar
+r1 c2..3 bg=Sidebar
+r1 c3..13 fg=Foreground bg=Sidebar bold
+r1 c13..15 bg=Sidebar
+r1 c15..22 fg=Live bg=Sidebar
+r1 c22..24 bg=Sidebar
+r1 c24..30 fg=Muted bg=Sidebar
+r1 c30..64 bg=Sidebar
+r2 c0..1 bg=Sidebar
+r2 c1..40 fg=Muted bg=Sidebar
+r2 c40..64 bg=Sidebar
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Border bg=Sidebar
+r3 c3..46 fg=Foreground bg=Sidebar
+r3 c46..64 bg=Sidebar
+r4 c0..64 bg=Sidebar
+r5 c0..1 bg=Sidebar
+r5 c1..2 fg=Attention bg=Sidebar
+r5 c2..3 bg=Sidebar
+r5 c3..16 fg=Foreground bg=Sidebar bold
+r5 c16..18 bg=Sidebar
+r5 c18..27 fg=Attention bg=Sidebar
+r5 c27..29 bg=Sidebar
+r5 c29..32 fg=Muted bg=Sidebar
+r5 c32..64 bg=Sidebar
+r6 c0..1 bg=Sidebar
+r6 c1..9 fg=Muted bg=Sidebar
+r6 c9..64 bg=Sidebar
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Border bg=Sidebar
+r7 c3..43 fg=Foreground bg=Sidebar
+r7 c43..64 bg=Sidebar
+r8 c0..64 bg=Sidebar
+r9 c0..1 bg=Sidebar
+r9 c1..2 fg=Live bg=Sidebar
+r9 c2..3 bg=Sidebar
+r9 c3..10 fg=Foreground bg=Sidebar bold
+r9 c10..12 bg=Sidebar
+r9 c12..16 fg=Live bg=Sidebar
+r9 c16..18 bg=Sidebar
+r9 c18..24 fg=Muted bg=Sidebar
+r9 c24..64 bg=Sidebar
+r10 c0..1 bg=Sidebar
+r10 c1..9 fg=Muted bg=Sidebar
+r10 c9..64 bg=Sidebar
+r11 c0..1 bg=Sidebar
+r11 c1..3 fg=Border bg=Sidebar
+r11 c3..41 fg=Foreground bg=Sidebar
+r11 c41..64 bg=Sidebar
+r12 c0..64 bg=Sidebar
+r13 c0..64 bg=Sidebar
+
+== ansi-16
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c1..6 bold
+r1 c1..2 fg=Live
+r1 c3..13 bold
+r1 c15..22 fg=Live
+r1 c24..30 dim
+r2 c1..40 dim
+r3 c1..3 dim
+r5 c1..2 fg=Attention
+r5 c3..16 bold
+r5 c18..27 fg=Attention
+r5 c29..32 dim
+r6 c1..9 dim
+r7 c1..3 dim
+r9 c1..2 fg=Live
+r9 c3..10 bold
+r9 c12..16 fg=Live
+r9 c18..24 dim
+r10 c1..9 dim
+r11 c1..3 dim
+
+== unknown-ground
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c1..6 bold
+r1 c1..2 fg=Live
+r1 c3..13 bold
+r1 c15..22 fg=Live
+r1 c24..30 dim
+r2 c1..40 dim
+r3 c1..3 dim
+r5 c1..2 fg=Attention
+r5 c3..16 bold
+r5 c18..27 fg=Attention
+r5 c29..32 dim
+r6 c1..9 dim
+r7 c1..3 dim
+r9 c1..2 fg=Live
+r9 c3..10 bold
+r9 c12..16 fg=Live
+r9 c18..24 dim
+r10 c1..9 dim
+r11 c1..3 dim
+
+== no-color
+ Fleet
+ ● Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ ▏ Extract reusable message and tool surfaces.
+
+ ◆ Accessibility  Needs you  48s
+ Reviewer
+ ▏ Choose the host's localized state words.
+
+ ✓ Gallery  Done  1m 24s
+ Verifier
+ ▏ Review illustrative terminal profiles.
+
+
+---
+r0 c1..6 bold
+r1 c3..13 bold
+r1 c24..30 dim
+r2 c1..40 dim
+r3 c1..3 dim
+r5 c3..16 bold
+r5 c29..32 dim
+r6 c1..9 dim
+r7 c1..3 dim
+r9 c3..10 bold
+r9 c18..24 dim
+r10 c1..9 dim
+r11 c1..3 dim
+
+== ascii
+ Fleet
+ . Transcript  Working  2m 10s
+ Builder / Local / caller-selected model
+ | Extract reusable message and tool surfaces.
+
+ * Accessibility  Needs you  48s
+ Reviewer
+ | Choose the host's localized state words.
+
+ Y Gallery  Done  1m 24s
+ Verifier
+ | Review illustrative terminal profiles.
+
+
+---
+r0 c1..6 bold
+r1 c3..13 bold
+r1 c24..30 dim
+r2 c1..40 dim
+r3 c1..3 dim
+r5 c3..16 bold
+r5 c29..32 dim
+r6 c1..9 dim
+r7 c1..3 dim
+r9 c3..10 bold
+r9 c18..24 dim
+r10 c1..9 dim
+r11 c1..3 dim

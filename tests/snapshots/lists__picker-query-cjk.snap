@@ -1,0 +1,114 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(5, paint_picker_query_cjk)"
+---
+== dark-truecolor · 40x5
+› 鱼录                               1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..4 fg=Foreground bg=Background
+r0 c4..6 fg=Foreground bg=Background reversed
+r0 c6..37 bg=Background
+r0 c37..40 fg=Hint bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..4 fg=Foreground bg=Selected bold
+r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c6..8 fg=Foreground bg=Selected bold
+r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c10..20 fg=Muted bg=Selected
+r1 c20..40 bg=Selected
+r2 c0..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..40 bg=Background
+
+== dark-truecolor · 80x5
+› 鱼录                                                                       1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..4 fg=Foreground bg=Background
+r0 c4..6 fg=Foreground bg=Background reversed
+r0 c6..77 bg=Background
+r0 c77..80 fg=Hint bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..4 fg=Foreground bg=Selected bold
+r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c6..8 fg=Foreground bg=Selected bold
+r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c10..20 fg=Muted bg=Selected
+r1 c20..80 bg=Selected
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+
+== dark-truecolor · 120x5
+› 鱼录                                                                                                               1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..4 fg=Foreground bg=Background
+r0 c4..6 fg=Foreground bg=Background reversed
+r0 c6..117 bg=Background
+r0 c117..120 fg=Hint bg=Background
+r1 c0..2 fg=Primary bg=Selected
+r1 c2..4 fg=Foreground bg=Selected bold
+r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c6..8 fg=Foreground bg=Selected bold
+r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c10..20 fg=Muted bg=Selected
+r1 c20..120 bg=Selected
+r2 c0..120 bg=Background
+r3 c0..120 bg=Background
+r4 c0..120 bg=Background
+
+== no-color · 40x5
+› 鱼录                               1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+
+== no-color · 80x5
+› 鱼录                                                                       1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+
+== no-color · 120x5
+› 鱼录                                                                                                               1/3
+▸ 鲸鱼记录  会话记录
+
+
+
+
+== ascii · 40x5
+/ 鱼录                               1/3
+> 鲸鱼记录  会话记录
+
+
+
+
+== ascii · 80x5
+/ 鱼录                                                                       1/3
+> 鲸鱼记录  会话记录
+
+
+
+
+== ascii · 120x5
+/ 鱼录                                                                                                               1/3
+> 鲸鱼记录  会话记录

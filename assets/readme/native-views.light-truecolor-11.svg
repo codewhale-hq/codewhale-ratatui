@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="672" viewBox="0 0 864 672" role="img" aria-labelledby="title desc"><title id="title">Codewhale terminal views — Truecolor / Paper · page 11/22</title><desc id="desc">Sessions, settings, pickers and work panels built from reusable native parts. Actual ratatui buffer renders: view-models-narrow</desc><rect width="100%" height="100%" fill="#faf8f5" /><text x="32" y="48" fill="#14213a" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="600">Codewhale terminal views</text><text x="832" y="72" fill="#5b6780" font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" text-anchor="end">Truecolor / Paper · page 11/22</text><path d="M32 80H832" stroke="#a9b8cf" stroke-width="1" /><g data-entry="view-models-narrow"><text x="32" y="113" fill="#14213a" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">View models narrow</text><svg width="800" height="480" viewBox="0 0 800 480" role="img" x="32" y="136"><title>Ratatui buffer, 80 columns by 24 rows</title><rect width="100%" height="100%" fill="#faf8f5" />
+<rect x="20" y="120" width="760" height="20" fill="#eef6ff" />
+<rect x="20" y="340" width="760" height="20" fill="#eef6ff" />
+<g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
+<text x="20" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">r</text>
+<text x="30" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">o</text>
+<text x="40" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">u</text>
+<text x="50" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">t</text>
+<text x="60" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="80" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">·</text>
+<text x="100" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">c</text>
+<text x="110" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">o</text>
+<text x="120" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">n</text>
+<text x="130" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">f</text>
+<text x="140" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">i</text>
+<text x="150" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">g</text>
+<text x="160" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">u</text>
+<text x="170" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">r</text>
+<text x="180" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="190" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">d</text>
+<text x="210" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="220" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="230" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="240" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="250" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="260" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="270" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="280" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="290" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="300" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="310" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="320" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="330" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="340" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="350" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="360" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="370" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="380" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="390" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="400" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="410" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="420" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="430" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="440" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="450" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="460" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="470" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="480" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="490" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="500" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="510" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="520" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="530" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="540" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="550" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="560" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="570" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="580" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="590" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="600" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">b</text>
+<path d="M600 38H610" stroke="#1535b2" stroke-width="1" />
+<text x="610" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<path d="M610 38H620" stroke="#1535b2" stroke-width="1" />
+<text x="620" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<path d="M620 38H630" stroke="#1535b2" stroke-width="1" />
+<text x="630" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">w</text>
+<path d="M630 38H640" stroke="#1535b2" stroke-width="1" />
+<text x="640" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<path d="M640 38H650" stroke="#1535b2" stroke-width="1" />
+<text x="650" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<path d="M650 38H660" stroke="#1535b2" stroke-width="1" />
+<path d="M660 38H670" stroke="#1535b2" stroke-width="1" />
+<text x="670" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<path d="M670 38H680" stroke="#1535b2" stroke-width="1" />
+<text x="680" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<path d="M680 38H690" stroke="#1535b2" stroke-width="1" />
+<text x="690" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
+<path d="M690 38H700" stroke="#1535b2" stroke-width="1" />
+<text x="700" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<path d="M700 38H710" stroke="#1535b2" stroke-width="1" />
+<text x="710" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<path d="M710 38H720" stroke="#1535b2" stroke-width="1" />
+<text x="720" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<path d="M720 38H730" stroke="#1535b2" stroke-width="1" />
+<text x="730" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">g</text>
+<path d="M730 38H740" stroke="#1535b2" stroke-width="1" />
+<path d="M740 38H750" stroke="#1535b2" stroke-width="1" />
+<text x="750" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">(</text>
+<path d="M750 38H760" stroke="#1535b2" stroke-width="1" />
+<text x="760" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">3</text>
+<path d="M760 38H770" stroke="#1535b2" stroke-width="1" />
+<text x="770" y="35" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">)</text>
+<path d="M770 38H780" stroke="#1535b2" stroke-width="1" />
+<text x="780" y="35" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="20" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">P</text>
+<text x="30" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="40" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="50" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">v</text>
+<text x="60" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="70" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="80" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="90" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="100" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">:</text>
+<text x="120" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="130" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="140" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="150" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">p</text>
+<text x="160" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">S</text>
+<text x="170" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="180" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="190" y="75" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">k</text>
+<text x="40" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">M</text>
+<text x="50" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="60" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="70" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="80" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="100" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">·</text>
+<text x="120" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="130" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="140" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="150" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">f</text>
+<text x="160" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="170" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">g</text>
+<text x="180" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">u</text>
+<text x="190" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="200" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="210" y="95" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="40" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">M</text>
+<text x="50" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="60" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="70" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="80" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="300" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">P</text>
+<text x="310" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="320" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="330" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">v</text>
+<text x="340" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="350" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="360" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="370" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="470" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="480" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="490" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
+<text x="500" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="510" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="520" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="530" y="115" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="20" y="135" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">▸</text>
+<text x="40" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">d</text>
+<text x="50" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="60" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="70" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">p</text>
+<text x="80" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">s</text>
+<text x="90" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="100" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="110" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">k</text>
+<text x="120" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">-</text>
+<text x="130" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">v</text>
+<text x="140" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">4</text>
+<text x="300" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">D</text>
+<text x="310" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="320" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="330" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">p</text>
+<text x="340" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">S</text>
+<text x="350" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="360" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="370" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">k</text>
+<text x="470" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">a</text>
+<text x="480" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">c</text>
+<text x="490" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">t</text>
+<text x="500" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">i</text>
+<text x="510" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">v</text>
+<text x="520" y="135" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="40" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="50" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="60" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="70" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">p</text>
+<text x="80" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="90" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="100" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="110" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">k</text>
+<text x="120" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">-</text>
+<text x="130" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">v</text>
+<text x="140" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="150" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">-</text>
+<text x="160" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">f</text>
+<text x="170" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="180" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="190" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="200" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">h</text>
+<text x="300" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="310" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="320" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="330" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">p</text>
+<text x="340" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">S</text>
+<text x="350" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="360" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="370" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">k</text>
+<text x="470" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="480" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="490" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">v</text>
+<text x="500" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="510" y="155" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="40" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">q</text>
+<text x="50" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">w</text>
+<text x="60" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="70" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="80" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="90" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">.</text>
+<text x="100" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="110" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">:</text>
+<text x="120" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="130" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="140" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">b</text>
+<text x="300" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">O</text>
+<text x="310" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="320" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="330" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="340" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
+<text x="350" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="470" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="480" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="490" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="500" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="510" y="175" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="40" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">R</text>
+<text x="50" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="60" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="70" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="80" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="90" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="100" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="110" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="120" y="295" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">g</text>
+<text x="40" y="315" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="50" y="315" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="60" y="315" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">w</text>
+<text x="40" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
+<text x="50" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="60" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="70" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="80" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">u</text>
+<text x="90" y="335" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
+<text x="20" y="355" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs">▸</text>
+<text x="40" y="355" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">h</text>
+<text x="50" y="355" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">i</text>
+<text x="60" y="355" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">g</text>
+<text x="70" y="355" fill="#14213a" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">h</text>
+<text x="30" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">↑</text>
+<text x="40" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">/</text>
+<text x="50" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">↓</text>
+<text x="70" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
+<text x="80" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="90" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">v</text>
+<text x="100" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="130" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">T</text>
+<text x="140" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">a</text>
+<text x="150" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">b</text>
+<text x="170" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="180" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">w</text>
+<text x="190" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
+<text x="200" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
+<text x="210" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="220" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">h</text>
+<text x="250" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">T</text>
+<text x="260" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">y</text>
+<text x="270" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">p</text>
+<text x="280" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="300" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="310" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="320" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="330" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="340" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="350" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">h</text>
+<text x="370" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="380" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="390" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">y</text>
+<text x="410" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
+<text x="420" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="430" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">d</text>
+<text x="440" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="450" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="480" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">E</text>
+<text x="490" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">n</text>
+<text x="500" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">t</text>
+<text x="510" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">e</text>
+<text x="520" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">r</text>
+<text x="540" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="550" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">p</text>
+<text x="560" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">p</text>
+<text x="570" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="580" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">y</text>
+<text x="610" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">⇧</text>
+<text x="620" y="415" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">A</text>
+<text x="640" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">b</text>
+<text x="650" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
+<text x="660" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="670" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">w</text>
+<text x="680" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
+<text x="690" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="710" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="720" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="730" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
+<text x="740" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="750" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="760" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">o</text>
+<text x="770" y="415" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">g</text>
+<text x="30" y="435" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">E</text>
+<text x="40" y="435" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">s</text>
+<text x="50" y="435" fill="#1535b2" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">c</text>
+<text x="70" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="80" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">a</text>
+<text x="90" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
+<text x="100" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
+<text x="110" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
+<text x="120" y="435" fill="#5b6780" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>
+<text x="10" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="20" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="30" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="40" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="50" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="60" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="70" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="80" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="90" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="100" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="110" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="120" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="130" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="140" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="150" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="160" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="170" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="180" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="190" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="200" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="210" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="220" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="230" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="240" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="250" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="260" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="270" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="280" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="290" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="300" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="310" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="320" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="330" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="340" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="350" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="360" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="370" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="380" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="390" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="400" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="410" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="420" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="430" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="440" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="450" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="460" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="470" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="480" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="490" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="500" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="510" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="520" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="530" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="540" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="550" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="560" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="570" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="580" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="590" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="600" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="610" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="620" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="630" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="640" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="650" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="660" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="670" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="680" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="690" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="700" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="710" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="720" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="730" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="740" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="750" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="760" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="770" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+<text x="780" y="455" fill="#a9b8cf" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
+</g></svg></g></svg>

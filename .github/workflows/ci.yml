@@ -1,0 +1,177 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  # A new push to a PR cancels the superseded head. Each SHA on main gets its
+  # own group so every commit there finishes with a verdict.
+  group: ${{ github.event_name == 'pull_request' && format('ci-pr-{0}', github.event.pull_request.number) || format('ci-{0}-{1}', github.workflow, github.sha) }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: 0
+  RUSTFLAGS: -Dwarnings
+
+jobs:
+  fmt:
+    name: Format
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+          components: rustfmt
+      - run: cargo fmt --check
+
+  clippy:
+    name: Clippy
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - run: cargo clippy --all-targets --locked -- -D warnings
+
+  test:
+    name: Test (${{ matrix.os }})
+    timeout-minutes: 30
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      # insta never writes snapshots when CI is set, so a changed snapshot
+      # fails here instead of being rewritten.
+      - run: cargo test --locked
+      - name: Public learning recipes
+        run: cargo test --locked --example recipes
+
+  msrv:
+    # The kit must build and pass its tests on the toolchain it declares.
+    # Keep the toolchain below in step with `rust-version` in Cargo.toml; the
+    # first step fails if they drift.
+    name: MSRV (1.89)
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: rust-version in Cargo.toml is the toolchain below
+        run: grep -qx 'rust-version = "1.89"' Cargo.toml
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: "1.89"
+      - uses: Swatinem/rust-cache@v2
+        with:
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - run: cargo +1.89 test --locked
+      - run: cargo +1.89 test --locked --example recipes
+      - name: Consumer also supports the declared Rust minimum
+        run: cargo +1.89 run --locked --manifest-path tests/consumer/Cargo.toml
+
+  one-ratatui:
+    # A second ratatui or crossterm in the tree means a host cannot share
+    # types with the kit: Buffer, Style and KeyEvent would be two types.
+    name: One ratatui, one crossterm
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - name: No duplicate ratatui or crossterm versions
+        shell: bash
+        run: |
+          set -euo pipefail
+          cargo tree --locked --duplicates --depth 0 -e normal,build,dev
+          dups="$(cargo tree --locked --duplicates --depth 0 -e normal,build,dev | grep -E '^(ratatui[a-z-]*|crossterm) v' || true)"
+          if [ -n "${dups}" ]; then
+            echo "::error::duplicate versions in the dependency tree:"
+            echo "${dups}"
+            exit 1
+          fi
+
+  consumer:
+    name: Library consumer, docs and package
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    env:
+      RUSTDOCFLAGS: -Dwarnings
+    steps:
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Consumer chooses no terminal backend
+        run: |
+          cargo run --locked --manifest-path tests/consumer/Cargo.toml
+          mkdir -p target
+          cargo tree --locked --manifest-path tests/consumer/Cargo.toml --edges normal --prefix none > target/consumer-tree.txt
+          python3 -c "from pathlib import Path; import re; assert not re.search(r'^ratatui-(crossterm|termion|termwiz|termina) v', Path('target/consumer-tree.txt').read_text(), re.M), 'library selected a terminal backend'"
+      - name: Public API documentation has valid links
+        run: cargo doc --locked --no-deps
+      - name: The source package builds independently
+        run: cargo package --locked
+      - name: Packaged library tests have all their native assets
+        run: >-
+          python3 -c "import subprocess, tomllib; from pathlib import Path;
+          p = tomllib.loads(Path('Cargo.toml').read_text())['package'];
+          subprocess.run(['cargo', 'test', '--locked', '--lib', '--manifest-path',
+          'target/package/' + p['name'] + '-' + p['version'] + '/Cargo.toml'], check=True)"
+      - name: Benchmarks build without running timing thresholds
+        run: cargo check --locked --benches
+
+  generated:
+    # The vendored tokens and what is generated from them. Python and Node
+    # come with the runner images; `roles.rs` is checked by
+    # `cargo test --test generated`, the whale by `cargo test --test whale`
+    # (dot for dot against the kit's own stills).
+    #
+    # `tools/export-whale.cjs --check` needs the whale-character-v2 sources,
+    # which live in a private repository this workflow cannot read, so CI
+    # only syntax-checks the script. Run it locally against the kit when
+    # `assets/whale-v2.scenes` changes.
+    name: Generated files
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Vendored design tokens are intact
+        run: python3 vendor/codewhale-design/generate.py --check
+      - name: Whale exporter parses
+        run: node --check tools/export-whale.cjs
+      - name: roles.rs matches the tokens; the whale matches the kit's stills
+        run: cargo test --locked --test generated --test whale

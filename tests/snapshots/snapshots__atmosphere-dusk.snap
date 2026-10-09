@@ -1,0 +1,3194 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean              Turn
+   Lagoon
+ ▸ Dusk               ● Working
+   Coral              ◆ Needs you
+   Graphite           ✕ Failed
+                      ✓ Done
+
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..2 fg=Foreground bg=#152136 bold
+r0 c2..4 fg=Foreground bg=#152135 bold
+r0 c4..7 fg=Foreground bg=#162135 bold
+r0 c7..13 fg=Foreground bg=#162134 bold
+r0 c13..18 fg=Foreground bg=#172133 bold
+r0 c18..24 fg=Foreground bg=#182132 bold
+r0 c24..27 fg=Foreground bg=#192131 bold
+r0 c27..30 bg=#192131
+r0 c30..33 bg=#192130
+r0 c33..38 bg=#1a212f
+r0 c38..39 bg=#1b212f
+r0 c39..44 bg=#1b212e
+r0 c44..47 bg=#1b212d
+r0 c47..48 bg=#1c212d
+r0 c48..53 bg=#1c212c
+r0 c53..54 bg=#1d212c
+r0 c54..59 bg=#1d212b
+r0 c59..61 bg=#1d212a
+r0 c61..63 bg=#1e212a
+r0 c63..64 bg=#1e2129
+r0 c64..65 bg=#1e2029
+r0 c65..67 bg=#1e2129
+r0 c67..69 bg=#1f2029
+r0 c69..72 bg=#1f2028
+r0 c72..76 bg=#1f2027
+r0 c76..79 bg=#202027
+r0 c79..81 bg=#202026
+r0 c81..83 bg=#212026
+r0 c83..87 bg=#212025
+r0 c87..90 bg=#212024
+r0 c90..93 fg=Muted bg=#222024
+r0 c93..96 fg=Muted bg=#222023
+r0 c96..99 fg=Muted bg=#222022
+r0 c99..101 fg=Muted bg=#232022
+r0 c101..104 fg=Muted bg=#232021
+r1 c0..1 bg=#101a2b
+r1 c1..6 fg=Foreground bg=#101a2b bold
+r1 c6..9 fg=Foreground bg=#111a2a bold
+r1 c9..12 bg=#111a2a
+r1 c12..13 bg=#121a2a
+r1 c13..15 bg=#121a29
+r1 c15..18 fg=Muted bg=#121a29
+r1 c18..19 fg=Muted bg=#121a28
+r1 c19..20 bg=#121a28
+r1 c20..21 bg=#182132
+r1 c21..22 fg=Primary bg=#182132
+r1 c22..23 bg=#182132
+r1 c23..26 fg=Primary bg=#192131 bold
+r1 c26..29 bg=#192131
+r1 c29..32 bg=#192130
+r1 c32..37 bg=#1a212f
+r1 c37..38 bg=#1b212f
+r1 c38..43 bg=#1b212e
+r1 c43..46 bg=#1b212d
+r1 c46..47 bg=#1c212d
+r1 c47..52 bg=#1c212c
+r1 c52..53 bg=#1d212c
+r1 c53..58 bg=#1d212b
+r1 c58..60 bg=#1d212a
+r1 c60..62 bg=#1e212a
+r1 c62..63 bg=#1e2129
+r1 c63..64 bg=#1e2029
+r1 c64..66 bg=#1e2129
+r1 c66..68 bg=#1f2029
+r1 c68..71 bg=#1f2028
+r1 c71..75 bg=#1f2027
+r1 c75..78 bg=#202027
+r1 c78..80 bg=#202026
+r1 c80..82 bg=#212026
+r1 c82..86 bg=#212025
+r1 c86..89 bg=#212024
+r1 c89..92 bg=#222024
+r1 c92..95 bg=#222023
+r1 c95..98 bg=#222022
+r1 c98..100 bg=#232022
+r1 c100..104 bg=#232021
+r2 c0..5 bg=#101a2b
+r2 c5..11 bg=#111a2a
+r2 c11..12 bg=#121a2a
+r2 c12..17 bg=#121a29
+r2 c17..19 bg=#121a28
+r2 c19..20 bg=#131a28
+r2 c20..21 bg=#182132
+r2 c21..22 fg=Border bg=Background
+r2 c22..23 fg=Border bg=#192131
+r2 c23..28 fg=Foreground bg=#192131
+r2 c28..31 fg=Foreground bg=#192130
+r2 c31..36 fg=Foreground bg=#1a212f
+r2 c36..37 fg=Foreground bg=#1b212f
+r2 c37..42 fg=Foreground bg=#1b212e
+r2 c42..45 fg=Foreground bg=#1b212d
+r2 c45..46 fg=Foreground bg=#1c212d
+r2 c46..51 fg=Foreground bg=#1c212c
+r2 c51..52 fg=Foreground bg=#1d212c
+r2 c52..57 fg=Foreground bg=#1d212b
+r2 c57..59 fg=Foreground bg=#1d212a
+r2 c59..61 fg=Foreground bg=#1e212a
+r2 c61..62 bg=#1e2129
+r2 c62..63 bg=#1e2029
+r2 c63..65 bg=#1e2129
+r2 c65..67 bg=#1f2029
+r2 c67..70 bg=#1f2028
+r2 c70..74 bg=#1f2027
+r2 c74..77 bg=#202027
+r2 c77..79 bg=#202026
+r2 c79..81 bg=#212026
+r2 c81..85 bg=#212025
+r2 c85..88 bg=#212024
+r2 c88..91 bg=#222024
+r2 c91..94 bg=#222023
+r2 c94..97 bg=#222022
+r2 c97..99 bg=#232022
+r2 c99..104 bg=#232021
+r3 c0..1 bg=#101a2b
+r3 c1..3 fg=Primary bg=#101a2b
+r3 c3..4 fg=Foreground bg=#101a2b
+r3 c4..10 fg=Foreground bg=#111a2a
+r3 c10..11 fg=Foreground bg=#121a2a
+r3 c11..16 bg=#121a29
+r3 c16..18 bg=#121a28
+r3 c18..20 bg=#131a28
+r3 c20..21 bg=#182132
+r3 c21..22 bg=#212b40
+r3 c22..23 fg=Foreground bg=#212b40 bold
+r3 c23..26 fg=Foreground bg=#212b3f bold
+r3 c26..27 bg=#212b3f
+r3 c27..30 bg=#222b3e
+r3 c30..33 bg=#222b3d
+r3 c33..34 bg=#232b3d
+r3 c34..38 bg=#232b3c
+r3 c38..43 bg=#242b3b
+r3 c43..45 bg=#242b3a
+r3 c45..49 bg=#252b3a
+r3 c49..50 bg=#252b39
+r3 c50..53 bg=#262b39
+r3 c53..55 bg=#262b38
+r3 c55..56 bg=#272b38
+r3 c56..60 bg=#272b37
+r3 c60..64 bg=#272b36
+r3 c64..67 bg=#282b35
+r3 c67..70 bg=#282b34
+r3 c70..71 bg=#292a34
+r3 c71..73 bg=#292b34
+r3 c73..76 bg=#292a33
+r3 c76..77 bg=#2a2a33
+r3 c77..81 bg=#2a2a32
+r3 c81..86 bg=#2b2a31
+r3 c86..88 bg=#2b2a30
+r3 c88..90 bg=#2c2a30
+r3 c90..93 bg=#2c2a2f
+r3 c93..96 bg=#2c2a2e
+r3 c96..97 bg=#2d2a2e
+r3 c97..101 bg=#2d2a2d
+r3 c101..104 bg=#2e2a2c
+r4 c0..1 bg=#101a2b
+r4 c1..3 fg=Primary bg=#101a2b
+r4 c3..9 fg=Foreground bg=#111a2a
+r4 c9..10 fg=Foreground bg=#121a2a
+r4 c10..11 fg=Foreground bg=#121a29
+r4 c11..15 bg=#121a29
+r4 c15..17 bg=#121a28
+r4 c17..20 bg=#131a28
+r4 c20..21 bg=#192131
+r4 c21..22 bg=#212b40
+r4 c22..26 bg=#212b3f
+r4 c26..29 bg=#222b3e
+r4 c29..32 bg=#222b3d
+r4 c32..33 bg=#232b3d
+r4 c33..37 bg=#232b3c
+r4 c37..42 bg=#242b3b
+r4 c42..44 bg=#242b3a
+r4 c44..48 bg=#252b3a
+r4 c48..49 bg=#252b39
+r4 c49..52 bg=#262b39
+r4 c52..54 bg=#262b38
+r4 c54..55 bg=#272b38
+r4 c55..59 bg=#272b37
+r4 c59..63 bg=#272b36
+r4 c63..66 bg=#282b35
+r4 c66..69 bg=#282b34
+r4 c69..70 bg=#292a34
+r4 c70..72 bg=#292b34
+r4 c72..75 bg=#292a33
+r4 c75..76 bg=#2a2a33
+r4 c76..80 bg=#2a2a32
+r4 c80..85 bg=#2b2a31
+r4 c85..87 bg=#2b2a30
+r4 c87..89 bg=#2c2a30
+r4 c89..92 bg=#2c2a2f
+r4 c92..95 bg=#2c2a2e
+r4 c95..96 bg=#2d2a2e
+r4 c96..100 bg=#2d2a2d
+r4 c100..104 bg=#2e2a2c
+r5 c0..1 bg=#101a2b
+r5 c1..3 fg=Primary bg=#283957
+r5 c3..4 fg=Foreground bg=#283957 bold
+r5 c4..6 fg=Foreground bg=#283956 bold
+r5 c6..8 fg=Foreground bg=#293956 bold
+r5 c8..11 fg=Foreground bg=#293955 bold
+r5 c11..12 bg=#293955
+r5 c12..15 bg=#2a3954
+r5 c15..17 bg=#2a3953
+r5 c17..19 bg=#2b3953
+r5 c19..20 bg=#131a28
+r5 c20..21 bg=#192131
+r5 c21..22 bg=#212b3f
+r5 c22..23 fg=Live bg=#212b3f
+r5 c23..24 bg=#212b3f
+r5 c24..25 fg=Foreground bg=#212b3f
+r5 c25..28 fg=Foreground bg=#222b3e
+r5 c28..31 fg=Foreground bg=#222b3d
+r5 c31..32 bg=#232b3d
+r5 c32..36 bg=#232b3c
+r5 c36..41 bg=#242b3b
+r5 c41..43 bg=#242b3a
+r5 c43..47 bg=#252b3a
+r5 c47..48 bg=#252b39
+r5 c48..51 bg=#262b39
+r5 c51..53 bg=#262b38
+r5 c53..54 bg=#272b38
+r5 c54..58 bg=#272b37
+r5 c58..62 bg=#272b36
+r5 c62..65 bg=#282b35
+r5 c65..68 bg=#282b34
+r5 c68..69 bg=#292a34
+r5 c69..71 bg=#292b34
+r5 c71..74 bg=#292a33
+r5 c74..75 bg=#2a2a33
+r5 c75..79 bg=#2a2a32
+r5 c79..84 bg=#2b2a31
+r5 c84..86 bg=#2b2a30
+r5 c86..88 bg=#2c2a30
+r5 c88..91 bg=#2c2a2f
+r5 c91..94 bg=#2c2a2e
+r5 c94..95 bg=#2d2a2e
+r5 c95..99 bg=#2d2a2d
+r5 c99..104 bg=#2e2a2c
+r6 c0..1 bg=#101a2b
+r6 c1..3 fg=Primary bg=#111a2a
+r6 c3..7 fg=Foreground bg=#111a2a
+r6 c7..8 fg=Foreground bg=#121a2a
+r6 c8..11 fg=Foreground bg=#121a29
+r6 c11..13 bg=#121a29
+r6 c13..15 bg=#121a28
+r6 c15..19 bg=#131a28
+r6 c19..20 bg=#131a27
+r6 c20..21 bg=#192131
+r6 c21..22 bg=#212b3f
+r6 c22..23 fg=Attention bg=#212b3f
+r6 c23..24 bg=#212b3f
+r6 c24..27 fg=Foreground bg=#222b3e
+r6 c27..30 fg=Foreground bg=#222b3d
+r6 c30..31 fg=Foreground bg=#232b3d
+r6 c31..33 fg=Foreground bg=#232b3c
+r6 c33..35 bg=#232b3c
+r6 c35..40 bg=#242b3b
+r6 c40..42 bg=#242b3a
+r6 c42..46 bg=#252b3a
+r6 c46..47 bg=#252b39
+r6 c47..50 bg=#262b39
+r6 c50..52 bg=#262b38
+r6 c52..53 bg=#272b38
+r6 c53..57 bg=#272b37
+r6 c57..61 bg=#272b36
+r6 c61..64 bg=#282b35
+r6 c64..67 bg=#282b34
+r6 c67..68 bg=#292a34
+r6 c68..70 bg=#292b34
+r6 c70..73 bg=#292a33
+r6 c73..74 bg=#2a2a33
+r6 c74..78 bg=#2a2a32
+r6 c78..83 bg=#2b2a31
+r6 c83..85 bg=#2b2a30
+r6 c85..87 bg=#2c2a30
+r6 c87..90 bg=#2c2a2f
+r6 c90..93 bg=#2c2a2e
+r6 c93..94 bg=#2d2a2e
+r6 c94..98 bg=#2d2a2d
+r6 c98..103 bg=#2e2a2c
+r6 c103..104 bg=#2e2a2b
+r7 c0..1 bg=#111a2a
+r7 c1..3 fg=Primary bg=#111a2a
+r7 c3..6 fg=Foreground bg=#111a2a
+r7 c6..7 fg=Foreground bg=#121a2a
+r7 c7..11 fg=Foreground bg=#121a29
+r7 c11..12 bg=#121a29
+r7 c12..14 bg=#121a28
+r7 c14..18 bg=#131a28
+r7 c18..20 bg=#131a27
+r7 c20..21 bg=#192131
+r7 c21..22 bg=#212b3f
+r7 c22..23 fg=Danger bg=#212b3f
+r7 c23..24 bg=#222b3e
+r7 c24..26 fg=Foreground bg=#222b3e
+r7 c26..29 fg=Foreground bg=#222b3d
+r7 c29..30 fg=Foreground bg=#232b3d
+r7 c30..34 bg=#232b3c
+r7 c34..39 bg=#242b3b
+r7 c39..41 bg=#242b3a
+r7 c41..45 bg=#252b3a
+r7 c45..46 bg=#252b39
+r7 c46..49 bg=#262b39
+r7 c49..51 bg=#262b38
+r7 c51..52 bg=#272b38
+r7 c52..56 bg=#272b37
+r7 c56..60 bg=#272b36
+r7 c60..63 bg=#282b35
+r7 c63..66 bg=#282b34
+r7 c66..67 bg=#292a34
+r7 c67..69 bg=#292b34
+r7 c69..72 bg=#292a33
+r7 c72..73 bg=#2a2a33
+r7 c73..77 bg=#2a2a32
+r7 c77..82 bg=#2b2a31
+r7 c82..84 bg=#2b2a30
+r7 c84..86 bg=#2c2a30
+r7 c86..89 bg=#2c2a2f
+r7 c89..92 bg=#2c2a2e
+r7 c92..93 bg=#2d2a2e
+r7 c93..97 bg=#2d2a2d
+r7 c97..102 bg=#2e2a2c
+r7 c102..103 bg=#2e2a2b
+r7 c103..104 bg=#2f2a2b
+r8 c0..5 bg=#111a2a
+r8 c5..6 bg=#121a2a
+r8 c6..11 bg=#121a29
+r8 c11..13 bg=#121a28
+r8 c13..17 bg=#131a28
+r8 c17..20 bg=#131a27
+r8 c20..21 bg=#192131
+r8 c21..22 bg=#212b3f
+r8 c22..23 fg=Live bg=#222b3e
+r8 c23..24 bg=#222b3e
+r8 c24..25 fg=Foreground bg=#222b3e
+r8 c25..28 fg=Foreground bg=#222b3d
+r8 c28..29 bg=#232b3d
+r8 c29..33 bg=#232b3c
+r8 c33..38 bg=#242b3b
+r8 c38..40 bg=#242b3a
+r8 c40..44 bg=#252b3a
+r8 c44..45 bg=#252b39
+r8 c45..48 bg=#262b39
+r8 c48..50 bg=#262b38
+r8 c50..51 bg=#272b38
+r8 c51..55 bg=#272b37
+r8 c55..59 bg=#272b36
+r8 c59..62 bg=#282b35
+r8 c62..65 bg=#282b34
+r8 c65..66 bg=#292a34
+r8 c66..68 bg=#292b34
+r8 c68..71 bg=#292a33
+r8 c71..72 bg=#2a2a33
+r8 c72..76 bg=#2a2a32
+r8 c76..81 bg=#2b2a31
+r8 c81..83 bg=#2b2a30
+r8 c83..85 bg=#2c2a30
+r8 c85..88 bg=#2c2a2f
+r8 c88..91 bg=#2c2a2e
+r8 c91..92 bg=#2d2a2e
+r8 c92..96 bg=#2d2a2d
+r8 c96..101 bg=#2e2a2c
+r8 c101..102 bg=#2e2a2b
+r8 c102..104 bg=#2f2a2b
+r9 c0..4 bg=#111a2a
+r9 c4..5 bg=#121a2a
+r9 c5..10 bg=#121a29
+r9 c10..12 bg=#121a28
+r9 c12..16 bg=#131a28
+r9 c16..20 bg=#131a27
+r9 c20..21 bg=#192131
+r9 c21..24 bg=#222b3e
+r9 c24..27 bg=#222b3d
+r9 c27..28 bg=#232b3d
+r9 c28..32 bg=#232b3c
+r9 c32..37 bg=#242b3b
+r9 c37..39 bg=#242b3a
+r9 c39..43 bg=#252b3a
+r9 c43..44 bg=#252b39
+r9 c44..47 bg=#262b39
+r9 c47..49 bg=#262b38
+r9 c49..50 bg=#272b38
+r9 c50..54 bg=#272b37
+r9 c54..58 bg=#272b36
+r9 c58..61 bg=#282b35
+r9 c61..64 bg=#282b34
+r9 c64..65 bg=#292a34
+r9 c65..67 bg=#292b34
+r9 c67..70 bg=#292a33
+r9 c70..71 bg=#2a2a33
+r9 c71..75 bg=#2a2a32
+r9 c75..80 bg=#2b2a31
+r9 c80..82 bg=#2b2a30
+r9 c82..84 bg=#2c2a30
+r9 c84..87 bg=#2c2a2f
+r9 c87..90 bg=#2c2a2e
+r9 c90..91 bg=#2d2a2e
+r9 c91..95 bg=#2d2a2d
+r9 c95..100 bg=#2e2a2c
+r9 c100..101 bg=#2e2a2b
+r9 c101..104 bg=#2f2a2b
+r10 c0..3 bg=#111a2a
+r10 c3..4 bg=#121a2a
+r10 c4..9 bg=#121a29
+r10 c9..11 bg=#121a28
+r10 c11..15 bg=#131a28
+r10 c15..20 bg=#131a27
+r10 c20..21 bg=#192130
+r10 c21..22 bg=#141a26
+r10 c22..26 fg=Foreground bg=#141a26 bold
+r10 c26..28 fg=Foreground bg=#151a26 bold
+r10 c28..32 fg=Foreground bg=#151a25 bold
+r10 c32..34 bg=#151a25
+r10 c34..39 bg=#161a24
+r10 c39..43 bg=#161a23
+r10 c43..48 bg=#171a22
+r10 c48..51 bg=#171a21
+r10 c51..54 bg=#181a21
+r10 c54..56 bg=#181921
+r10 c56..60 bg=#181920
+r10 c60..61 bg=#191920
+r10 c61..66 bg=#19191f
+r10 c66..69 bg=#19191e
+r10 c69..71 bg=#1a191e
+r10 c71..76 bg=#1a191d
+r10 c76..77 bg=#1a191c
+r10 c77..83 bg=#1b191c
+r10 c83..86 bg=#1b191b
+r10 c86..87 bg=#1c191b
+r10 c87..93 bg=#1c191a
+r10 c93..94 bg=#1c1919
+r10 c94..98 bg=#1d1919
+r10 c98..103 bg=#1d1918
+r10 c103..104 bg=#1e1917
+r11 c0..2 bg=#111a2a
+r11 c2..3 bg=#121a2a
+r11 c3..8 bg=#121a29
+r11 c8..10 bg=#121a28
+r11 c10..14 bg=#131a28
+r11 c14..19 bg=#131a27
+r11 c19..20 bg=#141a27
+r11 c20..21 bg=#192130
+r11 c21..25 bg=#141a26
+r11 c25..27 bg=#151a26
+r11 c27..33 bg=#151a25
+r11 c33..38 bg=#161a24
+r11 c38..42 bg=#161a23
+r11 c42..47 bg=#171a22
+r11 c47..50 bg=#171a21
+r11 c50..53 bg=#181a21
+r11 c53..55 bg=#181921
+r11 c55..59 bg=#181920
+r11 c59..60 bg=#191920
+r11 c60..65 bg=#19191f
+r11 c65..68 bg=#19191e
+r11 c68..70 bg=#1a191e
+r11 c70..75 bg=#1a191d
+r11 c75..76 bg=#1a191c
+r11 c76..82 bg=#1b191c
+r11 c82..85 bg=#1b191b
+r11 c85..86 bg=#1c191b
+r11 c86..92 bg=#1c191a
+r11 c92..93 bg=#1c1919
+r11 c93..97 bg=#1d1919
+r11 c97..102 bg=#1d1918
+r11 c102..104 bg=#1e1917
+r12 c0..1 bg=#111a2a
+r12 c1..2 bg=#121a2a
+r12 c2..7 bg=#121a29
+r12 c7..9 bg=#121a28
+r12 c9..13 bg=#131a28
+r12 c13..18 bg=#131a27
+r12 c18..19 bg=#141a27
+r12 c19..20 bg=#141a26
+r12 c20..21 bg=#192130
+r12 c21..24 bg=#141a26
+r12 c24..26 bg=#151a26
+r12 c26..32 bg=#151a25
+r12 c32..37 bg=#161a24
+r12 c37..41 bg=#161a23
+r12 c41..46 bg=#171a22
+r12 c46..49 bg=#171a21
+r12 c49..52 bg=#181a21
+r12 c52..54 bg=#181921
+r12 c54..58 bg=#181920
+r12 c58..59 bg=#191920
+r12 c59..64 bg=#19191f
+r12 c64..67 bg=#19191e
+r12 c67..69 bg=#1a191e
+r12 c69..74 bg=#1a191d
+r12 c74..75 bg=#1a191c
+r12 c75..81 bg=#1b191c
+r12 c81..84 bg=#1b191b
+r12 c84..85 bg=#1c191b
+r12 c85..91 bg=#1c191a
+r12 c91..92 bg=#1c1919
+r12 c92..96 bg=#1d1919
+r12 c96..101 bg=#1d1918
+r12 c101..104 bg=#1e1917
+r13 c0..1 bg=#121a2a
+r13 c1..6 bg=#121a29
+r13 c6..8 bg=#121a28
+r13 c8..12 bg=#131a28
+r13 c12..17 bg=#131a27
+r13 c17..18 bg=#141a27
+r13 c18..20 bg=#141a26
+r13 c20..21 bg=#1a212f
+r13 c21..23 bg=#141a26
+r13 c23..25 bg=#151a26
+r13 c25..31 bg=#151a25
+r13 c31..34 bg=#161a24
+r13 c34..35 fg=#83b4fb bg=#161a24
+r13 c35..36 bg=#161a24
+r13 c36..40 bg=#161a23
+r13 c40..45 bg=#171a22
+r13 c45..48 bg=#171a21
+r13 c48..51 bg=#181a21
+r13 c51..53 bg=#181921
+r13 c53..57 bg=#181920
+r13 c57..58 bg=#191920
+r13 c58..63 bg=#19191f
+r13 c63..66 bg=#19191e
+r13 c66..68 bg=#1a191e
+r13 c68..73 bg=#1a191d
+r13 c73..74 bg=#1a191c
+r13 c74..80 bg=#1b191c
+r13 c80..83 bg=#1b191b
+r13 c83..84 bg=#1c191b
+r13 c84..90 bg=#1c191a
+r13 c90..91 bg=#1c1919
+r13 c91..95 bg=#1d1919
+r13 c95..100 bg=#1d1918
+r13 c100..104 bg=#1e1917
+r14 c0..5 bg=#121a29
+r14 c5..7 bg=#121a28
+r14 c7..11 bg=#131a28
+r14 c11..16 bg=#131a27
+r14 c16..17 bg=#141a27
+r14 c17..20 bg=#141a26
+r14 c20..21 bg=#1a212f
+r14 c21..22 bg=#141a26
+r14 c22..24 bg=#151a26
+r14 c24..28 bg=#151a25
+r14 c28..30 fg=#77b0f6 bg=#151a25
+r14 c30..35 fg=#77b0f6 bg=#161a24
+r14 c35..37 fg=#77b0f6 bg=#161a23
+r14 c37..39 bg=#161a23
+r14 c39..44 bg=#171a22
+r14 c44..47 bg=#171a21
+r14 c47..50 bg=#181a21
+r14 c50..52 bg=#181921
+r14 c52..56 bg=#181920
+r14 c56..57 bg=#191920
+r14 c57..62 bg=#19191f
+r14 c62..63 fg=Dim bg=#19191e
+r14 c63..65 bg=#19191e
+r14 c65..67 bg=#1a191e
+r14 c67..72 bg=#1a191d
+r14 c72..73 bg=#1a191c
+r14 c73..79 bg=#1b191c
+r14 c79..82 bg=#1b191b
+r14 c82..83 bg=#1c191b
+r14 c83..89 bg=#1c191a
+r14 c89..90 bg=#1c1919
+r14 c90..94 bg=#1d1919
+r14 c94..99 bg=#1d1918
+r14 c99..104 bg=#1e1917
+r15 c0..4 bg=#121a29
+r15 c4..6 bg=#121a28
+r15 c6..10 bg=#131a28
+r15 c10..15 bg=#131a27
+r15 c15..16 bg=#141a27
+r15 c16..20 bg=#141a26
+r15 c20..21 bg=#1a212f
+r15 c21..23 bg=#151a26
+r15 c23..27 bg=#151a25
+r15 c27..29 fg=#6aabf2 bg=#151a25
+r15 c29..34 fg=#6aabf2 bg=#161a24
+r15 c34..36 fg=#6aabf2 bg=#161a23
+r15 c36..37 bg=#161a23
+r15 c37..38 fg=#6aabf2 bg=#161a23
+r15 c38..41 fg=#6aabf2 bg=#171a22
+r15 c41..43 bg=#171a22
+r15 c43..46 bg=#171a21
+r15 c46..49 bg=#181a21
+r15 c49..51 bg=#181921
+r15 c51..55 bg=#181920
+r15 c55..56 bg=#191920
+r15 c56..61 bg=#19191f
+r15 c61..64 bg=#19191e
+r15 c64..66 bg=#1a191e
+r15 c66..71 bg=#1a191d
+r15 c71..72 bg=#1a191c
+r15 c72..76 bg=#1b191c
+r15 c76..78 fg=Hint bg=#1b191c
+r15 c78..81 fg=Hint bg=#1b191b
+r15 c81..82 fg=Hint bg=#1c191b
+r15 c82..84 fg=Hint bg=#1c191a
+r15 c84..88 bg=#1c191a
+r15 c88..89 bg=#1c1919
+r15 c89..93 bg=#1d1919
+r15 c93..98 bg=#1d1918
+r15 c98..103 bg=#1e1917
+r15 c103..104 bg=#1e1916
+r16 c0..3 bg=#121a29
+r16 c3..5 bg=#121a28
+r16 c5..9 bg=#131a28
+r16 c9..14 bg=#131a27
+r16 c14..15 bg=#141a27
+r16 c15..20 bg=#141a26
+r16 c20..21 bg=#1a212f
+r16 c21..22 bg=#151a26
+r16 c22..27 bg=#151a25
+r16 c27..28 fg=#5da6ee bg=#151a25
+r16 c28..30 fg=#5da6ee bg=#161a24
+r16 c30..33 bg=#161a24
+r16 c33..34 bg=#161a23
+r16 c34..37 fg=#5da6ee bg=#161a23
+r16 c37..41 fg=#5da6ee bg=#171a22
+r16 c41..42 bg=#171a22
+r16 c42..45 bg=#171a21
+r16 c45..48 bg=#181a21
+r16 c48..50 bg=#181921
+r16 c50..51 fg=Dim bg=#181920
+r16 c51..54 bg=#181920
+r16 c54..55 bg=#191920
+r16 c55..60 bg=#19191f
+r16 c60..63 bg=#19191e
+r16 c63..65 bg=#1a191e
+r16 c65..70 bg=#1a191d
+r16 c70..71 bg=#1a191c
+r16 c71..77 bg=#1b191c
+r16 c77..80 bg=#1b191b
+r16 c80..81 bg=#1c191b
+r16 c81..85 bg=#1c191a
+r16 c85..87 fg=Primary bg=#1c191a
+r16 c87..88 fg=Primary bg=#1c1919
+r16 c88..89 fg=Primary bg=#1d1919
+r16 c89..92 bg=#1d1919
+r16 c92..97 bg=#1d1918
+r16 c97..102 bg=#1e1917
+r16 c102..104 bg=#1e1916
+r17 c0..2 bg=#121a29
+r17 c2..4 bg=#121a28
+r17 c4..8 bg=#131a28
+r17 c8..13 bg=#131a27
+r17 c13..14 bg=#141a27
+r17 c14..19 bg=#141a26
+r17 c19..20 bg=#151a26
+r17 c20..21 bg=#1a212f
+r17 c21..27 bg=#151a25
+r17 c27..32 fg=#51a2e9 bg=#161a24
+r17 c32..36 fg=#51a2e9 bg=#161a23
+r17 c36..39 fg=#51a2e9 bg=#171a22
+r17 c39..40 bg=#171a22
+r17 c40..41 fg=#51a2e9 bg=#171a22
+r17 c41..44 bg=#171a21
+r17 c44..47 bg=#181a21
+r17 c47..49 bg=#181921
+r17 c49..52 bg=#181920
+r17 c52..53 fg=Dim bg=#181920
+r17 c53..54 bg=#191920
+r17 c54..59 bg=#19191f
+r17 c59..62 bg=#19191e
+r17 c62..64 bg=#1a191e
+r17 c64..69 bg=#1a191d
+r17 c69..70 bg=#1a191c
+r17 c70..74 bg=#1b191c
+r17 c74..76 fg=Hint bg=#1b191c
+r17 c76..78 fg=Hint bg=#1b191b
+r17 c78..79 bg=#1b191b
+r17 c79..80 fg=Hint bg=#1c191b
+r17 c80..83 fg=Hint bg=#1c191a
+r17 c83..86 bg=#1c191a
+r17 c86..87 bg=#1c1919
+r17 c87..91 bg=#1d1919
+r17 c91..96 bg=#1d1918
+r17 c96..101 bg=#1e1917
+r17 c101..104 bg=#1e1916
+r18 c0..1 bg=#121a29
+r18 c1..3 bg=#121a28
+r18 c3..7 bg=#131a28
+r18 c7..12 bg=#131a27
+r18 c12..13 bg=#141a27
+r18 c13..18 bg=#141a26
+r18 c18..20 bg=#151a26
+r18 c20..21 bg=#1b212f
+r18 c21..26 bg=#151a25
+r18 c26..27 bg=#161a24
+r18 c27..31 fg=#449de5 bg=#161a24
+r18 c31..35 fg=#449de5 bg=#161a23
+r18 c35..37 fg=#449de5 bg=#171a22
+r18 c37..38 bg=#171a22
+r18 c38..40 fg=#449de5 bg=#171a22
+r18 c40..43 bg=#171a21
+r18 c43..46 bg=#181a21
+r18 c46..48 bg=#181921
+r18 c48..52 bg=#181920
+r18 c52..53 bg=#191920
+r18 c53..58 bg=#19191f
+r18 c58..61 bg=#19191e
+r18 c61..63 bg=#1a191e
+r18 c63..68 bg=#1a191d
+r18 c68..69 bg=#1a191c
+r18 c69..75 bg=#1b191c
+r18 c75..78 bg=#1b191b
+r18 c78..79 bg=#1c191b
+r18 c79..85 bg=#1c191a
+r18 c85..86 bg=#1c1919
+r18 c86..90 bg=#1d1919
+r18 c90..95 bg=#1d1918
+r18 c95..100 bg=#1e1917
+r18 c100..103 bg=#1e1916
+r18 c103..104 bg=#1f1916
+r19 c0..2 bg=#121a28
+r19 c2..6 bg=#131a28
+r19 c6..11 bg=#131a27
+r19 c11..12 bg=#141a27
+r19 c12..17 bg=#141a26
+r19 c17..19 bg=#151a26
+r19 c19..20 bg=#151a25
+r19 c20..21 bg=#1b212e
+r19 c21..25 bg=#151a25
+r19 c25..28 bg=#161a24
+r19 c28..30 fg=#3798e1 bg=#161a24
+r19 c30..34 fg=#3798e1 bg=#161a23
+r19 c34..39 fg=#3798e1 bg=#171a22
+r19 c39..42 bg=#171a21
+r19 c42..45 bg=#181a21
+r19 c45..47 bg=#181921
+r19 c47..51 bg=#181920
+r19 c51..52 bg=#191920
+r19 c52..57 bg=#19191f
+r19 c57..60 bg=#19191e
+r19 c60..62 bg=#1a191e
+r19 c62..67 bg=#1a191d
+r19 c67..68 bg=#1a191c
+r19 c68..74 bg=#1b191c
+r19 c74..77 bg=#1b191b
+r19 c77..78 bg=#1c191b
+r19 c78..84 bg=#1c191a
+r19 c84..85 bg=#1c1919
+r19 c85..89 bg=#1d1919
+r19 c89..94 bg=#1d1918
+r19 c94..99 bg=#1e1917
+r19 c99..102 bg=#1e1916
+r19 c102..104 bg=#1f1916
+r20 c0..1 bg=#121a28
+r20 c1..5 bg=#131a28
+r20 c5..10 bg=#131a27
+r20 c10..11 bg=#141a27
+r20 c11..16 bg=#141a26
+r20 c16..18 bg=#151a26
+r20 c18..20 bg=#151a25
+r20 c20..21 bg=#1b212e
+r20 c21..24 bg=#151a25
+r20 c24..29 bg=#161a24
+r20 c29..32 bg=#161a23
+r20 c32..33 fg=#2b94dc bg=#161a23
+r20 c33..35 fg=#2b94dc bg=#171a22
+r20 c35..38 bg=#171a22
+r20 c38..41 bg=#171a21
+r20 c41..44 bg=#181a21
+r20 c44..46 bg=#181921
+r20 c46..50 bg=#181920
+r20 c50..51 bg=#191920
+r20 c51..56 bg=#19191f
+r20 c56..59 bg=#19191e
+r20 c59..61 bg=#1a191e
+r20 c61..66 bg=#1a191d
+r20 c66..67 bg=#1a191c
+r20 c67..73 bg=#1b191c
+r20 c73..76 bg=#1b191b
+r20 c76..77 bg=#1c191b
+r20 c77..83 bg=#1c191a
+r20 c83..84 bg=#1c1919
+r20 c84..88 bg=#1d1919
+r20 c88..93 bg=#1d1918
+r20 c93..98 bg=#1e1917
+r20 c98..101 bg=#1e1916
+r20 c101..104 bg=#1f1916
+r21 c0..4 bg=#131a28
+r21 c4..9 bg=#131a27
+r21 c9..10 bg=#141a27
+r21 c10..15 bg=#141a26
+r21 c15..17 bg=#151a26
+r21 c17..20 bg=#151a25
+r21 c20..21 bg=#1b212e
+r21 c21..23 bg=#151a25
+r21 c23..28 bg=#161a24
+r21 c28..32 bg=#161a23
+r21 c32..37 bg=#171a22
+r21 c37..40 bg=#171a21
+r21 c40..43 bg=#181a21
+r21 c43..45 bg=#181921
+r21 c45..49 bg=#181920
+r21 c49..50 bg=#191920
+r21 c50..55 bg=#19191f
+r21 c55..58 bg=#19191e
+r21 c58..60 bg=#1a191e
+r21 c60..65 bg=#1a191d
+r21 c65..66 bg=#1a191c
+r21 c66..72 bg=#1b191c
+r21 c72..75 bg=#1b191b
+r21 c75..76 bg=#1c191b
+r21 c76..82 bg=#1c191a
+r21 c82..83 bg=#1c1919
+r21 c83..87 bg=#1d1919
+r21 c87..92 bg=#1d1918
+r21 c92..97 bg=#1e1917
+r21 c97..100 bg=#1e1916
+r21 c100..103 bg=#1f1916
+r21 c103..104 bg=#1f1815
+r22 c0..3 bg=#131a28
+r22 c3..8 bg=#131a27
+r22 c8..9 bg=#141a27
+r22 c9..14 bg=#141a26
+r22 c14..16 bg=#151a26
+r22 c16..20 bg=#151a25
+r22 c20..21 bg=#1b212e
+r22 c21..22 bg=#151a25
+r22 c22..27 bg=#161a24
+r22 c27..29 bg=#161a23
+r22 c29..30 fg=Live bg=#161a23
+r22 c30..31 bg=#161a23
+r22 c31..36 fg=Foreground bg=#171a22
+r22 c36..38 fg=Foreground bg=#171a21
+r22 c38..39 bg=#171a21
+r22 c39..42 bg=#181a21
+r22 c42..44 bg=#181921
+r22 c44..48 bg=#181920
+r22 c48..49 bg=#191920
+r22 c49..54 bg=#19191f
+r22 c54..57 bg=#19191e
+r22 c57..59 bg=#1a191e
+r22 c59..64 bg=#1a191d
+r22 c64..65 bg=#1a191c
+r22 c65..71 bg=#1b191c
+r22 c71..74 bg=#1b191b
+r22 c74..75 bg=#1c191b
+r22 c75..81 bg=#1c191a
+r22 c81..82 bg=#1c1919
+r22 c82..86 bg=#1d1919
+r22 c86..91 bg=#1d1918
+r22 c91..96 bg=#1e1917
+r22 c96..99 bg=#1e1916
+r22 c99..102 bg=#1f1916
+r22 c102..104 bg=#1f1815
+r23 c0..2 bg=#131a28
+r23 c2..7 bg=#131a27
+r23 c7..8 bg=#141a27
+r23 c8..13 bg=#141a26
+r23 c13..15 bg=#151a26
+r23 c15..20 bg=#151a25
+r23 c20..21 bg=#1b212e
+r23 c21..26 bg=#161a24
+r23 c26..30 bg=#161a23
+r23 c30..35 bg=#171a22
+r23 c35..38 bg=#171a21
+r23 c38..41 bg=#181a21
+r23 c41..43 bg=#181921
+r23 c43..47 bg=#181920
+r23 c47..48 bg=#191920
+r23 c48..53 bg=#19191f
+r23 c53..56 bg=#19191e
+r23 c56..58 bg=#1a191e
+r23 c58..63 bg=#1a191d
+r23 c63..64 bg=#1a191c
+r23 c64..70 bg=#1b191c
+r23 c70..73 bg=#1b191b
+r23 c73..74 bg=#1c191b
+r23 c74..80 bg=#1c191a
+r23 c80..81 bg=#1c1919
+r23 c81..85 bg=#1d1919
+r23 c85..90 bg=#1d1918
+r23 c90..95 bg=#1e1917
+r23 c95..98 bg=#1e1916
+r23 c98..101 bg=#1f1916
+r23 c101..104 bg=#1f1815
+
+== dark-graphite
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean              Turn
+   Lagoon
+ ▸ Dusk               ● Working
+   Coral              ◆ Needs you
+   Graphite           ✕ Failed
+                      ✓ Done
+
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..1 fg=Foreground bg=#19212f bold
+r0 c1..4 fg=Foreground bg=#1a212f bold
+r0 c4..7 fg=Foreground bg=#1a212e bold
+r0 c7..10 fg=Foreground bg=#1a212d bold
+r0 c10..13 fg=Foreground bg=#1b212d bold
+r0 c13..18 fg=Foreground bg=#1b212c bold
+r0 c18..24 fg=Foreground bg=#1c212b bold
+r0 c24..27 fg=Foreground bg=#1d212a bold
+r0 c27..30 bg=#1d212a
+r0 c30..33 bg=#1e2129
+r0 c33..38 bg=#1e2128
+r0 c38..43 bg=#1f2127
+r0 c43..47 bg=#1f2126
+r0 c47..53 bg=#202125
+r0 c53..54 bg=#212125
+r0 c54..57 bg=#212124
+r0 c57..61 bg=#212123
+r0 c61..64 bg=#222122
+r0 c64..65 bg=#222022
+r0 c65..67 bg=#222122
+r0 c67..70 bg=#222021
+r0 c70..76 bg=#232020
+r0 c76..78 bg=#23201f
+r0 c78..82 bg=#24201f
+r0 c82..84 bg=#24201e
+r0 c84..85 bg=#25201e
+r0 c85..90 bg=#25201d
+r0 c90..91 fg=Muted bg=#25201d
+r0 c91..93 fg=Muted bg=#25201c
+r0 c93..95 fg=Muted bg=#26201c
+r0 c95..99 fg=Muted bg=#26201b
+r0 c99..101 fg=Muted bg=#26201a
+r0 c101..104 fg=Muted bg=#27201a
+r1 c0..1 bg=#131a26
+r1 c1..2 fg=Foreground bg=#131a26 bold
+r1 c2..4 fg=Foreground bg=#141a26 bold
+r1 c4..9 fg=Foreground bg=#141a25 bold
+r1 c9..10 bg=#141a25
+r1 c10..11 bg=#151a25
+r1 c11..15 bg=#151a24
+r1 c15..16 fg=Muted bg=#151a24
+r1 c16..19 fg=Muted bg=#151a23
+r1 c19..20 bg=#161a23
+r1 c20..21 bg=#1c212b
+r1 c21..22 fg=Primary bg=#1c212b
+r1 c22..23 bg=#1c212b
+r1 c23..26 fg=Primary bg=#1d212a bold
+r1 c26..29 bg=#1d212a
+r1 c29..32 bg=#1e2129
+r1 c32..37 bg=#1e2128
+r1 c37..42 bg=#1f2127
+r1 c42..46 bg=#1f2126
+r1 c46..52 bg=#202125
+r1 c52..53 bg=#212125
+r1 c53..56 bg=#212124
+r1 c56..60 bg=#212123
+r1 c60..63 bg=#222122
+r1 c63..64 bg=#222022
+r1 c64..66 bg=#222122
+r1 c66..69 bg=#222021
+r1 c69..75 bg=#232020
+r1 c75..77 bg=#23201f
+r1 c77..81 bg=#24201f
+r1 c81..83 bg=#24201e
+r1 c83..84 bg=#25201e
+r1 c84..90 bg=#25201d
+r1 c90..92 bg=#25201c
+r1 c92..94 bg=#26201c
+r1 c94..98 bg=#26201b
+r1 c98..100 bg=#26201a
+r1 c100..103 bg=#27201a
+r1 c103..104 bg=#272019
+r2 c0..1 bg=#131a26
+r2 c1..3 bg=#141a26
+r2 c3..9 bg=#141a25
+r2 c9..10 bg=#151a25
+r2 c10..15 bg=#151a24
+r2 c15..18 bg=#151a23
+r2 c18..20 bg=#161a23
+r2 c20..21 bg=#1c212b
+r2 c21..22 fg=Border bg=#1c212b
+r2 c22..23 fg=Border bg=#1d212a
+r2 c23..28 fg=Foreground bg=#1d212a
+r2 c28..31 fg=Foreground bg=#1e2129
+r2 c31..36 fg=Foreground bg=#1e2128
+r2 c36..41 fg=Foreground bg=#1f2127
+r2 c41..45 fg=Foreground bg=#1f2126
+r2 c45..51 fg=Foreground bg=#202125
+r2 c51..52 fg=Foreground bg=#212125
+r2 c52..55 fg=Foreground bg=#212124
+r2 c55..59 fg=Foreground bg=#212123
+r2 c59..61 fg=Foreground bg=#222122
+r2 c61..62 bg=#222122
+r2 c62..63 bg=#222022
+r2 c63..65 bg=#222122
+r2 c65..68 bg=#222021
+r2 c68..74 bg=#232020
+r2 c74..76 bg=#23201f
+r2 c76..80 bg=#24201f
+r2 c80..82 bg=#24201e
+r2 c82..83 bg=#25201e
+r2 c83..89 bg=#25201d
+r2 c89..91 bg=#25201c
+r2 c91..93 bg=#26201c
+r2 c93..97 bg=#26201b
+r2 c97..99 bg=#26201a
+r2 c99..102 bg=#27201a
+r2 c102..104 bg=#272019
+r3 c0..1 bg=#141a26
+r3 c1..2 fg=Primary bg=#141a26
+r3 c2..3 fg=Primary bg=#141a25
+r3 c3..8 fg=Foreground bg=#141a25
+r3 c8..9 fg=Foreground bg=#151a25
+r3 c9..11 fg=Foreground bg=#151a24
+r3 c11..14 bg=#151a24
+r3 c14..17 bg=#151a23
+r3 c17..20 bg=#161a23
+r3 c20..21 bg=#1c212b
+r3 c21..22 bg=#262b36
+r3 c22..24 fg=Foreground bg=#262b36 bold
+r3 c24..26 fg=Foreground bg=#272b35 bold
+r3 c26..29 bg=#272b35
+r3 c29..33 bg=#272b34
+r3 c33..37 bg=#282b33
+r3 c37..38 bg=#282b32
+r3 c38..41 bg=#292b32
+r3 c41..44 bg=#292b31
+r3 c44..50 bg=#2a2b30
+r3 c50..54 bg=#2b2b2f
+r3 c54..57 bg=#2b2b2e
+r3 c57..61 bg=#2c2b2d
+r3 c61..63 bg=#2c2a2c
+r3 c63..64 bg=#2c2b2c
+r3 c64..65 bg=#2d2a2c
+r3 c65..68 bg=#2d2a2b
+r3 c68..72 bg=#2d2a2a
+r3 c72..76 bg=#2e2a29
+r3 c76..78 bg=#2f2a29
+r3 c78..81 bg=#2f2a28
+r3 c81..84 bg=#2f2a27
+r3 c84..85 bg=#302a27
+r3 c85..89 bg=#302a26
+r3 c89..91 bg=#302a25
+r3 c91..92 bg=#312a25
+r3 c92..96 bg=#312a24
+r3 c96..98 bg=#312a23
+r3 c98..101 bg=#322a23
+r3 c101..103 bg=#322a22
+r3 c103..104 bg=#322922
+r4 c0..1 bg=#141a26
+r4 c1..3 fg=Primary bg=#141a25
+r4 c3..7 fg=Foreground bg=#141a25
+r4 c7..8 fg=Foreground bg=#151a25
+r4 c8..11 fg=Foreground bg=#151a24
+r4 c11..13 bg=#151a24
+r4 c13..16 bg=#151a23
+r4 c16..19 bg=#161a23
+r4 c19..20 bg=#161a22
+r4 c20..21 bg=#1d212a
+r4 c21..23 bg=#262b36
+r4 c23..28 bg=#272b35
+r4 c28..32 bg=#272b34
+r4 c32..36 bg=#282b33
+r4 c36..37 bg=#282b32
+r4 c37..40 bg=#292b32
+r4 c40..43 bg=#292b31
+r4 c43..49 bg=#2a2b30
+r4 c49..53 bg=#2b2b2f
+r4 c53..56 bg=#2b2b2e
+r4 c56..60 bg=#2c2b2d
+r4 c60..62 bg=#2c2a2c
+r4 c62..63 bg=#2c2b2c
+r4 c63..64 bg=#2d2a2c
+r4 c64..67 bg=#2d2a2b
+r4 c67..71 bg=#2d2a2a
+r4 c71..75 bg=#2e2a29
+r4 c75..77 bg=#2f2a29
+r4 c77..80 bg=#2f2a28
+r4 c80..83 bg=#2f2a27
+r4 c83..84 bg=#302a27
+r4 c84..88 bg=#302a26
+r4 c88..90 bg=#302a25
+r4 c90..91 bg=#312a25
+r4 c91..95 bg=#312a24
+r4 c95..97 bg=#312a23
+r4 c97..100 bg=#322a23
+r4 c100..102 bg=#322a22
+r4 c102..103 bg=#322922
+r4 c103..104 bg=#332922
+r5 c0..1 bg=#141a25
+r5 c1..3 fg=Primary bg=#2f394b
+r5 c3..4 fg=Foreground bg=#30394b bold
+r5 c4..8 fg=Foreground bg=#30394a bold
+r5 c8..9 fg=Foreground bg=#303949 bold
+r5 c9..11 fg=Foreground bg=#313949 bold
+r5 c11..12 bg=#313949
+r5 c12..15 bg=#313948
+r5 c15..18 bg=#323947
+r5 c18..19 bg=#333947
+r5 c19..20 bg=#161a22
+r5 c20..21 bg=#1d212a
+r5 c21..22 bg=#262b36
+r5 c22..23 fg=Live bg=#272b35
+r5 c23..24 bg=#272b35
+r5 c24..27 fg=Foreground bg=#272b35
+r5 c27..31 fg=Foreground bg=#272b34
+r5 c31..35 bg=#282b33
+r5 c35..36 bg=#282b32
+r5 c36..39 bg=#292b32
+r5 c39..42 bg=#292b31
+r5 c42..48 bg=#2a2b30
+r5 c48..52 bg=#2b2b2f
+r5 c52..55 bg=#2b2b2e
+r5 c55..59 bg=#2c2b2d
+r5 c59..61 bg=#2c2a2c
+r5 c61..62 bg=#2c2b2c
+r5 c62..63 bg=#2d2a2c
+r5 c63..66 bg=#2d2a2b
+r5 c66..70 bg=#2d2a2a
+r5 c70..74 bg=#2e2a29
+r5 c74..76 bg=#2f2a29
+r5 c76..79 bg=#2f2a28
+r5 c79..82 bg=#2f2a27
+r5 c82..83 bg=#302a27
+r5 c83..87 bg=#302a26
+r5 c87..89 bg=#302a25
+r5 c89..90 bg=#312a25
+r5 c90..94 bg=#312a24
+r5 c94..96 bg=#312a23
+r5 c96..99 bg=#322a23
+r5 c99..101 bg=#322a22
+r5 c101..102 bg=#322922
+r5 c102..103 bg=#332922
+r5 c103..104 bg=#332921
+r6 c0..1 bg=#141a25
+r6 c1..3 fg=Primary bg=#141a25
+r6 c3..5 fg=Foreground bg=#141a25
+r6 c5..6 fg=Foreground bg=#151a25
+r6 c6..11 fg=Foreground bg=#151a24
+r6 c11..14 bg=#151a23
+r6 c14..17 bg=#161a23
+r6 c17..20 bg=#161a22
+r6 c20..21 bg=#1d212a
+r6 c21..22 bg=#272b35
+r6 c22..23 fg=Attention bg=#272b35
+r6 c23..24 bg=#272b35
+r6 c24..26 fg=Foreground bg=#272b35
+r6 c26..30 fg=Foreground bg=#272b34
+r6 c30..33 fg=Foreground bg=#282b33
+r6 c33..34 bg=#282b33
+r6 c34..35 bg=#282b32
+r6 c35..38 bg=#292b32
+r6 c38..41 bg=#292b31
+r6 c41..47 bg=#2a2b30
+r6 c47..51 bg=#2b2b2f
+r6 c51..54 bg=#2b2b2e
+r6 c54..58 bg=#2c2b2d
+r6 c58..60 bg=#2c2a2c
+r6 c60..61 bg=#2c2b2c
+r6 c61..62 bg=#2d2a2c
+r6 c62..65 bg=#2d2a2b
+r6 c65..69 bg=#2d2a2a
+r6 c69..73 bg=#2e2a29
+r6 c73..75 bg=#2f2a29
+r6 c75..78 bg=#2f2a28
+r6 c78..81 bg=#2f2a27
+r6 c81..82 bg=#302a27
+r6 c82..86 bg=#302a26
+r6 c86..88 bg=#302a25
+r6 c88..89 bg=#312a25
+r6 c89..93 bg=#312a24
+r6 c93..95 bg=#312a23
+r6 c95..98 bg=#322a23
+r6 c98..100 bg=#322a22
+r6 c100..101 bg=#322922
+r6 c101..102 bg=#332922
+r6 c102..104 bg=#332921
+r7 c0..1 bg=#141a25
+r7 c1..3 fg=Primary bg=#141a25
+r7 c3..4 fg=Foreground bg=#141a25
+r7 c4..5 fg=Foreground bg=#151a25
+r7 c5..10 fg=Foreground bg=#151a24
+r7 c10..11 fg=Foreground bg=#151a23
+r7 c11..13 bg=#151a23
+r7 c13..16 bg=#161a23
+r7 c16..20 bg=#161a22
+r7 c20..21 bg=#1d212a
+r7 c21..22 bg=#272b35
+r7 c22..23 fg=Danger bg=#272b35
+r7 c23..24 bg=#272b35
+r7 c24..25 fg=Foreground bg=#272b35
+r7 c25..29 fg=Foreground bg=#272b34
+r7 c29..30 fg=Foreground bg=#282b33
+r7 c30..33 bg=#282b33
+r7 c33..34 bg=#282b32
+r7 c34..37 bg=#292b32
+r7 c37..40 bg=#292b31
+r7 c40..46 bg=#2a2b30
+r7 c46..50 bg=#2b2b2f
+r7 c50..53 bg=#2b2b2e
+r7 c53..57 bg=#2c2b2d
+r7 c57..59 bg=#2c2a2c
+r7 c59..60 bg=#2c2b2c
+r7 c60..61 bg=#2d2a2c
+r7 c61..64 bg=#2d2a2b
+r7 c64..68 bg=#2d2a2a
+r7 c68..72 bg=#2e2a29
+r7 c72..74 bg=#2f2a29
+r7 c74..77 bg=#2f2a28
+r7 c77..80 bg=#2f2a27
+r7 c80..81 bg=#302a27
+r7 c81..85 bg=#302a26
+r7 c85..87 bg=#302a25
+r7 c87..88 bg=#312a25
+r7 c88..92 bg=#312a24
+r7 c92..94 bg=#312a23
+r7 c94..97 bg=#322a23
+r7 c97..99 bg=#322a22
+r7 c99..100 bg=#322922
+r7 c100..101 bg=#332922
+r7 c101..104 bg=#332921
+r8 c0..3 bg=#141a25
+r8 c3..4 bg=#151a25
+r8 c4..9 bg=#151a24
+r8 c9..12 bg=#151a23
+r8 c12..15 bg=#161a23
+r8 c15..19 bg=#161a22
+r8 c19..20 bg=#161a21
+r8 c20..21 bg=#1d212a
+r8 c21..22 bg=#272b35
+r8 c22..23 fg=Live bg=#272b35
+r8 c23..24 bg=#272b35
+r8 c24..28 fg=Foreground bg=#272b34
+r8 c28..32 bg=#282b33
+r8 c32..33 bg=#282b32
+r8 c33..36 bg=#292b32
+r8 c36..39 bg=#292b31
+r8 c39..45 bg=#2a2b30
+r8 c45..49 bg=#2b2b2f
+r8 c49..52 bg=#2b2b2e
+r8 c52..56 bg=#2c2b2d
+r8 c56..58 bg=#2c2a2c
+r8 c58..59 bg=#2c2b2c
+r8 c59..60 bg=#2d2a2c
+r8 c60..63 bg=#2d2a2b
+r8 c63..67 bg=#2d2a2a
+r8 c67..71 bg=#2e2a29
+r8 c71..73 bg=#2f2a29
+r8 c73..76 bg=#2f2a28
+r8 c76..79 bg=#2f2a27
+r8 c79..80 bg=#302a27
+r8 c80..84 bg=#302a26
+r8 c84..86 bg=#302a25
+r8 c86..87 bg=#312a25
+r8 c87..91 bg=#312a24
+r8 c91..93 bg=#312a23
+r8 c93..96 bg=#322a23
+r8 c96..98 bg=#322a22
+r8 c98..99 bg=#322922
+r8 c99..100 bg=#332922
+r8 c100..104 bg=#332921
+r9 c0..2 bg=#141a25
+r9 c2..3 bg=#151a25
+r9 c3..8 bg=#151a24
+r9 c8..11 bg=#151a23
+r9 c11..14 bg=#161a23
+r9 c14..18 bg=#161a22
+r9 c18..19 bg=#161a21
+r9 c19..20 bg=#171a21
+r9 c20..21 bg=#1d212a
+r9 c21..23 bg=#272b35
+r9 c23..27 bg=#272b34
+r9 c27..31 bg=#282b33
+r9 c31..32 bg=#282b32
+r9 c32..35 bg=#292b32
+r9 c35..38 bg=#292b31
+r9 c38..44 bg=#2a2b30
+r9 c44..48 bg=#2b2b2f
+r9 c48..51 bg=#2b2b2e
+r9 c51..55 bg=#2c2b2d
+r9 c55..57 bg=#2c2a2c
+r9 c57..58 bg=#2c2b2c
+r9 c58..59 bg=#2d2a2c
+r9 c59..62 bg=#2d2a2b
+r9 c62..66 bg=#2d2a2a
+r9 c66..70 bg=#2e2a29
+r9 c70..72 bg=#2f2a29
+r9 c72..75 bg=#2f2a28
+r9 c75..78 bg=#2f2a27
+r9 c78..79 bg=#302a27
+r9 c79..83 bg=#302a26
+r9 c83..85 bg=#302a25
+r9 c85..86 bg=#312a25
+r9 c86..90 bg=#312a24
+r9 c90..92 bg=#312a23
+r9 c92..95 bg=#322a23
+r9 c95..97 bg=#322a22
+r9 c97..98 bg=#322922
+r9 c98..99 bg=#332922
+r9 c99..103 bg=#332921
+r9 c103..104 bg=#332920
+r10 c0..1 bg=#141a25
+r10 c1..2 bg=#151a25
+r10 c2..7 bg=#151a24
+r10 c7..10 bg=#151a23
+r10 c10..13 bg=#161a23
+r10 c13..17 bg=#161a22
+r10 c17..18 bg=#161a21
+r10 c18..20 bg=#171a21
+r10 c20..21 bg=#1e2129
+r10 c21..22 bg=#171a21
+r10 c22..26 fg=Foreground bg=#171a20 bold
+r10 c26..30 fg=Foreground bg=#181a20 bold
+r10 c30..32 fg=Foreground bg=#181a1f bold
+r10 c32..35 bg=#181a1f
+r10 c35..41 bg=#191a1e
+r10 c41..44 bg=#191a1d
+r10 c44..45 bg=#1a1a1d
+r10 c45..50 bg=#1a1a1c
+r10 c50..53 bg=#1a1a1b
+r10 c53..56 bg=#1b1a1b
+r10 c56..58 bg=#1b191b
+r10 c58..59 bg=#1b1a1a
+r10 c59..61 bg=#1b191a
+r10 c61..67 bg=#1c1919
+r10 c67..70 bg=#1c1918
+r10 c70..72 bg=#1d1918
+r10 c72..78 bg=#1d1917
+r10 c78..79 bg=#1d1916
+r10 c79..84 bg=#1e1916
+r10 c84..87 bg=#1e1915
+r10 c87..89 bg=#1f1915
+r10 c89..93 bg=#1f1914
+r10 c93..98 bg=#1f1913
+r10 c98..99 bg=#1f1912
+r10 c99..104 bg=#201912
+r11 c0..1 bg=#151a25
+r11 c1..6 bg=#151a24
+r11 c6..9 bg=#151a23
+r11 c9..12 bg=#161a23
+r11 c12..16 bg=#161a22
+r11 c16..17 bg=#161a21
+r11 c17..20 bg=#171a21
+r11 c20..21 bg=#1e2129
+r11 c21..25 bg=#171a20
+r11 c25..29 bg=#181a20
+r11 c29..34 bg=#181a1f
+r11 c34..40 bg=#191a1e
+r11 c40..43 bg=#191a1d
+r11 c43..44 bg=#1a1a1d
+r11 c44..49 bg=#1a1a1c
+r11 c49..52 bg=#1a1a1b
+r11 c52..55 bg=#1b1a1b
+r11 c55..57 bg=#1b191b
+r11 c57..58 bg=#1b1a1a
+r11 c58..60 bg=#1b191a
+r11 c60..66 bg=#1c1919
+r11 c66..69 bg=#1c1918
+r11 c69..71 bg=#1d1918
+r11 c71..77 bg=#1d1917
+r11 c77..78 bg=#1d1916
+r11 c78..83 bg=#1e1916
+r11 c83..86 bg=#1e1915
+r11 c86..88 bg=#1f1915
+r11 c88..92 bg=#1f1914
+r11 c92..97 bg=#1f1913
+r11 c97..98 bg=#1f1912
+r11 c98..103 bg=#201912
+r11 c103..104 bg=#201911
+r12 c0..5 bg=#151a24
+r12 c5..8 bg=#151a23
+r12 c8..11 bg=#161a23
+r12 c11..15 bg=#161a22
+r12 c15..16 bg=#161a21
+r12 c16..20 bg=#171a21
+r12 c20..21 bg=#1e2129
+r12 c21..24 bg=#171a20
+r12 c24..28 bg=#181a20
+r12 c28..33 bg=#181a1f
+r12 c33..39 bg=#191a1e
+r12 c39..42 bg=#191a1d
+r12 c42..43 bg=#1a1a1d
+r12 c43..48 bg=#1a1a1c
+r12 c48..51 bg=#1a1a1b
+r12 c51..54 bg=#1b1a1b
+r12 c54..56 bg=#1b191b
+r12 c56..57 bg=#1b1a1a
+r12 c57..59 bg=#1b191a
+r12 c59..65 bg=#1c1919
+r12 c65..68 bg=#1c1918
+r12 c68..70 bg=#1d1918
+r12 c70..76 bg=#1d1917
+r12 c76..77 bg=#1d1916
+r12 c77..82 bg=#1e1916
+r12 c82..85 bg=#1e1915
+r12 c85..87 bg=#1f1915
+r12 c87..91 bg=#1f1914
+r12 c91..96 bg=#1f1913
+r12 c96..97 bg=#1f1912
+r12 c97..102 bg=#201912
+r12 c102..104 bg=#201911
+r13 c0..4 bg=#151a24
+r13 c4..7 bg=#151a23
+r13 c7..10 bg=#161a23
+r13 c10..14 bg=#161a22
+r13 c14..15 bg=#161a21
+r13 c15..19 bg=#171a21
+r13 c19..20 bg=#171a20
+r13 c20..21 bg=#1e2128
+r13 c21..23 bg=#171a20
+r13 c23..27 bg=#181a20
+r13 c27..32 bg=#181a1f
+r13 c32..34 bg=#191a1e
+r13 c34..35 fg=#83b4fb bg=#191a1e
+r13 c35..38 bg=#191a1e
+r13 c38..41 bg=#191a1d
+r13 c41..42 bg=#1a1a1d
+r13 c42..47 bg=#1a1a1c
+r13 c47..50 bg=#1a1a1b
+r13 c50..53 bg=#1b1a1b
+r13 c53..55 bg=#1b191b
+r13 c55..56 bg=#1b1a1a
+r13 c56..58 bg=#1b191a
+r13 c58..64 bg=#1c1919
+r13 c64..67 bg=#1c1918
+r13 c67..69 bg=#1d1918
+r13 c69..75 bg=#1d1917
+r13 c75..76 bg=#1d1916
+r13 c76..81 bg=#1e1916
+r13 c81..84 bg=#1e1915
+r13 c84..86 bg=#1f1915
+r13 c86..90 bg=#1f1914
+r13 c90..95 bg=#1f1913
+r13 c95..96 bg=#1f1912
+r13 c96..101 bg=#201912
+r13 c101..104 bg=#201911
+r14 c0..3 bg=#151a24
+r14 c3..6 bg=#151a23
+r14 c6..9 bg=#161a23
+r14 c9..13 bg=#161a22
+r14 c13..14 bg=#161a21
+r14 c14..18 bg=#171a21
+r14 c18..20 bg=#171a20
+r14 c20..21 bg=#1e2128
+r14 c21..22 bg=#171a20
+r14 c22..26 bg=#181a20
+r14 c26..28 bg=#181a1f
+r14 c28..31 fg=#77b0f6 bg=#181a1f
+r14 c31..37 fg=#77b0f6 bg=#191a1e
+r14 c37..40 bg=#191a1d
+r14 c40..41 bg=#1a1a1d
+r14 c41..46 bg=#1a1a1c
+r14 c46..49 bg=#1a1a1b
+r14 c49..52 bg=#1b1a1b
+r14 c52..54 bg=#1b191b
+r14 c54..55 bg=#1b1a1a
+r14 c55..57 bg=#1b191a
+r14 c57..62 bg=#1c1919
+r14 c62..63 fg=Dim bg=#1c1919
+r14 c63..66 bg=#1c1918
+r14 c66..68 bg=#1d1918
+r14 c68..74 bg=#1d1917
+r14 c74..75 bg=#1d1916
+r14 c75..80 bg=#1e1916
+r14 c80..83 bg=#1e1915
+r14 c83..85 bg=#1f1915
+r14 c85..89 bg=#1f1914
+r14 c89..94 bg=#1f1913
+r14 c94..95 bg=#1f1912
+r14 c95..100 bg=#201912
+r14 c100..104 bg=#201911
+r15 c0..2 bg=#151a24
+r15 c2..5 bg=#151a23
+r15 c5..8 bg=#161a23
+r15 c8..12 bg=#161a22
+r15 c12..13 bg=#161a21
+r15 c13..17 bg=#171a21
+r15 c17..20 bg=#171a20
+r15 c20..21 bg=#1e2128
+r15 c21..25 bg=#181a20
+r15 c25..27 bg=#181a1f
+r15 c27..30 fg=#6aabf2 bg=#181a1f
+r15 c30..36 fg=#6aabf2 bg=#191a1e
+r15 c36..37 bg=#191a1d
+r15 c37..39 fg=#6aabf2 bg=#191a1d
+r15 c39..40 fg=#6aabf2 bg=#1a1a1d
+r15 c40..41 fg=#6aabf2 bg=#1a1a1c
+r15 c41..45 bg=#1a1a1c
+r15 c45..48 bg=#1a1a1b
+r15 c48..51 bg=#1b1a1b
+r15 c51..53 bg=#1b191b
+r15 c53..54 bg=#1b1a1a
+r15 c54..56 bg=#1b191a
+r15 c56..62 bg=#1c1919
+r15 c62..65 bg=#1c1918
+r15 c65..67 bg=#1d1918
+r15 c67..73 bg=#1d1917
+r15 c73..74 bg=#1d1916
+r15 c74..76 bg=#1e1916
+r15 c76..79 fg=Hint bg=#1e1916
+r15 c79..82 fg=Hint bg=#1e1915
+r15 c82..84 fg=Hint bg=#1f1915
+r15 c84..88 bg=#1f1914
+r15 c88..93 bg=#1f1913
+r15 c93..94 bg=#1f1912
+r15 c94..99 bg=#201912
+r15 c99..104 bg=#201911
+r16 c0..1 bg=#151a24
+r16 c1..4 bg=#151a23
+r16 c4..7 bg=#161a23
+r16 c7..11 bg=#161a22
+r16 c11..12 bg=#161a21
+r16 c12..16 bg=#171a21
+r16 c16..20 bg=#171a20
+r16 c20..21 bg=#1e2128
+r16 c21..24 bg=#181a20
+r16 c24..27 bg=#181a1f
+r16 c27..29 fg=#5da6ee bg=#181a1f
+r16 c29..30 fg=#5da6ee bg=#191a1e
+r16 c30..34 bg=#191a1e
+r16 c34..35 fg=#5da6ee bg=#191a1e
+r16 c35..38 fg=#5da6ee bg=#191a1d
+r16 c38..39 fg=#5da6ee bg=#1a1a1d
+r16 c39..41 fg=#5da6ee bg=#1a1a1c
+r16 c41..44 bg=#1a1a1c
+r16 c44..47 bg=#1a1a1b
+r16 c47..50 bg=#1b1a1b
+r16 c50..51 fg=Dim bg=#1b191b
+r16 c51..52 bg=#1b191b
+r16 c52..53 bg=#1b1a1a
+r16 c53..55 bg=#1b191a
+r16 c55..61 bg=#1c1919
+r16 c61..64 bg=#1c1918
+r16 c64..66 bg=#1d1918
+r16 c66..72 bg=#1d1917
+r16 c72..73 bg=#1d1916
+r16 c73..78 bg=#1e1916
+r16 c78..81 bg=#1e1915
+r16 c81..83 bg=#1f1915
+r16 c83..85 bg=#1f1914
+r16 c85..87 fg=Primary bg=#1f1914
+r16 c87..89 fg=Primary bg=#1f1913
+r16 c89..92 bg=#1f1913
+r16 c92..93 bg=#1f1912
+r16 c93..98 bg=#201912
+r16 c98..104 bg=#201911
+r17 c0..3 bg=#151a23
+r17 c3..6 bg=#161a23
+r17 c6..10 bg=#161a22
+r17 c10..11 bg=#161a21
+r17 c11..15 bg=#171a21
+r17 c15..19 bg=#171a20
+r17 c19..20 bg=#181a20
+r17 c20..21 bg=#1e2128
+r17 c21..23 bg=#181a20
+r17 c23..27 bg=#181a1f
+r17 c27..28 fg=#51a2e9 bg=#181a1f
+r17 c28..34 fg=#51a2e9 bg=#191a1e
+r17 c34..37 fg=#51a2e9 bg=#191a1d
+r17 c37..38 fg=#51a2e9 bg=#1a1a1d
+r17 c38..39 fg=#51a2e9 bg=#1a1a1c
+r17 c39..40 bg=#1a1a1c
+r17 c40..41 fg=#51a2e9 bg=#1a1a1c
+r17 c41..43 bg=#1a1a1c
+r17 c43..46 bg=#1a1a1b
+r17 c46..49 bg=#1b1a1b
+r17 c49..51 bg=#1b191b
+r17 c51..52 bg=#1b1a1a
+r17 c52..53 fg=Dim bg=#1b191a
+r17 c53..54 bg=#1b191a
+r17 c54..60 bg=#1c1919
+r17 c60..63 bg=#1c1918
+r17 c63..65 bg=#1d1918
+r17 c65..71 bg=#1d1917
+r17 c71..72 bg=#1d1916
+r17 c72..74 bg=#1e1916
+r17 c74..77 fg=Hint bg=#1e1916
+r17 c77..78 fg=Hint bg=#1e1915
+r17 c78..79 bg=#1e1915
+r17 c79..80 fg=Hint bg=#1e1915
+r17 c80..82 fg=Hint bg=#1f1915
+r17 c82..83 fg=Hint bg=#1f1914
+r17 c83..86 bg=#1f1914
+r17 c86..91 bg=#1f1913
+r17 c91..92 bg=#1f1912
+r17 c92..97 bg=#201912
+r17 c97..103 bg=#201911
+r17 c103..104 bg=#211810
+r18 c0..2 bg=#151a23
+r18 c2..5 bg=#161a23
+r18 c5..9 bg=#161a22
+r18 c9..10 bg=#161a21
+r18 c10..14 bg=#171a21
+r18 c14..18 bg=#171a20
+r18 c18..20 bg=#181a20
+r18 c20..21 bg=#1f2127
+r18 c21..22 bg=#181a20
+r18 c22..27 bg=#181a1f
+r18 c27..33 fg=#449de5 bg=#191a1e
+r18 c33..36 fg=#449de5 bg=#191a1d
+r18 c36..37 fg=#449de5 bg=#1a1a1d
+r18 c37..38 bg=#1a1a1c
+r18 c38..40 fg=#449de5 bg=#1a1a1c
+r18 c40..42 bg=#1a1a1c
+r18 c42..45 bg=#1a1a1b
+r18 c45..48 bg=#1b1a1b
+r18 c48..50 bg=#1b191b
+r18 c50..51 bg=#1b1a1a
+r18 c51..53 bg=#1b191a
+r18 c53..59 bg=#1c1919
+r18 c59..62 bg=#1c1918
+r18 c62..64 bg=#1d1918
+r18 c64..70 bg=#1d1917
+r18 c70..71 bg=#1d1916
+r18 c71..76 bg=#1e1916
+r18 c76..79 bg=#1e1915
+r18 c79..81 bg=#1f1915
+r18 c81..85 bg=#1f1914
+r18 c85..90 bg=#1f1913
+r18 c90..91 bg=#1f1912
+r18 c91..96 bg=#201912
+r18 c96..102 bg=#201911
+r18 c102..104 bg=#211810
+r19 c0..1 bg=#151a23
+r19 c1..4 bg=#161a23
+r19 c4..8 bg=#161a22
+r19 c8..9 bg=#161a21
+r19 c9..13 bg=#171a21
+r19 c13..17 bg=#171a20
+r19 c17..20 bg=#181a20
+r19 c20..21 bg=#1f2127
+r19 c21..26 bg=#181a1f
+r19 c26..28 bg=#191a1e
+r19 c28..32 fg=#3798e1 bg=#191a1e
+r19 c32..35 fg=#3798e1 bg=#191a1d
+r19 c35..36 fg=#3798e1 bg=#1a1a1d
+r19 c36..39 fg=#3798e1 bg=#1a1a1c
+r19 c39..41 bg=#1a1a1c
+r19 c41..44 bg=#1a1a1b
+r19 c44..47 bg=#1b1a1b
+r19 c47..49 bg=#1b191b
+r19 c49..50 bg=#1b1a1a
+r19 c50..52 bg=#1b191a
+r19 c52..58 bg=#1c1919
+r19 c58..61 bg=#1c1918
+r19 c61..63 bg=#1d1918
+r19 c63..69 bg=#1d1917
+r19 c69..70 bg=#1d1916
+r19 c70..75 bg=#1e1916
+r19 c75..78 bg=#1e1915
+r19 c78..80 bg=#1f1915
+r19 c80..84 bg=#1f1914
+r19 c84..89 bg=#1f1913
+r19 c89..90 bg=#1f1912
+r19 c90..95 bg=#201912
+r19 c95..101 bg=#201911
+r19 c101..104 bg=#211810
+r20 c0..3 bg=#161a23
+r20 c3..7 bg=#161a22
+r20 c7..8 bg=#161a21
+r20 c8..12 bg=#171a21
+r20 c12..16 bg=#171a20
+r20 c16..20 bg=#181a20
+r20 c20..21 bg=#1f2127
+r20 c21..25 bg=#181a1f
+r20 c25..31 bg=#191a1e
+r20 c31..32 bg=#191a1d
+r20 c32..34 fg=#2b94dc bg=#191a1d
+r20 c34..35 fg=#2b94dc bg=#1a1a1d
+r20 c35..40 bg=#1a1a1c
+r20 c40..43 bg=#1a1a1b
+r20 c43..46 bg=#1b1a1b
+r20 c46..48 bg=#1b191b
+r20 c48..49 bg=#1b1a1a
+r20 c49..51 bg=#1b191a
+r20 c51..57 bg=#1c1919
+r20 c57..60 bg=#1c1918
+r20 c60..62 bg=#1d1918
+r20 c62..68 bg=#1d1917
+r20 c68..69 bg=#1d1916
+r20 c69..74 bg=#1e1916
+r20 c74..77 bg=#1e1915
+r20 c77..79 bg=#1f1915
+r20 c79..83 bg=#1f1914
+r20 c83..88 bg=#1f1913
+r20 c88..89 bg=#1f1912
+r20 c89..94 bg=#201912
+r20 c94..100 bg=#201911
+r20 c100..104 bg=#211810
+r21 c0..2 bg=#161a23
+r21 c2..6 bg=#161a22
+r21 c6..7 bg=#161a21
+r21 c7..11 bg=#171a21
+r21 c11..15 bg=#171a20
+r21 c15..19 bg=#181a20
+r21 c19..20 bg=#181a1f
+r21 c20..21 bg=#1f2127
+r21 c21..24 bg=#181a1f
+r21 c24..30 bg=#191a1e
+r21 c30..33 bg=#191a1d
+r21 c33..34 bg=#1a1a1d
+r21 c34..39 bg=#1a1a1c
+r21 c39..42 bg=#1a1a1b
+r21 c42..45 bg=#1b1a1b
+r21 c45..47 bg=#1b191b
+r21 c47..48 bg=#1b1a1a
+r21 c48..50 bg=#1b191a
+r21 c50..56 bg=#1c1919
+r21 c56..59 bg=#1c1918
+r21 c59..61 bg=#1d1918
+r21 c61..67 bg=#1d1917
+r21 c67..68 bg=#1d1916
+r21 c68..73 bg=#1e1916
+r21 c73..76 bg=#1e1915
+r21 c76..78 bg=#1f1915
+r21 c78..82 bg=#1f1914
+r21 c82..87 bg=#1f1913
+r21 c87..88 bg=#1f1912
+r21 c88..93 bg=#201912
+r21 c93..99 bg=#201911
+r21 c99..104 bg=#211810
+r22 c0..1 bg=#161a23
+r22 c1..5 bg=#161a22
+r22 c5..6 bg=#161a21
+r22 c6..10 bg=#171a21
+r22 c10..14 bg=#171a20
+r22 c14..18 bg=#181a20
+r22 c18..20 bg=#181a1f
+r22 c20..21 bg=#1f2127
+r22 c21..23 bg=#181a1f
+r22 c23..29 bg=#191a1e
+r22 c29..30 fg=Live bg=#191a1d
+r22 c30..31 bg=#191a1d
+r22 c31..32 fg=Foreground bg=#191a1d
+r22 c32..33 fg=Foreground bg=#1a1a1d
+r22 c33..38 fg=Foreground bg=#1a1a1c
+r22 c38..41 bg=#1a1a1b
+r22 c41..44 bg=#1b1a1b
+r22 c44..46 bg=#1b191b
+r22 c46..47 bg=#1b1a1a
+r22 c47..49 bg=#1b191a
+r22 c49..55 bg=#1c1919
+r22 c55..58 bg=#1c1918
+r22 c58..60 bg=#1d1918
+r22 c60..66 bg=#1d1917
+r22 c66..67 bg=#1d1916
+r22 c67..72 bg=#1e1916
+r22 c72..75 bg=#1e1915
+r22 c75..77 bg=#1f1915
+r22 c77..81 bg=#1f1914
+r22 c81..86 bg=#1f1913
+r22 c86..87 bg=#1f1912
+r22 c87..92 bg=#201912
+r22 c92..98 bg=#201911
+r22 c98..103 bg=#211810
+r22 c103..104 bg=#21180f
+r23 c0..4 bg=#161a22
+r23 c4..5 bg=#161a21
+r23 c5..9 bg=#171a21
+r23 c9..13 bg=#171a20
+r23 c13..17 bg=#181a20
+r23 c17..20 bg=#181a1f
+r23 c20..21 bg=#1f2126
+r23 c21..22 bg=#181a1f
+r23 c22..28 bg=#191a1e
+r23 c28..31 bg=#191a1d
+r23 c31..32 bg=#1a1a1d
+r23 c32..37 bg=#1a1a1c
+r23 c37..40 bg=#1a1a1b
+r23 c40..43 bg=#1b1a1b
+r23 c43..45 bg=#1b191b
+r23 c45..46 bg=#1b1a1a
+r23 c46..48 bg=#1b191a
+r23 c48..54 bg=#1c1919
+r23 c54..57 bg=#1c1918
+r23 c57..59 bg=#1d1918
+r23 c59..65 bg=#1d1917
+r23 c65..66 bg=#1d1916
+r23 c66..71 bg=#1e1916
+r23 c71..74 bg=#1e1915
+r23 c74..76 bg=#1f1915
+r23 c76..80 bg=#1f1914
+r23 c80..85 bg=#1f1913
+r23 c85..86 bg=#1f1912
+r23 c86..91 bg=#201912
+r23 c91..97 bg=#201911
+r23 c97..102 bg=#211810
+r23 c102..103 bg=#21180f
+r23 c103..104 bg=#22180f
+
+== light-truecolor
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean              Turn
+   Lagoon
+ ▸ Dusk               ● Working
+   Coral              ◆ Needs you
+   Graphite           ✕ Failed
+                      ✓ Done
+
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..11 fg=Foreground bg=#f5f8ff bold
+r0 c11..20 fg=Foreground bg=#f6f8ff bold
+r0 c20..24 fg=Foreground bg=#f6f8fe bold
+r0 c24..27 fg=Foreground bg=#f7f8fd bold
+r0 c27..34 bg=#f7f8fc
+r0 c34..37 bg=#f7f8fb
+r0 c37..41 bg=#f8f8fb
+r0 c41..48 bg=#f8f8fa
+r0 c48..50 bg=#f8f8f9
+r0 c50..54 bg=#f9f8f9
+r0 c54..61 bg=#f9f8f8
+r0 c61..63 bg=#f9f8f7
+r0 c63..68 bg=#faf8f7
+r0 c68..75 bg=#faf8f6
+r0 c75..76 bg=Background
+r0 c76..81 bg=#fbf8f5
+r0 c81..88 bg=#fbf8f4
+r0 c88..89 bg=#fbf8f3
+r0 c89..90 bg=#fcf8f2
+r0 c90..95 fg=Muted bg=#fcf8f2
+r0 c95..101 fg=Muted bg=#fcf8f1
+r0 c101..102 fg=Muted bg=#fdf8f1
+r0 c102..104 fg=Muted bg=#fdf8f0
+r1 c0..1 bg=#e7eefc
+r1 c1..5 fg=Foreground bg=#e7eefb bold
+r1 c5..7 fg=Foreground bg=#e7eefa bold
+r1 c7..9 fg=Foreground bg=#e8edfb bold
+r1 c9..13 bg=#e9edf9
+r1 c13..15 bg=#e9edf8
+r1 c15..17 fg=Muted bg=#e9edf8
+r1 c17..19 fg=Muted bg=#eaedf7
+r1 c19..20 bg=#eaedf7
+r1 c20..21 bg=#f6f8fe
+r1 c21..22 fg=Primary bg=#f6f8fe
+r1 c22..23 bg=#f6f8fe
+r1 c23..26 fg=Primary bg=#f7f8fd bold
+r1 c26..33 bg=#f7f8fc
+r1 c33..36 bg=#f7f8fb
+r1 c36..40 bg=#f8f8fb
+r1 c40..47 bg=#f8f8fa
+r1 c47..49 bg=#f8f8f9
+r1 c49..53 bg=#f9f8f9
+r1 c53..60 bg=#f9f8f8
+r1 c60..62 bg=#f9f8f7
+r1 c62..67 bg=#faf8f7
+r1 c67..74 bg=#faf8f6
+r1 c74..75 bg=Background
+r1 c75..80 bg=#fbf8f5
+r1 c80..87 bg=#fbf8f4
+r1 c87..88 bg=#fbf8f3
+r1 c88..94 bg=#fcf8f2
+r1 c94..100 bg=#fcf8f1
+r1 c100..101 bg=#fdf8f1
+r1 c101..104 bg=#fdf8f0
+r2 c0..4 bg=#e7eefb
+r2 c4..6 bg=#e7eefa
+r2 c6..8 bg=#e8edfb
+r2 c8..12 bg=#e9edf9
+r2 c12..16 bg=#e9edf8
+r2 c16..20 bg=#eaedf7
+r2 c20..21 bg=#f6f8fe
+r2 c21..22 fg=Border bg=Background
+r2 c22..23 fg=Border bg=#f7f8fd
+r2 c23..25 fg=Foreground bg=#f7f8fd
+r2 c25..32 fg=Foreground bg=#f7f8fc
+r2 c32..35 fg=Foreground bg=#f7f8fb
+r2 c35..39 fg=Foreground bg=#f8f8fb
+r2 c39..46 fg=Foreground bg=#f8f8fa
+r2 c46..48 fg=Foreground bg=#f8f8f9
+r2 c48..52 fg=Foreground bg=#f9f8f9
+r2 c52..59 fg=Foreground bg=#f9f8f8
+r2 c59..61 fg=Foreground bg=#f9f8f7
+r2 c61..66 bg=#faf8f7
+r2 c66..73 bg=#faf8f6
+r2 c73..74 bg=Background
+r2 c74..79 bg=#fbf8f5
+r2 c79..86 bg=#fbf8f4
+r2 c86..87 bg=#fbf8f3
+r2 c87..93 bg=#fcf8f2
+r2 c93..99 bg=#fcf8f1
+r2 c99..100 bg=#fdf8f1
+r2 c100..104 bg=#fdf8f0
+r3 c0..1 bg=#e7eefb
+r3 c1..3 fg=Primary bg=#e7eefb
+r3 c3..5 fg=Foreground bg=#e7eefa
+r3 c5..7 fg=Foreground bg=#e8edfb
+r3 c7..11 fg=Foreground bg=#e9edf9
+r3 c11..15 bg=#e9edf8
+r3 c15..20 bg=#eaedf7
+r3 c20..21 bg=#f6f8fe
+r3 c21..22 bg=Surface
+r3 c22..26 fg=Foreground bg=Surface bold
+r3 c26..104 bg=Surface
+r4 c0..1 bg=#e7eefb
+r4 c1..2 fg=Primary bg=#e7eefb
+r4 c2..3 fg=Primary bg=#e7eefa
+r4 c3..4 fg=Foreground bg=#e7eefa
+r4 c4..6 fg=Foreground bg=#e8edfb
+r4 c6..10 fg=Foreground bg=#e9edf9
+r4 c10..11 fg=Foreground bg=#e9edf8
+r4 c11..14 bg=#e9edf8
+r4 c14..19 bg=#eaedf7
+r4 c19..20 bg=#eaedf6
+r4 c20..21 bg=#f7f8fd
+r4 c21..104 bg=Surface
+r5 c0..1 bg=#e7eefb
+r5 c1..3 fg=Primary bg=#d7dce9
+r5 c3..5 fg=Foreground bg=#d7dce9 bold
+r5 c5..6 fg=Foreground bg=#d7dde8 bold
+r5 c6..9 fg=Foreground bg=#d8dce7 bold
+r5 c9..11 fg=Foreground bg=#d8dce6 bold
+r5 c11..13 bg=#d8dce6
+r5 c13..15 bg=#d8dce5
+r5 c15..17 bg=#d9dce5
+r5 c17..19 bg=#d9dce4
+r5 c19..20 bg=#eaedf6
+r5 c20..21 bg=#f7f8fd
+r5 c21..22 bg=Surface
+r5 c22..23 fg=Live bg=Surface
+r5 c23..24 bg=Surface
+r5 c24..31 fg=Foreground bg=Surface
+r5 c31..104 bg=Surface
+r6 c0..1 bg=#e7eefa
+r6 c1..2 fg=Primary bg=#e7eefa
+r6 c2..3 fg=Primary bg=#e8edfb
+r6 c3..4 fg=Foreground bg=#e8edfb
+r6 c4..8 fg=Foreground bg=#e9edf9
+r6 c8..11 fg=Foreground bg=#e9edf8
+r6 c11..12 bg=#e9edf8
+r6 c12..17 bg=#eaedf7
+r6 c17..20 bg=#eaedf6
+r6 c20..21 bg=#f7f8fd
+r6 c21..22 bg=Surface
+r6 c22..23 fg=Attention bg=Surface
+r6 c23..24 bg=Surface
+r6 c24..33 fg=Foreground bg=Surface
+r6 c33..104 bg=Surface
+r7 c0..1 bg=#e7eefa
+r7 c1..3 fg=Primary bg=#e8edfb
+r7 c3..7 fg=Foreground bg=#e9edf9
+r7 c7..11 fg=Foreground bg=#e9edf8
+r7 c11..16 bg=#eaedf7
+r7 c16..19 bg=#eaedf6
+r7 c19..20 bg=#ebedf6
+r7 c20..21 bg=#f7f8fc
+r7 c21..22 bg=Surface
+r7 c22..23 fg=Danger bg=Surface
+r7 c23..24 bg=Surface
+r7 c24..30 fg=Foreground bg=Surface
+r7 c30..104 bg=Surface
+r8 c0..2 bg=#e8edfb
+r8 c2..6 bg=#e9edf9
+r8 c6..10 bg=#e9edf8
+r8 c10..15 bg=#eaedf7
+r8 c15..18 bg=#eaedf6
+r8 c18..19 bg=#ebedf6
+r8 c19..20 bg=#ebedf5
+r8 c20..21 bg=#f7f8fc
+r8 c21..22 bg=Surface
+r8 c22..23 fg=Live bg=Surface
+r8 c23..24 bg=Surface
+r8 c24..28 fg=Foreground bg=Surface
+r8 c28..104 bg=Surface
+r9 c0..1 bg=#e8edfb
+r9 c1..5 bg=#e9edf9
+r9 c5..9 bg=#e9edf8
+r9 c9..14 bg=#eaedf7
+r9 c14..17 bg=#eaedf6
+r9 c17..18 bg=#ebedf6
+r9 c18..20 bg=#ebedf5
+r9 c20..21 bg=#f7f8fc
+r9 c21..104 bg=Surface
+r10 c0..4 bg=#e9edf9
+r10 c4..8 bg=#e9edf8
+r10 c8..13 bg=#eaedf7
+r10 c13..16 bg=#eaedf6
+r10 c16..17 bg=#ebedf6
+r10 c17..20 bg=#ebedf5
+r10 c20..21 bg=#f7f8fc
+r10 c21..22 bg=#ebedf4
+r10 c22..23 fg=Foreground bg=#ebedf4 bold
+r10 c23..25 fg=Foreground bg=#ecedf4 bold
+r10 c25..29 fg=Foreground bg=#ecedf3 bold
+r10 c29..32 fg=Foreground bg=#ecedf2 bold
+r10 c32..34 bg=#ededf1
+r10 c34..38 bg=#ededf0
+r10 c38..40 bg=#ededef
+r10 c40..42 bg=#eeedef
+r10 c42..46 bg=#eeedee
+r10 c46..48 bg=#eeeded
+r10 c48..50 bg=#efeded
+r10 c50..55 bg=#efedec
+r10 c55..59 bg=#f0edeb
+r10 c59..63 bg=#f0ede9
+r10 c63..64 bg=Sidebar
+r10 c64..67 bg=#f1ede8
+r10 c67..72 bg=#f1ede7
+r10 c72..76 bg=#f2ede6
+r10 c76..80 bg=#f2ede5
+r10 c80..84 bg=#f3ece4
+r10 c84..88 bg=#f3ede3
+r10 c88..89 bg=#f4ece2
+r10 c89..93 bg=#f4ece1
+r10 c93..96 bg=#f4ece0
+r10 c96..97 bg=#f5ece1
+r10 c97..101 bg=#f6ece0
+r10 c101..104 bg=#f6ecdf
+r11 c0..3 bg=#e9edf9
+r11 c3..7 bg=#e9edf8
+r11 c7..12 bg=#eaedf7
+r11 c12..15 bg=#eaedf6
+r11 c15..16 bg=#ebedf6
+r11 c16..20 bg=#ebedf5
+r11 c20..21 bg=#f7f8fc
+r11 c21..22 bg=#ebedf4
+r11 c22..24 bg=#ecedf4
+r11 c24..28 bg=#ecedf3
+r11 c28..31 bg=#ecedf2
+r11 c31..33 bg=#ededf1
+r11 c33..37 bg=#ededf0
+r11 c37..39 bg=#ededef
+r11 c39..41 bg=#eeedef
+r11 c41..45 bg=#eeedee
+r11 c45..47 bg=#eeeded
+r11 c47..49 bg=#efeded
+r11 c49..54 bg=#efedec
+r11 c54..58 bg=#f0edeb
+r11 c58..62 bg=#f0ede9
+r11 c62..63 bg=Sidebar
+r11 c63..66 bg=#f1ede8
+r11 c66..71 bg=#f1ede7
+r11 c71..75 bg=#f2ede6
+r11 c75..79 bg=#f2ede5
+r11 c79..83 bg=#f3ece4
+r11 c83..87 bg=#f3ede3
+r11 c87..88 bg=#f4ece2
+r11 c88..92 bg=#f4ece1
+r11 c92..95 bg=#f4ece0
+r11 c95..96 bg=#f5ece1
+r11 c96..100 bg=#f6ece0
+r11 c100..103 bg=#f6ecdf
+r11 c103..104 bg=#f7ecdf
+r12 c0..2 bg=#e9edf9
+r12 c2..6 bg=#e9edf8
+r12 c6..11 bg=#eaedf7
+r12 c11..14 bg=#eaedf6
+r12 c14..15 bg=#ebedf6
+r12 c15..19 bg=#ebedf5
+r12 c19..20 bg=#ebedf4
+r12 c20..21 bg=#f7f8fc
+r12 c21..23 bg=#ecedf4
+r12 c23..27 bg=#ecedf3
+r12 c27..30 bg=#ecedf2
+r12 c30..32 bg=#ededf1
+r12 c32..36 bg=#ededf0
+r12 c36..38 bg=#ededef
+r12 c38..40 bg=#eeedef
+r12 c40..44 bg=#eeedee
+r12 c44..46 bg=#eeeded
+r12 c46..48 bg=#efeded
+r12 c48..53 bg=#efedec
+r12 c53..57 bg=#f0edeb
+r12 c57..61 bg=#f0ede9
+r12 c61..62 bg=Sidebar
+r12 c62..65 bg=#f1ede8
+r12 c65..70 bg=#f1ede7
+r12 c70..74 bg=#f2ede6
+r12 c74..78 bg=#f2ede5
+r12 c78..82 bg=#f3ece4
+r12 c82..86 bg=#f3ede3
+r12 c86..87 bg=#f4ece2
+r12 c87..91 bg=#f4ece1
+r12 c91..94 bg=#f4ece0
+r12 c94..95 bg=#f5ece1
+r12 c95..99 bg=#f6ece0
+r12 c99..102 bg=#f6ecdf
+r12 c102..104 bg=#f7ecdf
+r13 c0..1 bg=#e9edf9
+r13 c1..5 bg=#e9edf8
+r13 c5..10 bg=#eaedf7
+r13 c10..13 bg=#eaedf6
+r13 c13..14 bg=#ebedf6
+r13 c14..18 bg=#ebedf5
+r13 c18..20 bg=#ebedf4
+r13 c20..21 bg=#f7f8fc
+r13 c21..22 bg=#ecedf4
+r13 c22..26 bg=#ecedf3
+r13 c26..29 bg=#ecedf2
+r13 c29..31 bg=#ededf1
+r13 c31..34 bg=#ededf0
+r13 c34..35 fg=#1c87d5 bg=Sidebar
+r13 c35..37 bg=#ededef
+r13 c37..39 bg=#eeedef
+r13 c39..43 bg=#eeedee
+r13 c43..45 bg=#eeeded
+r13 c45..47 bg=#efeded
+r13 c47..52 bg=#efedec
+r13 c52..56 bg=#f0edeb
+r13 c56..60 bg=#f0ede9
+r13 c60..61 bg=Sidebar
+r13 c61..64 bg=#f1ede8
+r13 c64..69 bg=#f1ede7
+r13 c69..73 bg=#f2ede6
+r13 c73..77 bg=#f2ede5
+r13 c77..81 bg=#f3ece4
+r13 c81..85 bg=#f3ede3
+r13 c85..86 bg=#f4ece2
+r13 c86..90 bg=#f4ece1
+r13 c90..93 bg=#f4ece0
+r13 c93..94 bg=#f5ece1
+r13 c94..98 bg=#f6ece0
+r13 c98..101 bg=#f6ecdf
+r13 c101..103 bg=#f7ecdf
+r13 c103..104 bg=#f7ecdd
+r14 c0..4 bg=#e9edf8
+r14 c4..9 bg=#eaedf7
+r14 c9..12 bg=#eaedf6
+r14 c12..13 bg=#ebedf6
+r14 c13..17 bg=#ebedf5
+r14 c17..19 bg=#ebedf4
+r14 c19..20 bg=#ecedf4
+r14 c20..21 bg=#f7f8fb
+r14 c21..25 bg=#ecedf3
+r14 c25..28 bg=#ecedf2
+r14 c28..30 fg=#1a7fd2 bg=#ededf1
+r14 c30..36 fg=#1a7fd2 bg=Sidebar
+r14 c36..37 fg=#1a7fd2 bg=#eeedef
+r14 c37..38 bg=#eeedef
+r14 c38..42 bg=#eeedee
+r14 c42..44 bg=#eeeded
+r14 c44..46 bg=#efeded
+r14 c46..51 bg=#efedec
+r14 c51..55 bg=#f0edeb
+r14 c55..59 bg=#f0ede9
+r14 c59..60 bg=Sidebar
+r14 c60..62 bg=#f1ede8
+r14 c62..63 fg=Dim bg=#f1ede8
+r14 c63..68 bg=#f1ede7
+r14 c68..72 bg=#f2ede6
+r14 c72..76 bg=#f2ede5
+r14 c76..80 bg=#f3ece4
+r14 c80..84 bg=#f3ede3
+r14 c84..85 bg=#f4ece2
+r14 c85..89 bg=#f4ece1
+r14 c89..92 bg=#f4ece0
+r14 c92..93 bg=#f5ece1
+r14 c93..97 bg=#f6ece0
+r14 c97..100 bg=#f6ecdf
+r14 c100..102 bg=#f7ecdf
+r14 c102..104 bg=#f7ecdd
+r15 c0..3 bg=#e9edf8
+r15 c3..8 bg=#eaedf7
+r15 c8..11 bg=#eaedf6
+r15 c11..12 bg=#ebedf6
+r15 c12..16 bg=#ebedf5
+r15 c16..18 bg=#ebedf4
+r15 c18..20 bg=#ecedf4
+r15 c20..21 bg=#f7f8fb
+r15 c21..24 bg=#ecedf3
+r15 c24..27 bg=#ecedf2
+r15 c27..29 fg=#1877ce bg=#ededf1
+r15 c29..35 fg=#1877ce bg=Sidebar
+r15 c35..36 fg=#1877ce bg=#eeedef
+r15 c36..37 bg=#eeedef
+r15 c37..41 fg=#1877ce bg=Sidebar
+r15 c41..43 bg=#eeeded
+r15 c43..45 bg=#efeded
+r15 c45..50 bg=#efedec
+r15 c50..54 bg=#f0edeb
+r15 c54..58 bg=#f0ede9
+r15 c58..59 bg=Sidebar
+r15 c59..62 bg=#f1ede8
+r15 c62..67 bg=#f1ede7
+r15 c67..71 bg=#f2ede6
+r15 c71..75 bg=#f2ede5
+r15 c75..76 bg=#f3ece4
+r15 c76..79 fg=Hint bg=#f3ece4
+r15 c79..83 fg=Hint bg=#f3ede3
+r15 c83..84 fg=Hint bg=#f4ece2
+r15 c84..88 bg=#f4ece1
+r15 c88..91 bg=#f4ece0
+r15 c91..92 bg=#f5ece1
+r15 c92..96 bg=#f6ece0
+r15 c96..99 bg=#f6ecdf
+r15 c99..101 bg=#f7ecdf
+r15 c101..104 bg=#f7ecdd
+r16 c0..2 bg=#e9edf8
+r16 c2..7 bg=#eaedf7
+r16 c7..10 bg=#eaedf6
+r16 c10..11 bg=#ebedf6
+r16 c11..15 bg=#ebedf5
+r16 c15..17 bg=#ebedf4
+r16 c17..19 bg=#ecedf4
+r16 c19..20 bg=#ecedf3
+r16 c20..21 bg=#f7f8fb
+r16 c21..23 bg=#ecedf3
+r16 c23..26 bg=#ecedf2
+r16 c26..27 bg=#ededf1
+r16 c27..28 fg=#166fcb bg=#ededf1
+r16 c28..30 fg=#166fcb bg=Sidebar
+r16 c30..32 bg=#ededf0
+r16 c32..34 bg=#ededef
+r16 c34..36 fg=#166fcb bg=#eeedef
+r16 c36..41 fg=#166fcb bg=Sidebar
+r16 c41..42 bg=#eeeded
+r16 c42..44 bg=#efeded
+r16 c44..49 bg=#efedec
+r16 c49..50 bg=#f0edeb
+r16 c50..51 fg=Dim bg=#f0edeb
+r16 c51..53 bg=#f0edeb
+r16 c53..57 bg=#f0ede9
+r16 c57..58 bg=Sidebar
+r16 c58..61 bg=#f1ede8
+r16 c61..66 bg=#f1ede7
+r16 c66..70 bg=#f2ede6
+r16 c70..74 bg=#f2ede5
+r16 c74..78 bg=#f3ece4
+r16 c78..82 bg=#f3ede3
+r16 c82..83 bg=#f4ece2
+r16 c83..85 bg=#f4ece1
+r16 c85..87 fg=Primary bg=#f4ece1
+r16 c87..89 fg=Primary bg=#f4ece0
+r16 c89..90 bg=#f4ece0
+r16 c90..91 bg=#f5ece1
+r16 c91..95 bg=#f6ece0
+r16 c95..98 bg=#f6ecdf
+r16 c98..100 bg=#f7ecdf
+r16 c100..104 bg=#f7ecdd
+r17 c0..1 bg=#e9edf8
+r17 c1..6 bg=#eaedf7
+r17 c6..9 bg=#eaedf6
+r17 c9..10 bg=#ebedf6
+r17 c10..14 bg=#ebedf5
+r17 c14..16 bg=#ebedf4
+r17 c16..18 bg=#ecedf4
+r17 c18..20 bg=#ecedf3
+r17 c20..21 bg=#f8f8fb
+r17 c21..22 bg=#ecedf3
+r17 c22..25 bg=#ecedf2
+r17 c25..27 bg=#ededf1
+r17 c27..31 fg=#1368c8 bg=#ededf0
+r17 c31..33 fg=#1368c8 bg=#ededef
+r17 c33..35 fg=#1368c8 bg=#eeedef
+r17 c35..39 fg=#1368c8 bg=#eeedee
+r17 c39..40 bg=#eeeded
+r17 c40..41 fg=#1368c8 bg=#eeeded
+r17 c41..43 bg=#efeded
+r17 c43..48 bg=#efedec
+r17 c48..52 bg=#f0edeb
+r17 c52..53 fg=Dim bg=#f0ede9
+r17 c53..56 bg=#f0ede9
+r17 c56..57 bg=Sidebar
+r17 c57..60 bg=#f1ede8
+r17 c60..65 bg=#f1ede7
+r17 c65..69 bg=#f2ede6
+r17 c69..73 bg=#f2ede5
+r17 c73..74 bg=#f3ece4
+r17 c74..77 fg=Hint bg=#f3ece4
+r17 c77..78 fg=Hint bg=#f3ede3
+r17 c78..79 bg=#f3ede3
+r17 c79..81 fg=Hint bg=#f3ede3
+r17 c81..82 fg=Hint bg=#f4ece2
+r17 c82..83 fg=Hint bg=#f4ece1
+r17 c83..86 bg=#f4ece1
+r17 c86..89 bg=#f4ece0
+r17 c89..90 bg=#f5ece1
+r17 c90..94 bg=#f6ece0
+r17 c94..97 bg=#f6ecdf
+r17 c97..99 bg=#f7ecdf
+r17 c99..103 bg=#f7ecdd
+r17 c103..104 bg=#f7ecdc
+r18 c0..5 bg=#eaedf7
+r18 c5..8 bg=#eaedf6
+r18 c8..9 bg=#ebedf6
+r18 c9..13 bg=#ebedf5
+r18 c13..15 bg=#ebedf4
+r18 c15..17 bg=#ecedf4
+r18 c17..20 bg=#ecedf3
+r18 c20..21 bg=#f8f8fb
+r18 c21..24 bg=#ecedf2
+r18 c24..26 bg=#ededf1
+r18 c26..27 bg=#ededf0
+r18 c27..30 fg=#1160c5 bg=#ededf0
+r18 c30..32 fg=#1160c5 bg=#ededef
+r18 c32..34 fg=#1160c5 bg=#eeedef
+r18 c34..37 fg=#1160c5 bg=#eeedee
+r18 c37..38 bg=#eeedee
+r18 c38..40 fg=#1160c5 bg=#eeeded
+r18 c40..42 bg=#efeded
+r18 c42..47 bg=#efedec
+r18 c47..51 bg=#f0edeb
+r18 c51..55 bg=#f0ede9
+r18 c55..56 bg=Sidebar
+r18 c56..59 bg=#f1ede8
+r18 c59..64 bg=#f1ede7
+r18 c64..68 bg=#f2ede6
+r18 c68..72 bg=#f2ede5
+r18 c72..76 bg=#f3ece4
+r18 c76..80 bg=#f3ede3
+r18 c80..81 bg=#f4ece2
+r18 c81..85 bg=#f4ece1
+r18 c85..88 bg=#f4ece0
+r18 c88..89 bg=#f5ece1
+r18 c89..93 bg=#f6ece0
+r18 c93..96 bg=#f6ecdf
+r18 c96..98 bg=#f7ecdf
+r18 c98..102 bg=#f7ecdd
+r18 c102..104 bg=#f7ecdc
+r19 c0..4 bg=#eaedf7
+r19 c4..7 bg=#eaedf6
+r19 c7..8 bg=#ebedf6
+r19 c8..12 bg=#ebedf5
+r19 c12..14 bg=#ebedf4
+r19 c14..16 bg=#ecedf4
+r19 c16..20 bg=#ecedf3
+r19 c20..21 bg=#f8f8fb
+r19 c21..23 bg=#ecedf2
+r19 c23..25 bg=#ededf1
+r19 c25..28 bg=#ededf0
+r19 c28..29 fg=#0f58c1 bg=#ededf0
+r19 c29..31 fg=#0f58c1 bg=#ededef
+r19 c31..33 fg=#0f58c1 bg=#eeedef
+r19 c33..37 fg=#0f58c1 bg=#eeedee
+r19 c37..39 fg=#0f58c1 bg=#eeeded
+r19 c39..41 bg=#efeded
+r19 c41..46 bg=#efedec
+r19 c46..50 bg=#f0edeb
+r19 c50..54 bg=#f0ede9
+r19 c54..55 bg=Sidebar
+r19 c55..58 bg=#f1ede8
+r19 c58..63 bg=#f1ede7
+r19 c63..67 bg=#f2ede6
+r19 c67..71 bg=#f2ede5
+r19 c71..75 bg=#f3ece4
+r19 c75..79 bg=#f3ede3
+r19 c79..80 bg=#f4ece2
+r19 c80..84 bg=#f4ece1
+r19 c84..87 bg=#f4ece0
+r19 c87..88 bg=#f5ece1
+r19 c88..92 bg=#f6ece0
+r19 c92..95 bg=#f6ecdf
+r19 c95..97 bg=#f7ecdf
+r19 c97..101 bg=#f7ecdd
+r19 c101..103 bg=#f7ecdc
+r19 c103..104 bg=#f8ecdc
+r20 c0..3 bg=#eaedf7
+r20 c3..6 bg=#eaedf6
+r20 c6..7 bg=#ebedf6
+r20 c7..11 bg=#ebedf5
+r20 c11..13 bg=#ebedf4
+r20 c13..15 bg=#ecedf4
+r20 c15..19 bg=#ecedf3
+r20 c19..20 bg=#ecedf2
+r20 c20..21 bg=#f8f8fb
+r20 c21..22 bg=#ecedf2
+r20 c22..24 bg=#ededf1
+r20 c24..28 bg=#ededf0
+r20 c28..30 bg=#ededef
+r20 c30..32 bg=#eeedef
+r20 c32..35 fg=#0d50be bg=#eeedee
+r20 c35..36 bg=#eeedee
+r20 c36..38 bg=#eeeded
+r20 c38..40 bg=#efeded
+r20 c40..45 bg=#efedec
+r20 c45..49 bg=#f0edeb
+r20 c49..53 bg=#f0ede9
+r20 c53..54 bg=Sidebar
+r20 c54..57 bg=#f1ede8
+r20 c57..62 bg=#f1ede7
+r20 c62..66 bg=#f2ede6
+r20 c66..70 bg=#f2ede5
+r20 c70..74 bg=#f3ece4
+r20 c74..78 bg=#f3ede3
+r20 c78..79 bg=#f4ece2
+r20 c79..83 bg=#f4ece1
+r20 c83..86 bg=#f4ece0
+r20 c86..87 bg=#f5ece1
+r20 c87..91 bg=#f6ece0
+r20 c91..94 bg=#f6ecdf
+r20 c94..96 bg=#f7ecdf
+r20 c96..100 bg=#f7ecdd
+r20 c100..102 bg=#f7ecdc
+r20 c102..104 bg=#f8ecdc
+r21 c0..2 bg=#eaedf7
+r21 c2..5 bg=#eaedf6
+r21 c5..6 bg=#ebedf6
+r21 c6..10 bg=#ebedf5
+r21 c10..12 bg=#ebedf4
+r21 c12..14 bg=#ecedf4
+r21 c14..18 bg=#ecedf3
+r21 c18..20 bg=#ecedf2
+r21 c20..21 bg=#f8f8fa
+r21 c21..23 bg=#ededf1
+r21 c23..27 bg=#ededf0
+r21 c27..29 bg=#ededef
+r21 c29..31 bg=#eeedef
+r21 c31..35 bg=#eeedee
+r21 c35..37 bg=#eeeded
+r21 c37..39 bg=#efeded
+r21 c39..44 bg=#efedec
+r21 c44..48 bg=#f0edeb
+r21 c48..52 bg=#f0ede9
+r21 c52..53 bg=Sidebar
+r21 c53..56 bg=#f1ede8
+r21 c56..61 bg=#f1ede7
+r21 c61..65 bg=#f2ede6
+r21 c65..69 bg=#f2ede5
+r21 c69..73 bg=#f3ece4
+r21 c73..77 bg=#f3ede3
+r21 c77..78 bg=#f4ece2
+r21 c78..82 bg=#f4ece1
+r21 c82..85 bg=#f4ece0
+r21 c85..86 bg=#f5ece1
+r21 c86..90 bg=#f6ece0
+r21 c90..93 bg=#f6ecdf
+r21 c93..95 bg=#f7ecdf
+r21 c95..99 bg=#f7ecdd
+r21 c99..101 bg=#f7ecdc
+r21 c101..103 bg=#f8ecdc
+r21 c103..104 bg=#f8ecdb
+r22 c0..1 bg=#eaedf7
+r22 c1..4 bg=#eaedf6
+r22 c4..5 bg=#ebedf6
+r22 c5..9 bg=#ebedf5
+r22 c9..11 bg=#ebedf4
+r22 c11..13 bg=#ecedf4
+r22 c13..17 bg=#ecedf3
+r22 c17..20 bg=#ecedf2
+r22 c20..21 bg=#f8f8fa
+r22 c21..22 bg=#ededf1
+r22 c22..26 bg=#ededf0
+r22 c26..28 bg=#ededef
+r22 c28..29 bg=#eeedef
+r22 c29..30 fg=Live bg=#eeedef
+r22 c30..31 bg=#eeedee
+r22 c31..34 fg=Foreground bg=#eeedee
+r22 c34..36 fg=Foreground bg=#eeeded
+r22 c36..38 fg=Foreground bg=#efeded
+r22 c38..43 bg=#efedec
+r22 c43..47 bg=#f0edeb
+r22 c47..51 bg=#f0ede9
+r22 c51..52 bg=Sidebar
+r22 c52..55 bg=#f1ede8
+r22 c55..60 bg=#f1ede7
+r22 c60..64 bg=#f2ede6
+r22 c64..68 bg=#f2ede5
+r22 c68..72 bg=#f3ece4
+r22 c72..76 bg=#f3ede3
+r22 c76..77 bg=#f4ece2
+r22 c77..81 bg=#f4ece1
+r22 c81..84 bg=#f4ece0
+r22 c84..85 bg=#f5ece1
+r22 c85..89 bg=#f6ece0
+r22 c89..92 bg=#f6ecdf
+r22 c92..94 bg=#f7ecdf
+r22 c94..98 bg=#f7ecdd
+r22 c98..100 bg=#f7ecdc
+r22 c100..102 bg=#f8ecdc
+r22 c102..104 bg=#f8ecdb
+r23 c0..3 bg=#eaedf6
+r23 c3..4 bg=#ebedf6
+r23 c4..8 bg=#ebedf5
+r23 c8..10 bg=#ebedf4
+r23 c10..12 bg=#ecedf4
+r23 c12..16 bg=#ecedf3
+r23 c16..19 bg=#ecedf2
+r23 c19..20 bg=#ededf1
+r23 c20..21 bg=#f8f8fa
+r23 c21..25 bg=#ededf0
+r23 c25..27 bg=#ededef
+r23 c27..29 bg=#eeedef
+r23 c29..33 bg=#eeedee
+r23 c33..35 bg=#eeeded
+r23 c35..37 bg=#efeded
+r23 c37..42 bg=#efedec
+r23 c42..46 bg=#f0edeb
+r23 c46..50 bg=#f0ede9
+r23 c50..51 bg=Sidebar
+r23 c51..54 bg=#f1ede8
+r23 c54..59 bg=#f1ede7
+r23 c59..63 bg=#f2ede6
+r23 c63..67 bg=#f2ede5
+r23 c67..71 bg=#f3ece4
+r23 c71..75 bg=#f3ede3
+r23 c75..76 bg=#f4ece2
+r23 c76..80 bg=#f4ece1
+r23 c80..83 bg=#f4ece0
+r23 c83..84 bg=#f5ece1
+r23 c84..88 bg=#f6ece0
+r23 c88..91 bg=#f6ecdf
+r23 c91..93 bg=#f7ecdf
+r23 c93..97 bg=#f7ecdd
+r23 c97..99 bg=#f7ecdc
+r23 c99..101 bg=#f8ecdc
+r23 c101..104 bg=#f8ecdb
+
+== dark-256
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean              Turn
+   Lagoon
+ ▸ Dusk               ● Working
+   Coral              ◆ Needs you
+   Graphite           ✕ Failed
+                      ✓ Done
+
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..27 fg=Foreground bg=Background bold
+r0 c27..90 bg=Background
+r0 c90..104 fg=Muted bg=Background
+r1 c0..1 bg=Sidebar
+r1 c1..9 fg=Foreground bg=Sidebar bold
+r1 c9..15 bg=Sidebar
+r1 c15..19 fg=Muted bg=Sidebar
+r1 c19..20 bg=Sidebar
+r1 c20..21 bg=Background
+r1 c21..22 fg=Primary bg=Background
+r1 c22..23 bg=Background
+r1 c23..26 fg=Primary bg=Background bold
+r1 c26..104 bg=Background
+r2 c0..20 bg=Sidebar
+r2 c20..21 bg=Background
+r2 c21..23 fg=Border bg=Background
+r2 c23..61 fg=Foreground bg=Background
+r2 c61..104 bg=Background
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Primary bg=Sidebar
+r3 c3..11 fg=Foreground bg=Sidebar
+r3 c11..20 bg=Sidebar
+r3 c20..21 bg=Background
+r3 c21..22 bg=Surface|Hover
+r3 c22..26 fg=Foreground bg=Surface|Hover bold
+r3 c26..104 bg=Surface|Hover
+r4 c0..1 bg=Sidebar
+r4 c1..3 fg=Primary bg=Sidebar
+r4 c3..11 fg=Foreground bg=Sidebar
+r4 c11..20 bg=Sidebar
+r4 c20..21 bg=Background
+r4 c21..104 bg=Surface|Hover
+r5 c0..1 bg=Sidebar
+r5 c1..3 fg=Primary bg=Selected
+r5 c3..11 fg=Foreground bg=Selected bold
+r5 c11..19 bg=Selected
+r5 c19..20 bg=Sidebar
+r5 c20..21 bg=Background
+r5 c21..22 bg=Surface|Hover
+r5 c22..23 fg=Live bg=Surface|Hover
+r5 c23..24 bg=Surface|Hover
+r5 c24..31 fg=Foreground bg=Surface|Hover
+r5 c31..104 bg=Surface|Hover
+r6 c0..1 bg=Sidebar
+r6 c1..3 fg=Primary bg=Sidebar
+r6 c3..11 fg=Foreground bg=Sidebar
+r6 c11..20 bg=Sidebar
+r6 c20..21 bg=Background
+r6 c21..22 bg=Surface|Hover
+r6 c22..23 fg=Attention bg=Surface|Hover
+r6 c23..24 bg=Surface|Hover
+r6 c24..33 fg=Foreground bg=Surface|Hover
+r6 c33..104 bg=Surface|Hover
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Primary bg=Sidebar
+r7 c3..11 fg=Foreground bg=Sidebar
+r7 c11..20 bg=Sidebar
+r7 c20..21 bg=Background
+r7 c21..22 bg=Surface|Hover
+r7 c22..23 fg=Danger bg=Surface|Hover
+r7 c23..24 bg=Surface|Hover
+r7 c24..30 fg=Foreground bg=Surface|Hover
+r7 c30..104 bg=Surface|Hover
+r8 c0..20 bg=Sidebar
+r8 c20..21 bg=Background
+r8 c21..22 bg=Surface|Hover
+r8 c22..23 fg=Live bg=Surface|Hover
+r8 c23..24 bg=Surface|Hover
+r8 c24..28 fg=Foreground bg=Surface|Hover
+r8 c28..104 bg=Surface|Hover
+r9 c0..20 bg=Sidebar
+r9 c20..21 bg=Background
+r9 c21..104 bg=Surface|Hover
+r10 c0..20 bg=Sidebar
+r10 c20..21 bg=Background
+r10 c21..22 bg=Sidebar
+r10 c22..32 fg=Foreground bg=Sidebar bold
+r10 c32..104 bg=Sidebar
+r11 c0..20 bg=Sidebar
+r11 c20..21 bg=Background
+r11 c21..104 bg=Sidebar
+r12 c0..20 bg=Sidebar
+r12 c20..21 bg=Background
+r12 c21..104 bg=Sidebar
+r13 c0..20 bg=Sidebar
+r13 c20..21 bg=Background
+r13 c21..34 bg=Sidebar
+r13 c34..35 fg=Primary bg=Sidebar
+r13 c35..104 bg=Sidebar
+r14 c0..20 bg=Sidebar
+r14 c20..21 bg=Background
+r14 c21..28 bg=Sidebar
+r14 c28..37 fg=Primary bg=Sidebar
+r14 c37..62 bg=Sidebar
+r14 c62..63 fg=Dim bg=Sidebar
+r14 c63..104 bg=Sidebar
+r15 c0..20 bg=Sidebar
+r15 c20..21 bg=Background
+r15 c21..27 bg=Sidebar
+r15 c27..36 fg=idx75 bg=Sidebar
+r15 c36..37 bg=Sidebar
+r15 c37..41 fg=idx75 bg=Sidebar
+r15 c41..76 bg=Sidebar
+r15 c76..84 fg=Hint bg=Sidebar
+r15 c84..104 bg=Sidebar
+r16 c0..20 bg=Sidebar
+r16 c20..21 bg=Background
+r16 c21..27 bg=Sidebar
+r16 c27..30 fg=idx75 bg=Sidebar
+r16 c30..34 bg=Sidebar
+r16 c34..41 fg=idx75 bg=Sidebar
+r16 c41..50 bg=Sidebar
+r16 c50..51 fg=Dim bg=Sidebar
+r16 c51..85 bg=Sidebar
+r16 c85..89 fg=Primary bg=Sidebar
+r16 c89..104 bg=Sidebar
+r17 c0..20 bg=Sidebar
+r17 c20..21 bg=Background
+r17 c21..27 bg=Sidebar
+r17 c27..39 fg=idx74 bg=Sidebar
+r17 c39..40 bg=Sidebar
+r17 c40..41 fg=idx74 bg=Sidebar
+r17 c41..52 bg=Sidebar
+r17 c52..53 fg=Dim bg=Sidebar
+r17 c53..74 bg=Sidebar
+r17 c74..78 fg=Hint bg=Sidebar
+r17 c78..79 bg=Sidebar
+r17 c79..83 fg=Hint bg=Sidebar
+r17 c83..104 bg=Sidebar
+r18 c0..20 bg=Sidebar
+r18 c20..21 bg=Background
+r18 c21..27 bg=Sidebar
+r18 c27..37 fg=idx74 bg=Sidebar
+r18 c37..38 bg=Sidebar
+r18 c38..40 fg=idx74 bg=Sidebar
+r18 c40..104 bg=Sidebar
+r19 c0..20 bg=Sidebar
+r19 c20..21 bg=Background
+r19 c21..28 bg=Sidebar
+r19 c28..39 fg=idx68 bg=Sidebar
+r19 c39..104 bg=Sidebar
+r20 c0..20 bg=Sidebar
+r20 c20..21 bg=Background
+r20 c21..32 bg=Sidebar
+r20 c32..35 fg=idx32 bg=Sidebar
+r20 c35..104 bg=Sidebar
+r21 c0..20 bg=Sidebar
+r21 c20..21 bg=Background
+r21 c21..104 bg=Sidebar
+r22 c0..20 bg=Sidebar
+r22 c20..21 bg=Background
+r22 c21..29 bg=Sidebar
+r22 c29..30 fg=Live bg=Sidebar
+r22 c30..31 bg=Sidebar
+r22 c31..38 fg=Foreground bg=Sidebar
+r22 c38..104 bg=Sidebar
+r23 c0..20 bg=Sidebar
+r23 c20..21 bg=Background
+r23 c21..104 bg=Sidebar
+
+== light-256
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean             ┌─────────────────────────────────────────────────────────────────────────────────┐
+   Lagoon            │ Turn                                                                            │
+ ▸ Dusk              │ ● Working                                                                       │
+   Coral             │ ◆ Needs you                                                                     │
+   Graphite          │ ✕ Failed                                                                        │
+                     │ ✓ Done                                                                          │
+                     └─────────────────────────────────────────────────────────────────────────────────┘
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..27 fg=Foreground bg=Background|Surface bold
+r0 c27..90 bg=Background|Surface
+r0 c90..104 fg=Muted bg=Background|Surface
+r1 c0..1 bg=Sidebar
+r1 c1..9 fg=Foreground bg=Sidebar bold
+r1 c9..15 bg=Sidebar
+r1 c15..19 fg=Muted bg=Sidebar
+r1 c19..20 bg=Sidebar
+r1 c20..21 bg=Background|Surface
+r1 c21..22 fg=Primary bg=Background|Surface
+r1 c22..23 bg=Background|Surface
+r1 c23..26 fg=Primary bg=Background|Surface bold
+r1 c26..104 bg=Background|Surface
+r2 c0..20 bg=Sidebar
+r2 c20..21 bg=Background|Surface
+r2 c21..23 fg=Border bg=Background|Surface
+r2 c23..61 fg=Foreground bg=Background|Surface
+r2 c61..104 bg=Background|Surface
+r3 c0..1 bg=Sidebar
+r3 c1..3 fg=Primary bg=Sidebar
+r3 c3..11 fg=Foreground bg=Sidebar
+r3 c11..20 bg=Sidebar
+r3 c20..21 bg=Background|Surface
+r3 c21..104 fg=Border bg=Background|Surface
+r4 c0..1 bg=Sidebar
+r4 c1..3 fg=Primary bg=Sidebar
+r4 c3..11 fg=Foreground bg=Sidebar
+r4 c11..20 bg=Sidebar
+r4 c20..21 bg=Background|Surface
+r4 c21..22 fg=Border bg=Background|Surface
+r4 c22..23 bg=Background|Surface
+r4 c23..27 fg=Foreground bg=Background|Surface bold
+r4 c27..103 bg=Background|Surface
+r4 c103..104 fg=Border bg=Background|Surface
+r5 c0..1 bg=Sidebar
+r5 c1..3 fg=Primary bg=Selected
+r5 c3..11 fg=Foreground bg=Selected bold
+r5 c11..19 bg=Selected
+r5 c19..20 bg=Sidebar
+r5 c20..21 bg=Background|Surface
+r5 c21..22 fg=Border bg=Background|Surface
+r5 c22..23 bg=Background|Surface
+r5 c23..24 fg=Live bg=Background|Surface
+r5 c24..25 bg=Background|Surface
+r5 c25..32 fg=Foreground bg=Background|Surface
+r5 c32..103 bg=Background|Surface
+r5 c103..104 fg=Border bg=Background|Surface
+r6 c0..1 bg=Sidebar
+r6 c1..3 fg=Primary bg=Sidebar
+r6 c3..11 fg=Foreground bg=Sidebar
+r6 c11..20 bg=Sidebar
+r6 c20..21 bg=Background|Surface
+r6 c21..22 fg=Border bg=Background|Surface
+r6 c22..23 bg=Background|Surface
+r6 c23..24 fg=Attention bg=Background|Surface
+r6 c24..25 bg=Background|Surface
+r6 c25..34 fg=Foreground bg=Background|Surface
+r6 c34..103 bg=Background|Surface
+r6 c103..104 fg=Border bg=Background|Surface
+r7 c0..1 bg=Sidebar
+r7 c1..3 fg=Primary bg=Sidebar
+r7 c3..11 fg=Foreground bg=Sidebar
+r7 c11..20 bg=Sidebar
+r7 c20..21 bg=Background|Surface
+r7 c21..22 fg=Border bg=Background|Surface
+r7 c22..23 bg=Background|Surface
+r7 c23..24 fg=Danger bg=Background|Surface
+r7 c24..25 bg=Background|Surface
+r7 c25..31 fg=Foreground bg=Background|Surface
+r7 c31..103 bg=Background|Surface
+r7 c103..104 fg=Border bg=Background|Surface
+r8 c0..20 bg=Sidebar
+r8 c20..21 bg=Background|Surface
+r8 c21..22 fg=Border bg=Background|Surface
+r8 c22..23 bg=Background|Surface
+r8 c23..24 fg=Live bg=Background|Surface
+r8 c24..25 bg=Background|Surface
+r8 c25..29 fg=Foreground bg=Background|Surface
+r8 c29..103 bg=Background|Surface
+r8 c103..104 fg=Border bg=Background|Surface
+r9 c0..20 bg=Sidebar
+r9 c20..21 bg=Background|Surface
+r9 c21..104 fg=Border bg=Background|Surface
+r10 c0..20 bg=Sidebar
+r10 c20..21 bg=Background|Surface
+r10 c21..22 bg=Sidebar
+r10 c22..32 fg=Foreground bg=Sidebar bold
+r10 c32..104 bg=Sidebar
+r11 c0..20 bg=Sidebar
+r11 c20..21 bg=Background|Surface
+r11 c21..104 bg=Sidebar
+r12 c0..20 bg=Sidebar
+r12 c20..21 bg=Background|Surface
+r12 c21..104 bg=Sidebar
+r13 c0..20 bg=Sidebar
+r13 c20..21 bg=Background|Surface
+r13 c21..34 bg=Sidebar
+r13 c34..35 fg=idx32 bg=Sidebar
+r13 c35..104 bg=Sidebar
+r14 c0..20 bg=Sidebar
+r14 c20..21 bg=Background|Surface
+r14 c21..28 bg=Sidebar
+r14 c28..37 fg=idx32 bg=Sidebar
+r14 c37..62 bg=Sidebar
+r14 c62..63 fg=Dim bg=Sidebar
+r14 c63..104 bg=Sidebar
+r15 c0..20 bg=Sidebar
+r15 c20..21 bg=Background|Surface
+r15 c21..27 bg=Sidebar
+r15 c27..36 fg=idx32 bg=Sidebar
+r15 c36..37 bg=Sidebar
+r15 c37..41 fg=idx32 bg=Sidebar
+r15 c41..76 bg=Sidebar
+r15 c76..84 fg=Hint bg=Sidebar
+r15 c84..104 bg=Sidebar
+r16 c0..20 bg=Sidebar
+r16 c20..21 bg=Background|Surface
+r16 c21..27 bg=Sidebar
+r16 c27..30 fg=idx26 bg=Sidebar
+r16 c30..34 bg=Sidebar
+r16 c34..41 fg=idx26 bg=Sidebar
+r16 c41..50 bg=Sidebar
+r16 c50..51 fg=Dim bg=Sidebar
+r16 c51..85 bg=Sidebar
+r16 c85..89 fg=Primary bg=Sidebar
+r16 c89..104 bg=Sidebar
+r17 c0..20 bg=Sidebar
+r17 c20..21 bg=Background|Surface
+r17 c21..27 bg=Sidebar
+r17 c27..39 fg=idx26 bg=Sidebar
+r17 c39..40 bg=Sidebar
+r17 c40..41 fg=idx26 bg=Sidebar
+r17 c41..52 bg=Sidebar
+r17 c52..53 fg=Dim bg=Sidebar
+r17 c53..74 bg=Sidebar
+r17 c74..78 fg=Hint bg=Sidebar
+r17 c78..79 bg=Sidebar
+r17 c79..83 fg=Hint bg=Sidebar
+r17 c83..104 bg=Sidebar
+r18 c0..20 bg=Sidebar
+r18 c20..21 bg=Background|Surface
+r18 c21..27 bg=Sidebar
+r18 c27..37 fg=idx26 bg=Sidebar
+r18 c37..38 bg=Sidebar
+r18 c38..40 fg=idx26 bg=Sidebar
+r18 c40..104 bg=Sidebar
+r19 c0..20 bg=Sidebar
+r19 c20..21 bg=Background|Surface
+r19 c21..28 bg=Sidebar
+r19 c28..39 fg=Primary bg=Sidebar
+r19 c39..104 bg=Sidebar
+r20 c0..20 bg=Sidebar
+r20 c20..21 bg=Background|Surface
+r20 c21..32 bg=Sidebar
+r20 c32..35 fg=Primary bg=Sidebar
+r20 c35..104 bg=Sidebar
+r21 c0..20 bg=Sidebar
+r21 c20..21 bg=Background|Surface
+r21 c21..104 bg=Sidebar
+r22 c0..20 bg=Sidebar
+r22 c20..21 bg=Background|Surface
+r22 c21..29 bg=Sidebar
+r22 c29..30 fg=Live bg=Sidebar
+r22 c30..31 bg=Sidebar
+r22 c31..38 fg=Foreground bg=Sidebar
+r22 c38..104 bg=Sidebar
+r23 c0..20 bg=Sidebar
+r23 c20..21 bg=Background|Surface
+r23 c21..104 bg=Sidebar
+
+== ansi-16
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean             ┌─────────────────────────────────────────────────────────────────────────────────┐
+   Lagoon            │ Turn                                                                            │
+ ▸ Dusk              │ ● Working                                                                       │
+   Coral             │ ◆ Needs you                                                                     │
+   Graphite          │ ✕ Failed                                                                        │
+                     │ ✓ Done                                                                          │
+                     └─────────────────────────────────────────────────────────────────────────────────┘
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..27 bold
+r0 c90..104 dim
+r1 c1..9 bold
+r1 c15..19 dim
+r1 c21..22 fg=Primary
+r1 c23..26 fg=Primary bold
+r2 c21..23 dim
+r3 c1..3 fg=Primary
+r3 c21..104 dim
+r4 c1..3 fg=Primary
+r4 c21..22 dim
+r4 c23..27 bold
+r4 c103..104 dim
+r5 c1..3 fg=Primary
+r5 c3..11 bold
+r5 c21..22 dim
+r5 c23..24 fg=Live
+r5 c103..104 dim
+r6 c1..3 fg=Primary
+r6 c21..22 dim
+r6 c23..24 fg=Attention
+r6 c103..104 dim
+r7 c1..3 fg=Primary
+r7 c21..22 dim
+r7 c23..24 fg=Danger
+r7 c103..104 dim
+r8 c21..22 dim
+r8 c23..24 fg=Live
+r8 c103..104 dim
+r9 c21..104 dim
+r10 c22..32 bold
+r13 c34..35 fg=Primary
+r14 c28..37 fg=Primary
+r14 c62..63 dim
+r15 c27..36 fg=Primary
+r15 c37..41 fg=Primary
+r15 c76..84 dim
+r16 c27..30 fg=Primary
+r16 c34..41 fg=Primary
+r16 c50..51 dim
+r16 c85..89 fg=Primary
+r17 c27..39 fg=Primary
+r17 c40..41 fg=Primary
+r17 c52..53 dim
+r17 c74..78 dim
+r17 c79..83 dim
+r18 c27..37 fg=Primary
+r18 c38..40 fg=Primary
+r19 c28..39 fg=Primary
+r20 c32..35 fg=Primary
+r22 c29..30 fg=Live
+
+== unknown-ground
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean             ┌─────────────────────────────────────────────────────────────────────────────────┐
+   Lagoon            │ Turn                                                                            │
+ ▸ Dusk              │ ● Working                                                                       │
+   Coral             │ ◆ Needs you                                                                     │
+   Graphite          │ ✕ Failed                                                                        │
+                     │ ✓ Done                                                                          │
+                     └─────────────────────────────────────────────────────────────────────────────────┘
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..27 bold
+r0 c90..104 dim
+r1 c1..9 bold
+r1 c15..19 dim
+r1 c21..22 fg=Primary
+r1 c23..26 fg=Primary bold
+r2 c21..23 dim
+r3 c1..3 fg=Primary
+r3 c21..104 dim
+r4 c1..3 fg=Primary
+r4 c21..22 dim
+r4 c23..27 bold
+r4 c103..104 dim
+r5 c1..3 fg=Primary
+r5 c3..11 bold
+r5 c21..22 dim
+r5 c23..24 fg=Live
+r5 c103..104 dim
+r6 c1..3 fg=Primary
+r6 c21..22 dim
+r6 c23..24 fg=Attention
+r6 c103..104 dim
+r7 c1..3 fg=Primary
+r7 c21..22 dim
+r7 c23..24 fg=Danger
+r7 c103..104 dim
+r8 c21..22 dim
+r8 c23..24 fg=Live
+r8 c103..104 dim
+r9 c21..104 dim
+r10 c22..32 bold
+r13 c34..35 fg=Primary
+r14 c28..37 fg=Primary
+r14 c62..63 dim
+r15 c27..36 fg=Primary
+r15 c37..41 fg=Primary
+r15 c76..84 dim
+r16 c27..30 fg=Primary
+r16 c34..41 fg=Primary
+r16 c50..51 dim
+r16 c85..89 fg=Primary
+r17 c27..39 fg=Primary
+r17 c40..41 fg=Primary
+r17 c52..53 dim
+r17 c74..78 dim
+r17 c79..83 dim
+r18 c27..37 fg=Primary
+r18 c38..40 fg=Primary
+r19 c28..39 fg=Primary
+r20 c32..35 fg=Primary
+r22 c29..30 fg=Live
+
+== no-color
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  ● You
+                     ▏ Finish this scene with one atmosphere.
+   Ocean             ┌─────────────────────────────────────────────────────────────────────────────────┐
+   Lagoon            │ Turn                                                                            │
+ ▸ Dusk              │ ● Working                                                                       │
+   Coral             │ ◆ Needs you                                                                     │
+   Graphite          │ ✕ Failed                                                                        │
+                     │ ✓ Done                                                                          │
+                     └─────────────────────────────────────────────────────────────────────────────────┘
+                      Deep water
+
+
+                                  ⡀
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                           ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
+                            ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
+                                ⠈⠉⠁
+
+                             ● Working
+
+---
+r0 c0..27 bold
+r0 c90..104 dim
+r1 c1..9 bold
+r1 c15..19 dim
+r1 c23..26 bold
+r2 c21..23 dim
+r3 c21..104 dim
+r4 c21..22 dim
+r4 c23..27 bold
+r4 c103..104 dim
+r5 c3..11 bold
+r5 c21..22 dim
+r5 c103..104 dim
+r6 c21..22 dim
+r6 c103..104 dim
+r7 c21..22 dim
+r7 c103..104 dim
+r8 c21..22 dim
+r8 c103..104 dim
+r9 c21..104 dim
+r10 c22..32 bold
+r14 c62..63 dim
+r15 c76..84 dim
+r16 c50..51 dim
+r17 c52..53 dim
+r17 c74..78 dim
+r17 c79..83 dim
+
+== ascii
+Codewhale / Dusk atmosphere                                                               Finishing pass
+ Palettes      wash  . You
+                     | Finish this scene with one atmosphere.
+   Ocean             +---------------------------------------------------------------------------------+
+   Lagoon            | Turn                                                                            |
+ > Dusk              | . Working                                                                       |
+   Coral             | * Needs you                                                                     |
+   Graphite          | X Failed                                                                        |
+                     | Y Done                                                                          |
+                     +---------------------------------------------------------------------------------+
+                      Deep water
+
+                             . Working
+
+                                                              o                   o
+
+                                                  .                         ><>  ><>><o>
+                                                    .                     ><>  ><>
+
+
+
+
+
+
+---
+r0 c0..27 bold
+r0 c90..104 dim
+r1 c1..9 bold
+r1 c15..19 dim
+r1 c23..26 bold
+r2 c21..23 dim
+r3 c21..104 dim
+r4 c21..22 dim
+r4 c23..27 bold
+r4 c103..104 dim
+r5 c3..11 bold
+r5 c21..22 dim
+r5 c103..104 dim
+r6 c21..22 dim
+r6 c103..104 dim
+r7 c21..22 dim
+r7 c103..104 dim
+r8 c21..22 dim
+r8 c103..104 dim
+r9 c21..104 dim
+r10 c22..32 bold
+r14 c62..63 dim
+r14 c82..83 dim
+r16 c50..51 dim
+r16 c76..79 dim
+r16 c81..84 dim
+r17 c52..53 dim
+r17 c74..77 dim
+r17 c79..82 dim

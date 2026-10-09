@@ -1,0 +1,382 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(14, dialog_wide)"
+---
+== dark-truecolor · 40x14
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│                                  │le
+Ed│ Delete branch feat/kit-buildout… │le
+Ed│                                  │le
+Ed│ This cannot be undone. Unpushed  │le
+Ed│ commits on the branch are lost.  │le
+Ed│                                  │le
+Ed│                                  │le
+Ed│ y delete branch · n keep it      │le
+Ed│ d show what would be deleted     │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+---
+r0 c0..40 fg=Muted bg=Background
+r1 c0..2 fg=Muted bg=Background
+r1 c2..38 fg=BorderStrong bg=Surface
+r1 c38..40 fg=Muted bg=Background
+r2 c0..2 fg=Muted bg=Background
+r2 c2..3 fg=BorderStrong bg=Surface
+r2 c3..37 bg=Surface
+r2 c37..38 fg=BorderStrong bg=Surface
+r2 c38..40 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..3 fg=BorderStrong bg=Surface
+r3 c3..4 bg=Surface
+r3 c4..36 fg=Foreground bg=Surface bold
+r3 c36..37 bg=Surface
+r3 c37..38 fg=BorderStrong bg=Surface
+r3 c38..40 fg=Muted bg=Background
+r4 c0..2 fg=Muted bg=Background
+r4 c2..3 fg=BorderStrong bg=Surface
+r4 c3..37 bg=Surface
+r4 c37..38 fg=BorderStrong bg=Surface
+r4 c38..40 fg=Muted bg=Background
+r5 c0..2 fg=Muted bg=Background
+r5 c2..3 fg=BorderStrong bg=Surface
+r5 c3..4 bg=Surface
+r5 c4..36 fg=Foreground bg=Surface
+r5 c36..37 bg=Surface
+r5 c37..38 fg=BorderStrong bg=Surface
+r5 c38..40 fg=Muted bg=Background
+r6 c0..2 fg=Muted bg=Background
+r6 c2..3 fg=BorderStrong bg=Surface
+r6 c3..4 bg=Surface
+r6 c4..36 fg=Foreground bg=Surface
+r6 c36..37 bg=Surface
+r6 c37..38 fg=BorderStrong bg=Surface
+r6 c38..40 fg=Muted bg=Background
+r7 c0..2 fg=Muted bg=Background
+r7 c2..3 fg=BorderStrong bg=Surface
+r7 c3..4 bg=Surface
+r7 c4..36 fg=Foreground bg=Surface
+r7 c36..37 bg=Surface
+r7 c37..38 fg=BorderStrong bg=Surface
+r7 c38..40 fg=Muted bg=Background
+r8 c0..2 fg=Muted bg=Background
+r8 c2..3 fg=BorderStrong bg=Surface
+r8 c3..37 bg=Surface
+r8 c37..38 fg=BorderStrong bg=Surface
+r8 c38..40 fg=Muted bg=Background
+r9 c0..2 fg=Muted bg=Background
+r9 c2..3 fg=BorderStrong bg=Surface
+r9 c3..4 bg=Surface
+r9 c4..5 fg=Foreground bg=Surface bold
+r9 c5..6 bg=Surface
+r9 c6..19 fg=Muted bg=Surface
+r9 c19..22 fg=Border bg=Surface
+r9 c22..23 fg=Foreground bg=Surface bold
+r9 c23..24 bg=Surface
+r9 c24..31 fg=Muted bg=Surface
+r9 c31..37 bg=Surface
+r9 c37..38 fg=BorderStrong bg=Surface
+r9 c38..40 fg=Muted bg=Background
+r10 c0..2 fg=Muted bg=Background
+r10 c2..3 fg=BorderStrong bg=Surface
+r10 c3..4 bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..6 bg=Surface
+r10 c6..32 fg=Muted bg=Surface
+r10 c32..37 bg=Surface
+r10 c37..38 fg=BorderStrong bg=Surface
+r10 c38..40 fg=Muted bg=Background
+r11 c0..2 fg=Muted bg=Background
+r11 c2..3 fg=BorderStrong bg=Surface
+r11 c3..37 bg=Surface
+r11 c37..38 fg=BorderStrong bg=Surface
+r11 c38..40 fg=Muted bg=Background
+r12 c0..2 fg=Muted bg=Background
+r12 c2..38 fg=BorderStrong bg=Surface
+r12 c38..40 fg=Muted bg=Background
+r13 c0..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x14
+Edited summary.md and then ran the whole suite again for good measure
+Edit┌──────────────────────────────────────────────────────────────────────┐
+Edit│                                                                      │
+Edit│ Delete branch feat/kit-buildout and everything built on it           │
+Edit│                                                                      │
+Edit│ This cannot be undone. Unpushed commits on the branch are lost.      │
+Edit│                                                                      │
+Edit│                                                                      │
+Edit│                                                                      │
+Edit│ y delete branch · n keep it · d show what would be deleted           │
+Edit│                                                                      │
+Edit└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..80 bg=Background
+r1 c0..4 fg=Muted bg=Background
+r1 c4..76 fg=BorderStrong bg=Surface
+r1 c76..80 bg=Background
+r2 c0..4 fg=Muted bg=Background
+r2 c4..5 fg=BorderStrong bg=Surface
+r2 c5..75 bg=Surface
+r2 c75..76 fg=BorderStrong bg=Surface
+r2 c76..80 bg=Background
+r3 c0..4 fg=Muted bg=Background
+r3 c4..5 fg=BorderStrong bg=Surface
+r3 c5..6 bg=Surface
+r3 c6..64 fg=Foreground bg=Surface bold
+r3 c64..75 bg=Surface
+r3 c75..76 fg=BorderStrong bg=Surface
+r3 c76..80 bg=Background
+r4 c0..4 fg=Muted bg=Background
+r4 c4..5 fg=BorderStrong bg=Surface
+r4 c5..75 bg=Surface
+r4 c75..76 fg=BorderStrong bg=Surface
+r4 c76..80 bg=Background
+r5 c0..4 fg=Muted bg=Background
+r5 c4..5 fg=BorderStrong bg=Surface
+r5 c5..6 bg=Surface
+r5 c6..74 fg=Foreground bg=Surface
+r5 c74..75 bg=Surface
+r5 c75..76 fg=BorderStrong bg=Surface
+r5 c76..80 bg=Background
+r6 c0..4 fg=Muted bg=Background
+r6 c4..5 fg=BorderStrong bg=Surface
+r6 c5..6 bg=Surface
+r6 c6..74 fg=Foreground bg=Surface
+r6 c74..75 bg=Surface
+r6 c75..76 fg=BorderStrong bg=Surface
+r6 c76..80 bg=Background
+r7 c0..4 fg=Muted bg=Background
+r7 c4..5 fg=BorderStrong bg=Surface
+r7 c5..6 bg=Surface
+r7 c6..74 fg=Foreground bg=Surface
+r7 c74..75 bg=Surface
+r7 c75..76 fg=BorderStrong bg=Surface
+r7 c76..80 bg=Background
+r8 c0..4 fg=Muted bg=Background
+r8 c4..5 fg=BorderStrong bg=Surface
+r8 c5..75 bg=Surface
+r8 c75..76 fg=BorderStrong bg=Surface
+r8 c76..80 bg=Background
+r9 c0..4 fg=Muted bg=Background
+r9 c4..5 fg=BorderStrong bg=Surface
+r9 c5..6 bg=Surface
+r9 c6..7 fg=Foreground bg=Surface bold
+r9 c7..8 bg=Surface
+r9 c8..21 fg=Muted bg=Surface
+r9 c21..24 fg=Border bg=Surface
+r9 c24..25 fg=Foreground bg=Surface bold
+r9 c25..26 bg=Surface
+r9 c26..33 fg=Muted bg=Surface
+r9 c33..36 fg=Border bg=Surface
+r9 c36..37 fg=Foreground bg=Surface bold
+r9 c37..38 bg=Surface
+r9 c38..64 fg=Muted bg=Surface
+r9 c64..75 bg=Surface
+r9 c75..76 fg=BorderStrong bg=Surface
+r9 c76..80 bg=Background
+r10 c0..4 fg=Muted bg=Background
+r10 c4..5 fg=BorderStrong bg=Surface
+r10 c5..75 bg=Surface
+r10 c75..76 fg=BorderStrong bg=Surface
+r10 c76..80 bg=Background
+r11 c0..4 fg=Muted bg=Background
+r11 c4..76 fg=BorderStrong bg=Surface
+r11 c76..80 bg=Background
+r12 c0..69 fg=Muted bg=Background
+r12 c69..80 bg=Background
+r13 c0..69 fg=Muted bg=Background
+r13 c69..80 bg=Background
+
+== dark-truecolor · 120x14
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and th┌──────────────────────────────────────────────────────────────────────┐
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ Delete branch feat/kit-buildout and everything built on it           │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ This cannot be undone. Unpushed commits on the branch are lost.      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ y delete branch · n keep it · d show what would be deleted           │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..120 bg=Background
+r1 c0..24 fg=Muted bg=Background
+r1 c24..96 fg=BorderStrong bg=Surface
+r1 c96..120 bg=Background
+r2 c0..24 fg=Muted bg=Background
+r2 c24..25 fg=BorderStrong bg=Surface
+r2 c25..95 bg=Surface
+r2 c95..96 fg=BorderStrong bg=Surface
+r2 c96..120 bg=Background
+r3 c0..24 fg=Muted bg=Background
+r3 c24..25 fg=BorderStrong bg=Surface
+r3 c25..26 bg=Surface
+r3 c26..84 fg=Foreground bg=Surface bold
+r3 c84..95 bg=Surface
+r3 c95..96 fg=BorderStrong bg=Surface
+r3 c96..120 bg=Background
+r4 c0..24 fg=Muted bg=Background
+r4 c24..25 fg=BorderStrong bg=Surface
+r4 c25..95 bg=Surface
+r4 c95..96 fg=BorderStrong bg=Surface
+r4 c96..120 bg=Background
+r5 c0..24 fg=Muted bg=Background
+r5 c24..25 fg=BorderStrong bg=Surface
+r5 c25..26 bg=Surface
+r5 c26..94 fg=Foreground bg=Surface
+r5 c94..95 bg=Surface
+r5 c95..96 fg=BorderStrong bg=Surface
+r5 c96..120 bg=Background
+r6 c0..24 fg=Muted bg=Background
+r6 c24..25 fg=BorderStrong bg=Surface
+r6 c25..26 bg=Surface
+r6 c26..94 fg=Foreground bg=Surface
+r6 c94..95 bg=Surface
+r6 c95..96 fg=BorderStrong bg=Surface
+r6 c96..120 bg=Background
+r7 c0..24 fg=Muted bg=Background
+r7 c24..25 fg=BorderStrong bg=Surface
+r7 c25..26 bg=Surface
+r7 c26..94 fg=Foreground bg=Surface
+r7 c94..95 bg=Surface
+r7 c95..96 fg=BorderStrong bg=Surface
+r7 c96..120 bg=Background
+r8 c0..24 fg=Muted bg=Background
+r8 c24..25 fg=BorderStrong bg=Surface
+r8 c25..95 bg=Surface
+r8 c95..96 fg=BorderStrong bg=Surface
+r8 c96..120 bg=Background
+r9 c0..24 fg=Muted bg=Background
+r9 c24..25 fg=BorderStrong bg=Surface
+r9 c25..26 bg=Surface
+r9 c26..27 fg=Foreground bg=Surface bold
+r9 c27..28 bg=Surface
+r9 c28..41 fg=Muted bg=Surface
+r9 c41..44 fg=Border bg=Surface
+r9 c44..45 fg=Foreground bg=Surface bold
+r9 c45..46 bg=Surface
+r9 c46..53 fg=Muted bg=Surface
+r9 c53..56 fg=Border bg=Surface
+r9 c56..57 fg=Foreground bg=Surface bold
+r9 c57..58 bg=Surface
+r9 c58..84 fg=Muted bg=Surface
+r9 c84..95 bg=Surface
+r9 c95..96 fg=BorderStrong bg=Surface
+r9 c96..120 bg=Background
+r10 c0..24 fg=Muted bg=Background
+r10 c24..25 fg=BorderStrong bg=Surface
+r10 c25..95 bg=Surface
+r10 c95..96 fg=BorderStrong bg=Surface
+r10 c96..120 bg=Background
+r11 c0..24 fg=Muted bg=Background
+r11 c24..96 fg=BorderStrong bg=Surface
+r11 c96..120 bg=Background
+r12 c0..69 fg=Muted bg=Background
+r12 c69..120 bg=Background
+r13 c0..69 fg=Muted bg=Background
+r13 c69..120 bg=Background
+
+== no-color · 40x14
+Edited summary.md and then ran the whole
+Ed┌──────────────────────────────────┐le
+Ed│                                  │le
+Ed│ Delete branch feat/kit-buildout… │le
+Ed│                                  │le
+Ed│ This cannot be undone. Unpushed  │le
+Ed│ commits on the branch are lost.  │le
+Ed│                                  │le
+Ed│                                  │le
+Ed│ y delete branch · n keep it      │le
+Ed│ d show what would be deleted     │le
+Ed│                                  │le
+Ed└──────────────────────────────────┘le
+Edited summary.md and then ran the whole
+
+== no-color · 80x14
+Edited summary.md and then ran the whole suite again for good measure
+Edit┌──────────────────────────────────────────────────────────────────────┐
+Edit│                                                                      │
+Edit│ Delete branch feat/kit-buildout and everything built on it           │
+Edit│                                                                      │
+Edit│ This cannot be undone. Unpushed commits on the branch are lost.      │
+Edit│                                                                      │
+Edit│                                                                      │
+Edit│                                                                      │
+Edit│ y delete branch · n keep it · d show what would be deleted           │
+Edit│                                                                      │
+Edit└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== no-color · 120x14
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and th┌──────────────────────────────────────────────────────────────────────┐
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ Delete branch feat/kit-buildout and everything built on it           │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ This cannot be undone. Unpushed commits on the branch are lost.      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th│ y delete branch · n keep it · d show what would be deleted           │
+Edited summary.md and th│                                                                      │
+Edited summary.md and th└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 40x14
+Edited summary.md and then ran the whole
+Ed+----------------------------------+le
+Ed|                                  |le
+Ed| Delete branch feat/kit-buildo... |le
+Ed|                                  |le
+Ed| This cannot be undone. Unpushed  |le
+Ed| commits on the branch are lost.  |le
+Ed|                                  |le
+Ed|                                  |le
+Ed| y delete branch  n keep it       |le
+Ed| d show what would be deleted     |le
+Ed|                                  |le
+Ed+----------------------------------+le
+Edited summary.md and then ran the whole
+
+== ascii · 80x14
+Edited summary.md and then ran the whole suite again for good measure
+Edit+----------------------------------------------------------------------+
+Edit|                                                                      |
+Edit| Delete branch feat/kit-buildout and everything built on it           |
+Edit|                                                                      |
+Edit| This cannot be undone. Unpushed commits on the branch are lost.      |
+Edit|                                                                      |
+Edit|                                                                      |
+Edit|                                                                      |
+Edit| y delete branch  n keep it  d show what would be deleted             |
+Edit|                                                                      |
+Edit+----------------------------------------------------------------------+
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+
+== ascii · 120x14
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and th+----------------------------------------------------------------------+
+Edited summary.md and th|                                                                      |
+Edited summary.md and th| Delete branch feat/kit-buildout and everything built on it           |
+Edited summary.md and th|                                                                      |
+Edited summary.md and th| This cannot be undone. Unpushed commits on the branch are lost.      |
+Edited summary.md and th|                                                                      |
+Edited summary.md and th|                                                                      |
+Edited summary.md and th|                                                                      |
+Edited summary.md and th| y delete branch  n keep it  d show what would be deleted             |
+Edited summary.md and th|                                                                      |
+Edited summary.md and th+----------------------------------------------------------------------+
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure

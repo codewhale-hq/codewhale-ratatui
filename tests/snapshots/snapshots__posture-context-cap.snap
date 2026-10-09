@@ -1,0 +1,118 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..30 fg=Hint|Dim bg=Background
+r0 c30..34 fg=#7eb4e8 bg=Background
+r0 c34..43 fg=Hint|Dim bg=Background
+r0 c43..51 fg=Live bg=Background
+r0 c51..54 fg=Hint|Dim bg=Background
+r0 c54..68 fg=Live bg=Background
+r0 c68..71 fg=Hint|Dim bg=Background
+r0 c71..96 fg=#ff7a59 bg=Background
+r0 c96..112 bg=Background
+
+== dark-graphite
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..30 fg=Hint|Dim bg=Background
+r0 c30..34 fg=#7eb4e8 bg=Background
+r0 c34..43 fg=Hint|Dim bg=Background
+r0 c43..51 fg=Live bg=Background
+r0 c51..54 fg=Hint|Dim bg=Background
+r0 c54..68 fg=Live bg=Background
+r0 c68..71 fg=Hint|Dim bg=Background
+r0 c71..96 fg=#ff7a59 bg=Background
+r0 c96..112 bg=Background
+
+== light-truecolor
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c1..6 fg=#92400e bold
+r0 c6..30 fg=Hint|Dim
+r0 c30..34 fg=#1636b2
+r0 c34..43 fg=Hint|Dim
+r0 c43..51 fg=Live
+r0 c51..54 fg=Hint|Dim
+r0 c54..68 fg=Live
+r0 c68..71 fg=Hint|Dim
+r0 c71..96 fg=#a94724
+
+== dark-256
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
+r0 c6..30 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c30..34 fg=idx110 bg=Background|DiffAddedTint
+r0 c34..43 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c43..51 fg=Live bg=Background|DiffAddedTint
+r0 c51..54 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c54..68 fg=Live bg=Background|DiffAddedTint
+r0 c68..71 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c71..96 fg=idx209 bg=Background|DiffAddedTint
+r0 c96..112 bg=Background|DiffAddedTint
+
+== light-256
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 fg=Muted|Hint|Dim
+r0 c30..34 fg=Primary
+r0 c34..43 fg=Muted|Hint|Dim
+r0 c43..51 fg=Live
+r0 c51..54 fg=Muted|Hint|Dim
+r0 c54..68 fg=Live
+r0 c68..71 fg=Muted|Hint|Dim
+r0 c71..96 fg=idx130
+
+== ansi-16
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 dim
+r0 c30..34 fg=Primary
+r0 c34..43 dim
+r0 c43..51 fg=Live
+r0 c51..54 dim
+r0 c54..68 fg=Live
+r0 c68..71 dim
+r0 c71..96 fg=Attention
+
+== unknown-ground
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c1..6 fg=Attention bold
+r0 c6..30 dim
+r0 c30..34 fg=Primary
+r0 c34..43 dim
+r0 c43..51 fg=Live
+r0 c51..54 dim
+r0 c54..68 fg=Live
+r0 c68..71 dim
+r0 c71..96 fg=Attention
+
+== no-color
+ ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ▲ surface soon — /compact
+---
+r0 c1..6 bold
+r0 c6..30 dim
+r0 c34..43 dim
+r0 c51..54 dim
+r0 c68..71 dim
+
+== ascii
+ . ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   ^ surface soon - /compact
+---
+r0 c1..6 bold
+r0 c6..30 dim
+r0 c34..43 dim
+r0 c51..54 dim
+r0 c68..71 dim

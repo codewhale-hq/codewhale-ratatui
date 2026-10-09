@@ -1,0 +1,57 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(1, tabs_one_row)"
+---
+== dark-truecolor · 40x1
+ General [Appearance] Agents 3
+---
+r0 c0..9 fg=Muted bg=Background
+r0 c9..10 fg=Foreground bg=Background
+r0 c10..20 fg=Foreground bg=Background bold
+r0 c20..21 fg=Foreground bg=Background
+r0 c21..28 fg=Muted bg=Background
+r0 c28..29 bg=Background
+r0 c29..31 fg=Muted bg=Background
+r0 c31..40 bg=Background
+
+== dark-truecolor · 80x1
+ General [Appearance] Agents 3
+---
+r0 c0..9 fg=Muted bg=Background
+r0 c9..10 fg=Foreground bg=Background
+r0 c10..20 fg=Foreground bg=Background bold
+r0 c20..21 fg=Foreground bg=Background
+r0 c21..28 fg=Muted bg=Background
+r0 c28..29 bg=Background
+r0 c29..31 fg=Muted bg=Background
+r0 c31..80 bg=Background
+
+== dark-truecolor · 120x1
+ General [Appearance] Agents 3
+---
+r0 c0..9 fg=Muted bg=Background
+r0 c9..10 fg=Foreground bg=Background
+r0 c10..20 fg=Foreground bg=Background bold
+r0 c20..21 fg=Foreground bg=Background
+r0 c21..28 fg=Muted bg=Background
+r0 c28..29 bg=Background
+r0 c29..31 fg=Muted bg=Background
+r0 c31..120 bg=Background
+
+== no-color · 40x1
+ General [Appearance] Agents 3
+
+== no-color · 80x1
+ General [Appearance] Agents 3
+
+== no-color · 120x1
+ General [Appearance] Agents 3
+
+== ascii · 40x1
+ General [Appearance] Agents 3
+
+== ascii · 80x1
+ General [Appearance] Agents 3
+
+== ascii · 120x1
+ General [Appearance] Agents 3

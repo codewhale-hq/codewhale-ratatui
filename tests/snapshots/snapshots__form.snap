@@ -1,0 +1,372 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..60 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..60 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..60 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..60 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..60 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..60 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..60 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..60 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..60 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..60 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..60 bg=Background
+r11 c0..60 bg=Background
+r12 c0..60 bg=Background
+r13 c0..60 bg=Background
+
+== dark-graphite
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..60 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..60 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..60 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..60 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..60 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..60 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..60 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..60 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..60 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..60 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..60 bg=Background
+r11 c0..60 bg=Background
+r12 c0..60 bg=Background
+r13 c0..60 bg=Background
+
+== light-truecolor
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..60 bg=Background
+r1 c0..2 bg=Surface
+r1 c2..16 fg=Foreground bg=Surface
+r1 c16..60 bg=Surface
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..60 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..60 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..60 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..60 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..60 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..60 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..60 bg=Background
+r9 c0..2 bg=Surface
+r9 c2..6 fg=Foreground bg=Surface
+r9 c6..60 bg=Surface
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..60 bg=Background
+r11 c0..60 bg=Background
+r12 c0..60 bg=Background
+r13 c0..60 bg=Background
+
+== dark-256
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..60 bg=Background
+r1 c0..2 bg=Surface|Hover
+r1 c2..16 fg=Foreground bg=Surface|Hover
+r1 c16..60 bg=Surface|Hover
+r2 c0..7 fg=Foreground bg=Background bold
+r2 c7..60 bg=Background
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..60 bg=Selected
+r4 c0..1 fg=Danger bg=Background
+r4 c1..2 bg=Background
+r4 c2..19 fg=Foreground bg=Background
+r4 c19..60 bg=Background
+r5 c0..8 fg=Muted bg=Background dim
+r5 c8..60 bg=Background
+r6 c0..2 bg=Background
+r6 c2..16 fg=Muted bg=Background dim
+r6 c16..60 bg=Background
+r7 c0..1 fg=Muted bg=Background
+r7 c1..2 bg=Background
+r7 c2..11 fg=Muted bg=Background
+r7 c11..60 bg=Background
+r8 c0..9 fg=Foreground bg=Background
+r8 c9..60 bg=Background
+r9 c0..2 bg=Surface|Hover
+r9 c2..6 fg=Foreground bg=Surface|Hover
+r9 c6..60 bg=Surface|Hover
+r10 c0..2 bg=Background
+r10 c2..37 fg=Muted bg=Background
+r10 c37..60 bg=Background
+r11 c0..60 bg=Background
+r12 c0..60 bg=Background
+r13 c0..60 bg=Background
+
+== light-256
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r0 c0..4 fg=Foreground bg=Background|Surface
+r0 c4..60 bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..16 fg=Foreground bg=Background|Surface
+r1 c16..60 bg=Background|Surface
+r2 c0..7 fg=Foreground bg=Background|Surface bold
+r2 c7..60 bg=Background|Surface
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..3 fg=Hint bg=Selected reversed
+r3 c3..18 fg=Hint bg=Selected
+r3 c18..60 bg=Selected
+r4 c0..1 fg=Danger bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..19 fg=Foreground bg=Background|Surface
+r4 c19..60 bg=Background|Surface
+r5 c0..8 fg=Muted bg=Background|Surface dim
+r5 c8..60 bg=Background|Surface
+r6 c0..2 bg=Background|Surface
+r6 c2..16 fg=Muted bg=Background|Surface dim
+r6 c16..60 bg=Background|Surface
+r7 c0..1 fg=Muted bg=Background|Surface
+r7 c1..2 bg=Background|Surface
+r7 c2..11 fg=Muted bg=Background|Surface
+r7 c11..60 bg=Background|Surface
+r8 c0..9 fg=Foreground bg=Background|Surface
+r8 c9..60 bg=Background|Surface
+r9 c0..2 bg=Background|Surface
+r9 c2..6 fg=Foreground bg=Background|Surface
+r9 c6..60 bg=Background|Surface
+r10 c0..2 bg=Background|Surface
+r10 c2..37 fg=Muted bg=Background|Surface
+r10 c37..60 bg=Background|Surface
+r11 c0..60 bg=Background|Surface
+r12 c0..60 bg=Background|Surface
+r13 c0..60 bg=Background|Surface
+
+== ansi-16
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r2 c0..7 bold
+r3 c0..1 fg=Primary
+r3 c2..3 dim reversed
+r3 c3..18 dim
+r4 c0..1 fg=Danger
+r5 c0..8 dim
+r6 c2..16 dim
+r7 c0..1 dim
+r7 c2..11 dim
+r10 c2..37 dim
+
+== unknown-ground
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r2 c0..7 bold
+r3 c0..1 fg=Primary
+r3 c2..3 dim reversed
+r3 c3..18 dim
+r4 c0..1 fg=Danger
+r5 c0..8 dim
+r6 c2..16 dim
+r7 c0..1 dim
+r7 c2..11 dim
+r10 c2..37 dim
+
+== no-color
+Name
+  nightly-report
+Project
+› Choose a project
+✕ Choose a project.
+Schedule
+  every day at 7
+· Read only
+Notify me
+  ● On
+  Sends one message when it finishes.
+
+
+
+---
+r2 c0..7 bold
+r3 c2..3 dim reversed
+r3 c3..18 dim
+r5 c0..8 dim
+r6 c2..16 dim
+r7 c0..1 dim
+r7 c2..11 dim
+r10 c2..37 dim
+
+== ascii
+Name
+  nightly-report
+Project
+> Choose a project
+X Choose a project.
+Schedule
+  every day at 7
+. Read only
+Notify me
+  [x] On
+  Sends one message when it finishes.
+
+
+
+---
+r2 c0..7 bold
+r3 c2..3 dim reversed
+r3 c3..18 dim
+r5 c0..8 dim
+r6 c2..16 dim
+r7 c0..1 dim
+r7 c2..11 dim
+r10 c2..37 dim

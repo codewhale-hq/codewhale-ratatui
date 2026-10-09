@@ -1,0 +1,89 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..9 fg=Hint|Dim bg=Background
+r0 c9..13 fg=#7eb4e8 bg=Background
+r0 c13..19 fg=Hint|Dim bg=Background
+r0 c19..82 bg=Background
+r0 c82..95 fg=Primary bg=Background
+r0 c95..96 bg=Background
+
+== dark-graphite
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c0..1 bg=Background
+r0 c1..6 fg=#e09948 bg=Background bold
+r0 c6..9 fg=Hint|Dim bg=Background
+r0 c9..13 fg=#7eb4e8 bg=Background
+r0 c13..19 fg=Hint|Dim bg=Background
+r0 c19..82 bg=Background
+r0 c82..95 fg=Primary bg=Background
+r0 c95..96 bg=Background
+
+== light-truecolor
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 fg=#92400e bold
+r0 c6..9 fg=Hint|Dim
+r0 c9..13 fg=#1636b2
+r0 c13..19 fg=Hint|Dim
+r0 c82..95 fg=Primary
+
+== dark-256
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
+r0 c6..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c9..13 fg=idx110 bg=Background|DiffAddedTint
+r0 c13..19 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c19..82 bg=Background|DiffAddedTint
+r0 c82..95 fg=Primary bg=Background|DiffAddedTint
+r0 c95..96 bg=Background|DiffAddedTint
+
+== light-256
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 fg=Muted|Hint|Dim
+r0 c9..13 fg=Primary
+r0 c13..19 fg=Muted|Hint|Dim
+r0 c82..95 fg=Primary
+
+== ansi-16
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 dim
+r0 c9..13 fg=Primary
+r0 c13..19 dim
+r0 c82..95 fg=Primary
+
+== unknown-ground
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 fg=Attention bold
+r0 c6..9 dim
+r0 c9..13 fg=Primary
+r0 c13..19 dim
+r0 c82..95 fg=Primary
+
+== no-color
+ ● ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 bold
+r0 c6..9 dim
+r0 c13..19 dim
+
+== ascii
+ . ask   work (Tab)                                                               /rc connected
+---
+r0 c1..6 bold
+r0 c6..9 dim
+r0 c13..19 dim

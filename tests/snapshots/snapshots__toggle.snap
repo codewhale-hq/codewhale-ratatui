@@ -1,0 +1,204 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..44 bg=Background
+r0 c44..48 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..43 bg=Background
+r2 c43..48 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Background
+r3 c1..2 bg=Background
+r3 c2..42 fg=Foreground bg=Background
+r3 c42..44 bg=Background
+r3 c44..48 fg=Foreground bg=Background
+
+== dark-graphite
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..44 bg=Background
+r0 c44..48 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..43 bg=Background
+r2 c43..48 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Background
+r3 c1..2 bg=Background
+r3 c2..42 fg=Foreground bg=Background
+r3 c42..44 bg=Background
+r3 c44..48 fg=Foreground bg=Background
+
+== light-truecolor
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..44 bg=Background
+r0 c44..48 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..43 bg=Background
+r2 c43..48 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Background
+r3 c1..2 bg=Background
+r3 c2..42 fg=Foreground bg=Background
+r3 c42..44 bg=Background
+r3 c44..48 fg=Foreground bg=Background
+
+== dark-256
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..44 bg=Background
+r0 c44..48 fg=Foreground bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..43 bg=Background
+r2 c43..48 fg=Muted bg=Background dim
+r3 c0..1 fg=Primary bg=Background
+r3 c1..2 bg=Background
+r3 c2..42 fg=Foreground bg=Background
+r3 c42..44 bg=Background
+r3 c44..48 fg=Foreground bg=Background
+
+== light-256
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..19 fg=Foreground bg=Background|Surface
+r0 c19..44 bg=Background|Surface
+r0 c44..48 fg=Foreground bg=Background|Surface
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Primary bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..18 fg=Muted bg=Background|Surface dim
+r2 c18..20 bg=Background|Surface
+r2 c20..37 fg=Muted bg=Background|Surface
+r2 c37..43 bg=Background|Surface
+r2 c43..48 fg=Muted bg=Background|Surface dim
+r3 c0..1 fg=Primary bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..42 fg=Foreground bg=Background|Surface
+r3 c42..44 bg=Background|Surface
+r3 c44..48 fg=Foreground bg=Background|Surface
+
+== ansi-16
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary
+r1 c0..1 fg=Primary
+r1 c2..16 bold
+r1 c43..48 dim
+r2 c0..1 fg=Primary
+r2 c2..18 dim
+r2 c20..37 dim
+r2 c43..48 dim
+r3 c0..1 fg=Primary
+
+== unknown-ground
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Primary
+r1 c0..1 fg=Primary
+r1 c2..16 bold
+r1 c43..48 dim
+r2 c0..1 fg=Primary
+r2 c2..18 dim
+r2 c20..37 dim
+r2 c43..48 dim
+r3 c0..1 fg=Primary
+
+== no-color
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r1 c2..16 bold
+r1 c43..48 dim
+r2 c2..18 dim
+r2 c20..37 dim
+r2 c43..48 dim
+
+== ascii
+  Show tool details                       [x] On
+> Reduced motion                         [ ] Off
+  Share usage data  set by your admin    [ ] Off
+  Show reasoning as it streams in the...  [x] On
+---
+r1 c2..16 bold
+r1 c41..48 dim
+r2 c2..18 dim
+r2 c20..37 dim
+r2 c41..48 dim

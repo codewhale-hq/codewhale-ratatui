@@ -1,0 +1,177 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r0 c0..40 bg=Background
+r1 c0..12 bg=Background
+r1 c12..14 fg=Muted bg=Background
+r1 c14..28 fg=Foreground bg=Background bold
+r1 c28..40 bg=Background
+r2 c0..3 bg=Background
+r2 c3..36 fg=Muted bg=Background
+r2 c36..40 bg=Background
+r3 c0..12 bg=Background
+r3 c12..28 fg=Muted bg=Background
+r3 c28..40 bg=Background
+r4 c0..13 bg=Background
+r4 c13..27 fg=Primary bg=Background
+r4 c27..40 bg=Background
+r5 c0..40 bg=Background
+
+== dark-graphite
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r0 c0..40 bg=Background
+r1 c0..12 bg=Background
+r1 c12..14 fg=Muted bg=Background
+r1 c14..28 fg=Foreground bg=Background bold
+r1 c28..40 bg=Background
+r2 c0..3 bg=Background
+r2 c3..36 fg=Muted bg=Background
+r2 c36..40 bg=Background
+r3 c0..12 bg=Background
+r3 c12..28 fg=Muted bg=Background
+r3 c28..40 bg=Background
+r4 c0..13 bg=Background
+r4 c13..27 fg=Primary bg=Background
+r4 c27..40 bg=Background
+r5 c0..40 bg=Background
+
+== light-truecolor
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r0 c0..40 bg=Background
+r1 c0..12 bg=Background
+r1 c12..14 fg=Muted bg=Background
+r1 c14..28 fg=Foreground bg=Background bold
+r1 c28..40 bg=Background
+r2 c0..3 bg=Background
+r2 c3..36 fg=Muted bg=Background
+r2 c36..40 bg=Background
+r3 c0..12 bg=Background
+r3 c12..28 fg=Muted bg=Background
+r3 c28..40 bg=Background
+r4 c0..13 bg=Background
+r4 c13..27 fg=Primary bg=Background
+r4 c27..40 bg=Background
+r5 c0..40 bg=Background
+
+== dark-256
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r0 c0..40 bg=Background
+r1 c0..12 bg=Background
+r1 c12..14 fg=Muted bg=Background
+r1 c14..28 fg=Foreground bg=Background bold
+r1 c28..40 bg=Background
+r2 c0..3 bg=Background
+r2 c3..36 fg=Muted bg=Background
+r2 c36..40 bg=Background
+r3 c0..12 bg=Background
+r3 c12..28 fg=Muted bg=Background
+r3 c28..40 bg=Background
+r4 c0..13 bg=Background
+r4 c13..27 fg=Primary bg=Background
+r4 c27..40 bg=Background
+r5 c0..40 bg=Background
+
+== light-256
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r0 c0..40 bg=Background|Surface
+r1 c0..12 bg=Background|Surface
+r1 c12..14 fg=Muted bg=Background|Surface
+r1 c14..28 fg=Foreground bg=Background|Surface bold
+r1 c28..40 bg=Background|Surface
+r2 c0..3 bg=Background|Surface
+r2 c3..36 fg=Muted bg=Background|Surface
+r2 c36..40 bg=Background|Surface
+r3 c0..12 bg=Background|Surface
+r3 c12..28 fg=Muted bg=Background|Surface
+r3 c28..40 bg=Background|Surface
+r4 c0..13 bg=Background|Surface
+r4 c13..27 fg=Primary bg=Background|Surface
+r4 c27..40 bg=Background|Surface
+r5 c0..40 bg=Background|Surface
+
+== ansi-16
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r1 c12..14 dim
+r1 c14..28 bold
+r2 c3..36 dim
+r3 c12..28 dim
+r4 c13..27 fg=Primary
+
+== unknown-ground
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r1 c12..14 dim
+r1 c14..28 bold
+r2 c3..36 dim
+r3 c12..28 dim
+r4 c13..27 fg=Primary
+
+== no-color
+
+            ○ Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r1 c12..14 dim
+r1 c14..28 bold
+r2 c3..36 dim
+r3 c12..28 dim
+
+== ascii
+
+            o Nothing queued
+   Messages you send while the agent
+            works wait here.
+             Type a message
+
+---
+r1 c12..14 dim
+r1 c14..28 bold
+r2 c3..36 dim
+r3 c12..28 dim

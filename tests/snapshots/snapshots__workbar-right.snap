@@ -1,0 +1,383 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c0..9 fg=Foreground bg=Background
+r0 c9..74 bg=Background
+r0 c74..75 fg=Border bg=Sidebar
+r0 c75..76 fg=Foreground bg=Sidebar
+r0 c76..103 fg=Foreground bg=Selected bold
+r0 c103..104 fg=Foreground bg=Sidebar
+r1 c0..74 bg=Background
+r1 c74..75 fg=Border bg=Sidebar
+r1 c75..102 fg=Foreground bg=Sidebar
+r1 c102..103 fg=Muted bg=Sidebar
+r1 c103..104 fg=Foreground bg=Sidebar
+r2 c0..33 fg=Muted bg=Background
+r2 c33..74 bg=Background
+r2 c74..75 fg=Border bg=Sidebar
+r2 c75..104 fg=Foreground bg=Sidebar
+r3 c0..74 bg=Background
+r3 c74..75 fg=Border bg=Sidebar
+r3 c75..104 fg=Foreground bg=Sidebar
+r4 c0..74 bg=Background
+r4 c74..75 fg=Border bg=Sidebar
+r4 c75..104 fg=Foreground bg=Sidebar
+r5 c0..74 bg=Background
+r5 c74..75 fg=Border bg=Sidebar
+r5 c75..104 fg=Foreground bg=Sidebar
+r6 c0..74 bg=Background
+r6 c74..75 fg=Border bg=Sidebar
+r6 c75..104 fg=Foreground bg=Sidebar
+r7 c0..74 bg=Background
+r7 c74..75 fg=Border bg=Sidebar
+r7 c75..104 fg=Foreground bg=Sidebar
+r8 c0..74 bg=Background
+r8 c74..75 fg=Border bg=Sidebar
+r8 c75..104 fg=Foreground bg=Sidebar
+r9 c0..74 bg=Background
+r9 c74..75 fg=Border bg=Sidebar
+r9 c75..104 fg=Foreground bg=Sidebar
+r10 c0..74 bg=Background
+r10 c74..75 fg=Border bg=Sidebar
+r10 c75..104 fg=Foreground bg=Sidebar
+r11 c0..74 bg=Background
+r11 c74..75 fg=Border bg=Sidebar
+r11 c75..104 fg=Foreground bg=Sidebar
+
+== dark-graphite
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c0..9 fg=Foreground bg=Background
+r0 c9..74 bg=Background
+r0 c74..75 fg=Border bg=Sidebar
+r0 c75..76 fg=Foreground bg=Sidebar
+r0 c76..103 fg=Foreground bg=Selected bold
+r0 c103..104 fg=Foreground bg=Sidebar
+r1 c0..74 bg=Background
+r1 c74..75 fg=Border bg=Sidebar
+r1 c75..102 fg=Foreground bg=Sidebar
+r1 c102..103 fg=Muted bg=Sidebar
+r1 c103..104 fg=Foreground bg=Sidebar
+r2 c0..33 fg=Muted bg=Background
+r2 c33..74 bg=Background
+r2 c74..75 fg=Border bg=Sidebar
+r2 c75..104 fg=Foreground bg=Sidebar
+r3 c0..74 bg=Background
+r3 c74..75 fg=Border bg=Sidebar
+r3 c75..104 fg=Foreground bg=Sidebar
+r4 c0..74 bg=Background
+r4 c74..75 fg=Border bg=Sidebar
+r4 c75..104 fg=Foreground bg=Sidebar
+r5 c0..74 bg=Background
+r5 c74..75 fg=Border bg=Sidebar
+r5 c75..104 fg=Foreground bg=Sidebar
+r6 c0..74 bg=Background
+r6 c74..75 fg=Border bg=Sidebar
+r6 c75..104 fg=Foreground bg=Sidebar
+r7 c0..74 bg=Background
+r7 c74..75 fg=Border bg=Sidebar
+r7 c75..104 fg=Foreground bg=Sidebar
+r8 c0..74 bg=Background
+r8 c74..75 fg=Border bg=Sidebar
+r8 c75..104 fg=Foreground bg=Sidebar
+r9 c0..74 bg=Background
+r9 c74..75 fg=Border bg=Sidebar
+r9 c75..104 fg=Foreground bg=Sidebar
+r10 c0..74 bg=Background
+r10 c74..75 fg=Border bg=Sidebar
+r10 c75..104 fg=Foreground bg=Sidebar
+r11 c0..74 bg=Background
+r11 c74..75 fg=Border bg=Sidebar
+r11 c75..104 fg=Foreground bg=Sidebar
+
+== light-truecolor
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c0..9 fg=Foreground
+r0 c74..75 fg=Border
+r0 c75..76 fg=Foreground
+r0 c76..103 fg=Foreground bg=Selected bold
+r0 c103..104 fg=Foreground
+r1 c74..75 fg=Border
+r1 c75..102 fg=Foreground
+r1 c102..103 fg=Muted
+r1 c103..104 fg=Foreground
+r2 c0..33 fg=Muted
+r2 c74..75 fg=Border
+r2 c75..104 fg=Foreground
+r3 c74..75 fg=Border
+r3 c75..104 fg=Foreground
+r4 c74..75 fg=Border
+r4 c75..104 fg=Foreground
+r5 c74..75 fg=Border
+r5 c75..104 fg=Foreground
+r6 c74..75 fg=Border
+r6 c75..104 fg=Foreground
+r7 c74..75 fg=Border
+r7 c75..104 fg=Foreground
+r8 c74..75 fg=Border
+r8 c75..104 fg=Foreground
+r9 c74..75 fg=Border
+r9 c75..104 fg=Foreground
+r10 c74..75 fg=Border
+r10 c75..104 fg=Foreground
+r11 c74..75 fg=Border
+r11 c75..104 fg=Foreground
+
+== dark-256
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c0..9 fg=Foreground bg=Background|DiffAddedTint
+r0 c9..74 bg=Background|DiffAddedTint
+r0 c74..75 fg=Border bg=Sidebar
+r0 c75..76 fg=Foreground bg=Sidebar
+r0 c76..103 fg=Foreground bg=Selected bold
+r0 c103..104 fg=Foreground bg=Sidebar
+r1 c0..74 bg=Background|DiffAddedTint
+r1 c74..75 fg=Border bg=Sidebar
+r1 c75..102 fg=Foreground bg=Sidebar
+r1 c102..103 fg=Muted bg=Sidebar
+r1 c103..104 fg=Foreground bg=Sidebar
+r2 c0..33 fg=Muted bg=Background|DiffAddedTint
+r2 c33..74 bg=Background|DiffAddedTint
+r2 c74..75 fg=Border bg=Sidebar
+r2 c75..104 fg=Foreground bg=Sidebar
+r3 c0..74 bg=Background|DiffAddedTint
+r3 c74..75 fg=Border bg=Sidebar
+r3 c75..104 fg=Foreground bg=Sidebar
+r4 c0..74 bg=Background|DiffAddedTint
+r4 c74..75 fg=Border bg=Sidebar
+r4 c75..104 fg=Foreground bg=Sidebar
+r5 c0..74 bg=Background|DiffAddedTint
+r5 c74..75 fg=Border bg=Sidebar
+r5 c75..104 fg=Foreground bg=Sidebar
+r6 c0..74 bg=Background|DiffAddedTint
+r6 c74..75 fg=Border bg=Sidebar
+r6 c75..104 fg=Foreground bg=Sidebar
+r7 c0..74 bg=Background|DiffAddedTint
+r7 c74..75 fg=Border bg=Sidebar
+r7 c75..104 fg=Foreground bg=Sidebar
+r8 c0..74 bg=Background|DiffAddedTint
+r8 c74..75 fg=Border bg=Sidebar
+r8 c75..104 fg=Foreground bg=Sidebar
+r9 c0..74 bg=Background|DiffAddedTint
+r9 c74..75 fg=Border bg=Sidebar
+r9 c75..104 fg=Foreground bg=Sidebar
+r10 c0..74 bg=Background|DiffAddedTint
+r10 c74..75 fg=Border bg=Sidebar
+r10 c75..104 fg=Foreground bg=Sidebar
+r11 c0..74 bg=Background|DiffAddedTint
+r11 c74..75 fg=Border bg=Sidebar
+r11 c75..104 fg=Foreground bg=Sidebar
+
+== light-256
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c0..9 fg=Foreground
+r0 c74..75 fg=Border
+r0 c75..76 fg=Foreground
+r0 c76..103 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c103..104 fg=Foreground
+r1 c74..75 fg=Border
+r1 c75..102 fg=Foreground
+r1 c102..103 fg=Muted|Hint|Dim
+r1 c103..104 fg=Foreground
+r2 c0..33 fg=Muted|Hint|Dim
+r2 c74..75 fg=Border
+r2 c75..104 fg=Foreground
+r3 c74..75 fg=Border
+r3 c75..104 fg=Foreground
+r4 c74..75 fg=Border
+r4 c75..104 fg=Foreground
+r5 c74..75 fg=Border
+r5 c75..104 fg=Foreground
+r6 c74..75 fg=Border
+r6 c75..104 fg=Foreground
+r7 c74..75 fg=Border
+r7 c75..104 fg=Foreground
+r8 c74..75 fg=Border
+r8 c75..104 fg=Foreground
+r9 c74..75 fg=Border
+r9 c75..104 fg=Foreground
+r10 c74..75 fg=Border
+r10 c75..104 fg=Foreground
+r11 c74..75 fg=Border
+r11 c75..104 fg=Foreground
+
+== ansi-16
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c74..75 dim
+r0 c76..103 bold
+r1 c74..75 dim
+r1 c102..103 dim
+r2 c0..33 dim
+r2 c74..75 dim
+r3 c74..75 dim
+r4 c74..75 dim
+r5 c74..75 dim
+r6 c74..75 dim
+r7 c74..75 dim
+r8 c74..75 dim
+r9 c74..75 dim
+r10 c74..75 dim
+r11 c74..75 dim
+
+== unknown-ground
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c74..75 dim
+r0 c76..103 bold
+r1 c74..75 dim
+r1 c102..103 dim
+r2 c0..33 dim
+r2 c74..75 dim
+r3 c74..75 dim
+r4 c74..75 dim
+r5 c74..75 dim
+r6 c74..75 dim
+r7 c74..75 dim
+r8 c74..75 dim
+r9 c74..75 dim
+r10 c74..75 dim
+r11 c74..75 dim
+
+== no-color
+Codewhale                                                                 │ ● Extract the dock and kee…
+                                                                          │ ✓ Review tab and keyboard…
+The conversation keeps its space.                                         │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+                                                                          │
+---
+r0 c74..75 dim
+r0 c76..103 bold
+r1 c74..75 dim
+r1 c102..103 dim
+r2 c0..33 dim
+r2 c74..75 dim
+r3 c74..75 dim
+r4 c74..75 dim
+r5 c74..75 dim
+r6 c74..75 dim
+r7 c74..75 dim
+r8 c74..75 dim
+r9 c74..75 dim
+r10 c74..75 dim
+r11 c74..75 dim
+
+== ascii
+Codewhale                                                                 | . Extract the dock and k...
+                                                                          | Y Review tab and keyboar...
+The conversation keeps its space.                                         |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+                                                                          |
+---
+r0 c74..75 dim
+r0 c76..103 bold
+r1 c74..75 dim
+r2 c0..33 dim
+r2 c74..75 dim
+r3 c74..75 dim
+r4 c74..75 dim
+r5 c74..75 dim
+r6 c74..75 dim
+r7 c74..75 dim
+r8 c74..75 dim
+r9 c74..75 dim
+r10 c74..75 dim
+r11 c74..75 dim

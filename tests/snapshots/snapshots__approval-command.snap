@@ -1,0 +1,823 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..27 fg=Foreground bg=Surface bold
+r5 c27..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..25 fg=Foreground bg=Surface
+r7 c25..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..60 fg=Foreground bg=Surface
+r8 c60..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..3 fg=Primary bg=Surface bold
+r10 c3..4 fg=Foreground bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..16 fg=Foreground bg=Surface
+r10 c16..19 fg=Border bg=Surface
+r10 c19..20 fg=Primary bg=Surface bold
+r10 c20..21 fg=Foreground bg=Surface
+r10 c21..22 fg=Foreground bg=Surface bold
+r10 c22..45 fg=Foreground bg=Surface
+r10 c45..48 fg=Border bg=Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..3 fg=Primary bg=Surface bold
+r11 c3..4 fg=Foreground bg=Surface
+r11 c4..5 fg=Foreground bg=Surface bold
+r11 c5..22 fg=Foreground bg=Surface
+r11 c22..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..2 bg=Surface
+r13 c2..4 fg=Foreground bg=Surface bold
+r13 c4..5 bg=Surface
+r13 c5..9 fg=Muted bg=Surface
+r13 c9..12 fg=Border bg=Surface
+r13 c12..17 fg=Foreground bg=Surface bold
+r13 c17..18 bg=Surface
+r13 c18..24 fg=Muted bg=Surface
+r13 c24..27 fg=Border bg=Surface
+r13 c27..30 fg=Foreground bg=Surface bold
+r13 c30..31 bg=Surface
+r13 c31..37 fg=Muted bg=Surface
+r13 c37..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..70 fg=Primary bg=Surface
+
+== dark-graphite
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..27 fg=Foreground bg=Surface bold
+r5 c27..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..25 fg=Foreground bg=Surface
+r7 c25..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..60 fg=Foreground bg=Surface
+r8 c60..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..3 fg=Primary bg=Surface bold
+r10 c3..4 fg=Foreground bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..16 fg=Foreground bg=Surface
+r10 c16..19 fg=Border bg=Surface
+r10 c19..20 fg=Primary bg=Surface bold
+r10 c20..21 fg=Foreground bg=Surface
+r10 c21..22 fg=Foreground bg=Surface bold
+r10 c22..45 fg=Foreground bg=Surface
+r10 c45..48 fg=Border bg=Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..3 fg=Primary bg=Surface bold
+r11 c3..4 fg=Foreground bg=Surface
+r11 c4..5 fg=Foreground bg=Surface bold
+r11 c5..22 fg=Foreground bg=Surface
+r11 c22..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..2 bg=Surface
+r13 c2..4 fg=Foreground bg=Surface bold
+r13 c4..5 bg=Surface
+r13 c5..9 fg=Muted bg=Surface
+r13 c9..12 fg=Border bg=Surface
+r13 c12..17 fg=Foreground bg=Surface bold
+r13 c17..18 bg=Surface
+r13 c18..24 fg=Muted bg=Surface
+r13 c24..27 fg=Border bg=Surface
+r13 c27..30 fg=Foreground bg=Surface bold
+r13 c30..31 bg=Surface
+r13 c31..37 fg=Muted bg=Surface
+r13 c37..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..70 fg=Primary bg=Surface
+
+== light-truecolor
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..69 bg=Surface
+r1 c69..70 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..69 bg=Surface
+r2 c69..70 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..69 bg=Surface
+r3 c69..70 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..15 fg=Muted bg=Surface
+r4 c15..22 fg=Foreground bg=Surface bold
+r4 c22..69 bg=Surface
+r4 c69..70 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Primary bg=Surface bold
+r5 c4..27 fg=Foreground bg=Surface bold
+r5 c27..69 bg=Surface
+r5 c69..70 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..69 bg=Surface
+r6 c69..70 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..25 fg=Foreground bg=Surface
+r7 c25..69 bg=Surface
+r7 c69..70 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..8 fg=Attention bg=Surface bold
+r8 c8..60 fg=Foreground bg=Surface
+r8 c60..69 bg=Surface
+r8 c69..70 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..69 bg=Surface
+r9 c69..70 fg=Primary bg=Surface
+r10 c0..1 fg=Primary bg=Surface
+r10 c1..2 bg=Surface
+r10 c2..3 fg=Primary bg=Surface bold
+r10 c3..4 fg=Foreground bg=Surface
+r10 c4..5 fg=Foreground bg=Surface bold
+r10 c5..16 fg=Foreground bg=Surface
+r10 c16..19 fg=Border bg=Surface
+r10 c19..20 fg=Primary bg=Surface bold
+r10 c20..21 fg=Foreground bg=Surface
+r10 c21..22 fg=Foreground bg=Surface bold
+r10 c22..45 fg=Foreground bg=Surface
+r10 c45..48 fg=Border bg=Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..69 bg=Surface
+r10 c69..70 fg=Primary bg=Surface
+r11 c0..1 fg=Primary bg=Surface
+r11 c1..2 bg=Surface
+r11 c2..3 fg=Primary bg=Surface bold
+r11 c3..4 fg=Foreground bg=Surface
+r11 c4..5 fg=Foreground bg=Surface bold
+r11 c5..22 fg=Foreground bg=Surface
+r11 c22..69 bg=Surface
+r11 c69..70 fg=Primary bg=Surface
+r12 c0..1 fg=Primary bg=Surface
+r12 c1..69 bg=Surface
+r12 c69..70 fg=Primary bg=Surface
+r13 c0..1 fg=Primary bg=Surface
+r13 c1..2 bg=Surface
+r13 c2..4 fg=Foreground bg=Surface bold
+r13 c4..5 bg=Surface
+r13 c5..9 fg=Muted bg=Surface
+r13 c9..12 fg=Border bg=Surface
+r13 c12..17 fg=Foreground bg=Surface bold
+r13 c17..18 bg=Surface
+r13 c18..24 fg=Muted bg=Surface
+r13 c24..27 fg=Border bg=Surface
+r13 c27..30 fg=Foreground bg=Surface bold
+r13 c30..31 bg=Surface
+r13 c31..37 fg=Muted bg=Surface
+r13 c37..69 bg=Surface
+r13 c69..70 fg=Primary bg=Surface
+r14 c0..1 fg=Primary bg=Surface
+r14 c1..69 bg=Surface
+r14 c69..70 fg=Primary bg=Surface
+r15 c0..1 fg=Primary bg=Surface
+r15 c1..69 bg=Surface
+r15 c69..70 fg=Primary bg=Surface
+r16 c0..70 fg=Primary bg=Surface
+
+== dark-256
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Surface|Hover
+r1 c0..1 fg=Primary bg=Surface|Hover
+r1 c1..69 bg=Surface|Hover
+r1 c69..70 fg=Primary bg=Surface|Hover
+r2 c0..1 fg=Primary bg=Surface|Hover
+r2 c1..2 bg=Surface|Hover
+r2 c2..29 fg=Foreground bg=Surface|Hover bold
+r2 c29..69 bg=Surface|Hover
+r2 c69..70 fg=Primary bg=Surface|Hover
+r3 c0..1 fg=Primary bg=Surface|Hover
+r3 c1..69 bg=Surface|Hover
+r3 c69..70 fg=Primary bg=Surface|Hover
+r4 c0..1 fg=Primary bg=Surface|Hover
+r4 c1..2 bg=Surface|Hover
+r4 c2..15 fg=Muted bg=Surface|Hover
+r4 c15..22 fg=Foreground bg=Surface|Hover bold
+r4 c22..69 bg=Surface|Hover
+r4 c69..70 fg=Primary bg=Surface|Hover
+r5 c0..1 fg=Primary bg=Surface|Hover
+r5 c1..2 bg=Surface|Hover
+r5 c2..4 fg=Primary bg=Surface|Hover bold
+r5 c4..27 fg=Foreground bg=Surface|Hover bold
+r5 c27..69 bg=Surface|Hover
+r5 c69..70 fg=Primary bg=Surface|Hover
+r6 c0..1 fg=Primary bg=Surface|Hover
+r6 c1..2 bg=Surface|Hover
+r6 c2..21 fg=Muted bg=Surface|Hover
+r6 c21..69 bg=Surface|Hover
+r6 c69..70 fg=Primary bg=Surface|Hover
+r7 c0..1 fg=Primary bg=Surface|Hover
+r7 c1..2 bg=Surface|Hover
+r7 c2..5 fg=Muted bg=Surface|Hover
+r7 c5..25 fg=Foreground bg=Surface|Hover
+r7 c25..69 bg=Surface|Hover
+r7 c69..70 fg=Primary bg=Surface|Hover
+r8 c0..1 fg=Primary bg=Surface|Hover
+r8 c1..2 bg=Surface|Hover
+r8 c2..8 fg=Attention bg=Surface|Hover bold
+r8 c8..60 fg=Foreground bg=Surface|Hover
+r8 c60..69 bg=Surface|Hover
+r8 c69..70 fg=Primary bg=Surface|Hover
+r9 c0..1 fg=Primary bg=Surface|Hover
+r9 c1..69 bg=Surface|Hover
+r9 c69..70 fg=Primary bg=Surface|Hover
+r10 c0..1 fg=Primary bg=Surface|Hover
+r10 c1..2 bg=Surface|Hover
+r10 c2..3 fg=Primary bg=Surface|Hover bold
+r10 c3..4 fg=Foreground bg=Surface|Hover
+r10 c4..5 fg=Foreground bg=Surface|Hover bold
+r10 c5..16 fg=Foreground bg=Surface|Hover
+r10 c16..19 fg=Border bg=Surface|Hover
+r10 c19..20 fg=Primary bg=Surface|Hover bold
+r10 c20..21 fg=Foreground bg=Surface|Hover
+r10 c21..22 fg=Foreground bg=Surface|Hover bold
+r10 c22..45 fg=Foreground bg=Surface|Hover
+r10 c45..48 fg=Border bg=Surface|Hover
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..69 bg=Surface|Hover
+r10 c69..70 fg=Primary bg=Surface|Hover
+r11 c0..1 fg=Primary bg=Surface|Hover
+r11 c1..2 bg=Surface|Hover
+r11 c2..3 fg=Primary bg=Surface|Hover bold
+r11 c3..4 fg=Foreground bg=Surface|Hover
+r11 c4..5 fg=Foreground bg=Surface|Hover bold
+r11 c5..22 fg=Foreground bg=Surface|Hover
+r11 c22..69 bg=Surface|Hover
+r11 c69..70 fg=Primary bg=Surface|Hover
+r12 c0..1 fg=Primary bg=Surface|Hover
+r12 c1..69 bg=Surface|Hover
+r12 c69..70 fg=Primary bg=Surface|Hover
+r13 c0..1 fg=Primary bg=Surface|Hover
+r13 c1..2 bg=Surface|Hover
+r13 c2..4 fg=Foreground bg=Surface|Hover bold
+r13 c4..5 bg=Surface|Hover
+r13 c5..9 fg=Muted bg=Surface|Hover
+r13 c9..12 fg=Border bg=Surface|Hover
+r13 c12..17 fg=Foreground bg=Surface|Hover bold
+r13 c17..18 bg=Surface|Hover
+r13 c18..24 fg=Muted bg=Surface|Hover
+r13 c24..27 fg=Border bg=Surface|Hover
+r13 c27..30 fg=Foreground bg=Surface|Hover bold
+r13 c30..31 bg=Surface|Hover
+r13 c31..37 fg=Muted bg=Surface|Hover
+r13 c37..69 bg=Surface|Hover
+r13 c69..70 fg=Primary bg=Surface|Hover
+r14 c0..1 fg=Primary bg=Surface|Hover
+r14 c1..69 bg=Surface|Hover
+r14 c69..70 fg=Primary bg=Surface|Hover
+r15 c0..1 fg=Primary bg=Surface|Hover
+r15 c1..69 bg=Surface|Hover
+r15 c69..70 fg=Primary bg=Surface|Hover
+r16 c0..70 fg=Primary bg=Surface|Hover
+
+== light-256
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary bg=Background|Surface
+r1 c0..1 fg=Primary bg=Background|Surface
+r1 c1..69 bg=Background|Surface
+r1 c69..70 fg=Primary bg=Background|Surface
+r2 c0..1 fg=Primary bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..29 fg=Foreground bg=Background|Surface bold
+r2 c29..69 bg=Background|Surface
+r2 c69..70 fg=Primary bg=Background|Surface
+r3 c0..1 fg=Primary bg=Background|Surface
+r3 c1..69 bg=Background|Surface
+r3 c69..70 fg=Primary bg=Background|Surface
+r4 c0..1 fg=Primary bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..15 fg=Muted bg=Background|Surface
+r4 c15..22 fg=Foreground bg=Background|Surface bold
+r4 c22..69 bg=Background|Surface
+r4 c69..70 fg=Primary bg=Background|Surface
+r5 c0..1 fg=Primary bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..4 fg=Primary bg=Background|Surface bold
+r5 c4..27 fg=Foreground bg=Background|Surface bold
+r5 c27..69 bg=Background|Surface
+r5 c69..70 fg=Primary bg=Background|Surface
+r6 c0..1 fg=Primary bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..21 fg=Muted bg=Background|Surface
+r6 c21..69 bg=Background|Surface
+r6 c69..70 fg=Primary bg=Background|Surface
+r7 c0..1 fg=Primary bg=Background|Surface
+r7 c1..2 bg=Background|Surface
+r7 c2..5 fg=Muted bg=Background|Surface
+r7 c5..25 fg=Foreground bg=Background|Surface
+r7 c25..69 bg=Background|Surface
+r7 c69..70 fg=Primary bg=Background|Surface
+r8 c0..1 fg=Primary bg=Background|Surface
+r8 c1..2 bg=Background|Surface
+r8 c2..8 fg=Attention bg=Background|Surface bold
+r8 c8..60 fg=Foreground bg=Background|Surface
+r8 c60..69 bg=Background|Surface
+r8 c69..70 fg=Primary bg=Background|Surface
+r9 c0..1 fg=Primary bg=Background|Surface
+r9 c1..69 bg=Background|Surface
+r9 c69..70 fg=Primary bg=Background|Surface
+r10 c0..1 fg=Primary bg=Background|Surface
+r10 c1..2 bg=Background|Surface
+r10 c2..3 fg=Primary bg=Background|Surface bold
+r10 c3..4 fg=Foreground bg=Background|Surface
+r10 c4..5 fg=Foreground bg=Background|Surface bold
+r10 c5..16 fg=Foreground bg=Background|Surface
+r10 c16..19 fg=Border bg=Background|Surface
+r10 c19..20 fg=Primary bg=Background|Surface bold
+r10 c20..21 fg=Foreground bg=Background|Surface
+r10 c21..22 fg=Foreground bg=Background|Surface bold
+r10 c22..45 fg=Foreground bg=Background|Surface
+r10 c45..48 fg=Border bg=Background|Surface
+r10 c48..49 fg=Primary bg=Selected bold
+r10 c49..50 fg=Foreground bg=Selected
+r10 c50..51 fg=Foreground bg=Selected bold
+r10 c51..52 fg=Foreground bg=Selected
+r10 c52..56 fg=Foreground bg=Selected bold
+r10 c56..69 bg=Background|Surface
+r10 c69..70 fg=Primary bg=Background|Surface
+r11 c0..1 fg=Primary bg=Background|Surface
+r11 c1..2 bg=Background|Surface
+r11 c2..3 fg=Primary bg=Background|Surface bold
+r11 c3..4 fg=Foreground bg=Background|Surface
+r11 c4..5 fg=Foreground bg=Background|Surface bold
+r11 c5..22 fg=Foreground bg=Background|Surface
+r11 c22..69 bg=Background|Surface
+r11 c69..70 fg=Primary bg=Background|Surface
+r12 c0..1 fg=Primary bg=Background|Surface
+r12 c1..69 bg=Background|Surface
+r12 c69..70 fg=Primary bg=Background|Surface
+r13 c0..1 fg=Primary bg=Background|Surface
+r13 c1..2 bg=Background|Surface
+r13 c2..4 fg=Foreground bg=Background|Surface bold
+r13 c4..5 bg=Background|Surface
+r13 c5..9 fg=Muted bg=Background|Surface
+r13 c9..12 fg=Border bg=Background|Surface
+r13 c12..17 fg=Foreground bg=Background|Surface bold
+r13 c17..18 bg=Background|Surface
+r13 c18..24 fg=Muted bg=Background|Surface
+r13 c24..27 fg=Border bg=Background|Surface
+r13 c27..30 fg=Foreground bg=Background|Surface bold
+r13 c30..31 bg=Background|Surface
+r13 c31..37 fg=Muted bg=Background|Surface
+r13 c37..69 bg=Background|Surface
+r13 c69..70 fg=Primary bg=Background|Surface
+r14 c0..1 fg=Primary bg=Background|Surface
+r14 c1..69 bg=Background|Surface
+r14 c69..70 fg=Primary bg=Background|Surface
+r15 c0..1 fg=Primary bg=Background|Surface
+r15 c1..69 bg=Background|Surface
+r15 c69..70 fg=Primary bg=Background|Surface
+r16 c0..70 fg=Primary bg=Background|Surface
+
+== ansi-16
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary
+r1 c0..1 fg=Primary
+r1 c69..70 fg=Primary
+r2 c0..1 fg=Primary
+r2 c2..29 bold
+r2 c69..70 fg=Primary
+r3 c0..1 fg=Primary
+r3 c69..70 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..15 dim
+r4 c15..22 bold
+r4 c69..70 fg=Primary
+r5 c0..1 fg=Primary
+r5 c2..4 fg=Primary bold
+r5 c4..27 bold
+r5 c69..70 fg=Primary
+r6 c0..1 fg=Primary
+r6 c2..21 dim
+r6 c69..70 fg=Primary
+r7 c0..1 fg=Primary
+r7 c2..5 dim
+r7 c69..70 fg=Primary
+r8 c0..1 fg=Primary
+r8 c2..8 fg=Attention bold
+r8 c69..70 fg=Primary
+r9 c0..1 fg=Primary
+r9 c69..70 fg=Primary
+r10 c0..1 fg=Primary
+r10 c2..3 fg=Primary bold
+r10 c4..5 bold
+r10 c16..19 dim
+r10 c19..20 fg=Primary bold
+r10 c21..22 bold
+r10 c45..48 dim
+r10 c48..49 fg=Primary bold
+r10 c50..51 bold
+r10 c52..56 bold
+r10 c69..70 fg=Primary
+r11 c0..1 fg=Primary
+r11 c2..3 fg=Primary bold
+r11 c4..5 bold
+r11 c69..70 fg=Primary
+r12 c0..1 fg=Primary
+r12 c69..70 fg=Primary
+r13 c0..1 fg=Primary
+r13 c2..4 bold
+r13 c5..12 dim
+r13 c12..17 bold
+r13 c18..27 dim
+r13 c27..30 bold
+r13 c31..37 dim
+r13 c69..70 fg=Primary
+r14 c0..1 fg=Primary
+r14 c69..70 fg=Primary
+r15 c0..1 fg=Primary
+r15 c69..70 fg=Primary
+r16 c0..70 fg=Primary
+
+== unknown-ground
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..70 fg=Primary
+r1 c0..1 fg=Primary
+r1 c69..70 fg=Primary
+r2 c0..1 fg=Primary
+r2 c2..29 bold
+r2 c69..70 fg=Primary
+r3 c0..1 fg=Primary
+r3 c69..70 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..15 dim
+r4 c15..22 bold
+r4 c69..70 fg=Primary
+r5 c0..1 fg=Primary
+r5 c2..4 fg=Primary bold
+r5 c4..27 bold
+r5 c69..70 fg=Primary
+r6 c0..1 fg=Primary
+r6 c2..21 dim
+r6 c69..70 fg=Primary
+r7 c0..1 fg=Primary
+r7 c2..5 dim
+r7 c69..70 fg=Primary
+r8 c0..1 fg=Primary
+r8 c2..8 fg=Attention bold
+r8 c69..70 fg=Primary
+r9 c0..1 fg=Primary
+r9 c69..70 fg=Primary
+r10 c0..1 fg=Primary
+r10 c2..3 fg=Primary bold
+r10 c4..5 bold
+r10 c16..19 dim
+r10 c19..20 fg=Primary bold
+r10 c21..22 bold
+r10 c45..48 dim
+r10 c48..49 fg=Primary bold
+r10 c50..51 bold
+r10 c52..56 bold
+r10 c69..70 fg=Primary
+r11 c0..1 fg=Primary
+r11 c2..3 fg=Primary bold
+r11 c4..5 bold
+r11 c69..70 fg=Primary
+r12 c0..1 fg=Primary
+r12 c69..70 fg=Primary
+r13 c0..1 fg=Primary
+r13 c2..4 bold
+r13 c5..12 dim
+r13 c12..17 bold
+r13 c18..27 dim
+r13 c27..30 bold
+r13 c31..37 dim
+r13 c69..70 fg=Primary
+r14 c0..1 fg=Primary
+r14 c69..70 fg=Primary
+r15 c0..1 fg=Primary
+r15 c69..70 fg=Primary
+r16 c0..70 fg=Primary
+
+== no-color
+┌────────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ cargo publish --dry-run                                          │
+│ Inside this project                                                │
+│ In codewhale/crates/tui                                            │
+│ Risk: checks the package before release; publishes nothing         │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+---
+r2 c2..29 bold
+r4 c2..15 dim
+r4 c15..22 bold
+r5 c2..27 bold
+r6 c2..21 dim
+r7 c2..5 dim
+r8 c2..8 bold
+r10 c2..3 bold
+r10 c4..5 bold
+r10 c16..19 dim
+r10 c19..20 bold
+r10 c21..22 bold
+r10 c45..48 dim
+r10 c48..49 bold
+r10 c50..51 bold
+r10 c52..56 bold
+r11 c2..3 bold
+r11 c4..5 bold
+r13 c2..4 bold
+r13 c5..12 dim
+r13 c12..17 bold
+r13 c18..27 dim
+r13 c27..30 bold
+r13 c31..37 dim
+
+== ascii
++--------------------------------------------------------------------+
+|                                                                    |
+| * Needs you - Run a command                                        |
+|                                                                    |
+| Requested by builder                                               |
+| $ cargo publish --dry-run                                          |
+| Inside this project                                                |
+| In codewhale/crates/tui                                            |
+| Risk: checks the package before release; publishes nothing         |
+|                                                                    |
+|   y Allow once    a Allow for this session  > n Deny               |
+|   e Deny and say why                                               |
+|                                                                    |
+| Left/Right move  Enter choose  Esc cancel                          |
+|                                                                    |
+|                                                                    |
++--------------------------------------------------------------------+
+---
+r2 c2..29 bold
+r4 c2..15 dim
+r4 c15..22 bold
+r5 c2..27 bold
+r6 c2..21 dim
+r7 c2..5 dim
+r8 c2..8 bold
+r10 c2..3 bold
+r10 c4..5 bold
+r10 c18..19 bold
+r10 c20..21 bold
+r10 c46..47 bold
+r10 c48..49 bold
+r10 c50..54 bold
+r11 c2..3 bold
+r11 c4..5 bold
+r13 c2..12 bold
+r13 c13..17 dim
+r13 c19..24 bold
+r13 c25..31 dim
+r13 c33..36 bold
+r13 c37..43 dim

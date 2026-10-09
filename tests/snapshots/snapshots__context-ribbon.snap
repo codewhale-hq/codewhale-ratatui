@@ -1,0 +1,95 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..36 fg=Foreground bg=Background
+r0 c36..39 fg=BorderStrong bg=Background
+r0 c39..61 fg=Primary bg=Background
+r0 c61..64 fg=BorderStrong bg=Background
+r0 c64..77 fg=Foreground bg=Background
+r0 c77..100 bg=Background
+r1 c0..100 bg=Background
+
+== dark-graphite
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..36 fg=Foreground bg=Background
+r0 c36..39 fg=BorderStrong bg=Background
+r0 c39..61 fg=Primary bg=Background
+r0 c61..64 fg=BorderStrong bg=Background
+r0 c64..77 fg=Foreground bg=Background
+r0 c77..100 bg=Background
+r1 c0..100 bg=Background
+
+== light-truecolor
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..36 fg=Foreground bg=Background
+r0 c36..39 fg=BorderStrong bg=Background
+r0 c39..61 fg=Primary bg=Background
+r0 c61..64 fg=BorderStrong bg=Background
+r0 c64..77 fg=Foreground bg=Background
+r0 c77..100 bg=Background
+r1 c0..100 bg=Background
+
+== dark-256
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c0..17 fg=Foreground bg=Background
+r0 c17..20 fg=BorderStrong bg=Background
+r0 c20..36 fg=Foreground bg=Background
+r0 c36..39 fg=BorderStrong bg=Background
+r0 c39..61 fg=Primary bg=Background
+r0 c61..64 fg=BorderStrong bg=Background
+r0 c64..77 fg=Foreground bg=Background
+r0 c77..100 bg=Background
+r1 c0..100 bg=Background
+
+== light-256
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c0..17 fg=Foreground bg=Background|Surface
+r0 c17..20 fg=BorderStrong bg=Background|Surface
+r0 c20..36 fg=Foreground bg=Background|Surface
+r0 c36..39 fg=BorderStrong bg=Background|Surface
+r0 c39..61 fg=Primary bg=Background|Surface
+r0 c61..64 fg=BorderStrong bg=Background|Surface
+r0 c64..77 fg=Foreground bg=Background|Surface
+r0 c77..100 bg=Background|Surface
+r1 c0..100 bg=Background|Surface
+
+== ansi-16
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c39..61 fg=Primary
+
+== unknown-ground
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+r0 c39..61 fg=Primary
+
+== no-color
+codewhale-ratatui · workspace-polish · Local / selected model · 3 attachments
+
+---
+
+== ascii
+codewhale-ratatui / workspace-polish / Local / selected model / 3 attachments
+
+---

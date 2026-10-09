@@ -1,0 +1,311 @@
+---
+source: tests/approval.rs
+expression: "testing :: snapshot(11, paint)"
+---
+== dark-truecolor · 40x11
+┌──────────────────────────────────────┐
+│                                      │
+│ ◆ Needs you · Run a command          │
+│                                      │
+│ ⚠ 133 characters not shown (5        │
+│ lines) · o show all                  │
+│   y Allow once                       │
+│   a Allow for this session           │
+│ ▸ n Deny ·   e Deny and say why      │
+│                                      │
+└──────────────────────────────────────┘
+---
+r0 c0..40 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..39 bg=Surface
+r1 c39..40 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..39 bg=Surface
+r2 c39..40 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..39 bg=Surface
+r3 c39..40 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..4 fg=Attention bg=Surface bold
+r4 c4..32 fg=Foreground bg=Surface bold
+r4 c32..39 bg=Surface
+r4 c39..40 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..8 fg=Foreground bg=Surface bold
+r5 c8..11 fg=Border bg=Surface
+r5 c11..12 fg=Foreground bg=Surface bold
+r5 c12..21 fg=Muted bg=Surface
+r5 c21..39 bg=Surface
+r5 c39..40 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..3 fg=Primary bg=Surface bold
+r6 c3..4 fg=Foreground bg=Surface
+r6 c4..5 fg=Foreground bg=Surface bold
+r6 c5..16 fg=Foreground bg=Surface
+r6 c16..39 bg=Surface
+r6 c39..40 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..3 fg=Primary bg=Surface bold
+r7 c3..4 fg=Foreground bg=Surface
+r7 c4..5 fg=Foreground bg=Surface bold
+r7 c5..28 fg=Foreground bg=Surface
+r7 c28..39 bg=Surface
+r7 c39..40 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..3 fg=Primary bg=Selected bold
+r8 c3..4 fg=Foreground bg=Selected
+r8 c4..5 fg=Foreground bg=Selected bold
+r8 c5..6 fg=Foreground bg=Selected
+r8 c6..10 fg=Foreground bg=Selected bold
+r8 c10..13 fg=Border bg=Surface
+r8 c13..14 fg=Primary bg=Surface bold
+r8 c14..15 fg=Foreground bg=Surface
+r8 c15..16 fg=Foreground bg=Surface bold
+r8 c16..33 fg=Foreground bg=Surface
+r8 c33..39 bg=Surface
+r8 c39..40 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..39 bg=Surface
+r9 c39..40 fg=Primary bg=Surface
+r10 c0..40 fg=Primary bg=Surface
+
+== dark-truecolor · 80x11
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ ◆ Needs you · Run a command                                                  │
+│                                                                              │
+│ $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools   │
+│ Inside this project                                                          │
+│ ⚠ 60 characters not shown (1 line) · o show all · 1 detail line not shown    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny                       │
+│   e Deny and say why                                                         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..80 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..79 bg=Surface
+r1 c79..80 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..79 bg=Surface
+r2 c79..80 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..79 bg=Surface
+r3 c79..80 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..4 fg=Primary bg=Surface bold
+r4 c4..77 fg=Foreground bg=Surface bold
+r4 c77..79 bg=Surface
+r4 c79..80 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..21 fg=Muted bg=Surface
+r5 c21..79 bg=Surface
+r5 c79..80 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..4 fg=Attention bg=Surface bold
+r6 c4..36 fg=Foreground bg=Surface bold
+r6 c36..39 fg=Border bg=Surface
+r6 c39..40 fg=Foreground bg=Surface bold
+r6 c40..49 fg=Muted bg=Surface
+r6 c49..52 fg=Border bg=Surface
+r6 c52..75 fg=Foreground bg=Surface bold
+r6 c75..79 bg=Surface
+r6 c79..80 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..3 fg=Primary bg=Surface bold
+r7 c3..4 fg=Foreground bg=Surface
+r7 c4..5 fg=Foreground bg=Surface bold
+r7 c5..16 fg=Foreground bg=Surface
+r7 c16..19 fg=Border bg=Surface
+r7 c19..20 fg=Primary bg=Surface bold
+r7 c20..21 fg=Foreground bg=Surface
+r7 c21..22 fg=Foreground bg=Surface bold
+r7 c22..45 fg=Foreground bg=Surface
+r7 c45..48 fg=Border bg=Surface
+r7 c48..49 fg=Primary bg=Selected bold
+r7 c49..50 fg=Foreground bg=Selected
+r7 c50..51 fg=Foreground bg=Selected bold
+r7 c51..52 fg=Foreground bg=Selected
+r7 c52..56 fg=Foreground bg=Selected bold
+r7 c56..79 bg=Surface
+r7 c79..80 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..3 fg=Primary bg=Surface bold
+r8 c3..4 fg=Foreground bg=Surface
+r8 c4..5 fg=Foreground bg=Surface bold
+r8 c5..22 fg=Foreground bg=Surface
+r8 c22..79 bg=Surface
+r8 c79..80 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..79 bg=Surface
+r9 c79..80 fg=Primary bg=Surface
+r10 c0..80 fg=Primary bg=Surface
+
+== dark-truecolor · 120x11
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                      │
+│ ◆ Needs you · Run a command                                                                                          │
+│                                                                                                                      │
+│ $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools --channel stable --no-modify-path         │
+│   --verbose --accept-license                                                                                         │
+│ Inside this project                                                                                                  │
+│ In codewhale                                                                                                         │
+│   y Allow once ·   a Allow for this session · ▸ n Deny ·   e Deny and say why                                        │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+---
+r0 c0..120 fg=Primary bg=Surface
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..119 bg=Surface
+r1 c119..120 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..29 fg=Foreground bg=Surface bold
+r2 c29..119 bg=Surface
+r2 c119..120 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..119 bg=Surface
+r3 c119..120 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..4 fg=Primary bg=Surface bold
+r4 c4..111 fg=Foreground bg=Surface bold
+r4 c111..119 bg=Surface
+r4 c119..120 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..2 bg=Surface
+r5 c2..4 fg=Foreground bg=Surface
+r5 c4..30 fg=Foreground bg=Surface bold
+r5 c30..119 bg=Surface
+r5 c119..120 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..2 bg=Surface
+r6 c2..21 fg=Muted bg=Surface
+r6 c21..119 bg=Surface
+r6 c119..120 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..2 bg=Surface
+r7 c2..5 fg=Muted bg=Surface
+r7 c5..14 fg=Foreground bg=Surface
+r7 c14..119 bg=Surface
+r7 c119..120 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..2 bg=Surface
+r8 c2..3 fg=Primary bg=Surface bold
+r8 c3..4 fg=Foreground bg=Surface
+r8 c4..5 fg=Foreground bg=Surface bold
+r8 c5..16 fg=Foreground bg=Surface
+r8 c16..19 fg=Border bg=Surface
+r8 c19..20 fg=Primary bg=Surface bold
+r8 c20..21 fg=Foreground bg=Surface
+r8 c21..22 fg=Foreground bg=Surface bold
+r8 c22..45 fg=Foreground bg=Surface
+r8 c45..48 fg=Border bg=Surface
+r8 c48..49 fg=Primary bg=Selected bold
+r8 c49..50 fg=Foreground bg=Selected
+r8 c50..51 fg=Foreground bg=Selected bold
+r8 c51..52 fg=Foreground bg=Selected
+r8 c52..56 fg=Foreground bg=Selected bold
+r8 c56..59 fg=Border bg=Surface
+r8 c59..60 fg=Primary bg=Surface bold
+r8 c60..61 fg=Foreground bg=Surface
+r8 c61..62 fg=Foreground bg=Surface bold
+r8 c62..79 fg=Foreground bg=Surface
+r8 c79..119 bg=Surface
+r8 c119..120 fg=Primary bg=Surface
+r9 c0..1 fg=Primary bg=Surface
+r9 c1..119 bg=Surface
+r9 c119..120 fg=Primary bg=Surface
+r10 c0..120 fg=Primary bg=Surface
+
+== no-color · 40x11
+┌──────────────────────────────────────┐
+│                                      │
+│ ◆ Needs you · Run a command          │
+│                                      │
+│ ⚠ 133 characters not shown (5        │
+│ lines) · o show all                  │
+│   y Allow once                       │
+│   a Allow for this session           │
+│ ▸ n Deny ·   e Deny and say why      │
+│                                      │
+└──────────────────────────────────────┘
+
+== no-color · 80x11
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│ ◆ Needs you · Run a command                                                  │
+│                                                                              │
+│ $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools   │
+│ Inside this project                                                          │
+│ ⚠ 60 characters not shown (1 line) · o show all · 1 detail line not shown    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny                       │
+│   e Deny and say why                                                         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+== no-color · 120x11
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                                      │
+│ ◆ Needs you · Run a command                                                                                          │
+│                                                                                                                      │
+│ $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools --channel stable --no-modify-path         │
+│   --verbose --accept-license                                                                                         │
+│ Inside this project                                                                                                  │
+│ In codewhale                                                                                                         │
+│   y Allow once ·   a Allow for this session · ▸ n Deny ·   e Deny and say why                                        │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+== ascii · 40x11
++--------------------------------------+
+|                                      |
+| * Needs you - Run a command          |
+|                                      |
+| ! 133 characters not shown (5        |
+| lines) - o show all                  |
+|   y Allow once                       |
+|   a Allow for this session  > n Deny |
+|   e Deny and say why                 |
+|                                      |
++--------------------------------------+
+
+== ascii · 80x11
++------------------------------------------------------------------------------+
+|                                                                              |
+| * Needs you - Run a command                                                  |
+|                                                                              |
+| $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools   |
+|   --channel stable --no-modify-path --verbose --accept-license               |
+| Inside this project                                                          |
+| In codewhale                                                                 |
+|   y Allow once    a Allow for this session  > n Deny    e Deny and say why   |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+== ascii · 120x11
++----------------------------------------------------------------------------------------------------------------------+
+|                                                                                                                      |
+| * Needs you - Run a command                                                                                          |
+|                                                                                                                      |
+| $ curl -fsSL https://example.com/install.sh | sh -s -- --prefix /opt/tools --channel stable --no-modify-path         |
+|   --verbose --accept-license                                                                                         |
+| Inside this project                                                                                                  |
+| In codewhale                                                                                                         |
+|   y Allow once    a Allow for this session  > n Deny    e Deny and say why                                           |
+|                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------+

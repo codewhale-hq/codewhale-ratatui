@@ -1,0 +1,1164 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..112 bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..11 bg=Background
+r3 c11..12 fg=Border bg=Background
+r3 c12..48 fg=Primary bg=Background bold
+r3 c48..101 fg=Border bg=Background
+r3 c101..112 bg=Background
+r4 c0..11 bg=Background
+r4 c11..12 fg=Border bg=Background
+r4 c12..100 bg=Background
+r4 c100..101 fg=Border bg=Background
+r4 c101..102 bg=Hover
+r4 c102..112 bg=Background
+r5 c0..11 bg=Background
+r5 c11..12 fg=Border bg=Background
+r5 c12..13 bg=Background
+r5 c13..27 fg=Muted bg=Background
+r5 c27..100 bg=Background
+r5 c100..101 fg=Border bg=Background
+r5 c101..102 bg=Hover
+r5 c102..112 bg=Background
+r6 c0..11 bg=Background
+r6 c11..12 fg=Border bg=Background
+r6 c12..13 bg=Background
+r6 c13..32 fg=Hint|Dim bg=Background
+r6 c32..100 bg=Background
+r6 c100..101 fg=Border bg=Background
+r6 c101..102 bg=Hover
+r6 c102..112 bg=Background
+r7 c0..11 bg=Background
+r7 c11..12 fg=Border bg=Background
+r7 c12..13 bg=Background
+r7 c13..52 fg=Hint|Dim bg=Background
+r7 c52..100 bg=Background
+r7 c100..101 fg=Border bg=Background
+r7 c101..102 bg=Hover
+r7 c102..112 bg=Background
+r8 c0..11 bg=Background
+r8 c11..12 fg=Border bg=Background
+r8 c12..100 bg=Background
+r8 c100..101 fg=Border bg=Background
+r8 c101..102 bg=Hover
+r8 c102..112 bg=Background
+r9 c0..11 bg=Background
+r9 c11..12 fg=Border bg=Background
+r9 c12..13 bg=Background
+r9 c13..29 fg=Primary bg=Background bold
+r9 c29..100 bg=Background
+r9 c100..101 fg=Border bg=Background
+r9 c101..102 bg=Hover
+r9 c102..112 bg=Background
+r10 c0..11 bg=Background
+r10 c11..12 fg=Border bg=Background
+r10 c12..13 bg=Background
+r10 c13..55 fg=Foreground bg=Selected bold
+r10 c55..100 bg=Background
+r10 c100..101 fg=Border bg=Background
+r10 c101..102 bg=Hover
+r10 c102..112 bg=Background
+r11 c0..11 bg=Background
+r11 c11..12 fg=Border bg=Background
+r11 c12..13 bg=Background
+r11 c13..56 fg=Foreground bg=Background
+r11 c56..100 bg=Background
+r11 c100..101 fg=Border bg=Background
+r11 c101..102 bg=Hover
+r11 c102..112 bg=Background
+r12 c0..11 bg=Background
+r12 c11..12 fg=Border bg=Background
+r12 c12..13 bg=Background
+r12 c13..67 fg=Foreground bg=Background
+r12 c67..100 bg=Background
+r12 c100..101 fg=Border bg=Background
+r12 c101..102 bg=Hover
+r12 c102..112 bg=Background
+r13 c0..11 bg=Background
+r13 c11..12 fg=Border bg=Background
+r13 c12..13 bg=Background
+r13 c13..62 fg=Foreground bg=Background
+r13 c62..100 bg=Background
+r13 c100..101 fg=Border bg=Background
+r13 c101..102 bg=Hover
+r13 c102..112 bg=Background
+r14 c0..11 bg=Background
+r14 c11..12 fg=Border bg=Background
+r14 c12..13 bg=Background
+r14 c13..54 fg=Foreground bg=Background
+r14 c54..100 bg=Background
+r14 c100..101 fg=Border bg=Background
+r14 c101..102 bg=Hover
+r14 c102..112 bg=Background
+r15 c0..11 bg=Background
+r15 c11..12 fg=Border bg=Background
+r15 c12..13 bg=Background
+r15 c13..62 fg=Foreground bg=Background
+r15 c62..100 bg=Background
+r15 c100..101 fg=Border bg=Background
+r15 c101..102 bg=Hover
+r15 c102..112 bg=Background
+r16 c0..11 bg=Background
+r16 c11..12 fg=Border bg=Background
+r16 c12..100 bg=Background
+r16 c100..101 fg=Border bg=Background
+r16 c101..102 bg=Hover
+r16 c102..112 bg=Background
+r17 c0..11 bg=Background
+r17 c11..12 fg=Border bg=Background
+r17 c12..100 bg=Background
+r17 c100..101 fg=Border bg=Background
+r17 c101..102 bg=Hover
+r17 c102..112 bg=Background
+r18 c0..11 bg=Background
+r18 c11..12 fg=Border bg=Background
+r18 c12..100 bg=Background
+r18 c100..101 fg=Border bg=Background
+r18 c101..102 bg=Hover
+r18 c102..112 bg=Background
+r19 c0..11 bg=Background
+r19 c11..12 fg=Border bg=Background
+r19 c12..100 bg=Background
+r19 c100..101 fg=Border bg=Background
+r19 c101..102 bg=Hover
+r19 c102..112 bg=Background
+r20 c0..11 bg=Background
+r20 c11..12 fg=Border bg=Background
+r20 c12..100 bg=Background
+r20 c100..101 fg=Border bg=Background
+r20 c101..102 bg=Hover
+r20 c102..112 bg=Background
+r21 c0..11 bg=Background
+r21 c11..12 fg=Border bg=Background
+r21 c12..100 bg=Background
+r21 c100..101 fg=Border bg=Background
+r21 c101..102 bg=Hover
+r21 c102..112 bg=Background
+r22 c0..11 bg=Background
+r22 c11..12 fg=Border bg=Background
+r22 c12..13 bg=Background
+r22 c13..18 fg=Primary bg=Background bold
+r22 c18..22 fg=Muted bg=Background
+r22 c22..23 bg=Background
+r22 c23..30 fg=Primary bg=Background bold
+r22 c30..36 fg=Muted bg=Background
+r22 c36..37 bg=Background
+r22 c37..42 fg=Primary bg=Background bold
+r22 c42..48 fg=Muted bg=Background
+r22 c48..100 bg=Background
+r22 c100..101 fg=Border bg=Background
+r22 c101..102 bg=Hover
+r22 c102..112 bg=Background
+r23 c0..11 bg=Background
+r23 c11..12 fg=Border bg=Background
+r23 c12..100 bg=Background
+r23 c100..101 fg=Border bg=Background
+r23 c101..102 bg=Hover
+r23 c102..112 bg=Background
+r24 c0..11 bg=Background
+r24 c11..101 fg=Border bg=Background
+r24 c101..102 bg=Hover
+r24 c102..112 bg=Background
+r25 c0..12 bg=Background
+r25 c12..102 bg=Hover
+r25 c102..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+
+== dark-graphite
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..112 bg=Background
+r1 c0..112 bg=Background
+r2 c0..112 bg=Background
+r3 c0..11 bg=Background
+r3 c11..12 fg=Border bg=Background
+r3 c12..48 fg=Primary bg=Background bold
+r3 c48..101 fg=Border bg=Background
+r3 c101..112 bg=Background
+r4 c0..11 bg=Background
+r4 c11..12 fg=Border bg=Background
+r4 c12..100 bg=Background
+r4 c100..101 fg=Border bg=Background
+r4 c101..102 bg=Hover
+r4 c102..112 bg=Background
+r5 c0..11 bg=Background
+r5 c11..12 fg=Border bg=Background
+r5 c12..13 bg=Background
+r5 c13..27 fg=Muted bg=Background
+r5 c27..100 bg=Background
+r5 c100..101 fg=Border bg=Background
+r5 c101..102 bg=Hover
+r5 c102..112 bg=Background
+r6 c0..11 bg=Background
+r6 c11..12 fg=Border bg=Background
+r6 c12..13 bg=Background
+r6 c13..32 fg=Hint|Dim bg=Background
+r6 c32..100 bg=Background
+r6 c100..101 fg=Border bg=Background
+r6 c101..102 bg=Hover
+r6 c102..112 bg=Background
+r7 c0..11 bg=Background
+r7 c11..12 fg=Border bg=Background
+r7 c12..13 bg=Background
+r7 c13..52 fg=Hint|Dim bg=Background
+r7 c52..100 bg=Background
+r7 c100..101 fg=Border bg=Background
+r7 c101..102 bg=Hover
+r7 c102..112 bg=Background
+r8 c0..11 bg=Background
+r8 c11..12 fg=Border bg=Background
+r8 c12..100 bg=Background
+r8 c100..101 fg=Border bg=Background
+r8 c101..102 bg=Hover
+r8 c102..112 bg=Background
+r9 c0..11 bg=Background
+r9 c11..12 fg=Border bg=Background
+r9 c12..13 bg=Background
+r9 c13..29 fg=Primary bg=Background bold
+r9 c29..100 bg=Background
+r9 c100..101 fg=Border bg=Background
+r9 c101..102 bg=Hover
+r9 c102..112 bg=Background
+r10 c0..11 bg=Background
+r10 c11..12 fg=Border bg=Background
+r10 c12..13 bg=Background
+r10 c13..55 fg=Foreground bg=Selected bold
+r10 c55..100 bg=Background
+r10 c100..101 fg=Border bg=Background
+r10 c101..102 bg=Hover
+r10 c102..112 bg=Background
+r11 c0..11 bg=Background
+r11 c11..12 fg=Border bg=Background
+r11 c12..13 bg=Background
+r11 c13..56 fg=Foreground bg=Background
+r11 c56..100 bg=Background
+r11 c100..101 fg=Border bg=Background
+r11 c101..102 bg=Hover
+r11 c102..112 bg=Background
+r12 c0..11 bg=Background
+r12 c11..12 fg=Border bg=Background
+r12 c12..13 bg=Background
+r12 c13..67 fg=Foreground bg=Background
+r12 c67..100 bg=Background
+r12 c100..101 fg=Border bg=Background
+r12 c101..102 bg=Hover
+r12 c102..112 bg=Background
+r13 c0..11 bg=Background
+r13 c11..12 fg=Border bg=Background
+r13 c12..13 bg=Background
+r13 c13..62 fg=Foreground bg=Background
+r13 c62..100 bg=Background
+r13 c100..101 fg=Border bg=Background
+r13 c101..102 bg=Hover
+r13 c102..112 bg=Background
+r14 c0..11 bg=Background
+r14 c11..12 fg=Border bg=Background
+r14 c12..13 bg=Background
+r14 c13..54 fg=Foreground bg=Background
+r14 c54..100 bg=Background
+r14 c100..101 fg=Border bg=Background
+r14 c101..102 bg=Hover
+r14 c102..112 bg=Background
+r15 c0..11 bg=Background
+r15 c11..12 fg=Border bg=Background
+r15 c12..13 bg=Background
+r15 c13..62 fg=Foreground bg=Background
+r15 c62..100 bg=Background
+r15 c100..101 fg=Border bg=Background
+r15 c101..102 bg=Hover
+r15 c102..112 bg=Background
+r16 c0..11 bg=Background
+r16 c11..12 fg=Border bg=Background
+r16 c12..100 bg=Background
+r16 c100..101 fg=Border bg=Background
+r16 c101..102 bg=Hover
+r16 c102..112 bg=Background
+r17 c0..11 bg=Background
+r17 c11..12 fg=Border bg=Background
+r17 c12..100 bg=Background
+r17 c100..101 fg=Border bg=Background
+r17 c101..102 bg=Hover
+r17 c102..112 bg=Background
+r18 c0..11 bg=Background
+r18 c11..12 fg=Border bg=Background
+r18 c12..100 bg=Background
+r18 c100..101 fg=Border bg=Background
+r18 c101..102 bg=Hover
+r18 c102..112 bg=Background
+r19 c0..11 bg=Background
+r19 c11..12 fg=Border bg=Background
+r19 c12..100 bg=Background
+r19 c100..101 fg=Border bg=Background
+r19 c101..102 bg=Hover
+r19 c102..112 bg=Background
+r20 c0..11 bg=Background
+r20 c11..12 fg=Border bg=Background
+r20 c12..100 bg=Background
+r20 c100..101 fg=Border bg=Background
+r20 c101..102 bg=Hover
+r20 c102..112 bg=Background
+r21 c0..11 bg=Background
+r21 c11..12 fg=Border bg=Background
+r21 c12..100 bg=Background
+r21 c100..101 fg=Border bg=Background
+r21 c101..102 bg=Hover
+r21 c102..112 bg=Background
+r22 c0..11 bg=Background
+r22 c11..12 fg=Border bg=Background
+r22 c12..13 bg=Background
+r22 c13..18 fg=Primary bg=Background bold
+r22 c18..22 fg=Muted bg=Background
+r22 c22..23 bg=Background
+r22 c23..30 fg=Primary bg=Background bold
+r22 c30..36 fg=Muted bg=Background
+r22 c36..37 bg=Background
+r22 c37..42 fg=Primary bg=Background bold
+r22 c42..48 fg=Muted bg=Background
+r22 c48..100 bg=Background
+r22 c100..101 fg=Border bg=Background
+r22 c101..102 bg=Hover
+r22 c102..112 bg=Background
+r23 c0..11 bg=Background
+r23 c11..12 fg=Border bg=Background
+r23 c12..100 bg=Background
+r23 c100..101 fg=Border bg=Background
+r23 c101..102 bg=Hover
+r23 c102..112 bg=Background
+r24 c0..11 bg=Background
+r24 c11..101 fg=Border bg=Background
+r24 c101..102 bg=Hover
+r24 c102..112 bg=Background
+r25 c0..12 bg=Background
+r25 c12..102 bg=Hover
+r25 c102..112 bg=Background
+r26 c0..112 bg=Background
+r27 c0..112 bg=Background
+
+== light-truecolor
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c11..12 fg=Border
+r3 c12..48 fg=Primary bold
+r3 c48..101 fg=Border
+r4 c11..12 fg=Border
+r4 c100..101 fg=Border
+r4 c101..102 bg=Hover
+r5 c11..12 fg=Border
+r5 c13..27 fg=Muted
+r5 c100..101 fg=Border
+r5 c101..102 bg=Hover
+r6 c11..12 fg=Border
+r6 c13..32 fg=Hint|Dim
+r6 c100..101 fg=Border
+r6 c101..102 bg=Hover
+r7 c11..12 fg=Border
+r7 c13..52 fg=Hint|Dim
+r7 c100..101 fg=Border
+r7 c101..102 bg=Hover
+r8 c11..12 fg=Border
+r8 c100..101 fg=Border
+r8 c101..102 bg=Hover
+r9 c11..12 fg=Border
+r9 c13..29 fg=Primary bold
+r9 c100..101 fg=Border
+r9 c101..102 bg=Hover
+r10 c11..12 fg=Border
+r10 c13..55 fg=Foreground bg=Selected bold
+r10 c100..101 fg=Border
+r10 c101..102 bg=Hover
+r11 c11..12 fg=Border
+r11 c13..56 fg=Foreground
+r11 c100..101 fg=Border
+r11 c101..102 bg=Hover
+r12 c11..12 fg=Border
+r12 c13..67 fg=Foreground
+r12 c100..101 fg=Border
+r12 c101..102 bg=Hover
+r13 c11..12 fg=Border
+r13 c13..62 fg=Foreground
+r13 c100..101 fg=Border
+r13 c101..102 bg=Hover
+r14 c11..12 fg=Border
+r14 c13..54 fg=Foreground
+r14 c100..101 fg=Border
+r14 c101..102 bg=Hover
+r15 c11..12 fg=Border
+r15 c13..62 fg=Foreground
+r15 c100..101 fg=Border
+r15 c101..102 bg=Hover
+r16 c11..12 fg=Border
+r16 c100..101 fg=Border
+r16 c101..102 bg=Hover
+r17 c11..12 fg=Border
+r17 c100..101 fg=Border
+r17 c101..102 bg=Hover
+r18 c11..12 fg=Border
+r18 c100..101 fg=Border
+r18 c101..102 bg=Hover
+r19 c11..12 fg=Border
+r19 c100..101 fg=Border
+r19 c101..102 bg=Hover
+r20 c11..12 fg=Border
+r20 c100..101 fg=Border
+r20 c101..102 bg=Hover
+r21 c11..12 fg=Border
+r21 c100..101 fg=Border
+r21 c101..102 bg=Hover
+r22 c11..12 fg=Border
+r22 c13..18 fg=Primary bold
+r22 c18..22 fg=Muted
+r22 c23..30 fg=Primary bold
+r22 c30..36 fg=Muted
+r22 c37..42 fg=Primary bold
+r22 c42..48 fg=Muted
+r22 c100..101 fg=Border
+r22 c101..102 bg=Hover
+r23 c11..12 fg=Border
+r23 c100..101 fg=Border
+r23 c101..102 bg=Hover
+r24 c11..101 fg=Border
+r24 c101..102 bg=Hover
+r25 c12..102 bg=Hover
+
+== dark-256
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r0 c0..112 bg=Background|DiffAddedTint
+r1 c0..112 bg=Background|DiffAddedTint
+r2 c0..112 bg=Background|DiffAddedTint
+r3 c0..11 bg=Background|DiffAddedTint
+r3 c11..12 fg=Border bg=Background|DiffAddedTint
+r3 c12..48 fg=Primary bg=Background|DiffAddedTint bold
+r3 c48..101 fg=Border bg=Background|DiffAddedTint
+r3 c101..112 bg=Background|DiffAddedTint
+r4 c0..11 bg=Background|DiffAddedTint
+r4 c11..12 fg=Border bg=Background|DiffAddedTint
+r4 c12..100 bg=Background|DiffAddedTint
+r4 c100..101 fg=Border bg=Background|DiffAddedTint
+r4 c101..102 bg=Surface|Hover|DiffRemovedTint
+r4 c102..112 bg=Background|DiffAddedTint
+r5 c0..11 bg=Background|DiffAddedTint
+r5 c11..12 fg=Border bg=Background|DiffAddedTint
+r5 c12..13 bg=Background|DiffAddedTint
+r5 c13..27 fg=Muted bg=Background|DiffAddedTint
+r5 c27..100 bg=Background|DiffAddedTint
+r5 c100..101 fg=Border bg=Background|DiffAddedTint
+r5 c101..102 bg=Surface|Hover|DiffRemovedTint
+r5 c102..112 bg=Background|DiffAddedTint
+r6 c0..11 bg=Background|DiffAddedTint
+r6 c11..12 fg=Border bg=Background|DiffAddedTint
+r6 c12..13 bg=Background|DiffAddedTint
+r6 c13..32 fg=Hint|Dim bg=Background|DiffAddedTint
+r6 c32..100 bg=Background|DiffAddedTint
+r6 c100..101 fg=Border bg=Background|DiffAddedTint
+r6 c101..102 bg=Surface|Hover|DiffRemovedTint
+r6 c102..112 bg=Background|DiffAddedTint
+r7 c0..11 bg=Background|DiffAddedTint
+r7 c11..12 fg=Border bg=Background|DiffAddedTint
+r7 c12..13 bg=Background|DiffAddedTint
+r7 c13..52 fg=Hint|Dim bg=Background|DiffAddedTint
+r7 c52..100 bg=Background|DiffAddedTint
+r7 c100..101 fg=Border bg=Background|DiffAddedTint
+r7 c101..102 bg=Surface|Hover|DiffRemovedTint
+r7 c102..112 bg=Background|DiffAddedTint
+r8 c0..11 bg=Background|DiffAddedTint
+r8 c11..12 fg=Border bg=Background|DiffAddedTint
+r8 c12..100 bg=Background|DiffAddedTint
+r8 c100..101 fg=Border bg=Background|DiffAddedTint
+r8 c101..102 bg=Surface|Hover|DiffRemovedTint
+r8 c102..112 bg=Background|DiffAddedTint
+r9 c0..11 bg=Background|DiffAddedTint
+r9 c11..12 fg=Border bg=Background|DiffAddedTint
+r9 c12..13 bg=Background|DiffAddedTint
+r9 c13..29 fg=Primary bg=Background|DiffAddedTint bold
+r9 c29..100 bg=Background|DiffAddedTint
+r9 c100..101 fg=Border bg=Background|DiffAddedTint
+r9 c101..102 bg=Surface|Hover|DiffRemovedTint
+r9 c102..112 bg=Background|DiffAddedTint
+r10 c0..11 bg=Background|DiffAddedTint
+r10 c11..12 fg=Border bg=Background|DiffAddedTint
+r10 c12..13 bg=Background|DiffAddedTint
+r10 c13..55 fg=Foreground bg=Selected bold
+r10 c55..100 bg=Background|DiffAddedTint
+r10 c100..101 fg=Border bg=Background|DiffAddedTint
+r10 c101..102 bg=Surface|Hover|DiffRemovedTint
+r10 c102..112 bg=Background|DiffAddedTint
+r11 c0..11 bg=Background|DiffAddedTint
+r11 c11..12 fg=Border bg=Background|DiffAddedTint
+r11 c12..13 bg=Background|DiffAddedTint
+r11 c13..56 fg=Foreground bg=Background|DiffAddedTint
+r11 c56..100 bg=Background|DiffAddedTint
+r11 c100..101 fg=Border bg=Background|DiffAddedTint
+r11 c101..102 bg=Surface|Hover|DiffRemovedTint
+r11 c102..112 bg=Background|DiffAddedTint
+r12 c0..11 bg=Background|DiffAddedTint
+r12 c11..12 fg=Border bg=Background|DiffAddedTint
+r12 c12..13 bg=Background|DiffAddedTint
+r12 c13..67 fg=Foreground bg=Background|DiffAddedTint
+r12 c67..100 bg=Background|DiffAddedTint
+r12 c100..101 fg=Border bg=Background|DiffAddedTint
+r12 c101..102 bg=Surface|Hover|DiffRemovedTint
+r12 c102..112 bg=Background|DiffAddedTint
+r13 c0..11 bg=Background|DiffAddedTint
+r13 c11..12 fg=Border bg=Background|DiffAddedTint
+r13 c12..13 bg=Background|DiffAddedTint
+r13 c13..62 fg=Foreground bg=Background|DiffAddedTint
+r13 c62..100 bg=Background|DiffAddedTint
+r13 c100..101 fg=Border bg=Background|DiffAddedTint
+r13 c101..102 bg=Surface|Hover|DiffRemovedTint
+r13 c102..112 bg=Background|DiffAddedTint
+r14 c0..11 bg=Background|DiffAddedTint
+r14 c11..12 fg=Border bg=Background|DiffAddedTint
+r14 c12..13 bg=Background|DiffAddedTint
+r14 c13..54 fg=Foreground bg=Background|DiffAddedTint
+r14 c54..100 bg=Background|DiffAddedTint
+r14 c100..101 fg=Border bg=Background|DiffAddedTint
+r14 c101..102 bg=Surface|Hover|DiffRemovedTint
+r14 c102..112 bg=Background|DiffAddedTint
+r15 c0..11 bg=Background|DiffAddedTint
+r15 c11..12 fg=Border bg=Background|DiffAddedTint
+r15 c12..13 bg=Background|DiffAddedTint
+r15 c13..62 fg=Foreground bg=Background|DiffAddedTint
+r15 c62..100 bg=Background|DiffAddedTint
+r15 c100..101 fg=Border bg=Background|DiffAddedTint
+r15 c101..102 bg=Surface|Hover|DiffRemovedTint
+r15 c102..112 bg=Background|DiffAddedTint
+r16 c0..11 bg=Background|DiffAddedTint
+r16 c11..12 fg=Border bg=Background|DiffAddedTint
+r16 c12..100 bg=Background|DiffAddedTint
+r16 c100..101 fg=Border bg=Background|DiffAddedTint
+r16 c101..102 bg=Surface|Hover|DiffRemovedTint
+r16 c102..112 bg=Background|DiffAddedTint
+r17 c0..11 bg=Background|DiffAddedTint
+r17 c11..12 fg=Border bg=Background|DiffAddedTint
+r17 c12..100 bg=Background|DiffAddedTint
+r17 c100..101 fg=Border bg=Background|DiffAddedTint
+r17 c101..102 bg=Surface|Hover|DiffRemovedTint
+r17 c102..112 bg=Background|DiffAddedTint
+r18 c0..11 bg=Background|DiffAddedTint
+r18 c11..12 fg=Border bg=Background|DiffAddedTint
+r18 c12..100 bg=Background|DiffAddedTint
+r18 c100..101 fg=Border bg=Background|DiffAddedTint
+r18 c101..102 bg=Surface|Hover|DiffRemovedTint
+r18 c102..112 bg=Background|DiffAddedTint
+r19 c0..11 bg=Background|DiffAddedTint
+r19 c11..12 fg=Border bg=Background|DiffAddedTint
+r19 c12..100 bg=Background|DiffAddedTint
+r19 c100..101 fg=Border bg=Background|DiffAddedTint
+r19 c101..102 bg=Surface|Hover|DiffRemovedTint
+r19 c102..112 bg=Background|DiffAddedTint
+r20 c0..11 bg=Background|DiffAddedTint
+r20 c11..12 fg=Border bg=Background|DiffAddedTint
+r20 c12..100 bg=Background|DiffAddedTint
+r20 c100..101 fg=Border bg=Background|DiffAddedTint
+r20 c101..102 bg=Surface|Hover|DiffRemovedTint
+r20 c102..112 bg=Background|DiffAddedTint
+r21 c0..11 bg=Background|DiffAddedTint
+r21 c11..12 fg=Border bg=Background|DiffAddedTint
+r21 c12..100 bg=Background|DiffAddedTint
+r21 c100..101 fg=Border bg=Background|DiffAddedTint
+r21 c101..102 bg=Surface|Hover|DiffRemovedTint
+r21 c102..112 bg=Background|DiffAddedTint
+r22 c0..11 bg=Background|DiffAddedTint
+r22 c11..12 fg=Border bg=Background|DiffAddedTint
+r22 c12..13 bg=Background|DiffAddedTint
+r22 c13..18 fg=Primary bg=Background|DiffAddedTint bold
+r22 c18..22 fg=Muted bg=Background|DiffAddedTint
+r22 c22..23 bg=Background|DiffAddedTint
+r22 c23..30 fg=Primary bg=Background|DiffAddedTint bold
+r22 c30..36 fg=Muted bg=Background|DiffAddedTint
+r22 c36..37 bg=Background|DiffAddedTint
+r22 c37..42 fg=Primary bg=Background|DiffAddedTint bold
+r22 c42..48 fg=Muted bg=Background|DiffAddedTint
+r22 c48..100 bg=Background|DiffAddedTint
+r22 c100..101 fg=Border bg=Background|DiffAddedTint
+r22 c101..102 bg=Surface|Hover|DiffRemovedTint
+r22 c102..112 bg=Background|DiffAddedTint
+r23 c0..11 bg=Background|DiffAddedTint
+r23 c11..12 fg=Border bg=Background|DiffAddedTint
+r23 c12..100 bg=Background|DiffAddedTint
+r23 c100..101 fg=Border bg=Background|DiffAddedTint
+r23 c101..102 bg=Surface|Hover|DiffRemovedTint
+r23 c102..112 bg=Background|DiffAddedTint
+r24 c0..11 bg=Background|DiffAddedTint
+r24 c11..101 fg=Border bg=Background|DiffAddedTint
+r24 c101..102 bg=Surface|Hover|DiffRemovedTint
+r24 c102..112 bg=Background|DiffAddedTint
+r25 c0..12 bg=Background|DiffAddedTint
+r25 c12..102 bg=Surface|Hover|DiffRemovedTint
+r25 c102..112 bg=Background|DiffAddedTint
+r26 c0..112 bg=Background|DiffAddedTint
+r27 c0..112 bg=Background|DiffAddedTint
+
+== light-256
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c11..12 fg=Border
+r3 c12..48 fg=Primary bold
+r3 c48..101 fg=Border
+r4 c11..12 fg=Border
+r4 c100..101 fg=Border
+r4 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c11..12 fg=Border
+r5 c13..27 fg=Muted|Hint|Dim
+r5 c100..101 fg=Border
+r5 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c11..12 fg=Border
+r6 c13..32 fg=Muted|Hint|Dim
+r6 c100..101 fg=Border
+r6 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c11..12 fg=Border
+r7 c13..52 fg=Muted|Hint|Dim
+r7 c100..101 fg=Border
+r7 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c11..12 fg=Border
+r8 c100..101 fg=Border
+r8 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r9 c11..12 fg=Border
+r9 c13..29 fg=Primary bold
+r9 c100..101 fg=Border
+r9 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r10 c11..12 fg=Border
+r10 c13..55 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r10 c100..101 fg=Border
+r10 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r11 c11..12 fg=Border
+r11 c13..56 fg=Foreground
+r11 c100..101 fg=Border
+r11 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c11..12 fg=Border
+r12 c13..67 fg=Foreground
+r12 c100..101 fg=Border
+r12 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r13 c11..12 fg=Border
+r13 c13..62 fg=Foreground
+r13 c100..101 fg=Border
+r13 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r14 c11..12 fg=Border
+r14 c13..54 fg=Foreground
+r14 c100..101 fg=Border
+r14 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r15 c11..12 fg=Border
+r15 c13..62 fg=Foreground
+r15 c100..101 fg=Border
+r15 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r16 c11..12 fg=Border
+r16 c100..101 fg=Border
+r16 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c11..12 fg=Border
+r17 c100..101 fg=Border
+r17 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r18 c11..12 fg=Border
+r18 c100..101 fg=Border
+r18 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r19 c11..12 fg=Border
+r19 c100..101 fg=Border
+r19 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r20 c11..12 fg=Border
+r20 c100..101 fg=Border
+r20 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r21 c11..12 fg=Border
+r21 c100..101 fg=Border
+r21 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r22 c11..12 fg=Border
+r22 c13..18 fg=Primary bold
+r22 c18..22 fg=Muted|Hint|Dim
+r22 c23..30 fg=Primary bold
+r22 c30..36 fg=Muted|Hint|Dim
+r22 c37..42 fg=Primary bold
+r22 c42..48 fg=Muted|Hint|Dim
+r22 c100..101 fg=Border
+r22 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r23 c11..12 fg=Border
+r23 c100..101 fg=Border
+r23 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r24 c11..101 fg=Border
+r24 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r25 c12..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+
+== ansi-16
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c11..12 dim
+r3 c12..48 fg=Primary bold dim
+r3 c48..101 dim
+r4 c11..12 dim
+r4 c100..101 dim
+r5 c11..12 dim
+r5 c13..27 dim
+r5 c100..101 dim
+r6 c11..12 dim
+r6 c13..32 dim
+r6 c100..101 dim
+r7 c11..12 dim
+r7 c13..52 dim
+r7 c100..101 dim
+r8 c11..12 dim
+r8 c100..101 dim
+r9 c11..12 dim
+r9 c13..29 fg=Primary bold
+r9 c100..101 dim
+r10 c11..12 dim
+r10 c13..55 bold
+r10 c100..101 dim
+r11 c11..12 dim
+r11 c100..101 dim
+r12 c11..12 dim
+r12 c100..101 dim
+r13 c11..12 dim
+r13 c100..101 dim
+r14 c11..12 dim
+r14 c100..101 dim
+r15 c11..12 dim
+r15 c100..101 dim
+r16 c11..12 dim
+r16 c100..101 dim
+r17 c11..12 dim
+r17 c100..101 dim
+r18 c11..12 dim
+r18 c100..101 dim
+r19 c11..12 dim
+r19 c100..101 dim
+r20 c11..12 dim
+r20 c100..101 dim
+r21 c11..12 dim
+r21 c100..101 dim
+r22 c11..12 dim
+r22 c13..18 fg=Primary bold
+r22 c18..22 dim
+r22 c23..30 fg=Primary bold
+r22 c30..36 dim
+r22 c37..42 fg=Primary bold
+r22 c42..48 dim
+r22 c100..101 dim
+r23 c11..12 dim
+r23 c100..101 dim
+r24 c11..101 dim
+
+== unknown-ground
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c11..12 dim
+r3 c12..48 fg=Primary bold dim
+r3 c48..101 dim
+r4 c11..12 dim
+r4 c100..101 dim
+r5 c11..12 dim
+r5 c13..27 dim
+r5 c100..101 dim
+r6 c11..12 dim
+r6 c13..32 dim
+r6 c100..101 dim
+r7 c11..12 dim
+r7 c13..52 dim
+r7 c100..101 dim
+r8 c11..12 dim
+r8 c100..101 dim
+r9 c11..12 dim
+r9 c13..29 fg=Primary bold
+r9 c100..101 dim
+r10 c11..12 dim
+r10 c13..55 bold
+r10 c100..101 dim
+r11 c11..12 dim
+r11 c100..101 dim
+r12 c11..12 dim
+r12 c100..101 dim
+r13 c11..12 dim
+r13 c100..101 dim
+r14 c11..12 dim
+r14 c100..101 dim
+r15 c11..12 dim
+r15 c100..101 dim
+r16 c11..12 dim
+r16 c100..101 dim
+r17 c11..12 dim
+r17 c100..101 dim
+r18 c11..12 dim
+r18 c100..101 dim
+r19 c11..12 dim
+r19 c100..101 dim
+r20 c11..12 dim
+r20 c100..101 dim
+r21 c11..12 dim
+r21 c100..101 dim
+r22 c11..12 dim
+r22 c13..18 fg=Primary bold
+r22 c18..22 dim
+r22 c23..30 fg=Primary bold
+r22 c30..36 dim
+r22 c37..42 fg=Primary bold
+r22 c42..48 dim
+r22 c100..101 dim
+r23 c11..12 dim
+r23 c100..101 dim
+r24 c11..101 dim
+
+== no-color
+
+
+
+           ┌ Commands — Find and run one action ────────────────────────────────────────────────────┐
+           │                                                                                        │
+           │ Type to filter                                                                         │
+           │ 6 shown / 6 entries                                                                    │
+           │ scope: c:cmd · s:skill · t:tool · m:mcp                                                │
+           │                                                                                        │
+           │   Commands (6)                                                                         │
+           │ ▸ /model                    Choose a model                                             │
+           │   /theme                    Preview a theme                                            │
+           │   /context                  Inspect the context window                                 │
+           │   /sessions                 Browse saved sessions                                      │
+           │   /config                   Open settings                                              │
+           │   /fleet                    Open the fleet roster                                      │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │                                                                                        │
+           │  ↑/↓ move  Enter select  Esc cancel                                                    │
+           │                                                                                        │
+           └────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+
+---
+r3 c11..12 dim
+r3 c12..48 bold dim
+r3 c48..101 dim
+r4 c11..12 dim
+r4 c100..101 dim
+r5 c11..12 dim
+r5 c13..27 dim
+r5 c100..101 dim
+r6 c11..12 dim
+r6 c13..32 dim
+r6 c100..101 dim
+r7 c11..12 dim
+r7 c13..52 dim
+r7 c100..101 dim
+r8 c11..12 dim
+r8 c100..101 dim
+r9 c11..12 dim
+r9 c13..29 bold
+r9 c100..101 dim
+r10 c11..12 dim
+r10 c13..55 bold
+r10 c100..101 dim
+r11 c11..12 dim
+r11 c100..101 dim
+r12 c11..12 dim
+r12 c100..101 dim
+r13 c11..12 dim
+r13 c100..101 dim
+r14 c11..12 dim
+r14 c100..101 dim
+r15 c11..12 dim
+r15 c100..101 dim
+r16 c11..12 dim
+r16 c100..101 dim
+r17 c11..12 dim
+r17 c100..101 dim
+r18 c11..12 dim
+r18 c100..101 dim
+r19 c11..12 dim
+r19 c100..101 dim
+r20 c11..12 dim
+r20 c100..101 dim
+r21 c11..12 dim
+r21 c100..101 dim
+r22 c11..12 dim
+r22 c13..18 bold
+r22 c18..22 dim
+r22 c23..30 bold
+r22 c30..36 dim
+r22 c37..42 bold
+r22 c42..48 dim
+r22 c100..101 dim
+r23 c11..12 dim
+r23 c100..101 dim
+r24 c11..101 dim
+
+== ascii
+
+
+
+           + Commands - Find and run one action ----------------------------------------------------+
+           |                                                                                        |
+           | Type to filter                                                                         |
+           | 6 shown / 6 entries                                                                    |
+           | scope: c:cmd . s:skill . t:tool . m:mcp                                                |
+           |                                                                                        |
+           |   Commands (6)                                                                         |
+           | > /model                    Choose a model                                             |
+           |   /theme                    Preview a theme                                            |
+           |   /context                  Inspect the context window                                 |
+           |   /sessions                 Browse saved sessions                                      |
+           |   /config                   Open settings                                              |
+           |   /fleet                    Open the fleet roster                                      |
+           |                                                                                        |
+           |                                                                                        |
+           |                                                                                        |
+           |                                                                                        |
+           |                                                                                        |
+           |                                                                                        |
+           |  Up/Dn move  Enter select  Esc cancel                                                  |
+           |                                                                                        |
+           +----------------------------------------------------------------------------------------+
+
+
+
+---
+r3 c11..12 dim
+r3 c12..48 bold dim
+r3 c48..101 dim
+r4 c11..12 dim
+r4 c100..101 dim
+r5 c11..12 dim
+r5 c13..27 dim
+r5 c100..101 dim
+r6 c11..12 dim
+r6 c13..32 dim
+r6 c100..101 dim
+r7 c11..12 dim
+r7 c13..52 dim
+r7 c100..101 dim
+r8 c11..12 dim
+r8 c100..101 dim
+r9 c11..12 dim
+r9 c13..29 bold
+r9 c100..101 dim
+r10 c11..12 dim
+r10 c13..55 bold
+r10 c100..101 dim
+r11 c11..12 dim
+r11 c100..101 dim
+r12 c11..12 dim
+r12 c100..101 dim
+r13 c11..12 dim
+r13 c100..101 dim
+r14 c11..12 dim
+r14 c100..101 dim
+r15 c11..12 dim
+r15 c100..101 dim
+r16 c11..12 dim
+r16 c100..101 dim
+r17 c11..12 dim
+r17 c100..101 dim
+r18 c11..12 dim
+r18 c100..101 dim
+r19 c11..12 dim
+r19 c100..101 dim
+r20 c11..12 dim
+r20 c100..101 dim
+r21 c11..12 dim
+r21 c100..101 dim
+r22 c11..12 dim
+r22 c13..20 bold
+r22 c20..24 dim
+r22 c25..32 bold
+r22 c32..38 dim
+r22 c39..44 bold
+r22 c44..50 dim
+r22 c100..101 dim
+r23 c11..12 dim
+r23 c100..101 dim
+r24 c11..101 dim

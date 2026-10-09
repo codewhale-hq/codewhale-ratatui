@@ -1,0 +1,220 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(8, paint_picker_preview)"
+---
+== dark-truecolor · 40x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows…
+▸ Deep sea   Navy ground, blue ombre
+  Graphite   The exact token grounds
+  Reef       Warm dark ground
+
+
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..40 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..11 fg=Foreground bg=Background
+r2 c11..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..2 fg=Primary bg=Selected
+r3 c2..11 fg=Foreground bg=Selected bold
+r3 c11..36 fg=Muted bg=Selected
+r3 c36..40 bg=Selected
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+
+== dark-truecolor · 80x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows the…    │ Deep sea
+▸ Deep sea   Navy ground, blue ombre          │ Navy ground, blue ombre
+  Graphite   The exact token grounds          │
+  Reef       Warm dark ground                 │
+                                              │
+                                              │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..80 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..80 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..11 fg=Foreground bg=Background
+r2 c11..42 fg=Muted bg=Background
+r2 c42..46 bg=Background
+r2 c46..47 fg=Border bg=Background
+r2 c47..48 bg=Background
+r2 c48..56 fg=Foreground bg=Background bold
+r2 c56..80 bg=Background
+r3 c0..2 fg=Primary bg=Selected
+r3 c2..11 fg=Foreground bg=Selected bold
+r3 c11..36 fg=Muted bg=Selected
+r3 c36..45 bg=Selected
+r3 c45..46 bg=Background
+r3 c46..47 fg=Border bg=Background
+r3 c47..48 bg=Background
+r3 c48..71 fg=Muted bg=Background
+r3 c71..80 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..46 bg=Background
+r4 c46..47 fg=Border bg=Background
+r4 c47..80 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..46 bg=Background
+r5 c46..47 fg=Border bg=Background
+r5 c47..80 bg=Background
+r6 c0..46 bg=Background
+r6 c46..47 fg=Border bg=Background
+r6 c47..80 bg=Background
+r7 c0..46 bg=Background
+r7 c46..47 fg=Border bg=Background
+r7 c47..80 bg=Background
+
+== dark-truecolor · 120x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows the terminal                    │ Deep sea
+▸ Deep sea   Navy ground, blue ombre                                  │ Navy ground, blue ombre
+  Graphite   The exact token grounds                                  │
+  Reef       Warm dark ground                                         │
+                                                                      │
+                                                                      │
+---
+r0 c0..3 fg=Muted bg=Background
+r0 c3..5 bg=Background
+r0 c5..7 fg=Primary bg=Background
+r0 c7..11 fg=Foreground bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..18 fg=Muted bg=Background
+r0 c18..120 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..2 bg=Background
+r1 c2..3 fg=Hint bg=Background reversed
+r1 c3..16 fg=Hint bg=Background
+r1 c16..120 bg=Background
+r2 c0..2 fg=Primary bg=Background
+r2 c2..11 fg=Foreground bg=Background
+r2 c11..50 fg=Muted bg=Background
+r2 c50..70 bg=Background
+r2 c70..71 fg=Border bg=Background
+r2 c71..72 bg=Background
+r2 c72..80 fg=Foreground bg=Background bold
+r2 c80..120 bg=Background
+r3 c0..2 fg=Primary bg=Selected
+r3 c2..11 fg=Foreground bg=Selected bold
+r3 c11..36 fg=Muted bg=Selected
+r3 c36..69 bg=Selected
+r3 c69..70 bg=Background
+r3 c70..71 fg=Border bg=Background
+r3 c71..72 bg=Background
+r3 c72..95 fg=Muted bg=Background
+r3 c95..120 bg=Background
+r4 c0..2 fg=Primary bg=Background
+r4 c2..11 fg=Foreground bg=Background
+r4 c11..36 fg=Muted bg=Background
+r4 c36..70 bg=Background
+r4 c70..71 fg=Border bg=Background
+r4 c71..120 bg=Background
+r5 c0..2 fg=Primary bg=Background
+r5 c2..11 fg=Foreground bg=Background
+r5 c11..29 fg=Muted bg=Background
+r5 c29..70 bg=Background
+r5 c70..71 fg=Border bg=Background
+r5 c71..120 bg=Background
+r6 c0..70 bg=Background
+r6 c70..71 fg=Border bg=Background
+r6 c71..120 bg=Background
+r7 c0..70 bg=Background
+r7 c70..71 fg=Border bg=Background
+r7 c71..120 bg=Background
+
+== no-color · 40x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows…
+▸ Deep sea   Navy ground, blue ombre
+  Graphite   The exact token grounds
+  Reef       Warm dark ground
+
+
+
+== no-color · 80x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows the…    │ Deep sea
+▸ Deep sea   Navy ground, blue ombre          │ Navy ground, blue ombre
+  Graphite   The exact token grounds          │
+  Reef       Warm dark ground                 │
+                                              │
+                                              │
+
+== no-color · 120x8
+All  ● Dark  Light
+› Type to filter
+  Shoreline  Graphite ground, follows the terminal                    │ Deep sea
+▸ Deep sea   Navy ground, blue ombre                                  │ Navy ground, blue ombre
+  Graphite   The exact token grounds                                  │
+  Reef       Warm dark ground                                         │
+                                                                      │
+                                                                      │
+
+== ascii · 40x8
+All  . Dark  Light
+/ Type to filter
+  Shoreline  Graphite ground,...
+> Deep sea   Navy ground, blue ombre
+  Graphite   The exact token grounds
+  Reef       Warm dark ground
+
+
+
+== ascii · 80x8
+All  . Dark  Light
+/ Type to filter
+  Shoreline  Graphite ground, follows the...  | Deep sea
+> Deep sea   Navy ground, blue ombre          | Navy ground, blue ombre
+  Graphite   The exact token grounds          |
+  Reef       Warm dark ground                 |
+                                              |
+                                              |
+
+== ascii · 120x8
+All  . Dark  Light
+/ Type to filter
+  Shoreline  Graphite ground, follows the terminal                    | Deep sea
+> Deep sea   Navy ground, blue ombre                                  | Navy ground, blue ombre
+  Graphite   The exact token grounds                                  |
+  Reef       Warm dark ground                                         |
+                                                                      |
+                                                                      |

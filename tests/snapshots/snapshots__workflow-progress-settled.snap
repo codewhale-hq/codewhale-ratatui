@@ -1,0 +1,266 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=#9bd66f bg=Background
+r0 c3..26 fg=Foreground bg=Background bold
+r0 c26..28 bg=Background
+r0 c28..48 fg=#9bd66f bg=Background
+r0 c48..50 bg=Background
+r0 c50..58 fg=Muted bg=Background
+r0 c58..71 bg=Background
+r0 c71..77 fg=Muted bg=Background
+r0 c77..140 bg=Background
+r1 c0..1 bg=Background
+r1 c1..3 fg=Danger bg=Background
+r1 c3..26 fg=Foreground bg=Background bold
+r1 c26..28 bg=Background
+r1 c28..48 fg=Danger bg=Background
+r1 c48..50 bg=Background
+r1 c50..58 fg=Muted bg=Background
+r1 c58..69 fg=Danger bg=Background
+r1 c69..71 bg=Background
+r1 c71..77 fg=Muted bg=Background
+r1 c77..79 bg=Background
+r1 c79..114 fg=Danger bg=Background
+r1 c114..140 bg=Background
+r2 c0..1 bg=Background
+r2 c1..3 fg=#ff7a59 bg=Background
+r2 c3..26 fg=Foreground bg=Background bold
+r2 c26..28 bg=Background
+r2 c28..43 fg=#9bd66f bg=Background
+r2 c43..48 fg=Danger bg=Background
+r2 c48..50 bg=Background
+r2 c50..58 fg=Muted bg=Background
+r2 c58..69 fg=Danger bg=Background
+r2 c69..71 bg=Background
+r2 c71..77 fg=Muted bg=Background
+r2 c77..79 bg=Background
+r2 c79..138 fg=#ff7a59 bg=Background
+r2 c138..140 bg=Background
+
+== dark-graphite
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=#9bd66f bg=Background
+r0 c3..26 fg=Foreground bg=Background bold
+r0 c26..28 bg=Background
+r0 c28..48 fg=#9bd66f bg=Background
+r0 c48..50 bg=Background
+r0 c50..58 fg=Muted bg=Background
+r0 c58..71 bg=Background
+r0 c71..77 fg=Muted bg=Background
+r0 c77..140 bg=Background
+r1 c0..1 bg=Background
+r1 c1..3 fg=Danger bg=Background
+r1 c3..26 fg=Foreground bg=Background bold
+r1 c26..28 bg=Background
+r1 c28..48 fg=Danger bg=Background
+r1 c48..50 bg=Background
+r1 c50..58 fg=Muted bg=Background
+r1 c58..69 fg=Danger bg=Background
+r1 c69..71 bg=Background
+r1 c71..77 fg=Muted bg=Background
+r1 c77..79 bg=Background
+r1 c79..114 fg=Danger bg=Background
+r1 c114..140 bg=Background
+r2 c0..1 bg=Background
+r2 c1..3 fg=#ff7a59 bg=Background
+r2 c3..26 fg=Foreground bg=Background bold
+r2 c26..28 bg=Background
+r2 c28..43 fg=#9bd66f bg=Background
+r2 c43..48 fg=Danger bg=Background
+r2 c48..50 bg=Background
+r2 c50..58 fg=Muted bg=Background
+r2 c58..69 fg=Danger bg=Background
+r2 c69..71 bg=Background
+r2 c71..77 fg=Muted bg=Background
+r2 c77..79 bg=Background
+r2 c79..138 fg=#ff7a59 bg=Background
+r2 c138..140 bg=Background
+
+== light-truecolor
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c1..3 fg=#14763d
+r0 c3..26 fg=Foreground bold
+r0 c28..48 fg=#14763d
+r0 c50..58 fg=Muted
+r0 c71..77 fg=Muted
+r1 c1..3 fg=Danger
+r1 c3..26 fg=Foreground bold
+r1 c28..48 fg=Danger
+r1 c50..58 fg=Muted
+r1 c58..69 fg=Danger
+r1 c71..77 fg=Muted
+r1 c79..114 fg=Danger
+r2 c1..3 fg=#a94724
+r2 c3..26 fg=Foreground bold
+r2 c28..43 fg=#14763d
+r2 c43..48 fg=Danger
+r2 c50..58 fg=Muted
+r2 c58..69 fg=Danger
+r2 c71..77 fg=Muted
+r2 c79..138 fg=#a94724
+
+== dark-256
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..3 fg=idx113 bg=Background|DiffAddedTint
+r0 c3..26 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c26..28 bg=Background|DiffAddedTint
+r0 c28..48 fg=idx113 bg=Background|DiffAddedTint
+r0 c48..50 bg=Background|DiffAddedTint
+r0 c50..58 fg=Muted bg=Background|DiffAddedTint
+r0 c58..71 bg=Background|DiffAddedTint
+r0 c71..77 fg=Muted bg=Background|DiffAddedTint
+r0 c77..140 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..3 fg=Danger bg=Background|DiffAddedTint
+r1 c3..26 fg=Foreground bg=Background|DiffAddedTint bold
+r1 c26..28 bg=Background|DiffAddedTint
+r1 c28..48 fg=Danger bg=Background|DiffAddedTint
+r1 c48..50 bg=Background|DiffAddedTint
+r1 c50..58 fg=Muted bg=Background|DiffAddedTint
+r1 c58..69 fg=Danger bg=Background|DiffAddedTint
+r1 c69..71 bg=Background|DiffAddedTint
+r1 c71..77 fg=Muted bg=Background|DiffAddedTint
+r1 c77..79 bg=Background|DiffAddedTint
+r1 c79..114 fg=Danger bg=Background|DiffAddedTint
+r1 c114..140 bg=Background|DiffAddedTint
+r2 c0..1 bg=Background|DiffAddedTint
+r2 c1..3 fg=idx209 bg=Background|DiffAddedTint
+r2 c3..26 fg=Foreground bg=Background|DiffAddedTint bold
+r2 c26..28 bg=Background|DiffAddedTint
+r2 c28..43 fg=idx113 bg=Background|DiffAddedTint
+r2 c43..48 fg=Danger bg=Background|DiffAddedTint
+r2 c48..50 bg=Background|DiffAddedTint
+r2 c50..58 fg=Muted bg=Background|DiffAddedTint
+r2 c58..69 fg=Danger bg=Background|DiffAddedTint
+r2 c69..71 bg=Background|DiffAddedTint
+r2 c71..77 fg=Muted bg=Background|DiffAddedTint
+r2 c77..79 bg=Background|DiffAddedTint
+r2 c79..138 fg=idx209 bg=Background|DiffAddedTint
+r2 c138..140 bg=Background|DiffAddedTint
+
+== light-256
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c1..3 fg=Live
+r0 c3..26 fg=Foreground bold
+r0 c28..48 fg=Live
+r0 c50..58 fg=Muted|Hint|Dim
+r0 c71..77 fg=Muted|Hint|Dim
+r1 c1..3 fg=Danger
+r1 c3..26 fg=Foreground bold
+r1 c28..48 fg=Danger
+r1 c50..58 fg=Muted|Hint|Dim
+r1 c58..69 fg=Danger
+r1 c71..77 fg=Muted|Hint|Dim
+r1 c79..114 fg=Danger
+r2 c1..3 fg=idx130
+r2 c3..26 fg=Foreground bold
+r2 c28..43 fg=Live
+r2 c43..48 fg=Danger
+r2 c50..58 fg=Muted|Hint|Dim
+r2 c58..69 fg=Danger
+r2 c71..77 fg=Muted|Hint|Dim
+r2 c79..138 fg=idx130
+
+== ansi-16
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c1..3 fg=Live
+r0 c3..26 bold
+r0 c28..48 fg=Live
+r0 c50..58 dim
+r0 c71..77 dim
+r1 c1..3 fg=Danger
+r1 c3..26 bold
+r1 c28..48 fg=Danger
+r1 c50..58 dim
+r1 c58..69 fg=Danger
+r1 c71..77 dim
+r1 c79..114 fg=Danger
+r2 c1..3 fg=Attention
+r2 c3..26 bold
+r2 c28..43 fg=Live
+r2 c43..48 fg=Danger
+r2 c50..58 dim
+r2 c58..69 fg=Danger
+r2 c71..77 dim
+r2 c79..138 fg=Attention
+
+== unknown-ground
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c1..3 fg=Live
+r0 c3..26 bold
+r0 c28..48 fg=Live
+r0 c50..58 dim
+r0 c71..77 dim
+r1 c1..3 fg=Danger
+r1 c3..26 bold
+r1 c28..48 fg=Danger
+r1 c50..58 dim
+r1 c58..69 fg=Danger
+r1 c71..77 dim
+r1 c79..114 fg=Danger
+r2 c1..3 fg=Attention
+r2 c3..26 bold
+r2 c28..43 fg=Live
+r2 c43..48 fg=Danger
+r2 c50..58 dim
+r2 c58..69 fg=Danger
+r2 c71..77 dim
+r2 c79..138 fg=Attention
+
+== no-color
+ ✓ Inspect the files        ████████████████████  3/3 done             59s
+ ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
+ ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
+---
+r0 c3..26 bold
+r0 c50..58 dim
+r0 c71..77 dim
+r1 c3..26 bold
+r1 c50..58 dim
+r1 c71..77 dim
+r2 c3..26 bold
+r2 c50..58 dim
+r2 c71..77 dim
+
+== ascii
+ Y Inspect the files        ####################  3/3 done             59s
+ X Release-readiness audit  XXXXXXXXXXXXXXXXXXXX  0/2 done . 2 failed  355ms   Authorization failed: sign in again
+ * Port the fixture suite   ###############XXXXX  3/4 done . 1 failed  2m 14s  finished with gaps . Timed out waiting for the model...
+---
+r0 c3..26 bold
+r0 c50..58 dim
+r0 c71..77 dim
+r1 c3..26 bold
+r1 c50..58 dim
+r1 c71..77 dim
+r2 c3..26 bold
+r2 c50..58 dim
+r2 c71..77 dim

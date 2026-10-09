@@ -1,0 +1,81 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention bg=Background
+r0 c19..22 fg=Hint|Dim bg=Background
+r0 c22..25 fg=Muted bg=Background
+r0 c25..26 bg=Background
+r0 c26..28 fg=Primary bg=Background
+r0 c28..75 bg=Background
+r0 c75..80 fg=Hint|Dim bg=Background
+
+== dark-graphite
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention bg=Background
+r0 c19..22 fg=Hint|Dim bg=Background
+r0 c22..25 fg=Muted bg=Background
+r0 c25..26 bg=Background
+r0 c26..28 fg=Primary bg=Background
+r0 c28..75 bg=Background
+r0 c75..80 fg=Hint|Dim bg=Background
+
+== light-truecolor
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention
+r0 c19..22 fg=Hint|Dim
+r0 c22..25 fg=Muted
+r0 c26..28 fg=Primary
+r0 c75..80 fg=Hint|Dim
+
+== dark-256
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention bg=Background|DiffAddedTint
+r0 c19..22 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c22..25 fg=Muted bg=Background|DiffAddedTint
+r0 c25..26 bg=Background|DiffAddedTint
+r0 c26..28 fg=Primary bg=Background|DiffAddedTint
+r0 c28..75 bg=Background|DiffAddedTint
+r0 c75..80 fg=Hint|Dim bg=Background|DiffAddedTint
+
+== light-256
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention
+r0 c19..25 fg=Muted|Hint|Dim
+r0 c26..28 fg=Primary
+r0 c75..80 fg=Muted|Hint|Dim
+
+== ansi-16
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention
+r0 c19..25 dim
+r0 c26..28 fg=Primary
+r0 c75..80 dim
+
+== unknown-ground
+model not connected   ctx 0%                                               /help
+---
+r0 c0..19 fg=Attention
+r0 c19..25 dim
+r0 c26..28 fg=Primary
+r0 c75..80 dim
+
+== no-color
+model not connected   ctx 0%                                               /help
+---
+r0 c19..25 dim
+r0 c75..80 dim
+
+== ascii
+model not connected   ctx 0%                                               /help
+---
+r0 c19..25 dim
+r0 c75..80 dim

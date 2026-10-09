@@ -1,0 +1,303 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention bg=Surface
+r0 c31..51 bg=Surface
+r0 c51..52 fg=Border bg=Surface
+r1 c0..4 fg=Foreground bg=Surface
+r1 c4..18 fg=Foreground bg=Selected
+r1 c18..39 fg=Foreground bg=Surface
+r1 c39..51 bg=Surface
+r1 c51..52 fg=Live bg=Surface
+r2 c0..31 fg=Foreground bg=Surface
+r2 c31..51 bg=Surface
+r2 c51..52 fg=Live bg=Surface
+r3 c0..26 fg=Live bg=Surface
+r3 c26..51 bg=Surface
+r3 c51..52 fg=Live bg=Surface
+r4 c0..35 fg=Attention bg=Surface
+r4 c35..51 bg=Surface
+r4 c51..52 fg=Border bg=Surface
+r5 c0..21 fg=Primary bg=Surface underline
+r5 c21..51 bg=Surface
+r5 c51..52 fg=Border bg=Surface
+r6 c0..48 bg=Surface
+r6 c48..52 fg=Border bg=Surface
+r7 c0..48 bg=Surface
+r7 c48..49 fg=Border bg=Surface
+r7 c49..50 fg=Live bg=Surface bold
+r7 c50..52 fg=Border bg=Surface
+r8 c0..48 bg=Surface
+r8 c48..52 fg=Border bg=Surface
+
+== dark-graphite
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention bg=Surface
+r0 c31..51 bg=Surface
+r0 c51..52 fg=Border bg=Surface
+r1 c0..4 fg=Foreground bg=Surface
+r1 c4..18 fg=Foreground bg=Selected
+r1 c18..39 fg=Foreground bg=Surface
+r1 c39..51 bg=Surface
+r1 c51..52 fg=Live bg=Surface
+r2 c0..31 fg=Foreground bg=Surface
+r2 c31..51 bg=Surface
+r2 c51..52 fg=Live bg=Surface
+r3 c0..26 fg=Live bg=Surface
+r3 c26..51 bg=Surface
+r3 c51..52 fg=Live bg=Surface
+r4 c0..35 fg=Attention bg=Surface
+r4 c35..51 bg=Surface
+r4 c51..52 fg=Border bg=Surface
+r5 c0..21 fg=Primary bg=Surface underline
+r5 c21..51 bg=Surface
+r5 c51..52 fg=Border bg=Surface
+r6 c0..48 bg=Surface
+r6 c48..52 fg=Border bg=Surface
+r7 c0..48 bg=Surface
+r7 c48..49 fg=Border bg=Surface
+r7 c49..50 fg=Live bg=Surface bold
+r7 c50..52 fg=Border bg=Surface
+r8 c0..48 bg=Surface
+r8 c48..52 fg=Border bg=Surface
+
+== light-truecolor
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention bg=Surface
+r0 c31..51 bg=Surface
+r0 c51..52 fg=Border bg=Surface
+r1 c0..4 fg=Foreground bg=Surface
+r1 c4..18 fg=Foreground bg=Selected
+r1 c18..39 fg=Foreground bg=Surface
+r1 c39..51 bg=Surface
+r1 c51..52 fg=Live bg=Surface
+r2 c0..31 fg=Foreground bg=Surface
+r2 c31..51 bg=Surface
+r2 c51..52 fg=Live bg=Surface
+r3 c0..26 fg=Live bg=Surface
+r3 c26..51 bg=Surface
+r3 c51..52 fg=Live bg=Surface
+r4 c0..35 fg=Attention bg=Surface
+r4 c35..51 bg=Surface
+r4 c51..52 fg=Border bg=Surface
+r5 c0..21 fg=Primary bg=Surface underline
+r5 c21..51 bg=Surface
+r5 c51..52 fg=Border bg=Surface
+r6 c0..48 bg=Surface
+r6 c48..52 fg=Border bg=Surface
+r7 c0..48 bg=Surface
+r7 c48..49 fg=Border bg=Surface
+r7 c49..50 fg=Live bg=Surface bold
+r7 c50..52 fg=Border bg=Surface
+r8 c0..48 bg=Surface
+r8 c48..52 fg=Border bg=Surface
+
+== dark-256
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention bg=Surface|Hover
+r0 c31..51 bg=Surface|Hover
+r0 c51..52 fg=Border bg=Surface|Hover
+r1 c0..4 fg=Foreground bg=Surface|Hover
+r1 c4..18 fg=Foreground bg=Selected
+r1 c18..39 fg=Foreground bg=Surface|Hover
+r1 c39..51 bg=Surface|Hover
+r1 c51..52 fg=Live bg=Surface|Hover
+r2 c0..31 fg=Foreground bg=Surface|Hover
+r2 c31..51 bg=Surface|Hover
+r2 c51..52 fg=Live bg=Surface|Hover
+r3 c0..26 fg=Live bg=Surface|Hover
+r3 c26..51 bg=Surface|Hover
+r3 c51..52 fg=Live bg=Surface|Hover
+r4 c0..35 fg=Attention bg=Surface|Hover
+r4 c35..51 bg=Surface|Hover
+r4 c51..52 fg=Border bg=Surface|Hover
+r5 c0..21 fg=Primary bg=Surface|Hover underline
+r5 c21..51 bg=Surface|Hover
+r5 c51..52 fg=Border bg=Surface|Hover
+r6 c0..48 bg=Surface|Hover
+r6 c48..52 fg=Border bg=Surface|Hover
+r7 c0..48 bg=Surface|Hover
+r7 c48..49 fg=Border bg=Surface|Hover
+r7 c49..50 fg=Live bg=Surface|Hover bold
+r7 c50..52 fg=Border bg=Surface|Hover
+r8 c0..48 bg=Surface|Hover
+r8 c48..52 fg=Border bg=Surface|Hover
+
+== light-256
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention bg=Background|Surface
+r0 c31..51 bg=Background|Surface
+r0 c51..52 fg=Border bg=Background|Surface
+r1 c0..4 fg=Foreground bg=Background|Surface
+r1 c4..18 fg=Foreground bg=Selected
+r1 c18..39 fg=Foreground bg=Background|Surface
+r1 c39..51 bg=Background|Surface
+r1 c51..52 fg=Live bg=Background|Surface
+r2 c0..31 fg=Foreground bg=Background|Surface
+r2 c31..51 bg=Background|Surface
+r2 c51..52 fg=Live bg=Background|Surface
+r3 c0..26 fg=Live bg=Background|Surface
+r3 c26..51 bg=Background|Surface
+r3 c51..52 fg=Live bg=Background|Surface
+r4 c0..35 fg=Attention bg=Background|Surface
+r4 c35..51 bg=Background|Surface
+r4 c51..52 fg=Border bg=Background|Surface
+r5 c0..21 fg=Primary bg=Background|Surface underline
+r5 c21..51 bg=Background|Surface
+r5 c51..52 fg=Border bg=Background|Surface
+r6 c0..48 bg=Background|Surface
+r6 c48..52 fg=Border bg=Background|Surface
+r7 c0..48 bg=Background|Surface
+r7 c48..49 fg=Border bg=Background|Surface
+r7 c49..50 fg=Live bg=Background|Surface bold
+r7 c50..52 fg=Border bg=Background|Surface
+r8 c0..48 bg=Background|Surface
+r8 c48..52 fg=Border bg=Background|Surface
+
+== ansi-16
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention
+r0 c51..52 dim
+r1 c4..18 reversed
+r1 c51..52 fg=Live
+r2 c51..52 fg=Live
+r3 c0..26 fg=Live
+r3 c51..52 fg=Live
+r4 c0..35 fg=Attention
+r4 c51..52 dim
+r5 c0..21 fg=Primary underline
+r5 c51..52 dim
+r6 c48..52 dim
+r7 c48..49 dim
+r7 c49..50 fg=Live bold
+r7 c50..52 dim
+r8 c48..52 dim
+
+== unknown-ground
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c0..31 fg=Attention
+r0 c51..52 dim
+r1 c4..18 reversed
+r1 c51..52 fg=Live
+r2 c51..52 fg=Live
+r3 c0..26 fg=Live
+r3 c51..52 fg=Live
+r4 c0..35 fg=Attention
+r4 c51..52 dim
+r5 c0..21 fg=Primary underline
+r5 c51..52 dim
+r6 c48..52 dim
+r7 c48..49 dim
+r7 c49..50 fg=Live bold
+r7 c50..52 dim
+r8 c48..52 dim
+
+== no-color
+User: Review the changed source                    │
+The selected words retain their source.            ┃
+A composed café draft with 鲸鱼                    ┃
+let source = exact_source;                         ┃
+Keep the permission receipt visible                │
+Read the linked guide                              │
+                                                ╭─╮│
+                                                │↓││
+                                                ╰─╯│
+---
+r0 c51..52 dim
+r1 c4..18 reversed
+r4 c51..52 dim
+r5 c0..21 underline
+r5 c51..52 dim
+r6 c48..52 dim
+r7 c48..49 dim
+r7 c49..50 bold
+r7 c50..52 dim
+r8 c48..52 dim
+
+== ascii
+User: Review the changed source                    |
+The selected words retain their source.            |
+A composed cafe draft                              |
+let source = exact_source;                         |
+Keep the permission receipt visible                |
+Read the linked guide                              |
+                                                +-+|
+                                                |v||
+                                                +-+|
+---
+r0 c51..52 dim
+r1 c4..18 reversed
+r4 c51..52 dim
+r5 c0..21 underline
+r5 c51..52 dim
+r6 c48..52 dim
+r7 c48..49 dim
+r7 c49..50 bold
+r7 c50..52 dim
+r8 c48..52 dim

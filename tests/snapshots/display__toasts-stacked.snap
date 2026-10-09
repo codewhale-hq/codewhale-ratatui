@@ -1,0 +1,135 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x5
+
+                                +3 more
+               ✓ Theme set to Shoreline
+     ◆ A command is waiting for your… →
+   ✕ Could not save: the settings file…
+---
+r0 c0..40 bg=Background
+r1 c0..31 bg=Background
+r1 c31..40 fg=Muted bg=Surface
+r2 c0..14 bg=Background
+r2 c14..15 bg=Surface
+r2 c15..16 fg=Live bg=Surface
+r2 c16..17 bg=Surface
+r2 c17..39 fg=Foreground bg=Surface
+r2 c39..40 bg=Surface
+r3 c0..4 bg=Background
+r3 c4..5 bg=Surface
+r3 c5..6 fg=Attention bg=Surface
+r3 c6..7 bg=Surface
+r3 c7..37 fg=Foreground bg=Surface
+r3 c37..39 fg=Muted bg=Surface
+r3 c39..40 bg=Surface
+r4 c0..2 bg=Background
+r4 c2..3 bg=Surface
+r4 c3..4 fg=Danger bg=Surface
+r4 c4..5 bg=Surface
+r4 c5..39 fg=Foreground bg=Surface
+r4 c39..40 bg=Surface
+
+== dark-truecolor · 80x5
+
+                                                                        +3 more
+                                                       ✓ Theme set to Shoreline
+                                     ◆ A command is waiting for your approval →
+                               ✕ Could not save: the settings file is read-only
+---
+r0 c0..80 bg=Background
+r1 c0..71 bg=Background
+r1 c71..80 fg=Muted bg=Surface
+r2 c0..54 bg=Background
+r2 c54..55 bg=Surface
+r2 c55..56 fg=Live bg=Surface
+r2 c56..57 bg=Surface
+r2 c57..79 fg=Foreground bg=Surface
+r2 c79..80 bg=Surface
+r3 c0..36 bg=Background
+r3 c36..37 bg=Surface
+r3 c37..38 fg=Attention bg=Surface
+r3 c38..39 bg=Surface
+r3 c39..77 fg=Foreground bg=Surface
+r3 c77..79 fg=Muted bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..30 bg=Background
+r4 c30..31 bg=Surface
+r4 c31..32 fg=Danger bg=Surface
+r4 c32..33 bg=Surface
+r4 c33..79 fg=Foreground bg=Surface
+r4 c79..80 bg=Surface
+
+== dark-truecolor · 120x5
+
+                                                                                                                +3 more
+                                                                                               ✓ Theme set to Shoreline
+                                                                             ◆ A command is waiting for your approval →
+                                                                       ✕ Could not save: the settings file is read-only
+---
+r0 c0..120 bg=Background
+r1 c0..111 bg=Background
+r1 c111..120 fg=Muted bg=Surface
+r2 c0..94 bg=Background
+r2 c94..95 bg=Surface
+r2 c95..96 fg=Live bg=Surface
+r2 c96..97 bg=Surface
+r2 c97..119 fg=Foreground bg=Surface
+r2 c119..120 bg=Surface
+r3 c0..76 bg=Background
+r3 c76..77 bg=Surface
+r3 c77..78 fg=Attention bg=Surface
+r3 c78..79 bg=Surface
+r3 c79..117 fg=Foreground bg=Surface
+r3 c117..119 fg=Muted bg=Surface
+r3 c119..120 bg=Surface
+r4 c0..70 bg=Background
+r4 c70..71 bg=Surface
+r4 c71..72 fg=Danger bg=Surface
+r4 c72..73 bg=Surface
+r4 c73..119 fg=Foreground bg=Surface
+r4 c119..120 bg=Surface
+
+== no-color · 40x5
+
+                                +3 more
+               ✓ Theme set to Shoreline
+     ◆ A command is waiting for your… →
+   ✕ Could not save: the settings file…
+
+== no-color · 80x5
+
+                                                                        +3 more
+                                                       ✓ Theme set to Shoreline
+                                     ◆ A command is waiting for your approval →
+                               ✕ Could not save: the settings file is read-only
+
+== no-color · 120x5
+
+                                                                                                                +3 more
+                                                                                               ✓ Theme set to Shoreline
+                                                                             ◆ A command is waiting for your approval →
+                                                                       ✕ Could not save: the settings file is read-only
+
+== ascii · 40x5
+
+                                +3 more
+               Y Theme set to Shoreline
+   * A command is waiting for your... >
+      X Could not save: the settings...
+
+== ascii · 80x5
+
+                                                                        +3 more
+                                                       Y Theme set to Shoreline
+                                     * A command is waiting for your approval >
+                               X Could not save: the settings file is read-only
+
+== ascii · 120x5
+
+                                                                                                                +3 more
+                                                                                               Y Theme set to Shoreline
+                                                                             * A command is waiting for your approval >
+                                                                       X Could not save: the settings file is read-only

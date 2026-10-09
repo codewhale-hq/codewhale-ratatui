@@ -1,0 +1,262 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..1 fg=Primary bg=Surface
+r0 c1..16 fg=Muted bg=Surface
+r0 c16..63 fg=Primary bg=Surface
+r0 c63..71 fg=Attention bg=Surface bold
+r0 c71..72 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..71 bg=Surface
+r1 c71..72 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..23 fg=Muted bg=Surface
+r2 c23..71 bg=Surface
+r2 c71..72 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..22 fg=Foreground bg=Surface
+r3 c22..71 bg=Surface
+r3 c71..72 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..71 bg=Surface
+r4 c71..72 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..67 bg=Surface
+r5 c67..70 fg=Primary bg=Surface bold
+r5 c70..71 bg=Surface
+r5 c71..72 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..32 fg=Muted bg=Surface
+r6 c32..72 fg=Primary bg=Surface
+
+== dark-graphite
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..1 fg=Primary bg=Surface
+r0 c1..16 fg=Muted bg=Surface
+r0 c16..63 fg=Primary bg=Surface
+r0 c63..71 fg=Attention bg=Surface bold
+r0 c71..72 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..71 bg=Surface
+r1 c71..72 fg=Primary bg=Surface
+r2 c0..1 fg=Primary bg=Surface
+r2 c1..23 fg=Muted bg=Surface
+r2 c23..71 bg=Surface
+r2 c71..72 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..22 fg=Foreground bg=Surface
+r3 c22..71 bg=Surface
+r3 c71..72 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..71 bg=Surface
+r4 c71..72 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..67 bg=Surface
+r5 c67..70 fg=Primary bg=Surface bold
+r5 c70..71 bg=Surface
+r5 c71..72 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..32 fg=Muted bg=Surface
+r6 c32..72 fg=Primary bg=Surface
+
+== light-truecolor
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..1 fg=Primary
+r0 c1..16 fg=Muted
+r0 c16..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..1 fg=Primary
+r2 c1..23 fg=Muted
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c1..22 fg=Foreground
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c67..70 fg=Primary bold
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c1..32 fg=Muted
+r6 c32..72 fg=Primary
+
+== dark-256
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c1..16 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r0 c16..63 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c63..71 fg=Attention bg=Surface|Hover|DiffRemovedTint bold
+r0 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r1 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c1..71 bg=Surface|Hover|DiffRemovedTint
+r1 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c1..23 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r2 c23..71 bg=Surface|Hover|DiffRemovedTint
+r2 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c1..22 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r3 c22..71 bg=Surface|Hover|DiffRemovedTint
+r3 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c1..71 bg=Surface|Hover|DiffRemovedTint
+r4 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c1..67 bg=Surface|Hover|DiffRemovedTint
+r5 c67..70 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r5 c70..71 bg=Surface|Hover|DiffRemovedTint
+r5 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c1..32 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r6 c32..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+
+== light-256
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..1 fg=Primary
+r0 c1..16 fg=Muted|Hint|Dim
+r0 c16..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..1 fg=Primary
+r2 c1..23 fg=Muted|Hint|Dim
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c1..22 fg=Foreground
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c67..70 fg=Primary bold
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c1..32 fg=Muted|Hint|Dim
+r6 c32..72 fg=Primary
+
+== ansi-16
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..16 fg=Primary dim
+r0 c16..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..1 fg=Primary
+r2 c1..23 dim
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c67..70 fg=Primary bold
+r5 c71..72 fg=Primary
+r6 c0..32 fg=Primary dim
+r6 c32..72 fg=Primary
+
+== unknown-ground
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..16 fg=Primary dim
+r0 c16..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..1 fg=Primary
+r2 c1..23 dim
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c67..70 fg=Primary bold
+r5 c71..72 fg=Primary
+r6 c0..32 fg=Primary dim
+r6 c32..72 fg=Primary
+
+== no-color
+╭Search history ─────────────────────────────────────────────── Builder╮
+│                                                                      │
+│Write a task or use /.                                                │
+│▸ Review this project                                                 │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..16 dim
+r0 c63..72 bold
+r2 c1..23 dim
+r5 c67..70 bold
+r6 c0..32 dim
+
+== ascii
++Search history ----------------------------------------------- Builder+
+|                                                                      |
+|Write a task or use /.                                                |
+|> Review this project                                                 |
+|                                                                      |
+|                                                                  [>] |
++Enter chooses; Esc closes menu ---------------------------------------+
+---
+r0 c0..16 dim
+r0 c63..72 bold
+r2 c1..23 dim
+r5 c67..70 bold
+r6 c0..32 dim

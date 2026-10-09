@@ -1,0 +1,144 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(8, paint_picker_no_match)"
+---
+== dark-truecolor · 40x8
+› zebra
+
+
+        ○ No matches for “zebra”
+      Edit the search to see more
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..8 bg=Background reversed
+r0 c8..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..8 bg=Background
+r3 c8..10 fg=Muted bg=Background
+r3 c10..32 fg=Foreground bg=Background bold
+r3 c32..40 bg=Background
+r4 c0..6 bg=Background
+r4 c6..33 fg=Primary bg=Background
+r4 c33..40 bg=Background
+r5 c0..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+
+== dark-truecolor · 80x8
+› zebra
+
+
+                            ○ No matches for “zebra”
+                          Edit the search to see more
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..8 bg=Background reversed
+r0 c8..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..28 bg=Background
+r3 c28..30 fg=Muted bg=Background
+r3 c30..52 fg=Foreground bg=Background bold
+r3 c52..80 bg=Background
+r4 c0..26 bg=Background
+r4 c26..53 fg=Primary bg=Background
+r4 c53..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+
+== dark-truecolor · 120x8
+› zebra
+
+
+                                                ○ No matches for “zebra”
+                                              Edit the search to see more
+
+
+
+---
+r0 c0..1 fg=Primary bg=Background
+r0 c1..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..8 bg=Background reversed
+r0 c8..120 bg=Background
+r1 c0..120 bg=Background
+r2 c0..120 bg=Background
+r3 c0..48 bg=Background
+r3 c48..50 fg=Muted bg=Background
+r3 c50..72 fg=Foreground bg=Background bold
+r3 c72..120 bg=Background
+r4 c0..46 bg=Background
+r4 c46..73 fg=Primary bg=Background
+r4 c73..120 bg=Background
+r5 c0..120 bg=Background
+r6 c0..120 bg=Background
+r7 c0..120 bg=Background
+
+== no-color · 40x8
+› zebra
+
+
+        ○ No matches for “zebra”
+      Edit the search to see more
+
+
+
+
+== no-color · 80x8
+› zebra
+
+
+                            ○ No matches for “zebra”
+                          Edit the search to see more
+
+
+
+
+== no-color · 120x8
+› zebra
+
+
+                                                ○ No matches for “zebra”
+                                              Edit the search to see more
+
+
+
+
+== ascii · 40x8
+/ zebra
+
+
+        o No matches for "zebra"
+      Edit the search to see more
+
+
+
+
+== ascii · 80x8
+/ zebra
+
+
+                            o No matches for "zebra"
+                          Edit the search to see more
+
+
+
+
+== ascii · 120x8
+/ zebra
+
+
+                                                o No matches for "zebra"
+                                              Edit the search to see more

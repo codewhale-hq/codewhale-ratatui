@@ -1,0 +1,677 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background
+r1 c0..1 bg=Background
+r1 c1..21 fg=Primary bg=Background bold
+r1 c21..112 fg=Border bg=Background
+r1 c112..130 fg=Primary bg=Background underline
+r1 c130..131 fg=Border bg=Background
+r1 c131..132 bg=Background
+r2 c0..132 bg=Background
+r3 c0..2 bg=Background
+r3 c2..20 fg=Muted bg=Background
+r3 c20..132 bg=Background
+r4 c0..2 bg=Background
+r4 c2..22 fg=Foreground bg=Background
+r4 c22..100 bg=Background
+r4 c100..111 fg=Muted bg=Background
+r4 c111..132 bg=Background
+r5 c0..2 bg=Background
+r5 c2..54 fg=Muted bg=Background
+r5 c54..102 bg=Background
+r5 c102..105 fg=Foreground bg=Background
+r5 c105..132 bg=Background
+r6 c0..2 bg=Background
+r6 c2..3 fg=Primary bg=Selected
+r6 c3..4 bg=Selected
+r6 c4..53 fg=Foreground bg=Selected bold
+r6 c53..99 bg=Selected
+r6 c99..102 bg=Background
+r6 c102..108 fg=Foreground bg=Background
+r6 c108..132 bg=Background
+r7 c0..4 bg=Background
+r7 c4..52 fg=Foreground bg=Background
+r7 c52..100 bg=Background
+r7 c100..101 fg=Primary bg=Selected
+r7 c101..102 bg=Selected
+r7 c102..106 fg=Foreground bg=Selected bold
+r7 c106..130 bg=Selected
+r7 c130..132 bg=Background
+r8 c0..4 bg=Background
+r8 c4..52 fg=Foreground bg=Background
+r8 c52..132 bg=Background
+r9 c0..132 bg=Background
+r10 c0..132 bg=Background
+r11 c0..132 bg=Background
+r12 c0..132 bg=Background
+r13 c0..132 bg=Background
+r14 c0..132 bg=Background
+r15 c0..132 bg=Background
+r16 c0..132 bg=Background
+r17 c0..132 bg=Background
+r18 c0..132 bg=Background
+r19 c0..132 bg=Background
+r20 c0..132 bg=Background
+r21 c0..132 bg=Background
+r22 c0..132 bg=Background
+r23 c0..132 bg=Background
+r24 c0..132 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..11 fg=Muted bg=Background
+r25 c11..12 bg=Background
+r25 c12..17 fg=Primary bg=Background bold
+r25 c17..23 fg=Muted bg=Background
+r25 c23..24 bg=Background
+r25 c24..30 fg=Primary bg=Background bold
+r25 c30..46 fg=Muted bg=Background
+r25 c46..47 bg=Background
+r25 c47..54 fg=Primary bg=Background bold
+r25 c54..59 fg=Muted bg=Background
+r25 c59..60 bg=Background
+r25 c60..64 fg=Primary bg=Background bold
+r25 c64..78 fg=Muted bg=Background
+r25 c78..79 bg=Background
+r25 c79..84 fg=Primary bg=Background bold
+r25 c84..90 fg=Muted bg=Background
+r25 c90..132 bg=Background
+r26 c0..1 bg=Background
+r26 c1..131 fg=Border bg=Background
+r26 c131..132 bg=Background
+r27 c0..132 bg=Background
+
+== dark-graphite
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background
+r1 c0..1 bg=Background
+r1 c1..21 fg=Primary bg=Background bold
+r1 c21..112 fg=Border bg=Background
+r1 c112..130 fg=Primary bg=Background underline
+r1 c130..131 fg=Border bg=Background
+r1 c131..132 bg=Background
+r2 c0..132 bg=Background
+r3 c0..2 bg=Background
+r3 c2..20 fg=Muted bg=Background
+r3 c20..132 bg=Background
+r4 c0..2 bg=Background
+r4 c2..22 fg=Foreground bg=Background
+r4 c22..100 bg=Background
+r4 c100..111 fg=Muted bg=Background
+r4 c111..132 bg=Background
+r5 c0..2 bg=Background
+r5 c2..54 fg=Muted bg=Background
+r5 c54..102 bg=Background
+r5 c102..105 fg=Foreground bg=Background
+r5 c105..132 bg=Background
+r6 c0..2 bg=Background
+r6 c2..3 fg=Primary bg=Selected
+r6 c3..4 bg=Selected
+r6 c4..53 fg=Foreground bg=Selected bold
+r6 c53..99 bg=Selected
+r6 c99..102 bg=Background
+r6 c102..108 fg=Foreground bg=Background
+r6 c108..132 bg=Background
+r7 c0..4 bg=Background
+r7 c4..52 fg=Foreground bg=Background
+r7 c52..100 bg=Background
+r7 c100..101 fg=Primary bg=Selected
+r7 c101..102 bg=Selected
+r7 c102..106 fg=Foreground bg=Selected bold
+r7 c106..130 bg=Selected
+r7 c130..132 bg=Background
+r8 c0..4 bg=Background
+r8 c4..52 fg=Foreground bg=Background
+r8 c52..132 bg=Background
+r9 c0..132 bg=Background
+r10 c0..132 bg=Background
+r11 c0..132 bg=Background
+r12 c0..132 bg=Background
+r13 c0..132 bg=Background
+r14 c0..132 bg=Background
+r15 c0..132 bg=Background
+r16 c0..132 bg=Background
+r17 c0..132 bg=Background
+r18 c0..132 bg=Background
+r19 c0..132 bg=Background
+r20 c0..132 bg=Background
+r21 c0..132 bg=Background
+r22 c0..132 bg=Background
+r23 c0..132 bg=Background
+r24 c0..132 bg=Background
+r25 c0..2 bg=Background
+r25 c2..7 fg=Primary bg=Background bold
+r25 c7..11 fg=Muted bg=Background
+r25 c11..12 bg=Background
+r25 c12..17 fg=Primary bg=Background bold
+r25 c17..23 fg=Muted bg=Background
+r25 c23..24 bg=Background
+r25 c24..30 fg=Primary bg=Background bold
+r25 c30..46 fg=Muted bg=Background
+r25 c46..47 bg=Background
+r25 c47..54 fg=Primary bg=Background bold
+r25 c54..59 fg=Muted bg=Background
+r25 c59..60 bg=Background
+r25 c60..64 fg=Primary bg=Background bold
+r25 c64..78 fg=Muted bg=Background
+r25 c78..79 bg=Background
+r25 c79..84 fg=Primary bg=Background bold
+r25 c84..90 fg=Muted bg=Background
+r25 c90..132 bg=Background
+r26 c0..1 bg=Background
+r26 c1..131 fg=Border bg=Background
+r26 c131..132 bg=Background
+r27 c0..132 bg=Background
+
+== light-truecolor
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..21 fg=Primary bold
+r1 c21..112 fg=Border
+r1 c112..130 fg=Primary underline
+r1 c130..131 fg=Border
+r3 c2..20 fg=Muted
+r4 c2..22 fg=Foreground
+r4 c100..111 fg=Muted
+r5 c2..54 fg=Muted
+r5 c102..105 fg=Foreground
+r6 c2..3 fg=Primary bg=Selected
+r6 c3..4 bg=Selected
+r6 c4..53 fg=Foreground bg=Selected bold
+r6 c53..99 bg=Selected
+r6 c102..108 fg=Foreground
+r7 c4..52 fg=Foreground
+r7 c100..101 fg=Primary bg=Selected
+r7 c101..102 bg=Selected
+r7 c102..106 fg=Foreground bg=Selected bold
+r7 c106..130 bg=Selected
+r8 c4..52 fg=Foreground
+r25 c2..7 fg=Primary bold
+r25 c7..11 fg=Muted
+r25 c12..17 fg=Primary bold
+r25 c17..23 fg=Muted
+r25 c24..30 fg=Primary bold
+r25 c30..46 fg=Muted
+r25 c47..54 fg=Primary bold
+r25 c54..59 fg=Muted
+r25 c60..64 fg=Primary bold
+r25 c64..78 fg=Muted
+r25 c79..84 fg=Primary bold
+r25 c84..90 fg=Muted
+r26 c1..131 fg=Border
+
+== dark-256
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r0 c0..132 bg=Background|DiffAddedTint
+r1 c0..1 bg=Background|DiffAddedTint
+r1 c1..21 fg=Primary bg=Background|DiffAddedTint bold
+r1 c21..112 fg=Border bg=Background|DiffAddedTint
+r1 c112..130 fg=Primary bg=Background|DiffAddedTint underline
+r1 c130..131 fg=Border bg=Background|DiffAddedTint
+r1 c131..132 bg=Background|DiffAddedTint
+r2 c0..132 bg=Background|DiffAddedTint
+r3 c0..2 bg=Background|DiffAddedTint
+r3 c2..20 fg=Muted bg=Background|DiffAddedTint
+r3 c20..132 bg=Background|DiffAddedTint
+r4 c0..2 bg=Background|DiffAddedTint
+r4 c2..22 fg=Foreground bg=Background|DiffAddedTint
+r4 c22..100 bg=Background|DiffAddedTint
+r4 c100..111 fg=Muted bg=Background|DiffAddedTint
+r4 c111..132 bg=Background|DiffAddedTint
+r5 c0..2 bg=Background|DiffAddedTint
+r5 c2..54 fg=Muted bg=Background|DiffAddedTint
+r5 c54..102 bg=Background|DiffAddedTint
+r5 c102..105 fg=Foreground bg=Background|DiffAddedTint
+r5 c105..132 bg=Background|DiffAddedTint
+r6 c0..2 bg=Background|DiffAddedTint
+r6 c2..3 fg=Primary bg=Selected
+r6 c3..4 bg=Selected
+r6 c4..53 fg=Foreground bg=Selected bold
+r6 c53..99 bg=Selected
+r6 c99..102 bg=Background|DiffAddedTint
+r6 c102..108 fg=Foreground bg=Background|DiffAddedTint
+r6 c108..132 bg=Background|DiffAddedTint
+r7 c0..4 bg=Background|DiffAddedTint
+r7 c4..52 fg=Foreground bg=Background|DiffAddedTint
+r7 c52..100 bg=Background|DiffAddedTint
+r7 c100..101 fg=Primary bg=Selected
+r7 c101..102 bg=Selected
+r7 c102..106 fg=Foreground bg=Selected bold
+r7 c106..130 bg=Selected
+r7 c130..132 bg=Background|DiffAddedTint
+r8 c0..4 bg=Background|DiffAddedTint
+r8 c4..52 fg=Foreground bg=Background|DiffAddedTint
+r8 c52..132 bg=Background|DiffAddedTint
+r9 c0..132 bg=Background|DiffAddedTint
+r10 c0..132 bg=Background|DiffAddedTint
+r11 c0..132 bg=Background|DiffAddedTint
+r12 c0..132 bg=Background|DiffAddedTint
+r13 c0..132 bg=Background|DiffAddedTint
+r14 c0..132 bg=Background|DiffAddedTint
+r15 c0..132 bg=Background|DiffAddedTint
+r16 c0..132 bg=Background|DiffAddedTint
+r17 c0..132 bg=Background|DiffAddedTint
+r18 c0..132 bg=Background|DiffAddedTint
+r19 c0..132 bg=Background|DiffAddedTint
+r20 c0..132 bg=Background|DiffAddedTint
+r21 c0..132 bg=Background|DiffAddedTint
+r22 c0..132 bg=Background|DiffAddedTint
+r23 c0..132 bg=Background|DiffAddedTint
+r24 c0..132 bg=Background|DiffAddedTint
+r25 c0..2 bg=Background|DiffAddedTint
+r25 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r25 c7..11 fg=Muted bg=Background|DiffAddedTint
+r25 c11..12 bg=Background|DiffAddedTint
+r25 c12..17 fg=Primary bg=Background|DiffAddedTint bold
+r25 c17..23 fg=Muted bg=Background|DiffAddedTint
+r25 c23..24 bg=Background|DiffAddedTint
+r25 c24..30 fg=Primary bg=Background|DiffAddedTint bold
+r25 c30..46 fg=Muted bg=Background|DiffAddedTint
+r25 c46..47 bg=Background|DiffAddedTint
+r25 c47..54 fg=Primary bg=Background|DiffAddedTint bold
+r25 c54..59 fg=Muted bg=Background|DiffAddedTint
+r25 c59..60 bg=Background|DiffAddedTint
+r25 c60..64 fg=Primary bg=Background|DiffAddedTint bold
+r25 c64..78 fg=Muted bg=Background|DiffAddedTint
+r25 c78..79 bg=Background|DiffAddedTint
+r25 c79..84 fg=Primary bg=Background|DiffAddedTint bold
+r25 c84..90 fg=Muted bg=Background|DiffAddedTint
+r25 c90..132 bg=Background|DiffAddedTint
+r26 c0..1 bg=Background|DiffAddedTint
+r26 c1..131 fg=Border bg=Background|DiffAddedTint
+r26 c131..132 bg=Background|DiffAddedTint
+r27 c0..132 bg=Background|DiffAddedTint
+
+== light-256
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..21 fg=Primary bold
+r1 c21..112 fg=Border
+r1 c112..130 fg=Primary underline
+r1 c130..131 fg=Border
+r3 c2..20 fg=Muted|Hint|Dim
+r4 c2..22 fg=Foreground
+r4 c100..111 fg=Muted|Hint|Dim
+r5 c2..54 fg=Muted|Hint|Dim
+r5 c102..105 fg=Foreground
+r6 c2..3 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c3..4 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c4..53 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r6 c53..99 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c102..108 fg=Foreground
+r7 c4..52 fg=Foreground
+r7 c100..101 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c102..106 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r7 c106..130 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c4..52 fg=Foreground
+r25 c2..7 fg=Primary bold
+r25 c7..11 fg=Muted|Hint|Dim
+r25 c12..17 fg=Primary bold
+r25 c17..23 fg=Muted|Hint|Dim
+r25 c24..30 fg=Primary bold
+r25 c30..46 fg=Muted|Hint|Dim
+r25 c47..54 fg=Primary bold
+r25 c54..59 fg=Muted|Hint|Dim
+r25 c60..64 fg=Primary bold
+r25 c64..78 fg=Muted|Hint|Dim
+r25 c79..84 fg=Primary bold
+r25 c84..90 fg=Muted|Hint|Dim
+r26 c1..131 fg=Border
+
+== ansi-16
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..21 fg=Primary bold dim
+r1 c21..112 dim
+r1 c112..130 fg=Primary dim underline
+r1 c130..131 dim
+r3 c2..20 dim
+r4 c100..111 dim
+r5 c2..54 dim
+r6 c2..3 fg=Primary
+r6 c4..53 bold
+r7 c100..101 fg=Primary
+r7 c102..106 bold
+r25 c2..7 fg=Primary bold
+r25 c7..11 dim
+r25 c12..17 fg=Primary bold
+r25 c17..23 dim
+r25 c24..30 fg=Primary bold
+r25 c30..46 dim
+r25 c47..54 fg=Primary bold
+r25 c54..59 dim
+r25 c60..64 fg=Primary bold
+r25 c64..78 dim
+r25 c79..84 fg=Primary bold
+r25 c84..90 dim
+r26 c1..131 dim
+
+== unknown-ground
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..21 fg=Primary bold dim
+r1 c21..112 dim
+r1 c112..130 fg=Primary dim underline
+r1 c130..131 dim
+r3 c2..20 dim
+r4 c100..111 dim
+r5 c2..54 dim
+r6 c2..3 fg=Primary
+r6 c4..53 bold
+r7 c100..101 fg=Primary
+r7 c102..106 bold
+r25 c2..7 fg=Primary bold
+r25 c7..11 dim
+r25 c12..17 fg=Primary bold
+r25 c17..23 dim
+r25 c24..30 fg=Primary bold
+r25 c30..46 dim
+r25 c47..54 fg=Primary bold
+r25 c54..59 dim
+r25 c60..64 fg=Primary bold
+r25 c64..78 dim
+r25 c79..84 fg=Primary bold
+r25 c84..90 dim
+r26 c1..131 dim
+
+== no-color
+
+  route · configured ───────────────────────────────────────────────────────────────────────────────────────────browse catalog (3)─
+
+  Provider: DeepSeek
+    Model · configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  ▸ deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                ▸ high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ↑/↓ move  Tab switch  Type search any model  Enter apply  ⇧A browse catalog  Esc cancel
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+---
+r1 c1..21 bold dim
+r1 c21..112 dim
+r1 c112..130 dim underline
+r1 c130..131 dim
+r3 c2..20 dim
+r4 c100..111 dim
+r5 c2..54 dim
+r6 c4..53 bold
+r7 c102..106 bold
+r25 c2..7 bold
+r25 c7..11 dim
+r25 c12..17 bold
+r25 c17..23 dim
+r25 c24..30 bold
+r25 c30..46 dim
+r25 c47..54 bold
+r25 c54..59 dim
+r25 c60..64 bold
+r25 c64..78 dim
+r25 c79..84 bold
+r25 c84..90 dim
+r26 c1..131 dim
+
+== ascii
+
+  route . configured -------------------------------------------------------------------------------------------browse catalog (3)-
+
+  Provider: DeepSeek
+    Model . configured                                                                                Reasoning
+    Model                     Provider         Details                                                low
+  > deepseek-v4               DeepSeek         active                                                 medium
+    deepseek-v4-flash         DeepSeek         saved                                                > high
+    qwen3.5:35b               Ollama           local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Up/Dn move  Tab switch  Type search any model  Enter apply  Shift+A browse catalog  Esc cancel
+ ----------------------------------------------------------------------------------------------------------------------------------
+
+---
+r1 c1..21 bold dim
+r1 c21..112 dim
+r1 c112..130 dim underline
+r1 c130..131 dim
+r3 c2..20 dim
+r4 c100..111 dim
+r5 c2..54 dim
+r6 c4..53 bold
+r7 c102..106 bold
+r25 c2..9 bold
+r25 c9..13 dim
+r25 c14..19 bold
+r25 c19..25 dim
+r25 c26..32 bold
+r25 c32..48 dim
+r25 c49..56 bold
+r25 c56..61 dim
+r25 c62..71 bold
+r25 c71..85 dim
+r25 c86..91 bold
+r25 c91..97 dim
+r26 c1..131 dim

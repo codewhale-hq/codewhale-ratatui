@@ -1,0 +1,120 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
+
+== dark-graphite
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
+
+== light-truecolor
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=#3c6252 bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
+
+== dark-256
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Primary bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
+
+== light-256
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=Live bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..6 fg=Foreground bg=Background|Surface
+r0 c6..40 bg=Background|Surface
+r1 c0..22 bg=Background|Surface
+r1 c22..23 fg=Primary bg=Background|Surface
+r1 c23..24 bg=Background|Surface
+r1 c24..32 fg=Foreground bg=Background|Surface
+r1 c32..40 bg=Background|Surface
+r2 c0..16 fg=Muted bg=Background|Surface
+r2 c16..40 bg=Background|Surface
+
+== ansi-16
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=Live
+r1 c22..23 fg=Primary
+r2 c0..16 dim
+
+== unknown-ground
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=Live
+r1 c22..23 fg=Primary
+r2 c0..16 dim
+
+== no-color
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r2 c0..16 dim
+
+== ascii
+Y Done
+                      > Selected
+patch applied to
+---
+r2 c0..16 dim

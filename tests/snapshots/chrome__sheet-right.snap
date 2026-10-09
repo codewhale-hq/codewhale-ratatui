@@ -1,0 +1,288 @@
+---
+source: tests/chrome.rs
+expression: "testing :: snapshot(12, sheet_right)"
+---
+== dark-truecolor · 40x12
+Edited sum Agents             2 running
+Edited sum
+Edited sum reviewer is reading the diff
+Edited sum builder is editing tabs.rs
+Edited sum
+Edited sum
+Edited sum
+Edited sum
+Edited sum
+Edited sum
+Edited sum
+Edited sum
+---
+r0 c0..10 fg=Muted bg=Background
+r0 c10..11 bg=Surface
+r0 c11..17 fg=Foreground bg=Surface bold
+r0 c17..30 bg=Surface
+r0 c30..39 fg=Muted bg=Surface
+r0 c39..40 bg=Surface
+r1 c0..10 fg=Muted bg=Background
+r1 c10..40 bg=Surface
+r2 c0..10 fg=Muted bg=Background
+r2 c10..11 bg=Surface
+r2 c11..39 fg=Foreground bg=Surface
+r2 c39..40 bg=Surface
+r3 c0..10 fg=Muted bg=Background
+r3 c10..11 bg=Surface
+r3 c11..39 fg=Foreground bg=Surface
+r3 c39..40 bg=Surface
+r4 c0..10 fg=Muted bg=Background
+r4 c10..11 bg=Surface
+r4 c11..39 fg=Foreground bg=Surface
+r4 c39..40 bg=Surface
+r5 c0..10 fg=Muted bg=Background
+r5 c10..11 bg=Surface
+r5 c11..39 fg=Foreground bg=Surface
+r5 c39..40 bg=Surface
+r6 c0..10 fg=Muted bg=Background
+r6 c10..11 bg=Surface
+r6 c11..39 fg=Foreground bg=Surface
+r6 c39..40 bg=Surface
+r7 c0..10 fg=Muted bg=Background
+r7 c10..11 bg=Surface
+r7 c11..39 fg=Foreground bg=Surface
+r7 c39..40 bg=Surface
+r8 c0..10 fg=Muted bg=Background
+r8 c10..11 bg=Surface
+r8 c11..39 fg=Foreground bg=Surface
+r8 c39..40 bg=Surface
+r9 c0..10 fg=Muted bg=Background
+r9 c10..11 bg=Surface
+r9 c11..39 fg=Foreground bg=Surface
+r9 c39..40 bg=Surface
+r10 c0..10 fg=Muted bg=Background
+r10 c10..11 bg=Surface
+r10 c11..39 fg=Foreground bg=Surface
+r10 c39..40 bg=Surface
+r11 c0..10 fg=Muted bg=Background
+r11 c10..11 bg=Surface
+r11 c11..39 fg=Foreground bg=Surface
+r11 c39..40 bg=Surface
+
+== dark-truecolor · 80x12
+Edited summary.md and then ran the whole suite aga Agents             2 running
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga reviewer is reading the diff
+Edited summary.md and then ran the whole suite aga builder is editing tabs.rs
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+Edited summary.md and then ran the whole suite aga
+---
+r0 c0..50 fg=Muted bg=Background
+r0 c50..51 bg=Surface
+r0 c51..57 fg=Foreground bg=Surface bold
+r0 c57..70 bg=Surface
+r0 c70..79 fg=Muted bg=Surface
+r0 c79..80 bg=Surface
+r1 c0..50 fg=Muted bg=Background
+r1 c50..80 bg=Surface
+r2 c0..50 fg=Muted bg=Background
+r2 c50..51 bg=Surface
+r2 c51..79 fg=Foreground bg=Surface
+r2 c79..80 bg=Surface
+r3 c0..50 fg=Muted bg=Background
+r3 c50..51 bg=Surface
+r3 c51..79 fg=Foreground bg=Surface
+r3 c79..80 bg=Surface
+r4 c0..50 fg=Muted bg=Background
+r4 c50..51 bg=Surface
+r4 c51..79 fg=Foreground bg=Surface
+r4 c79..80 bg=Surface
+r5 c0..50 fg=Muted bg=Background
+r5 c50..51 bg=Surface
+r5 c51..79 fg=Foreground bg=Surface
+r5 c79..80 bg=Surface
+r6 c0..50 fg=Muted bg=Background
+r6 c50..51 bg=Surface
+r6 c51..79 fg=Foreground bg=Surface
+r6 c79..80 bg=Surface
+r7 c0..50 fg=Muted bg=Background
+r7 c50..51 bg=Surface
+r7 c51..79 fg=Foreground bg=Surface
+r7 c79..80 bg=Surface
+r8 c0..50 fg=Muted bg=Background
+r8 c50..51 bg=Surface
+r8 c51..79 fg=Foreground bg=Surface
+r8 c79..80 bg=Surface
+r9 c0..50 fg=Muted bg=Background
+r9 c50..51 bg=Surface
+r9 c51..79 fg=Foreground bg=Surface
+r9 c79..80 bg=Surface
+r10 c0..50 fg=Muted bg=Background
+r10 c50..51 bg=Surface
+r10 c51..79 fg=Foreground bg=Surface
+r10 c79..80 bg=Surface
+r11 c0..50 fg=Muted bg=Background
+r11 c50..51 bg=Surface
+r11 c51..79 fg=Foreground bg=Surface
+r11 c79..80 bg=Surface
+
+== dark-truecolor · 120x12
+Edited summary.md and then ran the whole suite again for good measure                      Agents             2 running
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure                      reviewer is reading the diff
+Edited summary.md and then ran the whole suite again for good measure                      builder is editing tabs.rs
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+Edited summary.md and then ran the whole suite again for good measure
+---
+r0 c0..69 fg=Muted bg=Background
+r0 c69..90 bg=Background
+r0 c90..91 bg=Surface
+r0 c91..97 fg=Foreground bg=Surface bold
+r0 c97..110 bg=Surface
+r0 c110..119 fg=Muted bg=Surface
+r0 c119..120 bg=Surface
+r1 c0..69 fg=Muted bg=Background
+r1 c69..90 bg=Background
+r1 c90..120 bg=Surface
+r2 c0..69 fg=Muted bg=Background
+r2 c69..90 bg=Background
+r2 c90..91 bg=Surface
+r2 c91..119 fg=Foreground bg=Surface
+r2 c119..120 bg=Surface
+r3 c0..69 fg=Muted bg=Background
+r3 c69..90 bg=Background
+r3 c90..91 bg=Surface
+r3 c91..119 fg=Foreground bg=Surface
+r3 c119..120 bg=Surface
+r4 c0..69 fg=Muted bg=Background
+r4 c69..90 bg=Background
+r4 c90..91 bg=Surface
+r4 c91..119 fg=Foreground bg=Surface
+r4 c119..120 bg=Surface
+r5 c0..69 fg=Muted bg=Background
+r5 c69..90 bg=Background
+r5 c90..91 bg=Surface
+r5 c91..119 fg=Foreground bg=Surface
+r5 c119..120 bg=Surface
+r6 c0..69 fg=Muted bg=Background
+r6 c69..90 bg=Background
+r6 c90..91 bg=Surface
+r6 c91..119 fg=Foreground bg=Surface
+r6 c119..120 bg=Surface
+r7 c0..69 fg=Muted bg=Background
+r7 c69..90 bg=Background
+r7 c90..91 bg=Surface
+r7 c91..119 fg=Foreground bg=Surface
+r7 c119..120 bg=Surface
+r8 c0..69 fg=Muted bg=Background
+r8 c69..90 bg=Background
+r8 c90..91 bg=Surface
+r8 c91..119 fg=Foreground bg=Surface
+r8 c119..120 bg=Surface
+r9 c0..69 fg=Muted bg=Background
+r9 c69..90 bg=Background
+r9 c90..91 bg=Surface
+r9 c91..119 fg=Foreground bg=Surface
+r9 c119..120 bg=Surface
+r10 c0..69 fg=Muted bg=Background
+r10 c69..90 bg=Background
+r10 c90..91 bg=Surface
+r10 c91..119 fg=Foreground bg=Surface
+r10 c119..120 bg=Surface
+r11 c0..69 fg=Muted bg=Background
+r11 c69..90 bg=Background
+r11 c90..91 bg=Surface
+r11 c91..119 fg=Foreground bg=Surface
+r11 c119..120 bg=Surface
+
+== no-color · 40x12
+Edited sum┌────────────────────────────┐
+Edited sum│                            │
+Edited sum│ Agents           2 running │
+Edited sum│                            │
+Edited sum│ reviewer is reading the    │
+Edited sum│ diff                       │
+Edited sum│ builder is editing tabs.rs │
+Edited sum│                            │
+Edited sum│                            │
+Edited sum│                            │
+Edited sum│                            │
+Edited sum└────────────────────────────┘
+
+== no-color · 80x12
+Edited summary.md and then ran the whole suite aga┌────────────────────────────┐
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga│ Agents           2 running │
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga│ reviewer is reading the    │
+Edited summary.md and then ran the whole suite aga│ diff                       │
+Edited summary.md and then ran the whole suite aga│ builder is editing tabs.rs │
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga│                            │
+Edited summary.md and then ran the whole suite aga└────────────────────────────┘
+
+== no-color · 120x12
+Edited summary.md and then ran the whole suite again for good measure                     ┌────────────────────────────┐
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     │ Agents           2 running │
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     │ reviewer is reading the    │
+Edited summary.md and then ran the whole suite again for good measure                     │ diff                       │
+Edited summary.md and then ran the whole suite again for good measure                     │ builder is editing tabs.rs │
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     │                            │
+Edited summary.md and then ran the whole suite again for good measure                     └────────────────────────────┘
+
+== ascii · 40x12
+Edited sum+----------------------------+
+Edited sum|                            |
+Edited sum| Agents           2 running |
+Edited sum|                            |
+Edited sum| reviewer is reading the    |
+Edited sum| diff                       |
+Edited sum| builder is editing tabs.rs |
+Edited sum|                            |
+Edited sum|                            |
+Edited sum|                            |
+Edited sum|                            |
+Edited sum+----------------------------+
+
+== ascii · 80x12
+Edited summary.md and then ran the whole suite aga+----------------------------+
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga| Agents           2 running |
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga| reviewer is reading the    |
+Edited summary.md and then ran the whole suite aga| diff                       |
+Edited summary.md and then ran the whole suite aga| builder is editing tabs.rs |
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga|                            |
+Edited summary.md and then ran the whole suite aga+----------------------------+
+
+== ascii · 120x12
+Edited summary.md and then ran the whole suite again for good measure                     +----------------------------+
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     | Agents           2 running |
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     | reviewer is reading the    |
+Edited summary.md and then ran the whole suite again for good measure                     | diff                       |
+Edited summary.md and then ran the whole suite again for good measure                     | builder is editing tabs.rs |
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     |                            |
+Edited summary.md and then ran the whole suite again for good measure                     +----------------------------+

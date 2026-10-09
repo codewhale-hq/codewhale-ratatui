@@ -1,0 +1,67 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..40 bg=Background
+r1 c0..40 bg=Background
+
+== dark-graphite
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..40 bg=Background
+r1 c0..40 bg=Background
+
+== light-truecolor
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..40 bg=Background
+r1 c0..40 bg=Background
+
+== dark-256
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background
+r0 c21..40 bg=Background
+r1 c0..40 bg=Background
+
+== light-256
+No artifacts reported
+
+---
+r0 c0..21 fg=Hint bg=Background|Surface
+r0 c21..40 bg=Background|Surface
+r1 c0..40 bg=Background|Surface
+
+== ansi-16
+No artifacts reported
+
+---
+r0 c0..21 dim
+
+== unknown-ground
+No artifacts reported
+
+---
+r0 c0..21 dim
+
+== no-color
+No artifacts reported
+
+---
+r0 c0..21 dim
+
+== ascii
+No artifacts reported
+
+---
+r0 c0..21 dim

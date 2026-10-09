@@ -1,0 +1,143 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Live bg=Background
+r0 c3..22 fg=Foreground bg=Background bold
+r0 c22..24 bg=Background
+r0 c24..25 fg=Danger bg=Background
+r0 c25..44 fg=Hint|Dim bg=Background
+r0 c44..46 bg=Background
+r0 c46..55 fg=Muted bg=Background
+r0 c55..66 fg=Danger bg=Background
+r0 c66..68 bg=Background
+r0 c68..70 fg=Muted bg=Background
+r0 c70..72 bg=Background
+r0 c72..78 fg=Muted bg=Background
+r0 c78..80 bg=Background
+r0 c80..96 fg=#ff7a59 bg=Background
+r0 c96..97 bg=Background
+r0 c97..107 fg=#ff7a59 bg=Background
+r0 c107..120 bg=Background
+
+== dark-graphite
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c0..1 bg=Background
+r0 c1..3 fg=Live bg=Background
+r0 c3..22 fg=Foreground bg=Background bold
+r0 c22..24 bg=Background
+r0 c24..25 fg=Danger bg=Background
+r0 c25..44 fg=Hint|Dim bg=Background
+r0 c44..46 bg=Background
+r0 c46..55 fg=Muted bg=Background
+r0 c55..66 fg=Danger bg=Background
+r0 c66..68 bg=Background
+r0 c68..70 fg=Muted bg=Background
+r0 c70..72 bg=Background
+r0 c72..78 fg=Muted bg=Background
+r0 c78..80 bg=Background
+r0 c80..96 fg=#ff7a59 bg=Background
+r0 c96..97 bg=Background
+r0 c97..107 fg=#ff7a59 bg=Background
+r0 c107..120 bg=Background
+
+== light-truecolor
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c1..3 fg=Live
+r0 c3..22 fg=Foreground bold
+r0 c24..25 fg=Danger
+r0 c25..44 fg=Hint|Dim
+r0 c46..55 fg=Muted
+r0 c55..66 fg=Danger
+r0 c68..70 fg=Muted
+r0 c72..78 fg=Muted
+r0 c80..96 fg=#a94724
+r0 c97..107 fg=#a94724
+
+== dark-256
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c0..1 bg=Background|DiffAddedTint
+r0 c1..3 fg=Live bg=Background|DiffAddedTint
+r0 c3..22 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c22..24 bg=Background|DiffAddedTint
+r0 c24..25 fg=Danger bg=Background|DiffAddedTint
+r0 c25..44 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c44..46 bg=Background|DiffAddedTint
+r0 c46..55 fg=Muted bg=Background|DiffAddedTint
+r0 c55..66 fg=Danger bg=Background|DiffAddedTint
+r0 c66..68 bg=Background|DiffAddedTint
+r0 c68..70 fg=Muted bg=Background|DiffAddedTint
+r0 c70..72 bg=Background|DiffAddedTint
+r0 c72..78 fg=Muted bg=Background|DiffAddedTint
+r0 c78..80 bg=Background|DiffAddedTint
+r0 c80..96 fg=idx209 bg=Background|DiffAddedTint
+r0 c96..97 bg=Background|DiffAddedTint
+r0 c97..107 fg=idx209 bg=Background|DiffAddedTint
+r0 c107..120 bg=Background|DiffAddedTint
+
+== light-256
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c1..3 fg=Live
+r0 c3..22 fg=Foreground bold
+r0 c24..25 fg=Danger
+r0 c25..44 fg=Muted|Hint|Dim
+r0 c46..55 fg=Muted|Hint|Dim
+r0 c55..66 fg=Danger
+r0 c68..70 fg=Muted|Hint|Dim
+r0 c72..78 fg=Muted|Hint|Dim
+r0 c80..96 fg=idx130
+r0 c97..107 fg=idx130
+
+== ansi-16
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c1..3 fg=Live
+r0 c3..22 bold
+r0 c24..25 fg=Danger
+r0 c25..44 dim
+r0 c46..55 dim
+r0 c55..66 fg=Danger
+r0 c68..70 dim
+r0 c72..78 dim
+r0 c80..96 fg=Attention
+r0 c97..107 fg=Attention
+
+== unknown-ground
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c1..3 fg=Live
+r0 c3..22 bold
+r0 c24..25 fg=Danger
+r0 c25..44 dim
+r0 c46..55 dim
+r0 c55..66 fg=Danger
+r0 c68..70 dim
+r0 c72..78 dim
+r0 c80..96 fg=Attention
+r0 c97..107 fg=Attention
+
+== no-color
+ • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
+---
+r0 c3..22 bold
+r0 c25..44 dim
+r0 c46..55 dim
+r0 c68..70 dim
+r0 c72..78 dim
+
+== ascii
+ . Compare the modules  X:::::::::::::::::::  0/25 done . 1 failed  5s  v48.4k  ! Large workflow . 2 queued
+---
+r0 c3..22 bold
+r0 c25..44 dim
+r0 c46..55 dim
+r0 c68..70 dim
+r0 c72..78 dim

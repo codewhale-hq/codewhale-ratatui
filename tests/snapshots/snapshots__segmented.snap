@@ -1,0 +1,287 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..7 fg=Foreground bg=Background bold
+r4 c7..16 fg=Muted bg=Background
+r4 c16..40 bg=Background
+
+== dark-graphite
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..7 fg=Foreground bg=Background bold
+r4 c7..16 fg=Muted bg=Background
+r4 c16..40 bg=Background
+
+== light-truecolor
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..7 fg=Foreground bg=Background bold
+r4 c7..16 fg=Muted bg=Background
+r4 c16..40 bg=Background
+
+== dark-256
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c0..1 bg=Background
+r0 c1..5 fg=Muted bg=Background
+r0 c5..7 bg=Background
+r0 c7..8 fg=Foreground bg=Background
+r0 c8..15 fg=Foreground bg=Background bold underline
+r0 c15..16 fg=Foreground bg=Background
+r0 c16..18 bg=Background
+r0 c18..23 fg=Muted bg=Background
+r0 c23..40 bg=Background
+r1 c0..1 fg=Primary bg=Background
+r1 c1..6 fg=Foreground bg=Background bold underline
+r1 c6..7 fg=Primary bg=Background
+r1 c7..9 bg=Background
+r1 c9..13 fg=Muted bg=Background
+r1 c13..16 bg=Background
+r1 c16..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 bg=Background
+r2 c1..5 fg=Muted bg=Background dim
+r2 c5..8 bg=Background
+r2 c8..15 fg=Muted bg=Background dim
+r2 c15..17 bg=Background
+r2 c17..18 fg=Foreground bg=Background
+r2 c18..23 fg=Foreground bg=Background bold dim
+r2 c23..24 fg=Foreground bg=Background
+r2 c24..26 bg=Background
+r2 c26..38 fg=Muted bg=Background
+r2 c38..40 bg=Background
+r3 c0..40 bg=Background
+r4 c0..7 fg=Foreground bg=Background bold
+r4 c7..16 fg=Muted bg=Background
+r4 c16..40 bg=Background
+
+== light-256
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c0..1 bg=Background|Surface
+r0 c1..5 fg=Muted bg=Background|Surface
+r0 c5..7 bg=Background|Surface
+r0 c7..8 fg=Foreground bg=Background|Surface
+r0 c8..15 fg=Foreground bg=Background|Surface bold underline
+r0 c15..16 fg=Foreground bg=Background|Surface
+r0 c16..18 bg=Background|Surface
+r0 c18..23 fg=Muted bg=Background|Surface
+r0 c23..40 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Background|Surface
+r1 c1..6 fg=Foreground bg=Background|Surface bold underline
+r1 c6..7 fg=Primary bg=Background|Surface
+r1 c7..9 bg=Background|Surface
+r1 c9..13 fg=Muted bg=Background|Surface
+r1 c13..16 bg=Background|Surface
+r1 c16..22 fg=Muted bg=Background|Surface
+r1 c22..40 bg=Background|Surface
+r2 c0..1 bg=Background|Surface
+r2 c1..5 fg=Muted bg=Background|Surface dim
+r2 c5..8 bg=Background|Surface
+r2 c8..15 fg=Muted bg=Background|Surface dim
+r2 c15..17 bg=Background|Surface
+r2 c17..18 fg=Foreground bg=Background|Surface
+r2 c18..23 fg=Foreground bg=Background|Surface bold dim
+r2 c23..24 fg=Foreground bg=Background|Surface
+r2 c24..26 bg=Background|Surface
+r2 c26..38 fg=Muted bg=Background|Surface
+r2 c38..40 bg=Background|Surface
+r3 c0..40 bg=Background|Surface
+r4 c0..7 fg=Foreground bg=Background|Surface bold
+r4 c7..16 fg=Muted bg=Background|Surface
+r4 c16..40 bg=Background|Surface
+
+== ansi-16
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c1..5 dim
+r0 c8..15 bold underline
+r0 c18..23 dim
+r1 c0..1 fg=Primary
+r1 c1..6 bold underline
+r1 c6..7 fg=Primary
+r1 c9..13 dim
+r1 c16..22 dim
+r2 c1..5 dim
+r2 c8..15 dim
+r2 c18..23 bold dim
+r2 c26..38 dim
+r4 c0..7 bold
+r4 c7..16 dim
+
+== unknown-ground
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c1..5 dim
+r0 c8..15 bold underline
+r0 c18..23 dim
+r1 c0..1 fg=Primary
+r1 c1..6 bold underline
+r1 c6..7 fg=Primary
+r1 c9..13 dim
+r1 c16..22 dim
+r2 c1..5 dim
+r2 c8..15 dim
+r2 c18..23 bold dim
+r2 c26..38 dim
+r4 c0..7 bold
+r4 c7..16 dim
+
+== no-color
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by your…
+
+Reduced (2 of 3)
+---
+r0 c1..5 dim
+r0 c8..15 bold underline
+r0 c18..23 dim
+r1 c1..6 bold underline
+r1 c9..13 dim
+r1 c16..22 dim
+r2 c1..5 dim
+r2 c8..15 dim
+r2 c18..23 bold dim
+r2 c26..38 dim
+r4 c0..7 bold
+r4 c7..16 dim
+
+== ascii
+ Full  [Reduced]  Still
+[Light]  Dark   System
+ Full   Reduced  [Still]  set by...
+
+Reduced (2 of 3)
+---
+r0 c1..5 dim
+r0 c8..15 bold underline
+r0 c18..23 dim
+r1 c1..6 bold underline
+r1 c9..13 dim
+r1 c16..22 dim
+r2 c1..5 dim
+r2 c8..15 dim
+r2 c18..23 bold dim
+r2 c26..35 dim
+r4 c0..7 bold
+r4 c7..16 dim

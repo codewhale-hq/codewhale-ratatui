@@ -1,0 +1,699 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..80 bg=Background
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..28 bg=Background
+r2 c28..35 fg=Muted bg=Background
+r2 c35..37 bg=Background
+r2 c37..43 fg=Foreground bg=Background
+r2 c43..45 bg=Background
+r2 c45..51 fg=Foreground bg=Background
+r2 c51..53 bg=Background
+r2 c53..62 fg=Hint bg=Background
+r2 c62..64 bg=Background
+r2 c64..65 fg=Muted bg=Background
+r2 c65..80 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background
+r3 c43..45 bg=Background
+r3 c45..51 fg=Hint bg=Background
+r3 c51..53 bg=Background
+r3 c53..62 fg=Foreground bg=Background
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..80 bg=Background
+r4 c0..1 fg=Live bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..28 bg=Background
+r4 c28..35 fg=Muted bg=Background
+r4 c35..37 bg=Background
+r4 c37..43 fg=Foreground bg=Background
+r4 c43..45 bg=Background
+r4 c45..51 fg=Foreground bg=Background
+r4 c51..53 bg=Background
+r4 c53..62 fg=Muted bg=Background
+r4 c62..64 bg=Background
+r4 c64..65 fg=Muted bg=Background
+r4 c65..80 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background
+r5 c26..28 bg=Background
+r5 c28..35 fg=Muted bg=Background
+r5 c35..37 bg=Background
+r5 c37..43 fg=Foreground bg=Background
+r5 c43..45 bg=Background
+r5 c45..51 fg=Foreground bg=Background
+r5 c51..53 bg=Background
+r5 c53..62 fg=Foreground bg=Background
+r5 c62..64 bg=Background
+r5 c64..65 fg=Muted bg=Background
+r5 c65..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..26 fg=Foreground bg=Background bold
+r6 c26..28 bg=Background
+r6 c28..35 fg=Muted bg=Background
+r6 c35..37 bg=Background
+r6 c37..43 fg=Foreground bg=Background bold
+r6 c43..45 bg=Background
+r6 c45..51 fg=Foreground bg=Background bold
+r6 c51..53 bg=Background
+r6 c53..62 fg=Muted bg=Background bold
+r6 c62..64 bg=Background
+r6 c64..65 fg=Muted bg=Background
+r6 c65..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..59 fg=Hint bg=Background
+r7 c59..80 bg=Background
+
+== dark-graphite
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..80 bg=Background
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..28 bg=Background
+r2 c28..35 fg=Muted bg=Background
+r2 c35..37 bg=Background
+r2 c37..43 fg=Foreground bg=Background
+r2 c43..45 bg=Background
+r2 c45..51 fg=Foreground bg=Background
+r2 c51..53 bg=Background
+r2 c53..62 fg=Hint bg=Background
+r2 c62..64 bg=Background
+r2 c64..65 fg=Muted bg=Background
+r2 c65..80 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background
+r3 c43..45 bg=Background
+r3 c45..51 fg=Hint bg=Background
+r3 c51..53 bg=Background
+r3 c53..62 fg=Foreground bg=Background
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..80 bg=Background
+r4 c0..1 fg=Live bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..28 bg=Background
+r4 c28..35 fg=Muted bg=Background
+r4 c35..37 bg=Background
+r4 c37..43 fg=Foreground bg=Background
+r4 c43..45 bg=Background
+r4 c45..51 fg=Foreground bg=Background
+r4 c51..53 bg=Background
+r4 c53..62 fg=Muted bg=Background
+r4 c62..64 bg=Background
+r4 c64..65 fg=Muted bg=Background
+r4 c65..80 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background
+r5 c26..28 bg=Background
+r5 c28..35 fg=Muted bg=Background
+r5 c35..37 bg=Background
+r5 c37..43 fg=Foreground bg=Background
+r5 c43..45 bg=Background
+r5 c45..51 fg=Foreground bg=Background
+r5 c51..53 bg=Background
+r5 c53..62 fg=Foreground bg=Background
+r5 c62..64 bg=Background
+r5 c64..65 fg=Muted bg=Background
+r5 c65..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..26 fg=Foreground bg=Background bold
+r6 c26..28 bg=Background
+r6 c28..35 fg=Muted bg=Background
+r6 c35..37 bg=Background
+r6 c37..43 fg=Foreground bg=Background bold
+r6 c43..45 bg=Background
+r6 c45..51 fg=Foreground bg=Background bold
+r6 c51..53 bg=Background
+r6 c53..62 fg=Muted bg=Background bold
+r6 c62..64 bg=Background
+r6 c64..65 fg=Muted bg=Background
+r6 c65..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..59 fg=Hint bg=Background
+r7 c59..80 bg=Background
+
+== light-truecolor
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..80 bg=Background
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..28 bg=Background
+r2 c28..35 fg=Muted bg=Background
+r2 c35..37 bg=Background
+r2 c37..43 fg=Foreground bg=Background
+r2 c43..45 bg=Background
+r2 c45..51 fg=Foreground bg=Background
+r2 c51..53 bg=Background
+r2 c53..62 fg=Hint bg=Background
+r2 c62..64 bg=Background
+r2 c64..65 fg=Muted bg=Background
+r2 c65..80 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background
+r3 c43..45 bg=Background
+r3 c45..51 fg=Hint bg=Background
+r3 c51..53 bg=Background
+r3 c53..62 fg=Foreground bg=Background
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..80 bg=Background
+r4 c0..1 fg=Live bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..28 bg=Background
+r4 c28..35 fg=Muted bg=Background
+r4 c35..37 bg=Background
+r4 c37..43 fg=Foreground bg=Background
+r4 c43..45 bg=Background
+r4 c45..51 fg=Foreground bg=Background
+r4 c51..53 bg=Background
+r4 c53..62 fg=Muted bg=Background
+r4 c62..64 bg=Background
+r4 c64..65 fg=Muted bg=Background
+r4 c65..80 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background
+r5 c26..28 bg=Background
+r5 c28..35 fg=Muted bg=Background
+r5 c35..37 bg=Background
+r5 c37..43 fg=Foreground bg=Background
+r5 c43..45 bg=Background
+r5 c45..51 fg=Foreground bg=Background
+r5 c51..53 bg=Background
+r5 c53..62 fg=Foreground bg=Background
+r5 c62..64 bg=Background
+r5 c64..65 fg=Muted bg=Background
+r5 c65..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..26 fg=Foreground bg=Background bold
+r6 c26..28 bg=Background
+r6 c28..35 fg=Muted bg=Background
+r6 c35..37 bg=Background
+r6 c37..43 fg=Foreground bg=Background bold
+r6 c43..45 bg=Background
+r6 c45..51 fg=Foreground bg=Background bold
+r6 c51..53 bg=Background
+r6 c53..62 fg=Muted bg=Background bold
+r6 c62..64 bg=Background
+r6 c64..65 fg=Muted bg=Background
+r6 c65..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..59 fg=Hint bg=Background
+r7 c59..80 bg=Background
+
+== dark-256
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background
+r0 c2..26 fg=Muted bg=Background
+r0 c26..28 bg=Background
+r0 c28..35 fg=Muted bg=Background
+r0 c35..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..45 bg=Background
+r0 c45..51 fg=Muted bg=Background
+r0 c51..53 bg=Background
+r0 c53..62 fg=Muted bg=Background
+r0 c62..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..26 fg=Foreground bg=Background
+r1 c26..28 bg=Background
+r1 c28..35 fg=Muted bg=Background
+r1 c35..37 bg=Background
+r1 c37..43 fg=Foreground bg=Background
+r1 c43..45 bg=Background
+r1 c45..51 fg=Foreground bg=Background
+r1 c51..53 bg=Background
+r1 c53..62 fg=Foreground bg=Background
+r1 c62..64 bg=Background
+r1 c64..65 fg=Muted bg=Background
+r1 c65..80 bg=Background
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..26 fg=Foreground bg=Background
+r2 c26..28 bg=Background
+r2 c28..35 fg=Muted bg=Background
+r2 c35..37 bg=Background
+r2 c37..43 fg=Foreground bg=Background
+r2 c43..45 bg=Background
+r2 c45..51 fg=Foreground bg=Background
+r2 c51..53 bg=Background
+r2 c53..62 fg=Hint bg=Background
+r2 c62..64 bg=Background
+r2 c64..65 fg=Muted bg=Background
+r2 c65..80 bg=Background
+r3 c0..1 fg=Live bg=Background
+r3 c1..2 bg=Background
+r3 c2..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..35 fg=Muted bg=Background
+r3 c35..37 bg=Background
+r3 c37..43 fg=Foreground bg=Background
+r3 c43..45 bg=Background
+r3 c45..51 fg=Hint bg=Background
+r3 c51..53 bg=Background
+r3 c53..62 fg=Foreground bg=Background
+r3 c62..64 bg=Background
+r3 c64..65 fg=Muted bg=Background
+r3 c65..80 bg=Background
+r4 c0..1 fg=Live bg=Background
+r4 c1..2 bg=Background
+r4 c2..26 fg=Foreground bg=Background
+r4 c26..28 bg=Background
+r4 c28..35 fg=Muted bg=Background
+r4 c35..37 bg=Background
+r4 c37..43 fg=Foreground bg=Background
+r4 c43..45 bg=Background
+r4 c45..51 fg=Foreground bg=Background
+r4 c51..53 bg=Background
+r4 c53..62 fg=Muted bg=Background
+r4 c62..64 bg=Background
+r4 c64..65 fg=Muted bg=Background
+r4 c65..80 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..2 bg=Background
+r5 c2..26 fg=Foreground bg=Background
+r5 c26..28 bg=Background
+r5 c28..35 fg=Muted bg=Background
+r5 c35..37 bg=Background
+r5 c37..43 fg=Foreground bg=Background
+r5 c43..45 bg=Background
+r5 c45..51 fg=Foreground bg=Background
+r5 c51..53 bg=Background
+r5 c53..62 fg=Foreground bg=Background
+r5 c62..64 bg=Background
+r5 c64..65 fg=Muted bg=Background
+r5 c65..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..26 fg=Foreground bg=Background bold
+r6 c26..28 bg=Background
+r6 c28..35 fg=Muted bg=Background
+r6 c35..37 bg=Background
+r6 c37..43 fg=Foreground bg=Background bold
+r6 c43..45 bg=Background
+r6 c45..51 fg=Foreground bg=Background bold
+r6 c51..53 bg=Background
+r6 c53..62 fg=Muted bg=Background bold
+r6 c62..64 bg=Background
+r6 c64..65 fg=Muted bg=Background
+r6 c65..80 bg=Background
+r7 c0..2 bg=Background
+r7 c2..59 fg=Hint bg=Background
+r7 c59..80 bg=Background
+
+== light-256
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..26 fg=Muted bg=Background|Surface
+r0 c26..28 bg=Background|Surface
+r0 c28..35 fg=Muted bg=Background|Surface
+r0 c35..37 bg=Background|Surface
+r0 c37..43 fg=Muted bg=Background|Surface
+r0 c43..45 bg=Background|Surface
+r0 c45..51 fg=Muted bg=Background|Surface
+r0 c51..53 bg=Background|Surface
+r0 c53..62 fg=Muted bg=Background|Surface
+r0 c62..80 bg=Background|Surface
+r1 c0..1 fg=Live bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..26 fg=Foreground bg=Background|Surface
+r1 c26..28 bg=Background|Surface
+r1 c28..35 fg=Muted bg=Background|Surface
+r1 c35..37 bg=Background|Surface
+r1 c37..43 fg=Foreground bg=Background|Surface
+r1 c43..45 bg=Background|Surface
+r1 c45..51 fg=Foreground bg=Background|Surface
+r1 c51..53 bg=Background|Surface
+r1 c53..62 fg=Foreground bg=Background|Surface
+r1 c62..64 bg=Background|Surface
+r1 c64..65 fg=Muted bg=Background|Surface
+r1 c65..80 bg=Background|Surface
+r2 c0..1 fg=Danger bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..26 fg=Foreground bg=Background|Surface
+r2 c26..28 bg=Background|Surface
+r2 c28..35 fg=Muted bg=Background|Surface
+r2 c35..37 bg=Background|Surface
+r2 c37..43 fg=Foreground bg=Background|Surface
+r2 c43..45 bg=Background|Surface
+r2 c45..51 fg=Foreground bg=Background|Surface
+r2 c51..53 bg=Background|Surface
+r2 c53..62 fg=Hint bg=Background|Surface
+r2 c62..64 bg=Background|Surface
+r2 c64..65 fg=Muted bg=Background|Surface
+r2 c65..80 bg=Background|Surface
+r3 c0..1 fg=Live bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..26 fg=Foreground bg=Background|Surface
+r3 c26..28 bg=Background|Surface
+r3 c28..35 fg=Muted bg=Background|Surface
+r3 c35..37 bg=Background|Surface
+r3 c37..43 fg=Foreground bg=Background|Surface
+r3 c43..45 bg=Background|Surface
+r3 c45..51 fg=Hint bg=Background|Surface
+r3 c51..53 bg=Background|Surface
+r3 c53..62 fg=Foreground bg=Background|Surface
+r3 c62..64 bg=Background|Surface
+r3 c64..65 fg=Muted bg=Background|Surface
+r3 c65..80 bg=Background|Surface
+r4 c0..1 fg=Live bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..26 fg=Foreground bg=Background|Surface
+r4 c26..28 bg=Background|Surface
+r4 c28..35 fg=Muted bg=Background|Surface
+r4 c35..37 bg=Background|Surface
+r4 c37..43 fg=Foreground bg=Background|Surface
+r4 c43..45 bg=Background|Surface
+r4 c45..51 fg=Foreground bg=Background|Surface
+r4 c51..53 bg=Background|Surface
+r4 c53..62 fg=Muted bg=Background|Surface
+r4 c62..64 bg=Background|Surface
+r4 c64..65 fg=Muted bg=Background|Surface
+r4 c65..80 bg=Background|Surface
+r5 c0..1 fg=Muted bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..26 fg=Foreground bg=Background|Surface
+r5 c26..28 bg=Background|Surface
+r5 c28..35 fg=Muted bg=Background|Surface
+r5 c35..37 bg=Background|Surface
+r5 c37..43 fg=Foreground bg=Background|Surface
+r5 c43..45 bg=Background|Surface
+r5 c45..51 fg=Foreground bg=Background|Surface
+r5 c51..53 bg=Background|Surface
+r5 c53..62 fg=Foreground bg=Background|Surface
+r5 c62..64 bg=Background|Surface
+r5 c64..65 fg=Muted bg=Background|Surface
+r5 c65..80 bg=Background|Surface
+r6 c0..2 bg=Background|Surface
+r6 c2..26 fg=Foreground bg=Background|Surface bold
+r6 c26..28 bg=Background|Surface
+r6 c28..35 fg=Muted bg=Background|Surface
+r6 c35..37 bg=Background|Surface
+r6 c37..43 fg=Foreground bg=Background|Surface bold
+r6 c43..45 bg=Background|Surface
+r6 c45..51 fg=Foreground bg=Background|Surface bold
+r6 c51..53 bg=Background|Surface
+r6 c53..62 fg=Muted bg=Background|Surface bold
+r6 c62..64 bg=Background|Surface
+r6 c64..65 fg=Muted bg=Background|Surface
+r6 c65..80 bg=Background|Surface
+r7 c0..2 bg=Background|Surface
+r7 c2..59 fg=Hint bg=Background|Surface
+r7 c59..80 bg=Background|Surface
+
+== ansi-16
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c2..26 dim
+r0 c28..35 dim
+r0 c37..43 dim
+r0 c45..51 dim
+r0 c53..62 dim
+r1 c0..1 fg=Live
+r1 c28..35 dim
+r1 c64..65 dim
+r2 c0..1 fg=Danger
+r2 c28..35 dim
+r2 c53..62 dim
+r2 c64..65 dim
+r3 c0..1 fg=Live
+r3 c28..35 dim
+r3 c45..51 dim
+r3 c64..65 dim
+r4 c0..1 fg=Live
+r4 c28..35 dim
+r4 c53..62 dim
+r4 c64..65 dim
+r5 c0..1 dim
+r5 c28..35 dim
+r5 c64..65 dim
+r6 c2..26 bold
+r6 c28..35 dim
+r6 c37..43 bold
+r6 c45..51 bold
+r6 c53..62 bold dim
+r6 c64..65 dim
+r7 c2..59 dim
+
+== unknown-ground
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c2..26 dim
+r0 c28..35 dim
+r0 c37..43 dim
+r0 c45..51 dim
+r0 c53..62 dim
+r1 c0..1 fg=Live
+r1 c28..35 dim
+r1 c64..65 dim
+r2 c0..1 fg=Danger
+r2 c28..35 dim
+r2 c53..62 dim
+r2 c64..65 dim
+r3 c0..1 fg=Live
+r3 c28..35 dim
+r3 c45..51 dim
+r3 c64..65 dim
+r4 c0..1 fg=Live
+r4 c28..35 dim
+r4 c53..62 dim
+r4 c64..65 dim
+r5 c0..1 dim
+r5 c28..35 dim
+r5 c64..65 dim
+r6 c2..26 bold
+r6 c28..35 dim
+r6 c37..43 bold
+r6 c45..51 bold
+r6 c53..62 bold dim
+r6 c64..65 dim
+r7 c2..59 dim
+
+== no-color
+  Action                    Outcome    Time  Tokens       Cost
+✓ Edited summary.md         Done        4 s    1.2k      $0.01
+✕ Ran cargo test            Failed   1m 12s   12.4k       —     →
+✓ Read 14 files             Done     850 ms       —      $0.00
+● Writing CHANGELOG.md      Working    38 s   96.3k     ~$0.38
+■ 整理发布说明，翻译成中文  Stopped  1h 02m      2M     $12.40
+  Total                              1h 03m  ≥ 2.1M  ≥ ~$12.79
+  — not reported · ~ estimated · ≥ some rows did not report
+---
+r0 c2..26 dim
+r0 c28..35 dim
+r0 c37..43 dim
+r0 c45..51 dim
+r0 c53..62 dim
+r1 c28..35 dim
+r1 c64..65 dim
+r2 c28..35 dim
+r2 c53..62 dim
+r2 c64..65 dim
+r3 c28..35 dim
+r3 c45..51 dim
+r3 c64..65 dim
+r4 c28..35 dim
+r4 c53..62 dim
+r4 c64..65 dim
+r5 c0..1 dim
+r5 c28..35 dim
+r5 c64..65 dim
+r6 c2..26 bold
+r6 c28..35 dim
+r6 c37..43 bold
+r6 c45..51 bold
+r6 c53..62 bold dim
+r6 c64..65 dim
+r7 c2..59 dim
+
+== ascii
+  Action                       Outcome    Time   Tokens        Cost
+Y Edited summary.md            Done        4 s     1.2k       $0.01
+X Ran cargo test               Failed   1m 12s    12.4k        -     >
+Y Read 14 files                Done     850 ms        -       $0.00
+. Writing CHANGELOG.md         Working    38 s    96.3k      ~$0.38
+# Translate the release notes  Stopped  1h 02m       2M      $12.40
+  Total                                 1h 03m  >= 2.1M  >= ~$12.79
+  - not reported  ~ estimated  >= some rows did not report
+---
+r0 c2..29 dim
+r0 c31..38 dim
+r0 c40..46 dim
+r0 c48..55 dim
+r0 c57..67 dim
+r1 c31..38 dim
+r1 c69..70 dim
+r2 c31..38 dim
+r2 c57..67 dim
+r2 c69..70 dim
+r3 c31..38 dim
+r3 c48..55 dim
+r3 c69..70 dim
+r4 c31..38 dim
+r4 c57..67 dim
+r4 c69..70 dim
+r5 c0..1 dim
+r5 c31..38 dim
+r5 c69..70 dim
+r6 c2..29 bold
+r6 c31..38 dim
+r6 c40..46 bold
+r6 c48..55 bold
+r6 c57..67 bold dim
+r6 c69..70 dim
+r7 c2..58 dim

@@ -1,0 +1,164 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 fg=Muted bg=Background
+r0 c23..140 bg=Background
+r1 c0..90 fg=Foreground bg=Selected bold
+r1 c90..140 bg=Background
+r2 c0..76 fg=Foreground bg=Background
+r2 c76..140 bg=Background
+r3 c0..94 fg=Foreground bg=Background
+r3 c94..140 bg=Background
+r4 c0..86 fg=Foreground bg=Background
+r4 c86..140 bg=Background
+r5 c0..76 fg=Foreground bg=Background
+r5 c76..140 bg=Background
+r6 c0..140 bg=Background
+r7 c0..140 bg=Background
+
+== dark-graphite
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 fg=Muted bg=Background
+r0 c23..140 bg=Background
+r1 c0..90 fg=Foreground bg=Selected bold
+r1 c90..140 bg=Background
+r2 c0..76 fg=Foreground bg=Background
+r2 c76..140 bg=Background
+r3 c0..94 fg=Foreground bg=Background
+r3 c94..140 bg=Background
+r4 c0..86 fg=Foreground bg=Background
+r4 c86..140 bg=Background
+r5 c0..76 fg=Foreground bg=Background
+r5 c76..140 bg=Background
+r6 c0..140 bg=Background
+r7 c0..140 bg=Background
+
+== light-truecolor
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 fg=Muted
+r1 c0..90 fg=Foreground bg=Selected bold
+r2 c0..76 fg=Foreground
+r3 c0..94 fg=Foreground
+r4 c0..86 fg=Foreground
+r5 c0..76 fg=Foreground
+
+== dark-256
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 fg=Muted bg=Background|DiffAddedTint
+r0 c23..140 bg=Background|DiffAddedTint
+r1 c0..90 fg=Foreground bg=Selected bold
+r1 c90..140 bg=Background|DiffAddedTint
+r2 c0..76 fg=Foreground bg=Background|DiffAddedTint
+r2 c76..140 bg=Background|DiffAddedTint
+r3 c0..94 fg=Foreground bg=Background|DiffAddedTint
+r3 c94..140 bg=Background|DiffAddedTint
+r4 c0..86 fg=Foreground bg=Background|DiffAddedTint
+r4 c86..140 bg=Background|DiffAddedTint
+r5 c0..76 fg=Foreground bg=Background|DiffAddedTint
+r5 c76..140 bg=Background|DiffAddedTint
+r6 c0..140 bg=Background|DiffAddedTint
+r7 c0..140 bg=Background|DiffAddedTint
+
+== light-256
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 fg=Muted|Hint|Dim
+r1 c0..90 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r2 c0..76 fg=Foreground
+r3 c0..94 fg=Foreground
+r4 c0..86 fg=Foreground
+r5 c0..76 fg=Foreground
+
+== ansi-16
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 dim
+r1 c0..90 bold
+
+== unknown-ground
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 dim
+r1 c0..90 bold
+
+== no-color
+scope and sort · recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 dim
+r1 c0..90 bold
+
+== ascii
+scope and sort . recent
+1. 4a80c752 | Review authentication | 18 msgs | current | work | 2026-10-01 14:12 (2m ago)
+2. b419de17 | Plan the release | 12 msgs | plan | 2026-10-01 13:40 (34m ago)
+3. 936efb90 | Review the alternate approach | 8 msgs | fork | work | 2026-10-01 12:53 (1h ago)
+4. ff82d346 | Add keyboard navigation | 24 msgs | operate | 2026-09-30 17:30 (20h ago)
+5. 3f473bc6 | 3f473bc6 | 1 msg | archived | work | 2026-09-30 11:09 (1d ago)
+
+
+---
+r0 c0..23 dim
+r1 c0..90 bold

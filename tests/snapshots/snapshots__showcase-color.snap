@@ -1,0 +1,961 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Hover bold
+r0 c10..112 fg=Foreground bg=Hover
+r1 c0..112 fg=Foreground bg=#102a44
+r2 c0..1 fg=Primary bg=#102843
+r2 c1..6 fg=Foreground bg=#102843 bold underline
+r2 c6..7 fg=Primary bg=#102843
+r2 c7..9 fg=Foreground bg=#102843
+r2 c9..15 fg=Muted bg=#102843
+r2 c15..18 fg=Foreground bg=#102843
+r2 c18..22 fg=Muted bg=#102843
+r2 c22..25 fg=Foreground bg=#102843
+r2 c25..30 fg=Muted bg=#102843
+r2 c30..33 fg=Foreground bg=#102843
+r2 c33..41 fg=Muted bg=#102843
+r2 c41..112 fg=Foreground bg=#102843
+r3 c0..112 fg=Foreground bg=#102842
+r4 c0..1 fg=Foreground bg=#0e2841
+r4 c1..5 fg=Foreground bg=#0e2841 bold underline
+r4 c5..8 fg=Foreground bg=#0e2841
+r4 c8..15 fg=Muted bg=#0e2841
+r4 c15..18 fg=Foreground bg=#0e2841
+r4 c18..23 fg=Muted bg=#0e2841
+r4 c23..112 fg=Foreground bg=#0e2841
+r5 c0..112 fg=Foreground bg=#0e2740
+r6 c0..36 fg=Muted bg=#0e263f
+r6 c36..112 fg=Foreground bg=#0e263f
+r7 c0..112 fg=Foreground bg=#0e263e
+r8 c0..1 fg=Foreground bg=#0e253d
+r8 c1..9 fg=Muted bg=#0e253d
+r8 c9..12 fg=Foreground bg=#0e253d
+r8 c12..20 fg=Foreground bg=#0e253d bold underline
+r8 c20..112 fg=Foreground bg=#0e253d
+r9 c0..112 fg=Foreground bg=#0e243c
+r10 c0..112 fg=Foreground bg=#0d243b
+r11 c0..107 fg=Foreground bg=#0d233a
+r11 c107..110 fg=Foreground bg=Surface
+r11 c110..112 fg=Foreground bg=#0d233a
+r12 c0..33 fg=Foreground bg=#0c2239
+r12 c33..36 fg=Foreground bg=Hover
+r12 c36..70 fg=Foreground bg=#0c2239
+r12 c70..73 fg=Foreground bg=Selected
+r12 c73..112 fg=Foreground bg=#0c2239
+r13 c0..33 fg=Foreground bg=#0c2238
+r13 c33..36 fg=Muted bg=#0c2238
+r13 c36..70 fg=Foreground bg=#0c2238
+r13 c70..73 fg=Border bg=#0c2238
+r13 c73..107 fg=Foreground bg=#0c2238
+r13 c107..110 fg=BorderStrong bg=#0c2238
+r13 c110..112 fg=Foreground bg=#0c2238
+r14 c0..33 fg=Foreground bg=#0c2137
+r14 c33..36 fg=Primary bg=#0c2137
+r14 c36..70 fg=Foreground bg=#0c2137
+r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c73..107 fg=Foreground bg=#0c2137
+r14 c107..110 fg=Live bg=#0c2137
+r14 c110..112 fg=Foreground bg=#0c2137
+r15 c0..33 fg=Foreground bg=#0c2136
+r15 c33..36 fg=Attention bg=#0c2136
+r15 c36..70 fg=Foreground bg=#0c2136
+r15 c70..73 fg=Danger bg=#0c2136
+r15 c73..107 fg=Foreground bg=#0c2136
+r15 c107..110 fg=Hint|Dim bg=#0c2136
+r15 c110..112 fg=Foreground bg=#0c2136
+r16 c0..33 fg=Foreground bg=#0b2035
+r16 c33..36 fg=Hint|Dim bg=#0b2035
+r16 c36..70 fg=Foreground bg=#0b2035
+r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c73..107 fg=Foreground bg=#0b2035
+r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c110..112 fg=Foreground bg=#0b2035
+r17 c0..112 fg=Foreground bg=#0b1f34
+r18 c0..112 fg=Foreground bg=#0b1f33
+r19 c0..56 fg=Foreground bg=#0a1e32
+r19 c56..83 fg=Foreground bg=Surface
+r19 c83..84 fg=Foreground bg=#0a1e32
+r19 c84..111 fg=Foreground bg=Surface
+r19 c111..112 fg=Foreground bg=#0a1e32
+r20 c0..56 fg=Foreground bg=#0a1e31
+r20 c56..83 fg=Foreground bg=Surface
+r20 c83..84 fg=Foreground bg=#0a1e31
+r20 c84..111 fg=Foreground bg=Surface
+r20 c111..112 fg=Foreground bg=#0a1e31
+r21 c0..112 fg=Foreground bg=#0a1d30
+r22 c0..1 fg=#0f233c bg=Background
+r22 c1..2 fg=#132745 bg=Background
+r22 c2..3 fg=#182c4e bg=Background
+r22 c3..4 fg=#1c3157 bg=Background
+r22 c4..5 fg=#213660 bg=Background
+r22 c5..6 fg=#253a69 bg=Background
+r22 c6..24 fg=Muted bg=#0a1c2f
+r22 c24..106 fg=Border bg=#0a1c2f
+r22 c106..107 fg=#253a69 bg=Background
+r22 c107..108 fg=#213660 bg=Background
+r22 c108..109 fg=#1c3157 bg=Background
+r22 c109..110 fg=#182c4e bg=Background
+r22 c110..111 fg=#132745 bg=Background
+r22 c111..112 fg=#0f233c bg=Background
+r23 c0..112 fg=Foreground bg=#0a1c2e
+r24 c0..112 fg=Foreground bg=#091b2d
+r25 c0..112 fg=Foreground bg=#091b2c
+r26 c0..112 fg=Foreground bg=#081a2b
+r27 c0..112 fg=Foreground bg=#08192a
+r28 c0..112 fg=Foreground bg=#081929
+r29 c0..112 fg=Foreground bg=#081828
+r30 c0..112 fg=Foreground bg=#081727
+r31 c0..112 fg=Foreground bg=#081726
+r32 c0..112 fg=Foreground bg=#081625
+r33 c0..112 fg=Foreground bg=#071524
+r34 c0..112 fg=Foreground bg=#061523
+r35 c0..112 fg=Foreground bg=#061522
+r36 c0..112 fg=Foreground bg=#061321
+r37 c0..112 fg=Foreground bg=Sidebar
+
+== dark-graphite
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Hover bold
+r0 c10..112 fg=Foreground bg=Hover
+r1 c0..112 fg=Foreground bg=#102a44
+r2 c0..1 fg=Primary bg=#102843
+r2 c1..6 fg=Foreground bg=#102843 bold underline
+r2 c6..7 fg=Primary bg=#102843
+r2 c7..9 fg=Foreground bg=#102843
+r2 c9..15 fg=Muted bg=#102843
+r2 c15..18 fg=Foreground bg=#102843
+r2 c18..22 fg=Muted bg=#102843
+r2 c22..25 fg=Foreground bg=#102843
+r2 c25..30 fg=Muted bg=#102843
+r2 c30..33 fg=Foreground bg=#102843
+r2 c33..41 fg=Muted bg=#102843
+r2 c41..112 fg=Foreground bg=#102843
+r3 c0..112 fg=Foreground bg=#102842
+r4 c0..1 fg=Foreground bg=#0e2841
+r4 c1..5 fg=Foreground bg=#0e2841 bold underline
+r4 c5..8 fg=Foreground bg=#0e2841
+r4 c8..15 fg=Muted bg=#0e2841
+r4 c15..18 fg=Foreground bg=#0e2841
+r4 c18..23 fg=Muted bg=#0e2841
+r4 c23..112 fg=Foreground bg=#0e2841
+r5 c0..112 fg=Foreground bg=#0e2740
+r6 c0..36 fg=Muted bg=#0e263f
+r6 c36..112 fg=Foreground bg=#0e263f
+r7 c0..112 fg=Foreground bg=#0e263e
+r8 c0..1 fg=Foreground bg=#0e253d
+r8 c1..9 fg=Muted bg=#0e253d
+r8 c9..12 fg=Foreground bg=#0e253d
+r8 c12..20 fg=Foreground bg=#0e253d bold underline
+r8 c20..112 fg=Foreground bg=#0e253d
+r9 c0..112 fg=Foreground bg=#0e243c
+r10 c0..112 fg=Foreground bg=#0d243b
+r11 c0..107 fg=Foreground bg=#0d233a
+r11 c107..110 fg=Foreground bg=Surface
+r11 c110..112 fg=Foreground bg=#0d233a
+r12 c0..33 fg=Foreground bg=#0c2239
+r12 c33..36 fg=Foreground bg=Hover
+r12 c36..70 fg=Foreground bg=#0c2239
+r12 c70..73 fg=Foreground bg=Selected
+r12 c73..112 fg=Foreground bg=#0c2239
+r13 c0..33 fg=Foreground bg=#0c2238
+r13 c33..36 fg=Muted bg=#0c2238
+r13 c36..70 fg=Foreground bg=#0c2238
+r13 c70..73 fg=Border bg=#0c2238
+r13 c73..107 fg=Foreground bg=#0c2238
+r13 c107..110 fg=BorderStrong bg=#0c2238
+r13 c110..112 fg=Foreground bg=#0c2238
+r14 c0..33 fg=Foreground bg=#0c2137
+r14 c33..36 fg=Primary bg=#0c2137
+r14 c36..70 fg=Foreground bg=#0c2137
+r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c73..107 fg=Foreground bg=#0c2137
+r14 c107..110 fg=Live bg=#0c2137
+r14 c110..112 fg=Foreground bg=#0c2137
+r15 c0..33 fg=Foreground bg=#0c2136
+r15 c33..36 fg=Attention bg=#0c2136
+r15 c36..70 fg=Foreground bg=#0c2136
+r15 c70..73 fg=Danger bg=#0c2136
+r15 c73..107 fg=Foreground bg=#0c2136
+r15 c107..110 fg=Hint|Dim bg=#0c2136
+r15 c110..112 fg=Foreground bg=#0c2136
+r16 c0..33 fg=Foreground bg=#0b2035
+r16 c33..36 fg=Hint|Dim bg=#0b2035
+r16 c36..70 fg=Foreground bg=#0b2035
+r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c73..107 fg=Foreground bg=#0b2035
+r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c110..112 fg=Foreground bg=#0b2035
+r17 c0..112 fg=Foreground bg=#0b1f34
+r18 c0..112 fg=Foreground bg=#0b1f33
+r19 c0..56 fg=Foreground bg=#0a1e32
+r19 c56..83 fg=Foreground bg=Surface
+r19 c83..84 fg=Foreground bg=#0a1e32
+r19 c84..111 fg=Foreground bg=Surface
+r19 c111..112 fg=Foreground bg=#0a1e32
+r20 c0..56 fg=Foreground bg=#0a1e31
+r20 c56..83 fg=Foreground bg=Surface
+r20 c83..84 fg=Foreground bg=#0a1e31
+r20 c84..111 fg=Foreground bg=Surface
+r20 c111..112 fg=Foreground bg=#0a1e31
+r21 c0..112 fg=Foreground bg=#0a1d30
+r22 c0..1 fg=#0f233c bg=Background
+r22 c1..2 fg=#132745 bg=Background
+r22 c2..3 fg=#182c4e bg=Background
+r22 c3..4 fg=#1c3157 bg=Background
+r22 c4..5 fg=#213660 bg=Background
+r22 c5..6 fg=#253a69 bg=Background
+r22 c6..24 fg=Muted bg=#0a1c2f
+r22 c24..106 fg=Border bg=#0a1c2f
+r22 c106..107 fg=#253a69 bg=Background
+r22 c107..108 fg=#213660 bg=Background
+r22 c108..109 fg=#1c3157 bg=Background
+r22 c109..110 fg=#182c4e bg=Background
+r22 c110..111 fg=#132745 bg=Background
+r22 c111..112 fg=#0f233c bg=Background
+r23 c0..112 fg=Foreground bg=#0a1c2e
+r24 c0..112 fg=Foreground bg=#091b2d
+r25 c0..112 fg=Foreground bg=#091b2c
+r26 c0..112 fg=Foreground bg=#081a2b
+r27 c0..112 fg=Foreground bg=#08192a
+r28 c0..112 fg=Foreground bg=#081929
+r29 c0..112 fg=Foreground bg=#081828
+r30 c0..112 fg=Foreground bg=#081727
+r31 c0..112 fg=Foreground bg=#081726
+r32 c0..112 fg=Foreground bg=#081625
+r33 c0..112 fg=Foreground bg=#071524
+r34 c0..112 fg=Foreground bg=#061523
+r35 c0..112 fg=Foreground bg=#061522
+r36 c0..112 fg=Foreground bg=#061321
+r37 c0..112 fg=Foreground bg=Sidebar
+
+== light-truecolor
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bold
+r0 c10..112 fg=Foreground
+r1 c0..112 fg=Foreground
+r2 c0..1 fg=Primary
+r2 c1..6 fg=Foreground bold underline
+r2 c6..7 fg=Primary
+r2 c7..9 fg=Foreground
+r2 c9..15 fg=Muted
+r2 c15..18 fg=Foreground
+r2 c18..22 fg=Muted
+r2 c22..25 fg=Foreground
+r2 c25..30 fg=Muted
+r2 c30..33 fg=Foreground
+r2 c33..41 fg=Muted
+r2 c41..112 fg=Foreground
+r3 c0..112 fg=Foreground
+r4 c0..1 fg=Foreground
+r4 c1..5 fg=Foreground bold underline
+r4 c5..8 fg=Foreground
+r4 c8..15 fg=Muted
+r4 c15..18 fg=Foreground
+r4 c18..23 fg=Muted
+r4 c23..112 fg=Foreground
+r5 c0..112 fg=Foreground
+r6 c0..36 fg=Muted
+r6 c36..112 fg=Foreground
+r7 c0..112 fg=Foreground
+r8 c0..1 fg=Foreground
+r8 c1..9 fg=Muted
+r8 c9..12 fg=Foreground
+r8 c12..20 fg=Foreground bold underline
+r8 c20..112 fg=Foreground
+r9 c0..112 fg=Foreground
+r10 c0..112 fg=Foreground
+r11 c0..112 fg=Foreground
+r12 c0..33 fg=Foreground
+r12 c33..36 fg=Foreground bg=Hover
+r12 c36..70 fg=Foreground
+r12 c70..73 fg=Foreground bg=Selected
+r12 c73..112 fg=Foreground
+r13 c0..33 fg=Foreground
+r13 c33..36 fg=Muted
+r13 c36..70 fg=Foreground
+r13 c70..73 fg=Border
+r13 c73..107 fg=Foreground
+r13 c107..110 fg=BorderStrong
+r13 c110..112 fg=Foreground
+r14 c0..33 fg=Foreground
+r14 c33..36 fg=Primary
+r14 c36..70 fg=Foreground
+r14 c70..73 bg=Primary
+r14 c73..107 fg=Foreground
+r14 c107..110 fg=Live
+r14 c110..112 fg=Foreground
+r15 c0..33 fg=Foreground
+r15 c33..36 fg=Attention
+r15 c36..70 fg=Foreground
+r15 c70..73 fg=Danger
+r15 c73..107 fg=Foreground
+r15 c107..110 fg=Hint|Dim
+r15 c110..112 fg=Foreground
+r16 c0..33 fg=Foreground
+r16 c33..36 fg=Hint|Dim
+r16 c36..70 fg=Foreground
+r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c73..107 fg=Foreground
+r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c110..112 fg=Foreground
+r17 c0..112 fg=Foreground
+r18 c0..112 fg=Foreground
+r19 c0..112 fg=Foreground
+r20 c0..112 fg=Foreground
+r21 c0..112 fg=Foreground
+r22 c0..6 fg=Border
+r22 c6..24 fg=Muted
+r22 c24..112 fg=Border
+r23 c0..112 fg=Foreground
+r24 c0..112 fg=Foreground
+r25 c0..112 fg=Foreground
+r26 c0..112 fg=Foreground
+r27 c0..112 fg=Foreground
+r28 c0..112 fg=Foreground
+r29 c0..112 fg=Foreground
+r30 c0..112 fg=Foreground
+r31 c0..112 fg=Foreground
+r32 c0..112 fg=Foreground
+r33 c0..112 fg=Foreground
+r34 c0..112 fg=Foreground
+r35 c0..112 fg=Foreground
+r36 c0..112 fg=Foreground
+r37 c0..112 fg=Foreground
+
+== dark-256
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c10..112 fg=Foreground bg=Background|DiffAddedTint
+r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..1 fg=Primary bg=Background|DiffAddedTint
+r2 c1..6 fg=Foreground bg=Background|DiffAddedTint bold underline
+r2 c6..7 fg=Primary bg=Background|DiffAddedTint
+r2 c7..9 fg=Foreground bg=Background|DiffAddedTint
+r2 c9..15 fg=Muted bg=Background|DiffAddedTint
+r2 c15..18 fg=Foreground bg=Background|DiffAddedTint
+r2 c18..22 fg=Muted bg=Background|DiffAddedTint
+r2 c22..25 fg=Foreground bg=Background|DiffAddedTint
+r2 c25..30 fg=Muted bg=Background|DiffAddedTint
+r2 c30..33 fg=Foreground bg=Background|DiffAddedTint
+r2 c33..41 fg=Muted bg=Background|DiffAddedTint
+r2 c41..112 fg=Foreground bg=Background|DiffAddedTint
+r3 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..1 fg=Foreground bg=Background|DiffAddedTint
+r4 c1..5 fg=Foreground bg=Background|DiffAddedTint bold underline
+r4 c5..8 fg=Foreground bg=Background|DiffAddedTint
+r4 c8..15 fg=Muted bg=Background|DiffAddedTint
+r4 c15..18 fg=Foreground bg=Background|DiffAddedTint
+r4 c18..23 fg=Muted bg=Background|DiffAddedTint
+r4 c23..112 fg=Foreground bg=Background|DiffAddedTint
+r5 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r6 c0..36 fg=Muted bg=Background|DiffAddedTint
+r6 c36..112 fg=Foreground bg=Background|DiffAddedTint
+r7 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r8 c0..1 fg=Foreground bg=Background|DiffAddedTint
+r8 c1..9 fg=Muted bg=Background|DiffAddedTint
+r8 c9..12 fg=Foreground bg=Background|DiffAddedTint
+r8 c12..20 fg=Foreground bg=Background|DiffAddedTint bold underline
+r8 c20..112 fg=Foreground bg=Background|DiffAddedTint
+r9 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r10 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r11 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r11 c33..36 fg=Foreground bg=Sidebar
+r11 c36..107 fg=Foreground bg=Background|DiffAddedTint
+r11 c107..110 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r11 c110..112 fg=Foreground bg=Background|DiffAddedTint
+r12 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r12 c33..36 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r12 c36..70 fg=Foreground bg=Background|DiffAddedTint
+r12 c70..73 fg=Foreground bg=Selected
+r12 c73..112 fg=Foreground bg=Background|DiffAddedTint
+r13 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r13 c33..36 fg=Muted bg=Background|DiffAddedTint
+r13 c36..70 fg=Foreground bg=Background|DiffAddedTint
+r13 c70..73 fg=Border bg=Background|DiffAddedTint
+r13 c73..107 fg=Foreground bg=Background|DiffAddedTint
+r13 c107..110 fg=BorderStrong bg=Background|DiffAddedTint
+r13 c110..112 fg=Foreground bg=Background|DiffAddedTint
+r14 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r14 c33..36 fg=Primary bg=Background|DiffAddedTint
+r14 c36..70 fg=Foreground bg=Background|DiffAddedTint
+r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c73..107 fg=Foreground bg=Background|DiffAddedTint
+r14 c107..110 fg=Live bg=Background|DiffAddedTint
+r14 c110..112 fg=Foreground bg=Background|DiffAddedTint
+r15 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r15 c33..36 fg=Attention bg=Background|DiffAddedTint
+r15 c36..70 fg=Foreground bg=Background|DiffAddedTint
+r15 c70..73 fg=Danger bg=Background|DiffAddedTint
+r15 c73..107 fg=Foreground bg=Background|DiffAddedTint
+r15 c107..110 fg=Hint|Dim bg=Background|DiffAddedTint
+r15 c110..112 fg=Foreground bg=Background|DiffAddedTint
+r16 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r16 c33..36 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c36..107 fg=Foreground bg=Background|DiffAddedTint
+r16 c107..110 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r16 c110..112 fg=Foreground bg=Background|DiffAddedTint
+r17 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r18 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r19 c0..27 fg=Foreground bg=Sidebar
+r19 c27..56 fg=Foreground bg=Background|DiffAddedTint
+r19 c56..83 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r19 c83..84 fg=Foreground bg=Background|DiffAddedTint
+r19 c84..111 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r19 c111..112 fg=Foreground bg=Background|DiffAddedTint
+r20 c0..27 fg=Foreground bg=Sidebar
+r20 c27..56 fg=Foreground bg=Background|DiffAddedTint
+r20 c56..83 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r20 c83..84 fg=Foreground bg=Background|DiffAddedTint
+r20 c84..111 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r20 c111..112 fg=Foreground bg=Background|DiffAddedTint
+r21 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r22 c0..6 fg=Border bg=Background|DiffAddedTint
+r22 c6..24 fg=Muted bg=Background|DiffAddedTint
+r22 c24..112 fg=Border bg=Background|DiffAddedTint
+r23 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r24 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r25 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r26 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r27 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r28 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r29 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r30 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r31 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r32 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r33 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r34 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r35 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r36 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r37 c0..112 fg=Foreground bg=Background|DiffAddedTint
+
+== light-256
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 fg=Foreground bold
+r0 c10..112 fg=Foreground
+r1 c0..112 fg=Foreground
+r2 c0..1 fg=Primary
+r2 c1..6 fg=Foreground bold underline
+r2 c6..7 fg=Primary
+r2 c7..9 fg=Foreground
+r2 c9..15 fg=Muted|Hint|Dim
+r2 c15..18 fg=Foreground
+r2 c18..22 fg=Muted|Hint|Dim
+r2 c22..25 fg=Foreground
+r2 c25..30 fg=Muted|Hint|Dim
+r2 c30..33 fg=Foreground
+r2 c33..41 fg=Muted|Hint|Dim
+r2 c41..112 fg=Foreground
+r3 c0..112 fg=Foreground
+r4 c0..1 fg=Foreground
+r4 c1..5 fg=Foreground bold underline
+r4 c5..8 fg=Foreground
+r4 c8..15 fg=Muted|Hint|Dim
+r4 c15..18 fg=Foreground
+r4 c18..23 fg=Muted|Hint|Dim
+r4 c23..112 fg=Foreground
+r5 c0..112 fg=Foreground
+r6 c0..36 fg=Muted|Hint|Dim
+r6 c36..112 fg=Foreground
+r7 c0..112 fg=Foreground
+r8 c0..1 fg=Foreground
+r8 c1..9 fg=Muted|Hint|Dim
+r8 c9..12 fg=Foreground
+r8 c12..20 fg=Foreground bold underline
+r8 c20..112 fg=Foreground
+r9 c0..112 fg=Foreground
+r10 c0..112 fg=Foreground
+r11 c0..112 fg=Foreground
+r12 c0..33 fg=Foreground
+r12 c33..36 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c36..70 fg=Foreground
+r12 c70..73 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c73..112 fg=Foreground
+r13 c0..33 fg=Foreground
+r13 c33..36 fg=Muted|Hint|Dim
+r13 c36..70 fg=Foreground
+r13 c70..73 fg=Border
+r13 c73..107 fg=Foreground
+r13 c107..110 fg=BorderStrong
+r13 c110..112 fg=Foreground
+r14 c0..33 fg=Foreground
+r14 c33..36 fg=Primary
+r14 c36..70 fg=Foreground
+r14 c70..73 bg=Primary
+r14 c73..107 fg=Foreground
+r14 c107..110 fg=Live
+r14 c110..112 fg=Foreground
+r15 c0..33 fg=Foreground
+r15 c33..36 fg=Attention
+r15 c36..70 fg=Foreground
+r15 c70..73 fg=Danger
+r15 c73..107 fg=Foreground
+r15 c107..110 fg=Muted|Hint|Dim
+r15 c110..112 fg=Foreground
+r16 c0..33 fg=Foreground
+r16 c33..36 fg=Muted|Hint|Dim
+r16 c36..70 fg=Foreground
+r16 c70..73 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r16 c73..107 fg=Foreground
+r16 c107..110 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r16 c110..112 fg=Foreground
+r17 c0..112 fg=Foreground
+r18 c0..112 fg=Foreground
+r19 c0..112 fg=Foreground
+r20 c0..112 fg=Foreground
+r21 c0..112 fg=Foreground
+r22 c0..6 fg=Border
+r22 c6..24 fg=Muted|Hint|Dim
+r22 c24..112 fg=Border
+r23 c0..112 fg=Foreground
+r24 c0..112 fg=Foreground
+r25 c0..112 fg=Foreground
+r26 c0..112 fg=Foreground
+r27 c0..112 fg=Foreground
+r28 c0..112 fg=Foreground
+r29 c0..112 fg=Foreground
+r30 c0..112 fg=Foreground
+r31 c0..112 fg=Foreground
+r32 c0..112 fg=Foreground
+r33 c0..112 fg=Foreground
+r34 c0..112 fg=Foreground
+r35 c0..112 fg=Foreground
+r36 c0..112 fg=Foreground
+r37 c0..112 fg=Foreground
+
+== ansi-16
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r2 c0..1 fg=Primary
+r2 c1..6 bold underline
+r2 c6..7 fg=Primary
+r2 c9..15 dim
+r2 c18..22 dim
+r2 c25..30 dim
+r2 c33..41 dim
+r4 c1..5 bold underline
+r4 c8..15 dim
+r4 c18..23 dim
+r6 c0..36 dim
+r8 c1..9 dim
+r8 c12..20 bold underline
+r13 c33..36 dim
+r13 c70..73 dim
+r14 c33..36 fg=Primary
+r14 c107..110 fg=Live
+r15 c33..36 fg=Attention
+r15 c70..73 fg=Danger
+r15 c107..110 dim
+r16 c33..36 dim
+r22 c0..112 dim
+
+== unknown-ground
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r2 c0..1 fg=Primary
+r2 c1..6 bold underline
+r2 c6..7 fg=Primary
+r2 c9..15 dim
+r2 c18..22 dim
+r2 c25..30 dim
+r2 c33..41 dim
+r4 c1..5 bold underline
+r4 c8..15 dim
+r4 c18..23 dim
+r6 c0..36 dim
+r8 c1..9 dim
+r8 c12..20 bold underline
+r13 c33..36 dim
+r13 c70..73 dim
+r14 c33..36 fg=Primary
+r14 c107..110 fg=Live
+r15 c33..36 fg=Attention
+r15 c70..73 fg=Danger
+r15 c107..110 dim
+r16 c33..36 dim
+r22 c0..112 dim
+
+== no-color
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+────── One spatial wash ────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r2 c1..6 bold underline
+r2 c9..15 dim
+r2 c18..22 dim
+r2 c25..30 dim
+r2 c33..41 dim
+r4 c1..5 bold underline
+r4 c8..15 dim
+r4 c18..23 dim
+r6 c0..36 dim
+r8 c1..9 dim
+r8 c12..20 bold underline
+r13 c33..36 dim
+r13 c70..73 dim
+r15 c107..110 dim
+r16 c33..36 dim
+r22 c0..112 dim
+
+== ascii
+Appearance
+
+[Ocean]  Lagoon   Dusk   Coral   Graphite
+
+[Full]  Reduced   Still
+
+Profile dark-truecolor / Left, Right
+
+ Vertical  [Diagonal]
+
+
+Sidebar                           Aa Background                        Aa Surface                           Aa
+Hover                             Aa Selected                          Aa Foreground                        Aa
+Muted                             Aa Border                            Aa BorderStrong                      Aa
+Primary                           Aa PrimaryForeground                 Aa Live                              Aa
+Attention                         Aa Danger                            Aa Hint                              Aa
+Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
+
+
+Deep                        Stage                       Raised                      Overlay
+
+
+------ One spatial wash ----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+r0 c0..10 bold
+r2 c1..6 bold underline
+r2 c9..15 dim
+r2 c18..22 dim
+r2 c25..30 dim
+r2 c33..41 dim
+r4 c1..5 bold underline
+r4 c8..15 dim
+r4 c18..23 dim
+r6 c0..36 dim
+r8 c1..9 dim
+r8 c12..20 bold underline
+r13 c33..36 dim
+r13 c70..73 dim
+r15 c107..110 dim
+r16 c33..36 dim
+r22 c0..112 dim

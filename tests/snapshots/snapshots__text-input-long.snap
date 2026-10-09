@@ -1,0 +1,106 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== dark-graphite
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== light-truecolor
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== dark-256
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== light-256
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 fg=Foreground bg=Background|Surface bold
+r0 c4..40 bg=Background|Surface
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..3 fg=Muted bg=Selected
+r1 c3..38 fg=Foreground bg=Selected
+r1 c38..39 fg=Foreground bg=Selected reversed
+r1 c39..40 fg=Muted bg=Selected
+
+== ansi-16
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 bold
+r1 c0..1 fg=Primary
+r1 c2..3 dim
+r1 c38..39 reversed
+r1 c39..40 dim
+
+== unknown-ground
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 bold
+r1 c0..1 fg=Primary
+r1 c2..3 dim
+r1 c38..39 reversed
+r1 c39..40 dim
+
+== no-color
+Path
+› …nnon-labs/codewhale/crates/tui/src/t…
+---
+r0 c0..4 bold
+r1 c2..3 dim
+r1 c38..39 reversed
+r1 c39..40 dim
+
+== ascii
+Path
+> <nnon-labs/codewhale/crates/tui/src/t>
+---
+r0 c0..4 bold
+r1 c2..3 dim
+r1 c38..39 reversed
+r1 c39..40 dim

@@ -1,0 +1,191 @@
+---
+source: tests/display.rs
+expression: "testing::snapshot(e.height, paint)"
+---
+== dark-truecolor · 40x6
+● Working  3 of 5 phases  [███████░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [███████████████]
+◆ Needs you  7 of 5 checks  [██████████]
+? 12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░]
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..24 fg=Foreground bg=Background
+r0 c24..26 bg=Background
+r0 c26..27 fg=Muted bg=Background
+r0 c27..34 fg=Live bg=Background
+r0 c34..39 fg=Dim bg=Background
+r0 c39..40 fg=Muted bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..23 fg=Foreground bg=Background
+r1 c23..25 bg=Background
+r1 c25..26 fg=Muted bg=Background
+r1 c26..39 fg=Dim bg=Background
+r1 c39..40 fg=Muted bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..21 fg=Foreground bg=Background
+r2 c21..23 bg=Background
+r2 c23..24 fg=Muted bg=Background
+r2 c24..39 fg=Live bg=Background
+r2 c39..40 fg=Muted bg=Background
+r3 c0..1 fg=Attention bg=Background
+r3 c1..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..29 fg=Muted bg=Background
+r3 c29..39 fg=Attention bg=Background
+r3 c39..40 fg=Muted bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..32 fg=Foreground bg=Background
+r4 c32..40 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..21 fg=Foreground bg=Background
+r5 c21..23 bg=Background
+r5 c23..24 fg=Muted bg=Background
+r5 c24..39 fg=Dim bg=Background
+r5 c39..40 fg=Muted bg=Background
+
+== dark-truecolor · 80x6
+● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [████████████████████████]
+◆ Needs you  7 of 5 checks  [████████████████████████]
+? Unknown  12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..24 fg=Foreground bg=Background
+r0 c24..26 bg=Background
+r0 c26..27 fg=Muted bg=Background
+r0 c27..41 fg=Live bg=Background
+r0 c41..51 fg=Dim bg=Background
+r0 c51..52 fg=Muted bg=Background
+r0 c52..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..23 fg=Foreground bg=Background
+r1 c23..25 bg=Background
+r1 c25..26 fg=Muted bg=Background
+r1 c26..50 fg=Dim bg=Background
+r1 c50..51 fg=Muted bg=Background
+r1 c51..80 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..21 fg=Foreground bg=Background
+r2 c21..23 bg=Background
+r2 c23..24 fg=Muted bg=Background
+r2 c24..48 fg=Live bg=Background
+r2 c48..49 fg=Muted bg=Background
+r2 c49..80 bg=Background
+r3 c0..1 fg=Attention bg=Background
+r3 c1..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..29 fg=Muted bg=Background
+r3 c29..53 fg=Attention bg=Background
+r3 c53..54 fg=Muted bg=Background
+r3 c54..80 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..41 fg=Foreground bg=Background
+r4 c41..80 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..21 fg=Foreground bg=Background
+r5 c21..23 bg=Background
+r5 c23..24 fg=Muted bg=Background
+r5 c24..48 fg=Dim bg=Background
+r5 c48..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+
+== dark-truecolor · 120x6
+● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [████████████████████████]
+◆ Needs you  7 of 5 checks  [████████████████████████]
+? Unknown  12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..24 fg=Foreground bg=Background
+r0 c24..26 bg=Background
+r0 c26..27 fg=Muted bg=Background
+r0 c27..41 fg=Live bg=Background
+r0 c41..51 fg=Dim bg=Background
+r0 c51..52 fg=Muted bg=Background
+r0 c52..120 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..23 fg=Foreground bg=Background
+r1 c23..25 bg=Background
+r1 c25..26 fg=Muted bg=Background
+r1 c26..50 fg=Dim bg=Background
+r1 c50..51 fg=Muted bg=Background
+r1 c51..120 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..21 fg=Foreground bg=Background
+r2 c21..23 bg=Background
+r2 c23..24 fg=Muted bg=Background
+r2 c24..48 fg=Live bg=Background
+r2 c48..49 fg=Muted bg=Background
+r2 c49..120 bg=Background
+r3 c0..1 fg=Attention bg=Background
+r3 c1..26 fg=Foreground bg=Background
+r3 c26..28 bg=Background
+r3 c28..29 fg=Muted bg=Background
+r3 c29..53 fg=Attention bg=Background
+r3 c53..54 fg=Muted bg=Background
+r3 c54..120 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..41 fg=Foreground bg=Background
+r4 c41..120 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..21 fg=Foreground bg=Background
+r5 c21..23 bg=Background
+r5 c23..24 fg=Muted bg=Background
+r5 c24..48 fg=Dim bg=Background
+r5 c48..49 fg=Muted bg=Background
+r5 c49..120 bg=Background
+
+== no-color · 40x6
+● Working  3 of 5 phases  [███████░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [███████████████]
+◆ Needs you  7 of 5 checks  [██████████]
+? 12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░]
+
+== no-color · 80x6
+● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [████████████████████████]
+◆ Needs you  7 of 5 checks  [████████████████████████]
+? Unknown  12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
+
+== no-color · 120x6
+● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
+✓ Done  5 of 5 phases  [████████████████████████]
+◆ Needs you  7 of 5 checks  [████████████████████████]
+? Unknown  12 files so far, total unknown
+○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
+
+== ascii · 40x6
+. Working  3 of 5 phases  [#######:::::]
+. Working  0 of 5 files  [:::::::::::::]
+Y Done  5 of 5 phases  [###############]
+* Needs you  7 of 5 checks  [##########]
+? 12 files so far, total unknown
+o Ready  0 of 0 tasks  [:::::::::::::::]
+
+== ascii · 80x6
+. Working  3 of 5 phases  [##############::::::::::]
+. Working  0 of 5 files  [::::::::::::::::::::::::]
+Y Done  5 of 5 phases  [########################]
+* Needs you  7 of 5 checks  [########################]
+? Unknown  12 files so far, total unknown
+o Ready  0 of 0 tasks  [::::::::::::::::::::::::]
+
+== ascii · 120x6
+. Working  3 of 5 phases  [##############::::::::::]
+. Working  0 of 5 files  [::::::::::::::::::::::::]
+Y Done  5 of 5 phases  [########################]
+* Needs you  7 of 5 checks  [########################]
+? Unknown  12 files so far, total unknown
+o Ready  0 of 0 tasks  [::::::::::::::::::::::::]

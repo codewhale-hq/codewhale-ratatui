@@ -1,0 +1,117 @@
+---
+source: tests/lists.rs
+expression: "testing::snapshot(5, paint_list)"
+---
+== dark-truecolor · 40x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..40 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected bold
+r1 c7..40 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Muted bg=Background dim
+r3 c7..40 bg=Background
+r4 c0..2 bg=Background
+r4 c2..7 fg=Foreground bg=Background
+r4 c7..40 bg=Background
+
+== dark-truecolor · 80x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..80 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected bold
+r1 c7..80 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..80 bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Muted bg=Background dim
+r3 c7..80 bg=Background
+r4 c0..2 bg=Background
+r4 c2..7 fg=Foreground bg=Background
+r4 c7..80 bg=Background
+
+== dark-truecolor · 120x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..120 bg=Background
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected bold
+r1 c7..120 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..120 bg=Background
+r3 c0..2 bg=Background
+r3 c2..7 fg=Muted bg=Background dim
+r3 c7..120 bg=Background
+r4 c0..2 bg=Background
+r4 c2..7 fg=Foreground bg=Background
+r4 c7..120 bg=Background
+
+== no-color · 40x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+
+== no-color · 80x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+
+== no-color · 120x5
+  row 0
+▸ row 1
+  row 2
+  row 3
+  row 4
+
+== ascii · 40x5
+  row 0
+> row 1
+  row 2
+  row 3
+  row 4
+
+== ascii · 80x5
+  row 0
+> row 1
+  row 2
+  row 3
+  row 4
+
+== ascii · 120x5
+  row 0
+> row 1
+  row 2
+  row 3
+  row 4

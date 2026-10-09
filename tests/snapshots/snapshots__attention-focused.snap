@@ -1,0 +1,256 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..36 fg=Foreground bg=Selected bold
+r0 c36..63 bg=Selected
+r0 c63..64 fg=Attention bg=Selected
+r0 c64..65 bg=Selected
+r0 c65..74 fg=Foreground bg=Selected
+r0 c74..76 bg=Selected
+r0 c76..84 fg=Muted bg=Selected
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..44 fg=Foreground bg=Selected
+r1 c44..84 bg=Selected
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..45 fg=Foreground bg=Selected
+r2 c45..84 bg=Selected
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..16 fg=Primary bg=Selected
+r3 c16..63 bg=Selected
+r3 c63..68 fg=Foreground bg=Selected bold
+r3 c68..69 bg=Selected
+r3 c69..73 fg=Muted bg=Selected
+r3 c73..76 fg=Border bg=Selected
+r3 c76..79 fg=Foreground bg=Selected bold
+r3 c79..80 bg=Selected
+r3 c80..84 fg=Muted bg=Selected
+r4 c0..84 bg=Selected
+
+== dark-graphite
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..36 fg=Foreground bg=Selected bold
+r0 c36..63 bg=Selected
+r0 c63..64 fg=Attention bg=Selected
+r0 c64..65 bg=Selected
+r0 c65..74 fg=Foreground bg=Selected
+r0 c74..76 bg=Selected
+r0 c76..84 fg=Muted bg=Selected
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..44 fg=Foreground bg=Selected
+r1 c44..84 bg=Selected
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..45 fg=Foreground bg=Selected
+r2 c45..84 bg=Selected
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..16 fg=Primary bg=Selected
+r3 c16..63 bg=Selected
+r3 c63..68 fg=Foreground bg=Selected bold
+r3 c68..69 bg=Selected
+r3 c69..73 fg=Muted bg=Selected
+r3 c73..76 fg=Border bg=Selected
+r3 c76..79 fg=Foreground bg=Selected bold
+r3 c79..80 bg=Selected
+r3 c80..84 fg=Muted bg=Selected
+r4 c0..84 bg=Selected
+
+== light-truecolor
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..36 fg=Foreground bg=Selected bold
+r0 c36..63 bg=Selected
+r0 c63..64 fg=Attention bg=Selected
+r0 c64..65 bg=Selected
+r0 c65..74 fg=Foreground bg=Selected
+r0 c74..76 bg=Selected
+r0 c76..84 fg=Muted bg=Selected
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..44 fg=Foreground bg=Selected
+r1 c44..84 bg=Selected
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..45 fg=Foreground bg=Selected
+r2 c45..84 bg=Selected
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..16 fg=Primary bg=Selected
+r3 c16..63 bg=Selected
+r3 c63..68 fg=Foreground bg=Selected bold
+r3 c68..69 bg=Selected
+r3 c69..73 fg=Muted bg=Selected
+r3 c73..76 fg=Border bg=Selected
+r3 c76..79 fg=Foreground bg=Selected bold
+r3 c79..80 bg=Selected
+r3 c80..84 fg=Muted bg=Selected
+r4 c0..84 bg=Selected
+
+== dark-256
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..36 fg=Foreground bg=Selected bold
+r0 c36..63 bg=Selected
+r0 c63..64 fg=Attention bg=Selected
+r0 c64..65 bg=Selected
+r0 c65..74 fg=Foreground bg=Selected
+r0 c74..76 bg=Selected
+r0 c76..84 fg=Muted bg=Selected
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..44 fg=Foreground bg=Selected
+r1 c44..84 bg=Selected
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..45 fg=Foreground bg=Selected
+r2 c45..84 bg=Selected
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..16 fg=Primary bg=Selected
+r3 c16..63 bg=Selected
+r3 c63..68 fg=Foreground bg=Selected bold
+r3 c68..69 bg=Selected
+r3 c69..73 fg=Muted bg=Selected
+r3 c73..76 fg=Border bg=Selected
+r3 c76..79 fg=Foreground bg=Selected bold
+r3 c79..80 bg=Selected
+r3 c80..84 fg=Muted bg=Selected
+r4 c0..84 bg=Selected
+
+== light-256
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary bg=Selected
+r0 c1..2 bg=Selected
+r0 c2..36 fg=Foreground bg=Selected bold
+r0 c36..63 bg=Selected
+r0 c63..64 fg=Attention bg=Selected
+r0 c64..65 bg=Selected
+r0 c65..74 fg=Foreground bg=Selected
+r0 c74..76 bg=Selected
+r0 c76..84 fg=Muted bg=Selected
+r1 c0..1 fg=Primary bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..44 fg=Foreground bg=Selected
+r1 c44..84 bg=Selected
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..45 fg=Foreground bg=Selected
+r2 c45..84 bg=Selected
+r3 c0..1 fg=Primary bg=Selected
+r3 c1..2 bg=Selected
+r3 c2..16 fg=Primary bg=Selected
+r3 c16..63 bg=Selected
+r3 c63..68 fg=Foreground bg=Selected bold
+r3 c68..69 bg=Selected
+r3 c69..73 fg=Muted bg=Selected
+r3 c73..76 fg=Border bg=Selected
+r3 c76..79 fg=Foreground bg=Selected bold
+r3 c79..80 bg=Selected
+r3 c80..84 fg=Muted bg=Selected
+r4 c0..84 bg=Selected
+
+== ansi-16
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary
+r0 c2..36 bold
+r0 c63..64 fg=Attention
+r0 c76..84 dim
+r1 c0..1 fg=Primary
+r2 c0..1 fg=Primary
+r3 c0..1 fg=Primary
+r3 c2..16 fg=Primary
+r3 c63..68 bold
+r3 c69..76 dim
+r3 c76..79 bold
+r3 c80..84 dim
+
+== unknown-ground
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c0..1 fg=Primary
+r0 c2..36 bold
+r0 c63..64 fg=Attention
+r0 c76..84 dim
+r1 c0..1 fg=Primary
+r2 c0..1 fg=Primary
+r3 c0..1 fg=Primary
+r3 c2..16 fg=Primary
+r3 c63..68 bold
+r3 c69..76 dim
+r3 c76..79 bold
+r3 c80..84 dim
+
+== no-color
+▸ codewhale-ratatui / Package review                           ◆ Needs you  just now
+▏ The preview catalogue is ready to inspect.
+▏ Review the package files before publishing.
+▏ Review package                                               Enter open · Esc back
+
+---
+r0 c2..36 bold
+r0 c76..84 dim
+r3 c63..68 bold
+r3 c69..76 dim
+r3 c76..79 bold
+r3 c80..84 dim
+
+== ascii
+> codewhale-ratatui / Package review                           * Needs you  just now
+| The preview catalogue is ready to inspect.
+| Review the package files before publishing.
+| Review package                                                Enter open  Esc back
+
+---
+r0 c2..36 bold
+r0 c76..84 dim
+r3 c64..69 bold
+r3 c70..74 dim
+r3 c76..79 bold
+r3 c80..84 dim

@@ -1,0 +1,340 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary bg=Surface
+r0 c63..71 fg=Attention bg=Surface bold
+r0 c71..72 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..71 bg=Surface
+r1 c71..72 fg=Primary bg=Surface
+r2 c0..2 fg=Primary bg=Surface
+r2 c2..3 bg=Surface
+r2 c3..10 fg=Foreground bg=Surface
+r2 c10..17 fg=Foreground bg=Selected
+r2 c17..47 fg=Foreground bg=Surface
+r2 c47..71 bg=Surface
+r2 c71..72 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..2 bg=Surface
+r3 c2..19 fg=Foreground bg=Surface
+r3 c19..65 fg=Muted bg=Surface
+r3 c65..71 bg=Surface
+r3 c71..72 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..19 fg=Primary bg=Surface
+r4 c19..66 fg=Foreground bg=Surface
+r4 c66..71 bg=Surface
+r4 c71..72 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..71 bg=Surface
+r5 c71..72 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..71 bg=Surface
+r6 c71..72 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..67 bg=Surface
+r7 c67..70 fg=Primary bg=Surface bold
+r7 c70..71 bg=Surface
+r7 c71..72 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..32 fg=Muted bg=Surface
+r8 c32..72 fg=Primary bg=Surface
+
+== dark-graphite
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary bg=Surface
+r0 c63..71 fg=Attention bg=Surface bold
+r0 c71..72 fg=Primary bg=Surface bold
+r1 c0..1 fg=Primary bg=Surface
+r1 c1..71 bg=Surface
+r1 c71..72 fg=Primary bg=Surface
+r2 c0..2 fg=Primary bg=Surface
+r2 c2..3 bg=Surface
+r2 c3..10 fg=Foreground bg=Surface
+r2 c10..17 fg=Foreground bg=Selected
+r2 c17..47 fg=Foreground bg=Surface
+r2 c47..71 bg=Surface
+r2 c71..72 fg=Primary bg=Surface
+r3 c0..1 fg=Primary bg=Surface
+r3 c1..2 bg=Surface
+r3 c2..19 fg=Foreground bg=Surface
+r3 c19..65 fg=Muted bg=Surface
+r3 c65..71 bg=Surface
+r3 c71..72 fg=Primary bg=Surface
+r4 c0..1 fg=Primary bg=Surface
+r4 c1..2 bg=Surface
+r4 c2..19 fg=Primary bg=Surface
+r4 c19..66 fg=Foreground bg=Surface
+r4 c66..71 bg=Surface
+r4 c71..72 fg=Primary bg=Surface
+r5 c0..1 fg=Primary bg=Surface
+r5 c1..71 bg=Surface
+r5 c71..72 fg=Primary bg=Surface
+r6 c0..1 fg=Primary bg=Surface
+r6 c1..71 bg=Surface
+r6 c71..72 fg=Primary bg=Surface
+r7 c0..1 fg=Primary bg=Surface
+r7 c1..67 bg=Surface
+r7 c67..70 fg=Primary bg=Surface bold
+r7 c70..71 bg=Surface
+r7 c71..72 fg=Primary bg=Surface
+r8 c0..1 fg=Primary bg=Surface
+r8 c1..32 fg=Muted bg=Surface
+r8 c32..72 fg=Primary bg=Surface
+
+== light-truecolor
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..2 fg=Primary
+r2 c3..10 fg=Foreground
+r2 c10..17 fg=Foreground bg=Selected
+r2 c17..47 fg=Foreground
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c2..19 fg=Foreground
+r3 c19..65 fg=Muted
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..19 fg=Primary
+r4 c19..66 fg=Foreground
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c71..72 fg=Primary
+r7 c0..1 fg=Primary
+r7 c67..70 fg=Primary bold
+r7 c71..72 fg=Primary
+r8 c0..1 fg=Primary
+r8 c1..32 fg=Muted
+r8 c32..72 fg=Primary
+
+== dark-256
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c63..71 fg=Attention bg=Surface|Hover|DiffRemovedTint bold
+r0 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r1 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c1..71 bg=Surface|Hover|DiffRemovedTint
+r1 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c2..3 bg=Surface|Hover|DiffRemovedTint
+r2 c3..10 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r2 c10..17 fg=Foreground bg=Selected
+r2 c17..47 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r2 c47..71 bg=Surface|Hover|DiffRemovedTint
+r2 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r3 c1..2 bg=Surface|Hover|DiffRemovedTint
+r3 c2..19 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r3 c19..65 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r3 c65..71 bg=Surface|Hover|DiffRemovedTint
+r3 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c1..2 bg=Surface|Hover|DiffRemovedTint
+r4 c2..19 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r4 c19..66 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r4 c66..71 bg=Surface|Hover|DiffRemovedTint
+r4 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r5 c1..71 bg=Surface|Hover|DiffRemovedTint
+r5 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r6 c1..71 bg=Surface|Hover|DiffRemovedTint
+r6 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r7 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r7 c1..67 bg=Surface|Hover|DiffRemovedTint
+r7 c67..70 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r7 c70..71 bg=Surface|Hover|DiffRemovedTint
+r7 c71..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r8 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r8 c1..32 fg=Muted bg=Surface|Hover|DiffRemovedTint
+r8 c32..72 fg=Primary bg=Surface|Hover|DiffRemovedTint
+
+== light-256
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..2 fg=Primary
+r2 c3..10 fg=Foreground
+r2 c10..17 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c17..47 fg=Foreground
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c2..19 fg=Foreground
+r3 c19..65 fg=Muted|Hint|Dim
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..19 fg=Primary
+r4 c19..66 fg=Foreground
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c71..72 fg=Primary
+r7 c0..1 fg=Primary
+r7 c67..70 fg=Primary bold
+r7 c71..72 fg=Primary
+r8 c0..1 fg=Primary
+r8 c1..32 fg=Muted|Hint|Dim
+r8 c32..72 fg=Primary
+
+== ansi-16
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..2 fg=Primary
+r2 c10..17 reversed
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c19..65 dim
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..19 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c71..72 fg=Primary
+r7 c0..1 fg=Primary
+r7 c67..70 fg=Primary bold
+r7 c71..72 fg=Primary
+r8 c0..32 fg=Primary dim
+r8 c32..72 fg=Primary
+
+== unknown-ground
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c0..63 fg=Primary
+r0 c63..71 fg=Attention bold
+r0 c71..72 fg=Primary bold
+r1 c0..1 fg=Primary
+r1 c71..72 fg=Primary
+r2 c0..2 fg=Primary
+r2 c10..17 reversed
+r2 c71..72 fg=Primary
+r3 c0..1 fg=Primary
+r3 c19..65 dim
+r3 c71..72 fg=Primary
+r4 c0..1 fg=Primary
+r4 c2..19 fg=Primary
+r4 c71..72 fg=Primary
+r5 c0..1 fg=Primary
+r5 c71..72 fg=Primary
+r6 c0..1 fg=Primary
+r6 c71..72 fg=Primary
+r7 c0..1 fg=Primary
+r7 c67..70 fg=Primary bold
+r7 c71..72 fg=Primary
+r8 c0..32 fg=Primary dim
+r8 c32..72 fg=Primary
+
+== no-color
+╭────────────────────────────────────────────────────────────── Builder╮
+│                                                                      │
+│❯ Review 鲸鱼 café and keep the change focused                        │
+│   /review          Review the current changes and show findings      │
+│ ▸ /test or /check  Run focused checks and preserve their receipt     │
+│                                                                      │
+│                                                                      │
+│                                                                  [↵] │
+╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
+---
+r0 c63..72 bold
+r2 c10..17 reversed
+r3 c19..65 dim
+r7 c67..70 bold
+r8 c0..32 dim
+
+== ascii
++-------------------------------------------------------------- Builder+
+|                                                                      |
+|> Review the source and keep the change focused                       |
+|   /review          Review the current changes and show findings      |
+| > /test or /check  Run focused checks and preserve their receipt     |
+|                                                                      |
+|                                                                      |
+|                                                                  [>] |
++Enter chooses; Esc closes menu ---------------------------------------+
+---
+r0 c63..72 bold
+r2 c10..15 reversed
+r3 c19..65 dim
+r7 c67..70 bold
+r8 c0..32 dim

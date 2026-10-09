@@ -1,0 +1,198 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c0..34 bg=Background
+r0 c34..35 bg=Surface
+r0 c35..36 fg=Live bg=Surface
+r0 c36..37 bg=Surface
+r0 c37..59 fg=Hint bg=Surface
+r0 c59..60 bg=Surface
+r1 c0..40 bg=Background
+r1 c40..41 bg=Surface
+r1 c41..42 fg=Live bg=Surface
+r1 c42..43 bg=Surface
+r1 c43..59 fg=Dim bg=Surface
+r1 c59..60 bg=Surface
+r2 c0..34 bg=Background
+r2 c34..35 bg=Surface
+r2 c35..36 fg=Live bg=Surface
+r2 c36..37 bg=Surface
+r2 c37..59 fg=Foreground bg=Surface
+r2 c59..60 bg=Surface
+r3 c0..40 bg=Background
+r3 c40..41 bg=Surface
+r3 c41..42 fg=Live bg=Surface
+r3 c42..43 bg=Surface
+r3 c43..59 fg=Foreground bg=Surface
+r3 c59..60 bg=Surface
+
+== dark-graphite
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c0..34 bg=Background
+r0 c34..35 bg=Surface
+r0 c35..36 fg=Live bg=Surface
+r0 c36..37 bg=Surface
+r0 c37..59 fg=Hint bg=Surface
+r0 c59..60 bg=Surface
+r1 c0..40 bg=Background
+r1 c40..41 bg=Surface
+r1 c41..42 fg=Live bg=Surface
+r1 c42..43 bg=Surface
+r1 c43..59 fg=Dim bg=Surface
+r1 c59..60 bg=Surface
+r2 c0..34 bg=Background
+r2 c34..35 bg=Surface
+r2 c35..36 fg=Live bg=Surface
+r2 c36..37 bg=Surface
+r2 c37..59 fg=Foreground bg=Surface
+r2 c59..60 bg=Surface
+r3 c0..40 bg=Background
+r3 c40..41 bg=Surface
+r3 c41..42 fg=Live bg=Surface
+r3 c42..43 bg=Surface
+r3 c43..59 fg=Foreground bg=Surface
+r3 c59..60 bg=Surface
+
+== light-truecolor
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c0..34 bg=Background
+r0 c34..35 bg=Surface
+r0 c35..36 fg=Live bg=Surface
+r0 c36..37 bg=Surface
+r0 c37..59 fg=Hint bg=Surface
+r0 c59..60 bg=Surface
+r1 c0..40 bg=Background
+r1 c40..41 bg=Surface
+r1 c41..42 fg=Live bg=Surface
+r1 c42..43 bg=Surface
+r1 c43..59 fg=Dim bg=Surface
+r1 c59..60 bg=Surface
+r2 c0..34 bg=Background
+r2 c34..35 bg=Surface
+r2 c35..36 fg=Live bg=Surface
+r2 c36..37 bg=Surface
+r2 c37..59 fg=Foreground bg=Surface
+r2 c59..60 bg=Surface
+r3 c0..40 bg=Background
+r3 c40..41 bg=Surface
+r3 c41..42 fg=Live bg=Surface
+r3 c42..43 bg=Surface
+r3 c43..59 fg=Foreground bg=Surface
+r3 c59..60 bg=Surface
+
+== dark-256
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c0..34 bg=Background
+r0 c34..35 bg=Surface|Hover
+r0 c35..36 fg=Live bg=Surface|Hover
+r0 c36..37 bg=Surface|Hover
+r0 c37..59 fg=Hint bg=Surface|Hover
+r0 c59..60 bg=Surface|Hover
+r1 c0..40 bg=Background
+r1 c40..41 bg=Surface|Hover
+r1 c41..42 fg=Live bg=Surface|Hover
+r1 c42..43 bg=Surface|Hover
+r1 c43..59 fg=Dim bg=Surface|Hover
+r1 c59..60 bg=Surface|Hover
+r2 c0..34 bg=Background
+r2 c34..35 bg=Surface|Hover
+r2 c35..36 fg=Live bg=Surface|Hover
+r2 c36..37 bg=Surface|Hover
+r2 c37..59 fg=Foreground bg=Surface|Hover
+r2 c59..60 bg=Surface|Hover
+r3 c0..40 bg=Background
+r3 c40..41 bg=Surface|Hover
+r3 c41..42 fg=Live bg=Surface|Hover
+r3 c42..43 bg=Surface|Hover
+r3 c43..59 fg=Foreground bg=Surface|Hover
+r3 c59..60 bg=Surface|Hover
+
+== light-256
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c0..35 bg=Background|Surface
+r0 c35..36 fg=Live bg=Background|Surface
+r0 c36..37 bg=Background|Surface
+r0 c37..59 fg=Hint bg=Background|Surface
+r0 c59..60 bg=Background|Surface
+r1 c0..41 bg=Background|Surface
+r1 c41..42 fg=Live bg=Background|Surface
+r1 c42..43 bg=Background|Surface
+r1 c43..59 fg=Dim bg=Background|Surface
+r1 c59..60 bg=Background|Surface
+r2 c0..35 bg=Background|Surface
+r2 c35..36 fg=Live bg=Background|Surface
+r2 c36..37 bg=Background|Surface
+r2 c37..59 fg=Foreground bg=Background|Surface
+r2 c59..60 bg=Background|Surface
+r3 c0..41 bg=Background|Surface
+r3 c41..42 fg=Live bg=Background|Surface
+r3 c42..43 bg=Background|Surface
+r3 c43..59 fg=Foreground bg=Background|Surface
+r3 c59..60 bg=Background|Surface
+
+== ansi-16
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c35..36 fg=Live
+r0 c37..59 dim
+r1 c41..42 fg=Live
+r1 c43..59 dim
+r2 c35..36 fg=Live
+r3 c41..42 fg=Live
+
+== unknown-ground
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c35..36 fg=Live
+r0 c37..59 dim
+r1 c41..42 fg=Live
+r1 c43..59 dim
+r2 c35..36 fg=Live
+r3 c41..42 fg=Live
+
+== no-color
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+                                   ✓ Theme set to Shoreline
+                                         ✓ Saved summary.md
+---
+r0 c37..59 dim
+r1 c43..59 dim
+
+== ascii
+                                   Y Theme set to Shoreline
+                                         Y Saved summary.md
+                                   Y Theme set to Shoreline
+                                         Y Saved summary.md
+---
+r0 c37..59 dim
+r1 c43..59 dim

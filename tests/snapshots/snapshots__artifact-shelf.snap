@@ -1,0 +1,464 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..15 fg=Foreground bg=Background
+r6 c15..76 bg=Background
+r6 c76..80 fg=Primary bg=Background
+r7 c0..2 bg=Background
+r7 c2..3 fg=Muted bg=Background
+r7 c3..4 bg=Background
+r7 c4..9 fg=Foreground bg=Background
+r7 c9..12 fg=Dim bg=Background
+r7 c12..16 fg=Muted bg=Background
+r7 c16..19 fg=Dim bg=Background
+r7 c19..36 fg=Muted bg=Background
+r7 c36..80 bg=Background
+
+== dark-graphite
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..15 fg=Foreground bg=Background
+r6 c15..76 bg=Background
+r6 c76..80 fg=Primary bg=Background
+r7 c0..2 bg=Background
+r7 c2..3 fg=Muted bg=Background
+r7 c3..4 bg=Background
+r7 c4..9 fg=Foreground bg=Background
+r7 c9..12 fg=Dim bg=Background
+r7 c12..16 fg=Muted bg=Background
+r7 c16..19 fg=Dim bg=Background
+r7 c19..36 fg=Muted bg=Background
+r7 c36..80 bg=Background
+
+== light-truecolor
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..15 fg=Foreground bg=Background
+r6 c15..76 bg=Background
+r6 c76..80 fg=Primary bg=Background
+r7 c0..2 bg=Background
+r7 c2..3 fg=Muted bg=Background
+r7 c3..4 bg=Background
+r7 c4..9 fg=Foreground bg=Background
+r7 c9..12 fg=Dim bg=Background
+r7 c12..16 fg=Muted bg=Background
+r7 c16..19 fg=Dim bg=Background
+r7 c19..36 fg=Muted bg=Background
+r7 c36..80 bg=Background
+
+== dark-256
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Primary bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Primary bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..15 fg=Foreground bg=Background
+r6 c15..76 bg=Background
+r6 c76..80 fg=Primary bg=Background
+r7 c0..2 bg=Background
+r7 c2..3 fg=Muted bg=Background
+r7 c3..4 bg=Background
+r7 c4..9 fg=Foreground bg=Background
+r7 c9..12 fg=Dim bg=Background
+r7 c12..16 fg=Muted bg=Background
+r7 c16..19 fg=Dim bg=Background
+r7 c19..36 fg=Muted bg=Background
+r7 c36..80 bg=Background
+
+== light-256
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background|Surface
+r0 c2..22 fg=Foreground bg=Background|Surface
+r0 c22..76 bg=Background|Surface
+r0 c76..80 fg=Primary bg=Background|Surface
+r1 c0..2 bg=Background|Surface
+r1 c2..3 fg=Live bg=Background|Surface
+r1 c3..4 bg=Background|Surface
+r1 c4..8 fg=Foreground bg=Background|Surface
+r1 c8..11 fg=Dim bg=Background|Surface
+r1 c11..15 fg=Muted bg=Background|Surface
+r1 c15..18 fg=Dim bg=Background|Surface
+r1 c18..23 fg=Muted bg=Background|Surface
+r1 c23..30 fg=Foreground bg=Background|Surface
+r1 c30..33 fg=Dim bg=Background|Surface
+r1 c33..58 fg=Muted bg=Background|Surface
+r1 c58..80 bg=Background|Surface
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Primary bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background|Surface
+r4 c2..20 fg=Foreground bg=Background|Surface
+r4 c20..73 bg=Background|Surface
+r4 c73..80 fg=Primary bg=Background|Surface
+r5 c0..2 bg=Background|Surface
+r5 c2..3 fg=Live bg=Background|Surface
+r5 c3..4 bg=Background|Surface
+r5 c4..8 fg=Foreground bg=Background|Surface
+r5 c8..11 fg=Dim bg=Background|Surface
+r5 c11..14 fg=Muted bg=Background|Surface
+r5 c14..17 fg=Dim bg=Background|Surface
+r5 c17..24 fg=Muted bg=Background|Surface
+r5 c24..26 fg=Foreground bg=Background|Surface
+r5 c26..29 fg=Dim bg=Background|Surface
+r5 c29..49 fg=Muted bg=Background|Surface
+r5 c49..80 bg=Background|Surface
+r6 c0..2 bg=Background|Surface
+r6 c2..15 fg=Foreground bg=Background|Surface
+r6 c15..76 bg=Background|Surface
+r6 c76..80 fg=Primary bg=Background|Surface
+r7 c0..2 bg=Background|Surface
+r7 c2..3 fg=Muted bg=Background|Surface
+r7 c3..4 bg=Background|Surface
+r7 c4..9 fg=Foreground bg=Background|Surface
+r7 c9..12 fg=Dim bg=Background|Surface
+r7 c12..16 fg=Muted bg=Background|Surface
+r7 c16..19 fg=Dim bg=Background|Surface
+r7 c19..36 fg=Muted bg=Background|Surface
+r7 c36..80 bg=Background|Surface
+
+== ansi-16
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c76..80 fg=Primary
+r1 c2..3 fg=Live
+r1 c8..23 dim
+r1 c30..58 dim
+r2 c0..1 fg=Primary
+r2 c2..22 bold
+r2 c74..80 fg=Primary
+r3 c2..3 fg=Attention
+r3 c13..31 dim
+r3 c32..58 dim
+r4 c73..80 fg=Primary
+r5 c2..3 fg=Live
+r5 c8..24 dim
+r5 c26..49 dim
+r6 c76..80 fg=Primary
+r7 c2..3 dim
+r7 c9..36 dim
+
+== unknown-ground
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c76..80 fg=Primary
+r1 c2..3 fg=Live
+r1 c8..23 dim
+r1 c30..58 dim
+r2 c0..1 fg=Primary
+r2 c2..22 bold
+r2 c74..80 fg=Primary
+r3 c2..3 fg=Attention
+r3 c13..31 dim
+r3 c32..58 dim
+r4 c73..80 fg=Primary
+r5 c2..3 fg=Live
+r5 c8..24 dim
+r5 c26..49 dim
+r6 c76..80 fg=Primary
+r7 c2..3 dim
+r7 c9..36 dim
+
+== no-color
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r1 c8..23 dim
+r1 c30..58 dim
+r2 c2..22 bold
+r3 c13..31 dim
+r3 c32..58 dim
+r5 c8..24 dim
+r5 c26..49 dim
+r7 c2..3 dim
+r7 c9..36 dim
+
+== ascii
+  Release checklist.md                                                      Open
+  Y Done . File . Size 4.2 KiB . docs/release-checklist.md
+> Conversation changes                                                    Review
+  * Needs you . Review . Files 3 . Composer and transcript
+  Local verification                                                     Inspect
+  Y Done . Run . Checks 15 . Reported by the host
+  Working notes                                                             Open
+  o Ready . Link . Project reference
+---
+r1 c8..23 dim
+r1 c30..58 dim
+r2 c2..22 bold
+r3 c13..31 dim
+r3 c32..58 dim
+r5 c8..24 dim
+r5 c26..49 dim
+r7 c2..3 dim
+r7 c9..36 dim

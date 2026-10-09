@@ -1,0 +1,468 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..101 fg=Foreground bg=Background
+r0 c101..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..14 fg=Foreground bg=Background bold
+r3 c14..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..101 fg=Foreground bg=Sidebar
+r3 c101..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..112 fg=Foreground bg=Sidebar
+r7 c0..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..112 fg=Foreground bg=Sidebar
+r9 c0..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..112 fg=Foreground bg=Sidebar
+r10 c0..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Sidebar
+r11 c2..57 fg=Muted bg=Sidebar
+r11 c57..112 fg=Foreground bg=Sidebar
+
+== dark-graphite
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..101 fg=Foreground bg=Background
+r0 c101..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..14 fg=Foreground bg=Background bold
+r3 c14..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..101 fg=Foreground bg=Sidebar
+r3 c101..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..112 fg=Foreground bg=Sidebar
+r7 c0..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..112 fg=Foreground bg=Sidebar
+r9 c0..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..112 fg=Foreground bg=Sidebar
+r10 c0..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Sidebar
+r11 c2..57 fg=Muted bg=Sidebar
+r11 c57..112 fg=Foreground bg=Sidebar
+
+== light-truecolor
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..101 fg=Foreground bg=Background
+r0 c101..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..14 fg=Foreground bg=Background bold
+r3 c14..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..101 fg=Foreground bg=Sidebar
+r3 c101..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..112 fg=Foreground bg=Sidebar
+r7 c0..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..112 fg=Foreground bg=Sidebar
+r9 c0..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..112 fg=Foreground bg=Sidebar
+r10 c0..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Sidebar
+r11 c2..57 fg=Muted bg=Sidebar
+r11 c57..112 fg=Foreground bg=Sidebar
+
+== dark-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c0..2 fg=Foreground bg=Background
+r0 c2..11 fg=Primary bg=Background bold
+r0 c11..16 fg=BorderStrong bg=Background
+r0 c16..52 fg=Muted bg=Background
+r0 c52..101 fg=Foreground bg=Background
+r0 c101..110 fg=Foreground bg=Background bold
+r0 c110..112 fg=Foreground bg=Background
+r1 c0..112 fg=Border bg=Background
+r2 c0..75 fg=Foreground bg=Background
+r2 c75..76 fg=Border bg=Background
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background
+r3 c2..14 fg=Foreground bg=Background bold
+r3 c14..68 fg=Foreground bg=Background
+r3 c68..73 fg=Muted bg=Background
+r3 c73..75 fg=Foreground bg=Background
+r3 c75..76 fg=Border bg=Background
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..101 fg=Foreground bg=Sidebar
+r3 c101..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background
+r4 c2..73 fg=Border bg=Background
+r4 c73..75 fg=Foreground bg=Background
+r4 c75..76 fg=Border bg=Background
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background
+r5 c75..76 fg=Border bg=Background
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..75 fg=Foreground bg=Background
+r6 c75..76 fg=Border bg=Background
+r6 c76..112 fg=Foreground bg=Sidebar
+r7 c0..75 fg=Foreground bg=Background
+r7 c75..76 fg=Border bg=Background
+r7 c76..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background
+r8 c75..76 fg=Border bg=Background
+r8 c76..112 fg=Foreground bg=Sidebar
+r9 c0..75 fg=Foreground bg=Background
+r9 c75..76 fg=Border bg=Background
+r9 c76..112 fg=Foreground bg=Sidebar
+r10 c0..75 fg=Foreground bg=Background
+r10 c75..76 fg=Border bg=Background
+r10 c76..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Sidebar
+r11 c2..57 fg=Muted bg=Sidebar
+r11 c57..112 fg=Foreground bg=Sidebar
+
+== light-256
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c0..2 fg=Foreground bg=Background|Surface
+r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c11..16 fg=BorderStrong bg=Background|Surface
+r0 c16..52 fg=Muted bg=Background|Surface
+r0 c52..101 fg=Foreground bg=Background|Surface
+r0 c101..110 fg=Foreground bg=Background|Surface bold
+r0 c110..112 fg=Foreground bg=Background|Surface
+r1 c0..112 fg=Border bg=Background|Surface
+r2 c0..75 fg=Foreground bg=Background|Surface
+r2 c75..76 fg=Border bg=Background|Surface
+r2 c76..112 fg=Foreground bg=Sidebar
+r3 c0..2 fg=Foreground bg=Background|Surface
+r3 c2..14 fg=Foreground bg=Background|Surface bold
+r3 c14..68 fg=Foreground bg=Background|Surface
+r3 c68..73 fg=Muted bg=Background|Surface
+r3 c73..75 fg=Foreground bg=Background|Surface
+r3 c75..76 fg=Border bg=Background|Surface
+r3 c76..78 fg=Foreground bg=Sidebar
+r3 c78..92 fg=Foreground bg=Sidebar bold
+r3 c92..101 fg=Foreground bg=Sidebar
+r3 c101..110 fg=Muted bg=Sidebar
+r3 c110..112 fg=Foreground bg=Sidebar
+r4 c0..2 fg=Foreground bg=Background|Surface
+r4 c2..73 fg=Border bg=Background|Surface
+r4 c73..75 fg=Foreground bg=Background|Surface
+r4 c75..76 fg=Border bg=Background|Surface
+r4 c76..78 fg=Foreground bg=Sidebar
+r4 c78..110 fg=Border bg=Sidebar
+r4 c110..112 fg=Foreground bg=Sidebar
+r5 c0..75 fg=Foreground bg=Background|Surface
+r5 c75..76 fg=Border bg=Background|Surface
+r5 c76..112 fg=Foreground bg=Sidebar
+r6 c0..75 fg=Foreground bg=Background|Surface
+r6 c75..76 fg=Border bg=Background|Surface
+r6 c76..112 fg=Foreground bg=Sidebar
+r7 c0..75 fg=Foreground bg=Background|Surface
+r7 c75..76 fg=Border bg=Background|Surface
+r7 c76..112 fg=Foreground bg=Sidebar
+r8 c0..75 fg=Foreground bg=Background|Surface
+r8 c75..76 fg=Border bg=Background|Surface
+r8 c76..112 fg=Foreground bg=Sidebar
+r9 c0..75 fg=Foreground bg=Background|Surface
+r9 c75..76 fg=Border bg=Background|Surface
+r9 c76..112 fg=Foreground bg=Sidebar
+r10 c0..75 fg=Foreground bg=Background|Surface
+r10 c75..76 fg=Border bg=Background|Surface
+r10 c76..112 fg=Foreground bg=Sidebar
+r11 c0..2 fg=Foreground bg=Sidebar
+r11 c2..57 fg=Muted bg=Sidebar
+r11 c57..112 fg=Foreground bg=Sidebar
+
+== ansi-16
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c101..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..14 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c101..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c75..76 dim
+r7 c75..76 dim
+r8 c75..76 dim
+r9 c75..76 dim
+r10 c75..76 dim
+r11 c2..57 dim
+
+== unknown-ground
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c2..11 fg=Primary bold
+r0 c16..52 dim
+r0 c101..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..14 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c101..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c75..76 dim
+r7 c75..76 dim
+r8 c75..76 dim
+r9 c75..76 dim
+r10 c75..76 dim
+r11 c2..57 dim
+
+== no-color
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                           │
+  Conversation                                                      Today  │  Files & review         4 changed
+  ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+                                                                           │
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c101..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..14 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c101..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c75..76 dim
+r7 c75..76 dim
+r8 c75..76 dim
+r9 c75..76 dim
+r10 c75..76 dim
+r11 c2..57 dim
+
+== ascii
+  Codewhale  /  codewhale-ratatui / workspace-polish                                                 Workspace
+----------------------------------------------------------------------------------------------------------------
+                                                                           |
+  Conversation                                                      Today  |  Files & review         4 changed
+  -----------------------------------------------------------------------  |  --------------------------------
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+                                                                           |
+  Illustrative workspace / host owns sessions and actions
+---
+r0 c2..11 bold
+r0 c16..52 dim
+r0 c101..110 bold
+r1 c0..112 dim
+r2 c75..76 dim
+r3 c2..14 bold
+r3 c68..73 dim
+r3 c75..76 dim
+r3 c78..92 bold
+r3 c101..110 dim
+r4 c2..73 dim
+r4 c75..76 dim
+r4 c78..110 dim
+r5 c75..76 dim
+r6 c75..76 dim
+r7 c75..76 dim
+r8 c75..76 dim
+r9 c75..76 dim
+r10 c75..76 dim
+r11 c2..57 dim
