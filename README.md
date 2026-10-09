@@ -182,20 +182,24 @@ The native conversation layout, composer and workbar, plus interactive component
 
 <a id="the-animated-whale-pet"></a>
 <details>
-<summary>The animated whale pet · 5 examples</summary>
+<summary>The animated whale pet · 6 examples</summary>
 
 The native cove, reading, attention and pod, plus the full pet surface.
 
-![Pet cove, Pet reading, Pet needs you — dark truecolor](<assets/readme/pet.dark-truecolor-1.svg>)
+![Pet dot search, Pet cove, Pet reading — dark truecolor](<assets/readme/pet.dark-truecolor-1.svg>)
 
-![Pet pod, Pet mode — dark truecolor](<assets/readme/pet.dark-truecolor-2.svg>)
+![Pet needs you, Pet pod — dark truecolor](<assets/readme/pet.dark-truecolor-2.svg>)
+
+![Pet mode — dark truecolor](<assets/readme/pet.dark-truecolor-3.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
-![Pet cove, Pet reading, Pet needs you — light truecolor](<assets/readme/pet.light-truecolor-1.svg>)
+![Pet dot search, Pet cove, Pet reading — light truecolor](<assets/readme/pet.light-truecolor-1.svg>)
 
-![Pet pod, Pet mode — light truecolor](<assets/readme/pet.light-truecolor-2.svg>)
+![Pet needs you, Pet pod — light truecolor](<assets/readme/pet.light-truecolor-2.svg>)
+
+![Pet mode — light truecolor](<assets/readme/pet.light-truecolor-3.svg>)
 
 </details>
 
