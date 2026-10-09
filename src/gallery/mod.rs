@@ -43,6 +43,7 @@ mod native_chrome;
 mod native_views;
 mod ocean;
 mod pending_input;
+mod pet;
 mod picker;
 mod posture;
 mod scenes;
@@ -87,6 +88,7 @@ pub fn entries() -> Vec<Entry> {
         tui_palettes::entries(),
         scenes::entries(),
         showcase::entries(),
+        pet::entries(),
         workbench::entries(),
         attention::entries(),
         artifacts::entries(),
