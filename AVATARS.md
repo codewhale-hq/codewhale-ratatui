@@ -58,3 +58,30 @@ it to the live owner/scope and withdraws it on disable/revoke/failure. Ratatui
 only receives reviewed presentation data. In the Engine TUI use `/pet avatar`,
 `/pet avatar whale-girl`, `/pet action read`, `/pet view back`, and
 `/pet action live`. Selection and preview are session-local in the TUI.
+
+## Prepared dot whale
+
+`DotWhale::new(points, materials)` paints a prepared point field supplied by the
+shared pet owner. The canonical character has 980 points, each paired with a
+final `[r, g, b, alpha]` material. The painter accepts one to 980 finite points
+inside `[-1, 1]`, matching material counts, RGB channels in `0..=255`, and alpha
+in `0..=1`. It fits that fixed envelope into terminal braille cells and adapts
+ink to the existing theme. It has no simulation, activity classifier or clock.
+
+Supply an honest `.caption(...)` and optional `.action_id(...)`; the default is
+`Activity unobserved`. Captions remain available in ASCII, narrow layouts and
+when point data cannot be painted. The caller owns source/freshness validation
+and selects the owner's `still` pose for reduced motion; stopping redraws of a
+moving pose does not select Still.
+
+The example reads a prepared owner JSON capture and reloads changed file data:
+
+```sh
+cargo run --example dot_whale -- --frame /path/to/owner-frame.json
+cargo run --example dot_whale -- --frame /path/to/owner-frame.json --still --svg whale-still.svg
+```
+
+Space toggles Still; Q closes. If the capture has no `still` pose, the example
+says `Still frame unavailable`. Its caption uses supplied typed activity and
+freshness metadata. A captured or synthetic preview is not a live Engine
+session, and this example does not connect to the owner transport itself.
