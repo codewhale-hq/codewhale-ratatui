@@ -3,7 +3,7 @@ use std::collections::BTreeMap;
 use ratatui::{
     buffer::Buffer,
     layout::{Alignment, Rect},
-    style::{Color, Modifier, Style},
+    style::{Modifier, Style},
     widgets::{Paragraph, Widget, Wrap},
 };
 
@@ -127,34 +127,6 @@ fn caption(label: &str, area: Rect, buf: &mut Buffer, style: Style) {
     }
 }
 
-fn ink(pigment: Color, alpha: f32, background: Color, theme: &Theme) -> Style {
-    if !theme.paints_grounds() {
-        return theme.fg(Role::Primary);
-    }
-    let ground = color::resolvable_rgb(background)
-        .map(|(r, g, b)| Color::Rgb(r, g, b))
-        .unwrap_or_else(|| theme.token(Role::Background));
-    let base = color::blend(pigment, ground, alpha);
-    let quantize = |color| match (theme.depth(), color) {
-        (color::ColorDepth::Ansi256, Color::Rgb(r, g, b)) => {
-            Color::Indexed(color::rgb_to_ansi256(r, g, b))
-        }
-        (_, color) => color,
-    };
-    let mut result = quantize(base);
-    for step in 1..=8 {
-        if color::contrast_ratio(result, ground).is_none_or(|ratio| ratio >= 3.0) {
-            break;
-        }
-        result = quantize(color::blend(
-            theme.token(Role::Primary),
-            base,
-            step as f32 / 8.0,
-        ));
-    }
-    Style::default().fg(result)
-}
-
 impl Paint for DotWhale<'_> {
     fn height(&self, width: u16, theme: &Theme) -> u16 {
         if width == 0 {
@@ -217,8 +189,8 @@ impl Paint for DotWhale<'_> {
         for ((x, y), dot) in cells {
             if let Some(cell) = buf.cell_mut((x, y)) {
                 let [r, g, b] = dot.pigment.map(|sum| (sum / dot.weight).round() as u8);
-                let mut style = ink(
-                    Color::Rgb(r, g, b),
+                let mut style = color::prepared_ink(
+                    [r, g, b],
                     (dot.weight / f64::from(dot.count)) as f32,
                     cell.bg,
                     theme,

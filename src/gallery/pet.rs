@@ -1,15 +1,32 @@
 //! The current native whale and pet surface, sampled on the host's clock.
 //! Activity and pod counts here are explicit catalogue fixtures.
 
-use std::time::{Duration, Instant};
+use std::{
+    sync::OnceLock,
+    time::{Duration, Instant},
+};
 
 use ratatui::{buffer::Buffer, layout::Rect, widgets::StatefulWidget};
 
 use super::Entry;
 use crate::{
-    MotionMode, PetMode, PetModeState, State, StatusMark, Theme, WhalePet,
+    DotWhale, MotionMode, Paint, PetMode, PetModeState, State, StatusMark, Theme, WhalePet,
     whale_motion::{Activity, Context, Inputs, Presence, Stage},
 };
+
+#[derive(serde::Deserialize)]
+struct DotWhaleSample {
+    points: Vec<[f64; 2]>,
+    materials: Vec<[f64; 4]>,
+}
+
+fn dot_whale_sample() -> &'static DotWhaleSample {
+    static SAMPLE: OnceLock<DotWhaleSample> = OnceLock::new();
+    SAMPLE.get_or_init(|| {
+        serde_json::from_str(include_str!("../../assets/dot-whale-search.json"))
+            .expect("valid dot-whale gallery fixture")
+    })
+}
 
 fn pet(area: Rect, buf: &mut Buffer, theme: &Theme, presence: Presence, kind: Option<&str>) {
     let mut stage = Stage::new();
@@ -58,8 +75,22 @@ fn pet_mode(area: Rect, buf: &mut Buffer, theme: &Theme) {
     view.render(area, buf, &mut state);
 }
 
+fn dot_whale(area: Rect, buf: &mut Buffer, theme: &Theme) {
+    let sample = dot_whale_sample();
+    DotWhale::new(&sample.points, &sample.materials)
+        .caption("Searching")
+        .action_id(Some("grep_files"))
+        .paint(area, buf, theme);
+}
+
 pub(crate) fn entries() -> Vec<Entry> {
     vec![
+        Entry {
+            name: "pet-dot-search",
+            width: 64,
+            height: 28,
+            draw: dot_whale,
+        },
         Entry {
             name: "pet-cove",
             width: 64,
