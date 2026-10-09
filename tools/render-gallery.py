@@ -37,6 +37,7 @@ MONO = "'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation
 SANS = ",".join(f"'{family}'" for family in [TOKENS["typography"]["family"], *TOKENS["typography"]["fallbacks"]]) + ",-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
 GROUPS = {
     "studio": ("The live component gallery", "The native conversation layout, composer and workbar, plus interactive component studies"),
+    "pet": ("The animated whale pet", "The native cove, reading, attention and pod, plus the full pet surface"),
     "native-views": ("Codewhale terminal views", "Sessions, settings, pickers and work panels built from reusable native parts"),
     "native-chrome": ("The native composer and footer", "Composer geometry, permission and mode, workflow rows and model/context metrics"),
     "workbar": ("The native workbar", "Tasks, Fleet, Jobs, Files, Notes, Context, Git and Cost; bottom, top and side placement"),
@@ -72,6 +73,8 @@ def element(parent, tag, attrs=None, text=None):
 
 
 def classify(name):
+    if name.startswith("pet-"):
+        return "pet"
     if name.startswith("tui-theme-"):
         return "tui-palettes"
     if name.startswith(("native-composer", "workflow-", "posture-", "metrics-")):
@@ -386,7 +389,7 @@ def readme_gallery(readme, destination, index):
                if item["profile"] != "all" and not item["profile"].startswith("light")]
     families = list(dict.fromkeys(item["group"] for item in primary))
     sections = {
-        "Native Codewhale": ["studio", "native-views", "native-chrome", "workbar"],
+        "Native Codewhale": ["studio", "pet", "native-views", "native-chrome", "workbar"],
         "Color and atmosphere": ["tui-palettes", "water"],
         "Inputs and controls": ["foundation", "input", "chrome"],
         "Conversation and work": ["transcript", "components", "display", "scenes"],
@@ -412,6 +415,10 @@ def readme_gallery(readme, destination, index):
                 lines.extend(embed(item) + "\n" for item in light)
                 lines.extend(["</details>", ""])
             movies = {
+                "pet": [("pet-dark.gif", "The whale's cove and activity tour — dark"),
+                        ("pet-light.gif", "The same animated whale — light"),
+                        ("pet-mode-dark.gif", "Full pet surface at rest — dark"),
+                        ("pet-mode-light.gif", "Full pet surface at rest — light")],
                 "studio": [("showcase.gif", "Native work, approval and completion"),
                            ("showcase-light.gif", "The same native layout in WhaleLight")],
                 "motion": [("motion-demo.gif", "Working and verification spinners — Ocean"),

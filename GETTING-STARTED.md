@@ -68,6 +68,39 @@ also expose `.paint(area, buffer, &theme)` for composing into one buffer. Most
 components are display values; rebuilding one from your current state during
 draw is fine. Keep editing, selection and animation state between frames.
 
+## Add the animated pet
+
+Run `cargo run --locked --example pet` for the current full-color whale and
+its cove. The tour covers all 17 authored activities. Use **← / →** to choose
+an action, **Space** for still motion, **C** for scenery, **B** for Braille,
+**V** for the rig's viewing direction, **P** for terminal profiles and **Q**
+to close. Pointer movement draws its attention; clicking the water makes ripples.
+
+Keep one `Stage` per session, report your app's real activity with
+`Stage::observe`, and advance it from your existing event loop:
+
+```rust
+use codewhale_ratatui::{Theme, WhalePet, whale_motion::Stage};
+
+fn draw_pet(frame: &mut ratatui::Frame<'_>, theme: &Theme, stage: &mut Stage) {
+    stage.advance(std::time::Instant::now());
+    frame.render_stateful_widget(WhalePet::new(theme), frame.area(), stage);
+}
+```
+
+Use `stage.cadence(Tier::Hero)` to schedule color frames and `Tier::Terminal`
+for Braille. `None` means no animation wakeup is needed. Reduced motion uses
+the authored poster; `stage.set_visible(false)` suspends hidden animation.
+The component keeps the activity caption visible in monochrome, ASCII and
+small viewports. The [pet example](examples/pet.rs) includes the complete
+input, pointer mapping, capability and terminal-cleanup code.
+
+For a whale-centered work surface with reply and agent panes, use `PetMode`
+and retain a `PetModeState` between frames. Try the idle-only example with
+`cargo run --locked --example pet_mode`: **L** toggles motion and **Q** exits.
+Your host supplies the real session, transcript and agent data.
+[Avatar packs](AVATARS.md) provide the optional 2D Whale girl and custom artwork.
+
 ## Connect input to your state
 
 Drawing a composer does not handle keyboard input. Keep `TextInputState` in
@@ -113,6 +146,8 @@ the chosen row; your app performs its action.
 | Add a still or animated whale | `Whale`, `WhaleState`, `whale_motion::Stage` | recipes F4/F5 |
 | Add fish, jellyfish and bubbles | `Habitat`, `FishSchool`, `Jellyfish`, `BubbleField` | [habitat](examples/habitat.rs) |
 | Show work in progress | `Spinner`, `VerificationSpinner`, `MotionSet`, `FrameBudget` | [motion](examples/motion.rs) |
+| Add the native animated whale and cove | `WhalePet`, `Stage` | [pet](examples/pet.rs) |
+| Compose the full pet work surface | `PetMode`, `PetModeState` | [pet mode](examples/pet_mode.rs) |
 
 The [view guide](VIEWS.md) maps Codewhale's terminal screens to these parts.
 The [gallery](examples/gallery.rs) shows variations at different widths and

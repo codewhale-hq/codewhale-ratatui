@@ -64,6 +64,8 @@ Gallery names are the exact names accepted by the gallery example; the
 | Engine `ambient_life.rs`; GPUI `whale/habitat.rs`, `whale/stage.rs::CoveScene` | `Habitat`, `FishSchool`, `Jellyfish`, `BubbleField`, `HabitatDensity` | Primitive/composite | `fish-school`, `jellyfish`, `bubble-field`, `habitat-scene`, `habitat-ascii`, `habitat-reduced` |
 | GPUI `whale/acting.rs::Director`, `whale/rig.rs`, `whale/scene.rs`, `whale/stage.rs::Stage`, canonical `vendor/whale-character-v2` authoring data; Engine `ambient_life/pet_widget.rs::render_grid`, `pet_watch/mod.rs` | `BrailleFrame`, `Whale`, `WhaleState`, `Whale::paint_frame`, `whale_motion::{Director, Stage, Inputs}`, colored Braille frame helpers | Character renderer/shared performance core | `whale-rest`, `whale-busy`, `whale-needs`, `whale-done`, `whale-pod-1`, `whale-pod-3`, `whale-actions`, `whale-compact`, `whale-words-only`, `showcase-life` |
 | Engine `ocean.rs::OceanRamp`, `OceanColumn`, `underwater.rs::ShellPhase`; canonical logo and semantic tokens | `OceanRamp`, `OceanColumn`, `OceanPhase`, `OceanPaintFacts`, `OceanCausticFacts`, `OceanContrastInks`, `ocean_semantic_surfaces`; optional `Ombre`, `OmbreDirection`, `WaterPalette` | Background finishing passes | `ocean-column`, `ocean-phases`, `ocean-context`, `ocean-reduced`, `ocean-native-guarded`; `atmosphere-ocean`, `atmosphere-lagoon`, `atmosphere-dusk`, `atmosphere-coral`, `atmosphere-graphite`, `showcase-color` |
+| Shared native whale performance and cove | `WhalePet`, `PetStyle`, `Stage` | Composite | `pet-cove`, `pet-reading`, `pet-needs-you`, `pet-pod` |
+| Shared pet work surface | `PetMode`, `PetModeState` | Composite | `pet-mode` |
 
 The integrated `showcase-work`, `showcase-decision`, `showcase-color`,
 `showcase-life` and `showcase-narrow` scenes arrange existing components with
@@ -127,6 +129,10 @@ bytes used for copy or link actions.
   hues. Character and syntax colors are content.
 
 ## Live GPUI whale pet
+
+The `pet-cove`, `pet-reading`, `pet-needs-you` and `pet-pod` gallery entries
+show this widget in every terminal profile. `pet-mode` shows the full idle
+work surface. The catalogue uses explicit sample activity and fixed times.
 
 `WhalePet` is a stateful Ratatui widget over the same `whale_motion::Stage`
 as GPUI. It paints the full-color contour whale in its animated cove, including
