@@ -1,0 +1,4250 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Codewhale   ○ Idle
+
+                                               ▄▄▄▄▄▄▄▄▄▄▄
+                                       ▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+                                  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                               ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                             ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                           ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀
+                       ▀ ▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀ ▀
+                                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary bg=Background
+r0 c9..12 fg=Foreground bg=Background
+r0 c12..13 fg=Muted bg=Background
+r0 c13..100 fg=Foreground bg=Background
+r1 c0..100 fg=Foreground bg=Background
+r2 c0..47 fg=Foreground bg=Background
+r2 c47..48 fg=#102648 bg=Background
+r2 c48..58 fg=#172d49 bg=Background
+r2 c58..100 fg=Foreground bg=Background
+r3 c0..39 fg=Foreground bg=Background
+r3 c39..40 fg=#172d49 bg=Background
+r3 c40..42 fg=#243c4b bg=Background
+r3 c42..44 fg=#172d49 bg=#243c4b
+r3 c44..60 fg=#243c4b bg=#243c4b
+r3 c60..61 fg=#1d3449 bg=#243c4b
+r3 c61..62 fg=#172d49 bg=#243c4b
+r3 c62..63 fg=#102648 bg=#243c4b
+r3 c63..64 fg=#243c4b bg=Background
+r3 c64..65 fg=#172d49 bg=Background
+r3 c65..100 fg=Foreground bg=Background
+r4 c0..34 fg=Foreground bg=Background
+r4 c34..35 fg=#102648 bg=Background
+r4 c35..36 fg=#1d3449 bg=Background
+r4 c36..37 fg=#102648 bg=#243c4b
+r4 c37..38 fg=#1d3449 bg=#243c4b
+r4 c38..66 fg=#243c4b bg=#243c4b
+r4 c66..67 fg=#1d3449 bg=#243c4b
+r4 c67..68 fg=#102648 bg=#243c4b
+r4 c68..69 fg=#1d3449 bg=Background
+r4 c69..100 fg=Foreground bg=Background
+r5 c0..31 fg=Foreground bg=Background
+r5 c31..32 fg=#102648 bg=Background
+r5 c32..33 fg=#1d3449 bg=Background
+r5 c33..34 fg=#172d49 bg=#243c4b
+r5 c34..69 fg=#243c4b bg=#243c4b
+r5 c69..70 fg=#1d3449 bg=#243c4b
+r5 c70..71 fg=#102648 bg=#243c4b
+r5 c71..72 fg=#102648 bg=Background
+r5 c72..100 fg=Foreground bg=Background
+r6 c0..29 fg=Foreground bg=Background
+r6 c29..30 fg=#102648 bg=Background
+r6 c30..31 fg=#102648 bg=#243c4b
+r6 c31..72 fg=#243c4b bg=#243c4b
+r6 c72..73 fg=#102648 bg=#243c4b
+r6 c73..74 fg=#102648 bg=Background
+r6 c74..100 fg=Foreground bg=Background
+r7 c0..27 fg=Foreground bg=Background
+r7 c27..28 fg=#102648 bg=Background
+r7 c28..29 fg=#102648 bg=#243c4b
+r7 c29..39 fg=#243c4b bg=#243c4b
+r7 c39..40 fg=#243c4b bg=#2b6491
+r7 c40..41 fg=#243c4b bg=#338cd7
+r7 c41..42 fg=#28506e bg=#338cd7
+r7 c42..43 fg=#2b6491 bg=#338cd7
+r7 c43..44 fg=#2b6491 bg=#338bd7
+r7 c44..45 fg=#338bd7 bg=#338bd7
+r7 c45..46 fg=#338bd7 bg=#328bd7
+r7 c46..47 fg=#328bd7 bg=#328ad7
+r7 c47..49 fg=#328ad7 bg=#328ad7
+r7 c49..50 fg=#328ad7 bg=#3289d7
+r7 c50..51 fg=#2b6391 bg=#3289d7
+r7 c51..52 fg=#2b6291 bg=#3288d7
+r7 c52..53 fg=#243c4b bg=#3288d7
+r7 c53..54 fg=#243c4b bg=#2b6291
+r7 c54..74 fg=#243c4b bg=#243c4b
+r7 c74..75 fg=#102648 bg=#243c4b
+r7 c75..76 fg=#102648 bg=Background
+r7 c76..100 fg=Foreground bg=Background
+r8 c0..26 fg=Foreground bg=Background
+r8 c26..27 fg=#102648 bg=#243c4b
+r8 c27..35 fg=#243c4b bg=#243c4b
+r8 c35..36 fg=#243c4b bg=#28506e
+r8 c36..37 fg=#243c4b bg=#338dd7
+r8 c37..38 fg=#2c6591 bg=#338dd7
+r8 c38..39 fg=#338dd7 bg=#338cd7
+r8 c39..41 fg=#338cd7 bg=#338cd7
+r8 c41..42 fg=#338cd7 bg=#338bd7
+r8 c42..43 fg=#338bd7 bg=#338bd7
+r8 c43..44 fg=#338bd7 bg=#328bd7
+r8 c44..45 fg=#328bd7 bg=#328ad7
+r8 c45..47 fg=#328ad7 bg=#328ad7
+r8 c47..48 fg=#328ad7 bg=#3289d7
+r8 c48..49 fg=#3289d7 bg=#3289d7
+r8 c49..50 fg=#3289d7 bg=#3288d7
+r8 c50..51 fg=#3288d7 bg=#3288d7
+r8 c51..52 fg=#3288d7 bg=#2e75b4
+r8 c52..53 fg=#2e75b4 bg=#243c4b
+r8 c53..75 fg=#243c4b bg=#243c4b
+r8 c75..76 fg=#1d3449 bg=#243c4b
+r8 c76..77 fg=#172d49 bg=Background
+r8 c77..100 fg=Foreground bg=Background
+r9 c0..24 fg=Foreground bg=Background
+r9 c24..25 fg=#172d49 bg=Background
+r9 c25..26 fg=#1d3449 bg=#243c4b
+r9 c26..33 fg=#243c4b bg=#243c4b
+r9 c33..34 fg=#243c4b bg=#2f79b4
+r9 c34..35 fg=#2f79b4 bg=#338dd7
+r9 c35..36 fg=#338dd7 bg=#338dd7
+r9 c36..37 fg=#338dd7 bg=#338cd7
+r9 c37..39 fg=#338cd7 bg=#338cd7
+r9 c39..40 fg=#338cd7 bg=#338bd7
+r9 c40..41 fg=#338bd7 bg=#338bd7
+r9 c41..42 fg=#338bd7 bg=#328bd7
+r9 c42..43 fg=#328bd7 bg=#328ad7
+r9 c43..45 fg=#328ad7 bg=#328ad7
+r9 c45..46 fg=#328ad7 bg=#3289d7
+r9 c46..47 fg=#3289d7 bg=#3289d7
+r9 c47..48 fg=#3289d7 bg=#3288d7
+r9 c48..49 fg=#3288d7 bg=#3288d7
+r9 c49..50 fg=#2e75b4 bg=#2e75b4
+r9 c50..51 fg=#2b6291 bg=#3287d7
+r9 c51..53 fg=#243c4b bg=#3187d7
+r9 c53..54 fg=#243c4b bg=#3186d7
+r9 c54..55 fg=#243c4b bg=#2e73b4
+r9 c55..56 fg=#243c4b bg=#2a6191
+r9 c56..77 fg=#243c4b bg=#243c4b
+r9 c77..78 fg=#172d49 bg=Background
+r9 c78..100 fg=Foreground bg=Background
+r10 c0..23 fg=Foreground bg=Background
+r10 c23..24 fg=#172d49 bg=Background
+r10 c24..31 fg=#243c4b bg=#243c4b
+r10 c31..32 fg=#243c4b bg=#2f79b4
+r10 c32..33 fg=#2f79b4 bg=#338dd7
+r10 c33..34 fg=#338dd7 bg=#338dd7
+r10 c34..35 fg=#338dd7 bg=#338cd7
+r10 c35..37 fg=#338cd7 bg=#338cd7
+r10 c37..38 fg=#338cd7 bg=#338bd7
+r10 c38..39 fg=#338bd7 bg=#338bd7
+r10 c39..40 fg=#338bd7 bg=#328bd7
+r10 c40..41 fg=#328bd7 bg=#328ad7
+r10 c41..42 fg=#328ad7 bg=#2b6391
+r10 c42..43 fg=#328ad7 bg=#284f6e
+r10 c43..44 fg=#328ad7 bg=#243c4b
+r10 c44..46 fg=#3289d7 bg=#243c4b
+r10 c46..48 fg=#3288d7 bg=#243c4b
+r10 c48..49 fg=#3288d7 bg=#2b6291
+r10 c49..50 fg=#3287d7 bg=#3187d7
+r10 c50..51 fg=#3187d7 bg=#3187d7
+r10 c51..52 fg=#3187d7 bg=#3186d7
+r10 c52..54 fg=#3186d7 bg=#3186d7
+r10 c54..55 fg=#3186d7 bg=#3185d7
+r10 c55..57 fg=#3185d7 bg=#3185d7
+r10 c57..58 fg=#2e72b4 bg=#3184d7
+r10 c58..59 fg=#2a6091 bg=#3184d7
+r10 c59..60 fg=#243c4b bg=#3083d7
+r10 c60..61 fg=#243c4b bg=#2a6091
+r10 c61..78 fg=#243c4b bg=#243c4b
+r10 c78..79 fg=#172d49 bg=Background
+r10 c79..100 fg=Foreground bg=Background
+r11 c0..22 fg=Foreground bg=Background
+r11 c22..23 fg=#172d49 bg=Background
+r11 c23..29 fg=#243c4b bg=#243c4b
+r11 c29..30 fg=#243c4b bg=#28506e
+r11 c30..31 fg=#28506e bg=#338dd7
+r11 c31..32 fg=#338dd7 bg=#338dd7
+r11 c32..33 fg=#338dd7 bg=#338cd7
+r11 c33..35 fg=#338cd7 bg=#338cd7
+r11 c35..36 fg=#338cd7 bg=#338bd7
+r11 c36..37 fg=#338bd7 bg=#338bd7
+r11 c37..38 fg=#338bd7 bg=#2f77b4
+r11 c38..39 fg=#328bd7 bg=#28506e
+r11 c39..40 fg=#2b6391 bg=#243c4b
+r11 c40..49 fg=#243c4b bg=#243c4b
+r11 c49..50 fg=#274f6e bg=#243c4b
+r11 c50..51 fg=#3186d7 bg=#274e6e
+r11 c51..52 fg=#3186d7 bg=#3186d7
+r11 c52..53 fg=#3186d7 bg=#3185d7
+r11 c53..55 fg=#3185d7 bg=#3185d7
+r11 c55..56 fg=#3185d7 bg=#3184d7
+r11 c56..57 fg=#3184d7 bg=#3184d7
+r11 c57..58 fg=#3184d7 bg=#3083d7
+r11 c58..59 fg=#3083d7 bg=#2a6091
+r11 c59..60 fg=#2d71b4 bg=#243c4b
+r11 c60..79 fg=#243c4b bg=#243c4b
+r11 c79..100 fg=Foreground bg=Background
+r12 c0..22 fg=Foreground bg=Background
+r12 c22..23 fg=#1d3449 bg=#243c4b
+r12 c23..28 fg=#243c4b bg=#243c4b
+r12 c28..29 fg=#243c4b bg=#28506e
+r12 c29..30 fg=#2f79b4 bg=#338dd7
+r12 c30..31 fg=#338dd7 bg=#338cd7
+r12 c31..33 fg=#338cd7 bg=#338cd7
+r12 c33..34 fg=#338cd7 bg=#338bd7
+r12 c34..35 fg=#338bd7 bg=#338bd7
+r12 c35..36 fg=#338bd7 bg=#328bd7
+r12 c36..37 fg=#2f77b4 bg=#243c4b
+r12 c37..52 fg=#243c4b bg=#243c4b
+r12 c52..57 fg=#2a6091 bg=#243c4b
+r12 c57..79 fg=#243c4b bg=#243c4b
+r12 c79..80 fg=#172d49 bg=#172d49
+r12 c80..100 fg=Foreground bg=Background
+r13 c0..21 fg=Foreground bg=Background
+r13 c21..22 fg=#172d49 bg=#1d3449
+r13 c22..28 fg=#243c4b bg=#243c4b
+r13 c28..29 fg=#2f79b4 bg=#338cd7
+r13 c29..31 fg=#338cd7 bg=#338cd7
+r13 c31..32 fg=#338cd7 bg=#338bd7
+r13 c32..33 fg=#338bd7 bg=#338bd7
+r13 c33..34 fg=#338bd7 bg=#328bd7
+r13 c34..35 fg=#328bd7 bg=#2f77b4
+r13 c35..36 fg=#28506e bg=#243c4b
+r13 c36..80 fg=#243c4b bg=#243c4b
+r13 c80..100 fg=Foreground bg=Background
+r14 c0..21 fg=Foreground bg=Background
+r14 c21..27 fg=#243c4b bg=#243c4b
+r14 c27..28 fg=#2b6491 bg=#2f78b4
+r14 c28..29 fg=#338cd7 bg=#338cd7
+r14 c29..30 fg=#338cd7 bg=#338bd7
+r14 c30..31 fg=#338bd7 bg=#338bd7
+r14 c31..32 fg=#338bd7 bg=#328bd7
+r14 c32..33 fg=#328bd7 bg=#328ad7
+r14 c33..34 fg=#328ad7 bg=#2f76b4
+r14 c34..35 fg=#28506e bg=#243c4b
+r14 c35..80 fg=#243c4b bg=#243c4b
+r14 c80..81 fg=#102648 bg=Background
+r14 c81..100 fg=Foreground bg=Background
+r15 c0..20 fg=Foreground bg=Background
+r15 c20..21 fg=#172d49 bg=#172d49
+r15 c21..27 fg=#243c4b bg=#243c4b
+r15 c27..28 fg=#338cd7 bg=#338bd7
+r15 c28..29 fg=#338bd7 bg=#338bd7
+r15 c29..30 fg=#338bd7 bg=#328bd7
+r15 c30..31 fg=#328bd7 bg=#328ad7
+r15 c31..33 fg=#328ad7 bg=#328ad7
+r15 c33..34 fg=#2b6391 bg=#2b6391
+r15 c34..63 fg=#243c4b bg=#243c4b
+r15 c63..67 fg=#243c4b bg=#295d91
+r15 c67..70 fg=#243c4b bg=#295c91
+r15 c70..72 fg=#243c4b bg=#295c90
+r15 c72..80 fg=#243c4b bg=#243c4b
+r15 c80..81 fg=#172d49 bg=#172d49
+r15 c81..100 fg=Foreground bg=Background
+r16 c0..20 fg=Foreground bg=Background
+r16 c20..21 fg=#172d49 bg=#172d49
+r16 c21..26 fg=#243c4b bg=#243c4b
+r16 c26..27 fg=#2b6491 bg=#2b6391
+r16 c27..28 fg=#338bd7 bg=#328bd7
+r16 c28..29 fg=#328bd7 bg=#328ad7
+r16 c29..31 fg=#328ad7 bg=#328ad7
+r16 c31..32 fg=#328ad7 bg=#3289d7
+r16 c32..33 fg=#3289d7 bg=#3289d7
+r16 c33..34 fg=#274f6e bg=#2b6291
+r16 c34..55 fg=#243c4b bg=#243c4b
+r16 c55..56 fg=#243c4b bg=#2a5e91
+r16 c56..57 fg=#243c4b bg=#2d6fb4
+r16 c57..58 fg=#243c4b bg=#2f80d6
+r16 c58..59 fg=#274d6e bg=#2f7fd6
+r16 c59..60 fg=#2a5e91 bg=#2f7fd6
+r16 c60..61 fg=#2c6eb3 bg=#2f7fd6
+r16 c61..62 fg=#2f7fd6 bg=#2f7ed6
+r16 c62..64 fg=#2f7ed6 bg=#2f7ed6
+r16 c64..65 fg=#2f7ed6 bg=#2f7dd6
+r16 c65..67 fg=#2f7dd6 bg=#2f7dd6
+r16 c67..68 fg=#2f7dd6 bg=#2e7cd6
+r16 c68..70 fg=#2e7cd6 bg=#2e7cd6
+r16 c70..71 fg=#2e7cd6 bg=#2e7bd6
+r16 c71..72 fg=#2e7bd6 bg=#2e7bd6
+r16 c72..73 fg=#2e7bd6 bg=#2e7ad6
+r16 c73..74 fg=#264c6e bg=#295b90
+r16 c74..80 fg=#243c4b bg=#243c4b
+r16 c80..81 fg=#172d49 bg=#172d49
+r16 c81..100 fg=Foreground bg=Background
+r17 c0..20 fg=Foreground bg=Background
+r17 c20..21 fg=#172d49 bg=#172d49
+r17 c21..26 fg=#243c4b bg=#243c4b
+r17 c26..27 fg=#2b6391 bg=#2b6391
+r17 c27..29 fg=#328ad7 bg=#328ad7
+r17 c29..30 fg=#328ad7 bg=#3289d7
+r17 c30..31 fg=#3289d7 bg=#3289d7
+r17 c31..32 fg=#3289d7 bg=#3288d7
+r17 c32..33 fg=#3288d7 bg=#3288d7
+r17 c33..34 fg=#2b6291 bg=#2e75b4
+r17 c34..49 fg=#243c4b bg=#243c4b
+r17 c49..50 fg=#243c4b bg=#274d6e
+r17 c50..51 fg=#243c4b bg=#2d70b4
+r17 c51..52 fg=#243c4b bg=#3081d6
+r17 c52..53 fg=#2a5f91 bg=#3081d6
+r17 c53..54 fg=#2d70b4 bg=#3081d6
+r17 c54..55 fg=#3081d6 bg=#3080d6
+r17 c55..56 fg=#3080d6 bg=#2f80d6
+r17 c56..57 fg=#2f80d6 bg=#2f7fd6
+r17 c57..59 fg=#2f7fd6 bg=#2f7fd6
+r17 c59..60 fg=#2f7fd6 bg=#2f7ed6
+r17 c60..62 fg=#2f7ed6 bg=#2f7ed6
+r17 c62..63 fg=#2f7ed6 bg=#2f7dd6
+r17 c63..65 fg=#2f7dd6 bg=#2f7dd6
+r17 c65..66 fg=#2f7dd6 bg=#2e7cd6
+r17 c66..68 fg=#2e7cd6 bg=#2e7cd6
+r17 c68..69 fg=#2e7cd6 bg=#2e7bd6
+r17 c69..70 fg=#2e7bd6 bg=#2e7bd6
+r17 c70..71 fg=#2e7bd6 bg=#2e7ad6
+r17 c71..73 fg=#2e7ad6 bg=#2e7ad6
+r17 c73..74 fg=#295b90 bg=#295b90
+r17 c74..80 fg=#243c4b bg=#243c4b
+r17 c80..81 fg=#172d49 bg=#1d3449
+r17 c81..100 fg=Foreground bg=Background
+r18 c0..20 fg=Foreground bg=Background
+r18 c20..21 fg=#172d49 bg=#172d49
+r18 c21..26 fg=#243c4b bg=#243c4b
+r18 c26..27 fg=#2b6391 bg=#284f6e
+r18 c27..28 fg=#328ad7 bg=#3289d7
+r18 c28..29 fg=#3289d7 bg=#3289d7
+r18 c29..30 fg=#3289d7 bg=#3288d7
+r18 c30..32 fg=#3288d7 bg=#3288d7
+r18 c32..33 fg=#3288d7 bg=#3287d7
+r18 c33..34 fg=#3287d7 bg=#3187d7
+r18 c34..35 fg=#274f6e bg=#3187d7
+r18 c35..36 fg=#243c4b bg=#274f6e
+r18 c36..44 fg=#243c4b bg=#243c4b
+r18 c44..45 fg=#243c4b bg=#2a5f91
+r18 c45..46 fg=#243c4b bg=#2d71b4
+r18 c46..47 fg=#243c4b bg=#3082d7
+r18 c47..48 fg=#2a5f91 bg=#3082d7
+r18 c48..49 fg=#3082d7 bg=#3082d6
+r18 c49..50 fg=#3082d6 bg=#3081d6
+r18 c50..52 fg=#3081d6 bg=#3081d6
+r18 c52..53 fg=#3081d6 bg=#3080d6
+r18 c53..54 fg=#3080d6 bg=#2f80d6
+r18 c54..55 fg=#2f80d6 bg=#2f7fd6
+r18 c55..57 fg=#2f7fd6 bg=#2f7fd6
+r18 c57..58 fg=#2f7fd6 bg=#2f7ed6
+r18 c58..60 fg=#2f7ed6 bg=#2f7ed6
+r18 c60..61 fg=#2f7ed6 bg=#2f7dd6
+r18 c61..63 fg=#2f7dd6 bg=#2f7dd6
+r18 c63..64 fg=#2f7dd6 bg=#2e7cd6
+r18 c64..66 fg=#2e7cd6 bg=#2e7cd6
+r18 c66..67 fg=#2e7cd6 bg=#94bae5
+r18 c67..68 fg=#2e7bd6 bg=#faf8f5
+r18 c68..70 fg=#94b9e5 bg=#faf8f5
+r18 c70..71 fg=#c7d9ed bg=#faf8f5
+r18 c71..72 fg=#faf8f5 bg=#faf8f5
+r18 c72..73 fg=#2e79d6 bg=#2e79d6
+r18 c73..74 fg=#295b90 bg=#295a90
+r18 c74..81 fg=#243c4b bg=#243c4b
+r18 c81..100 fg=Foreground bg=Background
+r19 c0..20 fg=Foreground bg=Background
+r19 c20..21 fg=#172d49 bg=#172d49
+r19 c21..22 fg=#243c4b bg=#243c4b
+r19 c22..23 fg=#243c4b bg=#335262
+r19 c23..24 fg=#243c4b bg=#2c4756
+r19 c24..27 fg=#243c4b bg=#243c4b
+r19 c27..28 fg=#3289d7 bg=#3288d7
+r19 c28..30 fg=#3288d7 bg=#3288d7
+r19 c30..31 fg=#3288d7 bg=#3287d7
+r19 c31..32 fg=#3287d7 bg=#3187d7
+r19 c32..33 fg=#3187d7 bg=#3187d7
+r19 c33..34 fg=#3187d7 bg=#3186d7
+r19 c34..36 fg=#3186d7 bg=#3186d7
+r19 c36..37 fg=#2e73b4 bg=#3185d7
+r19 c37..38 fg=#2a6191 bg=#3185d7
+r19 c38..39 fg=#2a6091 bg=#3185d7
+r19 c39..41 fg=#2a6091 bg=#3184d7
+r19 c41..42 fg=#2a6091 bg=#3083d7
+r19 c42..43 fg=#2d72b4 bg=#3083d7
+r19 c43..44 fg=#3083d7 bg=#3083d7
+r19 c44..45 fg=#3083d7 bg=#3082d7
+r19 c45..46 fg=#3082d7 bg=#3082d7
+r19 c46..47 fg=#3082d7 bg=#3082d6
+r19 c47..48 fg=#3082d6 bg=#3081d6
+r19 c48..50 fg=#3081d6 bg=#3081d6
+r19 c50..51 fg=#3081d6 bg=#3080d6
+r19 c51..52 fg=#3080d6 bg=#2f80d6
+r19 c52..53 fg=#2f80d6 bg=#2f7fd6
+r19 c53..55 fg=#2f7fd6 bg=#2f7fd6
+r19 c55..56 fg=#2f7fd6 bg=#2f7ed6
+r19 c56..58 fg=#2f7ed6 bg=#2f7ed6
+r19 c58..59 fg=#2f7ed6 bg=#2f7dd6
+r19 c59..61 fg=#2f7dd6 bg=#2f7dd6
+r19 c61..62 fg=#2f7dd6 bg=#2e7cd6
+r19 c62..63 fg=#2e7cd6 bg=#619bde
+r19 c63..64 fg=#2e7cd6 bg=#c7d9ed
+r19 c64..65 fg=#94bae5 bg=#faf8f5
+r19 c65..71 fg=#faf8f5 bg=#faf8f5
+r19 c71..72 fg=#c7d8ed bg=#94b8e5
+r19 c72..73 fg=#2d79d6 bg=#2b69b3
+r19 c73..81 fg=#243c4b bg=#243c4b
+r19 c81..100 fg=Foreground bg=Background
+r20 c0..20 fg=Foreground bg=Background
+r20 c20..21 fg=#183153 bg=Background
+r20 c21..22 fg=#3b5d6d bg=#426878
+r20 c22..24 fg=#426878 bg=#426878
+r20 c24..25 fg=#2c4756 bg=#426878
+r20 c25..26 fg=#243c4b bg=#2c4756
+r20 c26..27 fg=#243c4b bg=#243c4b
+r20 c27..28 fg=#2e75b4 bg=#2b6291
+r20 c28..29 fg=#3288d7 bg=#3287d7
+r20 c29..30 fg=#3287d7 bg=#3187d7
+r20 c30..31 fg=#3187d7 bg=#3187d7
+r20 c31..32 fg=#3187d7 bg=#3186d7
+r20 c32..34 fg=#3186d7 bg=#3186d7
+r20 c34..35 fg=#3186d7 bg=#3185d7
+r20 c35..37 fg=#3185d7 bg=#3185d7
+r20 c37..38 fg=#3185d7 bg=#3184d7
+r20 c38..39 fg=#3184d7 bg=#3184d7
+r20 c39..40 fg=#3184d7 bg=#3083d7
+r20 c40..42 fg=#3083d7 bg=#3083d7
+r20 c42..43 fg=#3083d7 bg=#3082d7
+r20 c43..44 fg=#3082d7 bg=#3082d7
+r20 c44..45 fg=#3082d7 bg=#3082d6
+r20 c45..46 fg=#3082d6 bg=#3081d6
+r20 c46..48 fg=#3081d6 bg=#3081d6
+r20 c48..49 fg=#3081d6 bg=#3080d6
+r20 c49..50 fg=#3080d6 bg=#2f80d6
+r20 c50..51 fg=#2f80d6 bg=#2f7fd6
+r20 c51..53 fg=#2f7fd6 bg=#2f7fd6
+r20 c53..54 fg=#2f7fd6 bg=#2f7ed6
+r20 c54..56 fg=#2f7ed6 bg=#2f7ed6
+r20 c56..57 fg=#2f7ed6 bg=#2f7dd6
+r20 c57..59 fg=#2f7dd6 bg=#2f7dd6
+r20 c59..60 fg=#2f7dd6 bg=#2e7cd6
+r20 c60..61 fg=#2e7cd6 bg=#619bde
+r20 c61..62 fg=#619bde bg=#faf8f5
+r20 c62..70 fg=#faf8f5 bg=#faf8f5
+r20 c70..71 fg=#faf8f5 bg=#94b8e5
+r20 c71..72 fg=#2d78d6 bg=#2d78d6
+r20 c72..73 fg=#295a90 bg=#243c4b
+r20 c73..80 fg=#243c4b bg=#243c4b
+r20 c80..81 fg=#1d3449 bg=#172d49
+r20 c81..100 fg=Foreground bg=Background
+r21 c0..20 fg=Foreground bg=Background
+r21 c20..21 fg=#26435f bg=#426878
+r21 c21..25 fg=#426878 bg=#426878
+r21 c25..26 fg=#3b5d6d bg=#426878
+r21 c26..27 fg=#243c4b bg=#2c4756
+r21 c27..28 fg=#243c4b bg=#243c4b
+r21 c28..29 fg=#3187d7 bg=#2b6191
+r21 c29..30 fg=#3187d7 bg=#3186d7
+r21 c30..32 fg=#3186d7 bg=#3186d7
+r21 c32..33 fg=#3186d7 bg=#3185d7
+r21 c33..35 fg=#3185d7 bg=#3185d7
+r21 c35..36 fg=#3185d7 bg=#3184d7
+r21 c36..37 fg=#3184d7 bg=#3184d7
+r21 c37..38 fg=#3184d7 bg=#3083d7
+r21 c38..40 fg=#3083d7 bg=#3083d7
+r21 c40..41 fg=#3083d7 bg=#3082d7
+r21 c41..42 fg=#3082d7 bg=#3082d7
+r21 c42..43 fg=#3082d7 bg=#3082d6
+r21 c43..44 fg=#3082d6 bg=#3081d6
+r21 c44..46 fg=#3081d6 bg=#3081d6
+r21 c46..47 fg=#3081d6 bg=#3080d6
+r21 c47..48 fg=#3080d6 bg=#2f80d6
+r21 c48..49 fg=#2f80d6 bg=#2f7fd6
+r21 c49..51 fg=#2f7fd6 bg=#2f7fd6
+r21 c51..52 fg=#2f7fd6 bg=#2f7ed6
+r21 c52..53 fg=#629dde bg=#629dde
+r21 c53..54 fg=#faf8f5 bg=#faf8f5
+r21 c54..55 fg=#c7d9ed bg=#c7d9ed
+r21 c55..57 fg=#2f7dd6 bg=#2f7dd6
+r21 c57..58 fg=#2f7dd6 bg=#2e7cd6
+r21 c58..59 fg=#2e7cd6 bg=#619bde
+r21 c59..60 fg=#619bde bg=#faf8f5
+r21 c60..63 fg=#faf8f5 bg=#faf8f5
+r21 c63..64 fg=#faf8f5 bg=#c7d9ed
+r21 c64..66 fg=#faf8f5 bg=#faf8f5
+r21 c66..67 fg=#faf8f5 bg=#c7d8ed
+r21 c67..68 fg=#c7d8ed bg=#faf8f5
+r21 c68..69 fg=#faf8f5 bg=#faf8f5
+r21 c69..70 fg=#faf8f5 bg=#94b8e5
+r21 c70..71 fg=#2d78d6 bg=#2d78d6
+r21 c71..72 fg=#295a90 bg=#254558
+r21 c72..78 fg=#243c4b bg=#254558
+r21 c78..79 fg=#243c4b bg=#244151
+r21 c79..80 fg=#243c4b bg=#243c4b
+r21 c80..81 fg=#172d49 bg=#172d49
+r21 c81..100 fg=Foreground bg=Background
+r22 c0..19 fg=Foreground bg=Background
+r22 c19..20 fg=#183153 bg=Background
+r22 c20..21 fg=#426878 bg=#345b6e
+r22 c21..24 fg=#426878 bg=#254e64
+r22 c24..26 fg=#345b6e bg=#254e64
+r22 c26..27 fg=#2c5063 bg=#254e64
+r22 c27..28 fg=#254558 bg=#254e64
+r22 c28..29 fg=#28587a bg=#254e64
+r22 c29..30 fg=#3186d7 bg=#2b6a9d
+r22 c30..31 fg=#3186d7 bg=#3185d7
+r22 c31..33 fg=#3185d7 bg=#3185d7
+r22 c33..34 fg=#3185d7 bg=#3184d7
+r22 c34..35 fg=#3184d7 bg=#3184d7
+r22 c35..36 fg=#3184d7 bg=#3083d7
+r22 c36..38 fg=#3083d7 bg=#3083d7
+r22 c38..39 fg=#3083d7 bg=#3082d7
+r22 c39..40 fg=#3082d7 bg=#3082d7
+r22 c40..41 fg=#3082d7 bg=#3082d6
+r22 c41..42 fg=#3082d6 bg=#3081d6
+r22 c42..44 fg=#3081d6 bg=#3081d6
+r22 c44..45 fg=#3081d6 bg=#3080d6
+r22 c45..46 fg=#3080d6 bg=#2f80d6
+r22 c46..47 fg=#2f80d6 bg=#2f7fd6
+r22 c47..49 fg=#2f7fd6 bg=#2f7fd6
+r22 c49..50 fg=#2f7fd6 bg=#2f7ed6
+r22 c50..52 fg=#2f7ed6 bg=#2f7ed6
+r22 c52..53 fg=#2f7ed6 bg=#2f7dd6
+r22 c53..55 fg=#2f7dd6 bg=#2f7dd6
+r22 c55..56 fg=#2f7dd6 bg=#2e7cd6
+r22 c56..57 fg=#2e7cd6 bg=#2e7cd6
+r22 c57..58 fg=#619bde bg=#faf8f5
+r22 c58..61 fg=#faf8f5 bg=#faf8f5
+r22 c61..62 fg=#faf8f5 bg=#c7d8ed
+r22 c62..63 fg=#c7d8ed bg=#c7d8ed
+r22 c63..65 fg=#faf8f5 bg=#faf8f5
+r22 c65..66 fg=#faf8f5 bg=#94b8e5
+r22 c66..67 fg=#94b8e5 bg=#faf8f5
+r22 c67..68 fg=#faf8f5 bg=#faf8f5
+r22 c68..69 fg=#c7d8ed bg=#2d78d6
+r22 c69..70 fg=#2d78d6 bg=#2b6db9
+r22 c70..71 fg=#275880 bg=#254e64
+r22 c71..80 fg=#254e64 bg=#254e64
+r22 c80..81 fg=#173655 bg=#173655
+r22 c81..100 fg=Foreground bg=Background
+r23 c0..19 fg=Foreground bg=Background
+r23 c19..20 fg=#26435f bg=#26435f
+r23 c20..21 fg=#345b6e bg=#426878
+r23 c21..22 fg=#254e64 bg=#254e64
+r23 c22..23 fg=#254e64 bg=#3c6e7e
+r23 c23..30 fg=#254e64 bg=#254e64
+r23 c30..31 fg=#3185d7 bg=#285c81
+r23 c31..32 fg=#3185d7 bg=#3184d7
+r23 c32..33 fg=#3184d7 bg=#3184d7
+r23 c33..34 fg=#3184d7 bg=#3083d7
+r23 c34..36 fg=#3083d7 bg=#3083d7
+r23 c36..37 fg=#3083d7 bg=#3082d7
+r23 c37..38 fg=#3082d7 bg=#3082d7
+r23 c38..39 fg=#3082d7 bg=#3082d6
+r23 c39..40 fg=#3082d6 bg=#3081d6
+r23 c40..42 fg=#3081d6 bg=#3081d6
+r23 c42..43 fg=#3081d6 bg=#3080d6
+r23 c43..44 fg=#3080d6 bg=#2f80d6
+r23 c44..45 fg=#2f80d6 bg=#2f7fd6
+r23 c45..47 fg=#2f7fd6 bg=#2f7fd6
+r23 c47..48 fg=#2f7fd6 bg=#2f7ed6
+r23 c48..50 fg=#2f7ed6 bg=#2f7ed6
+r23 c50..51 fg=#2f7ed6 bg=#2f7dd6
+r23 c51..53 fg=#2f7dd6 bg=#2f7dd6
+r23 c53..54 fg=#2f7dd6 bg=#2e7cd6
+r23 c54..55 fg=#2e7cd6 bg=#2e7cd6
+r23 c55..56 fg=#2e7cd6 bg=#94bae5
+r23 c56..57 fg=#c7d9ed bg=#faf8f5
+r23 c57..59 fg=#faf8f5 bg=#faf8f5
+r23 c59..60 fg=#faf8f5 bg=#94b9e5
+r23 c60..62 fg=#c7d8ed bg=#faf8f5
+r23 c62..63 fg=#faf8f5 bg=#faf8f5
+r23 c63..64 fg=#faf8f5 bg=#94b8e5
+r23 c64..65 fg=#94b8e5 bg=#faf8f5
+r23 c65..66 fg=#faf8f5 bg=#faf8f5
+r23 c66..67 fg=#faf8f5 bg=#6098dd
+r23 c67..68 fg=#6098dd bg=#2d77d6
+r23 c68..69 fg=#2b6db9 bg=#275880
+r23 c69..80 fg=#254e64 bg=#254e64
+r23 c80..81 fg=#173655 bg=Background
+r23 c81..100 fg=Foreground bg=Background
+r24 c0..19 fg=Foreground bg=Background
+r24 c19..20 fg=#26435f bg=#26435f
+r24 c20..21 fg=#426878 bg=#426878
+r24 c21..22 fg=#2c5569 bg=#3d6778
+r24 c22..23 fg=#447987 bg=#447987
+r24 c23..31 fg=#254e64 bg=#254e64
+r24 c31..32 fg=#285b81 bg=#254e64
+r24 c32..33 fg=#3083d7 bg=#285b81
+r24 c33..34 fg=#3083d7 bg=#3083d7
+r24 c34..35 fg=#3083d7 bg=#3082d7
+r24 c35..36 fg=#3082d7 bg=#3082d7
+r24 c36..37 fg=#3082d7 bg=#3082d6
+r24 c37..38 fg=#3082d6 bg=#3081d6
+r24 c38..40 fg=#3081d6 bg=#3081d6
+r24 c40..41 fg=#3081d6 bg=#3080d6
+r24 c41..42 fg=#3080d6 bg=#2f80d6
+r24 c42..43 fg=#2f80d6 bg=#2f7fd6
+r24 c43..45 fg=#2f7fd6 bg=#2f7fd6
+r24 c45..46 fg=#2f7fd6 bg=#2a669d
+r24 c46..47 fg=#2d72ba bg=#2c72ba
+r24 c47..48 fg=#2c72ba bg=#2f7ed6
+r24 c48..49 fg=#2f7ed6 bg=#2f7dd6
+r24 c49..51 fg=#2f7dd6 bg=#2f7dd6
+r24 c51..52 fg=#2f7dd6 bg=#2e7cd6
+r24 c52..54 fg=#2e7cd6 bg=#2e7cd6
+r24 c54..55 fg=#619bde bg=#c7d9ed
+r24 c55..57 fg=#faf8f5 bg=#faf8f5
+r24 c57..58 fg=#c7d9ed bg=#faf8f5
+r24 c58..59 fg=#94b9e5 bg=#faf8f5
+r24 c59..60 fg=#faf8f5 bg=#faf8f5
+r24 c60..61 fg=#faf8f5 bg=#c7d8ed
+r24 c61..62 fg=#c7d8ed bg=#6199de
+r24 c62..63 fg=#94b8e5 bg=#faf8f5
+r24 c63..64 fg=#faf8f5 bg=#c7d8ed
+r24 c64..65 fg=#faf8f5 bg=#6098dd
+r24 c65..66 fg=#6098dd bg=#2d77d6
+r24 c66..67 fg=#2d77d6 bg=#275880
+r24 c67..68 fg=#275880 bg=#254e64
+r24 c68..69 fg=#254e64 bg=#305b70
+r24 c69..76 fg=#254e64 bg=#3b677b
+r24 c76..77 fg=#254e64 bg=#254e64
+r24 c77..78 fg=#254e64 bg=#2d596d
+r24 c78..79 fg=#2d596d bg=#356476
+r24 c79..80 fg=#254e64 bg=#1e425c
+r24 c80..100 fg=Foreground bg=Background
+r25 c0..20 fg=Foreground bg=Background
+r25 c20..21 fg=#26435f bg=Background
+r25 c21..22 fg=#467382 bg=#274b66
+r25 c22..23 fg=#477c89 bg=#467b88
+r25 c23..24 fg=#254e64 bg=#2c5569
+r25 c24..25 fg=#254e64 bg=#3d697d
+r25 c25..26 fg=#2d596d bg=#4f8291
+r25 c26..27 fg=#477788 bg=#3d697d
+r25 c27..31 fg=#3d697d bg=#3d697d
+r25 c31..32 fg=#254e64 bg=#3d697d
+r25 c32..33 fg=#254e64 bg=#315c70
+r25 c33..34 fg=#254e64 bg=#254e64
+r25 c34..35 fg=#2b689d bg=#254e64
+r25 c35..36 fg=#3082d6 bg=#254e64
+r25 c36..37 fg=#3081d6 bg=#285b81
+r25 c37..39 fg=#3081d6 bg=#2a679d
+r25 c39..40 fg=#3080d6 bg=#2a679d
+r25 c40..41 fg=#2f80d6 bg=#2a679d
+r25 c41..42 fg=#2f7fd6 bg=#285a81
+r25 c42..43 fg=#2f7fd6 bg=#254e64
+r25 c43..44 fg=#2a669d bg=#254e64
+r25 c44..45 fg=#254e64 bg=#2c72ba
+r25 c45..46 fg=#2c72ba bg=#2f7ed6
+r25 c46..47 fg=#2f7ed6 bg=#2f7dd6
+r25 c47..49 fg=#2f7dd6 bg=#2f7dd6
+r25 c49..50 fg=#2f7dd6 bg=#2e7cd6
+r25 c50..52 fg=#2e7cd6 bg=#2e7cd6
+r25 c52..53 fg=#2e7cd6 bg=#c7d9ed
+r25 c53..54 fg=#c7d9ed bg=#faf8f5
+r25 c54..56 fg=#faf8f5 bg=#faf8f5
+r25 c56..57 fg=#faf8f5 bg=#c7d8ed
+r25 c57..58 fg=#faf8f5 bg=#94b9e5
+r25 c58..59 fg=#c7d8ed bg=#c7d8ed
+r25 c59..60 fg=#94b9e5 bg=#faf8f5
+r25 c60..61 fg=#c7d8ed bg=#c7d8ed
+r25 c61..62 fg=#faf8f5 bg=#6098dd
+r25 c62..63 fg=#94b8e5 bg=#2d78d6
+r25 c63..64 fg=#2d78d6 bg=#29639d
+r25 c64..65 fg=#2b6db9 bg=#254e64
+r25 c65..68 fg=#254e64 bg=#254e64
+r25 c68..69 fg=#305b70 bg=#254e64
+r25 c69..73 fg=#3b677b bg=#254e64
+r25 c73..74 fg=#305b70 bg=#254e64
+r25 c74..77 fg=#254e64 bg=#254e64
+r25 c77..78 fg=#356476 bg=#3c6e7e
+r25 c78..79 fg=#356476 bg=#356476
+r25 c79..80 fg=#173655 bg=Background
+r25 c80..100 fg=Foreground bg=Background
+r26 c0..21 fg=Foreground bg=Background
+r26 c21..22 fg=#244764 bg=#173355
+r26 c22..23 fg=#3e6f81 bg=#3e6f81
+r26 c23..24 fg=#2b536b bg=#244764
+r26 c24..25 fg=#254e64 bg=#254965
+r26 c25..26 fg=#447987 bg=#447987
+r26 c26..27 fg=#254e64 bg=#2d596d
+r26 c27..39 fg=#254e64 bg=#254e64
+r26 c39..40 fg=#254e64 bg=#2a679d
+r26 c40..41 fg=#254e64 bg=#2f7fd6
+r26 c41..42 fg=#254e64 bg=#2f7ed6
+r26 c42..43 fg=#2a669d bg=#2f7ed6
+r26 c43..44 fg=#2f7ed6 bg=#2f7ed6
+r26 c44..45 fg=#2f7ed6 bg=#2f7dd6
+r26 c45..47 fg=#2f7dd6 bg=#2f7dd6
+r26 c47..48 fg=#2f7dd6 bg=#2e7cd6
+r26 c48..49 fg=#2e7cd6 bg=#2e7cd6
+r26 c49..50 fg=#2e7cd6 bg=#619bde
+r26 c50..51 fg=#2e7cd6 bg=#c7d9ed
+r26 c51..52 fg=#c7d9ed bg=#faf8f5
+r26 c52..55 fg=#faf8f5 bg=#faf8f5
+r26 c55..56 fg=#94b9e5 bg=#c7d8ed
+r26 c56..57 fg=#faf8f5 bg=#94b8e5
+r26 c57..58 fg=#faf8f5 bg=#2d79d6
+r26 c58..59 fg=#c7d8ed bg=#2d78d6
+r26 c59..60 fg=#6098de bg=#2b6db9
+r26 c60..61 fg=#2d78d6 bg=#275880
+r26 c61..62 fg=#2b6db9 bg=#254e64
+r26 c62..63 fg=#275880 bg=#254e64
+r26 c63..75 fg=#254e64 bg=#254e64
+r26 c75..76 fg=#254e64 bg=#244c61
+r26 c76..77 fg=#356476 bg=#447886
+r26 c77..78 fg=#477e8b bg=#437886
+r26 c78..79 fg=#417484 bg=#407282
+r26 c79..100 fg=Foreground bg=Background
+r27 c0..22 fg=Foreground bg=Background
+r27 c22..23 fg=#3e6f81 bg=#3e6f81
+r27 c23..25 fg=#244764 bg=#284e67
+r27 c25..26 fg=#407282 bg=#3e6f81
+r27 c26..27 fg=#356476 bg=#326174
+r27 c27..40 fg=#254e64 bg=#254e64
+r27 c40..41 fg=#2a669d bg=#254e64
+r27 c41..43 fg=#2f7ed6 bg=#254e64
+r27 c43..44 fg=#2f7dd6 bg=#2a669d
+r27 c44..45 fg=#2f7dd6 bg=#2a659d
+r27 c45..46 fg=#2f7dd6 bg=#2e7cd6
+r27 c46..48 fg=#2e7cd6 bg=#2e7cd6
+r27 c48..49 fg=#619bde bg=#2e7bd6
+r27 c49..50 fg=#94bae5 bg=#2e7bd6
+r27 c50..53 fg=#94b9e5 bg=#2e7ad6
+r27 c53..54 fg=#6199de bg=#29649d
+r27 c54..55 fg=#2e79d6 bg=#29649d
+r27 c55..56 fg=#2e79d6 bg=#275980
+r27 c56..57 fg=#2d79d6 bg=#254e64
+r27 c57..58 fg=#29639d bg=#254e64
+r27 c58..59 fg=#275980 bg=#254e64
+r27 c59..70 fg=#254e64 bg=#254e64
+r27 c70..71 fg=#254e64 bg=#244c61
+r27 c71..72 fg=#254e64 bg=#22495f
+r27 c72..73 fg=#254e64 bg=#1f445a
+r27 c73..74 fg=#22495f bg=#1f445a
+r27 c74..75 fg=#21475c bg=#1f445a
+r27 c75..76 fg=#285164 bg=#315e6f
+r27 c76..77 fg=#437785 bg=#427685
+r27 c77..78 fg=#417484 bg=#3e6f81
+r27 c78..79 fg=#3e6f81 bg=#3e6f81
+r27 c79..100 fg=Foreground bg=Background
+r28 c0..22 fg=Foreground bg=Background
+r28 c22..23 fg=#3e6f81 bg=#244764
+r28 c23..24 fg=#315b72 bg=#3e6f81
+r28 c24..25 fg=#1b3a58 bg=Background
+r28 c25..26 fg=#417483 bg=#3f7082
+r28 c26..27 fg=#2c556a bg=#2b5469
+r28 c27..28 fg=#1e415a bg=#173650
+r28 c28..29 fg=#22495f bg=#193952
+r28 c29..30 fg=#244c61 bg=#1f445a
+r28 c30..33 fg=#254e64 bg=#1f445a
+r28 c33..34 fg=#254e64 bg=#21475c
+r28 c34..44 fg=#254e64 bg=#22495f
+r28 c44..53 fg=#254e64 bg=#1f445a
+r28 c53..54 fg=#254e64 bg=#21475c
+r28 c54..58 fg=#254e64 bg=#22495f
+r28 c58..63 fg=#254e64 bg=#254e64
+r28 c63..64 fg=#254e64 bg=#244c61
+r28 c64..66 fg=#254e64 bg=#22495f
+r28 c66..68 fg=#254e64 bg=#1f445a
+r28 c68..69 fg=#22495f bg=#1f445a
+r28 c69..70 fg=#21475c bg=#1f445a
+r28 c70..74 fg=#1f445a bg=#1f445a
+r28 c74..75 fg=#1f445a bg=#244c61
+r28 c75..76 fg=#336173 bg=#102a4e
+r28 c76..77 fg=#407282 bg=#3e6f81
+r28 c77..78 fg=#3e6f81 bg=#244764
+r28 c78..79 fg=#3e6f81 bg=#3e6f81
+r28 c79..80 fg=#244764 bg=#244764
+r28 c80..100 fg=Foreground bg=Background
+r29 c0..22 fg=Foreground bg=Background
+r29 c22..23 fg=#244764 bg=#173355
+r29 c23..24 fg=#315b72 bg=#244764
+r29 c24..25 fg=Foreground bg=Background
+r29 c25..26 fg=#3e6f81 bg=#315b72
+r29 c26..27 fg=#385f78 bg=Background
+r29 c27..28 fg=#102a4b bg=Background
+r29 c28..29 fg=#173650 bg=Background
+r29 c29..30 fg=#193952 bg=#13304e
+r29 c30..31 fg=#1f445a bg=#173650
+r29 c31..32 fg=#1f445a bg=#1d4057
+r29 c32..58 fg=#1f445a bg=#1f445a
+r29 c58..63 fg=#1f445a bg=#355f72
+r29 c63..64 fg=#1f445a bg=#416c7e
+r29 c64..67 fg=#1f445a bg=#4c798a
+r29 c67..68 fg=#1f445a bg=#355f72
+r29 c68..69 fg=#2a5166 bg=#2a5166
+r29 c69..70 fg=#355e72 bg=#1f445a
+r29 c70..71 fg=#2a5165 bg=#1f445a
+r29 c71..72 fg=#1f445a bg=#1f445a
+r29 c72..73 fg=#1f445a bg=#1c3f5a
+r29 c73..74 fg=#2d566b bg=#102a4e
+r29 c74..75 fg=#1a3658 bg=Background
+r29 c75..76 fg=Foreground bg=Background
+r29 c76..77 fg=#3e6f81 bg=#3e6f81
+r29 c77..78 fg=#244764 bg=#173355
+r29 c78..79 fg=#3e6f81 bg=#3e6f81
+r29 c79..80 fg=#173355 bg=Background
+r29 c80..100 fg=Foreground bg=Background
+r30 c0..23 fg=Foreground bg=Background
+r30 c23..24 fg=#244764 bg=Background
+r30 c24..25 fg=Foreground bg=Background
+r30 c25..26 fg=#244764 bg=Background
+r30 c26..30 fg=Foreground bg=Background
+r30 c30..31 fg=#0d2449 bg=Background
+r30 c31..32 fg=#203f5c bg=Background
+r30 c32..33 fg=#30556c bg=Background
+r30 c33..34 fg=#355d70 bg=#102a4b
+r30 c34..35 fg=#355f72 bg=#1d3f55
+r30 c35..36 fg=#416c7e bg=#1f445a
+r30 c36..38 fg=#4c798a bg=#1f445a
+r30 c38..39 fg=#4c798a bg=#2a5166
+r30 c39..41 fg=#4c798a bg=#355f72
+r30 c41..42 fg=#416c7e bg=#416c7e
+r30 c42..46 fg=#355f72 bg=#4c798a
+r30 c46..47 fg=#2a5166 bg=#4c798a
+r30 c47..52 fg=#1f445a bg=#4c798a
+r30 c52..55 fg=#355f72 bg=#4c798a
+r30 c55..59 fg=#4c798a bg=#4c798a
+r30 c59..62 fg=#4c798a bg=#355f72
+r30 c62..63 fg=#4c798a bg=#2a5166
+r30 c63..64 fg=#4c798a bg=#1f445a
+r30 c64..65 fg=#416c7e bg=#1f445a
+r30 c65..66 fg=#355f72 bg=#1f445a
+r30 c66..69 fg=#1f445a bg=#1f445a
+r30 c69..70 fg=#1f445a bg=#1c3f5a
+r30 c70..71 fg=#21475c bg=#102a4e
+r30 c71..72 fg=#1c3f5a bg=Background
+r30 c72..76 fg=Foreground bg=Background
+r30 c76..77 fg=#244764 bg=Background
+r30 c77..78 fg=Foreground bg=Background
+r30 c78..79 fg=#244764 bg=Background
+r30 c79..100 fg=Foreground bg=Background
+r31 c0..35 fg=Foreground bg=Background
+r31 c35..36 fg=#122c4c bg=Background
+r31 c36..37 fg=#193952 bg=Background
+r31 c37..38 fg=#1f4358 bg=#102648
+r31 c38..39 fg=#1f445a bg=#14304e
+r31 c39..40 fg=#1f445a bg=#204154
+r31 c40..42 fg=#1f445a bg=#1f445a
+r31 c42..45 fg=#1f445a bg=#345c70
+r31 c45..46 fg=#2a5166 bg=#2a5065
+r31 c46..50 fg=#355f72 bg=#1f445a
+r31 c50..51 fg=#2a5166 bg=#1f445a
+r31 c51..59 fg=#1f445a bg=#1f445a
+r31 c59..60 fg=#1f445a bg=#345c70
+r31 c60..64 fg=#1f445a bg=#1f445a
+r31 c64..65 fg=#1f445a bg=#21475c
+r31 c65..66 fg=#1f445a bg=#143150
+r31 c66..67 fg=#1f445a bg=#102a4e
+r31 c67..68 fg=#1b3c57 bg=Background
+r31 c68..69 fg=#102a4e bg=Background
+r31 c69..100 fg=Foreground bg=Background
+r32 c0..40 fg=Foreground bg=Background
+r32 c40..41 fg=#203a56 bg=Background
+r32 c41..42 fg=#294965 bg=Background
+r32 c42..43 fg=#365869 bg=Background
+r32 c43..44 fg=#355a6c bg=Background
+r32 c44..45 fg=#345c70 bg=#102648
+r32 c45..46 fg=#487486 bg=#172d49
+r32 c46..47 fg=#487486 bg=#163453
+r32 c47..51 fg=#487486 bg=#143150
+r32 c51..52 fg=#487486 bg=#22495f
+r32 c52..55 fg=#487486 bg=#143150
+r32 c55..56 fg=#3e687b bg=#143150
+r32 c56..58 fg=#345c70 bg=#143150
+r32 c58..61 fg=#1f445a bg=Background
+r32 c61..62 fg=#1b3c57 bg=Background
+r32 c62..63 fg=#143150 bg=Background
+r32 c63..64 fg=#102a4e bg=Background
+r32 c64..100 fg=Foreground bg=Background
+r33 c0..49 fg=Foreground bg=Background
+r33 c49..50 fg=Muted bg=Background
+r33 c50..100 fg=Foreground bg=Background
+r34 c0..100 fg=Muted bg=Background
+r35 c0..100 fg=Muted bg=Background
+
+== dark-graphite
+Codewhale   ○ Idle
+
+                                               ▄▄▄▄▄▄▄▄▄▄▄
+                                       ▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+                                  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                               ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                             ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                           ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀
+                       ▀ ▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀ ▀
+                                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary bg=Background
+r0 c9..12 fg=Foreground bg=Background
+r0 c12..13 fg=Muted bg=Background
+r0 c13..100 fg=Foreground bg=Background
+r1 c0..100 fg=Foreground bg=Background
+r2 c0..47 fg=Foreground bg=Background
+r2 c47..48 fg=#21272d bg=Background
+r2 c48..58 fg=#222e37 bg=Background
+r2 c58..100 fg=Foreground bg=Background
+r3 c0..39 fg=Foreground bg=Background
+r3 c39..40 fg=#222e37 bg=Background
+r3 c40..42 fg=#243c4b bg=Background
+r3 c42..44 fg=#222e37 bg=#243c4b
+r3 c44..60 fg=#243c4b bg=#243c4b
+r3 c60..61 fg=#223540 bg=#243c4b
+r3 c61..62 fg=#222e37 bg=#243c4b
+r3 c62..63 fg=#21272d bg=#243c4b
+r3 c63..64 fg=#243c4b bg=Background
+r3 c64..65 fg=#222e37 bg=Background
+r3 c65..100 fg=Foreground bg=Background
+r4 c0..34 fg=Foreground bg=Background
+r4 c34..35 fg=#21272d bg=Background
+r4 c35..36 fg=#223540 bg=Background
+r4 c36..37 fg=#21272d bg=#243c4b
+r4 c37..38 fg=#223540 bg=#243c4b
+r4 c38..66 fg=#243c4b bg=#243c4b
+r4 c66..67 fg=#223540 bg=#243c4b
+r4 c67..68 fg=#21272d bg=#243c4b
+r4 c68..69 fg=#223540 bg=Background
+r4 c69..100 fg=Foreground bg=Background
+r5 c0..31 fg=Foreground bg=Background
+r5 c31..32 fg=#21272d bg=Background
+r5 c32..33 fg=#223540 bg=Background
+r5 c33..34 fg=#222e37 bg=#243c4b
+r5 c34..69 fg=#243c4b bg=#243c4b
+r5 c69..70 fg=#223540 bg=#243c4b
+r5 c70..71 fg=#21272d bg=#243c4b
+r5 c71..72 fg=#21272d bg=Background
+r5 c72..100 fg=Foreground bg=Background
+r6 c0..29 fg=Foreground bg=Background
+r6 c29..30 fg=#21272d bg=Background
+r6 c30..31 fg=#21272d bg=#243c4b
+r6 c31..72 fg=#243c4b bg=#243c4b
+r6 c72..73 fg=#21272d bg=#243c4b
+r6 c73..74 fg=#21272d bg=Background
+r6 c74..100 fg=Foreground bg=Background
+r7 c0..27 fg=Foreground bg=Background
+r7 c27..28 fg=#21272d bg=Background
+r7 c28..29 fg=#21272d bg=#243c4b
+r7 c29..39 fg=#243c4b bg=#243c4b
+r7 c39..40 fg=#243c4b bg=#2b6491
+r7 c40..41 fg=#243c4b bg=#338cd7
+r7 c41..42 fg=#28506e bg=#338cd7
+r7 c42..43 fg=#2b6491 bg=#338cd7
+r7 c43..44 fg=#2b6491 bg=#338bd7
+r7 c44..45 fg=#338bd7 bg=#338bd7
+r7 c45..46 fg=#338bd7 bg=#328bd7
+r7 c46..47 fg=#328bd7 bg=#328ad7
+r7 c47..49 fg=#328ad7 bg=#328ad7
+r7 c49..50 fg=#328ad7 bg=#3289d7
+r7 c50..51 fg=#2b6391 bg=#3289d7
+r7 c51..52 fg=#2b6291 bg=#3288d7
+r7 c52..53 fg=#243c4b bg=#3288d7
+r7 c53..54 fg=#243c4b bg=#2b6291
+r7 c54..74 fg=#243c4b bg=#243c4b
+r7 c74..75 fg=#21272d bg=#243c4b
+r7 c75..76 fg=#21272d bg=Background
+r7 c76..100 fg=Foreground bg=Background
+r8 c0..26 fg=Foreground bg=Background
+r8 c26..27 fg=#21272d bg=#243c4b
+r8 c27..35 fg=#243c4b bg=#243c4b
+r8 c35..36 fg=#243c4b bg=#28506e
+r8 c36..37 fg=#243c4b bg=#338dd7
+r8 c37..38 fg=#2c6591 bg=#338dd7
+r8 c38..39 fg=#338dd7 bg=#338cd7
+r8 c39..41 fg=#338cd7 bg=#338cd7
+r8 c41..42 fg=#338cd7 bg=#338bd7
+r8 c42..43 fg=#338bd7 bg=#338bd7
+r8 c43..44 fg=#338bd7 bg=#328bd7
+r8 c44..45 fg=#328bd7 bg=#328ad7
+r8 c45..47 fg=#328ad7 bg=#328ad7
+r8 c47..48 fg=#328ad7 bg=#3289d7
+r8 c48..49 fg=#3289d7 bg=#3289d7
+r8 c49..50 fg=#3289d7 bg=#3288d7
+r8 c50..51 fg=#3288d7 bg=#3288d7
+r8 c51..52 fg=#3288d7 bg=#2e75b4
+r8 c52..53 fg=#2e75b4 bg=#243c4b
+r8 c53..75 fg=#243c4b bg=#243c4b
+r8 c75..76 fg=#223540 bg=#243c4b
+r8 c76..77 fg=#222e37 bg=Background
+r8 c77..100 fg=Foreground bg=Background
+r9 c0..24 fg=Foreground bg=Background
+r9 c24..25 fg=#222e37 bg=Background
+r9 c25..26 fg=#223540 bg=#243c4b
+r9 c26..33 fg=#243c4b bg=#243c4b
+r9 c33..34 fg=#243c4b bg=#2f79b4
+r9 c34..35 fg=#2f79b4 bg=#338dd7
+r9 c35..36 fg=#338dd7 bg=#338dd7
+r9 c36..37 fg=#338dd7 bg=#338cd7
+r9 c37..39 fg=#338cd7 bg=#338cd7
+r9 c39..40 fg=#338cd7 bg=#338bd7
+r9 c40..41 fg=#338bd7 bg=#338bd7
+r9 c41..42 fg=#338bd7 bg=#328bd7
+r9 c42..43 fg=#328bd7 bg=#328ad7
+r9 c43..45 fg=#328ad7 bg=#328ad7
+r9 c45..46 fg=#328ad7 bg=#3289d7
+r9 c46..47 fg=#3289d7 bg=#3289d7
+r9 c47..48 fg=#3289d7 bg=#3288d7
+r9 c48..49 fg=#3288d7 bg=#3288d7
+r9 c49..50 fg=#2e75b4 bg=#2e75b4
+r9 c50..51 fg=#2b6291 bg=#3287d7
+r9 c51..53 fg=#243c4b bg=#3187d7
+r9 c53..54 fg=#243c4b bg=#3186d7
+r9 c54..55 fg=#243c4b bg=#2e73b4
+r9 c55..56 fg=#243c4b bg=#2a6191
+r9 c56..77 fg=#243c4b bg=#243c4b
+r9 c77..78 fg=#222e37 bg=Background
+r9 c78..100 fg=Foreground bg=Background
+r10 c0..23 fg=Foreground bg=Background
+r10 c23..24 fg=#222e37 bg=Background
+r10 c24..31 fg=#243c4b bg=#243c4b
+r10 c31..32 fg=#243c4b bg=#2f79b4
+r10 c32..33 fg=#2f79b4 bg=#338dd7
+r10 c33..34 fg=#338dd7 bg=#338dd7
+r10 c34..35 fg=#338dd7 bg=#338cd7
+r10 c35..37 fg=#338cd7 bg=#338cd7
+r10 c37..38 fg=#338cd7 bg=#338bd7
+r10 c38..39 fg=#338bd7 bg=#338bd7
+r10 c39..40 fg=#338bd7 bg=#328bd7
+r10 c40..41 fg=#328bd7 bg=#328ad7
+r10 c41..42 fg=#328ad7 bg=#2b6391
+r10 c42..43 fg=#328ad7 bg=#284f6e
+r10 c43..44 fg=#328ad7 bg=#243c4b
+r10 c44..46 fg=#3289d7 bg=#243c4b
+r10 c46..48 fg=#3288d7 bg=#243c4b
+r10 c48..49 fg=#3288d7 bg=#2b6291
+r10 c49..50 fg=#3287d7 bg=#3187d7
+r10 c50..51 fg=#3187d7 bg=#3187d7
+r10 c51..52 fg=#3187d7 bg=#3186d7
+r10 c52..54 fg=#3186d7 bg=#3186d7
+r10 c54..55 fg=#3186d7 bg=#3185d7
+r10 c55..57 fg=#3185d7 bg=#3185d7
+r10 c57..58 fg=#2e72b4 bg=#3184d7
+r10 c58..59 fg=#2a6091 bg=#3184d7
+r10 c59..60 fg=#243c4b bg=#3083d7
+r10 c60..61 fg=#243c4b bg=#2a6091
+r10 c61..78 fg=#243c4b bg=#243c4b
+r10 c78..79 fg=#222e37 bg=Background
+r10 c79..100 fg=Foreground bg=Background
+r11 c0..22 fg=Foreground bg=Background
+r11 c22..23 fg=#222e37 bg=Background
+r11 c23..29 fg=#243c4b bg=#243c4b
+r11 c29..30 fg=#243c4b bg=#28506e
+r11 c30..31 fg=#28506e bg=#338dd7
+r11 c31..32 fg=#338dd7 bg=#338dd7
+r11 c32..33 fg=#338dd7 bg=#338cd7
+r11 c33..35 fg=#338cd7 bg=#338cd7
+r11 c35..36 fg=#338cd7 bg=#338bd7
+r11 c36..37 fg=#338bd7 bg=#338bd7
+r11 c37..38 fg=#338bd7 bg=#2f77b4
+r11 c38..39 fg=#328bd7 bg=#28506e
+r11 c39..40 fg=#2b6391 bg=#243c4b
+r11 c40..49 fg=#243c4b bg=#243c4b
+r11 c49..50 fg=#274f6e bg=#243c4b
+r11 c50..51 fg=#3186d7 bg=#274e6e
+r11 c51..52 fg=#3186d7 bg=#3186d7
+r11 c52..53 fg=#3186d7 bg=#3185d7
+r11 c53..55 fg=#3185d7 bg=#3185d7
+r11 c55..56 fg=#3185d7 bg=#3184d7
+r11 c56..57 fg=#3184d7 bg=#3184d7
+r11 c57..58 fg=#3184d7 bg=#3083d7
+r11 c58..59 fg=#3083d7 bg=#2a6091
+r11 c59..60 fg=#2d71b4 bg=#243c4b
+r11 c60..79 fg=#243c4b bg=#243c4b
+r11 c79..100 fg=Foreground bg=Background
+r12 c0..22 fg=Foreground bg=Background
+r12 c22..23 fg=#223540 bg=#243c4b
+r12 c23..28 fg=#243c4b bg=#243c4b
+r12 c28..29 fg=#243c4b bg=#28506e
+r12 c29..30 fg=#2f79b4 bg=#338dd7
+r12 c30..31 fg=#338dd7 bg=#338cd7
+r12 c31..33 fg=#338cd7 bg=#338cd7
+r12 c33..34 fg=#338cd7 bg=#338bd7
+r12 c34..35 fg=#338bd7 bg=#338bd7
+r12 c35..36 fg=#338bd7 bg=#328bd7
+r12 c36..37 fg=#2f77b4 bg=#243c4b
+r12 c37..52 fg=#243c4b bg=#243c4b
+r12 c52..57 fg=#2a6091 bg=#243c4b
+r12 c57..79 fg=#243c4b bg=#243c4b
+r12 c79..80 fg=#222e37 bg=#222e37
+r12 c80..100 fg=Foreground bg=Background
+r13 c0..21 fg=Foreground bg=Background
+r13 c21..22 fg=#222e37 bg=#223540
+r13 c22..28 fg=#243c4b bg=#243c4b
+r13 c28..29 fg=#2f79b4 bg=#338cd7
+r13 c29..31 fg=#338cd7 bg=#338cd7
+r13 c31..32 fg=#338cd7 bg=#338bd7
+r13 c32..33 fg=#338bd7 bg=#338bd7
+r13 c33..34 fg=#338bd7 bg=#328bd7
+r13 c34..35 fg=#328bd7 bg=#2f77b4
+r13 c35..36 fg=#28506e bg=#243c4b
+r13 c36..80 fg=#243c4b bg=#243c4b
+r13 c80..100 fg=Foreground bg=Background
+r14 c0..21 fg=Foreground bg=Background
+r14 c21..27 fg=#243c4b bg=#243c4b
+r14 c27..28 fg=#2b6491 bg=#2f78b4
+r14 c28..29 fg=#338cd7 bg=#338cd7
+r14 c29..30 fg=#338cd7 bg=#338bd7
+r14 c30..31 fg=#338bd7 bg=#338bd7
+r14 c31..32 fg=#338bd7 bg=#328bd7
+r14 c32..33 fg=#328bd7 bg=#328ad7
+r14 c33..34 fg=#328ad7 bg=#2f76b4
+r14 c34..35 fg=#28506e bg=#243c4b
+r14 c35..80 fg=#243c4b bg=#243c4b
+r14 c80..81 fg=#21272d bg=Background
+r14 c81..100 fg=Foreground bg=Background
+r15 c0..20 fg=Foreground bg=Background
+r15 c20..21 fg=#222e37 bg=#222e37
+r15 c21..27 fg=#243c4b bg=#243c4b
+r15 c27..28 fg=#338cd7 bg=#338bd7
+r15 c28..29 fg=#338bd7 bg=#338bd7
+r15 c29..30 fg=#338bd7 bg=#328bd7
+r15 c30..31 fg=#328bd7 bg=#328ad7
+r15 c31..33 fg=#328ad7 bg=#328ad7
+r15 c33..34 fg=#2b6391 bg=#2b6391
+r15 c34..63 fg=#243c4b bg=#243c4b
+r15 c63..67 fg=#243c4b bg=#295d91
+r15 c67..70 fg=#243c4b bg=#295c91
+r15 c70..72 fg=#243c4b bg=#295c90
+r15 c72..80 fg=#243c4b bg=#243c4b
+r15 c80..81 fg=#222e37 bg=#222e37
+r15 c81..100 fg=Foreground bg=Background
+r16 c0..20 fg=Foreground bg=Background
+r16 c20..21 fg=#222e37 bg=#222e37
+r16 c21..26 fg=#243c4b bg=#243c4b
+r16 c26..27 fg=#2b6491 bg=#2b6391
+r16 c27..28 fg=#338bd7 bg=#328bd7
+r16 c28..29 fg=#328bd7 bg=#328ad7
+r16 c29..31 fg=#328ad7 bg=#328ad7
+r16 c31..32 fg=#328ad7 bg=#3289d7
+r16 c32..33 fg=#3289d7 bg=#3289d7
+r16 c33..34 fg=#274f6e bg=#2b6291
+r16 c34..55 fg=#243c4b bg=#243c4b
+r16 c55..56 fg=#243c4b bg=#2a5e91
+r16 c56..57 fg=#243c4b bg=#2d6fb4
+r16 c57..58 fg=#243c4b bg=#2f80d6
+r16 c58..59 fg=#274d6e bg=#2f7fd6
+r16 c59..60 fg=#2a5e91 bg=#2f7fd6
+r16 c60..61 fg=#2c6eb3 bg=#2f7fd6
+r16 c61..62 fg=#2f7fd6 bg=#2f7ed6
+r16 c62..64 fg=#2f7ed6 bg=#2f7ed6
+r16 c64..65 fg=#2f7ed6 bg=#2f7dd6
+r16 c65..67 fg=#2f7dd6 bg=#2f7dd6
+r16 c67..68 fg=#2f7dd6 bg=#2e7cd6
+r16 c68..70 fg=#2e7cd6 bg=#2e7cd6
+r16 c70..71 fg=#2e7cd6 bg=#2e7bd6
+r16 c71..72 fg=#2e7bd6 bg=#2e7bd6
+r16 c72..73 fg=#2e7bd6 bg=#2e7ad6
+r16 c73..74 fg=#264c6e bg=#295b90
+r16 c74..80 fg=#243c4b bg=#243c4b
+r16 c80..81 fg=#222e37 bg=#222e37
+r16 c81..100 fg=Foreground bg=Background
+r17 c0..20 fg=Foreground bg=Background
+r17 c20..21 fg=#222e37 bg=#222e37
+r17 c21..26 fg=#243c4b bg=#243c4b
+r17 c26..27 fg=#2b6391 bg=#2b6391
+r17 c27..29 fg=#328ad7 bg=#328ad7
+r17 c29..30 fg=#328ad7 bg=#3289d7
+r17 c30..31 fg=#3289d7 bg=#3289d7
+r17 c31..32 fg=#3289d7 bg=#3288d7
+r17 c32..33 fg=#3288d7 bg=#3288d7
+r17 c33..34 fg=#2b6291 bg=#2e75b4
+r17 c34..49 fg=#243c4b bg=#243c4b
+r17 c49..50 fg=#243c4b bg=#274d6e
+r17 c50..51 fg=#243c4b bg=#2d70b4
+r17 c51..52 fg=#243c4b bg=#3081d6
+r17 c52..53 fg=#2a5f91 bg=#3081d6
+r17 c53..54 fg=#2d70b4 bg=#3081d6
+r17 c54..55 fg=#3081d6 bg=#3080d6
+r17 c55..56 fg=#3080d6 bg=#2f80d6
+r17 c56..57 fg=#2f80d6 bg=#2f7fd6
+r17 c57..59 fg=#2f7fd6 bg=#2f7fd6
+r17 c59..60 fg=#2f7fd6 bg=#2f7ed6
+r17 c60..62 fg=#2f7ed6 bg=#2f7ed6
+r17 c62..63 fg=#2f7ed6 bg=#2f7dd6
+r17 c63..65 fg=#2f7dd6 bg=#2f7dd6
+r17 c65..66 fg=#2f7dd6 bg=#2e7cd6
+r17 c66..68 fg=#2e7cd6 bg=#2e7cd6
+r17 c68..69 fg=#2e7cd6 bg=#2e7bd6
+r17 c69..70 fg=#2e7bd6 bg=#2e7bd6
+r17 c70..71 fg=#2e7bd6 bg=#2e7ad6
+r17 c71..73 fg=#2e7ad6 bg=#2e7ad6
+r17 c73..74 fg=#295b90 bg=#295b90
+r17 c74..80 fg=#243c4b bg=#243c4b
+r17 c80..81 fg=#222e37 bg=#223540
+r17 c81..100 fg=Foreground bg=Background
+r18 c0..20 fg=Foreground bg=Background
+r18 c20..21 fg=#222e37 bg=#222e37
+r18 c21..26 fg=#243c4b bg=#243c4b
+r18 c26..27 fg=#2b6391 bg=#284f6e
+r18 c27..28 fg=#328ad7 bg=#3289d7
+r18 c28..29 fg=#3289d7 bg=#3289d7
+r18 c29..30 fg=#3289d7 bg=#3288d7
+r18 c30..32 fg=#3288d7 bg=#3288d7
+r18 c32..33 fg=#3288d7 bg=#3287d7
+r18 c33..34 fg=#3287d7 bg=#3187d7
+r18 c34..35 fg=#274f6e bg=#3187d7
+r18 c35..36 fg=#243c4b bg=#274f6e
+r18 c36..44 fg=#243c4b bg=#243c4b
+r18 c44..45 fg=#243c4b bg=#2a5f91
+r18 c45..46 fg=#243c4b bg=#2d71b4
+r18 c46..47 fg=#243c4b bg=#3082d7
+r18 c47..48 fg=#2a5f91 bg=#3082d7
+r18 c48..49 fg=#3082d7 bg=#3082d6
+r18 c49..50 fg=#3082d6 bg=#3081d6
+r18 c50..52 fg=#3081d6 bg=#3081d6
+r18 c52..53 fg=#3081d6 bg=#3080d6
+r18 c53..54 fg=#3080d6 bg=#2f80d6
+r18 c54..55 fg=#2f80d6 bg=#2f7fd6
+r18 c55..57 fg=#2f7fd6 bg=#2f7fd6
+r18 c57..58 fg=#2f7fd6 bg=#2f7ed6
+r18 c58..60 fg=#2f7ed6 bg=#2f7ed6
+r18 c60..61 fg=#2f7ed6 bg=#2f7dd6
+r18 c61..63 fg=#2f7dd6 bg=#2f7dd6
+r18 c63..64 fg=#2f7dd6 bg=#2e7cd6
+r18 c64..66 fg=#2e7cd6 bg=#2e7cd6
+r18 c66..67 fg=#2e7cd6 bg=#94bae5
+r18 c67..68 fg=#2e7bd6 bg=#faf8f5
+r18 c68..70 fg=#94b9e5 bg=#faf8f5
+r18 c70..71 fg=#c7d9ed bg=#faf8f5
+r18 c71..72 fg=#faf8f5 bg=#faf8f5
+r18 c72..73 fg=#2e79d6 bg=#2e79d6
+r18 c73..74 fg=#295b90 bg=#295a90
+r18 c74..81 fg=#243c4b bg=#243c4b
+r18 c81..100 fg=Foreground bg=Background
+r19 c0..20 fg=Foreground bg=Background
+r19 c20..21 fg=#222e37 bg=#222e37
+r19 c21..22 fg=#243c4b bg=#243c4b
+r19 c22..23 fg=#243c4b bg=#335262
+r19 c23..24 fg=#243c4b bg=#2c4756
+r19 c24..27 fg=#243c4b bg=#243c4b
+r19 c27..28 fg=#3289d7 bg=#3288d7
+r19 c28..30 fg=#3288d7 bg=#3288d7
+r19 c30..31 fg=#3288d7 bg=#3287d7
+r19 c31..32 fg=#3287d7 bg=#3187d7
+r19 c32..33 fg=#3187d7 bg=#3187d7
+r19 c33..34 fg=#3187d7 bg=#3186d7
+r19 c34..36 fg=#3186d7 bg=#3186d7
+r19 c36..37 fg=#2e73b4 bg=#3185d7
+r19 c37..38 fg=#2a6191 bg=#3185d7
+r19 c38..39 fg=#2a6091 bg=#3185d7
+r19 c39..41 fg=#2a6091 bg=#3184d7
+r19 c41..42 fg=#2a6091 bg=#3083d7
+r19 c42..43 fg=#2d72b4 bg=#3083d7
+r19 c43..44 fg=#3083d7 bg=#3083d7
+r19 c44..45 fg=#3083d7 bg=#3082d7
+r19 c45..46 fg=#3082d7 bg=#3082d7
+r19 c46..47 fg=#3082d7 bg=#3082d6
+r19 c47..48 fg=#3082d6 bg=#3081d6
+r19 c48..50 fg=#3081d6 bg=#3081d6
+r19 c50..51 fg=#3081d6 bg=#3080d6
+r19 c51..52 fg=#3080d6 bg=#2f80d6
+r19 c52..53 fg=#2f80d6 bg=#2f7fd6
+r19 c53..55 fg=#2f7fd6 bg=#2f7fd6
+r19 c55..56 fg=#2f7fd6 bg=#2f7ed6
+r19 c56..58 fg=#2f7ed6 bg=#2f7ed6
+r19 c58..59 fg=#2f7ed6 bg=#2f7dd6
+r19 c59..61 fg=#2f7dd6 bg=#2f7dd6
+r19 c61..62 fg=#2f7dd6 bg=#2e7cd6
+r19 c62..63 fg=#2e7cd6 bg=#619bde
+r19 c63..64 fg=#2e7cd6 bg=#c7d9ed
+r19 c64..65 fg=#94bae5 bg=#faf8f5
+r19 c65..71 fg=#faf8f5 bg=#faf8f5
+r19 c71..72 fg=#c7d8ed bg=#94b8e5
+r19 c72..73 fg=#2d79d6 bg=#2b69b3
+r19 c73..81 fg=#243c4b bg=#243c4b
+r19 c81..100 fg=Foreground bg=Background
+r20 c0..20 fg=Foreground bg=Background
+r20 c20..21 fg=#283238 bg=Background
+r20 c21..22 fg=#3b5d6d bg=#426878
+r20 c22..24 fg=#426878 bg=#426878
+r20 c24..25 fg=#2c4756 bg=#426878
+r20 c25..26 fg=#243c4b bg=#2c4756
+r20 c26..27 fg=#243c4b bg=#243c4b
+r20 c27..28 fg=#2e75b4 bg=#2b6291
+r20 c28..29 fg=#3288d7 bg=#3287d7
+r20 c29..30 fg=#3287d7 bg=#3187d7
+r20 c30..31 fg=#3187d7 bg=#3187d7
+r20 c31..32 fg=#3187d7 bg=#3186d7
+r20 c32..34 fg=#3186d7 bg=#3186d7
+r20 c34..35 fg=#3186d7 bg=#3185d7
+r20 c35..37 fg=#3185d7 bg=#3185d7
+r20 c37..38 fg=#3185d7 bg=#3184d7
+r20 c38..39 fg=#3184d7 bg=#3184d7
+r20 c39..40 fg=#3184d7 bg=#3083d7
+r20 c40..42 fg=#3083d7 bg=#3083d7
+r20 c42..43 fg=#3083d7 bg=#3082d7
+r20 c43..44 fg=#3082d7 bg=#3082d7
+r20 c44..45 fg=#3082d7 bg=#3082d6
+r20 c45..46 fg=#3082d6 bg=#3081d6
+r20 c46..48 fg=#3081d6 bg=#3081d6
+r20 c48..49 fg=#3081d6 bg=#3080d6
+r20 c49..50 fg=#3080d6 bg=#2f80d6
+r20 c50..51 fg=#2f80d6 bg=#2f7fd6
+r20 c51..53 fg=#2f7fd6 bg=#2f7fd6
+r20 c53..54 fg=#2f7fd6 bg=#2f7ed6
+r20 c54..56 fg=#2f7ed6 bg=#2f7ed6
+r20 c56..57 fg=#2f7ed6 bg=#2f7dd6
+r20 c57..59 fg=#2f7dd6 bg=#2f7dd6
+r20 c59..60 fg=#2f7dd6 bg=#2e7cd6
+r20 c60..61 fg=#2e7cd6 bg=#619bde
+r20 c61..62 fg=#619bde bg=#faf8f5
+r20 c62..70 fg=#faf8f5 bg=#faf8f5
+r20 c70..71 fg=#faf8f5 bg=#94b8e5
+r20 c71..72 fg=#2d78d6 bg=#2d78d6
+r20 c72..73 fg=#295a90 bg=#243c4b
+r20 c73..80 fg=#243c4b bg=#243c4b
+r20 c80..81 fg=#223540 bg=#222e37
+r20 c81..100 fg=Foreground bg=Background
+r21 c0..20 fg=Foreground bg=Background
+r21 c20..21 fg=#31444d bg=#426878
+r21 c21..25 fg=#426878 bg=#426878
+r21 c25..26 fg=#3b5d6d bg=#426878
+r21 c26..27 fg=#243c4b bg=#2c4756
+r21 c27..28 fg=#243c4b bg=#243c4b
+r21 c28..29 fg=#3187d7 bg=#2b6191
+r21 c29..30 fg=#3187d7 bg=#3186d7
+r21 c30..32 fg=#3186d7 bg=#3186d7
+r21 c32..33 fg=#3186d7 bg=#3185d7
+r21 c33..35 fg=#3185d7 bg=#3185d7
+r21 c35..36 fg=#3185d7 bg=#3184d7
+r21 c36..37 fg=#3184d7 bg=#3184d7
+r21 c37..38 fg=#3184d7 bg=#3083d7
+r21 c38..40 fg=#3083d7 bg=#3083d7
+r21 c40..41 fg=#3083d7 bg=#3082d7
+r21 c41..42 fg=#3082d7 bg=#3082d7
+r21 c42..43 fg=#3082d7 bg=#3082d6
+r21 c43..44 fg=#3082d6 bg=#3081d6
+r21 c44..46 fg=#3081d6 bg=#3081d6
+r21 c46..47 fg=#3081d6 bg=#3080d6
+r21 c47..48 fg=#3080d6 bg=#2f80d6
+r21 c48..49 fg=#2f80d6 bg=#2f7fd6
+r21 c49..51 fg=#2f7fd6 bg=#2f7fd6
+r21 c51..52 fg=#2f7fd6 bg=#2f7ed6
+r21 c52..53 fg=#629dde bg=#629dde
+r21 c53..54 fg=#faf8f5 bg=#faf8f5
+r21 c54..55 fg=#c7d9ed bg=#c7d9ed
+r21 c55..57 fg=#2f7dd6 bg=#2f7dd6
+r21 c57..58 fg=#2f7dd6 bg=#2e7cd6
+r21 c58..59 fg=#2e7cd6 bg=#619bde
+r21 c59..60 fg=#619bde bg=#faf8f5
+r21 c60..63 fg=#faf8f5 bg=#faf8f5
+r21 c63..64 fg=#faf8f5 bg=#c7d9ed
+r21 c64..66 fg=#faf8f5 bg=#faf8f5
+r21 c66..67 fg=#faf8f5 bg=#c7d8ed
+r21 c67..68 fg=#c7d8ed bg=#faf8f5
+r21 c68..69 fg=#faf8f5 bg=#faf8f5
+r21 c69..70 fg=#faf8f5 bg=#94b8e5
+r21 c70..71 fg=#2d78d6 bg=#2d78d6
+r21 c71..72 fg=#295a90 bg=#254558
+r21 c72..78 fg=#243c4b bg=#254558
+r21 c78..79 fg=#243c4b bg=#244151
+r21 c79..80 fg=#243c4b bg=#243c4b
+r21 c80..81 fg=#222e37 bg=#222e37
+r21 c81..100 fg=Foreground bg=Background
+r22 c0..19 fg=Foreground bg=Background
+r22 c19..20 fg=#283238 bg=Background
+r22 c20..21 fg=#426878 bg=#345b6e
+r22 c21..24 fg=#426878 bg=#254e64
+r22 c24..26 fg=#345b6e bg=#254e64
+r22 c26..27 fg=#2c5063 bg=#254e64
+r22 c27..28 fg=#254558 bg=#254e64
+r22 c28..29 fg=#28587a bg=#254e64
+r22 c29..30 fg=#3186d7 bg=#2b6a9d
+r22 c30..31 fg=#3186d7 bg=#3185d7
+r22 c31..33 fg=#3185d7 bg=#3185d7
+r22 c33..34 fg=#3185d7 bg=#3184d7
+r22 c34..35 fg=#3184d7 bg=#3184d7
+r22 c35..36 fg=#3184d7 bg=#3083d7
+r22 c36..38 fg=#3083d7 bg=#3083d7
+r22 c38..39 fg=#3083d7 bg=#3082d7
+r22 c39..40 fg=#3082d7 bg=#3082d7
+r22 c40..41 fg=#3082d7 bg=#3082d6
+r22 c41..42 fg=#3082d6 bg=#3081d6
+r22 c42..44 fg=#3081d6 bg=#3081d6
+r22 c44..45 fg=#3081d6 bg=#3080d6
+r22 c45..46 fg=#3080d6 bg=#2f80d6
+r22 c46..47 fg=#2f80d6 bg=#2f7fd6
+r22 c47..49 fg=#2f7fd6 bg=#2f7fd6
+r22 c49..50 fg=#2f7fd6 bg=#2f7ed6
+r22 c50..52 fg=#2f7ed6 bg=#2f7ed6
+r22 c52..53 fg=#2f7ed6 bg=#2f7dd6
+r22 c53..55 fg=#2f7dd6 bg=#2f7dd6
+r22 c55..56 fg=#2f7dd6 bg=#2e7cd6
+r22 c56..57 fg=#2e7cd6 bg=#2e7cd6
+r22 c57..58 fg=#619bde bg=#faf8f5
+r22 c58..61 fg=#faf8f5 bg=#faf8f5
+r22 c61..62 fg=#faf8f5 bg=#c7d8ed
+r22 c62..63 fg=#c7d8ed bg=#c7d8ed
+r22 c63..65 fg=#faf8f5 bg=#faf8f5
+r22 c65..66 fg=#faf8f5 bg=#94b8e5
+r22 c66..67 fg=#94b8e5 bg=#faf8f5
+r22 c67..68 fg=#faf8f5 bg=#faf8f5
+r22 c68..69 fg=#c7d8ed bg=#2d78d6
+r22 c69..70 fg=#2d78d6 bg=#2b6db9
+r22 c70..71 fg=#275880 bg=#254e64
+r22 c71..80 fg=#254e64 bg=#254e64
+r22 c80..81 fg=#223743 bg=#223743
+r22 c81..100 fg=Foreground bg=Background
+r23 c0..19 fg=Foreground bg=Background
+r23 c19..20 fg=#31444d bg=#31444d
+r23 c20..21 fg=#345b6e bg=#426878
+r23 c21..22 fg=#254e64 bg=#254e64
+r23 c22..23 fg=#254e64 bg=#3c6e7e
+r23 c23..30 fg=#254e64 bg=#254e64
+r23 c30..31 fg=#3185d7 bg=#285c81
+r23 c31..32 fg=#3185d7 bg=#3184d7
+r23 c32..33 fg=#3184d7 bg=#3184d7
+r23 c33..34 fg=#3184d7 bg=#3083d7
+r23 c34..36 fg=#3083d7 bg=#3083d7
+r23 c36..37 fg=#3083d7 bg=#3082d7
+r23 c37..38 fg=#3082d7 bg=#3082d7
+r23 c38..39 fg=#3082d7 bg=#3082d6
+r23 c39..40 fg=#3082d6 bg=#3081d6
+r23 c40..42 fg=#3081d6 bg=#3081d6
+r23 c42..43 fg=#3081d6 bg=#3080d6
+r23 c43..44 fg=#3080d6 bg=#2f80d6
+r23 c44..45 fg=#2f80d6 bg=#2f7fd6
+r23 c45..47 fg=#2f7fd6 bg=#2f7fd6
+r23 c47..48 fg=#2f7fd6 bg=#2f7ed6
+r23 c48..50 fg=#2f7ed6 bg=#2f7ed6
+r23 c50..51 fg=#2f7ed6 bg=#2f7dd6
+r23 c51..53 fg=#2f7dd6 bg=#2f7dd6
+r23 c53..54 fg=#2f7dd6 bg=#2e7cd6
+r23 c54..55 fg=#2e7cd6 bg=#2e7cd6
+r23 c55..56 fg=#2e7cd6 bg=#94bae5
+r23 c56..57 fg=#c7d9ed bg=#faf8f5
+r23 c57..59 fg=#faf8f5 bg=#faf8f5
+r23 c59..60 fg=#faf8f5 bg=#94b9e5
+r23 c60..62 fg=#c7d8ed bg=#faf8f5
+r23 c62..63 fg=#faf8f5 bg=#faf8f5
+r23 c63..64 fg=#faf8f5 bg=#94b8e5
+r23 c64..65 fg=#94b8e5 bg=#faf8f5
+r23 c65..66 fg=#faf8f5 bg=#faf8f5
+r23 c66..67 fg=#faf8f5 bg=#6098dd
+r23 c67..68 fg=#6098dd bg=#2d77d6
+r23 c68..69 fg=#2b6db9 bg=#275880
+r23 c69..80 fg=#254e64 bg=#254e64
+r23 c80..81 fg=#223743 bg=Background
+r23 c81..100 fg=Foreground bg=Background
+r24 c0..19 fg=Foreground bg=Background
+r24 c19..20 fg=#31444d bg=#31444d
+r24 c20..21 fg=#426878 bg=#426878
+r24 c21..22 fg=#2c5569 bg=#3d6778
+r24 c22..23 fg=#447987 bg=#447987
+r24 c23..31 fg=#254e64 bg=#254e64
+r24 c31..32 fg=#285b81 bg=#254e64
+r24 c32..33 fg=#3083d7 bg=#285b81
+r24 c33..34 fg=#3083d7 bg=#3083d7
+r24 c34..35 fg=#3083d7 bg=#3082d7
+r24 c35..36 fg=#3082d7 bg=#3082d7
+r24 c36..37 fg=#3082d7 bg=#3082d6
+r24 c37..38 fg=#3082d6 bg=#3081d6
+r24 c38..40 fg=#3081d6 bg=#3081d6
+r24 c40..41 fg=#3081d6 bg=#3080d6
+r24 c41..42 fg=#3080d6 bg=#2f80d6
+r24 c42..43 fg=#2f80d6 bg=#2f7fd6
+r24 c43..45 fg=#2f7fd6 bg=#2f7fd6
+r24 c45..46 fg=#2f7fd6 bg=#2a669d
+r24 c46..47 fg=#2d72ba bg=#2c72ba
+r24 c47..48 fg=#2c72ba bg=#2f7ed6
+r24 c48..49 fg=#2f7ed6 bg=#2f7dd6
+r24 c49..51 fg=#2f7dd6 bg=#2f7dd6
+r24 c51..52 fg=#2f7dd6 bg=#2e7cd6
+r24 c52..54 fg=#2e7cd6 bg=#2e7cd6
+r24 c54..55 fg=#619bde bg=#c7d9ed
+r24 c55..57 fg=#faf8f5 bg=#faf8f5
+r24 c57..58 fg=#c7d9ed bg=#faf8f5
+r24 c58..59 fg=#94b9e5 bg=#faf8f5
+r24 c59..60 fg=#faf8f5 bg=#faf8f5
+r24 c60..61 fg=#faf8f5 bg=#c7d8ed
+r24 c61..62 fg=#c7d8ed bg=#6199de
+r24 c62..63 fg=#94b8e5 bg=#faf8f5
+r24 c63..64 fg=#faf8f5 bg=#c7d8ed
+r24 c64..65 fg=#faf8f5 bg=#6098dd
+r24 c65..66 fg=#6098dd bg=#2d77d6
+r24 c66..67 fg=#2d77d6 bg=#275880
+r24 c67..68 fg=#275880 bg=#254e64
+r24 c68..69 fg=#254e64 bg=#305b70
+r24 c69..76 fg=#254e64 bg=#3b677b
+r24 c76..77 fg=#254e64 bg=#254e64
+r24 c77..78 fg=#254e64 bg=#2d596d
+r24 c78..79 fg=#2d596d bg=#356476
+r24 c79..80 fg=#254e64 bg=#234253
+r24 c80..100 fg=Foreground bg=Background
+r25 c0..20 fg=Foreground bg=Background
+r25 c20..21 fg=#31444d bg=Background
+r25 c21..22 fg=#467382 bg=#334c52
+r25 c22..23 fg=#477c89 bg=#477b86
+r25 c23..24 fg=#254e64 bg=#2c5569
+r25 c24..25 fg=#254e64 bg=#3d697d
+r25 c25..26 fg=#2d596d bg=#4f8291
+r25 c26..27 fg=#477788 bg=#3d697d
+r25 c27..31 fg=#3d697d bg=#3d697d
+r25 c31..32 fg=#254e64 bg=#3d697d
+r25 c32..33 fg=#254e64 bg=#315c70
+r25 c33..34 fg=#254e64 bg=#254e64
+r25 c34..35 fg=#2b689d bg=#254e64
+r25 c35..36 fg=#3082d6 bg=#254e64
+r25 c36..37 fg=#3081d6 bg=#285b81
+r25 c37..39 fg=#3081d6 bg=#2a679d
+r25 c39..40 fg=#3080d6 bg=#2a679d
+r25 c40..41 fg=#2f80d6 bg=#2a679d
+r25 c41..42 fg=#2f7fd6 bg=#285a81
+r25 c42..43 fg=#2f7fd6 bg=#254e64
+r25 c43..44 fg=#2a669d bg=#254e64
+r25 c44..45 fg=#254e64 bg=#2c72ba
+r25 c45..46 fg=#2c72ba bg=#2f7ed6
+r25 c46..47 fg=#2f7ed6 bg=#2f7dd6
+r25 c47..49 fg=#2f7dd6 bg=#2f7dd6
+r25 c49..50 fg=#2f7dd6 bg=#2e7cd6
+r25 c50..52 fg=#2e7cd6 bg=#2e7cd6
+r25 c52..53 fg=#2e7cd6 bg=#c7d9ed
+r25 c53..54 fg=#c7d9ed bg=#faf8f5
+r25 c54..56 fg=#faf8f5 bg=#faf8f5
+r25 c56..57 fg=#faf8f5 bg=#c7d8ed
+r25 c57..58 fg=#faf8f5 bg=#94b9e5
+r25 c58..59 fg=#c7d8ed bg=#c7d8ed
+r25 c59..60 fg=#94b9e5 bg=#faf8f5
+r25 c60..61 fg=#c7d8ed bg=#c7d8ed
+r25 c61..62 fg=#faf8f5 bg=#6098dd
+r25 c62..63 fg=#94b8e5 bg=#2d78d6
+r25 c63..64 fg=#2d78d6 bg=#29639d
+r25 c64..65 fg=#2b6db9 bg=#254e64
+r25 c65..68 fg=#254e64 bg=#254e64
+r25 c68..69 fg=#305b70 bg=#254e64
+r25 c69..73 fg=#3b677b bg=#254e64
+r25 c73..74 fg=#305b70 bg=#254e64
+r25 c74..77 fg=#254e64 bg=#254e64
+r25 c77..78 fg=#356476 bg=#3c6e7e
+r25 c78..79 fg=#356476 bg=#356476
+r25 c79..80 fg=#223743 bg=Background
+r25 c80..100 fg=Foreground bg=Background
+r26 c0..21 fg=Foreground bg=Background
+r26 c21..22 fg=#31484e bg=#283438
+r26 c22..23 fg=#43707a bg=#43707a
+r26 c23..24 fg=#32535e bg=#31484e
+r26 c24..25 fg=#254e64 bg=#324a51
+r26 c25..26 fg=#447987 bg=#447987
+r26 c26..27 fg=#254e64 bg=#2d596d
+r26 c27..39 fg=#254e64 bg=#254e64
+r26 c39..40 fg=#254e64 bg=#2a679d
+r26 c40..41 fg=#254e64 bg=#2f7fd6
+r26 c41..42 fg=#254e64 bg=#2f7ed6
+r26 c42..43 fg=#2a669d bg=#2f7ed6
+r26 c43..44 fg=#2f7ed6 bg=#2f7ed6
+r26 c44..45 fg=#2f7ed6 bg=#2f7dd6
+r26 c45..47 fg=#2f7dd6 bg=#2f7dd6
+r26 c47..48 fg=#2f7dd6 bg=#2e7cd6
+r26 c48..49 fg=#2e7cd6 bg=#2e7cd6
+r26 c49..50 fg=#2e7cd6 bg=#619bde
+r26 c50..51 fg=#2e7cd6 bg=#c7d9ed
+r26 c51..52 fg=#c7d9ed bg=#faf8f5
+r26 c52..55 fg=#faf8f5 bg=#faf8f5
+r26 c55..56 fg=#94b9e5 bg=#c7d8ed
+r26 c56..57 fg=#faf8f5 bg=#94b8e5
+r26 c57..58 fg=#faf8f5 bg=#2d79d6
+r26 c58..59 fg=#c7d8ed bg=#2d78d6
+r26 c59..60 fg=#6098de bg=#2b6db9
+r26 c60..61 fg=#2d78d6 bg=#275880
+r26 c61..62 fg=#2b6db9 bg=#254e64
+r26 c62..63 fg=#275880 bg=#254e64
+r26 c63..75 fg=#254e64 bg=#254e64
+r26 c75..76 fg=#254e64 bg=#244c61
+r26 c76..77 fg=#356476 bg=#447886
+r26 c77..78 fg=#477e8b bg=#437886
+r26 c78..79 fg=#437480 bg=#43727d
+r26 c79..100 fg=Foreground bg=Background
+r27 c0..22 fg=Foreground bg=Background
+r27 c22..23 fg=#43707a bg=#43707a
+r27 c23..25 fg=#31484e bg=#314f59
+r27 c25..26 fg=#43727d bg=#43707a
+r27 c26..27 fg=#356476 bg=#336172
+r27 c27..40 fg=#254e64 bg=#254e64
+r27 c40..41 fg=#2a669d bg=#254e64
+r27 c41..43 fg=#2f7ed6 bg=#254e64
+r27 c43..44 fg=#2f7dd6 bg=#2a669d
+r27 c44..45 fg=#2f7dd6 bg=#2a659d
+r27 c45..46 fg=#2f7dd6 bg=#2e7cd6
+r27 c46..48 fg=#2e7cd6 bg=#2e7cd6
+r27 c48..49 fg=#619bde bg=#2e7bd6
+r27 c49..50 fg=#94bae5 bg=#2e7bd6
+r27 c50..53 fg=#94b9e5 bg=#2e7ad6
+r27 c53..54 fg=#6199de bg=#29649d
+r27 c54..55 fg=#2e79d6 bg=#29649d
+r27 c55..56 fg=#2e79d6 bg=#275980
+r27 c56..57 fg=#2d79d6 bg=#254e64
+r27 c57..58 fg=#29639d bg=#254e64
+r27 c58..59 fg=#275980 bg=#254e64
+r27 c59..70 fg=#254e64 bg=#254e64
+r27 c70..71 fg=#254e64 bg=#244c61
+r27 c71..72 fg=#254e64 bg=#22495f
+r27 c72..73 fg=#254e64 bg=#1f445a
+r27 c73..74 fg=#22495f bg=#1f445a
+r27 c74..75 fg=#21475c bg=#1f445a
+r27 c75..76 fg=#285164 bg=#315e6f
+r27 c76..77 fg=#437785 bg=#447683
+r27 c77..78 fg=#437480 bg=#43707a
+r27 c78..79 fg=#43707a bg=#43707a
+r27 c79..100 fg=Foreground bg=Background
+r28 c0..22 fg=Foreground bg=Background
+r28 c22..23 fg=#43707a bg=#31484e
+r28 c23..24 fg=#3a5c64 bg=#43707a
+r28 c24..25 fg=#283b43 bg=Background
+r28 c25..26 fg=#427481 bg=#43717c
+r28 c26..27 fg=#305563 bg=#305461
+r28 c27..28 fg=#214255 bg=#1d3646
+r28 c28..29 fg=#22495f bg=#1e394a
+r28 c29..30 fg=#244c61 bg=#1f445a
+r28 c30..33 fg=#254e64 bg=#1f445a
+r28 c33..34 fg=#254e64 bg=#21475c
+r28 c34..44 fg=#254e64 bg=#22495f
+r28 c44..53 fg=#254e64 bg=#1f445a
+r28 c53..54 fg=#254e64 bg=#21475c
+r28 c54..58 fg=#254e64 bg=#22495f
+r28 c58..63 fg=#254e64 bg=#254e64
+r28 c63..64 fg=#254e64 bg=#244c61
+r28 c64..66 fg=#254e64 bg=#22495f
+r28 c66..68 fg=#254e64 bg=#1f445a
+r28 c68..69 fg=#22495f bg=#1f445a
+r28 c69..70 fg=#21475c bg=#1f445a
+r28 c70..74 fg=#1f445a bg=#1f445a
+r28 c74..75 fg=#1f445a bg=#244c61
+r28 c75..76 fg=#336173 bg=#212c33
+r28 c76..77 fg=#43727d bg=#43707a
+r28 c77..78 fg=#43707a bg=#31484e
+r28 c78..79 fg=#43707a bg=#43707a
+r28 c79..80 fg=#31484e bg=#31484e
+r28 c80..100 fg=Foreground bg=Background
+r29 c0..22 fg=Foreground bg=Background
+r29 c22..23 fg=#31484e bg=#283438
+r29 c23..24 fg=#3a5c64 bg=#31484e
+r29 c24..25 fg=Foreground bg=Background
+r29 c25..26 fg=#43707a bg=#3a5c64
+r29 c26..27 fg=#416069 bg=Background
+r29 c27..28 fg=#1e2b34 bg=Background
+r29 c28..29 fg=#1d3646 bg=Background
+r29 c29..30 fg=#1e394a bg=#1e313d
+r29 c30..31 fg=#1f445a bg=#1d3646
+r29 c31..32 fg=#1f445a bg=#1f4054
+r29 c32..58 fg=#1f445a bg=#1f445a
+r29 c58..63 fg=#1f445a bg=#355f72
+r29 c63..64 fg=#1f445a bg=#416c7e
+r29 c64..67 fg=#1f445a bg=#4c798a
+r29 c67..68 fg=#1f445a bg=#355f72
+r29 c68..69 fg=#2a5166 bg=#2a5166
+r29 c69..70 fg=#355e72 bg=#1f445a
+r29 c70..71 fg=#2a5165 bg=#1f445a
+r29 c71..72 fg=#1f445a bg=#1f445a
+r29 c72..73 fg=#1f445a bg=#224051
+r29 c73..74 fg=#2d566b bg=#212c33
+r29 c74..75 fg=#2b373d bg=Background
+r29 c75..76 fg=Foreground bg=Background
+r29 c76..77 fg=#43707a bg=#43707a
+r29 c77..78 fg=#31484e bg=#283438
+r29 c78..79 fg=#43707a bg=#43707a
+r29 c79..80 fg=#283438 bg=Background
+r29 c80..100 fg=Foreground bg=Background
+r30 c0..23 fg=Foreground bg=Background
+r30 c23..24 fg=#31484e bg=Background
+r30 c24..25 fg=Foreground bg=Background
+r30 c25..26 fg=#31484e bg=Background
+r30 c26..30 fg=Foreground bg=Background
+r30 c30..31 fg=#1f262b bg=Background
+r30 c31..32 fg=#29404c bg=Background
+r30 c32..33 fg=#345666 bg=Background
+r30 c33..34 fg=#355d70 bg=#1e2b34
+r30 c34..35 fg=#355f72 bg=#1f3f53
+r30 c35..36 fg=#416c7e bg=#1f445a
+r30 c36..38 fg=#4c798a bg=#1f445a
+r30 c38..39 fg=#4c798a bg=#2a5166
+r30 c39..41 fg=#4c798a bg=#355f72
+r30 c41..42 fg=#416c7e bg=#416c7e
+r30 c42..46 fg=#355f72 bg=#4c798a
+r30 c46..47 fg=#2a5166 bg=#4c798a
+r30 c47..52 fg=#1f445a bg=#4c798a
+r30 c52..55 fg=#355f72 bg=#4c798a
+r30 c55..59 fg=#4c798a bg=#4c798a
+r30 c59..62 fg=#4c798a bg=#355f72
+r30 c62..63 fg=#4c798a bg=#2a5166
+r30 c63..64 fg=#4c798a bg=#1f445a
+r30 c64..65 fg=#416c7e bg=#1f445a
+r30 c65..66 fg=#355f72 bg=#1f445a
+r30 c66..69 fg=#1f445a bg=#1f445a
+r30 c69..70 fg=#1f445a bg=#224051
+r30 c70..71 fg=#21475c bg=#212c33
+r30 c71..72 fg=#224051 bg=Background
+r30 c72..76 fg=Foreground bg=Background
+r30 c76..77 fg=#31484e bg=Background
+r30 c77..78 fg=Foreground bg=Background
+r30 c78..79 fg=#31484e bg=Background
+r30 c79..100 fg=Foreground bg=Background
+r31 c0..35 fg=Foreground bg=Background
+r31 c35..36 fg=#1f2d37 bg=Background
+r31 c36..37 fg=#1f3949 bg=Background
+r31 c37..38 fg=#1f4358 bg=#21272d
+r31 c38..39 fg=#1f445a bg=#1f313c
+r31 c39..40 fg=#1f445a bg=#204154
+r31 c40..42 fg=#1f445a bg=#1f445a
+r31 c42..45 fg=#1f445a bg=#345c70
+r31 c45..46 fg=#2a5166 bg=#2a5065
+r31 c46..50 fg=#355f72 bg=#1f445a
+r31 c50..51 fg=#2a5166 bg=#1f445a
+r31 c51..59 fg=#1f445a bg=#1f445a
+r31 c59..60 fg=#1f445a bg=#345c70
+r31 c60..64 fg=#1f445a bg=#1f445a
+r31 c64..65 fg=#1f445a bg=#21475c
+r31 c65..66 fg=#1f445a bg=#1f323e
+r31 c66..67 fg=#1f445a bg=#212c33
+r31 c67..68 fg=#203d4e bg=Background
+r31 c68..69 fg=#212c33 bg=Background
+r31 c69..100 fg=Foreground bg=Background
+r32 c0..40 fg=Foreground bg=Background
+r32 c40..41 fg=#2b3b44 bg=Background
+r32 c41..42 fg=#344a53 bg=Background
+r32 c42..43 fg=#365869 bg=Background
+r32 c43..44 fg=#355a6c bg=Background
+r32 c44..45 fg=#345c70 bg=#21272d
+r32 c45..46 fg=#487486 bg=#222e37
+r32 c46..47 fg=#487486 bg=#213541
+r32 c47..51 fg=#487486 bg=#1f323e
+r32 c51..52 fg=#487486 bg=#22495f
+r32 c52..55 fg=#487486 bg=#1f323e
+r32 c55..56 fg=#3e687b bg=#1f323e
+r32 c56..58 fg=#345c70 bg=#1f323e
+r32 c58..61 fg=#1f445a bg=Background
+r32 c61..62 fg=#203d4e bg=Background
+r32 c62..63 fg=#1f323e bg=Background
+r32 c63..64 fg=#212c33 bg=Background
+r32 c64..100 fg=Foreground bg=Background
+r33 c0..49 fg=Foreground bg=Background
+r33 c49..50 fg=Muted bg=Background
+r33 c50..100 fg=Foreground bg=Background
+r34 c0..100 fg=Muted bg=Background
+r35 c0..100 fg=Muted bg=Background
+
+== light-truecolor
+Codewhale   ○ Idle
+
+                                               ▄▄▄▄▄▄▄▄▄▄▄
+                                       ▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+                                  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                               ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                             ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                           ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀
+                       ▀ ▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀ ▀
+                                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary bg=Background
+r0 c9..12 fg=Foreground bg=Background
+r0 c12..13 fg=Muted bg=Background
+r0 c13..100 fg=Foreground bg=Background
+r1 c0..100 fg=Foreground bg=Background
+r2 c0..47 fg=Foreground bg=Background
+r2 c47..48 fg=#f6f7f5 bg=Background
+r2 c48..58 fg=#f3f6f5 bg=Background
+r2 c58..100 fg=Foreground bg=Background
+r3 c0..39 fg=Foreground bg=Background
+r3 c39..40 fg=#f3f6f5 bg=Background
+r3 c40..42 fg=#edf5f5 bg=Background
+r3 c42..44 fg=#f3f6f5 bg=#edf5f5
+r3 c44..60 fg=#edf5f5 bg=#edf5f5
+r3 c60..61 fg=#f0f5f5 bg=#edf5f5
+r3 c61..62 fg=#f3f6f5 bg=#edf5f5
+r3 c62..63 fg=#f6f7f5 bg=#edf5f5
+r3 c63..64 fg=#edf5f5 bg=Background
+r3 c64..65 fg=#f3f6f5 bg=Background
+r3 c65..100 fg=Foreground bg=Background
+r4 c0..34 fg=Foreground bg=Background
+r4 c34..35 fg=#f6f7f5 bg=Background
+r4 c35..36 fg=#f0f5f5 bg=Background
+r4 c36..37 fg=#f6f7f5 bg=#edf5f5
+r4 c37..38 fg=#f0f5f5 bg=#edf5f5
+r4 c38..66 fg=#edf5f5 bg=#edf5f5
+r4 c66..67 fg=#f0f5f5 bg=#edf5f5
+r4 c67..68 fg=#f6f7f5 bg=#edf5f5
+r4 c68..69 fg=#f0f5f5 bg=Background
+r4 c69..100 fg=Foreground bg=Background
+r5 c0..31 fg=Foreground bg=Background
+r5 c31..32 fg=#f6f7f5 bg=Background
+r5 c32..33 fg=#f0f5f5 bg=Background
+r5 c33..34 fg=#f3f6f5 bg=#edf5f5
+r5 c34..69 fg=#edf5f5 bg=#edf5f5
+r5 c69..70 fg=#f0f5f5 bg=#edf5f5
+r5 c70..71 fg=#f6f7f5 bg=#edf5f5
+r5 c71..72 fg=#f6f7f5 bg=Background
+r5 c72..100 fg=Foreground bg=Background
+r6 c0..29 fg=Foreground bg=Background
+r6 c29..30 fg=#f6f7f5 bg=Background
+r6 c30..31 fg=#f6f7f5 bg=#edf5f5
+r6 c31..72 fg=#edf5f5 bg=#edf5f5
+r6 c72..73 fg=#f6f7f5 bg=#edf5f5
+r6 c73..74 fg=#f6f7f5 bg=Background
+r6 c74..100 fg=Foreground bg=Background
+r7 c0..27 fg=Foreground bg=Background
+r7 c27..28 fg=#f6f7f5 bg=Background
+r7 c28..29 fg=#f6f7f5 bg=#edf5f5
+r7 c29..39 fg=#edf5f5 bg=#edf5f5
+r7 c39..40 fg=#edf5f5 bg=#84bbe4
+r7 c40..41 fg=#edf5f5 bg=#1a80d2
+r7 c41..42 fg=#b8d8ec bg=#1a7fd2
+r7 c42..43 fg=#83bae3 bg=#1a7fd1
+r7 c43..44 fg=#83bae3 bg=#197ed1
+r7 c44..45 fg=#197ed1 bg=#197dd1
+r7 c45..46 fg=#197dd1 bg=#197dd0
+r7 c46..47 fg=#197dd0 bg=#197cd0
+r7 c47..48 fg=#197cd0 bg=#197bd0
+r7 c48..49 fg=#197bd0 bg=#187ad0
+r7 c49..50 fg=#187ad0 bg=#187acf
+r7 c50..51 fg=#83b7e2 bg=#1879cf
+r7 c51..52 fg=#83b7e2 bg=#1878cf
+r7 c52..53 fg=#edf5f5 bg=#1878ce
+r7 c53..54 fg=#edf5f5 bg=#82b6e2
+r7 c54..74 fg=#edf5f5 bg=#edf5f5
+r7 c74..75 fg=#f6f7f5 bg=#edf5f5
+r7 c75..76 fg=#f6f7f5 bg=Background
+r7 c76..100 fg=Foreground bg=Background
+r8 c0..26 fg=Foreground bg=Background
+r8 c26..27 fg=#f6f7f5 bg=#edf5f5
+r8 c27..35 fg=#edf5f5 bg=#edf5f5
+r8 c35..36 fg=#edf5f5 bg=#b8d8ec
+r8 c36..37 fg=#edf5f5 bg=#1a82d2
+r8 c37..38 fg=#84bbe4 bg=#1a81d2
+r8 c38..39 fg=#1a81d2 bg=#1a80d2
+r8 c39..40 fg=#1a80d2 bg=#1a7fd2
+r8 c40..41 fg=#1a7fd2 bg=#1a7fd1
+r8 c41..42 fg=#1a7fd1 bg=#197ed1
+r8 c42..43 fg=#197ed1 bg=#197dd1
+r8 c43..44 fg=#197dd1 bg=#197dd0
+r8 c44..45 fg=#197dd0 bg=#197cd0
+r8 c45..46 fg=#197cd0 bg=#197bd0
+r8 c46..47 fg=#197bd0 bg=#187ad0
+r8 c47..48 fg=#187ad0 bg=#187acf
+r8 c48..49 fg=#187acf bg=#1879cf
+r8 c49..50 fg=#1879cf bg=#1878cf
+r8 c50..51 fg=#1878cf bg=#1878ce
+r8 c51..52 fg=#1878ce bg=#4d96d8
+r8 c52..53 fg=#4d96d8 bg=#edf5f5
+r8 c53..75 fg=#edf5f5 bg=#edf5f5
+r8 c75..76 fg=#f0f5f5 bg=#edf5f5
+r8 c76..77 fg=#f3f6f5 bg=Background
+r8 c77..100 fg=Foreground bg=Background
+r9 c0..24 fg=Foreground bg=Background
+r9 c24..25 fg=#f3f6f5 bg=Background
+r9 c25..26 fg=#f0f5f5 bg=#edf5f5
+r9 c26..33 fg=#edf5f5 bg=#edf5f5
+r9 c33..34 fg=#edf5f5 bg=#4f9fdb
+r9 c34..35 fg=#4f9fdb bg=#1a82d2
+r9 c35..36 fg=#1a82d2 bg=#1a81d2
+r9 c36..37 fg=#1a81d2 bg=#1a80d2
+r9 c37..38 fg=#1a80d2 bg=#1a7fd2
+r9 c38..39 fg=#1a7fd2 bg=#1a7fd1
+r9 c39..40 fg=#1a7fd1 bg=#197ed1
+r9 c40..41 fg=#197ed1 bg=#197dd1
+r9 c41..42 fg=#197dd1 bg=#197dd0
+r9 c42..43 fg=#197dd0 bg=#197cd0
+r9 c43..44 fg=#197cd0 bg=#197bd0
+r9 c44..45 fg=#197bd0 bg=#187ad0
+r9 c45..46 fg=#187ad0 bg=#187acf
+r9 c46..47 fg=#187acf bg=#1879cf
+r9 c47..48 fg=#1879cf bg=#1878cf
+r9 c48..49 fg=#1878cf bg=#1878ce
+r9 c49..50 fg=#4d97d8 bg=#4d96d8
+r9 c50..51 fg=#82b6e2 bg=#1776ce
+r9 c51..52 fg=#edf5f5 bg=#1775ce
+r9 c52..53 fg=#edf5f5 bg=#1775cd
+r9 c53..54 fg=#edf5f5 bg=#1774cd
+r9 c54..55 fg=#edf5f5 bg=#4c94d7
+r9 c55..56 fg=#edf5f5 bg=#82b4e1
+r9 c56..77 fg=#edf5f5 bg=#edf5f5
+r9 c77..78 fg=#f3f6f5 bg=Background
+r9 c78..100 fg=Foreground bg=Background
+r10 c0..23 fg=Foreground bg=Background
+r10 c23..24 fg=#f3f6f5 bg=Background
+r10 c24..31 fg=#edf5f5 bg=#edf5f5
+r10 c31..32 fg=#edf5f5 bg=#4f9fdb
+r10 c32..33 fg=#4f9fdb bg=#1a82d2
+r10 c33..34 fg=#1a82d2 bg=#1a81d2
+r10 c34..35 fg=#1a81d2 bg=#1a80d2
+r10 c35..36 fg=#1a80d2 bg=#1a7fd2
+r10 c36..37 fg=#1a7fd2 bg=#1a7fd1
+r10 c37..38 fg=#1a7fd1 bg=#197ed1
+r10 c38..39 fg=#197ed1 bg=#197dd1
+r10 c39..40 fg=#197dd1 bg=#197dd0
+r10 c40..41 fg=#197dd0 bg=#197cd0
+r10 c41..42 fg=#197cd0 bg=#83b8e2
+r10 c42..43 fg=#197bd0 bg=#b8d6ec
+r10 c43..44 fg=#187ad0 bg=#edf5f5
+r10 c44..45 fg=#187acf bg=#edf5f5
+r10 c45..46 fg=#1879cf bg=#edf5f5
+r10 c46..47 fg=#1878cf bg=#edf5f5
+r10 c47..48 fg=#1878ce bg=#edf5f5
+r10 c48..49 fg=#1877ce bg=#82b6e1
+r10 c49..50 fg=#1776ce bg=#1775ce
+r10 c50..51 fg=#1775ce bg=#1775cd
+r10 c51..52 fg=#1775cd bg=#1774cd
+r10 c52..53 fg=#1774cd bg=#1773cd
+r10 c53..54 fg=#1773cd bg=#1673cc
+r10 c54..55 fg=#1673cc bg=#1672cc
+r10 c55..56 fg=#1672cc bg=#1671cc
+r10 c56..57 fg=#1671cc bg=#1670cc
+r10 c57..58 fg=#4c92d6 bg=#1670cb
+r10 c58..59 fg=#81b2e0 bg=#156fcb
+r10 c59..60 fg=#edf5f5 bg=#156ecb
+r10 c60..61 fg=#edf5f5 bg=#81b1e0
+r10 c61..78 fg=#edf5f5 bg=#edf5f5
+r10 c78..79 fg=#f3f6f5 bg=Background
+r10 c79..100 fg=Foreground bg=Background
+r11 c0..22 fg=Foreground bg=Background
+r11 c22..23 fg=#f3f6f5 bg=Background
+r11 c23..29 fg=#edf5f5 bg=#edf5f5
+r11 c29..30 fg=#edf5f5 bg=#b8d8ec
+r11 c30..31 fg=#b8d8ec bg=#1a82d2
+r11 c31..32 fg=#1a82d2 bg=#1a81d2
+r11 c32..33 fg=#1a81d2 bg=#1a80d2
+r11 c33..34 fg=#1a80d2 bg=#1a7fd2
+r11 c34..35 fg=#1a7fd2 bg=#1a7fd1
+r11 c35..36 fg=#1a7fd1 bg=#197ed1
+r11 c36..37 fg=#197ed1 bg=#197dd1
+r11 c37..38 fg=#197dd1 bg=#4e9bda
+r11 c38..39 fg=#197dd0 bg=#b8d7ec
+r11 c39..40 fg=#83b9e3 bg=#edf5f5
+r11 c40..49 fg=#edf5f5 bg=#edf5f5
+r11 c49..50 fg=#b7d5eb bg=#edf5f5
+r11 c50..51 fg=#1774cd bg=#b7d5eb
+r11 c51..52 fg=#1773cd bg=#1673cc
+r11 c52..53 fg=#1673cc bg=#1672cc
+r11 c53..54 fg=#1672cc bg=#1671cc
+r11 c54..55 fg=#1671cc bg=#1670cc
+r11 c55..56 fg=#1670cc bg=#1670cb
+r11 c56..57 fg=#1670cb bg=#156fcb
+r11 c57..58 fg=#156fcb bg=#156ecb
+r11 c58..59 fg=#156ecb bg=#81b1e0
+r11 c59..60 fg=#4b90d5 bg=#edf5f5
+r11 c60..79 fg=#edf5f5 bg=#edf5f5
+r11 c79..100 fg=Foreground bg=Background
+r12 c0..22 fg=Foreground bg=Background
+r12 c22..23 fg=#f0f5f5 bg=#edf5f5
+r12 c23..28 fg=#edf5f5 bg=#edf5f5
+r12 c28..29 fg=#edf5f5 bg=#b8d8ec
+r12 c29..30 fg=#4f9edb bg=#1a81d2
+r12 c30..31 fg=#1a81d2 bg=#1a80d2
+r12 c31..32 fg=#1a80d2 bg=#1a7fd2
+r12 c32..33 fg=#1a7fd2 bg=#1a7fd1
+r12 c33..34 fg=#1a7fd1 bg=#197ed1
+r12 c34..35 fg=#197ed1 bg=#197dd1
+r12 c35..36 fg=#197dd1 bg=#197dd0
+r12 c36..37 fg=#4e9bda bg=#edf5f5
+r12 c37..52 fg=#edf5f5 bg=#edf5f5
+r12 c52..53 fg=#82b3e0 bg=#edf5f5
+r12 c53..54 fg=#81b3e0 bg=#edf5f5
+r12 c54..57 fg=#81b2e0 bg=#edf5f5
+r12 c57..79 fg=#edf5f5 bg=#edf5f5
+r12 c79..80 fg=#f3f6f5 bg=#f3f6f5
+r12 c80..100 fg=Foreground bg=Background
+r13 c0..21 fg=Foreground bg=Background
+r13 c21..22 fg=#f3f6f5 bg=#f0f5f5
+r13 c22..28 fg=#edf5f5 bg=#edf5f5
+r13 c28..29 fg=#4f9edb bg=#1a80d2
+r13 c29..30 fg=#1a80d2 bg=#1a7fd2
+r13 c30..31 fg=#1a7fd2 bg=#1a7fd1
+r13 c31..32 fg=#1a7fd1 bg=#197ed1
+r13 c32..33 fg=#197ed1 bg=#197dd1
+r13 c33..34 fg=#197dd1 bg=#197dd0
+r13 c34..35 fg=#197dd0 bg=#4e9ad9
+r13 c35..36 fg=#b8d7ec bg=#edf5f5
+r13 c36..80 fg=#edf5f5 bg=#edf5f5
+r13 c80..100 fg=Foreground bg=Background
+r14 c0..21 fg=Foreground bg=Background
+r14 c21..27 fg=#edf5f5 bg=#edf5f5
+r14 c27..28 fg=#83bae3 bg=#4f9dda
+r14 c28..29 fg=#1a7fd2 bg=#1a7fd1
+r14 c29..30 fg=#1a7fd1 bg=#197ed1
+r14 c30..31 fg=#197ed1 bg=#197dd1
+r14 c31..32 fg=#197dd1 bg=#197dd0
+r14 c32..33 fg=#197dd0 bg=#197cd0
+r14 c33..34 fg=#197cd0 bg=#4e9ad9
+r14 c34..35 fg=#b8d7ec bg=#edf5f5
+r14 c35..80 fg=#edf5f5 bg=#edf5f5
+r14 c80..81 fg=#f6f7f5 bg=Background
+r14 c81..100 fg=Foreground bg=Background
+r15 c0..20 fg=Foreground bg=Background
+r15 c20..21 fg=#f3f6f5 bg=#f3f6f5
+r15 c21..27 fg=#edf5f5 bg=#edf5f5
+r15 c27..28 fg=#1a7fd1 bg=#197ed1
+r15 c28..29 fg=#197ed1 bg=#197dd1
+r15 c29..30 fg=#197dd1 bg=#197dd0
+r15 c30..31 fg=#197dd0 bg=#197cd0
+r15 c31..32 fg=#197cd0 bg=#197bd0
+r15 c32..33 fg=#197bd0 bg=#187ad0
+r15 c33..34 fg=#83b8e2 bg=#83b7e2
+r15 c34..63 fg=#edf5f5 bg=#edf5f5
+r15 c63..64 fg=#edf5f5 bg=#80adde
+r15 c64..65 fg=#edf5f5 bg=#80acde
+r15 c65..66 fg=#edf5f5 bg=#80acdd
+r15 c66..67 fg=#edf5f5 bg=#7facdd
+r15 c67..69 fg=#edf5f5 bg=#7fabdd
+r15 c69..72 fg=#edf5f5 bg=#7faadd
+r15 c72..80 fg=#edf5f5 bg=#edf5f5
+r15 c80..81 fg=#f3f6f5 bg=#f3f6f5
+r15 c81..100 fg=Foreground bg=Background
+r16 c0..20 fg=Foreground bg=Background
+r16 c20..21 fg=#f3f6f5 bg=#f3f6f5
+r16 c21..26 fg=#edf5f5 bg=#edf5f5
+r16 c26..27 fg=#83b9e3 bg=#83b9e3
+r16 c27..28 fg=#197dd1 bg=#197dd0
+r16 c28..29 fg=#197dd0 bg=#197cd0
+r16 c29..30 fg=#197cd0 bg=#197bd0
+r16 c30..31 fg=#197bd0 bg=#187ad0
+r16 c31..32 fg=#187ad0 bg=#187acf
+r16 c32..33 fg=#187acf bg=#1879cf
+r16 c33..34 fg=#b8d6ec bg=#82b7e2
+r16 c34..55 fg=#edf5f5 bg=#edf5f5
+r16 c55..56 fg=#edf5f5 bg=#80afdf
+r16 c56..57 fg=#edf5f5 bg=#4a8bd3
+r16 c57..58 fg=#edf5f5 bg=#1367c8
+r16 c58..59 fg=#b7d1ea bg=#1367c7
+r16 c59..60 fg=#80aede bg=#1366c7
+r16 c60..61 fg=#498ad3 bg=#1365c7
+r16 c61..62 fg=#1365c7 bg=#1364c7
+r16 c62..63 fg=#1364c7 bg=#1264c6
+r16 c63..64 fg=#1264c6 bg=#1263c6
+r16 c64..65 fg=#1263c6 bg=#1262c6
+r16 c65..66 fg=#1262c6 bg=#1262c5
+r16 c66..67 fg=#1262c5 bg=#1261c5
+r16 c67..68 fg=#1261c5 bg=#1160c5
+r16 c68..69 fg=#1160c5 bg=#115fc5
+r16 c69..70 fg=#115fc5 bg=#115fc4
+r16 c70..71 fg=#115fc4 bg=#115ec4
+r16 c71..72 fg=#115ec4 bg=#115dc4
+r16 c72..73 fg=#115dc4 bg=#115dc3
+r16 c73..74 fg=#b6cfe9 bg=#7fa9dc
+r16 c74..80 fg=#edf5f5 bg=#edf5f5
+r16 c80..81 fg=#f3f6f5 bg=#f3f6f5
+r16 c81..100 fg=Foreground bg=Background
+r17 c0..20 fg=Foreground bg=Background
+r17 c20..21 fg=#f3f6f5 bg=#f3f6f5
+r17 c21..26 fg=#edf5f5 bg=#edf5f5
+r17 c26..27 fg=#83b9e3 bg=#83b8e3
+r17 c27..28 fg=#197cd0 bg=#197bd0
+r17 c28..29 fg=#197bd0 bg=#187ad0
+r17 c29..30 fg=#187ad0 bg=#187acf
+r17 c30..31 fg=#187acf bg=#1879cf
+r17 c31..32 fg=#1879cf bg=#1878cf
+r17 c32..33 fg=#1878cf bg=#1878ce
+r17 c33..34 fg=#82b6e2 bg=#4d96d8
+r17 c34..49 fg=#edf5f5 bg=#edf5f5
+r17 c49..50 fg=#edf5f5 bg=#b7d3ea
+r17 c50..51 fg=#edf5f5 bg=#4a8dd4
+r17 c51..52 fg=#edf5f5 bg=#146ac9
+r17 c52..53 fg=#81afdf bg=#1469c9
+r17 c53..54 fg=#4a8cd4 bg=#1469c8
+r17 c54..55 fg=#1469c8 bg=#1468c8
+r17 c55..56 fg=#1468c8 bg=#1367c8
+r17 c56..57 fg=#1367c8 bg=#1367c7
+r17 c57..58 fg=#1367c7 bg=#1366c7
+r17 c58..59 fg=#1366c7 bg=#1365c7
+r17 c59..60 fg=#1365c7 bg=#1364c7
+r17 c60..61 fg=#1364c7 bg=#1264c6
+r17 c61..62 fg=#1264c6 bg=#1263c6
+r17 c62..63 fg=#1263c6 bg=#1262c6
+r17 c63..64 fg=#1262c6 bg=#1262c5
+r17 c64..65 fg=#1262c5 bg=#1261c5
+r17 c65..66 fg=#1261c5 bg=#1160c5
+r17 c66..67 fg=#1160c5 bg=#115fc5
+r17 c67..68 fg=#115fc5 bg=#115fc4
+r17 c68..69 fg=#115fc4 bg=#115ec4
+r17 c69..70 fg=#115ec4 bg=#115dc4
+r17 c70..71 fg=#115dc4 bg=#115dc3
+r17 c71..72 fg=#115dc3 bg=#105cc3
+r17 c72..73 fg=#105cc3 bg=#105bc3
+r17 c73..74 fg=#7fa8dc bg=#7ea8dc
+r17 c74..80 fg=#edf5f5 bg=#edf5f5
+r17 c80..81 fg=#f3f6f5 bg=#f0f5f5
+r17 c81..100 fg=Foreground bg=Background
+r18 c0..20 fg=Foreground bg=Background
+r18 c20..21 fg=#f3f6f5 bg=#f3f6f5
+r18 c21..26 fg=#edf5f5 bg=#edf5f5
+r18 c26..27 fg=#83b8e2 bg=#b8d6ec
+r18 c27..28 fg=#187ad0 bg=#187acf
+r18 c28..29 fg=#187acf bg=#1879cf
+r18 c29..30 fg=#1879cf bg=#1878cf
+r18 c30..31 fg=#1878cf bg=#1878ce
+r18 c31..32 fg=#1878ce bg=#1877ce
+r18 c32..33 fg=#1877ce bg=#1776ce
+r18 c33..34 fg=#1776ce bg=#1775ce
+r18 c34..35 fg=#b8d5eb bg=#1775cd
+r18 c35..36 fg=#edf5f5 bg=#b7d5eb
+r18 c36..44 fg=#edf5f5 bg=#edf5f5
+r18 c44..45 fg=#edf5f5 bg=#81b1e0
+r18 c45..46 fg=#edf5f5 bg=#4b8fd5
+r18 c46..47 fg=#edf5f5 bg=#156cca
+r18 c47..48 fg=#81b1df bg=#156cca
+r18 c48..49 fg=#156cca bg=#146bc9
+r18 c49..50 fg=#146bc9 bg=#146ac9
+r18 c50..51 fg=#146ac9 bg=#1469c9
+r18 c51..52 fg=#1469c9 bg=#1469c8
+r18 c52..53 fg=#1469c8 bg=#1468c8
+r18 c53..54 fg=#1468c8 bg=#1367c8
+r18 c54..55 fg=#1367c8 bg=#1367c7
+r18 c55..56 fg=#1367c7 bg=#1366c7
+r18 c56..57 fg=#1366c7 bg=#1365c7
+r18 c57..58 fg=#1365c7 bg=#1364c7
+r18 c58..59 fg=#1364c7 bg=#1264c6
+r18 c59..60 fg=#1264c6 bg=#1263c6
+r18 c60..61 fg=#1263c6 bg=#1262c6
+r18 c61..62 fg=#1262c6 bg=#1262c5
+r18 c62..63 fg=#1262c5 bg=#1261c5
+r18 c63..64 fg=#1261c5 bg=#1160c5
+r18 c64..65 fg=#1160c5 bg=#115fc5
+r18 c65..66 fg=#115fc5 bg=#115fc4
+r18 c66..67 fg=#115fc4 bg=#85abdd
+r18 c67..68 fg=#115ec4 bg=Background
+r18 c68..69 fg=#85abdc bg=Background
+r18 c69..70 fg=#85aadc bg=Background
+r18 c70..71 fg=#c0d1e9 bg=Background
+r18 c71..72 fg=Background bg=Background
+r18 c72..73 fg=#105ac3 bg=#105ac2
+r18 c73..74 fg=#7ea7dc bg=#7ea7dc
+r18 c74..81 fg=#edf5f5 bg=#edf5f5
+r18 c81..100 fg=Foreground bg=Background
+r19 c0..20 fg=Foreground bg=Background
+r19 c20..21 fg=#f3f6f5 bg=#f3f6f5
+r19 c21..22 fg=#edf5f5 bg=#edf5f5
+r19 c22..23 fg=#edf5f5 bg=#d9e7e6
+r19 c23..24 fg=#edf5f5 bg=#e3eeee
+r19 c24..27 fg=#edf5f5 bg=#edf5f5
+r19 c27..28 fg=#1879cf bg=#1878cf
+r19 c28..29 fg=#1878cf bg=#1878ce
+r19 c29..30 fg=#1878ce bg=#1877ce
+r19 c30..31 fg=#1877ce bg=#1776ce
+r19 c31..32 fg=#1776ce bg=#1775ce
+r19 c32..33 fg=#1775ce bg=#1775cd
+r19 c33..34 fg=#1775cd bg=#1774cd
+r19 c34..35 fg=#1774cd bg=#1773cd
+r19 c35..36 fg=#1773cd bg=#1673cc
+r19 c36..37 fg=#4c93d7 bg=#1672cc
+r19 c37..38 fg=#82b3e1 bg=#1671cc
+r19 c38..39 fg=#81b3e0 bg=#1670cc
+r19 c39..40 fg=#81b3e0 bg=#1670cb
+r19 c40..41 fg=#81b2e0 bg=#156fcb
+r19 c41..42 fg=#81b2e0 bg=#156ecb
+r19 c42..43 fg=#4b90d5 bg=#156eca
+r19 c43..44 fg=#156eca bg=#156dca
+r19 c44..45 fg=#156dca bg=#156cca
+r19 c45..46 fg=#156cca bg=#156cca
+r19 c46..47 fg=#156cca bg=#146bc9
+r19 c47..48 fg=#146bc9 bg=#146ac9
+r19 c48..49 fg=#146ac9 bg=#1469c9
+r19 c49..50 fg=#1469c9 bg=#1469c8
+r19 c50..51 fg=#1469c8 bg=#1468c8
+r19 c51..52 fg=#1468c8 bg=#1367c8
+r19 c52..53 fg=#1367c8 bg=#1367c7
+r19 c53..54 fg=#1367c7 bg=#1366c7
+r19 c54..55 fg=#1366c7 bg=#1365c7
+r19 c55..56 fg=#1365c7 bg=#1364c7
+r19 c56..57 fg=#1364c7 bg=#1264c6
+r19 c57..58 fg=#1264c6 bg=#1263c6
+r19 c58..59 fg=#1263c6 bg=#1262c6
+r19 c59..60 fg=#1262c6 bg=#1262c5
+r19 c60..61 fg=#1262c5 bg=#1261c5
+r19 c61..62 fg=#1261c5 bg=#1160c5
+r19 c62..63 fg=#1160c5 bg=#4b86d1
+r19 c63..64 fg=#115fc5 bg=#c0d2e9
+r19 c64..65 fg=#86abdd bg=Background
+r19 c65..71 fg=Background bg=Background
+r19 c71..72 fg=#bfd0e8 bg=#85a8db
+r19 c72..73 fg=#1059c2 bg=#4780cf
+r19 c73..81 fg=#edf5f5 bg=#edf5f5
+r19 c81..100 fg=Foreground bg=Background
+r20 c0..20 fg=Foreground bg=Background
+r20 c20..21 fg=#ecefed bg=Background
+r20 c21..22 fg=#cedfdf bg=#c4d8d7
+r20 c22..24 fg=#c4d8d7 bg=#c4d8d7
+r20 c24..25 fg=#e3eeee bg=#c4d8d7
+r20 c25..26 fg=#edf5f5 bg=#e3eeee
+r20 c26..27 fg=#edf5f5 bg=#edf5f5
+r20 c27..28 fg=#4d97d8 bg=#82b6e2
+r20 c28..29 fg=#1877ce bg=#1776ce
+r20 c29..30 fg=#1776ce bg=#1775ce
+r20 c30..31 fg=#1775ce bg=#1775cd
+r20 c31..32 fg=#1775cd bg=#1774cd
+r20 c32..33 fg=#1774cd bg=#1773cd
+r20 c33..34 fg=#1773cd bg=#1673cc
+r20 c34..35 fg=#1673cc bg=#1672cc
+r20 c35..36 fg=#1672cc bg=#1671cc
+r20 c36..37 fg=#1671cc bg=#1670cc
+r20 c37..38 fg=#1670cc bg=#1670cb
+r20 c38..39 fg=#1670cb bg=#156fcb
+r20 c39..40 fg=#156fcb bg=#156ecb
+r20 c40..41 fg=#156ecb bg=#156eca
+r20 c41..42 fg=#156eca bg=#156dca
+r20 c42..43 fg=#156dca bg=#156cca
+r20 c43..44 fg=#156cca bg=#156cca
+r20 c44..45 fg=#156cca bg=#146bc9
+r20 c45..46 fg=#146bc9 bg=#146ac9
+r20 c46..47 fg=#146ac9 bg=#1469c9
+r20 c47..48 fg=#1469c9 bg=#1469c8
+r20 c48..49 fg=#1469c8 bg=#1468c8
+r20 c49..50 fg=#1468c8 bg=#1367c8
+r20 c50..51 fg=#1367c8 bg=#1367c7
+r20 c51..52 fg=#1367c7 bg=#1366c7
+r20 c52..53 fg=#1366c7 bg=#1365c7
+r20 c53..54 fg=#1365c7 bg=#1364c7
+r20 c54..55 fg=#1364c7 bg=#1264c6
+r20 c55..56 fg=#1264c6 bg=#1263c6
+r20 c56..57 fg=#1263c6 bg=#1262c6
+r20 c57..58 fg=#1262c6 bg=#1262c5
+r20 c58..59 fg=#1262c5 bg=#1261c5
+r20 c59..60 fg=#1261c5 bg=#1160c5
+r20 c60..61 fg=#1160c5 bg=#4b86d1
+r20 c61..62 fg=#4b86d1 bg=Background
+r20 c62..70 fg=Background bg=Background
+r20 c70..71 fg=Background bg=#85a8db
+r20 c71..72 fg=#0f58c2 bg=#0f58c1
+r20 c72..73 fg=#7ea6db bg=#edf5f5
+r20 c73..80 fg=#edf5f5 bg=#edf5f5
+r20 c80..81 fg=#f0f5f5 bg=#f3f6f5
+r20 c81..100 fg=Foreground bg=Background
+r21 c0..20 fg=Foreground bg=Background
+r21 c20..21 fg=#dee7e5 bg=#c4d8d7
+r21 c21..25 fg=#c4d8d7 bg=#c4d8d7
+r21 c25..26 fg=#cedfdf bg=#c4d8d7
+r21 c26..27 fg=#edf5f5 bg=#e3eeee
+r21 c27..28 fg=#edf5f5 bg=#edf5f5
+r21 c28..29 fg=#1775ce bg=#82b5e1
+r21 c29..30 fg=#1775cd bg=#1774cd
+r21 c30..31 fg=#1774cd bg=#1773cd
+r21 c31..32 fg=#1773cd bg=#1673cc
+r21 c32..33 fg=#1673cc bg=#1672cc
+r21 c33..34 fg=#1672cc bg=#1671cc
+r21 c34..35 fg=#1671cc bg=#1670cc
+r21 c35..36 fg=#1670cc bg=#1670cb
+r21 c36..37 fg=#1670cb bg=#156fcb
+r21 c37..38 fg=#156fcb bg=#156ecb
+r21 c38..39 fg=#156ecb bg=#156eca
+r21 c39..40 fg=#156eca bg=#156dca
+r21 c40..41 fg=#156dca bg=#156cca
+r21 c41..42 fg=#156cca bg=#156cca
+r21 c42..43 fg=#156cca bg=#146bc9
+r21 c43..44 fg=#146bc9 bg=#146ac9
+r21 c44..45 fg=#146ac9 bg=#1469c9
+r21 c45..46 fg=#1469c9 bg=#1469c8
+r21 c46..47 fg=#1469c8 bg=#1468c8
+r21 c47..48 fg=#1468c8 bg=#1367c8
+r21 c48..49 fg=#1367c8 bg=#1367c7
+r21 c49..50 fg=#1367c7 bg=#1366c7
+r21 c50..51 fg=#1366c7 bg=#1365c7
+r21 c51..52 fg=#1365c7 bg=#1364c7
+r21 c52..53 fg=#4c89d2 bg=#4c89d2
+r21 c53..54 fg=Background bg=Background
+r21 c54..55 fg=#c0d3e9 bg=#c0d2e9
+r21 c55..56 fg=#1262c6 bg=#1262c5
+r21 c56..57 fg=#1262c5 bg=#1261c5
+r21 c57..58 fg=#1261c5 bg=#1160c5
+r21 c58..59 fg=#1160c5 bg=#4b86d1
+r21 c59..60 fg=#4b86d1 bg=Background
+r21 c60..63 fg=Background bg=Background
+r21 c63..64 fg=Background bg=#c0d1e9
+r21 c64..66 fg=Background bg=Background
+r21 c66..67 fg=Background bg=#bfd0e8
+r21 c67..68 fg=#bfd0e8 bg=Background
+r21 c68..69 fg=Background bg=Background
+r21 c69..70 fg=Background bg=#85a8db
+r21 c70..71 fg=#0f58c1 bg=#0f57c1
+r21 c71..72 fg=#7ea6db bg=#e2f0f1
+r21 c72..78 fg=#edf5f5 bg=#e2f0f1
+r21 c78..79 fg=#edf5f5 bg=#e7f2f3
+r21 c79..80 fg=#edf5f5 bg=#edf5f5
+r21 c80..81 fg=#f3f6f5 bg=#f3f6f5
+r21 c81..100 fg=Foreground bg=Background
+r22 c0..19 fg=Foreground bg=Background
+r22 c19..20 fg=#ecefed bg=Background
+r22 c20..21 fg=#c4d8d7 bg=#cde1e2
+r22 c21..24 fg=#c4d8d7 bg=#d6eaed
+r22 c24..26 fg=#cde1e2 bg=#d6eaed
+r22 c26..27 fg=#d7e8ea bg=#d6eaed
+r22 c27..28 fg=#e2f0f1 bg=#d6eaed
+r22 c28..29 fg=#accfe7 bg=#d6eaed
+r22 c29..30 fg=#1773cd bg=#76aedd
+r22 c30..31 fg=#1673cc bg=#1672cc
+r22 c31..32 fg=#1672cc bg=#1671cc
+r22 c32..33 fg=#1671cc bg=#1670cc
+r22 c33..34 fg=#1670cc bg=#1670cb
+r22 c34..35 fg=#1670cb bg=#156fcb
+r22 c35..36 fg=#156fcb bg=#156ecb
+r22 c36..37 fg=#156ecb bg=#156eca
+r22 c37..38 fg=#156eca bg=#156dca
+r22 c38..39 fg=#156dca bg=#156cca
+r22 c39..40 fg=#156cca bg=#156cca
+r22 c40..41 fg=#156cca bg=#146bc9
+r22 c41..42 fg=#146bc9 bg=#146ac9
+r22 c42..43 fg=#146ac9 bg=#1469c9
+r22 c43..44 fg=#1469c9 bg=#1469c8
+r22 c44..45 fg=#1469c8 bg=#1468c8
+r22 c45..46 fg=#1468c8 bg=#1367c8
+r22 c46..47 fg=#1367c8 bg=#1367c7
+r22 c47..48 fg=#1367c7 bg=#1366c7
+r22 c48..49 fg=#1366c7 bg=#1365c7
+r22 c49..50 fg=#1365c7 bg=#1364c7
+r22 c50..51 fg=#1364c7 bg=#1264c6
+r22 c51..52 fg=#1264c6 bg=#1263c6
+r22 c52..53 fg=#1263c6 bg=#1262c6
+r22 c53..54 fg=#1262c6 bg=#1262c5
+r22 c54..55 fg=#1262c5 bg=#1261c5
+r22 c55..56 fg=#1261c5 bg=#1160c5
+r22 c56..57 fg=#1160c5 bg=#115fc5
+r22 c57..58 fg=#4b86d1 bg=Background
+r22 c58..61 fg=Background bg=Background
+r22 c61..62 fg=Background bg=#c0d1e8
+r22 c62..63 fg=#c0d1e8 bg=#c0d1e8
+r22 c63..65 fg=Background bg=Background
+r22 c65..66 fg=Background bg=#85a9db
+r22 c66..67 fg=#85a9dc bg=Background
+r22 c67..68 fg=Background bg=Background
+r22 c68..69 fg=#bfd0e8 bg=#0f57c1
+r22 c69..70 fg=#0f57c1 bg=#417bcc
+r22 c70..71 fg=#a4c5e2 bg=#d6eaed
+r22 c71..80 fg=#d6eaed bg=#d6eaed
+r22 c80..81 fg=#e7f0f0 bg=#e7f0f0
+r22 c81..100 fg=Foreground bg=Background
+r23 c0..19 fg=Foreground bg=Background
+r23 c19..20 fg=#dee7e5 bg=#dee7e5
+r23 c20..21 fg=#cde1e2 bg=#c4d8d7
+r23 c21..22 fg=#d6eaed bg=#d6eaed
+r23 c22..23 fg=#d6eaed bg=#a6cacc
+r23 c23..30 fg=#d6eaed bg=#d6eaed
+r23 c30..31 fg=#1671cc bg=#a6cce5
+r23 c31..32 fg=#1670cc bg=#1670cb
+r23 c32..33 fg=#1670cb bg=#156fcb
+r23 c33..34 fg=#156fcb bg=#156ecb
+r23 c34..35 fg=#156ecb bg=#156eca
+r23 c35..36 fg=#156eca bg=#156dca
+r23 c36..37 fg=#156dca bg=#156cca
+r23 c37..38 fg=#156cca bg=#156cca
+r23 c38..39 fg=#156cca bg=#146bc9
+r23 c39..40 fg=#146bc9 bg=#146ac9
+r23 c40..41 fg=#146ac9 bg=#1469c9
+r23 c41..42 fg=#1469c9 bg=#1469c8
+r23 c42..43 fg=#1469c8 bg=#1468c8
+r23 c43..44 fg=#1468c8 bg=#1367c8
+r23 c44..45 fg=#1367c8 bg=#1367c7
+r23 c45..46 fg=#1367c7 bg=#1366c7
+r23 c46..47 fg=#1366c7 bg=#1365c7
+r23 c47..48 fg=#1365c7 bg=#1364c7
+r23 c48..49 fg=#1364c7 bg=#1264c6
+r23 c49..50 fg=#1264c6 bg=#1263c6
+r23 c50..51 fg=#1263c6 bg=#1262c6
+r23 c51..52 fg=#1262c6 bg=#1262c5
+r23 c52..53 fg=#1262c5 bg=#1261c5
+r23 c53..54 fg=#1261c5 bg=#1160c5
+r23 c54..55 fg=#1160c5 bg=#115fc5
+r23 c55..56 fg=#115fc5 bg=#86abdd
+r23 c56..57 fg=#c0d2e9 bg=Background
+r23 c57..59 fg=Background bg=Background
+r23 c59..60 fg=Background bg=#85aadc
+r23 c60..62 fg=#c0d1e8 bg=Background
+r23 c62..63 fg=Background bg=Background
+r23 c63..64 fg=Background bg=#85a9db
+r23 c64..65 fg=#85a9db bg=Background
+r23 c65..66 fg=Background bg=Background
+r23 c66..67 fg=Background bg=#4a7fce
+r23 c67..68 fg=#4a7fce bg=#0f56c1
+r23 c68..69 fg=#417bcc bg=#a4c5e2
+r23 c69..80 fg=#d6eaed bg=#d6eaed
+r23 c80..81 fg=#e7f0f0 bg=Background
+r23 c81..100 fg=Foreground bg=Background
+r24 c0..19 fg=Foreground bg=Background
+r24 c19..20 fg=#dee7e5 bg=#dee7e5
+r24 c20..21 fg=#c4d8d7 bg=#c4d8d7
+r24 c21..22 fg=#d2e6e8 bg=#bcd6d6
+r24 c22..23 fg=#96c0c1 bg=#96c0c1
+r24 c23..31 fg=#d6eaed bg=#d6eaed
+r24 c31..32 fg=#a6cbe4 bg=#d6eaed
+r24 c32..33 fg=#156ecb bg=#a6cbe4
+r24 c33..34 fg=#156eca bg=#156dca
+r24 c34..35 fg=#156dca bg=#156cca
+r24 c35..36 fg=#156cca bg=#156cca
+r24 c36..37 fg=#156cca bg=#146bc9
+r24 c37..38 fg=#146bc9 bg=#146ac9
+r24 c38..39 fg=#146ac9 bg=#1469c9
+r24 c39..40 fg=#1469c9 bg=#1469c8
+r24 c40..41 fg=#1469c8 bg=#1468c8
+r24 c41..42 fg=#1468c8 bg=#1367c8
+r24 c42..43 fg=#1367c8 bg=#1367c7
+r24 c43..44 fg=#1367c7 bg=#1366c7
+r24 c44..45 fg=#1366c7 bg=#1365c7
+r24 c45..46 fg=#1365c7 bg=#74a7da
+r24 c46..47 fg=#4386d0 bg=#4385d0
+r24 c47..48 fg=#4385d0 bg=#1263c6
+r24 c48..49 fg=#1263c6 bg=#1262c6
+r24 c49..50 fg=#1262c6 bg=#1262c5
+r24 c50..51 fg=#1262c5 bg=#1261c5
+r24 c51..52 fg=#1261c5 bg=#1160c5
+r24 c52..53 fg=#1160c5 bg=#115fc5
+r24 c53..54 fg=#115fc5 bg=#115fc4
+r24 c54..55 fg=#4b85d0 bg=#c0d2e9
+r24 c55..57 fg=Background bg=Background
+r24 c57..58 fg=#c0d1e9 bg=Background
+r24 c58..59 fg=#85aadc bg=Background
+r24 c59..60 fg=Background bg=Background
+r24 c60..61 fg=Background bg=#bfd0e8
+r24 c61..62 fg=#bfd0e8 bg=#4a81cf
+r24 c62..63 fg=#85a9db bg=Background
+r24 c63..64 fg=Background bg=#bfd0e8
+r24 c64..65 fg=Background bg=#4a7fce
+r24 c65..66 fg=#4a7fce bg=#0f56c1
+r24 c66..67 fg=#0f56c1 bg=#a4c5e2
+r24 c67..68 fg=#a4c5e2 bg=#d6eaed
+r24 c68..69 fg=#d6eaed bg=#dbedef
+r24 c69..76 fg=#d6eaed bg=#e1f0f2
+r24 c76..77 fg=#d6eaed bg=#d6eaed
+r24 c77..78 fg=#d6eaed bg=#c6dfe2
+r24 c78..79 fg=#c6dfe2 bg=#b6d5d7
+r24 c79..80 fg=#d6eaed bg=#dfedef
+r24 c80..100 fg=Foreground bg=Background
+r25 c0..20 fg=Foreground bg=Background
+r25 c20..21 fg=#dee7e5 bg=Background
+r25 c21..22 fg=#abcaca bg=#c8dbda
+r25 c22..23 fg=#94bebf bg=#95bebd
+r25 c23..24 fg=#d6eaed bg=#d2e6e8
+r25 c24..25 fg=#d6eaed bg=#e2f0f2
+r25 c25..26 fg=#c6dfe2 bg=#bdd8d9
+r25 c26..27 fg=#cde3e4 bg=#e2f0f2
+r25 c27..31 fg=#e2f0f2 bg=#e2f0f2
+r25 c31..32 fg=#d6eaed bg=#e2f0f2
+r25 c32..33 fg=#d6eaed bg=#dcedef
+r25 c33..34 fg=#d6eaed bg=#d6eaed
+r25 c34..35 fg=#75abdb bg=#d6eaed
+r25 c35..36 fg=#146bc9 bg=#d6eaed
+r25 c36..37 fg=#146ac9 bg=#a5cae4
+r25 c37..38 fg=#1469c9 bg=#75a9db
+r25 c38..39 fg=#1469c8 bg=#75a9db
+r25 c39..40 fg=#1468c8 bg=#75a9da
+r25 c40..41 fg=#1367c8 bg=#75a8da
+r25 c41..42 fg=#1367c7 bg=#a5c9e4
+r25 c42..43 fg=#1366c7 bg=#d6eaed
+r25 c43..44 fg=#74a8da bg=#d6eaed
+r25 c44..45 fg=#d6eaed bg=#4385d0
+r25 c45..46 fg=#4385d0 bg=#1263c6
+r25 c46..47 fg=#1263c6 bg=#1262c6
+r25 c47..48 fg=#1262c6 bg=#1262c5
+r25 c48..49 fg=#1262c5 bg=#1261c5
+r25 c49..50 fg=#1261c5 bg=#1160c5
+r25 c50..51 fg=#1160c5 bg=#115fc5
+r25 c51..52 fg=#115fc5 bg=#115fc4
+r25 c52..53 fg=#115fc4 bg=#c0d2e9
+r25 c53..54 fg=#c0d2e9 bg=Background
+r25 c54..56 fg=Background bg=Background
+r25 c56..57 fg=Background bg=#c0d1e8
+r25 c57..58 fg=Background bg=#85a9dc
+r25 c58..59 fg=#bfd1e8 bg=#bfd1e8
+r25 c59..60 fg=#85a9dc bg=Background
+r25 c60..61 fg=#bfd0e8 bg=#bfd0e8
+r25 c61..62 fg=Background bg=#4a80ce
+r25 c62..63 fg=#85a8db bg=#0f57c1
+r25 c63..64 fg=#0f57c1 bg=#72a0d7
+r25 c64..65 fg=#417bcc bg=#d6eaed
+r25 c65..68 fg=#d6eaed bg=#d6eaed
+r25 c68..69 fg=#dbedef bg=#d6eaed
+r25 c69..73 fg=#e1f0f2 bg=#d6eaed
+r25 c73..74 fg=#dbedef bg=#d6eaed
+r25 c74..77 fg=#d6eaed bg=#d6eaed
+r25 c77..78 fg=#b6d5d7 bg=#a6cacc
+r25 c78..79 fg=#b6d5d7 bg=#b6d5d7
+r25 c79..80 fg=#e7f0f0 bg=Background
+r25 c80..100 fg=Foreground bg=Background
+r26 c0..21 fg=Foreground bg=Background
+r26 c21..22 fg=#cbdddb bg=#e2eae8
+r26 c22..23 fg=#9dc2c2 bg=#9dc2c2
+r26 c23..24 fg=#c2d9d9 bg=#cbdddb
+r26 c24..25 fg=#d6eaed bg=#c9dcdb
+r26 c25..26 fg=#96c0c1 bg=#96c0c1
+r26 c26..27 fg=#d6eaed bg=#c6dfe2
+r26 c27..39 fg=#d6eaed bg=#d6eaed
+r26 c39..40 fg=#d6eaed bg=#74a8da
+r26 c40..41 fg=#d6eaed bg=#1365c7
+r26 c41..42 fg=#d6eaed bg=#1364c7
+r26 c42..43 fg=#74a7da bg=#1264c6
+r26 c43..44 fg=#1264c6 bg=#1263c6
+r26 c44..45 fg=#1263c6 bg=#1262c6
+r26 c45..46 fg=#1262c6 bg=#1262c5
+r26 c46..47 fg=#1262c5 bg=#1261c5
+r26 c47..48 fg=#1261c5 bg=#1160c5
+r26 c48..49 fg=#1160c5 bg=#115fc5
+r26 c49..50 fg=#115fc5 bg=#4b85d0
+r26 c50..51 fg=#115fc4 bg=#c0d2e9
+r26 c51..52 fg=#c0d2e9 bg=Background
+r26 c52..55 fg=Background bg=Background
+r26 c55..56 fg=#85aadc bg=#bfd1e8
+r26 c56..57 fg=Background bg=#85a9dc
+r26 c57..58 fg=Background bg=#1059c2
+r26 c58..59 fg=#bfd0e8 bg=#0f58c2
+r26 c59..60 fg=#4a80ce bg=#417ccc
+r26 c60..61 fg=#0f58c1 bg=#a4c5e2
+r26 c61..62 fg=#417ccc bg=#d6eaed
+r26 c62..63 fg=#a4c5e2 bg=#d6eaed
+r26 c63..75 fg=#d6eaed bg=#d6eaed
+r26 c75..76 fg=#d6eaed bg=#d1e8eb
+r26 c76..77 fg=#b6d5d7 bg=#94bfc0
+r26 c77..78 fg=#90bbbd bg=#93bec0
+r26 c78..79 fg=#99c1c1 bg=#9bc1c1
+r26 c79..100 fg=Foreground bg=Background
+r27 c0..22 fg=Foreground bg=Background
+r27 c22..23 fg=#9dc2c2 bg=#9dc2c2
+r27 c23..25 fg=#cbdddb bg=#bed6d7
+r27 c25..26 fg=#9bc1c1 bg=#9dc2c2
+r27 c26..27 fg=#b6d5d7 bg=#b7d5d7
+r27 c27..40 fg=#d6eaed bg=#d6eaed
+r27 c40..41 fg=#74a7da bg=#d6eaed
+r27 c41..42 fg=#1264c6 bg=#d6eaed
+r27 c42..43 fg=#1263c6 bg=#d6eaed
+r27 c43..44 fg=#1262c6 bg=#74a6d9
+r27 c44..45 fg=#1262c5 bg=#74a6d9
+r27 c45..46 fg=#1261c5 bg=#1160c5
+r27 c46..47 fg=#1160c5 bg=#115fc5
+r27 c47..48 fg=#115fc5 bg=#115fc4
+r27 c48..49 fg=#4b85d0 bg=#115ec4
+r27 c49..50 fg=#85abdc bg=#115dc4
+r27 c50..51 fg=#85abdc bg=#115dc3
+r27 c51..52 fg=#85aadc bg=#105cc3
+r27 c52..53 fg=#85aadc bg=#105bc3
+r27 c53..54 fg=#4b82cf bg=#73a2d8
+r27 c54..55 fg=#105ac3 bg=#73a2d8
+r27 c55..56 fg=#105ac2 bg=#a4c6e2
+r27 c56..57 fg=#1059c2 bg=#d6eaed
+r27 c57..58 fg=#73a1d7 bg=#d6eaed
+r27 c58..59 fg=#a4c5e2 bg=#d6eaed
+r27 c59..70 fg=#d6eaed bg=#d6eaed
+r27 c70..71 fg=#d6eaed bg=#d1e8eb
+r27 c71..72 fg=#d6eaed bg=#cce5ea
+r27 c72..73 fg=#d6eaed bg=#c2e0e6
+r27 c73..74 fg=#cce5ea bg=#c2e0e6
+r27 c74..75 fg=#c7e3e8 bg=#c2e0e6
+r27 c75..76 fg=#b6d8dc bg=#aacfd3
+r27 c76..77 fg=#92bec0 bg=#97c0c0
+r27 c77..78 fg=#99c1c1 bg=#9dc2c2
+r27 c78..79 fg=#9dc2c2 bg=#9dc2c2
+r27 c79..100 fg=Foreground bg=Background
+r28 c0..22 fg=Foreground bg=Background
+r28 c22..23 fg=#9dc2c2 bg=#cbdddb
+r28 c23..24 fg=#b4cfcf bg=#9dc2c2
+r28 c24..25 fg=#d4e4e4 bg=Background
+r28 c25..26 fg=#94bec0 bg=#9ac1c2
+r28 c26..27 fg=#b0d1d4 bg=#b2d2d4
+r28 c27..28 fg=#d1e6ea bg=#cce4e8
+r28 c28..29 fg=#cce5ea bg=#c9e3e7
+r28 c29..30 fg=#d1e8eb bg=#c2e0e6
+r28 c30..33 fg=#d6eaed bg=#c2e0e6
+r28 c33..34 fg=#d6eaed bg=#c7e3e8
+r28 c34..44 fg=#d6eaed bg=#cce5ea
+r28 c44..53 fg=#d6eaed bg=#c2e0e6
+r28 c53..54 fg=#d6eaed bg=#c7e3e8
+r28 c54..58 fg=#d6eaed bg=#cce5ea
+r28 c58..63 fg=#d6eaed bg=#d6eaed
+r28 c63..64 fg=#d6eaed bg=#d1e8eb
+r28 c64..66 fg=#d6eaed bg=#cce5ea
+r28 c66..68 fg=#d6eaed bg=#c2e0e6
+r28 c68..69 fg=#cce5ea bg=#c2e0e6
+r28 c69..70 fg=#c7e3e8 bg=#c2e0e6
+r28 c70..74 fg=#c2e0e6 bg=#c2e0e6
+r28 c74..75 fg=#c2e0e6 bg=#d1e8eb
+r28 c75..76 fg=#b1d2d5 bg=#f0f4f2
+r28 c76..77 fg=#9bc1c1 bg=#9dc2c2
+r28 c77..78 fg=#9dc2c2 bg=#cbdddb
+r28 c78..79 fg=#9dc2c2 bg=#9dc2c2
+r28 c79..80 fg=#cbdddb bg=#cbdddb
+r28 c80..100 fg=Foreground bg=Background
+r29 c0..22 fg=Foreground bg=Background
+r29 c22..23 fg=#cbdddb bg=#e2eae8
+r29 c23..24 fg=#b4cfcf bg=#cbdddb
+r29 c24..25 fg=Foreground bg=Background
+r29 c25..26 fg=#9dc2c2 bg=#b4cfcf
+r29 c26..27 fg=#d8e6e4 bg=Background
+r29 c27..28 fg=#e3eeee bg=Background
+r29 c28..29 fg=#cce4e8 bg=Background
+r29 c29..30 fg=#c9e3e7 bg=#d7e9eb
+r29 c30..31 fg=#c2e0e6 bg=#cce4e8
+r29 c31..32 fg=#c2e0e6 bg=#c4e0e6
+r29 c32..58 fg=#c2e0e6 bg=#c2e0e6
+r29 c58..63 fg=#c2e0e6 bg=#d2e9ec
+r29 c63..64 fg=#c2e0e6 bg=#daedef
+r29 c64..67 fg=#c2e0e6 bg=#e2f1f3
+r29 c67..68 fg=#c2e0e6 bg=#d2e9ec
+r29 c68..69 fg=#cae4e9 bg=#cae4e9
+r29 c69..70 fg=#d1e8ec bg=#c2e0e6
+r29 c70..71 fg=#c9e4e9 bg=#c2e0e6
+r29 c71..72 fg=#c2e0e6 bg=#c2e0e6
+r29 c72..73 fg=#c2e0e6 bg=#d9ebed
+r29 c73..74 fg=#d4e9ed bg=#f0f4f2
+r29 c74..75 fg=#f5f6f5 bg=Background
+r29 c75..76 fg=Foreground bg=Background
+r29 c76..77 fg=#9dc2c2 bg=#9dc2c2
+r29 c77..78 fg=#cbdddb bg=#e2eae8
+r29 c78..79 fg=#9dc2c2 bg=#9dc2c2
+r29 c79..80 fg=#e2eae8 bg=Background
+r29 c80..100 fg=Foreground bg=Background
+r30 c0..23 fg=Foreground bg=Background
+r30 c23..24 fg=#cbdddb bg=Background
+r30 c24..25 fg=Foreground bg=Background
+r30 c25..26 fg=#cbdddb bg=Background
+r30 c26..30 fg=Foreground bg=Background
+r30 c30..31 fg=#eef3f1 bg=Background
+r30 c31..32 fg=#deecee bg=Background
+r30 c32..33 fg=#d8eaed bg=Background
+r30 c33..34 fg=#d3e9ed bg=#e3eeee
+r30 c34..35 fg=#d2e9ec bg=#c6e1e7
+r30 c35..36 fg=#daedef bg=#c2e0e6
+r30 c36..38 fg=#e2f1f3 bg=#c2e0e6
+r30 c38..39 fg=#e2f1f3 bg=#cae4e9
+r30 c39..41 fg=#e2f1f3 bg=#d2e9ec
+r30 c41..42 fg=#daedef bg=#daedef
+r30 c42..46 fg=#d2e9ec bg=#e2f1f3
+r30 c46..47 fg=#cae4e9 bg=#e2f1f3
+r30 c47..52 fg=#c2e0e6 bg=#e2f1f3
+r30 c52..55 fg=#d2e9ec bg=#e2f1f3
+r30 c55..59 fg=#e2f1f3 bg=#e2f1f3
+r30 c59..62 fg=#e2f1f3 bg=#d2e9ec
+r30 c62..63 fg=#e2f1f3 bg=#cae4e9
+r30 c63..64 fg=#e2f1f3 bg=#c2e0e6
+r30 c64..65 fg=#daedef bg=#c2e0e6
+r30 c65..66 fg=#d2e9ec bg=#c2e0e6
+r30 c66..69 fg=#c2e0e6 bg=#c2e0e6
+r30 c69..70 fg=#c2e0e6 bg=#d9ebed
+r30 c70..71 fg=#c7e3e8 bg=#f0f4f2
+r30 c71..72 fg=#d9ebed bg=Background
+r30 c72..76 fg=Foreground bg=Background
+r30 c76..77 fg=#cbdddb bg=Background
+r30 c77..78 fg=Foreground bg=Background
+r30 c78..79 fg=#cbdddb bg=Background
+r30 c79..100 fg=Foreground bg=Background
+r31 c0..35 fg=Foreground bg=Background
+r31 c35..36 fg=#e2edee bg=Background
+r31 c36..37 fg=#d1e6ea bg=Background
+r31 c37..38 fg=#c3e1e7 bg=#f6f7f5
+r31 c38..39 fg=#c2e0e6 bg=#dfeced
+r31 c39..40 fg=#c2e0e6 bg=#cee6ea
+r31 c40..42 fg=#c2e0e6 bg=#c2e0e6
+r31 c42..45 fg=#c2e0e6 bg=#d0e8ec
+r31 c45..46 fg=#cae4e9 bg=#c9e4e9
+r31 c46..50 fg=#d2e9ec bg=#c2e0e6
+r31 c50..51 fg=#cae4e9 bg=#c2e0e6
+r31 c51..59 fg=#c2e0e6 bg=#c2e0e6
+r31 c59..60 fg=#c2e0e6 bg=#d0e8ec
+r31 c60..64 fg=#c2e0e6 bg=#c2e0e6
+r31 c64..65 fg=#c2e0e6 bg=#c7e3e8
+r31 c65..66 fg=#c2e0e6 bg=#ddebed
+r31 c66..67 fg=#c2e0e6 bg=#f0f4f2
+r31 c67..68 fg=#d4e8eb bg=Background
+r31 c68..69 fg=#f0f4f2 bg=Background
+r31 c69..100 fg=Foreground bg=Background
+r32 c0..40 fg=Foreground bg=Background
+r32 c40..41 fg=#f4f7f6 bg=Background
+r32 c41..42 fg=#f1f5f5 bg=Background
+r32 c42..43 fg=#e6f2f3 bg=Background
+r32 c43..44 fg=#dbedf0 bg=Background
+r32 c44..45 fg=#d0e8ec bg=#f6f7f5
+r32 c45..46 fg=#dfeff2 bg=#f3f6f5
+r32 c46..47 fg=#dfeff2 bg=#e2eeef
+r32 c47..51 fg=#dfeff2 bg=#ddebed
+r32 c51..52 fg=#dfeff2 bg=#cce5ea
+r32 c52..55 fg=#dfeff2 bg=#ddebed
+r32 c55..56 fg=#d8ecef bg=#ddebed
+r32 c56..58 fg=#d0e8ec bg=#ddebed
+r32 c58..61 fg=#c2e0e6 bg=Background
+r32 c61..62 fg=#d4e8eb bg=Background
+r32 c62..63 fg=#ddebed bg=Background
+r32 c63..64 fg=#f0f4f2 bg=Background
+r32 c64..100 fg=Foreground bg=Background
+r33 c0..49 fg=Foreground bg=Background
+r33 c49..50 fg=Muted bg=Background
+r33 c50..100 fg=Foreground bg=Background
+r34 c0..100 fg=Muted bg=Background
+r35 c0..100 fg=Muted bg=Background
+
+== dark-256
+Codewhale   ○ Idle
+
+                                               ▄▄▄▄▄▄▄▄▄▄▄
+                                       ▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+                                  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                               ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                             ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                           ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀
+                       ▀ ▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀ ▀
+                                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary bg=Background
+r0 c9..12 fg=Foreground bg=Background
+r0 c12..13 fg=Muted bg=Background
+r0 c13..100 fg=Foreground bg=Background
+r1 c0..100 fg=Foreground bg=Background
+r2 c0..47 fg=Foreground bg=Background
+r2 c47..48 fg=PrimaryForeground bg=Background
+r2 c48..58 fg=Surface|Hover bg=Background
+r2 c58..100 fg=Foreground bg=Background
+r3 c0..39 fg=Foreground bg=Background
+r3 c39..40 fg=Surface|Hover bg=Background
+r3 c40..42 fg=Border bg=Background
+r3 c42..44 fg=Surface|Hover bg=Selected
+r3 c44..60 fg=Border bg=Selected
+r3 c60..62 fg=Surface|Hover bg=Selected
+r3 c62..63 fg=PrimaryForeground bg=Selected
+r3 c63..64 fg=Border bg=Background
+r3 c64..65 fg=Surface|Hover bg=Background
+r3 c65..100 fg=Foreground bg=Background
+r4 c0..34 fg=Foreground bg=Background
+r4 c34..35 fg=PrimaryForeground bg=Background
+r4 c35..36 fg=Surface|Hover bg=Background
+r4 c36..37 fg=PrimaryForeground bg=Selected
+r4 c37..38 fg=Surface|Hover bg=Selected
+r4 c38..66 fg=Border bg=Selected
+r4 c66..67 fg=Surface|Hover bg=Selected
+r4 c67..68 fg=PrimaryForeground bg=Selected
+r4 c68..69 fg=Surface|Hover bg=Background
+r4 c69..100 fg=Foreground bg=Background
+r5 c0..31 fg=Foreground bg=Background
+r5 c31..32 fg=PrimaryForeground bg=Background
+r5 c32..33 fg=Surface|Hover bg=Background
+r5 c33..34 fg=Surface|Hover bg=Selected
+r5 c34..69 fg=Border bg=Selected
+r5 c69..70 fg=Surface|Hover bg=Selected
+r5 c70..71 fg=PrimaryForeground bg=Selected
+r5 c71..72 fg=PrimaryForeground bg=Background
+r5 c72..100 fg=Foreground bg=Background
+r6 c0..29 fg=Foreground bg=Background
+r6 c29..30 fg=PrimaryForeground bg=Background
+r6 c30..31 fg=PrimaryForeground bg=Selected
+r6 c31..72 fg=Border bg=Selected
+r6 c72..73 fg=PrimaryForeground bg=Selected
+r6 c73..74 fg=PrimaryForeground bg=Background
+r6 c74..100 fg=Foreground bg=Background
+r7 c0..27 fg=Foreground bg=Background
+r7 c27..28 fg=PrimaryForeground bg=Background
+r7 c28..29 fg=PrimaryForeground bg=Selected
+r7 c29..39 fg=Border bg=Selected
+r7 c39..40 fg=Border bg=idx24
+r7 c40..41 fg=Border bg=idx68
+r7 c41..42 fg=idx23 bg=idx68
+r7 c42..44 fg=idx24 bg=idx68
+r7 c44..50 fg=idx68 bg=idx68
+r7 c50..52 fg=idx24 bg=idx68
+r7 c52..53 fg=Border bg=idx68
+r7 c53..54 fg=Border bg=idx24
+r7 c54..74 fg=Border bg=Selected
+r7 c74..75 fg=PrimaryForeground bg=Selected
+r7 c75..76 fg=PrimaryForeground bg=Background
+r7 c76..100 fg=Foreground bg=Background
+r8 c0..26 fg=Foreground bg=Background
+r8 c26..27 fg=PrimaryForeground bg=Selected
+r8 c27..35 fg=Border bg=Selected
+r8 c35..36 fg=Border bg=idx23
+r8 c36..37 fg=Border bg=idx68
+r8 c37..38 fg=idx24 bg=idx68
+r8 c38..51 fg=idx68 bg=idx68
+r8 c51..52 fg=idx68 bg=idx31
+r8 c52..53 fg=idx31 bg=Selected
+r8 c53..75 fg=Border bg=Selected
+r8 c75..76 fg=Surface|Hover bg=Selected
+r8 c76..77 fg=Surface|Hover bg=Background
+r8 c77..100 fg=Foreground bg=Background
+r9 c0..24 fg=Foreground bg=Background
+r9 c24..25 fg=Surface|Hover bg=Background
+r9 c25..26 fg=Surface|Hover bg=Selected
+r9 c26..33 fg=Border bg=Selected
+r9 c33..34 fg=Border bg=idx31
+r9 c34..35 fg=idx31 bg=idx68
+r9 c35..49 fg=idx68 bg=idx68
+r9 c49..50 fg=idx31 bg=idx31
+r9 c50..51 fg=idx24 bg=idx68
+r9 c51..54 fg=Border bg=idx68
+r9 c54..55 fg=Border bg=idx25
+r9 c55..56 fg=Border bg=idx24
+r9 c56..77 fg=Border bg=Selected
+r9 c77..78 fg=Surface|Hover bg=Background
+r9 c78..100 fg=Foreground bg=Background
+r10 c0..23 fg=Foreground bg=Background
+r10 c23..24 fg=Surface|Hover bg=Background
+r10 c24..31 fg=Border bg=Selected
+r10 c31..32 fg=Border bg=idx31
+r10 c32..33 fg=idx31 bg=idx68
+r10 c33..41 fg=idx68 bg=idx68
+r10 c41..42 fg=idx68 bg=idx24
+r10 c42..43 fg=idx68 bg=idx23
+r10 c43..48 fg=idx68 bg=Selected
+r10 c48..49 fg=idx68 bg=idx24
+r10 c49..57 fg=idx68 bg=idx68
+r10 c57..58 fg=idx25 bg=idx68
+r10 c58..59 fg=idx24 bg=idx68
+r10 c59..60 fg=Border bg=idx68
+r10 c60..61 fg=Border bg=idx24
+r10 c61..78 fg=Border bg=Selected
+r10 c78..79 fg=Surface|Hover bg=Background
+r10 c79..100 fg=Foreground bg=Background
+r11 c0..22 fg=Foreground bg=Background
+r11 c22..23 fg=Surface|Hover bg=Background
+r11 c23..29 fg=Border bg=Selected
+r11 c29..30 fg=Border bg=idx23
+r11 c30..31 fg=idx23 bg=idx68
+r11 c31..37 fg=idx68 bg=idx68
+r11 c37..38 fg=idx68 bg=idx31
+r11 c38..39 fg=idx68 bg=idx23
+r11 c39..40 fg=idx24 bg=Selected
+r11 c40..49 fg=Border bg=Selected
+r11 c49..50 fg=idx23 bg=Selected
+r11 c50..51 fg=idx68 bg=idx23
+r11 c51..58 fg=idx68 bg=idx68
+r11 c58..59 fg=idx68 bg=idx24
+r11 c59..60 fg=idx25 bg=Selected
+r11 c60..79 fg=Border bg=Selected
+r11 c79..100 fg=Foreground bg=Background
+r12 c0..22 fg=Foreground bg=Background
+r12 c22..23 fg=Surface|Hover bg=Selected
+r12 c23..28 fg=Border bg=Selected
+r12 c28..29 fg=Border bg=idx23
+r12 c29..30 fg=idx31 bg=idx68
+r12 c30..36 fg=idx68 bg=idx68
+r12 c36..37 fg=idx31 bg=Selected
+r12 c37..52 fg=Border bg=Selected
+r12 c52..57 fg=idx24 bg=Selected
+r12 c57..79 fg=Border bg=Selected
+r12 c79..80 fg=Surface|Hover bg=Surface|Hover
+r12 c80..100 fg=Foreground bg=Background
+r13 c0..21 fg=Foreground bg=Background
+r13 c21..22 fg=Surface|Hover bg=Surface|Hover
+r13 c22..28 fg=Border bg=Selected
+r13 c28..29 fg=idx31 bg=idx68
+r13 c29..34 fg=idx68 bg=idx68
+r13 c34..35 fg=idx68 bg=idx31
+r13 c35..36 fg=idx23 bg=Selected
+r13 c36..80 fg=Border bg=Selected
+r13 c80..100 fg=Foreground bg=Background
+r14 c0..21 fg=Foreground bg=Background
+r14 c21..27 fg=Border bg=Selected
+r14 c27..28 fg=idx24 bg=idx31
+r14 c28..33 fg=idx68 bg=idx68
+r14 c33..34 fg=idx68 bg=idx31
+r14 c34..35 fg=idx23 bg=Selected
+r14 c35..80 fg=Border bg=Selected
+r14 c80..81 fg=PrimaryForeground bg=Background
+r14 c81..100 fg=Foreground bg=Background
+r15 c0..20 fg=Foreground bg=Background
+r15 c20..21 fg=Surface|Hover bg=Surface|Hover
+r15 c21..27 fg=Border bg=Selected
+r15 c27..33 fg=idx68 bg=idx68
+r15 c33..34 fg=idx24 bg=idx24
+r15 c34..63 fg=Border bg=Selected
+r15 c63..72 fg=Border bg=idx24
+r15 c72..80 fg=Border bg=Selected
+r15 c80..81 fg=Surface|Hover bg=Surface|Hover
+r15 c81..100 fg=Foreground bg=Background
+r16 c0..20 fg=Foreground bg=Background
+r16 c20..21 fg=Surface|Hover bg=Surface|Hover
+r16 c21..26 fg=Border bg=Selected
+r16 c26..27 fg=idx24 bg=idx24
+r16 c27..33 fg=idx68 bg=idx68
+r16 c33..34 fg=idx23 bg=idx24
+r16 c34..55 fg=Border bg=Selected
+r16 c55..56 fg=Border bg=idx24
+r16 c56..57 fg=Border bg=idx25
+r16 c57..58 fg=Border bg=idx32
+r16 c58..59 fg=idx23 bg=idx32
+r16 c59..60 fg=idx24 bg=idx32
+r16 c60..61 fg=idx25 bg=idx32
+r16 c61..73 fg=idx32 bg=idx32
+r16 c73..74 fg=idx23 bg=idx24
+r16 c74..80 fg=Border bg=Selected
+r16 c80..81 fg=Surface|Hover bg=Surface|Hover
+r16 c81..100 fg=Foreground bg=Background
+r17 c0..20 fg=Foreground bg=Background
+r17 c20..21 fg=Surface|Hover bg=Surface|Hover
+r17 c21..26 fg=Border bg=Selected
+r17 c26..27 fg=idx24 bg=idx24
+r17 c27..33 fg=idx68 bg=idx68
+r17 c33..34 fg=idx24 bg=idx31
+r17 c34..49 fg=Border bg=Selected
+r17 c49..50 fg=Border bg=idx23
+r17 c50..51 fg=Border bg=idx25
+r17 c51..52 fg=Border bg=idx68
+r17 c52..53 fg=idx24 bg=idx68
+r17 c53..54 fg=idx25 bg=idx68
+r17 c54..55 fg=idx68 bg=idx68
+r17 c55..56 fg=idx68 bg=idx32
+r17 c56..73 fg=idx32 bg=idx32
+r17 c73..74 fg=idx24 bg=idx24
+r17 c74..80 fg=Border bg=Selected
+r17 c80..81 fg=Surface|Hover bg=Surface|Hover
+r17 c81..100 fg=Foreground bg=Background
+r18 c0..20 fg=Foreground bg=Background
+r18 c20..21 fg=Surface|Hover bg=Surface|Hover
+r18 c21..26 fg=Border bg=Selected
+r18 c26..27 fg=idx24 bg=idx23
+r18 c27..34 fg=idx68 bg=idx68
+r18 c34..35 fg=idx23 bg=idx68
+r18 c35..36 fg=Border bg=idx23
+r18 c36..44 fg=Border bg=Selected
+r18 c44..45 fg=Border bg=idx24
+r18 c45..46 fg=Border bg=idx25
+r18 c46..47 fg=Border bg=idx68
+r18 c47..48 fg=idx24 bg=idx68
+r18 c48..53 fg=idx68 bg=idx68
+r18 c53..54 fg=idx68 bg=idx32
+r18 c54..66 fg=idx32 bg=idx32
+r18 c66..67 fg=idx32 bg=idx110
+r18 c67..68 fg=idx32 bg=idx231
+r18 c68..70 fg=idx110 bg=idx231
+r18 c70..71 fg=idx189 bg=idx231
+r18 c71..72 fg=idx231 bg=idx231
+r18 c72..73 fg=idx32 bg=idx32
+r18 c73..74 fg=idx24 bg=idx24
+r18 c74..81 fg=Border bg=Selected
+r18 c81..100 fg=Foreground bg=Background
+r19 c0..20 fg=Foreground bg=Background
+r19 c20..21 fg=Surface|Hover bg=Surface|Hover
+r19 c21..22 fg=Border bg=Selected
+r19 c22..23 fg=Border bg=idx239
+r19 c23..24 fg=Border bg=idx238
+r19 c24..27 fg=Border bg=Selected
+r19 c27..36 fg=idx68 bg=idx68
+r19 c36..37 fg=idx25 bg=idx68
+r19 c37..42 fg=idx24 bg=idx68
+r19 c42..43 fg=idx25 bg=idx68
+r19 c43..51 fg=idx68 bg=idx68
+r19 c51..52 fg=idx68 bg=idx32
+r19 c52..62 fg=idx32 bg=idx32
+r19 c62..63 fg=idx32 bg=idx68
+r19 c63..64 fg=idx32 bg=idx189
+r19 c64..65 fg=idx110 bg=idx231
+r19 c65..71 fg=idx231 bg=idx231
+r19 c71..72 fg=idx189 bg=idx110
+r19 c72..73 fg=idx32 bg=idx25
+r19 c73..81 fg=Border bg=Selected
+r19 c81..100 fg=Foreground bg=Background
+r20 c0..20 fg=Foreground bg=Background
+r20 c20..21 fg=Surface|Hover bg=Background
+r20 c21..22 fg=idx240 bg=idx60
+r20 c22..24 fg=idx60 bg=idx60
+r20 c24..25 fg=idx238 bg=idx60
+r20 c25..26 fg=Border bg=idx238
+r20 c26..27 fg=Border bg=Selected
+r20 c27..28 fg=idx31 bg=idx24
+r20 c28..49 fg=idx68 bg=idx68
+r20 c49..50 fg=idx68 bg=idx32
+r20 c50..60 fg=idx32 bg=idx32
+r20 c60..61 fg=idx32 bg=idx68
+r20 c61..62 fg=idx68 bg=idx231
+r20 c62..70 fg=idx231 bg=idx231
+r20 c70..71 fg=idx231 bg=idx110
+r20 c71..72 fg=idx32 bg=idx32
+r20 c72..73 fg=idx24 bg=Selected
+r20 c73..80 fg=Border bg=Selected
+r20 c80..81 fg=Surface|Hover bg=Surface|Hover
+r20 c81..100 fg=Foreground bg=Background
+r21 c0..20 fg=Foreground bg=Background
+r21 c20..21 fg=idx238 bg=idx60
+r21 c21..25 fg=idx60 bg=idx60
+r21 c25..26 fg=idx240 bg=idx60
+r21 c26..27 fg=Border bg=idx238
+r21 c27..28 fg=Border bg=Selected
+r21 c28..29 fg=idx68 bg=idx24
+r21 c29..47 fg=idx68 bg=idx68
+r21 c47..48 fg=idx68 bg=idx32
+r21 c48..52 fg=idx32 bg=idx32
+r21 c52..53 fg=idx74 bg=idx74
+r21 c53..54 fg=idx231 bg=idx231
+r21 c54..55 fg=idx189 bg=idx189
+r21 c55..58 fg=idx32 bg=idx32
+r21 c58..59 fg=idx32 bg=idx68
+r21 c59..60 fg=idx68 bg=idx231
+r21 c60..63 fg=idx231 bg=idx231
+r21 c63..64 fg=idx231 bg=idx189
+r21 c64..66 fg=idx231 bg=idx231
+r21 c66..67 fg=idx231 bg=idx189
+r21 c67..68 fg=idx189 bg=idx231
+r21 c68..69 fg=idx231 bg=idx231
+r21 c69..70 fg=idx231 bg=idx110
+r21 c70..71 fg=idx32 bg=idx32
+r21 c71..72 fg=idx24 bg=idx238
+r21 c72..78 fg=Border bg=idx238
+r21 c78..80 fg=Border bg=Selected
+r21 c80..81 fg=Surface|Hover bg=Surface|Hover
+r21 c81..100 fg=Foreground bg=Background
+r22 c0..19 fg=Foreground bg=Background
+r22 c19..20 fg=Surface|Hover bg=Background
+r22 c20..21 fg=idx60 bg=idx240
+r22 c21..24 fg=idx60 bg=idx23
+r22 c24..26 fg=idx240 bg=idx23
+r22 c26..27 fg=idx239 bg=idx23
+r22 c27..28 fg=idx238 bg=idx23
+r22 c28..29 fg=idx24 bg=idx23
+r22 c29..30 fg=idx68 bg=idx25
+r22 c30..45 fg=idx68 bg=idx68
+r22 c45..46 fg=idx68 bg=idx32
+r22 c46..57 fg=idx32 bg=idx32
+r22 c57..58 fg=idx68 bg=idx231
+r22 c58..61 fg=idx231 bg=idx231
+r22 c61..62 fg=idx231 bg=idx189
+r22 c62..63 fg=idx189 bg=idx189
+r22 c63..65 fg=idx231 bg=idx231
+r22 c65..66 fg=idx231 bg=idx110
+r22 c66..67 fg=idx110 bg=idx231
+r22 c67..68 fg=idx231 bg=idx231
+r22 c68..69 fg=idx189 bg=idx32
+r22 c69..70 fg=idx32 bg=idx25
+r22 c70..71 fg=idx24 bg=idx23
+r22 c71..80 fg=idx23 bg=idx23
+r22 c80..81 fg=Border bg=Selected
+r22 c81..100 fg=Foreground bg=Background
+r23 c0..19 fg=Foreground bg=Background
+r23 c19..20 fg=idx238 bg=idx238
+r23 c20..21 fg=idx240 bg=idx60
+r23 c21..22 fg=idx23 bg=idx23
+r23 c22..23 fg=idx23 bg=idx60
+r23 c23..30 fg=idx23 bg=idx23
+r23 c30..31 fg=idx68 bg=idx24
+r23 c31..43 fg=idx68 bg=idx68
+r23 c43..44 fg=idx68 bg=idx32
+r23 c44..55 fg=idx32 bg=idx32
+r23 c55..56 fg=idx32 bg=idx110
+r23 c56..57 fg=idx189 bg=idx231
+r23 c57..59 fg=idx231 bg=idx231
+r23 c59..60 fg=idx231 bg=idx110
+r23 c60..62 fg=idx189 bg=idx231
+r23 c62..63 fg=idx231 bg=idx231
+r23 c63..64 fg=idx231 bg=idx110
+r23 c64..65 fg=idx110 bg=idx231
+r23 c65..66 fg=idx231 bg=idx231
+r23 c66..67 fg=idx231 bg=idx68
+r23 c67..68 fg=idx68 bg=idx32
+r23 c68..69 fg=idx25 bg=idx24
+r23 c69..80 fg=idx23 bg=idx23
+r23 c80..81 fg=Border bg=Background
+r23 c81..100 fg=Foreground bg=Background
+r24 c0..19 fg=Foreground bg=Background
+r24 c19..20 fg=idx238 bg=idx238
+r24 c20..21 fg=idx60 bg=idx60
+r24 c21..22 fg=idx239 bg=idx60
+r24 c22..23 fg=idx66 bg=idx66
+r24 c23..31 fg=idx23 bg=idx23
+r24 c31..32 fg=idx24 bg=idx23
+r24 c32..33 fg=idx68 bg=idx24
+r24 c33..41 fg=idx68 bg=idx68
+r24 c41..42 fg=idx68 bg=idx32
+r24 c42..45 fg=idx32 bg=idx32
+r24 c45..46 fg=idx32 bg=idx25
+r24 c46..47 fg=idx25 bg=idx25
+r24 c47..48 fg=idx25 bg=idx32
+r24 c48..54 fg=idx32 bg=idx32
+r24 c54..55 fg=idx68 bg=idx189
+r24 c55..57 fg=idx231 bg=idx231
+r24 c57..58 fg=idx189 bg=idx231
+r24 c58..59 fg=idx110 bg=idx231
+r24 c59..60 fg=idx231 bg=idx231
+r24 c60..61 fg=idx231 bg=idx189
+r24 c61..62 fg=idx189 bg=idx68
+r24 c62..63 fg=idx110 bg=idx231
+r24 c63..64 fg=idx231 bg=idx189
+r24 c64..65 fg=idx231 bg=idx68
+r24 c65..66 fg=idx68 bg=idx32
+r24 c66..67 fg=idx32 bg=idx24
+r24 c67..68 fg=idx24 bg=idx23
+r24 c68..69 fg=idx23 bg=idx240
+r24 c69..76 fg=idx23 bg=idx60
+r24 c76..77 fg=idx23 bg=idx23
+r24 c77..78 fg=idx23 bg=idx239
+r24 c78..79 fg=idx239 bg=idx60
+r24 c79..80 fg=idx23 bg=Selected
+r24 c80..100 fg=Foreground bg=Background
+r25 c0..20 fg=Foreground bg=Background
+r25 c20..21 fg=idx238 bg=Background
+r25 c21..22 fg=idx60 bg=idx238
+r25 c22..23 fg=idx66 bg=idx66
+r25 c23..24 fg=idx23 bg=idx239
+r25 c24..25 fg=idx23 bg=idx60
+r25 c25..26 fg=idx239 bg=idx66
+r25 c26..27 fg=idx66 bg=idx60
+r25 c27..31 fg=idx60 bg=idx60
+r25 c31..32 fg=idx23 bg=idx60
+r25 c32..33 fg=idx23 bg=idx240
+r25 c33..34 fg=idx23 bg=idx23
+r25 c34..35 fg=idx25 bg=idx23
+r25 c35..36 fg=idx68 bg=idx23
+r25 c36..37 fg=idx68 bg=idx24
+r25 c37..40 fg=idx68 bg=idx25
+r25 c40..41 fg=idx32 bg=idx25
+r25 c41..42 fg=idx32 bg=idx24
+r25 c42..43 fg=idx32 bg=idx23
+r25 c43..44 fg=idx25 bg=idx23
+r25 c44..45 fg=idx23 bg=idx25
+r25 c45..46 fg=idx25 bg=idx32
+r25 c46..52 fg=idx32 bg=idx32
+r25 c52..53 fg=idx32 bg=idx189
+r25 c53..54 fg=idx189 bg=idx231
+r25 c54..56 fg=idx231 bg=idx231
+r25 c56..57 fg=idx231 bg=idx189
+r25 c57..58 fg=idx231 bg=idx110
+r25 c58..59 fg=idx189 bg=idx189
+r25 c59..60 fg=idx110 bg=idx231
+r25 c60..61 fg=idx189 bg=idx189
+r25 c61..62 fg=idx231 bg=idx68
+r25 c62..63 fg=idx110 bg=idx32
+r25 c63..64 fg=idx32 bg=idx25
+r25 c64..65 fg=idx25 bg=idx23
+r25 c65..68 fg=idx23 bg=idx23
+r25 c68..69 fg=idx240 bg=idx23
+r25 c69..73 fg=idx60 bg=idx23
+r25 c73..74 fg=idx240 bg=idx23
+r25 c74..77 fg=idx23 bg=idx23
+r25 c77..79 fg=idx60 bg=idx60
+r25 c79..80 fg=Border bg=Background
+r25 c80..100 fg=Foreground bg=Background
+r26 c0..21 fg=Foreground bg=Background
+r26 c21..22 fg=idx238 bg=Selected
+r26 c22..23 fg=idx60 bg=idx60
+r26 c23..24 fg=idx239 bg=idx238
+r26 c24..25 fg=idx23 bg=idx238
+r26 c25..26 fg=idx66 bg=idx66
+r26 c26..27 fg=idx23 bg=idx239
+r26 c27..39 fg=idx23 bg=idx23
+r26 c39..40 fg=idx23 bg=idx25
+r26 c40..42 fg=idx23 bg=idx32
+r26 c42..43 fg=idx25 bg=idx32
+r26 c43..49 fg=idx32 bg=idx32
+r26 c49..50 fg=idx32 bg=idx68
+r26 c50..51 fg=idx32 bg=idx189
+r26 c51..52 fg=idx189 bg=idx231
+r26 c52..55 fg=idx231 bg=idx231
+r26 c55..56 fg=idx110 bg=idx189
+r26 c56..57 fg=idx231 bg=idx110
+r26 c57..58 fg=idx231 bg=idx32
+r26 c58..59 fg=idx189 bg=idx32
+r26 c59..60 fg=idx68 bg=idx25
+r26 c60..61 fg=idx32 bg=idx24
+r26 c61..62 fg=idx25 bg=idx23
+r26 c62..63 fg=idx24 bg=idx23
+r26 c63..76 fg=idx23 bg=idx23
+r26 c76..77 fg=idx60 bg=idx66
+r26 c77..78 fg=idx66 bg=idx66
+r26 c78..79 fg=idx66 bg=idx60
+r26 c79..100 fg=Foreground bg=Background
+r27 c0..22 fg=Foreground bg=Background
+r27 c22..23 fg=idx60 bg=idx60
+r27 c23..25 fg=idx238 bg=idx239
+r27 c25..26 fg=idx60 bg=idx60
+r27 c26..27 fg=idx60 bg=idx240
+r27 c27..40 fg=idx23 bg=idx23
+r27 c40..41 fg=idx25 bg=idx23
+r27 c41..43 fg=idx32 bg=idx23
+r27 c43..45 fg=idx32 bg=idx25
+r27 c45..48 fg=idx32 bg=idx32
+r27 c48..49 fg=idx68 bg=idx32
+r27 c49..53 fg=idx110 bg=idx32
+r27 c53..54 fg=idx68 bg=idx25
+r27 c54..55 fg=idx32 bg=idx25
+r27 c55..56 fg=idx32 bg=idx24
+r27 c56..57 fg=idx32 bg=idx23
+r27 c57..58 fg=idx25 bg=idx23
+r27 c58..59 fg=idx24 bg=idx23
+r27 c59..75 fg=idx23 bg=idx23
+r27 c75..76 fg=idx23 bg=idx240
+r27 c76..77 fg=idx66 bg=idx66
+r27 c77..78 fg=idx66 bg=idx60
+r27 c78..79 fg=idx60 bg=idx60
+r27 c79..100 fg=Foreground bg=Background
+r28 c0..22 fg=Foreground bg=Background
+r28 c22..23 fg=idx60 bg=idx238
+r28 c23..24 fg=idx240 bg=idx60
+r28 c24..25 fg=Border bg=Background
+r28 c25..26 fg=idx66 bg=idx60
+r28 c26..27 fg=idx239 bg=idx239
+r28 c27..28 fg=Border bg=Surface|Hover
+r28 c28..29 fg=idx23 bg=Selected
+r28 c29..75 fg=idx23 bg=idx23
+r28 c75..76 fg=idx240 bg=Surface|Hover
+r28 c76..77 fg=idx60 bg=idx60
+r28 c77..78 fg=idx60 bg=idx238
+r28 c78..79 fg=idx60 bg=idx60
+r28 c79..80 fg=idx238 bg=idx238
+r28 c80..100 fg=Foreground bg=Background
+r29 c0..22 fg=Foreground bg=Background
+r29 c22..23 fg=idx238 bg=Selected
+r29 c23..24 fg=idx240 bg=idx238
+r29 c24..25 fg=Foreground bg=Background
+r29 c25..26 fg=idx60 bg=idx240
+r29 c26..27 fg=idx240 bg=Background
+r29 c27..29 fg=Surface|Hover bg=Background
+r29 c29..30 fg=Border bg=Surface|Hover
+r29 c30..31 fg=idx23 bg=Surface|Hover
+r29 c31..32 fg=idx23 bg=Selected
+r29 c32..58 fg=idx23 bg=idx23
+r29 c58..63 fg=idx23 bg=idx240
+r29 c63..64 fg=idx23 bg=idx60
+r29 c64..67 fg=idx23 bg=idx66
+r29 c67..68 fg=idx23 bg=idx240
+r29 c68..69 fg=idx239 bg=idx239
+r29 c69..70 fg=idx240 bg=idx23
+r29 c70..71 fg=idx239 bg=idx23
+r29 c71..72 fg=idx23 bg=idx23
+r29 c72..73 fg=idx23 bg=Selected
+r29 c73..74 fg=idx239 bg=Surface|Hover
+r29 c74..75 fg=Border bg=Background
+r29 c75..76 fg=Foreground bg=Background
+r29 c76..77 fg=idx60 bg=idx60
+r29 c77..78 fg=idx238 bg=Selected
+r29 c78..79 fg=idx60 bg=idx60
+r29 c79..80 fg=Border bg=Background
+r29 c80..100 fg=Foreground bg=Background
+r30 c0..23 fg=Foreground bg=Background
+r30 c23..24 fg=idx238 bg=Background
+r30 c24..25 fg=Foreground bg=Background
+r30 c25..26 fg=idx238 bg=Background
+r30 c26..30 fg=Foreground bg=Background
+r30 c30..31 fg=PrimaryForeground bg=Background
+r30 c31..32 fg=Border bg=Background
+r30 c32..33 fg=idx239 bg=Background
+r30 c33..34 fg=idx240 bg=Surface|Hover
+r30 c34..35 fg=idx240 bg=Selected
+r30 c35..36 fg=idx60 bg=idx23
+r30 c36..38 fg=idx66 bg=idx23
+r30 c38..39 fg=idx66 bg=idx239
+r30 c39..41 fg=idx66 bg=idx240
+r30 c41..42 fg=idx60 bg=idx60
+r30 c42..46 fg=idx240 bg=idx66
+r30 c46..47 fg=idx239 bg=idx66
+r30 c47..52 fg=idx23 bg=idx66
+r30 c52..55 fg=idx240 bg=idx66
+r30 c55..59 fg=idx66 bg=idx66
+r30 c59..62 fg=idx66 bg=idx240
+r30 c62..63 fg=idx66 bg=idx239
+r30 c63..64 fg=idx66 bg=idx23
+r30 c64..65 fg=idx60 bg=idx23
+r30 c65..66 fg=idx240 bg=idx23
+r30 c66..69 fg=idx23 bg=idx23
+r30 c69..70 fg=idx23 bg=Selected
+r30 c70..71 fg=idx23 bg=Surface|Hover
+r30 c71..72 fg=Border bg=Background
+r30 c72..76 fg=Foreground bg=Background
+r30 c76..77 fg=idx238 bg=Background
+r30 c77..78 fg=Foreground bg=Background
+r30 c78..79 fg=idx238 bg=Background
+r30 c79..100 fg=Foreground bg=Background
+r31 c0..35 fg=Foreground bg=Background
+r31 c35..36 fg=Surface|Hover bg=Background
+r31 c36..38 fg=Border bg=Background
+r31 c38..39 fg=idx23 bg=Surface|Hover
+r31 c39..40 fg=idx23 bg=Selected
+r31 c40..42 fg=idx23 bg=idx23
+r31 c42..45 fg=idx23 bg=idx240
+r31 c45..46 fg=idx239 bg=idx239
+r31 c46..50 fg=idx240 bg=idx23
+r31 c50..51 fg=idx239 bg=idx23
+r31 c51..59 fg=idx23 bg=idx23
+r31 c59..60 fg=idx23 bg=idx240
+r31 c60..65 fg=idx23 bg=idx23
+r31 c65..67 fg=idx23 bg=Surface|Hover
+r31 c67..68 fg=Border bg=Background
+r31 c68..69 fg=Surface|Hover bg=Background
+r31 c69..100 fg=Foreground bg=Background
+r32 c0..40 fg=Foreground bg=Background
+r32 c40..41 fg=Border bg=Background
+r32 c41..42 fg=idx238 bg=Background
+r32 c42..43 fg=idx239 bg=Background
+r32 c43..45 fg=idx240 bg=Background
+r32 c45..51 fg=idx66 bg=Surface|Hover
+r32 c51..52 fg=idx66 bg=idx23
+r32 c52..55 fg=idx66 bg=Surface|Hover
+r32 c55..56 fg=idx60 bg=Surface|Hover
+r32 c56..58 fg=idx240 bg=Surface|Hover
+r32 c58..61 fg=idx23 bg=Background
+r32 c61..62 fg=Border bg=Background
+r32 c62..64 fg=Surface|Hover bg=Background
+r32 c64..100 fg=Foreground bg=Background
+r33 c0..49 fg=Foreground bg=Background
+r33 c49..50 fg=Muted bg=Background
+r33 c50..100 fg=Foreground bg=Background
+r34 c0..100 fg=Muted bg=Background
+r35 c0..100 fg=Muted bg=Background
+
+== light-256
+Codewhale   ○ Idle
+
+                                               ▄▄▄▄▄▄▄▄▄▄▄
+                                       ▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄
+                                  ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                               ▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                             ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                           ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                          ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                        ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                       ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                      ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                      ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀
+                       ▀ ▀    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    ▀ ▀
+                                   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                        ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary bg=Background|Surface
+r0 c9..12 fg=Foreground bg=Background|Surface
+r0 c12..13 fg=Muted bg=Background|Surface
+r0 c13..100 fg=Foreground bg=Background|Surface
+r1 c0..100 fg=Foreground bg=Background|Surface
+r2 c0..47 fg=Foreground bg=Background|Surface
+r2 c47..58 fg=Background|Surface bg=Background|Surface
+r2 c58..100 fg=Foreground bg=Background|Surface
+r3 c0..39 fg=Foreground bg=Background|Surface
+r3 c39..40 fg=Background|Surface bg=Background|Surface
+r3 c40..42 fg=PrimaryForeground bg=Background|Surface
+r3 c42..44 fg=Background|Surface bg=Sidebar
+r3 c44..61 fg=PrimaryForeground bg=Sidebar
+r3 c61..63 fg=Background|Surface bg=Sidebar
+r3 c63..64 fg=PrimaryForeground bg=Background|Surface
+r3 c64..65 fg=Background|Surface bg=Background|Surface
+r3 c65..100 fg=Foreground bg=Background|Surface
+r4 c0..34 fg=Foreground bg=Background|Surface
+r4 c34..35 fg=Background|Surface bg=Background|Surface
+r4 c35..36 fg=PrimaryForeground bg=Background|Surface
+r4 c36..37 fg=Background|Surface bg=Sidebar
+r4 c37..67 fg=PrimaryForeground bg=Sidebar
+r4 c67..68 fg=Background|Surface bg=Sidebar
+r4 c68..69 fg=PrimaryForeground bg=Background|Surface
+r4 c69..100 fg=Foreground bg=Background|Surface
+r5 c0..31 fg=Foreground bg=Background|Surface
+r5 c31..32 fg=Background|Surface bg=Background|Surface
+r5 c32..33 fg=PrimaryForeground bg=Background|Surface
+r5 c33..34 fg=Background|Surface bg=Sidebar
+r5 c34..70 fg=PrimaryForeground bg=Sidebar
+r5 c70..71 fg=Background|Surface bg=Sidebar
+r5 c71..72 fg=Background|Surface bg=Background|Surface
+r5 c72..100 fg=Foreground bg=Background|Surface
+r6 c0..29 fg=Foreground bg=Background|Surface
+r6 c29..30 fg=Background|Surface bg=Background|Surface
+r6 c30..31 fg=Background|Surface bg=Sidebar
+r6 c31..72 fg=PrimaryForeground bg=Sidebar
+r6 c72..73 fg=Background|Surface bg=Sidebar
+r6 c73..74 fg=Background|Surface bg=Background|Surface
+r6 c74..100 fg=Foreground bg=Background|Surface
+r7 c0..27 fg=Foreground bg=Background|Surface
+r7 c27..28 fg=Background|Surface bg=Background|Surface
+r7 c28..29 fg=Background|Surface bg=Sidebar
+r7 c29..39 fg=PrimaryForeground bg=Sidebar
+r7 c39..40 fg=PrimaryForeground bg=idx110
+r7 c40..41 fg=PrimaryForeground bg=idx32
+r7 c41..42 fg=idx153 bg=idx32
+r7 c42..44 fg=idx110 bg=idx32
+r7 c44..50 fg=idx32 bg=idx32
+r7 c50..52 fg=idx110 bg=idx32
+r7 c52..53 fg=PrimaryForeground bg=idx32
+r7 c53..54 fg=PrimaryForeground bg=idx110
+r7 c54..74 fg=PrimaryForeground bg=Sidebar
+r7 c74..75 fg=Background|Surface bg=Sidebar
+r7 c75..76 fg=Background|Surface bg=Background|Surface
+r7 c76..100 fg=Foreground bg=Background|Surface
+r8 c0..26 fg=Foreground bg=Background|Surface
+r8 c26..27 fg=Background|Surface bg=Sidebar
+r8 c27..35 fg=PrimaryForeground bg=Sidebar
+r8 c35..36 fg=PrimaryForeground bg=idx153
+r8 c36..37 fg=PrimaryForeground bg=idx32
+r8 c37..38 fg=idx110 bg=idx32
+r8 c38..51 fg=idx32 bg=idx32
+r8 c51..52 fg=idx32 bg=idx68
+r8 c52..53 fg=idx68 bg=Sidebar
+r8 c53..76 fg=PrimaryForeground bg=Sidebar
+r8 c76..77 fg=Background|Surface bg=Background|Surface
+r8 c77..100 fg=Foreground bg=Background|Surface
+r9 c0..24 fg=Foreground bg=Background|Surface
+r9 c24..25 fg=Background|Surface bg=Background|Surface
+r9 c25..33 fg=PrimaryForeground bg=Sidebar
+r9 c33..34 fg=PrimaryForeground bg=idx74
+r9 c34..35 fg=idx74 bg=idx32
+r9 c35..49 fg=idx32 bg=idx32
+r9 c49..50 fg=idx68 bg=idx68
+r9 c50..51 fg=idx110 bg=idx32
+r9 c51..54 fg=PrimaryForeground bg=idx32
+r9 c54..55 fg=PrimaryForeground bg=idx68
+r9 c55..56 fg=PrimaryForeground bg=idx110
+r9 c56..77 fg=PrimaryForeground bg=Sidebar
+r9 c77..78 fg=Background|Surface bg=Background|Surface
+r9 c78..100 fg=Foreground bg=Background|Surface
+r10 c0..23 fg=Foreground bg=Background|Surface
+r10 c23..24 fg=Background|Surface bg=Background|Surface
+r10 c24..31 fg=PrimaryForeground bg=Sidebar
+r10 c31..32 fg=PrimaryForeground bg=idx74
+r10 c32..33 fg=idx74 bg=idx32
+r10 c33..41 fg=idx32 bg=idx32
+r10 c41..42 fg=idx32 bg=idx110
+r10 c42..43 fg=idx32 bg=idx153
+r10 c43..48 fg=idx32 bg=Sidebar
+r10 c48..49 fg=idx32 bg=idx110
+r10 c49..52 fg=idx32 bg=idx32
+r10 c52..53 fg=idx32 bg=idx26
+r10 c53..57 fg=idx26 bg=idx26
+r10 c57..58 fg=idx68 bg=idx26
+r10 c58..59 fg=idx110 bg=idx26
+r10 c59..60 fg=PrimaryForeground bg=idx26
+r10 c60..61 fg=PrimaryForeground bg=idx110
+r10 c61..78 fg=PrimaryForeground bg=Sidebar
+r10 c78..79 fg=Background|Surface bg=Background|Surface
+r10 c79..100 fg=Foreground bg=Background|Surface
+r11 c0..22 fg=Foreground bg=Background|Surface
+r11 c22..23 fg=Background|Surface bg=Background|Surface
+r11 c23..29 fg=PrimaryForeground bg=Sidebar
+r11 c29..30 fg=PrimaryForeground bg=idx153
+r11 c30..31 fg=idx153 bg=idx32
+r11 c31..37 fg=idx32 bg=idx32
+r11 c37..38 fg=idx32 bg=idx68
+r11 c38..39 fg=idx32 bg=idx153
+r11 c39..40 fg=idx110 bg=Sidebar
+r11 c40..49 fg=PrimaryForeground bg=Sidebar
+r11 c49..50 fg=idx152 bg=Sidebar
+r11 c50..51 fg=idx32 bg=idx152
+r11 c51..58 fg=idx26 bg=idx26
+r11 c58..59 fg=idx26 bg=idx110
+r11 c59..60 fg=idx68 bg=Sidebar
+r11 c60..79 fg=PrimaryForeground bg=Sidebar
+r11 c79..100 fg=Foreground bg=Background|Surface
+r12 c0..22 fg=Foreground bg=Background|Surface
+r12 c22..28 fg=PrimaryForeground bg=Sidebar
+r12 c28..29 fg=PrimaryForeground bg=idx153
+r12 c29..30 fg=idx74 bg=idx32
+r12 c30..36 fg=idx32 bg=idx32
+r12 c36..37 fg=idx68 bg=Sidebar
+r12 c37..52 fg=PrimaryForeground bg=Sidebar
+r12 c52..57 fg=idx110 bg=Sidebar
+r12 c57..79 fg=PrimaryForeground bg=Sidebar
+r12 c79..80 fg=Background|Surface bg=Background|Surface
+r12 c80..100 fg=Foreground bg=Background|Surface
+r13 c0..21 fg=Foreground bg=Background|Surface
+r13 c21..22 fg=Background|Surface bg=Sidebar
+r13 c22..28 fg=PrimaryForeground bg=Sidebar
+r13 c28..29 fg=idx74 bg=idx32
+r13 c29..34 fg=idx32 bg=idx32
+r13 c34..35 fg=idx32 bg=idx68
+r13 c35..36 fg=idx153 bg=Sidebar
+r13 c36..80 fg=PrimaryForeground bg=Sidebar
+r13 c80..100 fg=Foreground bg=Background|Surface
+r14 c0..21 fg=Foreground bg=Background|Surface
+r14 c21..27 fg=PrimaryForeground bg=Sidebar
+r14 c27..28 fg=idx110 bg=idx74
+r14 c28..33 fg=idx32 bg=idx32
+r14 c33..34 fg=idx32 bg=idx68
+r14 c34..35 fg=idx153 bg=Sidebar
+r14 c35..80 fg=PrimaryForeground bg=Sidebar
+r14 c80..81 fg=Background|Surface bg=Background|Surface
+r14 c81..100 fg=Foreground bg=Background|Surface
+r15 c0..20 fg=Foreground bg=Background|Surface
+r15 c20..21 fg=Background|Surface bg=Background|Surface
+r15 c21..27 fg=PrimaryForeground bg=Sidebar
+r15 c27..33 fg=idx32 bg=idx32
+r15 c33..34 fg=idx110 bg=idx110
+r15 c34..63 fg=PrimaryForeground bg=Sidebar
+r15 c63..72 fg=PrimaryForeground bg=idx110
+r15 c72..80 fg=PrimaryForeground bg=Sidebar
+r15 c80..81 fg=Background|Surface bg=Background|Surface
+r15 c81..100 fg=Foreground bg=Background|Surface
+r16 c0..20 fg=Foreground bg=Background|Surface
+r16 c20..21 fg=Background|Surface bg=Background|Surface
+r16 c21..26 fg=PrimaryForeground bg=Sidebar
+r16 c26..27 fg=idx110 bg=idx110
+r16 c27..33 fg=idx32 bg=idx32
+r16 c33..34 fg=idx153 bg=idx110
+r16 c34..55 fg=PrimaryForeground bg=Sidebar
+r16 c55..56 fg=PrimaryForeground bg=idx110
+r16 c56..57 fg=PrimaryForeground bg=idx68
+r16 c57..58 fg=PrimaryForeground bg=idx26
+r16 c58..59 fg=idx152 bg=idx26
+r16 c59..60 fg=idx110 bg=idx26
+r16 c60..61 fg=idx68 bg=idx26
+r16 c61..72 fg=idx26 bg=idx26
+r16 c72..73 fg=idx26 bg=Primary
+r16 c73..74 fg=idx152 bg=idx110
+r16 c74..80 fg=PrimaryForeground bg=Sidebar
+r16 c80..81 fg=Background|Surface bg=Background|Surface
+r16 c81..100 fg=Foreground bg=Background|Surface
+r17 c0..20 fg=Foreground bg=Background|Surface
+r17 c20..21 fg=Background|Surface bg=Background|Surface
+r17 c21..26 fg=PrimaryForeground bg=Sidebar
+r17 c26..27 fg=idx110 bg=idx110
+r17 c27..33 fg=idx32 bg=idx32
+r17 c33..34 fg=idx110 bg=idx68
+r17 c34..49 fg=PrimaryForeground bg=Sidebar
+r17 c49..50 fg=PrimaryForeground bg=idx152
+r17 c50..51 fg=PrimaryForeground bg=idx68
+r17 c51..52 fg=PrimaryForeground bg=idx26
+r17 c52..53 fg=idx110 bg=idx26
+r17 c53..54 fg=idx68 bg=idx26
+r17 c54..70 fg=idx26 bg=idx26
+r17 c70..71 fg=idx26 bg=Primary
+r17 c71..73 fg=Primary bg=Primary
+r17 c73..74 fg=idx110 bg=idx110
+r17 c74..80 fg=PrimaryForeground bg=Sidebar
+r17 c80..81 fg=Background|Surface bg=Sidebar
+r17 c81..100 fg=Foreground bg=Background|Surface
+r18 c0..20 fg=Foreground bg=Background|Surface
+r18 c20..21 fg=Background|Surface bg=Background|Surface
+r18 c21..26 fg=PrimaryForeground bg=Sidebar
+r18 c26..27 fg=idx110 bg=idx153
+r18 c27..34 fg=idx32 bg=idx32
+r18 c34..35 fg=idx152 bg=idx32
+r18 c35..36 fg=PrimaryForeground bg=idx152
+r18 c36..44 fg=PrimaryForeground bg=Sidebar
+r18 c44..45 fg=PrimaryForeground bg=idx110
+r18 c45..46 fg=PrimaryForeground bg=idx68
+r18 c46..47 fg=PrimaryForeground bg=idx26
+r18 c47..48 fg=idx110 bg=idx26
+r18 c48..66 fg=idx26 bg=idx26
+r18 c66..67 fg=idx26 bg=idx110
+r18 c67..68 fg=idx26 bg=Background|Surface
+r18 c68..70 fg=idx110 bg=Background|Surface
+r18 c70..71 fg=idx152 bg=Background|Surface
+r18 c71..72 fg=Background|Surface bg=Background|Surface
+r18 c72..73 fg=Primary bg=Primary
+r18 c73..74 fg=idx110 bg=idx110
+r18 c74..81 fg=PrimaryForeground bg=Sidebar
+r18 c81..100 fg=Foreground bg=Background|Surface
+r19 c0..20 fg=Foreground bg=Background|Surface
+r19 c20..21 fg=Background|Surface bg=Background|Surface
+r19 c21..22 fg=PrimaryForeground bg=Sidebar
+r19 c22..23 fg=PrimaryForeground bg=Hover
+r19 c23..27 fg=PrimaryForeground bg=Sidebar
+r19 c27..34 fg=idx32 bg=idx32
+r19 c34..35 fg=idx32 bg=idx26
+r19 c35..36 fg=idx26 bg=idx26
+r19 c36..37 fg=idx68 bg=idx26
+r19 c37..42 fg=idx110 bg=idx26
+r19 c42..43 fg=idx68 bg=idx26
+r19 c43..62 fg=idx26 bg=idx26
+r19 c62..63 fg=idx26 bg=idx68
+r19 c63..64 fg=idx26 bg=idx152
+r19 c64..65 fg=idx110 bg=Background|Surface
+r19 c65..71 fg=Background|Surface bg=Background|Surface
+r19 c71..72 fg=idx152 bg=idx110
+r19 c72..73 fg=Primary bg=idx68
+r19 c73..81 fg=PrimaryForeground bg=Sidebar
+r19 c81..100 fg=Foreground bg=Background|Surface
+r20 c0..20 fg=Foreground bg=Background|Surface
+r20 c20..21 fg=PrimaryForeground bg=Background|Surface
+r20 c21..22 fg=Selected bg=idx252
+r20 c22..24 fg=idx252 bg=idx252
+r20 c24..25 fg=PrimaryForeground bg=idx252
+r20 c25..27 fg=PrimaryForeground bg=Sidebar
+r20 c27..28 fg=idx68 bg=idx110
+r20 c28..32 fg=idx32 bg=idx32
+r20 c32..33 fg=idx32 bg=idx26
+r20 c33..60 fg=idx26 bg=idx26
+r20 c60..61 fg=idx26 bg=idx68
+r20 c61..62 fg=idx68 bg=Background|Surface
+r20 c62..70 fg=Background|Surface bg=Background|Surface
+r20 c70..71 fg=Background|Surface bg=idx110
+r20 c71..72 fg=Primary bg=Primary
+r20 c72..73 fg=idx110 bg=Sidebar
+r20 c73..80 fg=PrimaryForeground bg=Sidebar
+r20 c80..81 fg=PrimaryForeground bg=Background|Surface
+r20 c81..100 fg=Foreground bg=Background|Surface
+r21 c0..20 fg=Foreground bg=Background|Surface
+r21 c20..21 fg=Hover bg=idx252
+r21 c21..25 fg=idx252 bg=idx252
+r21 c25..26 fg=Selected bg=idx252
+r21 c26..28 fg=PrimaryForeground bg=Sidebar
+r21 c28..29 fg=idx32 bg=idx110
+r21 c29..30 fg=idx32 bg=idx32
+r21 c30..31 fg=idx32 bg=idx26
+r21 c31..52 fg=idx26 bg=idx26
+r21 c52..53 fg=idx68 bg=idx68
+r21 c53..54 fg=Background|Surface bg=Background|Surface
+r21 c54..55 fg=idx152 bg=idx152
+r21 c55..58 fg=idx26 bg=idx26
+r21 c58..59 fg=idx26 bg=idx68
+r21 c59..60 fg=idx68 bg=Background|Surface
+r21 c60..63 fg=Background|Surface bg=Background|Surface
+r21 c63..64 fg=Background|Surface bg=idx152
+r21 c64..66 fg=Background|Surface bg=Background|Surface
+r21 c66..67 fg=Background|Surface bg=idx152
+r21 c67..68 fg=idx152 bg=Background|Surface
+r21 c68..69 fg=Background|Surface bg=Background|Surface
+r21 c69..70 fg=Background|Surface bg=idx110
+r21 c70..71 fg=Primary bg=Primary
+r21 c71..72 fg=idx110 bg=Sidebar
+r21 c72..80 fg=PrimaryForeground bg=Sidebar
+r21 c80..81 fg=Background|Surface bg=Background|Surface
+r21 c81..100 fg=Foreground bg=Background|Surface
+r22 c0..19 fg=Foreground bg=Background|Surface
+r22 c19..20 fg=PrimaryForeground bg=Background|Surface
+r22 c20..21 fg=idx252 bg=Selected
+r22 c21..24 fg=idx252 bg=Hover
+r22 c24..26 fg=Selected bg=Hover
+r22 c26..27 fg=Hover bg=Hover
+r22 c27..28 fg=PrimaryForeground bg=Hover
+r22 c28..29 fg=idx152 bg=Hover
+r22 c29..30 fg=idx26 bg=idx110
+r22 c30..57 fg=idx26 bg=idx26
+r22 c57..58 fg=idx68 bg=Background|Surface
+r22 c58..61 fg=Background|Surface bg=Background|Surface
+r22 c61..62 fg=Background|Surface bg=idx152
+r22 c62..63 fg=idx152 bg=idx152
+r22 c63..65 fg=Background|Surface bg=Background|Surface
+r22 c65..66 fg=Background|Surface bg=idx110
+r22 c66..67 fg=idx110 bg=Background|Surface
+r22 c67..68 fg=Background|Surface bg=Background|Surface
+r22 c68..69 fg=idx152 bg=Primary
+r22 c69..70 fg=Primary bg=idx68
+r22 c70..71 fg=idx152 bg=Hover
+r22 c71..80 fg=Hover bg=Hover
+r22 c80..81 fg=PrimaryForeground bg=Sidebar
+r22 c81..100 fg=Foreground bg=Background|Surface
+r23 c0..19 fg=Foreground bg=Background|Surface
+r23 c19..20 fg=Hover bg=Hover
+r23 c20..21 fg=Selected bg=idx252
+r23 c21..22 fg=Hover bg=Hover
+r23 c22..23 fg=Hover bg=idx152
+r23 c23..30 fg=Hover bg=Hover
+r23 c30..31 fg=idx26 bg=idx152
+r23 c31..55 fg=idx26 bg=idx26
+r23 c55..56 fg=idx26 bg=idx110
+r23 c56..57 fg=idx152 bg=Background|Surface
+r23 c57..59 fg=Background|Surface bg=Background|Surface
+r23 c59..60 fg=Background|Surface bg=idx110
+r23 c60..62 fg=idx152 bg=Background|Surface
+r23 c62..63 fg=Background|Surface bg=Background|Surface
+r23 c63..64 fg=Background|Surface bg=idx110
+r23 c64..65 fg=idx110 bg=Background|Surface
+r23 c65..66 fg=Background|Surface bg=Background|Surface
+r23 c66..67 fg=Background|Surface bg=idx68
+r23 c67..68 fg=idx68 bg=Primary
+r23 c68..69 fg=idx68 bg=idx152
+r23 c69..80 fg=Hover bg=Hover
+r23 c80..81 fg=PrimaryForeground bg=Background|Surface
+r23 c81..100 fg=Foreground bg=Background|Surface
+r24 c0..19 fg=Foreground bg=Background|Surface
+r24 c19..20 fg=Hover bg=Hover
+r24 c20..21 fg=idx252 bg=idx252
+r24 c21..22 fg=Hover bg=idx152
+r24 c22..23 fg=idx109 bg=idx109
+r24 c23..31 fg=Hover bg=Hover
+r24 c31..32 fg=idx152 bg=Hover
+r24 c32..33 fg=idx26 bg=idx152
+r24 c33..45 fg=idx26 bg=idx26
+r24 c45..46 fg=idx26 bg=idx110
+r24 c46..47 fg=idx68 bg=idx68
+r24 c47..48 fg=idx68 bg=idx26
+r24 c48..54 fg=idx26 bg=idx26
+r24 c54..55 fg=idx68 bg=idx152
+r24 c55..57 fg=Background|Surface bg=Background|Surface
+r24 c57..58 fg=idx152 bg=Background|Surface
+r24 c58..59 fg=idx110 bg=Background|Surface
+r24 c59..60 fg=Background|Surface bg=Background|Surface
+r24 c60..61 fg=Background|Surface bg=idx152
+r24 c61..62 fg=idx152 bg=idx68
+r24 c62..63 fg=idx110 bg=Background|Surface
+r24 c63..64 fg=Background|Surface bg=idx152
+r24 c64..65 fg=Background|Surface bg=idx68
+r24 c65..66 fg=idx68 bg=Primary
+r24 c66..67 fg=Primary bg=idx152
+r24 c67..68 fg=idx152 bg=Hover
+r24 c68..69 fg=Hover bg=Hover
+r24 c69..76 fg=Hover bg=Sidebar
+r24 c76..77 fg=Hover bg=Hover
+r24 c77..78 fg=Hover bg=Border
+r24 c78..79 fg=Border bg=idx152
+r24 c79..80 fg=Hover bg=Sidebar
+r24 c80..100 fg=Foreground bg=Background|Surface
+r25 c0..20 fg=Foreground bg=Background|Surface
+r25 c20..21 fg=Hover bg=Background|Surface
+r25 c21..22 fg=idx152 bg=Border
+r25 c22..23 fg=idx109 bg=idx109
+r25 c23..24 fg=Hover bg=Hover
+r25 c24..25 fg=Hover bg=Sidebar
+r25 c25..26 fg=Border bg=idx152
+r25 c26..27 fg=Selected bg=Sidebar
+r25 c27..31 fg=PrimaryForeground bg=Sidebar
+r25 c31..32 fg=Hover bg=Sidebar
+r25 c32..34 fg=Hover bg=Hover
+r25 c34..35 fg=idx110 bg=Hover
+r25 c35..36 fg=idx26 bg=Hover
+r25 c36..37 fg=idx26 bg=idx152
+r25 c37..41 fg=idx26 bg=idx110
+r25 c41..42 fg=idx26 bg=idx152
+r25 c42..43 fg=idx26 bg=Hover
+r25 c43..44 fg=idx110 bg=Hover
+r25 c44..45 fg=Hover bg=idx68
+r25 c45..46 fg=idx68 bg=idx26
+r25 c46..52 fg=idx26 bg=idx26
+r25 c52..53 fg=idx26 bg=idx152
+r25 c53..54 fg=idx152 bg=Background|Surface
+r25 c54..56 fg=Background|Surface bg=Background|Surface
+r25 c56..57 fg=Background|Surface bg=idx152
+r25 c57..58 fg=Background|Surface bg=idx110
+r25 c58..59 fg=idx152 bg=idx152
+r25 c59..60 fg=idx110 bg=Background|Surface
+r25 c60..61 fg=idx152 bg=idx152
+r25 c61..62 fg=Background|Surface bg=idx68
+r25 c62..63 fg=idx110 bg=Primary
+r25 c63..64 fg=Primary bg=idx74
+r25 c64..65 fg=idx68 bg=Hover
+r25 c65..69 fg=Hover bg=Hover
+r25 c69..73 fg=PrimaryForeground bg=Hover
+r25 c73..77 fg=Hover bg=Hover
+r25 c77..79 fg=idx152 bg=idx152
+r25 c79..80 fg=PrimaryForeground bg=Background|Surface
+r25 c80..100 fg=Foreground bg=Background|Surface
+r26 c0..21 fg=Foreground bg=Background|Surface
+r26 c21..22 fg=Selected bg=Sidebar
+r26 c22..23 fg=idx250 bg=idx250
+r26 c23..24 fg=Border bg=Selected
+r26 c24..25 fg=Hover bg=Selected
+r26 c25..26 fg=idx109 bg=idx109
+r26 c26..27 fg=Hover bg=Border
+r26 c27..39 fg=Hover bg=Hover
+r26 c39..40 fg=Hover bg=idx110
+r26 c40..42 fg=Hover bg=idx26
+r26 c42..43 fg=idx110 bg=idx26
+r26 c43..49 fg=idx26 bg=idx26
+r26 c49..50 fg=idx26 bg=idx68
+r26 c50..51 fg=idx26 bg=idx152
+r26 c51..52 fg=idx152 bg=Background|Surface
+r26 c52..55 fg=Background|Surface bg=Background|Surface
+r26 c55..56 fg=idx110 bg=idx152
+r26 c56..57 fg=Background|Surface bg=idx110
+r26 c57..58 fg=Background|Surface bg=Primary
+r26 c58..59 fg=idx152 bg=Primary
+r26 c59..60 fg=idx68 bg=idx68
+r26 c60..61 fg=Primary bg=idx152
+r26 c61..62 fg=idx68 bg=Hover
+r26 c62..63 fg=idx152 bg=Hover
+r26 c63..76 fg=Hover bg=Hover
+r26 c76..77 fg=idx152 bg=idx109
+r26 c77..78 fg=idx109 bg=idx109
+r26 c78..79 fg=idx109 bg=idx249
+r26 c79..100 fg=Foreground bg=Background|Surface
+r27 c0..22 fg=Foreground bg=Background|Surface
+r27 c22..23 fg=idx250 bg=idx250
+r27 c23..25 fg=Selected bg=idx152
+r27 c25..26 fg=idx249 bg=idx250
+r27 c26..27 fg=idx152 bg=idx152
+r27 c27..40 fg=Hover bg=Hover
+r27 c40..41 fg=idx110 bg=Hover
+r27 c41..43 fg=idx26 bg=Hover
+r27 c43..45 fg=idx26 bg=idx110
+r27 c45..48 fg=idx26 bg=idx26
+r27 c48..49 fg=idx68 bg=idx26
+r27 c49..50 fg=idx110 bg=idx26
+r27 c50..53 fg=idx110 bg=Primary
+r27 c53..54 fg=idx68 bg=idx74
+r27 c54..55 fg=Primary bg=idx74
+r27 c55..56 fg=Primary bg=idx152
+r27 c56..57 fg=Primary bg=Hover
+r27 c57..58 fg=idx74 bg=Hover
+r27 c58..59 fg=idx152 bg=Hover
+r27 c59..71 fg=Hover bg=Hover
+r27 c71..72 fg=Hover bg=Selected
+r27 c72..73 fg=Hover bg=idx152
+r27 c73..75 fg=Selected bg=idx152
+r27 c75..76 fg=idx152 bg=idx152
+r27 c76..77 fg=idx109 bg=idx109
+r27 c77..78 fg=idx109 bg=idx250
+r27 c78..79 fg=idx250 bg=idx250
+r27 c79..100 fg=Foreground bg=Background|Surface
+r28 c0..22 fg=Foreground bg=Background|Surface
+r28 c22..23 fg=idx250 bg=Selected
+r28 c23..24 fg=idx152 bg=idx250
+r28 c24..25 fg=Hover bg=Background|Surface
+r28 c25..26 fg=idx109 bg=idx249
+r28 c26..27 fg=idx152 bg=idx152
+r28 c27..28 fg=Hover bg=Hover
+r28 c28..29 fg=Selected bg=Selected
+r28 c29..33 fg=Hover bg=idx152
+r28 c33..44 fg=Hover bg=Selected
+r28 c44..53 fg=Hover bg=idx152
+r28 c53..58 fg=Hover bg=Selected
+r28 c58..64 fg=Hover bg=Hover
+r28 c64..66 fg=Hover bg=Selected
+r28 c66..68 fg=Hover bg=idx152
+r28 c68..70 fg=Selected bg=idx152
+r28 c70..74 fg=idx152 bg=idx152
+r28 c74..75 fg=idx152 bg=Hover
+r28 c75..76 fg=idx152 bg=Background|Surface
+r28 c76..77 fg=idx249 bg=idx250
+r28 c77..78 fg=idx250 bg=Selected
+r28 c78..79 fg=idx250 bg=idx250
+r28 c79..80 fg=Selected bg=Selected
+r28 c80..100 fg=Foreground bg=Background|Surface
+r29 c0..22 fg=Foreground bg=Background|Surface
+r29 c22..23 fg=Selected bg=Sidebar
+r29 c23..24 fg=idx152 bg=Selected
+r29 c24..25 fg=Foreground bg=Background|Surface
+r29 c25..26 fg=idx250 bg=idx152
+r29 c26..27 fg=Hover bg=Background|Surface
+r29 c27..28 fg=PrimaryForeground bg=Background|Surface
+r29 c28..29 fg=Hover bg=Background|Surface
+r29 c29..30 fg=Selected bg=Hover
+r29 c30..31 fg=idx152 bg=Hover
+r29 c31..32 fg=idx152 bg=Selected
+r29 c32..58 fg=idx152 bg=idx152
+r29 c58..64 fg=idx152 bg=Hover
+r29 c64..67 fg=idx152 bg=Sidebar
+r29 c67..68 fg=idx152 bg=Hover
+r29 c68..69 fg=Selected bg=Selected
+r29 c69..70 fg=Hover bg=idx152
+r29 c70..71 fg=Selected bg=idx152
+r29 c71..72 fg=idx152 bg=idx152
+r29 c72..73 fg=idx152 bg=Hover
+r29 c73..74 fg=Hover bg=Background|Surface
+r29 c74..75 fg=Background|Surface bg=Background|Surface
+r29 c75..76 fg=Foreground bg=Background|Surface
+r29 c76..77 fg=idx250 bg=idx250
+r29 c77..78 fg=Selected bg=Sidebar
+r29 c78..79 fg=idx250 bg=idx250
+r29 c79..80 fg=PrimaryForeground bg=Background|Surface
+r29 c80..100 fg=Foreground bg=Background|Surface
+r30 c0..23 fg=Foreground bg=Background|Surface
+r30 c23..24 fg=Selected bg=Background|Surface
+r30 c24..25 fg=Foreground bg=Background|Surface
+r30 c25..26 fg=Selected bg=Background|Surface
+r30 c26..30 fg=Foreground bg=Background|Surface
+r30 c30..31 fg=Background|Surface bg=Background|Surface
+r30 c31..32 fg=PrimaryForeground bg=Background|Surface
+r30 c32..33 fg=Hover bg=Background|Surface
+r30 c33..34 fg=Hover bg=Sidebar
+r30 c34..35 fg=Hover bg=Selected
+r30 c35..36 fg=Hover bg=idx152
+r30 c36..38 fg=PrimaryForeground bg=idx152
+r30 c38..39 fg=PrimaryForeground bg=Selected
+r30 c39..41 fg=PrimaryForeground bg=Hover
+r30 c41..42 fg=Hover bg=Hover
+r30 c42..46 fg=Hover bg=Sidebar
+r30 c46..47 fg=Selected bg=Sidebar
+r30 c47..52 fg=idx152 bg=Sidebar
+r30 c52..55 fg=Hover bg=Sidebar
+r30 c55..59 fg=PrimaryForeground bg=Sidebar
+r30 c59..62 fg=PrimaryForeground bg=Hover
+r30 c62..63 fg=PrimaryForeground bg=Selected
+r30 c63..64 fg=PrimaryForeground bg=idx152
+r30 c64..66 fg=Hover bg=idx152
+r30 c66..69 fg=idx152 bg=idx152
+r30 c69..70 fg=idx152 bg=Hover
+r30 c70..71 fg=Selected bg=Background|Surface
+r30 c71..72 fg=Hover bg=Background|Surface
+r30 c72..76 fg=Foreground bg=Background|Surface
+r30 c76..77 fg=Selected bg=Background|Surface
+r30 c77..78 fg=Foreground bg=Background|Surface
+r30 c78..79 fg=Selected bg=Background|Surface
+r30 c79..100 fg=Foreground bg=Background|Surface
+r31 c0..35 fg=Foreground bg=Background|Surface
+r31 c35..36 fg=PrimaryForeground bg=Background|Surface
+r31 c36..37 fg=Hover bg=Background|Surface
+r31 c37..38 fg=Selected bg=Background|Surface
+r31 c38..39 fg=idx152 bg=Sidebar
+r31 c39..40 fg=idx152 bg=Hover
+r31 c40..42 fg=idx152 bg=idx152
+r31 c42..45 fg=idx152 bg=Hover
+r31 c45..46 fg=Selected bg=Selected
+r31 c46..50 fg=Hover bg=idx152
+r31 c50..51 fg=Selected bg=idx152
+r31 c51..59 fg=idx152 bg=idx152
+r31 c59..60 fg=idx152 bg=Hover
+r31 c60..64 fg=idx152 bg=idx152
+r31 c64..65 fg=idx152 bg=Selected
+r31 c65..66 fg=idx152 bg=Sidebar
+r31 c66..67 fg=idx152 bg=Background|Surface
+r31 c67..68 fg=Hover bg=Background|Surface
+r31 c68..69 fg=Background|Surface bg=Background|Surface
+r31 c69..100 fg=Foreground bg=Background|Surface
+r32 c0..40 fg=Foreground bg=Background|Surface
+r32 c40..42 fg=Background|Surface bg=Background|Surface
+r32 c42..43 fg=PrimaryForeground bg=Background|Surface
+r32 c43..45 fg=Hover bg=Background|Surface
+r32 c45..46 fg=PrimaryForeground bg=Background|Surface
+r32 c46..51 fg=PrimaryForeground bg=Sidebar
+r32 c51..52 fg=PrimaryForeground bg=Selected
+r32 c52..55 fg=PrimaryForeground bg=Sidebar
+r32 c55..58 fg=Hover bg=Sidebar
+r32 c58..61 fg=idx152 bg=Background|Surface
+r32 c61..62 fg=Hover bg=Background|Surface
+r32 c62..63 fg=PrimaryForeground bg=Background|Surface
+r32 c63..64 fg=Background|Surface bg=Background|Surface
+r32 c64..100 fg=Foreground bg=Background|Surface
+r33 c0..49 fg=Foreground bg=Background|Surface
+r33 c49..50 fg=Muted bg=Background|Surface
+r33 c50..100 fg=Foreground bg=Background|Surface
+r34 c0..100 fg=Muted bg=Background|Surface
+r35 c0..100 fg=Muted bg=Background|Surface
+
+== ansi-16
+Codewhale   ○ Idle
+
+
+
+
+
+
+                                       ⣀⣤⣴⣶⣶⣿⣿⣿⣿⣿⣿⣶⣶⣤⡄
+                                   ⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋
+                                 ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣭⣤⣤⣤⣄⣀
+                               ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠛⠛⠛⠛⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⡄
+                             ⢀⣴⣿⣿⣿⣿⣿⣿⡿⠟⠉         ⠈⠻⣿⣿⣿⣿⣿⣿⣿⠿⠋
+                            ⢀⣾⣿⣿⣿⣿⣿⣿⠋               ⠉⠉⠉⠉⠉
+                            ⣾⣿⣿⣿⣿⣿⡿⠁
+                           ⣸⣿⣿⣿⣿⣿⡿⠁
+                           ⣿⣿⣿⣿⣿⣿⡇                             ⣀⣀⣀⣀⣀⣀⣀⣀⣀
+                          ⢸⣿⣿⣿⣿⣿⣿⡅                     ⣀⣠⣤⣴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆
+                          ⢸⣿⣿⣿⣿⣿⣿⣇               ⢀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+                          ⠸⣿⣿⣿⣿⣿⣿⣿⣦⡀        ⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠉⠁ ⣿⡇
+                           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉      ⢰⡿
+                           ⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋        ⢠⣿⠃
+                            ⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏ ⢈⣿⣿⣿⡿⠋   ⠠  ⢀⠂ ⢠⣿⠃
+                            ⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋   ⢀⠔  ⡠⠃ ⣴⡿⠁
+                              ⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁  ⡠⠐⠁ ⡠⠊ ⣠⣾⠏
+                               ⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣫⣾⣿⣿⣿⣿⣿⣿⠏  ⠐⠉ ⢀⡴⠊⢀⣠⣾⠟⠁
+                                  ⠉⠛⠻⠿⠿⠿⠿⠟⠛⠉⣠⣾⣿⣿⣿⣿⣿⣿⠟⠁  ⢀⡠⠔⠊⢁⣠⣶⠿⠋
+                                       ⣀⣤⣤⣶⣿⣿⣿⣿⣿⣿⡿⠟⠁   ⢉⣀⣤⣴⡾⠟⠋⠁
+                                        ⠉⠛⠛⠿⠿⣿⣿⣿⣷⣶⣶⣶⣶⠾⠿⠟⠛⠉⠁
+
+
+
+
+
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary
+r0 c12..13 dim
+r7 c39..54 fg=Primary
+r8 c35..53 fg=Primary
+r9 c33..56 fg=Primary
+r10 c31..61 fg=Primary
+r11 c29..40 fg=Primary
+r11 c49..60 fg=Primary
+r12 c28..37 fg=Primary
+r12 c52..57 fg=Primary
+r13 c28..36 fg=Primary
+r14 c27..35 fg=Primary
+r15 c27..34 fg=Primary
+r15 c63..72 fg=Primary
+r16 c26..34 fg=Primary
+r16 c55..74 fg=Primary
+r17 c26..34 fg=Primary
+r17 c49..74 fg=Primary
+r18 c26..36 fg=Primary
+r18 c44..71 fg=Primary
+r18 c72..74 fg=Primary
+r19 c27..65 fg=Primary
+r19 c71..73 fg=Primary
+r20 c27..62 fg=Primary
+r20 c70..73 fg=Primary
+r21 c28..53 fg=Primary
+r21 c54..60 fg=Primary
+r21 c63..64 fg=Primary
+r21 c66..68 fg=Primary
+r21 c69..72 fg=Primary
+r22 c28..58 fg=Primary
+r22 c61..63 fg=Primary
+r22 c65..67 fg=Primary
+r22 c68..71 fg=Primary
+r23 c30..57 fg=Primary
+r23 c59..62 fg=Primary
+r23 c63..65 fg=Primary
+r23 c66..69 fg=Primary
+r24 c31..55 fg=Primary
+r24 c57..59 fg=Primary
+r24 c60..68 fg=Primary
+r25 c34..54 fg=Primary
+r25 c56..65 fg=Primary
+r26 c39..52 fg=Primary
+r26 c55..63 fg=Primary
+r27 c40..59 fg=Primary
+r33 c49..50 dim
+r34 c0..100 dim
+r35 c0..100 dim
+
+== unknown-ground
+Codewhale   ○ Idle
+
+
+
+
+
+
+                                       ⣀⣤⣴⣶⣶⣿⣿⣿⣿⣿⣿⣶⣶⣤⡄
+                                   ⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋
+                                 ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣭⣤⣤⣤⣄⣀
+                               ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠛⠛⠛⠛⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⡄
+                             ⢀⣴⣿⣿⣿⣿⣿⣿⡿⠟⠉         ⠈⠻⣿⣿⣿⣿⣿⣿⣿⠿⠋
+                            ⢀⣾⣿⣿⣿⣿⣿⣿⠋               ⠉⠉⠉⠉⠉
+                            ⣾⣿⣿⣿⣿⣿⡿⠁
+                           ⣸⣿⣿⣿⣿⣿⡿⠁
+                           ⣿⣿⣿⣿⣿⣿⡇                             ⣀⣀⣀⣀⣀⣀⣀⣀⣀
+                          ⢸⣿⣿⣿⣿⣿⣿⡅                     ⣀⣠⣤⣴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆
+                          ⢸⣿⣿⣿⣿⣿⣿⣇               ⢀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+                          ⠸⣿⣿⣿⣿⣿⣿⣿⣦⡀        ⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠉⠁ ⣿⡇
+                           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉      ⢰⡿
+                           ⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋        ⢠⣿⠃
+                            ⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏ ⢈⣿⣿⣿⡿⠋   ⠠  ⢀⠂ ⢠⣿⠃
+                            ⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋   ⢀⠔  ⡠⠃ ⣴⡿⠁
+                              ⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁  ⡠⠐⠁ ⡠⠊ ⣠⣾⠏
+                               ⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣫⣾⣿⣿⣿⣿⣿⣿⠏  ⠐⠉ ⢀⡴⠊⢀⣠⣾⠟⠁
+                                  ⠉⠛⠻⠿⠿⠿⠿⠟⠛⠉⣠⣾⣿⣿⣿⣿⣿⣿⠟⠁  ⢀⡠⠔⠊⢁⣠⣶⠿⠋
+                                       ⣀⣤⣤⣶⣿⣿⣿⣿⣿⣿⡿⠟⠁   ⢉⣀⣤⣴⡾⠟⠋⠁
+                                        ⠉⠛⠛⠿⠿⣿⣿⣿⣷⣶⣶⣶⣶⠾⠿⠟⠛⠉⠁
+
+
+
+
+
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c0..9 fg=Primary
+r0 c12..13 dim
+r7 c39..54 fg=Primary
+r8 c35..53 fg=Primary
+r9 c33..56 fg=Primary
+r10 c31..61 fg=Primary
+r11 c29..40 fg=Primary
+r11 c49..60 fg=Primary
+r12 c28..37 fg=Primary
+r12 c52..57 fg=Primary
+r13 c28..36 fg=Primary
+r14 c27..35 fg=Primary
+r15 c27..34 fg=Primary
+r15 c63..72 fg=Primary
+r16 c26..34 fg=Primary
+r16 c55..74 fg=Primary
+r17 c26..34 fg=Primary
+r17 c49..74 fg=Primary
+r18 c26..36 fg=Primary
+r18 c44..71 fg=Primary
+r18 c72..74 fg=Primary
+r19 c27..65 fg=Primary
+r19 c71..73 fg=Primary
+r20 c27..62 fg=Primary
+r20 c70..73 fg=Primary
+r21 c28..53 fg=Primary
+r21 c54..60 fg=Primary
+r21 c63..64 fg=Primary
+r21 c66..68 fg=Primary
+r21 c69..72 fg=Primary
+r22 c28..58 fg=Primary
+r22 c61..63 fg=Primary
+r22 c65..67 fg=Primary
+r22 c68..71 fg=Primary
+r23 c30..57 fg=Primary
+r23 c59..62 fg=Primary
+r23 c63..65 fg=Primary
+r23 c66..69 fg=Primary
+r24 c31..55 fg=Primary
+r24 c57..59 fg=Primary
+r24 c60..68 fg=Primary
+r25 c34..54 fg=Primary
+r25 c56..65 fg=Primary
+r26 c39..52 fg=Primary
+r26 c55..63 fg=Primary
+r27 c40..59 fg=Primary
+r33 c49..50 dim
+r34 c0..100 dim
+r35 c0..100 dim
+
+== no-color
+Codewhale   ○ Idle
+
+
+
+
+
+
+                                       ⣀⣤⣴⣶⣶⣿⣿⣿⣿⣿⣿⣶⣶⣤⡄
+                                   ⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋
+                                 ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣭⣤⣤⣤⣄⣀
+                               ⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠛⠛⠛⠛⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⡄
+                             ⢀⣴⣿⣿⣿⣿⣿⣿⡿⠟⠉         ⠈⠻⣿⣿⣿⣿⣿⣿⣿⠿⠋
+                            ⢀⣾⣿⣿⣿⣿⣿⣿⠋               ⠉⠉⠉⠉⠉
+                            ⣾⣿⣿⣿⣿⣿⡿⠁
+                           ⣸⣿⣿⣿⣿⣿⡿⠁
+                           ⣿⣿⣿⣿⣿⣿⡇                             ⣀⣀⣀⣀⣀⣀⣀⣀⣀
+                          ⢸⣿⣿⣿⣿⣿⣿⡅                     ⣀⣠⣤⣴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆
+                          ⢸⣿⣿⣿⣿⣿⣿⣇               ⢀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+                          ⠸⣿⣿⣿⣿⣿⣿⣿⣦⡀        ⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠉⠁ ⣿⡇
+                           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉      ⢰⡿
+                           ⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋        ⢠⣿⠃
+                            ⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏ ⢈⣿⣿⣿⡿⠋   ⠠  ⢀⠂ ⢠⣿⠃
+                            ⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋   ⢀⠔  ⡠⠃ ⣴⡿⠁
+                              ⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁  ⡠⠐⠁ ⡠⠊ ⣠⣾⠏
+                               ⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣫⣾⣿⣿⣿⣿⣿⣿⠏  ⠐⠉ ⢀⡴⠊⢀⣠⣾⠟⠁
+                                  ⠉⠛⠻⠿⠿⠿⠿⠟⠛⠉⣠⣾⣿⣿⣿⣿⣿⣿⠟⠁  ⢀⡠⠔⠊⢁⣠⣶⠿⠋
+                                       ⣀⣤⣤⣶⣿⣿⣿⣿⣿⣿⡿⠟⠁   ⢉⣀⣤⣴⡾⠟⠋⠁
+                                        ⠉⠛⠛⠿⠿⣿⣿⣿⣷⣶⣶⣶⣶⠾⠿⠟⠛⠉⠁
+
+
+
+
+
+                                                 ○
+Pet surface - idle preview
+
+---
+r0 c12..13 dim
+r33 c49..50 dim
+r34 c0..100 dim
+r35 c0..100 dim
+
+== ascii
+Codewhale   o Idle
+
+                                                 o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pet surface - idle preview
+
+---
+r0 c12..13 dim
+r2 c49..50 dim
+r34 c0..100 dim
+r35 c0..100 dim

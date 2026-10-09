@@ -1,8 +1,35 @@
 # Codewhale Ratatui
 
 The terminal components behind [Codewhale](https://github.com/Hmbown/CodeWhale),
-ready for your [Ratatui](https://ratatui.rs) app. Native layouts, ocean depth,
-quiet motion, and a little life in the water.
+ready for your [Ratatui](https://ratatui.rs) app. An animated whale pet, native
+layouts, ocean depth, and quiet motion. Your app owns the state and clock.
+
+![The native Codewhale pet reading, editing, working with its pod and celebrating in its cove](assets/readme/pet-dark.gif)
+
+<details>
+<summary>See the pet in light mode</summary>
+
+![The same animated whale and cove on a light terminal](assets/readme/pet-light.gif)
+
+</details>
+
+**Meet your terminal companion.** `WhalePet` brings the original Codewhale
+character into Ratatui: breathing, blinking, fins, activity props, calves and
+water ripples. All 17 activities use the shared authored animation, with
+readable state words and still, Braille and ASCII fallbacks.
+
+```sh
+cargo run --locked --example pet
+```
+
+From this cloned repository: **← / →** choose an action, **A** starts the tour,
+**Space** toggles motion, **P** changes the terminal profile, and **Q** exits.
+Move over the water to catch the whale's eye; click to make a ripple.
+[Try the full pet view](#the-full-pet-view) · [Pet components](#the-animated-whale-pet) ·
+[All 17 actions](#every-whale-action) · [Avatar packs](AVATARS.md)
+
+<details>
+<summary>Native conversation, composer and workbar</summary>
 
 ![Codewhale's native conversation, composer and Tasks workbar in Underwater](assets/readme/studio.dark-truecolor-1.svg)
 
@@ -10,6 +37,8 @@ quiet motion, and a little life in the water.
 <summary>See WhaleLight</summary>
 
 ![The same native conversation, composer and workbar in WhaleLight](assets/readme/studio.light-truecolor-1.svg)
+
+</details>
 
 </details>
 
@@ -24,6 +53,30 @@ actions are included. Your app owns the state and clock.
 The [website explorer](WEBSITE.md) separates every catalogue entry into a
 searchable component page, with terminal profiles, real width variants,
 Rust rendering source and controlled animation playback.
+
+## The full pet view
+
+`PetMode` puts the whale at the center of a work surface, with optional reply
+and agent panes. The example opens at rest; a host connects its own session,
+activity and results. These clips show real terminal buffers from the example.
+
+![The full native pet view at rest](assets/readme/pet-mode-dark.gif)
+
+<details>
+<summary>Light appearance</summary>
+
+![The full native pet view at rest in light mode](assets/readme/pet-mode-light.gif)
+
+</details>
+
+```sh
+cargo run --locked --example pet_mode
+```
+
+**L** toggles motion; **Q** closes. For integration, start with
+[`WhalePet` and `Stage`](GETTING-STARTED.md#add-the-animated-pet), or use
+[`PetMode` and `PetModeState`](COMPONENTS.md#full-pet-mode) for the larger surface.
+The optional [2D avatar example](AVATARS.md) previews the Whale girl and local packs.
 
 ## Get started
 
@@ -70,12 +123,14 @@ repository; adding a dependency does not install its example apps.
 | Show conversation and work | `Message`, `Transcript`, `PendingInputPreview`, `AgentCard` |
 | Review changes and results | `Diff`, `ApprovalCard`, `Receipt`, `ArtifactShelf` |
 | Use Codewhale colors and depth | `Theme::tui`, `TuiPalette`, `OceanColumn` |
+| Add the animated whale and cove | [`WhalePet` + `Stage`](examples/pet.rs) |
+| Build a full pet work surface | [`PetMode` + `PetModeState`](examples/pet_mode.rs) |
 | Add motion, whales and marine life | [Small recipes](examples/recipes.rs), [motion](examples/motion.rs), [habitat](examples/habitat.rs) |
 
 ## Explore the components
 
 Open a collection to see its full dark and light previews. Every one of the
-204 gallery entries is here, rendered from actual Ratatui buffers. The
+209 gallery entries is here, rendered from actual Ratatui buffers. The
 [component guide](COMPONENTS.md) maps them to Codewhale's terminal views.
 Run `cargo run --example gallery` to try every variation yourself.
 
@@ -120,6 +175,40 @@ The native conversation layout, composer and workbar, plus interactive component
 ![Native work, approval and completion](<assets/readme/showcase.gif>)
 
 ![The same native layout in WhaleLight](<assets/readme/showcase-light.gif>)
+
+</details>
+
+</details>
+
+<a id="the-animated-whale-pet"></a>
+<details>
+<summary>The animated whale pet · 5 examples</summary>
+
+The native cove, reading, attention and pod, plus the full pet surface.
+
+![Pet cove, Pet reading, Pet needs you — dark truecolor](<assets/readme/pet.dark-truecolor-1.svg>)
+
+![Pet pod, Pet mode — dark truecolor](<assets/readme/pet.dark-truecolor-2.svg>)
+
+<details>
+<summary>Light appearance</summary>
+
+![Pet cove, Pet reading, Pet needs you — light truecolor](<assets/readme/pet.light-truecolor-1.svg>)
+
+![Pet pod, Pet mode — light truecolor](<assets/readme/pet.light-truecolor-2.svg>)
+
+</details>
+
+<details>
+<summary>Watch the animation</summary>
+
+![The whale's cove and activity tour — dark](<assets/readme/pet-dark.gif>)
+
+![The same animated whale — light](<assets/readme/pet-light.gif>)
+
+![Full pet surface at rest — dark](<assets/readme/pet-mode-dark.gif>)
+
+![Full pet surface at rest — light](<assets/readme/pet-mode-light.gif>)
 
 </details>
 
@@ -785,6 +874,8 @@ on their next paint; components hold roles rather than cached colors.
 | Marine life | `Habitat`, `FishSchool`, `Jellyfish`, `BubbleField`, `HabitatDensity` | Native braille poses and ASCII silhouettes, caller-clock motion, bounded populations, complete visitors and text-safe open-water collision |
 | Water and palette | `OceanColumn`, `OceanRamp`, `OceanPhase`, `OceanPaintFacts`, `OceanCausticFacts`, `OceanContrastInks`, `ocean_semantic_surfaces`, `Ombre`, `WaterPalette` | Native TUI depth column, context rise, steady attention tint, completion breath and five spatial materials; contrast and fallback guards |
 | Living whale | `whale_motion::Stage`, `Director`, `ColoredGrid` | One session performance, authored clips and springs, native colored props, shared terminal cadence and hide/resume boundaries |
+| Animated pet | `WhalePet`, `PetStyle` | Full-color native whale and cove, gaze and ripples, 17 activities, Braille and words-only fallbacks |
+| Pet work surface | `PetMode`, `PetModeState` | Whale-centered view with optional reply and agent panes; caller-owned activity, focus and results |
 | Session surfaces | `Message`, `ToolCard`, `Composer`, `AgentCard`, `Fleet` | Speaker anchors, output rails, honest omission counts, caller-owned prompts and each agent's own state, route and task |
 | Pending input | `PendingInputPreview`, `PendingInputItem`, `ContextPreviewItem`, `PendingCard` | Queued, steering, editing, paused and in-flight input; native composer preview over localized caller facts; context and host-dispatched actions |
 | Rich transcript | `Transcript`, `TranscriptBlock`, `TranscriptSpan`, `CodeBlock` | Authored headings, prose, quotes, lists, tables and numbered code; exact copy source and out-of-band links |
@@ -863,6 +954,8 @@ pin the native implementation and its conformance oracle.
 
 ```sh
 cargo run --example starter                          # small native application
+cargo run --example pet                              # animated whale, actions and cove
+cargo run --example pet_mode                         # full pet surface at rest
 cargo run --example gallery                          # interactive catalogue
 cargo run --example showcase                         # the full terminal studio
 cargo run --example habitat                          # live fish, jellyfish, bubbles
