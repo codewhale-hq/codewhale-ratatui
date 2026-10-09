@@ -3,12 +3,12 @@ source: tests/snapshots.rs
 expression: dump(&entry)
 ---
 == dark-truecolor
- Deep                Stage               Raised             ┌──────────────────┐
+ Deep                Stage               Raised             ╭──────────────────╮
                                                             │ Overlay          │
  Put away            Where work sits     A card             │ A decision       │
                                                             │                  │
                                                             │                  │
-                                                            └──────────────────┘
+                                                            ╰──────────────────╯
 ---
 r0 c0..1 bg=Sidebar
 r0 c1..5 fg=Foreground bg=Sidebar bold
@@ -60,12 +60,12 @@ r5 c40..60 bg=Surface
 r5 c60..80 fg=BorderStrong bg=Surface
 
 == dark-graphite
- Deep                Stage               Raised             ┌──────────────────┐
+ Deep                Stage               Raised             ╭──────────────────╮
                                                             │ Overlay          │
  Put away            Where work sits     A card             │ A decision       │
                                                             │                  │
                                                             │                  │
-                                                            └──────────────────┘
+                                                            ╰──────────────────╯
 ---
 r0 c0..1 bg=Sidebar
 r0 c1..5 fg=Foreground bg=Sidebar bold
@@ -117,12 +117,12 @@ r5 c40..60 bg=Surface
 r5 c60..80 fg=BorderStrong bg=Surface
 
 == light-truecolor
- Deep                Stage               Raised             ┌──────────────────┐
+ Deep                Stage               Raised             ╭──────────────────╮
                                                             │ Overlay          │
  Put away            Where work sits     A card             │ A decision       │
                                                             │                  │
                                                             │                  │
-                                                            └──────────────────┘
+                                                            ╰──────────────────╯
 ---
 r0 c0..1 bg=Sidebar
 r0 c1..5 fg=Foreground bg=Sidebar bold
@@ -174,12 +174,12 @@ r5 c40..60 bg=Surface
 r5 c60..80 fg=BorderStrong bg=Surface
 
 == dark-256
- Deep                Stage               Raised             ┌──────────────────┐
+ Deep                Stage               Raised             ╭──────────────────╮
                                                             │ Overlay          │
  Put away            Where work sits     A card             │ A decision       │
                                                             │                  │
                                                             │                  │
-                                                            └──────────────────┘
+                                                            ╰──────────────────╯
 ---
 r0 c0..1 bg=Sidebar
 r0 c1..5 fg=Foreground bg=Sidebar bold
@@ -231,12 +231,12 @@ r5 c40..60 bg=Surface|Hover
 r5 c60..80 fg=BorderStrong bg=Surface|Hover
 
 == light-256
- Deep                Stage              ┌──────────────────┐┌──────────────────┐
+ Deep                Stage              ╭──────────────────╮╭──────────────────╮
                                         │ Raised           ││ Overlay          │
  Put away            Where work sits    │ A card           ││ A decision       │
                                         │                  ││                  │
                                         │                  ││                  │
-                                        └──────────────────┘└──────────────────┘
+                                        ╰──────────────────╯╰──────────────────╯
 ---
 r0 c0..1 bg=Sidebar
 r0 c1..5 fg=Foreground bg=Sidebar bold
@@ -296,12 +296,12 @@ r5 c40..60 fg=Border bg=Background|Surface
 r5 c60..80 fg=BorderStrong bg=Background|Surface
 
 == ansi-16
- Deep                Stage              ┌──────────────────┐┌──────────────────┐
+ Deep                Stage              ╭──────────────────╮╭──────────────────╮
                                         │ Raised           ││ Overlay          │
  Put away            Where work sits    │ A card           ││ A decision       │
                                         │                  ││                  │
                                         │                  ││                  │
-                                        └──────────────────┘└──────────────────┘
+                                        ╰──────────────────╯╰──────────────────╯
 ---
 r0 c1..5 bold
 r0 c21..26 bold
@@ -323,12 +323,12 @@ r4 c59..60 dim
 r5 c40..60 dim
 
 == unknown-ground
- Deep                Stage              ┌──────────────────┐┌──────────────────┐
+ Deep                Stage              ╭──────────────────╮╭──────────────────╮
                                         │ Raised           ││ Overlay          │
  Put away            Where work sits    │ A card           ││ A decision       │
                                         │                  ││                  │
                                         │                  ││                  │
-                                        └──────────────────┘└──────────────────┘
+                                        ╰──────────────────╯╰──────────────────╯
 ---
 r0 c1..5 bold
 r0 c21..26 bold
@@ -350,12 +350,12 @@ r4 c59..60 dim
 r5 c40..60 dim
 
 == no-color
- Deep                Stage              ┌──────────────────┐┌──────────────────┐
+ Deep                Stage              ╭──────────────────╮╭──────────────────╮
                                         │ Raised           ││ Overlay          │
  Put away            Where work sits    │ A card           ││ A decision       │
                                         │                  ││                  │
                                         │                  ││                  │
-                                        └──────────────────┘└──────────────────┘
+                                        ╰──────────────────╯╰──────────────────╯
 ---
 r0 c1..5 bold
 r0 c21..26 bold

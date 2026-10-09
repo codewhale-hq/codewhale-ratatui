@@ -1,13 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1184" height="952" viewBox="0 0 1184 952" role="img" aria-labelledby="title desc"><title id="title">The live component gallery — Truecolor / Ocean · page 3/5</title><desc id="desc">The native conversation layout, composer and workbar, plus interactive component studies. Actual ratatui buffer renders: showcase-color</desc><rect width="100%" height="100%" fill="#0a1e33" /><text x="32" y="48" fill="#f6f2e8" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="600">The live component gallery</text><text x="1152" y="72" fill="#93a0b8" font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" text-anchor="end">Truecolor / Ocean · page 3/5</text><path d="M32 80H1152" stroke="#2a3f72" stroke-width="1" /><g data-entry="showcase-color"><text x="32" y="113" fill="#f6f2e8" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">Showcase color</text><svg width="1120" height="760" viewBox="0 0 1120 760" role="img" x="32" y="136"><title>Ratatui buffer, 112 columns by 38 rows</title><rect width="100%" height="100%" fill="#0a1e33" />
 <rect x="0" y="0" width="1120" height="20" fill="#102a45" />
 <rect x="0" y="20" width="1120" height="20" fill="#102a44" />
-<rect x="0" y="40" width="1120" height="20" fill="#102843" />
+<rect x="0" y="40" width="70" height="20" fill="#232d41" />
+<rect x="70" y="40" width="1050" height="20" fill="#102843" />
 <rect x="0" y="60" width="1120" height="20" fill="#102842" />
-<rect x="0" y="80" width="1120" height="20" fill="#0e2841" />
+<rect x="0" y="80" width="60" height="20" fill="#232d41" />
+<rect x="60" y="80" width="1060" height="20" fill="#0e2841" />
 <rect x="0" y="100" width="1120" height="20" fill="#0e2740" />
 <rect x="0" y="120" width="1120" height="20" fill="#0e263f" />
 <rect x="0" y="140" width="1120" height="20" fill="#0e263e" />
-<rect x="0" y="160" width="1120" height="20" fill="#0e253d" />
+<rect x="0" y="160" width="110" height="20" fill="#0e253d" />
+<rect x="110" y="160" width="100" height="20" fill="#232d41" />
+<rect x="210" y="160" width="910" height="20" fill="#0e253d" />
 <rect x="0" y="180" width="1120" height="20" fill="#0e243c" />
 <rect x="0" y="200" width="1120" height="20" fill="#0d243b" />
 <rect x="0" y="220" width="1070" height="20" fill="#0d233a" />

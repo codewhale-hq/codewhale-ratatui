@@ -900,14 +900,19 @@ one continuous column behind ordinary grounds. Give it the full shell with
 for a composer with its own base fill. The native [starter example](examples/starter.rs)
 shows this complete composition. Selections, elevated panels,
 diffs and code retain their backgrounds. The host supplies phase, elapsed time
-and measured context; quiet policies stop breathing. The dark field is
-opt-in on measured truecolor Ocean; light and limited-color terminals retain
-their selected grounds.
+and measured context; quiet policies stop breathing. Underwater keeps its
+authored stops; other measured truecolor themes derive depth and reflections
+from their own grounds and accents. Light themes breathe gently into paper.
+Terminal-owned grounds and limited-color profiles remain unchanged. Colors
+shared with semantic fills stay protected in the generic pass; explicit
+chrome regions can opt in with `apply_matching`.
 
 `Ombre` finishes a painted scene with a spatial palette wash. It preserves
 state ink and readable contrast, and leaves unsupported profiles unchanged.
 The native TUI column is the studio default; the logo Ocean wash is also
-available alongside Lagoon, Dusk, Coral and Graphite.
+available alongside Lagoon, Dusk, Coral and Graphite. `apply_at` accepts the
+host clock and motion policy for a slow drift during active work. Graphite
+stays neutral, and reduced/still policies retain the fixed composition.
 
 
 </details>
@@ -1016,7 +1021,8 @@ switches its panel while focused. `Esc` closes the dock. Color controls select
 optional ombré washes separately from the native F9 theme.
 Components supports search and tall-preview scrolling. `Ctrl+R` restarts the
 demonstration; `q` or `Esc` closes outside editing.
-`Ctrl+C` closes from any section or focus.
+`Ctrl+C` closes from any section or focus. For reproducible theme studies,
+add `--theme shoreline-light` to the `--frames DIR` export command.
 
 Profiles: `dark-truecolor`, `dark-graphite`, `light-truecolor`, `dark-256`,
 `light-256`, `ansi-16`, `unknown-ground`, `no-color`, `ascii`.
@@ -1131,8 +1137,8 @@ projects display-safe prewrapped styled rows using the host's column grammar;
 explicit backgrounds remain semantic even if their RGB equals a pane base.
 `apply_caustics` finishes only already painted ordinary water, shares capability
 and reduced-motion gates, and spares visible symbols, reversed cells and
-semantic padding. Both methods retain the existing measured dark truecolor
-Ocean gate; facts and an explicit ramp do not grant terminal capability. The
+semantic padding. Both methods require measured truecolor painted grounds;
+facts and an explicit ramp do not grant terminal capability. The
 `ocean-native-guarded` gallery entry exercises cached water, caustics, selected
 source, blank semantic padding and reverse protection across all profiles.
 

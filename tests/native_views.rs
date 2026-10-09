@@ -79,6 +79,24 @@ fn native_action_rail_pads_keys_packs_whole_actions_and_wraps() {
     assert!(buffer[(1, 6)].modifier.contains(Modifier::BOLD));
     assert_eq!(buffer[(1, 6)].fg, theme.color(Role::Primary).unwrap());
     assert_eq!(buffer[(7, 6)].fg, theme.color(Role::Muted).unwrap());
+    let expanded = [
+        KeyHint::new("Ctrl+Enter", "继续当前任务并查看完整的执行结果"),
+        KeyHint::new("Esc", "close"),
+    ];
+    for width in [3, 4, 8] {
+        let buffer = render(width, 40, |area, buf| {
+            body = InstrumentSurface::draw_footer(area, buf, &expanded, &theme, false);
+        });
+        let content: String = text(&buffer)
+            .chars()
+            .filter(|c| !c.is_whitespace())
+            .collect();
+        assert_eq!(
+            content,
+            "Ctrl+Enter继续当前任务并查看完整的执行结果Escclose"
+        );
+        assert!(buffer[(1, body.height)].modifier.contains(Modifier::BOLD));
+    }
 }
 
 #[test]

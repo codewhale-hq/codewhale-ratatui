@@ -6,8 +6,10 @@
 //! profiles keep the audited theme byte for byte, and the wash stays anchored
 //! to the requested area through clipping and `u16::MAX`.
 
+use std::time::Duration;
+
 use codewhale_ratatui::{
-    Ground, Ombre, OmbreDirection, Paint, Role, Theme, WaterPalette,
+    Ground, MotionMode, Ombre, OmbreDirection, Paint, Role, Theme, WaterPalette,
     color::{contrast_ratio, relative_luminance},
     gallery,
     testing::{Profile, assert_frames_keep_the_rules, frames_for, render, text},
@@ -117,9 +119,17 @@ fn every_palette_keeps_luminance_floors_and_elevation() {
         let before = grounds(120, 10, &theme);
         let area = *before.area();
         let wanted = elevation(&before, area);
-        for palette in WaterPalette::ALL {
+        for (palette, elapsed) in WaterPalette::ALL.into_iter().flat_map(|palette| {
+            [
+                Duration::ZERO,
+                Duration::from_secs(6),
+                Duration::from_secs(18),
+                Duration::MAX,
+            ]
+            .map(|elapsed| (palette, elapsed))
+        }) {
             let mut buf = before.clone();
-            Ombre::new(palette).apply(area, &mut buf, &theme);
+            Ombre::new(palette).apply_at(area, &mut buf, &theme, elapsed, MotionMode::Full);
             for y in area.top()..area.bottom() {
                 for x in area.left()..area.right() {
                     let (old, new) = (before[(x, y)].bg, buf[(x, y)].bg);
@@ -168,10 +178,13 @@ fn fallback_profiles_keep_the_audited_theme() {
     ] {
         let theme = profile.theme();
         let before = grounds(40, 10, &theme);
-        for palette in WaterPalette::ALL {
+        for (palette, motion) in WaterPalette::ALL.into_iter().flat_map(|palette| {
+            [MotionMode::Full, MotionMode::Reduced, MotionMode::Still]
+                .map(|motion| (palette, motion))
+        }) {
             let mut buf = before.clone();
             let area = *buf.area();
-            Ombre::new(palette).apply(area, &mut buf, &theme);
+            Ombre::new(palette).apply_at(area, &mut buf, &theme, Duration::from_secs(6), motion);
             assert_eq!(
                 snapshot(&buf),
                 snapshot(&before),
@@ -472,4 +485,63 @@ fn the_pass_is_idempotent_and_paints_as_a_widget() {
     let mut applied = grounds(40, 10, &theme);
     Ombre::new(WaterPalette::Dusk).apply(area, &mut applied, &theme);
     assert_eq!(snapshot(&widget), snapshot(&applied));
+
+    for palette in WaterPalette::ALL {
+        for direction in [OmbreDirection::Diagonal, OmbreDirection::Vertical] {
+            let pass = Ombre::new(palette).direction(direction);
+            let source = grounds(40, 10, &theme);
+            let mut still = source.clone();
+            pass.apply(area, &mut still, &theme);
+            for motion in [MotionMode::Reduced, MotionMode::Still] {
+                let mut frame = source.clone();
+                pass.apply_at(area, &mut frame, &theme, Duration::from_secs(6), motion);
+                assert_eq!(frame, still, "{palette:?} {direction:?} {motion:?}");
+            }
+            let mut start = source.clone();
+            pass.apply_at(area, &mut start, &theme, Duration::ZERO, MotionMode::Full);
+            assert_eq!(start, still, "{palette:?} {direction:?} zero time");
+            let mut moving = source.clone();
+            pass.apply_at(
+                area,
+                &mut moving,
+                &theme,
+                Duration::from_secs(6),
+                MotionMode::Full,
+            );
+            let mut repeated = source.clone();
+            pass.apply_at(
+                area,
+                &mut repeated,
+                &theme,
+                Duration::from_secs(30),
+                MotionMode::Full,
+            );
+            assert_eq!(moving, repeated, "{palette:?} {direction:?} cycle");
+            assert_eq!(moving[(0, 0)], still[(0, 0)]);
+            assert_eq!(moving[(39, 9)], still[(39, 9)]);
+            if palette == WaterPalette::Graphite {
+                assert_eq!(moving, still);
+            } else {
+                assert_ne!(moving, still, "{palette:?} {direction:?} must drift");
+            }
+            let mut clipped = Buffer::empty(Rect::new(7, 2, 22, 6));
+            for y in 2..8 {
+                for x in 7..29 {
+                    clipped[(x, y)] = source[(x, y)].clone();
+                }
+            }
+            pass.apply_at(
+                area,
+                &mut clipped,
+                &theme,
+                Duration::from_secs(6),
+                MotionMode::Full,
+            );
+            for y in 2..8 {
+                for x in 7..29 {
+                    assert_eq!(clipped[(x, y)], moving[(x, y)], "clipped ({x},{y})");
+                }
+            }
+        }
+    }
 }

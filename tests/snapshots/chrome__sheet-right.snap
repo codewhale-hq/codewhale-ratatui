@@ -204,7 +204,7 @@ r11 c91..119 fg=Foreground bg=Surface
 r11 c119..120 bg=Surface
 
 == no-color · 40x12
-Edited sum┌────────────────────────────┐
+Edited sum╭────────────────────────────╮
 Edited sum│                            │
 Edited sum│ Agents           2 running │
 Edited sum│                            │
@@ -215,10 +215,10 @@ Edited sum│                            │
 Edited sum│                            │
 Edited sum│                            │
 Edited sum│                            │
-Edited sum└────────────────────────────┘
+Edited sum╰────────────────────────────╯
 
 == no-color · 80x12
-Edited summary.md and then ran the whole suite aga┌────────────────────────────┐
+Edited summary.md and then ran the whole suite aga╭────────────────────────────╮
 Edited summary.md and then ran the whole suite aga│                            │
 Edited summary.md and then ran the whole suite aga│ Agents           2 running │
 Edited summary.md and then ran the whole suite aga│                            │
@@ -229,10 +229,10 @@ Edited summary.md and then ran the whole suite aga│                           
 Edited summary.md and then ran the whole suite aga│                            │
 Edited summary.md and then ran the whole suite aga│                            │
 Edited summary.md and then ran the whole suite aga│                            │
-Edited summary.md and then ran the whole suite aga└────────────────────────────┘
+Edited summary.md and then ran the whole suite aga╰────────────────────────────╯
 
 == no-color · 120x12
-Edited summary.md and then ran the whole suite again for good measure                     ┌────────────────────────────┐
+Edited summary.md and then ran the whole suite again for good measure                     ╭────────────────────────────╮
 Edited summary.md and then ran the whole suite again for good measure                     │                            │
 Edited summary.md and then ran the whole suite again for good measure                     │ Agents           2 running │
 Edited summary.md and then ran the whole suite again for good measure                     │                            │
@@ -243,7 +243,7 @@ Edited summary.md and then ran the whole suite again for good measure           
 Edited summary.md and then ran the whole suite again for good measure                     │                            │
 Edited summary.md and then ran the whole suite again for good measure                     │                            │
 Edited summary.md and then ran the whole suite again for good measure                     │                            │
-Edited summary.md and then ran the whole suite again for good measure                     └────────────────────────────┘
+Edited summary.md and then ran the whole suite again for good measure                     ╰────────────────────────────╯
 
 == ascii · 40x12
 Edited sum+----------------------------+

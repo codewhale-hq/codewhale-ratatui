@@ -101,11 +101,11 @@ fn compact_response_wins_over_scenery_and_long_output_reaches_the_end() {
         view.render(area, buf, &mut state);
     });
     assert!(text(&buf).contains("Response row 70001"));
-    assert!(
-        PetModeAreas::new(Rect::new(0, 0, 40, 10), false, true, false)
-            .pet
-            .is_empty()
-    );
+    for (width, height) in [(40, 10), (80, 24), (15, 40)] {
+        let plan = PetModeAreas::new(Rect::new(0, 0, width, height), false, true, false);
+        assert!(plan.pet.is_empty());
+        assert_eq!(plan.output.height, height - 4);
+    }
     for height in 0..=4 {
         let plan = PetModeAreas::new(Rect::new(0, 0, 40, height), false, false, false);
         assert!(plan.header.bottom() <= plan.footer.y);

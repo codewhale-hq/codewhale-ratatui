@@ -1,5 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="864" height="512" viewBox="0 0 864 512" role="img" aria-labelledby="title desc"><title id="title">Codewhale water and ombres — Truecolor / Paper · page 6/10</title><desc id="desc">The current TUI ocean, plus optional Lagoon, Dusk, Coral and Graphite treatments. Actual ratatui buffer renders: ocean-column</desc><rect width="100%" height="100%" fill="#faf8f5" /><text x="32" y="48" fill="#14213a" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="600">Codewhale water and ombres</text><text x="832" y="72" fill="#5b6780" font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" text-anchor="end">Truecolor / Paper · page 6/10</text><path d="M32 80H832" stroke="#a9b8cf" stroke-width="1" /><g data-entry="ocean-column"><text x="32" y="113" fill="#14213a" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">Ocean column</text><svg width="800" height="320" viewBox="0 0 800 320" role="img" x="32" y="136"><title>Ratatui buffer, 80 columns by 16 rows</title><rect width="100%" height="100%" fill="#faf8f5" />
+<rect x="0" y="0" width="800" height="20" fill="#fbfafa" />
+<rect x="0" y="20" width="800" height="20" fill="#fbfafa" />
+<rect x="0" y="40" width="800" height="20" fill="#fbf9f8" />
+<rect x="0" y="60" width="800" height="20" fill="#faf8f8" />
+<rect x="0" y="80" width="800" height="20" fill="#f9f8f7" />
+<rect x="0" y="100" width="800" height="20" fill="#f9f7f6" />
+<rect x="0" y="120" width="800" height="20" fill="#f8f7f5" />
+<rect x="0" y="140" width="800" height="20" fill="#f8f6f5" />
+<rect x="0" y="160" width="800" height="20" fill="#f7f5f3" />
+<rect x="0" y="180" width="800" height="20" fill="#f6f4f3" />
 <rect x="0" y="200" width="800" height="20" fill="#dfdcd6" />
+<rect x="0" y="220" width="800" height="20" fill="#f5f2f0" />
 <rect x="0" y="240" width="800" height="20" fill="#ffffff" />
 <rect x="0" y="260" width="800" height="20" fill="#ffffff" />
 <rect x="0" y="280" width="800" height="20" fill="#ffffff" />

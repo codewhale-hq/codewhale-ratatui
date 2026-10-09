@@ -1563,12 +1563,12 @@ r37 c90..112 fg=Foreground bg=Sidebar
   ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
   ▏ workspace when the job needs it.                                       │
                                                                            │
-  ┌─────────────────────────────────────────────────────────────────────┐  │
+  ╭─────────────────────────────────────────────────────────────────────╮  │
   │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
   │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
   │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
   │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
-  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+  ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
     Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
@@ -1944,12 +1944,12 @@ r37 c90..112 fg=Foreground bg=Sidebar
   ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
   ▏ workspace when the job needs it.                                       │
                                                                            │
-  ┌─────────────────────────────────────────────────────────────────────┐  │
+  ╭─────────────────────────────────────────────────────────────────────╮  │
   │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
   │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
   │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
   │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
-  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+  ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
     Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
@@ -2114,12 +2114,12 @@ r37 c2..90 dim
   ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
   ▏ workspace when the job needs it.                                       │
                                                                            │
-  ┌─────────────────────────────────────────────────────────────────────┐  │
+  ╭─────────────────────────────────────────────────────────────────────╮  │
   │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
   │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
   │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
   │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
-  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+  ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
     Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
@@ -2284,12 +2284,12 @@ r37 c2..90 dim
   ▏ You can open a result, inspect a command, or compose a denser          │    ✓ Done · Run · Time 12 s · lo…
   ▏ workspace when the job needs it.                                       │
                                                                            │
-  ┌─────────────────────────────────────────────────────────────────────┐  │
+  ╭─────────────────────────────────────────────────────────────────────╮  │
   │ ✓ Inspect  Done  12s                                                │  │  ▸ ◆ Needs you
   │ workspace layout and rendered cells                                 │  │  ▏ Terminal / Review
   │ ▏ Wide: conversation + files                                        │  │  ▏ Choose which preview to
   │ 2 output lines not fully shown                                      │  │  ▏ inspect first.
-  └─────────────────────────────────────────────────────────────────────┘  │  ▏ Open visual review
+  ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
     Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │

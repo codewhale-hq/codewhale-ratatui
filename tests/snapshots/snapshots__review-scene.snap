@@ -9,7 +9,7 @@ expression: dump(&entry)
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -26,7 +26,7 @@ expression: dump(&entry)
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -406,7 +406,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -423,7 +423,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -803,7 +803,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -820,7 +820,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -1200,7 +1200,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -1217,7 +1217,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -1585,7 +1585,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -1602,7 +1602,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -1970,7 +1970,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -1987,7 +1987,7 @@ r37 c44..112 fg=Foreground bg=Sidebar
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -2163,7 +2163,7 @@ r37 c2..44 dim
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -2180,7 +2180,7 @@ r37 c2..44 dim
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review
@@ -2356,7 +2356,7 @@ r37 c2..44 dim
   A workspace that adapts                                         +5 / -1  │  A decision, in context
   ───────────────────────────────────────────────────────────────────────  │  ────────────────────────────────
                                                                            │
-  --- a/workspace.rs                                                       │  ┌──────────────────────────────┐
+  --- a/workspace.rs                                                       │  ╭──────────────────────────────╮
   +++ b/workspace.rs                                                       │  │                              │
   @@ -18,3 +18,7 @@                                                        │  │ ◆ Needs you · Run a command  │
   18 18   fn draw_workspace(area: Rect) {                                  │  │                              │
@@ -2373,7 +2373,7 @@ r37 c2..44 dim
   Run results                                                              │  │ ←→ move · Enter choose       │
                                                                            │  │ Esc cancel                   │
                                                                            │  │                              │
-    Reported work         Outcome  Time  Tokens     Cost                   │  └──────────────────────────────┘
+    Reported work         Outcome  Time  Tokens     Cost                   │  ╰──────────────────────────────╯
   ✓ Inspect files         Done     12 s    1.2k    $0.02                   │
   ✓ Render previews       Done      4 s       —     —                      │
   ● Review narrow layout  Working  38 s    4.8k    $0.12                   │  ✓ Allowed · Layout review

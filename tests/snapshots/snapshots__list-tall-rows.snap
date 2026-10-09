@@ -8,7 +8,7 @@ expression: dump(&entry)
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c0..2 bg=Background
 r0 c2..11 fg=Foreground bg=Background
@@ -42,7 +42,7 @@ r4 c63..64 fg=Foreground bg=Background
 r5 c0..2 bg=Background
 r5 c2..38 fg=Muted bg=Background
 r5 c38..63 bg=Background
-r5 c63..64 fg=Foreground bg=Background
+r5 c63..64 fg=Border bg=Background
 
 == dark-graphite
   Approvals             Ask                                    █
@@ -50,7 +50,7 @@ r5 c63..64 fg=Foreground bg=Background
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c0..2 bg=Background
 r0 c2..11 fg=Foreground bg=Background
@@ -84,7 +84,7 @@ r4 c63..64 fg=Foreground bg=Background
 r5 c0..2 bg=Background
 r5 c2..38 fg=Muted bg=Background
 r5 c38..63 bg=Background
-r5 c63..64 fg=Foreground bg=Background
+r5 c63..64 fg=Border bg=Background
 
 == light-truecolor
   Approvals             Ask                                    █
@@ -92,7 +92,7 @@ r5 c63..64 fg=Foreground bg=Background
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c0..2 bg=Background
 r0 c2..11 fg=Foreground bg=Background
@@ -126,7 +126,7 @@ r4 c63..64 fg=Foreground bg=Background
 r5 c0..2 bg=Background
 r5 c2..38 fg=Muted bg=Background
 r5 c38..63 bg=Background
-r5 c63..64 fg=Foreground bg=Background
+r5 c63..64 fg=Border bg=Background
 
 == dark-256
   Approvals             Ask                                    █
@@ -134,7 +134,7 @@ r5 c63..64 fg=Foreground bg=Background
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c0..2 bg=Background
 r0 c2..11 fg=Foreground bg=Background
@@ -168,7 +168,7 @@ r4 c63..64 fg=Foreground bg=Background
 r5 c0..2 bg=Background
 r5 c2..38 fg=Muted bg=Background
 r5 c38..63 bg=Background
-r5 c63..64 fg=Foreground bg=Background
+r5 c63..64 fg=Border bg=Background
 
 == light-256
   Approvals             Ask                                    █
@@ -176,7 +176,7 @@ r5 c63..64 fg=Foreground bg=Background
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c0..2 bg=Background|Surface
 r0 c2..11 fg=Foreground bg=Background|Surface
@@ -210,7 +210,7 @@ r4 c63..64 fg=Foreground bg=Background|Surface
 r5 c0..2 bg=Background|Surface
 r5 c2..38 fg=Muted bg=Background|Surface
 r5 c38..63 bg=Background|Surface
-r5 c63..64 fg=Foreground bg=Background|Surface
+r5 c63..64 fg=Border bg=Background|Surface
 
 == ansi-16
   Approvals             Ask                                    █
@@ -218,7 +218,7 @@ r5 c63..64 fg=Foreground bg=Background|Surface
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c24..27 dim
 r1 c2..46 dim
@@ -228,6 +228,7 @@ r2 c24..33 dim
 r3 c2..28 dim
 r4 c24..27 dim
 r5 c2..38 dim
+r5 c63..64 dim
 
 == unknown-ground
   Approvals             Ask                                    █
@@ -235,7 +236,7 @@ r5 c2..38 dim
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c24..27 dim
 r1 c2..46 dim
@@ -245,6 +246,7 @@ r2 c24..33 dim
 r3 c2..28 dim
 r4 c24..27 dim
 r5 c2..38 dim
+r5 c63..64 dim
 
 == no-color
   Approvals             Ask                                    █
@@ -252,7 +254,7 @@ r5 c2..38 dim
 ▸ Sandbox               Workspace                              █
   Where files can be written                                   █
   Network               Off                                    █
-  Whether tools can reach the internet                         █
+  Whether tools can reach the internet                         │
 ---
 r0 c24..27 dim
 r1 c2..46 dim
@@ -261,6 +263,7 @@ r2 c24..33 dim
 r3 c2..28 dim
 r4 c24..27 dim
 r5 c2..38 dim
+r5 c63..64 dim
 
 == ascii
   Approvals             Ask                                    #
@@ -268,7 +271,7 @@ r5 c2..38 dim
 > Sandbox               Workspace                              #
   Where files can be written                                   #
   Network               Off                                    #
-  Whether tools can reach the internet                         #
+  Whether tools can reach the internet                         |
 ---
 r0 c24..27 dim
 r1 c2..46 dim
@@ -277,3 +280,4 @@ r2 c24..33 dim
 r3 c2..28 dim
 r4 c24..27 dim
 r5 c2..38 dim
+r5 c63..64 dim

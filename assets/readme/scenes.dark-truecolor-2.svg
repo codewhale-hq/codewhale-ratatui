@@ -411,7 +411,7 @@
 <text x="180" y="135" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
 <text x="190" y="135" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
 <text x="750" y="135" fill="#1e3a70" textLength="10" lengthAdjust="spacingAndGlyphs">│</text>
-<text x="780" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">┌</text>
+<text x="780" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">╭</text>
 <text x="790" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="800" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="810" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
@@ -442,7 +442,7 @@
 <text x="1060" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="1070" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="1080" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
-<text x="1090" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">┐</text>
+<text x="1090" y="135" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">╮</text>
 <text x="20" y="155" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">+</text>
 <text x="30" y="155" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">+</text>
 <text x="40" y="155" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs" font-weight="700">+</text>
@@ -953,7 +953,7 @@
 <text x="540" y="475" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
 <text x="550" y="475" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
 <text x="750" y="475" fill="#1e3a70" textLength="10" lengthAdjust="spacingAndGlyphs">│</text>
-<text x="780" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">└</text>
+<text x="780" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">╰</text>
 <text x="790" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="800" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="810" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
@@ -984,7 +984,7 @@
 <text x="1060" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="1070" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
 <text x="1080" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">─</text>
-<text x="1090" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">┘</text>
+<text x="1090" y="475" fill="#90b9ff" textLength="10" lengthAdjust="spacingAndGlyphs">╯</text>
 <text x="20" y="495" fill="#9ec7b2" textLength="10" lengthAdjust="spacingAndGlyphs">✓</text>
 <text x="40" y="495" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">I</text>
 <text x="50" y="495" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>

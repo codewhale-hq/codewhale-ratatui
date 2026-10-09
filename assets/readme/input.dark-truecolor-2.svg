@@ -417,7 +417,7 @@
 <text x="350" y="115" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
 <text x="360" y="115" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
 <text x="370" y="115" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">t</text>
-<text x="630" y="115" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">█</text>
+<text x="630" y="115" fill="#1e3a70" textLength="10" lengthAdjust="spacingAndGlyphs">│</text>
 </g></svg></g><g data-entry="list-long"><text x="32" y="1065" fill="#f6f2e8" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">List long</text><svg width="400" height="80" viewBox="0 0 400 80" role="img" x="32" y="1088"><title>Ratatui buffer, 40 columns by 4 rows</title><rect width="100%" height="100%" fill="#0a1f47" />
 <rect x="0" y="20" width="400" height="20" fill="#1b376b" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">

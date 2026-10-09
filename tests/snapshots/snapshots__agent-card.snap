@@ -143,14 +143,14 @@ r6 c0..64 bg=Surface|Hover
 r7 c0..64 bg=Surface|Hover
 
 == light-256
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ◆ Terminal review  Needs you  48s                            │
 │ Reviewer / Local / caller-selected model                     │
 │ ▏ Choose translated state words.                             │
 │ ▏ Keep the preview aligned with the host's locale.           │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 fg=Border bg=Background|Surface
 r1 c0..1 fg=Border bg=Background|Surface
@@ -190,14 +190,14 @@ r6 c63..64 fg=Border bg=Background|Surface
 r7 c0..64 fg=Border bg=Background|Surface
 
 == ansi-16
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ◆ Terminal review  Needs you  48s                            │
 │ Reviewer / Local / caller-selected model                     │
 │ ▏ Choose translated state words.                             │
 │ ▏ Keep the preview aligned with the host's locale.           │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim
@@ -222,14 +222,14 @@ r6 c63..64 dim
 r7 c0..64 dim
 
 == unknown-ground
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ◆ Terminal review  Needs you  48s                            │
 │ Reviewer / Local / caller-selected model                     │
 │ ▏ Choose translated state words.                             │
 │ ▏ Keep the preview aligned with the host's locale.           │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim
@@ -254,14 +254,14 @@ r6 c63..64 dim
 r7 c0..64 dim
 
 == no-color
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ◆ Terminal review  Needs you  48s                            │
 │ Reviewer / Local / caller-selected model                     │
 │ ▏ Choose translated state words.                             │
 │ ▏ Keep the preview aligned with the host's locale.           │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim

@@ -68,7 +68,7 @@ impl PetModeAreas {
         } else {
             body
         };
-        if output && main.height >= 8 {
+        if output && main.height >= 27 && main.width >= 16 {
             // Reading has priority over scenery, including at 80x24.
             let height = (u32::from(main.height) * 2 / 3).max(6) as u16;
             plan.output = Rect::new(main.x, main.bottom() - height, main.width, height);
@@ -155,7 +155,8 @@ impl PetModeState {
         if !self.visible || !self.motion.animates() {
             return None;
         }
-        let pet = (!self.areas.pet.is_empty() && self.stage_animates)
+        let art = WhalePet::art_area(self.areas.pet);
+        let pet = (!theme.ascii() && art.width >= 16 && art.height >= 8 && self.stage_animates)
             .then(|| {
                 self.stage.cadence(if theme.paints_grounds() {
                     Tier::Hero

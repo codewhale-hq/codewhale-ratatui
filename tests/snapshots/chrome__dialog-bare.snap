@@ -4,11 +4,11 @@ expression: "testing :: snapshot(8, dialog_bare)"
 ---
 == dark-truecolor · 40x8
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│ A dialog with no title and no    │le
 Ed│ hints.                           │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 Edited summary.md and then ran the whole
 ---
@@ -45,11 +45,11 @@ r7 c0..40 fg=Muted bg=Background
 
 == dark-truecolor · 80x8
 Edited summary.md and then ran the whole suite again for good measure
-Edited sum┌──────────────────────────────────────────────────────────┐
+Edited sum╭──────────────────────────────────────────────────────────╮
 Edited sum│ A dialog with no title and no hints.                     │
 Edited sum│                                                          │
 Edited sum│                                                          │
-Edited sum└──────────────────────────────────────────────────────────┘
+Edited sum╰──────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 ---
@@ -89,11 +89,11 @@ r7 c69..80 bg=Background
 
 == dark-truecolor · 120x8
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran┌──────────────────────────────────────────────────────────┐
+Edited summary.md and then ran╭──────────────────────────────────────────────────────────╮
 Edited summary.md and then ran│ A dialog with no title and no hints.                     │
 Edited summary.md and then ran│                                                          │
 Edited summary.md and then ran│                                                          │
-Edited summary.md and then ran└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran╰──────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 ---
@@ -133,31 +133,31 @@ r7 c69..120 bg=Background
 
 == no-color · 40x8
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│ A dialog with no title and no    │le
 Ed│ hints.                           │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 Edited summary.md and then ran the whole
 
 == no-color · 80x8
 Edited summary.md and then ran the whole suite again for good measure
-Edited sum┌──────────────────────────────────────────────────────────┐
+Edited sum╭──────────────────────────────────────────────────────────╮
 Edited sum│ A dialog with no title and no hints.                     │
 Edited sum│                                                          │
 Edited sum│                                                          │
-Edited sum└──────────────────────────────────────────────────────────┘
+Edited sum╰──────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 
 == no-color · 120x8
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran┌──────────────────────────────────────────────────────────┐
+Edited summary.md and then ran╭──────────────────────────────────────────────────────────╮
 Edited summary.md and then ran│ A dialog with no title and no hints.                     │
 Edited summary.md and then ran│                                                          │
 Edited summary.md and then ran│                                                          │
-Edited summary.md and then ran└──────────────────────────────────────────────────────────┘
+Edited summary.md and then ran╰──────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 

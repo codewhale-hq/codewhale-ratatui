@@ -172,6 +172,9 @@
 <text x="620" y="135" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">m</text>
 <text x="630" y="135" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
 </g></svg></g><g data-entry="tabs"><text x="32" y="469" fill="#f6f2e8" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">Tabs</text><svg width="560" height="140" viewBox="0 0 560 140" role="img" x="32" y="492"><title>Ratatui buffer, 56 columns by 7 rows</title><rect width="100%" height="100%" fill="#0a1f47" />
+<rect x="210" y="0" width="100" height="20" fill="#1b376b" />
+<rect x="90" y="60" width="90" height="20" fill="#1b376b" />
+<rect x="90" y="120" width="120" height="20" fill="#1b376b" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
 <text x="10" y="15" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">G</text>
 <text x="20" y="15" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
@@ -384,6 +387,10 @@
 <text x="460" y="75" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">O</text>
 <text x="470" y="75" fill="#efeeeb" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
 </g></svg></g><g data-entry="segmented"><text x="536" y="697" fill="#f6f2e8" font-family="'Shannon Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" font-weight="600">Segmented</text><svg width="400" height="100" viewBox="0 0 400 100" role="img" x="536" y="720"><title>Ratatui buffer, 40 columns by 5 rows</title><rect width="100%" height="100%" fill="#0a1f47" />
+<rect x="70" y="0" width="90" height="20" fill="#1b376b" />
+<rect x="0" y="20" width="70" height="20" fill="#1b376b" />
+<rect x="170" y="40" width="70" height="20" fill="#1b376b" />
+<rect x="0" y="80" width="70" height="20" fill="#1b376b" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
 <text x="10" y="15" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">F</text>
 <text x="20" y="15" fill="#c2c1bd" textLength="10" lengthAdjust="spacingAndGlyphs">u</text>

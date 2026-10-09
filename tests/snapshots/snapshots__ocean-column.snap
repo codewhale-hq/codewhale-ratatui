@@ -74,31 +74,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=Background bold
-r0 c24..63 bg=Background
-r0 c63..80 fg=Muted bg=Background
-r1 c0..80 bg=Background
-r2 c0..1 fg=Primary bg=Background
-r2 c1..2 bg=Background
-r2 c2..5 fg=Primary bg=Background bold
-r2 c5..80 bg=Background
-r3 c0..2 fg=Border bg=Background
-r3 c2..39 fg=Foreground bg=Background
-r3 c39..80 bg=Background
-r4 c0..80 bg=Background
-r5 c0..80 bg=Background
-r6 c0..1 fg=Foreground bg=Background
-r6 c1..2 bg=Background
-r6 c2..11 fg=Foreground bg=Background bold
-r6 c11..80 bg=Background
-r7 c0..2 fg=Border bg=Background
-r7 c2..48 fg=Foreground bg=Background
-r7 c48..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
+r0 c0..24 fg=Foreground bg=#26272a bold
+r0 c24..63 bg=#26272a
+r0 c63..80 fg=Muted bg=#26272a
+r1 c0..80 bg=#26282a
+r2 c0..1 fg=Primary bg=#242628
+r2 c1..2 bg=#242628
+r2 c2..5 fg=Primary bg=#242628 bold
+r2 c5..80 bg=#242628
+r3 c0..2 fg=Border bg=#242628
+r3 c2..39 fg=Foreground bg=#242628
+r3 c39..80 bg=#242628
+r4 c0..80 bg=#242527
+r5 c0..80 bg=#232426
+r6 c0..1 fg=Foreground bg=#232426
+r6 c1..2 bg=#232426
+r6 c2..11 fg=Foreground bg=#232426 bold
+r6 c11..80 bg=#232426
+r7 c0..2 fg=Border bg=#222325
+r7 c2..48 fg=Foreground bg=#222325
+r7 c48..80 bg=#222325
+r8 c0..80 bg=#212225
+r9 c0..80 bg=#202124
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=Background
+r11 c0..80 bg=#1f2023
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -128,31 +128,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=Background bold
-r0 c24..63 bg=Background
-r0 c63..80 fg=Muted bg=Background
-r1 c0..80 bg=Background
-r2 c0..1 fg=Primary bg=Background
-r2 c1..2 bg=Background
-r2 c2..5 fg=Primary bg=Background bold
-r2 c5..80 bg=Background
-r3 c0..2 fg=Border bg=Background
-r3 c2..39 fg=Foreground bg=Background
-r3 c39..80 bg=Background
-r4 c0..80 bg=Background
-r5 c0..80 bg=Background
-r6 c0..1 fg=Foreground bg=Background
-r6 c1..2 bg=Background
-r6 c2..11 fg=Foreground bg=Background bold
-r6 c11..80 bg=Background
-r7 c0..2 fg=Border bg=Background
-r7 c2..48 fg=Foreground bg=Background
-r7 c48..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
+r0 c0..24 fg=Foreground bg=#fbfafa bold
+r0 c24..63 bg=#fbfafa
+r0 c63..80 fg=Muted bg=#fbfafa
+r1 c0..80 bg=#fbfafa
+r2 c0..1 fg=Primary bg=#fbf9f8
+r2 c1..2 bg=#fbf9f8
+r2 c2..5 fg=Primary bg=#fbf9f8 bold
+r2 c5..80 bg=#fbf9f8
+r3 c0..2 fg=Border bg=#faf8f8
+r3 c2..39 fg=Foreground bg=#faf8f8
+r3 c39..80 bg=#faf8f8
+r4 c0..80 bg=#f9f8f7
+r5 c0..80 bg=#f9f7f6
+r6 c0..1 fg=Foreground bg=#f8f7f5
+r6 c1..2 bg=#f8f7f5
+r6 c2..11 fg=Foreground bg=#f8f7f5 bold
+r6 c11..80 bg=#f8f7f5
+r7 c0..2 fg=Border bg=#f8f6f5
+r7 c2..48 fg=Foreground bg=#f8f6f5
+r7 c48..80 bg=#f8f6f5
+r8 c0..80 bg=#f7f5f3
+r9 c0..80 bg=#f6f4f3
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=Background
+r11 c0..80 bg=#f5f2f0
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -231,10 +231,10 @@ Codewhale / native ocean                                       Working / fixture
 
 Selected / src/ocean.rs
 
-┌──────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────╮
 │ Semantic surface / own ground                                                │
 │ ● Working                                                                    │
-└──────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..24 fg=Foreground bg=Background|Surface bold
 r0 c24..63 bg=Background|Surface
@@ -289,10 +289,10 @@ Codewhale / native ocean                                       Working / fixture
 
 Selected / src/ocean.rs
 
-┌──────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────╮
 │ Semantic surface / own ground                                                │
 │ ● Working                                                                    │
-└──────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..24 bold
 r0 c63..80 dim
@@ -324,10 +324,10 @@ Codewhale / native ocean                                       Working / fixture
 
 Selected / src/ocean.rs
 
-┌──────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────╮
 │ Semantic surface / own ground                                                │
 │ ● Working                                                                    │
-└──────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..24 bold
 r0 c63..80 dim
@@ -359,10 +359,10 @@ Codewhale / native ocean                                       Working / fixture
 
 Selected / src/ocean.rs
 
-┌──────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────╮
 │ Semantic surface / own ground                                                │
 │ ● Working                                                                    │
-└──────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..24 bold
 r0 c63..80 dim

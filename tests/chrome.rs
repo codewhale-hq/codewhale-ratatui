@@ -254,7 +254,7 @@ fn a_dialog_keeps_its_edge_where_grounds_collapse() {
         let (tl, tr, bl, br, h, v) = if theme.ascii() {
             ("+", "+", "+", "+", "-", "|")
         } else {
-            ("┌", "┐", "└", "┘", "─", "│")
+            ("╭", "╮", "╰", "╯", "─", "│")
         };
         let sym = |x: u16, y: u16| buf[(x, y)].symbol().to_string();
         let (left, right, top, bottom) = (rect.x, rect.right() - 1, rect.y, rect.bottom() - 1);
@@ -374,7 +374,7 @@ fn a_sheet_is_always_distinguishable_from_the_work_behind_it() {
             let sheet = Sheet::new().title("Settings").size(6);
             let rect = sheet.rect(area);
             sheet.draw(area, &mut buf, &theme);
-            let edged = ["┌", "+"].contains(&buf[(rect.x, rect.y)].symbol());
+            let edged = ["╭", "+"].contains(&buf[(rect.x, rect.y)].symbol());
             let grounded = theme.grounds_differ(Role::Surface, Role::Background);
             assert!(
                 edged || grounded,
@@ -400,6 +400,22 @@ fn panel_body_is_what_draw_returns() {
                     .hints(&hints);
                 let mut buf = Buffer::empty(Rect::new(0, 0, 70, 30));
                 assert_eq!(panel.body(area, &theme), panel.draw(area, &mut buf, &theme));
+                let body = panel.body(area, &theme);
+                let focused = panel.focused(true);
+                assert_eq!(body, focused.draw(area, &mut buf, &theme));
+                if w >= 8
+                    && h > 0
+                    && (matches!(depth, Depth::Deep | Depth::Stage)
+                        || (depth == Depth::Raised
+                            && theme.grounds_differ(Role::Surface, Role::Background)))
+                {
+                    assert_eq!(
+                        buf[(area.x, area.y)].symbol(),
+                        if theme.ascii() { "|" } else { "▏" },
+                        "{} {depth:?}",
+                        profile.name()
+                    );
+                }
             }
         }
     }
@@ -773,6 +789,10 @@ fn segmented_shows_a_bracketed_selection_or_the_compact_form() {
         };
         assert_eq!(at(40), " Full  [Reduced]  Still", "{}", profile.name());
         assert_eq!(at(20), "Reduced (2 of 3)", "{}", profile.name());
+        let selected = testing::render(40, 1, |area, buf| control.paint(area, buf, &theme));
+        if let Some(ground) = theme.bg(Role::Selected).bg {
+            assert_eq!(selected[(8, 0)].bg, ground);
+        }
     }
 }
 

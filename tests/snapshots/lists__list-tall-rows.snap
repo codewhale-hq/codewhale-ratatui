@@ -8,7 +8,7 @@ expression: "testing::snapshot(6, paint_list_tall)"
   row 2                                █
     and more                           █
 ▸ row 3                                █
-    and more                           █
+    and more                           │
 ---
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
@@ -36,7 +36,7 @@ r5 c0..2 bg=Selected
 r5 c2..12 fg=Foreground bg=Selected bold
 r5 c12..38 bg=Selected
 r5 c38..39 bg=Background
-r5 c39..40 fg=Foreground bg=Background
+r5 c39..40 fg=Border bg=Background
 
 == dark-truecolor · 80x6
   row 1                                                                        │
@@ -44,7 +44,7 @@ r5 c39..40 fg=Foreground bg=Background
   row 2                                                                        █
     and more                                                                   █
 ▸ row 3                                                                        █
-    and more                                                                   █
+    and more                                                                   │
 ---
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
@@ -72,7 +72,7 @@ r5 c0..2 bg=Selected
 r5 c2..12 fg=Foreground bg=Selected bold
 r5 c12..78 bg=Selected
 r5 c78..79 bg=Background
-r5 c79..80 fg=Foreground bg=Background
+r5 c79..80 fg=Border bg=Background
 
 == dark-truecolor · 120x6
   row 1                                                                                                                │
@@ -80,7 +80,7 @@ r5 c79..80 fg=Foreground bg=Background
   row 2                                                                                                                █
     and more                                                                                                           █
 ▸ row 3                                                                                                                █
-    and more                                                                                                           █
+    and more                                                                                                           │
 ---
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
@@ -108,7 +108,7 @@ r5 c0..2 bg=Selected
 r5 c2..12 fg=Foreground bg=Selected bold
 r5 c12..118 bg=Selected
 r5 c118..119 bg=Background
-r5 c119..120 fg=Foreground bg=Background
+r5 c119..120 fg=Border bg=Background
 
 == no-color · 40x6
   row 1                                │
@@ -116,7 +116,7 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                █
     and more                           █
 ▸ row 3                                █
-    and more                           █
+    and more                           │
 
 == no-color · 80x6
   row 1                                                                        │
@@ -124,7 +124,7 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                                                        █
     and more                                                                   █
 ▸ row 3                                                                        █
-    and more                                                                   █
+    and more                                                                   │
 
 == no-color · 120x6
   row 1                                                                                                                │
@@ -132,7 +132,7 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                                                                                                █
     and more                                                                                                           █
 ▸ row 3                                                                                                                █
-    and more                                                                                                           █
+    and more                                                                                                           │
 
 == ascii · 40x6
   row 1                                |
@@ -140,7 +140,7 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                #
     and more                           #
 > row 3                                #
-    and more                           #
+    and more                           |
 
 == ascii · 80x6
   row 1                                                                        |
@@ -148,7 +148,7 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                                                        #
     and more                                                                   #
 > row 3                                                                        #
-    and more                                                                   #
+    and more                                                                   |
 
 == ascii · 120x6
   row 1                                                                                                                |
@@ -156,4 +156,4 @@ r5 c119..120 fg=Foreground bg=Background
   row 2                                                                                                                #
     and more                                                                                                           #
 > row 3                                                                                                                #
-    and more                                                                                                           #
+    and more                                                                                                           |

@@ -87,46 +87,46 @@ Done / static completion
 
 
 ---
-r0 c0..21 fg=Foreground bg=Background bold
-r0 c21..80 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..9 fg=Foreground bg=Background
-r1 c9..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..23 fg=Foreground bg=Background bold
-r4 c23..80 bg=Background
-r5 c0..1 fg=Live bg=Background
-r5 c1..2 bg=Background
-r5 c2..9 fg=Foreground bg=Background
-r5 c9..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..28 fg=Foreground bg=Background bold
-r8 c28..80 bg=Background
-r9 c0..1 fg=Attention bg=Background
-r9 c1..2 bg=Background
-r9 c2..11 fg=Foreground bg=Background
-r9 c11..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
-r12 c0..20 fg=Foreground bg=Background bold
-r12 c20..80 bg=Background
-r13 c0..1 fg=Danger bg=Background
-r13 c1..2 bg=Background
-r13 c2..8 fg=Foreground bg=Background
-r13 c8..80 bg=Background
-r14 c0..80 bg=Background
-r15 c0..80 bg=Background
-r16 c0..24 fg=Foreground bg=Background bold
-r16 c24..80 bg=Background
-r17 c0..1 fg=Live bg=Background
-r17 c1..2 bg=Background
-r17 c2..6 fg=Foreground bg=Background
-r17 c6..80 bg=Background
-r18 c0..80 bg=Background
-r19 c0..80 bg=Background
+r0 c0..21 fg=Foreground bg=#262729 bold
+r0 c21..80 bg=#262729
+r1 c0..1 fg=Live bg=#262729
+r1 c1..2 bg=#262729
+r1 c2..9 fg=Foreground bg=#262729
+r1 c9..80 bg=#262729
+r2 c0..80 bg=#242527
+r3 c0..80 bg=#242527
+r4 c0..23 fg=Foreground bg=#242527 bold
+r4 c23..80 bg=#242527
+r5 c0..1 fg=Live bg=#232426
+r5 c1..2 bg=#232426
+r5 c2..9 fg=Foreground bg=#232426
+r5 c9..80 bg=#232426
+r6 c0..80 bg=#222325
+r7 c0..80 bg=#222325
+r8 c0..28 fg=Foreground bg=#322e2b bold
+r8 c28..80 bg=#322e2b
+r9 c0..1 fg=Attention bg=#312e2b
+r9 c1..2 bg=#312e2b
+r9 c2..11 fg=Foreground bg=#312e2b
+r9 c11..80 bg=#312e2b
+r10 c0..80 bg=#302c2a
+r11 c0..80 bg=#2f2c29
+r12 c0..20 fg=Foreground bg=#312b2c bold
+r12 c20..80 bg=#312b2c
+r13 c0..1 fg=Danger bg=#312b2c
+r13 c1..2 bg=#312b2c
+r13 c2..8 fg=Foreground bg=#312b2c
+r13 c8..80 bg=#312b2c
+r14 c0..80 bg=#302a2b
+r15 c0..80 bg=#2f292a
+r16 c0..24 fg=Foreground bg=#1d1e20 bold
+r16 c24..80 bg=#1d1e20
+r17 c0..1 fg=Live bg=#1d1e20
+r17 c1..2 bg=#1d1e20
+r17 c2..6 fg=Foreground bg=#1d1e20
+r17 c6..80 bg=#1d1e20
+r18 c0..80 bg=#1b1c1e
+r19 c0..80 bg=#1b1c1e
 
 == light-truecolor
 Working / quiet light
@@ -150,46 +150,46 @@ Done / static completion
 
 
 ---
-r0 c0..21 fg=Foreground bg=Background bold
-r0 c21..80 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..9 fg=Foreground bg=Background
-r1 c9..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..23 fg=Foreground bg=Background bold
-r4 c23..80 bg=Background
-r5 c0..1 fg=Live bg=Background
-r5 c1..2 bg=Background
-r5 c2..9 fg=Foreground bg=Background
-r5 c9..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..28 fg=Foreground bg=Background bold
-r8 c28..80 bg=Background
-r9 c0..1 fg=Attention bg=Background
-r9 c1..2 bg=Background
-r9 c2..11 fg=Foreground bg=Background
-r9 c11..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
-r12 c0..20 fg=Foreground bg=Background bold
-r12 c20..80 bg=Background
-r13 c0..1 fg=Danger bg=Background
-r13 c1..2 bg=Background
-r13 c2..8 fg=Foreground bg=Background
-r13 c8..80 bg=Background
-r14 c0..80 bg=Background
-r15 c0..80 bg=Background
-r16 c0..24 fg=Foreground bg=Background bold
-r16 c24..80 bg=Background
-r17 c0..1 fg=Live bg=Background
-r17 c1..2 bg=Background
-r17 c2..6 fg=Foreground bg=Background
-r17 c6..80 bg=Background
-r18 c0..80 bg=Background
-r19 c0..80 bg=Background
+r0 c0..21 fg=Foreground bg=#fcfbfa bold
+r0 c21..80 bg=#fcfbfa
+r1 c0..1 fg=Live bg=#fcfbfa
+r1 c1..2 bg=#fcfbfa
+r1 c2..9 fg=Foreground bg=#fcfbfa
+r1 c9..80 bg=#fcfbfa
+r2 c0..80 bg=#fcfbf8
+r3 c0..80 bg=#fcfaf8
+r4 c0..23 fg=Foreground bg=#fbf9f8 bold
+r4 c23..80 bg=#fbf9f8
+r5 c0..1 fg=Live bg=#faf9f7
+r5 c1..2 bg=#faf9f7
+r5 c2..9 fg=Foreground bg=#faf9f7
+r5 c9..80 bg=#faf9f7
+r6 c0..80 bg=#faf8f6
+r7 c0..80 bg=#faf8f6
+r8 c0..28 fg=Foreground bg=#efe9e2 bold
+r8 c28..80 bg=#efe9e2
+r9 c0..1 fg=Attention bg=#f0eae2
+r9 c1..2 bg=#f0eae2
+r9 c2..11 fg=Foreground bg=#f0eae2
+r9 c11..80 bg=#f0eae2
+r10 c0..80 bg=#efe9e1
+r11 c0..80 bg=#efe9e1
+r12 c0..20 fg=Foreground bg=#efe5e1 bold
+r12 c20..80 bg=#efe5e1
+r13 c0..1 fg=Danger bg=#efe4e1
+r13 c1..2 bg=#efe4e1
+r13 c2..8 fg=Foreground bg=#efe4e1
+r13 c8..80 bg=#efe4e1
+r14 c0..80 bg=#eee3df
+r15 c0..80 bg=#ede3df
+r16 c0..24 fg=Foreground bg=#f4f1ee bold
+r16 c24..80 bg=#f4f1ee
+r17 c0..1 fg=Live bg=#f4f1ee
+r17 c1..2 bg=#f4f1ee
+r17 c2..6 fg=Foreground bg=#f4f1ee
+r17 c6..80 bg=#f4f1ee
+r18 c0..80 bg=#f2efec
+r19 c0..80 bg=#f2efec
 
 == dark-256
 Working / quiet light

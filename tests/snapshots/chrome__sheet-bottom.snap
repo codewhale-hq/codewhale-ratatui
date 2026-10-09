@@ -171,7 +171,7 @@ r11 c35..120 bg=Surface
 Edited summary.md and then ran the whole
 Edited summary.md and then ran the whole
 Edited summary.md and then ran the whole
-┌──────────────────────────────────────┐
+╭──────────────────────────────────────╮
 │                                      │
 │ Settings                   3 changed │
 │ Theme       Shoreline                │
@@ -179,13 +179,13 @@ Edited summary.md and then ran the whole
 │ Tool detail Collapsed                │
 │ ↑↓ move · Enter change · Esc close   │
 │                                      │
-└──────────────────────────────────────┘
+╰──────────────────────────────────────╯
 
 == no-color · 80x12
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
-┌──────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────╮
 │                                                                              │
 │ Settings                                                           3 changed │
 │ Theme       Shoreline                                                        │
@@ -193,13 +193,13 @@ Edited summary.md and then ran the whole suite again for good measure
 │ Tool detail Collapsed                                                        │
 │ ↑↓ move · Enter change · Esc close                                           │
 │                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────╯
 
 == no-color · 120x12
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
-┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │                                                                                                                      │
 │ Settings                                                                                                   3 changed │
 │ Theme       Shoreline                                                                                                │
@@ -207,7 +207,7 @@ Edited summary.md and then ran the whole suite again for good measure
 │ Tool detail Collapsed                                                                                                │
 │ ↑↓ move · Enter change · Esc close                                                                                   │
 │                                                                                                                      │
-└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 == ascii · 40x12
 Edited summary.md and then ran the whole

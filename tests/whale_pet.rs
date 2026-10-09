@@ -280,7 +280,7 @@ fn mouse_hit_mapping_uses_the_actual_bounded_art_rectangle() {
         Rect::new(0, 0, 0, 0),
     ] {
         let art = WhalePet::art_area(area);
-        assert!(art.width <= 96);
+        assert!(art.width <= 160);
         assert_eq!(art.width, art.height * 2);
         assert_eq!(WhalePet::point(area, art.right(), art.bottom()), None);
         if !art.is_empty() {

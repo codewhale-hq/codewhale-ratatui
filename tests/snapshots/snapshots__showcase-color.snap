@@ -45,9 +45,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary bg=#102843
-r2 c1..6 fg=Foreground bg=#102843 bold underline
-r2 c6..7 fg=Primary bg=#102843
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..6 fg=Foreground bg=Selected bold underline
+r2 c6..7 fg=Primary bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -58,9 +58,10 @@ r2 c30..33 fg=Foreground bg=#102843
 r2 c33..41 fg=Muted bg=#102843
 r2 c41..112 fg=Foreground bg=#102843
 r3 c0..112 fg=Foreground bg=#102842
-r4 c0..1 fg=Foreground bg=#0e2841
-r4 c1..5 fg=Foreground bg=#0e2841 bold underline
-r4 c5..8 fg=Foreground bg=#0e2841
+r4 c0..1 fg=Foreground bg=Selected
+r4 c1..5 fg=Foreground bg=Selected bold underline
+r4 c5..6 fg=Foreground bg=Selected
+r4 c6..8 fg=Foreground bg=#0e2841
 r4 c8..15 fg=Muted bg=#0e2841
 r4 c15..18 fg=Foreground bg=#0e2841
 r4 c18..23 fg=Muted bg=#0e2841
@@ -71,9 +72,11 @@ r6 c36..112 fg=Foreground bg=#0e263f
 r7 c0..112 fg=Foreground bg=#0e263e
 r8 c0..1 fg=Foreground bg=#0e253d
 r8 c1..9 fg=Muted bg=#0e253d
-r8 c9..12 fg=Foreground bg=#0e253d
-r8 c12..20 fg=Foreground bg=#0e253d bold underline
-r8 c20..112 fg=Foreground bg=#0e253d
+r8 c9..11 fg=Foreground bg=#0e253d
+r8 c11..12 fg=Foreground bg=Selected
+r8 c12..20 fg=Foreground bg=Selected bold underline
+r8 c20..21 fg=Foreground bg=Selected
+r8 c21..112 fg=Foreground bg=#0e253d
 r9 c0..112 fg=Foreground bg=#0e243c
 r10 c0..112 fg=Foreground bg=#0d243b
 r11 c0..107 fg=Foreground bg=#0d233a
@@ -198,9 +201,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary bg=#102843
-r2 c1..6 fg=Foreground bg=#102843 bold underline
-r2 c6..7 fg=Primary bg=#102843
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..6 fg=Foreground bg=Selected bold underline
+r2 c6..7 fg=Primary bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -211,9 +214,10 @@ r2 c30..33 fg=Foreground bg=#102843
 r2 c33..41 fg=Muted bg=#102843
 r2 c41..112 fg=Foreground bg=#102843
 r3 c0..112 fg=Foreground bg=#102842
-r4 c0..1 fg=Foreground bg=#0e2841
-r4 c1..5 fg=Foreground bg=#0e2841 bold underline
-r4 c5..8 fg=Foreground bg=#0e2841
+r4 c0..1 fg=Foreground bg=Selected
+r4 c1..5 fg=Foreground bg=Selected bold underline
+r4 c5..6 fg=Foreground bg=Selected
+r4 c6..8 fg=Foreground bg=#0e2841
 r4 c8..15 fg=Muted bg=#0e2841
 r4 c15..18 fg=Foreground bg=#0e2841
 r4 c18..23 fg=Muted bg=#0e2841
@@ -224,9 +228,11 @@ r6 c36..112 fg=Foreground bg=#0e263f
 r7 c0..112 fg=Foreground bg=#0e263e
 r8 c0..1 fg=Foreground bg=#0e253d
 r8 c1..9 fg=Muted bg=#0e253d
-r8 c9..12 fg=Foreground bg=#0e253d
-r8 c12..20 fg=Foreground bg=#0e253d bold underline
-r8 c20..112 fg=Foreground bg=#0e253d
+r8 c9..11 fg=Foreground bg=#0e253d
+r8 c11..12 fg=Foreground bg=Selected
+r8 c12..20 fg=Foreground bg=Selected bold underline
+r8 c20..21 fg=Foreground bg=Selected
+r8 c21..112 fg=Foreground bg=#0e253d
 r9 c0..112 fg=Foreground bg=#0e243c
 r10 c0..112 fg=Foreground bg=#0d243b
 r11 c0..107 fg=Foreground bg=#0d233a
@@ -351,9 +357,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary
-r2 c1..6 fg=Foreground bold underline
-r2 c6..7 fg=Primary
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..6 fg=Foreground bg=Selected bold underline
+r2 c6..7 fg=Primary bg=Selected
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted
 r2 c15..18 fg=Foreground
@@ -364,9 +370,10 @@ r2 c30..33 fg=Foreground
 r2 c33..41 fg=Muted
 r2 c41..112 fg=Foreground
 r3 c0..112 fg=Foreground
-r4 c0..1 fg=Foreground
-r4 c1..5 fg=Foreground bold underline
-r4 c5..8 fg=Foreground
+r4 c0..1 fg=Foreground bg=Selected
+r4 c1..5 fg=Foreground bg=Selected bold underline
+r4 c5..6 fg=Foreground bg=Selected
+r4 c6..8 fg=Foreground
 r4 c8..15 fg=Muted
 r4 c15..18 fg=Foreground
 r4 c18..23 fg=Muted
@@ -377,9 +384,11 @@ r6 c36..112 fg=Foreground
 r7 c0..112 fg=Foreground
 r8 c0..1 fg=Foreground
 r8 c1..9 fg=Muted
-r8 c9..12 fg=Foreground
-r8 c12..20 fg=Foreground bold underline
-r8 c20..112 fg=Foreground
+r8 c9..11 fg=Foreground
+r8 c11..12 fg=Foreground bg=Selected
+r8 c12..20 fg=Foreground bg=Selected bold underline
+r8 c20..21 fg=Foreground bg=Selected
+r8 c21..112 fg=Foreground
 r9 c0..112 fg=Foreground
 r10 c0..112 fg=Foreground
 r11 c0..112 fg=Foreground
@@ -483,9 +492,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Background|DiffAddedTint bold
 r0 c10..112 fg=Foreground bg=Background|DiffAddedTint
 r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
-r2 c0..1 fg=Primary bg=Background|DiffAddedTint
-r2 c1..6 fg=Foreground bg=Background|DiffAddedTint bold underline
-r2 c6..7 fg=Primary bg=Background|DiffAddedTint
+r2 c0..1 fg=Primary bg=Selected
+r2 c1..6 fg=Foreground bg=Selected bold underline
+r2 c6..7 fg=Primary bg=Selected
 r2 c7..9 fg=Foreground bg=Background|DiffAddedTint
 r2 c9..15 fg=Muted bg=Background|DiffAddedTint
 r2 c15..18 fg=Foreground bg=Background|DiffAddedTint
@@ -496,9 +505,10 @@ r2 c30..33 fg=Foreground bg=Background|DiffAddedTint
 r2 c33..41 fg=Muted bg=Background|DiffAddedTint
 r2 c41..112 fg=Foreground bg=Background|DiffAddedTint
 r3 c0..112 fg=Foreground bg=Background|DiffAddedTint
-r4 c0..1 fg=Foreground bg=Background|DiffAddedTint
-r4 c1..5 fg=Foreground bg=Background|DiffAddedTint bold underline
-r4 c5..8 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..1 fg=Foreground bg=Selected
+r4 c1..5 fg=Foreground bg=Selected bold underline
+r4 c5..6 fg=Foreground bg=Selected
+r4 c6..8 fg=Foreground bg=Background|DiffAddedTint
 r4 c8..15 fg=Muted bg=Background|DiffAddedTint
 r4 c15..18 fg=Foreground bg=Background|DiffAddedTint
 r4 c18..23 fg=Muted bg=Background|DiffAddedTint
@@ -509,9 +519,11 @@ r6 c36..112 fg=Foreground bg=Background|DiffAddedTint
 r7 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r8 c0..1 fg=Foreground bg=Background|DiffAddedTint
 r8 c1..9 fg=Muted bg=Background|DiffAddedTint
-r8 c9..12 fg=Foreground bg=Background|DiffAddedTint
-r8 c12..20 fg=Foreground bg=Background|DiffAddedTint bold underline
-r8 c20..112 fg=Foreground bg=Background|DiffAddedTint
+r8 c9..11 fg=Foreground bg=Background|DiffAddedTint
+r8 c11..12 fg=Foreground bg=Selected
+r8 c12..20 fg=Foreground bg=Selected bold underline
+r8 c20..21 fg=Foreground bg=Selected
+r8 c21..112 fg=Foreground bg=Background|DiffAddedTint
 r9 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r10 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r11 c0..33 fg=Foreground bg=Background|DiffAddedTint
@@ -627,9 +639,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary
-r2 c1..6 fg=Foreground bold underline
-r2 c6..7 fg=Primary
+r2 c0..1 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c1..6 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
+r2 c6..7 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted|Hint|Dim
 r2 c15..18 fg=Foreground
@@ -640,9 +652,10 @@ r2 c30..33 fg=Foreground
 r2 c33..41 fg=Muted|Hint|Dim
 r2 c41..112 fg=Foreground
 r3 c0..112 fg=Foreground
-r4 c0..1 fg=Foreground
-r4 c1..5 fg=Foreground bold underline
-r4 c5..8 fg=Foreground
+r4 c0..1 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r4 c1..5 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
+r4 c5..6 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r4 c6..8 fg=Foreground
 r4 c8..15 fg=Muted|Hint|Dim
 r4 c15..18 fg=Foreground
 r4 c18..23 fg=Muted|Hint|Dim
@@ -653,9 +666,11 @@ r6 c36..112 fg=Foreground
 r7 c0..112 fg=Foreground
 r8 c0..1 fg=Foreground
 r8 c1..9 fg=Muted|Hint|Dim
-r8 c9..12 fg=Foreground
-r8 c12..20 fg=Foreground bold underline
-r8 c20..112 fg=Foreground
+r8 c9..11 fg=Foreground
+r8 c11..12 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c12..20 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
+r8 c20..21 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c21..112 fg=Foreground
 r9 c0..112 fg=Foreground
 r10 c0..112 fg=Foreground
 r11 c0..112 fg=Foreground

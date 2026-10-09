@@ -4,7 +4,7 @@ expression: dump(&entry)
 ---
 == dark-truecolor
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -13,7 +13,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 fg=Muted bg=Background
@@ -85,7 +85,7 @@ r11 c26..80 bg=Background
 
 == dark-graphite
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -94,7 +94,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 fg=Muted bg=Background
@@ -166,7 +166,7 @@ r11 c26..80 bg=Background
 
 == light-truecolor
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -175,7 +175,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 fg=Muted bg=Background
@@ -247,7 +247,7 @@ r11 c26..80 bg=Background
 
 == dark-256
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -256,7 +256,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 fg=Muted bg=Background
@@ -328,7 +328,7 @@ r11 c26..80 bg=Background
 
 == light-256
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -337,7 +337,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 fg=Muted bg=Background|Surface
@@ -409,7 +409,7 @@ r11 c26..80 bg=Background|Surface
 
 == ansi-16
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -418,7 +418,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 dim
@@ -441,7 +441,7 @@ r11 c0..26 dim
 
 == unknown-ground
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -450,7 +450,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 dim
@@ -473,7 +473,7 @@ r11 c0..26 dim
 
 == no-color
 Edited summary.md
-Ran cargo test: ┌──────────────────────────────────────────────┐
+Ran cargo test: ╭──────────────────────────────────────────────╮
 Read crates/tui/│                                              │
 Searched the web│ Stop the running workflow?                   │
 Edited settings.│                                              │
@@ -482,7 +482,7 @@ Ran cargo test: │ far are kept.                                │
 Read crates/tui/│                                              │
 Searched the web│ y stop · n keep running                      │
 Edited settings.│                                              │
-Edited summary.m└──────────────────────────────────────────────┘
+Edited summary.m╰──────────────────────────────────────────────╯
 Ran cargo test: 212 passed
 ---
 r0 c0..17 dim

@@ -566,6 +566,7 @@ struct Export {
     dir: PathBuf,
     profile: Profile,
     section: Option<ShowcaseSection>,
+    theme: Option<TuiPalette>,
 }
 fn options(args: &[String]) -> io::Result<Option<Export>> {
     if args.is_empty() {
@@ -574,7 +575,7 @@ fn options(args: &[String]) -> io::Result<Option<Export>> {
     let usage = || {
         io::Error::new(
             io::ErrorKind::InvalidInput,
-            "usage: showcase [--frames DIR [--profile NAME] [--section work|decisions|controls|color|life|components]]",
+            "usage: showcase [--frames DIR [--profile NAME] [--theme NAME] [--section work|decisions|controls|color|life|components]]",
         )
     };
     if args.first().map(String::as_str) != Some("--frames")
@@ -587,11 +588,20 @@ fn options(args: &[String]) -> io::Result<Option<Export>> {
         dir: PathBuf::from(&args[1]),
         profile: Profile::DarkTrue,
         section: None,
+        theme: None,
     };
     let mut seen_profile = false;
     let mut seen_section = false;
     for pair in args[2..].as_chunks::<2>().0 {
         match pair[0].as_str() {
+            "--theme" if export.theme.is_none() => {
+                export.theme = Some(
+                    TuiPalette::ALL
+                        .into_iter()
+                        .find(|theme| theme.name().eq_ignore_ascii_case(&pair[1]))
+                        .ok_or_else(usage)?,
+                );
+            }
             "--profile" if !seen_profile => {
                 export.profile = Profile::from_name(&pair[1]).ok_or_else(usage)?;
                 seen_profile = true;
@@ -643,6 +653,10 @@ fn export_frames(export: Export) -> io::Result<()> {
     let base = Instant::now();
     let mut studio = Studio::new(base);
     studio.view.profile = export.profile;
+    if let Some(palette) = export.theme {
+        studio.view.native_palette = palette;
+    }
+    let theme = studio.view.theme_for(&theme);
     let count = if export.section == Some(ShowcaseSection::Life) {
         WhaleState::ALL.len() as u64 * ACTION_FRAMES
     } else {
@@ -966,11 +980,24 @@ mod tests {
             "light-truecolor",
             "--section",
             "life",
+            "--theme",
+            "shoreline-light",
         ]
         .map(str::to_owned);
         let export = options(&args).unwrap().unwrap();
         assert_eq!(export.profile, Profile::LightTrue);
         assert_eq!(export.section, Some(ShowcaseSection::Life));
+        assert_eq!(export.theme, Some(TuiPalette::ShorelineLight));
+        assert!(options(&["--frames", "frames", "--theme", "missing"].map(str::to_owned)).is_err());
+        assert!(
+            options(
+                &[
+                    "--frames", "frames", "--theme", "matrix", "--theme", "dracula"
+                ]
+                .map(str::to_owned)
+            )
+            .is_err()
+        );
         assert!(options(&["--frames".into()]).is_err());
     }
 

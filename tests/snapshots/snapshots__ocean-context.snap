@@ -84,50 +84,59 @@ r11 c0..80 bg=#061320
 
 
 ---
-r0 c0..10 fg=Foreground bg=Background bold
-r0 c10..26 bg=Background
-r0 c26..37 fg=Foreground bg=Background bold
-r0 c37..53 bg=Background
-r0 c53..65 fg=Foreground bg=Background bold
-r0 c65..80 bg=Background
-r1 c0..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..1 fg=Foreground bg=Background
-r3 c1..2 bg=Background
-r3 c2..9 fg=Foreground bg=Background bold
-r3 c9..26 bg=Background
-r3 c26..27 fg=Foreground bg=Background
-r3 c27..28 bg=Background
-r3 c28..35 fg=Foreground bg=Background bold
-r3 c35..53 bg=Background
-r3 c53..54 fg=Foreground bg=Background
-r3 c54..55 bg=Background
-r3 c55..62 fg=Foreground bg=Background bold
-r3 c62..80 bg=Background
-r4 c0..2 fg=Border bg=Background
-r4 c2..22 fg=Foreground bg=Background
-r4 c22..26 bg=Background
-r4 c26..28 fg=Border bg=Background
-r4 c28..48 fg=Foreground bg=Background
-r4 c48..53 bg=Background
-r4 c53..55 fg=Border bg=Background
-r4 c55..75 fg=Foreground bg=Background
-r4 c75..80 bg=Background
-r5 c0..2 fg=Border bg=Background
-r5 c2..8 fg=Foreground bg=Background
-r5 c8..26 bg=Background
-r5 c26..28 fg=Border bg=Background
-r5 c28..34 fg=Foreground bg=Background
-r5 c34..53 bg=Background
-r5 c53..55 fg=Border bg=Background
-r5 c55..61 fg=Foreground bg=Background
-r5 c61..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
+r0 c0..10 fg=Foreground bg=#262729 bold
+r0 c10..26 bg=#262729
+r0 c26..37 fg=Foreground bg=#212224 bold
+r0 c37..53 bg=#212224
+r0 c53..65 fg=Foreground bg=#1b1c1e bold
+r0 c65..80 bg=#1b1c1e
+r1 c0..26 bg=#252628
+r1 c26..53 bg=#1f2022
+r1 c53..80 bg=#1b1c1e
+r2 c0..26 bg=#242527
+r2 c26..53 bg=#1f2022
+r2 c53..80 bg=#1b1c1e
+r3 c0..1 fg=Foreground bg=#232426
+r3 c1..2 bg=#232426
+r3 c2..9 fg=Foreground bg=#232426 bold
+r3 c9..26 bg=#232426
+r3 c26..27 fg=Foreground bg=#1d1e20
+r3 c27..28 bg=#1d1e20
+r3 c28..35 fg=Foreground bg=#1d1e20 bold
+r3 c35..53 bg=#1d1e20
+r3 c53..54 fg=Foreground bg=#1b1c1e
+r3 c54..55 bg=#1b1c1e
+r3 c55..62 fg=Foreground bg=#1b1c1e bold
+r3 c62..80 bg=#1b1c1e
+r4 c0..2 fg=Border bg=#222325
+r4 c2..22 fg=Foreground bg=#222325
+r4 c22..26 bg=#222325
+r4 c26..28 fg=Border bg=#1d1e20
+r4 c28..48 fg=Foreground bg=#1d1e20
+r4 c48..53 bg=#1d1e20
+r4 c53..55 fg=Border bg=#1b1c1e
+r4 c55..75 fg=Foreground bg=#1b1c1e
+r4 c75..80 bg=#1b1c1e
+r5 c0..2 fg=Border bg=#212224
+r5 c2..8 fg=Foreground bg=#212224
+r5 c8..26 bg=#212224
+r5 c26..28 fg=Border bg=#1b1c1e
+r5 c28..34 fg=Foreground bg=#1b1c1e
+r5 c34..53 bg=#1b1c1e
+r5 c53..55 fg=Border bg=#1b1c1e
+r5 c55..61 fg=Foreground bg=#1b1c1e
+r5 c61..80 bg=#1b1c1e
+r6 c0..26 bg=Background
+r6 c26..80 bg=#1b1c1e
+r7 c0..26 bg=#1f2022
+r7 c26..80 bg=#1b1c1e
+r8 c0..26 bg=#1e1f21
+r8 c26..80 bg=#1b1c1e
+r9 c0..26 bg=#1d1e20
+r9 c26..80 bg=#1b1c1e
+r10 c0..26 bg=#1c1d1f
+r10 c26..80 bg=#1b1c1e
+r11 c0..80 bg=#1b1c1e
 
 == light-truecolor
 0% context                50% context                100% context
@@ -143,50 +152,59 @@ r11 c0..80 bg=Background
 
 
 ---
-r0 c0..10 fg=Foreground bg=Background bold
-r0 c10..26 bg=Background
-r0 c26..37 fg=Foreground bg=Background bold
-r0 c37..53 bg=Background
-r0 c53..65 fg=Foreground bg=Background bold
-r0 c65..80 bg=Background
-r1 c0..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..1 fg=Foreground bg=Background
-r3 c1..2 bg=Background
-r3 c2..9 fg=Foreground bg=Background bold
-r3 c9..26 bg=Background
-r3 c26..27 fg=Foreground bg=Background
-r3 c27..28 bg=Background
-r3 c28..35 fg=Foreground bg=Background bold
-r3 c35..53 bg=Background
-r3 c53..54 fg=Foreground bg=Background
-r3 c54..55 bg=Background
-r3 c55..62 fg=Foreground bg=Background bold
-r3 c62..80 bg=Background
-r4 c0..2 fg=Border bg=Background
-r4 c2..22 fg=Foreground bg=Background
-r4 c22..26 bg=Background
-r4 c26..28 fg=Border bg=Background
-r4 c28..48 fg=Foreground bg=Background
-r4 c48..53 bg=Background
-r4 c53..55 fg=Border bg=Background
-r4 c55..75 fg=Foreground bg=Background
-r4 c75..80 bg=Background
-r5 c0..2 fg=Border bg=Background
-r5 c2..8 fg=Foreground bg=Background
-r5 c8..26 bg=Background
-r5 c26..28 fg=Border bg=Background
-r5 c28..34 fg=Foreground bg=Background
-r5 c34..53 bg=Background
-r5 c53..55 fg=Border bg=Background
-r5 c55..61 fg=Foreground bg=Background
-r5 c61..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
+r0 c0..10 fg=Foreground bg=#fcfbfa bold
+r0 c10..26 bg=#fcfbfa
+r0 c26..37 fg=Foreground bg=#f9f7f5 bold
+r0 c37..53 bg=#f9f7f5
+r0 c53..65 fg=Foreground bg=#f2efec bold
+r0 c65..80 bg=#f2efec
+r1 c0..26 bg=#fcfbf9
+r1 c26..53 bg=#f7f5f3
+r1 c53..80 bg=#f2efec
+r2 c0..26 bg=#fbf9f8
+r2 c26..53 bg=#f7f4f2
+r2 c53..80 bg=#f2efec
+r3 c0..1 fg=Foreground bg=#faf9f7
+r3 c1..2 bg=#faf9f7
+r3 c2..9 fg=Foreground bg=#faf9f7 bold
+r3 c9..26 bg=#faf9f7
+r3 c26..27 fg=Foreground bg=#f5f3f0
+r3 c27..28 bg=#f5f3f0
+r3 c28..35 fg=Foreground bg=#f5f3f0 bold
+r3 c35..53 bg=#f5f3f0
+r3 c53..54 fg=Foreground bg=#f2efec
+r3 c54..55 bg=#f2efec
+r3 c55..62 fg=Foreground bg=#f2efec bold
+r3 c62..80 bg=#f2efec
+r4 c0..2 fg=Border bg=#faf8f6
+r4 c2..22 fg=Foreground bg=#faf8f6
+r4 c22..26 bg=#faf8f6
+r4 c26..28 fg=Border bg=#f4f1ee
+r4 c28..48 fg=Foreground bg=#f4f1ee
+r4 c48..53 bg=#f4f1ee
+r4 c53..55 fg=Border bg=#f2efec
+r4 c55..75 fg=Foreground bg=#f2efec
+r4 c75..80 bg=#f2efec
+r5 c0..2 fg=Border bg=#f9f7f5
+r5 c2..8 fg=Foreground bg=#f9f7f5
+r5 c8..26 bg=#f9f7f5
+r5 c26..28 fg=Border bg=#f2efec
+r5 c28..34 fg=Foreground bg=#f2efec
+r5 c34..53 bg=#f2efec
+r5 c53..55 fg=Border bg=#f2efec
+r5 c55..61 fg=Foreground bg=#f2efec
+r5 c61..80 bg=#f2efec
+r6 c0..26 bg=#f8f6f3
+r6 c26..80 bg=#f2efec
+r7 c0..26 bg=#f7f5f2
+r7 c26..80 bg=#f2efec
+r8 c0..26 bg=#f6f3f0
+r8 c26..80 bg=#f2efec
+r9 c0..26 bg=#f4f2ef
+r9 c26..80 bg=#f2efec
+r10 c0..26 bg=#f4f1ee
+r10 c26..80 bg=#f2efec
+r11 c0..80 bg=#f2efec
 
 == dark-256
 0% context                50% context                100% context

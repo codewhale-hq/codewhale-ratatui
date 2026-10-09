@@ -1378,6 +1378,7 @@ fn a_count_bar_says_the_count_in_words() {
         text.contains('[') && text.contains('\u{2588}') && text.contains('\u{2591}'),
         "{text}"
     );
+    assert!(text.contains('▍'), "{text}");
     let ascii = text_of(&bar, Profile::Ascii, 60, 1);
     assert!(
         ascii.is_ascii() && ascii.contains('#') && ascii.contains(':'),
@@ -1446,6 +1447,28 @@ fn the_bar_never_shows_progress_that_has_not_happened() {
     assert!(text_of(&zero, Profile::NoColor, 60, 1).contains("0 of 0 tasks"));
     // The state is the host's word: 5 of 5 is not announced as done by itself.
     assert!(text_of(&CountBar::new(5, 5), Profile::NoColor, 60, 1).contains("Working"));
+    for (done, edge) in [
+        (1, '▏'),
+        (2, '▎'),
+        (3, '▍'),
+        (4, '▌'),
+        (5, '▋'),
+        (6, '▊'),
+        (7, '▉'),
+    ] {
+        let text = text_of(&CountBar::new(done, 192), Profile::NoColor, 120, 1);
+        let bar = text.split_once('[').unwrap().1.split_once(']').unwrap().0;
+        assert_eq!(bar.chars().count(), 24, "{text}");
+        assert_eq!(bar.chars().next(), Some(edge), "{text}");
+        assert_eq!(bar.chars().skip(1).filter(|&c| c == '░').count(), 23);
+    }
+    let almost = text_of(
+        &CountBar::new(u64::MAX - 1, u64::MAX),
+        Profile::NoColor,
+        120,
+        1,
+    );
+    assert!(almost.contains('▉'), "{almost}");
 }
 
 #[test]

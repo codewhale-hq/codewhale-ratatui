@@ -171,7 +171,7 @@ r7 c0..64 bg=Surface|Hover
 r8 c0..64 bg=Surface|Hover
 
 == light-256
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ✓ verify  Done  0.4s                                         │
 │ cargo test --test workspace                                  │
@@ -179,7 +179,7 @@ r8 c0..64 bg=Surface|Hover
 │ ▏ output preview counts hidden lines: checked                │
 │ 3 output lines not fully shown                               │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 fg=Border bg=Background|Surface
 r1 c0..1 fg=Border bg=Background|Surface
@@ -224,7 +224,7 @@ r7 c63..64 fg=Border bg=Background|Surface
 r8 c0..64 fg=Border bg=Background|Surface
 
 == ansi-16
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ✓ verify  Done  0.4s                                         │
 │ cargo test --test workspace                                  │
@@ -232,7 +232,7 @@ r8 c0..64 fg=Border bg=Background|Surface
 │ ▏ output preview counts hidden lines: checked                │
 │ 3 output lines not fully shown                               │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim
@@ -260,7 +260,7 @@ r7 c63..64 dim
 r8 c0..64 dim
 
 == unknown-ground
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ✓ verify  Done  0.4s                                         │
 │ cargo test --test workspace                                  │
@@ -268,7 +268,7 @@ r8 c0..64 dim
 │ ▏ output preview counts hidden lines: checked                │
 │ 3 output lines not fully shown                               │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim
@@ -296,7 +296,7 @@ r7 c63..64 dim
 r8 c0..64 dim
 
 == no-color
-┌──────────────────────────────────────────────────────────────┐
+╭──────────────────────────────────────────────────────────────╮
 │                                                              │
 │ ✓ verify  Done  0.4s                                         │
 │ cargo test --test workspace                                  │
@@ -304,7 +304,7 @@ r8 c0..64 dim
 │ ▏ output preview counts hidden lines: checked                │
 │ 3 output lines not fully shown                               │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+╰──────────────────────────────────────────────────────────────╯
 ---
 r0 c0..64 dim
 r1 c0..1 dim

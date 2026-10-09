@@ -643,7 +643,13 @@ impl ShowcaseFrame<'_> {
         if self.state.palette == WaterPalette::Ocean {
             let column = OceanColumn::new(
                 self.elapsed,
-                if self.state.active_motion() {
+                if self.state.active_motion()
+                    || (self.state.section == ShowcaseSection::Work
+                        && !self.state.approval_open
+                        && self.state.phase == ShowcasePhase::Done
+                        && self.state.phase_elapsed(self.elapsed)
+                            < crate::OceanRamp::COMPLETION_BREATH)
+                {
                     self.state.motion
                 } else {
                     MotionMode::Still
@@ -660,6 +666,9 @@ impl ShowcaseFrame<'_> {
             column.apply(area, buf, &theme);
             if self.state.section == ShowcaseSection::Work {
                 let regions = self.work_areas(area, &theme);
+                if let Some(ground) = theme.bg(Role::Background).bg {
+                    column.apply_matching(regions.conversation, buf, &theme, ground);
+                }
                 for (region, ground) in [
                     (regions.composer, TuiGround::Composer),
                     (regions.posture, TuiGround::Footer),
@@ -669,11 +678,35 @@ impl ShowcaseFrame<'_> {
                         column.apply_matching(region, buf, &theme, ground);
                     }
                 }
+                if self.state.active_motion() {
+                    column.apply_caustics(
+                        regions.conversation,
+                        buf,
+                        &theme,
+                        &crate::ocean::OceanCausticFacts {
+                            paint: crate::ocean::OceanPaintFacts::new(
+                                theme.bg(Role::Background).bg.unwrap_or_default(),
+                            ),
+                            elapsed: self.elapsed,
+                            band_rows: 10,
+                        },
+                    );
+                }
             }
         } else {
             Ombre::new(self.state.palette)
                 .direction(self.state.direction)
-                .apply(area, buf, &theme);
+                .apply_at(
+                    area,
+                    buf,
+                    &theme,
+                    self.elapsed,
+                    if self.state.active_motion() {
+                        self.state.motion
+                    } else {
+                        MotionMode::Still
+                    },
+                );
         }
         if self.state.section == ShowcaseSection::Life {
             self.paint_whale(

@@ -7,9 +7,9 @@ expression: "testing :: snapshot(2, tabs_scrolled)"
                        ───────
 ---
 r0 c0..22 fg=Muted bg=Background
-r0 c22..23 fg=Foreground bg=Background
-r0 c23..30 fg=Foreground bg=Background bold
-r0 c30..31 fg=Foreground bg=Background
+r0 c22..23 fg=Foreground bg=Selected
+r0 c23..30 fg=Foreground bg=Selected bold
+r0 c30..31 fg=Foreground bg=Selected
 r0 c31..40 fg=Muted bg=Background
 r1 c0..23 bg=Background
 r1 c23..30 fg=Foreground bg=Background
@@ -22,9 +22,9 @@ r1 c30..40 bg=Background
 r0 c0..28 fg=Muted bg=Background
 r0 c28..29 bg=Background
 r0 c29..44 fg=Muted bg=Background
-r0 c44..45 fg=Foreground bg=Background
-r0 c45..52 fg=Foreground bg=Background bold
-r0 c52..53 fg=Foreground bg=Background
+r0 c44..45 fg=Foreground bg=Selected
+r0 c45..52 fg=Foreground bg=Selected bold
+r0 c52..53 fg=Foreground bg=Selected
 r0 c53..63 fg=Muted bg=Background
 r0 c63..80 bg=Background
 r1 c0..45 bg=Background
@@ -38,9 +38,9 @@ r1 c52..80 bg=Background
 r0 c0..28 fg=Muted bg=Background
 r0 c28..29 bg=Background
 r0 c29..44 fg=Muted bg=Background
-r0 c44..45 fg=Foreground bg=Background
-r0 c45..52 fg=Foreground bg=Background bold
-r0 c52..53 fg=Foreground bg=Background
+r0 c44..45 fg=Foreground bg=Selected
+r0 c45..52 fg=Foreground bg=Selected bold
+r0 c52..53 fg=Foreground bg=Selected
 r0 c53..63 fg=Muted bg=Background
 r0 c63..120 bg=Background
 r1 c0..45 bg=Background

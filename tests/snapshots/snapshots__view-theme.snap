@@ -342,11 +342,11 @@ r8 c0..2 bg=Background
 r8 c2..5 fg=Foreground bg=Selected bold
 r8 c5..8 fg=Live bg=Selected bold
 r8 c8..30 fg=Foreground bg=Selected bold
-r8 c30..32 bg=Background
-r8 c32..34 bg=Surface
-r8 c34..36 bg=Live
-r8 c36..38 bg=Attention
-r8 c38..40 bg=Primary
+r8 c30..32 bg=Hover
+r8 c32..34 bg=Background
+r8 c34..36 bg=Sidebar
+r8 c36..38 bg=#264866
+r8 c38..40 bg=Live
 r8 c40..42 bg=Background
 r8 c42..103 fg=Hint|Dim bg=Selected
 r8 c103..120 bg=Background
@@ -575,11 +575,11 @@ r7 c42..99 fg=Hint|Dim
 r8 c2..5 fg=Foreground bg=Selected bold
 r8 c5..8 fg=Live bg=Selected bold
 r8 c8..30 fg=Foreground bg=Selected bold
-r8 c30..32 bg=#0a1e33
-r8 c32..34 bg=#0d223a
-r8 c34..36 bg=#4fd1c5
-r8 c36..38 bg=#f6c453
-r8 c38..40 bg=#6aa6dc
+r8 c30..32 bg=#102a45
+r8 c32..34 bg=#0a1e33
+r8 c34..36 bg=#061320
+r8 c36..38 bg=#264866
+r8 c38..40 bg=#4fd1c5
 r8 c42..103 fg=Hint|Dim bg=Selected
 r9 c2..5 fg=Foreground
 r9 c5..8 fg=Hint|Dim

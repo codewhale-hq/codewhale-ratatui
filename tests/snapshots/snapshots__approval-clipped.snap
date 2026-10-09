@@ -3,7 +3,7 @@ source: tests/snapshots.rs
 expression: dump(&entry)
 ---
 == dark-truecolor
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -14,7 +14,7 @@ expression: dump(&entry)
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary bg=Surface
 r1 c0..1 fg=Primary bg=Surface
@@ -88,7 +88,7 @@ r10 c69..70 fg=Primary bg=Surface
 r11 c0..70 fg=Primary bg=Surface
 
 == dark-graphite
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -99,7 +99,7 @@ r11 c0..70 fg=Primary bg=Surface
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary bg=Surface
 r1 c0..1 fg=Primary bg=Surface
@@ -173,7 +173,7 @@ r10 c69..70 fg=Primary bg=Surface
 r11 c0..70 fg=Primary bg=Surface
 
 == light-truecolor
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -184,7 +184,7 @@ r11 c0..70 fg=Primary bg=Surface
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary bg=Surface
 r1 c0..1 fg=Primary bg=Surface
@@ -258,7 +258,7 @@ r10 c69..70 fg=Primary bg=Surface
 r11 c0..70 fg=Primary bg=Surface
 
 == dark-256
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -269,7 +269,7 @@ r11 c0..70 fg=Primary bg=Surface
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary bg=Surface|Hover
 r1 c0..1 fg=Primary bg=Surface|Hover
@@ -343,7 +343,7 @@ r10 c69..70 fg=Primary bg=Surface|Hover
 r11 c0..70 fg=Primary bg=Surface|Hover
 
 == light-256
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -354,7 +354,7 @@ r11 c0..70 fg=Primary bg=Surface|Hover
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary bg=Background|Surface
 r1 c0..1 fg=Primary bg=Background|Surface
@@ -428,7 +428,7 @@ r10 c69..70 fg=Primary bg=Background|Surface
 r11 c0..70 fg=Primary bg=Background|Surface
 
 == ansi-16
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -439,7 +439,7 @@ r11 c0..70 fg=Primary bg=Background|Surface
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary
 r1 c0..1 fg=Primary
@@ -487,7 +487,7 @@ r10 c69..70 fg=Primary
 r11 c0..70 fg=Primary
 
 == unknown-ground
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -498,7 +498,7 @@ r11 c0..70 fg=Primary
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r0 c0..70 fg=Primary
 r1 c0..1 fg=Primary
@@ -546,7 +546,7 @@ r10 c69..70 fg=Primary
 r11 c0..70 fg=Primary
 
 == no-color
-┌────────────────────────────────────────────────────────────────────┐
+╭────────────────────────────────────────────────────────────────────╮
 │                                                                    │
 │ ◆ Needs you · Run a command                                        │
 │                                                                    │
@@ -557,7 +557,7 @@ r11 c0..70 fg=Primary
 │   y Allow once ·   a Allow for this session · ▸ n Deny             │
 │   e Deny and say why                                               │
 │                                                                    │
-└────────────────────────────────────────────────────────────────────┘
+╰────────────────────────────────────────────────────────────────────╯
 ---
 r2 c2..29 bold
 r4 c2..66 bold

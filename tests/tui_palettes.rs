@@ -257,7 +257,7 @@ fn low_color_and_unknown_ground_retain_the_host_capability_fallbacks() {
 }
 
 #[test]
-fn native_ocean_is_exclusive_to_known_dark_truecolor_underwater() {
+fn native_ocean_adapts_to_measured_truecolor_painted_presets() {
     for palette in TuiPalette::ALL {
         let theme = theme(
             palette,
@@ -268,11 +268,12 @@ fn native_ocean_is_exclusive_to_known_dark_truecolor_underwater() {
                 Appearance::Dark
             },
         );
-        assert_eq!(
-            OceanRamp::for_theme(&theme).is_some(),
-            palette == TuiPalette::Underwater
+        let terminal_owned = matches!(
+            palette,
+            TuiPalette::Whale | TuiPalette::WhaleLight | TuiPalette::Terminal
         );
-        if palette != TuiPalette::Underwater {
+        assert_eq!(OceanRamp::for_theme(&theme).is_none(), terminal_owned);
+        if terminal_owned {
             let mut buf = render(40, 12, |area, buf| {
                 buf.set_style(area, theme.bg(Role::Background))
             });
@@ -283,8 +284,8 @@ fn native_ocean_is_exclusive_to_known_dark_truecolor_underwater() {
         }
     }
     for profile in [
-        Profile::LightTrue,
         Profile::Dark256,
+        Profile::Light256,
         Profile::Ansi16,
         Profile::NoColor,
         Profile::UnknownGround,

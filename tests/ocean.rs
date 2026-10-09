@@ -1,7 +1,7 @@
 use std::time::Duration;
 
 use codewhale_ratatui::{
-    Caps, MotionMode, Paint, Role, Theme, TuiGround,
+    Caps, MotionMode, Paint, Role, Theme, TuiGround, TuiPalette,
     color::{contrast_ratio, relative_luminance},
     gallery,
     ocean::{
@@ -195,6 +195,40 @@ fn completion_has_the_native_boundary_and_obeys_motion_policy() {
             assert_eq!(color(millis, motion), OceanRamp::SURFACE);
         }
     }
+    for theme in [
+        Profile::LightTrue.theme(),
+        Profile::LightTrue
+            .theme()
+            .tui_palette(TuiPalette::ShorelineLight),
+        Profile::LightTrue
+            .theme()
+            .tui_palette(TuiPalette::SolarizedLight),
+    ] {
+        let ramp = OceanRamp::for_theme(&theme).unwrap();
+        for row in 0..viewport.height {
+            let base = ramp.color_at_context(row, viewport.height, 0);
+            let sample = |millis, motion| {
+                OceanColumn::new(Duration::ZERO, motion)
+                    .phase(OceanPhase::Done)
+                    .presence(0)
+                    .completion_elapsed(Duration::from_millis(millis))
+                    .color_at_y(row, viewport, &theme)
+                    .unwrap()
+            };
+            assert_eq!(sample(0, MotionMode::Full), base);
+            assert_eq!(sample(800, MotionMode::Full), base);
+            assert_eq!(sample(8_000, MotionMode::Full), base);
+            let reflection = sample(320, MotionMode::Full);
+            assert_ne!(reflection, base);
+            let (Color::Rgb(r, g, b), Color::Rgb(rr, rg, rb)) = (base, reflection) else {
+                unreachable!()
+            };
+            assert!(r.abs_diff(rr).max(g.abs_diff(rg)).max(b.abs_diff(rb)) <= 8);
+            for motion in [MotionMode::Reduced, MotionMode::Still] {
+                assert_eq!(sample(320, motion), base);
+            }
+        }
+    }
 }
 
 #[test]
@@ -266,6 +300,27 @@ fn semantic_surfaces_and_all_ink_and_symbols_remain_owned_by_the_host() {
         let mut restored = new.clone();
         restored.set_bg(old.bg);
         assert_eq!(&restored, old, "only the background may change");
+    }
+    for palette in TuiPalette::ALL {
+        let theme = if palette.light() {
+            Profile::LightTrue.theme()
+        } else {
+            Profile::DarkTrue.theme()
+        }
+        .tui_palette(palette);
+        for role in [
+            Role::Surface,
+            Role::Hover,
+            Role::Selected,
+            Role::DiffAddedTint,
+            Role::DiffRemovedTint,
+        ] {
+            let mut buf = Buffer::empty(Rect::new(0, 0, 10, 3));
+            buf.set_style(buf.area, theme.bg(role));
+            let before = buf.clone();
+            OceanColumn::new(Duration::ZERO, MotionMode::Full).apply(buf.area, &mut buf, &theme);
+            assert_eq!(buf, before, "{} {role:?} remains semantic", palette.name());
+        }
     }
 }
 
@@ -530,20 +585,55 @@ fn explicit_matching_keeps_fallback_profiles_and_host_owned_themes() {
             .apply_matching(area, &mut buf, &theme, ground);
         assert_eq!(buf, before, "{} remains host-owned", profile.name());
     }
-    for palette in [
-        codewhale_ratatui::TuiPalette::WhaleLight,
-        codewhale_ratatui::TuiPalette::Matrix,
-        codewhale_ratatui::TuiPalette::Terminal,
-    ] {
-        let theme = Profile::DarkTrue.theme().tui_palette(palette);
+    for palette in TuiPalette::ALL {
+        let theme = if palette.light() {
+            Profile::LightTrue.theme()
+        } else {
+            Profile::DarkTrue.theme()
+        }
+        .tui_palette(palette);
         let area = Rect::new(2, 3, 40, 12);
         let ground = Color::Rgb(13, 34, 58);
         let mut buf = Buffer::empty(area);
         buf.set_style(area, Style::default().bg(ground));
         let before = buf.clone();
-        OceanColumn::new(Duration::ZERO, MotionMode::Full)
+        OceanColumn::new(Duration::ZERO, MotionMode::Still)
             .apply_matching(area, &mut buf, &theme, ground);
-        assert_eq!(buf, before, "{} retains its own ground", palette.name());
+        if matches!(
+            palette,
+            TuiPalette::Whale | TuiPalette::WhaleLight | TuiPalette::Terminal
+        ) {
+            assert_eq!(buf, before, "{} retains its own ground", palette.name());
+            assert!(OceanRamp::for_theme(&theme).is_none());
+        } else {
+            assert_ne!(buf, before, "{} has a spatial field", palette.name());
+            let ramp = OceanRamp::for_theme(&theme).unwrap();
+            let mut low = [u8::MAX; 3];
+            let mut high = [0; 3];
+            for role in [Role::Background, Role::Surface, Role::Hover, Role::Sidebar] {
+                let Color::Rgb(r, g, b) = theme.color(role).unwrap() else {
+                    unreachable!()
+                };
+                for (i, value) in [r, g, b].into_iter().enumerate() {
+                    low[i] = low[i].min(value);
+                    high[i] = high[i].max(value);
+                }
+            }
+            for y in area.y..area.bottom() {
+                let color = buf[(area.x, y)].bg;
+                assert_eq!(color, ramp.color_at_context(y - area.y, area.height, 0));
+                let Color::Rgb(r, g, b) = color else {
+                    unreachable!()
+                };
+                for (i, value) in [r, g, b].into_iter().enumerate() {
+                    assert!(
+                        (low[i]..=high[i]).contains(&value),
+                        "{} {color:?}",
+                        palette.name()
+                    );
+                }
+            }
+        }
     }
     let theme = Profile::DarkTrue.theme().tui().without_base_ground();
     let area = Rect::new(2, 3, 40, 12);
@@ -603,7 +693,10 @@ fn every_fallback_profile_and_terminal_owned_ground_is_unchanged() {
         OceanColumn::new(Duration::from_millis(22_500), MotionMode::Full)
             .phase(OceanPhase::Approval)
             .apply(area, &mut buf, &theme);
-        if profile == Profile::DarkTrue {
+        if matches!(
+            profile,
+            Profile::DarkTrue | Profile::DarkGraphite | Profile::LightTrue
+        ) {
             assert_ne!(buf, before);
         } else {
             assert_eq!(buf, before, "{} is an exact fallback", profile.name());

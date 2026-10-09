@@ -21,7 +21,7 @@ expression: dump(&entry)
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -111,8 +111,8 @@ r18 c0..2 fg=Foreground bg=Background
 r18 c2..3 fg=Live bg=Background
 r18 c3..36 fg=Foreground bg=Background
 r18 c36..37 fg=Muted bg=Background
-r18 c37..51 fg=Live bg=Background
-r18 c51..61 fg=Dim bg=Background
+r18 c37..52 fg=Live bg=Background
+r18 c52..61 fg=Dim bg=Background
 r18 c61..62 fg=Muted bg=Background
 r18 c62..112 fg=Foreground bg=Background
 r19 c0..112 fg=Foreground bg=Background
@@ -251,7 +251,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -341,8 +341,8 @@ r18 c0..2 fg=Foreground bg=Background
 r18 c2..3 fg=Live bg=Background
 r18 c3..36 fg=Foreground bg=Background
 r18 c36..37 fg=Muted bg=Background
-r18 c37..51 fg=Live bg=Background
-r18 c51..61 fg=Dim bg=Background
+r18 c37..52 fg=Live bg=Background
+r18 c52..61 fg=Dim bg=Background
 r18 c61..62 fg=Muted bg=Background
 r18 c62..112 fg=Foreground bg=Background
 r19 c0..112 fg=Foreground bg=Background
@@ -481,7 +481,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -571,8 +571,8 @@ r18 c0..2 fg=Foreground bg=Background
 r18 c2..3 fg=Live bg=Background
 r18 c3..36 fg=Foreground bg=Background
 r18 c36..37 fg=Muted bg=Background
-r18 c37..51 fg=Live bg=Background
-r18 c51..61 fg=Dim bg=Background
+r18 c37..52 fg=Live bg=Background
+r18 c52..61 fg=Dim bg=Background
 r18 c61..62 fg=Muted bg=Background
 r18 c62..112 fg=Foreground bg=Background
 r19 c0..112 fg=Foreground bg=Background
@@ -711,7 +711,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -801,8 +801,8 @@ r18 c0..2 fg=Foreground bg=Background
 r18 c2..3 fg=Live bg=Background
 r18 c3..36 fg=Foreground bg=Background
 r18 c36..37 fg=Muted bg=Background
-r18 c37..51 fg=Live bg=Background
-r18 c51..61 fg=Dim bg=Background
+r18 c37..52 fg=Live bg=Background
+r18 c52..61 fg=Dim bg=Background
 r18 c61..62 fg=Muted bg=Background
 r18 c62..112 fg=Foreground bg=Background
 r19 c0..112 fg=Foreground bg=Background
@@ -941,7 +941,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -1031,8 +1031,8 @@ r18 c0..2 fg=Foreground bg=Background|Surface
 r18 c2..3 fg=Live bg=Background|Surface
 r18 c3..36 fg=Foreground bg=Background|Surface
 r18 c36..37 fg=Muted bg=Background|Surface
-r18 c37..51 fg=Live bg=Background|Surface
-r18 c51..61 fg=Dim bg=Background|Surface
+r18 c37..52 fg=Live bg=Background|Surface
+r18 c52..61 fg=Dim bg=Background|Surface
 r18 c61..62 fg=Muted bg=Background|Surface
 r18 c62..112 fg=Foreground bg=Background|Surface
 r19 c0..112 fg=Foreground bg=Background|Surface
@@ -1171,7 +1171,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -1217,8 +1217,8 @@ r13 c48..106 dim
 r16 c2..34 dim
 r18 c2..3 fg=Live
 r18 c36..37 dim
-r18 c37..51 fg=Live
-r18 c51..62 dim
+r18 c37..52 fg=Live
+r18 c52..62 dim
 r23 c2..3 fg=Live
 r23 c25..32 dim
 r23 c58..67 bold
@@ -1279,7 +1279,7 @@ r37 c2..92 dim
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -1325,8 +1325,8 @@ r13 c48..106 dim
 r16 c2..34 dim
 r18 c2..3 fg=Live
 r18 c36..37 dim
-r18 c37..51 fg=Live
-r18 c51..62 dim
+r18 c37..52 fg=Live
+r18 c52..62 dim
 r23 c2..3 fg=Live
 r23 c25..32 dim
 r23 c58..67 bold
@@ -1387,7 +1387,7 @@ r37 c2..92 dim
 
   1 needs you · 2 working · 1 done
 
-  ● Working  3 of 5 Reported tasks  [██████████████░░░░░░░░░░]
+  ● Working  3 of 5 Reported tasks  [██████████████▍░░░░░░░░░]
 
 
 
@@ -1427,7 +1427,7 @@ r13 c2..4 dim
 r13 c48..106 dim
 r16 c2..34 dim
 r18 c36..37 dim
-r18 c51..62 dim
+r18 c52..62 dim
 r23 c25..32 dim
 r23 c58..67 bold
 r23 c101..110 dim

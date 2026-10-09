@@ -1,8 +1,8 @@
 # Codewhale terminal components
 
 The current Codewhale TUI is the source for native components, layout,
-backgrounds and ombré. Extract the existing presentation into public Ratatui
-APIs; keep application data, actions and persistence in the host. Optional
+backgrounds and ombré. The Ratatui library develops their terminal presentation;
+keep application data, actions and persistence in the host. Optional
 compositions can explore useful alternatives without changing the native
 baseline. [VIEWS.md](VIEWS.md) inventories the terminal screens.
 
@@ -26,14 +26,19 @@ The caller supplies phase, context percentage, motion policy and elapsed time.
 Use `OceanColumn::viewport` for the shell bounds and `apply_matching` for each
 native chrome band's base ground. Keep elevated and semantic surfaces outside
 those bands; the finishing pass preserves their fills.
-The field only paints measured dark truecolor Ocean; other profiles retain
-their selected native or token grounds. The native light palettes keep their own grounds.
+The field paints measured truecolor grounds. Underwater retains its original
+stops; other painted themes derive depth and reflected light from their own
+background, surface and accent colors. Light themes use a pale accent reflection
+and a completion breath that returns to paper without clipping to white.
+Terminal-owned grounds and fallback profiles retain their selected colors.
 
 `Ombre` offers additional artistic treatments over completed component buffers:
 Ocean uses the logo's blue pair, Lagoon uses Live into Primary, Dusk uses Primary
 into Attention, Coral uses Danger into Attention, and Graphite maps the actual
 desktop graphite grounds. These are spatial materials, never alternative state
-colors. Paper uses pale washes. The finishing pass preserves glyphs, foregrounds,
+colors. Paper uses pale washes. A caller can supply elapsed time to `apply_at`
+for a slow, anchored drift during active work. Graphite stays neutral; reduced
+and still motion retain the fixed composition. The finishing pass preserves glyphs, foregrounds,
 content fills and caller colors, and keeps a text cell's original background
 whenever a replacement cannot preserve its contrast floor. All fallback
 profiles pass through unchanged.
@@ -51,13 +56,22 @@ permission and mode colors. Marks and words preserve meaning under no color
 or ASCII. Narrow surfaces shed secondary information before essential input,
 permission and model/context information.
 
+Shared panels use rounded Unicode edges and retain plain ASCII equivalents.
+Focus remains visible in the existing gutter of unbordered panels, without
+moving content. Selected tabs and segmented controls carry a quiet ground
+alongside their shape and weight cues. Count bars resolve reported progress
+to eighth-cell steps in Unicode, retaining whole cells in ASCII and exact
+counts in words. Long action hints wrap through the shared text layout.
+
 `WorkspaceFrame`, `ContextRibbon`, author-heading messages, desktop-style
 cards and the extra `Ombre` palettes are optional compositions. They are not
 substitutes for the TUI baseline.
 
 ## Life and motion
 
-The C-shaped Codewhale is the same character as the native client. The
+The C-shaped Codewhale retains the native client's character. Its terminal
+presentation can develop independently: the face and silhouette lead, while
+the cove and foreground water recede. The
 `whale_motion` core adapts its existing pure Rust springs, authored clips,
 props, particles, scene and cove, rather than adding another performance model.
 Provenance and selected conformance fixtures live in
@@ -69,14 +83,22 @@ painting; resuming discards missed motion. Braille cadence is capped at six
 paints per second in action and two at rest. The full-color `WhalePet` uses
 the GPUI hero cadence: 30 paints per second in action, eight at rest. These
 are scheduling ceilings; the host owns the redraw policy. Reduced motion
-uses the authored poster and schedules no redraw. Every pet keeps readable
-state words.
+uses the authored poster and schedules no redraw. Every pet surface keeps
+readable state words; a host that already presents them can hide the redundant
+caption with empty words. Compact response views reclaim the scenery area
+when the artwork cannot fit, and schedule no hidden pet animation.
 
-`WhalePet` paints the GPUI cove and its full contour rig into a bounded,
-antialiased RGBA image, then reuses the avatar half-block painter. This keeps
+`WhalePet` paints the shared cove and contour rig into a bounded,
+antialiased RGBA image, then reuses the avatar half-block painter. The full
+expressive rig retains its eyes and gaze at small sizes, with four samples per
+axis up to 64 pixels; larger art uses two samples and grows to 160 pixels.
+Avatar resizes average premultiplied color so fine details and translucent
+edges survive downsampling. This keeps
 the two-stop body gradient, light eye/throat apertures, prop colors and partial
 opacity of entering/exiting shapes. Scenery is painted behind the whale and
-near water in front, in the native client's order. The same Stage supplies
+near water in front, in the native client's order. Paper scenes give the near
+current a sea-glass tint so it remains visible without covering the face.
+The same Stage supplies
 resting pointer attention and decorative water ripples. Monochrome, ANSI-16
 and unknown grounds retain Braille; ASCII and tiny viewports retain words.
 `examples/pet.rs` is the live action tour and reproducible buffer export.

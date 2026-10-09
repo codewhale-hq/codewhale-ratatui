@@ -3,7 +3,7 @@ source: tests/display.rs
 expression: "testing::snapshot(e.height, paint)"
 ---
 == dark-truecolor · 40x6
-● Working  3 of 5 phases  [███████░░░░░]
+● Working  3 of 5 phases  [███████▏░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [███████████████]
 ◆ Needs you  7 of 5 checks  [██████████]
@@ -14,8 +14,8 @@ r0 c0..1 fg=Live bg=Background
 r0 c1..24 fg=Foreground bg=Background
 r0 c24..26 bg=Background
 r0 c26..27 fg=Muted bg=Background
-r0 c27..34 fg=Live bg=Background
-r0 c34..39 fg=Dim bg=Background
+r0 c27..35 fg=Live bg=Background
+r0 c35..39 fg=Dim bg=Background
 r0 c39..40 fg=Muted bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..23 fg=Foreground bg=Background
@@ -47,7 +47,7 @@ r5 c24..39 fg=Dim bg=Background
 r5 c39..40 fg=Muted bg=Background
 
 == dark-truecolor · 80x6
-● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  3 of 5 phases  [██████████████▍░░░░░░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [████████████████████████]
 ◆ Needs you  7 of 5 checks  [████████████████████████]
@@ -58,8 +58,8 @@ r0 c0..1 fg=Live bg=Background
 r0 c1..24 fg=Foreground bg=Background
 r0 c24..26 bg=Background
 r0 c26..27 fg=Muted bg=Background
-r0 c27..41 fg=Live bg=Background
-r0 c41..51 fg=Dim bg=Background
+r0 c27..42 fg=Live bg=Background
+r0 c42..51 fg=Dim bg=Background
 r0 c51..52 fg=Muted bg=Background
 r0 c52..80 bg=Background
 r1 c0..1 fg=Live bg=Background
@@ -95,7 +95,7 @@ r5 c48..49 fg=Muted bg=Background
 r5 c49..80 bg=Background
 
 == dark-truecolor · 120x6
-● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  3 of 5 phases  [██████████████▍░░░░░░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [████████████████████████]
 ◆ Needs you  7 of 5 checks  [████████████████████████]
@@ -106,8 +106,8 @@ r0 c0..1 fg=Live bg=Background
 r0 c1..24 fg=Foreground bg=Background
 r0 c24..26 bg=Background
 r0 c26..27 fg=Muted bg=Background
-r0 c27..41 fg=Live bg=Background
-r0 c41..51 fg=Dim bg=Background
+r0 c27..42 fg=Live bg=Background
+r0 c42..51 fg=Dim bg=Background
 r0 c51..52 fg=Muted bg=Background
 r0 c52..120 bg=Background
 r1 c0..1 fg=Live bg=Background
@@ -143,7 +143,7 @@ r5 c48..49 fg=Muted bg=Background
 r5 c49..120 bg=Background
 
 == no-color · 40x6
-● Working  3 of 5 phases  [███████░░░░░]
+● Working  3 of 5 phases  [███████▏░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [███████████████]
 ◆ Needs you  7 of 5 checks  [██████████]
@@ -151,7 +151,7 @@ r5 c49..120 bg=Background
 ○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░]
 
 == no-color · 80x6
-● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  3 of 5 phases  [██████████████▍░░░░░░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [████████████████████████]
 ◆ Needs you  7 of 5 checks  [████████████████████████]
@@ -159,7 +159,7 @@ r5 c49..120 bg=Background
 ○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
 
 == no-color · 120x6
-● Working  3 of 5 phases  [██████████████░░░░░░░░░░]
+● Working  3 of 5 phases  [██████████████▍░░░░░░░░░]
 ● Working  0 of 5 files  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ✓ Done  5 of 5 phases  [████████████████████████]
 ◆ Needs you  7 of 5 checks  [████████████████████████]

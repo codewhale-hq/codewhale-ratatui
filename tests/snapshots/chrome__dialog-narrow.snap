@@ -4,7 +4,7 @@ expression: "testing :: snapshot(12, dialog_narrow)"
 ---
 == dark-truecolor · 40x12
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ Stop the running workflow?       │le
 Ed│                                  │le
@@ -13,7 +13,7 @@ Ed│ Their edits so far are kept.     │le
 Ed│                                  │le
 Ed│ y stop · n keep running          │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 ---
 r0 c0..40 fg=Muted bg=Background
@@ -83,7 +83,7 @@ r11 c0..40 fg=Muted bg=Background
 
 == dark-truecolor · 80x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m╭──────────────────────────────────────────────╮asure
 Edited summary.m│                                              │asure
 Edited summary.m│ Stop the running workflow?                   │asure
 Edited summary.m│                                              │asure
@@ -92,7 +92,7 @@ Edited summary.m│ far are kept.                                │asure
 Edited summary.m│                                              │asure
 Edited summary.m│ y stop · n keep running                      │asure
 Edited summary.m│                                              │asure
-Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.m╰──────────────────────────────────────────────╯asure
 Edited summary.md and then ran the whole suite again for good measure
 ---
 r0 c0..69 fg=Muted bg=Background
@@ -174,7 +174,7 @@ r11 c69..80 bg=Background
 
 == dark-truecolor · 120x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w╭──────────────────────────────────────────────╮
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ Stop the running workflow?                   │
 Edited summary.md and then ran the w│                                              │
@@ -183,7 +183,7 @@ Edited summary.md and then ran the w│ far are kept.                           
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ y stop · n keep running                      │
 Edited summary.md and then ran the w│                                              │
-Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the w╰──────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 ---
 r0 c0..69 fg=Muted bg=Background
@@ -255,7 +255,7 @@ r11 c69..120 bg=Background
 
 == no-color · 40x12
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ Stop the running workflow?       │le
 Ed│                                  │le
@@ -264,12 +264,12 @@ Ed│ Their edits so far are kept.     │le
 Ed│                                  │le
 Ed│ y stop · n keep running          │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 
 == no-color · 80x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m╭──────────────────────────────────────────────╮asure
 Edited summary.m│                                              │asure
 Edited summary.m│ Stop the running workflow?                   │asure
 Edited summary.m│                                              │asure
@@ -278,12 +278,12 @@ Edited summary.m│ far are kept.                                │asure
 Edited summary.m│                                              │asure
 Edited summary.m│ y stop · n keep running                      │asure
 Edited summary.m│                                              │asure
-Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.m╰──────────────────────────────────────────────╯asure
 Edited summary.md and then ran the whole suite again for good measure
 
 == no-color · 120x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w╭──────────────────────────────────────────────╮
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ Stop the running workflow?                   │
 Edited summary.md and then ran the w│                                              │
@@ -292,7 +292,7 @@ Edited summary.md and then ran the w│ far are kept.                           
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ y stop · n keep running                      │
 Edited summary.md and then ran the w│                                              │
-Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the w╰──────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 
 == ascii · 40x12

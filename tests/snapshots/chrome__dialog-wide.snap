@@ -4,7 +4,7 @@ expression: "testing :: snapshot(14, dialog_wide)"
 ---
 == dark-truecolor · 40x14
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ Delete branch feat/kit-buildout… │le
 Ed│                                  │le
@@ -15,7 +15,7 @@ Ed│                                  │le
 Ed│ y delete branch · n keep it      │le
 Ed│ d show what would be deleted     │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 ---
 r0 c0..40 fg=Muted bg=Background
@@ -99,7 +99,7 @@ r13 c0..40 fg=Muted bg=Background
 
 == dark-truecolor · 80x14
 Edited summary.md and then ran the whole suite again for good measure
-Edit┌──────────────────────────────────────────────────────────────────────┐
+Edit╭──────────────────────────────────────────────────────────────────────╮
 Edit│                                                                      │
 Edit│ Delete branch feat/kit-buildout and everything built on it           │
 Edit│                                                                      │
@@ -109,7 +109,7 @@ Edit│                                                                      │
 Edit│                                                                      │
 Edit│ y delete branch · n keep it · d show what would be deleted           │
 Edit│                                                                      │
-Edit└──────────────────────────────────────────────────────────────────────┘
+Edit╰──────────────────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 ---
@@ -193,7 +193,7 @@ r13 c69..80 bg=Background
 
 == dark-truecolor · 120x14
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and th┌──────────────────────────────────────────────────────────────────────┐
+Edited summary.md and th╭──────────────────────────────────────────────────────────────────────╮
 Edited summary.md and th│                                                                      │
 Edited summary.md and th│ Delete branch feat/kit-buildout and everything built on it           │
 Edited summary.md and th│                                                                      │
@@ -203,7 +203,7 @@ Edited summary.md and th│                                                     
 Edited summary.md and th│                                                                      │
 Edited summary.md and th│ y delete branch · n keep it · d show what would be deleted           │
 Edited summary.md and th│                                                                      │
-Edited summary.md and th└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and th╰──────────────────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 ---
@@ -287,7 +287,7 @@ r13 c69..120 bg=Background
 
 == no-color · 40x14
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ Delete branch feat/kit-buildout… │le
 Ed│                                  │le
@@ -298,12 +298,12 @@ Ed│                                  │le
 Ed│ y delete branch · n keep it      │le
 Ed│ d show what would be deleted     │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 
 == no-color · 80x14
 Edited summary.md and then ran the whole suite again for good measure
-Edit┌──────────────────────────────────────────────────────────────────────┐
+Edit╭──────────────────────────────────────────────────────────────────────╮
 Edit│                                                                      │
 Edit│ Delete branch feat/kit-buildout and everything built on it           │
 Edit│                                                                      │
@@ -313,13 +313,13 @@ Edit│                                                                      │
 Edit│                                                                      │
 Edit│ y delete branch · n keep it · d show what would be deleted           │
 Edit│                                                                      │
-Edit└──────────────────────────────────────────────────────────────────────┘
+Edit╰──────────────────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 
 == no-color · 120x14
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and th┌──────────────────────────────────────────────────────────────────────┐
+Edited summary.md and th╭──────────────────────────────────────────────────────────────────────╮
 Edited summary.md and th│                                                                      │
 Edited summary.md and th│ Delete branch feat/kit-buildout and everything built on it           │
 Edited summary.md and th│                                                                      │
@@ -329,7 +329,7 @@ Edited summary.md and th│                                                     
 Edited summary.md and th│                                                                      │
 Edited summary.md and th│ y delete branch · n keep it · d show what would be deleted           │
 Edited summary.md and th│                                                                      │
-Edited summary.md and th└──────────────────────────────────────────────────────────────────────┘
+Edited summary.md and th╰──────────────────────────────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 Edited summary.md and then ran the whole suite again for good measure
 

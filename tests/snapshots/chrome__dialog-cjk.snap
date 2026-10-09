@@ -4,7 +4,7 @@ expression: "testing :: snapshot(12, dialog_cjk)"
 ---
 == dark-truecolor · 40x12
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ 要停止正在运行的工作流吗？       │le
 Ed│                                  │le
@@ -13,7 +13,7 @@ Ed│ 为止的改动会保留。               │le
 Ed│                                  │le
 Ed│ y 停止 · n 继续运行              │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 ---
 r0 c0..40 fg=Muted bg=Background
@@ -83,7 +83,7 @@ r11 c0..40 fg=Muted bg=Background
 
 == dark-truecolor · 80x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m╭──────────────────────────────────────────────╮asure
 Edited summary.m│                                              │asure
 Edited summary.m│ 要停止正在运行的工作流吗？                   │asure
 Edited summary.m│                                              │asure
@@ -92,7 +92,7 @@ Edited summary.m│ 保留。                                       │asure
 Edited summary.m│                                              │asure
 Edited summary.m│ y 停止 · n 继续运行                          │asure
 Edited summary.m│                                              │asure
-Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.m╰──────────────────────────────────────────────╯asure
 Edited summary.md and then ran the whole suite again for good measure
 ---
 r0 c0..69 fg=Muted bg=Background
@@ -174,7 +174,7 @@ r11 c69..80 bg=Background
 
 == dark-truecolor · 120x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w╭──────────────────────────────────────────────╮
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ 要停止正在运行的工作流吗？                   │
 Edited summary.md and then ran the w│                                              │
@@ -183,7 +183,7 @@ Edited summary.md and then ran the w│ 保留。                               
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ y 停止 · n 继续运行                          │
 Edited summary.md and then ran the w│                                              │
-Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the w╰──────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 ---
 r0 c0..69 fg=Muted bg=Background
@@ -255,7 +255,7 @@ r11 c69..120 bg=Background
 
 == no-color · 40x12
 Edited summary.md and then ran the whole
-Ed┌──────────────────────────────────┐le
+Ed╭──────────────────────────────────╮le
 Ed│                                  │le
 Ed│ 要停止正在运行的工作流吗？       │le
 Ed│                                  │le
@@ -264,12 +264,12 @@ Ed│ 为止的改动会保留。               │le
 Ed│                                  │le
 Ed│ y 停止 · n 继续运行              │le
 Ed│                                  │le
-Ed└──────────────────────────────────┘le
+Ed╰──────────────────────────────────╯le
 Edited summary.md and then ran the whole
 
 == no-color · 80x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.m┌──────────────────────────────────────────────┐asure
+Edited summary.m╭──────────────────────────────────────────────╮asure
 Edited summary.m│                                              │asure
 Edited summary.m│ 要停止正在运行的工作流吗？                   │asure
 Edited summary.m│                                              │asure
@@ -278,12 +278,12 @@ Edited summary.m│ 保留。                                       │asure
 Edited summary.m│                                              │asure
 Edited summary.m│ y 停止 · n 继续运行                          │asure
 Edited summary.m│                                              │asure
-Edited summary.m└──────────────────────────────────────────────┘asure
+Edited summary.m╰──────────────────────────────────────────────╯asure
 Edited summary.md and then ran the whole suite again for good measure
 
 == no-color · 120x12
 Edited summary.md and then ran the whole suite again for good measure
-Edited summary.md and then ran the w┌──────────────────────────────────────────────┐
+Edited summary.md and then ran the w╭──────────────────────────────────────────────╮
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ 要停止正在运行的工作流吗？                   │
 Edited summary.md and then ran the w│                                              │
@@ -292,7 +292,7 @@ Edited summary.md and then ran the w│ 保留。                               
 Edited summary.md and then ran the w│                                              │
 Edited summary.md and then ran the w│ y 停止 · n 继续运行                          │
 Edited summary.md and then ran the w│                                              │
-Edited summary.md and then ran the w└──────────────────────────────────────────────┘
+Edited summary.md and then ran the w╰──────────────────────────────────────────────╯
 Edited summary.md and then ran the whole suite again for good measure
 
 == ascii · 40x12
