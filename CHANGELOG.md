@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Add private vulnerability reporting guidance and contributor setup/check
+  instructions; include both guides in the source package.
+- Feature the animated whale and full pet view in the README and catalogue,
+  with five gallery entries and the current dark/light activity previews.
 - Simplify the native showcase: concise conversation, sparse ambient life,
   muted metrics and optional workflow progress, with the original workbar
   given room for its rows.
