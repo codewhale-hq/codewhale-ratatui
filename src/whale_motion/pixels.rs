@@ -80,13 +80,14 @@ impl Canvas {
     }
 }
 
-/// Square design space, with extra samples at small sizes for clean curved edges.
+/// Square design space at one sample per pixel, so shape edges stay hard on a
+/// half-block grid instead of blending into the terminal background.
 /// Public terminal rectangles never control an unbounded allocation.
 pub(crate) fn render(scene: &CoveScene, side: usize, dark: bool) -> Vec<u8> {
     if !(1..=MAX_SIDE).contains(&side) {
         return Vec::new();
     }
-    let samples = if side <= 64 { 4 } else { 2 };
+    let samples = 1;
     let mut canvas = Canvas {
         side: side * samples,
         pixels: vec![[0.; 4]; side * side * samples * samples],
