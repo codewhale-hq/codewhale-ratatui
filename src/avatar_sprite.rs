@@ -94,42 +94,10 @@ impl<'a> Sprite<'a> {
     }
 
     fn sample(&self, x: usize, y: usize, width: usize, height: usize) -> [u8; 4] {
-        if width == self.width && height == self.height {
-            return self.pixel(x, y);
-        }
-        let bounds = |position: usize, source: usize, target: usize| {
-            let scale = source as f64 / target as f64;
-            let center = (position as f64 + 0.5) * scale;
-            let radius = scale.max(1.) / 2.;
-            (
-                (center - radius).max(0.),
-                (center + radius).min(source as f64),
-            )
-        };
-        let (left, right) = bounds(x, self.width, width);
-        let (top, bottom) = bounds(y, self.height, height);
-        let mut rgba = [0.; 4];
-        for sy in top.floor() as usize..(bottom.ceil() as usize).min(self.height) {
-            let weight_y = (bottom.min(sy as f64 + 1.) - top.max(sy as f64)).max(0.);
-            for sx in left.floor() as usize..(right.ceil() as usize).min(self.width) {
-                let weight_x = (right.min(sx as f64 + 1.) - left.max(sx as f64)).max(0.);
-                let pixel = self.pixel(sx, sy);
-                let alpha = f64::from(pixel[3]) * weight_x * weight_y;
-                for channel in 0..3 {
-                    rgba[channel] += f64::from(pixel[channel]) * alpha;
-                }
-                rgba[3] += alpha;
-            }
-        }
-        if rgba[3] == 0. {
-            return [0; 4];
-        }
-        [
-            (rgba[0] / rgba[3]).round() as u8,
-            (rgba[1] / rgba[3]).round() as u8,
-            (rgba[2] / rgba[3]).round() as u8,
-            (rgba[3] / ((right - left) * (bottom - top))).round() as u8,
-        ]
+        self.pixel(
+            ((2 * x + 1) * self.width / (2 * width)).min(self.width - 1),
+            ((2 * y + 1) * self.height / (2 * height)).min(self.height - 1),
+        )
     }
 }
 impl Paint for Sprite<'_> {
