@@ -329,3 +329,8 @@ The separate Engine adapter under review adopts this surface through `/pet on`, 
 retained roster, active transcript, owner activity projection, modal stack and
 existing agent transcript event. Escape returns to its preserved composer;
 accepted turns return to the pet surface while the mode remains enabled.
+
+`PetMode::dot_whale` accepts the host's prepared `DotWhale` for the pet area.
+The host supplies fresh, session-bound geometry, a localized caption, and the
+Still pose when motion is reduced. Missing geometry retains the native whale;
+response reading, roster selection and their controls keep the same layout.

@@ -2,8 +2,8 @@
 //! the host still owns sessions, roster receipts, responses and every action.
 
 use crate::{
-    MotionMode, Role, StatusMark, Subagent, SubagentIntent, SubagentView, SubagentViewState,
-    SubagentViewWords, Theme, WhalePet, text,
+    DotWhale, MotionMode, Paint, Role, StatusMark, Subagent, SubagentIntent, SubagentView,
+    SubagentViewState, SubagentViewWords, Theme, WhalePet, text,
     whale_motion::{Inputs, Presence, Stage, Tier},
 };
 use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseEvent, MouseEventKind};
@@ -317,6 +317,7 @@ pub struct PetMode<'a> {
     pub theme: &'a Theme,
     pub title: Cow<'a, str>,
     pub status: StatusMark,
+    pub dot_whale: Option<DotWhale<'a>>,
     /// The host's existing notice, using its semantic severity ink.
     pub notice: Option<Line<'a>>,
     pub agents: &'a [Subagent<'a>],
@@ -335,6 +336,7 @@ impl<'a> PetMode<'a> {
             theme,
             title: "Codewhale".into(),
             status,
+            dot_whale: None,
             notice: None,
             agents: &[],
             agent_words: SubagentViewWords::default(),
@@ -412,9 +414,13 @@ impl StatefulWidget for PetMode<'_> {
             );
         }
         if !plan.pet.is_empty() {
-            WhalePet::new(self.theme)
-                .words("")
-                .paint(plan.pet, buf, &mut state.stage);
+            if let Some(whale) = self.dot_whale {
+                whale.paint(plan.pet, buf, self.theme);
+            } else {
+                WhalePet::new(self.theme)
+                    .words("")
+                    .paint(plan.pet, buf, &mut state.stage);
+            }
         }
         let marker = if self.theme.ascii() { "> " } else { "› " };
         let mut agent_words = self.agent_words;
