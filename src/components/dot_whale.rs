@@ -193,7 +193,12 @@ impl Paint for DotWhale<'_> {
                 let style = if self.hollow {
                     theme.fg(Role::Muted)
                 } else {
-                    color::prepared_ink(dot.pigment.map(|v| v.round() as u8), 1.0, cell.bg, theme)
+                    color::prepared_ink(
+                        dot.pigment.map(|v| v.round() as u8),
+                        dot.strength as f32,
+                        cell.bg,
+                        theme,
+                    )
                 };
                 let glyph = char::from_u32(0x2800 + u32::from(dot.bits)).unwrap_or(' ');
                 let mut encoded = [0; 4];

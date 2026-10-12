@@ -4,8 +4,8 @@
 
 - Keep `DotWhale` dense in large panes. Its scale is capped at 32 braille dots
   (about four lit dots per cell, as at 80x18), and the whale and caption are
-  centred together. Each cell takes the colour of its strongest dot, drawn at
-  full ink instead of an alpha-weighted mean. Hollow (unobserved) frames use
+  centred together. Each cell takes the colour and alpha of its strongest dot
+  instead of an alpha-weighted mean. Hollow (unobserved) frames use
   the theme's `Muted` ink instead of `DIM`.
 - `Sprite` scales by one integer factor (n, or 1/n) on both axes, with the
   same rounding for width and rows. Every source pixel stays whole. A sprite
