@@ -3,7 +3,7 @@ use std::collections::BTreeMap;
 use ratatui::{
     buffer::Buffer,
     layout::{Alignment, Rect},
-    style::{Modifier, Style},
+    style::Style,
     widgets::{Paragraph, Widget, Wrap},
 };
 
@@ -89,8 +89,7 @@ impl<'a> DotWhale<'a> {
 struct DotCell {
     bits: u8,
     pigment: [f64; 3],
-    weight: f64,
-    count: u16,
+    strength: f64,
 }
 
 fn caption(label: &str, area: Rect, buf: &mut Buffer, style: Style) {
@@ -159,8 +158,12 @@ impl Paint for DotWhale<'_> {
             return;
         }
         let width = f64::from(area.width) * 2.0;
+        let scale = ((width - 1.0).min(f64::from(art_height) * 4.0 - 1.0) / 2.0).min(32.0);
+        let art_height = ((2.0 * scale + 1.0) / 4.0).ceil() as u16;
+        let top = area
+            .y
+            .saturating_add(area.height.saturating_sub(art_height + label_height) / 2);
         let height = f64::from(art_height) * 4.0;
-        let scale = (width - 1.0).min(height - 1.0) / 2.0;
         let bits = [[1, 8], [2, 16], [4, 32], [64, 128]];
         let mut cells: BTreeMap<(u16, u16), DotCell> = BTreeMap::new();
         for (point, material) in self.points.iter().zip(self.materials) {
@@ -171,7 +174,7 @@ impl Paint for DotWhale<'_> {
             let y = ((height - 1.0) / 2.0 + point[1] * scale).round() as u32;
             let (Ok(col), Ok(row)) = (
                 u16::try_from(u32::from(area.x) + x / 2),
-                u16::try_from(u32::from(area.y) + y / 4),
+                u16::try_from(u32::from(top) + y / 4),
             ) else {
                 continue;
             };
@@ -180,24 +183,18 @@ impl Paint for DotWhale<'_> {
             }
             let cell = cells.entry((col, row)).or_default();
             cell.bits |= bits[(y % 4) as usize][(x % 2) as usize];
-            for (sum, value) in cell.pigment.iter_mut().zip(material) {
-                *sum += value * material[3];
+            if material[3] > cell.strength {
+                cell.strength = material[3];
+                cell.pigment = [material[0], material[1], material[2]];
             }
-            cell.weight += material[3];
-            cell.count += 1;
         }
         for ((x, y), dot) in cells {
             if let Some(cell) = buf.cell_mut((x, y)) {
-                let [r, g, b] = dot.pigment.map(|sum| (sum / dot.weight).round() as u8);
-                let mut style = color::prepared_ink(
-                    [r, g, b],
-                    (dot.weight / f64::from(dot.count)) as f32,
-                    cell.bg,
-                    theme,
-                );
-                if self.hollow {
-                    style = style.add_modifier(Modifier::DIM);
-                }
+                let style = if self.hollow {
+                    theme.fg(Role::Muted)
+                } else {
+                    color::prepared_ink(dot.pigment.map(|v| v.round() as u8), 1.0, cell.bg, theme)
+                };
                 let glyph = char::from_u32(0x2800 + u32::from(dot.bits)).unwrap_or(' ');
                 let mut encoded = [0; 4];
                 cell.set_symbol(glyph.encode_utf8(&mut encoded))
@@ -208,7 +205,7 @@ impl Paint for DotWhale<'_> {
             &label,
             Rect::new(
                 area.x,
-                area.y.saturating_add(art_height),
+                top.saturating_add(art_height),
                 area.width,
                 label_height,
             ),

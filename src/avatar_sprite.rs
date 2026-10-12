@@ -93,10 +93,10 @@ impl<'a> Sprite<'a> {
             .expect("validated RGBA pixel")
     }
 
-    fn sample(&self, x: usize, y: usize, width: usize, height: usize) -> [u8; 4] {
+    fn sample(&self, x: usize, y: usize, up: usize, down: usize) -> [u8; 4] {
         self.pixel(
-            ((2 * x + 1) * self.width / (2 * width)).min(self.width - 1),
-            ((2 * y + 1) * self.height / (2 * height)).min(self.height - 1),
+            ((2 * x + 1) * down / (2 * up)).min(self.width - 1),
+            ((2 * y + 1) * down / (2 * up)).min(self.height - 1),
         )
     }
 }
@@ -108,26 +108,32 @@ impl Paint for Sprite<'_> {
         }
         // One cell is approximately twice as tall as wide. Fit without changing
         // the artwork's aspect ratio and never allocate from terminal geometry.
-        let scale = (f64::from(area.width) / self.width as f64)
-            .min(f64::from(area.height) * 2. / self.height as f64);
-        let width = ((self.width as f64 * scale).floor() as u16)
-            .max(1)
-            .min(area.width);
-        let rows = ((self.height as f64 * scale / 2.).ceil() as u16)
-            .max(1)
-            .min(area.height);
+        let (columns, pixel_rows) = (usize::from(area.width), usize::from(area.height) * 2);
+        let (up, down) = if self.width <= columns && self.height <= pixel_rows {
+            ((columns / self.width).min(pixel_rows / self.height), 1)
+        } else {
+            (
+                1,
+                self.width
+                    .div_ceil(columns)
+                    .max(self.height.div_ceil(pixel_rows)),
+            )
+        };
+        let height = (self.height * up).div_ceil(down);
+        let width = (self.width * up).div_ceil(down) as u16;
+        let rows = height.div_ceil(2) as u16;
         let left = area.x + (area.width - width) / 2;
         let top = area.y + (area.height - rows) / 2;
         let colored = theme.caps().paints_tokens() && !theme.ascii();
         for y in 0..rows {
             for x in 0..width {
                 let sample = |half: usize| {
-                    self.sample(
-                        usize::from(x),
-                        usize::from(y) * 2 + half,
-                        usize::from(width),
-                        usize::from(rows) * 2,
-                    )
+                    let y = usize::from(y) * 2 + half;
+                    if y < height {
+                        self.sample(usize::from(x), y, up, down)
+                    } else {
+                        [0; 4]
+                    }
                 };
                 let a = sample(0);
                 let b = sample(1);

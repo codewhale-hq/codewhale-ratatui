@@ -2,6 +2,20 @@
 
 ## Unreleased
 
+- Keep `DotWhale` dense in large panes. Its scale is capped at 32 braille dots
+  (about four lit dots per cell, as at 80x18), and the whale and caption are
+  centred together. Each cell takes the colour of its strongest dot, drawn at
+  full ink instead of an alpha-weighted mean. Hollow (unobserved) frames use
+  the theme's `Muted` ink instead of `DIM`.
+- `Sprite` scales by one integer factor (n, or 1/n) on both axes, with the
+  same rounding for width and rows. Every source pixel stays whole. A sprite
+  that is slightly too large for its area now shrinks by a whole factor.
+- `PetMode::style` and `PetMode::cove` reach the `WhalePet` fallback, so a
+  host can force the Braille whale or drop the translucent cove. A forced
+  Braille whale is scheduled at the Terminal cadence.
+- Known limits: `DotWhale` does not grow past the cap, so a large pane shows a
+  whale of the same size with more space around it. Both painters still assume
+  a 1:2 cell aspect. On profiles without colour, `Muted` falls back to `DIM`.
 - Add private vulnerability reporting guidance and contributor setup/check
   instructions; include both guides in the source package.
 - Feature the animated whale and full pet view in the README and catalogue,

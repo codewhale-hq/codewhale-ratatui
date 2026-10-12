@@ -2,8 +2,8 @@
 //! the host still owns sessions, roster receipts, responses and every action.
 
 use crate::{
-    DotWhale, MotionMode, Paint, Role, StatusMark, Subagent, SubagentIntent, SubagentView,
-    SubagentViewState, SubagentViewWords, Theme, WhalePet, text,
+    DotWhale, MotionMode, Paint, PetStyle, Role, StatusMark, Subagent, SubagentIntent,
+    SubagentView, SubagentViewState, SubagentViewWords, Theme, WhalePet, text,
     whale_motion::{Inputs, Presence, Stage, Tier},
 };
 use crossterm::event::{KeyCode, KeyEvent, KeyEventKind, KeyModifiers, MouseEvent, MouseEventKind};
@@ -99,6 +99,7 @@ pub struct PetModeState {
     visible: bool,
     motion: MotionMode,
     stage_animates: bool,
+    style: PetStyle,
 }
 
 impl PetModeState {
@@ -158,11 +159,12 @@ impl PetModeState {
         let art = WhalePet::art_area(self.areas.pet);
         let pet = (!theme.ascii() && art.width >= 16 && art.height >= 8 && self.stage_animates)
             .then(|| {
-                self.stage.cadence(if theme.paints_grounds() {
-                    Tier::Hero
-                } else {
-                    Tier::Terminal
-                })
+                self.stage
+                    .cadence(if theme.paints_grounds() && self.style == PetStyle::Color {
+                        Tier::Hero
+                    } else {
+                        Tier::Terminal
+                    })
             })
             .flatten();
         [pet, self.agents.next_frame_in(agents, theme)]
@@ -318,6 +320,8 @@ pub struct PetMode<'a> {
     pub title: Cow<'a, str>,
     pub status: StatusMark,
     pub dot_whale: Option<DotWhale<'a>>,
+    pub style: PetStyle,
+    pub cove: bool,
     /// The host's existing notice, using its semantic severity ink.
     pub notice: Option<Line<'a>>,
     pub agents: &'a [Subagent<'a>],
@@ -337,6 +341,8 @@ impl<'a> PetMode<'a> {
             title: "Codewhale".into(),
             status,
             dot_whale: None,
+            style: PetStyle::Color,
+            cove: true,
             notice: None,
             agents: &[],
             agent_words: SubagentViewWords::default(),
@@ -353,6 +359,7 @@ impl StatefulWidget for PetMode<'_> {
     fn render(self, area: Rect, buf: &mut Buffer, state: &mut Self::State) {
         let area = area.intersection(buf.area);
         state.areas = PetModeAreas::default();
+        state.style = self.style;
         if !state.visible || area.is_empty() {
             return;
         }
@@ -419,6 +426,8 @@ impl StatefulWidget for PetMode<'_> {
             } else {
                 WhalePet::new(self.theme)
                     .words("")
+                    .style(self.style)
+                    .cove(self.cove)
                     .paint(plan.pet, buf, &mut state.stage);
             }
         }
