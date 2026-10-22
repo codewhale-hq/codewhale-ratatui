@@ -227,7 +227,24 @@ def public_symbols(mapping, docs):
         symbol for row in docs for symbol in row["symbols"]
     )))
     code = mask_rust(mapping["code"] + "\n" + "\n".join(helper["code"] for helper in mapping["helpers"]))
-    return sorted(name for name in names if re.search(rf"(?<!:)\b{re.escape(name)}\b", code))
+    return sorted(name for name in names if _symbol_used(name, code))
+
+
+def _symbol_used(name, code):
+    """A symbol counts when used bare or as a path head; variants stay out.
+
+    `Workbar::new`, `crate::TerminalShell::new` and `whale_motion::Stage`
+    are the component in use. `WorkbarPanel::Fleet` is an enum variant of
+    another type, not the `Fleet` composite.
+    """
+    for hit in re.finditer(rf"\b{re.escape(name)}\b", code):
+        after = code[hit.end():]
+        if after.startswith("::"):
+            return True
+        parent = re.search(r"([A-Za-z_][\w]*)::$", code[:hit.start()])
+        if parent is None or parent.group(1)[0].islower():
+            return True
+    return False
 
 
 def provenance(root=ROOT):

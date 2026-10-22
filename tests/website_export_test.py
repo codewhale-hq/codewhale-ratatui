@@ -100,6 +100,18 @@ fn helper(area: Rect) { consume(area); }
         self.assertNotIn("Fleet", symbols)  # WorkbarPanel::Fleet is an enum variant.
         self.assertNotIn("Cost", symbols)
 
+    def test_qualified_paths_count_types_but_not_variants(self):
+        used = EXPORT._symbol_used
+        self.assertTrue(used("Workbar", "Workbar::new(panel, rows)"))
+        self.assertTrue(used("TerminalShell", "let s = crate::TerminalShell::new(h);"))
+        self.assertTrue(used("Stage", "stage: &mut whale_motion::Stage,"))
+        self.assertFalse(used("Fleet", "WorkbarPanel::Fleet"))
+        self.assertFalse(used("Fleet", "let p = WorkbarPanel::Fleet;"))
+        self.assertTrue(used("WorkbarPanel", "let p = WorkbarPanel::Fleet;"))
+        self.assertFalse(used("Workbar", "MyWorkbar::new()"))
+        masked = EXPORT.mask_rust('// Stage::new is only a comment\nlet x = 1;')
+        self.assertFalse(used("Stage", masked))
+
     def test_check_catches_tamper_and_cleanup_preserves_unowned_files(self):
         with tempfile.TemporaryDirectory() as directory:
             destination = Path(directory)

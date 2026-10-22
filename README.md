@@ -918,6 +918,99 @@ available alongside Lagoon, Dusk, Coral and Graphite. `apply_at` accepts the
 host clock and motion policy for a slow drift during active work. Graphite
 stays neutral, and reduced/still policies retain the fixed composition.
 
+### Native decision band
+
+`DecisionBand` extends the approval components with a bottom-anchored native
+band over caller-projected body, option and validated rule-coverage facts.
+`plan(area)` returns the same body/control/save region, stable option-order
+rectangles and save visibility that `render(area, buffer)` paints. A host keeps
+its own decision handler and enables persistent-save keys only while the last
+paint reports `save_shown`; no `ApprovalState` or second decision loop is needed.
+The gallery's `approval-native-band` and collapsed companion use this real API.
+The existing bordered `ApprovalCard` keeps its verbatim-subject and caller-key
+contract. The band accepts host-projected display lines; it does not reparse
+commands, infer policy or construct permission rules.
+
+### Mounted composer row plan
+
+`NativeComposerFrame` projects host-owned scalar cursor/selection, localized
+styled copy, completion/history menu facts and live styles through one pure
+layout/paint/caret/viewport/pointer plan. Raw source positions retain hidden
+characters; display content is guarded before width measurement and paint.
+`NativeComposer` uses the same plan and keeps its existing grapheme cursor
+API. The actual `native-composer-rich-selection` and `native-composer-rich-search` gallery
+entries show both presentations. Editing, bindings, IME, completion filtering
+and submit dispatch stay with the host.
+
+
+### Mounted transcript viewport
+
+`TranscriptViewport` projects host-parsed styled rows through one clipped
+content/chrome plan, retaining pinned rows, offsets, semantic styles and exact
+scrollbar/jump geometry. `TranscriptViewportPlan::link_rects` returns only
+visible cells and excludes opaque jump chrome; targets never enter kit data.
+The measured selection helper accepts a host's existing terminal column grammar
+without owning its parser, clipboard, streaming cache or selection state.
+Staged content/chrome paint lets a host retain semantic Ocean finishing between
+them. The actual `transcript-mounted` and `transcript-mounted-focus` gallery
+entries use this API. Existing authored `Transcript`/`TranscriptBlock` remain
+the structured content option; this viewport does not reparse native rows.
+
+
+`ocean::OceanPaintFacts` carries cached absolute-row colors and protected
+semantic rectangles into `OceanColumn::apply_native`; its ink callback returns
+the exact color the host backend would show over the proposed water without
+changing source cells. `OceanContrastInks` maps the same decorative/supporting
+contrast floors to actual live palette colors. `ocean_semantic_surfaces`
+projects display-safe prewrapped styled rows using the host's column grammar;
+`TranscriptViewportPlan::display_rows()` supplies its exact pinned/offset rows;
+explicit backgrounds remain semantic even if their RGB equals a pane base.
+`apply_caustics` finishes only already painted ordinary water, shares capability
+and reduced-motion gates, and spares visible symbols, reversed cells and
+semantic padding. Both methods require measured truecolor painted grounds;
+facts and an explicit ramp do not grant terminal capability. The
+`ocean-native-guarded` gallery entry exercises cached water, caustics, selected
+source, blank semantic padding and reverse protection across all profiles.
+
+### Host-owned Dock tabs and character frames
+
+`DockTabRow` is the tab row used by `Workbar` and the native Engine Dock
+adapter. Give it the caller's available `WorkbarTab` facts, active panel,
+pressed/hovered targets, five live `DockTabStyles` and the close text that matches
+your actual action. `row.plan(area).hitboxes()` and `(&row).render(area, buf)` use
+the same fitting rules. The host owns focus, Esc handling and action dispatch.
+The Engine's full Dock body remains separate from this tab presentation slice.
+
+For a small companion or an externally simulated frame with a raw caption:
+
+```rust
+use codewhale_ratatui::BrailleFrame;
+use ratatui::{style::Style, widgets::Widget};
+
+// Row-major packed cells from your existing simulation; zero is transparent.
+BrailleFrame { cells: &cells, caption: "resting", style: Style::default() }
+    .render(area, buf);
+```
+
+The last viewport row holds the centered caption. Tiny viewports keep the
+complete wrapped text cue. Ink and modifiers are supplied by the caller; the
+component has no clock or activity model. The Engine cameo and live embedded
+world both use this path. `Whale::paint_frame` shares its cell painter and keeps
+its own semantic caption, admission rules and theme gradient. This API does not
+replace the Engine's character controller or accessibility policy.
+
+The guarded Ocean gallery uses `OceanPaintFacts`, `OceanCausticFacts` and
+`ocean_semantic_surfaces`; `OceanContrastInks` supplies host role mapping for
+native finishing through the existing guarded
+`OceanColumn` methods. Their facts preserve host protection and ink roles;
+terminal capability, motion and semantic contrast guards still apply.
+
+`WorkbarLayout::for_body` fits the already-admitted body viewport from current
+row counts and header facts. `WorkbarScrollbar` paints its rail using the same
+current offset/counts and caller-supplied symbols/styles. Both Workbar and the
+Engine body use these calculations. No remembered selection, focus or scrolling
+state lives in the kit; native row composition and action receipts stay with
+the host.
 
 </details>
 
@@ -1092,96 +1185,3 @@ state in words when the art cannot fit.
 MIT · [License](LICENSE). Use as a Git dependency during development;
 the crate has not been published to a package registry.
 
-### Native decision band
-
-`DecisionBand` extends the approval components with a bottom-anchored native
-band over caller-projected body, option and validated rule-coverage facts.
-`plan(area)` returns the same body/control/save region, stable option-order
-rectangles and save visibility that `render(area, buffer)` paints. A host keeps
-its own decision handler and enables persistent-save keys only while the last
-paint reports `save_shown`; no `ApprovalState` or second decision loop is needed.
-The gallery's `approval-native-band` and collapsed companion use this real API.
-The existing bordered `ApprovalCard` keeps its verbatim-subject and caller-key
-contract. The band accepts host-projected display lines; it does not reparse
-commands, infer policy or construct permission rules.
-
-### Mounted composer row plan
-
-`NativeComposerFrame` projects host-owned scalar cursor/selection, localized
-styled copy, completion/history menu facts and live styles through one pure
-layout/paint/caret/viewport/pointer plan. Raw source positions retain hidden
-characters; display content is guarded before width measurement and paint.
-`NativeComposer` uses the same plan and keeps its existing grapheme cursor
-API. The actual `native-composer-rich-selection` and `native-composer-rich-search` gallery
-entries show both presentations. Editing, bindings, IME, completion filtering
-and submit dispatch stay with the host.
-
-
-### Mounted transcript viewport
-
-`TranscriptViewport` projects host-parsed styled rows through one clipped
-content/chrome plan, retaining pinned rows, offsets, semantic styles and exact
-scrollbar/jump geometry. `TranscriptViewportPlan::link_rects` returns only
-visible cells and excludes opaque jump chrome; targets never enter kit data.
-The measured selection helper accepts a host's existing terminal column grammar
-without owning its parser, clipboard, streaming cache or selection state.
-Staged content/chrome paint lets a host retain semantic Ocean finishing between
-them. The actual `transcript-mounted` and `transcript-mounted-focus` gallery
-entries use this API. Existing authored `Transcript`/`TranscriptBlock` remain
-the structured content option; this viewport does not reparse native rows.
-
-
-`ocean::OceanPaintFacts` carries cached absolute-row colors and protected
-semantic rectangles into `OceanColumn::apply_native`; its ink callback returns
-the exact color the host backend would show over the proposed water without
-changing source cells. `OceanContrastInks` maps the same decorative/supporting
-contrast floors to actual live palette colors. `ocean_semantic_surfaces`
-projects display-safe prewrapped styled rows using the host's column grammar;
-`TranscriptViewportPlan::display_rows()` supplies its exact pinned/offset rows;
-explicit backgrounds remain semantic even if their RGB equals a pane base.
-`apply_caustics` finishes only already painted ordinary water, shares capability
-and reduced-motion gates, and spares visible symbols, reversed cells and
-semantic padding. Both methods require measured truecolor painted grounds;
-facts and an explicit ramp do not grant terminal capability. The
-`ocean-native-guarded` gallery entry exercises cached water, caustics, selected
-source, blank semantic padding and reverse protection across all profiles.
-
-### Host-owned Dock tabs and character frames
-
-`DockTabRow` is the tab row used by `Workbar` and the native Engine Dock
-adapter. Give it the caller's available `WorkbarTab` facts, active panel,
-pressed/hovered targets, five live `DockTabStyles` and the close text that matches
-your actual action. `row.plan(area).hitboxes()` and `(&row).render(area, buf)` use
-the same fitting rules. The host owns focus, Esc handling and action dispatch.
-The Engine's full Dock body remains separate from this tab presentation slice.
-
-For a small companion or an externally simulated frame with a raw caption:
-
-```rust
-use codewhale_ratatui::BrailleFrame;
-use ratatui::{style::Style, widgets::Widget};
-
-// Row-major packed cells from your existing simulation; zero is transparent.
-BrailleFrame { cells: &cells, caption: "resting", style: Style::default() }
-    .render(area, buf);
-```
-
-The last viewport row holds the centered caption. Tiny viewports keep the
-complete wrapped text cue. Ink and modifiers are supplied by the caller; the
-component has no clock or activity model. The Engine cameo and live embedded
-world both use this path. `Whale::paint_frame` shares its cell painter and keeps
-its own semantic caption, admission rules and theme gradient. This API does not
-replace the Engine's character controller or accessibility policy.
-
-The guarded Ocean gallery uses `OceanPaintFacts`, `OceanCausticFacts` and
-`ocean_semantic_surfaces`; `OceanContrastInks` supplies host role mapping for
-native finishing through the existing guarded
-`OceanColumn` methods. Their facts preserve host protection and ink roles;
-terminal capability, motion and semantic contrast guards still apply.
-
-`WorkbarLayout::for_body` fits the already-admitted body viewport from current
-row counts and header facts. `WorkbarScrollbar` paints its rail using the same
-current offset/counts and caller-supplied symbols/styles. Both Workbar and the
-Engine body use these calculations. No remembered selection, focus or scrolling
-state lives in the kit; native row composition and action receipts stay with
-the host.

@@ -4,6 +4,8 @@ The explorer lives inside the existing Codewhale website at `/ratatui`, with
 individual `/ratatui/<gallery-name>` pages. Its source is in
 [`Hmbown/CodeWhale/web`](https://github.com/Hmbown/CodeWhale/tree/wave/0.10.1-next/web).
 Website deployment follows that repository's manual Cloudflare workflow.
+The landing page opens with the real `showcase-work` render; each component
+page keeps a focused study of one entry with its collection index.
 
 Visitors can choose a task, search the complete catalogue by name, public API
 or familiar terms, choose a collection, compare terminal profiles and column
