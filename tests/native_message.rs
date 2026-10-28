@@ -11,7 +11,7 @@ fn native_message_puts_body_beside_the_marker_and_uses_dim_continuations() {
     assert_eq!(message.height(20, &theme), 3);
     let buf = render(20, 3, |area, buf| message.paint(area, buf, &theme));
     assert_eq!(text(&buf), "● First line.\n▏\n▏ Second line.");
-    assert_eq!(buf[(0, 0)].fg, theme.fg(Role::Primary).fg.unwrap());
+    assert_eq!(buf[(0, 0)].fg, theme.fg(Role::Accent).fg.unwrap());
     assert!(buf[(0, 0)].modifier.contains(Modifier::BOLD));
     assert_eq!(buf[(0, 1)].fg, theme.fg(Role::Dim).fg.unwrap());
     assert_eq!(buf[(2, 2)].fg, theme.fg(Role::Foreground).fg.unwrap());

@@ -5,11 +5,11 @@ expression: dump(&entry)
 == dark-truecolor
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary bg=Background
+r0 c0..11 fg=Primary|Accent bg=Background
 r0 c11..14 fg=Hint|Dim bg=Background
 r0 c14..17 fg=Muted bg=Background
 r0 c17..18 bg=Background
-r0 c18..21 fg=Primary bg=Background
+r0 c18..21 fg=Primary|Accent bg=Background
 r0 c21..24 fg=Hint|Dim bg=Background
 r0 c24..29 fg=Muted bg=Background
 r0 c29..32 fg=Hint|Dim bg=Background
@@ -23,11 +23,11 @@ r0 c53..96 bg=Background
 == dark-graphite
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary bg=Background
+r0 c0..11 fg=Primary|Accent bg=Background
 r0 c11..14 fg=Hint|Dim bg=Background
 r0 c14..17 fg=Muted bg=Background
 r0 c17..18 bg=Background
-r0 c18..21 fg=Primary bg=Background
+r0 c18..21 fg=Primary|Accent bg=Background
 r0 c21..24 fg=Hint|Dim bg=Background
 r0 c24..29 fg=Muted bg=Background
 r0 c29..32 fg=Hint|Dim bg=Background
@@ -41,10 +41,10 @@ r0 c53..96 bg=Background
 == light-truecolor
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary
+r0 c0..11 fg=Primary|Accent
 r0 c11..14 fg=Hint|Dim
 r0 c14..17 fg=Muted
-r0 c18..21 fg=Primary
+r0 c18..21 fg=Primary|Accent
 r0 c21..24 fg=Hint|Dim
 r0 c24..29 fg=Muted
 r0 c29..32 fg=Hint|Dim
@@ -56,11 +56,11 @@ r0 c45..53 fg=Muted
 == dark-256
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary bg=Background|DiffAddedTint
+r0 c0..11 fg=Primary|Accent bg=Background|DiffAddedTint
 r0 c11..14 fg=Hint|Dim bg=Background|DiffAddedTint
 r0 c14..17 fg=Muted bg=Background|DiffAddedTint
 r0 c17..18 bg=Background|DiffAddedTint
-r0 c18..21 fg=Primary bg=Background|DiffAddedTint
+r0 c18..21 fg=Primary|Accent bg=Background|DiffAddedTint
 r0 c21..24 fg=Hint|Dim bg=Background|DiffAddedTint
 r0 c24..29 fg=Muted bg=Background|DiffAddedTint
 r0 c29..32 fg=Hint|Dim bg=Background|DiffAddedTint
@@ -74,27 +74,27 @@ r0 c53..96 bg=Background|DiffAddedTint
 == light-256
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary
+r0 c0..11 fg=Primary|Accent
 r0 c11..17 fg=Muted|Hint|Dim
-r0 c18..21 fg=Primary
+r0 c18..21 fg=Primary|Accent
 r0 c21..36 fg=Muted|Hint|Dim
 r0 c37..53 fg=Muted|Hint|Dim
 
 == ansi-16
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary
+r0 c0..11 fg=Accent
 r0 c11..17 dim
-r0 c18..21 fg=Primary
+r0 c18..21 fg=Accent
 r0 c21..36 dim
 r0 c37..53 dim
 
 == unknown-ground
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s
 ---
-r0 c0..11 fg=Primary
+r0 c0..11 fg=Accent
 r0 c11..17 dim
-r0 c18..21 fg=Primary
+r0 c18..21 fg=Accent
 r0 c21..36 dim
 r0 c37..53 dim
 

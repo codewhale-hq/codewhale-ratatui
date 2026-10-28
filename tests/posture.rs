@@ -7,7 +7,7 @@ use ratatui::{buffer::Buffer, layout::Rect, style::Modifier};
 fn working_posture() -> PostureBar<'static> {
     PostureBar::new("ask")
         .permission_key("Shift+Tab to change")
-        .mode("work", Role::Primary)
+        .mode("work", Role::Accent)
         .mode_key("Tab")
         .turn_clock("working 1m 15s", Role::Live)
         .counts(vec![PostureFact::new("2 agents", Role::Live)])
@@ -18,8 +18,8 @@ fn working_posture() -> PostureBar<'static> {
 
 fn working_metrics() -> MetricsLine<'static> {
     MetricsLine::new(vec![
-        MetricSegment::new(MetricKind::Model, "", "deepseek-v4").role(Role::Primary),
-        MetricSegment::new(MetricKind::Context, "ctx", "61%").role(Role::Primary),
+        MetricSegment::new(MetricKind::Model, "", "deepseek-v4").role(Role::Accent),
+        MetricSegment::new(MetricKind::Context, "ctx", "61%").role(Role::Accent),
         MetricSegment::new(MetricKind::Cost, "", "$0.42"),
         MetricSegment::new(MetricKind::Ttft, "ttft", "400ms"),
         MetricSegment::new(MetricKind::Rate, "", "38 tok/s"),
@@ -92,7 +92,7 @@ fn native_posture_shed_order_retains_permission_before_mode() {
     ]
     .map(first_width);
     assert!(rungs.windows(2).all(|pair| pair[0] > pair[1]), "{rungs:?}");
-    let permission = PostureBar::new("full access").mode("operate", Role::Primary);
+    let permission = PostureBar::new("full access").mode("operate", Role::Accent);
     let mut permission_only = false;
     for width in 8..=120 {
         let shown = row(&permission, width, Profile::DarkTrue);
@@ -121,7 +121,7 @@ fn cap_warning_and_native_compact_policy_outrank_live_clocks() {
     }
     assert!(warning_only);
     let compact = row(
-        &fixture.compact(true).right("/rc connected", Role::Primary),
+        &fixture.compact(true).right("/rc connected", Role::Accent),
         160,
         Profile::DarkTrue,
     );
@@ -189,10 +189,10 @@ fn metrics_shed_secondary_counts_then_help_and_keep_model_and_context() {
 fn counts_are_a_comma_group_and_hitboxes_match_native_inset_cells() {
     let theme = Profile::DarkTrue.theme();
     let component = PostureBar::new("ask")
-        .mode("work", Role::Primary)
+        .mode("work", Role::Accent)
         .counts(vec![
             PostureFact::new("2 agents", Role::Live),
-            PostureFact::new("1 task", Role::Primary),
+            PostureFact::new("1 task", Role::Accent),
         ]);
     let area = Rect::new(4, 7, 80, 2);
     let mut buf = Buffer::empty(area);
@@ -250,7 +250,7 @@ fn metrics_geometry_hover_and_warning_ink_follow_the_native_component() {
 #[test]
 fn native_posture_truncation_uses_three_dots_and_protects_permission() {
     let component = PostureBar::new("full access")
-        .mode("operate", Role::Primary)
+        .mode("operate", Role::Accent)
         .right("Auto-denied exec_shell", Role::Attention);
     let shown = row(&component, 30, Profile::DarkTrue);
     assert!(shown.contains("full access"), "{shown}");
@@ -267,10 +267,10 @@ fn native_posture_truncation_uses_three_dots_and_protects_permission() {
 #[test]
 fn caller_text_is_safe_and_authored_marks_follow_ascii_policy() {
     let posture = PostureBar::new("ask\u{202e}")
-        .mode("work\u{1b}", Role::Primary)
+        .mode("work\u{1b}", Role::Accent)
         .context_percent(90);
     let metrics = MetricsLine::new(vec![
-        MetricSegment::new(MetricKind::Model, "", "cafe\u{301} 鲸鱼\u{2066}").role(Role::Primary),
+        MetricSegment::new(MetricKind::Model, "", "cafe\u{301} 鲸鱼\u{2066}").role(Role::Accent),
         MetricSegment::new(MetricKind::OutputTokens, "↓", "1.2K\u{1b}"),
     ]);
     let rich = row(&metrics, 80, Profile::DarkTrue);

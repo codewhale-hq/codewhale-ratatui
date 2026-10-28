@@ -25,46 +25,46 @@ r0 c0..36 bg=Background
 r1 c0..36 bg=Background
 r2 c0..36 bg=Background
 r3 c0..10 bg=Background
-r3 c10..21 fg=#79b1f7 bg=Background
+r3 c10..21 fg=#8db6dd bg=Background
 r3 c21..36 bg=Background
 r4 c0..8 bg=Background
-r4 c8..24 fg=#72aef5 bg=Background
+r4 c8..24 fg=#84b3dc bg=Background
 r4 c24..36 bg=Background
 r5 c0..7 bg=Background
-r5 c7..13 fg=#6aabf2 bg=Background
+r5 c7..13 fg=#7bb0dc bg=Background
 r5 c13..17 bg=Background
-r5 c17..23 fg=#6aabf2 bg=Background
+r5 c17..23 fg=#7bb0dc bg=Background
 r5 c23..36 bg=Background
 r6 c0..7 bg=Background
-r6 c7..11 fg=#62a8ef bg=Background
+r6 c7..11 fg=#71acdc bg=Background
 r6 c11..24 bg=Background
-r6 c24..29 fg=#62a8ef bg=Background
+r6 c24..29 fg=#71acdc bg=Background
 r6 c29..36 bg=Background
 r7 c0..7 bg=Background
-r7 c7..11 fg=#5ba5ed bg=Background
+r7 c7..11 fg=#68a9db bg=Background
 r7 c11..18 bg=Background
-r7 c18..30 fg=#5ba5ed bg=Background
+r7 c18..30 fg=#68a9db bg=Background
 r7 c30..36 bg=Background
 r8 c0..7 bg=Background
-r8 c7..30 fg=#53a3ea bg=Background
+r8 c7..30 fg=#5fa6db bg=Background
 r8 c30..36 bg=Background
 r9 c0..7 bg=Background
-r9 c7..24 fg=#4ca0e8 bg=Background
+r9 c7..24 fg=#56a3da bg=Background
 r9 c24..27 bg=Background
-r9 c27..29 fg=#4ca0e8 bg=Background
+r9 c27..29 fg=#56a3da bg=Background
 r9 c29..36 bg=Background
 r10 c0..8 bg=Background
-r10 c8..23 fg=#449de5 bg=Background
+r10 c8..23 fg=#4c9fda bg=Background
 r10 c23..26 bg=Background
-r10 c26..28 fg=#449de5 bg=Background
+r10 c26..28 fg=#4c9fda bg=Background
 r10 c28..36 bg=Background
 r11 c0..9 bg=Background
-r11 c9..21 fg=#3c9ae2 bg=Background
+r11 c9..21 fg=#439cda bg=Background
 r11 c21..23 bg=Background
-r11 c23..26 fg=#3c9ae2 bg=Background
+r11 c23..26 fg=#439cda bg=Background
 r11 c26..36 bg=Background
 r12 c0..13 bg=Background
-r12 c13..24 fg=#3597e0 bg=Background
+r12 c13..24 fg=#3a99d9 bg=Background
 r12 c24..36 bg=Background
 r13 c0..36 bg=Background
 r14 c0..36 bg=Background
@@ -98,46 +98,46 @@ r0 c0..36 bg=Background
 r1 c0..36 bg=Background
 r2 c0..36 bg=Background
 r3 c0..10 bg=Background
-r3 c10..21 fg=#79b1f7 bg=Background
+r3 c10..21 fg=#8db6dd bg=Background
 r3 c21..36 bg=Background
 r4 c0..8 bg=Background
-r4 c8..24 fg=#72aef5 bg=Background
+r4 c8..24 fg=#84b3dc bg=Background
 r4 c24..36 bg=Background
 r5 c0..7 bg=Background
-r5 c7..13 fg=#6aabf2 bg=Background
+r5 c7..13 fg=#7bb0dc bg=Background
 r5 c13..17 bg=Background
-r5 c17..23 fg=#6aabf2 bg=Background
+r5 c17..23 fg=#7bb0dc bg=Background
 r5 c23..36 bg=Background
 r6 c0..7 bg=Background
-r6 c7..11 fg=#62a8ef bg=Background
+r6 c7..11 fg=#71acdc bg=Background
 r6 c11..24 bg=Background
-r6 c24..29 fg=#62a8ef bg=Background
+r6 c24..29 fg=#71acdc bg=Background
 r6 c29..36 bg=Background
 r7 c0..7 bg=Background
-r7 c7..11 fg=#5ba5ed bg=Background
+r7 c7..11 fg=#68a9db bg=Background
 r7 c11..18 bg=Background
-r7 c18..30 fg=#5ba5ed bg=Background
+r7 c18..30 fg=#68a9db bg=Background
 r7 c30..36 bg=Background
 r8 c0..7 bg=Background
-r8 c7..30 fg=#53a3ea bg=Background
+r8 c7..30 fg=#5fa6db bg=Background
 r8 c30..36 bg=Background
 r9 c0..7 bg=Background
-r9 c7..24 fg=#4ca0e8 bg=Background
+r9 c7..24 fg=#56a3da bg=Background
 r9 c24..27 bg=Background
-r9 c27..29 fg=#4ca0e8 bg=Background
+r9 c27..29 fg=#56a3da bg=Background
 r9 c29..36 bg=Background
 r10 c0..8 bg=Background
-r10 c8..23 fg=#449de5 bg=Background
+r10 c8..23 fg=#4c9fda bg=Background
 r10 c23..26 bg=Background
-r10 c26..28 fg=#449de5 bg=Background
+r10 c26..28 fg=#4c9fda bg=Background
 r10 c28..36 bg=Background
 r11 c0..9 bg=Background
-r11 c9..21 fg=#3c9ae2 bg=Background
+r11 c9..21 fg=#439cda bg=Background
 r11 c21..23 bg=Background
-r11 c23..26 fg=#3c9ae2 bg=Background
+r11 c23..26 fg=#439cda bg=Background
 r11 c26..36 bg=Background
 r12 c0..13 bg=Background
-r12 c13..24 fg=#3597e0 bg=Background
+r12 c13..24 fg=#3a99d9 bg=Background
 r12 c24..36 bg=Background
 r13 c0..36 bg=Background
 r14 c0..36 bg=Background
@@ -244,25 +244,25 @@ r0 c0..36 bg=Background
 r1 c0..36 bg=Background
 r2 c0..36 bg=Background
 r3 c0..10 bg=Background
-r3 c10..21 fg=Primary bg=Background
+r3 c10..21 fg=idx110 bg=Background
 r3 c21..36 bg=Background
 r4 c0..8 bg=Background
-r4 c8..24 fg=idx75 bg=Background
+r4 c8..24 fg=idx110 bg=Background
 r4 c24..36 bg=Background
 r5 c0..7 bg=Background
-r5 c7..13 fg=idx75 bg=Background
+r5 c7..13 fg=idx110 bg=Background
 r5 c13..17 bg=Background
-r5 c17..23 fg=idx75 bg=Background
+r5 c17..23 fg=idx110 bg=Background
 r5 c23..36 bg=Background
 r6 c0..7 bg=Background
-r6 c7..11 fg=idx75 bg=Background
+r6 c7..11 fg=idx74 bg=Background
 r6 c11..24 bg=Background
-r6 c24..29 fg=idx75 bg=Background
+r6 c24..29 fg=idx74 bg=Background
 r6 c29..36 bg=Background
 r7 c0..7 bg=Background
-r7 c7..11 fg=idx75 bg=Background
+r7 c7..11 fg=idx74 bg=Background
 r7 c11..18 bg=Background
-r7 c18..30 fg=idx75 bg=Background
+r7 c18..30 fg=idx74 bg=Background
 r7 c30..36 bg=Background
 r8 c0..7 bg=Background
 r8 c7..30 fg=idx74 bg=Background
@@ -278,9 +278,9 @@ r10 c23..26 bg=Background
 r10 c26..28 fg=idx74 bg=Background
 r10 c28..36 bg=Background
 r11 c0..9 bg=Background
-r11 c9..21 fg=idx68 bg=Background
+r11 c9..21 fg=idx74 bg=Background
 r11 c21..23 bg=Background
-r11 c23..26 fg=idx68 bg=Background
+r11 c23..26 fg=idx74 bg=Background
 r11 c26..36 bg=Background
 r12 c0..13 bg=Background
 r12 c13..24 fg=idx68 bg=Background
@@ -351,12 +351,12 @@ r10 c23..26 bg=Background|Surface
 r10 c26..28 fg=idx26 bg=Background|Surface
 r10 c28..36 bg=Background|Surface
 r11 c0..9 bg=Background|Surface
-r11 c9..21 fg=Primary bg=Background|Surface
+r11 c9..21 fg=idx25 bg=Background|Surface
 r11 c21..23 bg=Background|Surface
-r11 c23..26 fg=Primary bg=Background|Surface
+r11 c23..26 fg=idx25 bg=Background|Surface
 r11 c26..36 bg=Background|Surface
 r12 c0..13 bg=Background|Surface
-r12 c13..24 fg=Primary bg=Background|Surface
+r12 c13..24 fg=idx25 bg=Background|Surface
 r12 c24..36 bg=Background|Surface
 r13 c0..36 bg=Background|Surface
 r14 c0..36 bg=Background|Surface
@@ -386,22 +386,22 @@ r16 c22..36 bg=Background|Surface
 
              ○ Resting
 ---
-r3 c10..21 fg=Primary
-r4 c8..24 fg=Primary
-r5 c7..13 fg=Primary
-r5 c17..23 fg=Primary
-r6 c7..11 fg=Primary
-r6 c24..29 fg=Primary
-r7 c7..11 fg=Primary
-r7 c18..30 fg=Primary
-r8 c7..30 fg=Primary
-r9 c7..24 fg=Primary
-r9 c27..29 fg=Primary
-r10 c8..23 fg=Primary
-r10 c26..28 fg=Primary
-r11 c9..21 fg=Primary
-r11 c23..26 fg=Primary
-r12 c13..24 fg=Primary
+r3 c10..21 fg=Accent
+r4 c8..24 fg=Accent
+r5 c7..13 fg=Accent
+r5 c17..23 fg=Accent
+r6 c7..11 fg=Accent
+r6 c24..29 fg=Accent
+r7 c7..11 fg=Accent
+r7 c18..30 fg=Accent
+r8 c7..30 fg=Accent
+r9 c7..24 fg=Accent
+r9 c27..29 fg=Accent
+r10 c8..23 fg=Accent
+r10 c26..28 fg=Accent
+r11 c9..21 fg=Accent
+r11 c23..26 fg=Accent
+r12 c13..24 fg=Accent
 r16 c13..14 dim
 
 == unknown-ground
@@ -423,22 +423,22 @@ r16 c13..14 dim
 
              ○ Resting
 ---
-r3 c10..21 fg=Primary
-r4 c8..24 fg=Primary
-r5 c7..13 fg=Primary
-r5 c17..23 fg=Primary
-r6 c7..11 fg=Primary
-r6 c24..29 fg=Primary
-r7 c7..11 fg=Primary
-r7 c18..30 fg=Primary
-r8 c7..30 fg=Primary
-r9 c7..24 fg=Primary
-r9 c27..29 fg=Primary
-r10 c8..23 fg=Primary
-r10 c26..28 fg=Primary
-r11 c9..21 fg=Primary
-r11 c23..26 fg=Primary
-r12 c13..24 fg=Primary
+r3 c10..21 fg=Accent
+r4 c8..24 fg=Accent
+r5 c7..13 fg=Accent
+r5 c17..23 fg=Accent
+r6 c7..11 fg=Accent
+r6 c24..29 fg=Accent
+r7 c7..11 fg=Accent
+r7 c18..30 fg=Accent
+r8 c7..30 fg=Accent
+r9 c7..24 fg=Accent
+r9 c27..29 fg=Accent
+r10 c8..23 fg=Accent
+r10 c26..28 fg=Accent
+r11 c9..21 fg=Accent
+r11 c23..26 fg=Accent
+r12 c13..24 fg=Accent
 r16 c13..14 dim
 
 == no-color

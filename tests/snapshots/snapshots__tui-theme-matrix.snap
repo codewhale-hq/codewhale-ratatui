@@ -75,7 +75,7 @@ r16 c0..39 fg=BorderStrong bg=Sidebar|Background|Surface
 r16 c39..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r17 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r18 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r19 c0..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 r20 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r20 c1..10 fg=Foreground|Attention bg=Hover|Selected bold
 r20 c10..12 fg=Foreground|Attention bg=Sidebar|Background|Surface
@@ -104,7 +104,7 @@ r22 c102..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c1..102 fg=Muted bg=Sidebar|Background|Surface
 r23 c102..103 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r23 c103..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 
 == dark-graphite
 Codewhale / matrix
@@ -179,7 +179,7 @@ r16 c0..39 fg=BorderStrong bg=Sidebar|Background|Surface
 r16 c39..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r17 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r18 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r19 c0..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 r20 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r20 c1..10 fg=Foreground|Attention bg=Hover|Selected bold
 r20 c10..12 fg=Foreground|Attention bg=Sidebar|Background|Surface
@@ -208,7 +208,7 @@ r22 c102..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c1..102 fg=Muted bg=Sidebar|Background|Surface
 r23 c102..103 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r23 c103..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 
 == light-truecolor
 Codewhale / matrix
@@ -283,7 +283,7 @@ r16 c0..39 fg=BorderStrong bg=Sidebar|Background|Surface
 r16 c39..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r17 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r18 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r19 c0..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 r20 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r20 c1..10 fg=Foreground|Attention bg=Hover|Selected bold
 r20 c10..12 fg=Foreground|Attention bg=Sidebar|Background|Surface
@@ -312,7 +312,7 @@ r22 c102..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c1..102 fg=Muted bg=Sidebar|Background|Surface
 r23 c102..103 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r23 c103..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 
 == dark-256
 Codewhale / matrix
@@ -387,7 +387,7 @@ r16 c0..39 fg=BorderStrong bg=Sidebar|Background|Surface
 r16 c39..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r17 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r18 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r19 c0..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 r20 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r20 c1..10 fg=Foreground|Attention bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r20 c10..12 fg=Foreground|Attention bg=Sidebar|Background|Surface
@@ -416,7 +416,7 @@ r22 c102..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c1..102 fg=Muted bg=Sidebar|Background|Surface
 r23 c102..103 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r23 c103..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 
 == light-256
 Codewhale / matrix
@@ -491,7 +491,7 @@ r16 c0..39 fg=BorderStrong bg=Sidebar|Background|Surface
 r16 c39..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r17 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r18 c0..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r19 c0..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r19 c0..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 r20 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r20 c1..10 fg=Foreground|Attention bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r20 c10..12 fg=Foreground|Attention bg=Sidebar|Background|Surface
@@ -520,7 +520,7 @@ r22 c102..104 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c0..1 fg=Foreground|Attention bg=Sidebar|Background|Surface
 r23 c1..102 fg=Muted bg=Sidebar|Background|Surface
 r23 c102..103 fg=Foreground|Attention bg=Sidebar|Background|Surface
-r23 c103..104 fg=Border|Primary bg=Sidebar|Background|Surface
+r23 c103..104 fg=Border|Primary|Accent bg=Sidebar|Background|Surface
 
 == ansi-16
 Codewhale / matrix
@@ -554,9 +554,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention
@@ -610,9 +610,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention

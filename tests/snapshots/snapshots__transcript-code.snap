@@ -14,7 +14,7 @@ r0 c0..20 fg=Foreground bg=Background bold
 r0 c20..40 bg=Background
 r1 c0..4 fg=Muted bg=Surface bold
 r1 c4..6 bg=Surface
-r1 c6..10 fg=Primary bg=Surface
+r1 c6..10 fg=Accent bg=Surface
 r1 c10..40 bg=Surface
 r2 c0..7 fg=Border bg=Surface
 r2 c7..35 fg=Foreground bg=Surface
@@ -38,7 +38,7 @@ r0 c0..20 fg=Foreground bg=Background bold
 r0 c20..40 bg=Background
 r1 c0..4 fg=Muted bg=Surface bold
 r1 c4..6 bg=Surface
-r1 c6..10 fg=Primary bg=Surface
+r1 c6..10 fg=Accent bg=Surface
 r1 c10..40 bg=Surface
 r2 c0..7 fg=Border bg=Surface
 r2 c7..35 fg=Foreground bg=Surface
@@ -62,7 +62,7 @@ r0 c0..20 fg=Foreground bg=Background bold
 r0 c20..40 bg=Background
 r1 c0..4 fg=Muted bg=Surface bold
 r1 c4..6 bg=Surface
-r1 c6..10 fg=Primary bg=Surface
+r1 c6..10 fg=Accent bg=Surface
 r1 c10..40 bg=Surface
 r2 c0..7 fg=Border bg=Surface
 r2 c7..35 fg=Foreground bg=Surface
@@ -86,7 +86,7 @@ r0 c0..20 fg=Foreground bg=Background bold
 r0 c20..40 bg=Background
 r1 c0..4 fg=Muted bg=Surface|Hover bold
 r1 c4..6 bg=Surface|Hover
-r1 c6..10 fg=Primary bg=Surface|Hover
+r1 c6..10 fg=Accent bg=Surface|Hover
 r1 c10..40 bg=Surface|Hover
 r2 c0..7 fg=Border bg=Surface|Hover
 r2 c7..35 fg=Foreground bg=Surface|Hover
@@ -110,7 +110,7 @@ r0 c0..20 fg=Foreground bg=Background|Surface bold
 r0 c20..40 bg=Background|Surface
 r1 c0..4 fg=Muted bg=Background|Surface bold
 r1 c4..6 bg=Background|Surface
-r1 c6..10 fg=Primary bg=Background|Surface
+r1 c6..10 fg=Accent bg=Background|Surface
 r1 c10..40 bg=Background|Surface
 r2 c0..7 fg=Border bg=Background|Surface
 r2 c7..35 fg=Foreground bg=Background|Surface
@@ -132,7 +132,7 @@ rust  Copy
 ---
 r0 c0..20 bold
 r1 c0..4 bold dim
-r1 c6..10 fg=Primary
+r1 c6..10 fg=Accent
 r2 c0..7 dim
 r3 c0..7 dim
 
@@ -146,7 +146,7 @@ rust  Copy
 ---
 r0 c0..20 bold
 r1 c0..4 bold dim
-r1 c6..10 fg=Primary
+r1 c6..10 fg=Accent
 r2 c0..7 dim
 r3 c0..7 dim
 

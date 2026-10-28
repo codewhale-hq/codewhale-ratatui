@@ -18,9 +18,9 @@ r0 c15..16 fg=Foreground bg=Selected
 r0 c16..18 bg=Background
 r0 c18..23 fg=Muted bg=Background
 r0 c23..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..6 fg=Foreground bg=Selected bold underline
-r1 c6..7 fg=Primary bg=Selected
+r1 c6..7 fg=Accent bg=Selected
 r1 c7..9 bg=Background
 r1 c9..13 fg=Muted bg=Background
 r1 c13..16 bg=Background
@@ -58,9 +58,9 @@ r0 c15..16 fg=Foreground bg=Selected
 r0 c16..18 bg=Background
 r0 c18..23 fg=Muted bg=Background
 r0 c23..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..6 fg=Foreground bg=Selected bold underline
-r1 c6..7 fg=Primary bg=Selected
+r1 c6..7 fg=Accent bg=Selected
 r1 c7..9 bg=Background
 r1 c9..13 fg=Muted bg=Background
 r1 c13..16 bg=Background
@@ -98,9 +98,9 @@ r0 c15..16 fg=Foreground bg=Selected
 r0 c16..18 bg=Background
 r0 c18..23 fg=Muted bg=Background
 r0 c23..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..6 fg=Foreground bg=Selected bold underline
-r1 c6..7 fg=Primary bg=Selected
+r1 c6..7 fg=Accent bg=Selected
 r1 c7..9 bg=Background
 r1 c9..13 fg=Muted bg=Background
 r1 c13..16 bg=Background
@@ -138,9 +138,9 @@ r0 c15..16 fg=Foreground bg=Selected
 r0 c16..18 bg=Background
 r0 c18..23 fg=Muted bg=Background
 r0 c23..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..6 fg=Foreground bg=Selected bold underline
-r1 c6..7 fg=Primary bg=Selected
+r1 c6..7 fg=Accent bg=Selected
 r1 c7..9 bg=Background
 r1 c9..13 fg=Muted bg=Background
 r1 c13..16 bg=Background
@@ -178,9 +178,9 @@ r0 c15..16 fg=Foreground bg=Selected
 r0 c16..18 bg=Background|Surface
 r0 c18..23 fg=Muted bg=Background|Surface
 r0 c23..40 bg=Background|Surface
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..6 fg=Foreground bg=Selected bold underline
-r1 c6..7 fg=Primary bg=Selected
+r1 c6..7 fg=Accent bg=Selected
 r1 c7..9 bg=Background|Surface
 r1 c9..13 fg=Muted bg=Background|Surface
 r1 c13..16 bg=Background|Surface
@@ -212,9 +212,9 @@ Reduced (2 of 3)
 r0 c1..5 dim
 r0 c8..15 bold underline
 r0 c18..23 dim
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c1..6 bold underline
-r1 c6..7 fg=Primary
+r1 c6..7 fg=Accent
 r1 c9..13 dim
 r1 c16..22 dim
 r2 c1..5 dim
@@ -234,9 +234,9 @@ Reduced (2 of 3)
 r0 c1..5 dim
 r0 c8..15 bold underline
 r0 c18..23 dim
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c1..6 bold underline
-r1 c6..7 fg=Primary
+r1 c6..7 fg=Accent
 r1 c9..13 dim
 r1 c16..22 dim
 r2 c1..5 dim

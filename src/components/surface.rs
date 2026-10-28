@@ -184,7 +184,7 @@ impl<'a> Panel<'a> {
         let layout = self.layout(area, theme);
         if layout.edged {
             let edge_role = if self.focused {
-                Role::Primary
+                Role::Accent
             } else if self.depth == Depth::Overlay {
                 Role::BorderStrong
             } else {
@@ -213,7 +213,7 @@ impl<'a> Panel<'a> {
             for y in area.y..area.bottom() {
                 buf[(area.x, y)]
                     .set_symbol(glyphs::pick("▏", theme.ascii()))
-                    .set_style(theme.fg(Role::Primary).patch(ground));
+                    .set_style(theme.fg(Role::Accent).patch(ground));
             }
         }
 

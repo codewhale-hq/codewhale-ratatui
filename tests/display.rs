@@ -810,7 +810,7 @@ fn emphasis_ranges_keep_pointing_at_the_right_text_after_cleanup() {
 #[test]
 fn syntax_highlight_is_a_caller_hook_and_respects_the_tint_audit() {
     fn hook(line: &str) -> Vec<(std::ops::Range<usize>, Role)> {
-        vec![(0..line.len().min(2), Role::Primary)]
+        vec![(0..line.len().min(2), Role::Accent)]
     }
     let diff = Diff::new(vec![
         DiffLine::context(1, 1, "fn keep() {}"),
@@ -820,7 +820,7 @@ fn syntax_highlight_is_a_caller_hook_and_respects_the_tint_audit() {
     .highlight(hook);
     let theme = Profile::DarkTrue.theme();
     let buf = render(&diff, Profile::DarkTrue, 30, 2);
-    let primary = theme.fg(Role::Primary).fg.unwrap();
+    let primary = theme.fg(Role::Accent).fg.unwrap();
     let foreground = theme.fg(Role::Foreground).fg.unwrap();
     assert_eq!(
         buf[(2, 0)].fg,
@@ -836,7 +836,7 @@ fn syntax_highlight_is_a_caller_hook_and_respects_the_tint_audit() {
     let nocolor = render(&diff, Profile::Ansi16, 30, 2);
     assert_eq!(
         nocolor[(2, 1)].fg,
-        Profile::Ansi16.theme().fg(Role::Primary).fg.unwrap()
+        Profile::Ansi16.theme().fg(Role::Accent).fg.unwrap()
     );
 }
 

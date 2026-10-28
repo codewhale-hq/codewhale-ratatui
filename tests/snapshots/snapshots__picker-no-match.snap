@@ -12,7 +12,7 @@ expression: dump(&entry)
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..8 bg=Background reversed
@@ -24,7 +24,7 @@ r3 c20..22 fg=Muted bg=Background
 r3 c22..44 fg=Foreground bg=Background bold
 r3 c44..64 bg=Background
 r4 c0..18 bg=Background
-r4 c18..45 fg=Primary bg=Background
+r4 c18..45 fg=Accent bg=Background
 r4 c45..64 bg=Background
 r5 c0..64 bg=Background
 r6 c0..64 bg=Background
@@ -40,7 +40,7 @@ r7 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..8 bg=Background reversed
@@ -52,7 +52,7 @@ r3 c20..22 fg=Muted bg=Background
 r3 c22..44 fg=Foreground bg=Background bold
 r3 c44..64 bg=Background
 r4 c0..18 bg=Background
-r4 c18..45 fg=Primary bg=Background
+r4 c18..45 fg=Accent bg=Background
 r4 c45..64 bg=Background
 r5 c0..64 bg=Background
 r6 c0..64 bg=Background
@@ -68,7 +68,7 @@ r7 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..8 bg=Background reversed
@@ -80,7 +80,7 @@ r3 c20..22 fg=Muted bg=Background
 r3 c22..44 fg=Foreground bg=Background bold
 r3 c44..64 bg=Background
 r4 c0..18 bg=Background
-r4 c18..45 fg=Primary bg=Background
+r4 c18..45 fg=Accent bg=Background
 r4 c45..64 bg=Background
 r5 c0..64 bg=Background
 r6 c0..64 bg=Background
@@ -96,7 +96,7 @@ r7 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..8 bg=Background reversed
@@ -108,7 +108,7 @@ r3 c20..22 fg=Muted bg=Background
 r3 c22..44 fg=Foreground bg=Background bold
 r3 c44..64 bg=Background
 r4 c0..18 bg=Background
-r4 c18..45 fg=Primary bg=Background
+r4 c18..45 fg=Accent bg=Background
 r4 c45..64 bg=Background
 r5 c0..64 bg=Background
 r6 c0..64 bg=Background
@@ -124,7 +124,7 @@ r7 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background|Surface
+r0 c0..1 fg=Accent bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..7 fg=Foreground bg=Background|Surface
 r0 c7..8 bg=Background|Surface reversed
@@ -136,7 +136,7 @@ r3 c20..22 fg=Muted bg=Background|Surface
 r3 c22..44 fg=Foreground bg=Background|Surface bold
 r3 c44..64 bg=Background|Surface
 r4 c0..18 bg=Background|Surface
-r4 c18..45 fg=Primary bg=Background|Surface
+r4 c18..45 fg=Accent bg=Background|Surface
 r4 c45..64 bg=Background|Surface
 r5 c0..64 bg=Background|Surface
 r6 c0..64 bg=Background|Surface
@@ -152,11 +152,11 @@ r7 c0..64 bg=Background|Surface
 
 
 ---
-r0 c0..1 fg=Primary
+r0 c0..1 fg=Accent
 r0 c7..8 reversed
 r3 c20..22 dim
 r3 c22..44 bold
-r4 c18..45 fg=Primary
+r4 c18..45 fg=Accent
 
 == unknown-ground
 › zebra
@@ -168,11 +168,11 @@ r4 c18..45 fg=Primary
 
 
 ---
-r0 c0..1 fg=Primary
+r0 c0..1 fg=Accent
 r0 c7..8 reversed
 r3 c20..22 dim
 r3 c22..44 bold
-r4 c18..45 fg=Primary
+r4 c18..45 fg=Accent
 
 == no-color
 › zebra

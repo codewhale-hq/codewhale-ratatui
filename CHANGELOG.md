@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Move to Codewhale design tokens 2.3.0. `Primary` is now the neutral ink of
+  filled actions and switches; a new `Accent` role carries the one quiet blue
+  for links, focus and selection (what 1.x called `primary`), so components
+  that drew links or focus in `Primary` now use `Accent`. The diff tints come
+  from the tokens' `diff_add` / `diff_remove`; `ocean_depth` has no role.
+  `Role::COUNT` is 19. The 16 named TUI palettes give `Primary` and `Accent`
+  the same blue, so a host on a named palette sees no colour change.
+  `ansi16` maps `Accent` to `Blue`. Snapshots, README boards and animations
+  are regenerated.
 - Keep `DotWhale` dense in large panes. Its scale is capped at 32 braille dots
   (about four lit dots per cell, as at 80x18), and the whale and caption are
   centred together. Each cell takes the colour and alpha of its strongest dot

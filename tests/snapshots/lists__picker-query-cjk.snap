@@ -9,17 +9,17 @@ expression: "testing::snapshot(5, paint_picker_query_cjk)"
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..4 fg=Foreground bg=Background
 r0 c4..6 fg=Foreground bg=Background reversed
 r0 c6..37 bg=Background
 r0 c37..40 fg=Hint bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..4 fg=Foreground bg=Selected bold
-r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c4..6 fg=Accent bg=Selected bold underline
 r1 c6..8 fg=Foreground bg=Selected bold
-r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c8..10 fg=Accent bg=Selected bold underline
 r1 c10..20 fg=Muted bg=Selected
 r1 c20..40 bg=Selected
 r2 c0..40 bg=Background
@@ -33,17 +33,17 @@ r4 c0..40 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..4 fg=Foreground bg=Background
 r0 c4..6 fg=Foreground bg=Background reversed
 r0 c6..77 bg=Background
 r0 c77..80 fg=Hint bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..4 fg=Foreground bg=Selected bold
-r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c4..6 fg=Accent bg=Selected bold underline
 r1 c6..8 fg=Foreground bg=Selected bold
-r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c8..10 fg=Accent bg=Selected bold underline
 r1 c10..20 fg=Muted bg=Selected
 r1 c20..80 bg=Selected
 r2 c0..80 bg=Background
@@ -57,17 +57,17 @@ r4 c0..80 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background
+r0 c0..1 fg=Accent bg=Background
 r0 c1..2 bg=Background
 r0 c2..4 fg=Foreground bg=Background
 r0 c4..6 fg=Foreground bg=Background reversed
 r0 c6..117 bg=Background
 r0 c117..120 fg=Hint bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..4 fg=Foreground bg=Selected bold
-r1 c4..6 fg=Primary bg=Selected bold underline
+r1 c4..6 fg=Accent bg=Selected bold underline
 r1 c6..8 fg=Foreground bg=Selected bold
-r1 c8..10 fg=Primary bg=Selected bold underline
+r1 c8..10 fg=Accent bg=Selected bold underline
 r1 c10..20 fg=Muted bg=Selected
 r1 c20..120 bg=Selected
 r2 c0..120 bg=Background

@@ -69,7 +69,7 @@ r0 c104..112 bg=Background|DiffAddedTint
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..30 fg=Muted|Hint|Dim
-r0 c30..34 fg=Primary
+r0 c30..34 fg=Primary|Accent
 r0 c34..43 fg=Muted|Hint|Dim
 r0 c43..57 fg=Live
 r0 c57..60 fg=Muted|Hint|Dim
@@ -83,7 +83,7 @@ r0 c85..104 fg=Muted|Hint|Dim
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..30 dim
-r0 c30..34 fg=Primary
+r0 c30..34 fg=Accent
 r0 c34..43 dim
 r0 c43..57 fg=Live
 r0 c57..60 dim
@@ -97,7 +97,7 @@ r0 c85..104 dim
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..30 dim
-r0 c30..34 fg=Primary
+r0 c30..34 fg=Accent
 r0 c34..43 dim
 r0 c43..57 fg=Live
 r0 c57..60 dim

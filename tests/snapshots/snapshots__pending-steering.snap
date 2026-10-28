@@ -13,27 +13,27 @@ r0 c0..10 fg=Live bg=Background
 r0 c10..13 fg=BorderStrong bg=Background
 r0 c13..22 fg=Attention bg=Background
 r0 c22..40 bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..3 fg=Attention bg=Selected
 r1 c3..4 bg=Selected
 r1 c4..11 fg=Attention bg=Selected bold
 r1 c11..13 fg=BorderStrong bg=Selected
 r1 c13..19 fg=Muted bg=Selected
 r1 c19..40 fg=Foreground bg=Selected
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..3 fg=Live bg=Background
 r2 c3..4 bg=Background
 r2 c4..12 fg=Live bg=Background bold
 r2 c12..14 fg=BorderStrong bg=Background
 r2 c14..40 fg=Foreground bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..3 fg=Live bg=Background
 r3 c3..4 bg=Background
 r3 c4..12 fg=Live bg=Background bold
 r3 c12..14 fg=BorderStrong bg=Background
 r3 c14..21 fg=Muted bg=Background
 r3 c21..40 fg=Foreground bg=Background
-r4 c0..22 fg=Primary bg=Background
+r4 c0..22 fg=Accent bg=Background
 r4 c22..40 bg=Background
 
 == dark-graphite
@@ -47,27 +47,27 @@ r0 c0..10 fg=Live bg=Background
 r0 c10..13 fg=BorderStrong bg=Background
 r0 c13..22 fg=Attention bg=Background
 r0 c22..40 bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..3 fg=Attention bg=Selected
 r1 c3..4 bg=Selected
 r1 c4..11 fg=Attention bg=Selected bold
 r1 c11..13 fg=BorderStrong bg=Selected
 r1 c13..19 fg=Muted bg=Selected
 r1 c19..40 fg=Foreground bg=Selected
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..3 fg=Live bg=Background
 r2 c3..4 bg=Background
 r2 c4..12 fg=Live bg=Background bold
 r2 c12..14 fg=BorderStrong bg=Background
 r2 c14..40 fg=Foreground bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..3 fg=Live bg=Background
 r3 c3..4 bg=Background
 r3 c4..12 fg=Live bg=Background bold
 r3 c12..14 fg=BorderStrong bg=Background
 r3 c14..21 fg=Muted bg=Background
 r3 c21..40 fg=Foreground bg=Background
-r4 c0..22 fg=Primary bg=Background
+r4 c0..22 fg=Accent bg=Background
 r4 c22..40 bg=Background
 
 == light-truecolor
@@ -81,27 +81,27 @@ r0 c0..10 fg=Live bg=Background
 r0 c10..13 fg=BorderStrong bg=Background
 r0 c13..22 fg=Attention bg=Background
 r0 c22..40 bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..3 fg=Attention bg=Selected
 r1 c3..4 bg=Selected
 r1 c4..11 fg=Attention bg=Selected bold
 r1 c11..13 fg=BorderStrong bg=Selected
 r1 c13..19 fg=Muted bg=Selected
 r1 c19..40 fg=Foreground bg=Selected
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..3 fg=Live bg=Background
 r2 c3..4 bg=Background
 r2 c4..12 fg=Live bg=Background bold
 r2 c12..14 fg=BorderStrong bg=Background
 r2 c14..40 fg=Foreground bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..3 fg=Live bg=Background
 r3 c3..4 bg=Background
 r3 c4..12 fg=Live bg=Background bold
 r3 c12..14 fg=BorderStrong bg=Background
 r3 c14..21 fg=Muted bg=Background
 r3 c21..40 fg=Foreground bg=Background
-r4 c0..22 fg=Primary bg=Background
+r4 c0..22 fg=Accent bg=Background
 r4 c22..40 bg=Background
 
 == dark-256
@@ -115,27 +115,27 @@ r0 c0..10 fg=Live bg=Background
 r0 c10..13 fg=BorderStrong bg=Background
 r0 c13..22 fg=Attention bg=Background
 r0 c22..40 bg=Background
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..3 fg=Attention bg=Selected
 r1 c3..4 bg=Selected
 r1 c4..11 fg=Attention bg=Selected bold
 r1 c11..13 fg=BorderStrong bg=Selected
 r1 c13..19 fg=Muted bg=Selected
 r1 c19..40 fg=Foreground bg=Selected
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..3 fg=Live bg=Background
 r2 c3..4 bg=Background
 r2 c4..12 fg=Live bg=Background bold
 r2 c12..14 fg=BorderStrong bg=Background
 r2 c14..40 fg=Foreground bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..3 fg=Live bg=Background
 r3 c3..4 bg=Background
 r3 c4..12 fg=Live bg=Background bold
 r3 c12..14 fg=BorderStrong bg=Background
 r3 c14..21 fg=Muted bg=Background
 r3 c21..40 fg=Foreground bg=Background
-r4 c0..22 fg=Primary bg=Background
+r4 c0..22 fg=Accent bg=Background
 r4 c22..40 bg=Background
 
 == light-256
@@ -149,27 +149,27 @@ r0 c0..10 fg=Live bg=Background|Surface
 r0 c10..13 fg=BorderStrong bg=Background|Surface
 r0 c13..22 fg=Attention bg=Background|Surface
 r0 c22..40 bg=Background|Surface
-r1 c0..2 fg=Primary bg=Selected
+r1 c0..2 fg=Accent bg=Selected
 r1 c2..3 fg=Attention bg=Selected
 r1 c3..4 bg=Selected
 r1 c4..11 fg=Attention bg=Selected bold
 r1 c11..13 fg=BorderStrong bg=Selected
 r1 c13..19 fg=Muted bg=Selected
 r1 c19..40 fg=Foreground bg=Selected
-r2 c0..2 fg=Primary bg=Background|Surface
+r2 c0..2 fg=Accent bg=Background|Surface
 r2 c2..3 fg=Live bg=Background|Surface
 r2 c3..4 bg=Background|Surface
 r2 c4..12 fg=Live bg=Background|Surface bold
 r2 c12..14 fg=BorderStrong bg=Background|Surface
 r2 c14..40 fg=Foreground bg=Background|Surface
-r3 c0..2 fg=Primary bg=Background|Surface
+r3 c0..2 fg=Accent bg=Background|Surface
 r3 c2..3 fg=Live bg=Background|Surface
 r3 c3..4 bg=Background|Surface
 r3 c4..12 fg=Live bg=Background|Surface bold
 r3 c12..14 fg=BorderStrong bg=Background|Surface
 r3 c14..21 fg=Muted bg=Background|Surface
 r3 c21..40 fg=Foreground bg=Background|Surface
-r4 c0..22 fg=Primary bg=Background|Surface
+r4 c0..22 fg=Accent bg=Background|Surface
 r4 c22..40 bg=Background|Surface
 
 == ansi-16
@@ -181,18 +181,18 @@ Send now / Edit / Drop
 ---
 r0 c0..10 fg=Live
 r0 c13..22 fg=Attention
-r1 c0..2 fg=Primary
+r1 c0..2 fg=Accent
 r1 c2..3 fg=Attention
 r1 c4..11 fg=Attention bold
 r1 c13..19 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c2..3 fg=Live
 r2 c4..12 fg=Live bold
-r3 c0..2 fg=Primary
+r3 c0..2 fg=Accent
 r3 c2..3 fg=Live
 r3 c4..12 fg=Live bold
 r3 c14..21 dim
-r4 c0..22 fg=Primary
+r4 c0..22 fg=Accent
 
 == unknown-ground
 2 steering · 1 editing
@@ -203,18 +203,18 @@ Send now / Edit / Drop
 ---
 r0 c0..10 fg=Live
 r0 c13..22 fg=Attention
-r1 c0..2 fg=Primary
+r1 c0..2 fg=Accent
 r1 c2..3 fg=Attention
 r1 c4..11 fg=Attention bold
 r1 c13..19 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c2..3 fg=Live
 r2 c4..12 fg=Live bold
-r3 c0..2 fg=Primary
+r3 c0..2 fg=Accent
 r3 c2..3 fg=Live
 r3 c4..12 fg=Live bold
 r3 c14..21 dim
-r4 c0..22 fg=Primary
+r4 c0..22 fg=Accent
 
 == no-color
 2 steering · 1 editing

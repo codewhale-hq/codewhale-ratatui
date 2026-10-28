@@ -399,7 +399,7 @@ r10 c79..85 fg=Danger bg=Background|DiffAddedTint
 r10 c85..104 fg=Foreground bg=Background|DiffAddedTint
 r11 c0..104 fg=Foreground bg=Background|DiffAddedTint
 r12 c0..1 fg=Foreground bg=Background|DiffAddedTint
-r12 c1..5 fg=Primary bg=Background|DiffAddedTint
+r12 c1..5 fg=Primary|Accent bg=Background|DiffAddedTint
 r12 c5..35 fg=Foreground bg=Background|DiffAddedTint
 r12 c35..39 fg=Attention bg=Background|DiffAddedTint
 r12 c39..70 fg=Foreground bg=Background|DiffAddedTint
@@ -511,7 +511,7 @@ r10 c79..85 fg=Danger bg=Background|DiffAddedTint
 r10 c85..104 fg=Foreground bg=Background|DiffAddedTint
 r11 c0..104 fg=Foreground bg=Background|DiffAddedTint
 r12 c0..1 fg=Foreground bg=Background|DiffAddedTint
-r12 c1..5 fg=Primary bg=Background|DiffAddedTint
+r12 c1..5 fg=Primary|Accent bg=Background|DiffAddedTint
 r12 c5..35 fg=Foreground bg=Background|DiffAddedTint
 r12 c35..39 fg=Attention bg=Background|DiffAddedTint
 r12 c39..70 fg=Foreground bg=Background|DiffAddedTint
@@ -594,9 +594,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention
@@ -650,9 +650,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention

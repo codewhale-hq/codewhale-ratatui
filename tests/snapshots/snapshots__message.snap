@@ -13,12 +13,12 @@ expression: dump(&entry)
 
 
 ---
-r0 c0..1 fg=Primary bg=Background bold
+r0 c0..1 fg=Accent bg=Background bold
 r0 c1..2 bg=Background
 r0 c2..37 fg=Foreground bg=Background
 r0 c37..64 bg=Background
 r1 c0..64 bg=Background
-r2 c0..1 fg=Primary bg=Background bold
+r2 c0..1 fg=Accent bg=Background bold
 r2 c1..2 bg=Background
 r2 c2..54 fg=Foreground bg=Background
 r2 c54..64 bg=Background
@@ -43,12 +43,12 @@ r8 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background bold
+r0 c0..1 fg=Accent bg=Background bold
 r0 c1..2 bg=Background
 r0 c2..37 fg=Foreground bg=Background
 r0 c37..64 bg=Background
 r1 c0..64 bg=Background
-r2 c0..1 fg=Primary bg=Background bold
+r2 c0..1 fg=Accent bg=Background bold
 r2 c1..2 bg=Background
 r2 c2..54 fg=Foreground bg=Background
 r2 c54..64 bg=Background
@@ -73,12 +73,12 @@ r8 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background bold
+r0 c0..1 fg=Accent bg=Background bold
 r0 c1..2 bg=Background
 r0 c2..37 fg=Foreground bg=Background
 r0 c37..64 bg=Background
 r1 c0..64 bg=Background
-r2 c0..1 fg=Primary bg=Background bold
+r2 c0..1 fg=Accent bg=Background bold
 r2 c1..2 bg=Background
 r2 c2..54 fg=Foreground bg=Background
 r2 c54..64 bg=Background
@@ -103,12 +103,12 @@ r8 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background bold
+r0 c0..1 fg=Accent bg=Background bold
 r0 c1..2 bg=Background
 r0 c2..37 fg=Foreground bg=Background
 r0 c37..64 bg=Background
 r1 c0..64 bg=Background
-r2 c0..1 fg=Primary bg=Background bold
+r2 c0..1 fg=Accent bg=Background bold
 r2 c1..2 bg=Background
 r2 c2..54 fg=Foreground bg=Background
 r2 c54..64 bg=Background
@@ -133,12 +133,12 @@ r8 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Primary bg=Background|Surface bold
+r0 c0..1 fg=Accent bg=Background|Surface bold
 r0 c1..2 bg=Background|Surface
 r0 c2..37 fg=Foreground bg=Background|Surface
 r0 c37..64 bg=Background|Surface
 r1 c0..64 bg=Background|Surface
-r2 c0..1 fg=Primary bg=Background|Surface bold
+r2 c0..1 fg=Accent bg=Background|Surface bold
 r2 c1..2 bg=Background|Surface
 r2 c2..54 fg=Foreground bg=Background|Surface
 r2 c54..64 bg=Background|Surface
@@ -163,8 +163,8 @@ r8 c0..64 bg=Background|Surface
 
 
 ---
-r0 c0..1 fg=Primary bold
-r2 c0..1 fg=Primary bold
+r0 c0..1 fg=Accent bold
+r2 c0..1 fg=Accent bold
 r3 c0..2 dim
 r4 c0..2 dim
 
@@ -179,8 +179,8 @@ r4 c0..2 dim
 
 
 ---
-r0 c0..1 fg=Primary bold
-r2 c0..1 fg=Primary bold
+r0 c0..1 fg=Accent bold
+r2 c0..1 fg=Accent bold
 r3 c0..2 dim
 r4 c0..2 dim
 

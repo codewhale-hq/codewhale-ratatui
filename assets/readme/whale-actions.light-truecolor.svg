@@ -215,7 +215,7 @@
 <text x="420" y="175" fill="#0d50be" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
 <text x="680" y="175" fill="#0d50be" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
 <text x="690" y="175" fill="#0d50be" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
-<text x="90" y="215" fill="#535451" textLength="10" lengthAdjust="spacingAndGlyphs">○</text>
+<text x="90" y="215" fill="#4f504d" textLength="10" lengthAdjust="spacingAndGlyphs">○</text>
 <text x="110" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">R</text>
 <text x="120" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
 <text x="130" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
@@ -223,7 +223,7 @@
 <text x="150" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
 <text x="160" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">n</text>
 <text x="170" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">g</text>
-<text x="360" y="215" fill="#535451" textLength="10" lengthAdjust="spacingAndGlyphs">○</text>
+<text x="360" y="215" fill="#4f504d" textLength="10" lengthAdjust="spacingAndGlyphs">○</text>
 <text x="380" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">L</text>
 <text x="390" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">i</text>
 <text x="400" y="215" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
@@ -1224,7 +1224,7 @@
 <text x="420" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">u</text>
 <text x="430" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">c</text>
 <text x="440" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">k</text>
-<text x="660" y="1095" fill="#535451" textLength="10" lengthAdjust="spacingAndGlyphs">■</text>
+<text x="660" y="1095" fill="#4f504d" textLength="10" lengthAdjust="spacingAndGlyphs">■</text>
 <text x="680" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">A</text>
 <text x="690" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">s</text>
 <text x="700" y="1095" fill="#28292b" textLength="10" lengthAdjust="spacingAndGlyphs">l</text>

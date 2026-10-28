@@ -10,7 +10,7 @@ Links are metadata; the host dispatches.
 
 ---
 r0 c0..9 fg=Foreground bg=Background
-r0 c9..24 fg=Primary bg=Background underline
+r0 c9..24 fg=Accent bg=Background underline
 r0 c24..38 fg=Foreground bg=Background
 r0 c38..40 bg=Background
 r1 c0..12 fg=Foreground bg=Background
@@ -27,7 +27,7 @@ Links are metadata; the host dispatches.
 
 ---
 r0 c0..9 fg=Foreground bg=Background
-r0 c9..24 fg=Primary bg=Background underline
+r0 c9..24 fg=Accent bg=Background underline
 r0 c24..38 fg=Foreground bg=Background
 r0 c38..40 bg=Background
 r1 c0..12 fg=Foreground bg=Background
@@ -44,7 +44,7 @@ Links are metadata; the host dispatches.
 
 ---
 r0 c0..9 fg=Foreground bg=Background
-r0 c9..24 fg=Primary bg=Background underline
+r0 c9..24 fg=Accent bg=Background underline
 r0 c24..38 fg=Foreground bg=Background
 r0 c38..40 bg=Background
 r1 c0..12 fg=Foreground bg=Background
@@ -61,7 +61,7 @@ Links are metadata; the host dispatches.
 
 ---
 r0 c0..9 fg=Foreground bg=Background
-r0 c9..24 fg=Primary bg=Background underline
+r0 c9..24 fg=Accent bg=Background underline
 r0 c24..38 fg=Foreground bg=Background
 r0 c38..40 bg=Background
 r1 c0..12 fg=Foreground bg=Background
@@ -78,7 +78,7 @@ Links are metadata; the host dispatches.
 
 ---
 r0 c0..9 fg=Foreground bg=Background|Surface
-r0 c9..24 fg=Primary bg=Background|Surface underline
+r0 c9..24 fg=Accent bg=Background|Surface underline
 r0 c24..38 fg=Foreground bg=Background|Surface
 r0 c38..40 bg=Background|Surface
 r1 c0..12 fg=Foreground bg=Background|Surface
@@ -94,7 +94,7 @@ Links are metadata; the host dispatches.
 
 
 ---
-r0 c9..24 fg=Primary underline
+r0 c9..24 fg=Accent underline
 r2 c0..40 dim
 
 == unknown-ground
@@ -104,7 +104,7 @@ Links are metadata; the host dispatches.
 
 
 ---
-r0 c9..24 fg=Primary underline
+r0 c9..24 fg=Accent underline
 r2 c0..40 dim
 
 == no-color

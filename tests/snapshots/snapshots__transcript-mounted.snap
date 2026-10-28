@@ -30,7 +30,7 @@ r3 c51..52 fg=Live bg=Surface
 r4 c0..35 fg=Attention bg=Surface
 r4 c35..51 bg=Surface
 r4 c51..52 fg=Border bg=Surface
-r5 c0..21 fg=Primary bg=Surface underline
+r5 c0..21 fg=Accent bg=Surface underline
 r5 c21..51 bg=Surface
 r5 c51..52 fg=Border bg=Surface
 r6 c0..48 bg=Surface
@@ -70,7 +70,7 @@ r3 c51..52 fg=Live bg=Surface
 r4 c0..35 fg=Attention bg=Surface
 r4 c35..51 bg=Surface
 r4 c51..52 fg=Border bg=Surface
-r5 c0..21 fg=Primary bg=Surface underline
+r5 c0..21 fg=Accent bg=Surface underline
 r5 c21..51 bg=Surface
 r5 c51..52 fg=Border bg=Surface
 r6 c0..48 bg=Surface
@@ -110,7 +110,7 @@ r3 c51..52 fg=Live bg=Surface
 r4 c0..35 fg=Attention bg=Surface
 r4 c35..51 bg=Surface
 r4 c51..52 fg=Border bg=Surface
-r5 c0..21 fg=Primary bg=Surface underline
+r5 c0..21 fg=Accent bg=Surface underline
 r5 c21..51 bg=Surface
 r5 c51..52 fg=Border bg=Surface
 r6 c0..48 bg=Surface
@@ -150,7 +150,7 @@ r3 c51..52 fg=Live bg=Surface|Hover
 r4 c0..35 fg=Attention bg=Surface|Hover
 r4 c35..51 bg=Surface|Hover
 r4 c51..52 fg=Border bg=Surface|Hover
-r5 c0..21 fg=Primary bg=Surface|Hover underline
+r5 c0..21 fg=Accent bg=Surface|Hover underline
 r5 c21..51 bg=Surface|Hover
 r5 c51..52 fg=Border bg=Surface|Hover
 r6 c0..48 bg=Surface|Hover
@@ -190,7 +190,7 @@ r3 c51..52 fg=Live bg=Background|Surface
 r4 c0..35 fg=Attention bg=Background|Surface
 r4 c35..51 bg=Background|Surface
 r4 c51..52 fg=Border bg=Background|Surface
-r5 c0..21 fg=Primary bg=Background|Surface underline
+r5 c0..21 fg=Accent bg=Background|Surface underline
 r5 c21..51 bg=Background|Surface
 r5 c51..52 fg=Border bg=Background|Surface
 r6 c0..48 bg=Background|Surface
@@ -222,7 +222,7 @@ r3 c0..26 fg=Live
 r3 c51..52 fg=Live
 r4 c0..35 fg=Attention
 r4 c51..52 dim
-r5 c0..21 fg=Primary underline
+r5 c0..21 fg=Accent underline
 r5 c51..52 dim
 r6 c48..52 dim
 r7 c48..49 dim
@@ -250,7 +250,7 @@ r3 c0..26 fg=Live
 r3 c51..52 fg=Live
 r4 c0..35 fg=Attention
 r4 c51..52 dim
-r5 c0..21 fg=Primary underline
+r5 c0..21 fg=Accent underline
 r5 c51..52 dim
 r6 c48..52 dim
 r7 c48..49 dim

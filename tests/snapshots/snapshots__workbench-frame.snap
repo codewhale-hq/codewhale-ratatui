@@ -17,7 +17,7 @@ expression: dump(&entry)
   Illustrative workspace / host owns sessions and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..101 fg=Foreground bg=Background
@@ -82,7 +82,7 @@ r11 c57..112 fg=Foreground bg=Sidebar
   Illustrative workspace / host owns sessions and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..101 fg=Foreground bg=Background
@@ -147,7 +147,7 @@ r11 c57..112 fg=Foreground bg=Sidebar
   Illustrative workspace / host owns sessions and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..101 fg=Foreground bg=Background
@@ -212,7 +212,7 @@ r11 c57..112 fg=Foreground bg=Sidebar
   Illustrative workspace / host owns sessions and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..101 fg=Foreground bg=Background
@@ -277,7 +277,7 @@ r11 c57..112 fg=Foreground bg=Sidebar
   Illustrative workspace / host owns sessions and actions
 ---
 r0 c0..2 fg=Foreground bg=Background|Surface
-r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c2..11 fg=Accent bg=Background|Surface bold
 r0 c11..16 fg=BorderStrong bg=Background|Surface
 r0 c16..52 fg=Muted bg=Background|Surface
 r0 c52..101 fg=Foreground bg=Background|Surface
@@ -341,7 +341,7 @@ r11 c57..112 fg=Foreground bg=Sidebar
                                                                            │
   Illustrative workspace / host owns sessions and actions
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c101..110 bold
 r1 c0..112 dim
@@ -376,7 +376,7 @@ r11 c2..57 dim
                                                                            │
   Illustrative workspace / host owns sessions and actions
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c101..110 bold
 r1 c0..112 dim

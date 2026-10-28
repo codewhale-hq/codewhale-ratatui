@@ -22,7 +22,7 @@ r3 c0..12 bg=Background
 r3 c12..28 fg=Muted bg=Background
 r3 c28..40 bg=Background
 r4 c0..13 bg=Background
-r4 c13..27 fg=Primary bg=Background
+r4 c13..27 fg=Accent bg=Background
 r4 c27..40 bg=Background
 r5 c0..40 bg=Background
 
@@ -46,7 +46,7 @@ r3 c0..12 bg=Background
 r3 c12..28 fg=Muted bg=Background
 r3 c28..40 bg=Background
 r4 c0..13 bg=Background
-r4 c13..27 fg=Primary bg=Background
+r4 c13..27 fg=Accent bg=Background
 r4 c27..40 bg=Background
 r5 c0..40 bg=Background
 
@@ -70,7 +70,7 @@ r3 c0..12 bg=Background
 r3 c12..28 fg=Muted bg=Background
 r3 c28..40 bg=Background
 r4 c0..13 bg=Background
-r4 c13..27 fg=Primary bg=Background
+r4 c13..27 fg=Accent bg=Background
 r4 c27..40 bg=Background
 r5 c0..40 bg=Background
 
@@ -94,7 +94,7 @@ r3 c0..12 bg=Background
 r3 c12..28 fg=Muted bg=Background
 r3 c28..40 bg=Background
 r4 c0..13 bg=Background
-r4 c13..27 fg=Primary bg=Background
+r4 c13..27 fg=Accent bg=Background
 r4 c27..40 bg=Background
 r5 c0..40 bg=Background
 
@@ -118,7 +118,7 @@ r3 c0..12 bg=Background|Surface
 r3 c12..28 fg=Muted bg=Background|Surface
 r3 c28..40 bg=Background|Surface
 r4 c0..13 bg=Background|Surface
-r4 c13..27 fg=Primary bg=Background|Surface
+r4 c13..27 fg=Accent bg=Background|Surface
 r4 c27..40 bg=Background|Surface
 r5 c0..40 bg=Background|Surface
 
@@ -134,7 +134,7 @@ r1 c12..14 dim
 r1 c14..28 bold
 r2 c3..36 dim
 r3 c12..28 dim
-r4 c13..27 fg=Primary
+r4 c13..27 fg=Accent
 
 == unknown-ground
 
@@ -148,7 +148,7 @@ r1 c12..14 dim
 r1 c14..28 bold
 r2 c3..36 dim
 r3 c12..28 dim
-r4 c13..27 fg=Primary
+r4 c13..27 fg=Accent
 
 == no-color
 

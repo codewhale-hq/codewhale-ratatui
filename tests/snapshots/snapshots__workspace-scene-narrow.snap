@@ -33,7 +33,7 @@ expression: dump(&entry)
   Illustrative / Tab opens files &…
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..36 fg=Muted bg=Background
 r0 c36..40 fg=Foreground bg=Background
@@ -47,9 +47,9 @@ r4 c2..38 fg=Border bg=Background
 r4 c38..40 fg=Foreground bg=Background
 r5 c0..40 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..40 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -99,10 +99,10 @@ r22 c36..37 fg=#122a57 bg=Background
 r22 c37..38 fg=#0e244f bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
-r23 c2..4 fg=Primary bg=Background
+r23 c2..4 fg=Accent bg=Background
 r23 c4..40 fg=Foreground bg=Background
 r24 c0..2 fg=Foreground bg=Background
-r24 c2..4 fg=Primary bg=Background
+r24 c2..4 fg=Accent bg=Background
 r24 c4..40 fg=Foreground bg=Background
 r25 c0..2 fg=Foreground bg=Background
 r25 c2..7 fg=Foreground bg=Background bold
@@ -153,7 +153,7 @@ r27 c35..40 fg=Foreground bg=Sidebar
   Illustrative / Tab opens files &…
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..36 fg=Muted bg=Background
 r0 c36..40 fg=Foreground bg=Background
@@ -167,9 +167,9 @@ r4 c2..38 fg=Border bg=Background
 r4 c38..40 fg=Foreground bg=Background
 r5 c0..40 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..40 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -219,10 +219,10 @@ r22 c36..37 fg=#2b2c2e bg=Background
 r22 c37..38 fg=#252629 bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
-r23 c2..4 fg=Primary bg=Background
+r23 c2..4 fg=Accent bg=Background
 r23 c4..40 fg=Foreground bg=Background
 r24 c0..2 fg=Foreground bg=Background
-r24 c2..4 fg=Primary bg=Background
+r24 c2..4 fg=Accent bg=Background
 r24 c4..40 fg=Foreground bg=Background
 r25 c0..2 fg=Foreground bg=Background
 r25 c2..7 fg=Foreground bg=Background bold
@@ -273,7 +273,7 @@ r27 c35..40 fg=Foreground bg=Sidebar
   Illustrative / Tab opens files &…
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..36 fg=Muted bg=Background
 r0 c36..40 fg=Foreground bg=Background
@@ -287,9 +287,9 @@ r4 c2..38 fg=Border bg=Background
 r4 c38..40 fg=Foreground bg=Background
 r5 c0..40 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..40 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -339,10 +339,10 @@ r22 c36..37 fg=#edeae6 bg=Background
 r22 c37..38 fg=#f3f1ed bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
-r23 c2..4 fg=Primary bg=Background
+r23 c2..4 fg=Accent bg=Background
 r23 c4..40 fg=Foreground bg=Background
 r24 c0..2 fg=Foreground bg=Background
-r24 c2..4 fg=Primary bg=Background
+r24 c2..4 fg=Accent bg=Background
 r24 c4..40 fg=Foreground bg=Background
 r25 c0..2 fg=Foreground bg=Background
 r25 c2..7 fg=Foreground bg=Background bold
@@ -393,7 +393,7 @@ r27 c35..40 fg=Foreground bg=Sidebar
   Illustrative / Tab opens files &…
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..36 fg=Muted bg=Background
 r0 c36..40 fg=Foreground bg=Background
@@ -407,9 +407,9 @@ r4 c2..38 fg=Border bg=Background
 r4 c38..40 fg=Foreground bg=Background
 r5 c0..40 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..40 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -451,10 +451,10 @@ r22 c0..2 fg=Foreground bg=Background
 r22 c2..38 fg=Border bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
-r23 c2..4 fg=Primary bg=Background
+r23 c2..4 fg=Accent bg=Background
 r23 c4..40 fg=Foreground bg=Background
 r24 c0..2 fg=Foreground bg=Background
-r24 c2..4 fg=Primary bg=Background
+r24 c2..4 fg=Accent bg=Background
 r24 c4..40 fg=Foreground bg=Background
 r25 c0..2 fg=Foreground bg=Background
 r25 c2..7 fg=Foreground bg=Background bold
@@ -505,7 +505,7 @@ r27 c35..40 fg=Foreground bg=Sidebar
   Illustrative / Tab opens files &…
 ---
 r0 c0..2 fg=Foreground bg=Background|Surface
-r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c2..11 fg=Accent bg=Background|Surface bold
 r0 c11..16 fg=BorderStrong bg=Background|Surface
 r0 c16..36 fg=Muted bg=Background|Surface
 r0 c36..40 fg=Foreground bg=Background|Surface
@@ -519,9 +519,9 @@ r4 c2..38 fg=Border bg=Background|Surface
 r4 c38..40 fg=Foreground bg=Background|Surface
 r5 c0..40 fg=Foreground bg=Background|Surface
 r6 c0..2 fg=Foreground bg=Background|Surface
-r6 c2..3 fg=Primary bg=Background|Surface
+r6 c2..3 fg=Accent bg=Background|Surface
 r6 c3..4 fg=Foreground bg=Background|Surface
-r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c4..7 fg=Accent bg=Background|Surface bold
 r6 c7..40 fg=Foreground bg=Background|Surface
 r7 c0..2 fg=Foreground bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
@@ -563,10 +563,10 @@ r22 c0..2 fg=Foreground bg=Background|Surface
 r22 c2..38 fg=Border bg=Background|Surface
 r22 c38..40 fg=Foreground bg=Background|Surface
 r23 c0..2 fg=Foreground bg=Background|Surface
-r23 c2..4 fg=Primary bg=Background|Surface
+r23 c2..4 fg=Accent bg=Background|Surface
 r23 c4..40 fg=Foreground bg=Background|Surface
 r24 c0..2 fg=Foreground bg=Background|Surface
-r24 c2..4 fg=Primary bg=Background|Surface
+r24 c2..4 fg=Accent bg=Background|Surface
 r24 c4..40 fg=Foreground bg=Background|Surface
 r25 c0..2 fg=Foreground bg=Background|Surface
 r25 c2..7 fg=Foreground bg=Background|Surface bold
@@ -616,13 +616,13 @@ r27 c35..40 fg=Foreground bg=Sidebar
   / commands
   Illustrative / Tab opens files &…
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..36 dim
 r1 c0..40 dim
 r3 c2..30 bold
 r4 c2..38 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r7 c2..4 dim
 r8 c2..4 dim
 r10 c4..13 bold
@@ -634,8 +634,8 @@ r15 c2..4 dim
 r16 c2..4 dim
 r21 c22..32 dim
 r22 c2..38 dim
-r23 c2..4 fg=Primary
-r24 c2..4 fg=Primary
+r23 c2..4 fg=Accent
+r24 c2..4 fg=Accent
 r25 c2..7 bold
 r25 c8..15 dim
 r25 c15..18 bold
@@ -674,13 +674,13 @@ r27 c2..35 dim
   / commands
   Illustrative / Tab opens files &…
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..36 dim
 r1 c0..40 dim
 r3 c2..30 bold
 r4 c2..38 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r7 c2..4 dim
 r8 c2..4 dim
 r10 c4..13 bold
@@ -692,8 +692,8 @@ r15 c2..4 dim
 r16 c2..4 dim
 r21 c22..32 dim
 r22 c2..38 dim
-r23 c2..4 fg=Primary
-r24 c2..4 fg=Primary
+r23 c2..4 fg=Accent
+r24 c2..4 fg=Accent
 r25 c2..7 bold
 r25 c8..15 dim
 r25 c15..18 bold

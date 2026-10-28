@@ -10,7 +10,7 @@ Files & review                         4 changed
 r0 c0..14 fg=Foreground bg=Background bold
 r0 c14..39 bg=Background
 r0 c39..48 fg=Muted bg=Background
-r1 c0..1 fg=Primary bg=Background
+r1 c0..1 fg=Accent bg=Background
 r1 c1..48 fg=Border bg=Background
 r2 c0..48 bg=Background
 
@@ -22,7 +22,7 @@ Files & review                         4 changed
 r0 c0..14 fg=Foreground bg=Background bold
 r0 c14..39 bg=Background
 r0 c39..48 fg=Muted bg=Background
-r1 c0..1 fg=Primary bg=Background
+r1 c0..1 fg=Accent bg=Background
 r1 c1..48 fg=Border bg=Background
 r2 c0..48 bg=Background
 
@@ -34,7 +34,7 @@ Files & review                         4 changed
 r0 c0..14 fg=Foreground bg=Background bold
 r0 c14..39 bg=Background
 r0 c39..48 fg=Muted bg=Background
-r1 c0..1 fg=Primary bg=Background
+r1 c0..1 fg=Accent bg=Background
 r1 c1..48 fg=Border bg=Background
 r2 c0..48 bg=Background
 
@@ -46,7 +46,7 @@ Files & review                         4 changed
 r0 c0..14 fg=Foreground bg=Background bold
 r0 c14..39 bg=Background
 r0 c39..48 fg=Muted bg=Background
-r1 c0..1 fg=Primary bg=Background
+r1 c0..1 fg=Accent bg=Background
 r1 c1..48 fg=Border bg=Background
 r2 c0..48 bg=Background
 
@@ -58,7 +58,7 @@ Files & review                         4 changed
 r0 c0..14 fg=Foreground bg=Background|Surface bold
 r0 c14..39 bg=Background|Surface
 r0 c39..48 fg=Muted bg=Background|Surface
-r1 c0..1 fg=Primary bg=Background|Surface
+r1 c0..1 fg=Accent bg=Background|Surface
 r1 c1..48 fg=Border bg=Background|Surface
 r2 c0..48 bg=Background|Surface
 
@@ -69,7 +69,7 @@ Files & review                         4 changed
 ---
 r0 c0..14 bold
 r0 c39..48 dim
-r1 c0..1 fg=Primary dim
+r1 c0..1 fg=Accent dim
 r1 c1..48 dim
 
 == unknown-ground
@@ -79,7 +79,7 @@ Files & review                         4 changed
 ---
 r0 c0..14 bold
 r0 c39..48 dim
-r1 c0..1 fg=Primary dim
+r1 c0..1 fg=Accent dim
 r1 c1..48 dim
 
 == no-color

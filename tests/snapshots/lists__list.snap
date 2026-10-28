@@ -12,7 +12,7 @@ expression: "testing::snapshot(5, paint_list)"
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..7 fg=Foreground bg=Selected bold
 r1 c7..40 bg=Selected
@@ -36,7 +36,7 @@ r4 c7..40 bg=Background
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..80 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..7 fg=Foreground bg=Selected bold
 r1 c7..80 bg=Selected
@@ -60,7 +60,7 @@ r4 c7..80 bg=Background
 r0 c0..2 bg=Background
 r0 c2..7 fg=Foreground bg=Background
 r0 c7..120 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..7 fg=Foreground bg=Selected bold
 r1 c7..120 bg=Selected

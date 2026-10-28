@@ -17,10 +17,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -45,9 +45,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Primary|Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary bg=Selected
+r2 c6..7 fg=Primary|Accent bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -95,27 +95,29 @@ r13 c73..107 fg=Foreground bg=#0c2238
 r13 c107..110 fg=BorderStrong bg=#0c2238
 r13 c110..112 fg=Foreground bg=#0c2238
 r14 c0..33 fg=Foreground bg=#0c2137
-r14 c33..36 fg=Primary bg=#0c2137
+r14 c33..36 fg=Primary|Accent bg=#0c2137
 r14 c36..70 fg=Foreground bg=#0c2137
-r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
 r14 c73..107 fg=Foreground bg=#0c2137
-r14 c107..110 fg=Live bg=#0c2137
+r14 c107..110 fg=Primary|Accent bg=#0c2137
 r14 c110..112 fg=Foreground bg=#0c2137
 r15 c0..33 fg=Foreground bg=#0c2136
-r15 c33..36 fg=Attention bg=#0c2136
+r15 c33..36 fg=Live bg=#0c2136
 r15 c36..70 fg=Foreground bg=#0c2136
-r15 c70..73 fg=Danger bg=#0c2136
+r15 c70..73 fg=Attention bg=#0c2136
 r15 c73..107 fg=Foreground bg=#0c2136
-r15 c107..110 fg=Hint|Dim bg=#0c2136
+r15 c107..110 fg=Danger bg=#0c2136
 r15 c110..112 fg=Foreground bg=#0c2136
 r16 c0..33 fg=Foreground bg=#0b2035
 r16 c33..36 fg=Hint|Dim bg=#0b2035
 r16 c36..70 fg=Foreground bg=#0b2035
-r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c70..73 fg=Hint|Dim bg=#0b2035
 r16 c73..107 fg=Foreground bg=#0b2035
-r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c107..110 fg=Foreground bg=DiffAddedTint
 r16 c110..112 fg=Foreground bg=#0b2035
-r17 c0..112 fg=Foreground bg=#0b1f34
+r17 c0..33 fg=Foreground bg=#0b1f34
+r17 c33..36 fg=Foreground bg=DiffRemovedTint
+r17 c36..112 fg=Foreground bg=#0b1f34
 r18 c0..112 fg=Foreground bg=#0b1f33
 r19 c0..56 fg=Foreground bg=#0a1e32
 r19 c56..83 fg=Foreground bg=Surface
@@ -173,10 +175,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -201,9 +203,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Primary|Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary bg=Selected
+r2 c6..7 fg=Primary|Accent bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -251,27 +253,29 @@ r13 c73..107 fg=Foreground bg=#0c2238
 r13 c107..110 fg=BorderStrong bg=#0c2238
 r13 c110..112 fg=Foreground bg=#0c2238
 r14 c0..33 fg=Foreground bg=#0c2137
-r14 c33..36 fg=Primary bg=#0c2137
+r14 c33..36 fg=Primary|Accent bg=#0c2137
 r14 c36..70 fg=Foreground bg=#0c2137
-r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
 r14 c73..107 fg=Foreground bg=#0c2137
-r14 c107..110 fg=Live bg=#0c2137
+r14 c107..110 fg=Primary|Accent bg=#0c2137
 r14 c110..112 fg=Foreground bg=#0c2137
 r15 c0..33 fg=Foreground bg=#0c2136
-r15 c33..36 fg=Attention bg=#0c2136
+r15 c33..36 fg=Live bg=#0c2136
 r15 c36..70 fg=Foreground bg=#0c2136
-r15 c70..73 fg=Danger bg=#0c2136
+r15 c70..73 fg=Attention bg=#0c2136
 r15 c73..107 fg=Foreground bg=#0c2136
-r15 c107..110 fg=Hint|Dim bg=#0c2136
+r15 c107..110 fg=Danger bg=#0c2136
 r15 c110..112 fg=Foreground bg=#0c2136
 r16 c0..33 fg=Foreground bg=#0b2035
 r16 c33..36 fg=Hint|Dim bg=#0b2035
 r16 c36..70 fg=Foreground bg=#0b2035
-r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c70..73 fg=Hint|Dim bg=#0b2035
 r16 c73..107 fg=Foreground bg=#0b2035
-r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c107..110 fg=Foreground bg=DiffAddedTint
 r16 c110..112 fg=Foreground bg=#0b2035
-r17 c0..112 fg=Foreground bg=#0b1f34
+r17 c0..33 fg=Foreground bg=#0b1f34
+r17 c33..36 fg=Foreground bg=DiffRemovedTint
+r17 c36..112 fg=Foreground bg=#0b1f34
 r18 c0..112 fg=Foreground bg=#0b1f33
 r19 c0..56 fg=Foreground bg=#0a1e32
 r19 c56..83 fg=Foreground bg=Surface
@@ -329,10 +333,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -357,9 +361,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Primary|Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary bg=Selected
+r2 c6..7 fg=Primary|Accent bg=Selected
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted
 r2 c15..18 fg=Foreground
@@ -405,27 +409,29 @@ r13 c73..107 fg=Foreground
 r13 c107..110 fg=BorderStrong
 r13 c110..112 fg=Foreground
 r14 c0..33 fg=Foreground
-r14 c33..36 fg=Primary
+r14 c33..36 fg=Primary|Accent
 r14 c36..70 fg=Foreground
-r14 c70..73 bg=Primary
+r14 c70..73 bg=Primary|Accent
 r14 c73..107 fg=Foreground
-r14 c107..110 fg=Live
+r14 c107..110 fg=Primary|Accent
 r14 c110..112 fg=Foreground
 r15 c0..33 fg=Foreground
-r15 c33..36 fg=Attention
+r15 c33..36 fg=Live
 r15 c36..70 fg=Foreground
-r15 c70..73 fg=Danger
+r15 c70..73 fg=Attention
 r15 c73..107 fg=Foreground
-r15 c107..110 fg=Hint|Dim
+r15 c107..110 fg=Danger
 r15 c110..112 fg=Foreground
 r16 c0..33 fg=Foreground
 r16 c33..36 fg=Hint|Dim
 r16 c36..70 fg=Foreground
-r16 c70..73 fg=Foreground bg=DiffAddedTint
+r16 c70..73 fg=Hint|Dim
 r16 c73..107 fg=Foreground
-r16 c107..110 fg=Foreground bg=DiffRemovedTint
+r16 c107..110 fg=Foreground bg=DiffAddedTint
 r16 c110..112 fg=Foreground
-r17 c0..112 fg=Foreground
+r17 c0..33 fg=Foreground
+r17 c33..36 fg=Foreground bg=DiffRemovedTint
+r17 c36..112 fg=Foreground
 r18 c0..112 fg=Foreground
 r19 c0..112 fg=Foreground
 r20 c0..112 fg=Foreground
@@ -464,10 +470,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -492,9 +498,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Background|DiffAddedTint bold
 r0 c10..112 fg=Foreground bg=Background|DiffAddedTint
 r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Primary|Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary bg=Selected
+r2 c6..7 fg=Primary|Accent bg=Selected
 r2 c7..9 fg=Foreground bg=Background|DiffAddedTint
 r2 c9..15 fg=Muted bg=Background|DiffAddedTint
 r2 c15..18 fg=Foreground bg=Background|DiffAddedTint
@@ -544,25 +550,27 @@ r13 c73..107 fg=Foreground bg=Background|DiffAddedTint
 r13 c107..110 fg=BorderStrong bg=Background|DiffAddedTint
 r13 c110..112 fg=Foreground bg=Background|DiffAddedTint
 r14 c0..33 fg=Foreground bg=Background|DiffAddedTint
-r14 c33..36 fg=Primary bg=Background|DiffAddedTint
+r14 c33..36 fg=Primary|Accent bg=Background|DiffAddedTint
 r14 c36..70 fg=Foreground bg=Background|DiffAddedTint
-r14 c70..73 fg=PrimaryForeground bg=Primary
+r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
 r14 c73..107 fg=Foreground bg=Background|DiffAddedTint
-r14 c107..110 fg=Live bg=Background|DiffAddedTint
+r14 c107..110 fg=Primary|Accent bg=Background|DiffAddedTint
 r14 c110..112 fg=Foreground bg=Background|DiffAddedTint
 r15 c0..33 fg=Foreground bg=Background|DiffAddedTint
-r15 c33..36 fg=Attention bg=Background|DiffAddedTint
+r15 c33..36 fg=Live bg=Background|DiffAddedTint
 r15 c36..70 fg=Foreground bg=Background|DiffAddedTint
-r15 c70..73 fg=Danger bg=Background|DiffAddedTint
+r15 c70..73 fg=Attention bg=Background|DiffAddedTint
 r15 c73..107 fg=Foreground bg=Background|DiffAddedTint
-r15 c107..110 fg=Hint|Dim bg=Background|DiffAddedTint
+r15 c107..110 fg=Danger bg=Background|DiffAddedTint
 r15 c110..112 fg=Foreground bg=Background|DiffAddedTint
 r16 c0..33 fg=Foreground bg=Background|DiffAddedTint
 r16 c33..36 fg=Hint|Dim bg=Background|DiffAddedTint
-r16 c36..107 fg=Foreground bg=Background|DiffAddedTint
-r16 c107..110 fg=Foreground bg=Surface|Hover|DiffRemovedTint
-r16 c110..112 fg=Foreground bg=Background|DiffAddedTint
-r17 c0..112 fg=Foreground bg=Background|DiffAddedTint
+r16 c36..70 fg=Foreground bg=Background|DiffAddedTint
+r16 c70..73 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c73..112 fg=Foreground bg=Background|DiffAddedTint
+r17 c0..33 fg=Foreground bg=Background|DiffAddedTint
+r17 c33..36 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r17 c36..112 fg=Foreground bg=Background|DiffAddedTint
 r18 c0..112 fg=Foreground bg=Background|DiffAddedTint
 r19 c0..27 fg=Foreground bg=Sidebar
 r19 c27..56 fg=Foreground bg=Background|DiffAddedTint
@@ -611,10 +619,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -639,9 +647,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c0..1 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c1..6 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
-r2 c6..7 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c6..7 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted|Hint|Dim
 r2 c15..18 fg=Foreground
@@ -687,27 +695,29 @@ r13 c73..107 fg=Foreground
 r13 c107..110 fg=BorderStrong
 r13 c110..112 fg=Foreground
 r14 c0..33 fg=Foreground
-r14 c33..36 fg=Primary
+r14 c33..36 fg=Primary|Accent
 r14 c36..70 fg=Foreground
-r14 c70..73 bg=Primary
+r14 c70..73 bg=Primary|Accent
 r14 c73..107 fg=Foreground
-r14 c107..110 fg=Live
+r14 c107..110 fg=Primary|Accent
 r14 c110..112 fg=Foreground
 r15 c0..33 fg=Foreground
-r15 c33..36 fg=Attention
+r15 c33..36 fg=Live
 r15 c36..70 fg=Foreground
-r15 c70..73 fg=Danger
+r15 c70..73 fg=Attention
 r15 c73..107 fg=Foreground
-r15 c107..110 fg=Muted|Hint|Dim
+r15 c107..110 fg=Danger
 r15 c110..112 fg=Foreground
 r16 c0..33 fg=Foreground
 r16 c33..36 fg=Muted|Hint|Dim
 r16 c36..70 fg=Foreground
-r16 c70..73 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r16 c70..73 fg=Muted|Hint|Dim
 r16 c73..107 fg=Foreground
 r16 c107..110 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r16 c110..112 fg=Foreground
-r17 c0..112 fg=Foreground
+r17 c0..33 fg=Foreground
+r17 c33..36 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c36..112 fg=Foreground
 r18 c0..112 fg=Foreground
 r19 c0..112 fg=Foreground
 r20 c0..112 fg=Foreground
@@ -746,10 +756,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -772,9 +782,9 @@ Deep                        Stage                       Raised                  
 
 ---
 r0 c0..10 bold
-r2 c0..1 fg=Primary
+r2 c0..1 fg=Accent
 r2 c1..6 bold underline
-r2 c6..7 fg=Primary
+r2 c6..7 fg=Accent
 r2 c9..15 dim
 r2 c18..22 dim
 r2 c25..30 dim
@@ -787,12 +797,12 @@ r8 c1..9 dim
 r8 c12..20 bold underline
 r13 c33..36 dim
 r13 c70..73 dim
-r14 c33..36 fg=Primary
-r14 c107..110 fg=Live
-r15 c33..36 fg=Attention
-r15 c70..73 fg=Danger
-r15 c107..110 dim
+r14 c107..110 fg=Accent
+r15 c33..36 fg=Live
+r15 c70..73 fg=Attention
+r15 c107..110 fg=Danger
 r16 c33..36 dim
+r16 c70..73 dim
 r22 c0..112 dim
 
 == unknown-ground
@@ -810,10 +820,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -836,9 +846,9 @@ Deep                        Stage                       Raised                  
 
 ---
 r0 c0..10 bold
-r2 c0..1 fg=Primary
+r2 c0..1 fg=Accent
 r2 c1..6 bold underline
-r2 c6..7 fg=Primary
+r2 c6..7 fg=Accent
 r2 c9..15 dim
 r2 c18..22 dim
 r2 c25..30 dim
@@ -851,12 +861,12 @@ r8 c1..9 dim
 r8 c12..20 bold underline
 r13 c33..36 dim
 r13 c70..73 dim
-r14 c33..36 fg=Primary
-r14 c107..110 fg=Live
-r15 c33..36 fg=Attention
-r15 c70..73 fg=Danger
-r15 c107..110 dim
+r14 c107..110 fg=Accent
+r15 c33..36 fg=Live
+r15 c70..73 fg=Attention
+r15 c107..110 fg=Danger
 r16 c33..36 dim
+r16 c70..73 dim
 r22 c0..112 dim
 
 == no-color
@@ -874,10 +884,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -913,8 +923,8 @@ r8 c1..9 dim
 r8 c12..20 bold underline
 r13 c33..36 dim
 r13 c70..73 dim
-r15 c107..110 dim
 r16 c33..36 dim
+r16 c70..73 dim
 r22 c0..112 dim
 
 == ascii
@@ -932,10 +942,10 @@ Profile dark-truecolor / Left, Right
 Sidebar                           Aa Background                        Aa Surface                           Aa
 Hover                             Aa Selected                          Aa Foreground                        Aa
 Muted                             Aa Border                            Aa BorderStrong                      Aa
-Primary                           Aa PrimaryForeground                 Aa Live                              Aa
-Attention                         Aa Danger                            Aa Hint                              Aa
-Dim                               Aa DiffAddedTint                     Aa DiffRemovedTint                   Aa
-
+Primary                           Aa PrimaryForeground                 Aa Accent                            Aa
+Live                              Aa Attention                         Aa Danger                            Aa
+Hint                              Aa Dim                               Aa DiffAddedTint                     Aa
+DiffRemovedTint                   Aa
 
 Deep                        Stage                       Raised                      Overlay
 
@@ -971,6 +981,6 @@ r8 c1..9 dim
 r8 c12..20 bold underline
 r13 c33..36 dim
 r13 c70..73 dim
-r15 c107..110 dim
 r16 c33..36 dim
+r16 c70..73 dim
 r22 c0..112 dim

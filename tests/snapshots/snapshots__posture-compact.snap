@@ -11,7 +11,7 @@ r0 c6..9 fg=Hint|Dim bg=Background
 r0 c9..13 fg=#7eb4e8 bg=Background
 r0 c13..19 fg=Hint|Dim bg=Background
 r0 c19..82 bg=Background
-r0 c82..95 fg=Primary bg=Background
+r0 c82..95 fg=Primary|Accent bg=Background
 r0 c95..96 bg=Background
 
 == dark-graphite
@@ -23,7 +23,7 @@ r0 c6..9 fg=Hint|Dim bg=Background
 r0 c9..13 fg=#7eb4e8 bg=Background
 r0 c13..19 fg=Hint|Dim bg=Background
 r0 c19..82 bg=Background
-r0 c82..95 fg=Primary bg=Background
+r0 c82..95 fg=Primary|Accent bg=Background
 r0 c95..96 bg=Background
 
 == light-truecolor
@@ -33,7 +33,7 @@ r0 c1..6 fg=#92400e bold
 r0 c6..9 fg=Hint|Dim
 r0 c9..13 fg=#1636b2
 r0 c13..19 fg=Hint|Dim
-r0 c82..95 fg=Primary
+r0 c82..95 fg=Primary|Accent
 
 == dark-256
  ● ask   work (Tab)                                                               /rc connected
@@ -44,7 +44,7 @@ r0 c6..9 fg=Hint|Dim bg=Background|DiffAddedTint
 r0 c9..13 fg=idx110 bg=Background|DiffAddedTint
 r0 c13..19 fg=Hint|Dim bg=Background|DiffAddedTint
 r0 c19..82 bg=Background|DiffAddedTint
-r0 c82..95 fg=Primary bg=Background|DiffAddedTint
+r0 c82..95 fg=Primary|Accent bg=Background|DiffAddedTint
 r0 c95..96 bg=Background|DiffAddedTint
 
 == light-256
@@ -52,27 +52,27 @@ r0 c95..96 bg=Background|DiffAddedTint
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..9 fg=Muted|Hint|Dim
-r0 c9..13 fg=Primary
+r0 c9..13 fg=Primary|Accent
 r0 c13..19 fg=Muted|Hint|Dim
-r0 c82..95 fg=Primary
+r0 c82..95 fg=Primary|Accent
 
 == ansi-16
  ● ask   work (Tab)                                                               /rc connected
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..9 dim
-r0 c9..13 fg=Primary
+r0 c9..13 fg=Accent
 r0 c13..19 dim
-r0 c82..95 fg=Primary
+r0 c82..95 fg=Accent
 
 == unknown-ground
  ● ask   work (Tab)                                                               /rc connected
 ---
 r0 c1..6 fg=Attention bold
 r0 c6..9 dim
-r0 c9..13 fg=Primary
+r0 c9..13 fg=Accent
 r0 c13..19 dim
-r0 c82..95 fg=Primary
+r0 c82..95 fg=Accent
 
 == no-color
  ● ask   work (Tab)                                                               /rc connected

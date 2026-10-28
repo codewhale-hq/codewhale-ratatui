@@ -14,7 +14,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bg=Background bold
+r0 c0..13 fg=Accent bg=Background bold
 r0 c13..40 bg=Background
 r1 c0..4 fg=Foreground bg=Background
 r1 c4..11 fg=Foreground bg=Background bold
@@ -51,7 +51,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bg=Background bold
+r0 c0..13 fg=Accent bg=Background bold
 r0 c13..40 bg=Background
 r1 c0..4 fg=Foreground bg=Background
 r1 c4..11 fg=Foreground bg=Background bold
@@ -88,7 +88,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bg=Background bold
+r0 c0..13 fg=Accent bg=Background bold
 r0 c13..40 bg=Background
 r1 c0..4 fg=Foreground bg=Background
 r1 c4..11 fg=Foreground bg=Background bold
@@ -125,7 +125,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bg=Background bold
+r0 c0..13 fg=Accent bg=Background bold
 r0 c13..40 bg=Background
 r1 c0..4 fg=Foreground bg=Background
 r1 c4..11 fg=Foreground bg=Background bold
@@ -162,7 +162,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bg=Background|Surface bold
+r0 c0..13 fg=Accent bg=Background|Surface bold
 r0 c13..40 bg=Background|Surface
 r1 c0..4 fg=Foreground bg=Background|Surface
 r1 c4..11 fg=Foreground bg=Background|Surface bold
@@ -199,7 +199,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bold
+r0 c0..13 fg=Accent bold
 r1 c4..11 bold
 r2 c0..7 italic
 r3 c0..19 fg=Live
@@ -221,7 +221,7 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Primary bold
+r0 c0..13 fg=Accent bold
 r1 c4..11 bold
 r2 c0..7 italic
 r3 c0..19 fg=Live

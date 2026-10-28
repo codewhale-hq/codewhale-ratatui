@@ -8,7 +8,7 @@ Release checklist.md                                                        Open
 ---
 r0 c0..20 fg=Foreground bg=Background
 r0 c20..76 bg=Background
-r0 c76..80 fg=Primary bg=Background
+r0 c76..80 fg=Accent bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
 r1 c2..6 fg=Foreground bg=Background
@@ -27,7 +27,7 @@ Release checklist.md                                                        Open
 ---
 r0 c0..20 fg=Foreground bg=Background
 r0 c20..76 bg=Background
-r0 c76..80 fg=Primary bg=Background
+r0 c76..80 fg=Accent bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
 r1 c2..6 fg=Foreground bg=Background
@@ -46,7 +46,7 @@ Release checklist.md                                                        Open
 ---
 r0 c0..20 fg=Foreground bg=Background
 r0 c20..76 bg=Background
-r0 c76..80 fg=Primary bg=Background
+r0 c76..80 fg=Accent bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
 r1 c2..6 fg=Foreground bg=Background
@@ -65,7 +65,7 @@ Release checklist.md                                                        Open
 ---
 r0 c0..20 fg=Foreground bg=Background
 r0 c20..76 bg=Background
-r0 c76..80 fg=Primary bg=Background
+r0 c76..80 fg=Accent bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
 r1 c2..6 fg=Foreground bg=Background
@@ -84,7 +84,7 @@ Release checklist.md                                                        Open
 ---
 r0 c0..20 fg=Foreground bg=Background|Surface
 r0 c20..76 bg=Background|Surface
-r0 c76..80 fg=Primary bg=Background|Surface
+r0 c76..80 fg=Accent bg=Background|Surface
 r1 c0..1 fg=Live bg=Background|Surface
 r1 c1..2 bg=Background|Surface
 r1 c2..6 fg=Foreground bg=Background|Surface
@@ -101,7 +101,7 @@ r1 c56..80 bg=Background|Surface
 Release checklist.md                                                        Open
 ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
 ---
-r0 c76..80 fg=Primary
+r0 c76..80 fg=Accent
 r1 c0..1 fg=Live
 r1 c6..21 dim
 r1 c28..56 dim
@@ -110,7 +110,7 @@ r1 c28..56 dim
 Release checklist.md                                                        Open
 ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
 ---
-r0 c76..80 fg=Primary
+r0 c76..80 fg=Accent
 r1 c0..1 fg=Live
 r1 c6..21 dim
 r1 c28..56 dim

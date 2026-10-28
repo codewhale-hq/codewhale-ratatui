@@ -14,7 +14,7 @@ r0 c2..7 fg=Foreground bg=Background
 r0 c7..24 bg=Background
 r0 c24..51 fg=Muted bg=Background
 r0 c51..64 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..8 fg=Foreground bg=Selected bold
 r1 c8..24 bg=Selected
@@ -48,7 +48,7 @@ r0 c2..7 fg=Foreground bg=Background
 r0 c7..24 bg=Background
 r0 c24..51 fg=Muted bg=Background
 r0 c51..64 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..8 fg=Foreground bg=Selected bold
 r1 c8..24 bg=Selected
@@ -82,7 +82,7 @@ r0 c2..7 fg=Foreground bg=Background
 r0 c7..24 bg=Background
 r0 c24..51 fg=Muted bg=Background
 r0 c51..64 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..8 fg=Foreground bg=Selected bold
 r1 c8..24 bg=Selected
@@ -116,7 +116,7 @@ r0 c2..7 fg=Foreground bg=Background
 r0 c7..24 bg=Background
 r0 c24..51 fg=Muted bg=Background
 r0 c51..64 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..8 fg=Foreground bg=Selected bold
 r1 c8..24 bg=Selected
@@ -150,7 +150,7 @@ r0 c2..7 fg=Foreground bg=Background|Surface
 r0 c7..24 bg=Background|Surface
 r0 c24..51 fg=Muted bg=Background|Surface
 r0 c51..64 bg=Background|Surface
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..8 fg=Foreground bg=Selected bold
 r1 c8..24 bg=Selected
@@ -180,7 +180,7 @@ r4 c31..64 bg=Background|Surface
   Language              English
 ---
 r0 c24..51 dim
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..8 bold
 r1 c24..28 dim
 r2 c24..35 dim
@@ -196,7 +196,7 @@ r4 c24..31 dim
   Language              English
 ---
 r0 c24..51 dim
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..8 bold
 r1 c24..28 dim
 r2 c24..35 dim

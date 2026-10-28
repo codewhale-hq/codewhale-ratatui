@@ -23,10 +23,10 @@ r0 c60..61 fg=#152e5e bg=Background
 r0 c61..62 fg=#132b59 bg=Background
 r0 c62..63 fg=#102753 bg=Background
 r0 c63..64 fg=#0d234d bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..49 fg=Foreground bg=Background
 r2 c49..64 bg=Background
 r3 c0..64 bg=Background
@@ -64,10 +64,10 @@ r0 c60..61 fg=#2f3033 bg=Background
 r0 c61..62 fg=#2c2d2f bg=Background
 r0 c62..63 fg=#28292b bg=Background
 r0 c63..64 fg=#242527 bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..49 fg=Foreground bg=Background
 r2 c49..64 bg=Background
 r3 c0..64 bg=Background
@@ -105,10 +105,10 @@ r0 c60..61 fg=#e7e4df bg=Background
 r0 c61..62 fg=#ece9e5 bg=Background
 r0 c62..63 fg=#f1eeea bg=Background
 r0 c63..64 fg=#f5f3f0 bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..49 fg=Foreground bg=Background
 r2 c49..64 bg=Background
 r3 c0..64 bg=Background
@@ -135,10 +135,10 @@ Enter send · Shift+Enter new line · Ctrl+O details
 r0 c0..6 fg=Border bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..64 fg=Border bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..49 fg=Foreground bg=Background
 r2 c49..64 bg=Background
 r3 c0..64 bg=Background
@@ -165,10 +165,10 @@ Enter send · Shift+Enter new line · Ctrl+O details
 r0 c0..6 fg=Border bg=Background|Surface
 r0 c6..32 fg=Muted bg=Background|Surface
 r0 c32..64 fg=Border bg=Background|Surface
-r1 c0..2 fg=Primary bg=Background|Surface
+r1 c0..2 fg=Accent bg=Background|Surface
 r1 c2..53 fg=Foreground bg=Background|Surface
 r1 c53..64 bg=Background|Surface
-r2 c0..2 fg=Primary bg=Background|Surface
+r2 c0..2 fg=Accent bg=Background|Surface
 r2 c2..49 fg=Foreground bg=Background|Surface
 r2 c49..64 bg=Background|Surface
 r3 c0..64 bg=Background|Surface
@@ -193,8 +193,8 @@ r4 c50..64 bg=Background|Surface
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
 r0 c0..64 dim
-r1 c0..2 fg=Primary
-r2 c0..2 fg=Primary
+r1 c0..2 fg=Accent
+r2 c0..2 fg=Accent
 r4 c0..5 bold
 r4 c6..13 dim
 r4 c13..24 bold
@@ -210,8 +210,8 @@ r4 c43..50 dim
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
 r0 c0..64 dim
-r1 c0..2 fg=Primary
-r2 c0..2 fg=Primary
+r1 c0..2 fg=Accent
+r2 c0..2 fg=Accent
 r4 c0..5 bold
 r4 c6..13 dim
 r4 c13..24 bold

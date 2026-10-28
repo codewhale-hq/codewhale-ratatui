@@ -12,10 +12,10 @@
 //!   contrast rules (the same pairs `generate.py` enforces in truecolor),
 //!   moves the ink to the nearest index that holds them. Grounds are never
 //!   moved, except the diff tints, which need a hue the gray ramp lacks.
-//! - four roles the tokens do not name, derived from tokens that they do:
-//!   `Hint` and `Dim` (`muted_foreground` receded toward `background`) and
-//!   the diff tints (`live` / `danger` at 16% over `background`). See
-//!   [`DERIVED`].
+//! - two roles the tokens do not name, derived from one that they do:
+//!   `Hint` and `Dim` (`muted_foreground` receded toward `background`).
+//!   See [`DERIVED`]. `ocean_depth` equals `background` in both appearances
+//!   and has no role of its own ([`UNMAPPED`]).
 
 use std::collections::BTreeMap;
 use std::fmt::Write as _;
@@ -50,11 +50,20 @@ const ROLES: &[(&str, &str, &str)] = &[
         "border_strong",
         "Edges that identify a control or a decision.",
     ),
-    ("Primary", "primary", "Actions, focus and links."),
+    (
+        "Primary",
+        "primary",
+        "Filled actions and switches, in neutral ink.",
+    ),
     (
         "PrimaryForeground",
         "primary_foreground",
         "Ink on a `Primary` ground.",
+    ),
+    (
+        "Accent",
+        "accent",
+        "The one quiet blue: links, focus and selection.",
     ),
     ("Live", "live", "Work happening now, and work done."),
     ("Attention", "attention", "Needs you."),
@@ -71,27 +80,31 @@ const ROLES: &[(&str, &str, &str)] = &[
     ),
     (
         "DiffAddedTint",
-        "diff_added_tint",
-        "Ground behind an added line, under `Foreground` ink. Derived: `live` at 16% over `background`.",
+        "diff_add",
+        "Ground behind an added line, under `Foreground` ink: the `diff_add` token.",
     ),
     (
         "DiffRemovedTint",
-        "diff_removed_tint",
-        "Ground behind a removed line, under `Foreground` ink. Derived: `danger` at 16% over `background`.",
+        "diff_remove",
+        "Ground behind a removed line, under `Foreground` ink: the `diff_remove` token.",
     ),
 ];
 
 /// Roles with no `tokens.json` key: derived here from tokens that exist, so
 /// a token change reaches them without a hand edit. Their keys are not
 /// token names; [`derive`] fills them in after the tokens are read.
-const DERIVED: &[&str] = &["hint", "dim", "diff_added_tint", "diff_removed_tint"];
+const DERIVED: &[&str] = &["hint", "dim"];
 
-/// How far a diff tint moves from `background` toward its hue, in percent.
-/// The design allows at most 16%, behind `Foreground` only.
-const TINT_PERCENT: u32 = 16;
+/// `tokens.json` colors with no terminal role: `ocean_depth` is the
+/// desktop's stage ground and equals `background` in both appearances.
+const UNMAPPED: &[&str] = &["ocean_depth"];
 
-/// The diff tints and the state hue each is made from.
-const TINTS: &[(&str, &str)] = &[("diff_added_tint", "live"), ("diff_removed_tint", "danger")];
+/// How far an ocean-tinted diff tint moves from `background` toward its hue,
+/// in percent; the token tables read `diff_add` / `diff_remove` instead.
+const OCEAN_TINT_PERCENT: u32 = 16;
+
+/// The diff tints and the state hue each must keep legible.
+const TINTS: &[(&str, &str)] = &[("diff_add", "live"), ("diff_remove", "danger")];
 
 /// The design's contrast rules (`generate.py`): text at 4.5:1 and control
 /// edges at 3:1 on every ground, and ink on a primary fill at 4.5:1.
@@ -100,6 +113,7 @@ const TEXT: &[&str] = &[
     "foreground",
     "muted_foreground",
     "primary",
+    "accent",
     "live",
     "attention",
     "danger",
@@ -259,8 +273,7 @@ fn mix(ink: u32, ground: u32, percent: u32) -> u32 {
 /// `dim` is `muted_foreground` receded toward `background` as far as it
 /// still holds 3:1 on every ground in `grounds`, and `hint` is the same at
 /// 4.5:1, so the ink ladder runs Foreground, Muted, Hint, Dim, each a
-/// visible step apart. The diff tints are `live` and `danger` at
-/// [`TINT_PERCENT`] over `background`. `grounds` lists every ground the
+/// visible step apart. `grounds` lists every ground the
 /// inks must hold on (the blue ombre's included); it never changes the
 /// derivation otherwise.
 fn derive(colors: &mut BTreeMap<String, u32>, mode: &str, grounds: &[u32]) {
@@ -280,9 +293,6 @@ fn derive(colors: &mut BTreeMap<String, u32>, mode: &str, grounds: &[u32]) {
     let (hint, dim) = (weight(4.5), weight(3.0));
     colors.insert("hint".into(), mix(muted, background, hint));
     colors.insert("dim".into(), mix(muted, background, dim));
-    for (name, hue) in TINTS {
-        colors.insert((*name).into(), mix(colors[*hue], background, TINT_PERCENT));
-    }
     for (a, b) in [("muted_foreground", "hint"), ("hint", "dim")] {
         let ratio = contrast_ratio(rgb(colors[a]), rgb(colors[b])).expect("rgb");
         assert!(
@@ -433,7 +443,7 @@ fn ocean(dark: &BTreeMap<String, u32>) -> BTreeMap<String, u32> {
     for (name, hue) in TINTS {
         table.insert(
             (*name).into(),
-            mix(table[*hue], table["background"], TINT_PERCENT),
+            mix(table[*hue], table["background"], OCEAN_TINT_PERCENT),
         );
     }
     audit(&table, "ocean");
@@ -446,7 +456,7 @@ fn render(json: &serde_json::Value) -> String {
     for mode in ["dark", "light"] {
         let obj = json["colors"][mode].as_object().expect("colors");
         let keys: Vec<&str> = obj.keys().map(String::as_str).collect();
-        for key in &keys {
+        for key in keys.iter().filter(|k| !UNMAPPED.contains(k)) {
             assert!(
                 !DERIVED.contains(key),
                 "tokens.json now names `{key}`; read it instead of deriving it (tests/generated.rs DERIVED)"
@@ -509,7 +519,7 @@ fn render(json: &serde_json::Value) -> String {
     .unwrap();
     writeln!(
         w,
-        "/// the web and the terminal. Four roles the tokens do not name are"
+        "/// the web and the terminal. Two roles the tokens do not name are"
     )
     .unwrap();
     writeln!(w, "/// derived from ones they do ([`Role::is_derived`]).").unwrap();

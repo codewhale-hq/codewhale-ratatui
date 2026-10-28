@@ -94,7 +94,7 @@ r22 c4..5 fg=Dim bg=Background
 r22 c5..39 bg=Background
 r22 c39..42 fg=Hint bg=Background
 r22 c42..52 bg=Background
-r22 c52..56 fg=Primary bg=Background
+r22 c52..56 fg=Accent bg=Background
 r22 c56..84 bg=Background
 r23 c0..42 bg=Background
 r23 c42..45 fg=Hint bg=Background
@@ -194,7 +194,7 @@ r22 c4..5 fg=Dim bg=Background
 r22 c5..39 bg=Background
 r22 c39..42 fg=Hint bg=Background
 r22 c42..52 bg=Background
-r22 c52..56 fg=Primary bg=Background
+r22 c52..56 fg=Accent bg=Background
 r22 c56..84 bg=Background
 r23 c0..42 bg=Background
 r23 c42..45 fg=Hint bg=Background
@@ -294,7 +294,7 @@ r22 c4..5 fg=Dim bg=Background
 r22 c5..39 bg=Background
 r22 c39..42 fg=Hint bg=Background
 r22 c42..52 bg=Background
-r22 c52..56 fg=Primary bg=Background
+r22 c52..56 fg=Accent bg=Background
 r22 c56..84 bg=Background
 r23 c0..42 bg=Background
 r23 c42..45 fg=Hint bg=Background
@@ -394,7 +394,7 @@ r22 c4..5 fg=Dim bg=Background
 r22 c5..39 bg=Background
 r22 c39..42 fg=Hint bg=Background
 r22 c42..52 bg=Background
-r22 c52..56 fg=Primary bg=Background
+r22 c52..56 fg=Accent bg=Background
 r22 c56..84 bg=Background
 r23 c0..42 bg=Background
 r23 c42..45 fg=Hint bg=Background
@@ -494,7 +494,7 @@ r22 c4..5 fg=Dim bg=Background|Surface
 r22 c5..39 bg=Background|Surface
 r22 c39..42 fg=Hint bg=Background|Surface
 r22 c42..52 bg=Background|Surface
-r22 c52..56 fg=Primary bg=Background|Surface
+r22 c52..56 fg=Accent bg=Background|Surface
 r22 c56..84 bg=Background|Surface
 r23 c0..42 bg=Background|Surface
 r23 c42..45 fg=Hint bg=Background|Surface
@@ -547,7 +547,7 @@ r21 c44..47 dim
 r21 c49..52 dim
 r22 c4..5 dim
 r22 c39..42 dim
-r22 c52..56 fg=Primary
+r22 c52..56 fg=Accent
 r23 c42..45 dim
 r23 c47..50 dim
 
@@ -596,7 +596,7 @@ r21 c44..47 dim
 r21 c49..52 dim
 r22 c4..5 dim
 r22 c39..42 dim
-r22 c52..56 fg=Primary
+r22 c52..56 fg=Accent
 r23 c42..45 dim
 r23 c47..50 dim
 

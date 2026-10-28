@@ -12,7 +12,7 @@ expression: dump(&entry)
 r0 c0..2 bg=Background
 r0 c2..31 fg=Foreground bg=Background
 r0 c31..34 bg=Background
-r0 c34..40 fg=Primary bg=Background
+r0 c34..40 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Attention bg=Background
 r1 c3..4 bg=Background
@@ -22,11 +22,11 @@ r1 c16..22 fg=Muted bg=Background
 r1 c22..25 fg=Dim bg=Background
 r1 c25..39 fg=Muted bg=Background
 r1 c39..40 fg=Hint bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..23 fg=Foreground bg=Selected bold
 r2 c23..33 bg=Selected
-r2 c33..40 fg=Primary bg=Selected
+r2 c33..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -49,7 +49,7 @@ r4 c27..40 bg=Background
 r0 c0..2 bg=Background
 r0 c2..31 fg=Foreground bg=Background
 r0 c31..34 bg=Background
-r0 c34..40 fg=Primary bg=Background
+r0 c34..40 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Attention bg=Background
 r1 c3..4 bg=Background
@@ -59,11 +59,11 @@ r1 c16..22 fg=Muted bg=Background
 r1 c22..25 fg=Dim bg=Background
 r1 c25..39 fg=Muted bg=Background
 r1 c39..40 fg=Hint bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..23 fg=Foreground bg=Selected bold
 r2 c23..33 bg=Selected
-r2 c33..40 fg=Primary bg=Selected
+r2 c33..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -86,7 +86,7 @@ r4 c27..40 bg=Background
 r0 c0..2 bg=Background
 r0 c2..31 fg=Foreground bg=Background
 r0 c31..34 bg=Background
-r0 c34..40 fg=Primary bg=Background
+r0 c34..40 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Attention bg=Background
 r1 c3..4 bg=Background
@@ -96,11 +96,11 @@ r1 c16..22 fg=Muted bg=Background
 r1 c22..25 fg=Dim bg=Background
 r1 c25..39 fg=Muted bg=Background
 r1 c39..40 fg=Hint bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..23 fg=Foreground bg=Selected bold
 r2 c23..33 bg=Selected
-r2 c33..40 fg=Primary bg=Selected
+r2 c33..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -123,7 +123,7 @@ r4 c27..40 bg=Background
 r0 c0..2 bg=Background
 r0 c2..31 fg=Foreground bg=Background
 r0 c31..34 bg=Background
-r0 c34..40 fg=Primary bg=Background
+r0 c34..40 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Attention bg=Background
 r1 c3..4 bg=Background
@@ -133,11 +133,11 @@ r1 c16..22 fg=Muted bg=Background
 r1 c22..25 fg=Dim bg=Background
 r1 c25..39 fg=Muted bg=Background
 r1 c39..40 fg=Hint bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..23 fg=Foreground bg=Selected bold
 r2 c23..33 bg=Selected
-r2 c33..40 fg=Primary bg=Selected
+r2 c33..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -160,7 +160,7 @@ r4 c27..40 bg=Background
 r0 c0..2 bg=Background|Surface
 r0 c2..31 fg=Foreground bg=Background|Surface
 r0 c31..34 bg=Background|Surface
-r0 c34..40 fg=Primary bg=Background|Surface
+r0 c34..40 fg=Accent bg=Background|Surface
 r1 c0..2 bg=Background|Surface
 r1 c2..3 fg=Attention bg=Background|Surface
 r1 c3..4 bg=Background|Surface
@@ -170,11 +170,11 @@ r1 c16..22 fg=Muted bg=Background|Surface
 r1 c22..25 fg=Dim bg=Background|Surface
 r1 c25..39 fg=Muted bg=Background|Surface
 r1 c39..40 fg=Hint bg=Background|Surface
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..23 fg=Foreground bg=Selected bold
 r2 c23..33 bg=Selected
-r2 c33..40 fg=Primary bg=Selected
+r2 c33..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -194,12 +194,12 @@ r4 c27..40 bg=Background|Surface
   ◆ Finished with gaps · Run · One chec…
 2 artifacts not fully shown
 ---
-r0 c34..40 fg=Primary
+r0 c34..40 fg=Accent
 r1 c2..3 fg=Attention
 r1 c13..40 dim
-r2 c0..1 fg=Primary
+r2 c0..1 fg=Accent
 r2 c2..23 bold
-r2 c33..40 fg=Primary
+r2 c33..40 fg=Accent
 r3 c2..3 fg=Attention
 r3 c22..40 dim
 r4 c0..27 dim
@@ -211,12 +211,12 @@ r4 c0..27 dim
   ◆ Finished with gaps · Run · One chec…
 2 artifacts not fully shown
 ---
-r0 c34..40 fg=Primary
+r0 c34..40 fg=Accent
 r1 c2..3 fg=Attention
 r1 c13..40 dim
-r2 c0..1 fg=Primary
+r2 c0..1 fg=Accent
 r2 c2..23 bold
-r2 c33..40 fg=Primary
+r2 c33..40 fg=Accent
 r3 c2..3 fg=Attention
 r3 c22..40 dim
 r4 c0..27 dim

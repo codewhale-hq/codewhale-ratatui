@@ -40,7 +40,7 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary bg=Background
+r0 c0..9 fg=Accent bg=Background
 r0 c9..12 fg=Foreground bg=Background
 r0 c12..13 fg=Muted bg=Background
 r0 c13..100 fg=Foreground bg=Background
@@ -748,7 +748,7 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary bg=Background
+r0 c0..9 fg=Accent bg=Background
 r0 c9..12 fg=Foreground bg=Background
 r0 c12..13 fg=Muted bg=Background
 r0 c13..100 fg=Foreground bg=Background
@@ -1456,7 +1456,7 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary bg=Background
+r0 c0..9 fg=Accent bg=Background
 r0 c9..12 fg=Foreground bg=Background
 r0 c12..13 fg=Muted bg=Background
 r0 c13..100 fg=Foreground bg=Background
@@ -1767,7 +1767,7 @@ r18 c65..66 fg=#115fc5 bg=#115fc4
 r18 c66..67 fg=#115fc4 bg=Background
 r18 c67..68 fg=#115ec4 bg=Background
 r18 c68..69 fg=#115dc4 bg=Background
-r18 c69..72 fg=Background bg=Background
+r18 c69..72 fg=PrimaryForeground bg=Background
 r18 c72..73 fg=#105ac3 bg=#105ac2
 r18 c73..74 fg=#105ac2 bg=#eef5f5
 r18 c74..81 fg=#eef5f5 bg=#eef5f5
@@ -1813,8 +1813,8 @@ r19 c61..62 fg=#1261c5 bg=#1160c5
 r19 c62..63 fg=#1160c5 bg=#115fc5
 r19 c63..64 fg=#115fc5 bg=Background
 r19 c64..65 fg=#115fc4 bg=Background
-r19 c65..71 fg=Background bg=Background
-r19 c71..72 fg=Background bg=#1059c2
+r19 c65..71 fg=PrimaryForeground bg=Background
+r19 c71..72 fg=PrimaryForeground bg=#1059c2
 r19 c72..73 fg=#1059c2 bg=#0f58c2
 r19 c73..81 fg=#eef5f5 bg=#eef5f5
 r19 c81..100 fg=Foreground bg=Background
@@ -1857,9 +1857,9 @@ r20 c58..59 fg=#1262c5 bg=#1261c5
 r20 c59..60 fg=#1261c5 bg=#1160c5
 r20 c60..61 fg=#1160c5 bg=#115fc5
 r20 c61..62 fg=#115fc5 bg=Background
-r20 c62..68 fg=Background bg=Background
+r20 c62..68 fg=PrimaryForeground bg=Background
 r20 c68..69 fg=#105ac3 bg=Background
-r20 c69..71 fg=Background bg=Background
+r20 c69..71 fg=PrimaryForeground bg=Background
 r20 c71..72 fg=#0f58c2 bg=#0f58c1
 r20 c72..81 fg=#eef5f5 bg=#eef5f5
 r20 c81..100 fg=Foreground bg=Background
@@ -1892,18 +1892,18 @@ r21 c49..50 fg=#1367c7 bg=#1366c7
 r21 c50..51 fg=#1366c7 bg=#1365c7
 r21 c51..52 fg=#1365c7 bg=#1364c7
 r21 c52..53 fg=#1364c7 bg=#1264c6
-r21 c53..55 fg=Background bg=Background
+r21 c53..55 fg=PrimaryForeground bg=Background
 r21 c55..56 fg=#1262c6 bg=#1262c5
 r21 c56..57 fg=#1262c5 bg=#1261c5
 r21 c57..58 fg=#1261c5 bg=#1160c5
 r21 c58..59 fg=#1160c5 bg=#115fc5
 r21 c59..60 fg=#115fc5 bg=Background
-r21 c60..63 fg=Background bg=Background
-r21 c63..64 fg=Background bg=#105cc3
-r21 c64..67 fg=Background bg=Background
+r21 c60..63 fg=PrimaryForeground bg=Background
+r21 c63..64 fg=PrimaryForeground bg=#105cc3
+r21 c64..67 fg=PrimaryForeground bg=Background
 r21 c67..68 fg=#105ac2 bg=Background
-r21 c68..69 fg=Background bg=Background
-r21 c69..70 fg=Background bg=#0f58c1
+r21 c68..69 fg=PrimaryForeground bg=Background
+r21 c69..70 fg=PrimaryForeground bg=#0f58c1
 r21 c70..71 fg=#0f58c1 bg=#0f57c1
 r21 c71..76 fg=#eef5f5 bg=#d8ebee
 r21 c76..80 fg=#eef5f5 bg=#eef5f5
@@ -1943,10 +1943,10 @@ r22 c54..55 fg=#1262c5 bg=#1261c5
 r22 c55..56 fg=#1261c5 bg=#1160c5
 r22 c56..57 fg=#1160c5 bg=#115fc5
 r22 c57..58 fg=#115fc5 bg=Background
-r22 c58..65 fg=Background bg=Background
-r22 c65..66 fg=Background bg=#1059c2
-r22 c66..68 fg=Background bg=Background
-r22 c68..69 fg=Background bg=#0f57c1
+r22 c58..65 fg=PrimaryForeground bg=Background
+r22 c65..66 fg=PrimaryForeground bg=#1059c2
+r22 c66..68 fg=PrimaryForeground bg=Background
+r22 c68..69 fg=PrimaryForeground bg=#0f57c1
 r22 c69..70 fg=#0f57c1 bg=#0f56c1
 r22 c70..80 fg=#d8ebee bg=#d8ebee
 r22 c80..100 fg=Foreground bg=Background
@@ -1983,13 +1983,13 @@ r23 c52..53 fg=#1262c5 bg=#1261c5
 r23 c53..54 fg=#1261c5 bg=#1160c5
 r23 c54..55 fg=#1160c5 bg=#115fc5
 r23 c55..56 fg=#115fc5 bg=#115fc4
-r23 c56..59 fg=Background bg=Background
-r23 c59..60 fg=Background bg=#105cc3
-r23 c60..63 fg=Background bg=Background
-r23 c63..64 fg=Background bg=#1059c2
+r23 c56..59 fg=PrimaryForeground bg=Background
+r23 c59..60 fg=PrimaryForeground bg=#105cc3
+r23 c60..63 fg=PrimaryForeground bg=Background
+r23 c63..64 fg=PrimaryForeground bg=#1059c2
 r23 c64..65 fg=#1059c2 bg=Background
-r23 c65..66 fg=Background bg=Background
-r23 c66..67 fg=Background bg=#0f57c1
+r23 c65..66 fg=PrimaryForeground bg=Background
+r23 c66..67 fg=PrimaryForeground bg=#0f57c1
 r23 c67..68 fg=#0f57c1 bg=#0f56c1
 r23 c68..69 fg=#0f56c1 bg=#d8ebee
 r23 c69..80 fg=#d8ebee bg=#d8ebee
@@ -2026,11 +2026,11 @@ r24 c51..52 fg=#1261c5 bg=#1160c5
 r24 c52..53 fg=#1160c5 bg=#115fc5
 r24 c53..54 fg=#115fc5 bg=#115fc4
 r24 c54..55 fg=#115fc4 bg=Background
-r24 c55..61 fg=Background bg=Background
-r24 c61..62 fg=Background bg=#1059c2
+r24 c55..61 fg=PrimaryForeground bg=Background
+r24 c61..62 fg=PrimaryForeground bg=#1059c2
 r24 c62..63 fg=#1059c2 bg=Background
-r24 c63..64 fg=Background bg=Background
-r24 c64..65 fg=Background bg=#0f57c1
+r24 c63..64 fg=PrimaryForeground bg=Background
+r24 c64..65 fg=PrimaryForeground bg=#0f57c1
 r24 c65..66 fg=#0f57c1 bg=#0f56c1
 r24 c66..67 fg=#0f56c1 bg=#d8ebee
 r24 c67..70 fg=#d8ebee bg=#d8ebee
@@ -2069,13 +2069,13 @@ r25 c49..50 fg=#1261c5 bg=#1160c5
 r25 c50..51 fg=#1160c5 bg=#115fc5
 r25 c51..52 fg=#115fc5 bg=#115fc4
 r25 c52..53 fg=#115fc4 bg=Background
-r25 c53..57 fg=Background bg=Background
-r25 c57..58 fg=Background bg=#105ac3
-r25 c58..59 fg=Background bg=Background
+r25 c53..57 fg=PrimaryForeground bg=Background
+r25 c57..58 fg=PrimaryForeground bg=#105ac3
+r25 c58..59 fg=PrimaryForeground bg=Background
 r25 c59..60 fg=#105ac2 bg=Background
-r25 c60..61 fg=Background bg=Background
-r25 c61..62 fg=Background bg=#0f58c1
-r25 c62..63 fg=Background bg=#0f57c1
+r25 c60..61 fg=PrimaryForeground bg=Background
+r25 c61..62 fg=PrimaryForeground bg=#0f58c1
+r25 c62..63 fg=PrimaryForeground bg=#0f57c1
 r25 c63..64 fg=#0f57c1 bg=#0f56c1
 r25 c64..65 fg=#0f56c1 bg=#d8ebee
 r25 c65..77 fg=#d8ebee bg=#d8ebee
@@ -2100,12 +2100,12 @@ r26 c47..48 fg=#1261c5 bg=#1160c5
 r26 c48..49 fg=#1160c5 bg=#115fc5
 r26 c49..50 fg=#115fc5 bg=#115fc4
 r26 c50..51 fg=#115fc4 bg=Background
-r26 c51..54 fg=Background bg=Background
+r26 c51..54 fg=PrimaryForeground bg=Background
 r26 c54..55 fg=#105cc3 bg=Background
-r26 c55..56 fg=Background bg=Background
-r26 c56..57 fg=Background bg=#105ac2
-r26 c57..58 fg=Background bg=#1059c2
-r26 c58..59 fg=Background bg=#0f58c2
+r26 c55..56 fg=PrimaryForeground bg=Background
+r26 c56..57 fg=PrimaryForeground bg=#105ac2
+r26 c57..58 fg=PrimaryForeground bg=#1059c2
+r26 c58..59 fg=PrimaryForeground bg=#0f58c2
 r26 c59..60 fg=#0f58c2 bg=#0f58c1
 r26 c60..61 fg=#0f58c1 bg=#d8ebee
 r26 c61..62 fg=#0f57c1 bg=#d8ebee
@@ -2128,10 +2128,10 @@ r27 c44..45 fg=#1262c5 bg=#1261c5
 r27 c45..46 fg=#1261c5 bg=#1160c5
 r27 c46..47 fg=#1160c5 bg=#115fc5
 r27 c47..48 fg=#115fc5 bg=#115fc4
-r27 c48..49 fg=Background bg=#115ec4
-r27 c49..50 fg=Background bg=#115dc4
-r27 c50..51 fg=Background bg=#115dc3
-r27 c51..52 fg=Background bg=#105cc3
+r27 c48..49 fg=PrimaryForeground bg=#115ec4
+r27 c49..50 fg=PrimaryForeground bg=#115dc4
+r27 c50..51 fg=PrimaryForeground bg=#115dc3
+r27 c51..52 fg=PrimaryForeground bg=#105cc3
 r27 c52..53 fg=#105cc3 bg=#105bc3
 r27 c53..54 fg=#105bc3 bg=#105ac3
 r27 c54..55 fg=#105ac3 bg=#d8ebee
@@ -2267,7 +2267,7 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary bg=Background
+r0 c0..9 fg=Accent bg=Background
 r0 c9..12 fg=Foreground bg=Background
 r0 c12..13 fg=Muted bg=Background
 r0 c13..100 fg=Foreground bg=Background
@@ -2689,203 +2689,203 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary bg=Background|Surface
+r0 c0..9 fg=Accent bg=Background|Surface
 r0 c9..12 fg=Foreground bg=Background|Surface
 r0 c12..13 fg=Muted bg=Background|Surface
 r0 c13..100 fg=Foreground bg=Background|Surface
 r1 c0..100 fg=Foreground bg=Background|Surface
 r2 c0..50 fg=Foreground bg=Background|Surface
-r2 c50..56 fg=PrimaryForeground bg=Background|Surface
+r2 c50..56 fg=Sidebar bg=Background|Surface
 r2 c56..100 fg=Foreground bg=Background|Surface
 r3 c0..39 fg=Foreground bg=Background|Surface
-r3 c39..43 fg=PrimaryForeground bg=Background|Surface
-r3 c43..62 fg=PrimaryForeground bg=Sidebar
-r3 c62..65 fg=PrimaryForeground bg=Background|Surface
+r3 c39..43 fg=Sidebar bg=Background|Surface
+r3 c43..62 fg=Sidebar bg=Sidebar
+r3 c62..65 fg=Sidebar bg=Background|Surface
 r3 c65..100 fg=Foreground bg=Background|Surface
 r4 c0..35 fg=Foreground bg=Background|Surface
-r4 c35..37 fg=PrimaryForeground bg=Background|Surface
-r4 c37..67 fg=PrimaryForeground bg=Sidebar
-r4 c67..69 fg=PrimaryForeground bg=Background|Surface
+r4 c35..37 fg=Sidebar bg=Background|Surface
+r4 c37..67 fg=Sidebar bg=Sidebar
+r4 c67..69 fg=Sidebar bg=Background|Surface
 r4 c69..100 fg=Foreground bg=Background|Surface
 r5 c0..32 fg=Foreground bg=Background|Surface
-r5 c32..34 fg=PrimaryForeground bg=Background|Surface
-r5 c34..70 fg=PrimaryForeground bg=Sidebar
-r5 c70..71 fg=PrimaryForeground bg=Background|Surface
+r5 c32..34 fg=Sidebar bg=Background|Surface
+r5 c34..70 fg=Sidebar bg=Sidebar
+r5 c70..71 fg=Sidebar bg=Background|Surface
 r5 c71..100 fg=Foreground bg=Background|Surface
 r6 c0..30 fg=Foreground bg=Background|Surface
-r6 c30..31 fg=PrimaryForeground bg=Background|Surface
-r6 c31..72 fg=PrimaryForeground bg=Sidebar
-r6 c72..73 fg=PrimaryForeground bg=Background|Surface
+r6 c30..31 fg=Sidebar bg=Background|Surface
+r6 c31..72 fg=Sidebar bg=Sidebar
+r6 c72..73 fg=Sidebar bg=Background|Surface
 r6 c73..100 fg=Foreground bg=Background|Surface
 r7 c0..28 fg=Foreground bg=Background|Surface
-r7 c28..29 fg=PrimaryForeground bg=Background|Surface
-r7 c29..39 fg=PrimaryForeground bg=Sidebar
-r7 c39..43 fg=PrimaryForeground bg=idx32
+r7 c28..29 fg=Sidebar bg=Background|Surface
+r7 c29..39 fg=Sidebar bg=Sidebar
+r7 c39..43 fg=Sidebar bg=idx32
 r7 c43..51 fg=idx32 bg=idx32
-r7 c51..53 fg=PrimaryForeground bg=idx32
-r7 c53..74 fg=PrimaryForeground bg=Sidebar
-r7 c74..75 fg=PrimaryForeground bg=Background|Surface
+r7 c51..53 fg=Sidebar bg=idx32
+r7 c53..74 fg=Sidebar bg=Sidebar
+r7 c74..75 fg=Sidebar bg=Background|Surface
 r7 c75..100 fg=Foreground bg=Background|Surface
 r8 c0..26 fg=Foreground bg=Background|Surface
-r8 c26..27 fg=PrimaryForeground bg=Background|Surface
-r8 c27..36 fg=PrimaryForeground bg=Sidebar
-r8 c36..37 fg=PrimaryForeground bg=idx32
+r8 c26..27 fg=Sidebar bg=Background|Surface
+r8 c27..36 fg=Sidebar bg=Sidebar
+r8 c36..37 fg=Sidebar bg=idx32
 r8 c37..52 fg=idx32 bg=idx32
 r8 c52..53 fg=idx32 bg=Sidebar
-r8 c53..76 fg=PrimaryForeground bg=Sidebar
+r8 c53..76 fg=Sidebar bg=Sidebar
 r8 c76..100 fg=Foreground bg=Background|Surface
 r9 c0..25 fg=Foreground bg=Background|Surface
-r9 c25..33 fg=PrimaryForeground bg=Sidebar
-r9 c33..34 fg=PrimaryForeground bg=idx32
+r9 c25..33 fg=Sidebar bg=Sidebar
+r9 c33..34 fg=Sidebar bg=idx32
 r9 c34..50 fg=idx32 bg=idx32
-r9 c50..54 fg=PrimaryForeground bg=idx32
-r9 c54..55 fg=PrimaryForeground bg=idx26
-r9 c55..77 fg=PrimaryForeground bg=Sidebar
-r9 c77..78 fg=PrimaryForeground bg=Background|Surface
+r9 c50..54 fg=Sidebar bg=idx32
+r9 c54..55 fg=Sidebar bg=idx26
+r9 c55..77 fg=Sidebar bg=Sidebar
+r9 c77..78 fg=Sidebar bg=Background|Surface
 r9 c78..100 fg=Foreground bg=Background|Surface
 r10 c0..24 fg=Foreground bg=Background|Surface
-r10 c24..31 fg=PrimaryForeground bg=Sidebar
-r10 c31..32 fg=PrimaryForeground bg=idx32
+r10 c24..31 fg=Sidebar bg=Sidebar
+r10 c31..32 fg=Sidebar bg=idx32
 r10 c32..42 fg=idx32 bg=idx32
 r10 c42..49 fg=idx32 bg=Sidebar
 r10 c49..52 fg=idx32 bg=idx32
 r10 c52..53 fg=idx32 bg=idx26
 r10 c53..58 fg=idx26 bg=idx26
-r10 c58..60 fg=PrimaryForeground bg=idx26
-r10 c60..78 fg=PrimaryForeground bg=Sidebar
+r10 c58..60 fg=Sidebar bg=idx26
+r10 c60..78 fg=Sidebar bg=Sidebar
 r10 c78..100 fg=Foreground bg=Background|Surface
 r11 c0..23 fg=Foreground bg=Background|Surface
-r11 c23..30 fg=PrimaryForeground bg=Sidebar
-r11 c30..31 fg=PrimaryForeground bg=idx32
+r11 c23..30 fg=Sidebar bg=Sidebar
+r11 c30..31 fg=Sidebar bg=idx32
 r11 c31..38 fg=idx32 bg=idx32
 r11 c38..39 fg=idx32 bg=Sidebar
-r11 c39..50 fg=PrimaryForeground bg=Sidebar
+r11 c39..50 fg=Sidebar bg=Sidebar
 r11 c50..51 fg=idx32 bg=Sidebar
 r11 c51..59 fg=idx26 bg=idx26
 r11 c59..60 fg=idx26 bg=Sidebar
-r11 c60..79 fg=PrimaryForeground bg=Sidebar
+r11 c60..79 fg=Sidebar bg=Sidebar
 r11 c79..100 fg=Foreground bg=Background|Surface
 r12 c0..22 fg=Foreground bg=Background|Surface
-r12 c22..29 fg=PrimaryForeground bg=Sidebar
+r12 c22..29 fg=Sidebar bg=Sidebar
 r12 c29..36 fg=idx32 bg=idx32
 r12 c36..37 fg=idx32 bg=Sidebar
-r12 c37..53 fg=PrimaryForeground bg=Sidebar
+r12 c37..53 fg=Sidebar bg=Sidebar
 r12 c53..56 fg=idx26 bg=Sidebar
-r12 c56..79 fg=PrimaryForeground bg=Sidebar
-r12 c79..80 fg=PrimaryForeground bg=Background|Surface
+r12 c56..79 fg=Sidebar bg=Sidebar
+r12 c79..80 fg=Sidebar bg=Background|Surface
 r12 c80..100 fg=Foreground bg=Background|Surface
 r13 c0..21 fg=Foreground bg=Background|Surface
-r13 c21..22 fg=PrimaryForeground bg=Background|Surface
-r13 c22..28 fg=PrimaryForeground bg=Sidebar
+r13 c21..22 fg=Sidebar bg=Background|Surface
+r13 c22..28 fg=Sidebar bg=Sidebar
 r13 c28..35 fg=idx32 bg=idx32
-r13 c35..80 fg=PrimaryForeground bg=Sidebar
+r13 c35..80 fg=Sidebar bg=Sidebar
 r13 c80..100 fg=Foreground bg=Background|Surface
 r14 c0..21 fg=Foreground bg=Background|Surface
-r14 c21..27 fg=PrimaryForeground bg=Sidebar
-r14 c27..28 fg=PrimaryForeground bg=idx32
+r14 c21..27 fg=Sidebar bg=Sidebar
+r14 c27..28 fg=Sidebar bg=idx32
 r14 c28..34 fg=idx32 bg=idx32
-r14 c34..80 fg=PrimaryForeground bg=Sidebar
+r14 c34..80 fg=Sidebar bg=Sidebar
 r14 c80..100 fg=Foreground bg=Background|Surface
 r15 c0..21 fg=Foreground bg=Background|Surface
-r15 c21..27 fg=PrimaryForeground bg=Sidebar
+r15 c21..27 fg=Sidebar bg=Sidebar
 r15 c27..33 fg=idx32 bg=idx32
-r15 c33..65 fg=PrimaryForeground bg=Sidebar
-r15 c65..71 fg=PrimaryForeground bg=idx26
-r15 c71..80 fg=PrimaryForeground bg=Sidebar
+r15 c33..65 fg=Sidebar bg=Sidebar
+r15 c65..71 fg=Sidebar bg=idx26
+r15 c71..80 fg=Sidebar bg=Sidebar
 r15 c80..100 fg=Foreground bg=Background|Surface
 r16 c0..20 fg=Foreground bg=Background|Surface
-r16 c20..27 fg=PrimaryForeground bg=Sidebar
+r16 c20..27 fg=Sidebar bg=Sidebar
 r16 c27..33 fg=idx32 bg=idx32
-r16 c33..56 fg=PrimaryForeground bg=Sidebar
-r16 c56..59 fg=PrimaryForeground bg=idx26
+r16 c33..56 fg=Sidebar bg=Sidebar
+r16 c56..59 fg=Sidebar bg=idx26
 r16 c59..72 fg=idx26 bg=idx26
-r16 c72..73 fg=idx26 bg=Primary
-r16 c73..74 fg=PrimaryForeground bg=Primary
-r16 c74..81 fg=PrimaryForeground bg=Sidebar
+r16 c72..73 fg=idx26 bg=idx25
+r16 c73..74 fg=Sidebar bg=idx25
+r16 c74..81 fg=Sidebar bg=Sidebar
 r16 c81..100 fg=Foreground bg=Background|Surface
 r17 c0..20 fg=Foreground bg=Background|Surface
-r17 c20..27 fg=PrimaryForeground bg=Sidebar
+r17 c20..27 fg=Sidebar bg=Sidebar
 r17 c27..33 fg=idx32 bg=idx32
-r17 c33..34 fg=PrimaryForeground bg=idx32
-r17 c34..50 fg=PrimaryForeground bg=Sidebar
-r17 c50..53 fg=PrimaryForeground bg=idx26
+r17 c33..34 fg=Sidebar bg=idx32
+r17 c34..50 fg=Sidebar bg=Sidebar
+r17 c50..53 fg=Sidebar bg=idx26
 r17 c53..70 fg=idx26 bg=idx26
-r17 c70..71 fg=idx26 bg=Primary
-r17 c71..74 fg=Primary bg=Primary
-r17 c74..81 fg=PrimaryForeground bg=Sidebar
+r17 c70..71 fg=idx26 bg=idx25
+r17 c71..74 fg=idx25 bg=idx25
+r17 c74..81 fg=Sidebar bg=Sidebar
 r17 c81..100 fg=Foreground bg=Background|Surface
 r18 c0..20 fg=Foreground bg=Background|Surface
-r18 c20..27 fg=PrimaryForeground bg=Sidebar
+r18 c20..27 fg=Sidebar bg=Sidebar
 r18 c27..34 fg=idx32 bg=idx32
-r18 c34..35 fg=PrimaryForeground bg=idx32
-r18 c35..45 fg=PrimaryForeground bg=Sidebar
-r18 c45..47 fg=PrimaryForeground bg=idx26
+r18 c34..35 fg=Sidebar bg=idx32
+r18 c35..45 fg=Sidebar bg=Sidebar
+r18 c45..47 fg=Sidebar bg=idx26
 r18 c47..66 fg=idx26 bg=idx26
 r18 c66..69 fg=idx26 bg=Background|Surface
-r18 c69..72 fg=Background|Surface bg=Background|Surface
-r18 c72..73 fg=Primary bg=Primary
-r18 c73..74 fg=Primary bg=Sidebar
-r18 c74..81 fg=PrimaryForeground bg=Sidebar
+r18 c69..72 fg=PrimaryForeground bg=Background|Surface
+r18 c72..73 fg=idx25 bg=idx25
+r18 c73..74 fg=idx25 bg=Sidebar
+r18 c74..81 fg=Sidebar bg=Sidebar
 r18 c81..100 fg=Foreground bg=Background|Surface
 r19 c0..20 fg=Foreground bg=Background|Surface
-r19 c20..21 fg=PrimaryForeground bg=Background|Surface
-r19 c21..27 fg=PrimaryForeground bg=Sidebar
+r19 c20..21 fg=Sidebar bg=Background|Surface
+r19 c21..27 fg=Sidebar bg=Sidebar
 r19 c27..34 fg=idx32 bg=idx32
 r19 c34..35 fg=idx32 bg=idx26
 r19 c35..37 fg=idx26 bg=idx26
-r19 c37..41 fg=PrimaryForeground bg=idx26
+r19 c37..41 fg=Sidebar bg=idx26
 r19 c41..63 fg=idx26 bg=idx26
 r19 c63..65 fg=idx26 bg=Background|Surface
-r19 c65..71 fg=Background|Surface bg=Background|Surface
-r19 c71..72 fg=Background|Surface bg=Primary
-r19 c72..73 fg=Primary bg=Primary
-r19 c73..81 fg=PrimaryForeground bg=Sidebar
+r19 c65..71 fg=PrimaryForeground bg=Background|Surface
+r19 c71..72 fg=PrimaryForeground bg=idx25
+r19 c72..73 fg=idx25 bg=idx25
+r19 c73..81 fg=Sidebar bg=Sidebar
 r19 c81..100 fg=Foreground bg=Background|Surface
 r20 c0..21 fg=Foreground bg=Background|Surface
 r20 c21..24 fg=Border bg=Border
-r20 c24..25 fg=PrimaryForeground bg=Border
-r20 c25..27 fg=PrimaryForeground bg=Sidebar
+r20 c24..25 fg=Sidebar bg=Border
+r20 c25..27 fg=Sidebar bg=Sidebar
 r20 c27..28 fg=idx32 bg=Sidebar
 r20 c28..32 fg=idx32 bg=idx32
 r20 c32..33 fg=idx32 bg=idx26
 r20 c33..61 fg=idx26 bg=idx26
 r20 c61..62 fg=idx26 bg=Background|Surface
-r20 c62..68 fg=Background|Surface bg=Background|Surface
-r20 c68..69 fg=Primary bg=Background|Surface
-r20 c69..71 fg=Background|Surface bg=Background|Surface
-r20 c71..72 fg=Primary bg=Primary
-r20 c72..81 fg=PrimaryForeground bg=Sidebar
+r20 c62..68 fg=PrimaryForeground bg=Background|Surface
+r20 c68..69 fg=idx25 bg=Background|Surface
+r20 c69..71 fg=PrimaryForeground bg=Background|Surface
+r20 c71..72 fg=idx25 bg=idx25
+r20 c72..81 fg=Sidebar bg=Sidebar
 r20 c81..100 fg=Foreground bg=Background|Surface
 r21 c0..20 fg=Foreground bg=Background|Surface
 r21 c20..26 fg=Border bg=Border
-r21 c26..28 fg=PrimaryForeground bg=Sidebar
+r21 c26..28 fg=Sidebar bg=Sidebar
 r21 c28..30 fg=idx32 bg=idx32
 r21 c30..31 fg=idx32 bg=idx26
 r21 c31..53 fg=idx26 bg=idx26
-r21 c53..55 fg=Background|Surface bg=Background|Surface
+r21 c53..55 fg=PrimaryForeground bg=Background|Surface
 r21 c55..59 fg=idx26 bg=idx26
 r21 c59..60 fg=idx26 bg=Background|Surface
-r21 c60..63 fg=Background|Surface bg=Background|Surface
-r21 c63..64 fg=Background|Surface bg=Primary
-r21 c64..67 fg=Background|Surface bg=Background|Surface
-r21 c67..68 fg=Primary bg=Background|Surface
-r21 c68..69 fg=Background|Surface bg=Background|Surface
-r21 c69..70 fg=Background|Surface bg=Primary
-r21 c70..71 fg=Primary bg=Primary
-r21 c71..76 fg=PrimaryForeground bg=Hover
-r21 c76..80 fg=PrimaryForeground bg=Sidebar
-r21 c80..81 fg=PrimaryForeground bg=Background|Surface
+r21 c60..63 fg=PrimaryForeground bg=Background|Surface
+r21 c63..64 fg=PrimaryForeground bg=idx25
+r21 c64..67 fg=PrimaryForeground bg=Background|Surface
+r21 c67..68 fg=idx25 bg=Background|Surface
+r21 c68..69 fg=PrimaryForeground bg=Background|Surface
+r21 c69..70 fg=PrimaryForeground bg=idx25
+r21 c70..71 fg=idx25 bg=idx25
+r21 c71..76 fg=Sidebar bg=Hover
+r21 c76..80 fg=Sidebar bg=Sidebar
+r21 c80..81 fg=Sidebar bg=Background|Surface
 r21 c81..100 fg=Foreground bg=Background|Surface
 r22 c0..20 fg=Foreground bg=Background|Surface
 r22 c20..26 fg=Border bg=Hover
 r22 c26..29 fg=Hover bg=Hover
 r22 c29..57 fg=idx26 bg=idx26
 r22 c57..58 fg=idx26 bg=Background|Surface
-r22 c58..65 fg=Background|Surface bg=Background|Surface
-r22 c65..66 fg=Background|Surface bg=Primary
-r22 c66..68 fg=Background|Surface bg=Background|Surface
-r22 c68..69 fg=Background|Surface bg=Primary
-r22 c69..70 fg=Primary bg=Primary
+r22 c58..65 fg=PrimaryForeground bg=Background|Surface
+r22 c65..66 fg=PrimaryForeground bg=idx25
+r22 c66..68 fg=PrimaryForeground bg=Background|Surface
+r22 c68..69 fg=PrimaryForeground bg=idx25
+r22 c69..70 fg=idx25 bg=idx25
 r22 c70..80 fg=Hover bg=Hover
 r22 c80..100 fg=Foreground bg=Background|Surface
 r23 c0..20 fg=Foreground bg=Background|Surface
@@ -2895,15 +2895,15 @@ r23 c22..23 fg=Hover bg=idx146
 r23 c23..30 fg=Hover bg=Hover
 r23 c30..31 fg=idx26 bg=Hover
 r23 c31..56 fg=idx26 bg=idx26
-r23 c56..59 fg=Background|Surface bg=Background|Surface
-r23 c59..60 fg=Background|Surface bg=Primary
-r23 c60..63 fg=Background|Surface bg=Background|Surface
-r23 c63..64 fg=Background|Surface bg=Primary
-r23 c64..65 fg=Primary bg=Background|Surface
-r23 c65..66 fg=Background|Surface bg=Background|Surface
-r23 c66..67 fg=Background|Surface bg=Primary
-r23 c67..68 fg=Primary bg=Primary
-r23 c68..69 fg=Primary bg=Hover
+r23 c56..59 fg=PrimaryForeground bg=Background|Surface
+r23 c59..60 fg=PrimaryForeground bg=idx25
+r23 c60..63 fg=PrimaryForeground bg=Background|Surface
+r23 c63..64 fg=PrimaryForeground bg=idx25
+r23 c64..65 fg=idx25 bg=Background|Surface
+r23 c65..66 fg=PrimaryForeground bg=Background|Surface
+r23 c66..67 fg=PrimaryForeground bg=idx25
+r23 c67..68 fg=idx25 bg=idx25
+r23 c68..69 fg=idx25 bg=Hover
 r23 c69..80 fg=Hover bg=Hover
 r23 c80..100 fg=Foreground bg=Background|Surface
 r24 c0..19 fg=Foreground bg=Background|Surface
@@ -2917,13 +2917,13 @@ r24 c33..45 fg=idx26 bg=idx26
 r24 c45..46 fg=idx26 bg=Hover
 r24 c46..54 fg=idx26 bg=idx26
 r24 c54..55 fg=idx26 bg=Background|Surface
-r24 c55..61 fg=Background|Surface bg=Background|Surface
-r24 c61..62 fg=Background|Surface bg=Primary
-r24 c62..63 fg=Primary bg=Background|Surface
-r24 c63..64 fg=Background|Surface bg=Background|Surface
-r24 c64..65 fg=Background|Surface bg=Primary
-r24 c65..66 fg=Primary bg=Primary
-r24 c66..67 fg=Primary bg=Hover
+r24 c55..61 fg=PrimaryForeground bg=Background|Surface
+r24 c61..62 fg=PrimaryForeground bg=idx25
+r24 c62..63 fg=idx25 bg=Background|Surface
+r24 c63..64 fg=PrimaryForeground bg=Background|Surface
+r24 c64..65 fg=PrimaryForeground bg=idx25
+r24 c65..66 fg=idx25 bg=idx25
+r24 c66..67 fg=idx25 bg=Hover
 r24 c67..70 fg=Hover bg=Hover
 r24 c70..75 fg=Hover bg=Sidebar
 r24 c75..78 fg=Hover bg=Hover
@@ -2936,21 +2936,21 @@ r25 c22..23 fg=idx146 bg=idx109
 r25 c23..25 fg=Hover bg=Sidebar
 r25 c25..26 fg=Hover bg=Hover
 r25 c26..27 fg=Hover bg=Sidebar
-r25 c27..28 fg=PrimaryForeground bg=Sidebar
-r25 c28..30 fg=PrimaryForeground bg=Hover
+r25 c27..28 fg=Sidebar bg=Sidebar
+r25 c28..30 fg=Sidebar bg=Hover
 r25 c30..34 fg=Hover bg=Hover
 r25 c34..44 fg=idx26 bg=Hover
 r25 c44..45 fg=Hover bg=idx26
 r25 c45..52 fg=idx26 bg=idx26
 r25 c52..53 fg=idx26 bg=Background|Surface
-r25 c53..57 fg=Background|Surface bg=Background|Surface
-r25 c57..58 fg=Background|Surface bg=Primary
-r25 c58..59 fg=Background|Surface bg=Background|Surface
-r25 c59..60 fg=Primary bg=Background|Surface
-r25 c60..61 fg=Background|Surface bg=Background|Surface
-r25 c61..63 fg=Background|Surface bg=Primary
-r25 c63..64 fg=Primary bg=Primary
-r25 c64..65 fg=Primary bg=Hover
+r25 c53..57 fg=PrimaryForeground bg=Background|Surface
+r25 c57..58 fg=PrimaryForeground bg=idx25
+r25 c58..59 fg=PrimaryForeground bg=Background|Surface
+r25 c59..60 fg=idx25 bg=Background|Surface
+r25 c60..61 fg=PrimaryForeground bg=Background|Surface
+r25 c61..63 fg=PrimaryForeground bg=idx25
+r25 c63..64 fg=idx25 bg=idx25
+r25 c64..65 fg=idx25 bg=Hover
 r25 c65..77 fg=Hover bg=Hover
 r25 c77..79 fg=idx152 bg=idx152
 r25 c79..100 fg=Foreground bg=Background|Surface
@@ -2963,12 +2963,12 @@ r26 c26..39 fg=Hover bg=Hover
 r26 c39..42 fg=Hover bg=idx26
 r26 c42..50 fg=idx26 bg=idx26
 r26 c50..51 fg=idx26 bg=Background|Surface
-r26 c51..54 fg=Background|Surface bg=Background|Surface
-r26 c54..55 fg=Primary bg=Background|Surface
-r26 c55..56 fg=Background|Surface bg=Background|Surface
-r26 c56..59 fg=Background|Surface bg=Primary
-r26 c59..60 fg=Primary bg=Primary
-r26 c60..62 fg=Primary bg=Hover
+r26 c51..54 fg=PrimaryForeground bg=Background|Surface
+r26 c54..55 fg=idx25 bg=Background|Surface
+r26 c55..56 fg=PrimaryForeground bg=Background|Surface
+r26 c56..59 fg=PrimaryForeground bg=idx25
+r26 c59..60 fg=idx25 bg=idx25
+r26 c60..62 fg=idx25 bg=Hover
 r26 c62..76 fg=Hover bg=Hover
 r26 c76..77 fg=Hover bg=idx110
 r26 c77..78 fg=idx152 bg=idx109
@@ -2982,10 +2982,10 @@ r27 c25..26 fg=idx152 bg=idx152
 r27 c26..41 fg=Hover bg=Hover
 r27 c41..44 fg=idx26 bg=Hover
 r27 c44..48 fg=idx26 bg=idx26
-r27 c48..50 fg=Background|Surface bg=idx26
-r27 c50..52 fg=Background|Surface bg=Primary
-r27 c52..54 fg=Primary bg=Primary
-r27 c54..58 fg=Primary bg=Hover
+r27 c48..50 fg=PrimaryForeground bg=idx26
+r27 c50..52 fg=PrimaryForeground bg=idx25
+r27 c52..54 fg=idx25 bg=idx25
+r27 c54..58 fg=idx25 bg=Hover
 r27 c58..71 fg=Hover bg=Hover
 r27 c71..74 fg=Hover bg=Selected
 r27 c74..76 fg=Selected bg=Selected
@@ -3011,7 +3011,7 @@ r29 c0..23 fg=Foreground bg=Background|Surface
 r29 c23..24 fg=idx152 bg=idx152
 r29 c24..25 fg=Foreground bg=Background|Surface
 r29 c25..26 fg=idx152 bg=idx152
-r29 c26..27 fg=Background|Surface bg=Background|Surface
+r29 c26..27 fg=PrimaryForeground bg=Background|Surface
 r29 c27..28 fg=Foreground bg=Background|Surface
 r29 c28..29 fg=Hover bg=Background|Surface
 r29 c29..30 fg=Hover bg=Hover
@@ -3056,7 +3056,7 @@ r31 c66..67 fg=Selected bg=Background|Surface
 r31 c67..68 fg=Hover bg=Background|Surface
 r31 c68..100 fg=Foreground bg=Background|Surface
 r32 c0..41 fg=Foreground bg=Background|Surface
-r32 c41..42 fg=PrimaryForeground bg=Background|Surface
+r32 c41..42 fg=Sidebar bg=Background|Surface
 r32 c42..46 fg=idx109 bg=Background|Surface
 r32 c46..48 fg=idx109 bg=Sidebar
 r32 c48..56 fg=idx109 bg=Selected
@@ -3105,52 +3105,52 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary
+r0 c0..9 fg=Accent
 r0 c12..13 dim
-r7 c39..54 fg=Primary
-r8 c35..53 fg=Primary
-r9 c33..56 fg=Primary
-r10 c31..61 fg=Primary
-r11 c29..40 fg=Primary
-r11 c49..60 fg=Primary
-r12 c28..37 fg=Primary
-r12 c52..57 fg=Primary
-r13 c28..36 fg=Primary
-r14 c27..35 fg=Primary
-r15 c27..34 fg=Primary
-r15 c63..72 fg=Primary
-r16 c26..34 fg=Primary
-r16 c55..74 fg=Primary
-r17 c26..34 fg=Primary
-r17 c49..74 fg=Primary
-r18 c26..36 fg=Primary
-r18 c44..71 fg=Primary
-r18 c72..74 fg=Primary
-r19 c27..65 fg=Primary
-r19 c71..73 fg=Primary
-r20 c27..62 fg=Primary
-r20 c70..73 fg=Primary
-r21 c28..53 fg=Primary
-r21 c54..60 fg=Primary
-r21 c63..64 fg=Primary
-r21 c66..68 fg=Primary
-r21 c69..72 fg=Primary
-r22 c28..58 fg=Primary
-r22 c61..63 fg=Primary
-r22 c65..67 fg=Primary
-r22 c68..71 fg=Primary
-r23 c30..57 fg=Primary
-r23 c59..62 fg=Primary
-r23 c63..65 fg=Primary
-r23 c66..69 fg=Primary
-r24 c31..55 fg=Primary
-r24 c57..59 fg=Primary
-r24 c60..68 fg=Primary
-r25 c34..54 fg=Primary
-r25 c56..65 fg=Primary
-r26 c39..52 fg=Primary
-r26 c55..63 fg=Primary
-r27 c40..59 fg=Primary
+r7 c39..54 fg=Accent
+r8 c35..53 fg=Accent
+r9 c33..56 fg=Accent
+r10 c31..61 fg=Accent
+r11 c29..40 fg=Accent
+r11 c49..60 fg=Accent
+r12 c28..37 fg=Accent
+r12 c52..57 fg=Accent
+r13 c28..36 fg=Accent
+r14 c27..35 fg=Accent
+r15 c27..34 fg=Accent
+r15 c63..72 fg=Accent
+r16 c26..34 fg=Accent
+r16 c55..74 fg=Accent
+r17 c26..34 fg=Accent
+r17 c49..74 fg=Accent
+r18 c26..36 fg=Accent
+r18 c44..71 fg=Accent
+r18 c72..74 fg=Accent
+r19 c27..65 fg=Accent
+r19 c71..73 fg=Accent
+r20 c27..62 fg=Accent
+r20 c70..73 fg=Accent
+r21 c28..53 fg=Accent
+r21 c54..60 fg=Accent
+r21 c63..64 fg=Accent
+r21 c66..68 fg=Accent
+r21 c69..72 fg=Accent
+r22 c28..58 fg=Accent
+r22 c61..63 fg=Accent
+r22 c65..67 fg=Accent
+r22 c68..71 fg=Accent
+r23 c30..57 fg=Accent
+r23 c59..62 fg=Accent
+r23 c63..65 fg=Accent
+r23 c66..69 fg=Accent
+r24 c31..55 fg=Accent
+r24 c57..59 fg=Accent
+r24 c60..68 fg=Accent
+r25 c34..54 fg=Accent
+r25 c56..65 fg=Accent
+r26 c39..52 fg=Accent
+r26 c55..63 fg=Accent
+r27 c40..59 fg=Accent
 r34 c0..100 dim
 r35 c0..100 dim
 
@@ -3192,52 +3192,52 @@ Codewhale   ○ Idle
 Pet surface - idle preview
 
 ---
-r0 c0..9 fg=Primary
+r0 c0..9 fg=Accent
 r0 c12..13 dim
-r7 c39..54 fg=Primary
-r8 c35..53 fg=Primary
-r9 c33..56 fg=Primary
-r10 c31..61 fg=Primary
-r11 c29..40 fg=Primary
-r11 c49..60 fg=Primary
-r12 c28..37 fg=Primary
-r12 c52..57 fg=Primary
-r13 c28..36 fg=Primary
-r14 c27..35 fg=Primary
-r15 c27..34 fg=Primary
-r15 c63..72 fg=Primary
-r16 c26..34 fg=Primary
-r16 c55..74 fg=Primary
-r17 c26..34 fg=Primary
-r17 c49..74 fg=Primary
-r18 c26..36 fg=Primary
-r18 c44..71 fg=Primary
-r18 c72..74 fg=Primary
-r19 c27..65 fg=Primary
-r19 c71..73 fg=Primary
-r20 c27..62 fg=Primary
-r20 c70..73 fg=Primary
-r21 c28..53 fg=Primary
-r21 c54..60 fg=Primary
-r21 c63..64 fg=Primary
-r21 c66..68 fg=Primary
-r21 c69..72 fg=Primary
-r22 c28..58 fg=Primary
-r22 c61..63 fg=Primary
-r22 c65..67 fg=Primary
-r22 c68..71 fg=Primary
-r23 c30..57 fg=Primary
-r23 c59..62 fg=Primary
-r23 c63..65 fg=Primary
-r23 c66..69 fg=Primary
-r24 c31..55 fg=Primary
-r24 c57..59 fg=Primary
-r24 c60..68 fg=Primary
-r25 c34..54 fg=Primary
-r25 c56..65 fg=Primary
-r26 c39..52 fg=Primary
-r26 c55..63 fg=Primary
-r27 c40..59 fg=Primary
+r7 c39..54 fg=Accent
+r8 c35..53 fg=Accent
+r9 c33..56 fg=Accent
+r10 c31..61 fg=Accent
+r11 c29..40 fg=Accent
+r11 c49..60 fg=Accent
+r12 c28..37 fg=Accent
+r12 c52..57 fg=Accent
+r13 c28..36 fg=Accent
+r14 c27..35 fg=Accent
+r15 c27..34 fg=Accent
+r15 c63..72 fg=Accent
+r16 c26..34 fg=Accent
+r16 c55..74 fg=Accent
+r17 c26..34 fg=Accent
+r17 c49..74 fg=Accent
+r18 c26..36 fg=Accent
+r18 c44..71 fg=Accent
+r18 c72..74 fg=Accent
+r19 c27..65 fg=Accent
+r19 c71..73 fg=Accent
+r20 c27..62 fg=Accent
+r20 c70..73 fg=Accent
+r21 c28..53 fg=Accent
+r21 c54..60 fg=Accent
+r21 c63..64 fg=Accent
+r21 c66..68 fg=Accent
+r21 c69..72 fg=Accent
+r22 c28..58 fg=Accent
+r22 c61..63 fg=Accent
+r22 c65..67 fg=Accent
+r22 c68..71 fg=Accent
+r23 c30..57 fg=Accent
+r23 c59..62 fg=Accent
+r23 c63..65 fg=Accent
+r23 c66..69 fg=Accent
+r24 c31..55 fg=Accent
+r24 c57..59 fg=Accent
+r24 c60..68 fg=Accent
+r25 c34..54 fg=Accent
+r25 c56..65 fg=Accent
+r26 c39..52 fg=Accent
+r26 c55..63 fg=Accent
+r27 c40..59 fg=Accent
 r34 c0..100 dim
 r35 c0..100 dim
 

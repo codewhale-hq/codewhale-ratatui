@@ -13,7 +13,7 @@ expression: "testing::snapshot(e.height, paint)"
 
   1 failed · 3 working · 2 ready · 4 do…
 ---
-r0 c0..2 fg=Primary bg=Background
+r0 c0..2 fg=Accent bg=Background
 r0 c2..3 fg=Live bg=Background
 r0 c3..4 bg=Background
 r0 c4..19 fg=Foreground bg=Background
@@ -21,7 +21,7 @@ r0 c19..26 fg=Muted bg=Background
 r0 c26..29 fg=Dim bg=Background
 r0 c29..35 fg=Muted bg=Background
 r0 c35..40 bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..4 fg=Dim bg=Background
 r1 c4..5 fg=Live bg=Background
 r1 c5..6 bg=Background
@@ -32,7 +32,7 @@ r1 c26..34 fg=Muted bg=Background
 r1 c34..37 fg=Dim bg=Background
 r1 c37..38 fg=Muted bg=Background
 r1 c38..40 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..4 fg=Dim bg=Background
 r2 c4..5 fg=Live bg=Background
 r2 c5..6 bg=Background
@@ -41,7 +41,7 @@ r2 c19..26 fg=Muted bg=Background
 r2 c26..29 fg=Dim bg=Background
 r2 c29..38 fg=Muted bg=Background
 r2 c38..40 bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..6 fg=Dim bg=Background
 r3 c6..7 fg=Live bg=Background
 r3 c7..8 bg=Background
@@ -50,7 +50,7 @@ r3 c19..26 fg=Muted bg=Background
 r3 c26..29 fg=Dim bg=Background
 r3 c29..37 fg=Muted bg=Background
 r3 c37..40 bg=Background
-r4 c0..2 fg=Primary bg=Selected
+r4 c0..2 fg=Accent bg=Selected
 r4 c2..6 fg=Dim bg=Selected
 r4 c6..7 fg=Danger bg=Selected
 r4 c7..8 bg=Selected
@@ -61,14 +61,14 @@ r4 c25..28 fg=Dim bg=Selected
 r4 c28..36 fg=Foreground bg=Selected
 r4 c36..38 fg=Muted bg=Selected
 r4 c38..40 bg=Selected
-r5 c0..2 fg=Primary bg=Background
+r5 c0..2 fg=Accent bg=Background
 r5 c2..6 fg=Dim bg=Background
 r5 c6..7 fg=Muted bg=Background
 r5 c7..8 bg=Background
 r5 c8..19 fg=Foreground bg=Background
 r5 c19..24 fg=Muted bg=Background
 r5 c24..40 bg=Background
-r6 c0..2 fg=Primary bg=Background
+r6 c0..2 fg=Accent bg=Background
 r6 c2..4 fg=Dim bg=Background
 r6 c4..5 fg=Muted bg=Background
 r6 c5..6 bg=Background
@@ -90,7 +90,7 @@ r8 c2..40 fg=Muted bg=Background
 
   1 failed · 3 working · 2 ready · 4 done
 ---
-r0 c0..2 fg=Primary bg=Background
+r0 c0..2 fg=Accent bg=Background
 r0 c2..3 fg=Live bg=Background
 r0 c3..4 bg=Background
 r0 c4..19 fg=Foreground bg=Background
@@ -100,7 +100,7 @@ r0 c29..35 fg=Muted bg=Background
 r0 c35..38 fg=Dim bg=Background
 r0 c38..43 fg=Muted bg=Background
 r0 c43..80 bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..4 fg=Dim bg=Background
 r1 c4..5 fg=Live bg=Background
 r1 c5..6 bg=Background
@@ -113,7 +113,7 @@ r1 c37..43 fg=Muted bg=Background
 r1 c43..46 fg=Dim bg=Background
 r1 c46..64 fg=Muted bg=Background
 r1 c64..80 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..4 fg=Dim bg=Background
 r2 c4..5 fg=Live bg=Background
 r2 c5..6 bg=Background
@@ -122,7 +122,7 @@ r2 c19..26 fg=Muted bg=Background
 r2 c26..29 fg=Dim bg=Background
 r2 c29..42 fg=Muted bg=Background
 r2 c42..80 bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..6 fg=Dim bg=Background
 r3 c6..7 fg=Live bg=Background
 r3 c7..8 bg=Background
@@ -133,7 +133,7 @@ r3 c29..49 fg=Muted bg=Background
 r3 c49..52 fg=Dim bg=Background
 r3 c52..56 fg=Muted bg=Background
 r3 c56..80 bg=Background
-r4 c0..2 fg=Primary bg=Selected
+r4 c0..2 fg=Accent bg=Selected
 r4 c2..6 fg=Dim bg=Selected
 r4 c6..7 fg=Danger bg=Selected
 r4 c7..8 bg=Selected
@@ -144,14 +144,14 @@ r4 c25..28 fg=Dim bg=Selected
 r4 c28..46 fg=Foreground bg=Selected
 r4 c46..48 fg=Muted bg=Selected
 r4 c48..80 bg=Selected
-r5 c0..2 fg=Primary bg=Background
+r5 c0..2 fg=Accent bg=Background
 r5 c2..6 fg=Dim bg=Background
 r5 c6..7 fg=Muted bg=Background
 r5 c7..8 bg=Background
 r5 c8..19 fg=Foreground bg=Background
 r5 c19..24 fg=Muted bg=Background
 r5 c24..80 bg=Background
-r6 c0..2 fg=Primary bg=Background
+r6 c0..2 fg=Accent bg=Background
 r6 c2..4 fg=Dim bg=Background
 r6 c4..5 fg=Muted bg=Background
 r6 c5..6 bg=Background
@@ -174,7 +174,7 @@ r8 c41..80 bg=Background
 
   1 failed · 3 working · 2 ready · 4 done
 ---
-r0 c0..2 fg=Primary bg=Background
+r0 c0..2 fg=Accent bg=Background
 r0 c2..3 fg=Live bg=Background
 r0 c3..4 bg=Background
 r0 c4..19 fg=Foreground bg=Background
@@ -184,7 +184,7 @@ r0 c29..35 fg=Muted bg=Background
 r0 c35..38 fg=Dim bg=Background
 r0 c38..43 fg=Muted bg=Background
 r0 c43..120 bg=Background
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..4 fg=Dim bg=Background
 r1 c4..5 fg=Live bg=Background
 r1 c5..6 bg=Background
@@ -197,7 +197,7 @@ r1 c37..43 fg=Muted bg=Background
 r1 c43..46 fg=Dim bg=Background
 r1 c46..64 fg=Muted bg=Background
 r1 c64..120 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..4 fg=Dim bg=Background
 r2 c4..5 fg=Live bg=Background
 r2 c5..6 bg=Background
@@ -206,7 +206,7 @@ r2 c19..26 fg=Muted bg=Background
 r2 c26..29 fg=Dim bg=Background
 r2 c29..42 fg=Muted bg=Background
 r2 c42..120 bg=Background
-r3 c0..2 fg=Primary bg=Background
+r3 c0..2 fg=Accent bg=Background
 r3 c2..6 fg=Dim bg=Background
 r3 c6..7 fg=Live bg=Background
 r3 c7..8 bg=Background
@@ -217,7 +217,7 @@ r3 c29..49 fg=Muted bg=Background
 r3 c49..52 fg=Dim bg=Background
 r3 c52..56 fg=Muted bg=Background
 r3 c56..120 bg=Background
-r4 c0..2 fg=Primary bg=Selected
+r4 c0..2 fg=Accent bg=Selected
 r4 c2..6 fg=Dim bg=Selected
 r4 c6..7 fg=Danger bg=Selected
 r4 c7..8 bg=Selected
@@ -228,14 +228,14 @@ r4 c25..28 fg=Dim bg=Selected
 r4 c28..46 fg=Foreground bg=Selected
 r4 c46..48 fg=Muted bg=Selected
 r4 c48..120 bg=Selected
-r5 c0..2 fg=Primary bg=Background
+r5 c0..2 fg=Accent bg=Background
 r5 c2..6 fg=Dim bg=Background
 r5 c6..7 fg=Muted bg=Background
 r5 c7..8 bg=Background
 r5 c8..19 fg=Foreground bg=Background
 r5 c19..24 fg=Muted bg=Background
 r5 c24..120 bg=Background
-r6 c0..2 fg=Primary bg=Background
+r6 c0..2 fg=Accent bg=Background
 r6 c2..4 fg=Dim bg=Background
 r6 c4..5 fg=Muted bg=Background
 r6 c5..6 bg=Background

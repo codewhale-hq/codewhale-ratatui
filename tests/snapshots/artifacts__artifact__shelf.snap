@@ -13,7 +13,7 @@ expression: "testing::snapshot(6, shelf)"
 r0 c0..2 bg=Background
 r0 c2..22 fg=Foreground bg=Background
 r0 c22..36 bg=Background
-r0 c36..40 fg=Primary bg=Background
+r0 c36..40 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Live bg=Background
 r1 c3..4 bg=Background
@@ -26,11 +26,11 @@ r1 c23..30 fg=Foreground bg=Background
 r1 c30..33 fg=Dim bg=Background
 r1 c33..39 fg=Muted bg=Background
 r1 c39..40 fg=Hint bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..22 fg=Foreground bg=Selected bold
 r2 c22..34 bg=Selected
-r2 c34..40 fg=Primary bg=Selected
+r2 c34..40 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -46,7 +46,7 @@ r3 c39..40 fg=Hint bg=Selected
 r4 c0..2 bg=Background
 r4 c2..20 fg=Foreground bg=Background
 r4 c20..33 bg=Background
-r4 c33..40 fg=Primary bg=Background
+r4 c33..40 fg=Accent bg=Background
 r5 c0..2 bg=Background
 r5 c2..3 fg=Live bg=Background
 r5 c3..4 bg=Background
@@ -71,7 +71,7 @@ r5 c39..40 fg=Hint bg=Background
 r0 c0..2 bg=Background
 r0 c2..22 fg=Foreground bg=Background
 r0 c22..76 bg=Background
-r0 c76..80 fg=Primary bg=Background
+r0 c76..80 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Live bg=Background
 r1 c3..4 bg=Background
@@ -84,11 +84,11 @@ r1 c23..30 fg=Foreground bg=Background
 r1 c30..33 fg=Dim bg=Background
 r1 c33..58 fg=Muted bg=Background
 r1 c58..80 bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..22 fg=Foreground bg=Selected bold
 r2 c22..74 bg=Selected
-r2 c74..80 fg=Primary bg=Selected
+r2 c74..80 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -104,7 +104,7 @@ r3 c58..80 bg=Selected
 r4 c0..2 bg=Background
 r4 c2..20 fg=Foreground bg=Background
 r4 c20..73 bg=Background
-r4 c73..80 fg=Primary bg=Background
+r4 c73..80 fg=Accent bg=Background
 r5 c0..2 bg=Background
 r5 c2..3 fg=Live bg=Background
 r5 c3..4 bg=Background
@@ -129,7 +129,7 @@ r5 c49..80 bg=Background
 r0 c0..2 bg=Background
 r0 c2..22 fg=Foreground bg=Background
 r0 c22..116 bg=Background
-r0 c116..120 fg=Primary bg=Background
+r0 c116..120 fg=Accent bg=Background
 r1 c0..2 bg=Background
 r1 c2..3 fg=Live bg=Background
 r1 c3..4 bg=Background
@@ -142,11 +142,11 @@ r1 c23..30 fg=Foreground bg=Background
 r1 c30..33 fg=Dim bg=Background
 r1 c33..58 fg=Muted bg=Background
 r1 c58..120 bg=Background
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..22 fg=Foreground bg=Selected bold
 r2 c22..114 bg=Selected
-r2 c114..120 fg=Primary bg=Selected
+r2 c114..120 fg=Accent bg=Selected
 r3 c0..2 bg=Selected
 r3 c2..3 fg=Attention bg=Selected
 r3 c3..4 bg=Selected
@@ -162,7 +162,7 @@ r3 c58..120 bg=Selected
 r4 c0..2 bg=Background
 r4 c2..20 fg=Foreground bg=Background
 r4 c20..113 bg=Background
-r4 c113..120 fg=Primary bg=Background
+r4 c113..120 fg=Accent bg=Background
 r5 c0..2 bg=Background
 r5 c2..3 fg=Live bg=Background
 r5 c3..4 bg=Background

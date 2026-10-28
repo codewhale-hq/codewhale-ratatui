@@ -10,7 +10,7 @@ expression: dump(&entry)
 ---
 r0 c0..2 bg=Background
 r0 c2..40 fg=Foreground bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..40 fg=Foreground bg=Selected bold
 r2 c0..2 bg=Background
@@ -27,7 +27,7 @@ r3 c2..40 fg=Foreground bg=Background
 ---
 r0 c0..2 bg=Background
 r0 c2..40 fg=Foreground bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..40 fg=Foreground bg=Selected bold
 r2 c0..2 bg=Background
@@ -44,7 +44,7 @@ r3 c2..40 fg=Foreground bg=Background
 ---
 r0 c0..2 bg=Background
 r0 c2..40 fg=Foreground bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..40 fg=Foreground bg=Selected bold
 r2 c0..2 bg=Background
@@ -61,7 +61,7 @@ r3 c2..40 fg=Foreground bg=Background
 ---
 r0 c0..2 bg=Background
 r0 c2..40 fg=Foreground bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..40 fg=Foreground bg=Selected bold
 r2 c0..2 bg=Background
@@ -78,7 +78,7 @@ r3 c2..40 fg=Foreground bg=Background
 ---
 r0 c0..2 bg=Background|Surface
 r0 c2..40 fg=Foreground bg=Background|Surface
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..40 fg=Foreground bg=Selected bold
 r2 c0..2 bg=Background|Surface
@@ -93,7 +93,7 @@ r3 c2..40 fg=Foreground bg=Background|Surface
   Untitled
   A name with trailing words that run p…
 ---
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..40 bold
 
 == unknown-ground
@@ -102,7 +102,7 @@ r1 c2..40 bold
   Untitled
   A name with trailing words that run p…
 ---
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..40 bold
 
 == no-color

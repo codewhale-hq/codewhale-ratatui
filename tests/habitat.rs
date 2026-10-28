@@ -179,7 +179,7 @@ fn existing_text_and_wide_graphemes_keep_their_cells_and_clearance() {
                 112,
                 theme.fg(Role::Foreground),
             );
-            buf.set_stringn(85, row, "鲸鱼", 20, theme.fg(Role::Primary));
+            buf.set_stringn(85, row, "鲸鱼", 20, theme.fg(Role::Accent));
         }
         let before = buf.clone();
         Habitat::new(Duration::from_millis(1_800), MotionMode::Full)

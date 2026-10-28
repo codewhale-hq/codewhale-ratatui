@@ -389,9 +389,9 @@ r7 c83..104 fg=Foreground|BorderStrong bg=Selected
 r8 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r9 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c0..1 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r10 c1..8 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r10 c1..8 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c8..27 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r10 c27..36 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r10 c27..36 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c36..53 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c53..62 fg=idx214 bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c62..79 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
@@ -399,7 +399,7 @@ r10 c79..85 fg=Danger bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c85..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r11 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c0..1 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r12 c1..5 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r12 c1..5 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c5..35 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c35..39 fg=Attention bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c39..70 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
@@ -437,13 +437,13 @@ r20 c73..79 fg=Muted bg=Sidebar
 r20 c79..97 fg=Foreground|BorderStrong bg=Sidebar
 r20 c97..104 fg=Hint bg=Sidebar
 r21 c0..1 fg=Foreground|BorderStrong bg=Sidebar
-r21 c1..34 fg=Primary|Live bg=Sidebar bold
+r21 c1..34 fg=Primary|Accent|Live bg=Sidebar bold
 r21 c34..102 fg=Muted bg=Sidebar
 r21 c102..104 fg=Foreground|BorderStrong bg=Sidebar
 r22 c0..1 fg=Foreground|BorderStrong bg=Sidebar
-r22 c1..102 fg=Primary|Live bg=Selected bold
+r22 c1..102 fg=Primary|Accent|Live bg=Selected bold
 r22 c102..103 fg=Foreground|BorderStrong bg=Sidebar
-r22 c103..104 fg=Primary|Live bg=Sidebar
+r22 c103..104 fg=Primary|Accent|Live bg=Sidebar
 r23 c0..1 fg=Foreground|BorderStrong bg=Sidebar
 r23 c1..102 fg=Muted bg=Sidebar
 r23 c102..103 fg=Foreground|BorderStrong bg=Sidebar
@@ -500,9 +500,9 @@ r7 c83..104 fg=Foreground|BorderStrong bg=Selected
 r8 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r9 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c0..1 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r10 c1..8 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r10 c1..8 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c8..27 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r10 c27..36 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r10 c27..36 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c36..53 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c53..62 fg=idx214 bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c62..79 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
@@ -510,7 +510,7 @@ r10 c79..85 fg=Danger bg=Background|DiffAddedTint|DiffRemovedTint
 r10 c85..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r11 c0..104 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c0..1 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
-r12 c1..5 fg=Primary|Live bg=Background|DiffAddedTint|DiffRemovedTint
+r12 c1..5 fg=Primary|Accent|Live bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c5..35 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c35..39 fg=Attention bg=Background|DiffAddedTint|DiffRemovedTint
 r12 c39..70 fg=Foreground|BorderStrong bg=Background|DiffAddedTint|DiffRemovedTint
@@ -548,13 +548,13 @@ r20 c73..79 fg=Muted bg=Sidebar
 r20 c79..97 fg=Foreground|BorderStrong bg=Sidebar
 r20 c97..104 fg=Hint bg=Sidebar
 r21 c0..1 fg=Foreground|BorderStrong bg=Sidebar
-r21 c1..34 fg=Primary|Live bg=Sidebar bold
+r21 c1..34 fg=Primary|Accent|Live bg=Sidebar bold
 r21 c34..102 fg=Muted bg=Sidebar
 r21 c102..104 fg=Foreground|BorderStrong bg=Sidebar
 r22 c0..1 fg=Foreground|BorderStrong bg=Sidebar
-r22 c1..102 fg=Primary|Live bg=Selected bold
+r22 c1..102 fg=Primary|Accent|Live bg=Selected bold
 r22 c102..103 fg=Foreground|BorderStrong bg=Sidebar
-r22 c103..104 fg=Primary|Live bg=Sidebar
+r22 c103..104 fg=Primary|Accent|Live bg=Sidebar
 r23 c0..1 fg=Foreground|BorderStrong bg=Sidebar
 r23 c1..102 fg=Muted bg=Sidebar
 r23 c102..103 fg=Foreground|BorderStrong bg=Sidebar
@@ -592,9 +592,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention
@@ -648,9 +648,9 @@ r10 c1..8 fg=Live
 r10 c27..36 fg=Live
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
-r12 c1..5 fg=Primary
-r12 c35..39 fg=Primary
-r12 c70..77 fg=Primary
+r12 c1..5 fg=Accent
+r12 c35..39 fg=Accent
+r12 c70..77 fg=Accent
 r14 c1..4 fg=Attention
 r14 c35..46 fg=Attention
 r14 c70..81 fg=Attention

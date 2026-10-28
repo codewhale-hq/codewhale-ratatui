@@ -77,7 +77,7 @@ fn native_action_rail_pads_keys_packs_whole_actions_and_wraps() {
     });
     assert_eq!(body.height, 5, "roomy rail reserves one quiet row");
     assert!(buffer[(1, 6)].modifier.contains(Modifier::BOLD));
-    assert_eq!(buffer[(1, 6)].fg, theme.color(Role::Primary).unwrap());
+    assert_eq!(buffer[(1, 6)].fg, theme.color(Role::Accent).unwrap());
     assert_eq!(buffer[(7, 6)].fg, theme.color(Role::Muted).unwrap());
     let expanded = [
         KeyHint::new("Ctrl+Enter", "继续当前任务并查看完整的执行结果"),
@@ -113,7 +113,7 @@ fn instrument_paints_native_two_rules_and_action_roles() {
     assert!(lines[21].contains(" Enter resume  / search  Esc close"));
     assert!(lines[0].trim().is_empty());
     assert!((0..80).all(|x| buffer[(x, 23)].symbol() == " "));
-    assert_eq!(buffer[(2, 1)].fg, theme.color(Role::Primary).unwrap());
+    assert_eq!(buffer[(2, 1)].fg, theme.color(Role::Accent).unwrap());
 }
 
 fn sessions() -> SessionList<'static> {

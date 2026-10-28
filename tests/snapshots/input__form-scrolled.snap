@@ -20,7 +20,7 @@ r2 c2..11 fg=Muted bg=Background
 r2 c11..40 bg=Background
 r3 c0..9 fg=Foreground bg=Background bold
 r3 c9..40 bg=Background
-r4 c0..1 fg=Primary bg=Selected
+r4 c0..1 fg=Accent bg=Selected
 r4 c1..2 bg=Selected
 r4 c2..7 fg=Muted bg=Selected bold
 r4 c7..40 bg=Selected
@@ -43,7 +43,7 @@ r2 c2..11 fg=Muted bg=Background
 r2 c11..80 bg=Background
 r3 c0..9 fg=Foreground bg=Background bold
 r3 c9..80 bg=Background
-r4 c0..1 fg=Primary bg=Selected
+r4 c0..1 fg=Accent bg=Selected
 r4 c1..2 bg=Selected
 r4 c2..7 fg=Muted bg=Selected bold
 r4 c7..80 bg=Selected
@@ -66,7 +66,7 @@ r2 c2..11 fg=Muted bg=Background
 r2 c11..120 bg=Background
 r3 c0..9 fg=Foreground bg=Background bold
 r3 c9..120 bg=Background
-r4 c0..1 fg=Primary bg=Selected
+r4 c0..1 fg=Accent bg=Selected
 r4 c1..2 bg=Selected
 r4 c2..7 fg=Muted bg=Selected bold
 r4 c7..120 bg=Selected

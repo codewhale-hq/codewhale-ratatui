@@ -8,18 +8,18 @@ expression: dump(&entry)
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary bg=Surface
-r1 c0..2 fg=Primary bg=Surface
+r0 c0..100 fg=Primary|Accent bg=Surface
+r1 c0..2 fg=Primary|Accent bg=Surface
 r1 c2..3 bg=Surface
 r1 c3..63 fg=Foreground bg=Surface
 r1 c63..99 bg=Surface
-r1 c99..100 fg=Primary bg=Surface
-r2 c0..1 fg=Primary bg=Surface
+r1 c99..100 fg=Primary|Accent bg=Surface
+r2 c0..1 fg=Primary|Accent bg=Surface
 r2 c1..95 bg=Surface
-r2 c95..98 fg=Primary bg=Surface bold
+r2 c95..98 fg=Primary|Accent bg=Surface bold
 r2 c98..99 bg=Surface
-r2 c99..100 fg=Primary bg=Surface
-r3 c0..100 fg=Primary bg=Surface
+r2 c99..100 fg=Primary|Accent bg=Surface
+r3 c0..100 fg=Primary|Accent bg=Surface
 
 == dark-graphite
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -27,18 +27,18 @@ r3 c0..100 fg=Primary bg=Surface
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary bg=Surface
-r1 c0..2 fg=Primary bg=Surface
+r0 c0..100 fg=Primary|Accent bg=Surface
+r1 c0..2 fg=Primary|Accent bg=Surface
 r1 c2..3 bg=Surface
 r1 c3..63 fg=Foreground bg=Surface
 r1 c63..99 bg=Surface
-r1 c99..100 fg=Primary bg=Surface
-r2 c0..1 fg=Primary bg=Surface
+r1 c99..100 fg=Primary|Accent bg=Surface
+r2 c0..1 fg=Primary|Accent bg=Surface
 r2 c1..95 bg=Surface
-r2 c95..98 fg=Primary bg=Surface bold
+r2 c95..98 fg=Primary|Accent bg=Surface bold
 r2 c98..99 bg=Surface
-r2 c99..100 fg=Primary bg=Surface
-r3 c0..100 fg=Primary bg=Surface
+r2 c99..100 fg=Primary|Accent bg=Surface
+r3 c0..100 fg=Primary|Accent bg=Surface
 
 == light-truecolor
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -46,14 +46,14 @@ r3 c0..100 fg=Primary bg=Surface
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary
-r1 c0..2 fg=Primary
+r0 c0..100 fg=Primary|Accent
+r1 c0..2 fg=Primary|Accent
 r1 c3..63 fg=Foreground
-r1 c99..100 fg=Primary
-r2 c0..1 fg=Primary
-r2 c95..98 fg=Primary bold
-r2 c99..100 fg=Primary
-r3 c0..100 fg=Primary
+r1 c99..100 fg=Primary|Accent
+r2 c0..1 fg=Primary|Accent
+r2 c95..98 fg=Primary|Accent bold
+r2 c99..100 fg=Primary|Accent
+r3 c0..100 fg=Primary|Accent
 
 == dark-256
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -61,18 +61,18 @@ r3 c0..100 fg=Primary
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r1 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c0..100 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r1 c0..2 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r1 c2..3 bg=Surface|Hover|DiffRemovedTint
 r1 c3..63 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r1 c63..99 bg=Surface|Hover|DiffRemovedTint
-r1 c99..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r2 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c99..100 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r2 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r2 c1..95 bg=Surface|Hover|DiffRemovedTint
-r2 c95..98 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r2 c95..98 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint bold
 r2 c98..99 bg=Surface|Hover|DiffRemovedTint
-r2 c99..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r3 c0..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c99..100 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r3 c0..100 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 
 == light-256
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -80,14 +80,14 @@ r3 c0..100 fg=Primary bg=Surface|Hover|DiffRemovedTint
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary
-r1 c0..2 fg=Primary
+r0 c0..100 fg=Primary|Accent
+r1 c0..2 fg=Primary|Accent
 r1 c3..63 fg=Foreground
-r1 c99..100 fg=Primary
-r2 c0..1 fg=Primary
-r2 c95..98 fg=Primary bold
-r2 c99..100 fg=Primary
-r3 c0..100 fg=Primary
+r1 c99..100 fg=Primary|Accent
+r2 c0..1 fg=Primary|Accent
+r2 c95..98 fg=Primary|Accent bold
+r2 c99..100 fg=Primary|Accent
+r3 c0..100 fg=Primary|Accent
 
 == ansi-16
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -95,13 +95,13 @@ r3 c0..100 fg=Primary
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary
-r1 c0..2 fg=Primary
-r1 c99..100 fg=Primary
-r2 c0..1 fg=Primary
-r2 c95..98 fg=Primary bold
-r2 c99..100 fg=Primary
-r3 c0..100 fg=Primary
+r0 c0..100 fg=Accent
+r1 c0..2 fg=Accent
+r1 c99..100 fg=Accent
+r2 c0..1 fg=Accent
+r2 c95..98 fg=Accent bold
+r2 c99..100 fg=Accent
+r3 c0..100 fg=Accent
 
 == unknown-ground
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -109,13 +109,13 @@ r3 c0..100 fg=Primary
 │                                                                                              [↵] │
 ╰Enter send  Shift+Enter newline ──────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..100 fg=Primary
-r1 c0..2 fg=Primary
-r1 c99..100 fg=Primary
-r2 c0..1 fg=Primary
-r2 c95..98 fg=Primary bold
-r2 c99..100 fg=Primary
-r3 c0..100 fg=Primary
+r0 c0..100 fg=Accent
+r1 c0..2 fg=Accent
+r1 c99..100 fg=Accent
+r2 c0..1 fg=Accent
+r2 c95..98 fg=Accent bold
+r2 c99..100 fg=Accent
+r3 c0..100 fg=Accent
 
 == no-color
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────╮

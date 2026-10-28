@@ -8,7 +8,7 @@ Path
 ---
 r0 c0..4 fg=Foreground bg=Background bold
 r0 c4..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..3 fg=Muted bg=Selected
 r1 c3..38 fg=Foreground bg=Selected
@@ -21,7 +21,7 @@ Path
 ---
 r0 c0..4 fg=Foreground bg=Background bold
 r0 c4..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..3 fg=Muted bg=Selected
 r1 c3..38 fg=Foreground bg=Selected
@@ -34,7 +34,7 @@ Path
 ---
 r0 c0..4 fg=Foreground bg=Background bold
 r0 c4..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..3 fg=Muted bg=Selected
 r1 c3..38 fg=Foreground bg=Selected
@@ -47,7 +47,7 @@ Path
 ---
 r0 c0..4 fg=Foreground bg=Background bold
 r0 c4..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..3 fg=Muted bg=Selected
 r1 c3..38 fg=Foreground bg=Selected
@@ -60,7 +60,7 @@ Path
 ---
 r0 c0..4 fg=Foreground bg=Background|Surface bold
 r0 c4..40 bg=Background|Surface
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..3 fg=Muted bg=Selected
 r1 c3..38 fg=Foreground bg=Selected
@@ -72,7 +72,7 @@ Path
 › …nnon-labs/codewhale/crates/tui/src/t…
 ---
 r0 c0..4 bold
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..3 dim
 r1 c38..39 reversed
 r1 c39..40 dim
@@ -82,7 +82,7 @@ Path
 › …nnon-labs/codewhale/crates/tui/src/t…
 ---
 r0 c0..4 bold
-r1 c0..1 fg=Primary
+r1 c0..1 fg=Accent
 r1 c2..3 dim
 r1 c38..39 reversed
 r1 c39..40 dim

@@ -8,20 +8,20 @@ expression: dump(&entry)
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary bg=Surface
-r1 c0..1 fg=Primary bg=Surface
+r0 c0..40 fg=Primary|Accent bg=Surface
+r1 c0..1 fg=Primary|Accent bg=Surface
 r1 c1..3 bg=Surface
 r1 c3..28 fg=Foreground bg=Surface
 r1 c28..39 bg=Surface
-r1 c39..40 fg=Primary bg=Surface
-r2 c0..2 fg=Primary bg=Surface
+r1 c39..40 fg=Primary|Accent bg=Surface
+r2 c0..2 fg=Primary|Accent bg=Surface
 r2 c2..3 bg=Surface
 r2 c3..12 fg=Foreground bg=Surface
 r2 c12..35 bg=Surface
-r2 c35..38 fg=Primary bg=Surface bold
+r2 c35..38 fg=Primary|Accent bg=Surface bold
 r2 c38..39 bg=Surface
-r2 c39..40 fg=Primary bg=Surface
-r3 c0..40 fg=Primary bg=Surface
+r2 c39..40 fg=Primary|Accent bg=Surface
+r3 c0..40 fg=Primary|Accent bg=Surface
 
 == dark-graphite
 ╭──────────────────────────────────────╮
@@ -29,20 +29,20 @@ r3 c0..40 fg=Primary bg=Surface
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary bg=Surface
-r1 c0..1 fg=Primary bg=Surface
+r0 c0..40 fg=Primary|Accent bg=Surface
+r1 c0..1 fg=Primary|Accent bg=Surface
 r1 c1..3 bg=Surface
 r1 c3..28 fg=Foreground bg=Surface
 r1 c28..39 bg=Surface
-r1 c39..40 fg=Primary bg=Surface
-r2 c0..2 fg=Primary bg=Surface
+r1 c39..40 fg=Primary|Accent bg=Surface
+r2 c0..2 fg=Primary|Accent bg=Surface
 r2 c2..3 bg=Surface
 r2 c3..12 fg=Foreground bg=Surface
 r2 c12..35 bg=Surface
-r2 c35..38 fg=Primary bg=Surface bold
+r2 c35..38 fg=Primary|Accent bg=Surface bold
 r2 c38..39 bg=Surface
-r2 c39..40 fg=Primary bg=Surface
-r3 c0..40 fg=Primary bg=Surface
+r2 c39..40 fg=Primary|Accent bg=Surface
+r3 c0..40 fg=Primary|Accent bg=Surface
 
 == light-truecolor
 ╭──────────────────────────────────────╮
@@ -50,15 +50,15 @@ r3 c0..40 fg=Primary bg=Surface
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary
-r1 c0..1 fg=Primary
+r0 c0..40 fg=Primary|Accent
+r1 c0..1 fg=Primary|Accent
 r1 c3..28 fg=Foreground
-r1 c39..40 fg=Primary
-r2 c0..2 fg=Primary
+r1 c39..40 fg=Primary|Accent
+r2 c0..2 fg=Primary|Accent
 r2 c3..12 fg=Foreground
-r2 c35..38 fg=Primary bold
-r2 c39..40 fg=Primary
-r3 c0..40 fg=Primary
+r2 c35..38 fg=Primary|Accent bold
+r2 c39..40 fg=Primary|Accent
+r3 c0..40 fg=Primary|Accent
 
 == dark-256
 ╭──────────────────────────────────────╮
@@ -66,20 +66,20 @@ r3 c0..40 fg=Primary
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r1 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r0 c0..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r1 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r1 c1..3 bg=Surface|Hover|DiffRemovedTint
 r1 c3..28 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r1 c28..39 bg=Surface|Hover|DiffRemovedTint
-r1 c39..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r2 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r1 c39..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r2 c0..2 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r2 c2..3 bg=Surface|Hover|DiffRemovedTint
 r2 c3..12 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r2 c12..35 bg=Surface|Hover|DiffRemovedTint
-r2 c35..38 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r2 c35..38 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint bold
 r2 c38..39 bg=Surface|Hover|DiffRemovedTint
-r2 c39..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r3 c0..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r2 c39..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r3 c0..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 
 == light-256
 ╭──────────────────────────────────────╮
@@ -87,15 +87,15 @@ r3 c0..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary
-r1 c0..1 fg=Primary
+r0 c0..40 fg=Primary|Accent
+r1 c0..1 fg=Primary|Accent
 r1 c3..28 fg=Foreground
-r1 c39..40 fg=Primary
-r2 c0..2 fg=Primary
+r1 c39..40 fg=Primary|Accent
+r2 c0..2 fg=Primary|Accent
 r2 c3..12 fg=Foreground
-r2 c35..38 fg=Primary bold
-r2 c39..40 fg=Primary
-r3 c0..40 fg=Primary
+r2 c35..38 fg=Primary|Accent bold
+r2 c39..40 fg=Primary|Accent
+r3 c0..40 fg=Primary|Accent
 
 == ansi-16
 ╭──────────────────────────────────────╮
@@ -103,13 +103,13 @@ r3 c0..40 fg=Primary
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary
-r1 c0..1 fg=Primary
-r1 c39..40 fg=Primary
-r2 c0..2 fg=Primary
-r2 c35..38 fg=Primary bold
-r2 c39..40 fg=Primary
-r3 c0..40 fg=Primary
+r0 c0..40 fg=Accent
+r1 c0..1 fg=Accent
+r1 c39..40 fg=Accent
+r2 c0..2 fg=Accent
+r2 c35..38 fg=Accent bold
+r2 c39..40 fg=Accent
+r3 c0..40 fg=Accent
 
 == unknown-ground
 ╭──────────────────────────────────────╮
@@ -117,13 +117,13 @@ r3 c0..40 fg=Primary
 │❯ continue.                       [↵] │
 ╰Enter send ───────────────────────────╯
 ---
-r0 c0..40 fg=Primary
-r1 c0..1 fg=Primary
-r1 c39..40 fg=Primary
-r2 c0..2 fg=Primary
-r2 c35..38 fg=Primary bold
-r2 c39..40 fg=Primary
-r3 c0..40 fg=Primary
+r0 c0..40 fg=Accent
+r1 c0..1 fg=Accent
+r1 c39..40 fg=Accent
+r2 c0..2 fg=Accent
+r2 c35..38 fg=Accent bold
+r2 c39..40 fg=Accent
+r3 c0..40 fg=Accent
 
 == no-color
 ╭──────────────────────────────────────╮

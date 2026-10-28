@@ -34,7 +34,7 @@ fn audited_inks() -> Vec<(Role, f32)> {
     vec![
         (Role::Foreground, 4.5),
         (Role::Muted, 4.5),
-        (Role::Primary, 4.5),
+        (Role::Accent, 4.5),
         (Role::Live, 4.5),
         (Role::Attention, 4.5),
         (Role::Danger, 4.5),
@@ -206,7 +206,7 @@ fn inks_tints_fills_and_glyphs_survive_the_pass() {
         buf.set_style(Rect::new(20, 0, 10, 4), theme.bg(Role::Selected));
         buf.set_style(Rect::new(30, 0, 10, 4), theme.bg(Role::DiffAddedTint));
         buf.set_style(Rect::new(40, 0, 10, 4), theme.bg(Role::DiffRemovedTint));
-        buf.set_style(Rect::new(50, 0, 10, 4), theme.bg(Role::Primary));
+        buf.set_style(Rect::new(50, 0, 10, 4), theme.bg(Role::Accent));
         buf.set_style(
             Rect::new(20, 6, 40, 2),
             Style::default().bg(Color::Rgb(7, 8, 9)),
@@ -221,7 +221,7 @@ fn inks_tints_fills_and_glyphs_survive_the_pass() {
         buf[(0, 2)].set_symbol("raw");
         buf[(1, 3)]
             .set_symbol("x")
-            .set_style(theme.fg(Role::Primary).add_modifier(Modifier::REVERSED));
+            .set_style(theme.fg(Role::Accent).add_modifier(Modifier::REVERSED));
     });
     let before = snapshot(&buf);
     let area = *buf.area();

@@ -54,7 +54,7 @@ for match in re.finditer(r'pub const (\w+): UiTheme = UiTheme \{(.*?)\}\s*(\.wit
 names = dict(re.findall(r'Self::(\w+) => (\w+),', texts['themes.rs']))
 mapping = ['header_bg', 'surface_bg', 'panel_bg', 'elevated_bg', 'selection_bg',
            'text_body', 'text_muted', 'border', 'text_soft', 'accent_primary',
-           'surface_bg', 'accent_secondary', 'accent_action', 'error_fg',
+           'surface_bg', 'accent_primary', 'accent_secondary', 'accent_action', 'error_fg',
            'text_hint', 'text_dim', 'diff_added_bg', 'diff_deleted_bg']
 records = []
 for variant in variants:
@@ -83,7 +83,7 @@ rust.extend(['        };', '        colors[role.index()]', '    }', '    pub con
 rust.extend(f'            Self::{r["variant"]} => [{", ".join(color(r["slots"][field]) for field in inks.values())}],' for r in records)
 rust.extend(['        };', '        colors[ink as usize]', '    }', '}', '/// Distinct ink slots already used by Codewhale\'s TUI.', '#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]', 'pub enum TuiInk {'])
 rust.extend(f'    {ink},' for ink in inks)
-rust.extend(['}', 'impl TuiInk {', '    pub const fn fallback_role(self) -> Role {', '        match self {', '            Self::Working | Self::Success => Role::Live,', '            Self::Warning | Self::PermissionAsk | Self::PermissionAutoReview | Self::PermissionFullAccess => Role::Attention,', '            Self::ModeWork | Self::ModePlan | Self::ModeOperate => Role::Primary,', '            Self::Soft => Role::Muted,', '            Self::Info => Role::Primary,', '        }', '    }', '}'])
+rust.extend(['}', 'impl TuiInk {', '    pub const fn fallback_role(self) -> Role {', '        match self {', '            Self::Working | Self::Success => Role::Live,', '            Self::Warning | Self::PermissionAsk | Self::PermissionAutoReview | Self::PermissionFullAccess => Role::Attention,', '            Self::ModeWork | Self::ModePlan | Self::ModeOperate => Role::Accent,', '            Self::Soft => Role::Muted,', '            Self::Info => Role::Accent,', '        }', '    }', '}'])
 grounds={'Surface':'surface_bg','Panel':'panel_bg','Elevated':'elevated_bg','Composer':'composer_bg','Selection':'selection_bg','Header':'header_bg','Footer':'footer_bg','DiffAdded':'diff_added_bg','DiffRemoved':'diff_deleted_bg'}
 rust.extend(['/// Native background slots, retained independently of the shared role theme.','#'+'[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]','pub enum TuiGround {'])
 rust.extend(f'    {ground},' for ground in grounds)

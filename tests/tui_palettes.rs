@@ -199,7 +199,7 @@ fn terminal_owned_shells_keep_reset_instead_of_receiving_an_assumed_ground() {
         ColorDepth::TrueColor,
         Appearance::Dark,
     );
-    assert_eq!(terminal.color(Role::Primary), Some(Color::Blue));
+    assert_eq!(terminal.color(Role::Accent), Some(Color::Blue));
     assert_eq!(terminal.color(Role::Foreground), Some(Color::Reset));
     assert_eq!(terminal.tui_ink(TuiInk::Working).fg, Some(Color::Cyan));
     for (ground, _) in GROUNDS {

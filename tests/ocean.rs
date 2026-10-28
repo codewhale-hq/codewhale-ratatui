@@ -263,7 +263,7 @@ fn semantic_surfaces_and_all_ink_and_symbols_remain_owned_by_the_host() {
         Role::Selected,
         Role::DiffAddedTint,
         Role::DiffRemovedTint,
-        Role::Primary,
+        Role::Accent,
     ]
     .into_iter()
     .enumerate()
@@ -362,7 +362,7 @@ fn all_authored_treatments_keep_audited_ink_contrast_at_every_depth() {
     let inks = [
         (Role::Foreground, 4.5),
         (Role::Muted, 4.5),
-        (Role::Primary, 4.5),
+        (Role::Accent, 4.5),
         (Role::Live, 4.5),
         (Role::Attention, 4.5),
         (Role::Danger, 4.5),

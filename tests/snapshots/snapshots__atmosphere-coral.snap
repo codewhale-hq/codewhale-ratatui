@@ -45,9 +45,9 @@ r1 c9..15 bg=#21171b
 r1 c15..19 fg=Muted bg=#21171b
 r1 c19..20 bg=#21171b
 r1 c20..21 bg=#281e23
-r1 c21..22 fg=Primary bg=#281e23
+r1 c21..22 fg=Accent bg=#281e23
 r1 c22..23 bg=#281e22
-r1 c23..26 fg=Primary bg=#281e22 bold
+r1 c23..26 fg=Accent bg=#281e22 bold
 r1 c26..37 bg=#281e22
 r1 c37..52 bg=#281e21
 r1 c52..54 bg=#281e20
@@ -68,7 +68,7 @@ r2 c72..87 bg=#271f1f
 r2 c87..102 bg=#271f1e
 r2 c102..104 bg=#271f1d
 r3 c0..1 bg=#21171b
-r3 c1..3 fg=Primary bg=#21171b
+r3 c1..3 fg=Accent bg=#21171b
 r3 c3..11 fg=Foreground bg=#21171b
 r3 c11..20 bg=#21171b
 r3 c20..21 bg=#281e22
@@ -88,7 +88,7 @@ r3 c86..98 bg=#322929
 r3 c98..101 bg=#312929
 r3 c101..104 bg=#312928
 r4 c0..1 bg=#21171b
-r4 c1..3 fg=Primary bg=#21171b
+r4 c1..3 fg=Accent bg=#21171b
 r4 c3..11 fg=Foreground bg=#21171b
 r4 c11..20 bg=#21171b
 r4 c20..21 bg=#281e22
@@ -106,7 +106,7 @@ r4 c85..97 bg=#322929
 r4 c97..100 bg=#312929
 r4 c100..104 bg=#312928
 r5 c0..1 bg=#21171b
-r5 c1..3 fg=Primary bg=#21171b
+r5 c1..3 fg=Accent bg=#21171b
 r5 c3..11 fg=Foreground bg=#21171b
 r5 c11..20 bg=#21171b
 r5 c20..21 bg=#281e22
@@ -128,7 +128,7 @@ r5 c84..96 bg=#322929
 r5 c96..99 bg=#312929
 r5 c99..104 bg=#312928
 r6 c0..1 bg=#21171b
-r6 c1..3 fg=Primary bg=#413540
+r6 c1..3 fg=Accent bg=#413540
 r6 c3..7 fg=Foreground bg=#413540 bold
 r6 c7..11 fg=Foreground bg=#41353f bold
 r6 c11..17 bg=#41353f
@@ -153,7 +153,7 @@ r6 c83..95 bg=#322929
 r6 c95..98 bg=#312929
 r6 c98..104 bg=#312928
 r7 c0..1 bg=#21171b
-r7 c1..3 fg=Primary bg=#21171b
+r7 c1..3 fg=Accent bg=#21171b
 r7 c3..11 fg=Foreground bg=#21171b
 r7 c11..19 bg=#21171b
 r7 c19..20 bg=#20171a
@@ -247,7 +247,7 @@ r13 c13..20 bg=#20171a
 r13 c20..21 bg=#281e22
 r13 c21..25 bg=#20171a
 r13 c25..34 bg=#201819
-r13 c34..35 fg=#83b4fb bg=#201819
+r13 c34..35 fg=#9abbdd bg=#201819
 r13 c35..45 bg=#201819
 r13 c45..66 bg=#201818
 r13 c66..71 bg=#201817
@@ -259,7 +259,7 @@ r14 c12..20 bg=#20171a
 r14 c20..21 bg=#281e22
 r14 c21..24 bg=#20171a
 r14 c24..28 bg=#201819
-r14 c28..37 fg=#77b0f6 bg=#201819
+r14 c28..37 fg=#8ab5dd bg=#201819
 r14 c37..44 bg=#201819
 r14 c44..62 bg=#201818
 r14 c62..63 fg=Dim bg=#201818
@@ -273,9 +273,9 @@ r15 c11..20 bg=#20171a
 r15 c20..21 bg=#281e22
 r15 c21..23 bg=#20171a
 r15 c23..27 bg=#201819
-r15 c27..36 fg=#6aabf2 bg=#201819
+r15 c27..36 fg=#7bb0dc bg=#201819
 r15 c36..37 bg=#201819
-r15 c37..41 fg=#6aabf2 bg=#201819
+r15 c37..41 fg=#7bb0dc bg=#201819
 r15 c41..43 bg=#201819
 r15 c43..64 bg=#201818
 r15 c64..69 bg=#201817
@@ -290,9 +290,9 @@ r16 c10..20 bg=#20171a
 r16 c20..21 bg=#281e22
 r16 c21..22 bg=#20171a
 r16 c22..27 bg=#201819
-r16 c27..30 fg=#5da6ee bg=#201819
+r16 c27..30 fg=#6baadb bg=#201819
 r16 c30..34 bg=#201819
-r16 c34..41 fg=#5da6ee bg=#201819
+r16 c34..41 fg=#6baadb bg=#201819
 r16 c41..42 bg=#201819
 r16 c42..50 bg=#201818
 r16 c50..51 fg=Dim bg=#201818
@@ -301,16 +301,16 @@ r16 c63..68 bg=#201817
 r16 c68..73 bg=#1f1817
 r16 c73..79 bg=#201817
 r16 c79..85 bg=#1f1816
-r16 c85..89 fg=Primary bg=#1f1816
+r16 c85..89 fg=Accent bg=#1f1816
 r16 c89..102 bg=#1f1816
 r16 c102..104 bg=#1f1815
 r17 c0..9 bg=#21171b
 r17 c9..20 bg=#20171a
 r17 c20..21 bg=#281e22
 r17 c21..27 bg=#201819
-r17 c27..39 fg=#51a2e9 bg=#201819
+r17 c27..39 fg=#5ca5db bg=#201819
 r17 c39..40 bg=#201819
-r17 c40..41 fg=#51a2e9 bg=#201819
+r17 c40..41 fg=#5ca5db bg=#201819
 r17 c41..52 bg=#201818
 r17 c52..53 fg=Dim bg=#201818
 r17 c53..62 bg=#201818
@@ -326,9 +326,9 @@ r18 c0..8 bg=#21171b
 r18 c8..20 bg=#20171a
 r18 c20..21 bg=#281e21
 r18 c21..27 bg=#201819
-r18 c27..37 fg=#449de5 bg=#201819
+r18 c27..37 fg=#4c9fda bg=#201819
 r18 c37..38 bg=#201819
-r18 c38..40 fg=#449de5 bg=#201819
+r18 c38..40 fg=#4c9fda bg=#201819
 r18 c40..61 bg=#201818
 r18 c61..66 bg=#201817
 r18 c66..71 bg=#1f1817
@@ -340,7 +340,7 @@ r19 c7..19 bg=#20171a
 r19 c19..20 bg=#201819
 r19 c20..21 bg=#281e21
 r19 c21..28 bg=#201819
-r19 c28..39 fg=#3798e1 bg=#201819
+r19 c28..39 fg=#3d9ad9 bg=#201819
 r19 c39..60 bg=#201818
 r19 c60..65 bg=#201817
 r19 c65..70 bg=#1f1817
@@ -352,7 +352,7 @@ r20 c6..18 bg=#20171a
 r20 c18..20 bg=#201819
 r20 c20..21 bg=#281e21
 r20 c21..32 bg=#201819
-r20 c32..35 fg=#2b94dc bg=#201819
+r20 c32..35 fg=#2d94d9 bg=#201819
 r20 c35..38 bg=#201819
 r20 c38..59 bg=#201818
 r20 c59..64 bg=#201817
@@ -447,9 +447,9 @@ r1 c15..17 fg=Muted bg=#231715
 r1 c17..19 fg=Muted bg=#231714
 r1 c19..20 bg=#231714
 r1 c20..21 bg=#2b1e1b
-r1 c21..22 fg=Primary bg=#2b1e1b
+r1 c21..22 fg=Accent bg=#2b1e1b
 r1 c22..23 bg=#2b1e1a
-r1 c23..26 fg=Primary bg=#2b1e1a bold
+r1 c23..26 fg=Accent bg=#2b1e1a bold
 r1 c26..42 bg=#2b1e1a
 r1 c42..54 bg=#2b1e19
 r1 c54..65 bg=#2b1e18
@@ -474,7 +474,7 @@ r2 c72..76 bg=#2a1e17
 r2 c76..92 bg=#2a1f17
 r2 c92..104 bg=#2a1f16
 r3 c0..1 bg=#231715
-r3 c1..3 fg=Primary bg=#231715
+r3 c1..3 fg=Accent bg=#231715
 r3 c3..10 fg=Foreground bg=#231715
 r3 c10..11 fg=Foreground bg=#241715
 r3 c11..12 bg=#241715
@@ -494,7 +494,7 @@ r3 c86..96 bg=#36281f
 r3 c96..98 bg=#36281e
 r3 c98..104 bg=#35291e
 r4 c0..1 bg=#231715
-r4 c1..3 fg=Primary bg=#231715
+r4 c1..3 fg=Accent bg=#231715
 r4 c3..9 fg=Foreground bg=#231715
 r4 c9..11 fg=Foreground bg=#241715
 r4 c11..14 bg=#231715
@@ -511,7 +511,7 @@ r4 c85..95 bg=#36281f
 r4 c95..97 bg=#36281e
 r4 c97..104 bg=#35291e
 r5 c0..1 bg=#231715
-r5 c1..3 fg=Primary bg=#231715
+r5 c1..3 fg=Accent bg=#231715
 r5 c3..8 fg=Foreground bg=#231715
 r5 c8..10 fg=Foreground bg=#241715
 r5 c10..11 fg=Foreground bg=#231715
@@ -532,7 +532,7 @@ r5 c84..94 bg=#36281f
 r5 c94..96 bg=#36281e
 r5 c96..104 bg=#35291e
 r6 c0..1 bg=#231715
-r6 c1..3 fg=Primary bg=#483432
+r6 c1..3 fg=Accent bg=#483432
 r6 c3..7 fg=Foreground bg=#473432 bold
 r6 c7..11 fg=Foreground bg=#483431 bold
 r6 c11..15 bg=#483431
@@ -555,7 +555,7 @@ r6 c93..95 bg=#36281e
 r6 c95..103 bg=#35291e
 r6 c103..104 bg=#36291e
 r7 c0..1 bg=#231715
-r7 c1..3 fg=Primary bg=#231715
+r7 c1..3 fg=Accent bg=#231715
 r7 c3..6 fg=Foreground bg=#231715
 r7 c6..8 fg=Foreground bg=#241715
 r7 c8..11 fg=Foreground bg=#231715
@@ -659,7 +659,7 @@ r13 c5..20 bg=#231714
 r13 c20..21 bg=#2b1e1a
 r13 c21..25 bg=#231714
 r13 c25..34 bg=#231713
-r13 c34..35 fg=#83b4fb bg=#231713
+r13 c34..35 fg=#9abbdd bg=#231713
 r13 c35..36 bg=#231713
 r13 c36..45 bg=#231813
 r13 c45..48 bg=#231812
@@ -674,8 +674,8 @@ r14 c4..20 bg=#231714
 r14 c20..21 bg=#2b1e1a
 r14 c21..24 bg=#231714
 r14 c24..28 bg=#231713
-r14 c28..35 fg=#77b0f6 bg=#231713
-r14 c35..37 fg=#77b0f6 bg=#231813
+r14 c28..35 fg=#8ab5dd bg=#231713
+r14 c35..37 fg=#8ab5dd bg=#231813
 r14 c37..44 bg=#231813
 r14 c44..47 bg=#231812
 r14 c47..49 bg=#221812
@@ -690,10 +690,10 @@ r15 c3..20 bg=#231714
 r15 c20..21 bg=#2b1e1a
 r15 c21..23 bg=#231714
 r15 c23..27 bg=#231713
-r15 c27..34 fg=#6aabf2 bg=#231713
-r15 c34..36 fg=#6aabf2 bg=#231813
+r15 c27..34 fg=#7bb0dc bg=#231713
+r15 c34..36 fg=#7bb0dc bg=#231813
 r15 c36..37 bg=#231813
-r15 c37..41 fg=#6aabf2 bg=#231813
+r15 c37..41 fg=#7bb0dc bg=#231813
 r15 c41..43 bg=#231813
 r15 c43..46 bg=#231812
 r15 c46..48 bg=#221812
@@ -707,10 +707,10 @@ r16 c2..20 bg=#231714
 r16 c20..21 bg=#2b1e1a
 r16 c21..22 bg=#231714
 r16 c22..27 bg=#231713
-r16 c27..30 fg=#5da6ee bg=#231713
+r16 c27..30 fg=#6baadb bg=#231713
 r16 c30..33 bg=#231713
 r16 c33..34 bg=#231813
-r16 c34..41 fg=#5da6ee bg=#231813
+r16 c34..41 fg=#6baadb bg=#231813
 r16 c41..42 bg=#231813
 r16 c42..45 bg=#231812
 r16 c45..47 bg=#221812
@@ -720,17 +720,17 @@ r16 c51..56 bg=#231812
 r16 c56..63 bg=#221812
 r16 c63..83 bg=#221811
 r16 c83..85 bg=#221810
-r16 c85..89 fg=Primary bg=#221810
+r16 c85..89 fg=Accent bg=#221810
 r16 c89..103 bg=#221810
 r16 c103..104 bg=#22180f
 r17 c0..1 bg=#231715
 r17 c1..20 bg=#231714
 r17 c20..21 bg=#2b1e1a
 r17 c21..27 bg=#231713
-r17 c27..32 fg=#51a2e9 bg=#231713
-r17 c32..39 fg=#51a2e9 bg=#231813
+r17 c27..32 fg=#5ca5db bg=#231713
+r17 c32..39 fg=#5ca5db bg=#231813
 r17 c39..40 bg=#231813
-r17 c40..41 fg=#51a2e9 bg=#231813
+r17 c40..41 fg=#5ca5db bg=#231813
 r17 c41..44 bg=#231812
 r17 c44..46 bg=#221812
 r17 c46..52 bg=#231812
@@ -747,10 +747,10 @@ r17 c102..104 bg=#22180f
 r18 c0..20 bg=#231714
 r18 c20..21 bg=#2b1e1a
 r18 c21..27 bg=#231713
-r18 c27..31 fg=#449de5 bg=#231713
-r18 c31..37 fg=#449de5 bg=#231813
+r18 c27..31 fg=#4c9fda bg=#231713
+r18 c31..37 fg=#4c9fda bg=#231813
 r18 c37..38 bg=#231813
-r18 c38..40 fg=#449de5 bg=#231813
+r18 c38..40 fg=#4c9fda bg=#231813
 r18 c40..43 bg=#231812
 r18 c43..45 bg=#221812
 r18 c45..54 bg=#231812
@@ -762,8 +762,8 @@ r19 c0..19 bg=#231714
 r19 c19..20 bg=#231713
 r19 c20..21 bg=#2b1e1a
 r19 c21..28 bg=#231713
-r19 c28..30 fg=#3798e1 bg=#231713
-r19 c30..39 fg=#3798e1 bg=#231813
+r19 c28..30 fg=#3d9ad9 bg=#231713
+r19 c30..39 fg=#3d9ad9 bg=#231813
 r19 c39..42 bg=#231812
 r19 c42..44 bg=#221812
 r19 c44..53 bg=#231812
@@ -776,7 +776,7 @@ r20 c18..20 bg=#231713
 r20 c20..21 bg=#2b1e1a
 r20 c21..29 bg=#231713
 r20 c29..32 bg=#231813
-r20 c32..35 fg=#2b94dc bg=#231813
+r20 c32..35 fg=#2d94d9 bg=#231813
 r20 c35..38 bg=#231813
 r20 c38..41 bg=#231812
 r20 c41..43 bg=#221812
@@ -867,9 +867,9 @@ r1 c15..16 fg=Muted bg=#fceae3
 r1 c16..19 fg=Muted bg=#fceae2
 r1 c19..20 bg=#fceae1
 r1 c20..21 bg=#fef7f3
-r1 c21..22 fg=Primary bg=#fef7f3
+r1 c21..22 fg=Accent bg=#fef7f3
 r1 c22..23 bg=#fef7f3
-r1 c23..26 fg=Primary bg=#fef7f3 bold
+r1 c23..26 fg=Accent bg=#fef7f3 bold
 r1 c26..53 bg=#fef7f3
 r1 c53..62 bg=#fef7f2
 r1 c62..86 bg=#fef7f1
@@ -885,7 +885,7 @@ r2 c52..61 fg=Foreground bg=#fef7f2
 r2 c61..85 bg=#fef7f1
 r2 c85..104 bg=#fdf8f1
 r3 c0..1 bg=#fde9e3
-r3 c1..3 fg=Primary bg=#fde9e3
+r3 c1..3 fg=Accent bg=#fde9e3
 r3 c3..11 fg=Foreground bg=#fde9e3
 r3 c11..14 bg=#fceae3
 r3 c14..17 bg=#fceae2
@@ -895,7 +895,7 @@ r3 c21..22 bg=Surface
 r3 c22..26 fg=Foreground bg=Surface bold
 r3 c26..104 bg=Surface
 r4 c0..1 bg=#fde9e3
-r4 c1..3 fg=Primary bg=#fde9e3
+r4 c1..3 fg=Accent bg=#fde9e3
 r4 c3..10 fg=Foreground bg=#fde9e3
 r4 c10..11 fg=Foreground bg=#fceae3
 r4 c11..13 bg=#fceae3
@@ -904,7 +904,7 @@ r4 c16..20 bg=#fceae1
 r4 c20..21 bg=#fef7f3
 r4 c21..104 bg=Surface
 r5 c0..1 bg=#fde9e3
-r5 c1..3 fg=Primary bg=#fde9e3
+r5 c1..3 fg=Accent bg=#fde9e3
 r5 c3..9 fg=Foreground bg=#fde9e3
 r5 c9..11 fg=Foreground bg=#fceae3
 r5 c11..12 bg=#fceae3
@@ -917,7 +917,7 @@ r5 c23..24 bg=Surface
 r5 c24..31 fg=Foreground bg=Surface
 r5 c31..104 bg=Surface
 r6 c0..1 bg=#fde9e3
-r6 c1..3 fg=Primary bg=#ebd9d1
+r6 c1..3 fg=Accent bg=#ebd9d1
 r6 c3..11 fg=Foreground bg=#ebd9d1 bold
 r6 c11..18 bg=#ebd9d0
 r6 c18..19 bg=#ebd9cf
@@ -929,7 +929,7 @@ r6 c23..24 bg=Surface
 r6 c24..33 fg=Foreground bg=Surface
 r6 c33..104 bg=Surface
 r7 c0..1 bg=#fde9e3
-r7 c1..3 fg=Primary bg=#fde9e3
+r7 c1..3 fg=Accent bg=#fde9e3
 r7 c3..7 fg=Foreground bg=#fde9e3
 r7 c7..10 fg=Foreground bg=#fceae3
 r7 c10..11 fg=Foreground bg=#fceae2
@@ -1065,7 +1065,7 @@ r16 c51..61 bg=#faebdf
 r16 c61..63 bg=#f9ebdf
 r16 c63..81 bg=#f9ebde
 r16 c81..85 bg=#f9ebdc
-r16 c85..89 fg=Primary bg=#f9ebdc
+r16 c85..89 fg=Accent bg=#f9ebdc
 r16 c89..97 bg=#f9ebdc
 r16 c97..100 bg=#f8ecdc
 r16 c100..104 bg=#f8ecdb
@@ -1203,9 +1203,9 @@ r1 c9..15 bg=Sidebar
 r1 c15..19 fg=Muted bg=Sidebar
 r1 c19..20 bg=Sidebar
 r1 c20..21 bg=Background
-r1 c21..22 fg=Primary bg=Background
+r1 c21..22 fg=Accent bg=Background
 r1 c22..23 bg=Background
-r1 c23..26 fg=Primary bg=Background bold
+r1 c23..26 fg=Accent bg=Background bold
 r1 c26..104 bg=Background
 r2 c0..20 bg=Sidebar
 r2 c20..21 bg=Background
@@ -1213,7 +1213,7 @@ r2 c21..23 fg=Border bg=Background
 r2 c23..61 fg=Foreground bg=Background
 r2 c61..104 bg=Background
 r3 c0..1 bg=Sidebar
-r3 c1..3 fg=Primary bg=Sidebar
+r3 c1..3 fg=Accent bg=Sidebar
 r3 c3..11 fg=Foreground bg=Sidebar
 r3 c11..20 bg=Sidebar
 r3 c20..21 bg=Background
@@ -1221,13 +1221,13 @@ r3 c21..22 bg=Surface|Hover
 r3 c22..26 fg=Foreground bg=Surface|Hover bold
 r3 c26..104 bg=Surface|Hover
 r4 c0..1 bg=Sidebar
-r4 c1..3 fg=Primary bg=Sidebar
+r4 c1..3 fg=Accent bg=Sidebar
 r4 c3..11 fg=Foreground bg=Sidebar
 r4 c11..20 bg=Sidebar
 r4 c20..21 bg=Background
 r4 c21..104 bg=Surface|Hover
 r5 c0..1 bg=Sidebar
-r5 c1..3 fg=Primary bg=Sidebar
+r5 c1..3 fg=Accent bg=Sidebar
 r5 c3..11 fg=Foreground bg=Sidebar
 r5 c11..20 bg=Sidebar
 r5 c20..21 bg=Background
@@ -1237,7 +1237,7 @@ r5 c23..24 bg=Surface|Hover
 r5 c24..31 fg=Foreground bg=Surface|Hover
 r5 c31..104 bg=Surface|Hover
 r6 c0..1 bg=Sidebar
-r6 c1..3 fg=Primary bg=Selected
+r6 c1..3 fg=Accent bg=Selected
 r6 c3..11 fg=Foreground bg=Selected bold
 r6 c11..19 bg=Selected
 r6 c19..20 bg=Sidebar
@@ -1248,7 +1248,7 @@ r6 c23..24 bg=Surface|Hover
 r6 c24..33 fg=Foreground bg=Surface|Hover
 r6 c33..104 bg=Surface|Hover
 r7 c0..1 bg=Sidebar
-r7 c1..3 fg=Primary bg=Sidebar
+r7 c1..3 fg=Accent bg=Sidebar
 r7 c3..11 fg=Foreground bg=Sidebar
 r7 c11..20 bg=Sidebar
 r7 c20..21 bg=Background
@@ -1281,34 +1281,34 @@ r12 c21..104 bg=Sidebar
 r13 c0..20 bg=Sidebar
 r13 c20..21 bg=Background
 r13 c21..34 bg=Sidebar
-r13 c34..35 fg=Primary bg=Sidebar
+r13 c34..35 fg=idx110 bg=Sidebar
 r13 c35..104 bg=Sidebar
 r14 c0..20 bg=Sidebar
 r14 c20..21 bg=Background
 r14 c21..28 bg=Sidebar
-r14 c28..37 fg=Primary bg=Sidebar
+r14 c28..37 fg=idx110 bg=Sidebar
 r14 c37..62 bg=Sidebar
 r14 c62..63 fg=Dim bg=Sidebar
 r14 c63..104 bg=Sidebar
 r15 c0..20 bg=Sidebar
 r15 c20..21 bg=Background
 r15 c21..27 bg=Sidebar
-r15 c27..36 fg=idx75 bg=Sidebar
+r15 c27..36 fg=idx110 bg=Sidebar
 r15 c36..37 bg=Sidebar
-r15 c37..41 fg=idx75 bg=Sidebar
+r15 c37..41 fg=idx110 bg=Sidebar
 r15 c41..76 bg=Sidebar
 r15 c76..84 fg=Hint bg=Sidebar
 r15 c84..104 bg=Sidebar
 r16 c0..20 bg=Sidebar
 r16 c20..21 bg=Background
 r16 c21..27 bg=Sidebar
-r16 c27..30 fg=idx75 bg=Sidebar
+r16 c27..30 fg=idx74 bg=Sidebar
 r16 c30..34 bg=Sidebar
-r16 c34..41 fg=idx75 bg=Sidebar
+r16 c34..41 fg=idx74 bg=Sidebar
 r16 c41..50 bg=Sidebar
 r16 c50..51 fg=Dim bg=Sidebar
 r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Primary bg=Sidebar
+r16 c85..89 fg=Accent bg=Sidebar
 r16 c89..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background
@@ -1389,9 +1389,9 @@ r1 c9..15 bg=Sidebar
 r1 c15..19 fg=Muted bg=Sidebar
 r1 c19..20 bg=Sidebar
 r1 c20..21 bg=Background|Surface
-r1 c21..22 fg=Primary bg=Background|Surface
+r1 c21..22 fg=Accent bg=Background|Surface
 r1 c22..23 bg=Background|Surface
-r1 c23..26 fg=Primary bg=Background|Surface bold
+r1 c23..26 fg=Accent bg=Background|Surface bold
 r1 c26..104 bg=Background|Surface
 r2 c0..20 bg=Sidebar
 r2 c20..21 bg=Background|Surface
@@ -1399,13 +1399,13 @@ r2 c21..23 fg=Border bg=Background|Surface
 r2 c23..61 fg=Foreground bg=Background|Surface
 r2 c61..104 bg=Background|Surface
 r3 c0..1 bg=Sidebar
-r3 c1..3 fg=Primary bg=Sidebar
+r3 c1..3 fg=Accent bg=Sidebar
 r3 c3..11 fg=Foreground bg=Sidebar
 r3 c11..20 bg=Sidebar
 r3 c20..21 bg=Background|Surface
 r3 c21..104 fg=Border bg=Background|Surface
 r4 c0..1 bg=Sidebar
-r4 c1..3 fg=Primary bg=Sidebar
+r4 c1..3 fg=Accent bg=Sidebar
 r4 c3..11 fg=Foreground bg=Sidebar
 r4 c11..20 bg=Sidebar
 r4 c20..21 bg=Background|Surface
@@ -1415,7 +1415,7 @@ r4 c23..27 fg=Foreground bg=Background|Surface bold
 r4 c27..103 bg=Background|Surface
 r4 c103..104 fg=Border bg=Background|Surface
 r5 c0..1 bg=Sidebar
-r5 c1..3 fg=Primary bg=Sidebar
+r5 c1..3 fg=Accent bg=Sidebar
 r5 c3..11 fg=Foreground bg=Sidebar
 r5 c11..20 bg=Sidebar
 r5 c20..21 bg=Background|Surface
@@ -1427,7 +1427,7 @@ r5 c25..32 fg=Foreground bg=Background|Surface
 r5 c32..103 bg=Background|Surface
 r5 c103..104 fg=Border bg=Background|Surface
 r6 c0..1 bg=Sidebar
-r6 c1..3 fg=Primary bg=Selected
+r6 c1..3 fg=Accent bg=Selected
 r6 c3..11 fg=Foreground bg=Selected bold
 r6 c11..19 bg=Selected
 r6 c19..20 bg=Sidebar
@@ -1440,7 +1440,7 @@ r6 c25..34 fg=Foreground bg=Background|Surface
 r6 c34..103 bg=Background|Surface
 r6 c103..104 fg=Border bg=Background|Surface
 r7 c0..1 bg=Sidebar
-r7 c1..3 fg=Primary bg=Sidebar
+r7 c1..3 fg=Accent bg=Sidebar
 r7 c3..11 fg=Foreground bg=Sidebar
 r7 c11..20 bg=Sidebar
 r7 c20..21 bg=Background|Surface
@@ -1504,7 +1504,7 @@ r16 c34..41 fg=idx26 bg=Sidebar
 r16 c41..50 bg=Sidebar
 r16 c50..51 fg=Dim bg=Sidebar
 r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Primary bg=Sidebar
+r16 c85..89 fg=Accent bg=Sidebar
 r16 c89..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background|Surface
@@ -1529,12 +1529,12 @@ r18 c40..104 bg=Sidebar
 r19 c0..20 bg=Sidebar
 r19 c20..21 bg=Background|Surface
 r19 c21..28 bg=Sidebar
-r19 c28..39 fg=Primary bg=Sidebar
+r19 c28..39 fg=idx25 bg=Sidebar
 r19 c39..104 bg=Sidebar
 r20 c0..20 bg=Sidebar
 r20 c20..21 bg=Background|Surface
 r20 c21..32 bg=Sidebar
-r20 c32..35 fg=Primary bg=Sidebar
+r20 c32..35 fg=idx25 bg=Sidebar
 r20 c35..104 bg=Sidebar
 r21 c0..20 bg=Sidebar
 r21 c20..21 bg=Background|Surface
@@ -1580,25 +1580,25 @@ r0 c0..28 bold
 r0 c90..104 dim
 r1 c1..9 bold
 r1 c15..19 dim
-r1 c21..22 fg=Primary
-r1 c23..26 fg=Primary bold
+r1 c21..22 fg=Accent
+r1 c23..26 fg=Accent bold
 r2 c21..23 dim
-r3 c1..3 fg=Primary
+r3 c1..3 fg=Accent
 r3 c21..104 dim
-r4 c1..3 fg=Primary
+r4 c1..3 fg=Accent
 r4 c21..22 dim
 r4 c23..27 bold
 r4 c103..104 dim
-r5 c1..3 fg=Primary
+r5 c1..3 fg=Accent
 r5 c21..22 dim
 r5 c23..24 fg=Live
 r5 c103..104 dim
-r6 c1..3 fg=Primary
+r6 c1..3 fg=Accent
 r6 c3..11 bold
 r6 c21..22 dim
 r6 c23..24 fg=Attention
 r6 c103..104 dim
-r7 c1..3 fg=Primary
+r7 c1..3 fg=Accent
 r7 c21..22 dim
 r7 c23..24 fg=Danger
 r7 c103..104 dim
@@ -1607,25 +1607,25 @@ r8 c23..24 fg=Live
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r13 c34..35 fg=Primary
-r14 c28..37 fg=Primary
+r13 c34..35 fg=Accent
+r14 c28..37 fg=Accent
 r14 c62..63 dim
-r15 c27..36 fg=Primary
-r15 c37..41 fg=Primary
+r15 c27..36 fg=Accent
+r15 c37..41 fg=Accent
 r15 c76..84 dim
-r16 c27..30 fg=Primary
-r16 c34..41 fg=Primary
+r16 c27..30 fg=Accent
+r16 c34..41 fg=Accent
 r16 c50..51 dim
-r16 c85..89 fg=Primary
-r17 c27..39 fg=Primary
-r17 c40..41 fg=Primary
+r16 c85..89 fg=Accent
+r17 c27..39 fg=Accent
+r17 c40..41 fg=Accent
 r17 c52..53 dim
 r17 c74..78 dim
 r17 c79..83 dim
-r18 c27..37 fg=Primary
-r18 c38..40 fg=Primary
-r19 c28..39 fg=Primary
-r20 c32..35 fg=Primary
+r18 c27..37 fg=Accent
+r18 c38..40 fg=Accent
+r19 c28..39 fg=Accent
+r20 c32..35 fg=Accent
 r22 c29..30 fg=Live
 
 == unknown-ground
@@ -1658,25 +1658,25 @@ r0 c0..28 bold
 r0 c90..104 dim
 r1 c1..9 bold
 r1 c15..19 dim
-r1 c21..22 fg=Primary
-r1 c23..26 fg=Primary bold
+r1 c21..22 fg=Accent
+r1 c23..26 fg=Accent bold
 r2 c21..23 dim
-r3 c1..3 fg=Primary
+r3 c1..3 fg=Accent
 r3 c21..104 dim
-r4 c1..3 fg=Primary
+r4 c1..3 fg=Accent
 r4 c21..22 dim
 r4 c23..27 bold
 r4 c103..104 dim
-r5 c1..3 fg=Primary
+r5 c1..3 fg=Accent
 r5 c21..22 dim
 r5 c23..24 fg=Live
 r5 c103..104 dim
-r6 c1..3 fg=Primary
+r6 c1..3 fg=Accent
 r6 c3..11 bold
 r6 c21..22 dim
 r6 c23..24 fg=Attention
 r6 c103..104 dim
-r7 c1..3 fg=Primary
+r7 c1..3 fg=Accent
 r7 c21..22 dim
 r7 c23..24 fg=Danger
 r7 c103..104 dim
@@ -1685,25 +1685,25 @@ r8 c23..24 fg=Live
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r13 c34..35 fg=Primary
-r14 c28..37 fg=Primary
+r13 c34..35 fg=Accent
+r14 c28..37 fg=Accent
 r14 c62..63 dim
-r15 c27..36 fg=Primary
-r15 c37..41 fg=Primary
+r15 c27..36 fg=Accent
+r15 c37..41 fg=Accent
 r15 c76..84 dim
-r16 c27..30 fg=Primary
-r16 c34..41 fg=Primary
+r16 c27..30 fg=Accent
+r16 c34..41 fg=Accent
 r16 c50..51 dim
-r16 c85..89 fg=Primary
-r17 c27..39 fg=Primary
-r17 c40..41 fg=Primary
+r16 c85..89 fg=Accent
+r17 c27..39 fg=Accent
+r17 c40..41 fg=Accent
 r17 c52..53 dim
 r17 c74..78 dim
 r17 c79..83 dim
-r18 c27..37 fg=Primary
-r18 c38..40 fg=Primary
-r19 c28..39 fg=Primary
-r20 c32..35 fg=Primary
+r18 c27..37 fg=Accent
+r18 c38..40 fg=Accent
+r19 c28..39 fg=Accent
+r20 c32..35 fg=Accent
 r22 c29..30 fg=Live
 
 == no-color

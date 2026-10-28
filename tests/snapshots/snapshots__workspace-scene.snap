@@ -43,7 +43,7 @@ expression: dump(&entry)
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..106 fg=Foreground bg=Background
@@ -75,13 +75,13 @@ r5 c0..75 fg=Foreground bg=Background
 r5 c75..76 fg=Border bg=Background
 r5 c76..112 fg=Foreground bg=Sidebar
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..75 fg=Foreground bg=Background
 r6 c75..76 fg=Border bg=Background
 r6 c76..106 fg=Foreground bg=Sidebar
-r6 c106..110 fg=Primary bg=Sidebar
+r6 c106..110 fg=Accent bg=Sidebar
 r6 c110..112 fg=Foreground bg=Sidebar
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -99,7 +99,7 @@ r7 c110..112 fg=Foreground bg=Sidebar
 r8 c0..75 fg=Foreground bg=Background
 r8 c75..76 fg=Border bg=Background
 r8 c76..106 fg=Foreground bg=Sidebar
-r8 c106..110 fg=Primary bg=Sidebar
+r8 c106..110 fg=Accent bg=Sidebar
 r8 c110..112 fg=Foreground bg=Sidebar
 r9 c0..4 fg=Foreground bg=Background
 r9 c4..13 fg=Foreground bg=Background bold
@@ -123,7 +123,7 @@ r10 c78..79 fg=Muted bg=Selected
 r10 c79..80 fg=Foreground bg=Selected
 r10 c80..93 fg=Foreground bg=Selected bold
 r10 c93..104 fg=Foreground bg=Selected
-r10 c104..110 fg=Primary bg=Selected
+r10 c104..110 fg=Accent bg=Selected
 r10 c110..112 fg=Foreground bg=Sidebar
 r11 c0..2 fg=Foreground bg=Background
 r11 c2..4 fg=Border bg=Background
@@ -184,12 +184,12 @@ r16 c75..76 fg=Border bg=Background
 r16 c76..112 fg=Foreground bg=Sidebar
 r17 c0..2 fg=Foreground bg=Background
 r17 c2..3 bg=Surface
-r17 c3..38 fg=Primary bg=Surface
+r17 c3..38 fg=Accent bg=Surface
 r17 c38..73 bg=Surface
 r17 c73..75 fg=Foreground bg=Background
 r17 c75..76 fg=Border bg=Background
 r17 c76..78 fg=Foreground bg=Sidebar
-r17 c78..79 fg=Primary bg=Selected
+r17 c78..79 fg=Accent bg=Selected
 r17 c79..80 bg=Selected
 r17 c80..81 fg=Attention bg=Selected
 r17 c81..82 bg=Selected
@@ -204,7 +204,7 @@ r18 c31..73 bg=Surface
 r18 c73..75 fg=Foreground bg=Background
 r18 c75..76 fg=Border bg=Background
 r18 c76..78 fg=Foreground bg=Sidebar
-r18 c78..79 fg=Primary bg=Selected
+r18 c78..79 fg=Accent bg=Selected
 r18 c79..80 bg=Selected
 r18 c80..97 fg=Foreground bg=Selected bold
 r18 c97..110 bg=Selected
@@ -217,7 +217,7 @@ r19 c44..73 bg=Surface
 r19 c73..75 fg=Foreground bg=Background
 r19 c75..76 fg=Border bg=Background
 r19 c76..78 fg=Foreground bg=Sidebar
-r19 c78..79 fg=Primary bg=Selected
+r19 c78..79 fg=Accent bg=Selected
 r19 c79..80 bg=Selected
 r19 c80..104 fg=Foreground bg=Selected
 r19 c104..110 bg=Selected
@@ -230,7 +230,7 @@ r20 c26..73 bg=Surface
 r20 c73..75 fg=Foreground bg=Background
 r20 c75..76 fg=Border bg=Background
 r20 c76..78 fg=Foreground bg=Sidebar
-r20 c78..79 fg=Primary bg=Selected
+r20 c78..79 fg=Accent bg=Selected
 r20 c79..80 bg=Selected
 r20 c80..94 fg=Foreground bg=Selected
 r20 c94..110 bg=Selected
@@ -240,9 +240,9 @@ r21 c2..73 bg=Surface
 r21 c73..75 fg=Foreground bg=Background
 r21 c75..76 fg=Border bg=Background
 r21 c76..78 fg=Foreground bg=Sidebar
-r21 c78..79 fg=Primary bg=Selected
+r21 c78..79 fg=Accent bg=Selected
 r21 c79..80 bg=Selected
-r21 c80..98 fg=Primary bg=Selected
+r21 c80..98 fg=Accent bg=Selected
 r21 c98..110 bg=Selected
 r21 c110..112 fg=Foreground bg=Sidebar
 r22 c0..75 fg=Foreground bg=Background
@@ -299,33 +299,33 @@ r27 c72..73 fg=Live bg=Sidebar
 r27 c73..75 fg=Foreground bg=Background
 r27 c75..76 fg=Border bg=Background
 r27 c76..91 fg=Foreground bg=Sidebar
-r27 c91..93 fg=#83b4fb bg=Sidebar
+r27 c91..93 fg=#9abbdd bg=Sidebar
 r27 c93..112 fg=Foreground bg=Sidebar
 r28 c0..75 fg=Foreground bg=Background
 r28 c75..76 fg=Border bg=Background
 r28 c76..88 fg=Foreground bg=Sidebar
-r28 c88..96 fg=#77b0f6 bg=Sidebar
+r28 c88..96 fg=#8ab5dd bg=Sidebar
 r28 c96..97 fg=Foreground bg=Sidebar
-r28 c97..101 fg=#77b0f6 bg=Sidebar
+r28 c97..101 fg=#8ab5dd bg=Sidebar
 r28 c101..112 fg=Foreground bg=Sidebar
 r29 c0..75 fg=Foreground bg=Background
 r29 c75..76 fg=Border bg=Background
 r29 c76..87 fg=Foreground bg=Sidebar
-r29 c87..91 fg=#6aabf2 bg=Sidebar
+r29 c87..91 fg=#7bb0dc bg=Sidebar
 r29 c91..93 fg=Foreground bg=Sidebar
-r29 c93..101 fg=#6aabf2 bg=Sidebar
+r29 c93..101 fg=#7bb0dc bg=Sidebar
 r29 c101..112 fg=Foreground bg=Sidebar
 r30 c0..75 fg=Foreground bg=Background
 r30 c75..76 fg=Border bg=Background
 r30 c76..87 fg=Foreground bg=Sidebar
-r30 c87..90 fg=#5da6ee bg=Sidebar
+r30 c87..90 fg=#6baadb bg=Sidebar
 r30 c90..94 fg=Foreground bg=Sidebar
-r30 c94..101 fg=#5da6ee bg=Sidebar
+r30 c94..101 fg=#6baadb bg=Sidebar
 r30 c101..112 fg=Foreground bg=Sidebar
 r31 c0..75 fg=Foreground bg=Background
 r31 c75..76 fg=Border bg=Background
 r31 c76..87 fg=Foreground bg=Sidebar
-r31 c87..101 fg=#51a2e9 bg=Sidebar
+r31 c87..101 fg=#5ca5db bg=Sidebar
 r31 c101..112 fg=Foreground bg=Sidebar
 r32 c0..19 fg=Foreground bg=Background
 r32 c19..22 fg=BorderStrong bg=Background
@@ -337,9 +337,9 @@ r32 c57..67 fg=Muted bg=Background
 r32 c67..75 fg=Foreground bg=Background
 r32 c75..76 fg=Border bg=Background
 r32 c76..87 fg=Foreground bg=Sidebar
-r32 c87..97 fg=#449de5 bg=Sidebar
+r32 c87..97 fg=#4c9fda bg=Sidebar
 r32 c97..99 fg=Foreground bg=Sidebar
-r32 c99..100 fg=#449de5 bg=Sidebar
+r32 c99..100 fg=#4c9fda bg=Sidebar
 r32 c100..112 fg=Foreground bg=Sidebar
 r33 c0..2 fg=Foreground bg=Background
 r33 c2..3 fg=#0d234d bg=Background
@@ -358,14 +358,14 @@ r33 c72..73 fg=#0d234d bg=Background
 r33 c73..75 fg=Foreground bg=Background
 r33 c75..76 fg=Border bg=Background
 r33 c76..88 fg=Foreground bg=Sidebar
-r33 c88..98 fg=#3798e1 bg=Sidebar
+r33 c88..98 fg=#3d9ad9 bg=Sidebar
 r33 c98..112 fg=Foreground bg=Sidebar
 r34 c0..2 fg=Foreground bg=Background
-r34 c2..4 fg=Primary bg=Background
+r34 c2..4 fg=Accent bg=Background
 r34 c4..75 fg=Foreground bg=Background
 r34 c75..76 fg=Border bg=Background
 r34 c76..92 fg=Foreground bg=Sidebar
-r34 c92..94 fg=#2b94dc bg=Sidebar
+r34 c92..94 fg=#2d94d9 bg=Sidebar
 r34 c94..112 fg=Foreground bg=Sidebar
 r35 c0..75 fg=Foreground bg=Background
 r35 c75..76 fg=Border bg=Background
@@ -432,7 +432,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..106 fg=Foreground bg=Background
@@ -464,13 +464,13 @@ r5 c0..75 fg=Foreground bg=Background
 r5 c75..76 fg=Border bg=Background
 r5 c76..112 fg=Foreground bg=Sidebar
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..75 fg=Foreground bg=Background
 r6 c75..76 fg=Border bg=Background
 r6 c76..106 fg=Foreground bg=Sidebar
-r6 c106..110 fg=Primary bg=Sidebar
+r6 c106..110 fg=Accent bg=Sidebar
 r6 c110..112 fg=Foreground bg=Sidebar
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -488,7 +488,7 @@ r7 c110..112 fg=Foreground bg=Sidebar
 r8 c0..75 fg=Foreground bg=Background
 r8 c75..76 fg=Border bg=Background
 r8 c76..106 fg=Foreground bg=Sidebar
-r8 c106..110 fg=Primary bg=Sidebar
+r8 c106..110 fg=Accent bg=Sidebar
 r8 c110..112 fg=Foreground bg=Sidebar
 r9 c0..4 fg=Foreground bg=Background
 r9 c4..13 fg=Foreground bg=Background bold
@@ -512,7 +512,7 @@ r10 c78..79 fg=Muted bg=Selected
 r10 c79..80 fg=Foreground bg=Selected
 r10 c80..93 fg=Foreground bg=Selected bold
 r10 c93..104 fg=Foreground bg=Selected
-r10 c104..110 fg=Primary bg=Selected
+r10 c104..110 fg=Accent bg=Selected
 r10 c110..112 fg=Foreground bg=Sidebar
 r11 c0..2 fg=Foreground bg=Background
 r11 c2..4 fg=Border bg=Background
@@ -573,12 +573,12 @@ r16 c75..76 fg=Border bg=Background
 r16 c76..112 fg=Foreground bg=Sidebar
 r17 c0..2 fg=Foreground bg=Background
 r17 c2..3 bg=Surface
-r17 c3..38 fg=Primary bg=Surface
+r17 c3..38 fg=Accent bg=Surface
 r17 c38..73 bg=Surface
 r17 c73..75 fg=Foreground bg=Background
 r17 c75..76 fg=Border bg=Background
 r17 c76..78 fg=Foreground bg=Sidebar
-r17 c78..79 fg=Primary bg=Selected
+r17 c78..79 fg=Accent bg=Selected
 r17 c79..80 bg=Selected
 r17 c80..81 fg=Attention bg=Selected
 r17 c81..82 bg=Selected
@@ -593,7 +593,7 @@ r18 c31..73 bg=Surface
 r18 c73..75 fg=Foreground bg=Background
 r18 c75..76 fg=Border bg=Background
 r18 c76..78 fg=Foreground bg=Sidebar
-r18 c78..79 fg=Primary bg=Selected
+r18 c78..79 fg=Accent bg=Selected
 r18 c79..80 bg=Selected
 r18 c80..97 fg=Foreground bg=Selected bold
 r18 c97..110 bg=Selected
@@ -606,7 +606,7 @@ r19 c44..73 bg=Surface
 r19 c73..75 fg=Foreground bg=Background
 r19 c75..76 fg=Border bg=Background
 r19 c76..78 fg=Foreground bg=Sidebar
-r19 c78..79 fg=Primary bg=Selected
+r19 c78..79 fg=Accent bg=Selected
 r19 c79..80 bg=Selected
 r19 c80..104 fg=Foreground bg=Selected
 r19 c104..110 bg=Selected
@@ -619,7 +619,7 @@ r20 c26..73 bg=Surface
 r20 c73..75 fg=Foreground bg=Background
 r20 c75..76 fg=Border bg=Background
 r20 c76..78 fg=Foreground bg=Sidebar
-r20 c78..79 fg=Primary bg=Selected
+r20 c78..79 fg=Accent bg=Selected
 r20 c79..80 bg=Selected
 r20 c80..94 fg=Foreground bg=Selected
 r20 c94..110 bg=Selected
@@ -629,9 +629,9 @@ r21 c2..73 bg=Surface
 r21 c73..75 fg=Foreground bg=Background
 r21 c75..76 fg=Border bg=Background
 r21 c76..78 fg=Foreground bg=Sidebar
-r21 c78..79 fg=Primary bg=Selected
+r21 c78..79 fg=Accent bg=Selected
 r21 c79..80 bg=Selected
-r21 c80..98 fg=Primary bg=Selected
+r21 c80..98 fg=Accent bg=Selected
 r21 c98..110 bg=Selected
 r21 c110..112 fg=Foreground bg=Sidebar
 r22 c0..75 fg=Foreground bg=Background
@@ -688,33 +688,33 @@ r27 c72..73 fg=Live bg=Sidebar
 r27 c73..75 fg=Foreground bg=Background
 r27 c75..76 fg=Border bg=Background
 r27 c76..91 fg=Foreground bg=Sidebar
-r27 c91..93 fg=#83b4fb bg=Sidebar
+r27 c91..93 fg=#9abbdd bg=Sidebar
 r27 c93..112 fg=Foreground bg=Sidebar
 r28 c0..75 fg=Foreground bg=Background
 r28 c75..76 fg=Border bg=Background
 r28 c76..88 fg=Foreground bg=Sidebar
-r28 c88..96 fg=#77b0f6 bg=Sidebar
+r28 c88..96 fg=#8ab5dd bg=Sidebar
 r28 c96..97 fg=Foreground bg=Sidebar
-r28 c97..101 fg=#77b0f6 bg=Sidebar
+r28 c97..101 fg=#8ab5dd bg=Sidebar
 r28 c101..112 fg=Foreground bg=Sidebar
 r29 c0..75 fg=Foreground bg=Background
 r29 c75..76 fg=Border bg=Background
 r29 c76..87 fg=Foreground bg=Sidebar
-r29 c87..91 fg=#6aabf2 bg=Sidebar
+r29 c87..91 fg=#7bb0dc bg=Sidebar
 r29 c91..93 fg=Foreground bg=Sidebar
-r29 c93..101 fg=#6aabf2 bg=Sidebar
+r29 c93..101 fg=#7bb0dc bg=Sidebar
 r29 c101..112 fg=Foreground bg=Sidebar
 r30 c0..75 fg=Foreground bg=Background
 r30 c75..76 fg=Border bg=Background
 r30 c76..87 fg=Foreground bg=Sidebar
-r30 c87..90 fg=#5da6ee bg=Sidebar
+r30 c87..90 fg=#6baadb bg=Sidebar
 r30 c90..94 fg=Foreground bg=Sidebar
-r30 c94..101 fg=#5da6ee bg=Sidebar
+r30 c94..101 fg=#6baadb bg=Sidebar
 r30 c101..112 fg=Foreground bg=Sidebar
 r31 c0..75 fg=Foreground bg=Background
 r31 c75..76 fg=Border bg=Background
 r31 c76..87 fg=Foreground bg=Sidebar
-r31 c87..101 fg=#51a2e9 bg=Sidebar
+r31 c87..101 fg=#5ca5db bg=Sidebar
 r31 c101..112 fg=Foreground bg=Sidebar
 r32 c0..19 fg=Foreground bg=Background
 r32 c19..22 fg=BorderStrong bg=Background
@@ -726,9 +726,9 @@ r32 c57..67 fg=Muted bg=Background
 r32 c67..75 fg=Foreground bg=Background
 r32 c75..76 fg=Border bg=Background
 r32 c76..87 fg=Foreground bg=Sidebar
-r32 c87..97 fg=#449de5 bg=Sidebar
+r32 c87..97 fg=#4c9fda bg=Sidebar
 r32 c97..99 fg=Foreground bg=Sidebar
-r32 c99..100 fg=#449de5 bg=Sidebar
+r32 c99..100 fg=#4c9fda bg=Sidebar
 r32 c100..112 fg=Foreground bg=Sidebar
 r33 c0..2 fg=Foreground bg=Background
 r33 c2..3 fg=#242527 bg=Background
@@ -747,14 +747,14 @@ r33 c72..73 fg=#242527 bg=Background
 r33 c73..75 fg=Foreground bg=Background
 r33 c75..76 fg=Border bg=Background
 r33 c76..88 fg=Foreground bg=Sidebar
-r33 c88..98 fg=#3798e1 bg=Sidebar
+r33 c88..98 fg=#3d9ad9 bg=Sidebar
 r33 c98..112 fg=Foreground bg=Sidebar
 r34 c0..2 fg=Foreground bg=Background
-r34 c2..4 fg=Primary bg=Background
+r34 c2..4 fg=Accent bg=Background
 r34 c4..75 fg=Foreground bg=Background
 r34 c75..76 fg=Border bg=Background
 r34 c76..92 fg=Foreground bg=Sidebar
-r34 c92..94 fg=#2b94dc bg=Sidebar
+r34 c92..94 fg=#2d94d9 bg=Sidebar
 r34 c94..112 fg=Foreground bg=Sidebar
 r35 c0..75 fg=Foreground bg=Background
 r35 c75..76 fg=Border bg=Background
@@ -821,7 +821,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..106 fg=Foreground bg=Background
@@ -853,13 +853,13 @@ r5 c0..75 fg=Foreground bg=Background
 r5 c75..76 fg=Border bg=Background
 r5 c76..112 fg=Foreground bg=Sidebar
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..75 fg=Foreground bg=Background
 r6 c75..76 fg=Border bg=Background
 r6 c76..106 fg=Foreground bg=Sidebar
-r6 c106..110 fg=Primary bg=Sidebar
+r6 c106..110 fg=Accent bg=Sidebar
 r6 c110..112 fg=Foreground bg=Sidebar
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -877,7 +877,7 @@ r7 c110..112 fg=Foreground bg=Sidebar
 r8 c0..75 fg=Foreground bg=Background
 r8 c75..76 fg=Border bg=Background
 r8 c76..106 fg=Foreground bg=Sidebar
-r8 c106..110 fg=Primary bg=Sidebar
+r8 c106..110 fg=Accent bg=Sidebar
 r8 c110..112 fg=Foreground bg=Sidebar
 r9 c0..4 fg=Foreground bg=Background
 r9 c4..13 fg=Foreground bg=Background bold
@@ -901,7 +901,7 @@ r10 c78..79 fg=Muted bg=Selected
 r10 c79..80 fg=Foreground bg=Selected
 r10 c80..93 fg=Foreground bg=Selected bold
 r10 c93..104 fg=Foreground bg=Selected
-r10 c104..110 fg=Primary bg=Selected
+r10 c104..110 fg=Accent bg=Selected
 r10 c110..112 fg=Foreground bg=Sidebar
 r11 c0..2 fg=Foreground bg=Background
 r11 c2..4 fg=Border bg=Background
@@ -962,12 +962,12 @@ r16 c75..76 fg=Border bg=Background
 r16 c76..112 fg=Foreground bg=Sidebar
 r17 c0..2 fg=Foreground bg=Background
 r17 c2..3 bg=Surface
-r17 c3..38 fg=Primary bg=Surface
+r17 c3..38 fg=Accent bg=Surface
 r17 c38..73 bg=Surface
 r17 c73..75 fg=Foreground bg=Background
 r17 c75..76 fg=Border bg=Background
 r17 c76..78 fg=Foreground bg=Sidebar
-r17 c78..79 fg=Primary bg=Selected
+r17 c78..79 fg=Accent bg=Selected
 r17 c79..80 bg=Selected
 r17 c80..81 fg=Attention bg=Selected
 r17 c81..82 bg=Selected
@@ -982,7 +982,7 @@ r18 c31..73 bg=Surface
 r18 c73..75 fg=Foreground bg=Background
 r18 c75..76 fg=Border bg=Background
 r18 c76..78 fg=Foreground bg=Sidebar
-r18 c78..79 fg=Primary bg=Selected
+r18 c78..79 fg=Accent bg=Selected
 r18 c79..80 bg=Selected
 r18 c80..97 fg=Foreground bg=Selected bold
 r18 c97..110 bg=Selected
@@ -995,7 +995,7 @@ r19 c44..73 bg=Surface
 r19 c73..75 fg=Foreground bg=Background
 r19 c75..76 fg=Border bg=Background
 r19 c76..78 fg=Foreground bg=Sidebar
-r19 c78..79 fg=Primary bg=Selected
+r19 c78..79 fg=Accent bg=Selected
 r19 c79..80 bg=Selected
 r19 c80..104 fg=Foreground bg=Selected
 r19 c104..110 bg=Selected
@@ -1008,7 +1008,7 @@ r20 c26..73 bg=Surface
 r20 c73..75 fg=Foreground bg=Background
 r20 c75..76 fg=Border bg=Background
 r20 c76..78 fg=Foreground bg=Sidebar
-r20 c78..79 fg=Primary bg=Selected
+r20 c78..79 fg=Accent bg=Selected
 r20 c79..80 bg=Selected
 r20 c80..94 fg=Foreground bg=Selected
 r20 c94..110 bg=Selected
@@ -1018,9 +1018,9 @@ r21 c2..73 bg=Surface
 r21 c73..75 fg=Foreground bg=Background
 r21 c75..76 fg=Border bg=Background
 r21 c76..78 fg=Foreground bg=Sidebar
-r21 c78..79 fg=Primary bg=Selected
+r21 c78..79 fg=Accent bg=Selected
 r21 c79..80 bg=Selected
-r21 c80..98 fg=Primary bg=Selected
+r21 c80..98 fg=Accent bg=Selected
 r21 c98..110 bg=Selected
 r21 c110..112 fg=Foreground bg=Sidebar
 r22 c0..75 fg=Foreground bg=Background
@@ -1139,7 +1139,7 @@ r33 c76..88 fg=Foreground bg=Sidebar
 r33 c88..98 fg=#0f58c1 bg=Sidebar
 r33 c98..112 fg=Foreground bg=Sidebar
 r34 c0..2 fg=Foreground bg=Background
-r34 c2..4 fg=Primary bg=Background
+r34 c2..4 fg=Accent bg=Background
 r34 c4..75 fg=Foreground bg=Background
 r34 c75..76 fg=Border bg=Background
 r34 c76..92 fg=Foreground bg=Sidebar
@@ -1210,7 +1210,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..106 fg=Foreground bg=Background
@@ -1242,13 +1242,13 @@ r5 c0..75 fg=Foreground bg=Background
 r5 c75..76 fg=Border bg=Background
 r5 c76..112 fg=Foreground bg=Sidebar
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..75 fg=Foreground bg=Background
 r6 c75..76 fg=Border bg=Background
 r6 c76..106 fg=Foreground bg=Sidebar
-r6 c106..110 fg=Primary bg=Sidebar
+r6 c106..110 fg=Accent bg=Sidebar
 r6 c110..112 fg=Foreground bg=Sidebar
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -1266,7 +1266,7 @@ r7 c110..112 fg=Foreground bg=Sidebar
 r8 c0..75 fg=Foreground bg=Background
 r8 c75..76 fg=Border bg=Background
 r8 c76..106 fg=Foreground bg=Sidebar
-r8 c106..110 fg=Primary bg=Sidebar
+r8 c106..110 fg=Accent bg=Sidebar
 r8 c110..112 fg=Foreground bg=Sidebar
 r9 c0..4 fg=Foreground bg=Background
 r9 c4..13 fg=Foreground bg=Background bold
@@ -1290,7 +1290,7 @@ r10 c78..79 fg=Muted bg=Selected
 r10 c79..80 fg=Foreground bg=Selected
 r10 c80..93 fg=Foreground bg=Selected bold
 r10 c93..104 fg=Foreground bg=Selected
-r10 c104..110 fg=Primary bg=Selected
+r10 c104..110 fg=Accent bg=Selected
 r10 c110..112 fg=Foreground bg=Sidebar
 r11 c0..2 fg=Foreground bg=Background
 r11 c2..4 fg=Border bg=Background
@@ -1351,12 +1351,12 @@ r16 c75..76 fg=Border bg=Background
 r16 c76..112 fg=Foreground bg=Sidebar
 r17 c0..2 fg=Foreground bg=Background
 r17 c2..3 bg=Surface|Hover
-r17 c3..38 fg=Primary bg=Surface|Hover
+r17 c3..38 fg=Accent bg=Surface|Hover
 r17 c38..73 bg=Surface|Hover
 r17 c73..75 fg=Foreground bg=Background
 r17 c75..76 fg=Border bg=Background
 r17 c76..78 fg=Foreground bg=Sidebar
-r17 c78..79 fg=Primary bg=Selected
+r17 c78..79 fg=Accent bg=Selected
 r17 c79..80 bg=Selected
 r17 c80..81 fg=Attention bg=Selected
 r17 c81..82 bg=Selected
@@ -1371,7 +1371,7 @@ r18 c31..73 bg=Surface|Hover
 r18 c73..75 fg=Foreground bg=Background
 r18 c75..76 fg=Border bg=Background
 r18 c76..78 fg=Foreground bg=Sidebar
-r18 c78..79 fg=Primary bg=Selected
+r18 c78..79 fg=Accent bg=Selected
 r18 c79..80 bg=Selected
 r18 c80..97 fg=Foreground bg=Selected bold
 r18 c97..110 bg=Selected
@@ -1384,7 +1384,7 @@ r19 c44..73 bg=Surface|Hover
 r19 c73..75 fg=Foreground bg=Background
 r19 c75..76 fg=Border bg=Background
 r19 c76..78 fg=Foreground bg=Sidebar
-r19 c78..79 fg=Primary bg=Selected
+r19 c78..79 fg=Accent bg=Selected
 r19 c79..80 bg=Selected
 r19 c80..104 fg=Foreground bg=Selected
 r19 c104..110 bg=Selected
@@ -1397,7 +1397,7 @@ r20 c26..73 bg=Surface|Hover
 r20 c73..75 fg=Foreground bg=Background
 r20 c75..76 fg=Border bg=Background
 r20 c76..78 fg=Foreground bg=Sidebar
-r20 c78..79 fg=Primary bg=Selected
+r20 c78..79 fg=Accent bg=Selected
 r20 c79..80 bg=Selected
 r20 c80..94 fg=Foreground bg=Selected
 r20 c94..110 bg=Selected
@@ -1407,9 +1407,9 @@ r21 c2..73 bg=Surface|Hover
 r21 c73..75 fg=Foreground bg=Background
 r21 c75..76 fg=Border bg=Background
 r21 c76..78 fg=Foreground bg=Sidebar
-r21 c78..79 fg=Primary bg=Selected
+r21 c78..79 fg=Accent bg=Selected
 r21 c79..80 bg=Selected
-r21 c80..98 fg=Primary bg=Selected
+r21 c80..98 fg=Accent bg=Selected
 r21 c98..110 bg=Selected
 r21 c110..112 fg=Foreground bg=Sidebar
 r22 c0..75 fg=Foreground bg=Background
@@ -1466,28 +1466,28 @@ r27 c72..73 fg=Live bg=Sidebar
 r27 c73..75 fg=Foreground bg=Background
 r27 c75..76 fg=Border bg=Background
 r27 c76..91 fg=Foreground bg=Sidebar
-r27 c91..93 fg=Primary bg=Sidebar
+r27 c91..93 fg=idx110 bg=Sidebar
 r27 c93..112 fg=Foreground bg=Sidebar
 r28 c0..75 fg=Foreground bg=Background
 r28 c75..76 fg=Border bg=Background
 r28 c76..88 fg=Foreground bg=Sidebar
-r28 c88..96 fg=Primary bg=Sidebar
+r28 c88..96 fg=idx110 bg=Sidebar
 r28 c96..97 fg=Foreground bg=Sidebar
-r28 c97..101 fg=Primary bg=Sidebar
+r28 c97..101 fg=idx110 bg=Sidebar
 r28 c101..112 fg=Foreground bg=Sidebar
 r29 c0..75 fg=Foreground bg=Background
 r29 c75..76 fg=Border bg=Background
 r29 c76..87 fg=Foreground bg=Sidebar
-r29 c87..91 fg=idx75 bg=Sidebar
+r29 c87..91 fg=idx110 bg=Sidebar
 r29 c91..93 fg=Foreground bg=Sidebar
-r29 c93..101 fg=idx75 bg=Sidebar
+r29 c93..101 fg=idx110 bg=Sidebar
 r29 c101..112 fg=Foreground bg=Sidebar
 r30 c0..75 fg=Foreground bg=Background
 r30 c75..76 fg=Border bg=Background
 r30 c76..87 fg=Foreground bg=Sidebar
-r30 c87..90 fg=idx75 bg=Sidebar
+r30 c87..90 fg=idx74 bg=Sidebar
 r30 c90..94 fg=Foreground bg=Sidebar
-r30 c94..101 fg=idx75 bg=Sidebar
+r30 c94..101 fg=idx74 bg=Sidebar
 r30 c101..112 fg=Foreground bg=Sidebar
 r31 c0..75 fg=Foreground bg=Background
 r31 c75..76 fg=Border bg=Background
@@ -1516,7 +1516,7 @@ r33 c76..88 fg=Foreground bg=Sidebar
 r33 c88..98 fg=idx68 bg=Sidebar
 r33 c98..112 fg=Foreground bg=Sidebar
 r34 c0..2 fg=Foreground bg=Background
-r34 c2..4 fg=Primary bg=Background
+r34 c2..4 fg=Accent bg=Background
 r34 c4..75 fg=Foreground bg=Background
 r34 c75..76 fg=Border bg=Background
 r34 c76..92 fg=Foreground bg=Sidebar
@@ -1587,7 +1587,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
 r0 c0..2 fg=Foreground bg=Background|Surface
-r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c2..11 fg=Accent bg=Background|Surface bold
 r0 c11..16 fg=BorderStrong bg=Background|Surface
 r0 c16..52 fg=Muted bg=Background|Surface
 r0 c52..106 fg=Foreground bg=Background|Surface
@@ -1619,13 +1619,13 @@ r5 c0..75 fg=Foreground bg=Background|Surface
 r5 c75..76 fg=Border bg=Background|Surface
 r5 c76..112 fg=Foreground bg=Sidebar
 r6 c0..2 fg=Foreground bg=Background|Surface
-r6 c2..3 fg=Primary bg=Background|Surface
+r6 c2..3 fg=Accent bg=Background|Surface
 r6 c3..4 fg=Foreground bg=Background|Surface
-r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c4..7 fg=Accent bg=Background|Surface bold
 r6 c7..75 fg=Foreground bg=Background|Surface
 r6 c75..76 fg=Border bg=Background|Surface
 r6 c76..106 fg=Foreground bg=Sidebar
-r6 c106..110 fg=Primary bg=Sidebar
+r6 c106..110 fg=Accent bg=Sidebar
 r6 c110..112 fg=Foreground bg=Sidebar
 r7 c0..2 fg=Foreground bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
@@ -1643,7 +1643,7 @@ r7 c110..112 fg=Foreground bg=Sidebar
 r8 c0..75 fg=Foreground bg=Background|Surface
 r8 c75..76 fg=Border bg=Background|Surface
 r8 c76..106 fg=Foreground bg=Sidebar
-r8 c106..110 fg=Primary bg=Sidebar
+r8 c106..110 fg=Accent bg=Sidebar
 r8 c110..112 fg=Foreground bg=Sidebar
 r9 c0..4 fg=Foreground bg=Background|Surface
 r9 c4..13 fg=Foreground bg=Background|Surface bold
@@ -1667,7 +1667,7 @@ r10 c78..79 fg=Muted bg=Selected
 r10 c79..80 fg=Foreground bg=Selected
 r10 c80..93 fg=Foreground bg=Selected bold
 r10 c93..104 fg=Foreground bg=Selected
-r10 c104..110 fg=Primary bg=Selected
+r10 c104..110 fg=Accent bg=Selected
 r10 c110..112 fg=Foreground bg=Sidebar
 r11 c0..2 fg=Foreground bg=Background|Surface
 r11 c2..4 fg=Border bg=Background|Surface
@@ -1733,7 +1733,7 @@ r17 c72..73 fg=Border bg=Background|Surface
 r17 c73..75 fg=Foreground bg=Background|Surface
 r17 c75..76 fg=Border bg=Background|Surface
 r17 c76..78 fg=Foreground bg=Sidebar
-r17 c78..79 fg=Primary bg=Selected
+r17 c78..79 fg=Accent bg=Selected
 r17 c79..80 bg=Selected
 r17 c80..81 fg=Attention bg=Selected
 r17 c81..82 bg=Selected
@@ -1743,13 +1743,13 @@ r17 c110..112 fg=Foreground bg=Sidebar
 r18 c0..2 fg=Foreground bg=Background|Surface
 r18 c2..3 fg=Border bg=Background|Surface
 r18 c3..4 bg=Background|Surface
-r18 c4..39 fg=Primary bg=Background|Surface
+r18 c4..39 fg=Accent bg=Background|Surface
 r18 c39..72 bg=Background|Surface
 r18 c72..73 fg=Border bg=Background|Surface
 r18 c73..75 fg=Foreground bg=Background|Surface
 r18 c75..76 fg=Border bg=Background|Surface
 r18 c76..78 fg=Foreground bg=Sidebar
-r18 c78..79 fg=Primary bg=Selected
+r18 c78..79 fg=Accent bg=Selected
 r18 c79..80 bg=Selected
 r18 c80..97 fg=Foreground bg=Selected bold
 r18 c97..110 bg=Selected
@@ -1764,7 +1764,7 @@ r19 c72..73 fg=Border bg=Background|Surface
 r19 c73..75 fg=Foreground bg=Background|Surface
 r19 c75..76 fg=Border bg=Background|Surface
 r19 c76..78 fg=Foreground bg=Sidebar
-r19 c78..79 fg=Primary bg=Selected
+r19 c78..79 fg=Accent bg=Selected
 r19 c79..80 bg=Selected
 r19 c80..104 fg=Foreground bg=Selected
 r19 c104..110 bg=Selected
@@ -1778,7 +1778,7 @@ r20 c72..73 fg=Border bg=Background|Surface
 r20 c73..75 fg=Foreground bg=Background|Surface
 r20 c75..76 fg=Border bg=Background|Surface
 r20 c76..78 fg=Foreground bg=Sidebar
-r20 c78..79 fg=Primary bg=Selected
+r20 c78..79 fg=Accent bg=Selected
 r20 c79..80 bg=Selected
 r20 c80..94 fg=Foreground bg=Selected
 r20 c94..110 bg=Selected
@@ -1788,9 +1788,9 @@ r21 c2..73 fg=Border bg=Background|Surface
 r21 c73..75 fg=Foreground bg=Background|Surface
 r21 c75..76 fg=Border bg=Background|Surface
 r21 c76..78 fg=Foreground bg=Sidebar
-r21 c78..79 fg=Primary bg=Selected
+r21 c78..79 fg=Accent bg=Selected
 r21 c79..80 bg=Selected
-r21 c80..98 fg=Primary bg=Selected
+r21 c80..98 fg=Accent bg=Selected
 r21 c98..110 bg=Selected
 r21 c110..112 fg=Foreground bg=Sidebar
 r22 c0..75 fg=Foreground bg=Background|Surface
@@ -1894,14 +1894,14 @@ r33 c2..73 fg=Border bg=Background|Surface
 r33 c73..75 fg=Foreground bg=Background|Surface
 r33 c75..76 fg=Border bg=Background|Surface
 r33 c76..88 fg=Foreground bg=Sidebar
-r33 c88..98 fg=Primary bg=Sidebar
+r33 c88..98 fg=idx25 bg=Sidebar
 r33 c98..112 fg=Foreground bg=Sidebar
 r34 c0..2 fg=Foreground bg=Background|Surface
-r34 c2..4 fg=Primary bg=Background|Surface
+r34 c2..4 fg=Accent bg=Background|Surface
 r34 c4..75 fg=Foreground bg=Background|Surface
 r34 c75..76 fg=Border bg=Background|Surface
 r34 c76..92 fg=Foreground bg=Sidebar
-r34 c92..94 fg=Primary bg=Sidebar
+r34 c92..94 fg=idx25 bg=Sidebar
 r34 c94..112 fg=Foreground bg=Sidebar
 r35 c0..75 fg=Foreground bg=Background|Surface
 r35 c75..76 fg=Border bg=Background|Surface
@@ -1967,7 +1967,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   Enter send · Tab details · / commands                                    │      ● Working alongside you
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c106..110 bold
 r1 c0..112 dim
@@ -1981,16 +1981,16 @@ r4 c2..73 dim
 r4 c75..76 dim
 r4 c78..110 dim
 r5 c75..76 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r6 c75..76 dim
-r6 c106..110 fg=Primary
+r6 c106..110 fg=Accent
 r7 c2..4 dim
 r7 c75..76 dim
 r7 c80..81 fg=Live
 r7 c86..110 dim
 r8 c75..76 dim
-r8 c106..110 fg=Primary
+r8 c106..110 fg=Accent
 r9 c4..13 bold
 r9 c75..76 dim
 r9 c80..81 fg=Live
@@ -1999,7 +1999,7 @@ r10 c2..4 dim
 r10 c75..76 dim
 r10 c78..79 dim
 r10 c80..93 bold
-r10 c104..110 fg=Primary
+r10 c104..110 fg=Accent
 r11 c2..4 dim
 r11 c75..76 dim
 r11 c80..81 fg=Attention
@@ -2023,28 +2023,28 @@ r17 c15..19 fg=Live
 r17 c21..24 dim
 r17 c72..73 dim
 r17 c75..76 dim
-r17 c78..79 fg=Primary
+r17 c78..79 fg=Accent
 r17 c80..81 fg=Attention
 r18 c2..3 dim
-r18 c4..39 fg=Primary
+r18 c4..39 fg=Accent
 r18 c72..73 dim
 r18 c75..76 dim
-r18 c78..79 fg=Primary
+r18 c78..79 fg=Accent
 r18 c80..97 bold
 r19 c2..3 dim
 r19 c4..32 dim
 r19 c72..73 dim
 r19 c75..76 dim
-r19 c78..79 fg=Primary
+r19 c78..79 fg=Accent
 r20 c2..3 dim
 r20 c4..34 dim
 r20 c72..73 dim
 r20 c75..76 dim
-r20 c78..79 fg=Primary
+r20 c78..79 fg=Accent
 r21 c2..73 dim
 r21 c75..76 dim
-r21 c78..79 fg=Primary
-r21 c80..98 fg=Primary
+r21 c78..79 fg=Accent
+r21 c80..98 fg=Accent
 r22 c75..76 dim
 r23 c2..73 dim
 r23 c75..76 dim
@@ -2064,28 +2064,28 @@ r26 c75..76 dim
 r27 c3..71 fg=Live bold
 r27 c72..73 fg=Live
 r27 c75..76 dim
-r27 c91..93 fg=Primary
+r27 c91..93 fg=Accent
 r28 c75..76 dim
-r28 c88..96 fg=Primary
-r28 c97..101 fg=Primary
+r28 c88..96 fg=Accent
+r28 c97..101 fg=Accent
 r29 c75..76 dim
-r29 c87..91 fg=Primary
-r29 c93..101 fg=Primary
+r29 c87..91 fg=Accent
+r29 c93..101 fg=Accent
 r30 c75..76 dim
-r30 c87..90 fg=Primary
-r30 c94..101 fg=Primary
+r30 c87..90 fg=Accent
+r30 c94..101 fg=Accent
 r31 c75..76 dim
-r31 c87..101 fg=Primary
+r31 c87..101 fg=Accent
 r32 c57..67 dim
 r32 c75..76 dim
-r32 c87..97 fg=Primary
-r32 c99..100 fg=Primary
+r32 c87..97 fg=Accent
+r32 c99..100 fg=Accent
 r33 c2..73 dim
 r33 c75..76 dim
-r33 c88..98 fg=Primary
-r34 c2..4 fg=Primary
+r33 c88..98 fg=Accent
+r34 c2..4 fg=Accent
 r34 c75..76 dim
-r34 c92..94 fg=Primary
+r34 c92..94 fg=Accent
 r35 c75..76 dim
 r36 c2..7 bold
 r36 c8..15 dim
@@ -2137,7 +2137,7 @@ r37 c2..90 dim
   Enter send · Tab details · / commands                                    │      ● Working alongside you
   Illustrative host data / Conversation + Files / Ctrl+K commands / Workbar summoned below
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c106..110 bold
 r1 c0..112 dim
@@ -2151,16 +2151,16 @@ r4 c2..73 dim
 r4 c75..76 dim
 r4 c78..110 dim
 r5 c75..76 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r6 c75..76 dim
-r6 c106..110 fg=Primary
+r6 c106..110 fg=Accent
 r7 c2..4 dim
 r7 c75..76 dim
 r7 c80..81 fg=Live
 r7 c86..110 dim
 r8 c75..76 dim
-r8 c106..110 fg=Primary
+r8 c106..110 fg=Accent
 r9 c4..13 bold
 r9 c75..76 dim
 r9 c80..81 fg=Live
@@ -2169,7 +2169,7 @@ r10 c2..4 dim
 r10 c75..76 dim
 r10 c78..79 dim
 r10 c80..93 bold
-r10 c104..110 fg=Primary
+r10 c104..110 fg=Accent
 r11 c2..4 dim
 r11 c75..76 dim
 r11 c80..81 fg=Attention
@@ -2193,28 +2193,28 @@ r17 c15..19 fg=Live
 r17 c21..24 dim
 r17 c72..73 dim
 r17 c75..76 dim
-r17 c78..79 fg=Primary
+r17 c78..79 fg=Accent
 r17 c80..81 fg=Attention
 r18 c2..3 dim
-r18 c4..39 fg=Primary
+r18 c4..39 fg=Accent
 r18 c72..73 dim
 r18 c75..76 dim
-r18 c78..79 fg=Primary
+r18 c78..79 fg=Accent
 r18 c80..97 bold
 r19 c2..3 dim
 r19 c4..32 dim
 r19 c72..73 dim
 r19 c75..76 dim
-r19 c78..79 fg=Primary
+r19 c78..79 fg=Accent
 r20 c2..3 dim
 r20 c4..34 dim
 r20 c72..73 dim
 r20 c75..76 dim
-r20 c78..79 fg=Primary
+r20 c78..79 fg=Accent
 r21 c2..73 dim
 r21 c75..76 dim
-r21 c78..79 fg=Primary
-r21 c80..98 fg=Primary
+r21 c78..79 fg=Accent
+r21 c80..98 fg=Accent
 r22 c75..76 dim
 r23 c2..73 dim
 r23 c75..76 dim
@@ -2234,28 +2234,28 @@ r26 c75..76 dim
 r27 c3..71 fg=Live bold
 r27 c72..73 fg=Live
 r27 c75..76 dim
-r27 c91..93 fg=Primary
+r27 c91..93 fg=Accent
 r28 c75..76 dim
-r28 c88..96 fg=Primary
-r28 c97..101 fg=Primary
+r28 c88..96 fg=Accent
+r28 c97..101 fg=Accent
 r29 c75..76 dim
-r29 c87..91 fg=Primary
-r29 c93..101 fg=Primary
+r29 c87..91 fg=Accent
+r29 c93..101 fg=Accent
 r30 c75..76 dim
-r30 c87..90 fg=Primary
-r30 c94..101 fg=Primary
+r30 c87..90 fg=Accent
+r30 c94..101 fg=Accent
 r31 c75..76 dim
-r31 c87..101 fg=Primary
+r31 c87..101 fg=Accent
 r32 c57..67 dim
 r32 c75..76 dim
-r32 c87..97 fg=Primary
-r32 c99..100 fg=Primary
+r32 c87..97 fg=Accent
+r32 c99..100 fg=Accent
 r33 c2..73 dim
 r33 c75..76 dim
-r33 c88..98 fg=Primary
-r34 c2..4 fg=Primary
+r33 c88..98 fg=Accent
+r34 c2..4 fg=Accent
 r34 c75..76 dim
-r34 c92..94 fg=Primary
+r34 c92..94 fg=Accent
 r35 c75..76 dim
 r36 c2..7 bold
 r36 c8..15 dim

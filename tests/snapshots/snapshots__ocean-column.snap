@@ -24,9 +24,9 @@ r0 c0..24 fg=Foreground bg=#102a46 bold
 r0 c24..63 bg=#102a46
 r0 c63..80 fg=Muted bg=#102a46
 r1 c0..80 bg=#102944
-r2 c0..1 fg=Primary bg=#0e2841
+r2 c0..1 fg=Accent bg=#0e2841
 r2 c1..2 bg=#0e2841
-r2 c2..5 fg=Primary bg=#0e2841 bold
+r2 c2..5 fg=Accent bg=#0e2841 bold
 r2 c5..80 bg=#0e2841
 r3 c0..2 fg=Border bg=#0f273e
 r3 c2..39 fg=Foreground bg=#0f273e
@@ -78,13 +78,13 @@ r0 c0..24 fg=Foreground bg=#26272a bold
 r0 c24..63 bg=#26272a
 r0 c63..80 fg=Muted bg=#26272a
 r1 c0..80 bg=#26282a
-r2 c0..1 fg=Primary bg=#242628
-r2 c1..2 bg=#242628
-r2 c2..5 fg=Primary bg=#242628 bold
-r2 c5..80 bg=#242628
-r3 c0..2 fg=Border bg=#242628
-r3 c2..39 fg=Foreground bg=#242628
-r3 c39..80 bg=#242628
+r2 c0..1 fg=Accent bg=#252628
+r2 c1..2 bg=#252628
+r2 c2..5 fg=Accent bg=#252628 bold
+r2 c5..80 bg=#252628
+r3 c0..2 fg=Border bg=#252628
+r3 c2..39 fg=Foreground bg=#252628
+r3 c39..80 bg=#252628
 r4 c0..80 bg=#242527
 r5 c0..80 bg=#232426
 r6 c0..1 fg=Foreground bg=#232426
@@ -94,8 +94,8 @@ r6 c11..80 bg=#232426
 r7 c0..2 fg=Border bg=#222325
 r7 c2..48 fg=Foreground bg=#222325
 r7 c48..80 bg=#222325
-r8 c0..80 bg=#212225
-r9 c0..80 bg=#202124
+r8 c0..80 bg=#212224
+r9 c0..80 bg=Background
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
 r11 c0..80 bg=#1f2023
@@ -132,27 +132,27 @@ r0 c0..24 fg=Foreground bg=#fbfafa bold
 r0 c24..63 bg=#fbfafa
 r0 c63..80 fg=Muted bg=#fbfafa
 r1 c0..80 bg=#fbfafa
-r2 c0..1 fg=Primary bg=#fbf9f8
+r2 c0..1 fg=Accent bg=#fbf9f8
 r2 c1..2 bg=#fbf9f8
-r2 c2..5 fg=Primary bg=#fbf9f8 bold
+r2 c2..5 fg=Accent bg=#fbf9f8 bold
 r2 c5..80 bg=#fbf9f8
 r3 c0..2 fg=Border bg=#faf8f8
 r3 c2..39 fg=Foreground bg=#faf8f8
 r3 c39..80 bg=#faf8f8
 r4 c0..80 bg=#f9f8f7
-r5 c0..80 bg=#f9f7f6
-r6 c0..1 fg=Foreground bg=#f8f7f5
-r6 c1..2 bg=#f8f7f5
-r6 c2..11 fg=Foreground bg=#f8f7f5 bold
-r6 c11..80 bg=#f8f7f5
-r7 c0..2 fg=Border bg=#f8f6f5
-r7 c2..48 fg=Foreground bg=#f8f6f5
-r7 c48..80 bg=#f8f6f5
-r8 c0..80 bg=#f7f5f3
-r9 c0..80 bg=#f6f4f3
+r5 c0..80 bg=#f9f7f5
+r6 c0..1 fg=Foreground bg=#f8f7f4
+r6 c1..2 bg=#f8f7f4
+r6 c2..11 fg=Foreground bg=#f8f7f4 bold
+r6 c11..80 bg=#f8f7f4
+r7 c0..2 fg=Border bg=#f8f6f4
+r7 c2..48 fg=Foreground bg=#f8f6f4
+r7 c48..80 bg=#f8f6f4
+r8 c0..80 bg=#f7f5f2
+r9 c0..80 bg=#f6f4f2
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=#f5f2f0
+r11 c0..80 bg=#f5f2ef
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -186,9 +186,9 @@ r0 c0..24 fg=Foreground bg=Background bold
 r0 c24..63 bg=Background
 r0 c63..80 fg=Muted bg=Background
 r1 c0..80 bg=Background
-r2 c0..1 fg=Primary bg=Background
+r2 c0..1 fg=Accent bg=Background
 r2 c1..2 bg=Background
-r2 c2..5 fg=Primary bg=Background bold
+r2 c2..5 fg=Accent bg=Background bold
 r2 c5..80 bg=Background
 r3 c0..2 fg=Border bg=Background
 r3 c2..39 fg=Foreground bg=Background
@@ -240,9 +240,9 @@ r0 c0..24 fg=Foreground bg=Background|Surface bold
 r0 c24..63 bg=Background|Surface
 r0 c63..80 fg=Muted bg=Background|Surface
 r1 c0..80 bg=Background|Surface
-r2 c0..1 fg=Primary bg=Background|Surface
+r2 c0..1 fg=Accent bg=Background|Surface
 r2 c1..2 bg=Background|Surface
-r2 c2..5 fg=Primary bg=Background|Surface bold
+r2 c2..5 fg=Accent bg=Background|Surface bold
 r2 c5..80 bg=Background|Surface
 r3 c0..2 fg=Border bg=Background|Surface
 r3 c2..39 fg=Foreground bg=Background|Surface
@@ -296,8 +296,8 @@ Selected / src/ocean.rs
 ---
 r0 c0..24 bold
 r0 c63..80 dim
-r2 c0..1 fg=Primary
-r2 c2..5 fg=Primary bold
+r2 c0..1 fg=Accent
+r2 c2..5 fg=Accent bold
 r3 c0..2 dim
 r6 c2..11 bold
 r7 c0..2 dim
@@ -331,8 +331,8 @@ Selected / src/ocean.rs
 ---
 r0 c0..24 bold
 r0 c63..80 dim
-r2 c0..1 fg=Primary
-r2 c2..5 fg=Primary bold
+r2 c0..1 fg=Accent
+r2 c2..5 fg=Accent bold
 r3 c0..2 dim
 r6 c2..11 bold
 r7 c0..2 dim

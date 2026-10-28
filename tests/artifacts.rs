@@ -105,7 +105,7 @@ fn the_selected_result_is_visible_and_pointer_rows_match_the_viewport() {
     assert_eq!(shelf.row_at(area, 3, 3), None);
     assert_eq!(shelf.row_at(area, 44, 3), None);
     assert!(buf[(6, 5)].modifier.contains(Modifier::BOLD));
-    assert_eq!(buf[(4, 5)].fg, theme.fg(Role::Primary).fg.unwrap());
+    assert_eq!(buf[(4, 5)].fg, theme.fg(Role::Accent).fg.unwrap());
 }
 
 #[test]

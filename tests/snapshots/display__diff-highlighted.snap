@@ -21,14 +21,14 @@ r0 c29..40 bg=Background
 r1 c0..3 fg=Muted bg=Background
 r1 c3..4 fg=Foreground bg=Background
 r1 c4..5 bg=Background
-r1 c5..7 fg=Primary bg=Background
+r1 c5..7 fg=Accent bg=Background
 r1 c7..16 fg=Foreground bg=Background
 r1 c16..40 bg=Background
 r2 c0..3 fg=Muted bg=Background
 r2 c3..4 fg=Foreground bg=Background
 r2 c4..5 bg=Background
 r2 c5..9 fg=Foreground bg=Background
-r2 c9..12 fg=Primary bg=Background
+r2 c9..12 fg=Accent bg=Background
 r2 c12..20 fg=Foreground bg=Background
 r2 c20..27 fg=Muted bg=Background
 r2 c27..28 fg=Foreground bg=Background
@@ -52,7 +52,7 @@ r6 c0..3 fg=Muted bg=Background
 r6 c3..4 fg=Foreground bg=Background
 r6 c4..5 bg=Background
 r6 c5..9 fg=Foreground bg=Background
-r6 c9..17 fg=Primary bg=Background
+r6 c9..17 fg=Accent bg=Background
 r6 c17..18 fg=Foreground bg=Background
 r6 c18..26 fg=Muted bg=Background
 r6 c26..28 fg=Foreground bg=Background
@@ -68,7 +68,7 @@ r9 c0..3 fg=Muted bg=Background
 r9 c3..4 fg=Foreground bg=Background
 r9 c4..5 bg=Background
 r9 c5..9 fg=Foreground bg=Background
-r9 c9..11 fg=Primary bg=Background
+r9 c9..11 fg=Accent bg=Background
 r9 c11..39 fg=Foreground bg=Background
 r9 c39..40 bg=Background
 r10 c0..3 fg=Muted bg=DiffRemovedTint
@@ -98,14 +98,14 @@ r0 c29..80 bg=Background
 r1 c0..6 fg=Muted bg=Background
 r1 c6..7 fg=Foreground bg=Background
 r1 c7..8 bg=Background
-r1 c8..10 fg=Primary bg=Background
+r1 c8..10 fg=Accent bg=Background
 r1 c10..19 fg=Foreground bg=Background
 r1 c19..80 bg=Background
 r2 c0..6 fg=Muted bg=Background
 r2 c6..7 fg=Foreground bg=Background
 r2 c7..8 bg=Background
 r2 c8..12 fg=Foreground bg=Background
-r2 c12..15 fg=Primary bg=Background
+r2 c12..15 fg=Accent bg=Background
 r2 c15..23 fg=Foreground bg=Background
 r2 c23..30 fg=Muted bg=Background
 r2 c30..31 fg=Foreground bg=Background
@@ -129,7 +129,7 @@ r6 c0..6 fg=Muted bg=Background
 r6 c6..7 fg=Foreground bg=Background
 r6 c7..8 bg=Background
 r6 c8..12 fg=Foreground bg=Background
-r6 c12..20 fg=Primary bg=Background
+r6 c12..20 fg=Accent bg=Background
 r6 c20..21 fg=Foreground bg=Background
 r6 c21..29 fg=Muted bg=Background
 r6 c29..31 fg=Foreground bg=Background
@@ -145,7 +145,7 @@ r9 c0..6 fg=Muted bg=Background
 r9 c6..7 fg=Foreground bg=Background
 r9 c7..8 bg=Background
 r9 c8..12 fg=Foreground bg=Background
-r9 c12..14 fg=Primary bg=Background
+r9 c12..14 fg=Accent bg=Background
 r9 c14..42 fg=Foreground bg=Background
 r9 c42..80 bg=Background
 r10 c0..6 fg=Muted bg=DiffRemovedTint
@@ -175,14 +175,14 @@ r0 c29..120 bg=Background
 r1 c0..6 fg=Muted bg=Background
 r1 c6..7 fg=Foreground bg=Background
 r1 c7..8 bg=Background
-r1 c8..10 fg=Primary bg=Background
+r1 c8..10 fg=Accent bg=Background
 r1 c10..19 fg=Foreground bg=Background
 r1 c19..120 bg=Background
 r2 c0..6 fg=Muted bg=Background
 r2 c6..7 fg=Foreground bg=Background
 r2 c7..8 bg=Background
 r2 c8..12 fg=Foreground bg=Background
-r2 c12..15 fg=Primary bg=Background
+r2 c12..15 fg=Accent bg=Background
 r2 c15..23 fg=Foreground bg=Background
 r2 c23..30 fg=Muted bg=Background
 r2 c30..31 fg=Foreground bg=Background
@@ -206,7 +206,7 @@ r6 c0..6 fg=Muted bg=Background
 r6 c6..7 fg=Foreground bg=Background
 r6 c7..8 bg=Background
 r6 c8..12 fg=Foreground bg=Background
-r6 c12..20 fg=Primary bg=Background
+r6 c12..20 fg=Accent bg=Background
 r6 c20..21 fg=Foreground bg=Background
 r6 c21..29 fg=Muted bg=Background
 r6 c29..31 fg=Foreground bg=Background
@@ -222,7 +222,7 @@ r9 c0..6 fg=Muted bg=Background
 r9 c6..7 fg=Foreground bg=Background
 r9 c7..8 bg=Background
 r9 c8..12 fg=Foreground bg=Background
-r9 c12..14 fg=Primary bg=Background
+r9 c12..14 fg=Accent bg=Background
 r9 c14..42 fg=Foreground bg=Background
 r9 c42..120 bg=Background
 r10 c0..6 fg=Muted bg=DiffRemovedTint

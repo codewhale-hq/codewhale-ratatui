@@ -9,7 +9,7 @@ expression: dump(&entry)
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary bg=Selected
+r0 c0..1 fg=Accent bg=Selected
 r0 c1..2 bg=Selected
 r0 c2..36 fg=Foreground bg=Selected bold
 r0 c36..63 bg=Selected
@@ -18,17 +18,17 @@ r0 c64..65 bg=Selected
 r0 c65..74 fg=Foreground bg=Selected
 r0 c74..76 bg=Selected
 r0 c76..84 fg=Muted bg=Selected
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..44 fg=Foreground bg=Selected
 r1 c44..84 bg=Selected
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..45 fg=Foreground bg=Selected
 r2 c45..84 bg=Selected
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
-r3 c2..16 fg=Primary bg=Selected
+r3 c2..16 fg=Accent bg=Selected
 r3 c16..63 bg=Selected
 r3 c63..68 fg=Foreground bg=Selected bold
 r3 c68..69 bg=Selected
@@ -46,7 +46,7 @@ r4 c0..84 bg=Selected
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary bg=Selected
+r0 c0..1 fg=Accent bg=Selected
 r0 c1..2 bg=Selected
 r0 c2..36 fg=Foreground bg=Selected bold
 r0 c36..63 bg=Selected
@@ -55,17 +55,17 @@ r0 c64..65 bg=Selected
 r0 c65..74 fg=Foreground bg=Selected
 r0 c74..76 bg=Selected
 r0 c76..84 fg=Muted bg=Selected
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..44 fg=Foreground bg=Selected
 r1 c44..84 bg=Selected
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..45 fg=Foreground bg=Selected
 r2 c45..84 bg=Selected
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
-r3 c2..16 fg=Primary bg=Selected
+r3 c2..16 fg=Accent bg=Selected
 r3 c16..63 bg=Selected
 r3 c63..68 fg=Foreground bg=Selected bold
 r3 c68..69 bg=Selected
@@ -83,7 +83,7 @@ r4 c0..84 bg=Selected
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary bg=Selected
+r0 c0..1 fg=Accent bg=Selected
 r0 c1..2 bg=Selected
 r0 c2..36 fg=Foreground bg=Selected bold
 r0 c36..63 bg=Selected
@@ -92,17 +92,17 @@ r0 c64..65 bg=Selected
 r0 c65..74 fg=Foreground bg=Selected
 r0 c74..76 bg=Selected
 r0 c76..84 fg=Muted bg=Selected
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..44 fg=Foreground bg=Selected
 r1 c44..84 bg=Selected
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..45 fg=Foreground bg=Selected
 r2 c45..84 bg=Selected
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
-r3 c2..16 fg=Primary bg=Selected
+r3 c2..16 fg=Accent bg=Selected
 r3 c16..63 bg=Selected
 r3 c63..68 fg=Foreground bg=Selected bold
 r3 c68..69 bg=Selected
@@ -120,7 +120,7 @@ r4 c0..84 bg=Selected
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary bg=Selected
+r0 c0..1 fg=Accent bg=Selected
 r0 c1..2 bg=Selected
 r0 c2..36 fg=Foreground bg=Selected bold
 r0 c36..63 bg=Selected
@@ -129,17 +129,17 @@ r0 c64..65 bg=Selected
 r0 c65..74 fg=Foreground bg=Selected
 r0 c74..76 bg=Selected
 r0 c76..84 fg=Muted bg=Selected
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..44 fg=Foreground bg=Selected
 r1 c44..84 bg=Selected
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..45 fg=Foreground bg=Selected
 r2 c45..84 bg=Selected
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
-r3 c2..16 fg=Primary bg=Selected
+r3 c2..16 fg=Accent bg=Selected
 r3 c16..63 bg=Selected
 r3 c63..68 fg=Foreground bg=Selected bold
 r3 c68..69 bg=Selected
@@ -157,7 +157,7 @@ r4 c0..84 bg=Selected
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary bg=Selected
+r0 c0..1 fg=Accent bg=Selected
 r0 c1..2 bg=Selected
 r0 c2..36 fg=Foreground bg=Selected bold
 r0 c36..63 bg=Selected
@@ -166,17 +166,17 @@ r0 c64..65 bg=Selected
 r0 c65..74 fg=Foreground bg=Selected
 r0 c74..76 bg=Selected
 r0 c76..84 fg=Muted bg=Selected
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..44 fg=Foreground bg=Selected
 r1 c44..84 bg=Selected
-r2 c0..1 fg=Primary bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..2 bg=Selected
 r2 c2..45 fg=Foreground bg=Selected
 r2 c45..84 bg=Selected
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
-r3 c2..16 fg=Primary bg=Selected
+r3 c2..16 fg=Accent bg=Selected
 r3 c16..63 bg=Selected
 r3 c63..68 fg=Foreground bg=Selected bold
 r3 c68..69 bg=Selected
@@ -194,14 +194,14 @@ r4 c0..84 bg=Selected
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary
+r0 c0..1 fg=Accent
 r0 c2..36 bold
 r0 c63..64 fg=Attention
 r0 c76..84 dim
-r1 c0..1 fg=Primary
-r2 c0..1 fg=Primary
-r3 c0..1 fg=Primary
-r3 c2..16 fg=Primary
+r1 c0..1 fg=Accent
+r2 c0..1 fg=Accent
+r3 c0..1 fg=Accent
+r3 c2..16 fg=Accent
 r3 c63..68 bold
 r3 c69..76 dim
 r3 c76..79 bold
@@ -214,14 +214,14 @@ r3 c80..84 dim
 ▏ Review package                                               Enter open · Esc back
 
 ---
-r0 c0..1 fg=Primary
+r0 c0..1 fg=Accent
 r0 c2..36 bold
 r0 c63..64 fg=Attention
 r0 c76..84 dim
-r1 c0..1 fg=Primary
-r2 c0..1 fg=Primary
-r3 c0..1 fg=Primary
-r3 c2..16 fg=Primary
+r1 c0..1 fg=Accent
+r2 c0..1 fg=Accent
+r3 c0..1 fg=Accent
+r3 c2..16 fg=Accent
 r3 c63..68 bold
 r3 c69..76 dim
 r3 c76..79 bold

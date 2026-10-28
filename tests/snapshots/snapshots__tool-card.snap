@@ -23,7 +23,7 @@ r0 c15..17 bg=Surface
 r0 c17..21 fg=Muted bg=Surface
 r0 c21..64 bg=Surface
 r1 c0..1 bg=Surface
-r1 c1..28 fg=Primary bg=Surface
+r1 c1..28 fg=Accent bg=Surface
 r1 c28..64 bg=Surface
 r2 c0..1 bg=Surface
 r2 c1..3 fg=Border bg=Surface
@@ -65,7 +65,7 @@ r0 c15..17 bg=Surface
 r0 c17..21 fg=Muted bg=Surface
 r0 c21..64 bg=Surface
 r1 c0..1 bg=Surface
-r1 c1..28 fg=Primary bg=Surface
+r1 c1..28 fg=Accent bg=Surface
 r1 c28..64 bg=Surface
 r2 c0..1 bg=Surface
 r2 c1..3 fg=Border bg=Surface
@@ -107,7 +107,7 @@ r0 c15..17 bg=Surface
 r0 c17..21 fg=Muted bg=Surface
 r0 c21..64 bg=Surface
 r1 c0..1 bg=Surface
-r1 c1..28 fg=Primary bg=Surface
+r1 c1..28 fg=Accent bg=Surface
 r1 c28..64 bg=Surface
 r2 c0..1 bg=Surface
 r2 c1..3 fg=Border bg=Surface
@@ -149,7 +149,7 @@ r0 c15..17 bg=Surface|Hover
 r0 c17..21 fg=Muted bg=Surface|Hover
 r0 c21..64 bg=Surface|Hover
 r1 c0..1 bg=Surface|Hover
-r1 c1..28 fg=Primary bg=Surface|Hover
+r1 c1..28 fg=Accent bg=Surface|Hover
 r1 c28..64 bg=Surface|Hover
 r2 c0..1 bg=Surface|Hover
 r2 c1..3 fg=Border bg=Surface|Hover
@@ -198,7 +198,7 @@ r2 c22..63 bg=Background|Surface
 r2 c63..64 fg=Border bg=Background|Surface
 r3 c0..1 fg=Border bg=Background|Surface
 r3 c1..2 bg=Background|Surface
-r3 c2..29 fg=Primary bg=Background|Surface
+r3 c2..29 fg=Accent bg=Background|Surface
 r3 c29..63 bg=Background|Surface
 r3 c63..64 fg=Border bg=Background|Surface
 r4 c0..1 fg=Border bg=Background|Surface
@@ -244,7 +244,7 @@ r2 c12..16 fg=Live
 r2 c18..22 dim
 r2 c63..64 dim
 r3 c0..1 dim
-r3 c2..29 fg=Primary
+r3 c2..29 fg=Accent
 r3 c63..64 dim
 r4 c0..1 dim
 r4 c2..48 dim
@@ -280,7 +280,7 @@ r2 c12..16 fg=Live
 r2 c18..22 dim
 r2 c63..64 dim
 r3 c0..1 dim
-r3 c2..29 fg=Primary
+r3 c2..29 fg=Accent
 r3 c63..64 dim
 r4 c0..1 dim
 r4 c2..48 dim

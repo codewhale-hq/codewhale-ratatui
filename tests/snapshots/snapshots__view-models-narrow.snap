@@ -30,9 +30,9 @@ expression: dump(&entry)
 ---
 r0 c0..80 bg=Background
 r1 c0..1 bg=Background
-r1 c1..21 fg=Primary bg=Background bold
+r1 c1..21 fg=Primary|Accent bg=Background bold
 r1 c21..60 fg=Border bg=Background
-r1 c60..78 fg=Primary bg=Background underline
+r1 c60..78 fg=Primary|Accent bg=Background underline
 r1 c78..79 fg=Border bg=Background
 r1 c79..80 bg=Background
 r2 c0..80 bg=Background
@@ -46,7 +46,7 @@ r5 c0..2 bg=Background
 r5 c2..54 fg=Muted bg=Background
 r5 c54..80 bg=Background
 r6 c0..2 bg=Background
-r6 c2..3 fg=Primary bg=Selected
+r6 c2..3 fg=Primary|Accent bg=Selected
 r6 c3..4 bg=Selected
 r6 c4..53 fg=Foreground bg=Selected bold
 r6 c53..78 bg=Selected
@@ -72,7 +72,7 @@ r16 c0..4 bg=Background
 r16 c4..10 fg=Foreground bg=Background
 r16 c10..80 bg=Background
 r17 c0..2 bg=Background
-r17 c2..3 fg=Primary bg=Selected
+r17 c2..3 fg=Primary|Accent bg=Selected
 r17 c3..4 bg=Selected
 r17 c4..8 fg=Foreground bg=Selected bold
 r17 c8..78 bg=Selected
@@ -80,23 +80,23 @@ r17 c78..80 bg=Background
 r18 c0..80 bg=Background
 r19 c0..80 bg=Background
 r20 c0..2 bg=Background
-r20 c2..7 fg=Primary bg=Background bold
+r20 c2..7 fg=Primary|Accent bg=Background bold
 r20 c7..11 fg=Muted bg=Background
 r20 c11..12 bg=Background
-r20 c12..17 fg=Primary bg=Background bold
+r20 c12..17 fg=Primary|Accent bg=Background bold
 r20 c17..23 fg=Muted bg=Background
 r20 c23..24 bg=Background
-r20 c24..30 fg=Primary bg=Background bold
+r20 c24..30 fg=Primary|Accent bg=Background bold
 r20 c30..46 fg=Muted bg=Background
 r20 c46..47 bg=Background
-r20 c47..54 fg=Primary bg=Background bold
+r20 c47..54 fg=Primary|Accent bg=Background bold
 r20 c54..59 fg=Muted bg=Background
 r20 c59..60 bg=Background
-r20 c60..64 fg=Primary bg=Background bold
+r20 c60..64 fg=Primary|Accent bg=Background bold
 r20 c64..78 fg=Muted bg=Background
 r20 c78..80 bg=Background
 r21 c0..2 bg=Background
-r21 c2..7 fg=Primary bg=Background bold
+r21 c2..7 fg=Primary|Accent bg=Background bold
 r21 c7..13 fg=Muted bg=Background
 r21 c13..80 bg=Background
 r22 c0..1 bg=Background
@@ -132,9 +132,9 @@ r23 c0..80 bg=Background
 ---
 r0 c0..80 bg=Background
 r1 c0..1 bg=Background
-r1 c1..21 fg=Primary bg=Background bold
+r1 c1..21 fg=Primary|Accent bg=Background bold
 r1 c21..60 fg=Border bg=Background
-r1 c60..78 fg=Primary bg=Background underline
+r1 c60..78 fg=Primary|Accent bg=Background underline
 r1 c78..79 fg=Border bg=Background
 r1 c79..80 bg=Background
 r2 c0..80 bg=Background
@@ -148,7 +148,7 @@ r5 c0..2 bg=Background
 r5 c2..54 fg=Muted bg=Background
 r5 c54..80 bg=Background
 r6 c0..2 bg=Background
-r6 c2..3 fg=Primary bg=Selected
+r6 c2..3 fg=Primary|Accent bg=Selected
 r6 c3..4 bg=Selected
 r6 c4..53 fg=Foreground bg=Selected bold
 r6 c53..78 bg=Selected
@@ -174,7 +174,7 @@ r16 c0..4 bg=Background
 r16 c4..10 fg=Foreground bg=Background
 r16 c10..80 bg=Background
 r17 c0..2 bg=Background
-r17 c2..3 fg=Primary bg=Selected
+r17 c2..3 fg=Primary|Accent bg=Selected
 r17 c3..4 bg=Selected
 r17 c4..8 fg=Foreground bg=Selected bold
 r17 c8..78 bg=Selected
@@ -182,23 +182,23 @@ r17 c78..80 bg=Background
 r18 c0..80 bg=Background
 r19 c0..80 bg=Background
 r20 c0..2 bg=Background
-r20 c2..7 fg=Primary bg=Background bold
+r20 c2..7 fg=Primary|Accent bg=Background bold
 r20 c7..11 fg=Muted bg=Background
 r20 c11..12 bg=Background
-r20 c12..17 fg=Primary bg=Background bold
+r20 c12..17 fg=Primary|Accent bg=Background bold
 r20 c17..23 fg=Muted bg=Background
 r20 c23..24 bg=Background
-r20 c24..30 fg=Primary bg=Background bold
+r20 c24..30 fg=Primary|Accent bg=Background bold
 r20 c30..46 fg=Muted bg=Background
 r20 c46..47 bg=Background
-r20 c47..54 fg=Primary bg=Background bold
+r20 c47..54 fg=Primary|Accent bg=Background bold
 r20 c54..59 fg=Muted bg=Background
 r20 c59..60 bg=Background
-r20 c60..64 fg=Primary bg=Background bold
+r20 c60..64 fg=Primary|Accent bg=Background bold
 r20 c64..78 fg=Muted bg=Background
 r20 c78..80 bg=Background
 r21 c0..2 bg=Background
-r21 c2..7 fg=Primary bg=Background bold
+r21 c2..7 fg=Primary|Accent bg=Background bold
 r21 c7..13 fg=Muted bg=Background
 r21 c13..80 bg=Background
 r22 c0..1 bg=Background
@@ -232,14 +232,14 @@ r23 c0..80 bg=Background
  ──────────────────────────────────────────────────────────────────────────────
 
 ---
-r1 c1..21 fg=Primary bold
+r1 c1..21 fg=Primary|Accent bold
 r1 c21..60 fg=Border
-r1 c60..78 fg=Primary underline
+r1 c60..78 fg=Primary|Accent underline
 r1 c78..79 fg=Border
 r3 c2..20 fg=Muted
 r4 c2..22 fg=Foreground
 r5 c2..54 fg=Muted
-r6 c2..3 fg=Primary bg=Selected
+r6 c2..3 fg=Primary|Accent bg=Selected
 r6 c3..4 bg=Selected
 r6 c4..53 fg=Foreground bg=Selected bold
 r6 c53..78 bg=Selected
@@ -248,21 +248,21 @@ r8 c4..52 fg=Foreground
 r14 c2..13 fg=Muted
 r15 c4..7 fg=Foreground
 r16 c4..10 fg=Foreground
-r17 c2..3 fg=Primary bg=Selected
+r17 c2..3 fg=Primary|Accent bg=Selected
 r17 c3..4 bg=Selected
 r17 c4..8 fg=Foreground bg=Selected bold
 r17 c8..78 bg=Selected
-r20 c2..7 fg=Primary bold
+r20 c2..7 fg=Primary|Accent bold
 r20 c7..11 fg=Muted
-r20 c12..17 fg=Primary bold
+r20 c12..17 fg=Primary|Accent bold
 r20 c17..23 fg=Muted
-r20 c24..30 fg=Primary bold
+r20 c24..30 fg=Primary|Accent bold
 r20 c30..46 fg=Muted
-r20 c47..54 fg=Primary bold
+r20 c47..54 fg=Primary|Accent bold
 r20 c54..59 fg=Muted
-r20 c60..64 fg=Primary bold
+r20 c60..64 fg=Primary|Accent bold
 r20 c64..78 fg=Muted
-r21 c2..7 fg=Primary bold
+r21 c2..7 fg=Primary|Accent bold
 r21 c7..13 fg=Muted
 r22 c1..79 fg=Border
 
@@ -294,9 +294,9 @@ r22 c1..79 fg=Border
 ---
 r0 c0..80 bg=Background|DiffAddedTint
 r1 c0..1 bg=Background|DiffAddedTint
-r1 c1..21 fg=Primary bg=Background|DiffAddedTint bold
+r1 c1..21 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r1 c21..60 fg=Border bg=Background|DiffAddedTint
-r1 c60..78 fg=Primary bg=Background|DiffAddedTint underline
+r1 c60..78 fg=Primary|Accent bg=Background|DiffAddedTint underline
 r1 c78..79 fg=Border bg=Background|DiffAddedTint
 r1 c79..80 bg=Background|DiffAddedTint
 r2 c0..80 bg=Background|DiffAddedTint
@@ -310,7 +310,7 @@ r5 c0..2 bg=Background|DiffAddedTint
 r5 c2..54 fg=Muted bg=Background|DiffAddedTint
 r5 c54..80 bg=Background|DiffAddedTint
 r6 c0..2 bg=Background|DiffAddedTint
-r6 c2..3 fg=Primary bg=Selected
+r6 c2..3 fg=Primary|Accent bg=Selected
 r6 c3..4 bg=Selected
 r6 c4..53 fg=Foreground bg=Selected bold
 r6 c53..78 bg=Selected
@@ -336,7 +336,7 @@ r16 c0..4 bg=Background|DiffAddedTint
 r16 c4..10 fg=Foreground bg=Background|DiffAddedTint
 r16 c10..80 bg=Background|DiffAddedTint
 r17 c0..2 bg=Background|DiffAddedTint
-r17 c2..3 fg=Primary bg=Selected
+r17 c2..3 fg=Primary|Accent bg=Selected
 r17 c3..4 bg=Selected
 r17 c4..8 fg=Foreground bg=Selected bold
 r17 c8..78 bg=Selected
@@ -344,23 +344,23 @@ r17 c78..80 bg=Background|DiffAddedTint
 r18 c0..80 bg=Background|DiffAddedTint
 r19 c0..80 bg=Background|DiffAddedTint
 r20 c0..2 bg=Background|DiffAddedTint
-r20 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r20 c2..7 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r20 c7..11 fg=Muted bg=Background|DiffAddedTint
 r20 c11..12 bg=Background|DiffAddedTint
-r20 c12..17 fg=Primary bg=Background|DiffAddedTint bold
+r20 c12..17 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r20 c17..23 fg=Muted bg=Background|DiffAddedTint
 r20 c23..24 bg=Background|DiffAddedTint
-r20 c24..30 fg=Primary bg=Background|DiffAddedTint bold
+r20 c24..30 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r20 c30..46 fg=Muted bg=Background|DiffAddedTint
 r20 c46..47 bg=Background|DiffAddedTint
-r20 c47..54 fg=Primary bg=Background|DiffAddedTint bold
+r20 c47..54 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r20 c54..59 fg=Muted bg=Background|DiffAddedTint
 r20 c59..60 bg=Background|DiffAddedTint
-r20 c60..64 fg=Primary bg=Background|DiffAddedTint bold
+r20 c60..64 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r20 c64..78 fg=Muted bg=Background|DiffAddedTint
 r20 c78..80 bg=Background|DiffAddedTint
 r21 c0..2 bg=Background|DiffAddedTint
-r21 c2..7 fg=Primary bg=Background|DiffAddedTint bold
+r21 c2..7 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r21 c7..13 fg=Muted bg=Background|DiffAddedTint
 r21 c13..80 bg=Background|DiffAddedTint
 r22 c0..1 bg=Background|DiffAddedTint
@@ -394,14 +394,14 @@ r23 c0..80 bg=Background|DiffAddedTint
  ──────────────────────────────────────────────────────────────────────────────
 
 ---
-r1 c1..21 fg=Primary bold
+r1 c1..21 fg=Primary|Accent bold
 r1 c21..60 fg=Border
-r1 c60..78 fg=Primary underline
+r1 c60..78 fg=Primary|Accent underline
 r1 c78..79 fg=Border
 r3 c2..20 fg=Muted|Hint|Dim
 r4 c2..22 fg=Foreground
 r5 c2..54 fg=Muted|Hint|Dim
-r6 c2..3 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c2..3 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r6 c3..4 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r6 c4..53 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r6 c53..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
@@ -410,21 +410,21 @@ r8 c4..52 fg=Foreground
 r14 c2..13 fg=Muted|Hint|Dim
 r15 c4..7 fg=Foreground
 r16 c4..10 fg=Foreground
-r17 c2..3 fg=Primary bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c2..3 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r17 c3..4 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r17 c4..8 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r17 c8..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r20 c2..7 fg=Primary bold
+r20 c2..7 fg=Primary|Accent bold
 r20 c7..11 fg=Muted|Hint|Dim
-r20 c12..17 fg=Primary bold
+r20 c12..17 fg=Primary|Accent bold
 r20 c17..23 fg=Muted|Hint|Dim
-r20 c24..30 fg=Primary bold
+r20 c24..30 fg=Primary|Accent bold
 r20 c30..46 fg=Muted|Hint|Dim
-r20 c47..54 fg=Primary bold
+r20 c47..54 fg=Primary|Accent bold
 r20 c54..59 fg=Muted|Hint|Dim
-r20 c60..64 fg=Primary bold
+r20 c60..64 fg=Primary|Accent bold
 r20 c64..78 fg=Muted|Hint|Dim
-r21 c2..7 fg=Primary bold
+r21 c2..7 fg=Primary|Accent bold
 r21 c7..13 fg=Muted|Hint|Dim
 r22 c1..79 fg=Border
 
@@ -454,28 +454,28 @@ r22 c1..79 fg=Border
  ──────────────────────────────────────────────────────────────────────────────
 
 ---
-r1 c1..21 fg=Primary bold dim
+r1 c1..21 fg=Accent bold dim
 r1 c21..60 dim
-r1 c60..78 fg=Primary dim underline
+r1 c60..78 fg=Accent dim underline
 r1 c78..79 dim
 r3 c2..20 dim
 r5 c2..54 dim
-r6 c2..3 fg=Primary
+r6 c2..3 fg=Accent
 r6 c4..53 bold
 r14 c2..13 dim
-r17 c2..3 fg=Primary
+r17 c2..3 fg=Accent
 r17 c4..8 bold
-r20 c2..7 fg=Primary bold
+r20 c2..7 fg=Accent bold
 r20 c7..11 dim
-r20 c12..17 fg=Primary bold
+r20 c12..17 fg=Accent bold
 r20 c17..23 dim
-r20 c24..30 fg=Primary bold
+r20 c24..30 fg=Accent bold
 r20 c30..46 dim
-r20 c47..54 fg=Primary bold
+r20 c47..54 fg=Accent bold
 r20 c54..59 dim
-r20 c60..64 fg=Primary bold
+r20 c60..64 fg=Accent bold
 r20 c64..78 dim
-r21 c2..7 fg=Primary bold
+r21 c2..7 fg=Accent bold
 r21 c7..13 dim
 r22 c1..79 dim
 
@@ -505,28 +505,28 @@ r22 c1..79 dim
  ──────────────────────────────────────────────────────────────────────────────
 
 ---
-r1 c1..21 fg=Primary bold dim
+r1 c1..21 fg=Accent bold dim
 r1 c21..60 dim
-r1 c60..78 fg=Primary dim underline
+r1 c60..78 fg=Accent dim underline
 r1 c78..79 dim
 r3 c2..20 dim
 r5 c2..54 dim
-r6 c2..3 fg=Primary
+r6 c2..3 fg=Accent
 r6 c4..53 bold
 r14 c2..13 dim
-r17 c2..3 fg=Primary
+r17 c2..3 fg=Accent
 r17 c4..8 bold
-r20 c2..7 fg=Primary bold
+r20 c2..7 fg=Accent bold
 r20 c7..11 dim
-r20 c12..17 fg=Primary bold
+r20 c12..17 fg=Accent bold
 r20 c17..23 dim
-r20 c24..30 fg=Primary bold
+r20 c24..30 fg=Accent bold
 r20 c30..46 dim
-r20 c47..54 fg=Primary bold
+r20 c47..54 fg=Accent bold
 r20 c54..59 dim
-r20 c60..64 fg=Primary bold
+r20 c60..64 fg=Accent bold
 r20 c64..78 dim
-r21 c2..7 fg=Primary bold
+r21 c2..7 fg=Accent bold
 r21 c7..13 dim
 r22 c1..79 dim
 

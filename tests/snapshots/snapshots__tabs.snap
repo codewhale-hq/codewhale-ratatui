@@ -12,15 +12,15 @@ expression: dump(&entry)
  General [Appearance] Agents 3
 ---
 r0 c0..21 fg=Muted bg=Background
-r0 c21..22 fg=Primary bg=Selected
+r0 c21..22 fg=Accent bg=Selected
 r0 c22..28 fg=Foreground bg=Selected bold
 r0 c28..29 bg=Selected
 r0 c29..30 fg=Muted bg=Selected
-r0 c30..31 fg=Primary bg=Selected
+r0 c30..31 fg=Accent bg=Selected
 r0 c31..53 fg=Muted bg=Background
 r0 c53..56 bg=Background
 r1 c0..22 bg=Background
-r1 c22..30 fg=Primary bg=Background
+r1 c22..30 fg=Accent bg=Background
 r1 c30..56 bg=Background
 r2 c0..56 bg=Background
 r3 c0..9 fg=Muted bg=Background
@@ -52,15 +52,15 @@ r6 c31..56 bg=Background
  General [Appearance] Agents 3
 ---
 r0 c0..21 fg=Muted bg=Background
-r0 c21..22 fg=Primary bg=Selected
+r0 c21..22 fg=Accent bg=Selected
 r0 c22..28 fg=Foreground bg=Selected bold
 r0 c28..29 bg=Selected
 r0 c29..30 fg=Muted bg=Selected
-r0 c30..31 fg=Primary bg=Selected
+r0 c30..31 fg=Accent bg=Selected
 r0 c31..53 fg=Muted bg=Background
 r0 c53..56 bg=Background
 r1 c0..22 bg=Background
-r1 c22..30 fg=Primary bg=Background
+r1 c22..30 fg=Accent bg=Background
 r1 c30..56 bg=Background
 r2 c0..56 bg=Background
 r3 c0..9 fg=Muted bg=Background
@@ -92,15 +92,15 @@ r6 c31..56 bg=Background
  General [Appearance] Agents 3
 ---
 r0 c0..21 fg=Muted bg=Background
-r0 c21..22 fg=Primary bg=Selected
+r0 c21..22 fg=Accent bg=Selected
 r0 c22..28 fg=Foreground bg=Selected bold
 r0 c28..29 bg=Selected
 r0 c29..30 fg=Muted bg=Selected
-r0 c30..31 fg=Primary bg=Selected
+r0 c30..31 fg=Accent bg=Selected
 r0 c31..53 fg=Muted bg=Background
 r0 c53..56 bg=Background
 r1 c0..22 bg=Background
-r1 c22..30 fg=Primary bg=Background
+r1 c22..30 fg=Accent bg=Background
 r1 c30..56 bg=Background
 r2 c0..56 bg=Background
 r3 c0..9 fg=Muted bg=Background
@@ -132,15 +132,15 @@ r6 c31..56 bg=Background
  General [Appearance] Agents 3
 ---
 r0 c0..21 fg=Muted bg=Background
-r0 c21..22 fg=Primary bg=Selected
+r0 c21..22 fg=Accent bg=Selected
 r0 c22..28 fg=Foreground bg=Selected bold
 r0 c28..29 bg=Selected
 r0 c29..30 fg=Muted bg=Selected
-r0 c30..31 fg=Primary bg=Selected
+r0 c30..31 fg=Accent bg=Selected
 r0 c31..53 fg=Muted bg=Background
 r0 c53..56 bg=Background
 r1 c0..22 bg=Background
-r1 c22..30 fg=Primary bg=Background
+r1 c22..30 fg=Accent bg=Background
 r1 c30..56 bg=Background
 r2 c0..56 bg=Background
 r3 c0..9 fg=Muted bg=Background
@@ -172,15 +172,15 @@ r6 c31..56 bg=Background
  General [Appearance] Agents 3
 ---
 r0 c0..21 fg=Muted bg=Background|Surface
-r0 c21..22 fg=Primary bg=Selected
+r0 c21..22 fg=Accent bg=Selected
 r0 c22..28 fg=Foreground bg=Selected bold
 r0 c28..29 bg=Selected
 r0 c29..30 fg=Muted bg=Selected
-r0 c30..31 fg=Primary bg=Selected
+r0 c30..31 fg=Accent bg=Selected
 r0 c31..53 fg=Muted bg=Background|Surface
 r0 c53..56 bg=Background|Surface
 r1 c0..22 bg=Background|Surface
-r1 c22..30 fg=Primary bg=Background|Surface
+r1 c22..30 fg=Accent bg=Background|Surface
 r1 c30..56 bg=Background|Surface
 r2 c0..56 bg=Background|Surface
 r3 c0..9 fg=Muted bg=Background|Surface
@@ -212,12 +212,12 @@ r6 c31..56 bg=Background|Surface
  General [Appearance] Agents 3
 ---
 r0 c0..21 dim
-r0 c21..22 fg=Primary
+r0 c21..22 fg=Accent
 r0 c22..28 bold
 r0 c29..30 dim
-r0 c30..31 fg=Primary
+r0 c30..31 fg=Accent
 r0 c31..53 dim
-r1 c22..30 fg=Primary
+r1 c22..30 fg=Accent
 r3 c0..9 dim
 r3 c10..17 bold
 r3 c18..28 dim
@@ -236,12 +236,12 @@ r6 c29..31 dim
  General [Appearance] Agents 3
 ---
 r0 c0..21 dim
-r0 c21..22 fg=Primary
+r0 c21..22 fg=Accent
 r0 c22..28 bold
 r0 c29..30 dim
-r0 c30..31 fg=Primary
+r0 c30..31 fg=Accent
 r0 c31..53 dim
-r1 c22..30 fg=Primary
+r1 c22..30 fg=Accent
 r3 c0..9 dim
 r3 c10..17 bold
 r3 c18..28 dim

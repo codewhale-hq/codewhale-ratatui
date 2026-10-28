@@ -8,7 +8,7 @@ expression: dump(&entry)
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary bg=Background
+r0 c0..8 fg=Accent bg=Background
 r0 c8..40 bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
@@ -24,7 +24,7 @@ r2 c13..16 bg=Background
 r2 c16..24 fg=Foreground bg=Background
 r2 c24..40 bg=Background
 r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Primary bg=Background
+r3 c9..31 fg=Accent bg=Background
 r3 c31..40 bg=Background
 
 == dark-graphite
@@ -33,7 +33,7 @@ r3 c31..40 bg=Background
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary bg=Background
+r0 c0..8 fg=Accent bg=Background
 r0 c8..40 bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
@@ -49,7 +49,7 @@ r2 c13..16 bg=Background
 r2 c16..24 fg=Foreground bg=Background
 r2 c24..40 bg=Background
 r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Primary bg=Background
+r3 c9..31 fg=Accent bg=Background
 r3 c31..40 bg=Background
 
 == light-truecolor
@@ -58,7 +58,7 @@ r3 c31..40 bg=Background
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary bg=Background
+r0 c0..8 fg=Accent bg=Background
 r0 c8..40 bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
@@ -74,7 +74,7 @@ r2 c13..16 bg=Background
 r2 c16..24 fg=Foreground bg=Background
 r2 c24..40 bg=Background
 r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Primary bg=Background
+r3 c9..31 fg=Accent bg=Background
 r3 c31..40 bg=Background
 
 == dark-256
@@ -83,7 +83,7 @@ r3 c31..40 bg=Background
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary bg=Background
+r0 c0..8 fg=Accent bg=Background
 r0 c8..40 bg=Background
 r1 c0..1 fg=Live bg=Background
 r1 c1..2 bg=Background
@@ -99,7 +99,7 @@ r2 c13..16 bg=Background
 r2 c16..24 fg=Foreground bg=Background
 r2 c24..40 bg=Background
 r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Primary bg=Background
+r3 c9..31 fg=Accent bg=Background
 r3 c31..40 bg=Background
 
 == light-256
@@ -108,7 +108,7 @@ r3 c31..40 bg=Background
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary bg=Background|Surface
+r0 c0..8 fg=Accent bg=Background|Surface
 r0 c8..40 bg=Background|Surface
 r1 c0..1 fg=Live bg=Background|Surface
 r1 c1..2 bg=Background|Surface
@@ -124,7 +124,7 @@ r2 c13..16 bg=Background|Surface
 r2 c16..24 fg=Foreground bg=Background|Surface
 r2 c24..40 bg=Background|Surface
 r3 c0..9 fg=Muted bg=Background|Surface
-r3 c9..31 fg=Primary bg=Background|Surface
+r3 c9..31 fg=Accent bg=Background|Surface
 r3 c31..40 bg=Background|Surface
 
 == ansi-16
@@ -133,14 +133,14 @@ r3 c31..40 bg=Background|Surface
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary
+r0 c0..8 fg=Accent
 r1 c0..1 fg=Live
 r1 c2..10 fg=Live
 r1 c21..30 dim
 r2 c0..1 fg=Attention
 r2 c2..13 fg=Attention
 r3 c0..9 dim
-r3 c9..31 fg=Primary
+r3 c9..31 fg=Accent
 
 == unknown-ground
 1 queued
@@ -148,14 +148,14 @@ r3 c9..31 fg=Primary
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Primary
+r0 c0..8 fg=Accent
 r1 c0..1 fg=Live
 r1 c2..10 fg=Live
 r1 c21..30 dim
 r2 c0..1 fg=Attention
 r2 c2..13 fg=Attention
 r3 c0..9 dim
-r3 c9..31 fg=Primary
+r3 c9..31 fg=Accent
 
 == no-color
 1 queued

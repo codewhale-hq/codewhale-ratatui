@@ -10,19 +10,19 @@ expression: dump(&entry)
 
 
 ---
-r0 c0..2 fg=Primary bg=Selected
+r0 c0..2 fg=Accent bg=Selected
 r0 c2..7 fg=Foreground bg=Selected bold
 r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..8 fg=Foreground bg=Background
 r1 c8..10 bg=Background
 r1 c10..17 fg=Foreground bg=Background
 r1 c17..47 fg=Muted bg=Background
 r1 c47..80 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..16 fg=Foreground bg=Background
 r2 c16..18 bg=Background
 r2 c18..61 fg=Muted bg=Background
@@ -39,19 +39,19 @@ r5 c0..80 bg=Background
 
 
 ---
-r0 c0..2 fg=Primary bg=Selected
+r0 c0..2 fg=Accent bg=Selected
 r0 c2..7 fg=Foreground bg=Selected bold
 r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..8 fg=Foreground bg=Background
 r1 c8..10 bg=Background
 r1 c10..17 fg=Foreground bg=Background
 r1 c17..47 fg=Muted bg=Background
 r1 c47..80 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..16 fg=Foreground bg=Background
 r2 c16..18 bg=Background
 r2 c18..61 fg=Muted bg=Background
@@ -68,19 +68,19 @@ r5 c0..80 bg=Background
 
 
 ---
-r0 c0..2 fg=Primary bg=Selected
+r0 c0..2 fg=Accent bg=Selected
 r0 c2..7 fg=Foreground bg=Selected bold
 r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..8 fg=Foreground bg=Background
 r1 c8..10 bg=Background
 r1 c10..17 fg=Foreground bg=Background
 r1 c17..47 fg=Muted bg=Background
 r1 c47..80 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..16 fg=Foreground bg=Background
 r2 c16..18 bg=Background
 r2 c18..61 fg=Muted bg=Background
@@ -97,19 +97,19 @@ r5 c0..80 bg=Background
 
 
 ---
-r0 c0..2 fg=Primary bg=Selected
+r0 c0..2 fg=Accent bg=Selected
 r0 c2..7 fg=Foreground bg=Selected bold
 r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Primary bg=Background
+r1 c0..2 fg=Accent bg=Background
 r1 c2..8 fg=Foreground bg=Background
 r1 c8..10 bg=Background
 r1 c10..17 fg=Foreground bg=Background
 r1 c17..47 fg=Muted bg=Background
 r1 c47..80 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..16 fg=Foreground bg=Background
 r2 c16..18 bg=Background
 r2 c18..61 fg=Muted bg=Background
@@ -126,19 +126,19 @@ r5 c0..80 bg=Background
 
 
 ---
-r0 c0..2 fg=Primary bg=Selected
+r0 c0..2 fg=Accent bg=Selected
 r0 c2..7 fg=Foreground bg=Selected bold
 r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Primary bg=Background|Surface
+r1 c0..2 fg=Accent bg=Background|Surface
 r1 c2..8 fg=Foreground bg=Background|Surface
 r1 c8..10 bg=Background|Surface
 r1 c10..17 fg=Foreground bg=Background|Surface
 r1 c17..47 fg=Muted bg=Background|Surface
 r1 c47..80 bg=Background|Surface
-r2 c0..2 fg=Primary bg=Background|Surface
+r2 c0..2 fg=Accent bg=Background|Surface
 r2 c2..16 fg=Foreground bg=Background|Surface
 r2 c16..18 bg=Background|Surface
 r2 c18..61 fg=Muted bg=Background|Surface
@@ -155,12 +155,12 @@ r5 c0..80 bg=Background|Surface
 
 
 ---
-r0 c0..2 fg=Primary
+r0 c0..2 fg=Accent
 r0 c2..7 bold
 r0 c18..78 dim
-r1 c0..2 fg=Primary
+r1 c0..2 fg=Accent
 r1 c17..47 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c18..61 dim
 
 == unknown-ground
@@ -171,12 +171,12 @@ r2 c18..61 dim
 
 
 ---
-r0 c0..2 fg=Primary
+r0 c0..2 fg=Accent
 r0 c2..7 bold
 r0 c18..78 dim
-r1 c0..2 fg=Primary
+r1 c0..2 fg=Accent
 r1 c17..47 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c18..61 dim
 
 == no-color

@@ -9,7 +9,7 @@ expression: dump(&entry)
 ---
 r0 c0..70 bg=Background
 r1 c0..70 bg=Background
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == dark-graphite
 
@@ -18,7 +18,7 @@ r2 c0..35 fg=Primary
 ---
 r0 c0..70 bg=Background
 r1 c0..70 bg=Background
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == light-truecolor
 
@@ -27,7 +27,7 @@ r2 c0..35 fg=Primary
 ---
 r0 c0..70 bg=Background
 r1 c0..70 bg=Background
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == dark-256
 
@@ -36,7 +36,7 @@ r2 c0..35 fg=Primary
 ---
 r0 c0..70 bg=Background
 r1 c0..70 bg=Background
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == light-256
 
@@ -45,21 +45,21 @@ r2 c0..35 fg=Primary
 ---
 r0 c0..70 bg=Background|Surface
 r1 c0..70 bg=Background|Surface
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == ansi-16
 
 
  Run checks — command [Tab expand]
 ---
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == unknown-ground
 
 
  Run checks — command [Tab expand]
 ---
-r2 c0..35 fg=Primary
+r2 c0..35 fg=Accent
 
 == no-color
 

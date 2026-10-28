@@ -350,7 +350,7 @@ fn rich_composer_fixture(
     use ratatui::{style::Modifier, text::Line};
     let background = theme.tui_ground(codewhale_ratatui::TuiGround::Composer);
     let plain = theme.fg(codewhale_ratatui::Role::Foreground);
-    let primary = theme.fg(codewhale_ratatui::Role::Primary);
+    let primary = theme.fg(codewhale_ratatui::Role::Accent);
     NativeComposerFrame {
         text: "a\t\u{202e}中b".into(),
         cursor: 4,

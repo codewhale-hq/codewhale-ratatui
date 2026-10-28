@@ -7,12 +7,12 @@ expression: "testing::snapshot(3, demo(t0, MotionMode::Full, ms(100)))"
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c0..1 fg=#a0c6b2 bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..40 bg=Background
 r1 c0..22 bg=Background
-r1 c22..23 fg=Primary bg=Background
+r1 c22..23 fg=Accent bg=Background
 r1 c23..24 bg=Background
 r1 c24..32 fg=Foreground bg=Background
 r1 c32..40 bg=Background
@@ -24,12 +24,12 @@ r2 c16..40 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c0..1 fg=#a0c6b2 bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..80 bg=Background
 r1 c0..22 bg=Background
-r1 c22..23 fg=Primary bg=Background
+r1 c22..23 fg=Accent bg=Background
 r1 c23..24 bg=Background
 r1 c24..32 fg=Foreground bg=Background
 r1 c32..80 bg=Background
@@ -41,12 +41,12 @@ r2 c16..80 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a1c6b3 bg=Background
+r0 c0..1 fg=#a0c6b2 bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..120 bg=Background
 r1 c0..22 bg=Background
-r1 c22..23 fg=Primary bg=Background
+r1 c22..23 fg=Accent bg=Background
 r1 c23..24 bg=Background
 r1 c24..32 fg=Foreground bg=Background
 r1 c32..120 bg=Background

@@ -17,7 +17,7 @@ expression: dump(&entry)
  ──────────────────────────────────────────────────────────────────────────────
 ---
 r0 c0..1 bg=Background
-r0 c1..11 fg=Primary bg=Background bold
+r0 c1..11 fg=Primary|Accent bg=Background bold
 r0 c11..79 fg=Border bg=Background
 r0 c79..80 bg=Background
 r1 c0..2 bg=Background
@@ -36,10 +36,10 @@ r7 c0..80 bg=Background
 r8 c0..80 bg=Background
 r9 c0..80 bg=Background
 r10 c0..2 bg=Background
-r10 c2..5 fg=Primary bg=Background bold
+r10 c2..5 fg=Primary|Accent bg=Background bold
 r10 c5..11 fg=Muted bg=Background
 r10 c11..12 bg=Background
-r10 c12..17 fg=Primary bg=Background bold
+r10 c12..17 fg=Primary|Accent bg=Background bold
 r10 c17..22 fg=Muted bg=Background
 r10 c22..80 bg=Background
 r11 c0..1 bg=Background
@@ -61,7 +61,7 @@ r11 c79..80 bg=Background
  ──────────────────────────────────────────────────────────────────────────────
 ---
 r0 c0..1 bg=Background
-r0 c1..11 fg=Primary bg=Background bold
+r0 c1..11 fg=Primary|Accent bg=Background bold
 r0 c11..79 fg=Border bg=Background
 r0 c79..80 bg=Background
 r1 c0..2 bg=Background
@@ -80,10 +80,10 @@ r7 c0..80 bg=Background
 r8 c0..80 bg=Background
 r9 c0..80 bg=Background
 r10 c0..2 bg=Background
-r10 c2..5 fg=Primary bg=Background bold
+r10 c2..5 fg=Primary|Accent bg=Background bold
 r10 c5..11 fg=Muted bg=Background
 r10 c11..12 bg=Background
-r10 c12..17 fg=Primary bg=Background bold
+r10 c12..17 fg=Primary|Accent bg=Background bold
 r10 c17..22 fg=Muted bg=Background
 r10 c22..80 bg=Background
 r11 c0..1 bg=Background
@@ -104,14 +104,14 @@ r11 c79..80 bg=Background
    / search  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 ---
-r0 c1..11 fg=Primary bold
+r0 c1..11 fg=Primary|Accent bold
 r0 c11..79 fg=Border
 r1 c2..25 fg=Muted
 r2 c2..24 fg=Muted
 r3 c2..55 fg=Hint|Dim
-r10 c2..5 fg=Primary bold
+r10 c2..5 fg=Primary|Accent bold
 r10 c5..11 fg=Muted
-r10 c12..17 fg=Primary bold
+r10 c12..17 fg=Primary|Accent bold
 r10 c17..22 fg=Muted
 r11 c1..79 fg=Border
 
@@ -130,7 +130,7 @@ r11 c1..79 fg=Border
  ──────────────────────────────────────────────────────────────────────────────
 ---
 r0 c0..1 bg=Background|DiffAddedTint
-r0 c1..11 fg=Primary bg=Background|DiffAddedTint bold
+r0 c1..11 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r0 c11..79 fg=Border bg=Background|DiffAddedTint
 r0 c79..80 bg=Background|DiffAddedTint
 r1 c0..2 bg=Background|DiffAddedTint
@@ -149,10 +149,10 @@ r7 c0..80 bg=Background|DiffAddedTint
 r8 c0..80 bg=Background|DiffAddedTint
 r9 c0..80 bg=Background|DiffAddedTint
 r10 c0..2 bg=Background|DiffAddedTint
-r10 c2..5 fg=Primary bg=Background|DiffAddedTint bold
+r10 c2..5 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r10 c5..11 fg=Muted bg=Background|DiffAddedTint
 r10 c11..12 bg=Background|DiffAddedTint
-r10 c12..17 fg=Primary bg=Background|DiffAddedTint bold
+r10 c12..17 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r10 c17..22 fg=Muted bg=Background|DiffAddedTint
 r10 c22..80 bg=Background|DiffAddedTint
 r11 c0..1 bg=Background|DiffAddedTint
@@ -173,14 +173,14 @@ r11 c79..80 bg=Background|DiffAddedTint
    / search  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 ---
-r0 c1..11 fg=Primary bold
+r0 c1..11 fg=Primary|Accent bold
 r0 c11..79 fg=Border
 r1 c2..25 fg=Muted|Hint|Dim
 r2 c2..24 fg=Muted|Hint|Dim
 r3 c2..55 fg=Muted|Hint|Dim
-r10 c2..5 fg=Primary bold
+r10 c2..5 fg=Primary|Accent bold
 r10 c5..11 fg=Muted|Hint|Dim
-r10 c12..17 fg=Primary bold
+r10 c12..17 fg=Primary|Accent bold
 r10 c17..22 fg=Muted|Hint|Dim
 r11 c1..79 fg=Border
 
@@ -198,14 +198,14 @@ r11 c1..79 fg=Border
    / search  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 ---
-r0 c1..11 fg=Primary bold dim
+r0 c1..11 fg=Accent bold dim
 r0 c11..79 dim
 r1 c2..25 dim
 r2 c2..24 dim
 r3 c2..55 dim
-r10 c2..5 fg=Primary bold
+r10 c2..5 fg=Accent bold
 r10 c5..11 dim
-r10 c12..17 fg=Primary bold
+r10 c12..17 fg=Accent bold
 r10 c17..22 dim
 r11 c1..79 dim
 
@@ -223,14 +223,14 @@ r11 c1..79 dim
    / search  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 ---
-r0 c1..11 fg=Primary bold dim
+r0 c1..11 fg=Accent bold dim
 r0 c11..79 dim
 r1 c2..25 dim
 r2 c2..24 dim
 r3 c2..55 dim
-r10 c2..5 fg=Primary bold
+r10 c2..5 fg=Accent bold
 r10 c5..11 dim
-r10 c12..17 fg=Primary bold
+r10 c12..17 fg=Accent bold
 r10 c17..22 dim
 r11 c1..79 dim
 

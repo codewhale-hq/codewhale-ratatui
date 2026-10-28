@@ -33,12 +33,12 @@ expression: dump(&entry)
  ✓ Preserve session selection          ┃
 ---
 r0 c0..40 fg=Foreground bg=#0e243c
-r1 c0..1 fg=Primary bg=#0d243b bold
+r1 c0..1 fg=Primary|Accent bg=#0d243b bold
 r1 c1..40 fg=Foreground bg=#0d243b
 r2 c0..2 fg=Hint|Dim bg=#0c2339
 r2 c2..40 fg=Foreground bg=#0c2339
 r3 c0..40 fg=Foreground bg=#0c2238
-r4 c0..1 fg=Primary bg=#0c2137 bold
+r4 c0..1 fg=Primary|Accent bg=#0c2137 bold
 r4 c1..40 fg=Foreground bg=#0c2137
 r5 c0..2 fg=Hint|Dim bg=#0b2035
 r5 c2..40 fg=Foreground bg=#0b2035
@@ -56,16 +56,16 @@ r13 c0..40 fg=Foreground bg=#08192a
 r14 c0..40 fg=Foreground bg=#081929
 r15 c0..40 fg=Foreground bg=#081728
 r16 c0..40 fg=Foreground bg=#081726
-r17 c0..40 fg=Primary bg=#081624
-r18 c0..1 fg=Primary bg=#061524
+r17 c0..40 fg=Primary|Accent bg=#081624
+r18 c0..1 fg=Primary|Accent bg=#061524
 r18 c1..39 fg=Foreground bg=#061524
-r18 c39..40 fg=Primary bg=#061524
-r19 c0..2 fg=Primary bg=#061522
+r18 c39..40 fg=Primary|Accent bg=#061524
+r19 c0..2 fg=Primary|Accent bg=#061522
 r19 c2..35 fg=Foreground bg=#061522
-r19 c35..38 fg=Primary bg=#061522 bold
+r19 c35..38 fg=Primary|Accent bg=#061522 bold
 r19 c38..39 fg=Foreground bg=#061522
-r19 c39..40 fg=Primary bg=#061522
-r20 c0..40 fg=Primary bg=Sidebar
+r19 c39..40 fg=Primary|Accent bg=#061522
+r20 c0..40 fg=Primary|Accent bg=Sidebar
 r21 c0..1 fg=Foreground bg=Sidebar
 r21 c1..6 fg=#e09948 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
@@ -133,12 +133,12 @@ r27 c39..40 fg=Live bg=Sidebar
  ✓ Preserve session selection          ┃
 ---
 r0 c0..40 fg=Foreground bg=#0e243c
-r1 c0..1 fg=Primary bg=#0d243b bold
+r1 c0..1 fg=Primary|Accent bg=#0d243b bold
 r1 c1..40 fg=Foreground bg=#0d243b
 r2 c0..2 fg=Hint|Dim bg=#0c2339
 r2 c2..40 fg=Foreground bg=#0c2339
 r3 c0..40 fg=Foreground bg=#0c2238
-r4 c0..1 fg=Primary bg=#0c2137 bold
+r4 c0..1 fg=Primary|Accent bg=#0c2137 bold
 r4 c1..40 fg=Foreground bg=#0c2137
 r5 c0..2 fg=Hint|Dim bg=#0b2035
 r5 c2..40 fg=Foreground bg=#0b2035
@@ -156,16 +156,16 @@ r13 c0..40 fg=Foreground bg=#08192a
 r14 c0..40 fg=Foreground bg=#081929
 r15 c0..40 fg=Foreground bg=#081728
 r16 c0..40 fg=Foreground bg=#081726
-r17 c0..40 fg=Primary bg=#081624
-r18 c0..1 fg=Primary bg=#061524
+r17 c0..40 fg=Primary|Accent bg=#081624
+r18 c0..1 fg=Primary|Accent bg=#061524
 r18 c1..39 fg=Foreground bg=#061524
-r18 c39..40 fg=Primary bg=#061524
-r19 c0..2 fg=Primary bg=#061522
+r18 c39..40 fg=Primary|Accent bg=#061524
+r19 c0..2 fg=Primary|Accent bg=#061522
 r19 c2..35 fg=Foreground bg=#061522
-r19 c35..38 fg=Primary bg=#061522 bold
+r19 c35..38 fg=Primary|Accent bg=#061522 bold
 r19 c38..39 fg=Foreground bg=#061522
-r19 c39..40 fg=Primary bg=#061522
-r20 c0..40 fg=Primary bg=Sidebar
+r19 c39..40 fg=Primary|Accent bg=#061522
+r20 c0..40 fg=Primary|Accent bg=Sidebar
 r21 c0..1 fg=Foreground bg=Sidebar
 r21 c1..6 fg=#e09948 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
@@ -233,12 +233,12 @@ r27 c39..40 fg=Live bg=Sidebar
  ✓ Preserve session selection          ┃
 ---
 r0 c0..40 fg=Foreground
-r1 c0..1 fg=Primary bold
+r1 c0..1 fg=Primary|Accent bold
 r1 c1..40 fg=Foreground
 r2 c0..2 fg=Hint|Dim
 r2 c2..40 fg=Foreground
 r3 c0..40 fg=Foreground
-r4 c0..1 fg=Primary bold
+r4 c0..1 fg=Primary|Accent bold
 r4 c1..40 fg=Foreground
 r5 c0..2 fg=Hint|Dim
 r5 c2..40 fg=Foreground
@@ -256,16 +256,16 @@ r13 c0..40 fg=Foreground
 r14 c0..40 fg=Foreground
 r15 c0..40 fg=Foreground
 r16 c0..40 fg=Foreground
-r17 c0..40 fg=Primary
-r18 c0..1 fg=Primary
+r17 c0..40 fg=Primary|Accent
+r18 c0..1 fg=Primary|Accent
 r18 c1..39 fg=Foreground
-r18 c39..40 fg=Primary
-r19 c0..2 fg=Primary
+r18 c39..40 fg=Primary|Accent
+r19 c0..2 fg=Primary|Accent
 r19 c2..35 fg=Foreground
-r19 c35..38 fg=Primary bold
+r19 c35..38 fg=Primary|Accent bold
 r19 c38..39 fg=Foreground
-r19 c39..40 fg=Primary
-r20 c0..40 fg=Primary
+r19 c39..40 fg=Primary|Accent
+r20 c0..40 fg=Primary|Accent
 r21 c0..1 fg=Foreground
 r21 c1..6 fg=#92400e bold
 r21 c6..20 fg=Hint|Dim
@@ -333,12 +333,12 @@ r27 c39..40 fg=Live
  ✓ Preserve session selection          ┃
 ---
 r0 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r1 c0..1 fg=Primary bg=Background|DiffAddedTint bold
+r1 c0..1 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r1 c1..40 fg=Foreground bg=Background|DiffAddedTint
 r2 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
 r2 c2..40 fg=Foreground bg=Background|DiffAddedTint
 r3 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r4 c0..1 fg=Primary bg=Background|DiffAddedTint bold
+r4 c0..1 fg=Primary|Accent bg=Background|DiffAddedTint bold
 r4 c1..40 fg=Foreground bg=Background|DiffAddedTint
 r5 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
 r5 c2..40 fg=Foreground bg=Background|DiffAddedTint
@@ -356,16 +356,16 @@ r13 c0..40 fg=Foreground bg=Background|DiffAddedTint
 r14 c0..40 fg=Foreground bg=Background|DiffAddedTint
 r15 c0..40 fg=Foreground bg=Background|DiffAddedTint
 r16 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r17 c0..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r18 c0..1 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r17 c0..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r18 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r18 c1..39 fg=Foreground bg=Surface|Hover|DiffRemovedTint
-r18 c39..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r19 c0..2 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r18 c39..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r19 c0..2 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r19 c2..35 fg=Foreground bg=Surface|Hover|DiffRemovedTint
-r19 c35..38 fg=Primary bg=Surface|Hover|DiffRemovedTint bold
+r19 c35..38 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint bold
 r19 c38..39 fg=Foreground bg=Surface|Hover|DiffRemovedTint
-r19 c39..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
-r20 c0..40 fg=Primary bg=Surface|Hover|DiffRemovedTint
+r19 c39..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r20 c0..40 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 r21 c0..1 fg=Foreground bg=Sidebar
 r21 c1..6 fg=idx173 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
@@ -433,12 +433,12 @@ r27 c39..40 fg=Live bg=Sidebar
  ✓ Preserve session selection          ┃
 ---
 r0 c0..40 fg=Foreground
-r1 c0..1 fg=Primary bold
+r1 c0..1 fg=Primary|Accent bold
 r1 c1..40 fg=Foreground
 r2 c0..2 fg=Muted|Hint|Dim
 r2 c2..40 fg=Foreground
 r3 c0..40 fg=Foreground
-r4 c0..1 fg=Primary bold
+r4 c0..1 fg=Primary|Accent bold
 r4 c1..40 fg=Foreground
 r5 c0..2 fg=Muted|Hint|Dim
 r5 c2..40 fg=Foreground
@@ -456,20 +456,20 @@ r13 c0..40 fg=Foreground
 r14 c0..40 fg=Foreground
 r15 c0..40 fg=Foreground
 r16 c0..40 fg=Foreground
-r17 c0..40 fg=Primary
-r18 c0..1 fg=Primary
+r17 c0..40 fg=Primary|Accent
+r18 c0..1 fg=Primary|Accent
 r18 c1..39 fg=Foreground
-r18 c39..40 fg=Primary
-r19 c0..2 fg=Primary
+r18 c39..40 fg=Primary|Accent
+r19 c0..2 fg=Primary|Accent
 r19 c2..35 fg=Foreground
-r19 c35..38 fg=Primary bold
+r19 c35..38 fg=Primary|Accent bold
 r19 c38..39 fg=Foreground
-r19 c39..40 fg=Primary
-r20 c0..40 fg=Primary
+r19 c39..40 fg=Primary|Accent
+r20 c0..40 fg=Primary|Accent
 r21 c0..1 fg=Foreground
 r21 c1..6 fg=Attention bold
 r21 c6..20 fg=Muted|Hint|Dim
-r21 c20..24 fg=Primary
+r21 c20..24 fg=Primary|Accent
 r21 c24..37 fg=Muted|Hint|Dim
 r21 c37..40 fg=Foreground
 r22 c0..1 fg=Foreground
@@ -529,23 +529,23 @@ r27 c39..40 fg=Live
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r1 c0..1 fg=Primary bold
+r1 c0..1 fg=Accent bold
 r2 c0..2 dim
-r4 c0..1 fg=Primary bold
+r4 c0..1 fg=Accent bold
 r5 c0..2 dim
 r6 c0..2 dim
 r7 c0..2 dim
 r9 c0..1 fg=Live
-r17 c0..40 fg=Primary
-r18 c0..1 fg=Primary
-r18 c39..40 fg=Primary
-r19 c0..2 fg=Primary
-r19 c35..38 fg=Primary bold
-r19 c39..40 fg=Primary
-r20 c0..40 fg=Primary
+r17 c0..40 fg=Accent
+r18 c0..1 fg=Accent
+r18 c39..40 fg=Accent
+r19 c0..2 fg=Accent
+r19 c35..38 fg=Accent bold
+r19 c39..40 fg=Accent
+r20 c0..40 fg=Accent
 r21 c1..6 fg=Attention bold
 r21 c6..20 dim
-r21 c20..24 fg=Primary
+r21 c20..24 fg=Accent
 r21 c24..37 dim
 r22 c1..18 dim
 r22 c19..22 dim
@@ -590,23 +590,23 @@ r27 c39..40 fg=Live
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r1 c0..1 fg=Primary bold
+r1 c0..1 fg=Accent bold
 r2 c0..2 dim
-r4 c0..1 fg=Primary bold
+r4 c0..1 fg=Accent bold
 r5 c0..2 dim
 r6 c0..2 dim
 r7 c0..2 dim
 r9 c0..1 fg=Live
-r17 c0..40 fg=Primary
-r18 c0..1 fg=Primary
-r18 c39..40 fg=Primary
-r19 c0..2 fg=Primary
-r19 c35..38 fg=Primary bold
-r19 c39..40 fg=Primary
-r20 c0..40 fg=Primary
+r17 c0..40 fg=Accent
+r18 c0..1 fg=Accent
+r18 c39..40 fg=Accent
+r19 c0..2 fg=Accent
+r19 c35..38 fg=Accent bold
+r19 c39..40 fg=Accent
+r20 c0..40 fg=Accent
 r21 c1..6 fg=Attention bold
 r21 c6..20 dim
-r21 c20..24 fg=Primary
+r21 c20..24 fg=Accent
 r21 c24..37 dim
 r22 c1..18 dim
 r22 c19..22 dim

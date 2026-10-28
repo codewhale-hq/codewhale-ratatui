@@ -23,7 +23,7 @@ r1 c56..57 fg=#152e5e bg=Background
 r1 c57..58 fg=#132b59 bg=Background
 r1 c58..59 fg=#102753 bg=Background
 r1 c59..60 fg=#0d234d bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
 
@@ -48,7 +48,7 @@ r1 c56..57 fg=#2f3033 bg=Background
 r1 c57..58 fg=#2c2d2f bg=Background
 r1 c58..59 fg=#28292b bg=Background
 r1 c59..60 fg=#242527 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
 
@@ -73,7 +73,7 @@ r1 c56..57 fg=#e7e4df bg=Background
 r1 c57..58 fg=#ece9e5 bg=Background
 r1 c58..59 fg=#f1eeea bg=Background
 r1 c59..60 fg=#f5f3f0 bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
 
@@ -87,7 +87,7 @@ r0 c17..60 bg=Background
 r1 c0..33 fg=Border bg=Background
 r1 c33..54 fg=Muted bg=Background
 r1 c54..60 fg=Border bg=Background
-r2 c0..2 fg=Primary bg=Background
+r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
 
@@ -101,7 +101,7 @@ r0 c17..60 bg=Background|Surface
 r1 c0..33 fg=Border bg=Background|Surface
 r1 c33..54 fg=Muted bg=Background|Surface
 r1 c54..60 fg=Border bg=Background|Surface
-r2 c0..2 fg=Primary bg=Background|Surface
+r2 c0..2 fg=Accent bg=Background|Surface
 r2 c2..31 fg=Muted bg=Background|Surface
 r2 c31..60 bg=Background|Surface
 
@@ -111,7 +111,7 @@ Edited summary.md
 › Ask Codewhale to do something
 ---
 r1 c0..60 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c2..31 dim
 
 == unknown-ground
@@ -120,7 +120,7 @@ Edited summary.md
 › Ask Codewhale to do something
 ---
 r1 c0..60 dim
-r2 c0..2 fg=Primary
+r2 c0..2 fg=Accent
 r2 c2..31 dim
 
 == no-color

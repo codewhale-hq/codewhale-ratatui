@@ -8,7 +8,7 @@ Title
 ---
 r0 c0..5 fg=Foreground bg=Background bold
 r0 c5..40 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..21 fg=Foreground bg=Selected
 r1 c21..23 fg=Foreground bg=Selected reversed
@@ -20,7 +20,7 @@ Title
 ---
 r0 c0..5 fg=Foreground bg=Background bold
 r0 c5..80 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..21 fg=Foreground bg=Selected
 r1 c21..23 fg=Foreground bg=Selected reversed
@@ -32,7 +32,7 @@ Title
 ---
 r0 c0..5 fg=Foreground bg=Background bold
 r0 c5..120 bg=Background
-r1 c0..1 fg=Primary bg=Selected
+r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..21 fg=Foreground bg=Selected
 r1 c21..23 fg=Foreground bg=Selected reversed

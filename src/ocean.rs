@@ -159,7 +159,7 @@ impl OceanRamp {
             surface,
             background,
             mix_toward(background, darkest, if light { 0.45 } else { 0.65 }),
-            mix_toward(surface, theme.color(Role::Primary)?, 0.20),
+            mix_toward(surface, theme.color(Role::Accent)?, 0.20),
             attention,
             failure,
         ))
@@ -430,7 +430,7 @@ impl OceanColumn {
             Role::Selected,
             Role::DiffAddedTint,
             Role::DiffRemovedTint,
-            Role::Primary,
+            Role::Accent,
             Role::Live,
             Role::Attention,
             Role::Danger,

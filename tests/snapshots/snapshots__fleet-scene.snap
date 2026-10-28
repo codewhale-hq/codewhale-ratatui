@@ -43,7 +43,7 @@ expression: dump(&entry)
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..103 fg=Foreground bg=Background
@@ -61,9 +61,9 @@ r4 c2..110 fg=Border bg=Background
 r4 c110..112 fg=Foreground bg=Background
 r5 c0..112 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..112 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -142,7 +142,7 @@ r25 c2..3 fg=Live bg=Background
 r25 c3..25 fg=Foreground bg=Background
 r25 c25..32 fg=Muted bg=Background
 r25 c32..58 fg=Foreground bg=Background
-r25 c58..59 fg=Primary bg=Selected
+r25 c58..59 fg=Accent bg=Selected
 r25 c59..60 bg=Selected
 r25 c60..61 fg=Attention bg=Selected
 r25 c61..62 bg=Selected
@@ -158,7 +158,7 @@ r26 c33..37 fg=Foreground bg=Background bold
 r26 c37..38 fg=Foreground bg=Background
 r26 c38..45 fg=Foreground bg=Background bold
 r26 c45..58 fg=Foreground bg=Background
-r26 c58..59 fg=Primary bg=Selected
+r26 c58..59 fg=Accent bg=Selected
 r26 c59..60 bg=Selected
 r26 c60..79 fg=Foreground bg=Selected bold
 r26 c79..110 bg=Selected
@@ -166,21 +166,21 @@ r26 c110..112 fg=Foreground bg=Background
 r27 c0..4 fg=Foreground bg=Background
 r27 c4..47 fg=Hint bg=Background
 r27 c47..58 fg=Foreground bg=Background
-r27 c58..59 fg=Primary bg=Selected
+r27 c58..59 fg=Accent bg=Selected
 r27 c59..60 bg=Selected
 r27 c60..109 fg=Foreground bg=Selected
 r27 c109..110 bg=Selected
 r27 c110..112 fg=Foreground bg=Background
 r28 c0..58 fg=Foreground bg=Background
-r28 c58..59 fg=Primary bg=Selected
+r28 c58..59 fg=Accent bg=Selected
 r28 c59..60 bg=Selected
 r28 c60..71 fg=Foreground bg=Selected
 r28 c71..110 bg=Selected
 r28 c110..112 fg=Foreground bg=Background
 r29 c0..58 fg=Foreground bg=Background
-r29 c58..59 fg=Primary bg=Selected
+r29 c58..59 fg=Accent bg=Selected
 r29 c59..60 bg=Selected
-r29 c60..79 fg=Primary bg=Selected
+r29 c60..79 fg=Accent bg=Selected
 r29 c79..110 bg=Selected
 r29 c110..112 fg=Foreground bg=Background
 r30 c0..58 fg=Foreground bg=Background
@@ -273,7 +273,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..103 fg=Foreground bg=Background
@@ -291,9 +291,9 @@ r4 c2..110 fg=Border bg=Background
 r4 c110..112 fg=Foreground bg=Background
 r5 c0..112 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..112 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -372,7 +372,7 @@ r25 c2..3 fg=Live bg=Background
 r25 c3..25 fg=Foreground bg=Background
 r25 c25..32 fg=Muted bg=Background
 r25 c32..58 fg=Foreground bg=Background
-r25 c58..59 fg=Primary bg=Selected
+r25 c58..59 fg=Accent bg=Selected
 r25 c59..60 bg=Selected
 r25 c60..61 fg=Attention bg=Selected
 r25 c61..62 bg=Selected
@@ -388,7 +388,7 @@ r26 c33..37 fg=Foreground bg=Background bold
 r26 c37..38 fg=Foreground bg=Background
 r26 c38..45 fg=Foreground bg=Background bold
 r26 c45..58 fg=Foreground bg=Background
-r26 c58..59 fg=Primary bg=Selected
+r26 c58..59 fg=Accent bg=Selected
 r26 c59..60 bg=Selected
 r26 c60..79 fg=Foreground bg=Selected bold
 r26 c79..110 bg=Selected
@@ -396,21 +396,21 @@ r26 c110..112 fg=Foreground bg=Background
 r27 c0..4 fg=Foreground bg=Background
 r27 c4..47 fg=Hint bg=Background
 r27 c47..58 fg=Foreground bg=Background
-r27 c58..59 fg=Primary bg=Selected
+r27 c58..59 fg=Accent bg=Selected
 r27 c59..60 bg=Selected
 r27 c60..109 fg=Foreground bg=Selected
 r27 c109..110 bg=Selected
 r27 c110..112 fg=Foreground bg=Background
 r28 c0..58 fg=Foreground bg=Background
-r28 c58..59 fg=Primary bg=Selected
+r28 c58..59 fg=Accent bg=Selected
 r28 c59..60 bg=Selected
 r28 c60..71 fg=Foreground bg=Selected
 r28 c71..110 bg=Selected
 r28 c110..112 fg=Foreground bg=Background
 r29 c0..58 fg=Foreground bg=Background
-r29 c58..59 fg=Primary bg=Selected
+r29 c58..59 fg=Accent bg=Selected
 r29 c59..60 bg=Selected
-r29 c60..79 fg=Primary bg=Selected
+r29 c60..79 fg=Accent bg=Selected
 r29 c79..110 bg=Selected
 r29 c110..112 fg=Foreground bg=Background
 r30 c0..58 fg=Foreground bg=Background
@@ -503,7 +503,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..103 fg=Foreground bg=Background
@@ -521,9 +521,9 @@ r4 c2..110 fg=Border bg=Background
 r4 c110..112 fg=Foreground bg=Background
 r5 c0..112 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..112 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -602,7 +602,7 @@ r25 c2..3 fg=Live bg=Background
 r25 c3..25 fg=Foreground bg=Background
 r25 c25..32 fg=Muted bg=Background
 r25 c32..58 fg=Foreground bg=Background
-r25 c58..59 fg=Primary bg=Selected
+r25 c58..59 fg=Accent bg=Selected
 r25 c59..60 bg=Selected
 r25 c60..61 fg=Attention bg=Selected
 r25 c61..62 bg=Selected
@@ -618,7 +618,7 @@ r26 c33..37 fg=Foreground bg=Background bold
 r26 c37..38 fg=Foreground bg=Background
 r26 c38..45 fg=Foreground bg=Background bold
 r26 c45..58 fg=Foreground bg=Background
-r26 c58..59 fg=Primary bg=Selected
+r26 c58..59 fg=Accent bg=Selected
 r26 c59..60 bg=Selected
 r26 c60..79 fg=Foreground bg=Selected bold
 r26 c79..110 bg=Selected
@@ -626,21 +626,21 @@ r26 c110..112 fg=Foreground bg=Background
 r27 c0..4 fg=Foreground bg=Background
 r27 c4..47 fg=Hint bg=Background
 r27 c47..58 fg=Foreground bg=Background
-r27 c58..59 fg=Primary bg=Selected
+r27 c58..59 fg=Accent bg=Selected
 r27 c59..60 bg=Selected
 r27 c60..109 fg=Foreground bg=Selected
 r27 c109..110 bg=Selected
 r27 c110..112 fg=Foreground bg=Background
 r28 c0..58 fg=Foreground bg=Background
-r28 c58..59 fg=Primary bg=Selected
+r28 c58..59 fg=Accent bg=Selected
 r28 c59..60 bg=Selected
 r28 c60..71 fg=Foreground bg=Selected
 r28 c71..110 bg=Selected
 r28 c110..112 fg=Foreground bg=Background
 r29 c0..58 fg=Foreground bg=Background
-r29 c58..59 fg=Primary bg=Selected
+r29 c58..59 fg=Accent bg=Selected
 r29 c59..60 bg=Selected
-r29 c60..79 fg=Primary bg=Selected
+r29 c60..79 fg=Accent bg=Selected
 r29 c79..110 bg=Selected
 r29 c110..112 fg=Foreground bg=Background
 r30 c0..58 fg=Foreground bg=Background
@@ -733,7 +733,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
 r0 c0..2 fg=Foreground bg=Background
-r0 c2..11 fg=Primary bg=Background bold
+r0 c2..11 fg=Accent bg=Background bold
 r0 c11..16 fg=BorderStrong bg=Background
 r0 c16..52 fg=Muted bg=Background
 r0 c52..103 fg=Foreground bg=Background
@@ -751,9 +751,9 @@ r4 c2..110 fg=Border bg=Background
 r4 c110..112 fg=Foreground bg=Background
 r5 c0..112 fg=Foreground bg=Background
 r6 c0..2 fg=Foreground bg=Background
-r6 c2..3 fg=Primary bg=Background
+r6 c2..3 fg=Accent bg=Background
 r6 c3..4 fg=Foreground bg=Background
-r6 c4..7 fg=Primary bg=Background bold
+r6 c4..7 fg=Accent bg=Background bold
 r6 c7..112 fg=Foreground bg=Background
 r7 c0..2 fg=Foreground bg=Background
 r7 c2..4 fg=Border bg=Background
@@ -832,7 +832,7 @@ r25 c2..3 fg=Live bg=Background
 r25 c3..25 fg=Foreground bg=Background
 r25 c25..32 fg=Muted bg=Background
 r25 c32..58 fg=Foreground bg=Background
-r25 c58..59 fg=Primary bg=Selected
+r25 c58..59 fg=Accent bg=Selected
 r25 c59..60 bg=Selected
 r25 c60..61 fg=Attention bg=Selected
 r25 c61..62 bg=Selected
@@ -848,7 +848,7 @@ r26 c33..37 fg=Foreground bg=Background bold
 r26 c37..38 fg=Foreground bg=Background
 r26 c38..45 fg=Foreground bg=Background bold
 r26 c45..58 fg=Foreground bg=Background
-r26 c58..59 fg=Primary bg=Selected
+r26 c58..59 fg=Accent bg=Selected
 r26 c59..60 bg=Selected
 r26 c60..79 fg=Foreground bg=Selected bold
 r26 c79..110 bg=Selected
@@ -856,21 +856,21 @@ r26 c110..112 fg=Foreground bg=Background
 r27 c0..4 fg=Foreground bg=Background
 r27 c4..47 fg=Hint bg=Background
 r27 c47..58 fg=Foreground bg=Background
-r27 c58..59 fg=Primary bg=Selected
+r27 c58..59 fg=Accent bg=Selected
 r27 c59..60 bg=Selected
 r27 c60..109 fg=Foreground bg=Selected
 r27 c109..110 bg=Selected
 r27 c110..112 fg=Foreground bg=Background
 r28 c0..58 fg=Foreground bg=Background
-r28 c58..59 fg=Primary bg=Selected
+r28 c58..59 fg=Accent bg=Selected
 r28 c59..60 bg=Selected
 r28 c60..71 fg=Foreground bg=Selected
 r28 c71..110 bg=Selected
 r28 c110..112 fg=Foreground bg=Background
 r29 c0..58 fg=Foreground bg=Background
-r29 c58..59 fg=Primary bg=Selected
+r29 c58..59 fg=Accent bg=Selected
 r29 c59..60 bg=Selected
-r29 c60..79 fg=Primary bg=Selected
+r29 c60..79 fg=Accent bg=Selected
 r29 c79..110 bg=Selected
 r29 c110..112 fg=Foreground bg=Background
 r30 c0..58 fg=Foreground bg=Background
@@ -963,7 +963,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
 r0 c0..2 fg=Foreground bg=Background|Surface
-r0 c2..11 fg=Primary bg=Background|Surface bold
+r0 c2..11 fg=Accent bg=Background|Surface bold
 r0 c11..16 fg=BorderStrong bg=Background|Surface
 r0 c16..52 fg=Muted bg=Background|Surface
 r0 c52..103 fg=Foreground bg=Background|Surface
@@ -981,9 +981,9 @@ r4 c2..110 fg=Border bg=Background|Surface
 r4 c110..112 fg=Foreground bg=Background|Surface
 r5 c0..112 fg=Foreground bg=Background|Surface
 r6 c0..2 fg=Foreground bg=Background|Surface
-r6 c2..3 fg=Primary bg=Background|Surface
+r6 c2..3 fg=Accent bg=Background|Surface
 r6 c3..4 fg=Foreground bg=Background|Surface
-r6 c4..7 fg=Primary bg=Background|Surface bold
+r6 c4..7 fg=Accent bg=Background|Surface bold
 r6 c7..112 fg=Foreground bg=Background|Surface
 r7 c0..2 fg=Foreground bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
@@ -1062,7 +1062,7 @@ r25 c2..3 fg=Live bg=Background|Surface
 r25 c3..25 fg=Foreground bg=Background|Surface
 r25 c25..32 fg=Muted bg=Background|Surface
 r25 c32..58 fg=Foreground bg=Background|Surface
-r25 c58..59 fg=Primary bg=Selected
+r25 c58..59 fg=Accent bg=Selected
 r25 c59..60 bg=Selected
 r25 c60..61 fg=Attention bg=Selected
 r25 c61..62 bg=Selected
@@ -1078,7 +1078,7 @@ r26 c33..37 fg=Foreground bg=Background|Surface bold
 r26 c37..38 fg=Foreground bg=Background|Surface
 r26 c38..45 fg=Foreground bg=Background|Surface bold
 r26 c45..58 fg=Foreground bg=Background|Surface
-r26 c58..59 fg=Primary bg=Selected
+r26 c58..59 fg=Accent bg=Selected
 r26 c59..60 bg=Selected
 r26 c60..79 fg=Foreground bg=Selected bold
 r26 c79..110 bg=Selected
@@ -1086,21 +1086,21 @@ r26 c110..112 fg=Foreground bg=Background|Surface
 r27 c0..4 fg=Foreground bg=Background|Surface
 r27 c4..47 fg=Hint bg=Background|Surface
 r27 c47..58 fg=Foreground bg=Background|Surface
-r27 c58..59 fg=Primary bg=Selected
+r27 c58..59 fg=Accent bg=Selected
 r27 c59..60 bg=Selected
 r27 c60..109 fg=Foreground bg=Selected
 r27 c109..110 bg=Selected
 r27 c110..112 fg=Foreground bg=Background|Surface
 r28 c0..58 fg=Foreground bg=Background|Surface
-r28 c58..59 fg=Primary bg=Selected
+r28 c58..59 fg=Accent bg=Selected
 r28 c59..60 bg=Selected
 r28 c60..71 fg=Foreground bg=Selected
 r28 c71..110 bg=Selected
 r28 c110..112 fg=Foreground bg=Background|Surface
 r29 c0..58 fg=Foreground bg=Background|Surface
-r29 c58..59 fg=Primary bg=Selected
+r29 c58..59 fg=Accent bg=Selected
 r29 c59..60 bg=Selected
-r29 c60..79 fg=Primary bg=Selected
+r29 c60..79 fg=Accent bg=Selected
 r29 c79..110 bg=Selected
 r29 c110..112 fg=Foreground bg=Background|Surface
 r30 c0..58 fg=Foreground bg=Background|Surface
@@ -1192,15 +1192,15 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c103..110 bold
 r1 c0..112 dim
 r3 c2..47 bold
 r3 c103..110 dim
 r4 c2..110 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r7 c2..4 dim
 r10 c2..3 fg=Live
 r10 c48..55 dim
@@ -1229,19 +1229,19 @@ r24 c38..45 dim
 r24 c58..110 dim
 r25 c2..3 fg=Live
 r25 c25..32 dim
-r25 c58..59 fg=Primary
+r25 c58..59 fg=Accent
 r25 c60..61 fg=Attention
 r26 c4..24 bold
 r26 c25..32 dim
 r26 c33..37 bold
 r26 c38..45 bold
-r26 c58..59 fg=Primary
+r26 c58..59 fg=Accent
 r26 c60..79 bold
 r27 c4..47 dim
-r27 c58..59 fg=Primary
-r28 c58..59 fg=Primary
-r29 c58..59 fg=Primary
-r29 c60..79 fg=Primary
+r27 c58..59 fg=Accent
+r28 c58..59 fg=Accent
+r29 c58..59 fg=Accent
+r29 c60..79 fg=Accent
 r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold
@@ -1300,15 +1300,15 @@ r37 c2..92 dim
 
   Illustrative / settled work keeps its receipt / host controls order, selection and actions
 ---
-r0 c2..11 fg=Primary bold
+r0 c2..11 fg=Accent bold
 r0 c16..52 dim
 r0 c103..110 bold
 r1 c0..112 dim
 r3 c2..47 bold
 r3 c103..110 dim
 r4 c2..110 dim
-r6 c2..3 fg=Primary
-r6 c4..7 fg=Primary bold
+r6 c2..3 fg=Accent
+r6 c4..7 fg=Accent bold
 r7 c2..4 dim
 r10 c2..3 fg=Live
 r10 c48..55 dim
@@ -1337,19 +1337,19 @@ r24 c38..45 dim
 r24 c58..110 dim
 r25 c2..3 fg=Live
 r25 c25..32 dim
-r25 c58..59 fg=Primary
+r25 c58..59 fg=Accent
 r25 c60..61 fg=Attention
 r26 c4..24 bold
 r26 c25..32 dim
 r26 c33..37 bold
 r26 c38..45 bold
-r26 c58..59 fg=Primary
+r26 c58..59 fg=Accent
 r26 c60..79 bold
 r27 c4..47 dim
-r27 c58..59 fg=Primary
-r28 c58..59 fg=Primary
-r29 c58..59 fg=Primary
-r29 c60..79 fg=Primary
+r27 c58..59 fg=Accent
+r28 c58..59 fg=Accent
+r29 c58..59 fg=Accent
+r29 c60..79 fg=Accent
 r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold

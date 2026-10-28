@@ -25,7 +25,7 @@ r1 c2..16 fg=Foreground bg=Surface
 r1 c16..60 bg=Surface
 r2 c0..7 fg=Foreground bg=Background bold
 r2 c7..60 bg=Background
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
 r3 c2..3 fg=Hint bg=Selected reversed
 r3 c3..18 fg=Hint bg=Selected
@@ -78,7 +78,7 @@ r1 c2..16 fg=Foreground bg=Surface
 r1 c16..60 bg=Surface
 r2 c0..7 fg=Foreground bg=Background bold
 r2 c7..60 bg=Background
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
 r3 c2..3 fg=Hint bg=Selected reversed
 r3 c3..18 fg=Hint bg=Selected
@@ -131,7 +131,7 @@ r1 c2..16 fg=Foreground bg=Surface
 r1 c16..60 bg=Surface
 r2 c0..7 fg=Foreground bg=Background bold
 r2 c7..60 bg=Background
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
 r3 c2..3 fg=Hint bg=Selected reversed
 r3 c3..18 fg=Hint bg=Selected
@@ -184,7 +184,7 @@ r1 c2..16 fg=Foreground bg=Surface|Hover
 r1 c16..60 bg=Surface|Hover
 r2 c0..7 fg=Foreground bg=Background bold
 r2 c7..60 bg=Background
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
 r3 c2..3 fg=Hint bg=Selected reversed
 r3 c3..18 fg=Hint bg=Selected
@@ -237,7 +237,7 @@ r1 c2..16 fg=Foreground bg=Background|Surface
 r1 c16..60 bg=Background|Surface
 r2 c0..7 fg=Foreground bg=Background|Surface bold
 r2 c7..60 bg=Background|Surface
-r3 c0..1 fg=Primary bg=Selected
+r3 c0..1 fg=Accent bg=Selected
 r3 c1..2 bg=Selected
 r3 c2..3 fg=Hint bg=Selected reversed
 r3 c3..18 fg=Hint bg=Selected
@@ -284,7 +284,7 @@ Notify me
 
 ---
 r2 c0..7 bold
-r3 c0..1 fg=Primary
+r3 c0..1 fg=Accent
 r3 c2..3 dim reversed
 r3 c3..18 dim
 r4 c0..1 fg=Danger
@@ -311,7 +311,7 @@ Notify me
 
 ---
 r2 c0..7 bold
-r3 c0..1 fg=Primary
+r3 c0..1 fg=Accent
 r3 c2..3 dim reversed
 r3 c3..18 dim
 r4 c0..1 fg=Danger

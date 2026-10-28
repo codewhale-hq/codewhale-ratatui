@@ -19,63 +19,63 @@ expression: dump(&entry)
 ---
 r0 c0..80 bg=Background
 r1 c0..4 bg=Background
-r1 c4..76 fg=Primary bg=Surface
+r1 c4..76 fg=Accent bg=Surface
 r1 c76..80 bg=Background
 r2 c0..4 bg=Background
-r2 c4..5 fg=Primary bg=Surface
+r2 c4..5 fg=Accent bg=Surface
 r2 c5..75 bg=Surface
-r2 c75..76 fg=Primary bg=Surface
+r2 c75..76 fg=Accent bg=Surface
 r2 c76..80 bg=Background
 r3 c0..4 bg=Background
-r3 c4..5 fg=Primary bg=Surface
+r3 c4..5 fg=Accent bg=Surface
 r3 c5..6 bg=Surface
 r3 c6..10 fg=Foreground bg=Surface bold
 r3 c10..75 bg=Surface
-r3 c75..76 fg=Primary bg=Surface
+r3 c75..76 fg=Accent bg=Surface
 r3 c76..80 bg=Background
 r4 c0..4 bg=Background
-r4 c4..5 fg=Primary bg=Surface
+r4 c4..5 fg=Accent bg=Surface
 r4 c5..75 bg=Surface
-r4 c75..76 fg=Primary bg=Surface
+r4 c75..76 fg=Accent bg=Surface
 r4 c76..80 bg=Background
 r5 c0..4 bg=Background
-r5 c4..5 fg=Primary bg=Surface
+r5 c4..5 fg=Accent bg=Surface
 r5 c5..6 bg=Surface
-r5 c6..8 fg=Primary bg=Selected
+r5 c6..8 fg=Accent bg=Selected
 r5 c8..10 fg=Muted bg=Selected
 r5 c10..17 fg=Foreground bg=Selected bold
 r5 c17..72 fg=Muted bg=Selected
 r5 c72..74 bg=Selected
 r5 c74..75 bg=Surface
-r5 c75..76 fg=Primary bg=Surface
+r5 c75..76 fg=Accent bg=Surface
 r5 c76..80 bg=Background
 r6 c0..4 bg=Background
-r6 c4..5 fg=Primary bg=Surface
+r6 c4..5 fg=Accent bg=Surface
 r6 c5..6 bg=Surface
-r6 c6..8 fg=Primary bg=Surface
+r6 c6..8 fg=Accent bg=Surface
 r6 c8..10 fg=Muted bg=Surface
 r6 c10..17 fg=Foreground bg=Surface
 r6 c17..74 fg=Muted bg=Surface
 r6 c74..75 bg=Surface
-r6 c75..76 fg=Primary bg=Surface
+r6 c75..76 fg=Accent bg=Surface
 r6 c76..80 bg=Background
 r7 c0..4 bg=Background
-r7 c4..5 fg=Primary bg=Surface
+r7 c4..5 fg=Accent bg=Surface
 r7 c5..6 bg=Surface
-r7 c6..8 fg=Primary bg=Surface
+r7 c6..8 fg=Accent bg=Surface
 r7 c8..10 fg=Muted bg=Surface
 r7 c10..17 fg=Foreground bg=Surface
 r7 c17..74 fg=Muted bg=Surface
 r7 c74..75 bg=Surface
-r7 c75..76 fg=Primary bg=Surface
+r7 c75..76 fg=Accent bg=Surface
 r7 c76..80 bg=Background
 r8 c0..4 bg=Background
-r8 c4..5 fg=Primary bg=Surface
+r8 c4..5 fg=Accent bg=Surface
 r8 c5..75 bg=Surface
-r8 c75..76 fg=Primary bg=Surface
+r8 c75..76 fg=Accent bg=Surface
 r8 c76..80 bg=Background
 r9 c0..4 bg=Background
-r9 c4..5 fg=Primary bg=Surface
+r9 c4..5 fg=Accent bg=Surface
 r9 c5..6 bg=Surface
 r9 c6..8 fg=Foreground bg=Surface bold
 r9 c8..9 bg=Surface
@@ -89,15 +89,15 @@ r9 c31..34 fg=Foreground bg=Surface bold
 r9 c34..35 bg=Surface
 r9 c35..41 fg=Muted bg=Surface
 r9 c41..75 bg=Surface
-r9 c75..76 fg=Primary bg=Surface
+r9 c75..76 fg=Accent bg=Surface
 r9 c76..80 bg=Background
 r10 c0..4 bg=Background
-r10 c4..5 fg=Primary bg=Surface
+r10 c4..5 fg=Accent bg=Surface
 r10 c5..75 bg=Surface
-r10 c75..76 fg=Primary bg=Surface
+r10 c75..76 fg=Accent bg=Surface
 r10 c76..80 bg=Background
 r11 c0..4 bg=Background
-r11 c4..76 fg=Primary bg=Surface
+r11 c4..76 fg=Accent bg=Surface
 r11 c76..80 bg=Background
 r12 c0..80 bg=Background
 
@@ -118,63 +118,63 @@ r12 c0..80 bg=Background
 ---
 r0 c0..80 bg=Background
 r1 c0..4 bg=Background
-r1 c4..76 fg=Primary bg=Surface
+r1 c4..76 fg=Accent bg=Surface
 r1 c76..80 bg=Background
 r2 c0..4 bg=Background
-r2 c4..5 fg=Primary bg=Surface
+r2 c4..5 fg=Accent bg=Surface
 r2 c5..75 bg=Surface
-r2 c75..76 fg=Primary bg=Surface
+r2 c75..76 fg=Accent bg=Surface
 r2 c76..80 bg=Background
 r3 c0..4 bg=Background
-r3 c4..5 fg=Primary bg=Surface
+r3 c4..5 fg=Accent bg=Surface
 r3 c5..6 bg=Surface
 r3 c6..10 fg=Foreground bg=Surface bold
 r3 c10..75 bg=Surface
-r3 c75..76 fg=Primary bg=Surface
+r3 c75..76 fg=Accent bg=Surface
 r3 c76..80 bg=Background
 r4 c0..4 bg=Background
-r4 c4..5 fg=Primary bg=Surface
+r4 c4..5 fg=Accent bg=Surface
 r4 c5..75 bg=Surface
-r4 c75..76 fg=Primary bg=Surface
+r4 c75..76 fg=Accent bg=Surface
 r4 c76..80 bg=Background
 r5 c0..4 bg=Background
-r5 c4..5 fg=Primary bg=Surface
+r5 c4..5 fg=Accent bg=Surface
 r5 c5..6 bg=Surface
-r5 c6..8 fg=Primary bg=Selected
+r5 c6..8 fg=Accent bg=Selected
 r5 c8..10 fg=Muted bg=Selected
 r5 c10..17 fg=Foreground bg=Selected bold
 r5 c17..72 fg=Muted bg=Selected
 r5 c72..74 bg=Selected
 r5 c74..75 bg=Surface
-r5 c75..76 fg=Primary bg=Surface
+r5 c75..76 fg=Accent bg=Surface
 r5 c76..80 bg=Background
 r6 c0..4 bg=Background
-r6 c4..5 fg=Primary bg=Surface
+r6 c4..5 fg=Accent bg=Surface
 r6 c5..6 bg=Surface
-r6 c6..8 fg=Primary bg=Surface
+r6 c6..8 fg=Accent bg=Surface
 r6 c8..10 fg=Muted bg=Surface
 r6 c10..17 fg=Foreground bg=Surface
 r6 c17..74 fg=Muted bg=Surface
 r6 c74..75 bg=Surface
-r6 c75..76 fg=Primary bg=Surface
+r6 c75..76 fg=Accent bg=Surface
 r6 c76..80 bg=Background
 r7 c0..4 bg=Background
-r7 c4..5 fg=Primary bg=Surface
+r7 c4..5 fg=Accent bg=Surface
 r7 c5..6 bg=Surface
-r7 c6..8 fg=Primary bg=Surface
+r7 c6..8 fg=Accent bg=Surface
 r7 c8..10 fg=Muted bg=Surface
 r7 c10..17 fg=Foreground bg=Surface
 r7 c17..74 fg=Muted bg=Surface
 r7 c74..75 bg=Surface
-r7 c75..76 fg=Primary bg=Surface
+r7 c75..76 fg=Accent bg=Surface
 r7 c76..80 bg=Background
 r8 c0..4 bg=Background
-r8 c4..5 fg=Primary bg=Surface
+r8 c4..5 fg=Accent bg=Surface
 r8 c5..75 bg=Surface
-r8 c75..76 fg=Primary bg=Surface
+r8 c75..76 fg=Accent bg=Surface
 r8 c76..80 bg=Background
 r9 c0..4 bg=Background
-r9 c4..5 fg=Primary bg=Surface
+r9 c4..5 fg=Accent bg=Surface
 r9 c5..6 bg=Surface
 r9 c6..8 fg=Foreground bg=Surface bold
 r9 c8..9 bg=Surface
@@ -188,15 +188,15 @@ r9 c31..34 fg=Foreground bg=Surface bold
 r9 c34..35 bg=Surface
 r9 c35..41 fg=Muted bg=Surface
 r9 c41..75 bg=Surface
-r9 c75..76 fg=Primary bg=Surface
+r9 c75..76 fg=Accent bg=Surface
 r9 c76..80 bg=Background
 r10 c0..4 bg=Background
-r10 c4..5 fg=Primary bg=Surface
+r10 c4..5 fg=Accent bg=Surface
 r10 c5..75 bg=Surface
-r10 c75..76 fg=Primary bg=Surface
+r10 c75..76 fg=Accent bg=Surface
 r10 c76..80 bg=Background
 r11 c0..4 bg=Background
-r11 c4..76 fg=Primary bg=Surface
+r11 c4..76 fg=Accent bg=Surface
 r11 c76..80 bg=Background
 r12 c0..80 bg=Background
 
@@ -217,63 +217,63 @@ r12 c0..80 bg=Background
 ---
 r0 c0..80 bg=Background
 r1 c0..4 bg=Background
-r1 c4..76 fg=Primary bg=Surface
+r1 c4..76 fg=Accent bg=Surface
 r1 c76..80 bg=Background
 r2 c0..4 bg=Background
-r2 c4..5 fg=Primary bg=Surface
+r2 c4..5 fg=Accent bg=Surface
 r2 c5..75 bg=Surface
-r2 c75..76 fg=Primary bg=Surface
+r2 c75..76 fg=Accent bg=Surface
 r2 c76..80 bg=Background
 r3 c0..4 bg=Background
-r3 c4..5 fg=Primary bg=Surface
+r3 c4..5 fg=Accent bg=Surface
 r3 c5..6 bg=Surface
 r3 c6..10 fg=Foreground bg=Surface bold
 r3 c10..75 bg=Surface
-r3 c75..76 fg=Primary bg=Surface
+r3 c75..76 fg=Accent bg=Surface
 r3 c76..80 bg=Background
 r4 c0..4 bg=Background
-r4 c4..5 fg=Primary bg=Surface
+r4 c4..5 fg=Accent bg=Surface
 r4 c5..75 bg=Surface
-r4 c75..76 fg=Primary bg=Surface
+r4 c75..76 fg=Accent bg=Surface
 r4 c76..80 bg=Background
 r5 c0..4 bg=Background
-r5 c4..5 fg=Primary bg=Surface
+r5 c4..5 fg=Accent bg=Surface
 r5 c5..6 bg=Surface
-r5 c6..8 fg=Primary bg=Selected
+r5 c6..8 fg=Accent bg=Selected
 r5 c8..10 fg=Muted bg=Selected
 r5 c10..17 fg=Foreground bg=Selected bold
 r5 c17..72 fg=Muted bg=Selected
 r5 c72..74 bg=Selected
 r5 c74..75 bg=Surface
-r5 c75..76 fg=Primary bg=Surface
+r5 c75..76 fg=Accent bg=Surface
 r5 c76..80 bg=Background
 r6 c0..4 bg=Background
-r6 c4..5 fg=Primary bg=Surface
+r6 c4..5 fg=Accent bg=Surface
 r6 c5..6 bg=Surface
-r6 c6..8 fg=Primary bg=Surface
+r6 c6..8 fg=Accent bg=Surface
 r6 c8..10 fg=Muted bg=Surface
 r6 c10..17 fg=Foreground bg=Surface
 r6 c17..74 fg=Muted bg=Surface
 r6 c74..75 bg=Surface
-r6 c75..76 fg=Primary bg=Surface
+r6 c75..76 fg=Accent bg=Surface
 r6 c76..80 bg=Background
 r7 c0..4 bg=Background
-r7 c4..5 fg=Primary bg=Surface
+r7 c4..5 fg=Accent bg=Surface
 r7 c5..6 bg=Surface
-r7 c6..8 fg=Primary bg=Surface
+r7 c6..8 fg=Accent bg=Surface
 r7 c8..10 fg=Muted bg=Surface
 r7 c10..17 fg=Foreground bg=Surface
 r7 c17..74 fg=Muted bg=Surface
 r7 c74..75 bg=Surface
-r7 c75..76 fg=Primary bg=Surface
+r7 c75..76 fg=Accent bg=Surface
 r7 c76..80 bg=Background
 r8 c0..4 bg=Background
-r8 c4..5 fg=Primary bg=Surface
+r8 c4..5 fg=Accent bg=Surface
 r8 c5..75 bg=Surface
-r8 c75..76 fg=Primary bg=Surface
+r8 c75..76 fg=Accent bg=Surface
 r8 c76..80 bg=Background
 r9 c0..4 bg=Background
-r9 c4..5 fg=Primary bg=Surface
+r9 c4..5 fg=Accent bg=Surface
 r9 c5..6 bg=Surface
 r9 c6..8 fg=Foreground bg=Surface bold
 r9 c8..9 bg=Surface
@@ -287,15 +287,15 @@ r9 c31..34 fg=Foreground bg=Surface bold
 r9 c34..35 bg=Surface
 r9 c35..41 fg=Muted bg=Surface
 r9 c41..75 bg=Surface
-r9 c75..76 fg=Primary bg=Surface
+r9 c75..76 fg=Accent bg=Surface
 r9 c76..80 bg=Background
 r10 c0..4 bg=Background
-r10 c4..5 fg=Primary bg=Surface
+r10 c4..5 fg=Accent bg=Surface
 r10 c5..75 bg=Surface
-r10 c75..76 fg=Primary bg=Surface
+r10 c75..76 fg=Accent bg=Surface
 r10 c76..80 bg=Background
 r11 c0..4 bg=Background
-r11 c4..76 fg=Primary bg=Surface
+r11 c4..76 fg=Accent bg=Surface
 r11 c76..80 bg=Background
 r12 c0..80 bg=Background
 
@@ -316,63 +316,63 @@ r12 c0..80 bg=Background
 ---
 r0 c0..80 bg=Background
 r1 c0..4 bg=Background
-r1 c4..76 fg=Primary bg=Surface|Hover
+r1 c4..76 fg=Accent bg=Surface|Hover
 r1 c76..80 bg=Background
 r2 c0..4 bg=Background
-r2 c4..5 fg=Primary bg=Surface|Hover
+r2 c4..5 fg=Accent bg=Surface|Hover
 r2 c5..75 bg=Surface|Hover
-r2 c75..76 fg=Primary bg=Surface|Hover
+r2 c75..76 fg=Accent bg=Surface|Hover
 r2 c76..80 bg=Background
 r3 c0..4 bg=Background
-r3 c4..5 fg=Primary bg=Surface|Hover
+r3 c4..5 fg=Accent bg=Surface|Hover
 r3 c5..6 bg=Surface|Hover
 r3 c6..10 fg=Foreground bg=Surface|Hover bold
 r3 c10..75 bg=Surface|Hover
-r3 c75..76 fg=Primary bg=Surface|Hover
+r3 c75..76 fg=Accent bg=Surface|Hover
 r3 c76..80 bg=Background
 r4 c0..4 bg=Background
-r4 c4..5 fg=Primary bg=Surface|Hover
+r4 c4..5 fg=Accent bg=Surface|Hover
 r4 c5..75 bg=Surface|Hover
-r4 c75..76 fg=Primary bg=Surface|Hover
+r4 c75..76 fg=Accent bg=Surface|Hover
 r4 c76..80 bg=Background
 r5 c0..4 bg=Background
-r5 c4..5 fg=Primary bg=Surface|Hover
+r5 c4..5 fg=Accent bg=Surface|Hover
 r5 c5..6 bg=Surface|Hover
-r5 c6..8 fg=Primary bg=Selected
+r5 c6..8 fg=Accent bg=Selected
 r5 c8..10 fg=Muted bg=Selected
 r5 c10..17 fg=Foreground bg=Selected bold
 r5 c17..72 fg=Muted bg=Selected
 r5 c72..74 bg=Selected
 r5 c74..75 bg=Surface|Hover
-r5 c75..76 fg=Primary bg=Surface|Hover
+r5 c75..76 fg=Accent bg=Surface|Hover
 r5 c76..80 bg=Background
 r6 c0..4 bg=Background
-r6 c4..5 fg=Primary bg=Surface|Hover
+r6 c4..5 fg=Accent bg=Surface|Hover
 r6 c5..6 bg=Surface|Hover
-r6 c6..8 fg=Primary bg=Surface|Hover
+r6 c6..8 fg=Accent bg=Surface|Hover
 r6 c8..10 fg=Muted bg=Surface|Hover
 r6 c10..17 fg=Foreground bg=Surface|Hover
 r6 c17..74 fg=Muted bg=Surface|Hover
 r6 c74..75 bg=Surface|Hover
-r6 c75..76 fg=Primary bg=Surface|Hover
+r6 c75..76 fg=Accent bg=Surface|Hover
 r6 c76..80 bg=Background
 r7 c0..4 bg=Background
-r7 c4..5 fg=Primary bg=Surface|Hover
+r7 c4..5 fg=Accent bg=Surface|Hover
 r7 c5..6 bg=Surface|Hover
-r7 c6..8 fg=Primary bg=Surface|Hover
+r7 c6..8 fg=Accent bg=Surface|Hover
 r7 c8..10 fg=Muted bg=Surface|Hover
 r7 c10..17 fg=Foreground bg=Surface|Hover
 r7 c17..74 fg=Muted bg=Surface|Hover
 r7 c74..75 bg=Surface|Hover
-r7 c75..76 fg=Primary bg=Surface|Hover
+r7 c75..76 fg=Accent bg=Surface|Hover
 r7 c76..80 bg=Background
 r8 c0..4 bg=Background
-r8 c4..5 fg=Primary bg=Surface|Hover
+r8 c4..5 fg=Accent bg=Surface|Hover
 r8 c5..75 bg=Surface|Hover
-r8 c75..76 fg=Primary bg=Surface|Hover
+r8 c75..76 fg=Accent bg=Surface|Hover
 r8 c76..80 bg=Background
 r9 c0..4 bg=Background
-r9 c4..5 fg=Primary bg=Surface|Hover
+r9 c4..5 fg=Accent bg=Surface|Hover
 r9 c5..6 bg=Surface|Hover
 r9 c6..8 fg=Foreground bg=Surface|Hover bold
 r9 c8..9 bg=Surface|Hover
@@ -386,15 +386,15 @@ r9 c31..34 fg=Foreground bg=Surface|Hover bold
 r9 c34..35 bg=Surface|Hover
 r9 c35..41 fg=Muted bg=Surface|Hover
 r9 c41..75 bg=Surface|Hover
-r9 c75..76 fg=Primary bg=Surface|Hover
+r9 c75..76 fg=Accent bg=Surface|Hover
 r9 c76..80 bg=Background
 r10 c0..4 bg=Background
-r10 c4..5 fg=Primary bg=Surface|Hover
+r10 c4..5 fg=Accent bg=Surface|Hover
 r10 c5..75 bg=Surface|Hover
-r10 c75..76 fg=Primary bg=Surface|Hover
+r10 c75..76 fg=Accent bg=Surface|Hover
 r10 c76..80 bg=Background
 r11 c0..4 bg=Background
-r11 c4..76 fg=Primary bg=Surface|Hover
+r11 c4..76 fg=Accent bg=Surface|Hover
 r11 c76..80 bg=Background
 r12 c0..80 bg=Background
 
@@ -415,63 +415,63 @@ r12 c0..80 bg=Background
 ---
 r0 c0..80 bg=Background|Surface
 r1 c0..4 bg=Background|Surface
-r1 c4..76 fg=Primary bg=Background|Surface
+r1 c4..76 fg=Accent bg=Background|Surface
 r1 c76..80 bg=Background|Surface
 r2 c0..4 bg=Background|Surface
-r2 c4..5 fg=Primary bg=Background|Surface
+r2 c4..5 fg=Accent bg=Background|Surface
 r2 c5..75 bg=Background|Surface
-r2 c75..76 fg=Primary bg=Background|Surface
+r2 c75..76 fg=Accent bg=Background|Surface
 r2 c76..80 bg=Background|Surface
 r3 c0..4 bg=Background|Surface
-r3 c4..5 fg=Primary bg=Background|Surface
+r3 c4..5 fg=Accent bg=Background|Surface
 r3 c5..6 bg=Background|Surface
 r3 c6..10 fg=Foreground bg=Background|Surface bold
 r3 c10..75 bg=Background|Surface
-r3 c75..76 fg=Primary bg=Background|Surface
+r3 c75..76 fg=Accent bg=Background|Surface
 r3 c76..80 bg=Background|Surface
 r4 c0..4 bg=Background|Surface
-r4 c4..5 fg=Primary bg=Background|Surface
+r4 c4..5 fg=Accent bg=Background|Surface
 r4 c5..75 bg=Background|Surface
-r4 c75..76 fg=Primary bg=Background|Surface
+r4 c75..76 fg=Accent bg=Background|Surface
 r4 c76..80 bg=Background|Surface
 r5 c0..4 bg=Background|Surface
-r5 c4..5 fg=Primary bg=Background|Surface
+r5 c4..5 fg=Accent bg=Background|Surface
 r5 c5..6 bg=Background|Surface
-r5 c6..8 fg=Primary bg=Selected
+r5 c6..8 fg=Accent bg=Selected
 r5 c8..10 fg=Muted bg=Selected
 r5 c10..17 fg=Foreground bg=Selected bold
 r5 c17..72 fg=Muted bg=Selected
 r5 c72..74 bg=Selected
 r5 c74..75 bg=Background|Surface
-r5 c75..76 fg=Primary bg=Background|Surface
+r5 c75..76 fg=Accent bg=Background|Surface
 r5 c76..80 bg=Background|Surface
 r6 c0..4 bg=Background|Surface
-r6 c4..5 fg=Primary bg=Background|Surface
+r6 c4..5 fg=Accent bg=Background|Surface
 r6 c5..6 bg=Background|Surface
-r6 c6..8 fg=Primary bg=Background|Surface
+r6 c6..8 fg=Accent bg=Background|Surface
 r6 c8..10 fg=Muted bg=Background|Surface
 r6 c10..17 fg=Foreground bg=Background|Surface
 r6 c17..74 fg=Muted bg=Background|Surface
 r6 c74..75 bg=Background|Surface
-r6 c75..76 fg=Primary bg=Background|Surface
+r6 c75..76 fg=Accent bg=Background|Surface
 r6 c76..80 bg=Background|Surface
 r7 c0..4 bg=Background|Surface
-r7 c4..5 fg=Primary bg=Background|Surface
+r7 c4..5 fg=Accent bg=Background|Surface
 r7 c5..6 bg=Background|Surface
-r7 c6..8 fg=Primary bg=Background|Surface
+r7 c6..8 fg=Accent bg=Background|Surface
 r7 c8..10 fg=Muted bg=Background|Surface
 r7 c10..17 fg=Foreground bg=Background|Surface
 r7 c17..74 fg=Muted bg=Background|Surface
 r7 c74..75 bg=Background|Surface
-r7 c75..76 fg=Primary bg=Background|Surface
+r7 c75..76 fg=Accent bg=Background|Surface
 r7 c76..80 bg=Background|Surface
 r8 c0..4 bg=Background|Surface
-r8 c4..5 fg=Primary bg=Background|Surface
+r8 c4..5 fg=Accent bg=Background|Surface
 r8 c5..75 bg=Background|Surface
-r8 c75..76 fg=Primary bg=Background|Surface
+r8 c75..76 fg=Accent bg=Background|Surface
 r8 c76..80 bg=Background|Surface
 r9 c0..4 bg=Background|Surface
-r9 c4..5 fg=Primary bg=Background|Surface
+r9 c4..5 fg=Accent bg=Background|Surface
 r9 c5..6 bg=Background|Surface
 r9 c6..8 fg=Foreground bg=Background|Surface bold
 r9 c8..9 bg=Background|Surface
@@ -485,15 +485,15 @@ r9 c31..34 fg=Foreground bg=Background|Surface bold
 r9 c34..35 bg=Background|Surface
 r9 c35..41 fg=Muted bg=Background|Surface
 r9 c41..75 bg=Background|Surface
-r9 c75..76 fg=Primary bg=Background|Surface
+r9 c75..76 fg=Accent bg=Background|Surface
 r9 c76..80 bg=Background|Surface
 r10 c0..4 bg=Background|Surface
-r10 c4..5 fg=Primary bg=Background|Surface
+r10 c4..5 fg=Accent bg=Background|Surface
 r10 c5..75 bg=Background|Surface
-r10 c75..76 fg=Primary bg=Background|Surface
+r10 c75..76 fg=Accent bg=Background|Surface
 r10 c76..80 bg=Background|Surface
 r11 c0..4 bg=Background|Surface
-r11 c4..76 fg=Primary bg=Background|Surface
+r11 c4..76 fg=Accent bg=Background|Surface
 r11 c76..80 bg=Background|Surface
 r12 c0..80 bg=Background|Surface
 
@@ -512,43 +512,43 @@ r12 c0..80 bg=Background|Surface
     ╰──────────────────────────────────────────────────────────────────────╯
 
 ---
-r1 c4..76 fg=Primary
-r2 c4..5 fg=Primary
-r2 c75..76 fg=Primary
-r3 c4..5 fg=Primary
+r1 c4..76 fg=Accent
+r2 c4..5 fg=Accent
+r2 c75..76 fg=Accent
+r3 c4..5 fg=Accent
 r3 c6..10 bold
-r3 c75..76 fg=Primary
-r4 c4..5 fg=Primary
-r4 c75..76 fg=Primary
-r5 c4..5 fg=Primary
-r5 c6..8 fg=Primary
+r3 c75..76 fg=Accent
+r4 c4..5 fg=Accent
+r4 c75..76 fg=Accent
+r5 c4..5 fg=Accent
+r5 c6..8 fg=Accent
 r5 c8..10 dim
 r5 c10..17 bold
 r5 c17..72 dim
-r5 c75..76 fg=Primary
-r6 c4..5 fg=Primary
-r6 c6..8 fg=Primary
+r5 c75..76 fg=Accent
+r6 c4..5 fg=Accent
+r6 c6..8 fg=Accent
 r6 c8..10 dim
 r6 c17..74 dim
-r6 c75..76 fg=Primary
-r7 c4..5 fg=Primary
-r7 c6..8 fg=Primary
+r6 c75..76 fg=Accent
+r7 c4..5 fg=Accent
+r7 c6..8 fg=Accent
 r7 c8..10 dim
 r7 c17..74 dim
-r7 c75..76 fg=Primary
-r8 c4..5 fg=Primary
-r8 c75..76 fg=Primary
-r9 c4..5 fg=Primary
+r7 c75..76 fg=Accent
+r8 c4..5 fg=Accent
+r8 c75..76 fg=Accent
+r9 c4..5 fg=Accent
 r9 c6..8 bold
 r9 c9..16 dim
 r9 c16..21 bold
 r9 c22..31 dim
 r9 c31..34 bold
 r9 c35..41 dim
-r9 c75..76 fg=Primary
-r10 c4..5 fg=Primary
-r10 c75..76 fg=Primary
-r11 c4..76 fg=Primary
+r9 c75..76 fg=Accent
+r10 c4..5 fg=Accent
+r10 c75..76 fg=Accent
+r11 c4..76 fg=Accent
 
 == unknown-ground
 
@@ -565,43 +565,43 @@ r11 c4..76 fg=Primary
     ╰──────────────────────────────────────────────────────────────────────╯
 
 ---
-r1 c4..76 fg=Primary
-r2 c4..5 fg=Primary
-r2 c75..76 fg=Primary
-r3 c4..5 fg=Primary
+r1 c4..76 fg=Accent
+r2 c4..5 fg=Accent
+r2 c75..76 fg=Accent
+r3 c4..5 fg=Accent
 r3 c6..10 bold
-r3 c75..76 fg=Primary
-r4 c4..5 fg=Primary
-r4 c75..76 fg=Primary
-r5 c4..5 fg=Primary
-r5 c6..8 fg=Primary
+r3 c75..76 fg=Accent
+r4 c4..5 fg=Accent
+r4 c75..76 fg=Accent
+r5 c4..5 fg=Accent
+r5 c6..8 fg=Accent
 r5 c8..10 dim
 r5 c10..17 bold
 r5 c17..72 dim
-r5 c75..76 fg=Primary
-r6 c4..5 fg=Primary
-r6 c6..8 fg=Primary
+r5 c75..76 fg=Accent
+r6 c4..5 fg=Accent
+r6 c6..8 fg=Accent
 r6 c8..10 dim
 r6 c17..74 dim
-r6 c75..76 fg=Primary
-r7 c4..5 fg=Primary
-r7 c6..8 fg=Primary
+r6 c75..76 fg=Accent
+r7 c4..5 fg=Accent
+r7 c6..8 fg=Accent
 r7 c8..10 dim
 r7 c17..74 dim
-r7 c75..76 fg=Primary
-r8 c4..5 fg=Primary
-r8 c75..76 fg=Primary
-r9 c4..5 fg=Primary
+r7 c75..76 fg=Accent
+r8 c4..5 fg=Accent
+r8 c75..76 fg=Accent
+r9 c4..5 fg=Accent
 r9 c6..8 bold
 r9 c9..16 dim
 r9 c16..21 bold
 r9 c22..31 dim
 r9 c31..34 bold
 r9 c35..41 dim
-r9 c75..76 fg=Primary
-r10 c4..5 fg=Primary
-r10 c75..76 fg=Primary
-r11 c4..76 fg=Primary
+r9 c75..76 fg=Accent
+r10 c4..5 fg=Accent
+r10 c75..76 fg=Accent
+r11 c4..76 fg=Accent
 
 == no-color
 
