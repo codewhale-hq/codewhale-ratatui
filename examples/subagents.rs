@@ -352,7 +352,7 @@ impl Viewer {
                         },
                         self.motion
                     ),
-                    Role::Primary,
+                    Role::Foreground,
                 ),
             ] {
                 buf.set_stringn(

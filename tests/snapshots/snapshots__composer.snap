@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -9,20 +10,20 @@ expression: dump(&entry)
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#0d234d bg=Background
-r0 c1..2 fg=#102753 bg=Background
-r0 c2..3 fg=#132b59 bg=Background
-r0 c3..4 fg=#152e5e bg=Background
-r0 c4..5 fg=#183264 bg=Background
-r0 c5..6 fg=#1b366a bg=Background
+r0 c0..1 fg=#040c22 bg=Background
+r0 c1..2 fg=#09132f bg=Background
+r0 c2..3 fg=#0d1b3c bg=Background
+r0 c3..4 fg=#112349 bg=Background
+r0 c4..5 fg=#152b56 bg=Background
+r0 c5..6 fg=#1a3263 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#1b366a bg=Background
-r0 c59..60 fg=#183264 bg=Background
-r0 c60..61 fg=#152e5e bg=Background
-r0 c61..62 fg=#132b59 bg=Background
-r0 c62..63 fg=#102753 bg=Background
-r0 c63..64 fg=#0d234d bg=Background
+r0 c58..59 fg=#1a3263 bg=Background
+r0 c59..60 fg=#152b56 bg=Background
+r0 c60..61 fg=#112349 bg=Background
+r0 c61..62 fg=#0d1b3c bg=Background
+r0 c62..63 fg=#09132f bg=Background
+r0 c63..64 fg=#040c22 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -50,20 +51,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#242527 bg=Background
-r0 c1..2 fg=#28292b bg=Background
-r0 c2..3 fg=#2c2d2f bg=Background
-r0 c3..4 fg=#2f3033 bg=Background
-r0 c4..5 fg=#333437 bg=Background
-r0 c5..6 fg=#37383b bg=Background
+r0 c0..1 fg=#0b0d10 bg=Background
+r0 c1..2 fg=#131518 bg=Background
+r0 c2..3 fg=#1b1d20 bg=Background
+r0 c3..4 fg=#232427 bg=Background
+r0 c4..5 fg=#2b2c2f bg=Background
+r0 c5..6 fg=#333437 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#37383b bg=Background
-r0 c59..60 fg=#333437 bg=Background
-r0 c60..61 fg=#2f3033 bg=Background
-r0 c61..62 fg=#2c2d2f bg=Background
-r0 c62..63 fg=#28292b bg=Background
-r0 c63..64 fg=#242527 bg=Background
+r0 c58..59 fg=#333437 bg=Background
+r0 c59..60 fg=#2b2c2f bg=Background
+r0 c60..61 fg=#232427 bg=Background
+r0 c61..62 fg=#1b1d20 bg=Background
+r0 c62..63 fg=#131518 bg=Background
+r0 c63..64 fg=#0b0d10 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -91,20 +92,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#f5f3f0 bg=Background
-r0 c1..2 fg=#f1eeea bg=Background
-r0 c2..3 fg=#ece9e5 bg=Background
-r0 c3..4 fg=#e7e4df bg=Background
-r0 c4..5 fg=#e2dfda bg=Background
-r0 c5..6 fg=#dedad4 bg=Background
+r0 c0..1 fg=#f3f0e8 bg=Background
+r0 c1..2 fg=#eeebe4 bg=Background
+r0 c2..3 fg=#eae7e0 bg=Background
+r0 c3..4 fg=#e6e2db bg=Background
+r0 c4..5 fg=#e2ded7 bg=Background
+r0 c5..6 fg=#ddd9d3 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#dedad4 bg=Background
-r0 c59..60 fg=#e2dfda bg=Background
-r0 c60..61 fg=#e7e4df bg=Background
-r0 c61..62 fg=#ece9e5 bg=Background
-r0 c62..63 fg=#f1eeea bg=Background
-r0 c63..64 fg=#f5f3f0 bg=Background
+r0 c58..59 fg=#ddd9d3 bg=Background
+r0 c59..60 fg=#e2ded7 bg=Background
+r0 c60..61 fg=#e6e2db bg=Background
+r0 c61..62 fg=#eae7e0 bg=Background
+r0 c62..63 fg=#eeebe4 bg=Background
+r0 c63..64 fg=#f3f0e8 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -126,36 +127,6 @@ r4 c43..50 fg=Muted bg=Background
 r4 c50..64 bg=Background
 
 == dark-256
-────── codewhale-ratatui / wor… ────────────────────────────────
-› Show the new transcript, tool cards and fleet rail.
-  Keep the previews connected to the public APIs.
-
-Enter send · Shift+Enter new line · Ctrl+O details
----
-r0 c0..6 fg=Border bg=Background
-r0 c6..32 fg=Muted bg=Background
-r0 c32..64 fg=Border bg=Background
-r1 c0..2 fg=Accent bg=Background
-r1 c2..53 fg=Foreground bg=Background
-r1 c53..64 bg=Background
-r2 c0..2 fg=Accent bg=Background
-r2 c2..49 fg=Foreground bg=Background
-r2 c49..64 bg=Background
-r3 c0..64 bg=Background
-r4 c0..5 fg=Foreground bg=Background bold
-r4 c5..6 bg=Background
-r4 c6..10 fg=Muted bg=Background
-r4 c10..13 fg=Border bg=Background
-r4 c13..24 fg=Foreground bg=Background bold
-r4 c24..25 bg=Background
-r4 c25..33 fg=Muted bg=Background
-r4 c33..36 fg=Border bg=Background
-r4 c36..42 fg=Foreground bg=Background bold
-r4 c42..43 bg=Background
-r4 c43..50 fg=Muted bg=Background
-r4 c50..64 bg=Background
-
-== light-256
 ────── codewhale-ratatui / wor… ────────────────────────────────
 › Show the new transcript, tool cards and fleet rail.
   Keep the previews connected to the public APIs.
@@ -184,6 +155,36 @@ r4 c36..42 fg=Foreground bg=Background|Surface bold
 r4 c42..43 bg=Background|Surface
 r4 c43..50 fg=Muted bg=Background|Surface
 r4 c50..64 bg=Background|Surface
+
+== light-256
+────── codewhale-ratatui / wor… ────────────────────────────────
+› Show the new transcript, tool cards and fleet rail.
+  Keep the previews connected to the public APIs.
+
+Enter send · Shift+Enter new line · Ctrl+O details
+---
+r0 c0..6 fg=Border bg=Background
+r0 c6..32 fg=Muted bg=Background
+r0 c32..64 fg=Border bg=Background
+r1 c0..2 fg=Accent bg=Background
+r1 c2..53 fg=Foreground bg=Background
+r1 c53..64 bg=Background
+r2 c0..2 fg=Accent bg=Background
+r2 c2..49 fg=Foreground bg=Background
+r2 c49..64 bg=Background
+r3 c0..64 bg=Background
+r4 c0..5 fg=Foreground bg=Background bold
+r4 c5..6 bg=Background
+r4 c6..10 fg=Muted bg=Background
+r4 c10..13 fg=Border bg=Background
+r4 c13..24 fg=Foreground bg=Background bold
+r4 c24..25 bg=Background
+r4 c25..33 fg=Muted bg=Background
+r4 c33..36 fg=Border bg=Background
+r4 c36..42 fg=Foreground bg=Background bold
+r4 c42..43 bg=Background
+r4 c43..50 fg=Muted bg=Background
+r4 c50..64 bg=Background
 
 == ansi-16
 ────── codewhale-ratatui / wor… ────────────────────────────────

@@ -88,7 +88,7 @@ impl OwnerFrame {
         }
         buf.set_style(
             area,
-            theme.bg(Role::Background).patch(theme.fg(Role::Primary)),
+            theme.bg(Role::Background).patch(theme.fg(Role::Foreground)),
         );
         let pose = if still {
             self.still.as_ref()
@@ -131,7 +131,7 @@ impl OwnerFrame {
                 "Prepared owner frame"
             },
             usize::from(area.width),
-            theme.fg(Role::Primary),
+            theme.fg(Role::Foreground),
         );
         whale.paint(
             Rect::new(

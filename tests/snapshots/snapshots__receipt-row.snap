@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -56,23 +57,6 @@ r0 c59..60 fg=Muted bg=Background
 == dark-256
 ✓ Edited summary.md                    Done 4 s 1.2k $0.01 →
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..38 fg=Foreground bg=Background
-r0 c38..39 bg=Background
-r0 c39..43 fg=Muted bg=Background
-r0 c43..44 bg=Background
-r0 c44..47 fg=Foreground bg=Background
-r0 c47..48 bg=Background
-r0 c48..52 fg=Foreground bg=Background
-r0 c52..53 bg=Background
-r0 c53..58 fg=Foreground bg=Background
-r0 c58..59 bg=Background
-r0 c59..60 fg=Muted bg=Background
-
-== light-256
-✓ Edited summary.md                    Done 4 s 1.2k $0.01 →
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..38 fg=Foreground bg=Background|Surface
@@ -86,6 +70,23 @@ r0 c52..53 bg=Background|Surface
 r0 c53..58 fg=Foreground bg=Background|Surface
 r0 c58..59 bg=Background|Surface
 r0 c59..60 fg=Muted bg=Background|Surface
+
+== light-256
+✓ Edited summary.md                    Done 4 s 1.2k $0.01 →
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..38 fg=Foreground bg=Background
+r0 c38..39 bg=Background
+r0 c39..43 fg=Muted bg=Background
+r0 c43..44 bg=Background
+r0 c44..47 fg=Foreground bg=Background
+r0 c47..48 bg=Background
+r0 c48..52 fg=Foreground bg=Background
+r0 c52..53 bg=Background
+r0 c53..58 fg=Foreground bg=Background
+r0 c58..59 bg=Background
+r0 c59..60 fg=Muted bg=Background
 
 == ansi-16
 ✓ Edited summary.md                    Done 4 s 1.2k $0.01 →

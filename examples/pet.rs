@@ -130,7 +130,7 @@ impl Demo {
         let theme = self.profile.theme();
         buf.set_style(
             area,
-            theme.bg(Role::Background).patch(theme.fg(Role::Primary)),
+            theme.bg(Role::Background).patch(theme.fg(Role::Foreground)),
         );
         if area.is_empty() {
             return;
@@ -153,7 +153,7 @@ impl Demo {
             area.y,
             title,
             usize::from(area.width),
-            theme.fg(Role::Primary),
+            theme.fg(Role::Foreground),
         );
         let pet_area = Self::pet_area(area);
         let direction = [

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -426,140 +427,6 @@ r19 c0..70 fg=Accent bg=Surface
 │                                                                    │
 ╰────────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..70 fg=Accent bg=Surface|Hover
-r1 c0..1 fg=Accent bg=Surface|Hover
-r1 c1..69 bg=Surface|Hover
-r1 c69..70 fg=Accent bg=Surface|Hover
-r2 c0..1 fg=Accent bg=Surface|Hover
-r2 c1..2 bg=Surface|Hover
-r2 c2..29 fg=Foreground bg=Surface|Hover bold
-r2 c29..69 bg=Surface|Hover
-r2 c69..70 fg=Accent bg=Surface|Hover
-r3 c0..1 fg=Accent bg=Surface|Hover
-r3 c1..69 bg=Surface|Hover
-r3 c69..70 fg=Accent bg=Surface|Hover
-r4 c0..1 fg=Accent bg=Surface|Hover
-r4 c1..2 bg=Surface|Hover
-r4 c2..15 fg=Muted bg=Surface|Hover
-r4 c15..22 fg=Foreground bg=Surface|Hover bold
-r4 c22..69 bg=Surface|Hover
-r4 c69..70 fg=Accent bg=Surface|Hover
-r5 c0..1 fg=Accent bg=Surface|Hover
-r5 c1..2 bg=Surface|Hover
-r5 c2..4 fg=Accent bg=Surface|Hover bold
-r5 c4..11 fg=Foreground bg=Surface|Hover bold
-r5 c11..16 fg=Attention bg=Surface|Hover bold reversed
-r5 c16..19 fg=Foreground bg=Surface|Hover bold
-r5 c19..30 fg=Attention bg=Surface|Hover bold reversed
-r5 c30..37 fg=Foreground bg=Surface|Hover bold
-r5 c37..41 fg=Attention bg=Surface|Hover bold reversed
-r5 c41..42 fg=Foreground bg=Surface|Hover bold
-r5 c42..46 fg=Attention bg=Surface|Hover bold reversed
-r5 c46..54 fg=Foreground bg=Surface|Hover bold
-r5 c54..60 fg=Attention bg=Surface|Hover bold reversed
-r5 c60..69 bg=Surface|Hover
-r5 c69..70 fg=Accent bg=Surface|Hover
-r6 c0..1 fg=Accent bg=Surface|Hover
-r6 c1..2 bg=Surface|Hover
-r6 c2..21 fg=Muted bg=Surface|Hover
-r6 c21..69 bg=Surface|Hover
-r6 c69..70 fg=Accent bg=Surface|Hover
-r7 c0..1 fg=Accent bg=Surface|Hover
-r7 c1..2 bg=Surface|Hover
-r7 c2..5 fg=Muted bg=Surface|Hover
-r7 c5..14 fg=Foreground bg=Surface|Hover
-r7 c14..69 bg=Surface|Hover
-r7 c69..70 fg=Accent bg=Surface|Hover
-r8 c0..1 fg=Accent bg=Surface|Hover
-r8 c1..69 bg=Surface|Hover
-r8 c69..70 fg=Accent bg=Surface|Hover
-r9 c0..1 fg=Accent bg=Surface|Hover
-r9 c1..2 bg=Surface|Hover
-r9 c2..3 fg=Accent bg=Surface|Hover bold
-r9 c3..4 fg=Foreground bg=Surface|Hover
-r9 c4..5 fg=Foreground bg=Surface|Hover bold
-r9 c5..16 fg=Foreground bg=Surface|Hover
-r9 c16..19 fg=Border bg=Surface|Hover
-r9 c19..20 fg=Accent bg=Surface|Hover bold
-r9 c20..21 fg=Foreground bg=Surface|Hover
-r9 c21..22 fg=Foreground bg=Surface|Hover bold
-r9 c22..45 fg=Foreground bg=Surface|Hover
-r9 c45..48 fg=Border bg=Surface|Hover
-r9 c48..49 fg=Accent bg=Selected bold
-r9 c49..50 fg=Foreground bg=Selected
-r9 c50..51 fg=Foreground bg=Selected bold
-r9 c51..52 fg=Foreground bg=Selected
-r9 c52..56 fg=Foreground bg=Selected bold
-r9 c56..69 bg=Surface|Hover
-r9 c69..70 fg=Accent bg=Surface|Hover
-r10 c0..1 fg=Accent bg=Surface|Hover
-r10 c1..2 bg=Surface|Hover
-r10 c2..3 fg=Accent bg=Surface|Hover bold
-r10 c3..4 fg=Foreground bg=Surface|Hover
-r10 c4..5 fg=Foreground bg=Surface|Hover bold
-r10 c5..22 fg=Foreground bg=Surface|Hover
-r10 c22..69 bg=Surface|Hover
-r10 c69..70 fg=Accent bg=Surface|Hover
-r11 c0..1 fg=Accent bg=Surface|Hover
-r11 c1..69 bg=Surface|Hover
-r11 c69..70 fg=Accent bg=Surface|Hover
-r12 c0..1 fg=Accent bg=Surface|Hover
-r12 c1..2 bg=Surface|Hover
-r12 c2..4 fg=Foreground bg=Surface|Hover bold
-r12 c4..5 bg=Surface|Hover
-r12 c5..9 fg=Muted bg=Surface|Hover
-r12 c9..12 fg=Border bg=Surface|Hover
-r12 c12..17 fg=Foreground bg=Surface|Hover bold
-r12 c17..18 bg=Surface|Hover
-r12 c18..24 fg=Muted bg=Surface|Hover
-r12 c24..27 fg=Border bg=Surface|Hover
-r12 c27..30 fg=Foreground bg=Surface|Hover bold
-r12 c30..31 bg=Surface|Hover
-r12 c31..37 fg=Muted bg=Surface|Hover
-r12 c37..69 bg=Surface|Hover
-r12 c69..70 fg=Accent bg=Surface|Hover
-r13 c0..1 fg=Accent bg=Surface|Hover
-r13 c1..69 bg=Surface|Hover
-r13 c69..70 fg=Accent bg=Surface|Hover
-r14 c0..1 fg=Accent bg=Surface|Hover
-r14 c1..69 bg=Surface|Hover
-r14 c69..70 fg=Accent bg=Surface|Hover
-r15 c0..1 fg=Accent bg=Surface|Hover
-r15 c1..69 bg=Surface|Hover
-r15 c69..70 fg=Accent bg=Surface|Hover
-r16 c0..1 fg=Accent bg=Surface|Hover
-r16 c1..69 bg=Surface|Hover
-r16 c69..70 fg=Accent bg=Surface|Hover
-r17 c0..1 fg=Accent bg=Surface|Hover
-r17 c1..69 bg=Surface|Hover
-r17 c69..70 fg=Accent bg=Surface|Hover
-r18 c0..1 fg=Accent bg=Surface|Hover
-r18 c1..69 bg=Surface|Hover
-r18 c69..70 fg=Accent bg=Surface|Hover
-r19 c0..70 fg=Accent bg=Surface|Hover
-
-== light-256
-╭────────────────────────────────────────────────────────────────────╮
-│                                                                    │
-│ ◆ Needs you · Run a command                                        │
-│                                                                    │
-│ Requested by builder                                               │
-│ $ echo ok‹ESC›[2K‹ZWSP›‹RLO›txt.exe‹HT›x‹LF›rm -rf ~‹SP×2›         │
-│ Inside this project                                                │
-│ In codewhale                                                       │
-│                                                                    │
-│   y Allow once ·   a Allow for this session · ▸ n Deny             │
-│   e Deny and say why                                               │
-│                                                                    │
-│ ←→ move · Enter choose · Esc cancel                                │
-│                                                                    │
-│                                                                    │
-│                                                                    │
-│                                                                    │
-│                                                                    │
-│                                                                    │
-╰────────────────────────────────────────────────────────────────────╯
----
 r0 c0..70 fg=Accent bg=Background|Surface
 r1 c0..1 fg=Accent bg=Background|Surface
 r1 c1..69 bg=Background|Surface
@@ -671,6 +538,140 @@ r18 c0..1 fg=Accent bg=Background|Surface
 r18 c1..69 bg=Background|Surface
 r18 c69..70 fg=Accent bg=Background|Surface
 r19 c0..70 fg=Accent bg=Background|Surface
+
+== light-256
+╭────────────────────────────────────────────────────────────────────╮
+│                                                                    │
+│ ◆ Needs you · Run a command                                        │
+│                                                                    │
+│ Requested by builder                                               │
+│ $ echo ok‹ESC›[2K‹ZWSP›‹RLO›txt.exe‹HT›x‹LF›rm -rf ~‹SP×2›         │
+│ Inside this project                                                │
+│ In codewhale                                                       │
+│                                                                    │
+│   y Allow once ·   a Allow for this session · ▸ n Deny             │
+│   e Deny and say why                                               │
+│                                                                    │
+│ ←→ move · Enter choose · Esc cancel                                │
+│                                                                    │
+│                                                                    │
+│                                                                    │
+│                                                                    │
+│                                                                    │
+│                                                                    │
+╰────────────────────────────────────────────────────────────────────╯
+---
+r0 c0..70 fg=Accent bg=Sidebar|Surface
+r1 c0..1 fg=Accent bg=Sidebar|Surface
+r1 c1..69 bg=Sidebar|Surface
+r1 c69..70 fg=Accent bg=Sidebar|Surface
+r2 c0..1 fg=Accent bg=Sidebar|Surface
+r2 c1..2 bg=Sidebar|Surface
+r2 c2..29 fg=Foreground bg=Sidebar|Surface bold
+r2 c29..69 bg=Sidebar|Surface
+r2 c69..70 fg=Accent bg=Sidebar|Surface
+r3 c0..1 fg=Accent bg=Sidebar|Surface
+r3 c1..69 bg=Sidebar|Surface
+r3 c69..70 fg=Accent bg=Sidebar|Surface
+r4 c0..1 fg=Accent bg=Sidebar|Surface
+r4 c1..2 bg=Sidebar|Surface
+r4 c2..15 fg=Muted bg=Sidebar|Surface
+r4 c15..22 fg=Foreground bg=Sidebar|Surface bold
+r4 c22..69 bg=Sidebar|Surface
+r4 c69..70 fg=Accent bg=Sidebar|Surface
+r5 c0..1 fg=Accent bg=Sidebar|Surface
+r5 c1..2 bg=Sidebar|Surface
+r5 c2..4 fg=Accent bg=Sidebar|Surface bold
+r5 c4..11 fg=Foreground bg=Sidebar|Surface bold
+r5 c11..16 fg=Attention bg=Sidebar|Surface bold reversed
+r5 c16..19 fg=Foreground bg=Sidebar|Surface bold
+r5 c19..30 fg=Attention bg=Sidebar|Surface bold reversed
+r5 c30..37 fg=Foreground bg=Sidebar|Surface bold
+r5 c37..41 fg=Attention bg=Sidebar|Surface bold reversed
+r5 c41..42 fg=Foreground bg=Sidebar|Surface bold
+r5 c42..46 fg=Attention bg=Sidebar|Surface bold reversed
+r5 c46..54 fg=Foreground bg=Sidebar|Surface bold
+r5 c54..60 fg=Attention bg=Sidebar|Surface bold reversed
+r5 c60..69 bg=Sidebar|Surface
+r5 c69..70 fg=Accent bg=Sidebar|Surface
+r6 c0..1 fg=Accent bg=Sidebar|Surface
+r6 c1..2 bg=Sidebar|Surface
+r6 c2..21 fg=Muted bg=Sidebar|Surface
+r6 c21..69 bg=Sidebar|Surface
+r6 c69..70 fg=Accent bg=Sidebar|Surface
+r7 c0..1 fg=Accent bg=Sidebar|Surface
+r7 c1..2 bg=Sidebar|Surface
+r7 c2..5 fg=Muted bg=Sidebar|Surface
+r7 c5..14 fg=Foreground bg=Sidebar|Surface
+r7 c14..69 bg=Sidebar|Surface
+r7 c69..70 fg=Accent bg=Sidebar|Surface
+r8 c0..1 fg=Accent bg=Sidebar|Surface
+r8 c1..69 bg=Sidebar|Surface
+r8 c69..70 fg=Accent bg=Sidebar|Surface
+r9 c0..1 fg=Accent bg=Sidebar|Surface
+r9 c1..2 bg=Sidebar|Surface
+r9 c2..3 fg=Accent bg=Sidebar|Surface bold
+r9 c3..4 fg=Foreground bg=Sidebar|Surface
+r9 c4..5 fg=Foreground bg=Sidebar|Surface bold
+r9 c5..16 fg=Foreground bg=Sidebar|Surface
+r9 c16..19 fg=Border bg=Sidebar|Surface
+r9 c19..20 fg=Accent bg=Sidebar|Surface bold
+r9 c20..21 fg=Foreground bg=Sidebar|Surface
+r9 c21..22 fg=Foreground bg=Sidebar|Surface bold
+r9 c22..45 fg=Foreground bg=Sidebar|Surface
+r9 c45..48 fg=Border bg=Sidebar|Surface
+r9 c48..49 fg=Accent bg=Selected bold
+r9 c49..50 fg=Foreground bg=Selected
+r9 c50..51 fg=Foreground bg=Selected bold
+r9 c51..52 fg=Foreground bg=Selected
+r9 c52..56 fg=Foreground bg=Selected bold
+r9 c56..69 bg=Sidebar|Surface
+r9 c69..70 fg=Accent bg=Sidebar|Surface
+r10 c0..1 fg=Accent bg=Sidebar|Surface
+r10 c1..2 bg=Sidebar|Surface
+r10 c2..3 fg=Accent bg=Sidebar|Surface bold
+r10 c3..4 fg=Foreground bg=Sidebar|Surface
+r10 c4..5 fg=Foreground bg=Sidebar|Surface bold
+r10 c5..22 fg=Foreground bg=Sidebar|Surface
+r10 c22..69 bg=Sidebar|Surface
+r10 c69..70 fg=Accent bg=Sidebar|Surface
+r11 c0..1 fg=Accent bg=Sidebar|Surface
+r11 c1..69 bg=Sidebar|Surface
+r11 c69..70 fg=Accent bg=Sidebar|Surface
+r12 c0..1 fg=Accent bg=Sidebar|Surface
+r12 c1..2 bg=Sidebar|Surface
+r12 c2..4 fg=Foreground bg=Sidebar|Surface bold
+r12 c4..5 bg=Sidebar|Surface
+r12 c5..9 fg=Muted bg=Sidebar|Surface
+r12 c9..12 fg=Border bg=Sidebar|Surface
+r12 c12..17 fg=Foreground bg=Sidebar|Surface bold
+r12 c17..18 bg=Sidebar|Surface
+r12 c18..24 fg=Muted bg=Sidebar|Surface
+r12 c24..27 fg=Border bg=Sidebar|Surface
+r12 c27..30 fg=Foreground bg=Sidebar|Surface bold
+r12 c30..31 bg=Sidebar|Surface
+r12 c31..37 fg=Muted bg=Sidebar|Surface
+r12 c37..69 bg=Sidebar|Surface
+r12 c69..70 fg=Accent bg=Sidebar|Surface
+r13 c0..1 fg=Accent bg=Sidebar|Surface
+r13 c1..69 bg=Sidebar|Surface
+r13 c69..70 fg=Accent bg=Sidebar|Surface
+r14 c0..1 fg=Accent bg=Sidebar|Surface
+r14 c1..69 bg=Sidebar|Surface
+r14 c69..70 fg=Accent bg=Sidebar|Surface
+r15 c0..1 fg=Accent bg=Sidebar|Surface
+r15 c1..69 bg=Sidebar|Surface
+r15 c69..70 fg=Accent bg=Sidebar|Surface
+r16 c0..1 fg=Accent bg=Sidebar|Surface
+r16 c1..69 bg=Sidebar|Surface
+r16 c69..70 fg=Accent bg=Sidebar|Surface
+r17 c0..1 fg=Accent bg=Sidebar|Surface
+r17 c1..69 bg=Sidebar|Surface
+r17 c69..70 fg=Accent bg=Sidebar|Surface
+r18 c0..1 fg=Accent bg=Sidebar|Surface
+r18 c1..69 bg=Sidebar|Surface
+r18 c69..70 fg=Accent bg=Sidebar|Surface
+r19 c0..70 fg=Accent bg=Sidebar|Surface
 
 == ansi-16
 ╭────────────────────────────────────────────────────────────────────╮

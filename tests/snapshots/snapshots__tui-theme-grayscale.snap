@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -53,9 +54,9 @@ r7 c83..104 fg=Foreground|Danger bg=Selected
 r8 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r9 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r10 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r10 c1..8 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c1..8 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c8..27 fg=Foreground|Danger bg=Sidebar|Background
-r10 c27..36 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c27..36 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c36..53 fg=Foreground|Danger bg=Sidebar|Background
 r10 c53..62 fg=Muted|Live bg=Sidebar|Background
 r10 c62..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -76,7 +77,7 @@ r14 c46..70 fg=Foreground|Danger bg=Sidebar|Background
 r14 c70..81 fg=#ededed bg=Sidebar|Background
 r14 c81..104 fg=Foreground|Danger bg=Sidebar|Background
 r15 c0..104 fg=Foreground|Danger bg=Sidebar|Background
-r16 c0..39 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r16 c0..39 fg=BorderStrong|Accent bg=Sidebar|Background
 r16 c39..104 fg=Foreground|Danger bg=Sidebar|Background
 r17 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r18 c0..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -100,13 +101,13 @@ r20 c73..79 fg=Muted|Live bg=Sidebar|Background
 r20 c79..97 fg=Foreground|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r21 c1..34 fg=BorderStrong|Primary|Accent bg=Sidebar|Background bold
+r21 c1..34 fg=BorderStrong|Accent bg=Sidebar|Background bold
 r21 c34..102 fg=Muted|Live bg=Sidebar|Background
 r21 c102..104 fg=Foreground|Danger bg=Sidebar|Background
 r22 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r22 c1..102 fg=BorderStrong|Primary|Accent bg=Selected bold
+r22 c1..102 fg=BorderStrong|Accent bg=Selected bold
 r22 c102..103 fg=Foreground|Danger bg=Sidebar|Background
-r22 c103..104 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r22 c103..104 fg=BorderStrong|Accent bg=Sidebar|Background
 r23 c0..1 fg=Foreground|Danger bg=Sidebar|Background
 r23 c1..102 fg=Muted|Live bg=Sidebar|Background
 r23 c102..103 fg=Foreground|Danger bg=Sidebar|Background
@@ -163,9 +164,9 @@ r7 c83..104 fg=Foreground|Danger bg=Selected
 r8 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r9 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r10 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r10 c1..8 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c1..8 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c8..27 fg=Foreground|Danger bg=Sidebar|Background
-r10 c27..36 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c27..36 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c36..53 fg=Foreground|Danger bg=Sidebar|Background
 r10 c53..62 fg=Muted|Live bg=Sidebar|Background
 r10 c62..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -186,7 +187,7 @@ r14 c46..70 fg=Foreground|Danger bg=Sidebar|Background
 r14 c70..81 fg=#ededed bg=Sidebar|Background
 r14 c81..104 fg=Foreground|Danger bg=Sidebar|Background
 r15 c0..104 fg=Foreground|Danger bg=Sidebar|Background
-r16 c0..39 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r16 c0..39 fg=BorderStrong|Accent bg=Sidebar|Background
 r16 c39..104 fg=Foreground|Danger bg=Sidebar|Background
 r17 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r18 c0..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -210,13 +211,13 @@ r20 c73..79 fg=Muted|Live bg=Sidebar|Background
 r20 c79..97 fg=Foreground|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r21 c1..34 fg=BorderStrong|Primary|Accent bg=Sidebar|Background bold
+r21 c1..34 fg=BorderStrong|Accent bg=Sidebar|Background bold
 r21 c34..102 fg=Muted|Live bg=Sidebar|Background
 r21 c102..104 fg=Foreground|Danger bg=Sidebar|Background
 r22 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r22 c1..102 fg=BorderStrong|Primary|Accent bg=Selected bold
+r22 c1..102 fg=BorderStrong|Accent bg=Selected bold
 r22 c102..103 fg=Foreground|Danger bg=Sidebar|Background
-r22 c103..104 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r22 c103..104 fg=BorderStrong|Accent bg=Sidebar|Background
 r23 c0..1 fg=Foreground|Danger bg=Sidebar|Background
 r23 c1..102 fg=Muted|Live bg=Sidebar|Background
 r23 c102..103 fg=Foreground|Danger bg=Sidebar|Background
@@ -273,9 +274,9 @@ r7 c83..104 fg=Foreground|Danger bg=Selected
 r8 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r9 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r10 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r10 c1..8 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c1..8 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c8..27 fg=Foreground|Danger bg=Sidebar|Background
-r10 c27..36 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c27..36 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c36..53 fg=Foreground|Danger bg=Sidebar|Background
 r10 c53..62 fg=Muted|Live bg=Sidebar|Background
 r10 c62..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -296,7 +297,7 @@ r14 c46..70 fg=Foreground|Danger bg=Sidebar|Background
 r14 c70..81 fg=#ededed bg=Sidebar|Background
 r14 c81..104 fg=Foreground|Danger bg=Sidebar|Background
 r15 c0..104 fg=Foreground|Danger bg=Sidebar|Background
-r16 c0..39 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r16 c0..39 fg=BorderStrong|Accent bg=Sidebar|Background
 r16 c39..104 fg=Foreground|Danger bg=Sidebar|Background
 r17 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r18 c0..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -320,13 +321,13 @@ r20 c73..79 fg=Muted|Live bg=Sidebar|Background
 r20 c79..97 fg=Foreground|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r21 c1..34 fg=BorderStrong|Primary|Accent bg=Sidebar|Background bold
+r21 c1..34 fg=BorderStrong|Accent bg=Sidebar|Background bold
 r21 c34..102 fg=Muted|Live bg=Sidebar|Background
 r21 c102..104 fg=Foreground|Danger bg=Sidebar|Background
 r22 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r22 c1..102 fg=BorderStrong|Primary|Accent bg=Selected bold
+r22 c1..102 fg=BorderStrong|Accent bg=Selected bold
 r22 c102..103 fg=Foreground|Danger bg=Sidebar|Background
-r22 c103..104 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r22 c103..104 fg=BorderStrong|Accent bg=Sidebar|Background
 r23 c0..1 fg=Foreground|Danger bg=Sidebar|Background
 r23 c1..102 fg=Muted|Live bg=Sidebar|Background
 r23 c102..103 fg=Foreground|Danger bg=Sidebar|Background
@@ -383,9 +384,9 @@ r7 c83..104 fg=Foreground|Danger bg=Selected
 r8 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r9 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r10 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r10 c1..8 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c1..8 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c8..27 fg=Foreground|Danger bg=Sidebar|Background
-r10 c27..36 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c27..36 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c36..53 fg=Foreground|Danger bg=Sidebar|Background
 r10 c53..62 fg=Muted|Live bg=Sidebar|Background
 r10 c62..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -404,7 +405,7 @@ r14 c4..35 fg=Foreground|Danger bg=Sidebar|Background
 r14 c35..46 fg=Attention bg=Sidebar|Background
 r14 c46..104 fg=Foreground|Danger bg=Sidebar|Background
 r15 c0..104 fg=Foreground|Danger bg=Sidebar|Background
-r16 c0..39 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r16 c0..39 fg=BorderStrong|Accent bg=Sidebar|Background
 r16 c39..104 fg=Foreground|Danger bg=Sidebar|Background
 r17 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r18 c0..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -428,13 +429,13 @@ r20 c73..79 fg=Muted|Live bg=Sidebar|Background
 r20 c79..97 fg=Foreground|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r21 c1..34 fg=BorderStrong|Primary|Accent bg=Sidebar|Background bold
+r21 c1..34 fg=BorderStrong|Accent bg=Sidebar|Background bold
 r21 c34..102 fg=Muted|Live bg=Sidebar|Background
 r21 c102..104 fg=Foreground|Danger bg=Sidebar|Background
 r22 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r22 c1..102 fg=BorderStrong|Primary|Accent bg=Selected bold
+r22 c1..102 fg=BorderStrong|Accent bg=Selected bold
 r22 c102..103 fg=Foreground|Danger bg=Sidebar|Background
-r22 c103..104 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r22 c103..104 fg=BorderStrong|Accent bg=Sidebar|Background
 r23 c0..1 fg=Foreground|Danger bg=Sidebar|Background
 r23 c1..102 fg=Muted|Live bg=Sidebar|Background
 r23 c102..103 fg=Foreground|Danger bg=Sidebar|Background
@@ -491,9 +492,9 @@ r7 c83..104 fg=Foreground|Danger bg=Selected
 r8 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r9 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r10 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r10 c1..8 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c1..8 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c8..27 fg=Foreground|Danger bg=Sidebar|Background
-r10 c27..36 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r10 c27..36 fg=BorderStrong|Accent bg=Sidebar|Background
 r10 c36..53 fg=Foreground|Danger bg=Sidebar|Background
 r10 c53..62 fg=Muted|Live bg=Sidebar|Background
 r10 c62..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -512,7 +513,7 @@ r14 c4..35 fg=Foreground|Danger bg=Sidebar|Background
 r14 c35..46 fg=Attention bg=Sidebar|Background
 r14 c46..104 fg=Foreground|Danger bg=Sidebar|Background
 r15 c0..104 fg=Foreground|Danger bg=Sidebar|Background
-r16 c0..39 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r16 c0..39 fg=BorderStrong|Accent bg=Sidebar|Background
 r16 c39..104 fg=Foreground|Danger bg=Sidebar|Background
 r17 c0..104 fg=Foreground|Danger bg=Sidebar|Background
 r18 c0..104 fg=Foreground|Danger bg=Sidebar|Background
@@ -536,13 +537,13 @@ r20 c73..79 fg=Muted|Live bg=Sidebar|Background
 r20 c79..97 fg=Foreground|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r21 c1..34 fg=BorderStrong|Primary|Accent bg=Sidebar|Background bold
+r21 c1..34 fg=BorderStrong|Accent bg=Sidebar|Background bold
 r21 c34..102 fg=Muted|Live bg=Sidebar|Background
 r21 c102..104 fg=Foreground|Danger bg=Sidebar|Background
 r22 c0..1 fg=Foreground|Danger bg=Sidebar|Background
-r22 c1..102 fg=BorderStrong|Primary|Accent bg=Selected bold
+r22 c1..102 fg=BorderStrong|Accent bg=Selected bold
 r22 c102..103 fg=Foreground|Danger bg=Sidebar|Background
-r22 c103..104 fg=BorderStrong|Primary|Accent bg=Sidebar|Background
+r22 c103..104 fg=BorderStrong|Accent bg=Sidebar|Background
 r23 c0..1 fg=Foreground|Danger bg=Sidebar|Background
 r23 c1..102 fg=Muted|Live bg=Sidebar|Background
 r23 c102..103 fg=Foreground|Danger bg=Sidebar|Background

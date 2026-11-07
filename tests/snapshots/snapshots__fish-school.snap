@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -105,37 +106,6 @@ r7 c0..72 bg=Background
                                       ⠕⠪⠕⠂ ⠪⠪⠕⠂
 
 ---
-r0 c0..72 bg=Background
-r1 c0..72 bg=Background
-r2 c0..72 bg=Background
-r3 c0..72 bg=Background
-r4 c0..32 bg=Background
-r4 c32..36 fg=Hint bg=Background
-r4 c36..40 bg=Background
-r4 c40..48 fg=Hint bg=Background
-r4 c48..72 bg=Background
-r5 c0..35 bg=Background
-r5 c35..39 fg=Hint bg=Background
-r5 c39..49 bg=Background
-r5 c49..53 fg=Accent bg=Background
-r5 c53..72 bg=Background
-r6 c0..38 bg=Background
-r6 c38..42 fg=Hint bg=Background
-r6 c42..43 bg=Background
-r6 c43..47 fg=Hint bg=Background
-r6 c47..72 bg=Background
-r7 c0..72 bg=Background
-
-== light-256
-
-
-
-
-                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
-                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
-                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
-
----
 r0 c0..72 bg=Background|Surface
 r1 c0..72 bg=Background|Surface
 r2 c0..72 bg=Background|Surface
@@ -156,6 +126,37 @@ r6 c42..43 bg=Background|Surface
 r6 c43..47 fg=Hint bg=Background|Surface
 r6 c47..72 bg=Background|Surface
 r7 c0..72 bg=Background|Surface
+
+== light-256
+
+
+
+
+                                ⠪⠪⠕⠂    ⡰⢔⡢⠄⠐⡤⣒⠤
+                                   ⢢⢔⡢⠄          ⠕⠪⠕⠂
+                                      ⠕⠪⠕⠂ ⠪⠪⠕⠂
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..32 bg=Background
+r4 c32..36 fg=Hint bg=Background
+r4 c36..40 bg=Background
+r4 c40..48 fg=Hint bg=Background
+r4 c48..72 bg=Background
+r5 c0..35 bg=Background
+r5 c35..39 fg=Hint bg=Background
+r5 c39..49 bg=Background
+r5 c49..53 fg=Accent bg=Background
+r5 c53..72 bg=Background
+r6 c0..38 bg=Background
+r6 c38..42 fg=Hint bg=Background
+r6 c42..43 bg=Background
+r6 c43..47 fg=Hint bg=Background
+r6 c47..72 bg=Background
+r7 c0..72 bg=Background
 
 == ansi-16
 

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -59,23 +60,6 @@ r3 c2..40 fg=Foreground bg=Background
   Untitled
   A name with trailing words that run p…
 ---
-r0 c0..2 bg=Background
-r0 c2..40 fg=Foreground bg=Background
-r1 c0..1 fg=Accent bg=Selected
-r1 c1..2 bg=Selected
-r1 c2..40 fg=Foreground bg=Selected bold
-r2 c0..2 bg=Background
-r2 c2..10 fg=Foreground bg=Background
-r2 c10..40 bg=Background
-r3 c0..2 bg=Background
-r3 c2..40 fg=Foreground bg=Background
-
-== light-256
-  Refactor the session store so it keep…
-▸ src/components/receipt_table/cell_ali…
-  Untitled
-  A name with trailing words that run p…
----
 r0 c0..2 bg=Background|Surface
 r0 c2..40 fg=Foreground bg=Background|Surface
 r1 c0..1 fg=Accent bg=Selected
@@ -86,6 +70,23 @@ r2 c2..10 fg=Foreground bg=Background|Surface
 r2 c10..40 bg=Background|Surface
 r3 c0..2 bg=Background|Surface
 r3 c2..40 fg=Foreground bg=Background|Surface
+
+== light-256
+  Refactor the session store so it keep…
+▸ src/components/receipt_table/cell_ali…
+  Untitled
+  A name with trailing words that run p…
+---
+r0 c0..2 bg=Background
+r0 c2..40 fg=Foreground bg=Background
+r1 c0..1 fg=Accent bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..40 fg=Foreground bg=Selected bold
+r2 c0..2 bg=Background
+r2 c2..10 fg=Foreground bg=Background
+r2 c10..40 bg=Background
+r3 c0..2 bg=Background
+r3 c2..40 fg=Foreground bg=Background
 
 == ansi-16
   Refactor the session store so it keep…

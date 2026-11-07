@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -33,19 +34,19 @@ r1 c39..40 bg=Background
 Queued 2; next: Check the narrow layout
 Enter send now · ↑ edit · /queue drop 1
 ---
-r0 c0..39 fg=Dim bg=Background dim italic
-r0 c39..40 bg=Background
-r1 c0..39 fg=Dim bg=Background dim
-r1 c39..40 bg=Background
+r0 c0..39 fg=Dim bg=Background|Surface dim italic
+r0 c39..40 bg=Background|Surface
+r1 c0..39 fg=Dim bg=Background|Surface dim
+r1 c39..40 bg=Background|Surface
 
 == light-256
 Queued 2; next: Check the narrow layout
 Enter send now · ↑ edit · /queue drop 1
 ---
-r0 c0..39 fg=Dim bg=Background|Surface dim italic
-r0 c39..40 bg=Background|Surface
-r1 c0..39 fg=Dim bg=Background|Surface dim
-r1 c39..40 bg=Background|Surface
+r0 c0..39 fg=Dim bg=Background dim italic
+r0 c39..40 bg=Background
+r1 c0..39 fg=Dim bg=Background dim
+r1 c39..40 bg=Background
 
 == ansi-16
 Queued 2; next: Check the narrow layout

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -58,23 +59,6 @@ r2 c24..40 bg=Background
                         ▸ Selected
 patch applied to 3 files
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..6 fg=Foreground bg=Background
-r0 c6..40 bg=Background
-r1 c0..24 bg=Background
-r1 c24..25 fg=Accent bg=Background
-r1 c25..26 bg=Background
-r1 c26..34 fg=Foreground bg=Background
-r1 c34..40 bg=Background
-r2 c0..24 fg=Muted bg=Background
-r2 c24..40 bg=Background
-
-== light-256
-✓ Done
-                        ▸ Selected
-patch applied to 3 files
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..6 fg=Foreground bg=Background|Surface
@@ -86,6 +70,23 @@ r1 c26..34 fg=Foreground bg=Background|Surface
 r1 c34..40 bg=Background|Surface
 r2 c0..24 fg=Muted bg=Background|Surface
 r2 c24..40 bg=Background|Surface
+
+== light-256
+✓ Done
+                        ▸ Selected
+patch applied to 3 files
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..24 bg=Background
+r1 c24..25 fg=Accent bg=Background
+r1 c25..26 bg=Background
+r1 c26..34 fg=Foreground bg=Background
+r1 c34..40 bg=Background
+r2 c0..24 fg=Muted bg=Background
+r2 c24..40 bg=Background
 
 == ansi-16
 ✓ Done

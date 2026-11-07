@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -136,19 +137,19 @@ r1 c26..27 fg=Hint bg=Selected
 r1 c27..30 fg=Dim bg=Selected
 r1 c30..54 fg=Muted bg=Selected
 r1 c54..80 bg=Selected
-r2 c0..2 bg=Background
-r2 c2..14 fg=Foreground bg=Background
-r2 c14..70 bg=Background
-r2 c70..80 fg=Accent bg=Background
-r3 c0..2 bg=Background
-r3 c2..3 fg=Danger bg=Background
-r3 c3..4 bg=Background
-r3 c4..10 fg=Foreground bg=Background
-r3 c10..13 fg=Dim bg=Background
-r3 c13..16 fg=Muted bg=Background
-r3 c16..19 fg=Dim bg=Background
-r3 c19..45 fg=Muted bg=Background
-r3 c45..80 bg=Background
+r2 c0..2 bg=Background|Surface
+r2 c2..14 fg=Foreground bg=Background|Surface
+r2 c14..70 bg=Background|Surface
+r2 c70..80 fg=Accent bg=Background|Surface
+r3 c0..2 bg=Background|Surface
+r3 c2..3 fg=Danger bg=Background|Surface
+r3 c3..4 bg=Background|Surface
+r3 c4..10 fg=Foreground bg=Background|Surface
+r3 c10..13 fg=Dim bg=Background|Surface
+r3 c13..16 fg=Muted bg=Background|Surface
+r3 c16..19 fg=Dim bg=Background|Surface
+r3 c19..45 fg=Muted bg=Background|Surface
+r3 c45..80 bg=Background|Surface
 
 == light-256
 ▸ Imported report                                                        Inspect
@@ -173,19 +174,19 @@ r1 c26..27 fg=Hint bg=Selected
 r1 c27..30 fg=Dim bg=Selected
 r1 c30..54 fg=Muted bg=Selected
 r1 c54..80 bg=Selected
-r2 c0..2 bg=Background|Surface
-r2 c2..14 fg=Foreground bg=Background|Surface
-r2 c14..70 bg=Background|Surface
-r2 c70..80 fg=Accent bg=Background|Surface
-r3 c0..2 bg=Background|Surface
-r3 c2..3 fg=Danger bg=Background|Surface
-r3 c3..4 bg=Background|Surface
-r3 c4..10 fg=Foreground bg=Background|Surface
-r3 c10..13 fg=Dim bg=Background|Surface
-r3 c13..16 fg=Muted bg=Background|Surface
-r3 c16..19 fg=Dim bg=Background|Surface
-r3 c19..45 fg=Muted bg=Background|Surface
-r3 c45..80 bg=Background|Surface
+r2 c0..2 bg=Background
+r2 c2..14 fg=Foreground bg=Background
+r2 c14..70 bg=Background
+r2 c70..80 fg=Accent bg=Background
+r3 c0..2 bg=Background
+r3 c2..3 fg=Danger bg=Background
+r3 c3..4 bg=Background
+r3 c4..10 fg=Foreground bg=Background
+r3 c10..13 fg=Dim bg=Background
+r3 c13..16 fg=Muted bg=Background
+r3 c16..19 fg=Dim bg=Background
+r3 c19..45 fg=Muted bg=Background
+r3 c45..80 bg=Background
 
 == ansi-16
 ▸ Imported report                                                        Inspect

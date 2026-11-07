@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -64,24 +65,6 @@ The pure viewport keeps the banner pinned
 
 
 ---
-r0 c0..24 fg=Attention bg=Surface|Hover bold
-r0 c24..52 bg=Surface|Hover
-r1 c0..41 fg=Foreground bg=Surface|Hover
-r1 c41..52 bg=Surface|Hover
-r2 c0..41 fg=Foreground bg=Surface|Hover
-r2 c41..52 bg=Surface|Hover
-r3 c0..52 bg=Surface|Hover
-r4 c0..52 bg=Surface|Hover
-r5 c0..52 bg=Surface|Hover
-
-== light-256
-Worker: Builder | paused
-The host supplies the current source rows
-The pure viewport keeps the banner pinned
-
-
-
----
 r0 c0..24 fg=Attention bg=Background|Surface bold
 r0 c24..52 bg=Background|Surface
 r1 c0..41 fg=Foreground bg=Background|Surface
@@ -91,6 +74,24 @@ r2 c41..52 bg=Background|Surface
 r3 c0..52 bg=Background|Surface
 r4 c0..52 bg=Background|Surface
 r5 c0..52 bg=Background|Surface
+
+== light-256
+Worker: Builder | paused
+The host supplies the current source rows
+The pure viewport keeps the banner pinned
+
+
+
+---
+r0 c0..24 fg=Attention bg=Sidebar|Surface bold
+r0 c24..52 bg=Sidebar|Surface
+r1 c0..41 fg=Foreground bg=Sidebar|Surface
+r1 c41..52 bg=Sidebar|Surface
+r2 c0..41 fg=Foreground bg=Sidebar|Surface
+r2 c41..52 bg=Sidebar|Surface
+r3 c0..52 bg=Sidebar|Surface
+r4 c0..52 bg=Sidebar|Surface
+r5 c0..52 bg=Sidebar|Surface
 
 == ansi-16
 Worker: Builder | paused

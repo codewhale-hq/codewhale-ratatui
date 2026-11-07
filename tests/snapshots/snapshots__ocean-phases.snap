@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -40,22 +41,22 @@ r5 c2..9 fg=Foreground bg=#0e263d
 r5 c9..80 bg=#0e263d
 r6 c0..80 bg=#0d253b
 r7 c0..80 bg=#0d2439
-r8 c0..28 fg=Foreground bg=#1d2c3a bold
-r8 c28..80 bg=#1d2c3a
+r8 c0..28 fg=Foreground bg=#1e2d3b bold
+r8 c28..80 bg=#1e2d3b
 r9 c0..1 fg=Attention bg=#1d2b39
 r9 c1..2 bg=#1d2b39
 r9 c2..11 fg=Foreground bg=#1d2b39
 r9 c11..80 bg=#1d2b39
-r10 c0..80 bg=#1c2a37
-r11 c0..80 bg=#1b2835
-r12 c0..20 fg=Foreground bg=#1d2637 bold
-r12 c20..80 bg=#1d2637
-r13 c0..1 fg=Danger bg=#1d2635
-r13 c1..2 bg=#1d2635
-r13 c2..8 fg=Foreground bg=#1d2635
-r13 c8..80 bg=#1d2635
-r14 c0..80 bg=#1c2533
-r15 c0..80 bg=#1c2431
+r10 c0..80 bg=#1c2a38
+r11 c0..80 bg=#1b2936
+r12 c0..20 fg=Foreground bg=#1e2738 bold
+r12 c20..80 bg=#1e2738
+r13 c0..1 fg=Danger bg=#1e2736
+r13 c1..2 bg=#1e2736
+r13 c2..8 fg=Foreground bg=#1e2736
+r13 c8..80 bg=#1e2736
+r14 c0..80 bg=#1d2634
+r15 c0..80 bg=#1d2533
 r16 c0..27 fg=Foreground bg=#091a2b bold
 r16 c27..80 bg=#091a2b
 r17 c0..1 fg=Live bg=#081828
@@ -87,46 +88,46 @@ Done / completion at 320 ms
 
 
 ---
-r0 c0..21 fg=Foreground bg=#26272a bold
-r0 c21..80 bg=#26272a
-r1 c0..1 fg=Live bg=#26282a
-r1 c1..2 bg=#26282a
-r1 c2..9 fg=Foreground bg=#26282a
-r1 c9..80 bg=#26282a
-r2 c0..80 bg=#252628
-r3 c0..80 bg=#252628
-r4 c0..23 fg=Foreground bg=#252729 bold
-r4 c23..80 bg=#252729
-r5 c0..1 fg=Live bg=#242628
-r5 c1..2 bg=#242628
-r5 c2..9 fg=Foreground bg=#242628
-r5 c9..80 bg=#242628
-r6 c0..80 bg=#232527
-r7 c0..80 bg=#232527
-r8 c0..28 fg=Foreground bg=#322e2b bold
-r8 c28..80 bg=#322e2b
-r9 c0..1 fg=Attention bg=#312e2b
-r9 c1..2 bg=#312e2b
-r9 c2..11 fg=Foreground bg=#312e2b
-r9 c11..80 bg=#312e2b
-r10 c0..80 bg=#302c2a
-r11 c0..80 bg=#2f2c29
-r12 c0..20 fg=Foreground bg=#312b2c bold
-r12 c20..80 bg=#312b2c
-r13 c0..1 fg=Danger bg=#312b2c
-r13 c1..2 bg=#312b2c
-r13 c2..8 fg=Foreground bg=#312b2c
-r13 c8..80 bg=#312b2c
-r14 c0..80 bg=#302a2b
-r15 c0..80 bg=#2f292a
-r16 c0..27 fg=Foreground bg=#202224 bold
-r16 c27..80 bg=#202224
-r17 c0..1 fg=Live bg=#202224
-r17 c1..2 bg=#202224
-r17 c2..6 fg=Foreground bg=#202224
-r17 c6..80 bg=#202224
-r18 c0..80 bg=#1e1f22
-r19 c0..80 bg=#1e1f22
+r0 c0..21 fg=Foreground bg=#131518 bold
+r0 c21..80 bg=#131518
+r1 c0..1 fg=Live bg=#111316
+r1 c1..2 bg=#111316
+r1 c2..9 fg=Foreground bg=#111316
+r1 c9..80 bg=#111316
+r2 c0..80 bg=#111215
+r3 c0..80 bg=#0f1114
+r4 c0..23 fg=Foreground bg=#0f1014 bold
+r4 c23..80 bg=#0f1014
+r5 c0..1 fg=Live bg=#0e0f13
+r5 c1..2 bg=#0e0f13
+r5 c2..9 fg=Foreground bg=#0e0f13
+r5 c9..80 bg=#0e0f13
+r6 c0..80 bg=#0d0e12
+r7 c0..80 bg=#0b0d11
+r8 c0..28 fg=Foreground bg=#1b1917 bold
+r8 c28..80 bg=#1b1917
+r9 c0..1 fg=Attention bg=#191716
+r9 c1..2 bg=#191716
+r9 c2..11 fg=Foreground bg=#191716
+r9 c11..80 bg=#191716
+r10 c0..80 bg=#191614
+r11 c0..80 bg=#181614
+r12 c0..20 fg=Foreground bg=#1a1517 bold
+r12 c20..80 bg=#1a1517
+r13 c0..1 fg=Danger bg=#1a1517
+r13 c1..2 bg=#1a1517
+r13 c2..8 fg=Foreground bg=#1a1517
+r13 c8..80 bg=#1a1517
+r14 c0..80 bg=#191416
+r15 c0..80 bg=#191416
+r16 c0..27 fg=Foreground bg=#030609 bold
+r16 c27..80 bg=#030609
+r17 c0..1 fg=Live bg=#030609
+r17 c1..2 bg=#030609
+r17 c2..6 fg=Foreground bg=#030609
+r17 c6..80 bg=#030609
+r18 c0..80 bg=#030609
+r19 c0..80 bg=#030609
 
 == light-truecolor
 Working / quiet light
@@ -150,111 +151,48 @@ Done / completion at 320 ms
 
 
 ---
-r0 c0..21 fg=Foreground bg=#fbfafa bold
-r0 c21..80 bg=#fbfafa
-r1 c0..1 fg=Live bg=#fbfafa
-r1 c1..2 bg=#fbfafa
-r1 c2..9 fg=Foreground bg=#fbfafa
-r1 c9..80 bg=#fbfafa
-r2 c0..80 bg=#fbfaf8
-r3 c0..80 bg=#fbf9f8
-r4 c0..23 fg=Foreground bg=#f9f7f7 bold
-r4 c23..80 bg=#f9f7f7
-r5 c0..1 fg=Live bg=#f8f8f6
-r5 c1..2 bg=#f8f8f6
-r5 c2..9 fg=Foreground bg=#f8f8f6
-r5 c9..80 bg=#f8f8f6
-r6 c0..80 bg=#f8f7f5
-r7 c0..80 bg=#f8f7f5
-r8 c0..28 fg=Foreground bg=#efe9e2 bold
-r8 c28..80 bg=#efe9e2
-r9 c0..1 fg=Attention bg=#f0eae2
-r9 c1..2 bg=#f0eae2
-r9 c2..11 fg=Foreground bg=#f0eae2
-r9 c11..80 bg=#f0eae2
-r10 c0..80 bg=#efe9e1
-r11 c0..80 bg=#efe9e1
-r12 c0..20 fg=Foreground bg=#efe5e1 bold
-r12 c20..80 bg=#efe5e1
-r13 c0..1 fg=Danger bg=#efe4e1
-r13 c1..2 bg=#efe4e1
-r13 c2..8 fg=Foreground bg=#efe4e1
-r13 c8..80 bg=#efe4e1
-r14 c0..80 bg=#eee3df
-r15 c0..80 bg=#ede3df
-r16 c0..27 fg=Foreground bg=#f1eeed bold
-r16 c27..80 bg=#f1eeed
-r17 c0..1 fg=Live bg=#f1eeed
-r17 c1..2 bg=#f1eeed
-r17 c2..6 fg=Foreground bg=#f1eeed
-r17 c6..80 bg=#f1eeed
-r18 c0..80 bg=#efedeb
-r19 c0..80 bg=#efedeb
+r0 c0..21 fg=Foreground bg=#f8f7f1 bold
+r0 c21..80 bg=#f8f7f1
+r1 c0..1 fg=Live bg=#f8f6f1
+r1 c1..2 bg=#f8f6f1
+r1 c2..9 fg=Foreground bg=#f8f6f1
+r1 c9..80 bg=#f8f6f1
+r2 c0..80 bg=#f8f6ef
+r3 c0..80 bg=#f8f5ef
+r4 c0..23 fg=Foreground bg=#f6f4ef bold
+r4 c23..80 bg=#f6f4ef
+r5 c0..1 fg=Live bg=#f5f4ef
+r5 c1..2 bg=#f5f4ef
+r5 c2..9 fg=Foreground bg=#f5f4ef
+r5 c9..80 bg=#f5f4ef
+r6 c0..80 bg=#f5f4ed
+r7 c0..80 bg=#f5f3ed
+r8 c0..28 fg=Foreground bg=#ede7da bold
+r8 c28..80 bg=#ede7da
+r9 c0..1 fg=Attention bg=#ede7db
+r9 c1..2 bg=#ede7db
+r9 c2..11 fg=Foreground bg=#ede7db
+r9 c11..80 bg=#ede7db
+r10 c0..80 bg=#ece5d9
+r11 c0..80 bg=#ece6da
+r12 c0..20 fg=Foreground bg=#ede2db bold
+r12 c20..80 bg=#ede2db
+r13 c0..1 fg=Danger bg=#ece1db
+r13 c1..2 bg=#ece1db
+r13 c2..8 fg=Foreground bg=#ece1db
+r13 c8..80 bg=#ece1db
+r14 c0..80 bg=#ece1d9
+r15 c0..80 bg=#eadfd9
+r16 c0..27 fg=Foreground bg=#eeece9 bold
+r16 c27..80 bg=#eeece9
+r17 c0..1 fg=Live bg=#eeece9
+r17 c1..2 bg=#eeece9
+r17 c2..6 fg=Foreground bg=#eeece9
+r17 c6..80 bg=#eeece9
+r18 c0..80 bg=#eceae7
+r19 c0..80 bg=#eceae7
 
 == dark-256
-Working / quiet light
-● Working
-
-
-Verifying / quiet light
-● Working
-
-
-Approval / steady warm water
-◆ Needs you
-
-
-Failed / steady tint
-✕ Failed
-
-
-Done / completion at 320 ms
-✓ Done
-
-
----
-r0 c0..21 fg=Foreground bg=Background bold
-r0 c21..80 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..9 fg=Foreground bg=Background
-r1 c9..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..23 fg=Foreground bg=Background bold
-r4 c23..80 bg=Background
-r5 c0..1 fg=Live bg=Background
-r5 c1..2 bg=Background
-r5 c2..9 fg=Foreground bg=Background
-r5 c9..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..28 fg=Foreground bg=Background bold
-r8 c28..80 bg=Background
-r9 c0..1 fg=Attention bg=Background
-r9 c1..2 bg=Background
-r9 c2..11 fg=Foreground bg=Background
-r9 c11..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
-r12 c0..20 fg=Foreground bg=Background bold
-r12 c20..80 bg=Background
-r13 c0..1 fg=Danger bg=Background
-r13 c1..2 bg=Background
-r13 c2..8 fg=Foreground bg=Background
-r13 c8..80 bg=Background
-r14 c0..80 bg=Background
-r15 c0..80 bg=Background
-r16 c0..27 fg=Foreground bg=Background bold
-r16 c27..80 bg=Background
-r17 c0..1 fg=Live bg=Background
-r17 c1..2 bg=Background
-r17 c2..6 fg=Foreground bg=Background
-r17 c6..80 bg=Background
-r18 c0..80 bg=Background
-r19 c0..80 bg=Background
-
-== light-256
 Working / quiet light
 ● Working
 
@@ -316,6 +254,69 @@ r17 c2..6 fg=Foreground bg=Background|Surface
 r17 c6..80 bg=Background|Surface
 r18 c0..80 bg=Background|Surface
 r19 c0..80 bg=Background|Surface
+
+== light-256
+Working / quiet light
+● Working
+
+
+Verifying / quiet light
+● Working
+
+
+Approval / steady warm water
+◆ Needs you
+
+
+Failed / steady tint
+✕ Failed
+
+
+Done / completion at 320 ms
+✓ Done
+
+
+---
+r0 c0..21 fg=Foreground bg=Background bold
+r0 c21..80 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..9 fg=Foreground bg=Background
+r1 c9..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..23 fg=Foreground bg=Background bold
+r4 c23..80 bg=Background
+r5 c0..1 fg=Live bg=Background
+r5 c1..2 bg=Background
+r5 c2..9 fg=Foreground bg=Background
+r5 c9..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..80 bg=Background
+r8 c0..28 fg=Foreground bg=Background bold
+r8 c28..80 bg=Background
+r9 c0..1 fg=Attention bg=Background
+r9 c1..2 bg=Background
+r9 c2..11 fg=Foreground bg=Background
+r9 c11..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..20 fg=Foreground bg=Background bold
+r12 c20..80 bg=Background
+r13 c0..1 fg=Danger bg=Background
+r13 c1..2 bg=Background
+r13 c2..8 fg=Foreground bg=Background
+r13 c8..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
+r16 c0..27 fg=Foreground bg=Background bold
+r16 c27..80 bg=Background
+r17 c0..1 fg=Live bg=Background
+r17 c1..2 bg=Background
+r17 c2..6 fg=Foreground bg=Background
+r17 c6..80 bg=Background
+r18 c0..80 bg=Background
+r19 c0..80 bg=Background
 
 == ansi-16
 Working / quiet light

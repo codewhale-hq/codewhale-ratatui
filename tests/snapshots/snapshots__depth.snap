@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -174,63 +175,6 @@ r5 c40..60 bg=Surface
 r5 c60..80 fg=BorderStrong bg=Surface
 
 == dark-256
- Deep                Stage               Raised             ╭──────────────────╮
-                                                            │ Overlay          │
- Put away            Where work sits     A card             │ A decision       │
-                                                            │                  │
-                                                            │                  │
-                                                            ╰──────────────────╯
----
-r0 c0..1 bg=Sidebar
-r0 c1..5 fg=Foreground bg=Sidebar bold
-r0 c5..20 bg=Sidebar
-r0 c20..21 bg=Background
-r0 c21..26 fg=Foreground bg=Background bold
-r0 c26..40 bg=Background
-r0 c40..41 bg=Surface|Hover
-r0 c41..47 fg=Foreground bg=Surface|Hover bold
-r0 c47..60 bg=Surface|Hover
-r0 c60..80 fg=BorderStrong bg=Surface|Hover
-r1 c0..20 bg=Sidebar
-r1 c20..40 bg=Background
-r1 c40..60 bg=Surface|Hover
-r1 c60..61 fg=BorderStrong bg=Surface|Hover
-r1 c61..62 bg=Surface|Hover
-r1 c62..69 fg=Foreground bg=Surface|Hover bold
-r1 c69..79 bg=Surface|Hover
-r1 c79..80 fg=BorderStrong bg=Surface|Hover
-r2 c0..1 bg=Sidebar
-r2 c1..9 fg=Muted bg=Sidebar
-r2 c9..20 bg=Sidebar
-r2 c20..21 bg=Background
-r2 c21..36 fg=Muted bg=Background
-r2 c36..40 bg=Background
-r2 c40..41 bg=Surface|Hover
-r2 c41..47 fg=Muted bg=Surface|Hover
-r2 c47..60 bg=Surface|Hover
-r2 c60..61 fg=BorderStrong bg=Surface|Hover
-r2 c61..62 bg=Surface|Hover
-r2 c62..72 fg=Muted bg=Surface|Hover
-r2 c72..79 bg=Surface|Hover
-r2 c79..80 fg=BorderStrong bg=Surface|Hover
-r3 c0..20 bg=Sidebar
-r3 c20..40 bg=Background
-r3 c40..60 bg=Surface|Hover
-r3 c60..61 fg=BorderStrong bg=Surface|Hover
-r3 c61..79 bg=Surface|Hover
-r3 c79..80 fg=BorderStrong bg=Surface|Hover
-r4 c0..20 bg=Sidebar
-r4 c20..40 bg=Background
-r4 c40..60 bg=Surface|Hover
-r4 c60..61 fg=BorderStrong bg=Surface|Hover
-r4 c61..79 bg=Surface|Hover
-r4 c79..80 fg=BorderStrong bg=Surface|Hover
-r5 c0..20 bg=Sidebar
-r5 c20..40 bg=Background
-r5 c40..60 bg=Surface|Hover
-r5 c60..80 fg=BorderStrong bg=Surface|Hover
-
-== light-256
  Deep                Stage              ╭──────────────────╮╭──────────────────╮
                                         │ Raised           ││ Overlay          │
  Put away            Where work sits    │ A card           ││ A decision       │
@@ -244,16 +188,14 @@ r0 c5..20 bg=Sidebar
 r0 c20..21 bg=Background|Surface
 r0 c21..26 fg=Foreground bg=Background|Surface bold
 r0 c26..40 bg=Background|Surface
-r0 c40..60 fg=Border bg=Background|Surface
-r0 c60..80 fg=BorderStrong bg=Background|Surface
+r0 c40..80 fg=BorderStrong bg=Background|Surface
 r1 c0..20 bg=Sidebar
 r1 c20..40 bg=Background|Surface
-r1 c40..41 fg=Border bg=Background|Surface
+r1 c40..41 fg=BorderStrong bg=Background|Surface
 r1 c41..42 bg=Background|Surface
 r1 c42..48 fg=Foreground bg=Background|Surface bold
 r1 c48..59 bg=Background|Surface
-r1 c59..60 fg=Border bg=Background|Surface
-r1 c60..61 fg=BorderStrong bg=Background|Surface
+r1 c59..61 fg=BorderStrong bg=Background|Surface
 r1 c61..62 bg=Background|Surface
 r1 c62..69 fg=Foreground bg=Background|Surface bold
 r1 c69..79 bg=Background|Surface
@@ -264,36 +206,91 @@ r2 c9..20 bg=Sidebar
 r2 c20..21 bg=Background|Surface
 r2 c21..36 fg=Muted bg=Background|Surface
 r2 c36..40 bg=Background|Surface
-r2 c40..41 fg=Border bg=Background|Surface
+r2 c40..41 fg=BorderStrong bg=Background|Surface
 r2 c41..42 bg=Background|Surface
 r2 c42..48 fg=Muted bg=Background|Surface
 r2 c48..59 bg=Background|Surface
-r2 c59..60 fg=Border bg=Background|Surface
-r2 c60..61 fg=BorderStrong bg=Background|Surface
+r2 c59..61 fg=BorderStrong bg=Background|Surface
 r2 c61..62 bg=Background|Surface
 r2 c62..72 fg=Muted bg=Background|Surface
 r2 c72..79 bg=Background|Surface
 r2 c79..80 fg=BorderStrong bg=Background|Surface
 r3 c0..20 bg=Sidebar
 r3 c20..40 bg=Background|Surface
-r3 c40..41 fg=Border bg=Background|Surface
+r3 c40..41 fg=BorderStrong bg=Background|Surface
 r3 c41..59 bg=Background|Surface
-r3 c59..60 fg=Border bg=Background|Surface
-r3 c60..61 fg=BorderStrong bg=Background|Surface
+r3 c59..61 fg=BorderStrong bg=Background|Surface
 r3 c61..79 bg=Background|Surface
 r3 c79..80 fg=BorderStrong bg=Background|Surface
 r4 c0..20 bg=Sidebar
 r4 c20..40 bg=Background|Surface
-r4 c40..41 fg=Border bg=Background|Surface
+r4 c40..41 fg=BorderStrong bg=Background|Surface
 r4 c41..59 bg=Background|Surface
-r4 c59..60 fg=Border bg=Background|Surface
-r4 c60..61 fg=BorderStrong bg=Background|Surface
+r4 c59..61 fg=BorderStrong bg=Background|Surface
 r4 c61..79 bg=Background|Surface
 r4 c79..80 fg=BorderStrong bg=Background|Surface
 r5 c0..20 bg=Sidebar
 r5 c20..40 bg=Background|Surface
-r5 c40..60 fg=Border bg=Background|Surface
-r5 c60..80 fg=BorderStrong bg=Background|Surface
+r5 c40..80 fg=BorderStrong bg=Background|Surface
+
+== light-256
+ Deep                Stage              ╭──────────────────╮╭──────────────────╮
+                                        │ Raised           ││ Overlay          │
+ Put away            Where work sits    │ A card           ││ A decision       │
+                                        │                  ││                  │
+                                        │                  ││                  │
+                                        ╰──────────────────╯╰──────────────────╯
+---
+r0 c0..1 bg=Sidebar|Surface
+r0 c1..5 fg=Foreground bg=Sidebar|Surface bold
+r0 c5..20 bg=Sidebar|Surface
+r0 c20..21 bg=Background
+r0 c21..26 fg=Foreground bg=Background bold
+r0 c26..40 bg=Background
+r0 c40..80 fg=BorderStrong bg=Sidebar|Surface
+r1 c0..20 bg=Sidebar|Surface
+r1 c20..40 bg=Background
+r1 c40..41 fg=BorderStrong bg=Sidebar|Surface
+r1 c41..42 bg=Sidebar|Surface
+r1 c42..48 fg=Foreground bg=Sidebar|Surface bold
+r1 c48..59 bg=Sidebar|Surface
+r1 c59..61 fg=BorderStrong bg=Sidebar|Surface
+r1 c61..62 bg=Sidebar|Surface
+r1 c62..69 fg=Foreground bg=Sidebar|Surface bold
+r1 c69..79 bg=Sidebar|Surface
+r1 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r2 c0..1 bg=Sidebar|Surface
+r2 c1..9 fg=Muted bg=Sidebar|Surface
+r2 c9..20 bg=Sidebar|Surface
+r2 c20..21 bg=Background
+r2 c21..36 fg=Muted bg=Background
+r2 c36..40 bg=Background
+r2 c40..41 fg=BorderStrong bg=Sidebar|Surface
+r2 c41..42 bg=Sidebar|Surface
+r2 c42..48 fg=Muted bg=Sidebar|Surface
+r2 c48..59 bg=Sidebar|Surface
+r2 c59..61 fg=BorderStrong bg=Sidebar|Surface
+r2 c61..62 bg=Sidebar|Surface
+r2 c62..72 fg=Muted bg=Sidebar|Surface
+r2 c72..79 bg=Sidebar|Surface
+r2 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r3 c0..20 bg=Sidebar|Surface
+r3 c20..40 bg=Background
+r3 c40..41 fg=BorderStrong bg=Sidebar|Surface
+r3 c41..59 bg=Sidebar|Surface
+r3 c59..61 fg=BorderStrong bg=Sidebar|Surface
+r3 c61..79 bg=Sidebar|Surface
+r3 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r4 c0..20 bg=Sidebar|Surface
+r4 c20..40 bg=Background
+r4 c40..41 fg=BorderStrong bg=Sidebar|Surface
+r4 c41..59 bg=Sidebar|Surface
+r4 c59..61 fg=BorderStrong bg=Sidebar|Surface
+r4 c61..79 bg=Sidebar|Surface
+r4 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r5 c0..20 bg=Sidebar|Surface
+r5 c20..40 bg=Background
+r5 c40..80 fg=BorderStrong bg=Sidebar|Surface
 
 == ansi-16
  Deep                Stage              ╭──────────────────╮╭──────────────────╮

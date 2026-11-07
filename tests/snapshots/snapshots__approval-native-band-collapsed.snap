@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -34,8 +35,8 @@ r2 c0..35 fg=Accent
 
  Run checks — command [Tab expand]
 ---
-r0 c0..70 bg=Background
-r1 c0..70 bg=Background
+r0 c0..70 bg=Background|Surface
+r1 c0..70 bg=Background|Surface
 r2 c0..35 fg=Accent
 
 == light-256
@@ -43,8 +44,8 @@ r2 c0..35 fg=Accent
 
  Run checks — command [Tab expand]
 ---
-r0 c0..70 bg=Background|Surface
-r1 c0..70 bg=Background|Surface
+r0 c0..70 bg=Background
+r1 c0..70 bg=Background
 r2 c0..35 fg=Accent
 
 == ansi-16

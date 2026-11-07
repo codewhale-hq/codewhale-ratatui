@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -117,43 +118,6 @@ r1 c33..60 bg=Background
 ↑↓ move · Enter change · / search · Esc close · ? more
 Enter change · Esc close · ? more
 ---
-r0 c0..2 fg=Foreground bg=Background bold
-r0 c2..3 bg=Background
-r0 c3..7 fg=Muted bg=Background
-r0 c7..10 fg=Border bg=Background
-r0 c10..15 fg=Foreground bg=Background bold
-r0 c15..16 bg=Background
-r0 c16..22 fg=Muted bg=Background
-r0 c22..25 fg=Border bg=Background
-r0 c25..26 fg=Foreground bg=Background bold
-r0 c26..27 bg=Background
-r0 c27..33 fg=Muted bg=Background
-r0 c33..36 fg=Border bg=Background
-r0 c36..39 fg=Foreground bg=Background bold
-r0 c39..40 bg=Background
-r0 c40..45 fg=Muted bg=Background
-r0 c45..48 fg=Border bg=Background
-r0 c48..49 fg=Foreground bg=Background bold
-r0 c49..50 bg=Background
-r0 c50..54 fg=Muted bg=Background
-r0 c54..60 bg=Background
-r1 c0..5 fg=Foreground bg=Background bold
-r1 c5..6 bg=Background
-r1 c6..12 fg=Muted bg=Background
-r1 c12..15 fg=Border bg=Background
-r1 c15..18 fg=Foreground bg=Background bold
-r1 c18..19 bg=Background
-r1 c19..24 fg=Muted bg=Background
-r1 c24..27 fg=Border bg=Background
-r1 c27..28 fg=Foreground bg=Background bold
-r1 c28..29 bg=Background
-r1 c29..33 fg=Muted bg=Background
-r1 c33..60 bg=Background
-
-== light-256
-↑↓ move · Enter change · / search · Esc close · ? more
-Enter change · Esc close · ? more
----
 r0 c0..2 fg=Foreground bg=Background|Surface bold
 r0 c2..3 bg=Background|Surface
 r0 c3..7 fg=Muted bg=Background|Surface
@@ -186,6 +150,43 @@ r1 c27..28 fg=Foreground bg=Background|Surface bold
 r1 c28..29 bg=Background|Surface
 r1 c29..33 fg=Muted bg=Background|Surface
 r1 c33..60 bg=Background|Surface
+
+== light-256
+↑↓ move · Enter change · / search · Esc close · ? more
+Enter change · Esc close · ? more
+---
+r0 c0..2 fg=Foreground bg=Background bold
+r0 c2..3 bg=Background
+r0 c3..7 fg=Muted bg=Background
+r0 c7..10 fg=Border bg=Background
+r0 c10..15 fg=Foreground bg=Background bold
+r0 c15..16 bg=Background
+r0 c16..22 fg=Muted bg=Background
+r0 c22..25 fg=Border bg=Background
+r0 c25..26 fg=Foreground bg=Background bold
+r0 c26..27 bg=Background
+r0 c27..33 fg=Muted bg=Background
+r0 c33..36 fg=Border bg=Background
+r0 c36..39 fg=Foreground bg=Background bold
+r0 c39..40 bg=Background
+r0 c40..45 fg=Muted bg=Background
+r0 c45..48 fg=Border bg=Background
+r0 c48..49 fg=Foreground bg=Background bold
+r0 c49..50 bg=Background
+r0 c50..54 fg=Muted bg=Background
+r0 c54..60 bg=Background
+r1 c0..5 fg=Foreground bg=Background bold
+r1 c5..6 bg=Background
+r1 c6..12 fg=Muted bg=Background
+r1 c12..15 fg=Border bg=Background
+r1 c15..18 fg=Foreground bg=Background bold
+r1 c18..19 bg=Background
+r1 c19..24 fg=Muted bg=Background
+r1 c24..27 fg=Border bg=Background
+r1 c27..28 fg=Foreground bg=Background bold
+r1 c28..29 bg=Background
+r1 c29..33 fg=Muted bg=Background
+r1 c33..60 bg=Background
 
 == ansi-16
 ↑↓ move · Enter change · / search · Esc close · ? more

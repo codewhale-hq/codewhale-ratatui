@@ -72,7 +72,7 @@ struct Screen<'a> {
 impl Paint for Screen<'_> {
     fn paint(&self, area: Rect, buf: &mut Buffer, theme: &Theme) {
         let area = area.intersection(buf.area);
-        buf.set_style(area, theme.fg(Role::Primary));
+        buf.set_style(area, theme.fg(Role::Foreground));
         if area.height < 4 {
             return;
         }
@@ -98,7 +98,7 @@ impl Paint for Screen<'_> {
                 if self.reduced { " / still" } else { "" }
             ),
             usize::from(area.width),
-            theme.fg(Role::Primary),
+            theme.fg(Role::Foreground),
         );
         buf.set_stringn(
             area.x,

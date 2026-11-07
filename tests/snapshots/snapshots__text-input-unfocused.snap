@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -36,21 +37,21 @@ r1 c16..40 bg=Surface
 Name
   nightly-report
 ---
-r0 c0..4 fg=Foreground bg=Background
-r0 c4..40 bg=Background
-r1 c0..2 bg=Surface|Hover
-r1 c2..16 fg=Foreground bg=Surface|Hover
-r1 c16..40 bg=Surface|Hover
-
-== light-256
-Name
-  nightly-report
----
 r0 c0..4 fg=Foreground bg=Background|Surface
 r0 c4..40 bg=Background|Surface
 r1 c0..2 bg=Background|Surface
 r1 c2..16 fg=Foreground bg=Background|Surface
 r1 c16..40 bg=Background|Surface
+
+== light-256
+Name
+  nightly-report
+---
+r0 c0..4 fg=Foreground bg=Background
+r0 c4..40 bg=Background
+r1 c0..2 bg=Sidebar|Surface
+r1 c2..16 fg=Foreground bg=Sidebar|Surface
+r1 c16..40 bg=Sidebar|Surface
 
 == ansi-16
 Name

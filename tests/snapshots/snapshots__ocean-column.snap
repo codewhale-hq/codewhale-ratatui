@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -74,31 +75,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=#26272a bold
-r0 c24..63 bg=#26272a
-r0 c63..80 fg=Muted bg=#26272a
-r1 c0..80 bg=#26282a
-r2 c0..1 fg=Accent bg=#252628
-r2 c1..2 bg=#252628
-r2 c2..5 fg=Accent bg=#252628 bold
-r2 c5..80 bg=#252628
-r3 c0..2 fg=Border bg=#252628
-r3 c2..39 fg=Foreground bg=#252628
-r3 c39..80 bg=#252628
-r4 c0..80 bg=#242527
-r5 c0..80 bg=#232426
-r6 c0..1 fg=Foreground bg=#232426
-r6 c1..2 bg=#232426
-r6 c2..11 fg=Foreground bg=#232426 bold
-r6 c11..80 bg=#232426
-r7 c0..2 fg=Border bg=#222325
-r7 c2..48 fg=Foreground bg=#222325
-r7 c48..80 bg=#222325
-r8 c0..80 bg=#212224
-r9 c0..80 bg=Background
+r0 c0..24 fg=Foreground bg=#131518 bold
+r0 c24..63 bg=#131518
+r0 c63..80 fg=Muted bg=#131518
+r1 c0..80 bg=#111316
+r2 c0..1 fg=Accent bg=#101114
+r2 c1..2 bg=#101114
+r2 c2..5 fg=Accent bg=#101114 bold
+r2 c5..80 bg=#101114
+r3 c0..2 fg=Border bg=#0e1013
+r3 c2..39 fg=Foreground bg=#0e1013
+r3 c39..80 bg=#0e1013
+r4 c0..80 bg=#0d0e11
+r5 c0..80 bg=#0b0d10
+r6 c0..1 fg=Foreground bg=#0a0b0f
+r6 c1..2 bg=#0a0b0f
+r6 c2..11 fg=Foreground bg=#0a0b0f bold
+r6 c11..80 bg=#0a0b0f
+r7 c0..2 fg=Border bg=#090a0e
+r7 c2..48 fg=Foreground bg=#090a0e
+r7 c48..80 bg=#090a0e
+r8 c0..80 bg=#07090d
+r9 c0..80 bg=#06090c
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=#1f2023
+r11 c0..80 bg=#05080b
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -128,31 +129,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=#fbfafa bold
-r0 c24..63 bg=#fbfafa
-r0 c63..80 fg=Muted bg=#fbfafa
-r1 c0..80 bg=#fbfafa
-r2 c0..1 fg=Accent bg=#fbf9f8
-r2 c1..2 bg=#fbf9f8
-r2 c2..5 fg=Accent bg=#fbf9f8 bold
-r2 c5..80 bg=#fbf9f8
-r3 c0..2 fg=Border bg=#faf8f8
-r3 c2..39 fg=Foreground bg=#faf8f8
-r3 c39..80 bg=#faf8f8
-r4 c0..80 bg=#f9f8f7
-r5 c0..80 bg=#f9f7f5
-r6 c0..1 fg=Foreground bg=#f8f7f4
-r6 c1..2 bg=#f8f7f4
-r6 c2..11 fg=Foreground bg=#f8f7f4 bold
-r6 c11..80 bg=#f8f7f4
-r7 c0..2 fg=Border bg=#f8f6f4
-r7 c2..48 fg=Foreground bg=#f8f6f4
-r7 c48..80 bg=#f8f6f4
-r8 c0..80 bg=#f7f5f2
-r9 c0..80 bg=#f6f4f2
+r0 c0..24 fg=Foreground bg=#f8f7f1 bold
+r0 c24..63 bg=#f8f7f1
+r0 c63..80 fg=Muted bg=#f8f7f1
+r1 c0..80 bg=#f8f6f1
+r2 c0..1 fg=Accent bg=#f8f5ef
+r2 c1..2 bg=#f8f5ef
+r2 c2..5 fg=Accent bg=#f8f5ef bold
+r2 c5..80 bg=#f8f5ef
+r3 c0..2 fg=Border bg=#f7f4ef
+r3 c2..39 fg=Foreground bg=#f7f4ef
+r3 c39..80 bg=#f7f4ef
+r4 c0..80 bg=#f6f4ef
+r5 c0..80 bg=#f6f4ed
+r6 c0..1 fg=Foreground bg=#f5f3ed
+r6 c1..2 bg=#f5f3ed
+r6 c2..11 fg=Foreground bg=#f5f3ed bold
+r6 c11..80 bg=#f5f3ed
+r7 c0..2 fg=Border bg=#f5f3ed
+r7 c2..48 fg=Foreground bg=#f5f3ed
+r7 c48..80 bg=#f5f3ed
+r8 c0..80 bg=#f4f1eb
+r9 c0..80 bg=#f4f1eb
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=#f5f2ef
+r11 c0..80 bg=#f3f0e9
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -165,60 +166,6 @@ r14 c0..80 bg=Surface
 r15 c0..80 bg=Surface
 
 == dark-256
-Codewhale / native ocean                                       Working / fixture
-
-● You
-▏ Keep the code and the decision clear.
-
-
-● Codewhale
-▏ One continuous column behind the conversation.
-
-
-Selected / src/ocean.rs
-
- Semantic surface / own ground
- ● Working
-
-
----
-r0 c0..24 fg=Foreground bg=Background bold
-r0 c24..63 bg=Background
-r0 c63..80 fg=Muted bg=Background
-r1 c0..80 bg=Background
-r2 c0..1 fg=Accent bg=Background
-r2 c1..2 bg=Background
-r2 c2..5 fg=Accent bg=Background bold
-r2 c5..80 bg=Background
-r3 c0..2 fg=Border bg=Background
-r3 c2..39 fg=Foreground bg=Background
-r3 c39..80 bg=Background
-r4 c0..80 bg=Background
-r5 c0..80 bg=Background
-r6 c0..1 fg=Foreground bg=Background
-r6 c1..2 bg=Background
-r6 c2..11 fg=Foreground bg=Background bold
-r6 c11..80 bg=Background
-r7 c0..2 fg=Border bg=Background
-r7 c2..48 fg=Foreground bg=Background
-r7 c48..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
-r10 c0..23 fg=Muted bg=Selected
-r10 c23..80 bg=Selected
-r11 c0..80 bg=Background
-r12 c0..1 bg=Surface|Hover
-r12 c1..30 fg=Foreground bg=Surface|Hover bold
-r12 c30..80 bg=Surface|Hover
-r13 c0..1 bg=Surface|Hover
-r13 c1..2 fg=Live bg=Surface|Hover
-r13 c2..3 bg=Surface|Hover
-r13 c3..10 fg=Foreground bg=Surface|Hover
-r13 c10..80 bg=Surface|Hover
-r14 c0..80 bg=Surface|Hover
-r15 c0..80 bg=Surface|Hover
-
-== light-256
 Codewhale / native ocean                                       Working / fixture
 
 ● You
@@ -261,20 +208,78 @@ r9 c0..80 bg=Background|Surface
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
 r11 c0..80 bg=Background|Surface
-r12 c0..80 fg=Border bg=Background|Surface
-r13 c0..1 fg=Border bg=Background|Surface
+r12 c0..80 fg=BorderStrong bg=Background|Surface
+r13 c0..1 fg=BorderStrong bg=Background|Surface
 r13 c1..2 bg=Background|Surface
 r13 c2..31 fg=Foreground bg=Background|Surface bold
 r13 c31..79 bg=Background|Surface
-r13 c79..80 fg=Border bg=Background|Surface
-r14 c0..1 fg=Border bg=Background|Surface
+r13 c79..80 fg=BorderStrong bg=Background|Surface
+r14 c0..1 fg=BorderStrong bg=Background|Surface
 r14 c1..2 bg=Background|Surface
 r14 c2..3 fg=Live bg=Background|Surface
 r14 c3..4 bg=Background|Surface
 r14 c4..11 fg=Foreground bg=Background|Surface
 r14 c11..79 bg=Background|Surface
-r14 c79..80 fg=Border bg=Background|Surface
-r15 c0..80 fg=Border bg=Background|Surface
+r14 c79..80 fg=BorderStrong bg=Background|Surface
+r15 c0..80 fg=BorderStrong bg=Background|Surface
+
+== light-256
+Codewhale / native ocean                                       Working / fixture
+
+● You
+▏ Keep the code and the decision clear.
+
+
+● Codewhale
+▏ One continuous column behind the conversation.
+
+
+Selected / src/ocean.rs
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ Semantic surface / own ground                                                │
+│ ● Working                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+---
+r0 c0..24 fg=Foreground bg=Background bold
+r0 c24..63 bg=Background
+r0 c63..80 fg=Muted bg=Background
+r1 c0..80 bg=Background
+r2 c0..1 fg=Accent bg=Background
+r2 c1..2 bg=Background
+r2 c2..5 fg=Accent bg=Background bold
+r2 c5..80 bg=Background
+r3 c0..2 fg=Border bg=Background
+r3 c2..39 fg=Foreground bg=Background
+r3 c39..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
+r6 c0..1 fg=Foreground bg=Background
+r6 c1..2 bg=Background
+r6 c2..11 fg=Foreground bg=Background bold
+r6 c11..80 bg=Background
+r7 c0..2 fg=Border bg=Background
+r7 c2..48 fg=Foreground bg=Background
+r7 c48..80 bg=Background
+r8 c0..80 bg=Background
+r9 c0..80 bg=Background
+r10 c0..23 fg=Muted bg=Selected
+r10 c23..80 bg=Selected
+r11 c0..80 bg=Background
+r12 c0..80 fg=BorderStrong bg=Sidebar|Surface
+r13 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r13 c1..2 bg=Sidebar|Surface
+r13 c2..31 fg=Foreground bg=Sidebar|Surface bold
+r13 c31..79 bg=Sidebar|Surface
+r13 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r14 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r14 c1..2 bg=Sidebar|Surface
+r14 c2..3 fg=Live bg=Sidebar|Surface
+r14 c3..4 bg=Sidebar|Surface
+r14 c4..11 fg=Foreground bg=Sidebar|Surface
+r14 c11..79 bg=Sidebar|Surface
+r14 c79..80 fg=BorderStrong bg=Sidebar|Surface
+r15 c0..80 fg=BorderStrong bg=Sidebar|Surface
 
 == ansi-16
 Codewhale / native ocean                                       Working / fixture

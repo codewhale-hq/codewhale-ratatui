@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -93,35 +94,6 @@ r1 c9..60 bg=Background
 ↑↓ move · Enter change · r reset · / search · Ctrl+S save
 Esc close
 ---
-r0 c0..2 fg=Foreground bg=Background bold
-r0 c2..3 bg=Background
-r0 c3..7 fg=Muted bg=Background
-r0 c7..10 fg=Border bg=Background
-r0 c10..15 fg=Foreground bg=Background bold
-r0 c15..16 bg=Background
-r0 c16..22 fg=Muted bg=Background
-r0 c22..25 fg=Border bg=Background
-r0 c25..26 fg=Foreground bg=Background bold
-r0 c26..27 bg=Background
-r0 c27..32 fg=Muted bg=Background
-r0 c32..35 fg=Border bg=Background
-r0 c35..36 fg=Foreground bg=Background bold
-r0 c36..37 bg=Background
-r0 c37..43 fg=Muted bg=Background
-r0 c43..46 fg=Border bg=Background
-r0 c46..52 fg=Muted bg=Background
-r0 c52..53 bg=Background
-r0 c53..57 fg=Muted bg=Background dim
-r0 c57..60 bg=Background
-r1 c0..3 fg=Foreground bg=Background bold
-r1 c3..4 bg=Background
-r1 c4..9 fg=Muted bg=Background
-r1 c9..60 bg=Background
-
-== light-256
-↑↓ move · Enter change · r reset · / search · Ctrl+S save
-Esc close
----
 r0 c0..2 fg=Foreground bg=Background|Surface bold
 r0 c2..3 bg=Background|Surface
 r0 c3..7 fg=Muted bg=Background|Surface
@@ -146,6 +118,35 @@ r1 c0..3 fg=Foreground bg=Background|Surface bold
 r1 c3..4 bg=Background|Surface
 r1 c4..9 fg=Muted bg=Background|Surface
 r1 c9..60 bg=Background|Surface
+
+== light-256
+↑↓ move · Enter change · r reset · / search · Ctrl+S save
+Esc close
+---
+r0 c0..2 fg=Foreground bg=Background bold
+r0 c2..3 bg=Background
+r0 c3..7 fg=Muted bg=Background
+r0 c7..10 fg=Border bg=Background
+r0 c10..15 fg=Foreground bg=Background bold
+r0 c15..16 bg=Background
+r0 c16..22 fg=Muted bg=Background
+r0 c22..25 fg=Border bg=Background
+r0 c25..26 fg=Foreground bg=Background bold
+r0 c26..27 bg=Background
+r0 c27..32 fg=Muted bg=Background
+r0 c32..35 fg=Border bg=Background
+r0 c35..36 fg=Foreground bg=Background bold
+r0 c36..37 bg=Background
+r0 c37..43 fg=Muted bg=Background
+r0 c43..46 fg=Border bg=Background
+r0 c46..52 fg=Muted bg=Background
+r0 c52..53 bg=Background
+r0 c53..57 fg=Muted bg=Background dim
+r0 c57..60 bg=Background
+r1 c0..3 fg=Foreground bg=Background bold
+r1 c3..4 bg=Background
+r1 c4..9 fg=Muted bg=Background
+r1 c9..60 bg=Background
 
 == ansi-16
 ↑↓ move · Enter change · r reset · / search · Ctrl+S save

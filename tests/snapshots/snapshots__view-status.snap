@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -34,7 +35,7 @@ r2 c0..90 bg=Background
 r3 c0..90 bg=Background
 r4 c0..13 bg=Background
 r4 c13..14 fg=Border bg=Background
-r4 c14..27 fg=Primary|Accent bg=Background bold
+r4 c14..27 fg=Accent bg=Background bold
 r4 c27..77 fg=Border bg=Background
 r4 c77..90 bg=Background
 r5 c0..13 bg=Background
@@ -132,19 +133,19 @@ r16 c78..90 bg=Background
 r17 c0..13 bg=Background
 r17 c13..14 fg=Border bg=Background
 r17 c14..15 bg=Background
-r17 c15..22 fg=Primary|Accent bg=Background bold
+r17 c15..22 fg=Accent bg=Background bold
 r17 c22..28 fg=Muted bg=Background
 r17 c28..29 bg=Background
-r17 c29..32 fg=Primary|Accent bg=Background bold
+r17 c29..32 fg=Accent bg=Background bold
 r17 c32..35 fg=Muted bg=Background
 r17 c35..36 bg=Background
-r17 c36..39 fg=Primary|Accent bg=Background bold
+r17 c36..39 fg=Accent bg=Background bold
 r17 c39..43 fg=Muted bg=Background
 r17 c43..44 bg=Background
-r17 c44..51 fg=Primary|Accent bg=Background bold
+r17 c44..51 fg=Accent bg=Background bold
 r17 c51..55 fg=Muted bg=Background
 r17 c55..56 bg=Background
-r17 c56..61 fg=Primary|Accent bg=Background bold
+r17 c56..61 fg=Accent bg=Background bold
 r17 c61..67 fg=Muted bg=Background
 r17 c67..76 bg=Background
 r17 c76..77 fg=Border bg=Background
@@ -199,7 +200,7 @@ r2 c0..90 bg=Background
 r3 c0..90 bg=Background
 r4 c0..13 bg=Background
 r4 c13..14 fg=Border bg=Background
-r4 c14..27 fg=Primary|Accent bg=Background bold
+r4 c14..27 fg=Accent bg=Background bold
 r4 c27..77 fg=Border bg=Background
 r4 c77..90 bg=Background
 r5 c0..13 bg=Background
@@ -297,19 +298,19 @@ r16 c78..90 bg=Background
 r17 c0..13 bg=Background
 r17 c13..14 fg=Border bg=Background
 r17 c14..15 bg=Background
-r17 c15..22 fg=Primary|Accent bg=Background bold
+r17 c15..22 fg=Accent bg=Background bold
 r17 c22..28 fg=Muted bg=Background
 r17 c28..29 bg=Background
-r17 c29..32 fg=Primary|Accent bg=Background bold
+r17 c29..32 fg=Accent bg=Background bold
 r17 c32..35 fg=Muted bg=Background
 r17 c35..36 bg=Background
-r17 c36..39 fg=Primary|Accent bg=Background bold
+r17 c36..39 fg=Accent bg=Background bold
 r17 c39..43 fg=Muted bg=Background
 r17 c43..44 bg=Background
-r17 c44..51 fg=Primary|Accent bg=Background bold
+r17 c44..51 fg=Accent bg=Background bold
 r17 c51..55 fg=Muted bg=Background
 r17 c55..56 bg=Background
-r17 c56..61 fg=Primary|Accent bg=Background bold
+r17 c56..61 fg=Accent bg=Background bold
 r17 c61..67 fg=Muted bg=Background
 r17 c67..76 bg=Background
 r17 c76..77 fg=Border bg=Background
@@ -359,7 +360,7 @@ r23 c0..90 bg=Background
 
 ---
 r4 c13..14 fg=Border
-r4 c14..27 fg=Primary|Accent bold
+r4 c14..27 fg=Accent bold
 r4 c27..77 fg=Border
 r5 c13..14 fg=Border
 r5 c76..77 fg=Border
@@ -408,15 +409,15 @@ r16 c15..75 fg=Foreground
 r16 c76..77 fg=Border
 r16 c77..78 bg=Hover
 r17 c13..14 fg=Border
-r17 c15..22 fg=Primary|Accent bold
+r17 c15..22 fg=Accent bold
 r17 c22..28 fg=Muted
-r17 c29..32 fg=Primary|Accent bold
+r17 c29..32 fg=Accent bold
 r17 c32..35 fg=Muted
-r17 c36..39 fg=Primary|Accent bold
+r17 c36..39 fg=Accent bold
 r17 c39..43 fg=Muted
-r17 c44..51 fg=Primary|Accent bold
+r17 c44..51 fg=Accent bold
 r17 c51..55 fg=Muted
-r17 c56..61 fg=Primary|Accent bold
+r17 c56..61 fg=Accent bold
 r17 c61..67 fg=Muted
 r17 c76..77 fg=Border
 r17 c77..78 bg=Hover
@@ -459,7 +460,7 @@ r2 c0..90 bg=Background|DiffAddedTint
 r3 c0..90 bg=Background|DiffAddedTint
 r4 c0..13 bg=Background|DiffAddedTint
 r4 c13..14 fg=Border bg=Background|DiffAddedTint
-r4 c14..27 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r4 c14..27 fg=Accent bg=Background|DiffAddedTint bold
 r4 c27..77 fg=Border bg=Background|DiffAddedTint
 r4 c77..90 bg=Background|DiffAddedTint
 r5 c0..13 bg=Background|DiffAddedTint
@@ -557,19 +558,19 @@ r16 c78..90 bg=Background|DiffAddedTint
 r17 c0..13 bg=Background|DiffAddedTint
 r17 c13..14 fg=Border bg=Background|DiffAddedTint
 r17 c14..15 bg=Background|DiffAddedTint
-r17 c15..22 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r17 c15..22 fg=Accent bg=Background|DiffAddedTint bold
 r17 c22..28 fg=Muted bg=Background|DiffAddedTint
 r17 c28..29 bg=Background|DiffAddedTint
-r17 c29..32 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r17 c29..32 fg=Accent bg=Background|DiffAddedTint bold
 r17 c32..35 fg=Muted bg=Background|DiffAddedTint
 r17 c35..36 bg=Background|DiffAddedTint
-r17 c36..39 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r17 c36..39 fg=Accent bg=Background|DiffAddedTint bold
 r17 c39..43 fg=Muted bg=Background|DiffAddedTint
 r17 c43..44 bg=Background|DiffAddedTint
-r17 c44..51 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r17 c44..51 fg=Accent bg=Background|DiffAddedTint bold
 r17 c51..55 fg=Muted bg=Background|DiffAddedTint
 r17 c55..56 bg=Background|DiffAddedTint
-r17 c56..61 fg=Primary|Accent bg=Background|DiffAddedTint bold
+r17 c56..61 fg=Accent bg=Background|DiffAddedTint bold
 r17 c61..67 fg=Muted bg=Background|DiffAddedTint
 r17 c67..76 bg=Background|DiffAddedTint
 r17 c76..77 fg=Border bg=Background|DiffAddedTint
@@ -619,7 +620,7 @@ r23 c0..90 bg=Background|DiffAddedTint
 
 ---
 r4 c13..14 fg=Border
-r4 c14..27 fg=Primary|Accent bold
+r4 c14..27 fg=Accent bold
 r4 c27..77 fg=Border
 r5 c13..14 fg=Border
 r5 c76..77 fg=Border
@@ -668,15 +669,15 @@ r16 c15..75 fg=Foreground
 r16 c76..77 fg=Border
 r16 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r17 c13..14 fg=Border
-r17 c15..22 fg=Primary|Accent bold
+r17 c15..22 fg=Accent bold
 r17 c22..28 fg=Muted|Hint|Dim
-r17 c29..32 fg=Primary|Accent bold
+r17 c29..32 fg=Accent bold
 r17 c32..35 fg=Muted|Hint|Dim
-r17 c36..39 fg=Primary|Accent bold
+r17 c36..39 fg=Accent bold
 r17 c39..43 fg=Muted|Hint|Dim
-r17 c44..51 fg=Primary|Accent bold
+r17 c44..51 fg=Accent bold
 r17 c51..55 fg=Muted|Hint|Dim
-r17 c56..61 fg=Primary|Accent bold
+r17 c56..61 fg=Accent bold
 r17 c61..67 fg=Muted|Hint|Dim
 r17 c76..77 fg=Border
 r17 c77..78 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint

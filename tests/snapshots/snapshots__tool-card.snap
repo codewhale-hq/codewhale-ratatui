@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -129,46 +130,57 @@ r7 c0..64 bg=Surface
 r8 c0..64 bg=Surface
 
 == dark-256
- ✓ verify  Done  0.4s
- cargo test --test workspace
- ▏ transcript preserves authored lines: checked
- ▏ output preview counts hidden lines: checked
- ▏ fleet retains each agent's identity: checked
- 2 output lines not fully shown
-
-
-
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│ ✓ verify  Done  0.4s                                         │
+│ cargo test --test workspace                                  │
+│ ▏ transcript preserves authored lines: checked               │
+│ ▏ output preview counts hidden lines: checked                │
+│ 3 output lines not fully shown                               │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
 ---
-r0 c0..1 bg=Surface|Hover
-r0 c1..2 fg=Live bg=Surface|Hover
-r0 c2..3 bg=Surface|Hover
-r0 c3..9 fg=Foreground bg=Surface|Hover bold
-r0 c9..11 bg=Surface|Hover
-r0 c11..15 fg=Live bg=Surface|Hover
-r0 c15..17 bg=Surface|Hover
-r0 c17..21 fg=Muted bg=Surface|Hover
-r0 c21..64 bg=Surface|Hover
-r1 c0..1 bg=Surface|Hover
-r1 c1..28 fg=Accent bg=Surface|Hover
-r1 c28..64 bg=Surface|Hover
-r2 c0..1 bg=Surface|Hover
-r2 c1..3 fg=Border bg=Surface|Hover
-r2 c3..47 fg=Muted bg=Surface|Hover
-r2 c47..64 bg=Surface|Hover
-r3 c0..1 bg=Surface|Hover
-r3 c1..3 fg=Border bg=Surface|Hover
-r3 c3..46 fg=Muted bg=Surface|Hover
-r3 c46..64 bg=Surface|Hover
-r4 c0..1 bg=Surface|Hover
-r4 c1..3 fg=Border bg=Surface|Hover
-r4 c3..47 fg=Muted bg=Surface|Hover
-r4 c47..64 bg=Surface|Hover
-r5 c0..1 bg=Surface|Hover
-r5 c1..31 fg=Hint bg=Surface|Hover
-r5 c31..64 bg=Surface|Hover
-r6 c0..64 bg=Surface|Hover
-r7 c0..64 bg=Surface|Hover
-r8 c0..64 bg=Surface|Hover
+r0 c0..64 fg=BorderStrong bg=Background|Surface
+r1 c0..1 fg=BorderStrong bg=Background|Surface
+r1 c1..63 bg=Background|Surface
+r1 c63..64 fg=BorderStrong bg=Background|Surface
+r2 c0..1 fg=BorderStrong bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..3 fg=Live bg=Background|Surface
+r2 c3..4 bg=Background|Surface
+r2 c4..10 fg=Foreground bg=Background|Surface bold
+r2 c10..12 bg=Background|Surface
+r2 c12..16 fg=Live bg=Background|Surface
+r2 c16..18 bg=Background|Surface
+r2 c18..22 fg=Muted bg=Background|Surface
+r2 c22..63 bg=Background|Surface
+r2 c63..64 fg=BorderStrong bg=Background|Surface
+r3 c0..1 fg=BorderStrong bg=Background|Surface
+r3 c1..2 bg=Background|Surface
+r3 c2..29 fg=Accent bg=Background|Surface
+r3 c29..63 bg=Background|Surface
+r3 c63..64 fg=BorderStrong bg=Background|Surface
+r4 c0..1 fg=BorderStrong bg=Background|Surface
+r4 c1..2 bg=Background|Surface
+r4 c2..4 fg=Border bg=Background|Surface
+r4 c4..48 fg=Muted bg=Background|Surface
+r4 c48..63 bg=Background|Surface
+r4 c63..64 fg=BorderStrong bg=Background|Surface
+r5 c0..1 fg=BorderStrong bg=Background|Surface
+r5 c1..2 bg=Background|Surface
+r5 c2..4 fg=Border bg=Background|Surface
+r5 c4..47 fg=Muted bg=Background|Surface
+r5 c47..63 bg=Background|Surface
+r5 c63..64 fg=BorderStrong bg=Background|Surface
+r6 c0..1 fg=BorderStrong bg=Background|Surface
+r6 c1..2 bg=Background|Surface
+r6 c2..32 fg=Hint bg=Background|Surface
+r6 c32..63 bg=Background|Surface
+r6 c63..64 fg=BorderStrong bg=Background|Surface
+r7 c0..1 fg=BorderStrong bg=Background|Surface
+r7 c1..63 bg=Background|Surface
+r7 c63..64 fg=BorderStrong bg=Background|Surface
+r8 c0..64 fg=BorderStrong bg=Background|Surface
 
 == light-256
 ╭──────────────────────────────────────────────────────────────╮
@@ -181,47 +193,47 @@ r8 c0..64 bg=Surface|Hover
 │                                                              │
 ╰──────────────────────────────────────────────────────────────╯
 ---
-r0 c0..64 fg=Border bg=Background|Surface
-r1 c0..1 fg=Border bg=Background|Surface
-r1 c1..63 bg=Background|Surface
-r1 c63..64 fg=Border bg=Background|Surface
-r2 c0..1 fg=Border bg=Background|Surface
-r2 c1..2 bg=Background|Surface
-r2 c2..3 fg=Live bg=Background|Surface
-r2 c3..4 bg=Background|Surface
-r2 c4..10 fg=Foreground bg=Background|Surface bold
-r2 c10..12 bg=Background|Surface
-r2 c12..16 fg=Live bg=Background|Surface
-r2 c16..18 bg=Background|Surface
-r2 c18..22 fg=Muted bg=Background|Surface
-r2 c22..63 bg=Background|Surface
-r2 c63..64 fg=Border bg=Background|Surface
-r3 c0..1 fg=Border bg=Background|Surface
-r3 c1..2 bg=Background|Surface
-r3 c2..29 fg=Accent bg=Background|Surface
-r3 c29..63 bg=Background|Surface
-r3 c63..64 fg=Border bg=Background|Surface
-r4 c0..1 fg=Border bg=Background|Surface
-r4 c1..2 bg=Background|Surface
-r4 c2..4 fg=Border bg=Background|Surface
-r4 c4..48 fg=Muted bg=Background|Surface
-r4 c48..63 bg=Background|Surface
-r4 c63..64 fg=Border bg=Background|Surface
-r5 c0..1 fg=Border bg=Background|Surface
-r5 c1..2 bg=Background|Surface
-r5 c2..4 fg=Border bg=Background|Surface
-r5 c4..47 fg=Muted bg=Background|Surface
-r5 c47..63 bg=Background|Surface
-r5 c63..64 fg=Border bg=Background|Surface
-r6 c0..1 fg=Border bg=Background|Surface
-r6 c1..2 bg=Background|Surface
-r6 c2..32 fg=Hint bg=Background|Surface
-r6 c32..63 bg=Background|Surface
-r6 c63..64 fg=Border bg=Background|Surface
-r7 c0..1 fg=Border bg=Background|Surface
-r7 c1..63 bg=Background|Surface
-r7 c63..64 fg=Border bg=Background|Surface
-r8 c0..64 fg=Border bg=Background|Surface
+r0 c0..64 fg=BorderStrong bg=Sidebar|Surface
+r1 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r1 c1..63 bg=Sidebar|Surface
+r1 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r2 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r2 c1..2 bg=Sidebar|Surface
+r2 c2..3 fg=Live bg=Sidebar|Surface
+r2 c3..4 bg=Sidebar|Surface
+r2 c4..10 fg=Foreground bg=Sidebar|Surface bold
+r2 c10..12 bg=Sidebar|Surface
+r2 c12..16 fg=Live bg=Sidebar|Surface
+r2 c16..18 bg=Sidebar|Surface
+r2 c18..22 fg=Muted bg=Sidebar|Surface
+r2 c22..63 bg=Sidebar|Surface
+r2 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r3 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r3 c1..2 bg=Sidebar|Surface
+r3 c2..29 fg=Accent bg=Sidebar|Surface
+r3 c29..63 bg=Sidebar|Surface
+r3 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r4 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r4 c1..2 bg=Sidebar|Surface
+r4 c2..4 fg=Border bg=Sidebar|Surface
+r4 c4..48 fg=Muted bg=Sidebar|Surface
+r4 c48..63 bg=Sidebar|Surface
+r4 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r5 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r5 c1..2 bg=Sidebar|Surface
+r5 c2..4 fg=Border bg=Sidebar|Surface
+r5 c4..47 fg=Muted bg=Sidebar|Surface
+r5 c47..63 bg=Sidebar|Surface
+r5 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r6 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r6 c1..2 bg=Sidebar|Surface
+r6 c2..32 fg=Hint bg=Sidebar|Surface
+r6 c32..63 bg=Sidebar|Surface
+r6 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r7 c0..1 fg=BorderStrong bg=Sidebar|Surface
+r7 c1..63 bg=Sidebar|Surface
+r7 c63..64 fg=BorderStrong bg=Sidebar|Surface
+r8 c0..64 fg=BorderStrong bg=Sidebar|Surface
 
 == ansi-16
 ╭──────────────────────────────────────────────────────────────╮

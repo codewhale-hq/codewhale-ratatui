@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -124,43 +125,6 @@ all profiles  │ kept
 
 
 ---
-r0 c0..14 fg=Foreground bg=Background bold
-r0 c14..40 bg=Background
-r1 c0..3 fg=Muted bg=Background
-r1 c3..31 fg=Foreground bg=Background
-r1 c31..40 bg=Background
-r2 c0..3 fg=Muted bg=Background
-r2 c3..32 fg=Foreground bg=Background
-r2 c32..40 bg=Background
-r3 c0..3 fg=Muted bg=Background
-r3 c3..29 fg=Attention bg=Background
-r3 c29..40 bg=Background
-r4 c0..13 fg=Muted bg=Background bold
-r4 c13..16 fg=Border bg=Background
-r4 c16..21 fg=Muted bg=Background bold
-r4 c21..40 bg=Background
-r5 c0..13 fg=Foreground bg=Background
-r5 c13..16 fg=Border bg=Background
-r5 c16..21 fg=Foreground bg=Background
-r5 c21..40 bg=Background
-r6 c0..13 fg=Foreground bg=Background
-r6 c13..16 fg=Border bg=Background
-r6 c16..21 fg=Foreground bg=Background
-r6 c21..40 bg=Background
-r7 c0..40 bg=Background
-r8 c0..40 bg=Background
-
-== light-256
-Before landing
-1. Run the narrow layout checks
-2. Read the receipt and the diff
-3. Confirm the 40-column view
-Check         │ State
-narrow layout │ kept
-all profiles  │ kept
-
-
----
 r0 c0..14 fg=Foreground bg=Background|Surface bold
 r0 c14..40 bg=Background|Surface
 r1 c0..3 fg=Muted bg=Background|Surface
@@ -186,6 +150,43 @@ r6 c16..21 fg=Foreground bg=Background|Surface
 r6 c21..40 bg=Background|Surface
 r7 c0..40 bg=Background|Surface
 r8 c0..40 bg=Background|Surface
+
+== light-256
+Before landing
+1. Run the narrow layout checks
+2. Read the receipt and the diff
+3. Confirm the 40-column view
+Check         │ State
+narrow layout │ kept
+all profiles  │ kept
+
+
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..40 bg=Background
+r1 c0..3 fg=Muted bg=Background
+r1 c3..31 fg=Foreground bg=Background
+r1 c31..40 bg=Background
+r2 c0..3 fg=Muted bg=Background
+r2 c3..32 fg=Foreground bg=Background
+r2 c32..40 bg=Background
+r3 c0..3 fg=Muted bg=Background
+r3 c3..29 fg=Attention bg=Background
+r3 c29..40 bg=Background
+r4 c0..13 fg=Muted bg=Background bold
+r4 c13..16 fg=Border bg=Background
+r4 c16..21 fg=Muted bg=Background bold
+r4 c21..40 bg=Background
+r5 c0..13 fg=Foreground bg=Background
+r5 c13..16 fg=Border bg=Background
+r5 c16..21 fg=Foreground bg=Background
+r5 c21..40 bg=Background
+r6 c0..13 fg=Foreground bg=Background
+r6 c13..16 fg=Border bg=Background
+r6 c16..21 fg=Foreground bg=Background
+r6 c21..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
 
 == ansi-16
 Before landing

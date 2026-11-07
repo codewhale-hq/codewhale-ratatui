@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -342,112 +343,6 @@ Why: the review timed out
 No verdict. This is not a safety decision: your call.
 y allow once · n deny
 ---
-r0 c0..2 fg=Live bg=Background
-r0 c2..9 fg=Foreground bg=Background bold
-r0 c9..12 fg=Border bg=Background
-r0 c12..23 fg=Muted bg=Background
-r0 c23..70 bg=Background
-r1 c0..5 fg=Muted bg=Background
-r1 c5..36 fg=Foreground bg=Background
-r1 c36..70 bg=Background
-r2 c0..1 fg=Foreground bg=Background bold
-r2 c1..2 bg=Background
-r2 c2..12 fg=Muted bg=Background
-r2 c12..15 fg=Border bg=Background
-r2 c15..16 fg=Foreground bg=Background bold
-r2 c16..17 bg=Background
-r2 c17..21 fg=Muted bg=Background
-r2 c21..70 bg=Background
-r3 c0..70 bg=Background
-r4 c0..2 fg=Danger bg=Background
-r4 c2..8 fg=Foreground bg=Background bold
-r4 c8..11 fg=Border bg=Background
-r4 c11..22 fg=Muted bg=Background
-r4 c22..25 fg=Border bg=Background
-r4 c25..45 fg=Muted bg=Background
-r4 c45..70 bg=Background
-r5 c0..2 fg=Accent bg=Background bold
-r5 c2..17 fg=Foreground bg=Background bold
-r5 c17..70 bg=Background
-r6 c0..5 fg=Muted bg=Background
-r6 c5..39 fg=Foreground bg=Background
-r6 c39..70 bg=Background
-r7 c0..1 fg=Foreground bg=Background bold
-r7 c1..2 bg=Background
-r7 c2..12 fg=Muted bg=Background
-r7 c12..15 fg=Border bg=Background
-r7 c15..16 fg=Foreground bg=Background bold
-r7 c16..17 bg=Background
-r7 c17..21 fg=Muted bg=Background
-r7 c21..70 bg=Background
-r8 c0..70 bg=Background
-r9 c0..2 fg=Attention bg=Background
-r9 c2..14 fg=Foreground bg=Background bold
-r9 c14..17 fg=Border bg=Background
-r9 c17..28 fg=Muted bg=Background
-r9 c28..63 bg=Background
-r9 c63..70 fg=Hint bg=Background
-r10 c0..2 fg=Accent bg=Background bold
-r10 c2..22 fg=Foreground bg=Background bold
-r10 c22..70 bg=Background
-r11 c0..5 fg=Muted bg=Background
-r11 c5..33 fg=Foreground bg=Background
-r11 c33..70 bg=Background
-r12 c0..10 fg=Foreground bg=Background bold
-r12 c10..70 bg=Background
-r13 c0..1 fg=Foreground bg=Background bold
-r13 c1..2 bg=Background
-r13 c2..12 fg=Muted bg=Background
-r13 c12..15 fg=Border bg=Background
-r13 c15..16 fg=Foreground bg=Background bold
-r13 c16..17 bg=Background
-r13 c17..21 fg=Muted bg=Background
-r13 c21..70 bg=Background
-r14 c0..70 bg=Background
-r15 c0..2 fg=Muted bg=Background
-r15 c2..18 fg=Foreground bg=Background bold
-r15 c18..21 fg=Border bg=Background
-r15 c21..32 fg=Muted bg=Background
-r15 c32..70 bg=Background
-r16 c0..2 fg=Accent bg=Background bold
-r16 c2..22 fg=Foreground bg=Background bold
-r16 c22..70 bg=Background
-r17 c0..5 fg=Muted bg=Background
-r17 c5..25 fg=Foreground bg=Background
-r17 c25..70 bg=Background
-r18 c0..53 fg=Foreground bg=Background bold
-r18 c53..70 bg=Background
-r19 c0..1 fg=Foreground bg=Background bold
-r19 c1..2 bg=Background
-r19 c2..12 fg=Muted bg=Background
-r19 c12..15 fg=Border bg=Background
-r19 c15..16 fg=Foreground bg=Background bold
-r19 c16..17 bg=Background
-r19 c17..21 fg=Muted bg=Background
-r19 c21..70 bg=Background
-
-== light-256
-✓ Allowed · Auto-Review
-Why: reads files inside this project
-y allow once · n deny
-
-✕ Denied · Auto-Review · Deletes unseen files
-$ rm -rf ../build
-Why: deletes files outside this project
-y allow once · n deny
-
-◆ Held for you · Auto-Review                                   ar_7K2M
-$ git push origin main
-Why: pushes to a protected branch
-Your call.
-y allow once · n deny
-
-? Could not decide · Auto-Review
-$ git push origin main
-Why: the review timed out
-No verdict. This is not a safety decision: your call.
-y allow once · n deny
----
 r0 c0..2 fg=Live bg=Background|Surface
 r0 c2..9 fg=Foreground bg=Background|Surface bold
 r0 c9..12 fg=Border bg=Background|Surface
@@ -531,6 +426,112 @@ r19 c15..16 fg=Foreground bg=Background|Surface bold
 r19 c16..17 bg=Background|Surface
 r19 c17..21 fg=Muted bg=Background|Surface
 r19 c21..70 bg=Background|Surface
+
+== light-256
+✓ Allowed · Auto-Review
+Why: reads files inside this project
+y allow once · n deny
+
+✕ Denied · Auto-Review · Deletes unseen files
+$ rm -rf ../build
+Why: deletes files outside this project
+y allow once · n deny
+
+◆ Held for you · Auto-Review                                   ar_7K2M
+$ git push origin main
+Why: pushes to a protected branch
+Your call.
+y allow once · n deny
+
+? Could not decide · Auto-Review
+$ git push origin main
+Why: the review timed out
+No verdict. This is not a safety decision: your call.
+y allow once · n deny
+---
+r0 c0..2 fg=Live bg=Background
+r0 c2..9 fg=Foreground bg=Background bold
+r0 c9..12 fg=Border bg=Background
+r0 c12..23 fg=Muted bg=Background
+r0 c23..70 bg=Background
+r1 c0..5 fg=Muted bg=Background
+r1 c5..36 fg=Foreground bg=Background
+r1 c36..70 bg=Background
+r2 c0..1 fg=Foreground bg=Background bold
+r2 c1..2 bg=Background
+r2 c2..12 fg=Muted bg=Background
+r2 c12..15 fg=Border bg=Background
+r2 c15..16 fg=Foreground bg=Background bold
+r2 c16..17 bg=Background
+r2 c17..21 fg=Muted bg=Background
+r2 c21..70 bg=Background
+r3 c0..70 bg=Background
+r4 c0..2 fg=Danger bg=Background
+r4 c2..8 fg=Foreground bg=Background bold
+r4 c8..11 fg=Border bg=Background
+r4 c11..22 fg=Muted bg=Background
+r4 c22..25 fg=Border bg=Background
+r4 c25..45 fg=Muted bg=Background
+r4 c45..70 bg=Background
+r5 c0..2 fg=Accent bg=Background bold
+r5 c2..17 fg=Foreground bg=Background bold
+r5 c17..70 bg=Background
+r6 c0..5 fg=Muted bg=Background
+r6 c5..39 fg=Foreground bg=Background
+r6 c39..70 bg=Background
+r7 c0..1 fg=Foreground bg=Background bold
+r7 c1..2 bg=Background
+r7 c2..12 fg=Muted bg=Background
+r7 c12..15 fg=Border bg=Background
+r7 c15..16 fg=Foreground bg=Background bold
+r7 c16..17 bg=Background
+r7 c17..21 fg=Muted bg=Background
+r7 c21..70 bg=Background
+r8 c0..70 bg=Background
+r9 c0..2 fg=Attention bg=Background
+r9 c2..14 fg=Foreground bg=Background bold
+r9 c14..17 fg=Border bg=Background
+r9 c17..28 fg=Muted bg=Background
+r9 c28..63 bg=Background
+r9 c63..70 fg=Hint bg=Background
+r10 c0..2 fg=Accent bg=Background bold
+r10 c2..22 fg=Foreground bg=Background bold
+r10 c22..70 bg=Background
+r11 c0..5 fg=Muted bg=Background
+r11 c5..33 fg=Foreground bg=Background
+r11 c33..70 bg=Background
+r12 c0..10 fg=Foreground bg=Background bold
+r12 c10..70 bg=Background
+r13 c0..1 fg=Foreground bg=Background bold
+r13 c1..2 bg=Background
+r13 c2..12 fg=Muted bg=Background
+r13 c12..15 fg=Border bg=Background
+r13 c15..16 fg=Foreground bg=Background bold
+r13 c16..17 bg=Background
+r13 c17..21 fg=Muted bg=Background
+r13 c21..70 bg=Background
+r14 c0..70 bg=Background
+r15 c0..2 fg=Muted bg=Background
+r15 c2..18 fg=Foreground bg=Background bold
+r15 c18..21 fg=Border bg=Background
+r15 c21..32 fg=Muted bg=Background
+r15 c32..70 bg=Background
+r16 c0..2 fg=Accent bg=Background bold
+r16 c2..22 fg=Foreground bg=Background bold
+r16 c22..70 bg=Background
+r17 c0..5 fg=Muted bg=Background
+r17 c5..25 fg=Foreground bg=Background
+r17 c25..70 bg=Background
+r18 c0..53 fg=Foreground bg=Background bold
+r18 c53..70 bg=Background
+r19 c0..1 fg=Foreground bg=Background bold
+r19 c1..2 bg=Background
+r19 c2..12 fg=Muted bg=Background
+r19 c12..15 fg=Border bg=Background
+r19 c15..16 fg=Foreground bg=Background bold
+r19 c16..17 bg=Background
+r19 c17..21 fg=Muted bg=Background
+r19 c21..70 bg=Background
 
 == ansi-16
 ✓ Allowed · Auto-Review

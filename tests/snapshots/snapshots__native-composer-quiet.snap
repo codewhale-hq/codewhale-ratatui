@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -7,7 +8,7 @@ expression: dump(&entry)
 ❯ Write a task or use /.
 ---
 r0 c0..60 fg=Border bg=Surface
-r1 c0..1 fg=Primary|Accent bg=Surface
+r1 c0..1 fg=Accent bg=Surface
 r1 c1..2 bg=Surface
 r1 c2..24 fg=BorderStrong bg=Surface
 r1 c24..60 bg=Surface
@@ -17,7 +18,7 @@ r1 c24..60 bg=Surface
 ❯ Write a task or use /.
 ---
 r0 c0..60 fg=Border bg=Surface
-r1 c0..1 fg=Primary|Accent bg=Surface
+r1 c0..1 fg=Accent bg=Surface
 r1 c1..2 bg=Surface
 r1 c2..24 fg=BorderStrong bg=Surface
 r1 c24..60 bg=Surface
@@ -27,7 +28,7 @@ r1 c24..60 bg=Surface
 ❯ Write a task or use /.
 ---
 r0 c0..60 fg=Border
-r1 c0..1 fg=Primary|Accent
+r1 c0..1 fg=Accent
 r1 c2..24 fg=BorderStrong
 
 == dark-256
@@ -35,7 +36,7 @@ r1 c2..24 fg=BorderStrong
 ❯ Write a task or use /.
 ---
 r0 c0..60 fg=Border bg=Surface|Hover|DiffRemovedTint
-r1 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r1 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r1 c1..2 bg=Surface|Hover|DiffRemovedTint
 r1 c2..24 fg=BorderStrong bg=Surface|Hover|DiffRemovedTint
 r1 c24..60 bg=Surface|Hover|DiffRemovedTint
@@ -45,7 +46,7 @@ r1 c24..60 bg=Surface|Hover|DiffRemovedTint
 ❯ Write a task or use /.
 ---
 r0 c0..60 fg=Border
-r1 c0..1 fg=Primary|Accent
+r1 c0..1 fg=Accent
 r1 c2..24 fg=BorderStrong
 
 == ansi-16

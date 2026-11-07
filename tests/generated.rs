@@ -12,10 +12,8 @@
 //!   contrast rules (the same pairs `generate.py` enforces in truecolor),
 //!   moves the ink to the nearest index that holds them. Grounds are never
 //!   moved, except the diff tints, which need a hue the gray ramp lacks.
-//! - two roles the tokens do not name, derived from one that they do:
-//!   `Hint` and `Dim` (`muted_foreground` receded toward `background`).
-//!   See [`DERIVED`]. `ocean_depth` equals `background` in both appearances
-//!   and has no role of its own ([`UNMAPPED`]).
+//! - `Hint`, derived from `muted_foreground` and `background`.
+//!   `Dim` reads the disabled token. `ocean_depth` has no terminal role.
 
 use std::collections::BTreeMap;
 use std::fmt::Write as _;
@@ -50,11 +48,7 @@ const ROLES: &[(&str, &str, &str)] = &[
         "border_strong",
         "Edges that identify a control or a decision.",
     ),
-    (
-        "Primary",
-        "primary",
-        "Filled actions and switches, in neutral ink.",
-    ),
+    ("Primary", "primary", "The primary action fill."),
     (
         "PrimaryForeground",
         "primary_foreground",
@@ -75,8 +69,8 @@ const ROLES: &[(&str, &str, &str)] = &[
     ),
     (
         "Dim",
-        "dim",
-        "The quietest ink: disabled and decorative words, never the only carrier of meaning. Derived: `muted_foreground` receded toward `background` until it just holds 3:1 on every ground.",
+        "disabled",
+        "The quietest ink: disabled and decorative words, never the only carrier of meaning.",
     ),
     (
         "DiffAddedTint",
@@ -93,10 +87,9 @@ const ROLES: &[(&str, &str, &str)] = &[
 /// Roles with no `tokens.json` key: derived here from tokens that exist, so
 /// a token change reaches them without a hand edit. Their keys are not
 /// token names; [`derive`] fills them in after the tokens are read.
-const DERIVED: &[&str] = &["hint", "dim"];
+const DERIVED: &[&str] = &["hint"];
 
-/// `tokens.json` colors with no terminal role: `ocean_depth` is the
-/// desktop's stage ground and equals `background` in both appearances.
+/// `tokens.json` colors with no terminal role.
 const UNMAPPED: &[&str] = &["ocean_depth"];
 
 /// How far an ocean-tinted diff tint moves from `background` toward its hue,
@@ -112,7 +105,6 @@ const GROUNDS: &[&str] = &["background", "surface", "sidebar", "hover", "selecte
 const TEXT: &[&str] = &[
     "foreground",
     "muted_foreground",
-    "primary",
     "accent",
     "live",
     "attention",
@@ -120,16 +112,16 @@ const TEXT: &[&str] = &[
 ];
 const EDGES: &[&str] = &["border_strong"];
 
-/// Derived inks and their floors on every ground. `hint` is text and holds
-/// the design's 4.5:1; `dim` is secondary chrome (disabled or decorative,
+/// Quiet inks and their floors on every ground. `hint` is text and holds
+/// the design's 4.5:1; `disabled` is secondary chrome (disabled or decorative,
 /// never the only carrier of meaning) and holds 3:1, as the engine's palette
 /// audits its own hint and dim inks.
-const DERIVED_INKS: &[(&str, f32)] = &[("hint", 4.5), ("dim", 3.0)];
+const QUIET_INKS: &[(&str, f32)] = &[("hint", 4.5), ("disabled", 3.0)];
 
 /// Every ink that gets a 256-color index of its own, in settling order.
 fn inks() -> Vec<&'static str> {
     TEXT.iter()
-        .chain(DERIVED_INKS.iter().map(|(k, _)| k).collect::<Vec<_>>())
+        .chain(QUIET_INKS.iter().map(|(k, _)| k).collect::<Vec<_>>())
         .chain(EDGES)
         .copied()
         .collect()
@@ -157,7 +149,7 @@ fn floors(key: &str) -> Vec<(&'static str, f32)> {
         GROUNDS.iter().map(|g| (*g, 4.5)).collect()
     } else if EDGES.contains(&key) {
         GROUNDS.iter().map(|g| (*g, 3.0)).collect()
-    } else if let Some((_, floor)) = DERIVED_INKS.iter().find(|(k, _)| *k == key) {
+    } else if let Some((_, floor)) = QUIET_INKS.iter().find(|(k, _)| *k == key) {
         GROUNDS.iter().map(|g| (*g, *floor)).collect()
     } else if key == "primary_foreground" {
         vec![("primary", 4.5)]
@@ -178,7 +170,7 @@ fn audited() -> Vec<(&'static str, &'static str, f32)> {
             pairs.push((*ink, ground, floor));
         }
     }
-    for (ink, _) in DERIVED_INKS {
+    for (ink, _) in QUIET_INKS {
         for (ground, floor) in floors(ink) {
             pairs.push((*ink, ground, floor));
         }
@@ -268,11 +260,11 @@ fn mix(ink: u32, ground: u32, percent: u32) -> u32 {
     pack(blend(rgb(ink), rgb(ground), percent as f32 / 100.0))
 }
 
-/// The four roles the tokens do not name, added to a token table.
+/// Derive the hint ink for a token table.
 ///
-/// `dim` is `muted_foreground` receded toward `background` as far as it
-/// still holds 3:1 on every ground in `grounds`, and `hint` is the same at
-/// 4.5:1, so the ink ladder runs Foreground, Muted, Hint, Dim, each a
+/// `hint` is `muted_foreground` receded toward `background` as far as it
+/// still holds 4.5:1 on every ground in `grounds`, so the ink ladder runs
+/// Foreground, Muted, Hint, Dim, each a
 /// visible step apart. `grounds` lists every ground the
 /// inks must hold on (the blue ombre's included); it never changes the
 /// derivation otherwise.
@@ -290,10 +282,8 @@ fn derive(colors: &mut BTreeMap<String, u32>, mode: &str, grounds: &[u32]) {
             .last()
             .unwrap_or_else(|| panic!("{mode}: muted_foreground does not hold {floor}:1"))
     };
-    let (hint, dim) = (weight(4.5), weight(3.0));
-    colors.insert("hint".into(), mix(muted, background, hint));
-    colors.insert("dim".into(), mix(muted, background, dim));
-    for (a, b) in [("muted_foreground", "hint"), ("hint", "dim")] {
+    colors.insert("hint".into(), mix(muted, background, weight(4.5)));
+    for (a, b) in [("muted_foreground", "hint"), ("hint", "disabled")] {
         let ratio = contrast_ratio(rgb(colors[a]), rgb(colors[b])).expect("rgb");
         assert!(
             ratio >= 1.1,
@@ -357,7 +347,7 @@ fn table_256(colors: &BTreeMap<String, u32>, mode: &str) -> (BTreeMap<String, u8
     // Diff tints are grounds, but the cube has no gray-green or gray-red
     // that dark, so the nearest index would be a plain gray. They take the
     // nearest index that keeps their hue and the floors on the final inks.
-    for (tint, hue_key) in TINTS {
+    for (tint, _) in TINTS {
         let rules = tint_floors(tint);
         let want = colors[*tint];
         let best = (16..=255u8)
@@ -367,20 +357,16 @@ fn table_256(colors: &BTreeMap<String, u32>, mode: &str) -> (BTreeMap<String, u8
                         .is_some_and(|r| r >= *floor)
                 })
             })
-            .filter(|i| keeps_hue(*i, colors[*hue_key]))
+            .filter(|i| keeps_hue(*i, want))
             // Closest hue first, in 10-degree steps, so a green stays green
             // rather than drifting to the nearer teal; then the nearest color.
             .min_by_key(|i| {
                 let rgb = indexed_rgb(*i).expect("fixed index");
-                (
-                    hue_gap(rgb, colors[*hue_key]) as u32 / 10,
-                    dist(rgb, want),
-                    *i,
-                )
+                (hue_gap(rgb, want) as u32 / 10, dist(rgb, want), *i)
             })
             .unwrap_or_else(|| panic!("{mode} {tint}: no 256-color index holds its contrast"));
         notes.push(format!(
-            "{mode} {tint}: {} -> {best} (the cube has no tint this faint; nearest index that keeps the hue of {hue_key})",
+            "{mode} {tint}: {} -> {best} (the cube has no tint this faint; nearest index that keeps the tint's hue)",
             table[*tint]
         ));
         table.insert((*tint).to_string(), best);
@@ -519,10 +505,10 @@ fn render(json: &serde_json::Value) -> String {
     .unwrap();
     writeln!(
         w,
-        "/// the web and the terminal. Two roles the tokens do not name are"
+        "/// the web and the terminal. Hint is derived from the token colors."
     )
     .unwrap();
-    writeln!(w, "/// derived from ones they do ([`Role::is_derived`]).").unwrap();
+    writeln!(w, "/// See [`Role::is_derived`].").unwrap();
     writeln!(
         w,
         "#[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord)]"
@@ -693,6 +679,7 @@ fn vendored_tokens_rs_agrees_with_roles() {
     use codewhale_ratatui::{Role, tokens};
     let t = codewhale_ratatui::testing::Profile::DarkTrue.theme();
     assert_eq!(t.token(Role::BorderStrong), rgb(tokens::DARK.border_strong));
+    assert_eq!(t.token(Role::Dim), rgb(tokens::DARK.disabled));
     let t = codewhale_ratatui::testing::Profile::LightTrue.theme();
     assert_eq!(t.token(Role::Primary), rgb(tokens::LIGHT.primary));
     assert_eq!(codewhale_ratatui::theme::TOKENS_VERSION, tokens::VERSION);

@@ -818,6 +818,11 @@ backgrounds from the TUI. `Theme::new` also supports the existing desktop
 role-token theme; `Ombre` offers additional spatial treatments. Native view
 recipes are in [src/gallery/native_views.rs](src/gallery/native_views.rs).
 
+In the desktop role-token theme, `Role::Primary` is the primary action fill,
+and `Role::PrimaryForeground` is its ink. This changes the 2.3 token
+interpretation of `Role::Primary` as neutral ink. Use `Role::Foreground` for
+ordinary text instead of painting `Role::Primary` as foreground.
+
 For open water, paint foreground content first, then call `Habitat::paint`.
 It protects occupied cells and their clearance; the entire jellyfish is
 withheld when its silhouette cannot fit. Pass decision and overlay rectangles
@@ -1163,8 +1168,8 @@ with that checkout can sync and regenerate:
 CODEWHALE_BLESS=1 cargo test --test generated
 ```
 
-`src/roles.rs` is generated from the tokens, including terminal-derived hint,
-dim and diff-tint roles. Contrast tests cover truecolor and quantized colors.
+`src/roles.rs` is generated from the tokens, including a terminal-derived
+hint. Contrast checks cover truecolor and quantized colors.
 
 `assets/whale-v2.scenes` holds contours exported from the v2 whale kit. To
 update or check them with that source available:

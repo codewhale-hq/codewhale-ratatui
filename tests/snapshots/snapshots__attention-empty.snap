@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -104,36 +105,6 @@ Needs you                                              0 waiting
 
 
 ---
-r0 c0..9 fg=Foreground bg=Background bold
-r0 c9..55 bg=Background
-r0 c55..64 fg=Muted bg=Background
-r1 c0..64 fg=Border bg=Background
-r2 c0..64 bg=Background
-r3 c0..64 bg=Background
-r4 c0..64 bg=Background
-r5 c0..21 bg=Background
-r5 c21..23 fg=Muted bg=Background
-r5 c23..42 fg=Foreground bg=Background bold
-r5 c42..64 bg=Background
-r6 c0..14 bg=Background
-r6 c14..50 fg=Muted bg=Background
-r6 c50..64 bg=Background
-r7 c0..64 bg=Background
-r8 c0..64 bg=Background
-r9 c0..64 bg=Background
-
-== light-256
-Needs you                                              0 waiting
-────────────────────────────────────────────────────────────────
-
-
-
-                     ○ No requests waiting
-              Questions and decisions appear here.
-
-
-
----
 r0 c0..9 fg=Foreground bg=Background|Surface bold
 r0 c9..55 bg=Background|Surface
 r0 c55..64 fg=Muted bg=Background|Surface
@@ -151,6 +122,36 @@ r6 c50..64 bg=Background|Surface
 r7 c0..64 bg=Background|Surface
 r8 c0..64 bg=Background|Surface
 r9 c0..64 bg=Background|Surface
+
+== light-256
+Needs you                                              0 waiting
+────────────────────────────────────────────────────────────────
+
+
+
+                     ○ No requests waiting
+              Questions and decisions appear here.
+
+
+
+---
+r0 c0..9 fg=Foreground bg=Background bold
+r0 c9..55 bg=Background
+r0 c55..64 fg=Muted bg=Background
+r1 c0..64 fg=Border bg=Background
+r2 c0..64 bg=Background
+r3 c0..64 bg=Background
+r4 c0..64 bg=Background
+r5 c0..21 bg=Background
+r5 c21..23 fg=Muted bg=Background
+r5 c23..42 fg=Foreground bg=Background bold
+r5 c42..64 bg=Background
+r6 c0..14 bg=Background
+r6 c14..50 fg=Muted bg=Background
+r6 c50..64 bg=Background
+r7 c0..64 bg=Background
+r8 c0..64 bg=Background
+r9 c0..64 bg=Background
 
 == ansi-16
 Needs you                                              0 waiting

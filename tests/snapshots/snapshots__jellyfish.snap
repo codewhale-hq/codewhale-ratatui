@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -94,33 +95,6 @@ r8 c0..40 bg=Background
 
 
 ---
-r0 c0..40 bg=Background
-r1 c0..40 bg=Background
-r2 c0..40 bg=Background
-r3 c0..17 bg=Background
-r3 c17..22 fg=Hint bg=Background
-r3 c22..40 bg=Background
-r4 c0..17 bg=Background
-r4 c17..22 fg=Dim bg=Background
-r4 c22..40 bg=Background
-r5 c0..17 bg=Background
-r5 c17..22 fg=Dim bg=Background
-r5 c22..40 bg=Background
-r6 c0..40 bg=Background
-r7 c0..40 bg=Background
-r8 c0..40 bg=Background
-
-== light-256
-
-
-
-                  ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
-
-
-
----
 r0 c0..40 bg=Background|Surface
 r1 c0..40 bg=Background|Surface
 r2 c0..40 bg=Background|Surface
@@ -136,6 +110,33 @@ r5 c22..40 bg=Background|Surface
 r6 c0..40 bg=Background|Surface
 r7 c0..40 bg=Background|Surface
 r8 c0..40 bg=Background|Surface
+
+== light-256
+
+
+
+                  ⣀⣀
+                 ⠐⡳⢺⠂
+                 ⠠⠃⠇
+
+
+
+---
+r0 c0..40 bg=Background
+r1 c0..40 bg=Background
+r2 c0..40 bg=Background
+r3 c0..17 bg=Background
+r3 c17..22 fg=Hint bg=Background
+r3 c22..40 bg=Background
+r4 c0..17 bg=Background
+r4 c17..22 fg=Dim bg=Background
+r4 c22..40 bg=Background
+r5 c0..17 bg=Background
+r5 c17..22 fg=Dim bg=Background
+r5 c22..40 bg=Background
+r6 c0..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
 
 == ansi-16
 

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -7,7 +8,7 @@ expression: dump(&entry)
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a0c6b2 bg=Background
+r0 c0..1 fg=#9fc9be bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..40 bg=Background
@@ -24,7 +25,7 @@ r2 c16..40 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a0c6b2 bg=Background
+r0 c0..1 fg=#9fc9be bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..40 bg=Background
@@ -41,7 +42,7 @@ r2 c16..40 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#3c6152 bg=Background
+r0 c0..1 fg=#3a6455 bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..40 bg=Background
@@ -58,23 +59,6 @@ r2 c16..40 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..6 fg=Foreground bg=Background
-r0 c6..40 bg=Background
-r1 c0..22 bg=Background
-r1 c22..23 fg=Accent bg=Background
-r1 c23..24 bg=Background
-r1 c24..32 fg=Foreground bg=Background
-r1 c32..40 bg=Background
-r2 c0..16 fg=Muted bg=Background
-r2 c16..40 bg=Background
-
-== light-256
-✓ Done
-                      ▸ Selected
-patch applied to
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..6 fg=Foreground bg=Background|Surface
@@ -86,6 +70,23 @@ r1 c24..32 fg=Foreground bg=Background|Surface
 r1 c32..40 bg=Background|Surface
 r2 c0..16 fg=Muted bg=Background|Surface
 r2 c16..40 bg=Background|Surface
+
+== light-256
+✓ Done
+                      ▸ Selected
+patch applied to
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..6 fg=Foreground bg=Background
+r0 c6..40 bg=Background
+r1 c0..22 bg=Background
+r1 c22..23 fg=Accent bg=Background
+r1 c23..24 bg=Background
+r1 c24..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..16 fg=Muted bg=Background
+r2 c16..40 bg=Background
 
 == ansi-16
 ✓ Done

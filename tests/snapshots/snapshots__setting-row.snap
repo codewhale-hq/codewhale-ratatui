@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -103,20 +104,20 @@ r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Accent bg=Background
-r1 c2..8 fg=Foreground bg=Background
-r1 c8..10 bg=Background
-r1 c10..17 fg=Foreground bg=Background
-r1 c17..47 fg=Muted bg=Background
-r1 c47..80 bg=Background
-r2 c0..2 fg=Accent bg=Background
-r2 c2..16 fg=Foreground bg=Background
-r2 c16..18 bg=Background
-r2 c18..61 fg=Muted bg=Background
-r2 c61..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..80 bg=Background
-r5 c0..80 bg=Background
+r1 c0..2 fg=Accent bg=Background|Surface
+r1 c2..8 fg=Foreground bg=Background|Surface
+r1 c8..10 bg=Background|Surface
+r1 c10..17 fg=Foreground bg=Background|Surface
+r1 c17..47 fg=Muted bg=Background|Surface
+r1 c47..80 bg=Background|Surface
+r2 c0..2 fg=Accent bg=Background|Surface
+r2 c2..16 fg=Foreground bg=Background|Surface
+r2 c16..18 bg=Background|Surface
+r2 c18..61 fg=Muted bg=Background|Surface
+r2 c61..80 bg=Background|Surface
+r3 c0..80 bg=Background|Surface
+r4 c0..80 bg=Background|Surface
+r5 c0..80 bg=Background|Surface
 
 == light-256
 ▸ Theme  Shoreline · this project · Applies now · changed · r reset to default
@@ -132,20 +133,20 @@ r0 c7..9 bg=Selected
 r0 c9..18 fg=Foreground bg=Selected
 r0 c18..78 fg=Muted bg=Selected
 r0 c78..80 bg=Selected
-r1 c0..2 fg=Accent bg=Background|Surface
-r1 c2..8 fg=Foreground bg=Background|Surface
-r1 c8..10 bg=Background|Surface
-r1 c10..17 fg=Foreground bg=Background|Surface
-r1 c17..47 fg=Muted bg=Background|Surface
-r1 c47..80 bg=Background|Surface
-r2 c0..2 fg=Accent bg=Background|Surface
-r2 c2..16 fg=Foreground bg=Background|Surface
-r2 c16..18 bg=Background|Surface
-r2 c18..61 fg=Muted bg=Background|Surface
-r2 c61..80 bg=Background|Surface
-r3 c0..80 bg=Background|Surface
-r4 c0..80 bg=Background|Surface
-r5 c0..80 bg=Background|Surface
+r1 c0..2 fg=Accent bg=Background
+r1 c2..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..17 fg=Foreground bg=Background
+r1 c17..47 fg=Muted bg=Background
+r1 c47..80 bg=Background
+r2 c0..2 fg=Accent bg=Background
+r2 c2..16 fg=Foreground bg=Background
+r2 c16..18 bg=Background
+r2 c18..61 fg=Muted bg=Background
+r2 c61..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..80 bg=Background
+r5 c0..80 bg=Background
 
 == ansi-16
 ▸ Theme  Shoreline · this project · Applies now · changed · r reset to default

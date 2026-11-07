@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -101,68 +102,55 @@ Caller phase: Working / fixture
 
 
 ---
-r0 c0..6 bg=#26272a
-r0 c6..7 bg=#292a2d
-r0 c7..18 bg=#26272a
-r0 c18..19 bg=#292a2d
-r0 c19..30 bg=#26272a
-r0 c30..31 bg=#292a2d
-r0 c31..42 bg=#26272a
-r0 c42..43 bg=#292a2d
-r0 c43..54 bg=#26272a
-r0 c54..55 bg=#292a2d
-r0 c55..66 bg=#26272a
-r0 c66..67 bg=#292a2d
-r0 c67..78 bg=#26272a
-r0 c78..79 bg=#292a2d
-r0 c79..80 bg=#26272a
-r1 c0..3 bg=#26282a
-r1 c3..4 bg=#282a2c
-r1 c4..15 bg=#26282a
-r1 c15..16 bg=#282a2c
-r1 c16..27 bg=#26282a
-r1 c27..28 bg=#282a2c
-r1 c28..39 bg=#26282a
-r1 c39..40 bg=#282a2c
-r1 c40..51 bg=#26282a
-r1 c51..52 bg=#282a2c
-r1 c52..63 bg=#26282a
-r1 c63..64 bg=#282a2c
-r1 c64..75 bg=#26282a
-r1 c75..76 bg=#282a2c
-r1 c76..80 bg=#26282a
-r2 c0..1 bg=#262729
-r2 c1..12 bg=#252628
-r2 c12..13 bg=#262729
-r2 c13..24 bg=#252628
-r2 c24..25 bg=#262729
-r2 c25..36 bg=#252628
-r2 c36..37 bg=#262729
-r2 c37..48 bg=#252628
-r2 c48..49 bg=#262729
-r2 c49..60 bg=#252628
-r2 c60..61 bg=#262729
-r2 c61..72 bg=#252628
-r2 c72..73 bg=#262729
-r2 c73..80 bg=#252628
-r3 c0..80 bg=#252628
-r4 c0..22 fg=Foreground bg=#242527
-r4 c22..80 bg=#242527
+r0 c0..6 bg=#131518
+r0 c6..7 bg=#15171a
+r0 c7..18 bg=#131518
+r0 c18..19 bg=#15171a
+r0 c19..30 bg=#131518
+r0 c30..31 bg=#15171a
+r0 c31..42 bg=#131518
+r0 c42..43 bg=#15171a
+r0 c43..54 bg=#131518
+r0 c54..55 bg=#15171a
+r0 c55..66 bg=#131518
+r0 c66..67 bg=#15171a
+r0 c67..78 bg=#131518
+r0 c78..79 bg=#15171a
+r0 c79..80 bg=#131518
+r1 c0..3 bg=#111316
+r1 c3..4 bg=#121417
+r1 c4..15 bg=#111316
+r1 c15..16 bg=#121417
+r1 c16..27 bg=#111316
+r1 c27..28 bg=#121417
+r1 c28..39 bg=#111316
+r1 c39..40 bg=#121417
+r1 c40..51 bg=#111316
+r1 c51..52 bg=#121417
+r1 c52..63 bg=#111316
+r1 c63..64 bg=#121417
+r1 c64..75 bg=#111316
+r1 c75..76 bg=#121417
+r1 c76..80 bg=#111316
+r2 c0..80 bg=#101114
+r3 c0..80 bg=#0e1013
+r4 c0..22 fg=Foreground bg=#0d0e11
+r4 c22..80 bg=#0d0e11
 r5 c0..38 fg=Foreground bg=Selected
-r5 c38..80 bg=#232426
+r5 c38..80 bg=#0b0d10
 r6 c0..80 bg=Background
 r7 c0..34 fg=Foreground bg=Background
-r7 c34..80 bg=#222325
+r7 c34..80 bg=#090a0e
 r8 c0..16 fg=Foreground bg=Background reversed
-r8 c16..80 bg=#212224
-r9 c0..31 fg=Dim bg=Background
-r9 c31..80 bg=Background
-r10 c0..80 bg=#202124
-r11 c0..80 bg=#1f2023
-r12 c0..80 bg=#1e2022
-r13 c0..80 bg=#1e2022
-r14 c0..80 bg=#1d1e20
-r15 c0..80 bg=#1d1e20
+r8 c16..80 bg=#07090d
+r9 c0..31 fg=Dim bg=#06090c
+r9 c31..80 bg=#06090c
+r10 c0..80 bg=#06090c
+r11 c0..80 bg=#05080b
+r12 c0..80 bg=#06080b
+r13 c0..80 bg=#05070b
+r14 c0..80 bg=#05070b
+r15 c0..80 bg=#05070b
 
 == light-truecolor
 
@@ -182,110 +170,70 @@ Caller phase: Working / fixture
 
 
 ---
-r0 c0..6 bg=#fbfafa
-r0 c6..7 bg=#f7f6f7
-r0 c7..18 bg=#fbfafa
-r0 c18..19 bg=#f7f6f7
-r0 c19..30 bg=#fbfafa
-r0 c30..31 bg=#f7f6f7
-r0 c31..42 bg=#fbfafa
-r0 c42..43 bg=#f7f6f7
-r0 c43..54 bg=#fbfafa
-r0 c54..55 bg=#f7f6f7
-r0 c55..66 bg=#fbfafa
-r0 c66..67 bg=#f7f6f7
-r0 c67..78 bg=#fbfafa
-r0 c78..79 bg=#f7f6f7
-r0 c79..80 bg=#fbfafa
-r1 c0..3 bg=#fbfafa
-r1 c3..4 bg=#f9f8f8
-r1 c4..15 bg=#fbfafa
-r1 c15..16 bg=#f9f8f8
-r1 c16..27 bg=#fbfafa
-r1 c27..28 bg=#f9f8f8
-r1 c28..39 bg=#fbfafa
-r1 c39..40 bg=#f9f8f8
-r1 c40..51 bg=#fbfafa
-r1 c51..52 bg=#f9f8f8
-r1 c52..63 bg=#fbfafa
-r1 c63..64 bg=#f9f8f8
-r1 c64..75 bg=#fbfafa
-r1 c75..76 bg=#f9f8f8
-r1 c76..80 bg=#fbfafa
-r2 c0..1 bg=#faf8f7
-r2 c1..12 bg=#fbf9f8
-r2 c12..13 bg=#faf8f7
-r2 c13..24 bg=#fbf9f8
-r2 c24..25 bg=#faf8f7
-r2 c25..36 bg=#fbf9f8
-r2 c36..37 bg=#faf8f7
-r2 c37..48 bg=#fbf9f8
-r2 c48..49 bg=#faf8f7
-r2 c49..60 bg=#fbf9f8
-r2 c60..61 bg=#faf8f7
-r2 c61..72 bg=#fbf9f8
-r2 c72..73 bg=#faf8f7
-r2 c73..80 bg=#fbf9f8
-r3 c0..80 bg=#faf8f8
-r4 c0..22 fg=Foreground bg=#f9f8f7
-r4 c22..80 bg=#f9f8f7
+r0 c0..6 bg=#f8f7f1
+r0 c6..7 bg=#f3f3f0
+r0 c7..18 bg=#f8f7f1
+r0 c18..19 bg=#f3f3f0
+r0 c19..30 bg=#f8f7f1
+r0 c30..31 bg=#f3f3f0
+r0 c31..42 bg=#f8f7f1
+r0 c42..43 bg=#f3f3f0
+r0 c43..54 bg=#f8f7f1
+r0 c54..55 bg=#f3f3f0
+r0 c55..66 bg=#f8f7f1
+r0 c66..67 bg=#f3f3f0
+r0 c67..78 bg=#f8f7f1
+r0 c78..79 bg=#f3f3f0
+r0 c79..80 bg=#f8f7f1
+r1 c0..3 bg=#f8f6f1
+r1 c3..4 bg=#f5f4f0
+r1 c4..15 bg=#f8f6f1
+r1 c15..16 bg=#f5f4f0
+r1 c16..27 bg=#f8f6f1
+r1 c27..28 bg=#f5f4f0
+r1 c28..39 bg=#f8f6f1
+r1 c39..40 bg=#f5f4f0
+r1 c40..51 bg=#f8f6f1
+r1 c51..52 bg=#f5f4f0
+r1 c52..63 bg=#f8f6f1
+r1 c63..64 bg=#f5f4f0
+r1 c64..75 bg=#f8f6f1
+r1 c75..76 bg=#f5f4f0
+r1 c76..80 bg=#f8f6f1
+r2 c0..1 bg=#f7f4ef
+r2 c1..12 bg=#f8f5ef
+r2 c12..13 bg=#f7f4ef
+r2 c13..24 bg=#f8f5ef
+r2 c24..25 bg=#f7f4ef
+r2 c25..36 bg=#f8f5ef
+r2 c36..37 bg=#f7f4ef
+r2 c37..48 bg=#f8f5ef
+r2 c48..49 bg=#f7f4ef
+r2 c49..60 bg=#f8f5ef
+r2 c60..61 bg=#f7f4ef
+r2 c61..72 bg=#f8f5ef
+r2 c72..73 bg=#f7f4ef
+r2 c73..80 bg=#f8f5ef
+r3 c0..80 bg=#f7f4ef
+r4 c0..22 fg=Foreground bg=#f6f4ef
+r4 c22..80 bg=#f6f4ef
 r5 c0..38 fg=Foreground bg=Selected
-r5 c38..80 bg=#f9f7f5
+r5 c38..80 bg=#f6f4ed
 r6 c0..80 bg=Background
 r7 c0..34 fg=Foreground bg=Background
-r7 c34..80 bg=#f8f6f4
+r7 c34..80 bg=#f5f3ed
 r8 c0..16 fg=Foreground bg=Background reversed
-r8 c16..80 bg=#f7f5f2
-r9 c0..31 fg=Dim bg=#f6f4f2
-r9 c31..80 bg=#f6f4f2
-r10 c0..80 bg=#f6f3f1
-r11 c0..80 bg=#f5f2ef
-r12 c0..80 bg=#f4f2ef
-r13 c0..80 bg=#f3f0ee
-r14 c0..80 bg=#f2f0ed
-r15 c0..80 bg=#f1eeec
+r8 c16..80 bg=#f4f1eb
+r9 c0..31 fg=Dim bg=#f4f1eb
+r9 c31..80 bg=#f4f1eb
+r10 c0..80 bg=#f3f0eb
+r11 c0..80 bg=#f3f0e9
+r12 c0..80 bg=#f1eee9
+r13 c0..80 bg=#f1eee9
+r14 c0..80 bg=#efece7
+r15 c0..80 bg=#eeece7
 
 == dark-256
-
-
-
-
-Native / guarded ocean
-[Selected] source keeps its own ground
-
-Explicit blank padding is semantic
-Reversed surface
-Caller phase: Working / fixture
-
-
-
-
-
-
----
-r0 c0..80 bg=Background
-r1 c0..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..22 fg=Foreground bg=Background
-r4 c22..80 bg=Background
-r5 c0..38 fg=Foreground bg=Selected
-r5 c38..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..34 fg=Foreground bg=Background
-r7 c34..80 bg=Background
-r8 c0..16 fg=Foreground bg=Background reversed
-r8 c16..80 bg=Background
-r9 c0..31 fg=Dim bg=Background
-r9 c31..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
-r12 c0..80 bg=Background
-r13 c0..80 bg=Background
-r14 c0..80 bg=Background
-r15 c0..80 bg=Background
-
-== light-256
 
 
 
@@ -324,6 +272,46 @@ r12 c0..80 bg=Background|Surface
 r13 c0..80 bg=Background|Surface
 r14 c0..80 bg=Background|Surface
 r15 c0..80 bg=Background|Surface
+
+== light-256
+
+
+
+
+Native / guarded ocean
+[Selected] source keeps its own ground
+
+Explicit blank padding is semantic
+Reversed surface
+Caller phase: Working / fixture
+
+
+
+
+
+
+---
+r0 c0..80 bg=Background
+r1 c0..80 bg=Background
+r2 c0..80 bg=Background
+r3 c0..80 bg=Background
+r4 c0..22 fg=Foreground bg=Background
+r4 c22..80 bg=Background
+r5 c0..38 fg=Foreground bg=Selected
+r5 c38..80 bg=Background
+r6 c0..80 bg=Background
+r7 c0..34 fg=Foreground bg=Background
+r7 c34..80 bg=Background
+r8 c0..16 fg=Foreground bg=Background reversed
+r8 c16..80 bg=Background
+r9 c0..31 fg=Dim bg=Background
+r9 c31..80 bg=Background
+r10 c0..80 bg=Background
+r11 c0..80 bg=Background
+r12 c0..80 bg=Background
+r13 c0..80 bg=Background
+r14 c0..80 bg=Background
+r15 c0..80 bg=Background
 
 == ansi-16
 

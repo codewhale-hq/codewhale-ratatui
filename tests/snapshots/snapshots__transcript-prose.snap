@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -125,43 +126,6 @@ Reported by the host. Receipts read.
 
 
 ---
-r0 c0..13 fg=Accent bg=Background bold
-r0 c13..40 bg=Background
-r1 c0..4 fg=Foreground bg=Background
-r1 c4..11 fg=Foreground bg=Background bold
-r1 c11..32 fg=Foreground bg=Background
-r1 c32..40 bg=Background
-r2 c0..7 fg=Foreground bg=Background italic
-r2 c7..25 fg=Foreground bg=Background
-r2 c25..40 bg=Background
-r3 c0..19 fg=Live bg=Background
-r3 c19..20 fg=Foreground bg=Background
-r3 c20..40 bg=Background
-r4 c0..22 fg=Muted bg=Background
-r4 c22..36 fg=Live bg=Background
-r4 c36..40 bg=Background
-r5 c0..2 fg=Border bg=Background
-r5 c2..31 fg=Foreground bg=Background italic
-r5 c31..40 bg=Background
-r6 c0..2 fg=Border bg=Background
-r6 c2..17 fg=Muted bg=Background
-r6 c17..40 bg=Background
-r7 c0..40 bg=Background
-r8 c0..40 bg=Background
-r9 c0..40 bg=Background
-
-== light-256
-Release notes
-The workbar is summoned, and the
-habitat stays quiet under
-MotionMode::Reduced.
-Reported by the host. Receipts read.
-▏ Ship the quiet version first.
-▏ — a review note
-
-
-
----
 r0 c0..13 fg=Accent bg=Background|Surface bold
 r0 c13..40 bg=Background|Surface
 r1 c0..4 fg=Foreground bg=Background|Surface
@@ -186,6 +150,43 @@ r6 c17..40 bg=Background|Surface
 r7 c0..40 bg=Background|Surface
 r8 c0..40 bg=Background|Surface
 r9 c0..40 bg=Background|Surface
+
+== light-256
+Release notes
+The workbar is summoned, and the
+habitat stays quiet under
+MotionMode::Reduced.
+Reported by the host. Receipts read.
+▏ Ship the quiet version first.
+▏ — a review note
+
+
+
+---
+r0 c0..13 fg=Accent bg=Background bold
+r0 c13..40 bg=Background
+r1 c0..4 fg=Foreground bg=Background
+r1 c4..11 fg=Foreground bg=Background bold
+r1 c11..32 fg=Foreground bg=Background
+r1 c32..40 bg=Background
+r2 c0..7 fg=Foreground bg=Background italic
+r2 c7..25 fg=Foreground bg=Background
+r2 c25..40 bg=Background
+r3 c0..19 fg=Live bg=Background
+r3 c19..20 fg=Foreground bg=Background
+r3 c20..40 bg=Background
+r4 c0..22 fg=Muted bg=Background
+r4 c22..36 fg=Live bg=Background
+r4 c36..40 bg=Background
+r5 c0..2 fg=Border bg=Background
+r5 c2..31 fg=Foreground bg=Background italic
+r5 c31..40 bg=Background
+r6 c0..2 fg=Border bg=Background
+r6 c2..17 fg=Muted bg=Background
+r6 c17..40 bg=Background
+r7 c0..40 bg=Background
+r8 c0..40 bg=Background
+r9 c0..40 bg=Background
 
 == ansi-16
 Release notes

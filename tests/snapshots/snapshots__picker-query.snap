@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -94,34 +95,6 @@ r5 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Accent bg=Background
-r0 c1..2 bg=Background
-r0 c2..7 fg=Foreground bg=Background
-r0 c7..8 bg=Background reversed
-r0 c8..61 bg=Background
-r0 c61..64 fg=Hint bg=Background
-r1 c0..2 fg=Accent bg=Selected
-r1 c2..7 fg=Accent bg=Selected bold underline
-r1 c7..17 fg=Foreground bg=Selected bold
-r1 c17..56 fg=Muted bg=Selected
-r1 c56..64 bg=Selected
-r2 c0..2 fg=Accent bg=Background
-r2 c2..7 fg=Accent bg=Background underline
-r2 c7..17 fg=Foreground bg=Background
-r2 c17..31 fg=Muted bg=Background
-r2 c31..64 bg=Background
-r3 c0..64 bg=Background
-r4 c0..64 bg=Background
-r5 c0..64 bg=Background
-
-== light-256
-› shore                                                      2/8
-▸ Shoreline        Graphite ground, follows the terminal
-  Shoreline light  Paper ground
-
-
-
----
 r0 c0..1 fg=Accent bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..7 fg=Foreground bg=Background|Surface
@@ -141,6 +114,34 @@ r2 c31..64 bg=Background|Surface
 r3 c0..64 bg=Background|Surface
 r4 c0..64 bg=Background|Surface
 r5 c0..64 bg=Background|Surface
+
+== light-256
+› shore                                                      2/8
+▸ Shoreline        Graphite ground, follows the terminal
+  Shoreline light  Paper ground
+
+
+
+---
+r0 c0..1 fg=Accent bg=Background
+r0 c1..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..8 bg=Background reversed
+r0 c8..61 bg=Background
+r0 c61..64 fg=Hint bg=Background
+r1 c0..2 fg=Accent bg=Selected
+r1 c2..7 fg=Accent bg=Selected bold underline
+r1 c7..17 fg=Foreground bg=Selected bold
+r1 c17..56 fg=Muted bg=Selected
+r1 c56..64 bg=Selected
+r2 c0..2 fg=Accent bg=Background
+r2 c2..7 fg=Accent bg=Background underline
+r2 c7..17 fg=Foreground bg=Background
+r2 c17..31 fg=Muted bg=Background
+r2 c31..64 bg=Background
+r3 c0..64 bg=Background
+r4 c0..64 bg=Background
+r5 c0..64 bg=Background
 
 == ansi-16
 › shore                                                      2/8

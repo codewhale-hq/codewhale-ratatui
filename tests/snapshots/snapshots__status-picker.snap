@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -588,194 +589,6 @@ r19 c0..80 bg=Background
     ╰──────────────────────────────────────────────────────────────────────╯
 
 ---
-r0 c0..80 bg=Background
-r1 c0..4 bg=Background
-r1 c4..76 fg=BorderStrong bg=Surface|Hover
-r1 c76..80 bg=Background
-r2 c0..4 bg=Background
-r2 c4..5 fg=BorderStrong bg=Surface|Hover
-r2 c5..75 bg=Surface|Hover
-r2 c75..76 fg=BorderStrong bg=Surface|Hover
-r2 c76..80 bg=Background
-r3 c0..4 bg=Background
-r3 c4..5 fg=BorderStrong bg=Surface|Hover
-r3 c5..6 bg=Surface|Hover
-r3 c6..17 fg=Foreground bg=Surface|Hover bold
-r3 c17..61 bg=Surface|Hover
-r3 c61..74 fg=Muted bg=Surface|Hover
-r3 c74..75 bg=Surface|Hover
-r3 c75..76 fg=BorderStrong bg=Surface|Hover
-r3 c76..80 bg=Background
-r4 c0..4 bg=Background
-r4 c4..5 fg=BorderStrong bg=Surface|Hover
-r4 c5..75 bg=Surface|Hover
-r4 c75..76 fg=BorderStrong bg=Surface|Hover
-r4 c76..80 bg=Background
-r5 c0..4 bg=Background
-r5 c4..5 fg=BorderStrong bg=Surface|Hover
-r5 c5..6 bg=Surface|Hover
-r5 c6..35 fg=Muted bg=Surface|Hover
-r5 c35..75 bg=Surface|Hover
-r5 c75..76 fg=BorderStrong bg=Surface|Hover
-r5 c76..80 bg=Background
-r6 c0..4 bg=Background
-r6 c4..5 fg=BorderStrong bg=Surface|Hover
-r6 c5..75 bg=Surface|Hover
-r6 c75..76 fg=BorderStrong bg=Surface|Hover
-r6 c76..80 bg=Background
-r7 c0..4 bg=Background
-r7 c4..5 fg=BorderStrong bg=Surface|Hover
-r7 c5..6 bg=Surface|Hover
-r7 c6..8 fg=Accent bg=Surface|Hover
-r7 c8..31 fg=Foreground bg=Surface|Hover
-r7 c31..68 fg=Muted bg=Surface|Hover
-r7 c68..73 bg=Surface|Hover
-r7 c73..74 fg=Border bg=Surface|Hover
-r7 c74..75 bg=Surface|Hover
-r7 c75..76 fg=BorderStrong bg=Surface|Hover
-r7 c76..80 bg=Background
-r8 c0..4 bg=Background
-r8 c4..5 fg=BorderStrong bg=Surface|Hover
-r8 c5..6 bg=Surface|Hover
-r8 c6..8 fg=Accent bg=Surface|Hover
-r8 c8..31 fg=Foreground bg=Surface|Hover
-r8 c31..63 fg=Muted bg=Surface|Hover
-r8 c63..73 bg=Surface|Hover
-r8 c73..74 fg=Foreground bg=Surface|Hover
-r8 c74..75 bg=Surface|Hover
-r8 c75..76 fg=BorderStrong bg=Surface|Hover
-r8 c76..80 bg=Background
-r9 c0..4 bg=Background
-r9 c4..5 fg=BorderStrong bg=Surface|Hover
-r9 c5..6 bg=Surface|Hover
-r9 c6..8 fg=Accent bg=Surface|Hover
-r9 c8..10 fg=Muted bg=Surface|Hover
-r9 c10..31 fg=Foreground bg=Surface|Hover
-r9 c31..69 fg=Muted bg=Surface|Hover
-r9 c69..73 bg=Surface|Hover
-r9 c73..74 fg=Foreground bg=Surface|Hover
-r9 c74..75 bg=Surface|Hover
-r9 c75..76 fg=BorderStrong bg=Surface|Hover
-r9 c76..80 bg=Background
-r10 c0..4 bg=Background
-r10 c4..5 fg=BorderStrong bg=Surface|Hover
-r10 c5..6 bg=Surface|Hover
-r10 c6..8 fg=Accent bg=Surface|Hover
-r10 c8..31 fg=Foreground bg=Surface|Hover
-r10 c31..70 fg=Muted bg=Surface|Hover
-r10 c70..73 bg=Surface|Hover
-r10 c73..74 fg=Foreground bg=Surface|Hover
-r10 c74..75 bg=Surface|Hover
-r10 c75..76 fg=BorderStrong bg=Surface|Hover
-r10 c76..80 bg=Background
-r11 c0..4 bg=Background
-r11 c4..5 fg=BorderStrong bg=Surface|Hover
-r11 c5..6 bg=Surface|Hover
-r11 c6..8 fg=Accent bg=Surface|Hover
-r11 c8..31 fg=Foreground bg=Surface|Hover
-r11 c31..71 fg=Muted bg=Surface|Hover
-r11 c71..73 bg=Surface|Hover
-r11 c73..74 fg=Foreground bg=Surface|Hover
-r11 c74..75 bg=Surface|Hover
-r11 c75..76 fg=BorderStrong bg=Surface|Hover
-r11 c76..80 bg=Background
-r12 c0..4 bg=Background
-r12 c4..5 fg=BorderStrong bg=Surface|Hover
-r12 c5..6 bg=Surface|Hover
-r12 c6..8 fg=Accent bg=Surface|Hover
-r12 c8..31 fg=Foreground bg=Surface|Hover
-r12 c31..65 fg=Muted bg=Surface|Hover
-r12 c65..73 bg=Surface|Hover
-r12 c73..74 fg=Foreground bg=Surface|Hover
-r12 c74..75 bg=Surface|Hover
-r12 c75..76 fg=BorderStrong bg=Surface|Hover
-r12 c76..80 bg=Background
-r13 c0..4 bg=Background
-r13 c4..5 fg=BorderStrong bg=Surface|Hover
-r13 c5..6 bg=Surface|Hover
-r13 c6..8 fg=Accent bg=Surface|Hover
-r13 c8..31 fg=Foreground bg=Surface|Hover
-r13 c31..58 fg=Muted bg=Surface|Hover
-r13 c58..73 bg=Surface|Hover
-r13 c73..74 fg=Foreground bg=Surface|Hover
-r13 c74..75 bg=Surface|Hover
-r13 c75..76 fg=BorderStrong bg=Surface|Hover
-r13 c76..80 bg=Background
-r14 c0..4 bg=Background
-r14 c4..5 fg=BorderStrong bg=Surface|Hover
-r14 c5..6 bg=Surface|Hover
-r14 c6..8 fg=Accent bg=Selected
-r14 c8..10 fg=Muted bg=Selected
-r14 c10..31 fg=Foreground bg=Selected bold
-r14 c31..69 fg=Muted bg=Selected
-r14 c69..72 bg=Selected
-r14 c72..73 bg=Surface|Hover
-r14 c73..74 fg=Border bg=Surface|Hover
-r14 c74..75 bg=Surface|Hover
-r14 c75..76 fg=BorderStrong bg=Surface|Hover
-r14 c76..80 bg=Background
-r15 c0..4 bg=Background
-r15 c4..5 fg=BorderStrong bg=Surface|Hover
-r15 c5..75 bg=Surface|Hover
-r15 c75..76 fg=BorderStrong bg=Surface|Hover
-r15 c76..80 bg=Background
-r16 c0..4 bg=Background
-r16 c4..5 fg=BorderStrong bg=Surface|Hover
-r16 c5..6 bg=Surface|Hover
-r16 c6..11 fg=Foreground bg=Surface|Hover bold
-r16 c11..12 bg=Surface|Hover
-r16 c12..18 fg=Muted bg=Surface|Hover
-r16 c18..21 fg=Border bg=Surface|Hover
-r16 c21..22 fg=Foreground bg=Surface|Hover bold
-r16 c22..23 bg=Surface|Hover
-r16 c23..26 fg=Muted bg=Surface|Hover
-r16 c26..29 fg=Border bg=Surface|Hover
-r16 c29..30 fg=Foreground bg=Surface|Hover bold
-r16 c30..31 bg=Surface|Hover
-r16 c31..35 fg=Muted bg=Surface|Hover
-r16 c35..38 fg=Border bg=Surface|Hover
-r16 c38..43 fg=Foreground bg=Surface|Hover bold
-r16 c43..44 bg=Surface|Hover
-r16 c44..48 fg=Muted bg=Surface|Hover
-r16 c48..51 fg=Border bg=Surface|Hover
-r16 c51..54 fg=Foreground bg=Surface|Hover bold
-r16 c54..55 bg=Surface|Hover
-r16 c55..61 fg=Muted bg=Surface|Hover
-r16 c61..75 bg=Surface|Hover
-r16 c75..76 fg=BorderStrong bg=Surface|Hover
-r16 c76..80 bg=Background
-r17 c0..4 bg=Background
-r17 c4..5 fg=BorderStrong bg=Surface|Hover
-r17 c5..75 bg=Surface|Hover
-r17 c75..76 fg=BorderStrong bg=Surface|Hover
-r17 c76..80 bg=Background
-r18 c0..4 bg=Background
-r18 c4..76 fg=BorderStrong bg=Surface|Hover
-r18 c76..80 bg=Background
-r19 c0..80 bg=Background
-
-== light-256
-
-    ╭──────────────────────────────────────────────────────────────────────╮
-    │                                                                      │
-    │ Status line                                            8 of 11 shown │
-    │                                                                      │
-    │ Choose what the footer shows.                                        │
-    │                                                                      │
-    │   ● Context window %       Tokens used of the model's context…     │ │
-    │   ● Session cost           Running total for this session          █ │
-    │   ○ Account balance        Prepaid credit left with the active…    █ │
-    │   ● Prompt cache hit rate  Share of the prompt served from cache   █ │
-    │   ● Output tokens          Output tokens of the live or last turn  █ │
-    │   ● Time to first token    Average wait for the first token        █ │
-    │   ● Output rate            Average tokens per second               █ │
-    │ ▸ ○ Workspace              The directory this session writes to    │ │
-    │                                                                      │
-    │ Space toggle · a all · n none · Enter save · Esc cancel              │
-    │                                                                      │
-    ╰──────────────────────────────────────────────────────────────────────╯
-
----
 r0 c0..80 bg=Background|Surface
 r1 c0..4 bg=Background|Surface
 r1 c4..76 fg=BorderStrong bg=Background|Surface
@@ -941,6 +754,194 @@ r18 c0..4 bg=Background|Surface
 r18 c4..76 fg=BorderStrong bg=Background|Surface
 r18 c76..80 bg=Background|Surface
 r19 c0..80 bg=Background|Surface
+
+== light-256
+
+    ╭──────────────────────────────────────────────────────────────────────╮
+    │                                                                      │
+    │ Status line                                            8 of 11 shown │
+    │                                                                      │
+    │ Choose what the footer shows.                                        │
+    │                                                                      │
+    │   ● Context window %       Tokens used of the model's context…     │ │
+    │   ● Session cost           Running total for this session          █ │
+    │   ○ Account balance        Prepaid credit left with the active…    █ │
+    │   ● Prompt cache hit rate  Share of the prompt served from cache   █ │
+    │   ● Output tokens          Output tokens of the live or last turn  █ │
+    │   ● Time to first token    Average wait for the first token        █ │
+    │   ● Output rate            Average tokens per second               █ │
+    │ ▸ ○ Workspace              The directory this session writes to    │ │
+    │                                                                      │
+    │ Space toggle · a all · n none · Enter save · Esc cancel              │
+    │                                                                      │
+    ╰──────────────────────────────────────────────────────────────────────╯
+
+---
+r0 c0..80 bg=Background
+r1 c0..4 bg=Background
+r1 c4..76 fg=BorderStrong bg=Sidebar|Surface
+r1 c76..80 bg=Background
+r2 c0..4 bg=Background
+r2 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r2 c5..75 bg=Sidebar|Surface
+r2 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r2 c76..80 bg=Background
+r3 c0..4 bg=Background
+r3 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r3 c5..6 bg=Sidebar|Surface
+r3 c6..17 fg=Foreground bg=Sidebar|Surface bold
+r3 c17..61 bg=Sidebar|Surface
+r3 c61..74 fg=Muted bg=Sidebar|Surface
+r3 c74..75 bg=Sidebar|Surface
+r3 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r3 c76..80 bg=Background
+r4 c0..4 bg=Background
+r4 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r4 c5..75 bg=Sidebar|Surface
+r4 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r4 c76..80 bg=Background
+r5 c0..4 bg=Background
+r5 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r5 c5..6 bg=Sidebar|Surface
+r5 c6..35 fg=Muted bg=Sidebar|Surface
+r5 c35..75 bg=Sidebar|Surface
+r5 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r5 c76..80 bg=Background
+r6 c0..4 bg=Background
+r6 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r6 c5..75 bg=Sidebar|Surface
+r6 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r6 c76..80 bg=Background
+r7 c0..4 bg=Background
+r7 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r7 c5..6 bg=Sidebar|Surface
+r7 c6..8 fg=Accent bg=Sidebar|Surface
+r7 c8..31 fg=Foreground bg=Sidebar|Surface
+r7 c31..68 fg=Muted bg=Sidebar|Surface
+r7 c68..73 bg=Sidebar|Surface
+r7 c73..74 fg=Border bg=Sidebar|Surface
+r7 c74..75 bg=Sidebar|Surface
+r7 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r7 c76..80 bg=Background
+r8 c0..4 bg=Background
+r8 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r8 c5..6 bg=Sidebar|Surface
+r8 c6..8 fg=Accent bg=Sidebar|Surface
+r8 c8..31 fg=Foreground bg=Sidebar|Surface
+r8 c31..63 fg=Muted bg=Sidebar|Surface
+r8 c63..73 bg=Sidebar|Surface
+r8 c73..74 fg=Foreground bg=Sidebar|Surface
+r8 c74..75 bg=Sidebar|Surface
+r8 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r8 c76..80 bg=Background
+r9 c0..4 bg=Background
+r9 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r9 c5..6 bg=Sidebar|Surface
+r9 c6..8 fg=Accent bg=Sidebar|Surface
+r9 c8..10 fg=Muted bg=Sidebar|Surface
+r9 c10..31 fg=Foreground bg=Sidebar|Surface
+r9 c31..69 fg=Muted bg=Sidebar|Surface
+r9 c69..73 bg=Sidebar|Surface
+r9 c73..74 fg=Foreground bg=Sidebar|Surface
+r9 c74..75 bg=Sidebar|Surface
+r9 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r9 c76..80 bg=Background
+r10 c0..4 bg=Background
+r10 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r10 c5..6 bg=Sidebar|Surface
+r10 c6..8 fg=Accent bg=Sidebar|Surface
+r10 c8..31 fg=Foreground bg=Sidebar|Surface
+r10 c31..70 fg=Muted bg=Sidebar|Surface
+r10 c70..73 bg=Sidebar|Surface
+r10 c73..74 fg=Foreground bg=Sidebar|Surface
+r10 c74..75 bg=Sidebar|Surface
+r10 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r10 c76..80 bg=Background
+r11 c0..4 bg=Background
+r11 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r11 c5..6 bg=Sidebar|Surface
+r11 c6..8 fg=Accent bg=Sidebar|Surface
+r11 c8..31 fg=Foreground bg=Sidebar|Surface
+r11 c31..71 fg=Muted bg=Sidebar|Surface
+r11 c71..73 bg=Sidebar|Surface
+r11 c73..74 fg=Foreground bg=Sidebar|Surface
+r11 c74..75 bg=Sidebar|Surface
+r11 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r11 c76..80 bg=Background
+r12 c0..4 bg=Background
+r12 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r12 c5..6 bg=Sidebar|Surface
+r12 c6..8 fg=Accent bg=Sidebar|Surface
+r12 c8..31 fg=Foreground bg=Sidebar|Surface
+r12 c31..65 fg=Muted bg=Sidebar|Surface
+r12 c65..73 bg=Sidebar|Surface
+r12 c73..74 fg=Foreground bg=Sidebar|Surface
+r12 c74..75 bg=Sidebar|Surface
+r12 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r12 c76..80 bg=Background
+r13 c0..4 bg=Background
+r13 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r13 c5..6 bg=Sidebar|Surface
+r13 c6..8 fg=Accent bg=Sidebar|Surface
+r13 c8..31 fg=Foreground bg=Sidebar|Surface
+r13 c31..58 fg=Muted bg=Sidebar|Surface
+r13 c58..73 bg=Sidebar|Surface
+r13 c73..74 fg=Foreground bg=Sidebar|Surface
+r13 c74..75 bg=Sidebar|Surface
+r13 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r13 c76..80 bg=Background
+r14 c0..4 bg=Background
+r14 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r14 c5..6 bg=Sidebar|Surface
+r14 c6..8 fg=Accent bg=Selected
+r14 c8..10 fg=Muted bg=Selected
+r14 c10..31 fg=Foreground bg=Selected bold
+r14 c31..69 fg=Muted bg=Selected
+r14 c69..72 bg=Selected
+r14 c72..73 bg=Sidebar|Surface
+r14 c73..74 fg=Border bg=Sidebar|Surface
+r14 c74..75 bg=Sidebar|Surface
+r14 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r14 c76..80 bg=Background
+r15 c0..4 bg=Background
+r15 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r15 c5..75 bg=Sidebar|Surface
+r15 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r15 c76..80 bg=Background
+r16 c0..4 bg=Background
+r16 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r16 c5..6 bg=Sidebar|Surface
+r16 c6..11 fg=Foreground bg=Sidebar|Surface bold
+r16 c11..12 bg=Sidebar|Surface
+r16 c12..18 fg=Muted bg=Sidebar|Surface
+r16 c18..21 fg=Border bg=Sidebar|Surface
+r16 c21..22 fg=Foreground bg=Sidebar|Surface bold
+r16 c22..23 bg=Sidebar|Surface
+r16 c23..26 fg=Muted bg=Sidebar|Surface
+r16 c26..29 fg=Border bg=Sidebar|Surface
+r16 c29..30 fg=Foreground bg=Sidebar|Surface bold
+r16 c30..31 bg=Sidebar|Surface
+r16 c31..35 fg=Muted bg=Sidebar|Surface
+r16 c35..38 fg=Border bg=Sidebar|Surface
+r16 c38..43 fg=Foreground bg=Sidebar|Surface bold
+r16 c43..44 bg=Sidebar|Surface
+r16 c44..48 fg=Muted bg=Sidebar|Surface
+r16 c48..51 fg=Border bg=Sidebar|Surface
+r16 c51..54 fg=Foreground bg=Sidebar|Surface bold
+r16 c54..55 bg=Sidebar|Surface
+r16 c55..61 fg=Muted bg=Sidebar|Surface
+r16 c61..75 bg=Sidebar|Surface
+r16 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r16 c76..80 bg=Background
+r17 c0..4 bg=Background
+r17 c4..5 fg=BorderStrong bg=Sidebar|Surface
+r17 c5..75 bg=Sidebar|Surface
+r17 c75..76 fg=BorderStrong bg=Sidebar|Surface
+r17 c76..80 bg=Background
+r18 c0..4 bg=Background
+r18 c4..76 fg=BorderStrong bg=Sidebar|Surface
+r18 c76..80 bg=Background
+r19 c0..80 bg=Background
 
 == ansi-16
 

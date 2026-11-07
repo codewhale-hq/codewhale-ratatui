@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -125,44 +126,6 @@ r6 c9..20 bg=Background
 ○ Ready
 ? Unknown
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..9 fg=Foreground bg=Background
-r0 c9..20 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..6 fg=Foreground bg=Background
-r1 c6..20 bg=Background
-r2 c0..1 fg=Attention bg=Background
-r2 c1..2 bg=Background
-r2 c2..11 fg=Foreground bg=Background
-r2 c11..20 bg=Background
-r3 c0..1 fg=Danger bg=Background
-r3 c1..2 bg=Background
-r3 c2..8 fg=Foreground bg=Background
-r3 c8..20 bg=Background
-r4 c0..1 fg=Muted bg=Background
-r4 c1..2 bg=Background
-r4 c2..9 fg=Foreground bg=Background
-r4 c9..20 bg=Background
-r5 c0..1 fg=Muted bg=Background
-r5 c1..2 bg=Background
-r5 c2..7 fg=Foreground bg=Background
-r5 c7..20 bg=Background
-r6 c0..1 fg=Muted bg=Background
-r6 c1..2 bg=Background
-r6 c2..9 fg=Foreground bg=Background
-r6 c9..20 bg=Background
-
-== light-256
-● Working
-✓ Done
-◆ Needs you
-✕ Failed
-■ Stopped
-○ Ready
-? Unknown
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..9 fg=Foreground bg=Background|Surface
@@ -191,6 +154,44 @@ r6 c0..1 fg=Muted bg=Background|Surface
 r6 c1..2 bg=Background|Surface
 r6 c2..9 fg=Foreground bg=Background|Surface
 r6 c9..20 bg=Background|Surface
+
+== light-256
+● Working
+✓ Done
+◆ Needs you
+✕ Failed
+■ Stopped
+○ Ready
+? Unknown
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..20 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..6 fg=Foreground bg=Background
+r1 c6..20 bg=Background
+r2 c0..1 fg=Attention bg=Background
+r2 c1..2 bg=Background
+r2 c2..11 fg=Foreground bg=Background
+r2 c11..20 bg=Background
+r3 c0..1 fg=Danger bg=Background
+r3 c1..2 bg=Background
+r3 c2..8 fg=Foreground bg=Background
+r3 c8..20 bg=Background
+r4 c0..1 fg=Muted bg=Background
+r4 c1..2 bg=Background
+r4 c2..9 fg=Foreground bg=Background
+r4 c9..20 bg=Background
+r5 c0..1 fg=Muted bg=Background
+r5 c1..2 bg=Background
+r5 c2..7 fg=Foreground bg=Background
+r5 c7..20 bg=Background
+r6 c0..1 fg=Muted bg=Background
+r6 c1..2 bg=Background
+r6 c2..9 fg=Foreground bg=Background
+r6 c9..20 bg=Background
 
 == ansi-16
 ● Working

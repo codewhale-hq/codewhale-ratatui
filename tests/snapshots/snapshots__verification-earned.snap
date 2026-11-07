@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -35,22 +36,22 @@ r0 c33..40 bg=Background
 == dark-256
 ⠴ Verifying terminal layout · 1 s
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..27 fg=Foreground bg=Background
-r0 c27..30 fg=Border bg=Background
-r0 c30..33 fg=Muted bg=Background
-r0 c33..40 bg=Background
-
-== light-256
-⠴ Verifying terminal layout · 1 s
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..27 fg=Foreground bg=Background|Surface
 r0 c27..30 fg=Border bg=Background|Surface
 r0 c30..33 fg=Muted bg=Background|Surface
 r0 c33..40 bg=Background|Surface
+
+== light-256
+⠴ Verifying terminal layout · 1 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..27 fg=Foreground bg=Background
+r0 c27..30 fg=Border bg=Background
+r0 c30..33 fg=Muted bg=Background
+r0 c33..40 bg=Background
 
 == ansi-16
 ⠴ Verifying terminal layout · 1 s

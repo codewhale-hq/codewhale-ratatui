@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -401,7 +402,7 @@ r11 c0..104 fg=Foreground bg=Sidebar|Background
 r12 c0..1 fg=Foreground bg=Sidebar|Background
 r12 c1..5 fg=idx183 bg=Sidebar|Background
 r12 c5..35 fg=Foreground bg=Sidebar|Background
-r12 c35..39 fg=Primary|Accent bg=Sidebar|Background
+r12 c35..39 fg=Accent bg=Sidebar|Background
 r12 c39..70 fg=Foreground bg=Sidebar|Background
 r12 c70..77 fg=idx117 bg=Sidebar|Background
 r12 c77..104 fg=Foreground bg=Sidebar|Background
@@ -513,7 +514,7 @@ r11 c0..104 fg=Foreground bg=Sidebar|Background
 r12 c0..1 fg=Foreground bg=Sidebar|Background
 r12 c1..5 fg=idx183 bg=Sidebar|Background
 r12 c5..35 fg=Foreground bg=Sidebar|Background
-r12 c35..39 fg=Primary|Accent bg=Sidebar|Background
+r12 c35..39 fg=Accent bg=Sidebar|Background
 r12 c39..70 fg=Foreground bg=Sidebar|Background
 r12 c70..77 fg=idx117 bg=Sidebar|Background
 r12 c77..104 fg=Foreground bg=Sidebar|Background

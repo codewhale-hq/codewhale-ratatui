@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -95,35 +96,6 @@ r3 c44..48 fg=Foreground bg=Background
   Share usage data  set by your admin      ○ Off
   Show reasoning as it streams in the tra…  ● On
 ---
-r0 c0..1 fg=Accent bg=Background
-r0 c1..2 bg=Background
-r0 c2..19 fg=Foreground bg=Background
-r0 c19..44 bg=Background
-r0 c44..48 fg=Foreground bg=Background
-r1 c0..1 fg=Accent bg=Selected
-r1 c1..2 bg=Selected
-r1 c2..16 fg=Foreground bg=Selected bold
-r1 c16..43 bg=Selected
-r1 c43..48 fg=Muted bg=Selected
-r2 c0..1 fg=Accent bg=Background
-r2 c1..2 bg=Background
-r2 c2..18 fg=Muted bg=Background dim
-r2 c18..20 bg=Background
-r2 c20..37 fg=Muted bg=Background
-r2 c37..43 bg=Background
-r2 c43..48 fg=Muted bg=Background dim
-r3 c0..1 fg=Accent bg=Background
-r3 c1..2 bg=Background
-r3 c2..42 fg=Foreground bg=Background
-r3 c42..44 bg=Background
-r3 c44..48 fg=Foreground bg=Background
-
-== light-256
-  Show tool details                         ● On
-▸ Reduced motion                           ○ Off
-  Share usage data  set by your admin      ○ Off
-  Show reasoning as it streams in the tra…  ● On
----
 r0 c0..1 fg=Accent bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..19 fg=Foreground bg=Background|Surface
@@ -146,6 +118,35 @@ r3 c1..2 bg=Background|Surface
 r3 c2..42 fg=Foreground bg=Background|Surface
 r3 c42..44 bg=Background|Surface
 r3 c44..48 fg=Foreground bg=Background|Surface
+
+== light-256
+  Show tool details                         ● On
+▸ Reduced motion                           ○ Off
+  Share usage data  set by your admin      ○ Off
+  Show reasoning as it streams in the tra…  ● On
+---
+r0 c0..1 fg=Accent bg=Background
+r0 c1..2 bg=Background
+r0 c2..19 fg=Foreground bg=Background
+r0 c19..44 bg=Background
+r0 c44..48 fg=Foreground bg=Background
+r1 c0..1 fg=Accent bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..16 fg=Foreground bg=Selected bold
+r1 c16..43 bg=Selected
+r1 c43..48 fg=Muted bg=Selected
+r2 c0..1 fg=Accent bg=Background
+r2 c1..2 bg=Background
+r2 c2..18 fg=Muted bg=Background dim
+r2 c18..20 bg=Background
+r2 c20..37 fg=Muted bg=Background
+r2 c37..43 bg=Background
+r2 c43..48 fg=Muted bg=Background dim
+r3 c0..1 fg=Accent bg=Background
+r3 c1..2 bg=Background
+r3 c2..42 fg=Foreground bg=Background
+r3 c42..44 bg=Background
+r3 c44..48 fg=Foreground bg=Background
 
 == ansi-16
   Show tool details                         ● On

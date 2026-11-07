@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -60,23 +61,6 @@ Links are metadata; the host dispatches.
 
 
 ---
-r0 c0..9 fg=Foreground bg=Background
-r0 c9..24 fg=Accent bg=Background underline
-r0 c24..38 fg=Foreground bg=Background
-r0 c38..40 bg=Background
-r1 c0..12 fg=Foreground bg=Background
-r1 c12..40 bg=Background
-r2 c0..40 fg=Muted bg=Background
-r3 c0..40 bg=Background
-r4 c0..40 bg=Background
-
-== light-256
-Read the component guide before adding
-a component.
-Links are metadata; the host dispatches.
-
-
----
 r0 c0..9 fg=Foreground bg=Background|Surface
 r0 c9..24 fg=Accent bg=Background|Surface underline
 r0 c24..38 fg=Foreground bg=Background|Surface
@@ -86,6 +70,23 @@ r1 c12..40 bg=Background|Surface
 r2 c0..40 fg=Muted bg=Background|Surface
 r3 c0..40 bg=Background|Surface
 r4 c0..40 bg=Background|Surface
+
+== light-256
+Read the component guide before adding
+a component.
+Links are metadata; the host dispatches.
+
+
+---
+r0 c0..9 fg=Foreground bg=Background
+r0 c9..24 fg=Accent bg=Background underline
+r0 c24..38 fg=Foreground bg=Background
+r0 c38..40 bg=Background
+r1 c0..12 fg=Foreground bg=Background
+r1 c12..40 bg=Background
+r2 c0..40 fg=Muted bg=Background
+r3 c0..40 bg=Background
+r4 c0..40 bg=Background
 
 == ansi-16
 Read the component guide before adding

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -83,30 +84,6 @@ Defaults
 
 A page title far too long for a narrow terminal to ho…  12 items
 ---
-r0 c0..8 fg=Foreground bg=Background bold
-r0 c8..43 bg=Background
-r0 c43..64 fg=Muted bg=Background
-r1 c0..64 bg=Background
-r2 c0..10 fg=Foreground bg=Background bold
-r2 c10..55 bg=Background
-r2 c55..64 fg=Muted bg=Background
-r3 c0..64 bg=Background
-r4 c0..8 fg=Muted bg=Background
-r4 c8..64 bg=Background
-r5 c0..64 bg=Background
-r6 c0..54 fg=Foreground bg=Background bold
-r6 c54..56 bg=Background
-r6 c56..64 fg=Muted bg=Background
-
-== light-256
-Settings                                   saved to this project
-
-Appearance                                             3 changed
-
-Defaults
-
-A page title far too long for a narrow terminal to ho…  12 items
----
 r0 c0..8 fg=Foreground bg=Background|Surface bold
 r0 c8..43 bg=Background|Surface
 r0 c43..64 fg=Muted bg=Background|Surface
@@ -121,6 +98,30 @@ r5 c0..64 bg=Background|Surface
 r6 c0..54 fg=Foreground bg=Background|Surface bold
 r6 c54..56 bg=Background|Surface
 r6 c56..64 fg=Muted bg=Background|Surface
+
+== light-256
+Settings                                   saved to this project
+
+Appearance                                             3 changed
+
+Defaults
+
+A page title far too long for a narrow terminal to ho…  12 items
+---
+r0 c0..8 fg=Foreground bg=Background bold
+r0 c8..43 bg=Background
+r0 c43..64 fg=Muted bg=Background
+r1 c0..64 bg=Background
+r2 c0..10 fg=Foreground bg=Background bold
+r2 c10..55 bg=Background
+r2 c55..64 fg=Muted bg=Background
+r3 c0..64 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..64 bg=Background
+r5 c0..64 bg=Background
+r6 c0..54 fg=Foreground bg=Background bold
+r6 c54..56 bg=Background
+r6 c56..64 fg=Muted bg=Background
 
 == ansi-16
 Settings                                   saved to this project

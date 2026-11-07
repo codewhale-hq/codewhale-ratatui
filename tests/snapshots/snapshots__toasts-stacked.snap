@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -99,36 +100,6 @@ r4 c59..60 bg=Surface
                  ◆ A command is waiting for your approval →
            ✕ Could not save: the settings file is read-only
 ---
-r0 c0..60 bg=Background
-r1 c0..51 bg=Background
-r1 c51..60 fg=Muted bg=Surface|Hover
-r2 c0..34 bg=Background
-r2 c34..35 bg=Surface|Hover
-r2 c35..36 fg=Live bg=Surface|Hover
-r2 c36..37 bg=Surface|Hover
-r2 c37..59 fg=Foreground bg=Surface|Hover
-r2 c59..60 bg=Surface|Hover
-r3 c0..16 bg=Background
-r3 c16..17 bg=Surface|Hover
-r3 c17..18 fg=Attention bg=Surface|Hover
-r3 c18..19 bg=Surface|Hover
-r3 c19..57 fg=Foreground bg=Surface|Hover
-r3 c57..59 fg=Muted bg=Surface|Hover
-r3 c59..60 bg=Surface|Hover
-r4 c0..10 bg=Background
-r4 c10..11 bg=Surface|Hover
-r4 c11..12 fg=Danger bg=Surface|Hover
-r4 c12..13 bg=Surface|Hover
-r4 c13..59 fg=Foreground bg=Surface|Hover
-r4 c59..60 bg=Surface|Hover
-
-== light-256
-
-                                                    +3 more
-                                   ✓ Theme set to Shoreline
-                 ◆ A command is waiting for your approval →
-           ✕ Could not save: the settings file is read-only
----
 r0 c0..60 bg=Background|Surface
 r1 c0..51 bg=Background|Surface
 r1 c51..60 fg=Muted bg=Background|Surface
@@ -148,6 +119,36 @@ r4 c11..12 fg=Danger bg=Background|Surface
 r4 c12..13 bg=Background|Surface
 r4 c13..59 fg=Foreground bg=Background|Surface
 r4 c59..60 bg=Background|Surface
+
+== light-256
+
+                                                    +3 more
+                                   ✓ Theme set to Shoreline
+                 ◆ A command is waiting for your approval →
+           ✕ Could not save: the settings file is read-only
+---
+r0 c0..60 bg=Background
+r1 c0..51 bg=Background
+r1 c51..60 fg=Muted bg=Sidebar|Surface
+r2 c0..34 bg=Background
+r2 c34..35 bg=Sidebar|Surface
+r2 c35..36 fg=Live bg=Sidebar|Surface
+r2 c36..37 bg=Sidebar|Surface
+r2 c37..59 fg=Foreground bg=Sidebar|Surface
+r2 c59..60 bg=Sidebar|Surface
+r3 c0..16 bg=Background
+r3 c16..17 bg=Sidebar|Surface
+r3 c17..18 fg=Attention bg=Sidebar|Surface
+r3 c18..19 bg=Sidebar|Surface
+r3 c19..57 fg=Foreground bg=Sidebar|Surface
+r3 c57..59 fg=Muted bg=Sidebar|Surface
+r3 c59..60 bg=Sidebar|Surface
+r4 c0..10 bg=Background
+r4 c10..11 bg=Sidebar|Surface
+r4 c11..12 fg=Danger bg=Sidebar|Surface
+r4 c12..13 bg=Sidebar|Surface
+r4 c13..59 fg=Foreground bg=Sidebar|Surface
+r4 c59..60 bg=Sidebar|Surface
 
 == ansi-16
 

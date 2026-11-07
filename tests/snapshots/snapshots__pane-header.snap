@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -43,24 +44,24 @@ Files & review                         4 changed
 ╸───────────────────────────────────────────────
 
 ---
-r0 c0..14 fg=Foreground bg=Background bold
-r0 c14..39 bg=Background
-r0 c39..48 fg=Muted bg=Background
-r1 c0..1 fg=Accent bg=Background
-r1 c1..48 fg=Border bg=Background
-r2 c0..48 bg=Background
-
-== light-256
-Files & review                         4 changed
-╸───────────────────────────────────────────────
-
----
 r0 c0..14 fg=Foreground bg=Background|Surface bold
 r0 c14..39 bg=Background|Surface
 r0 c39..48 fg=Muted bg=Background|Surface
 r1 c0..1 fg=Accent bg=Background|Surface
 r1 c1..48 fg=Border bg=Background|Surface
 r2 c0..48 bg=Background|Surface
+
+== light-256
+Files & review                         4 changed
+╸───────────────────────────────────────────────
+
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..39 bg=Background
+r0 c39..48 fg=Muted bg=Background
+r1 c0..1 fg=Accent bg=Background
+r1 c1..48 fg=Border bg=Background
+r2 c0..48 bg=Background
 
 == ansi-16
 Files & review                         4 changed

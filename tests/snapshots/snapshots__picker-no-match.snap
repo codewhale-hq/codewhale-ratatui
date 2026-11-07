@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -96,34 +97,6 @@ r7 c0..64 bg=Background
 
 
 ---
-r0 c0..1 fg=Accent bg=Background
-r0 c1..2 bg=Background
-r0 c2..7 fg=Foreground bg=Background
-r0 c7..8 bg=Background reversed
-r0 c8..64 bg=Background
-r1 c0..64 bg=Background
-r2 c0..64 bg=Background
-r3 c0..20 bg=Background
-r3 c20..22 fg=Muted bg=Background
-r3 c22..44 fg=Foreground bg=Background bold
-r3 c44..64 bg=Background
-r4 c0..18 bg=Background
-r4 c18..45 fg=Accent bg=Background
-r4 c45..64 bg=Background
-r5 c0..64 bg=Background
-r6 c0..64 bg=Background
-r7 c0..64 bg=Background
-
-== light-256
-› zebra
-
-
-                    ○ No matches for “zebra”
-                  Edit the search to see more
-
-
-
----
 r0 c0..1 fg=Accent bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..7 fg=Foreground bg=Background|Surface
@@ -141,6 +114,34 @@ r4 c45..64 bg=Background|Surface
 r5 c0..64 bg=Background|Surface
 r6 c0..64 bg=Background|Surface
 r7 c0..64 bg=Background|Surface
+
+== light-256
+› zebra
+
+
+                    ○ No matches for “zebra”
+                  Edit the search to see more
+
+
+
+---
+r0 c0..1 fg=Accent bg=Background
+r0 c1..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..8 bg=Background reversed
+r0 c8..64 bg=Background
+r1 c0..64 bg=Background
+r2 c0..64 bg=Background
+r3 c0..20 bg=Background
+r3 c20..22 fg=Muted bg=Background
+r3 c22..44 fg=Foreground bg=Background bold
+r3 c44..64 bg=Background
+r4 c0..18 bg=Background
+r4 c18..45 fg=Accent bg=Background
+r4 c45..64 bg=Background
+r5 c0..64 bg=Background
+r6 c0..64 bg=Background
+r7 c0..64 bg=Background
 
 == ansi-16
 › zebra

@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -45,9 +46,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary|Accent bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary|Accent bg=Selected
+r2 c6..7 fg=Accent bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -95,11 +96,11 @@ r13 c73..107 fg=Foreground bg=#0c2238
 r13 c107..110 fg=BorderStrong bg=#0c2238
 r13 c110..112 fg=Foreground bg=#0c2238
 r14 c0..33 fg=Foreground bg=#0c2137
-r14 c33..36 fg=Primary|Accent bg=#0c2137
+r14 c33..36 fg=Foreground bg=Primary
 r14 c36..70 fg=Foreground bg=#0c2137
-r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
+r14 c70..73 fg=PrimaryForeground bg=Primary
 r14 c73..107 fg=Foreground bg=#0c2137
-r14 c107..110 fg=Primary|Accent bg=#0c2137
+r14 c107..110 fg=Accent bg=#0c2137
 r14 c110..112 fg=Foreground bg=#0c2137
 r15 c0..33 fg=Foreground bg=#0c2136
 r15 c33..36 fg=Live bg=#0c2136
@@ -203,9 +204,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Hover bold
 r0 c10..112 fg=Foreground bg=Hover
 r1 c0..112 fg=Foreground bg=#102a44
-r2 c0..1 fg=Primary|Accent bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary|Accent bg=Selected
+r2 c6..7 fg=Accent bg=Selected
 r2 c7..9 fg=Foreground bg=#102843
 r2 c9..15 fg=Muted bg=#102843
 r2 c15..18 fg=Foreground bg=#102843
@@ -253,11 +254,11 @@ r13 c73..107 fg=Foreground bg=#0c2238
 r13 c107..110 fg=BorderStrong bg=#0c2238
 r13 c110..112 fg=Foreground bg=#0c2238
 r14 c0..33 fg=Foreground bg=#0c2137
-r14 c33..36 fg=Primary|Accent bg=#0c2137
+r14 c33..36 fg=Foreground bg=Primary
 r14 c36..70 fg=Foreground bg=#0c2137
-r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
+r14 c70..73 fg=PrimaryForeground bg=Primary
 r14 c73..107 fg=Foreground bg=#0c2137
-r14 c107..110 fg=Primary|Accent bg=#0c2137
+r14 c107..110 fg=Accent bg=#0c2137
 r14 c110..112 fg=Foreground bg=#0c2137
 r15 c0..33 fg=Foreground bg=#0c2136
 r15 c33..36 fg=Live bg=#0c2136
@@ -361,9 +362,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary|Accent bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary|Accent bg=Selected
+r2 c6..7 fg=Accent bg=Selected
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted
 r2 c15..18 fg=Foreground
@@ -409,11 +410,11 @@ r13 c73..107 fg=Foreground
 r13 c107..110 fg=BorderStrong
 r13 c110..112 fg=Foreground
 r14 c0..33 fg=Foreground
-r14 c33..36 fg=Primary|Accent
+r14 c33..36 fg=Foreground bg=Primary
 r14 c36..70 fg=Foreground
-r14 c70..73 bg=Primary|Accent
+r14 c70..73 bg=Primary
 r14 c73..107 fg=Foreground
-r14 c107..110 fg=Primary|Accent
+r14 c107..110 fg=Accent
 r14 c110..112 fg=Foreground
 r15 c0..33 fg=Foreground
 r15 c33..36 fg=Live
@@ -498,9 +499,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bg=Background|DiffAddedTint bold
 r0 c10..112 fg=Foreground bg=Background|DiffAddedTint
 r1 c0..112 fg=Foreground bg=Background|DiffAddedTint
-r2 c0..1 fg=Primary|Accent bg=Selected
+r2 c0..1 fg=Accent bg=Selected
 r2 c1..6 fg=Foreground bg=Selected bold underline
-r2 c6..7 fg=Primary|Accent bg=Selected
+r2 c6..7 fg=Accent bg=Selected
 r2 c7..9 fg=Foreground bg=Background|DiffAddedTint
 r2 c9..15 fg=Muted bg=Background|DiffAddedTint
 r2 c15..18 fg=Foreground bg=Background|DiffAddedTint
@@ -550,11 +551,11 @@ r13 c73..107 fg=Foreground bg=Background|DiffAddedTint
 r13 c107..110 fg=BorderStrong bg=Background|DiffAddedTint
 r13 c110..112 fg=Foreground bg=Background|DiffAddedTint
 r14 c0..33 fg=Foreground bg=Background|DiffAddedTint
-r14 c33..36 fg=Primary|Accent bg=Background|DiffAddedTint
+r14 c33..36 fg=Foreground bg=Primary
 r14 c36..70 fg=Foreground bg=Background|DiffAddedTint
-r14 c70..73 fg=PrimaryForeground bg=Primary|Accent
+r14 c70..73 fg=PrimaryForeground bg=Primary
 r14 c73..107 fg=Foreground bg=Background|DiffAddedTint
-r14 c107..110 fg=Primary|Accent bg=Background|DiffAddedTint
+r14 c107..110 fg=Accent bg=Background|DiffAddedTint
 r14 c110..112 fg=Foreground bg=Background|DiffAddedTint
 r15 c0..33 fg=Foreground bg=Background|DiffAddedTint
 r15 c33..36 fg=Live bg=Background|DiffAddedTint
@@ -647,9 +648,9 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground bold
 r0 c10..112 fg=Foreground
 r1 c0..112 fg=Foreground
-r2 c0..1 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c0..1 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c1..6 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
-r2 c6..7 fg=Primary|Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c6..7 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c7..9 fg=Foreground
 r2 c9..15 fg=Muted|Hint|Dim
 r2 c15..18 fg=Foreground
@@ -695,11 +696,11 @@ r13 c73..107 fg=Foreground
 r13 c107..110 fg=BorderStrong
 r13 c110..112 fg=Foreground
 r14 c0..33 fg=Foreground
-r14 c33..36 fg=Primary|Accent
+r14 c33..36 fg=Foreground bg=Primary
 r14 c36..70 fg=Foreground
-r14 c70..73 bg=Primary|Accent
+r14 c70..73 bg=Primary
 r14 c73..107 fg=Foreground
-r14 c107..110 fg=Primary|Accent
+r14 c107..110 fg=Accent
 r14 c110..112 fg=Foreground
 r15 c0..33 fg=Foreground
 r15 c33..36 fg=Live

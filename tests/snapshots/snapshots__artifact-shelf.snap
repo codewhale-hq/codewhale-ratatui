@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -231,79 +232,6 @@ r7 c36..80 bg=Background
   Working notes                                                             Open
   ○ Ready · Link · Project reference
 ---
-r0 c0..2 bg=Background
-r0 c2..22 fg=Foreground bg=Background
-r0 c22..76 bg=Background
-r0 c76..80 fg=Accent bg=Background
-r1 c0..2 bg=Background
-r1 c2..3 fg=Live bg=Background
-r1 c3..4 bg=Background
-r1 c4..8 fg=Foreground bg=Background
-r1 c8..11 fg=Dim bg=Background
-r1 c11..15 fg=Muted bg=Background
-r1 c15..18 fg=Dim bg=Background
-r1 c18..23 fg=Muted bg=Background
-r1 c23..30 fg=Foreground bg=Background
-r1 c30..33 fg=Dim bg=Background
-r1 c33..58 fg=Muted bg=Background
-r1 c58..80 bg=Background
-r2 c0..1 fg=Accent bg=Selected
-r2 c1..2 bg=Selected
-r2 c2..22 fg=Foreground bg=Selected bold
-r2 c22..74 bg=Selected
-r2 c74..80 fg=Accent bg=Selected
-r3 c0..2 bg=Selected
-r3 c2..3 fg=Attention bg=Selected
-r3 c3..4 bg=Selected
-r3 c4..13 fg=Foreground bg=Selected
-r3 c13..16 fg=Dim bg=Selected
-r3 c16..22 fg=Muted bg=Selected
-r3 c22..25 fg=Dim bg=Selected
-r3 c25..31 fg=Muted bg=Selected
-r3 c31..32 fg=Foreground bg=Selected
-r3 c32..35 fg=Dim bg=Selected
-r3 c35..58 fg=Muted bg=Selected
-r3 c58..80 bg=Selected
-r4 c0..2 bg=Background
-r4 c2..20 fg=Foreground bg=Background
-r4 c20..73 bg=Background
-r4 c73..80 fg=Accent bg=Background
-r5 c0..2 bg=Background
-r5 c2..3 fg=Live bg=Background
-r5 c3..4 bg=Background
-r5 c4..8 fg=Foreground bg=Background
-r5 c8..11 fg=Dim bg=Background
-r5 c11..14 fg=Muted bg=Background
-r5 c14..17 fg=Dim bg=Background
-r5 c17..24 fg=Muted bg=Background
-r5 c24..26 fg=Foreground bg=Background
-r5 c26..29 fg=Dim bg=Background
-r5 c29..49 fg=Muted bg=Background
-r5 c49..80 bg=Background
-r6 c0..2 bg=Background
-r6 c2..15 fg=Foreground bg=Background
-r6 c15..76 bg=Background
-r6 c76..80 fg=Accent bg=Background
-r7 c0..2 bg=Background
-r7 c2..3 fg=Muted bg=Background
-r7 c3..4 bg=Background
-r7 c4..9 fg=Foreground bg=Background
-r7 c9..12 fg=Dim bg=Background
-r7 c12..16 fg=Muted bg=Background
-r7 c16..19 fg=Dim bg=Background
-r7 c19..36 fg=Muted bg=Background
-r7 c36..80 bg=Background
-
-== light-256
-  Release checklist.md                                                      Open
-  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
-▸ Conversation changes                                                    Review
-  ◆ Needs you · Review · Files 3 · Composer and transcript
-  Local verification                                                     Inspect
-  ✓ Done · Run · Checks 15 · Reported by the host
-  Working notes                                                             Open
-  ○ Ready · Link · Project reference
----
 r0 c0..2 bg=Background|Surface
 r0 c2..22 fg=Foreground bg=Background|Surface
 r0 c22..76 bg=Background|Surface
@@ -366,6 +294,79 @@ r7 c12..16 fg=Muted bg=Background|Surface
 r7 c16..19 fg=Dim bg=Background|Surface
 r7 c19..36 fg=Muted bg=Background|Surface
 r7 c36..80 bg=Background|Surface
+
+== light-256
+  Release checklist.md                                                      Open
+  ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
+▸ Conversation changes                                                    Review
+  ◆ Needs you · Review · Files 3 · Composer and transcript
+  Local verification                                                     Inspect
+  ✓ Done · Run · Checks 15 · Reported by the host
+  Working notes                                                             Open
+  ○ Ready · Link · Project reference
+---
+r0 c0..2 bg=Background
+r0 c2..22 fg=Foreground bg=Background
+r0 c22..76 bg=Background
+r0 c76..80 fg=Accent bg=Background
+r1 c0..2 bg=Background
+r1 c2..3 fg=Live bg=Background
+r1 c3..4 bg=Background
+r1 c4..8 fg=Foreground bg=Background
+r1 c8..11 fg=Dim bg=Background
+r1 c11..15 fg=Muted bg=Background
+r1 c15..18 fg=Dim bg=Background
+r1 c18..23 fg=Muted bg=Background
+r1 c23..30 fg=Foreground bg=Background
+r1 c30..33 fg=Dim bg=Background
+r1 c33..58 fg=Muted bg=Background
+r1 c58..80 bg=Background
+r2 c0..1 fg=Accent bg=Selected
+r2 c1..2 bg=Selected
+r2 c2..22 fg=Foreground bg=Selected bold
+r2 c22..74 bg=Selected
+r2 c74..80 fg=Accent bg=Selected
+r3 c0..2 bg=Selected
+r3 c2..3 fg=Attention bg=Selected
+r3 c3..4 bg=Selected
+r3 c4..13 fg=Foreground bg=Selected
+r3 c13..16 fg=Dim bg=Selected
+r3 c16..22 fg=Muted bg=Selected
+r3 c22..25 fg=Dim bg=Selected
+r3 c25..31 fg=Muted bg=Selected
+r3 c31..32 fg=Foreground bg=Selected
+r3 c32..35 fg=Dim bg=Selected
+r3 c35..58 fg=Muted bg=Selected
+r3 c58..80 bg=Selected
+r4 c0..2 bg=Background
+r4 c2..20 fg=Foreground bg=Background
+r4 c20..73 bg=Background
+r4 c73..80 fg=Accent bg=Background
+r5 c0..2 bg=Background
+r5 c2..3 fg=Live bg=Background
+r5 c3..4 bg=Background
+r5 c4..8 fg=Foreground bg=Background
+r5 c8..11 fg=Dim bg=Background
+r5 c11..14 fg=Muted bg=Background
+r5 c14..17 fg=Dim bg=Background
+r5 c17..24 fg=Muted bg=Background
+r5 c24..26 fg=Foreground bg=Background
+r5 c26..29 fg=Dim bg=Background
+r5 c29..49 fg=Muted bg=Background
+r5 c49..80 bg=Background
+r6 c0..2 bg=Background
+r6 c2..15 fg=Foreground bg=Background
+r6 c15..76 bg=Background
+r6 c76..80 fg=Accent bg=Background
+r7 c0..2 bg=Background
+r7 c2..3 fg=Muted bg=Background
+r7 c3..4 bg=Background
+r7 c4..9 fg=Foreground bg=Background
+r7 c9..12 fg=Dim bg=Background
+r7 c12..16 fg=Muted bg=Background
+r7 c16..19 fg=Dim bg=Background
+r7 c19..36 fg=Muted bg=Background
+r7 c36..80 bg=Background
 
 == ansi-16
   Release checklist.md                                                      Open

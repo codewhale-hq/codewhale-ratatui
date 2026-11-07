@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -58,23 +59,6 @@ Port
 › 70000
 ✕ Enter a port from 1 to 65535.
 ---
-r0 c0..4 fg=Foreground bg=Background bold
-r0 c4..40 bg=Background
-r1 c0..1 fg=Accent bg=Selected
-r1 c1..2 bg=Selected
-r1 c2..7 fg=Foreground bg=Selected
-r1 c7..8 bg=Selected reversed
-r1 c8..40 bg=Selected
-r2 c0..1 fg=Danger bg=Background
-r2 c1..2 bg=Background
-r2 c2..31 fg=Foreground bg=Background
-r2 c31..40 bg=Background
-
-== light-256
-Port
-› 70000
-✕ Enter a port from 1 to 65535.
----
 r0 c0..4 fg=Foreground bg=Background|Surface bold
 r0 c4..40 bg=Background|Surface
 r1 c0..1 fg=Accent bg=Selected
@@ -86,6 +70,23 @@ r2 c0..1 fg=Danger bg=Background|Surface
 r2 c1..2 bg=Background|Surface
 r2 c2..31 fg=Foreground bg=Background|Surface
 r2 c31..40 bg=Background|Surface
+
+== light-256
+Port
+› 70000
+✕ Enter a port from 1 to 65535.
+---
+r0 c0..4 fg=Foreground bg=Background bold
+r0 c4..40 bg=Background
+r1 c0..1 fg=Accent bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..7 fg=Foreground bg=Selected
+r1 c7..8 bg=Selected reversed
+r1 c8..40 bg=Selected
+r2 c0..1 fg=Danger bg=Background
+r2 c1..2 bg=Background
+r2 c2..31 fg=Foreground bg=Background
+r2 c31..40 bg=Background
 
 == ansi-16
 Port

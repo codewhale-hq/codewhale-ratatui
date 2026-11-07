@@ -7,7 +7,7 @@ expression: "testing::snapshot(3, demo(t0, MotionMode::Full, ms(100)))"
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a0c6b2 bg=Background
+r0 c0..1 fg=#9fc9be bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..40 bg=Background
@@ -24,7 +24,7 @@ r2 c16..40 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a0c6b2 bg=Background
+r0 c0..1 fg=#9fc9be bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..80 bg=Background
@@ -41,7 +41,7 @@ r2 c16..80 bg=Background
                       ▸ Selected
 patch applied to
 ---
-r0 c0..1 fg=#a0c6b2 bg=Background
+r0 c0..1 fg=#9fc9be bg=Background
 r0 c1..2 bg=Background
 r0 c2..6 fg=Foreground bg=Background
 r0 c6..120 bg=Background

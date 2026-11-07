@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -13,45 +14,45 @@ expression: dump(&entry)
 │                                                                  [↵] │
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
-r0 c0..63 fg=Primary|Accent bg=Surface
+r0 c0..63 fg=Accent bg=Surface
 r0 c63..71 fg=Attention bg=Surface bold
-r0 c71..72 fg=Primary|Accent bg=Surface bold
-r1 c0..1 fg=Primary|Accent bg=Surface
+r0 c71..72 fg=Accent bg=Surface bold
+r1 c0..1 fg=Accent bg=Surface
 r1 c1..71 bg=Surface
-r1 c71..72 fg=Primary|Accent bg=Surface
-r2 c0..2 fg=Primary|Accent bg=Surface
+r1 c71..72 fg=Accent bg=Surface
+r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
 r2 c3..10 fg=Foreground bg=Surface
 r2 c10..17 fg=Foreground bg=Selected
 r2 c17..47 fg=Foreground bg=Surface
 r2 c47..71 bg=Surface
-r2 c71..72 fg=Primary|Accent bg=Surface
-r3 c0..1 fg=Primary|Accent bg=Surface
+r2 c71..72 fg=Accent bg=Surface
+r3 c0..1 fg=Accent bg=Surface
 r3 c1..2 bg=Surface
 r3 c2..19 fg=Foreground bg=Surface
 r3 c19..65 fg=Muted bg=Surface
 r3 c65..71 bg=Surface
-r3 c71..72 fg=Primary|Accent bg=Surface
-r4 c0..1 fg=Primary|Accent bg=Surface
+r3 c71..72 fg=Accent bg=Surface
+r4 c0..1 fg=Accent bg=Surface
 r4 c1..2 bg=Surface
-r4 c2..19 fg=Primary|Accent bg=Surface
+r4 c2..19 fg=Accent bg=Surface
 r4 c19..66 fg=Foreground bg=Surface
 r4 c66..71 bg=Surface
-r4 c71..72 fg=Primary|Accent bg=Surface
-r5 c0..1 fg=Primary|Accent bg=Surface
+r4 c71..72 fg=Accent bg=Surface
+r5 c0..1 fg=Accent bg=Surface
 r5 c1..71 bg=Surface
-r5 c71..72 fg=Primary|Accent bg=Surface
-r6 c0..1 fg=Primary|Accent bg=Surface
+r5 c71..72 fg=Accent bg=Surface
+r6 c0..1 fg=Accent bg=Surface
 r6 c1..71 bg=Surface
-r6 c71..72 fg=Primary|Accent bg=Surface
-r7 c0..1 fg=Primary|Accent bg=Surface
+r6 c71..72 fg=Accent bg=Surface
+r7 c0..1 fg=Accent bg=Surface
 r7 c1..67 bg=Surface
-r7 c67..70 fg=Primary|Accent bg=Surface bold
+r7 c67..70 fg=Accent bg=Surface bold
 r7 c70..71 bg=Surface
-r7 c71..72 fg=Primary|Accent bg=Surface
-r8 c0..1 fg=Primary|Accent bg=Surface
+r7 c71..72 fg=Accent bg=Surface
+r8 c0..1 fg=Accent bg=Surface
 r8 c1..32 fg=Muted bg=Surface
-r8 c32..72 fg=Primary|Accent bg=Surface
+r8 c32..72 fg=Accent bg=Surface
 
 == dark-graphite
 ╭────────────────────────────────────────────────────────────── Builder╮
@@ -64,45 +65,45 @@ r8 c32..72 fg=Primary|Accent bg=Surface
 │                                                                  [↵] │
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
-r0 c0..63 fg=Primary|Accent bg=Surface
+r0 c0..63 fg=Accent bg=Surface
 r0 c63..71 fg=Attention bg=Surface bold
-r0 c71..72 fg=Primary|Accent bg=Surface bold
-r1 c0..1 fg=Primary|Accent bg=Surface
+r0 c71..72 fg=Accent bg=Surface bold
+r1 c0..1 fg=Accent bg=Surface
 r1 c1..71 bg=Surface
-r1 c71..72 fg=Primary|Accent bg=Surface
-r2 c0..2 fg=Primary|Accent bg=Surface
+r1 c71..72 fg=Accent bg=Surface
+r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
 r2 c3..10 fg=Foreground bg=Surface
 r2 c10..17 fg=Foreground bg=Selected
 r2 c17..47 fg=Foreground bg=Surface
 r2 c47..71 bg=Surface
-r2 c71..72 fg=Primary|Accent bg=Surface
-r3 c0..1 fg=Primary|Accent bg=Surface
+r2 c71..72 fg=Accent bg=Surface
+r3 c0..1 fg=Accent bg=Surface
 r3 c1..2 bg=Surface
 r3 c2..19 fg=Foreground bg=Surface
 r3 c19..65 fg=Muted bg=Surface
 r3 c65..71 bg=Surface
-r3 c71..72 fg=Primary|Accent bg=Surface
-r4 c0..1 fg=Primary|Accent bg=Surface
+r3 c71..72 fg=Accent bg=Surface
+r4 c0..1 fg=Accent bg=Surface
 r4 c1..2 bg=Surface
-r4 c2..19 fg=Primary|Accent bg=Surface
+r4 c2..19 fg=Accent bg=Surface
 r4 c19..66 fg=Foreground bg=Surface
 r4 c66..71 bg=Surface
-r4 c71..72 fg=Primary|Accent bg=Surface
-r5 c0..1 fg=Primary|Accent bg=Surface
+r4 c71..72 fg=Accent bg=Surface
+r5 c0..1 fg=Accent bg=Surface
 r5 c1..71 bg=Surface
-r5 c71..72 fg=Primary|Accent bg=Surface
-r6 c0..1 fg=Primary|Accent bg=Surface
+r5 c71..72 fg=Accent bg=Surface
+r6 c0..1 fg=Accent bg=Surface
 r6 c1..71 bg=Surface
-r6 c71..72 fg=Primary|Accent bg=Surface
-r7 c0..1 fg=Primary|Accent bg=Surface
+r6 c71..72 fg=Accent bg=Surface
+r7 c0..1 fg=Accent bg=Surface
 r7 c1..67 bg=Surface
-r7 c67..70 fg=Primary|Accent bg=Surface bold
+r7 c67..70 fg=Accent bg=Surface bold
 r7 c70..71 bg=Surface
-r7 c71..72 fg=Primary|Accent bg=Surface
-r8 c0..1 fg=Primary|Accent bg=Surface
+r7 c71..72 fg=Accent bg=Surface
+r8 c0..1 fg=Accent bg=Surface
 r8 c1..32 fg=Muted bg=Surface
-r8 c32..72 fg=Primary|Accent bg=Surface
+r8 c32..72 fg=Accent bg=Surface
 
 == light-truecolor
 ╭────────────────────────────────────────────────────────────── Builder╮
@@ -115,34 +116,34 @@ r8 c32..72 fg=Primary|Accent bg=Surface
 │                                                                  [↵] │
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
-r0 c0..63 fg=Primary|Accent
+r0 c0..63 fg=Accent
 r0 c63..71 fg=Attention bold
-r0 c71..72 fg=Primary|Accent bold
-r1 c0..1 fg=Primary|Accent
-r1 c71..72 fg=Primary|Accent
-r2 c0..2 fg=Primary|Accent
+r0 c71..72 fg=Accent bold
+r1 c0..1 fg=Accent
+r1 c71..72 fg=Accent
+r2 c0..2 fg=Accent
 r2 c3..10 fg=Foreground
 r2 c10..17 fg=Foreground bg=Selected
 r2 c17..47 fg=Foreground
-r2 c71..72 fg=Primary|Accent
-r3 c0..1 fg=Primary|Accent
+r2 c71..72 fg=Accent
+r3 c0..1 fg=Accent
 r3 c2..19 fg=Foreground
 r3 c19..65 fg=Muted
-r3 c71..72 fg=Primary|Accent
-r4 c0..1 fg=Primary|Accent
-r4 c2..19 fg=Primary|Accent
+r3 c71..72 fg=Accent
+r4 c0..1 fg=Accent
+r4 c2..19 fg=Accent
 r4 c19..66 fg=Foreground
-r4 c71..72 fg=Primary|Accent
-r5 c0..1 fg=Primary|Accent
-r5 c71..72 fg=Primary|Accent
-r6 c0..1 fg=Primary|Accent
-r6 c71..72 fg=Primary|Accent
-r7 c0..1 fg=Primary|Accent
-r7 c67..70 fg=Primary|Accent bold
-r7 c71..72 fg=Primary|Accent
-r8 c0..1 fg=Primary|Accent
+r4 c71..72 fg=Accent
+r5 c0..1 fg=Accent
+r5 c71..72 fg=Accent
+r6 c0..1 fg=Accent
+r6 c71..72 fg=Accent
+r7 c0..1 fg=Accent
+r7 c67..70 fg=Accent bold
+r7 c71..72 fg=Accent
+r8 c0..1 fg=Accent
 r8 c1..32 fg=Muted
-r8 c32..72 fg=Primary|Accent
+r8 c32..72 fg=Accent
 
 == dark-256
 ╭────────────────────────────────────────────────────────────── Builder╮
@@ -155,45 +156,45 @@ r8 c32..72 fg=Primary|Accent
 │                                                                  [↵] │
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
-r0 c0..63 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r0 c0..63 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r0 c63..71 fg=Attention bg=Surface|Hover|DiffRemovedTint bold
-r0 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint bold
-r1 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r0 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint bold
+r1 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r1 c1..71 bg=Surface|Hover|DiffRemovedTint
-r1 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r2 c0..2 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r1 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r2 c0..2 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r2 c2..3 bg=Surface|Hover|DiffRemovedTint
 r2 c3..10 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r2 c10..17 fg=Foreground bg=Selected
 r2 c17..47 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r2 c47..71 bg=Surface|Hover|DiffRemovedTint
-r2 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r3 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r2 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r3 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r3 c1..2 bg=Surface|Hover|DiffRemovedTint
 r3 c2..19 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r3 c19..65 fg=Muted bg=Surface|Hover|DiffRemovedTint
 r3 c65..71 bg=Surface|Hover|DiffRemovedTint
-r3 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r4 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r3 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r4 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r4 c1..2 bg=Surface|Hover|DiffRemovedTint
-r4 c2..19 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r4 c2..19 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r4 c19..66 fg=Foreground bg=Surface|Hover|DiffRemovedTint
 r4 c66..71 bg=Surface|Hover|DiffRemovedTint
-r4 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r5 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r4 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r5 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r5 c1..71 bg=Surface|Hover|DiffRemovedTint
-r5 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r6 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r5 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r6 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r6 c1..71 bg=Surface|Hover|DiffRemovedTint
-r6 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r7 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r6 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r7 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r7 c1..67 bg=Surface|Hover|DiffRemovedTint
-r7 c67..70 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint bold
+r7 c67..70 fg=Accent bg=Surface|Hover|DiffRemovedTint bold
 r7 c70..71 bg=Surface|Hover|DiffRemovedTint
-r7 c71..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
-r8 c0..1 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r7 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
+r8 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r8 c1..32 fg=Muted bg=Surface|Hover|DiffRemovedTint
-r8 c32..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
+r8 c32..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 
 == light-256
 ╭────────────────────────────────────────────────────────────── Builder╮
@@ -206,34 +207,34 @@ r8 c32..72 fg=Primary|Accent bg=Surface|Hover|DiffRemovedTint
 │                                                                  [↵] │
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
-r0 c0..63 fg=Primary|Accent
+r0 c0..63 fg=Accent
 r0 c63..71 fg=Attention bold
-r0 c71..72 fg=Primary|Accent bold
-r1 c0..1 fg=Primary|Accent
-r1 c71..72 fg=Primary|Accent
-r2 c0..2 fg=Primary|Accent
+r0 c71..72 fg=Accent bold
+r1 c0..1 fg=Accent
+r1 c71..72 fg=Accent
+r2 c0..2 fg=Accent
 r2 c3..10 fg=Foreground
 r2 c10..17 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r2 c17..47 fg=Foreground
-r2 c71..72 fg=Primary|Accent
-r3 c0..1 fg=Primary|Accent
+r2 c71..72 fg=Accent
+r3 c0..1 fg=Accent
 r3 c2..19 fg=Foreground
 r3 c19..65 fg=Muted|Hint|Dim
-r3 c71..72 fg=Primary|Accent
-r4 c0..1 fg=Primary|Accent
-r4 c2..19 fg=Primary|Accent
+r3 c71..72 fg=Accent
+r4 c0..1 fg=Accent
+r4 c2..19 fg=Accent
 r4 c19..66 fg=Foreground
-r4 c71..72 fg=Primary|Accent
-r5 c0..1 fg=Primary|Accent
-r5 c71..72 fg=Primary|Accent
-r6 c0..1 fg=Primary|Accent
-r6 c71..72 fg=Primary|Accent
-r7 c0..1 fg=Primary|Accent
-r7 c67..70 fg=Primary|Accent bold
-r7 c71..72 fg=Primary|Accent
-r8 c0..1 fg=Primary|Accent
+r4 c71..72 fg=Accent
+r5 c0..1 fg=Accent
+r5 c71..72 fg=Accent
+r6 c0..1 fg=Accent
+r6 c71..72 fg=Accent
+r7 c0..1 fg=Accent
+r7 c67..70 fg=Accent bold
+r7 c71..72 fg=Accent
+r8 c0..1 fg=Accent
 r8 c1..32 fg=Muted|Hint|Dim
-r8 c32..72 fg=Primary|Accent
+r8 c32..72 fg=Accent
 
 == ansi-16
 ╭────────────────────────────────────────────────────────────── Builder╮

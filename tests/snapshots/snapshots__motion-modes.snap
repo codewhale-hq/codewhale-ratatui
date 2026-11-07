@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -79,30 +80,6 @@ r2 c13..40 bg=Background
 ● Reduced motion · 3 s
 ● Still · 3 s
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..9 fg=Foreground bg=Background
-r0 c9..12 fg=Border bg=Background
-r0 c12..15 fg=Muted bg=Background
-r0 c15..40 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..16 fg=Foreground bg=Background
-r1 c16..19 fg=Border bg=Background
-r1 c19..22 fg=Muted bg=Background
-r1 c22..40 bg=Background
-r2 c0..1 fg=Live bg=Background
-r2 c1..2 bg=Background
-r2 c2..7 fg=Foreground bg=Background
-r2 c7..10 fg=Border bg=Background
-r2 c10..13 fg=Muted bg=Background
-r2 c13..40 bg=Background
-
-== light-256
-⣦ Working · 3 s
-● Reduced motion · 3 s
-● Still · 3 s
----
 r0 c0..1 fg=Live bg=Background|Surface
 r0 c1..2 bg=Background|Surface
 r0 c2..9 fg=Foreground bg=Background|Surface
@@ -121,6 +98,30 @@ r2 c2..7 fg=Foreground bg=Background|Surface
 r2 c7..10 fg=Border bg=Background|Surface
 r2 c10..13 fg=Muted bg=Background|Surface
 r2 c13..40 bg=Background|Surface
+
+== light-256
+⣦ Working · 3 s
+● Reduced motion · 3 s
+● Still · 3 s
+---
+r0 c0..1 fg=Live bg=Background
+r0 c1..2 bg=Background
+r0 c2..9 fg=Foreground bg=Background
+r0 c9..12 fg=Border bg=Background
+r0 c12..15 fg=Muted bg=Background
+r0 c15..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..16 fg=Foreground bg=Background
+r1 c16..19 fg=Border bg=Background
+r1 c19..22 fg=Muted bg=Background
+r1 c22..40 bg=Background
+r2 c0..1 fg=Live bg=Background
+r2 c1..2 bg=Background
+r2 c2..7 fg=Foreground bg=Background
+r2 c7..10 fg=Border bg=Background
+r2 c10..13 fg=Muted bg=Background
+r2 c13..40 bg=Background
 
 == ansi-16
 ⣦ Working · 3 s

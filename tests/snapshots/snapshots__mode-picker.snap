@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -314,105 +315,6 @@ r12 c0..80 bg=Background
     ╰──────────────────────────────────────────────────────────────────────╯
 
 ---
-r0 c0..80 bg=Background
-r1 c0..4 bg=Background
-r1 c4..76 fg=Accent bg=Surface|Hover
-r1 c76..80 bg=Background
-r2 c0..4 bg=Background
-r2 c4..5 fg=Accent bg=Surface|Hover
-r2 c5..75 bg=Surface|Hover
-r2 c75..76 fg=Accent bg=Surface|Hover
-r2 c76..80 bg=Background
-r3 c0..4 bg=Background
-r3 c4..5 fg=Accent bg=Surface|Hover
-r3 c5..6 bg=Surface|Hover
-r3 c6..10 fg=Foreground bg=Surface|Hover bold
-r3 c10..75 bg=Surface|Hover
-r3 c75..76 fg=Accent bg=Surface|Hover
-r3 c76..80 bg=Background
-r4 c0..4 bg=Background
-r4 c4..5 fg=Accent bg=Surface|Hover
-r4 c5..75 bg=Surface|Hover
-r4 c75..76 fg=Accent bg=Surface|Hover
-r4 c76..80 bg=Background
-r5 c0..4 bg=Background
-r5 c4..5 fg=Accent bg=Surface|Hover
-r5 c5..6 bg=Surface|Hover
-r5 c6..8 fg=Accent bg=Selected
-r5 c8..10 fg=Muted bg=Selected
-r5 c10..17 fg=Foreground bg=Selected bold
-r5 c17..72 fg=Muted bg=Selected
-r5 c72..74 bg=Selected
-r5 c74..75 bg=Surface|Hover
-r5 c75..76 fg=Accent bg=Surface|Hover
-r5 c76..80 bg=Background
-r6 c0..4 bg=Background
-r6 c4..5 fg=Accent bg=Surface|Hover
-r6 c5..6 bg=Surface|Hover
-r6 c6..8 fg=Accent bg=Surface|Hover
-r6 c8..10 fg=Muted bg=Surface|Hover
-r6 c10..17 fg=Foreground bg=Surface|Hover
-r6 c17..74 fg=Muted bg=Surface|Hover
-r6 c74..75 bg=Surface|Hover
-r6 c75..76 fg=Accent bg=Surface|Hover
-r6 c76..80 bg=Background
-r7 c0..4 bg=Background
-r7 c4..5 fg=Accent bg=Surface|Hover
-r7 c5..6 bg=Surface|Hover
-r7 c6..8 fg=Accent bg=Surface|Hover
-r7 c8..10 fg=Muted bg=Surface|Hover
-r7 c10..17 fg=Foreground bg=Surface|Hover
-r7 c17..74 fg=Muted bg=Surface|Hover
-r7 c74..75 bg=Surface|Hover
-r7 c75..76 fg=Accent bg=Surface|Hover
-r7 c76..80 bg=Background
-r8 c0..4 bg=Background
-r8 c4..5 fg=Accent bg=Surface|Hover
-r8 c5..75 bg=Surface|Hover
-r8 c75..76 fg=Accent bg=Surface|Hover
-r8 c76..80 bg=Background
-r9 c0..4 bg=Background
-r9 c4..5 fg=Accent bg=Surface|Hover
-r9 c5..6 bg=Surface|Hover
-r9 c6..8 fg=Foreground bg=Surface|Hover bold
-r9 c8..9 bg=Surface|Hover
-r9 c9..13 fg=Muted bg=Surface|Hover
-r9 c13..16 fg=Border bg=Surface|Hover
-r9 c16..21 fg=Foreground bg=Surface|Hover bold
-r9 c21..22 bg=Surface|Hover
-r9 c22..28 fg=Muted bg=Surface|Hover
-r9 c28..31 fg=Border bg=Surface|Hover
-r9 c31..34 fg=Foreground bg=Surface|Hover bold
-r9 c34..35 bg=Surface|Hover
-r9 c35..41 fg=Muted bg=Surface|Hover
-r9 c41..75 bg=Surface|Hover
-r9 c75..76 fg=Accent bg=Surface|Hover
-r9 c76..80 bg=Background
-r10 c0..4 bg=Background
-r10 c4..5 fg=Accent bg=Surface|Hover
-r10 c5..75 bg=Surface|Hover
-r10 c75..76 fg=Accent bg=Surface|Hover
-r10 c76..80 bg=Background
-r11 c0..4 bg=Background
-r11 c4..76 fg=Accent bg=Surface|Hover
-r11 c76..80 bg=Background
-r12 c0..80 bg=Background
-
-== light-256
-
-    ╭──────────────────────────────────────────────────────────────────────╮
-    │                                                                      │
-    │ Mode                                                                 │
-    │                                                                      │
-    │ ▸ 1 Work     Works in this session; asks before edits and commands   │
-    │   2 Plan     Researches without changing files, then proposes a plan │
-    │   3 Operate  Runs parallel agents on your goal and checks their work │
-    │                                                                      │
-    │ ↑↓ move · Enter select · Esc cancel                                  │
-    │                                                                      │
-    ╰──────────────────────────────────────────────────────────────────────╯
-
----
 r0 c0..80 bg=Background|Surface
 r1 c0..4 bg=Background|Surface
 r1 c4..76 fg=Accent bg=Background|Surface
@@ -496,6 +398,105 @@ r11 c0..4 bg=Background|Surface
 r11 c4..76 fg=Accent bg=Background|Surface
 r11 c76..80 bg=Background|Surface
 r12 c0..80 bg=Background|Surface
+
+== light-256
+
+    ╭──────────────────────────────────────────────────────────────────────╮
+    │                                                                      │
+    │ Mode                                                                 │
+    │                                                                      │
+    │ ▸ 1 Work     Works in this session; asks before edits and commands   │
+    │   2 Plan     Researches without changing files, then proposes a plan │
+    │   3 Operate  Runs parallel agents on your goal and checks their work │
+    │                                                                      │
+    │ ↑↓ move · Enter select · Esc cancel                                  │
+    │                                                                      │
+    ╰──────────────────────────────────────────────────────────────────────╯
+
+---
+r0 c0..80 bg=Background
+r1 c0..4 bg=Background
+r1 c4..76 fg=Accent bg=Sidebar|Surface
+r1 c76..80 bg=Background
+r2 c0..4 bg=Background
+r2 c4..5 fg=Accent bg=Sidebar|Surface
+r2 c5..75 bg=Sidebar|Surface
+r2 c75..76 fg=Accent bg=Sidebar|Surface
+r2 c76..80 bg=Background
+r3 c0..4 bg=Background
+r3 c4..5 fg=Accent bg=Sidebar|Surface
+r3 c5..6 bg=Sidebar|Surface
+r3 c6..10 fg=Foreground bg=Sidebar|Surface bold
+r3 c10..75 bg=Sidebar|Surface
+r3 c75..76 fg=Accent bg=Sidebar|Surface
+r3 c76..80 bg=Background
+r4 c0..4 bg=Background
+r4 c4..5 fg=Accent bg=Sidebar|Surface
+r4 c5..75 bg=Sidebar|Surface
+r4 c75..76 fg=Accent bg=Sidebar|Surface
+r4 c76..80 bg=Background
+r5 c0..4 bg=Background
+r5 c4..5 fg=Accent bg=Sidebar|Surface
+r5 c5..6 bg=Sidebar|Surface
+r5 c6..8 fg=Accent bg=Selected
+r5 c8..10 fg=Muted bg=Selected
+r5 c10..17 fg=Foreground bg=Selected bold
+r5 c17..72 fg=Muted bg=Selected
+r5 c72..74 bg=Selected
+r5 c74..75 bg=Sidebar|Surface
+r5 c75..76 fg=Accent bg=Sidebar|Surface
+r5 c76..80 bg=Background
+r6 c0..4 bg=Background
+r6 c4..5 fg=Accent bg=Sidebar|Surface
+r6 c5..6 bg=Sidebar|Surface
+r6 c6..8 fg=Accent bg=Sidebar|Surface
+r6 c8..10 fg=Muted bg=Sidebar|Surface
+r6 c10..17 fg=Foreground bg=Sidebar|Surface
+r6 c17..74 fg=Muted bg=Sidebar|Surface
+r6 c74..75 bg=Sidebar|Surface
+r6 c75..76 fg=Accent bg=Sidebar|Surface
+r6 c76..80 bg=Background
+r7 c0..4 bg=Background
+r7 c4..5 fg=Accent bg=Sidebar|Surface
+r7 c5..6 bg=Sidebar|Surface
+r7 c6..8 fg=Accent bg=Sidebar|Surface
+r7 c8..10 fg=Muted bg=Sidebar|Surface
+r7 c10..17 fg=Foreground bg=Sidebar|Surface
+r7 c17..74 fg=Muted bg=Sidebar|Surface
+r7 c74..75 bg=Sidebar|Surface
+r7 c75..76 fg=Accent bg=Sidebar|Surface
+r7 c76..80 bg=Background
+r8 c0..4 bg=Background
+r8 c4..5 fg=Accent bg=Sidebar|Surface
+r8 c5..75 bg=Sidebar|Surface
+r8 c75..76 fg=Accent bg=Sidebar|Surface
+r8 c76..80 bg=Background
+r9 c0..4 bg=Background
+r9 c4..5 fg=Accent bg=Sidebar|Surface
+r9 c5..6 bg=Sidebar|Surface
+r9 c6..8 fg=Foreground bg=Sidebar|Surface bold
+r9 c8..9 bg=Sidebar|Surface
+r9 c9..13 fg=Muted bg=Sidebar|Surface
+r9 c13..16 fg=Border bg=Sidebar|Surface
+r9 c16..21 fg=Foreground bg=Sidebar|Surface bold
+r9 c21..22 bg=Sidebar|Surface
+r9 c22..28 fg=Muted bg=Sidebar|Surface
+r9 c28..31 fg=Border bg=Sidebar|Surface
+r9 c31..34 fg=Foreground bg=Sidebar|Surface bold
+r9 c34..35 bg=Sidebar|Surface
+r9 c35..41 fg=Muted bg=Sidebar|Surface
+r9 c41..75 bg=Sidebar|Surface
+r9 c75..76 fg=Accent bg=Sidebar|Surface
+r9 c76..80 bg=Background
+r10 c0..4 bg=Background
+r10 c4..5 fg=Accent bg=Sidebar|Surface
+r10 c5..75 bg=Sidebar|Surface
+r10 c75..76 fg=Accent bg=Sidebar|Surface
+r10 c76..80 bg=Background
+r11 c0..4 bg=Background
+r11 c4..76 fg=Accent bg=Sidebar|Surface
+r11 c76..80 bg=Background
+r12 c0..80 bg=Background
 
 == ansi-16
 

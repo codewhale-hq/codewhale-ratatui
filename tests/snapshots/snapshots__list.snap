@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -111,40 +112,6 @@ r4 c31..64 bg=Background
   Provider              Sign in first
   Language              English
 ---
-r0 c0..2 bg=Background
-r0 c2..7 fg=Foreground bg=Background
-r0 c7..24 bg=Background
-r0 c24..51 fg=Muted bg=Background
-r0 c51..64 bg=Background
-r1 c0..1 fg=Accent bg=Selected
-r1 c1..2 bg=Selected
-r1 c2..8 fg=Foreground bg=Selected bold
-r1 c8..24 bg=Selected
-r1 c24..28 fg=Muted bg=Selected
-r1 c28..64 bg=Selected
-r2 c0..2 bg=Background
-r2 c2..9 fg=Foreground bg=Background
-r2 c9..24 bg=Background
-r2 c24..35 fg=Muted bg=Background
-r2 c35..64 bg=Background
-r3 c0..2 bg=Background
-r3 c2..10 fg=Muted bg=Background dim
-r3 c10..24 bg=Background
-r3 c24..37 fg=Muted bg=Background
-r3 c37..64 bg=Background
-r4 c0..2 bg=Background
-r4 c2..10 fg=Foreground bg=Background
-r4 c10..24 bg=Background
-r4 c24..31 fg=Muted bg=Background
-r4 c31..64 bg=Background
-
-== light-256
-  Theme                 Shoreline, follows terminal
-▸ Motion                Full
-  Density               Comfortable
-  Provider              Sign in first
-  Language              English
----
 r0 c0..2 bg=Background|Surface
 r0 c2..7 fg=Foreground bg=Background|Surface
 r0 c7..24 bg=Background|Surface
@@ -171,6 +138,40 @@ r4 c2..10 fg=Foreground bg=Background|Surface
 r4 c10..24 bg=Background|Surface
 r4 c24..31 fg=Muted bg=Background|Surface
 r4 c31..64 bg=Background|Surface
+
+== light-256
+  Theme                 Shoreline, follows terminal
+▸ Motion                Full
+  Density               Comfortable
+  Provider              Sign in first
+  Language              English
+---
+r0 c0..2 bg=Background
+r0 c2..7 fg=Foreground bg=Background
+r0 c7..24 bg=Background
+r0 c24..51 fg=Muted bg=Background
+r0 c51..64 bg=Background
+r1 c0..1 fg=Accent bg=Selected
+r1 c1..2 bg=Selected
+r1 c2..8 fg=Foreground bg=Selected bold
+r1 c8..24 bg=Selected
+r1 c24..28 fg=Muted bg=Selected
+r1 c28..64 bg=Selected
+r2 c0..2 bg=Background
+r2 c2..9 fg=Foreground bg=Background
+r2 c9..24 bg=Background
+r2 c24..35 fg=Muted bg=Background
+r2 c35..64 bg=Background
+r3 c0..2 bg=Background
+r3 c2..10 fg=Muted bg=Background dim
+r3 c10..24 bg=Background
+r3 c24..37 fg=Muted bg=Background
+r3 c37..64 bg=Background
+r4 c0..2 bg=Background
+r4 c2..10 fg=Foreground bg=Background
+r4 c10..24 bg=Background
+r4 c24..31 fg=Muted bg=Background
+r4 c31..64 bg=Background
 
 == ansi-16
   Theme                 Shoreline, follows terminal

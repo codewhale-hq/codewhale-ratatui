@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -52,21 +53,6 @@ Organization
   shannon-labs
 · Set by your administrator
 ---
-r0 c0..12 fg=Muted bg=Background dim
-r0 c12..40 bg=Background
-r1 c0..2 bg=Background
-r1 c2..14 fg=Muted bg=Background dim
-r1 c14..40 bg=Background
-r2 c0..1 fg=Muted bg=Background
-r2 c1..2 bg=Background
-r2 c2..27 fg=Muted bg=Background
-r2 c27..40 bg=Background
-
-== light-256
-Organization
-  shannon-labs
-· Set by your administrator
----
 r0 c0..12 fg=Muted bg=Background|Surface dim
 r0 c12..40 bg=Background|Surface
 r1 c0..2 bg=Background|Surface
@@ -76,6 +62,21 @@ r2 c0..1 fg=Muted bg=Background|Surface
 r2 c1..2 bg=Background|Surface
 r2 c2..27 fg=Muted bg=Background|Surface
 r2 c27..40 bg=Background|Surface
+
+== light-256
+Organization
+  shannon-labs
+· Set by your administrator
+---
+r0 c0..12 fg=Muted bg=Background dim
+r0 c12..40 bg=Background
+r1 c0..2 bg=Background
+r1 c2..14 fg=Muted bg=Background dim
+r1 c14..40 bg=Background
+r2 c0..1 fg=Muted bg=Background
+r2 c1..2 bg=Background
+r2 c2..27 fg=Muted bg=Background
+r2 c27..40 bg=Background
 
 == ansi-16
 Organization

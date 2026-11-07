@@ -1,5 +1,6 @@
 ---
 source: tests/snapshots.rs
+assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -83,31 +84,6 @@ r3 c31..40 bg=Background
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Accent bg=Background
-r0 c8..40 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..10 fg=Live bg=Background
-r1 c10..13 bg=Background
-r1 c13..21 fg=Foreground bg=Background
-r1 c21..30 fg=Muted bg=Background
-r1 c30..40 bg=Background
-r2 c0..1 fg=Attention bg=Background
-r2 c1..2 bg=Background
-r2 c2..13 fg=Attention bg=Background
-r2 c13..16 bg=Background
-r2 c16..24 fg=Foreground bg=Background
-r2 c24..40 bg=Background
-r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Accent bg=Background
-r3 c31..40 bg=Background
-
-== light-256
-1 queued
-✓ included / notes.md (4.2 kB)
-◆ unconfirmed / draft.md
-+2 more  Send now / Edit / Drop
----
 r0 c0..8 fg=Accent bg=Background|Surface
 r0 c8..40 bg=Background|Surface
 r1 c0..1 fg=Live bg=Background|Surface
@@ -126,6 +102,31 @@ r2 c24..40 bg=Background|Surface
 r3 c0..9 fg=Muted bg=Background|Surface
 r3 c9..31 fg=Accent bg=Background|Surface
 r3 c31..40 bg=Background|Surface
+
+== light-256
+1 queued
+✓ included / notes.md (4.2 kB)
+◆ unconfirmed / draft.md
++2 more  Send now / Edit / Drop
+---
+r0 c0..8 fg=Accent bg=Background
+r0 c8..40 bg=Background
+r1 c0..1 fg=Live bg=Background
+r1 c1..2 bg=Background
+r1 c2..10 fg=Live bg=Background
+r1 c10..13 bg=Background
+r1 c13..21 fg=Foreground bg=Background
+r1 c21..30 fg=Muted bg=Background
+r1 c30..40 bg=Background
+r2 c0..1 fg=Attention bg=Background
+r2 c1..2 bg=Background
+r2 c2..13 fg=Attention bg=Background
+r2 c13..16 bg=Background
+r2 c16..24 fg=Foreground bg=Background
+r2 c24..40 bg=Background
+r3 c0..9 fg=Muted bg=Background
+r3 c9..31 fg=Accent bg=Background
+r3 c31..40 bg=Background
 
 == ansi-16
 1 queued
