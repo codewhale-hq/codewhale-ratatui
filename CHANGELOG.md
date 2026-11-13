@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Add data displays: `DataSparkline`, `DataBars` and `DataTrend` (a braille
+  line chart). The words carry every value; the ink draws in from a caller
+  progress (`MotionStep::drawn`) and is at its end state under reduced or
+  still motion. Bars glide from their previous values.
+- Add `DataDisplay`, the same displays as JSON an agent can send:
+  `DataDisplay::from_json` validates it (finite numbers, at most 1024 points
+  or 24 bars, labels up to 120 characters), `describe` says the same facts as
+  plain text, and `DATA_DISPLAY_SCHEMA` is its tool schema. Try
+  `cargo run --example data`.
 - Move to Codewhale design tokens 2.3.0. `Primary` is now the neutral ink of
   filled actions and switches; a new `Accent` role carries the one quiet blue
   for links, focus and selection (what 1.x called `primary`), so components

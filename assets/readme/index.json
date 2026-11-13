@@ -165,6 +165,12 @@
     "workflow-tree-clipped",
     "workflow-tree-long",
     "count-bars",
+    "data-sparkline",
+    "data-bars",
+    "data-bars-growing",
+    "data-trend",
+    "data-trend-drawing",
+    "data-from-agent",
     "approval-native-band",
     "approval-native-band-collapsed",
     "approval-command",
@@ -687,7 +693,8 @@
         "attention-focused",
         "attention-narrow",
         "attention-empty",
-        "message"
+        "data-sparkline",
+        "data-bars"
       ]
     },
     {
@@ -695,9 +702,21 @@
       "profile": "dark-truecolor",
       "group": "components",
       "entries": [
+        "data-bars-growing",
+        "data-trend",
+        "data-trend-drawing",
+        "data-from-agent",
+        "message",
         "composer",
         "tool-card",
-        "agent-card",
+        "agent-card"
+      ]
+    },
+    {
+      "file": "components.dark-truecolor-3.svg",
+      "profile": "dark-truecolor",
+      "group": "components",
+      "entries": [
         "fleet"
       ]
     },
@@ -1387,7 +1406,8 @@
         "attention-focused",
         "attention-narrow",
         "attention-empty",
-        "message"
+        "data-sparkline",
+        "data-bars"
       ]
     },
     {
@@ -1395,9 +1415,21 @@
       "profile": "light-truecolor",
       "group": "components",
       "entries": [
+        "data-bars-growing",
+        "data-trend",
+        "data-trend-drawing",
+        "data-from-agent",
+        "message",
         "composer",
         "tool-card",
-        "agent-card",
+        "agent-card"
+      ]
+    },
+    {
+      "file": "components.light-truecolor-3.svg",
+      "profile": "light-truecolor",
+      "group": "components",
+      "entries": [
         "fleet"
       ]
     },

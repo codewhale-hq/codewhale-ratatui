@@ -130,7 +130,7 @@ repository; adding a dependency does not install its example apps.
 ## Explore the components
 
 Open a collection to see its full dark and light previews. Every one of the
-209 gallery entries is here, rendered from actual Ratatui buffers. The
+216 gallery entries is here, rendered from actual Ratatui buffers. The
 [component guide](COMPONENTS.md) maps them to Codewhale's terminal views.
 Run `cargo run --example gallery` to try every variation yourself.
 
@@ -531,20 +531,24 @@ Rich prose, code, attached context and the next instruction.
 
 <a id="conversation-and-agents"></a>
 <details>
-<summary>Conversation and agents · 13 examples</summary>
+<summary>Conversation and agents · 19 examples</summary>
 
 Inline messages and optional tool, agent and fleet cards.
 
-![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Message — dark truecolor](<assets/readme/components.dark-truecolor-1.svg>)
+![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Data sparkline, Data bars — dark truecolor](<assets/readme/components.dark-truecolor-1.svg>)
 
-![Composer, Tool card, Agent card, Fleet — dark truecolor](<assets/readme/components.dark-truecolor-2.svg>)
+![Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — dark truecolor](<assets/readme/components.dark-truecolor-2.svg>)
+
+![Fleet — dark truecolor](<assets/readme/components.dark-truecolor-3.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
-![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Message — light truecolor](<assets/readme/components.light-truecolor-1.svg>)
+![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Data sparkline, Data bars — light truecolor](<assets/readme/components.light-truecolor-1.svg>)
 
-![Composer, Tool card, Agent card, Fleet — light truecolor](<assets/readme/components.light-truecolor-2.svg>)
+![Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — light truecolor](<assets/readme/components.light-truecolor-2.svg>)
+
+![Fleet — light truecolor](<assets/readme/components.light-truecolor-3.svg>)
 
 </details>
 
