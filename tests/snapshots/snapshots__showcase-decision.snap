@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -35,41 +34,41 @@ expression: dump(&entry)
                 ╰──────────────────────────────────────────────────────────────────────╯
                 y advance / n wait / Esc preserve draft
 ---
-r0 c0..16 fg=Foreground bg=#273946
+r0 c0..16 fg=Foreground bg=#1e3346
 r0 c16..29 fg=Foreground bg=Surface bold
 r0 c29..88 fg=Foreground bg=Surface
-r0 c88..104 fg=Foreground bg=#273946
-r1 c0..16 fg=Foreground bg=#273945
+r0 c88..104 fg=Foreground bg=#1e3346
+r1 c0..16 fg=Foreground bg=#1d3344
 r1 c16..88 fg=Foreground bg=Surface
-r1 c88..104 fg=Foreground bg=#273945
-r2 c0..16 fg=Foreground bg=#263745
+r1 c88..104 fg=Foreground bg=#1d3344
+r2 c0..16 fg=Foreground bg=#1f3244
 r2 c16..88 fg=Accent bg=Surface
-r2 c88..104 fg=Foreground bg=#263745
-r3 c0..16 fg=Foreground bg=#243743
+r2 c88..104 fg=Foreground bg=#1f3244
+r3 c0..16 fg=Foreground bg=#1e3342
 r3 c16..17 fg=Accent bg=Surface
 r3 c17..87 bg=Surface
 r3 c87..88 fg=Accent bg=Surface
-r3 c88..104 fg=Foreground bg=#243743
-r4 c0..16 fg=Foreground bg=#243542
+r3 c88..104 fg=Foreground bg=#1e3342
+r4 c0..16 fg=Foreground bg=#203342
 r4 c16..17 fg=Accent bg=Surface
 r4 c17..18 bg=Surface
 r4 c18..45 fg=Foreground bg=Surface bold
 r4 c45..87 bg=Surface
 r4 c87..88 fg=Accent bg=Surface
-r4 c88..104 fg=Foreground bg=#243542
-r5 c0..16 fg=Foreground bg=#243541
+r4 c88..104 fg=Foreground bg=#203342
+r5 c0..16 fg=Foreground bg=#213341
 r5 c16..17 fg=Accent bg=Surface
 r5 c17..87 bg=Surface
 r5 c87..88 fg=Accent bg=Surface
-r5 c88..104 fg=Foreground bg=#243541
-r6 c0..16 fg=Foreground bg=#23343f
+r5 c88..104 fg=Foreground bg=#213341
+r6 c0..16 fg=Foreground bg=#21333f
 r6 c16..17 fg=Accent bg=Surface
 r6 c17..18 bg=Surface
 r6 c18..31 fg=Muted bg=Surface
 r6 c31..39 fg=Foreground bg=Surface bold
 r6 c39..87 bg=Surface
 r6 c87..88 fg=Accent bg=Surface
-r6 c88..104 fg=Foreground bg=#23343f
+r6 c88..104 fg=Foreground bg=#21333f
 r7 c0..16 fg=Foreground bg=#23323e
 r7 c16..17 fg=Accent bg=Surface
 r7 c17..18 bg=Surface
@@ -249,41 +248,41 @@ r29 c88..104 fg=Foreground bg=#141e23
                 ╰──────────────────────────────────────────────────────────────────────╯
                 y advance / n wait / Esc preserve draft
 ---
-r0 c0..16 fg=Foreground bg=#273946
+r0 c0..16 fg=Foreground bg=#1e3346
 r0 c16..29 fg=Foreground bg=Surface bold
 r0 c29..88 fg=Foreground bg=Surface
-r0 c88..104 fg=Foreground bg=#273946
-r1 c0..16 fg=Foreground bg=#273945
+r0 c88..104 fg=Foreground bg=#1e3346
+r1 c0..16 fg=Foreground bg=#1d3344
 r1 c16..88 fg=Foreground bg=Surface
-r1 c88..104 fg=Foreground bg=#273945
-r2 c0..16 fg=Foreground bg=#263745
+r1 c88..104 fg=Foreground bg=#1d3344
+r2 c0..16 fg=Foreground bg=#1f3244
 r2 c16..88 fg=Accent bg=Surface
-r2 c88..104 fg=Foreground bg=#263745
-r3 c0..16 fg=Foreground bg=#243743
+r2 c88..104 fg=Foreground bg=#1f3244
+r3 c0..16 fg=Foreground bg=#1e3342
 r3 c16..17 fg=Accent bg=Surface
 r3 c17..87 bg=Surface
 r3 c87..88 fg=Accent bg=Surface
-r3 c88..104 fg=Foreground bg=#243743
-r4 c0..16 fg=Foreground bg=#243542
+r3 c88..104 fg=Foreground bg=#1e3342
+r4 c0..16 fg=Foreground bg=#203342
 r4 c16..17 fg=Accent bg=Surface
 r4 c17..18 bg=Surface
 r4 c18..45 fg=Foreground bg=Surface bold
 r4 c45..87 bg=Surface
 r4 c87..88 fg=Accent bg=Surface
-r4 c88..104 fg=Foreground bg=#243542
-r5 c0..16 fg=Foreground bg=#243541
+r4 c88..104 fg=Foreground bg=#203342
+r5 c0..16 fg=Foreground bg=#213341
 r5 c16..17 fg=Accent bg=Surface
 r5 c17..87 bg=Surface
 r5 c87..88 fg=Accent bg=Surface
-r5 c88..104 fg=Foreground bg=#243541
-r6 c0..16 fg=Foreground bg=#23343f
+r5 c88..104 fg=Foreground bg=#213341
+r6 c0..16 fg=Foreground bg=#21333f
 r6 c16..17 fg=Accent bg=Surface
 r6 c17..18 bg=Surface
 r6 c18..31 fg=Muted bg=Surface
 r6 c31..39 fg=Foreground bg=Surface bold
 r6 c39..87 bg=Surface
 r6 c87..88 fg=Accent bg=Surface
-r6 c88..104 fg=Foreground bg=#23343f
+r6 c88..104 fg=Foreground bg=#21333f
 r7 c0..16 fg=Foreground bg=#23323e
 r7 c16..17 fg=Accent bg=Surface
 r7 c17..18 bg=Surface

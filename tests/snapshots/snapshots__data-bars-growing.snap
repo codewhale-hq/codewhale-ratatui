@@ -1,0 +1,218 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..60 bg=Background
+r1 c0..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..53 fg=Accent bg=Background
+r1 c53..57 bg=Background
+r1 c57..60 fg=Muted bg=Background
+r2 c0..8 fg=Foreground bg=Background
+r2 c8..10 bg=Background
+r2 c10..41 fg=Accent bg=Background
+r2 c41..57 bg=Background
+r2 c57..60 fg=Muted bg=Background
+r3 c0..8 fg=Foreground bg=Background
+r3 c8..10 bg=Background
+r3 c10..36 fg=Accent bg=Background
+r3 c36..57 bg=Background
+r3 c57..60 fg=Muted bg=Background
+r4 c0..8 fg=Foreground bg=Background
+r4 c8..10 bg=Background
+r4 c10..37 fg=Accent bg=Background
+r4 c37..57 bg=Background
+r4 c57..59 fg=Muted bg=Background
+r4 c59..60 bg=Background
+
+== dark-graphite
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..60 bg=Background
+r1 c0..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..53 fg=Accent bg=Background
+r1 c53..57 bg=Background
+r1 c57..60 fg=Muted bg=Background
+r2 c0..8 fg=Foreground bg=Background
+r2 c8..10 bg=Background
+r2 c10..41 fg=Accent bg=Background
+r2 c41..57 bg=Background
+r2 c57..60 fg=Muted bg=Background
+r3 c0..8 fg=Foreground bg=Background
+r3 c8..10 bg=Background
+r3 c10..36 fg=Accent bg=Background
+r3 c36..57 bg=Background
+r3 c57..60 fg=Muted bg=Background
+r4 c0..8 fg=Foreground bg=Background
+r4 c8..10 bg=Background
+r4 c10..37 fg=Accent bg=Background
+r4 c37..57 bg=Background
+r4 c57..59 fg=Muted bg=Background
+r4 c59..60 bg=Background
+
+== light-truecolor
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..60 bg=Background
+r1 c0..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..53 fg=Accent bg=Background
+r1 c53..57 bg=Background
+r1 c57..60 fg=Muted bg=Background
+r2 c0..8 fg=Foreground bg=Background
+r2 c8..10 bg=Background
+r2 c10..41 fg=Accent bg=Background
+r2 c41..57 bg=Background
+r2 c57..60 fg=Muted bg=Background
+r3 c0..8 fg=Foreground bg=Background
+r3 c8..10 bg=Background
+r3 c10..36 fg=Accent bg=Background
+r3 c36..57 bg=Background
+r3 c57..60 fg=Muted bg=Background
+r4 c0..8 fg=Foreground bg=Background
+r4 c8..10 bg=Background
+r4 c10..37 fg=Accent bg=Background
+r4 c37..57 bg=Background
+r4 c57..59 fg=Muted bg=Background
+r4 c59..60 bg=Background
+
+== dark-256
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 fg=Foreground bg=Background|Surface bold
+r0 c14..60 bg=Background|Surface
+r1 c0..8 fg=Foreground bg=Background|Surface
+r1 c8..10 bg=Background|Surface
+r1 c10..53 fg=Accent bg=Background|Surface
+r1 c53..57 bg=Background|Surface
+r1 c57..60 fg=Muted bg=Background|Surface
+r2 c0..8 fg=Foreground bg=Background|Surface
+r2 c8..10 bg=Background|Surface
+r2 c10..41 fg=Accent bg=Background|Surface
+r2 c41..57 bg=Background|Surface
+r2 c57..60 fg=Muted bg=Background|Surface
+r3 c0..8 fg=Foreground bg=Background|Surface
+r3 c8..10 bg=Background|Surface
+r3 c10..36 fg=Accent bg=Background|Surface
+r3 c36..57 bg=Background|Surface
+r3 c57..60 fg=Muted bg=Background|Surface
+r4 c0..8 fg=Foreground bg=Background|Surface
+r4 c8..10 bg=Background|Surface
+r4 c10..37 fg=Accent bg=Background|Surface
+r4 c37..57 bg=Background|Surface
+r4 c57..59 fg=Muted bg=Background|Surface
+r4 c59..60 bg=Background|Surface
+
+== light-256
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 fg=Foreground bg=Background bold
+r0 c14..60 bg=Background
+r1 c0..8 fg=Foreground bg=Background
+r1 c8..10 bg=Background
+r1 c10..53 fg=Accent bg=Background
+r1 c53..57 bg=Background
+r1 c57..60 fg=Muted bg=Background
+r2 c0..8 fg=Foreground bg=Background
+r2 c8..10 bg=Background
+r2 c10..41 fg=Accent bg=Background
+r2 c41..57 bg=Background
+r2 c57..60 fg=Muted bg=Background
+r3 c0..8 fg=Foreground bg=Background
+r3 c8..10 bg=Background
+r3 c10..36 fg=Accent bg=Background
+r3 c36..57 bg=Background
+r3 c57..60 fg=Muted bg=Background
+r4 c0..8 fg=Foreground bg=Background
+r4 c8..10 bg=Background
+r4 c10..37 fg=Accent bg=Background
+r4 c37..57 bg=Background
+r4 c57..59 fg=Muted bg=Background
+r4 c59..60 bg=Background
+
+== ansi-16
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 bold
+r1 c10..53 fg=Accent
+r1 c57..60 dim
+r2 c10..41 fg=Accent
+r2 c57..60 dim
+r3 c10..36 fg=Accent
+r3 c57..60 dim
+r4 c10..37 fg=Accent
+r4 c57..59 dim
+
+== unknown-ground
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 bold
+r1 c10..53 fg=Accent
+r1 c57..60 dim
+r2 c10..41 fg=Accent
+r2 c57..60 dim
+r3 c10..36 fg=Accent
+r3 c57..60 dim
+r4 c10..37 fg=Accent
+r4 c57..59 dim
+
+== no-color
+Tests by crate
+engine    ██████████████████████████████████████████▏    412
+tui       ██████████████████████████████▊                268
+runtime   █████████████████████████▎                     131
+protocol  ██████████████████████████▍                    44
+---
+r0 c0..14 bold
+r1 c57..60 dim
+r2 c57..60 dim
+r3 c57..60 dim
+r4 c57..59 dim
+
+== ascii
+Tests by crate
+engine    ###########################################    412
+tui       ###############################                268
+runtime   ##########################                     131
+protocol  ###########################                    44
+---
+r0 c0..14 bold
+r1 c57..60 dim
+r2 c57..60 dim
+r3 c57..60 dim
+r4 c57..59 dim

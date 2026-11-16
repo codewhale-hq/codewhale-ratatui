@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- The Ocean column's waiting, approval and failure tints now ease off near the
+  surface where they would push `Hint` below 4.5:1 or `Dim` below 3:1; deeper
+  rows keep the full warm tint. The README boards and animations are
+  regenerated for the current tokens.
 - Add data displays: `DataSparkline`, `DataBars` and `DataTrend` (a braille
   line chart). The words carry every value; the ink draws in from a caller
   progress (`MotionStep::drawn`) and is at its end state under reduced or

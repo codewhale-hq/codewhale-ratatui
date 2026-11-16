@@ -170,6 +170,12 @@ pub fn indexed_rgb(index: u8) -> Option<(u8, u8, u8)> {
     }
 }
 
+/// Whether `color` is an exact 24-bit color that [`blend`] can mix.
+#[must_use]
+pub(crate) const fn is_truecolor(color: Color) -> bool {
+    matches!(color, Color::Rgb(..))
+}
+
 /// The RGB a color is *known* to render as, or `None` when the terminal owns
 /// the decision (`Reset`, named colors, indices 0..=15).
 #[must_use]

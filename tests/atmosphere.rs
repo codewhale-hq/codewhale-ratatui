@@ -265,7 +265,9 @@ fn the_wash_is_spatial_and_anchored_to_the_requested_area() {
     let mut diagonal = grounds(40, 10, &theme);
     Ombre::new(WaterPalette::Ocean).apply(area, &mut diagonal, &theme);
     assert_ne!(cell(&diagonal, 0, 0), cell(&diagonal, 39, 0));
-    assert_ne!(cell(&diagonal, 0, 0), cell(&diagonal, 0, 1));
+    for x in 0..39 {
+        assert_eq!(cell(&diagonal, x + 1, 0), cell(&diagonal, x, 1), "x={x}");
+    }
 
     let mut vertical = grounds(40, 10, &theme);
     Ombre::new(WaterPalette::Ocean)
@@ -298,22 +300,23 @@ fn blank_cells_stay_continuous_and_unmeasurable_ink_keeps_its_cell() {
     let mut buf = before.clone();
     let area = *buf.area();
     Ombre::new(WaterPalette::Ocean).apply(area, &mut buf, &theme);
-    let moved = buf
-        .content()
-        .iter()
-        .zip(before.content())
-        .filter(|(new, old)| new.bg != old.bg)
-        .count();
-    let covered = before
-        .content()
-        .iter()
-        .filter(|cell| {
-            GROUNDS
-                .iter()
-                .any(|role| theme.color(*role) == Some(cell.bg))
-        })
-        .count();
-    assert_eq!(moved, covered, "a blank ground cell kept the old wash");
+    for (index, role) in GROUNDS.iter().enumerate() {
+        let mut reference = render(30, 10, |area, buf| buf.set_style(area, theme.bg(*role)));
+        Ombre::new(WaterPalette::Ocean).apply(area, &mut reference, &theme);
+        let top = band_top(area, index);
+        let mut moved = false;
+        for y in top..top + band_rows(area.height) {
+            for x in area.left()..area.right() {
+                assert_eq!(
+                    buf[(x, y)].bg,
+                    reference[(x, y)].bg,
+                    "{role:?} at ({x}, {y}): a blank ground cell left the wash"
+                );
+                moved |= Some(buf[(x, y)].bg) != theme.color(*role);
+            }
+        }
+        assert!(moved, "{role:?} took no wash");
+    }
 
     let mut inked = grounds(30, 10, &theme);
     let kept = inked[(1, 0)].bg;

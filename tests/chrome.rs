@@ -8,6 +8,7 @@ use codewhale_ratatui::{
     Binding, Depth, Dialog, DialogWidth, Heading, KeyChord, KeyHint, KeyHints, KeyHintsWords,
     Keymap, Paint, Panel, Role, Segmented, SegmentedOutcome, SegmentedState, Sheet, SheetEdge, Tab,
     Tabs, TabsOutcome, TabsState, Theme, Toggle, ToggleOutcome, ToggleState, ToggleWords, centered,
+    color::{ColorDepth, contrast_ratio},
     keys::Platform,
     testing::{self, Profile},
 };
@@ -386,6 +387,19 @@ fn a_sheet_is_always_distinguishable_from_the_work_behind_it() {
     }
 }
 
+/// A raised panel is told from the stage by an edge where its ground cannot
+/// carry it: equal grounds, or 256-color grounds under 1.2:1 apart.
+fn raised_panel_is_edged(theme: &Theme) -> bool {
+    let surface = theme.bg(Role::Surface).bg;
+    let background = theme.bg(Role::Background).bg;
+    !theme.grounds_differ(Role::Surface, Role::Background)
+        || (theme.depth() == ColorDepth::Ansi256
+            && surface
+                .zip(background)
+                .and_then(|(s, b)| contrast_ratio(s, b))
+                .is_some_and(|contrast| contrast < 1.2))
+}
+
 #[test]
 fn panel_body_is_what_draw_returns() {
     for profile in Profile::ALL {
@@ -406,8 +420,7 @@ fn panel_body_is_what_draw_returns() {
                 if w >= 8
                     && h > 0
                     && (matches!(depth, Depth::Deep | Depth::Stage)
-                        || (depth == Depth::Raised
-                            && theme.grounds_differ(Role::Surface, Role::Background)))
+                        || (depth == Depth::Raised && !raised_panel_is_edged(&theme)))
                 {
                     assert_eq!(
                         buf[(area.x, area.y)].symbol(),

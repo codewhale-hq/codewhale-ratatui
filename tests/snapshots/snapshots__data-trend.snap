@@ -1,0 +1,556 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 fg=Foreground bg=Background bold
+r0 c7..9 bg=Background
+r0 c9..13 fg=Muted bg=Background
+r0 c13..20 fg=Foreground bg=Background
+r0 c20..22 bg=Background
+r0 c22..26 fg=Muted bg=Background
+r0 c26..33 fg=Foreground bg=Background
+r0 c33..35 bg=Background
+r0 c35..39 fg=Muted bg=Background
+r0 c39..45 fg=Foreground bg=Background
+r0 c45..72 bg=Background
+r1 c0..8 fg=Muted bg=Background
+r1 c8..9 fg=Dim bg=Background
+r1 c9..15 bg=Background
+r1 c15..22 fg=Accent bg=Background
+r1 c22..23 bg=Background
+r1 c23..24 fg=Accent bg=Background
+r1 c24..53 bg=Background
+r1 c53..60 fg=Accent bg=Background
+r1 c60..72 bg=Background
+r2 c0..8 fg=Muted bg=Background
+r2 c8..9 fg=Dim bg=Background
+r2 c9..11 bg=Background
+r2 c11..15 fg=Accent bg=Background
+r2 c15..16 bg=Background
+r2 c16..18 fg=Accent bg=Background
+r2 c18..19 bg=Background
+r2 c19..25 fg=Accent bg=Background
+r2 c25..50 bg=Background
+r2 c50..54 fg=Accent bg=Background
+r2 c54..57 bg=Background
+r2 c57..58 fg=Accent bg=Background
+r2 c58..59 bg=Background
+r2 c59..63 fg=Accent bg=Background
+r2 c63..72 bg=Background
+r3 c0..8 fg=Muted bg=Background
+r3 c8..9 fg=Dim bg=Background
+r3 c9..10 bg=Background
+r3 c10..12 fg=Accent bg=Background
+r3 c12..24 bg=Background
+r3 c24..28 fg=Accent bg=Background
+r3 c28..47 bg=Background
+r3 c47..51 fg=Accent bg=Background
+r3 c51..62 bg=Background
+r3 c62..66 fg=Accent bg=Background
+r3 c66..72 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..9 fg=Dim bg=Background
+r4 c9..10 fg=Accent bg=Background
+r4 c10..27 bg=Background
+r4 c27..30 fg=Accent bg=Background
+r4 c30..44 bg=Background
+r4 c44..48 fg=Accent bg=Background
+r4 c48..63 bg=Background
+r4 c63..64 fg=Accent bg=Background
+r4 c64..65 bg=Background
+r4 c65..68 fg=Accent bg=Background
+r4 c68..72 bg=Background
+r5 c0..8 fg=Muted bg=Background
+r5 c8..9 fg=Dim bg=Background
+r5 c9..30 bg=Background
+r5 c30..35 fg=Accent bg=Background
+r5 c35..40 bg=Background
+r5 c40..41 fg=Accent bg=Background
+r5 c41..42 bg=Background
+r5 c42..45 fg=Accent bg=Background
+r5 c45..68 bg=Background
+r5 c68..71 fg=Accent bg=Background
+r5 c71..72 bg=Background
+r6 c0..8 fg=Muted bg=Background
+r6 c8..9 fg=Dim bg=Background
+r6 c9..33 bg=Background
+r6 c33..43 fg=Accent bg=Background
+r6 c43..71 bg=Background
+r6 c71..72 fg=Accent bg=Background
+
+== dark-graphite
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 fg=Foreground bg=Background bold
+r0 c7..9 bg=Background
+r0 c9..13 fg=Muted bg=Background
+r0 c13..20 fg=Foreground bg=Background
+r0 c20..22 bg=Background
+r0 c22..26 fg=Muted bg=Background
+r0 c26..33 fg=Foreground bg=Background
+r0 c33..35 bg=Background
+r0 c35..39 fg=Muted bg=Background
+r0 c39..45 fg=Foreground bg=Background
+r0 c45..72 bg=Background
+r1 c0..8 fg=Muted bg=Background
+r1 c8..9 fg=Dim bg=Background
+r1 c9..15 bg=Background
+r1 c15..22 fg=Accent bg=Background
+r1 c22..23 bg=Background
+r1 c23..24 fg=Accent bg=Background
+r1 c24..53 bg=Background
+r1 c53..60 fg=Accent bg=Background
+r1 c60..72 bg=Background
+r2 c0..8 fg=Muted bg=Background
+r2 c8..9 fg=Dim bg=Background
+r2 c9..11 bg=Background
+r2 c11..15 fg=Accent bg=Background
+r2 c15..16 bg=Background
+r2 c16..18 fg=Accent bg=Background
+r2 c18..19 bg=Background
+r2 c19..25 fg=Accent bg=Background
+r2 c25..50 bg=Background
+r2 c50..54 fg=Accent bg=Background
+r2 c54..57 bg=Background
+r2 c57..58 fg=Accent bg=Background
+r2 c58..59 bg=Background
+r2 c59..63 fg=Accent bg=Background
+r2 c63..72 bg=Background
+r3 c0..8 fg=Muted bg=Background
+r3 c8..9 fg=Dim bg=Background
+r3 c9..10 bg=Background
+r3 c10..12 fg=Accent bg=Background
+r3 c12..24 bg=Background
+r3 c24..28 fg=Accent bg=Background
+r3 c28..47 bg=Background
+r3 c47..51 fg=Accent bg=Background
+r3 c51..62 bg=Background
+r3 c62..66 fg=Accent bg=Background
+r3 c66..72 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..9 fg=Dim bg=Background
+r4 c9..10 fg=Accent bg=Background
+r4 c10..27 bg=Background
+r4 c27..30 fg=Accent bg=Background
+r4 c30..44 bg=Background
+r4 c44..48 fg=Accent bg=Background
+r4 c48..63 bg=Background
+r4 c63..64 fg=Accent bg=Background
+r4 c64..65 bg=Background
+r4 c65..68 fg=Accent bg=Background
+r4 c68..72 bg=Background
+r5 c0..8 fg=Muted bg=Background
+r5 c8..9 fg=Dim bg=Background
+r5 c9..30 bg=Background
+r5 c30..35 fg=Accent bg=Background
+r5 c35..40 bg=Background
+r5 c40..41 fg=Accent bg=Background
+r5 c41..42 bg=Background
+r5 c42..45 fg=Accent bg=Background
+r5 c45..68 bg=Background
+r5 c68..71 fg=Accent bg=Background
+r5 c71..72 bg=Background
+r6 c0..8 fg=Muted bg=Background
+r6 c8..9 fg=Dim bg=Background
+r6 c9..33 bg=Background
+r6 c33..43 fg=Accent bg=Background
+r6 c43..71 bg=Background
+r6 c71..72 fg=Accent bg=Background
+
+== light-truecolor
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 fg=Foreground bg=Background bold
+r0 c7..9 bg=Background
+r0 c9..13 fg=Muted bg=Background
+r0 c13..20 fg=Foreground bg=Background
+r0 c20..22 bg=Background
+r0 c22..26 fg=Muted bg=Background
+r0 c26..33 fg=Foreground bg=Background
+r0 c33..35 bg=Background
+r0 c35..39 fg=Muted bg=Background
+r0 c39..45 fg=Foreground bg=Background
+r0 c45..72 bg=Background
+r1 c0..8 fg=Muted bg=Background
+r1 c8..9 fg=Dim bg=Background
+r1 c9..15 bg=Background
+r1 c15..22 fg=Accent bg=Background
+r1 c22..23 bg=Background
+r1 c23..24 fg=Accent bg=Background
+r1 c24..53 bg=Background
+r1 c53..60 fg=Accent bg=Background
+r1 c60..72 bg=Background
+r2 c0..8 fg=Muted bg=Background
+r2 c8..9 fg=Dim bg=Background
+r2 c9..11 bg=Background
+r2 c11..15 fg=Accent bg=Background
+r2 c15..16 bg=Background
+r2 c16..18 fg=Accent bg=Background
+r2 c18..19 bg=Background
+r2 c19..25 fg=Accent bg=Background
+r2 c25..50 bg=Background
+r2 c50..54 fg=Accent bg=Background
+r2 c54..57 bg=Background
+r2 c57..58 fg=Accent bg=Background
+r2 c58..59 bg=Background
+r2 c59..63 fg=Accent bg=Background
+r2 c63..72 bg=Background
+r3 c0..8 fg=Muted bg=Background
+r3 c8..9 fg=Dim bg=Background
+r3 c9..10 bg=Background
+r3 c10..12 fg=Accent bg=Background
+r3 c12..24 bg=Background
+r3 c24..28 fg=Accent bg=Background
+r3 c28..47 bg=Background
+r3 c47..51 fg=Accent bg=Background
+r3 c51..62 bg=Background
+r3 c62..66 fg=Accent bg=Background
+r3 c66..72 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..9 fg=Dim bg=Background
+r4 c9..10 fg=Accent bg=Background
+r4 c10..27 bg=Background
+r4 c27..30 fg=Accent bg=Background
+r4 c30..44 bg=Background
+r4 c44..48 fg=Accent bg=Background
+r4 c48..63 bg=Background
+r4 c63..64 fg=Accent bg=Background
+r4 c64..65 bg=Background
+r4 c65..68 fg=Accent bg=Background
+r4 c68..72 bg=Background
+r5 c0..8 fg=Muted bg=Background
+r5 c8..9 fg=Dim bg=Background
+r5 c9..30 bg=Background
+r5 c30..35 fg=Accent bg=Background
+r5 c35..40 bg=Background
+r5 c40..41 fg=Accent bg=Background
+r5 c41..42 bg=Background
+r5 c42..45 fg=Accent bg=Background
+r5 c45..68 bg=Background
+r5 c68..71 fg=Accent bg=Background
+r5 c71..72 bg=Background
+r6 c0..8 fg=Muted bg=Background
+r6 c8..9 fg=Dim bg=Background
+r6 c9..33 bg=Background
+r6 c33..43 fg=Accent bg=Background
+r6 c43..71 bg=Background
+r6 c71..72 fg=Accent bg=Background
+
+== dark-256
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 fg=Foreground bg=Background|Surface bold
+r0 c7..9 bg=Background|Surface
+r0 c9..13 fg=Muted bg=Background|Surface
+r0 c13..20 fg=Foreground bg=Background|Surface
+r0 c20..22 bg=Background|Surface
+r0 c22..26 fg=Muted bg=Background|Surface
+r0 c26..33 fg=Foreground bg=Background|Surface
+r0 c33..35 bg=Background|Surface
+r0 c35..39 fg=Muted bg=Background|Surface
+r0 c39..45 fg=Foreground bg=Background|Surface
+r0 c45..72 bg=Background|Surface
+r1 c0..8 fg=Muted bg=Background|Surface
+r1 c8..9 fg=Dim bg=Background|Surface
+r1 c9..15 bg=Background|Surface
+r1 c15..22 fg=Accent bg=Background|Surface
+r1 c22..23 bg=Background|Surface
+r1 c23..24 fg=Accent bg=Background|Surface
+r1 c24..53 bg=Background|Surface
+r1 c53..60 fg=Accent bg=Background|Surface
+r1 c60..72 bg=Background|Surface
+r2 c0..8 fg=Muted bg=Background|Surface
+r2 c8..9 fg=Dim bg=Background|Surface
+r2 c9..11 bg=Background|Surface
+r2 c11..15 fg=Accent bg=Background|Surface
+r2 c15..16 bg=Background|Surface
+r2 c16..18 fg=Accent bg=Background|Surface
+r2 c18..19 bg=Background|Surface
+r2 c19..25 fg=Accent bg=Background|Surface
+r2 c25..50 bg=Background|Surface
+r2 c50..54 fg=Accent bg=Background|Surface
+r2 c54..57 bg=Background|Surface
+r2 c57..58 fg=Accent bg=Background|Surface
+r2 c58..59 bg=Background|Surface
+r2 c59..63 fg=Accent bg=Background|Surface
+r2 c63..72 bg=Background|Surface
+r3 c0..8 fg=Muted bg=Background|Surface
+r3 c8..9 fg=Dim bg=Background|Surface
+r3 c9..10 bg=Background|Surface
+r3 c10..12 fg=Accent bg=Background|Surface
+r3 c12..24 bg=Background|Surface
+r3 c24..28 fg=Accent bg=Background|Surface
+r3 c28..47 bg=Background|Surface
+r3 c47..51 fg=Accent bg=Background|Surface
+r3 c51..62 bg=Background|Surface
+r3 c62..66 fg=Accent bg=Background|Surface
+r3 c66..72 bg=Background|Surface
+r4 c0..8 fg=Muted bg=Background|Surface
+r4 c8..9 fg=Dim bg=Background|Surface
+r4 c9..10 fg=Accent bg=Background|Surface
+r4 c10..27 bg=Background|Surface
+r4 c27..30 fg=Accent bg=Background|Surface
+r4 c30..44 bg=Background|Surface
+r4 c44..48 fg=Accent bg=Background|Surface
+r4 c48..63 bg=Background|Surface
+r4 c63..64 fg=Accent bg=Background|Surface
+r4 c64..65 bg=Background|Surface
+r4 c65..68 fg=Accent bg=Background|Surface
+r4 c68..72 bg=Background|Surface
+r5 c0..8 fg=Muted bg=Background|Surface
+r5 c8..9 fg=Dim bg=Background|Surface
+r5 c9..30 bg=Background|Surface
+r5 c30..35 fg=Accent bg=Background|Surface
+r5 c35..40 bg=Background|Surface
+r5 c40..41 fg=Accent bg=Background|Surface
+r5 c41..42 bg=Background|Surface
+r5 c42..45 fg=Accent bg=Background|Surface
+r5 c45..68 bg=Background|Surface
+r5 c68..71 fg=Accent bg=Background|Surface
+r5 c71..72 bg=Background|Surface
+r6 c0..8 fg=Muted bg=Background|Surface
+r6 c8..9 fg=Dim bg=Background|Surface
+r6 c9..33 bg=Background|Surface
+r6 c33..43 fg=Accent bg=Background|Surface
+r6 c43..71 bg=Background|Surface
+r6 c71..72 fg=Accent bg=Background|Surface
+
+== light-256
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 fg=Foreground bg=Background bold
+r0 c7..9 bg=Background
+r0 c9..13 fg=Muted bg=Background
+r0 c13..20 fg=Foreground bg=Background
+r0 c20..22 bg=Background
+r0 c22..26 fg=Muted bg=Background
+r0 c26..33 fg=Foreground bg=Background
+r0 c33..35 bg=Background
+r0 c35..39 fg=Muted bg=Background
+r0 c39..45 fg=Foreground bg=Background
+r0 c45..72 bg=Background
+r1 c0..8 fg=Muted bg=Background
+r1 c8..9 fg=Dim bg=Background
+r1 c9..15 bg=Background
+r1 c15..22 fg=Accent bg=Background
+r1 c22..23 bg=Background
+r1 c23..24 fg=Accent bg=Background
+r1 c24..53 bg=Background
+r1 c53..60 fg=Accent bg=Background
+r1 c60..72 bg=Background
+r2 c0..8 fg=Muted bg=Background
+r2 c8..9 fg=Dim bg=Background
+r2 c9..11 bg=Background
+r2 c11..15 fg=Accent bg=Background
+r2 c15..16 bg=Background
+r2 c16..18 fg=Accent bg=Background
+r2 c18..19 bg=Background
+r2 c19..25 fg=Accent bg=Background
+r2 c25..50 bg=Background
+r2 c50..54 fg=Accent bg=Background
+r2 c54..57 bg=Background
+r2 c57..58 fg=Accent bg=Background
+r2 c58..59 bg=Background
+r2 c59..63 fg=Accent bg=Background
+r2 c63..72 bg=Background
+r3 c0..8 fg=Muted bg=Background
+r3 c8..9 fg=Dim bg=Background
+r3 c9..10 bg=Background
+r3 c10..12 fg=Accent bg=Background
+r3 c12..24 bg=Background
+r3 c24..28 fg=Accent bg=Background
+r3 c28..47 bg=Background
+r3 c47..51 fg=Accent bg=Background
+r3 c51..62 bg=Background
+r3 c62..66 fg=Accent bg=Background
+r3 c66..72 bg=Background
+r4 c0..8 fg=Muted bg=Background
+r4 c8..9 fg=Dim bg=Background
+r4 c9..10 fg=Accent bg=Background
+r4 c10..27 bg=Background
+r4 c27..30 fg=Accent bg=Background
+r4 c30..44 bg=Background
+r4 c44..48 fg=Accent bg=Background
+r4 c48..63 bg=Background
+r4 c63..64 fg=Accent bg=Background
+r4 c64..65 bg=Background
+r4 c65..68 fg=Accent bg=Background
+r4 c68..72 bg=Background
+r5 c0..8 fg=Muted bg=Background
+r5 c8..9 fg=Dim bg=Background
+r5 c9..30 bg=Background
+r5 c30..35 fg=Accent bg=Background
+r5 c35..40 bg=Background
+r5 c40..41 fg=Accent bg=Background
+r5 c41..42 bg=Background
+r5 c42..45 fg=Accent bg=Background
+r5 c45..68 bg=Background
+r5 c68..71 fg=Accent bg=Background
+r5 c71..72 bg=Background
+r6 c0..8 fg=Muted bg=Background
+r6 c8..9 fg=Dim bg=Background
+r6 c9..33 bg=Background
+r6 c33..43 fg=Accent bg=Background
+r6 c43..71 bg=Background
+r6 c71..72 fg=Accent bg=Background
+
+== ansi-16
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 bold
+r0 c9..13 dim
+r0 c22..26 dim
+r0 c35..39 dim
+r1 c0..9 dim
+r1 c15..22 fg=Accent
+r1 c23..24 fg=Accent
+r1 c53..60 fg=Accent
+r2 c0..9 dim
+r2 c11..15 fg=Accent
+r2 c16..18 fg=Accent
+r2 c19..25 fg=Accent
+r2 c50..54 fg=Accent
+r2 c57..58 fg=Accent
+r2 c59..63 fg=Accent
+r3 c0..9 dim
+r3 c10..12 fg=Accent
+r3 c24..28 fg=Accent
+r3 c47..51 fg=Accent
+r3 c62..66 fg=Accent
+r4 c0..9 dim
+r4 c9..10 fg=Accent
+r4 c27..30 fg=Accent
+r4 c44..48 fg=Accent
+r4 c63..64 fg=Accent
+r4 c65..68 fg=Accent
+r5 c0..9 dim
+r5 c30..35 fg=Accent
+r5 c40..41 fg=Accent
+r5 c42..45 fg=Accent
+r5 c68..71 fg=Accent
+r6 c0..9 dim
+r6 c33..43 fg=Accent
+r6 c71..72 fg=Accent
+
+== unknown-ground
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 bold
+r0 c9..13 dim
+r0 c22..26 dim
+r0 c35..39 dim
+r1 c0..9 dim
+r1 c15..22 fg=Accent
+r1 c23..24 fg=Accent
+r1 c53..60 fg=Accent
+r2 c0..9 dim
+r2 c11..15 fg=Accent
+r2 c16..18 fg=Accent
+r2 c19..25 fg=Accent
+r2 c50..54 fg=Accent
+r2 c57..58 fg=Accent
+r2 c59..63 fg=Accent
+r3 c0..9 dim
+r3 c10..12 fg=Accent
+r3 c24..28 fg=Accent
+r3 c47..51 fg=Accent
+r3 c62..66 fg=Accent
+r4 c0..9 dim
+r4 c9..10 fg=Accent
+r4 c27..30 fg=Accent
+r4 c44..48 fg=Accent
+r4 c63..64 fg=Accent
+r4 c65..68 fg=Accent
+r5 c0..9 dim
+r5 c30..35 fg=Accent
+r5 c40..41 fg=Accent
+r5 c42..45 fg=Accent
+r5 c68..71 fg=Accent
+r6 c0..9 dim
+r6 c33..43 fg=Accent
+r6 c71..72 fg=Accent
+
+== no-color
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms │      ⣄⡀⢀⠦⡀⢀⡀ ⡀                             ⢀⣀⠜⠢⡀⡠⡀
+        │  ⢀⠖⠤⠜ ⠈⠁ ⠈⠊⠈⠊⠘⢄                         ⡰⠑⠢⠊   ⠈ ⠈⢆⠔⡄
+        │ ⡦⠜            ⠈⠊⠑⡄                   ⡰⠉⠒⠁           ⠈⢆⡠⡀
+        │⠜                 ⠘⠔⢢              ⢰⠉⠒⠁               ⠈ ⠑⠊⢢
+        │                     ⠱⡠⢄⢠⢄     ⡀ ⢠⠒⠁                       ⠣⠔⢄
+65.5 ms │                        ⠁⠈⠢⠜⠑⢄⠜⠈⠑⠁                            ⠣
+---
+r0 c0..7 bold
+r0 c9..13 dim
+r0 c22..26 dim
+r0 c35..39 dim
+r1 c0..9 dim
+r2 c0..9 dim
+r3 c0..9 dim
+r4 c0..9 dim
+r5 c0..9 dim
+r6 c0..9 dim
+
+== ascii
+Latency  now 70.2 ms  min 65.5 ms  max 210 ms
+ 210 ms |      :..:... .                             ..:....
+        |  .:.: .. ......                         :...   . .:..
+        | ::            ....                   :...           .:..
+        |:                 ..:              :...               . ..:
+        |                     :....     . ...                       :..
+65.5 ms |                        ...:..:...                            :
+---
+r0 c0..7 bold
+r0 c9..13 dim
+r0 c22..26 dim
+r0 c35..39 dim
+r1 c0..9 dim
+r2 c0..9 dim
+r3 c0..9 dim
+r4 c0..9 dim
+r5 c0..9 dim
+r6 c0..9 dim

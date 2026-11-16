@@ -1,0 +1,183 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 fg=Foreground bg=Background bold
+r0 c16..60 bg=Background
+r1 c0..6 fg=Foreground bg=Background
+r1 c6..8 bg=Background
+r1 c8..20 fg=Accent bg=Background
+r1 c20..48 bg=Background
+r1 c48..60 fg=Muted bg=Background
+r2 c0..6 fg=Foreground bg=Background
+r2 c6..8 bg=Background
+r2 c8..10 fg=Accent bg=Background
+r2 c10..48 bg=Background
+r2 c48..59 fg=Muted bg=Background
+r2 c59..60 bg=Background
+r3 c0..6 fg=Foreground bg=Background
+r3 c6..8 bg=Background
+r3 c8..46 fg=Accent bg=Background
+r3 c46..48 bg=Background
+r3 c48..58 fg=Muted bg=Background
+r3 c58..60 bg=Background
+
+== dark-graphite
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 fg=Foreground bg=Background bold
+r0 c16..60 bg=Background
+r1 c0..6 fg=Foreground bg=Background
+r1 c6..8 bg=Background
+r1 c8..20 fg=Accent bg=Background
+r1 c20..48 bg=Background
+r1 c48..60 fg=Muted bg=Background
+r2 c0..6 fg=Foreground bg=Background
+r2 c6..8 bg=Background
+r2 c8..10 fg=Accent bg=Background
+r2 c10..48 bg=Background
+r2 c48..59 fg=Muted bg=Background
+r2 c59..60 bg=Background
+r3 c0..6 fg=Foreground bg=Background
+r3 c6..8 bg=Background
+r3 c8..46 fg=Accent bg=Background
+r3 c46..48 bg=Background
+r3 c48..58 fg=Muted bg=Background
+r3 c58..60 bg=Background
+
+== light-truecolor
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 fg=Foreground bg=Background bold
+r0 c16..60 bg=Background
+r1 c0..6 fg=Foreground bg=Background
+r1 c6..8 bg=Background
+r1 c8..20 fg=Accent bg=Background
+r1 c20..48 bg=Background
+r1 c48..60 fg=Muted bg=Background
+r2 c0..6 fg=Foreground bg=Background
+r2 c6..8 bg=Background
+r2 c8..10 fg=Accent bg=Background
+r2 c10..48 bg=Background
+r2 c48..59 fg=Muted bg=Background
+r2 c59..60 bg=Background
+r3 c0..6 fg=Foreground bg=Background
+r3 c6..8 bg=Background
+r3 c8..46 fg=Accent bg=Background
+r3 c46..48 bg=Background
+r3 c48..58 fg=Muted bg=Background
+r3 c58..60 bg=Background
+
+== dark-256
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 fg=Foreground bg=Background|Surface bold
+r0 c16..60 bg=Background|Surface
+r1 c0..6 fg=Foreground bg=Background|Surface
+r1 c6..8 bg=Background|Surface
+r1 c8..20 fg=Accent bg=Background|Surface
+r1 c20..48 bg=Background|Surface
+r1 c48..60 fg=Muted bg=Background|Surface
+r2 c0..6 fg=Foreground bg=Background|Surface
+r2 c6..8 bg=Background|Surface
+r2 c8..10 fg=Accent bg=Background|Surface
+r2 c10..48 bg=Background|Surface
+r2 c48..59 fg=Muted bg=Background|Surface
+r2 c59..60 bg=Background|Surface
+r3 c0..6 fg=Foreground bg=Background|Surface
+r3 c6..8 bg=Background|Surface
+r3 c8..46 fg=Accent bg=Background|Surface
+r3 c46..48 bg=Background|Surface
+r3 c48..58 fg=Muted bg=Background|Surface
+r3 c58..60 bg=Background|Surface
+
+== light-256
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 fg=Foreground bg=Background bold
+r0 c16..60 bg=Background
+r1 c0..6 fg=Foreground bg=Background
+r1 c6..8 bg=Background
+r1 c8..20 fg=Accent bg=Background
+r1 c20..48 bg=Background
+r1 c48..60 fg=Muted bg=Background
+r2 c0..6 fg=Foreground bg=Background
+r2 c6..8 bg=Background
+r2 c8..10 fg=Accent bg=Background
+r2 c10..48 bg=Background
+r2 c48..59 fg=Muted bg=Background
+r2 c59..60 bg=Background
+r3 c0..6 fg=Foreground bg=Background
+r3 c6..8 bg=Background
+r3 c8..46 fg=Accent bg=Background
+r3 c46..48 bg=Background
+r3 c48..58 fg=Muted bg=Background
+r3 c58..60 bg=Background
+
+== ansi-16
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 bold
+r1 c8..20 fg=Accent
+r1 c48..60 dim
+r2 c8..10 fg=Accent
+r2 c48..59 dim
+r3 c8..46 fg=Accent
+r3 c48..58 dim
+
+== unknown-ground
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 bold
+r1 c8..20 fg=Accent
+r1 c48..60 dim
+r2 c8..10 fg=Accent
+r2 c48..59 dim
+r3 c8..46 fg=Accent
+r3 c48..58 dim
+
+== no-color
+Tokens this turn
+read    ███████████▍                            18.2k tokens
+wrote   █▌                                      2400 tokens
+cached  ██████████████████████████████████████  61k tokens
+---
+r0 c0..16 bold
+r1 c48..60 dim
+r2 c48..59 dim
+r3 c48..58 dim
+
+== ascii
+Tokens this turn
+read    ############                            18.2k tokens
+wrote   ##                                      2400 tokens
+cached  ######################################  61k tokens
+---
+r0 c0..16 bold
+r1 c48..60 dim
+r2 c48..59 dim
+r3 c48..58 dim
