@@ -6,6 +6,12 @@
   surface where they would push `Hint` below 4.5:1 or `Dim` below 3:1; deeper
   rows keep the full warm tint. The README boards and animations are
   regenerated for the current tokens.
+- Data displays stay honest at the edges. `data_number` no longer prints a
+  small value as `0` or `-0` (`0.0042`, `4.2e-7`) and rounds across a unit
+  (`999950` is `1M`, with a `T` tier). A `DataTrend` with more points than
+  dot columns draws each column from its lowest to its highest value, so a
+  spike is never dropped. A `DataBars` value above zero always draws at least
+  an eighth of a cell, and a narrow row cuts the label before the value.
 - Add data displays: `DataSparkline`, `DataBars` and `DataTrend` (a braille
   line chart). The words carry every value; the ink draws in from a caller
   progress (`MotionStep::drawn`) and is at its end state under reduced or

@@ -65,7 +65,7 @@ jobs:
           save-if: ${{ github.ref == 'refs/heads/main' }}
       # insta never writes snapshots when CI is set, so a changed snapshot
       # fails here instead of being rewritten.
-      - run: cargo test --locked
+      - run: cargo test --locked --no-fail-fast
       - name: Public learning recipes
         run: cargo test --locked --example recipes
 

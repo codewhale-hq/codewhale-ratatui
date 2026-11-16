@@ -387,8 +387,6 @@ fn a_sheet_is_always_distinguishable_from_the_work_behind_it() {
     }
 }
 
-/// A raised panel is told from the stage by an edge where its ground cannot
-/// carry it: equal grounds, or 256-color grounds under 1.2:1 apart.
 fn raised_panel_is_edged(theme: &Theme) -> bool {
     let surface = theme.bg(Role::Surface).bg;
     let background = theme.bg(Role::Background).bg;

@@ -357,8 +357,17 @@ fn unknown_unreadable_or_reversed_ink_keeps_its_original_ground() {
 
 #[test]
 fn all_authored_treatments_keep_audited_ink_contrast_at_every_depth() {
-    let theme = Profile::DarkTrue.theme();
-    let ramp = OceanRamp::for_theme(&theme).unwrap();
+    assert!(OceanRamp::for_theme(&Profile::DarkTrue.theme()).is_some());
+    for profile in Profile::ALL {
+        all_authored_treatments_keep_ink_contrast(profile);
+    }
+}
+
+fn all_authored_treatments_keep_ink_contrast(profile: Profile) {
+    let theme = profile.theme();
+    let Some(ramp) = OceanRamp::for_theme(&theme) else {
+        return;
+    };
     let inks = [
         (Role::Foreground, 4.5),
         (Role::Muted, 4.5),
@@ -382,9 +391,10 @@ fn all_authored_treatments_keep_audited_ink_contrast_at_every_depth() {
                         context,
                     );
                     for (role, floor) in inks {
+                        let ratio = theme.color(role).and_then(|ink| contrast_ratio(ink, bg));
                         assert!(
-                            contrast_ratio(theme.color(role).unwrap(), bg).unwrap() >= floor,
-                            "{role:?} on {phase:?}, row {row}, context {context}, time {millis}: {bg:?}"
+                            ratio.is_none_or(|ratio| ratio >= floor),
+                            "{profile:?} {role:?} on {phase:?}, row {row}, context {context}, time {millis}: {bg:?}"
                         );
                     }
                 }
@@ -397,9 +407,10 @@ fn all_authored_treatments_keep_audited_ink_contrast_at_every_depth() {
                     context,
                 );
                 for (role, floor) in inks {
+                    let ratio = theme.color(role).and_then(|ink| contrast_ratio(ink, bg));
                     assert!(
-                        contrast_ratio(theme.color(role).unwrap(), bg).unwrap() >= floor,
-                        "{role:?} on completion, row {row}, context {context}, time {millis}: {bg:?}"
+                        ratio.is_none_or(|ratio| ratio >= floor),
+                        "{profile:?} {role:?} on completion, row {row}, context {context}, time {millis}: {bg:?}"
                     );
                 }
             }
