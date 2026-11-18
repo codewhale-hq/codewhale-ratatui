@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -585,9 +584,9 @@ r6 c0..6 dim
 r7 c0..6 dim
 r7 c6..7 fg=Danger bold
 r8 c0..6 dim
-r8 c6..7 fg=Live bold
+r8 c6..7 fg=Live|LivePeak bold
 r9 c0..6 dim
-r9 c6..7 fg=Live bold
+r9 c6..7 fg=Live|LivePeak bold
 r10 c0..6 dim
 r11 c0..6 dim
 r12 c0..28 dim
@@ -596,14 +595,14 @@ r14 c0..6 dim
 r14 c6..7 fg=Danger bold
 r14 c79..80 dim
 r15 c0..6 dim
-r15 c6..7 fg=Live bold
+r15 c6..7 fg=Live|LivePeak bold
 r15 c79..80 dim
 r16 c0..6 dim
 r17 c0..28 dim
 r18 c0..6 dim
 r18 c6..7 fg=Danger bold
 r19 c0..6 dim
-r19 c6..7 fg=Live bold
+r19 c6..7 fg=Live|LivePeak bold
 r20 c0..6 dim
 
 == unknown-ground
@@ -638,9 +637,9 @@ r6 c0..6 dim
 r7 c0..6 dim
 r7 c6..7 fg=Danger bold
 r8 c0..6 dim
-r8 c6..7 fg=Live bold
+r8 c6..7 fg=Live|LivePeak bold
 r9 c0..6 dim
-r9 c6..7 fg=Live bold
+r9 c6..7 fg=Live|LivePeak bold
 r10 c0..6 dim
 r11 c0..6 dim
 r12 c0..28 dim
@@ -649,14 +648,14 @@ r14 c0..6 dim
 r14 c6..7 fg=Danger bold
 r14 c79..80 dim
 r15 c0..6 dim
-r15 c6..7 fg=Live bold
+r15 c6..7 fg=Live|LivePeak bold
 r15 c79..80 dim
 r16 c0..6 dim
 r17 c0..28 dim
 r18 c0..6 dim
 r18 c6..7 fg=Danger bold
 r19 c0..6 dim
-r19 c6..7 fg=Live bold
+r19 c6..7 fg=Live|LivePeak bold
 r20 c0..6 dim
 
 == no-color

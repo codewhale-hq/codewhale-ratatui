@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -10,20 +9,20 @@ Edited summary.md
 ---
 r0 c0..17 fg=Foreground bg=Background
 r0 c17..60 bg=Background
-r1 c0..1 fg=#040c22 bg=Background
-r1 c1..2 fg=#09132f bg=Background
-r1 c2..3 fg=#0d1b3c bg=Background
-r1 c3..4 fg=#112349 bg=Background
-r1 c4..5 fg=#152b56 bg=Background
-r1 c5..6 fg=#1a3263 bg=Background
+r1 c0..1 fg=#030b21 bg=Background
+r1 c1..2 fg=#06112e bg=Background
+r1 c2..3 fg=#09183a bg=Background
+r1 c3..4 fg=#0c1f47 bg=Background
+r1 c4..5 fg=#0f2653 bg=Background
+r1 c5..6 fg=#122c60 bg=Background
 r1 c6..33 fg=Border bg=Background
 r1 c33..54 fg=Muted bg=Background
-r1 c54..55 fg=#1a3263 bg=Background
-r1 c55..56 fg=#152b56 bg=Background
-r1 c56..57 fg=#112349 bg=Background
-r1 c57..58 fg=#0d1b3c bg=Background
-r1 c58..59 fg=#09132f bg=Background
-r1 c59..60 fg=#040c22 bg=Background
+r1 c54..55 fg=#122c60 bg=Background
+r1 c55..56 fg=#0f2653 bg=Background
+r1 c56..57 fg=#0c1f47 bg=Background
+r1 c57..58 fg=#09183a bg=Background
+r1 c58..59 fg=#06112e bg=Background
+r1 c59..60 fg=#030b21 bg=Background
 r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
@@ -35,20 +34,20 @@ Edited summary.md
 ---
 r0 c0..17 fg=Foreground bg=Background
 r0 c17..60 bg=Background
-r1 c0..1 fg=#0b0d10 bg=Background
-r1 c1..2 fg=#131518 bg=Background
-r1 c2..3 fg=#1b1d20 bg=Background
-r1 c3..4 fg=#232427 bg=Background
-r1 c4..5 fg=#2b2c2f bg=Background
-r1 c5..6 fg=#333437 bg=Background
+r1 c0..1 fg=#090c11 bg=Background
+r1 c1..2 fg=#0e131a bg=Background
+r1 c2..3 fg=#141a23 bg=Background
+r1 c3..4 fg=#19212d bg=Background
+r1 c4..5 fg=#1f2836 bg=Background
+r1 c5..6 fg=#242f3f bg=Background
 r1 c6..33 fg=Border bg=Background
 r1 c33..54 fg=Muted bg=Background
-r1 c54..55 fg=#333437 bg=Background
-r1 c55..56 fg=#2b2c2f bg=Background
-r1 c56..57 fg=#232427 bg=Background
-r1 c57..58 fg=#1b1d20 bg=Background
-r1 c58..59 fg=#131518 bg=Background
-r1 c59..60 fg=#0b0d10 bg=Background
+r1 c54..55 fg=#242f3f bg=Background
+r1 c55..56 fg=#1f2836 bg=Background
+r1 c56..57 fg=#19212d bg=Background
+r1 c57..58 fg=#141a23 bg=Background
+r1 c58..59 fg=#0e131a bg=Background
+r1 c59..60 fg=#090c11 bg=Background
 r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background
@@ -60,20 +59,20 @@ Edited summary.md
 ---
 r0 c0..17 fg=Foreground bg=Background
 r0 c17..60 bg=Background
-r1 c0..1 fg=#f3f0e8 bg=Background
-r1 c1..2 fg=#eeebe4 bg=Background
-r1 c2..3 fg=#eae7e0 bg=Background
-r1 c3..4 fg=#e6e2db bg=Background
-r1 c4..5 fg=#e2ded7 bg=Background
-r1 c5..6 fg=#ddd9d3 bg=Background
+r1 c0..1 fg=#edf1f6 bg=Background
+r1 c1..2 fg=#e9eef3 bg=Background
+r1 c2..3 fg=#e5eaf0 bg=Background
+r1 c3..4 fg=#e1e7ec bg=Background
+r1 c4..5 fg=#dde3e9 bg=Background
+r1 c5..6 fg=#d9e0e6 bg=Background
 r1 c6..33 fg=Border bg=Background
 r1 c33..54 fg=Muted bg=Background
-r1 c54..55 fg=#ddd9d3 bg=Background
-r1 c55..56 fg=#e2ded7 bg=Background
-r1 c56..57 fg=#e6e2db bg=Background
-r1 c57..58 fg=#eae7e0 bg=Background
-r1 c58..59 fg=#eeebe4 bg=Background
-r1 c59..60 fg=#f3f0e8 bg=Background
+r1 c54..55 fg=#d9e0e6 bg=Background
+r1 c55..56 fg=#dde3e9 bg=Background
+r1 c56..57 fg=#e1e7ec bg=Background
+r1 c57..58 fg=#e5eaf0 bg=Background
+r1 c58..59 fg=#e9eef3 bg=Background
+r1 c59..60 fg=#edf1f6 bg=Background
 r2 c0..2 fg=Accent bg=Background
 r2 c2..31 fg=Muted bg=Background
 r2 c31..60 bg=Background

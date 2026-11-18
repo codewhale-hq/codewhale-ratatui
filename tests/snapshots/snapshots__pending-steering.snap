@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -180,18 +179,18 @@ r4 c22..40 bg=Background
   ↳ steering: review Also check the 256-
 Send now / Edit / Drop
 ---
-r0 c0..10 fg=Live
+r0 c0..10 fg=Live|LivePeak
 r0 c13..22 fg=Attention
 r1 c0..2 fg=Accent
 r1 c2..3 fg=Attention
 r1 c4..11 fg=Attention bold
 r1 c13..19 dim
 r2 c0..2 fg=Accent
-r2 c2..3 fg=Live
-r2 c4..12 fg=Live bold
+r2 c2..3 fg=Live|LivePeak
+r2 c4..12 fg=Live|LivePeak bold
 r3 c0..2 fg=Accent
-r3 c2..3 fg=Live
-r3 c4..12 fg=Live bold
+r3 c2..3 fg=Live|LivePeak
+r3 c4..12 fg=Live|LivePeak bold
 r3 c14..21 dim
 r4 c0..22 fg=Accent
 
@@ -202,18 +201,18 @@ r4 c0..22 fg=Accent
   ↳ steering: review Also check the 256-
 Send now / Edit / Drop
 ---
-r0 c0..10 fg=Live
+r0 c0..10 fg=Live|LivePeak
 r0 c13..22 fg=Attention
 r1 c0..2 fg=Accent
 r1 c2..3 fg=Attention
 r1 c4..11 fg=Attention bold
 r1 c13..19 dim
 r2 c0..2 fg=Accent
-r2 c2..3 fg=Live
-r2 c4..12 fg=Live bold
+r2 c2..3 fg=Live|LivePeak
+r2 c4..12 fg=Live|LivePeak bold
 r3 c0..2 fg=Accent
-r3 c2..3 fg=Live
-r3 c4..12 fg=Live bold
+r3 c2..3 fg=Live|LivePeak
+r3 c4..12 fg=Live|LivePeak bold
 r3 c14..21 dim
 r4 c0..22 fg=Accent
 

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -12,12 +11,12 @@ expression: dump(&entry)
 r0 c0..40 fg=Accent bg=Surface
 r1 c0..1 fg=Accent bg=Surface
 r1 c1..3 bg=Surface
-r1 c3..28 fg=Foreground bg=Surface
+r1 c3..28 fg=Foreground|LivePeak bg=Surface
 r1 c28..39 bg=Surface
 r1 c39..40 fg=Accent bg=Surface
 r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
-r2 c3..12 fg=Foreground bg=Surface
+r2 c3..12 fg=Foreground|LivePeak bg=Surface
 r2 c12..35 bg=Surface
 r2 c35..38 fg=Accent bg=Surface bold
 r2 c38..39 bg=Surface
@@ -33,12 +32,12 @@ r3 c0..40 fg=Accent bg=Surface
 r0 c0..40 fg=Accent bg=Surface
 r1 c0..1 fg=Accent bg=Surface
 r1 c1..3 bg=Surface
-r1 c3..28 fg=Foreground bg=Surface
+r1 c3..28 fg=Foreground|LivePeak bg=Surface
 r1 c28..39 bg=Surface
 r1 c39..40 fg=Accent bg=Surface
 r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
-r2 c3..12 fg=Foreground bg=Surface
+r2 c3..12 fg=Foreground|LivePeak bg=Surface
 r2 c12..35 bg=Surface
 r2 c35..38 fg=Accent bg=Surface bold
 r2 c38..39 bg=Surface
@@ -53,10 +52,10 @@ r3 c0..40 fg=Accent bg=Surface
 ---
 r0 c0..40 fg=Accent
 r1 c0..1 fg=Accent
-r1 c3..28 fg=Foreground
+r1 c3..28 fg=Foreground|LivePeak
 r1 c39..40 fg=Accent
 r2 c0..2 fg=Accent
-r2 c3..12 fg=Foreground
+r2 c3..12 fg=Foreground|LivePeak
 r2 c35..38 fg=Accent bold
 r2 c39..40 fg=Accent
 r3 c0..40 fg=Accent
@@ -70,12 +69,12 @@ r3 c0..40 fg=Accent
 r0 c0..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r1 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r1 c1..3 bg=Surface|Hover|DiffRemovedTint
-r1 c3..28 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r1 c3..28 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r1 c28..39 bg=Surface|Hover|DiffRemovedTint
 r1 c39..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r2 c0..2 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r2 c2..3 bg=Surface|Hover|DiffRemovedTint
-r2 c3..12 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r2 c3..12 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r2 c12..35 bg=Surface|Hover|DiffRemovedTint
 r2 c35..38 fg=Accent bg=Surface|Hover|DiffRemovedTint bold
 r2 c38..39 bg=Surface|Hover|DiffRemovedTint
@@ -90,10 +89,10 @@ r3 c0..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 ---
 r0 c0..40 fg=Accent
 r1 c0..1 fg=Accent
-r1 c3..28 fg=Foreground
+r1 c3..28 fg=Foreground|LivePeak
 r1 c39..40 fg=Accent
 r2 c0..2 fg=Accent
-r2 c3..12 fg=Foreground
+r2 c3..12 fg=Foreground|LivePeak
 r2 c35..38 fg=Accent bold
 r2 c39..40 fg=Accent
 r3 c0..40 fg=Accent

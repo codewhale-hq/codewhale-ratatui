@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -33,74 +32,74 @@ expression: dump(&entry)
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r0 c0..40 fg=Foreground bg=#0e243c
+r0 c0..40 fg=Foreground|LivePeak bg=#0e243c
 r1 c0..1 fg=Accent bg=#0d243b bold
-r1 c1..40 fg=Foreground bg=#0d243b
+r1 c1..40 fg=Foreground|LivePeak bg=#0d243b
 r2 c0..2 fg=Hint|Dim bg=#0c2339
-r2 c2..40 fg=Foreground bg=#0c2339
-r3 c0..40 fg=Foreground bg=#0c2238
+r2 c2..40 fg=Foreground|LivePeak bg=#0c2339
+r3 c0..40 fg=Foreground|LivePeak bg=#0c2238
 r4 c0..1 fg=Accent bg=#0c2137 bold
-r4 c1..40 fg=Foreground bg=#0c2137
+r4 c1..40 fg=Foreground|LivePeak bg=#0c2137
 r5 c0..2 fg=Hint|Dim bg=#0b2035
-r5 c2..40 fg=Foreground bg=#0b2035
+r5 c2..40 fg=Foreground|LivePeak bg=#0b2035
 r6 c0..2 fg=Hint|Dim bg=#0b1f34
-r6 c2..40 fg=Foreground bg=#0b1f34
+r6 c2..40 fg=Foreground|LivePeak bg=#0b1f34
 r7 c0..2 fg=Hint|Dim bg=#0b1f33
-r7 c2..40 fg=Foreground bg=#0b1f33
-r8 c0..40 fg=Foreground bg=#0a1e31
+r7 c2..40 fg=Foreground|LivePeak bg=#0b1f33
+r8 c0..40 fg=Foreground|LivePeak bg=#0a1e31
 r9 c0..1 fg=Live bg=#0a1d30
-r9 c1..40 fg=Foreground bg=#0a1d30
-r10 c0..40 fg=Foreground bg=#0a1c2e
-r11 c0..40 fg=Foreground bg=#091b2d
-r12 c0..40 fg=Foreground bg=#091a2c
-r13 c0..40 fg=Foreground bg=#08192a
-r14 c0..40 fg=Foreground bg=#081929
-r15 c0..40 fg=Foreground bg=#081728
-r16 c0..40 fg=Foreground bg=#081726
+r9 c1..40 fg=Foreground|LivePeak bg=#0a1d30
+r10 c0..40 fg=Foreground|LivePeak bg=#0a1c2e
+r11 c0..40 fg=Foreground|LivePeak bg=#091b2d
+r12 c0..40 fg=Foreground|LivePeak bg=#091a2c
+r13 c0..40 fg=Foreground|LivePeak bg=#08192a
+r14 c0..40 fg=Foreground|LivePeak bg=#081929
+r15 c0..40 fg=Foreground|LivePeak bg=#081728
+r16 c0..40 fg=Foreground|LivePeak bg=#081726
 r17 c0..40 fg=Accent bg=#081624
 r18 c0..1 fg=Accent bg=#061524
-r18 c1..39 fg=Foreground bg=#061524
+r18 c1..39 fg=Foreground|LivePeak bg=#061524
 r18 c39..40 fg=Accent bg=#061524
 r19 c0..2 fg=Accent bg=#061522
-r19 c2..35 fg=Foreground bg=#061522
+r19 c2..35 fg=Foreground|LivePeak bg=#061522
 r19 c35..38 fg=Accent bg=#061522 bold
-r19 c38..39 fg=Foreground bg=#061522
+r19 c38..39 fg=Foreground|LivePeak bg=#061522
 r19 c39..40 fg=Accent bg=#061522
 r20 c0..40 fg=Accent bg=Sidebar
-r21 c0..1 fg=Foreground bg=Sidebar
+r21 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r21 c1..6 fg=#e09948 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
 r21 c20..24 fg=#7eb4e8 bg=Sidebar
 r21 c24..27 fg=Hint|Dim bg=Sidebar
 r21 c27..37 fg=Muted bg=Sidebar
-r21 c37..40 fg=Foreground bg=Sidebar
-r22 c0..1 fg=Foreground bg=Sidebar
+r21 c37..40 fg=Foreground|LivePeak bg=Sidebar
+r22 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r22 c1..12 fg=Muted bg=Sidebar
 r22 c12..15 fg=Hint|Dim bg=Sidebar
 r22 c15..18 fg=Muted bg=Sidebar
-r22 c18..19 fg=Foreground bg=Sidebar
+r22 c18..19 fg=Foreground|LivePeak bg=Sidebar
 r22 c19..22 fg=Muted bg=Sidebar
-r22 c22..40 fg=Foreground bg=Sidebar
+r22 c22..40 fg=Foreground|LivePeak bg=Sidebar
 r23 c0..40 fg=Border bg=Sidebar
-r24 c0..1 fg=Foreground bg=Sidebar
-r24 c1..8 fg=Foreground bg=Selected bold
-r24 c8..10 fg=Foreground bg=Sidebar
+r24 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r24 c1..8 fg=Foreground|LivePeak bg=Selected bold
+r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
-r24 c17..19 fg=Foreground bg=Sidebar
+r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground bg=Sidebar
+r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
 r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground bg=Sidebar
+r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
-r25 c0..1 fg=Foreground bg=Sidebar
+r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
-r25 c38..40 fg=Foreground bg=Sidebar
-r26 c0..1 fg=Foreground bg=Sidebar
+r25 c38..40 fg=Foreground|LivePeak bg=Sidebar
+r26 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r26 c1..18 fg=Muted bg=Sidebar
-r26 c18..40 fg=Foreground bg=Sidebar
-r27 c0..1 fg=Foreground bg=Sidebar
+r26 c18..40 fg=Foreground|LivePeak bg=Sidebar
+r27 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r27 c1..38 fg=#9bd66f bg=Sidebar
-r27 c38..39 fg=Foreground bg=Sidebar
+r27 c38..39 fg=Foreground|LivePeak bg=Sidebar
 r27 c39..40 fg=Live bg=Sidebar
 
 == dark-graphite
@@ -133,74 +132,74 @@ r27 c39..40 fg=Live bg=Sidebar
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r0 c0..40 fg=Foreground bg=#0e243c
+r0 c0..40 fg=Foreground|LivePeak bg=#0e243c
 r1 c0..1 fg=Accent bg=#0d243b bold
-r1 c1..40 fg=Foreground bg=#0d243b
+r1 c1..40 fg=Foreground|LivePeak bg=#0d243b
 r2 c0..2 fg=Hint|Dim bg=#0c2339
-r2 c2..40 fg=Foreground bg=#0c2339
-r3 c0..40 fg=Foreground bg=#0c2238
+r2 c2..40 fg=Foreground|LivePeak bg=#0c2339
+r3 c0..40 fg=Foreground|LivePeak bg=#0c2238
 r4 c0..1 fg=Accent bg=#0c2137 bold
-r4 c1..40 fg=Foreground bg=#0c2137
+r4 c1..40 fg=Foreground|LivePeak bg=#0c2137
 r5 c0..2 fg=Hint|Dim bg=#0b2035
-r5 c2..40 fg=Foreground bg=#0b2035
+r5 c2..40 fg=Foreground|LivePeak bg=#0b2035
 r6 c0..2 fg=Hint|Dim bg=#0b1f34
-r6 c2..40 fg=Foreground bg=#0b1f34
+r6 c2..40 fg=Foreground|LivePeak bg=#0b1f34
 r7 c0..2 fg=Hint|Dim bg=#0b1f33
-r7 c2..40 fg=Foreground bg=#0b1f33
-r8 c0..40 fg=Foreground bg=#0a1e31
+r7 c2..40 fg=Foreground|LivePeak bg=#0b1f33
+r8 c0..40 fg=Foreground|LivePeak bg=#0a1e31
 r9 c0..1 fg=Live bg=#0a1d30
-r9 c1..40 fg=Foreground bg=#0a1d30
-r10 c0..40 fg=Foreground bg=#0a1c2e
-r11 c0..40 fg=Foreground bg=#091b2d
-r12 c0..40 fg=Foreground bg=#091a2c
-r13 c0..40 fg=Foreground bg=#08192a
-r14 c0..40 fg=Foreground bg=#081929
-r15 c0..40 fg=Foreground bg=#081728
-r16 c0..40 fg=Foreground bg=#081726
+r9 c1..40 fg=Foreground|LivePeak bg=#0a1d30
+r10 c0..40 fg=Foreground|LivePeak bg=#0a1c2e
+r11 c0..40 fg=Foreground|LivePeak bg=#091b2d
+r12 c0..40 fg=Foreground|LivePeak bg=#091a2c
+r13 c0..40 fg=Foreground|LivePeak bg=#08192a
+r14 c0..40 fg=Foreground|LivePeak bg=#081929
+r15 c0..40 fg=Foreground|LivePeak bg=#081728
+r16 c0..40 fg=Foreground|LivePeak bg=#081726
 r17 c0..40 fg=Accent bg=#081624
 r18 c0..1 fg=Accent bg=#061524
-r18 c1..39 fg=Foreground bg=#061524
+r18 c1..39 fg=Foreground|LivePeak bg=#061524
 r18 c39..40 fg=Accent bg=#061524
 r19 c0..2 fg=Accent bg=#061522
-r19 c2..35 fg=Foreground bg=#061522
+r19 c2..35 fg=Foreground|LivePeak bg=#061522
 r19 c35..38 fg=Accent bg=#061522 bold
-r19 c38..39 fg=Foreground bg=#061522
+r19 c38..39 fg=Foreground|LivePeak bg=#061522
 r19 c39..40 fg=Accent bg=#061522
 r20 c0..40 fg=Accent bg=Sidebar
-r21 c0..1 fg=Foreground bg=Sidebar
+r21 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r21 c1..6 fg=#e09948 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
 r21 c20..24 fg=#7eb4e8 bg=Sidebar
 r21 c24..27 fg=Hint|Dim bg=Sidebar
 r21 c27..37 fg=Muted bg=Sidebar
-r21 c37..40 fg=Foreground bg=Sidebar
-r22 c0..1 fg=Foreground bg=Sidebar
+r21 c37..40 fg=Foreground|LivePeak bg=Sidebar
+r22 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r22 c1..12 fg=Muted bg=Sidebar
 r22 c12..15 fg=Hint|Dim bg=Sidebar
 r22 c15..18 fg=Muted bg=Sidebar
-r22 c18..19 fg=Foreground bg=Sidebar
+r22 c18..19 fg=Foreground|LivePeak bg=Sidebar
 r22 c19..22 fg=Muted bg=Sidebar
-r22 c22..40 fg=Foreground bg=Sidebar
+r22 c22..40 fg=Foreground|LivePeak bg=Sidebar
 r23 c0..40 fg=Border bg=Sidebar
-r24 c0..1 fg=Foreground bg=Sidebar
-r24 c1..8 fg=Foreground bg=Selected bold
-r24 c8..10 fg=Foreground bg=Sidebar
+r24 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r24 c1..8 fg=Foreground|LivePeak bg=Selected bold
+r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
-r24 c17..19 fg=Foreground bg=Sidebar
+r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground bg=Sidebar
+r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
 r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground bg=Sidebar
+r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
-r25 c0..1 fg=Foreground bg=Sidebar
+r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
-r25 c38..40 fg=Foreground bg=Sidebar
-r26 c0..1 fg=Foreground bg=Sidebar
+r25 c38..40 fg=Foreground|LivePeak bg=Sidebar
+r26 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r26 c1..18 fg=Muted bg=Sidebar
-r26 c18..40 fg=Foreground bg=Sidebar
-r27 c0..1 fg=Foreground bg=Sidebar
+r26 c18..40 fg=Foreground|LivePeak bg=Sidebar
+r27 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r27 c1..38 fg=#9bd66f bg=Sidebar
-r27 c38..39 fg=Foreground bg=Sidebar
+r27 c38..39 fg=Foreground|LivePeak bg=Sidebar
 r27 c39..40 fg=Live bg=Sidebar
 
 == light-truecolor
@@ -233,74 +232,74 @@ r27 c39..40 fg=Live bg=Sidebar
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r0 c0..40 fg=Foreground
+r0 c0..40 fg=Foreground|LivePeak
 r1 c0..1 fg=Accent bold
-r1 c1..40 fg=Foreground
+r1 c1..40 fg=Foreground|LivePeak
 r2 c0..2 fg=Hint|Dim
-r2 c2..40 fg=Foreground
-r3 c0..40 fg=Foreground
+r2 c2..40 fg=Foreground|LivePeak
+r3 c0..40 fg=Foreground|LivePeak
 r4 c0..1 fg=Accent bold
-r4 c1..40 fg=Foreground
+r4 c1..40 fg=Foreground|LivePeak
 r5 c0..2 fg=Hint|Dim
-r5 c2..40 fg=Foreground
+r5 c2..40 fg=Foreground|LivePeak
 r6 c0..2 fg=Hint|Dim
-r6 c2..40 fg=Foreground
+r6 c2..40 fg=Foreground|LivePeak
 r7 c0..2 fg=Hint|Dim
-r7 c2..40 fg=Foreground
-r8 c0..40 fg=Foreground
+r7 c2..40 fg=Foreground|LivePeak
+r8 c0..40 fg=Foreground|LivePeak
 r9 c0..1 fg=Live
-r9 c1..40 fg=Foreground
-r10 c0..40 fg=Foreground
-r11 c0..40 fg=Foreground
-r12 c0..40 fg=Foreground
-r13 c0..40 fg=Foreground
-r14 c0..40 fg=Foreground
-r15 c0..40 fg=Foreground
-r16 c0..40 fg=Foreground
+r9 c1..40 fg=Foreground|LivePeak
+r10 c0..40 fg=Foreground|LivePeak
+r11 c0..40 fg=Foreground|LivePeak
+r12 c0..40 fg=Foreground|LivePeak
+r13 c0..40 fg=Foreground|LivePeak
+r14 c0..40 fg=Foreground|LivePeak
+r15 c0..40 fg=Foreground|LivePeak
+r16 c0..40 fg=Foreground|LivePeak
 r17 c0..40 fg=Accent
 r18 c0..1 fg=Accent
-r18 c1..39 fg=Foreground
+r18 c1..39 fg=Foreground|LivePeak
 r18 c39..40 fg=Accent
 r19 c0..2 fg=Accent
-r19 c2..35 fg=Foreground
+r19 c2..35 fg=Foreground|LivePeak
 r19 c35..38 fg=Accent bold
-r19 c38..39 fg=Foreground
+r19 c38..39 fg=Foreground|LivePeak
 r19 c39..40 fg=Accent
 r20 c0..40 fg=Accent
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..6 fg=#92400e bold
 r21 c6..20 fg=Hint|Dim
 r21 c20..24 fg=#1636b2
 r21 c24..27 fg=Hint|Dim
 r21 c27..37 fg=Muted
-r21 c37..40 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c37..40 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..12 fg=Muted
 r22 c12..15 fg=Hint|Dim
 r22 c15..18 fg=Muted
-r22 c18..19 fg=Foreground
+r22 c18..19 fg=Foreground|LivePeak
 r22 c19..22 fg=Muted
-r22 c22..40 fg=Foreground
+r22 c22..40 fg=Foreground|LivePeak
 r23 c0..40 fg=Border
-r24 c0..1 fg=Foreground
-r24 c1..8 fg=Foreground bg=Selected bold
-r24 c8..10 fg=Foreground
+r24 c0..1 fg=Foreground|LivePeak
+r24 c1..8 fg=Foreground|LivePeak bg=Selected bold
+r24 c8..10 fg=Foreground|LivePeak
 r24 c10..17 fg=Muted
-r24 c17..19 fg=Foreground
+r24 c17..19 fg=Foreground|LivePeak
 r24 c19..25 fg=Muted
-r24 c25..27 fg=Foreground
+r24 c25..27 fg=Foreground|LivePeak
 r24 c27..34 fg=Muted
-r24 c34..37 fg=Foreground
+r24 c34..37 fg=Foreground|LivePeak
 r24 c37..40 fg=Hint|Dim
-r25 c0..1 fg=Foreground
+r25 c0..1 fg=Foreground|LivePeak
 r25 c1..38 fg=Live bold
-r25 c38..40 fg=Foreground
-r26 c0..1 fg=Foreground
+r25 c38..40 fg=Foreground|LivePeak
+r26 c0..1 fg=Foreground|LivePeak
 r26 c1..18 fg=Muted
-r26 c18..40 fg=Foreground
-r27 c0..1 fg=Foreground
+r26 c18..40 fg=Foreground|LivePeak
+r27 c0..1 fg=Foreground|LivePeak
 r27 c1..38 fg=#14763d
-r27 c38..39 fg=Foreground
+r27 c38..39 fg=Foreground|LivePeak
 r27 c39..40 fg=Live
 
 == dark-256
@@ -333,74 +332,74 @@ r27 c39..40 fg=Live
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r0 c0..40 fg=Foreground bg=Background|DiffAddedTint
+r0 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r1 c0..1 fg=Accent bg=Background|DiffAddedTint bold
-r1 c1..40 fg=Foreground bg=Background|DiffAddedTint
+r1 c1..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r2 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
-r2 c2..40 fg=Foreground bg=Background|DiffAddedTint
-r3 c0..40 fg=Foreground bg=Background|DiffAddedTint
+r2 c2..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r3 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r4 c0..1 fg=Accent bg=Background|DiffAddedTint bold
-r4 c1..40 fg=Foreground bg=Background|DiffAddedTint
+r4 c1..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r5 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
-r5 c2..40 fg=Foreground bg=Background|DiffAddedTint
+r5 c2..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r6 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
-r6 c2..40 fg=Foreground bg=Background|DiffAddedTint
+r6 c2..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r7 c0..2 fg=Hint|Dim bg=Background|DiffAddedTint
-r7 c2..40 fg=Foreground bg=Background|DiffAddedTint
-r8 c0..40 fg=Foreground bg=Background|DiffAddedTint
+r7 c2..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r8 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r9 c0..1 fg=Live bg=Background|DiffAddedTint
-r9 c1..40 fg=Foreground bg=Background|DiffAddedTint
-r10 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r11 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r12 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r13 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r14 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r15 c0..40 fg=Foreground bg=Background|DiffAddedTint
-r16 c0..40 fg=Foreground bg=Background|DiffAddedTint
+r9 c1..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r10 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r11 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r12 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r13 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r14 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r15 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r16 c0..40 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r17 c0..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r18 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
-r18 c1..39 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r18 c1..39 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r18 c39..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r19 c0..2 fg=Accent bg=Surface|Hover|DiffRemovedTint
-r19 c2..35 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r19 c2..35 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r19 c35..38 fg=Accent bg=Surface|Hover|DiffRemovedTint bold
-r19 c38..39 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r19 c38..39 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r19 c39..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r20 c0..40 fg=Accent bg=Surface|Hover|DiffRemovedTint
-r21 c0..1 fg=Foreground bg=Sidebar
+r21 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r21 c1..6 fg=idx173 bg=Sidebar bold
 r21 c6..20 fg=Hint|Dim bg=Sidebar
 r21 c20..24 fg=idx110 bg=Sidebar
 r21 c24..27 fg=Hint|Dim bg=Sidebar
 r21 c27..37 fg=Muted bg=Sidebar
-r21 c37..40 fg=Foreground bg=Sidebar
-r22 c0..1 fg=Foreground bg=Sidebar
+r21 c37..40 fg=Foreground|LivePeak bg=Sidebar
+r22 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r22 c1..12 fg=Muted bg=Sidebar
 r22 c12..15 fg=Hint|Dim bg=Sidebar
 r22 c15..18 fg=Muted bg=Sidebar
-r22 c18..19 fg=Foreground bg=Sidebar
+r22 c18..19 fg=Foreground|LivePeak bg=Sidebar
 r22 c19..22 fg=Muted bg=Sidebar
-r22 c22..40 fg=Foreground bg=Sidebar
+r22 c22..40 fg=Foreground|LivePeak bg=Sidebar
 r23 c0..40 fg=Border bg=Sidebar
-r24 c0..1 fg=Foreground bg=Sidebar
-r24 c1..8 fg=Foreground bg=Selected bold
-r24 c8..10 fg=Foreground bg=Sidebar
+r24 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r24 c1..8 fg=Foreground|LivePeak bg=Selected bold
+r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
-r24 c17..19 fg=Foreground bg=Sidebar
+r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground bg=Sidebar
+r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
 r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground bg=Sidebar
+r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
-r25 c0..1 fg=Foreground bg=Sidebar
+r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
-r25 c38..40 fg=Foreground bg=Sidebar
-r26 c0..1 fg=Foreground bg=Sidebar
+r25 c38..40 fg=Foreground|LivePeak bg=Sidebar
+r26 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r26 c1..18 fg=Muted bg=Sidebar
-r26 c18..40 fg=Foreground bg=Sidebar
-r27 c0..1 fg=Foreground bg=Sidebar
+r26 c18..40 fg=Foreground|LivePeak bg=Sidebar
+r27 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r27 c1..38 fg=idx113 bg=Sidebar
-r27 c38..39 fg=Foreground bg=Sidebar
+r27 c38..39 fg=Foreground|LivePeak bg=Sidebar
 r27 c39..40 fg=Live bg=Sidebar
 
 == light-256
@@ -433,71 +432,71 @@ r27 c39..40 fg=Live bg=Sidebar
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
 ---
-r0 c0..40 fg=Foreground
+r0 c0..40 fg=Foreground|LivePeak
 r1 c0..1 fg=Accent bold
-r1 c1..40 fg=Foreground
+r1 c1..40 fg=Foreground|LivePeak
 r2 c0..2 fg=Muted|Hint|Dim
-r2 c2..40 fg=Foreground
-r3 c0..40 fg=Foreground
+r2 c2..40 fg=Foreground|LivePeak
+r3 c0..40 fg=Foreground|LivePeak
 r4 c0..1 fg=Accent bold
-r4 c1..40 fg=Foreground
+r4 c1..40 fg=Foreground|LivePeak
 r5 c0..2 fg=Muted|Hint|Dim
-r5 c2..40 fg=Foreground
+r5 c2..40 fg=Foreground|LivePeak
 r6 c0..2 fg=Muted|Hint|Dim
-r6 c2..40 fg=Foreground
+r6 c2..40 fg=Foreground|LivePeak
 r7 c0..2 fg=Muted|Hint|Dim
-r7 c2..40 fg=Foreground
-r8 c0..40 fg=Foreground
+r7 c2..40 fg=Foreground|LivePeak
+r8 c0..40 fg=Foreground|LivePeak
 r9 c0..1 fg=Live
-r9 c1..40 fg=Foreground
-r10 c0..40 fg=Foreground
-r11 c0..40 fg=Foreground
-r12 c0..40 fg=Foreground
-r13 c0..40 fg=Foreground
-r14 c0..40 fg=Foreground
-r15 c0..40 fg=Foreground
-r16 c0..40 fg=Foreground
+r9 c1..40 fg=Foreground|LivePeak
+r10 c0..40 fg=Foreground|LivePeak
+r11 c0..40 fg=Foreground|LivePeak
+r12 c0..40 fg=Foreground|LivePeak
+r13 c0..40 fg=Foreground|LivePeak
+r14 c0..40 fg=Foreground|LivePeak
+r15 c0..40 fg=Foreground|LivePeak
+r16 c0..40 fg=Foreground|LivePeak
 r17 c0..40 fg=Accent
 r18 c0..1 fg=Accent
-r18 c1..39 fg=Foreground
+r18 c1..39 fg=Foreground|LivePeak
 r18 c39..40 fg=Accent
 r19 c0..2 fg=Accent
-r19 c2..35 fg=Foreground
+r19 c2..35 fg=Foreground|LivePeak
 r19 c35..38 fg=Accent bold
-r19 c38..39 fg=Foreground
+r19 c38..39 fg=Foreground|LivePeak
 r19 c39..40 fg=Accent
 r20 c0..40 fg=Accent
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..6 fg=Attention bold
 r21 c6..20 fg=Muted|Hint|Dim
 r21 c20..24 fg=Accent
 r21 c24..37 fg=Muted|Hint|Dim
-r21 c37..40 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c37..40 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..18 fg=Muted|Hint|Dim
-r22 c18..19 fg=Foreground
+r22 c18..19 fg=Foreground|LivePeak
 r22 c19..22 fg=Muted|Hint|Dim
-r22 c22..40 fg=Foreground
+r22 c22..40 fg=Foreground|LivePeak
 r23 c0..40 fg=Border
-r24 c0..1 fg=Foreground
-r24 c1..8 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r24 c8..10 fg=Foreground
+r24 c0..1 fg=Foreground|LivePeak
+r24 c1..8 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r24 c8..10 fg=Foreground|LivePeak
 r24 c10..17 fg=Muted|Hint|Dim
-r24 c17..19 fg=Foreground
+r24 c17..19 fg=Foreground|LivePeak
 r24 c19..25 fg=Muted|Hint|Dim
-r24 c25..27 fg=Foreground
+r24 c25..27 fg=Foreground|LivePeak
 r24 c27..34 fg=Muted|Hint|Dim
-r24 c34..37 fg=Foreground
+r24 c34..37 fg=Foreground|LivePeak
 r24 c37..40 fg=Muted|Hint|Dim
-r25 c0..1 fg=Foreground
+r25 c0..1 fg=Foreground|LivePeak
 r25 c1..38 fg=Live bold
-r25 c38..40 fg=Foreground
-r26 c0..1 fg=Foreground
+r25 c38..40 fg=Foreground|LivePeak
+r26 c0..1 fg=Foreground|LivePeak
 r26 c1..18 fg=Muted|Hint|Dim
-r26 c18..40 fg=Foreground
-r27 c0..1 fg=Foreground
+r26 c18..40 fg=Foreground|LivePeak
+r27 c0..1 fg=Foreground|LivePeak
 r27 c1..38 fg=Live
-r27 c38..39 fg=Foreground
+r27 c38..39 fg=Foreground|LivePeak
 r27 c39..40 fg=Live
 
 == ansi-16
@@ -536,7 +535,7 @@ r4 c0..1 fg=Accent bold
 r5 c0..2 dim
 r6 c0..2 dim
 r7 c0..2 dim
-r9 c0..1 fg=Live
+r9 c0..1 fg=Live|LivePeak
 r17 c0..40 fg=Accent
 r18 c0..1 fg=Accent
 r18 c39..40 fg=Accent
@@ -556,10 +555,10 @@ r24 c10..17 dim
 r24 c19..25 dim
 r24 c27..34 dim
 r24 c37..40 dim
-r25 c1..38 fg=Live bold
+r25 c1..38 fg=Live|LivePeak bold
 r26 c1..18 dim
-r27 c1..38 fg=Live
-r27 c39..40 fg=Live
+r27 c1..38 fg=Live|LivePeak
+r27 c39..40 fg=Live|LivePeak
 
 == unknown-ground
 
@@ -597,7 +596,7 @@ r4 c0..1 fg=Accent bold
 r5 c0..2 dim
 r6 c0..2 dim
 r7 c0..2 dim
-r9 c0..1 fg=Live
+r9 c0..1 fg=Live|LivePeak
 r17 c0..40 fg=Accent
 r18 c0..1 fg=Accent
 r18 c39..40 fg=Accent
@@ -617,10 +616,10 @@ r24 c10..17 dim
 r24 c19..25 dim
 r24 c27..34 dim
 r24 c37..40 dim
-r25 c1..38 fg=Live bold
+r25 c1..38 fg=Live|LivePeak bold
 r26 c1..18 dim
-r27 c1..38 fg=Live
-r27 c39..40 fg=Live
+r27 c1..38 fg=Live|LivePeak
+r27 c39..40 fg=Live|LivePeak
 
 == no-color
 

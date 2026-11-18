@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -10,20 +9,20 @@ expression: dump(&entry)
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#040c22 bg=Background
-r0 c1..2 fg=#09132f bg=Background
-r0 c2..3 fg=#0d1b3c bg=Background
-r0 c3..4 fg=#112349 bg=Background
-r0 c4..5 fg=#152b56 bg=Background
-r0 c5..6 fg=#1a3263 bg=Background
+r0 c0..1 fg=#030b21 bg=Background
+r0 c1..2 fg=#06112e bg=Background
+r0 c2..3 fg=#09183a bg=Background
+r0 c3..4 fg=#0c1f47 bg=Background
+r0 c4..5 fg=#0f2653 bg=Background
+r0 c5..6 fg=#122c60 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#1a3263 bg=Background
-r0 c59..60 fg=#152b56 bg=Background
-r0 c60..61 fg=#112349 bg=Background
-r0 c61..62 fg=#0d1b3c bg=Background
-r0 c62..63 fg=#09132f bg=Background
-r0 c63..64 fg=#040c22 bg=Background
+r0 c58..59 fg=#122c60 bg=Background
+r0 c59..60 fg=#0f2653 bg=Background
+r0 c60..61 fg=#0c1f47 bg=Background
+r0 c61..62 fg=#09183a bg=Background
+r0 c62..63 fg=#06112e bg=Background
+r0 c63..64 fg=#030b21 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -51,20 +50,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#0b0d10 bg=Background
-r0 c1..2 fg=#131518 bg=Background
-r0 c2..3 fg=#1b1d20 bg=Background
-r0 c3..4 fg=#232427 bg=Background
-r0 c4..5 fg=#2b2c2f bg=Background
-r0 c5..6 fg=#333437 bg=Background
+r0 c0..1 fg=#090c11 bg=Background
+r0 c1..2 fg=#0e131a bg=Background
+r0 c2..3 fg=#141a23 bg=Background
+r0 c3..4 fg=#19212d bg=Background
+r0 c4..5 fg=#1f2836 bg=Background
+r0 c5..6 fg=#242f3f bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#333437 bg=Background
-r0 c59..60 fg=#2b2c2f bg=Background
-r0 c60..61 fg=#232427 bg=Background
-r0 c61..62 fg=#1b1d20 bg=Background
-r0 c62..63 fg=#131518 bg=Background
-r0 c63..64 fg=#0b0d10 bg=Background
+r0 c58..59 fg=#242f3f bg=Background
+r0 c59..60 fg=#1f2836 bg=Background
+r0 c60..61 fg=#19212d bg=Background
+r0 c61..62 fg=#141a23 bg=Background
+r0 c62..63 fg=#0e131a bg=Background
+r0 c63..64 fg=#090c11 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -92,20 +91,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#f3f0e8 bg=Background
-r0 c1..2 fg=#eeebe4 bg=Background
-r0 c2..3 fg=#eae7e0 bg=Background
-r0 c3..4 fg=#e6e2db bg=Background
-r0 c4..5 fg=#e2ded7 bg=Background
-r0 c5..6 fg=#ddd9d3 bg=Background
+r0 c0..1 fg=#edf1f6 bg=Background
+r0 c1..2 fg=#e9eef3 bg=Background
+r0 c2..3 fg=#e5eaf0 bg=Background
+r0 c3..4 fg=#e1e7ec bg=Background
+r0 c4..5 fg=#dde3e9 bg=Background
+r0 c5..6 fg=#d9e0e6 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#ddd9d3 bg=Background
-r0 c59..60 fg=#e2ded7 bg=Background
-r0 c60..61 fg=#e6e2db bg=Background
-r0 c61..62 fg=#eae7e0 bg=Background
-r0 c62..63 fg=#eeebe4 bg=Background
-r0 c63..64 fg=#f3f0e8 bg=Background
+r0 c58..59 fg=#d9e0e6 bg=Background
+r0 c59..60 fg=#dde3e9 bg=Background
+r0 c60..61 fg=#e1e7ec bg=Background
+r0 c61..62 fg=#e5eaf0 bg=Background
+r0 c62..63 fg=#e9eef3 bg=Background
+r0 c63..64 fg=#edf1f6 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background

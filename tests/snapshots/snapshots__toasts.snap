@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -135,7 +134,7 @@ r2 c59..60 bg=Sidebar|Surface
                  ◆ A command is waiting for your approval →
          ✕ Could not save: the settings file is read-only →
 ---
-r0 c35..36 fg=Live
+r0 c35..36 fg=Live|LivePeak
 r1 c17..18 fg=Attention
 r1 c57..59 dim
 r2 c9..10 fg=Danger
@@ -146,7 +145,7 @@ r2 c57..59 dim
                  ◆ A command is waiting for your approval →
          ✕ Could not save: the settings file is read-only →
 ---
-r0 c35..36 fg=Live
+r0 c35..36 fg=Live|LivePeak
 r1 c17..18 fg=Attention
 r1 c57..59 dim
 r2 c9..10 fg=Danger

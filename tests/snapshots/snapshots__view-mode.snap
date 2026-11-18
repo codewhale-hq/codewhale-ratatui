@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -40,8 +39,8 @@ r5 c6..7 fg=Border bg=Background
 r5 c7..8 bg=Background
 r5 c8..9 fg=Accent bg=Selected
 r5 c9..10 bg=Selected
-r5 c10..21 fg=Foreground bg=Selected bold
-r5 c21..71 fg=Foreground bg=Selected
+r5 c10..21 fg=Foreground|LivePeak bg=Selected bold
+r5 c21..71 fg=Foreground|LivePeak bg=Selected
 r5 c71..72 bg=Selected
 r5 c72..73 bg=Background
 r5 c73..74 fg=Border bg=Background
@@ -50,7 +49,7 @@ r5 c75..80 bg=Background
 r6 c0..6 bg=Background
 r6 c6..7 fg=Border bg=Background
 r6 c7..10 bg=Background
-r6 c10..21 fg=Foreground bg=Background
+r6 c10..21 fg=Foreground|LivePeak bg=Background
 r6 c21..70 fg=Muted bg=Background
 r6 c70..73 bg=Background
 r6 c73..74 fg=Border bg=Background
@@ -59,7 +58,7 @@ r6 c75..80 bg=Background
 r7 c0..6 bg=Background
 r7 c6..7 fg=Border bg=Background
 r7 c7..10 bg=Background
-r7 c10..21 fg=Foreground bg=Background
+r7 c10..21 fg=Foreground|LivePeak bg=Background
 r7 c21..69 fg=Muted bg=Background
 r7 c69..73 bg=Background
 r7 c73..74 fg=Border bg=Background
@@ -145,8 +144,8 @@ r5 c6..7 fg=Border bg=Background
 r5 c7..8 bg=Background
 r5 c8..9 fg=Accent bg=Selected
 r5 c9..10 bg=Selected
-r5 c10..21 fg=Foreground bg=Selected bold
-r5 c21..71 fg=Foreground bg=Selected
+r5 c10..21 fg=Foreground|LivePeak bg=Selected bold
+r5 c21..71 fg=Foreground|LivePeak bg=Selected
 r5 c71..72 bg=Selected
 r5 c72..73 bg=Background
 r5 c73..74 fg=Border bg=Background
@@ -155,7 +154,7 @@ r5 c75..80 bg=Background
 r6 c0..6 bg=Background
 r6 c6..7 fg=Border bg=Background
 r6 c7..10 bg=Background
-r6 c10..21 fg=Foreground bg=Background
+r6 c10..21 fg=Foreground|LivePeak bg=Background
 r6 c21..70 fg=Muted bg=Background
 r6 c70..73 bg=Background
 r6 c73..74 fg=Border bg=Background
@@ -164,7 +163,7 @@ r6 c75..80 bg=Background
 r7 c0..6 bg=Background
 r7 c6..7 fg=Border bg=Background
 r7 c7..10 bg=Background
-r7 c10..21 fg=Foreground bg=Background
+r7 c10..21 fg=Foreground|LivePeak bg=Background
 r7 c21..69 fg=Muted bg=Background
 r7 c69..73 bg=Background
 r7 c73..74 fg=Border bg=Background
@@ -240,18 +239,18 @@ r4 c74..75 bg=Hover
 r5 c6..7 fg=Border
 r5 c8..9 fg=Accent bg=Selected
 r5 c9..10 bg=Selected
-r5 c10..21 fg=Foreground bg=Selected bold
-r5 c21..71 fg=Foreground bg=Selected
+r5 c10..21 fg=Foreground|LivePeak bg=Selected bold
+r5 c21..71 fg=Foreground|LivePeak bg=Selected
 r5 c71..72 bg=Selected
 r5 c73..74 fg=Border
 r5 c74..75 bg=Hover
 r6 c6..7 fg=Border
-r6 c10..21 fg=Foreground
+r6 c10..21 fg=Foreground|LivePeak
 r6 c21..70 fg=Muted
 r6 c73..74 fg=Border
 r6 c74..75 bg=Hover
 r7 c6..7 fg=Border
-r7 c10..21 fg=Foreground
+r7 c10..21 fg=Foreground|LivePeak
 r7 c21..69 fg=Muted
 r7 c73..74 fg=Border
 r7 c74..75 bg=Hover
@@ -314,8 +313,8 @@ r5 c6..7 fg=Border bg=Background|DiffAddedTint
 r5 c7..8 bg=Background|DiffAddedTint
 r5 c8..9 fg=Accent bg=Selected
 r5 c9..10 bg=Selected
-r5 c10..21 fg=Foreground bg=Selected bold
-r5 c21..71 fg=Foreground bg=Selected
+r5 c10..21 fg=Foreground|LivePeak bg=Selected bold
+r5 c21..71 fg=Foreground|LivePeak bg=Selected
 r5 c71..72 bg=Selected
 r5 c72..73 bg=Background|DiffAddedTint
 r5 c73..74 fg=Border bg=Background|DiffAddedTint
@@ -324,7 +323,7 @@ r5 c75..80 bg=Background|DiffAddedTint
 r6 c0..6 bg=Background|DiffAddedTint
 r6 c6..7 fg=Border bg=Background|DiffAddedTint
 r6 c7..10 bg=Background|DiffAddedTint
-r6 c10..21 fg=Foreground bg=Background|DiffAddedTint
+r6 c10..21 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r6 c21..70 fg=Muted bg=Background|DiffAddedTint
 r6 c70..73 bg=Background|DiffAddedTint
 r6 c73..74 fg=Border bg=Background|DiffAddedTint
@@ -333,7 +332,7 @@ r6 c75..80 bg=Background|DiffAddedTint
 r7 c0..6 bg=Background|DiffAddedTint
 r7 c6..7 fg=Border bg=Background|DiffAddedTint
 r7 c7..10 bg=Background|DiffAddedTint
-r7 c10..21 fg=Foreground bg=Background|DiffAddedTint
+r7 c10..21 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r7 c21..69 fg=Muted bg=Background|DiffAddedTint
 r7 c69..73 bg=Background|DiffAddedTint
 r7 c73..74 fg=Border bg=Background|DiffAddedTint
@@ -409,18 +408,18 @@ r4 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r5 c6..7 fg=Border
 r5 c8..9 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r5 c9..10 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c10..21 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r5 c21..71 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c10..21 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r5 c21..71 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r5 c71..72 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r5 c73..74 fg=Border
 r5 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r6 c6..7 fg=Border
-r6 c10..21 fg=Foreground
+r6 c10..21 fg=Foreground|LivePeak
 r6 c21..70 fg=Muted|Hint|Dim
 r6 c73..74 fg=Border
 r6 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r7 c6..7 fg=Border
-r7 c10..21 fg=Foreground
+r7 c10..21 fg=Foreground|LivePeak
 r7 c21..69 fg=Muted|Hint|Dim
 r7 c73..74 fg=Border
 r7 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint

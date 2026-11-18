@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -89,15 +88,15 @@ r21 c19..22 fg=BorderStrong bg=Background
 r21 c22..32 fg=Muted bg=Background
 r21 c32..40 fg=Foreground bg=Background
 r22 c0..2 fg=Foreground bg=Background
-r22 c2..3 fg=#060f27 bg=Background
-r22 c3..4 fg=#0c1a39 bg=Background
-r22 c4..5 fg=#12244c bg=Background
-r22 c5..6 fg=#182f5e bg=Background
+r22 c2..3 fg=#040d26 bg=Background
+r22 c3..4 fg=#081738 bg=Background
+r22 c4..5 fg=#0d2049 bg=Background
+r22 c5..6 fg=#112a5b bg=Background
 r22 c6..34 fg=Border bg=Background
-r22 c34..35 fg=#182f5e bg=Background
-r22 c35..36 fg=#12244c bg=Background
-r22 c36..37 fg=#0c1a39 bg=Background
-r22 c37..38 fg=#060f27 bg=Background
+r22 c34..35 fg=#112a5b bg=Background
+r22 c35..36 fg=#0d2049 bg=Background
+r22 c36..37 fg=#081738 bg=Background
+r22 c37..38 fg=#040d26 bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
 r23 c2..4 fg=Accent bg=Background
@@ -209,15 +208,15 @@ r21 c19..22 fg=BorderStrong bg=Background
 r21 c22..32 fg=Muted bg=Background
 r21 c32..40 fg=Foreground bg=Background
 r22 c0..2 fg=Foreground bg=Background
-r22 c2..3 fg=#0e1013 bg=Background
-r22 c3..4 fg=#191b1e bg=Background
-r22 c4..5 fg=#252629 bg=Background
-r22 c5..6 fg=Hover bg=Background
+r22 c2..3 fg=#0b0f15 bg=Background
+r22 c3..4 fg=#131922 bg=Background
+r22 c4..5 fg=#1a222e bg=Background
+r22 c5..6 fg=#222c3b bg=Background
 r22 c6..34 fg=Border bg=Background
-r22 c34..35 fg=Hover bg=Background
-r22 c35..36 fg=#252629 bg=Background
-r22 c36..37 fg=#191b1e bg=Background
-r22 c37..38 fg=#0e1013 bg=Background
+r22 c34..35 fg=#222c3b bg=Background
+r22 c35..36 fg=#1a222e bg=Background
+r22 c36..37 fg=#131922 bg=Background
+r22 c37..38 fg=#0b0f15 bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
 r23 c2..4 fg=Accent bg=Background
@@ -329,15 +328,15 @@ r21 c19..22 fg=BorderStrong bg=Background
 r21 c22..32 fg=Muted bg=Background
 r21 c32..40 fg=Foreground bg=Background
 r22 c0..2 fg=Foreground bg=Background
-r22 c2..3 fg=#f1eee6 bg=Background
-r22 c3..4 fg=#ebe8e0 bg=Background
-r22 c4..5 fg=#e5e1db bg=Background
-r22 c5..6 fg=#dfdbd5 bg=Background
+r22 c2..3 fg=#ebf0f5 bg=Background
+r22 c3..4 fg=#e6ebf0 bg=Background
+r22 c4..5 fg=#e0e6ec bg=Background
+r22 c5..6 fg=#dbe1e7 bg=Background
 r22 c6..34 fg=Border bg=Background
-r22 c34..35 fg=#dfdbd5 bg=Background
-r22 c35..36 fg=#e5e1db bg=Background
-r22 c36..37 fg=#ebe8e0 bg=Background
-r22 c37..38 fg=#f1eee6 bg=Background
+r22 c34..35 fg=#dbe1e7 bg=Background
+r22 c35..36 fg=#e0e6ec bg=Background
+r22 c36..37 fg=#e6ebf0 bg=Background
+r22 c37..38 fg=#ebf0f5 bg=Background
 r22 c38..40 fg=Foreground bg=Background
 r23 c0..2 fg=Foreground bg=Background
 r23 c2..4 fg=Accent bg=Background

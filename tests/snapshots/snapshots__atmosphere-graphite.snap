@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -83,9 +82,9 @@ r6 c23..24 bg=#04070c
 r6 c24..33 fg=Foreground bg=#04070c
 r6 c33..104 bg=#04070c
 r7 c0..1 bg=#0d121b
-r7 c1..3 fg=Accent bg=#17191c
-r7 c3..11 fg=Foreground bg=#17191c bold
-r7 c11..19 bg=#17191c
+r7 c1..3 fg=Accent bg=#182232
+r7 c3..11 fg=Foreground bg=#182232 bold
+r7 c11..19 bg=#182232
 r7 c19..20 bg=#0d121b
 r7 c20..21 bg=#030508
 r7 c21..22 bg=#04070c
@@ -995,7 +994,7 @@ r4 c23..27 bold
 r4 c103..104 dim
 r5 c1..3 fg=Accent
 r5 c21..22 dim
-r5 c23..24 fg=Live
+r5 c23..24 fg=Live|LivePeak
 r5 c103..104 dim
 r6 c1..3 fg=Accent
 r6 c21..22 dim
@@ -1007,7 +1006,7 @@ r7 c21..22 dim
 r7 c23..24 fg=Danger
 r7 c103..104 dim
 r8 c21..22 dim
-r8 c23..24 fg=Live
+r8 c23..24 fg=Live|LivePeak
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
@@ -1030,7 +1029,7 @@ r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
 r20 c32..35 fg=Accent
-r22 c29..30 fg=Live
+r22 c29..30 fg=Live|LivePeak
 
 == unknown-ground
 Codewhale / Graphite atmosphere                                                           Finishing pass
@@ -1073,7 +1072,7 @@ r4 c23..27 bold
 r4 c103..104 dim
 r5 c1..3 fg=Accent
 r5 c21..22 dim
-r5 c23..24 fg=Live
+r5 c23..24 fg=Live|LivePeak
 r5 c103..104 dim
 r6 c1..3 fg=Accent
 r6 c21..22 dim
@@ -1085,7 +1084,7 @@ r7 c21..22 dim
 r7 c23..24 fg=Danger
 r7 c103..104 dim
 r8 c21..22 dim
-r8 c23..24 fg=Live
+r8 c23..24 fg=Live|LivePeak
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
@@ -1108,7 +1107,7 @@ r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
 r20 c32..35 fg=Accent
-r22 c29..30 fg=Live
+r22 c29..30 fg=Live|LivePeak
 
 == no-color
 Codewhale / Graphite atmosphere                                                           Finishing pass

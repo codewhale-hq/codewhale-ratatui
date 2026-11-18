@@ -53,8 +53,8 @@ for match in re.finditer(r'pub const (\w+): UiTheme = UiTheme \{(.*?)\}\s*(\.wit
     blocks[match[1]] = fields
 names = dict(re.findall(r'Self::(\w+) => (\w+),', texts['themes.rs']))
 mapping = ['header_bg', 'surface_bg', 'panel_bg', 'elevated_bg', 'selection_bg',
-           'text_body', 'text_muted', 'border', 'text_soft', 'accent_primary',
-           'surface_bg', 'accent_primary', 'accent_secondary', 'accent_action', 'error_fg',
+           'text_body', 'text_soft', 'text_muted', 'border', 'text_soft', 'accent_primary',
+           'surface_bg', 'accent_primary', 'accent_secondary', 'text_body', 'accent_action', 'error_fg',
            'text_hint', 'text_dim', 'diff_added_bg', 'diff_deleted_bg']
 records = []
 for variant in variants:

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -181,7 +180,7 @@ Auto-Review · nothing checked yet
 ---
 r0 c0..11 bold
 r0 c11..14 dim
-r0 c14..16 fg=Live
+r0 c14..16 fg=Live|LivePeak
 r0 c16..19 bold
 r0 c26..29 dim
 r0 c29..31 fg=Danger
@@ -192,7 +191,7 @@ r0 c44..46 bold
 r1 c0..2 dim
 r1 c2..4 bold
 r1 c20..23 dim
-r1 c23..25 fg=Live
+r1 c23..25 fg=Live|LivePeak
 r1 c35..36 bold
 r3 c0..11 bold
 r3 c11..33 dim
@@ -205,7 +204,7 @@ Auto-Review · nothing checked yet
 ---
 r0 c0..11 bold
 r0 c11..14 dim
-r0 c14..16 fg=Live
+r0 c14..16 fg=Live|LivePeak
 r0 c16..19 bold
 r0 c26..29 dim
 r0 c29..31 fg=Danger
@@ -216,7 +215,7 @@ r0 c44..46 bold
 r1 c0..2 dim
 r1 c2..4 bold
 r1 c20..23 dim
-r1 c23..25 fg=Live
+r1 c23..25 fg=Live|LivePeak
 r1 c35..36 bold
 r3 c0..11 bold
 r3 c11..33 dim

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -56,13 +55,13 @@ r0 c33..40 bg=Background
 == ansi-16
 ⠴ Verifying terminal layout · 1 s
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c27..33 dim
 
 == unknown-ground
 ⠴ Verifying terminal layout · 1 s
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c27..33 dim
 
 == no-color

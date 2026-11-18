@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -380,9 +379,9 @@ r13 c0..64 bg=Sidebar|Surface
 
 ---
 r0 c1..6 bold
-r1 c1..2 fg=Live
+r1 c1..2 fg=Live|LivePeak
 r1 c3..13 bold
-r1 c15..22 fg=Live
+r1 c15..22 fg=Live|LivePeak
 r1 c24..30 dim
 r2 c1..40 dim
 r3 c1..3 dim
@@ -392,9 +391,9 @@ r5 c18..27 fg=Attention
 r5 c29..32 dim
 r6 c1..9 dim
 r7 c1..3 dim
-r9 c1..2 fg=Live
+r9 c1..2 fg=Live|LivePeak
 r9 c3..10 bold
-r9 c12..16 fg=Live
+r9 c12..16 fg=Live|LivePeak
 r9 c18..24 dim
 r10 c1..9 dim
 r11 c1..3 dim
@@ -416,9 +415,9 @@ r11 c1..3 dim
 
 ---
 r0 c1..6 bold
-r1 c1..2 fg=Live
+r1 c1..2 fg=Live|LivePeak
 r1 c3..13 bold
-r1 c15..22 fg=Live
+r1 c15..22 fg=Live|LivePeak
 r1 c24..30 dim
 r2 c1..40 dim
 r3 c1..3 dim
@@ -428,9 +427,9 @@ r5 c18..27 fg=Attention
 r5 c29..32 dim
 r6 c1..9 dim
 r7 c1..3 dim
-r9 c1..2 fg=Live
+r9 c1..2 fg=Live|LivePeak
 r9 c3..10 bold
-r9 c12..16 fg=Live
+r9 c12..16 fg=Live|LivePeak
 r9 c18..24 dim
 r10 c1..9 dim
 r11 c1..3 dim

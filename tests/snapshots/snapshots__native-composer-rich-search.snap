@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -25,7 +24,7 @@ r2 c1..23 fg=Muted bg=Surface
 r2 c23..71 bg=Surface
 r2 c71..72 fg=Accent bg=Surface
 r3 c0..1 fg=Accent bg=Surface
-r3 c1..22 fg=Foreground bg=Surface
+r3 c1..22 fg=Foreground|LivePeak bg=Surface
 r3 c22..71 bg=Surface
 r3 c71..72 fg=Accent bg=Surface
 r4 c0..1 fg=Accent bg=Surface
@@ -62,7 +61,7 @@ r2 c1..23 fg=Muted bg=Surface
 r2 c23..71 bg=Surface
 r2 c71..72 fg=Accent bg=Surface
 r3 c0..1 fg=Accent bg=Surface
-r3 c1..22 fg=Foreground bg=Surface
+r3 c1..22 fg=Foreground|LivePeak bg=Surface
 r3 c22..71 bg=Surface
 r3 c71..72 fg=Accent bg=Surface
 r4 c0..1 fg=Accent bg=Surface
@@ -97,7 +96,7 @@ r2 c0..1 fg=Accent
 r2 c1..23 fg=Muted
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
-r3 c1..22 fg=Foreground
+r3 c1..22 fg=Foreground|LivePeak
 r3 c71..72 fg=Accent
 r4 c0..1 fg=Accent
 r4 c71..72 fg=Accent
@@ -130,7 +129,7 @@ r2 c1..23 fg=Muted bg=Surface|Hover|DiffRemovedTint
 r2 c23..71 bg=Surface|Hover|DiffRemovedTint
 r2 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r3 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
-r3 c1..22 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r3 c1..22 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r3 c22..71 bg=Surface|Hover|DiffRemovedTint
 r3 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r4 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
@@ -165,7 +164,7 @@ r2 c0..1 fg=Accent
 r2 c1..23 fg=Muted|Hint|Dim
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
-r3 c1..22 fg=Foreground
+r3 c1..22 fg=Foreground|LivePeak
 r3 c71..72 fg=Accent
 r4 c0..1 fg=Accent
 r4 c71..72 fg=Accent

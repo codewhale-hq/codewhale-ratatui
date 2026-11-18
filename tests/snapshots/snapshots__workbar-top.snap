@@ -11,38 +11,38 @@ expression: dump(&entry)
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
 ---
-r0 c0..1 fg=Foreground bg=Sidebar
-r0 c1..10 fg=Foreground bg=Selected bold
-r0 c10..12 fg=Foreground bg=Sidebar
+r0 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r0 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r0 c10..12 fg=Foreground|LivePeak bg=Sidebar
 r0 c12..21 fg=Muted bg=Sidebar
-r0 c21..23 fg=Foreground bg=Sidebar
+r0 c21..23 fg=Foreground|LivePeak bg=Sidebar
 r0 c23..31 fg=Muted bg=Sidebar
-r0 c31..33 fg=Foreground bg=Sidebar
+r0 c31..33 fg=Foreground|LivePeak bg=Sidebar
 r0 c33..42 fg=Muted bg=Sidebar
-r0 c42..44 fg=Foreground bg=Sidebar
+r0 c42..44 fg=Foreground|LivePeak bg=Sidebar
 r0 c44..53 fg=Muted bg=Sidebar
-r0 c53..55 fg=Foreground bg=Sidebar
+r0 c53..55 fg=Foreground|LivePeak bg=Sidebar
 r0 c55..64 fg=Muted bg=Sidebar
-r0 c64..66 fg=Foreground bg=Sidebar
+r0 c64..66 fg=Foreground|LivePeak bg=Sidebar
 r0 c66..71 fg=Muted bg=Sidebar
-r0 c71..73 fg=Foreground bg=Sidebar
+r0 c71..73 fg=Foreground|LivePeak bg=Sidebar
 r0 c73..79 fg=Muted bg=Sidebar
-r0 c79..97 fg=Foreground bg=Sidebar
+r0 c79..97 fg=Foreground|LivePeak bg=Sidebar
 r0 c97..104 fg=Hint|Dim bg=Sidebar
-r1 c0..1 fg=Foreground bg=Sidebar
+r1 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r1 c1..34 fg=Live bg=Sidebar bold
 r1 c34..103 fg=Muted bg=Sidebar
-r1 c103..104 fg=Foreground bg=Sidebar
-r2 c0..1 fg=Foreground bg=Sidebar
+r1 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..103 fg=#9bd66f bg=Selected bold
-r2 c103..104 fg=Foreground bg=Sidebar
-r3 c0..1 fg=Foreground bg=Sidebar
+r2 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r3 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r3 c1..103 fg=Live bg=Sidebar
-r3 c103..104 fg=Foreground bg=Sidebar
-r4 c0..1 fg=Foreground bg=Sidebar
+r3 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r4 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r4 c1..103 fg=Muted bg=Sidebar
-r4 c103..104 fg=Foreground bg=Sidebar
-r5 c0..104 fg=Foreground bg=Sidebar
+r4 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r5 c0..104 fg=Foreground|LivePeak bg=Sidebar
 r6 c0..104 fg=Border bg=Sidebar
 
 == dark-graphite
@@ -54,38 +54,38 @@ r6 c0..104 fg=Border bg=Sidebar
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
 ---
-r0 c0..1 fg=Foreground bg=Sidebar
-r0 c1..10 fg=Foreground bg=Selected bold
-r0 c10..12 fg=Foreground bg=Sidebar
+r0 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r0 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r0 c10..12 fg=Foreground|LivePeak bg=Sidebar
 r0 c12..21 fg=Muted bg=Sidebar
-r0 c21..23 fg=Foreground bg=Sidebar
+r0 c21..23 fg=Foreground|LivePeak bg=Sidebar
 r0 c23..31 fg=Muted bg=Sidebar
-r0 c31..33 fg=Foreground bg=Sidebar
+r0 c31..33 fg=Foreground|LivePeak bg=Sidebar
 r0 c33..42 fg=Muted bg=Sidebar
-r0 c42..44 fg=Foreground bg=Sidebar
+r0 c42..44 fg=Foreground|LivePeak bg=Sidebar
 r0 c44..53 fg=Muted bg=Sidebar
-r0 c53..55 fg=Foreground bg=Sidebar
+r0 c53..55 fg=Foreground|LivePeak bg=Sidebar
 r0 c55..64 fg=Muted bg=Sidebar
-r0 c64..66 fg=Foreground bg=Sidebar
+r0 c64..66 fg=Foreground|LivePeak bg=Sidebar
 r0 c66..71 fg=Muted bg=Sidebar
-r0 c71..73 fg=Foreground bg=Sidebar
+r0 c71..73 fg=Foreground|LivePeak bg=Sidebar
 r0 c73..79 fg=Muted bg=Sidebar
-r0 c79..97 fg=Foreground bg=Sidebar
+r0 c79..97 fg=Foreground|LivePeak bg=Sidebar
 r0 c97..104 fg=Hint|Dim bg=Sidebar
-r1 c0..1 fg=Foreground bg=Sidebar
+r1 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r1 c1..34 fg=Live bg=Sidebar bold
 r1 c34..103 fg=Muted bg=Sidebar
-r1 c103..104 fg=Foreground bg=Sidebar
-r2 c0..1 fg=Foreground bg=Sidebar
+r1 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..103 fg=#9bd66f bg=Selected bold
-r2 c103..104 fg=Foreground bg=Sidebar
-r3 c0..1 fg=Foreground bg=Sidebar
+r2 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r3 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r3 c1..103 fg=Live bg=Sidebar
-r3 c103..104 fg=Foreground bg=Sidebar
-r4 c0..1 fg=Foreground bg=Sidebar
+r3 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r4 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r4 c1..103 fg=Muted bg=Sidebar
-r4 c103..104 fg=Foreground bg=Sidebar
-r5 c0..104 fg=Foreground bg=Sidebar
+r4 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r5 c0..104 fg=Foreground|LivePeak bg=Sidebar
 r6 c0..104 fg=Border bg=Sidebar
 
 == light-truecolor
@@ -97,38 +97,38 @@ r6 c0..104 fg=Border bg=Sidebar
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
 ---
-r0 c0..1 fg=Foreground
-r0 c1..10 fg=Foreground bg=Selected bold
-r0 c10..12 fg=Foreground
+r0 c0..1 fg=Foreground|LivePeak
+r0 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r0 c10..12 fg=Foreground|LivePeak
 r0 c12..21 fg=Muted
-r0 c21..23 fg=Foreground
+r0 c21..23 fg=Foreground|LivePeak
 r0 c23..31 fg=Muted
-r0 c31..33 fg=Foreground
+r0 c31..33 fg=Foreground|LivePeak
 r0 c33..42 fg=Muted
-r0 c42..44 fg=Foreground
+r0 c42..44 fg=Foreground|LivePeak
 r0 c44..53 fg=Muted
-r0 c53..55 fg=Foreground
+r0 c53..55 fg=Foreground|LivePeak
 r0 c55..64 fg=Muted
-r0 c64..66 fg=Foreground
+r0 c64..66 fg=Foreground|LivePeak
 r0 c66..71 fg=Muted
-r0 c71..73 fg=Foreground
+r0 c71..73 fg=Foreground|LivePeak
 r0 c73..79 fg=Muted
-r0 c79..97 fg=Foreground
+r0 c79..97 fg=Foreground|LivePeak
 r0 c97..104 fg=Hint|Dim
-r1 c0..1 fg=Foreground
+r1 c0..1 fg=Foreground|LivePeak
 r1 c1..34 fg=Live bold
 r1 c34..103 fg=Muted
-r1 c103..104 fg=Foreground
-r2 c0..1 fg=Foreground
+r1 c103..104 fg=Foreground|LivePeak
+r2 c0..1 fg=Foreground|LivePeak
 r2 c1..103 fg=#14763d bg=Selected bold
-r2 c103..104 fg=Foreground
-r3 c0..1 fg=Foreground
+r2 c103..104 fg=Foreground|LivePeak
+r3 c0..1 fg=Foreground|LivePeak
 r3 c1..103 fg=Live
-r3 c103..104 fg=Foreground
-r4 c0..1 fg=Foreground
+r3 c103..104 fg=Foreground|LivePeak
+r4 c0..1 fg=Foreground|LivePeak
 r4 c1..103 fg=Muted
-r4 c103..104 fg=Foreground
-r5 c0..104 fg=Foreground
+r4 c103..104 fg=Foreground|LivePeak
+r5 c0..104 fg=Foreground|LivePeak
 r6 c0..104 fg=Border
 
 == dark-256
@@ -140,38 +140,38 @@ r6 c0..104 fg=Border
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
 ---
-r0 c0..1 fg=Foreground bg=Sidebar
-r0 c1..10 fg=Foreground bg=Selected bold
-r0 c10..12 fg=Foreground bg=Sidebar
+r0 c0..1 fg=Foreground|LivePeak bg=Sidebar
+r0 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r0 c10..12 fg=Foreground|LivePeak bg=Sidebar
 r0 c12..21 fg=Muted bg=Sidebar
-r0 c21..23 fg=Foreground bg=Sidebar
+r0 c21..23 fg=Foreground|LivePeak bg=Sidebar
 r0 c23..31 fg=Muted bg=Sidebar
-r0 c31..33 fg=Foreground bg=Sidebar
+r0 c31..33 fg=Foreground|LivePeak bg=Sidebar
 r0 c33..42 fg=Muted bg=Sidebar
-r0 c42..44 fg=Foreground bg=Sidebar
+r0 c42..44 fg=Foreground|LivePeak bg=Sidebar
 r0 c44..53 fg=Muted bg=Sidebar
-r0 c53..55 fg=Foreground bg=Sidebar
+r0 c53..55 fg=Foreground|LivePeak bg=Sidebar
 r0 c55..64 fg=Muted bg=Sidebar
-r0 c64..66 fg=Foreground bg=Sidebar
+r0 c64..66 fg=Foreground|LivePeak bg=Sidebar
 r0 c66..71 fg=Muted bg=Sidebar
-r0 c71..73 fg=Foreground bg=Sidebar
+r0 c71..73 fg=Foreground|LivePeak bg=Sidebar
 r0 c73..79 fg=Muted bg=Sidebar
-r0 c79..97 fg=Foreground bg=Sidebar
+r0 c79..97 fg=Foreground|LivePeak bg=Sidebar
 r0 c97..104 fg=Hint|Dim bg=Sidebar
-r1 c0..1 fg=Foreground bg=Sidebar
+r1 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r1 c1..34 fg=Live bg=Sidebar bold
 r1 c34..103 fg=Muted bg=Sidebar
-r1 c103..104 fg=Foreground bg=Sidebar
-r2 c0..1 fg=Foreground bg=Sidebar
+r1 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..103 fg=idx113 bg=Selected bold
-r2 c103..104 fg=Foreground bg=Sidebar
-r3 c0..1 fg=Foreground bg=Sidebar
+r2 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r3 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r3 c1..103 fg=Live bg=Sidebar
-r3 c103..104 fg=Foreground bg=Sidebar
-r4 c0..1 fg=Foreground bg=Sidebar
+r3 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r4 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r4 c1..103 fg=Muted bg=Sidebar
-r4 c103..104 fg=Foreground bg=Sidebar
-r5 c0..104 fg=Foreground bg=Sidebar
+r4 c103..104 fg=Foreground|LivePeak bg=Sidebar
+r5 c0..104 fg=Foreground|LivePeak bg=Sidebar
 r6 c0..104 fg=Border bg=Sidebar
 
 == light-256
@@ -183,38 +183,38 @@ r6 c0..104 fg=Border bg=Sidebar
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
 ---
-r0 c0..1 fg=Foreground
-r0 c1..10 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r0 c10..12 fg=Foreground
+r0 c0..1 fg=Foreground|LivePeak
+r0 c1..10 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c10..12 fg=Foreground|LivePeak
 r0 c12..21 fg=Muted|Hint|Dim
-r0 c21..23 fg=Foreground
+r0 c21..23 fg=Foreground|LivePeak
 r0 c23..31 fg=Muted|Hint|Dim
-r0 c31..33 fg=Foreground
+r0 c31..33 fg=Foreground|LivePeak
 r0 c33..42 fg=Muted|Hint|Dim
-r0 c42..44 fg=Foreground
+r0 c42..44 fg=Foreground|LivePeak
 r0 c44..53 fg=Muted|Hint|Dim
-r0 c53..55 fg=Foreground
+r0 c53..55 fg=Foreground|LivePeak
 r0 c55..64 fg=Muted|Hint|Dim
-r0 c64..66 fg=Foreground
+r0 c64..66 fg=Foreground|LivePeak
 r0 c66..71 fg=Muted|Hint|Dim
-r0 c71..73 fg=Foreground
+r0 c71..73 fg=Foreground|LivePeak
 r0 c73..79 fg=Muted|Hint|Dim
-r0 c79..97 fg=Foreground
+r0 c79..97 fg=Foreground|LivePeak
 r0 c97..104 fg=Muted|Hint|Dim
-r1 c0..1 fg=Foreground
+r1 c0..1 fg=Foreground|LivePeak
 r1 c1..34 fg=Live bold
 r1 c34..103 fg=Muted|Hint|Dim
-r1 c103..104 fg=Foreground
-r2 c0..1 fg=Foreground
+r1 c103..104 fg=Foreground|LivePeak
+r2 c0..1 fg=Foreground|LivePeak
 r2 c1..103 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r2 c103..104 fg=Foreground
-r3 c0..1 fg=Foreground
+r2 c103..104 fg=Foreground|LivePeak
+r3 c0..1 fg=Foreground|LivePeak
 r3 c1..103 fg=Live
-r3 c103..104 fg=Foreground
-r4 c0..1 fg=Foreground
+r3 c103..104 fg=Foreground|LivePeak
+r4 c0..1 fg=Foreground|LivePeak
 r4 c1..103 fg=Muted|Hint|Dim
-r4 c103..104 fg=Foreground
-r5 c0..104 fg=Foreground
+r4 c103..104 fg=Foreground|LivePeak
+r5 c0..104 fg=Foreground|LivePeak
 r6 c0..104 fg=Border
 
 == ansi-16
@@ -235,10 +235,10 @@ r0 c55..64 dim
 r0 c66..71 dim
 r0 c73..79 dim
 r0 c97..104 dim
-r1 c1..34 fg=Live bold
+r1 c1..34 fg=Live|LivePeak bold
 r1 c34..103 dim
-r2 c1..103 fg=Live bold
-r3 c1..103 fg=Live
+r2 c1..103 fg=Live|LivePeak bold
+r3 c1..103 fg=Live|LivePeak
 r4 c1..103 dim
 r6 c0..104 dim
 
@@ -260,10 +260,10 @@ r0 c55..64 dim
 r0 c66..71 dim
 r0 c73..79 dim
 r0 c97..104 dim
-r1 c1..34 fg=Live bold
+r1 c1..34 fg=Live|LivePeak bold
 r1 c34..103 dim
-r2 c1..103 fg=Live bold
-r3 c1..103 fg=Live
+r2 c1..103 fg=Live|LivePeak bold
+r3 c1..103 fg=Live|LivePeak
 r4 c1..103 dim
 r6 c0..104 dim
 

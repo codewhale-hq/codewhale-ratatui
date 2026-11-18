@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -102,52 +101,65 @@ Caller phase: Working / fixture
 
 
 ---
-r0 c0..6 bg=#131518
-r0 c6..7 bg=#15171a
-r0 c7..18 bg=#131518
-r0 c18..19 bg=#15171a
-r0 c19..30 bg=#131518
-r0 c30..31 bg=#15171a
-r0 c31..42 bg=#131518
-r0 c42..43 bg=#15171a
-r0 c43..54 bg=#131518
-r0 c54..55 bg=#15171a
-r0 c55..66 bg=#131518
-r0 c66..67 bg=#15171a
-r0 c67..78 bg=#131518
-r0 c78..79 bg=#15171a
-r0 c79..80 bg=#131518
-r1 c0..3 bg=#111316
-r1 c3..4 bg=#121417
-r1 c4..15 bg=#111316
-r1 c15..16 bg=#121417
-r1 c16..27 bg=#111316
-r1 c27..28 bg=#121417
-r1 c28..39 bg=#111316
-r1 c39..40 bg=#121417
-r1 c40..51 bg=#111316
-r1 c51..52 bg=#121417
-r1 c52..63 bg=#111316
-r1 c63..64 bg=#121417
-r1 c64..75 bg=#111316
-r1 c75..76 bg=#121417
-r1 c76..80 bg=#111316
-r2 c0..80 bg=#101114
-r3 c0..80 bg=#0e1013
-r4 c0..22 fg=Foreground bg=#0d0e11
-r4 c22..80 bg=#0d0e11
+r0 c0..6 bg=#0f161e
+r0 c6..7 bg=#101820
+r0 c7..18 bg=#0f161e
+r0 c18..19 bg=#101820
+r0 c19..30 bg=#0f161e
+r0 c30..31 bg=#101820
+r0 c31..42 bg=#0f161e
+r0 c42..43 bg=#101820
+r0 c43..54 bg=#0f161e
+r0 c54..55 bg=#101820
+r0 c55..66 bg=#0f161e
+r0 c66..67 bg=#101820
+r0 c67..78 bg=#0f161e
+r0 c78..79 bg=#101820
+r0 c79..80 bg=#0f161e
+r1 c0..3 bg=#0d141c
+r1 c3..4 bg=#0e151d
+r1 c4..15 bg=#0d141c
+r1 c15..16 bg=#0e151d
+r1 c16..27 bg=#0d141c
+r1 c27..28 bg=#0e151d
+r1 c28..39 bg=#0d141c
+r1 c39..40 bg=#0e151d
+r1 c40..51 bg=#0d141c
+r1 c51..52 bg=#0e151d
+r1 c52..63 bg=#0d141c
+r1 c63..64 bg=#0e151d
+r1 c64..75 bg=#0d141c
+r1 c75..76 bg=#0e151d
+r1 c76..80 bg=#0d141c
+r2 c0..1 bg=#0d121a
+r2 c1..12 bg=#0d1219
+r2 c12..13 bg=#0d121a
+r2 c13..24 bg=#0d1219
+r2 c24..25 bg=#0d121a
+r2 c25..36 bg=#0d1219
+r2 c36..37 bg=#0d121a
+r2 c37..48 bg=#0d1219
+r2 c48..49 bg=#0d121a
+r2 c49..60 bg=#0d1219
+r2 c60..61 bg=#0d121a
+r2 c61..72 bg=#0d1219
+r2 c72..73 bg=#0d121a
+r2 c73..80 bg=#0d1219
+r3 c0..80 bg=#0c1017
+r4 c0..22 fg=Foreground bg=#0b0f14
+r4 c22..80 bg=#0b0f14
 r5 c0..38 fg=Foreground bg=Selected
-r5 c38..80 bg=#0b0d10
+r5 c38..80 bg=#090d12
 r6 c0..80 bg=Background
 r7 c0..34 fg=Foreground bg=Background
-r7 c34..80 bg=#090a0e
+r7 c34..80 bg=#070b10
 r8 c0..16 fg=Foreground bg=Background reversed
-r8 c16..80 bg=#07090d
-r9 c0..31 fg=Dim bg=#06090c
-r9 c31..80 bg=#06090c
-r10 c0..80 bg=#06090c
-r11 c0..80 bg=#05080b
-r12 c0..80 bg=#06080b
+r8 c16..80 bg=#07090f
+r9 c0..31 fg=Dim bg=#06090d
+r9 c31..80 bg=#06090d
+r10 c0..80 bg=#05090c
+r11 c0..80 bg=#05080c
+r12 c0..80 bg=#04080c
 r13 c0..80 bg=#05070b
 r14 c0..80 bg=#05070b
 r15 c0..80 bg=#05070b
@@ -170,68 +182,68 @@ Caller phase: Working / fixture
 
 
 ---
-r0 c0..6 bg=#f8f7f1
-r0 c6..7 bg=#f3f3f0
-r0 c7..18 bg=#f8f7f1
-r0 c18..19 bg=#f3f3f0
-r0 c19..30 bg=#f8f7f1
-r0 c30..31 bg=#f3f3f0
-r0 c31..42 bg=#f8f7f1
-r0 c42..43 bg=#f3f3f0
-r0 c43..54 bg=#f8f7f1
-r0 c54..55 bg=#f3f3f0
-r0 c55..66 bg=#f8f7f1
-r0 c66..67 bg=#f3f3f0
-r0 c67..78 bg=#f8f7f1
-r0 c78..79 bg=#f3f3f0
-r0 c79..80 bg=#f8f7f1
-r1 c0..3 bg=#f8f6f1
-r1 c3..4 bg=#f5f4f0
-r1 c4..15 bg=#f8f6f1
-r1 c15..16 bg=#f5f4f0
-r1 c16..27 bg=#f8f6f1
-r1 c27..28 bg=#f5f4f0
-r1 c28..39 bg=#f8f6f1
-r1 c39..40 bg=#f5f4f0
-r1 c40..51 bg=#f8f6f1
-r1 c51..52 bg=#f5f4f0
-r1 c52..63 bg=#f8f6f1
-r1 c63..64 bg=#f5f4f0
-r1 c64..75 bg=#f8f6f1
-r1 c75..76 bg=#f5f4f0
-r1 c76..80 bg=#f8f6f1
-r2 c0..1 bg=#f7f4ef
-r2 c1..12 bg=#f8f5ef
-r2 c12..13 bg=#f7f4ef
-r2 c13..24 bg=#f8f5ef
-r2 c24..25 bg=#f7f4ef
-r2 c25..36 bg=#f8f5ef
-r2 c36..37 bg=#f7f4ef
-r2 c37..48 bg=#f8f5ef
-r2 c48..49 bg=#f7f4ef
-r2 c49..60 bg=#f8f5ef
-r2 c60..61 bg=#f7f4ef
-r2 c61..72 bg=#f8f5ef
-r2 c72..73 bg=#f7f4ef
-r2 c73..80 bg=#f8f5ef
-r3 c0..80 bg=#f7f4ef
-r4 c0..22 fg=Foreground bg=#f6f4ef
-r4 c22..80 bg=#f6f4ef
+r0 c0..6 bg=#f5f7fb
+r0 c6..7 bg=#f0f3fa
+r0 c7..18 bg=#f5f7fb
+r0 c18..19 bg=#f0f3fa
+r0 c19..30 bg=#f5f7fb
+r0 c30..31 bg=#f0f3fa
+r0 c31..42 bg=#f5f7fb
+r0 c42..43 bg=#f0f3fa
+r0 c43..54 bg=#f5f7fb
+r0 c54..55 bg=#f0f3fa
+r0 c55..66 bg=#f5f7fb
+r0 c66..67 bg=#f0f3fa
+r0 c67..78 bg=#f5f7fb
+r0 c78..79 bg=#f0f3fa
+r0 c79..80 bg=#f5f7fb
+r1 c0..3 bg=#f5f7fb
+r1 c3..4 bg=#f2f5fa
+r1 c4..15 bg=#f5f7fb
+r1 c15..16 bg=#f2f5fa
+r1 c16..27 bg=#f5f7fb
+r1 c27..28 bg=#f2f5fa
+r1 c28..39 bg=#f5f7fb
+r1 c39..40 bg=#f2f5fa
+r1 c40..51 bg=#f5f7fb
+r1 c51..52 bg=#f2f5fa
+r1 c52..63 bg=#f5f7fb
+r1 c63..64 bg=#f2f5fa
+r1 c64..75 bg=#f5f7fb
+r1 c75..76 bg=#f2f5fa
+r1 c76..80 bg=#f5f7fb
+r2 c0..1 bg=#f2f5fb
+r2 c1..12 bg=#f3f6fb
+r2 c12..13 bg=#f2f5fb
+r2 c13..24 bg=#f3f6fb
+r2 c24..25 bg=#f2f5fb
+r2 c25..36 bg=#f3f6fb
+r2 c36..37 bg=#f2f5fb
+r2 c37..48 bg=#f3f6fb
+r2 c48..49 bg=#f2f5fb
+r2 c49..60 bg=#f3f6fb
+r2 c60..61 bg=#f2f5fb
+r2 c61..72 bg=#f3f6fb
+r2 c72..73 bg=#f2f5fb
+r2 c73..80 bg=#f3f6fb
+r3 c0..80 bg=#f3f5fa
+r4 c0..22 fg=Foreground bg=#f2f5f9
+r4 c22..80 bg=#f2f5f9
 r5 c0..38 fg=Foreground bg=Selected
-r5 c38..80 bg=#f6f4ed
+r5 c38..80 bg=Background
 r6 c0..80 bg=Background
 r7 c0..34 fg=Foreground bg=Background
-r7 c34..80 bg=#f5f3ed
+r7 c34..80 bg=#f0f4f9
 r8 c0..16 fg=Foreground bg=Background reversed
-r8 c16..80 bg=#f4f1eb
-r9 c0..31 fg=Dim bg=#f4f1eb
-r9 c31..80 bg=#f4f1eb
-r10 c0..80 bg=#f3f0eb
-r11 c0..80 bg=#f3f0e9
-r12 c0..80 bg=#f1eee9
-r13 c0..80 bg=#f1eee9
-r14 c0..80 bg=#efece7
-r15 c0..80 bg=#eeece7
+r8 c16..80 bg=#eef2f8
+r9 c0..31 fg=Dim bg=#eef2f8
+r9 c31..80 bg=#eef2f8
+r10 c0..80 bg=#edf1f7
+r11 c0..80 bg=#ebf1f7
+r12 c0..80 bg=#ebeff7
+r13 c0..80 bg=#e9eff6
+r14 c0..80 bg=#e9edf5
+r15 c0..80 bg=#e7edf5
 
 == dark-256
 

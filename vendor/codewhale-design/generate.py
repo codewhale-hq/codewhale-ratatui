@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+HERE = ROOT
 
 # WCAG 2.x contrast every palette must hold, in both modes, before anything is
 # generated: text roles at 4.5:1 and control edges at 3:1 on each ground a
@@ -16,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 # of a diff, which carry code and their +/− marks.
 GROUNDS = ["background", "surface", "sidebar", "hover", "selected", "ocean_depth", "diff_add", "diff_remove"]
 # `primary` is a fill only; its text is `primary_foreground`, checked in FILLED.
-TEXT = ["foreground", "muted_foreground", "accent", "live", "attention", "danger"]
+TEXT = ["foreground", "muted_foreground", "subagent", "accent", "live", "live_peak", "attention", "danger"]
 # Secondary text carries labels, metadata and status words people must read at
 # small sizes, so it holds 5.5:1 on every ground, above the AA floor.
 TEXT_FLOORS = {"muted_foreground": 5.5}
@@ -70,11 +71,23 @@ def composited_grounds(data, mode):
     water["surface-light peak"] = over(data["surface_light"][mode]["stops"][0]["color"], first, f"surface_light.{mode}")
     grounds = {}
     for under_name, under in water.items():
+        if under_name != "surface-light peak":
+            grounds[under_name] = under
         for level in LEVELS:
             grounds[f"{level} glass over {under_name}"] = over(data["glass"][mode][level]["fill"], under, f"glass.{mode}.{level}")
         grounds[f"sheet over {under_name}"] = over(data["sheet"][mode]["fill"], under, f"sheet.{mode}")
     for name, ground in list(grounds.items()):
+        if " over " not in name:
+            continue
         grounds[f"card on {name}"] = over(data["card"][mode]["fill"], ground, f"card.{mode}")
+        for surf in ["change_bar", "subagent_tag", "workbar"]:
+            grounds[f"{surf} on {name}"] = over(data[surf][mode]["fill"], ground, f"{surf}.{mode}")
+    for tint_key, role in [("accent_fill", "accent"), ("live_fill", "live"), ("attention_fill", "attention"),
+                           ("danger_fill", "danger"), ("count_fill", "foreground")]:
+        tint_val = {"hex": data["colors"][mode][role], "alpha": data["tint"][tint_key]}
+        for under_name in water:
+            for base_name in [f"frosted glass over {under_name}", f"solid glass over {under_name}", f"sheet over {under_name}"]:
+                grounds[f"tint.{tint_key} on {base_name}"] = over(tint_val, grounds[base_name], f"tint.{tint_key}")
     return grounds
 
 def contrast_violations(data):
@@ -94,8 +107,8 @@ def contrast_violations(data):
             if ratio < 4.5:
                 found.append(f"{mode} primary_foreground on ombre {stop} is {ratio:.2f}:1, needs 4.5:1")
         for ground_name, ground in composited_grounds(data, mode).items():
-            for fg in TEXT + QUIET:
-                floor = 3.0 if fg in QUIET else TEXT_FLOORS.get(fg, 4.5)
+            for fg in TEXT + QUIET + EDGES:
+                floor = 3.0 if fg in QUIET or fg in EDGES else TEXT_FLOORS.get(fg, 4.5)
                 ratio = contrast(palette[fg], ground)
                 if ratio < floor:
                     found.append(f"{mode} {fg} on {ground_name} is {ratio:.2f}:1, needs {floor}:1")
@@ -115,11 +128,111 @@ def check_solid_roles(data):
             if palette[role] != over(value, ground):
                 raise ValueError(f"colors.{mode}.{role} must be {over(value, ground)}, its fill over background")
 
+FILL_, EDGE_ = ["FRAME_FILL", "SHAPE_FILL"], ["STROKE_COLOR"]
+TINT_SOURCES = {"accent_fill": "var(--accent)", "accent_border": "var(--accent)",
+                "live_fill": "var(--live)", "live_border": "var(--live)",
+                "attention_fill": "var(--attention)", "attention_border": "var(--attention)",
+                "danger_fill": "var(--danger)", "danger_border": "var(--danger)",
+                "count_fill": "var(--text)", "scrim": "var(--surface)", "on_primary_border": "currentColor"}
+TINT_FIGMA = {"accent_fill": ("effort/fill", "accent", FILL_), "accent_border": ("chip/accent-border", "accent", EDGE_),
+              "live_fill": ("tint/live-fill", "live", FILL_), "live_border": ("tint/live-border", "live", EDGE_),
+              "attention_fill": ("tint/attention-fill", "attention", FILL_), "attention_border": ("tint/attention-border", "attention", EDGE_),
+              "danger_fill": ("tint/danger-fill", "danger", FILL_), "danger_border": ("tint/danger-border", "danger", EDGE_),
+              "count_fill": ("count/fill", "foreground", FILL_),
+              "scrim": ("tint/scrim", "background", FILL_), "on_primary_border": ("kbd/on-primary-border", "primary_foreground", EDGE_)}
+WEIGHT_STYLE = {400: "Regular", 500: "Medium", 550: "SemiBold", 600: "SemiBold", 700: "Bold"}
+FILL, INK, EDGE = ["FRAME_FILL", "SHAPE_FILL"], ["SHAPE_FILL", "TEXT_FILL", "STROKE_COLOR"], ["STROKE_COLOR"]
+FIGMA_SCOPES = {"text": INK, "muted": INK, "subagent": INK, "disabled": INK, "accent": FILL + ["TEXT_FILL", "STROKE_COLOR"], "button-text": INK,
+                "live": INK, "live-peak": INK, "attention": INK, "danger": INK, "line": FILL + EDGE, "border-strong": EDGE}
+
+def figma_payload(data, aliases):
+    modes = list(data["colors"])
+    def both(get):
+        return {mode.capitalize(): dict(zip(["hex", "alpha"], color(get(mode), "figma"))) for mode in modes}
+    colors = [{"name": alias, "type": "COLOR", "scopes": FIGMA_SCOPES.get(alias, FILL), "web": f"var(--{alias})",
+               "values": both(lambda mode, key=key: data["colors"][mode][key])} for alias, key in aliases.items()]
+    for group in ["card", "sheet", "change_bar", "subagent_tag", "workbar"]:
+        slug = group.replace("_", "-")
+        for part in data[group][modes[0]]:
+            colors.append({"name": f"{slug}/{part}", "type": "COLOR", "scopes": FILL if part in ("fill", "track") else EDGE,
+                           "web": f"var(--{slug}-{part})", "values": both(lambda mode, g=group, p=part: data[g][mode][p])})
+    for level in LEVELS:
+        colors.append({"name": f"glass/{level}-fill", "type": "COLOR", "scopes": FILL, "web": f"var(--glass-{level}-fill)",
+                       "values": both(lambda mode, l=level: data["glass"][mode][l]["fill"])})
+    for part in ["border", "highlight"]:
+        colors.append({"name": f"glass/{part}", "type": "COLOR", "scopes": EDGE, "web": f"var(--glass-{part})",
+                       "values": both(lambda mode, p=part: data["glass"][mode][p])})
+    for name, value in data["ombre"].items():
+        colors.append({"name": f"ombre/{name}", "type": "COLOR", "scopes": FILL, "web": f"var(--ombre-{name})",
+                       "values": both(lambda mode, v=value: v)})
+    for index, stop in enumerate(["top", "upper", "lower", "bottom"]):
+        if all(len(data["water"][mode]) == 4 for mode in modes):
+            colors.append({"name": f"water/{stop}", "type": "COLOR", "scopes": ["FRAME_FILL"], "web": f"var(--water) · {stop} stop",
+                           "values": both(lambda mode, i=index: data["water"][mode][i]["color"])})
+    for index, stop in enumerate(["peak", "mid", "edge"]):
+        if all(len(data["surface_light"][mode]["stops"]) == 3 for mode in modes):
+            colors.append({"name": f"surface-light/{stop}", "type": "COLOR", "scopes": ["FRAME_FILL"], "web": f"var(--surface-light) · {stop} stop",
+                           "values": both(lambda mode, i=index: data["surface_light"][mode]["stops"][i]["color"])})
+    for layer in ["popover", "dialog"]:
+        colors.append({"name": f"shadow/{layer}", "type": "COLOR", "scopes": ["EFFECT_COLOR"], "web": f"var(--elevation-{layer})",
+                       "values": both(lambda mode, l=layer: {"hex": "000000", "alpha": data["elevation"][f"{l}_alpha_{mode}"]})})
+    for name, (figma_name, role, scopes) in TINT_FIGMA.items():
+        web = f"var(--tint-{name.replace('_', '-')})"
+        colors.append({"name": figma_name, "type": "COLOR", "scopes": scopes, "web": web,
+                       "values": both(lambda mode, r=role, n=name: {"hex": data["colors"][mode][r], "alpha": data["tint"][n]})})
+    whale = json.loads((HERE / "whale" / "source" / "spec.json").read_text())["palette"]
+    for figma_name, pick in [("whale/rise", lambda p: p["body"][0]), ("whale/deep", lambda p: p["body"][1]),
+                             ("whale/pouch", lambda p: p["throat"]), ("whale/eye", lambda p: p["eye"])]:
+        colors.append({"name": figma_name, "type": "COLOR", "scopes": FILL, "web": "whale/source/spec.json palette",
+                       "values": both(lambda mode, f=pick: f(whale[mode])[1:])})
+    metric = lambda name, value, scopes, web: {"name": name, "type": "FLOAT", "scopes": scopes, "web": web, "values": {"Value": value}}
+    metrics = [metric(f"spacing/{name}", value, ["GAP"], f"var(--spacing-{name})") for name, value in data["spacing"].items()]
+    metrics += [metric(f"radius/{name}", value, ["CORNER_RADIUS"], f"var(--radius-{name})") for name, value in data["radius"].items()]
+    metrics += [metric(f"size/{name[:-3].replace('_', '-')}", value, ["WIDTH_HEIGHT"], f"var(--size-{name[:-3].replace('_', '-')})")
+                for name, value in data["size"].items()]
+    metrics += [metric(f"focus/{name}", value, ["STROKE_FLOAT"] if name == "width" else ["GAP"], f"var(--focus-{name})")
+                for name, value in data["focus"].items()]
+    styles = []
+    for name, role in data["type_roles"].items():
+        if role["weight"] not in WEIGHT_STYLE:
+            raise ValueError(f"type_roles.{name} weight {role['weight']} has no Figma font style")
+        styles.append({"name": f"CW 5/{name.capitalize()}", "family": "Geist Mono" if name == "code" else "Geist",
+                       "style": WEIGHT_STYLE[role["weight"]], "size": role["size_px"], "line": role["line_px"]})
+    return {"version": data["version"], "textStyles": styles, "collections": [
+        {"name": "CW 5 · Color", "modes": [mode.capitalize() for mode in modes], "variables": colors},
+        {"name": "CW 5 · Metrics", "modes": ["Value"], "variables": metrics}]}
+
+def dtcg(data):
+    def hexa(value):
+        hex6, alpha = color(value, "dtcg")
+        return f"#{hex6}" if alpha == 1 else f"#{hex6}{round(alpha * 255):02x}"
+    px = lambda group: {name: {"$value": f"{value}px"} for name, value in data[group].items()}
+    out = {"$description": f"Codewhale design {data['version']}. Generated from tokens.json; do not edit.",
+           "color": {mode: {"$type": "color", **{role: {"$value": f"#{value}"} for role, value in palette.items()}}
+                     for mode, palette in data["colors"].items()},
+           "ombre": {"$type": "color", **{name: {"$value": f"#{value}"} for name, value in data["ombre"].items()}},
+           "spacing": {"$type": "dimension", **px("spacing")}, "radius": {"$type": "dimension", **px("radius")},
+           "size": {"$type": "dimension", **{name[:-3]: {"$value": f"{value}px"} for name, value in data["size"].items()}},
+           "duration": {"$type": "duration", **{name[9:-3]: {"$value": f"{value}ms"} for name, value in data["motion"].items()
+                                                if name.startswith("duration_")}},
+           "easing": {"$type": "cubicBezier", **{name: {"$value": curve} for name, curve in data["easing"].items()}},
+           "type": {"$type": "typography", **{name: {"$value": {
+               "fontFamily": data["typography"]["mono_family" if name == "code" else "family"], "fontSize": f"{role['size_px']}px",
+               "lineHeight": round(role["line_px"] / role["size_px"], 4), "fontWeight": role["weight"]}}
+               for name, role in data["type_roles"].items()}}}
+    for group in ["glass", "sheet", "card", "change_bar", "subagent_tag", "workbar"]:
+        out[group] = {"$type": "color"}
+        for mode, parts in data[group].items():
+            out[group][mode] = {part: {"$value": hexa(value["fill"] if isinstance(value, dict) and "fill" in value else value)}
+                                for part, value in parts.items()}
+    return out
+
 def render():
     source = (ROOT / "tokens.json").read_bytes()
     data = json.loads(source)
     unit = {name: data[name] for name in ["selection_opacity", "primary_hover_opacity"]}
     unit |= {f"glow.{name}": v for name, v in data["glow"].items() if name.endswith("_alpha")}
+    unit |= {f"tint.{name}": v for name, v in data["tint"].items()}
     unit |= {f"elevation.{name}": v for name, v in data["elevation"].items() if "_alpha" in name}
     for name, value in unit.items():
         if isinstance(value, bool) or not isinstance(value, (int, float)) or not 0 <= value <= 1:
@@ -138,7 +251,7 @@ def render():
     for palette in [*data["colors"].values(), data["ombre"]]:
         assert all(len(v) == 6 and all(c in HEX for c in v) for v in palette.values())
     modes = list(data["colors"])
-    for group in ["water", "surface_light", "glass", "sheet", "card"]:
+    for group in ["water", "surface_light", "glass", "sheet", "card", "change_bar", "subagent_tag", "workbar"]:
         if set(data[group]) != set(modes):
             raise ValueError(f"{group} needs exactly the modes {', '.join(modes)}")
     for mode in modes:
@@ -175,7 +288,7 @@ def render():
             rust += [f"pub const GLASS_{m}_{level.upper()}_BLUR_PX: f32 = {float(glass['blur_px'])};"]
         for part in ["border", "highlight"]:
             rust += rust_color(f"GLASS_{m}_{part.upper()}", data["glass"][mode][part], "glass")
-        for group in ["sheet", "card"]:
+        for group in ["sheet", "card", "change_bar", "subagent_tag", "workbar"]:
             for part, value in data[group][mode].items():
                 rust += rust_color(f"{group.upper()}_{m}_{part.upper()}", value, group)
     rust += [f'pub const FONT_FAMILY: &str = "{data["typography"]["family"]}";',
@@ -209,9 +322,9 @@ def render():
             rust += [f'pub const TYPE_{name.upper()}: f32 = {float(data["typography"][name])};']
     # Existing web names remain aliases, so every current component migrates together.
     aliases = {"outside":"sidebar","surface":"background","panel":"surface","text":"foreground",
-               "muted":"muted_foreground","disabled":"disabled","line":"border","accent":"accent","button":"primary",
+               "muted":"muted_foreground","subagent":"subagent","disabled":"disabled","line":"border","accent":"accent","button":"primary",
                "button-text":"primary_foreground","attention":"attention","hover":"hover","selected":"selected",
-               "live":"live","danger":"danger","border-strong":"border_strong","ocean-depth":"ocean_depth",
+               "live":"live","live-peak":"live_peak","danger":"danger","border-strong":"border_strong","ocean-depth":"ocean_depth",
                "diff-add":"diff_add","diff-remove":"diff_remove"}
     css = [f"/* {header} */"]
     for mode, palette in data["colors"].items():
@@ -228,29 +341,38 @@ def render():
                 f"  --surface-light: radial-gradient(ellipse at {light['x']}% {light['y']}%, {glow});"]
         css += [f"  --glass-{level}-fill: {css_color(data['glass'][mode][level]['fill'], 'glass')};" for level in LEVELS]
         css += [f"  --glass-{part}: {css_color(data['glass'][mode][part], 'glass')};" for part in ["border", "highlight"]]
-        for group in ["sheet", "card"]:
-            css += [f"  --{group}-{part}: {css_color(value, group)};" for part, value in data[group][mode].items()]
+        for group in ["sheet", "card", "change_bar", "subagent_tag", "workbar"]:
+            slug = group.replace("_", "-")
+            css += [f"  --{slug}-{part}: {css_color(value, group)};" for part, value in data[group][mode].items()]
         css += [f"  color-scheme: {mode};", "}"]
     dark_glass = data["glass"][modes[0]]
     for index, level in enumerate(["frosted", "clear", "solid"]):
         selector = ":root, [data-theme], [data-glass]" if index == 0 else f'[data-glass="{level}"], [data-glass="{level}"] [data-theme]'
         css += [f"{selector} {{", f"  --glass-fill: var(--glass-{level}-fill);",
                 f"  --glass-blur: {dark_glass[level]['blur_px']}px;", "}"]
-    css += [":root {"]
-    for section in ["spacing", "radius", "focus"]:
-        css += [f"  --{section}-{name}: {value}px;" for name, value in data[section].items()]
-    motion = data["motion"]
-    css += [f"  --motion-duration-{name[9:-3]}: {value}ms;" for name, value in motion.items()
-            if name.startswith("duration_")]
-    css += [f"  --motion-{name[:-3].replace('_', '-')}: {value}ms;" for name, value in motion.items()
-            if name.startswith("loop_") and name.endswith("_ms")]
-    css += [f'  --motion-arrive-rise: {motion["arrive_rise_px"]}px;']
-    css += [f"  --motion-ease-{name}: cubic-bezier({', '.join(str(v) for v in curve)});"
-            for name, curve in data["easing"].items()]
+    css += [":root, [data-theme] {"]
     glow = data["glow"]
     css_alias = {"primary": "accent", "live": "live", "attention": "attention"}
     css += [f'  --glow-{name[:-6]}: 0 0 {glow["blur_px"]}px color-mix(in srgb, var(--{css_alias[name[:-6]]}) {round(value * 100)}%, transparent);'
             for name, value in glow.items() if name.endswith("_alpha")]
+    css += [f'  --tint-{name.replace("_", "-")}: color-mix(in srgb, {source} {round(data["tint"][name] * 100)}%, transparent);'
+            for name, source in TINT_SOURCES.items()]
+    css += ["  --verb-sweep: linear-gradient(90deg, var(--muted) 0%, var(--live) 34%, var(--live-peak) 50%, var(--live) 66%, var(--muted) 100%);",
+            "  --focus-ring: var(--focus-width) solid var(--accent);", "  --glass-edge: inset 0 1px 0 var(--glass-highlight);"]
+    css += ["}"]
+    css += [":root {"]
+    for section in ["spacing", "radius", "focus"]:
+        css += [f"  --{section}-{name}: {value}px;" for name, value in data[section].items()]
+    motion = data["motion"]
+    css += [f"  --motion-duration-{name[9:-3].replace('_', '-')}: {value}ms;" for name, value in motion.items()
+            if name.startswith("duration_")]
+    css += [f"  --motion-{name[:-3].replace('_', '-')}: {value}ms;" for name, value in motion.items()
+            if (name.startswith("loop_") or name in ("sweep_active_ms", "sweep_rest_ms", "sweep_delay_ms")) and name.endswith("_ms")]
+    css += [f"  --motion-{name[:-6].replace('_', '-')}: {value};" for name, value in motion.items()
+            if name in ("breathe_min_alpha", "breathe_max_alpha")]
+    css += [f'  --motion-arrive-rise: {motion["arrive_rise_px"]}px;']
+    css += [f"  --motion-ease-{name}: cubic-bezier({', '.join(str(v) for v in curve)});"
+            for name, curve in data["easing"].items()]
     css += [f"  --ombre-{name}: #{value};" for name, value in data["ombre"].items()]
     css += [f'  --ombre: linear-gradient(135deg, #{data["ombre"]["rise"]}, #{data["ombre"]["deep"]});']
     css += [f'  --icon-stroke: {data["icons"]["stroke"]};',
@@ -268,9 +390,22 @@ def render():
     css += [f'  --size-{name[:-3].replace("_", "-")}: {value}px;' for name, value in data["size"].items()]
     css += [f'  --breakpoint-{name[:-3]}: {value}px;' for name, value in data["breakpoints"].items()]
     css += ["}"]
+    reduced = [f"  --motion-duration-{name[9:-3].replace('_', '-')}: 0ms;" for name in motion if name.startswith("duration_")]
+    reduced += [f"  --motion-{name[:-3].replace('_', '-')}: 0ms;" for name in motion
+                if (name.startswith("loop_") or name in ("sweep_active_ms", "sweep_rest_ms", "sweep_delay_ms")) and name.endswith("_ms")]
+    reduced += ["  --motion-arrive-rise: 0px;"]
+    css += ["@media (prefers-reduced-motion: reduce) {", "  :root {"] + [f"  {line}" for line in reduced] + ["  }", "}"]
+    css += [':root[data-motion="reduced"],', ':root[data-motion="still"] {'] + reduced + ["}"]
     ts = [f"// {header}", f"export const tokens = {json.dumps(data, indent=2, ensure_ascii=False)} as const;",
           "export type Tokens = typeof tokens;"]
-    return {"tokens.rs": "\n".join(rust) + "\n", "tokens.css": "\n".join(css) + "\n", "tokens.ts": "\n".join(ts) + "\n"}
+    figma = figma_payload(data, aliases)
+    sync = f"// {header}\nconst PAYLOAD = {json.dumps(figma, indent=1)};\n" + (HERE / "figma" / "sync.template.js").read_text()
+    mark = (HERE / "whale/source/mark.svg").read_text()
+    brand = {"sourceHash": hashlib.sha256(mark.encode()).hexdigest(), "light": mark, "dark": mark.replace("#000000", "#F5F5F5")}
+    brand_script = "const CW_BRAND = " + json.dumps(brand) + ";\n" + (HERE / "figma/brand.template.js").read_text()
+    return {"tokens.rs": "\n".join(rust) + "\n", "tokens.css": "\n".join(css) + "\n", "tokens.ts": "\n".join(ts) + "\n",
+            "tokens.dtcg.json": json.dumps(dtcg(data), indent=2) + "\n",
+            "figma/variables.json": json.dumps(figma, indent=2) + "\n", "figma/sync.js": sync, "figma/brand.js": brand_script}
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -283,6 +418,7 @@ def main():
             if not path.exists() or path.read_text() != content:
                 stale.append(name)
         else:
+            path.parent.mkdir(exist_ok=True)
             path.write_text(content)
     if stale:
         raise SystemExit("Stale design artifact: " + ", ".join(stale))

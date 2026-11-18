@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -128,11 +127,11 @@ r2 c13..40 bg=Background
 ● Reduced motion · 3 s
 ● Still · 3 s
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c9..15 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c16..22 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c7..13 dim
 
 == unknown-ground
@@ -140,11 +139,11 @@ r2 c7..13 dim
 ● Reduced motion · 3 s
 ● Still · 3 s
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c9..15 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c16..22 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c7..13 dim
 
 == no-color

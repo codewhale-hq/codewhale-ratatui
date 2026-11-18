@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -217,17 +216,17 @@ Read the linked guide                              │
 r0 c0..31 fg=Attention
 r0 c51..52 dim
 r1 c4..18 reversed
-r1 c51..52 fg=Live
-r2 c51..52 fg=Live
-r3 c0..26 fg=Live
-r3 c51..52 fg=Live
+r1 c51..52 fg=Live|LivePeak
+r2 c51..52 fg=Live|LivePeak
+r3 c0..26 fg=Live|LivePeak
+r3 c51..52 fg=Live|LivePeak
 r4 c0..35 fg=Attention
 r4 c51..52 dim
 r5 c0..21 fg=Accent underline
 r5 c51..52 dim
 r6 c48..52 dim
 r7 c48..49 dim
-r7 c49..50 fg=Live bold
+r7 c49..50 fg=Live|LivePeak bold
 r7 c50..52 dim
 r8 c48..52 dim
 
@@ -245,17 +244,17 @@ Read the linked guide                              │
 r0 c0..31 fg=Attention
 r0 c51..52 dim
 r1 c4..18 reversed
-r1 c51..52 fg=Live
-r2 c51..52 fg=Live
-r3 c0..26 fg=Live
-r3 c51..52 fg=Live
+r1 c51..52 fg=Live|LivePeak
+r2 c51..52 fg=Live|LivePeak
+r3 c0..26 fg=Live|LivePeak
+r3 c51..52 fg=Live|LivePeak
 r4 c0..35 fg=Attention
 r4 c51..52 dim
 r5 c0..21 fg=Accent underline
 r5 c51..52 dim
 r6 c48..52 dim
 r7 c48..49 dim
-r7 c49..50 fg=Live bold
+r7 c49..50 fg=Live|LivePeak bold
 r7 c50..52 dim
 r8 c48..52 dim
 

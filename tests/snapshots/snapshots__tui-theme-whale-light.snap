@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -29,87 +28,87 @@ Keep the work visible. Stay in control.
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
 ---
-r0 c0..23 fg=Foreground bold
-r0 c23..104 fg=Foreground
+r0 c0..23 fg=Foreground|LivePeak bold
+r0 c23..104 fg=Foreground|LivePeak
 r1 c0..11 fg=Muted
-r1 c11..104 fg=Foreground
-r2 c0..104 fg=Foreground
-r3 c0..104 fg=Foreground
-r4 c0..104 fg=Foreground
-r5 c0..41 fg=Foreground
-r5 c41..62 fg=Foreground bg=Hover
-r5 c62..83 fg=Foreground
-r5 c83..104 fg=Foreground bg=Selected
-r6 c0..41 fg=Foreground
-r6 c41..62 fg=Foreground bg=Hover
-r6 c62..83 fg=Foreground
-r6 c83..104 fg=Foreground bg=Selected
-r7 c0..41 fg=Foreground
-r7 c41..62 fg=Foreground bg=Hover
-r7 c62..83 fg=Foreground
-r7 c83..104 fg=Foreground bg=Selected
-r8 c0..104 fg=Foreground
-r9 c0..104 fg=Foreground
-r10 c0..1 fg=Foreground
+r1 c11..104 fg=Foreground|LivePeak
+r2 c0..104 fg=Foreground|LivePeak
+r3 c0..104 fg=Foreground|LivePeak
+r4 c0..104 fg=Foreground|LivePeak
+r5 c0..41 fg=Foreground|LivePeak
+r5 c41..62 fg=Foreground|LivePeak bg=Hover
+r5 c62..83 fg=Foreground|LivePeak
+r5 c83..104 fg=Foreground|LivePeak bg=Selected
+r6 c0..41 fg=Foreground|LivePeak
+r6 c41..62 fg=Foreground|LivePeak bg=Hover
+r6 c62..83 fg=Foreground|LivePeak
+r6 c83..104 fg=Foreground|LivePeak bg=Selected
+r7 c0..41 fg=Foreground|LivePeak
+r7 c41..62 fg=Foreground|LivePeak bg=Hover
+r7 c62..83 fg=Foreground|LivePeak
+r7 c83..104 fg=Foreground|LivePeak bg=Selected
+r8 c0..104 fg=Foreground|LivePeak
+r9 c0..104 fg=Foreground|LivePeak
+r10 c0..1 fg=Foreground|LivePeak
 r10 c1..8 fg=Live
-r10 c8..27 fg=Foreground
+r10 c8..27 fg=Foreground|LivePeak
 r10 c27..36 fg=#14763d
-r10 c36..53 fg=Foreground
+r10 c36..53 fg=Foreground|LivePeak
 r10 c53..62 fg=#a94724
-r10 c62..79 fg=Foreground
+r10 c62..79 fg=Foreground|LivePeak
 r10 c79..85 fg=Danger
-r10 c85..104 fg=Foreground
-r11 c0..104 fg=Foreground
-r12 c0..1 fg=Foreground
+r10 c85..104 fg=Foreground|LivePeak
+r11 c0..104 fg=Foreground|LivePeak
+r12 c0..1 fg=Foreground|LivePeak
 r12 c1..5 fg=#1636b2
-r12 c5..35 fg=Foreground
+r12 c5..35 fg=Foreground|LivePeak
 r12 c35..39 fg=#345c80
-r12 c39..70 fg=Foreground
+r12 c39..70 fg=Foreground|LivePeak
 r12 c70..77 fg=#7047b8
-r12 c77..104 fg=Foreground
-r13 c0..104 fg=Foreground
-r14 c0..1 fg=Foreground
+r12 c77..104 fg=Foreground|LivePeak
+r13 c0..104 fg=Foreground|LivePeak
+r14 c0..1 fg=Foreground|LivePeak
 r14 c1..4 fg=#92400e
-r14 c4..35 fg=Foreground
+r14 c4..35 fg=Foreground|LivePeak
 r14 c35..46 fg=Attention
-r14 c46..70 fg=Foreground
+r14 c46..70 fg=Foreground|LivePeak
 r14 c70..81 fg=#a94724
-r14 c81..104 fg=Foreground
-r15 c0..104 fg=Foreground
-r16 c0..39 fg=BorderStrong
-r16 c39..104 fg=Foreground
-r17 c0..104 fg=Foreground
-r18 c0..104 fg=Foreground
+r14 c81..104 fg=Foreground|LivePeak
+r15 c0..104 fg=Foreground|LivePeak
+r16 c0..39 fg=Subagent|BorderStrong
+r16 c39..104 fg=Foreground|LivePeak
+r17 c0..104 fg=Foreground|LivePeak
+r18 c0..104 fg=Foreground|LivePeak
 r19 c0..104 fg=Border
-r20 c0..1 fg=Foreground
-r20 c1..10 fg=Foreground bg=Selected bold
-r20 c10..12 fg=Foreground
+r20 c0..1 fg=Foreground|LivePeak
+r20 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r20 c10..12 fg=Foreground|LivePeak
 r20 c12..21 fg=Muted
-r20 c21..23 fg=Foreground
+r20 c21..23 fg=Foreground|LivePeak
 r20 c23..31 fg=Muted
-r20 c31..33 fg=Foreground
+r20 c31..33 fg=Foreground|LivePeak
 r20 c33..42 fg=Muted
-r20 c42..44 fg=Foreground
+r20 c42..44 fg=Foreground|LivePeak
 r20 c44..53 fg=Muted
-r20 c53..55 fg=Foreground
+r20 c53..55 fg=Foreground|LivePeak
 r20 c55..64 fg=Muted
-r20 c64..66 fg=Foreground
+r20 c64..66 fg=Foreground|LivePeak
 r20 c66..71 fg=Muted
-r20 c71..73 fg=Foreground
+r20 c71..73 fg=Foreground|LivePeak
 r20 c73..79 fg=Muted
-r20 c79..97 fg=Foreground
+r20 c79..97 fg=Foreground|LivePeak
 r20 c97..104 fg=Hint|Dim
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..34 fg=Live bold
 r21 c34..102 fg=Muted
-r21 c102..104 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c102..104 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..102 fg=Live bg=Selected bold
-r22 c102..103 fg=Foreground
+r22 c102..103 fg=Foreground|LivePeak
 r22 c103..104 fg=Live
-r23 c0..1 fg=Foreground
+r23 c0..1 fg=Foreground|LivePeak
 r23 c1..102 fg=Muted
-r23 c102..103 fg=Foreground
+r23 c102..103 fg=Foreground|LivePeak
 r23 c103..104 fg=Border
 
 == dark-graphite
@@ -138,87 +137,87 @@ Keep the work visible. Stay in control.
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
 ---
-r0 c0..23 fg=Foreground bold
-r0 c23..104 fg=Foreground
+r0 c0..23 fg=Foreground|LivePeak bold
+r0 c23..104 fg=Foreground|LivePeak
 r1 c0..11 fg=Muted
-r1 c11..104 fg=Foreground
-r2 c0..104 fg=Foreground
-r3 c0..104 fg=Foreground
-r4 c0..104 fg=Foreground
-r5 c0..41 fg=Foreground
-r5 c41..62 fg=Foreground bg=Hover
-r5 c62..83 fg=Foreground
-r5 c83..104 fg=Foreground bg=Selected
-r6 c0..41 fg=Foreground
-r6 c41..62 fg=Foreground bg=Hover
-r6 c62..83 fg=Foreground
-r6 c83..104 fg=Foreground bg=Selected
-r7 c0..41 fg=Foreground
-r7 c41..62 fg=Foreground bg=Hover
-r7 c62..83 fg=Foreground
-r7 c83..104 fg=Foreground bg=Selected
-r8 c0..104 fg=Foreground
-r9 c0..104 fg=Foreground
-r10 c0..1 fg=Foreground
+r1 c11..104 fg=Foreground|LivePeak
+r2 c0..104 fg=Foreground|LivePeak
+r3 c0..104 fg=Foreground|LivePeak
+r4 c0..104 fg=Foreground|LivePeak
+r5 c0..41 fg=Foreground|LivePeak
+r5 c41..62 fg=Foreground|LivePeak bg=Hover
+r5 c62..83 fg=Foreground|LivePeak
+r5 c83..104 fg=Foreground|LivePeak bg=Selected
+r6 c0..41 fg=Foreground|LivePeak
+r6 c41..62 fg=Foreground|LivePeak bg=Hover
+r6 c62..83 fg=Foreground|LivePeak
+r6 c83..104 fg=Foreground|LivePeak bg=Selected
+r7 c0..41 fg=Foreground|LivePeak
+r7 c41..62 fg=Foreground|LivePeak bg=Hover
+r7 c62..83 fg=Foreground|LivePeak
+r7 c83..104 fg=Foreground|LivePeak bg=Selected
+r8 c0..104 fg=Foreground|LivePeak
+r9 c0..104 fg=Foreground|LivePeak
+r10 c0..1 fg=Foreground|LivePeak
 r10 c1..8 fg=Live
-r10 c8..27 fg=Foreground
+r10 c8..27 fg=Foreground|LivePeak
 r10 c27..36 fg=#14763d
-r10 c36..53 fg=Foreground
+r10 c36..53 fg=Foreground|LivePeak
 r10 c53..62 fg=#a94724
-r10 c62..79 fg=Foreground
+r10 c62..79 fg=Foreground|LivePeak
 r10 c79..85 fg=Danger
-r10 c85..104 fg=Foreground
-r11 c0..104 fg=Foreground
-r12 c0..1 fg=Foreground
+r10 c85..104 fg=Foreground|LivePeak
+r11 c0..104 fg=Foreground|LivePeak
+r12 c0..1 fg=Foreground|LivePeak
 r12 c1..5 fg=#1636b2
-r12 c5..35 fg=Foreground
+r12 c5..35 fg=Foreground|LivePeak
 r12 c35..39 fg=#345c80
-r12 c39..70 fg=Foreground
+r12 c39..70 fg=Foreground|LivePeak
 r12 c70..77 fg=#7047b8
-r12 c77..104 fg=Foreground
-r13 c0..104 fg=Foreground
-r14 c0..1 fg=Foreground
+r12 c77..104 fg=Foreground|LivePeak
+r13 c0..104 fg=Foreground|LivePeak
+r14 c0..1 fg=Foreground|LivePeak
 r14 c1..4 fg=#92400e
-r14 c4..35 fg=Foreground
+r14 c4..35 fg=Foreground|LivePeak
 r14 c35..46 fg=Attention
-r14 c46..70 fg=Foreground
+r14 c46..70 fg=Foreground|LivePeak
 r14 c70..81 fg=#a94724
-r14 c81..104 fg=Foreground
-r15 c0..104 fg=Foreground
-r16 c0..39 fg=BorderStrong
-r16 c39..104 fg=Foreground
-r17 c0..104 fg=Foreground
-r18 c0..104 fg=Foreground
+r14 c81..104 fg=Foreground|LivePeak
+r15 c0..104 fg=Foreground|LivePeak
+r16 c0..39 fg=Subagent|BorderStrong
+r16 c39..104 fg=Foreground|LivePeak
+r17 c0..104 fg=Foreground|LivePeak
+r18 c0..104 fg=Foreground|LivePeak
 r19 c0..104 fg=Border
-r20 c0..1 fg=Foreground
-r20 c1..10 fg=Foreground bg=Selected bold
-r20 c10..12 fg=Foreground
+r20 c0..1 fg=Foreground|LivePeak
+r20 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r20 c10..12 fg=Foreground|LivePeak
 r20 c12..21 fg=Muted
-r20 c21..23 fg=Foreground
+r20 c21..23 fg=Foreground|LivePeak
 r20 c23..31 fg=Muted
-r20 c31..33 fg=Foreground
+r20 c31..33 fg=Foreground|LivePeak
 r20 c33..42 fg=Muted
-r20 c42..44 fg=Foreground
+r20 c42..44 fg=Foreground|LivePeak
 r20 c44..53 fg=Muted
-r20 c53..55 fg=Foreground
+r20 c53..55 fg=Foreground|LivePeak
 r20 c55..64 fg=Muted
-r20 c64..66 fg=Foreground
+r20 c64..66 fg=Foreground|LivePeak
 r20 c66..71 fg=Muted
-r20 c71..73 fg=Foreground
+r20 c71..73 fg=Foreground|LivePeak
 r20 c73..79 fg=Muted
-r20 c79..97 fg=Foreground
+r20 c79..97 fg=Foreground|LivePeak
 r20 c97..104 fg=Hint|Dim
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..34 fg=Live bold
 r21 c34..102 fg=Muted
-r21 c102..104 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c102..104 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..102 fg=Live bg=Selected bold
-r22 c102..103 fg=Foreground
+r22 c102..103 fg=Foreground|LivePeak
 r22 c103..104 fg=Live
-r23 c0..1 fg=Foreground
+r23 c0..1 fg=Foreground|LivePeak
 r23 c1..102 fg=Muted
-r23 c102..103 fg=Foreground
+r23 c102..103 fg=Foreground|LivePeak
 r23 c103..104 fg=Border
 
 == light-truecolor
@@ -247,87 +246,87 @@ Keep the work visible. Stay in control.
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
 ---
-r0 c0..23 fg=Foreground bold
-r0 c23..104 fg=Foreground
+r0 c0..23 fg=Foreground|LivePeak bold
+r0 c23..104 fg=Foreground|LivePeak
 r1 c0..11 fg=Muted
-r1 c11..104 fg=Foreground
-r2 c0..104 fg=Foreground
-r3 c0..104 fg=Foreground
-r4 c0..104 fg=Foreground
-r5 c0..41 fg=Foreground
-r5 c41..62 fg=Foreground bg=Hover
-r5 c62..83 fg=Foreground
-r5 c83..104 fg=Foreground bg=Selected
-r6 c0..41 fg=Foreground
-r6 c41..62 fg=Foreground bg=Hover
-r6 c62..83 fg=Foreground
-r6 c83..104 fg=Foreground bg=Selected
-r7 c0..41 fg=Foreground
-r7 c41..62 fg=Foreground bg=Hover
-r7 c62..83 fg=Foreground
-r7 c83..104 fg=Foreground bg=Selected
-r8 c0..104 fg=Foreground
-r9 c0..104 fg=Foreground
-r10 c0..1 fg=Foreground
+r1 c11..104 fg=Foreground|LivePeak
+r2 c0..104 fg=Foreground|LivePeak
+r3 c0..104 fg=Foreground|LivePeak
+r4 c0..104 fg=Foreground|LivePeak
+r5 c0..41 fg=Foreground|LivePeak
+r5 c41..62 fg=Foreground|LivePeak bg=Hover
+r5 c62..83 fg=Foreground|LivePeak
+r5 c83..104 fg=Foreground|LivePeak bg=Selected
+r6 c0..41 fg=Foreground|LivePeak
+r6 c41..62 fg=Foreground|LivePeak bg=Hover
+r6 c62..83 fg=Foreground|LivePeak
+r6 c83..104 fg=Foreground|LivePeak bg=Selected
+r7 c0..41 fg=Foreground|LivePeak
+r7 c41..62 fg=Foreground|LivePeak bg=Hover
+r7 c62..83 fg=Foreground|LivePeak
+r7 c83..104 fg=Foreground|LivePeak bg=Selected
+r8 c0..104 fg=Foreground|LivePeak
+r9 c0..104 fg=Foreground|LivePeak
+r10 c0..1 fg=Foreground|LivePeak
 r10 c1..8 fg=Live
-r10 c8..27 fg=Foreground
+r10 c8..27 fg=Foreground|LivePeak
 r10 c27..36 fg=#14763d
-r10 c36..53 fg=Foreground
+r10 c36..53 fg=Foreground|LivePeak
 r10 c53..62 fg=#a94724
-r10 c62..79 fg=Foreground
+r10 c62..79 fg=Foreground|LivePeak
 r10 c79..85 fg=Danger
-r10 c85..104 fg=Foreground
-r11 c0..104 fg=Foreground
-r12 c0..1 fg=Foreground
+r10 c85..104 fg=Foreground|LivePeak
+r11 c0..104 fg=Foreground|LivePeak
+r12 c0..1 fg=Foreground|LivePeak
 r12 c1..5 fg=#1636b2
-r12 c5..35 fg=Foreground
+r12 c5..35 fg=Foreground|LivePeak
 r12 c35..39 fg=#345c80
-r12 c39..70 fg=Foreground
+r12 c39..70 fg=Foreground|LivePeak
 r12 c70..77 fg=#7047b8
-r12 c77..104 fg=Foreground
-r13 c0..104 fg=Foreground
-r14 c0..1 fg=Foreground
+r12 c77..104 fg=Foreground|LivePeak
+r13 c0..104 fg=Foreground|LivePeak
+r14 c0..1 fg=Foreground|LivePeak
 r14 c1..4 fg=#92400e
-r14 c4..35 fg=Foreground
+r14 c4..35 fg=Foreground|LivePeak
 r14 c35..46 fg=Attention
-r14 c46..70 fg=Foreground
+r14 c46..70 fg=Foreground|LivePeak
 r14 c70..81 fg=#a94724
-r14 c81..104 fg=Foreground
-r15 c0..104 fg=Foreground
-r16 c0..39 fg=BorderStrong
-r16 c39..104 fg=Foreground
-r17 c0..104 fg=Foreground
-r18 c0..104 fg=Foreground
+r14 c81..104 fg=Foreground|LivePeak
+r15 c0..104 fg=Foreground|LivePeak
+r16 c0..39 fg=Subagent|BorderStrong
+r16 c39..104 fg=Foreground|LivePeak
+r17 c0..104 fg=Foreground|LivePeak
+r18 c0..104 fg=Foreground|LivePeak
 r19 c0..104 fg=Border
-r20 c0..1 fg=Foreground
-r20 c1..10 fg=Foreground bg=Selected bold
-r20 c10..12 fg=Foreground
+r20 c0..1 fg=Foreground|LivePeak
+r20 c1..10 fg=Foreground|LivePeak bg=Selected bold
+r20 c10..12 fg=Foreground|LivePeak
 r20 c12..21 fg=Muted
-r20 c21..23 fg=Foreground
+r20 c21..23 fg=Foreground|LivePeak
 r20 c23..31 fg=Muted
-r20 c31..33 fg=Foreground
+r20 c31..33 fg=Foreground|LivePeak
 r20 c33..42 fg=Muted
-r20 c42..44 fg=Foreground
+r20 c42..44 fg=Foreground|LivePeak
 r20 c44..53 fg=Muted
-r20 c53..55 fg=Foreground
+r20 c53..55 fg=Foreground|LivePeak
 r20 c55..64 fg=Muted
-r20 c64..66 fg=Foreground
+r20 c64..66 fg=Foreground|LivePeak
 r20 c66..71 fg=Muted
-r20 c71..73 fg=Foreground
+r20 c71..73 fg=Foreground|LivePeak
 r20 c73..79 fg=Muted
-r20 c79..97 fg=Foreground
+r20 c79..97 fg=Foreground|LivePeak
 r20 c97..104 fg=Hint|Dim
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..34 fg=Live bold
 r21 c34..102 fg=Muted
-r21 c102..104 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c102..104 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..102 fg=Live bg=Selected bold
-r22 c102..103 fg=Foreground
+r22 c102..103 fg=Foreground|LivePeak
 r22 c103..104 fg=Live
-r23 c0..1 fg=Foreground
+r23 c0..1 fg=Foreground|LivePeak
 r23 c1..102 fg=Muted
-r23 c102..103 fg=Foreground
+r23 c102..103 fg=Foreground|LivePeak
 r23 c103..104 fg=Border
 
 == dark-256
@@ -356,87 +355,87 @@ Keep the work visible. Stay in control.
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
 ---
-r0 c0..23 fg=Foreground bold
-r0 c23..104 fg=Foreground
+r0 c0..23 fg=Foreground|LivePeak bold
+r0 c23..104 fg=Foreground|LivePeak
 r1 c0..11 fg=Muted|Hint|Dim
-r1 c11..104 fg=Foreground
-r2 c0..104 fg=Foreground
-r3 c0..104 fg=Foreground
-r4 c0..104 fg=Foreground
-r5 c0..41 fg=Foreground
-r5 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c62..83 fg=Foreground
-r5 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c0..41 fg=Foreground
-r6 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c62..83 fg=Foreground
-r6 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r7 c0..41 fg=Foreground
-r7 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r7 c62..83 fg=Foreground
-r7 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r8 c0..104 fg=Foreground
-r9 c0..104 fg=Foreground
-r10 c0..1 fg=Foreground
+r1 c11..104 fg=Foreground|LivePeak
+r2 c0..104 fg=Foreground|LivePeak
+r3 c0..104 fg=Foreground|LivePeak
+r4 c0..104 fg=Foreground|LivePeak
+r5 c0..41 fg=Foreground|LivePeak
+r5 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c62..83 fg=Foreground|LivePeak
+r5 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c0..41 fg=Foreground|LivePeak
+r6 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c62..83 fg=Foreground|LivePeak
+r6 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c0..41 fg=Foreground|LivePeak
+r7 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c62..83 fg=Foreground|LivePeak
+r7 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c0..104 fg=Foreground|LivePeak
+r9 c0..104 fg=Foreground|LivePeak
+r10 c0..1 fg=Foreground|LivePeak
 r10 c1..8 fg=Live
-r10 c8..27 fg=Foreground
+r10 c8..27 fg=Foreground|LivePeak
 r10 c27..36 fg=Live
-r10 c36..53 fg=Foreground
+r10 c36..53 fg=Foreground|LivePeak
 r10 c53..62 fg=idx130
-r10 c62..79 fg=Foreground
+r10 c62..79 fg=Foreground|LivePeak
 r10 c79..85 fg=Danger
-r10 c85..104 fg=Foreground
-r11 c0..104 fg=Foreground
-r12 c0..1 fg=Foreground
+r10 c85..104 fg=Foreground|LivePeak
+r11 c0..104 fg=Foreground|LivePeak
+r12 c0..1 fg=Foreground|LivePeak
 r12 c1..5 fg=Accent
-r12 c5..35 fg=Foreground
+r12 c5..35 fg=Foreground|LivePeak
 r12 c35..39 fg=Muted|Hint|Dim
-r12 c39..70 fg=Foreground
+r12 c39..70 fg=Foreground|LivePeak
 r12 c70..77 fg=idx61
-r12 c77..104 fg=Foreground
-r13 c0..104 fg=Foreground
-r14 c0..1 fg=Foreground
+r12 c77..104 fg=Foreground|LivePeak
+r13 c0..104 fg=Foreground|LivePeak
+r14 c0..1 fg=Foreground|LivePeak
 r14 c1..4 fg=Attention
-r14 c4..35 fg=Foreground
+r14 c4..35 fg=Foreground|LivePeak
 r14 c35..46 fg=Attention
-r14 c46..70 fg=Foreground
+r14 c46..70 fg=Foreground|LivePeak
 r14 c70..81 fg=idx130
-r14 c81..104 fg=Foreground
-r15 c0..104 fg=Foreground
-r16 c0..39 fg=BorderStrong
-r16 c39..104 fg=Foreground
-r17 c0..104 fg=Foreground
-r18 c0..104 fg=Foreground
+r14 c81..104 fg=Foreground|LivePeak
+r15 c0..104 fg=Foreground|LivePeak
+r16 c0..39 fg=Subagent|BorderStrong
+r16 c39..104 fg=Foreground|LivePeak
+r17 c0..104 fg=Foreground|LivePeak
+r18 c0..104 fg=Foreground|LivePeak
 r19 c0..104 fg=Border
-r20 c0..1 fg=Foreground
-r20 c1..10 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r20 c10..12 fg=Foreground
+r20 c0..1 fg=Foreground|LivePeak
+r20 c1..10 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r20 c10..12 fg=Foreground|LivePeak
 r20 c12..21 fg=Muted|Hint|Dim
-r20 c21..23 fg=Foreground
+r20 c21..23 fg=Foreground|LivePeak
 r20 c23..31 fg=Muted|Hint|Dim
-r20 c31..33 fg=Foreground
+r20 c31..33 fg=Foreground|LivePeak
 r20 c33..42 fg=Muted|Hint|Dim
-r20 c42..44 fg=Foreground
+r20 c42..44 fg=Foreground|LivePeak
 r20 c44..53 fg=Muted|Hint|Dim
-r20 c53..55 fg=Foreground
+r20 c53..55 fg=Foreground|LivePeak
 r20 c55..64 fg=Muted|Hint|Dim
-r20 c64..66 fg=Foreground
+r20 c64..66 fg=Foreground|LivePeak
 r20 c66..71 fg=Muted|Hint|Dim
-r20 c71..73 fg=Foreground
+r20 c71..73 fg=Foreground|LivePeak
 r20 c73..79 fg=Muted|Hint|Dim
-r20 c79..97 fg=Foreground
+r20 c79..97 fg=Foreground|LivePeak
 r20 c97..104 fg=Muted|Hint|Dim
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..34 fg=Live bold
 r21 c34..102 fg=Muted|Hint|Dim
-r21 c102..104 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c102..104 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..102 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r22 c102..103 fg=Foreground
+r22 c102..103 fg=Foreground|LivePeak
 r22 c103..104 fg=Live
-r23 c0..1 fg=Foreground
+r23 c0..1 fg=Foreground|LivePeak
 r23 c1..102 fg=Muted|Hint|Dim
-r23 c102..103 fg=Foreground
+r23 c102..103 fg=Foreground|LivePeak
 r23 c103..104 fg=Border
 
 == light-256
@@ -465,87 +464,87 @@ Keep the work visible. Stay in control.
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
 ---
-r0 c0..23 fg=Foreground bold
-r0 c23..104 fg=Foreground
+r0 c0..23 fg=Foreground|LivePeak bold
+r0 c23..104 fg=Foreground|LivePeak
 r1 c0..11 fg=Muted|Hint|Dim
-r1 c11..104 fg=Foreground
-r2 c0..104 fg=Foreground
-r3 c0..104 fg=Foreground
-r4 c0..104 fg=Foreground
-r5 c0..41 fg=Foreground
-r5 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c62..83 fg=Foreground
-r5 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c0..41 fg=Foreground
-r6 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c62..83 fg=Foreground
-r6 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r7 c0..41 fg=Foreground
-r7 c41..62 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r7 c62..83 fg=Foreground
-r7 c83..104 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r8 c0..104 fg=Foreground
-r9 c0..104 fg=Foreground
-r10 c0..1 fg=Foreground
+r1 c11..104 fg=Foreground|LivePeak
+r2 c0..104 fg=Foreground|LivePeak
+r3 c0..104 fg=Foreground|LivePeak
+r4 c0..104 fg=Foreground|LivePeak
+r5 c0..41 fg=Foreground|LivePeak
+r5 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c62..83 fg=Foreground|LivePeak
+r5 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c0..41 fg=Foreground|LivePeak
+r6 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c62..83 fg=Foreground|LivePeak
+r6 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c0..41 fg=Foreground|LivePeak
+r7 c41..62 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c62..83 fg=Foreground|LivePeak
+r7 c83..104 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c0..104 fg=Foreground|LivePeak
+r9 c0..104 fg=Foreground|LivePeak
+r10 c0..1 fg=Foreground|LivePeak
 r10 c1..8 fg=Live
-r10 c8..27 fg=Foreground
+r10 c8..27 fg=Foreground|LivePeak
 r10 c27..36 fg=Live
-r10 c36..53 fg=Foreground
+r10 c36..53 fg=Foreground|LivePeak
 r10 c53..62 fg=idx130
-r10 c62..79 fg=Foreground
+r10 c62..79 fg=Foreground|LivePeak
 r10 c79..85 fg=Danger
-r10 c85..104 fg=Foreground
-r11 c0..104 fg=Foreground
-r12 c0..1 fg=Foreground
+r10 c85..104 fg=Foreground|LivePeak
+r11 c0..104 fg=Foreground|LivePeak
+r12 c0..1 fg=Foreground|LivePeak
 r12 c1..5 fg=Accent
-r12 c5..35 fg=Foreground
+r12 c5..35 fg=Foreground|LivePeak
 r12 c35..39 fg=Muted|Hint|Dim
-r12 c39..70 fg=Foreground
+r12 c39..70 fg=Foreground|LivePeak
 r12 c70..77 fg=idx61
-r12 c77..104 fg=Foreground
-r13 c0..104 fg=Foreground
-r14 c0..1 fg=Foreground
+r12 c77..104 fg=Foreground|LivePeak
+r13 c0..104 fg=Foreground|LivePeak
+r14 c0..1 fg=Foreground|LivePeak
 r14 c1..4 fg=Attention
-r14 c4..35 fg=Foreground
+r14 c4..35 fg=Foreground|LivePeak
 r14 c35..46 fg=Attention
-r14 c46..70 fg=Foreground
+r14 c46..70 fg=Foreground|LivePeak
 r14 c70..81 fg=idx130
-r14 c81..104 fg=Foreground
-r15 c0..104 fg=Foreground
-r16 c0..39 fg=BorderStrong
-r16 c39..104 fg=Foreground
-r17 c0..104 fg=Foreground
-r18 c0..104 fg=Foreground
+r14 c81..104 fg=Foreground|LivePeak
+r15 c0..104 fg=Foreground|LivePeak
+r16 c0..39 fg=Subagent|BorderStrong
+r16 c39..104 fg=Foreground|LivePeak
+r17 c0..104 fg=Foreground|LivePeak
+r18 c0..104 fg=Foreground|LivePeak
 r19 c0..104 fg=Border
-r20 c0..1 fg=Foreground
-r20 c1..10 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r20 c10..12 fg=Foreground
+r20 c0..1 fg=Foreground|LivePeak
+r20 c1..10 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r20 c10..12 fg=Foreground|LivePeak
 r20 c12..21 fg=Muted|Hint|Dim
-r20 c21..23 fg=Foreground
+r20 c21..23 fg=Foreground|LivePeak
 r20 c23..31 fg=Muted|Hint|Dim
-r20 c31..33 fg=Foreground
+r20 c31..33 fg=Foreground|LivePeak
 r20 c33..42 fg=Muted|Hint|Dim
-r20 c42..44 fg=Foreground
+r20 c42..44 fg=Foreground|LivePeak
 r20 c44..53 fg=Muted|Hint|Dim
-r20 c53..55 fg=Foreground
+r20 c53..55 fg=Foreground|LivePeak
 r20 c55..64 fg=Muted|Hint|Dim
-r20 c64..66 fg=Foreground
+r20 c64..66 fg=Foreground|LivePeak
 r20 c66..71 fg=Muted|Hint|Dim
-r20 c71..73 fg=Foreground
+r20 c71..73 fg=Foreground|LivePeak
 r20 c73..79 fg=Muted|Hint|Dim
-r20 c79..97 fg=Foreground
+r20 c79..97 fg=Foreground|LivePeak
 r20 c97..104 fg=Muted|Hint|Dim
-r21 c0..1 fg=Foreground
+r21 c0..1 fg=Foreground|LivePeak
 r21 c1..34 fg=Live bold
 r21 c34..102 fg=Muted|Hint|Dim
-r21 c102..104 fg=Foreground
-r22 c0..1 fg=Foreground
+r21 c102..104 fg=Foreground|LivePeak
+r22 c0..1 fg=Foreground|LivePeak
 r22 c1..102 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r22 c102..103 fg=Foreground
+r22 c102..103 fg=Foreground|LivePeak
 r22 c103..104 fg=Live
-r23 c0..1 fg=Foreground
+r23 c0..1 fg=Foreground|LivePeak
 r23 c1..102 fg=Muted|Hint|Dim
-r23 c102..103 fg=Foreground
+r23 c102..103 fg=Foreground|LivePeak
 r23 c103..104 fg=Border
 
 == ansi-16
@@ -576,8 +575,8 @@ Keep the work visible. Stay in control.
 ---
 r0 c0..23 bold
 r1 c0..11 dim
-r10 c1..8 fg=Live
-r10 c27..36 fg=Live
+r10 c1..8 fg=Live|LivePeak
+r10 c27..36 fg=Live|LivePeak
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
 r12 c1..5 fg=Accent
@@ -597,10 +596,10 @@ r20 c55..64 dim
 r20 c66..71 dim
 r20 c73..79 dim
 r20 c97..104 dim
-r21 c1..34 fg=Live bold
+r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
-r22 c1..102 fg=Live bold
-r22 c103..104 fg=Live
+r22 c1..102 fg=Live|LivePeak bold
+r22 c103..104 fg=Live|LivePeak
 r23 c1..102 dim
 r23 c103..104 dim
 
@@ -632,8 +631,8 @@ Keep the work visible. Stay in control.
 ---
 r0 c0..23 bold
 r1 c0..11 dim
-r10 c1..8 fg=Live
-r10 c27..36 fg=Live
+r10 c1..8 fg=Live|LivePeak
+r10 c27..36 fg=Live|LivePeak
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
 r12 c1..5 fg=Accent
@@ -653,10 +652,10 @@ r20 c55..64 dim
 r20 c66..71 dim
 r20 c73..79 dim
 r20 c97..104 dim
-r21 c1..34 fg=Live bold
+r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
-r22 c1..102 fg=Live bold
-r22 c103..104 fg=Live
+r22 c1..102 fg=Live|LivePeak bold
+r22 c103..104 fg=Live|LivePeak
 r23 c1..102 dim
 r23 c103..104 dim
 

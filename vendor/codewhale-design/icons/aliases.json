@@ -1,0 +1,8 @@
+{
+  "background": "sonar",
+  "cost": "shell",
+  "report": "not-good",
+  "schedule": "routines",
+  "tool-fetch": "link",
+  "tool-mcp": "connectors"
+}

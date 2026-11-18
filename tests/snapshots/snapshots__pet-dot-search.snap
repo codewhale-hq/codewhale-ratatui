@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -735,287 +734,296 @@ r3 c0..64 bg=Background
 r4 c0..64 bg=Background
 r5 c0..64 bg=Background
 r6 c0..22 bg=Background
-r6 c22..23 fg=#4785d0 bg=Background
-r6 c23..24 fg=#4886d0 bg=Background
-r6 c24..25 fg=#4685d0 bg=Background
+r6 c22..23 fg=#5091d2 bg=Background
+r6 c23..24 fg=#4583ce bg=Background
+r6 c24..25 fg=#4f91d2 bg=Background
 r6 c25..35 bg=Background
-r6 c35..37 fg=#4d88d1 bg=Background
-r6 c37..38 fg=#4685d0 bg=Background
+r6 c35..37 fg=#4a85cf bg=Background
+r6 c37..38 fg=#4f91d2 bg=Background
 r6 c38..64 bg=Background
 r7 c0..22 bg=Background
-r7 c22..24 fg=#4d88d1 bg=Background
-r7 c24..25 fg=#4685d0 bg=Background
+r7 c22..24 fg=#4a85cf bg=Background
+r7 c24..25 fg=#4f91d2 bg=Background
 r7 c25..29 bg=Background
-r7 c29..30 fg=#4c87d1 bg=Background
-r7 c30..31 fg=#4d88d1 bg=Background
-r7 c31..32 fg=#4a87d0 bg=Background
-r7 c32..33 fg=#4986d0 bg=Background
-r7 c33..34 fg=#4b87d1 bg=Background
-r7 c34..35 fg=#4a87d0 bg=Background
-r7 c35..37 fg=#4d88d1 bg=Background
-r7 c37..38 fg=#4785d0 bg=Background
+r7 c29..30 fg=#4984cf bg=Background
+r7 c30..31 fg=#4a85cf bg=Background
+r7 c31..32 fg=#4783ce bg=Background
+r7 c32..33 fg=#4683ce bg=Background
+r7 c33..34 fg=#4984cf bg=Background
+r7 c34..35 fg=#4783ce bg=Background
+r7 c35..37 fg=#4a85cf bg=Background
+r7 c37..38 fg=#5091d2 bg=Background
 r7 c38..39 bg=Background
-r7 c39..40 fg=#4785d0 bg=Background
-r7 c40..41 fg=#4c87d1 bg=Background
-r7 c41..42 fg=#4a86d0 bg=Background
-r7 c42..43 fg=#4886d0 bg=Background
-r7 c43..45 fg=#4d88d1 bg=Background
+r7 c39..40 fg=#5091d2 bg=Background
+r7 c40..41 fg=#4984cf bg=Background
+r7 c41..42 fg=#4783ce bg=Background
+r7 c42..43 fg=#4583ce bg=Background
+r7 c43..45 fg=#4a85cf bg=Background
 r7 c45..64 bg=Background
 r8 c0..22 bg=Background
-r8 c22..23 fg=#4785d0 bg=Background
-r8 c23..25 fg=#4c87d1 bg=Background
+r8 c22..23 fg=#5091d2 bg=Background
+r8 c23..25 fg=#4984cf bg=Background
 r8 c25..29 bg=Background
-r8 c29..31 fg=#4b87d1 bg=Background
-r8 c31..32 fg=#4d88d1 bg=Background
-r8 c32..34 fg=#4785d0 bg=Background
+r8 c29..31 fg=#4883ce bg=Background
+r8 c31..32 fg=#4a85cf bg=Background
+r8 c32..34 fg=#5091d2 bg=Background
 r8 c34..35 bg=Background
-r8 c35..36 fg=#4b87d1 bg=Background
-r8 c36..37 fg=#4a86d0 bg=Background
-r8 c37..38 fg=#4c87d1 bg=Background
+r8 c35..36 fg=#4984cf bg=Background
+r8 c36..37 fg=#4783ce bg=Background
+r8 c37..38 fg=#4984cf bg=Background
 r8 c38..39 bg=Background
-r8 c39..40 fg=#4785d0 bg=Background
-r8 c40..42 fg=#4d88d1 bg=Background
-r8 c42..43 fg=#4a86d0 bg=Background
-r8 c43..45 fg=#4c87d1 bg=Background
+r8 c39..40 fg=#5091d2 bg=Background
+r8 c40..42 fg=#4a85cf bg=Background
+r8 c42..43 fg=#4783ce bg=Background
+r8 c43..45 fg=#4984cf bg=Background
 r8 c45..64 bg=Background
 r9 c0..18 bg=Background
-r9 c18..19 fg=#4b87d1 bg=Background
-r9 c19..20 fg=#4886d0 bg=Background
-r9 c20..21 fg=#4d88d1 bg=Background
-r9 c21..22 fg=#4685d0 bg=Background
-r9 c22..23 fg=#4785d0 bg=Background
-r9 c23..25 fg=#4886d0 bg=Background
-r9 c25..26 fg=#4d88d1 bg=Background
-r9 c26..27 fg=#4b87d1 bg=Background
+r9 c18..19 fg=#4984cf bg=Background
+r9 c19..20 fg=#4583ce bg=Background
+r9 c20..21 fg=#4a85cf bg=Background
+r9 c21..22 fg=#4f91d2 bg=Background
+r9 c22..23 fg=#5091d2 bg=Background
+r9 c23..24 fg=#4583ce bg=Background
+r9 c24..25 fg=#4683ce bg=Background
+r9 c25..26 fg=#4a85cf bg=Background
+r9 c26..27 fg=#4884ce bg=Background
 r9 c27..28 bg=Background
-r9 c28..29 fg=#4b87d1 bg=Background
-r9 c29..30 fg=#4d88d1 bg=Background
-r9 c30..31 fg=#4886d0 bg=Background
+r9 c28..29 fg=#4984cf bg=Background
+r9 c29..30 fg=#4a85cf bg=Background
+r9 c30..31 fg=#4583ce bg=Background
 r9 c31..32 bg=Background
-r9 c32..33 fg=#4986d0 bg=Background
+r9 c32..33 fg=#4683ce bg=Background
 r9 c33..35 bg=Background
-r9 c35..38 fg=#4a86d0 bg=Background
+r9 c35..38 fg=#4783ce bg=Background
 r9 c38..41 bg=Background
-r9 c41..43 fg=#4b87d1 bg=Background
-r9 c43..44 fg=#4886d0 bg=Background
-r9 c44..45 fg=#4b87d1 bg=Background
+r9 c41..42 fg=#4883ce bg=Background
+r9 c42..43 fg=#4884ce bg=Background
+r9 c43..44 fg=#4583ce bg=Background
+r9 c44..45 fg=#4884ce bg=Background
 r9 c45..64 bg=Background
 r10 c0..18 bg=Background
-r10 c18..19 fg=#4886d0 bg=Background
-r10 c19..20 fg=#4785d0 bg=Background
-r10 c20..21 fg=#4a86d0 bg=Background
-r10 c21..22 fg=#4685d0 bg=Background
-r10 c22..23 fg=#4785d0 bg=Background
-r10 c23..24 fg=#4a86d0 bg=Background
-r10 c24..25 fg=#4d88d1 bg=Background
-r10 c25..26 fg=#4986d0 bg=Background
-r10 c26..27 fg=#4685d0 bg=Background
+r10 c18..19 fg=#4583ce bg=Background
+r10 c19..20 fg=#5091d2 bg=Background
+r10 c20..21 fg=#4783ce bg=Background
+r10 c21..22 fg=#4f91d2 bg=Background
+r10 c22..23 fg=#5091d2 bg=Background
+r10 c23..24 fg=#4783ce bg=Background
+r10 c24..25 fg=#4a85cf bg=Background
+r10 c25..26 fg=#4683ce bg=Background
+r10 c26..27 fg=#4f91d2 bg=Background
 r10 c27..28 bg=Background
-r10 c28..29 fg=#4b87d1 bg=Background
-r10 c29..30 fg=#4785d0 bg=Background
-r10 c30..31 fg=#4886d0 bg=Background
-r10 c31..32 fg=#4685d0 bg=Background
-r10 c32..33 fg=#4b87d1 bg=Background
-r10 c33..34 fg=#4986d0 bg=Background
+r10 c28..29 fg=#4884ce bg=Background
+r10 c29..30 fg=#5091d2 bg=Background
+r10 c30..31 fg=#4583ce bg=Background
+r10 c31..32 fg=#4f91d2 bg=Background
+r10 c32..33 fg=#4884ce bg=Background
+r10 c33..34 fg=#4683ce bg=Background
 r10 c34..35 bg=Background
-r10 c35..36 fg=#4d88d1 bg=Background
-r10 c36..37 fg=#4785d0 bg=Background
-r10 c37..38 fg=#4c87d1 bg=Background
-r10 c38..39 fg=#4986d0 bg=Background
-r10 c39..40 fg=#4a87d1 bg=Background
-r10 c40..41 fg=#4c87d1 bg=Background
-r10 c41..42 fg=#4d88d1 bg=Background
-r10 c42..43 fg=#4785d0 bg=Background
-r10 c43..45 fg=#4d88d1 bg=Background
+r10 c35..36 fg=#4a85cf bg=Background
+r10 c36..37 fg=#5091d2 bg=Background
+r10 c37..38 fg=#4984cf bg=Background
+r10 c38..39 fg=#4683ce bg=Background
+r10 c39..40 fg=#4783ce bg=Background
+r10 c40..41 fg=#4984cf bg=Background
+r10 c41..42 fg=#4a85cf bg=Background
+r10 c42..43 fg=#5091d2 bg=Background
+r10 c43..45 fg=#4a85cf bg=Background
 r10 c45..64 bg=Background
 r11 c0..22 bg=Background
-r11 c22..23 fg=#4785d0 bg=Background
-r11 c23..24 fg=#4886d0 bg=Background
-r11 c24..25 fg=#4b87d1 bg=Background
+r11 c22..23 fg=#5091d2 bg=Background
+r11 c23..24 fg=#4683ce bg=Background
+r11 c24..25 fg=#4884ce bg=Background
 r11 c25..29 bg=Background
-r11 c29..30 fg=#4d88d1 bg=Background
-r11 c30..31 fg=#4c87d1 bg=Background
-r11 c31..32 fg=#4886d0 bg=Background
+r11 c29..30 fg=#4a85cf bg=Background
+r11 c30..31 fg=#4984cf bg=Background
+r11 c31..32 fg=#4583ce bg=Background
 r11 c32..35 bg=Background
-r11 c35..37 fg=#4b87d1 bg=Background
-r11 c37..38 fg=#4a86d0 bg=Background
+r11 c35..36 fg=#4883ce bg=Background
+r11 c36..37 fg=#4884ce bg=Background
+r11 c37..38 fg=#4783ce bg=Background
 r11 c38..42 bg=Background
-r11 c42..43 fg=#4886d0 bg=Background
-r11 c43..44 fg=#4d88d1 bg=Background
-r11 c44..45 fg=#4a87d1 bg=Background
+r11 c42..43 fg=#4583ce bg=Background
+r11 c43..44 fg=#4a85cf bg=Background
+r11 c44..45 fg=#4783ce bg=Background
 r11 c45..64 bg=Background
 r12 c0..22 bg=Background
-r12 c22..23 fg=#4785d0 bg=Background
-r12 c23..25 fg=#4685d0 bg=Background
-r12 c25..26 fg=#4a87d1 bg=Background
-r12 c26..27 fg=#4886d0 bg=Background
-r12 c27..28 fg=#4785d0 bg=Background
-r12 c28..29 fg=#4986d0 bg=Background
-r12 c29..30 fg=#4785d0 bg=Background
-r12 c30..31 fg=#4c87d1 bg=Background
-r12 c31..33 fg=#4785d0 bg=Background
-r12 c33..34 fg=#4c87d1 bg=Background
-r12 c34..35 fg=#4d88d1 bg=Background
-r12 c35..36 fg=#4785d0 bg=Background
-r12 c36..37 fg=#4c87d1 bg=Background
-r12 c37..38 fg=#4b87d1 bg=Background
-r12 c38..39 fg=#4c87d1 bg=Background
-r12 c39..40 fg=#4d88d1 bg=Background
-r12 c40..41 fg=#4c87d1 bg=Background
-r12 c41..42 fg=#4986d0 bg=Background
-r12 c42..43 fg=#4785d0 bg=Background
-r12 c43..45 fg=#4b87d1 bg=Background
+r12 c22..23 fg=#5091d2 bg=Background
+r12 c23..25 fg=#4f91d2 bg=Background
+r12 c25..26 fg=#4783ce bg=Background
+r12 c26..27 fg=#4583ce bg=Background
+r12 c27..28 fg=#5091d1 bg=Background
+r12 c28..29 fg=#4683ce bg=Background
+r12 c29..30 fg=#5091d2 bg=Background
+r12 c30..31 fg=#4984cf bg=Background
+r12 c31..33 fg=#5091d2 bg=Background
+r12 c33..34 fg=#4984cf bg=Background
+r12 c34..35 fg=#4a85cf bg=Background
+r12 c35..36 fg=#5091d2 bg=Background
+r12 c36..37 fg=#4984cf bg=Background
+r12 c37..38 fg=#4884ce bg=Background
+r12 c38..39 fg=#4984cf bg=Background
+r12 c39..40 fg=#4a85cf bg=Background
+r12 c40..41 fg=#4984cf bg=Background
+r12 c41..42 fg=#4683ce bg=Background
+r12 c42..43 fg=#5191d2 bg=Background
+r12 c43..44 fg=#4984cf bg=Background
+r12 c44..45 fg=#4883ce bg=Background
 r12 c45..64 bg=Background
 r13 c0..19 bg=Background
-r13 c19..20 fg=#4d88d1 bg=Background
-r13 c20..21 fg=#4886d0 bg=Background
-r13 c21..22 fg=#4a87d1 bg=Background
-r13 c22..23 fg=#4d88d2 bg=Background
-r13 c23..24 fg=#4c87d2 bg=Background
-r13 c24..25 fg=#4e88d2 bg=Background
-r13 c25..26 fg=#4f89d2 bg=Background
-r13 c26..27 fg=#4e88d2 bg=Background
+r13 c19..20 fg=#4a85cf bg=Background
+r13 c20..21 fg=#4683ce bg=Background
+r13 c21..22 fg=#4783ce bg=Background
+r13 c22..23 fg=#4a85cf bg=Background
+r13 c23..24 fg=#4984cf bg=Background
+r13 c24..25 fg=#4c85cf bg=Background
+r13 c25..26 fg=#4d86d0 bg=Background
+r13 c26..27 fg=#4b85cf bg=Background
 r13 c27..30 bg=Background
-r13 c30..31 fg=#4886d0 bg=Background
-r13 c31..32 fg=#4a86d0 bg=Background
-r13 c32..33 fg=#4d88d1 bg=Background
+r13 c30..31 fg=#4583ce bg=Background
+r13 c31..32 fg=#4783ce bg=Background
+r13 c32..33 fg=#4a85cf bg=Background
 r13 c33..34 bg=Background
-r13 c34..35 fg=#4d88d1 bg=Background
-r13 c35..36 fg=#4986d0 bg=Background
-r13 c36..37 fg=#4c87d1 bg=Background
-r13 c37..40 fg=#4886d0 bg=Background
-r13 c40..41 fg=#4c87d1 bg=Background
-r13 c41..42 fg=#4a86d0 bg=Background
+r13 c34..35 fg=#4a85cf bg=Background
+r13 c35..36 fg=#4683ce bg=Background
+r13 c36..37 fg=#4984cf bg=Background
+r13 c37..38 fg=#4583ce bg=Background
+r13 c38..40 fg=#4683ce bg=Background
+r13 c40..41 fg=#4984cf bg=Background
+r13 c41..42 fg=#4783ce bg=Background
 r13 c42..64 bg=Background
 r14 c0..18 bg=Background
-r14 c18..19 fg=#4d88d2 bg=Background
-r14 c19..20 fg=#4a86d0 bg=Background
-r14 c20..21 fg=#4d88d2 bg=Background
-r14 c21..22 fg=#4a87d1 bg=Background
-r14 c22..23 fg=#5089d2 bg=Background
-r14 c23..25 fg=#4d88d2 bg=Background
-r14 c25..26 fg=#4a87d1 bg=Background
-r14 c26..27 fg=#4e88d2 bg=Background
+r14 c18..19 fg=#4a85cf bg=Background
+r14 c19..20 fg=#4783ce bg=Background
+r14 c20..21 fg=#4a85cf bg=Background
+r14 c21..22 fg=#4784ce bg=Background
+r14 c22..23 fg=#4d86d0 bg=Background
+r14 c23..24 fg=#4a85cf bg=Background
+r14 c24..25 fg=#4b85cf bg=Background
+r14 c25..26 fg=#4784ce bg=Background
+r14 c26..27 fg=#4c85d0 bg=Background
 r14 c27..28 bg=Background
-r14 c28..29 fg=#518ad3 bg=Background
-r14 c29..30 fg=#5089d2 bg=Background
-r14 c30..31 fg=#4886d0 bg=Background
-r14 c31..32 fg=#4a86d0 bg=Background
-r14 c32..34 fg=#4785d0 bg=Background
-r14 c34..36 fg=#4886d0 bg=Background
-r14 c36..37 fg=#4d88d1 bg=Background
-r14 c37..38 fg=#4886d0 bg=Background
-r14 c38..39 fg=#4685d0 bg=Background
-r14 c39..41 fg=#4986d0 bg=Background
-r14 c41..42 fg=#4b87d1 bg=Background
-r14 c42..44 fg=#4d88d1 bg=Background
+r14 c28..29 fg=#4f86d0 bg=Background
+r14 c29..30 fg=#4d86d0 bg=Background
+r14 c30..31 fg=#4583ce bg=Background
+r14 c31..32 fg=#4783ce bg=Background
+r14 c32..34 fg=#5091d2 bg=Background
+r14 c34..35 fg=#4583ce bg=Background
+r14 c35..36 fg=#4683ce bg=Background
+r14 c36..37 fg=#4a85cf bg=Background
+r14 c37..38 fg=#4583ce bg=Background
+r14 c38..39 fg=#4f91d2 bg=Background
+r14 c39..41 fg=#4683ce bg=Background
+r14 c41..42 fg=#4984cf bg=Background
+r14 c42..44 fg=#4a85cf bg=Background
 r14 c44..64 bg=Background
 r15 c0..18 bg=Background
-r15 c18..19 fg=#4a87d1 bg=Background
+r15 c18..19 fg=#4783ce bg=Background
 r15 c19..22 bg=Background
-r15 c22..23 fg=#518ad3 bg=Background
-r15 c23..24 fg=#568bd4 bg=Background
-r15 c24..25 fg=#598dd5 bg=Background
+r15 c22..23 fg=#4f86d0 bg=Background
+r15 c23..24 fg=#5388d1 bg=Background
+r15 c24..25 fg=#5689d2 bg=Background
 r15 c25..29 bg=Background
-r15 c29..30 fg=#538ad3 bg=Background
-r15 c30..31 fg=#4f89d2 bg=Background
-r15 c31..33 fg=#4b87d1 bg=Background
-r15 c33..34 fg=#4886d0 bg=Background
-r15 c34..35 fg=#4d88d1 bg=Background
-r15 c35..36 fg=#4785d0 bg=Background
-r15 c36..37 fg=#4b87d1 bg=Background
-r15 c37..38 fg=#4d88d1 bg=Background
-r15 c38..39 fg=#4685d0 bg=Background
-r15 c39..40 fg=#4785d0 bg=Background
-r15 c40..41 fg=#4b87d1 bg=Background
-r15 c41..42 fg=#4986d0 bg=Background
-r15 c42..43 fg=#4785d0 bg=Background
-r15 c43..44 fg=#4a87d1 bg=Background
+r15 c29..30 fg=#5087d1 bg=Background
+r15 c30..31 fg=#4d86d0 bg=Background
+r15 c31..33 fg=#4984cf bg=Background
+r15 c33..34 fg=#4583ce bg=Background
+r15 c34..35 fg=#4a85cf bg=Background
+r15 c35..36 fg=#5091d2 bg=Background
+r15 c36..37 fg=#4884ce bg=Background
+r15 c37..38 fg=#4a85cf bg=Background
+r15 c38..39 fg=#4f91d2 bg=Background
+r15 c39..40 fg=#5091d2 bg=Background
+r15 c40..41 fg=#4884ce bg=Background
+r15 c41..42 fg=#4683ce bg=Background
+r15 c42..43 fg=#5091d2 bg=Background
+r15 c43..44 fg=#4783ce bg=Background
 r15 c44..64 bg=Background
 r16 c0..22 bg=Background
-r16 c22..23 fg=#5189d2 bg=Background
-r16 c23..24 fg=#548bd3 bg=Background
-r16 c24..25 fg=#598dd5 bg=Background
+r16 c22..23 fg=#4e86d0 bg=Background
+r16 c23..24 fg=#5288d1 bg=Background
+r16 c24..25 fg=#5689d2 bg=Background
 r16 c25..30 bg=Background
-r16 c30..31 fg=#4b87d1 bg=Background
-r16 c31..32 fg=#4e88d2 bg=Background
-r16 c32..33 fg=#4886d0 bg=Background
-r16 c33..34 fg=#4d88d1 bg=Background
-r16 c34..35 fg=#4b87d1 bg=Background
-r16 c35..36 fg=#4685d0 bg=Background
+r16 c30..31 fg=#4884ce bg=Background
+r16 c31..32 fg=#4b85cf bg=Background
+r16 c32..33 fg=#4583ce bg=Background
+r16 c33..34 fg=#4a85cf bg=Background
+r16 c34..35 fg=#4883ce bg=Background
+r16 c35..36 fg=#4f91d2 bg=Background
 r16 c36..39 bg=Background
-r16 c39..42 fg=#4b87d1 bg=Background
-r16 c42..43 fg=#4785d0 bg=Background
+r16 c39..40 fg=#4984cf bg=Background
+r16 c40..41 fg=#4883ce bg=Background
+r16 c41..42 fg=#4884ce bg=Background
+r16 c42..43 fg=#5191d2 bg=Background
 r16 c43..64 bg=Background
 r17 c0..22 bg=Background
-r17 c22..23 fg=#4c87d1 bg=Background
-r17 c23..24 fg=#518ad3 bg=Background
-r17 c24..25 fg=#4f89d3 bg=Background
+r17 c22..23 fg=#4a84cf bg=Background
+r17 c23..24 fg=#4f86d0 bg=Background
+r17 c24..25 fg=#4d86d0 bg=Background
 r17 c25..31 bg=Background
-r17 c31..33 fg=#4785d0 bg=Background
-r17 c33..34 fg=#4886d0 bg=Background
-r17 c34..35 fg=#4a86d0 bg=Background
-r17 c35..36 fg=#4986d0 bg=Background
-r17 c36..37 fg=#4d88d1 bg=Background
-r17 c37..38 fg=#4785d0 bg=Background
-r17 c38..39 fg=#4685d0 bg=Background
-r17 c39..40 fg=#4785d0 bg=Background
-r17 c40..41 fg=#4986d0 bg=Background
-r17 c41..42 fg=#4b87d1 bg=Background
+r17 c31..32 fg=#5091d1 bg=Background
+r17 c32..33 fg=#5191d2 bg=Background
+r17 c33..34 fg=#4583ce bg=Background
+r17 c34..35 fg=#4783ce bg=Background
+r17 c35..36 fg=#4683ce bg=Background
+r17 c36..37 fg=#4a85cf bg=Background
+r17 c37..38 fg=#5091d2 bg=Background
+r17 c38..39 fg=#4f91d2 bg=Background
+r17 c39..40 fg=#5091d2 bg=Background
+r17 c40..41 fg=#4683ce bg=Background
+r17 c41..42 fg=#4883ce bg=Background
 r17 c42..64 bg=Background
 r18 c0..19 bg=Background
-r18 c19..20 fg=#4986d0 bg=Background
-r18 c20..21 fg=#4785d0 bg=Background
+r18 c19..20 fg=#4683ce bg=Background
+r18 c20..21 fg=#5091d2 bg=Background
 r18 c21..22 bg=Background
-r18 c22..24 fg=#4d88d2 bg=Background
-r18 c24..25 fg=#4e88d2 bg=Background
+r18 c22..23 fg=#4a85cf bg=Background
+r18 c23..25 fg=#4b85cf bg=Background
 r18 c25..27 bg=Background
-r18 c27..28 fg=#4b87d1 bg=Background
-r18 c28..29 fg=#4c87d1 bg=Background
-r18 c29..30 fg=#4886d0 bg=Background
-r18 c30..32 fg=#4785d0 bg=Background
-r18 c32..33 fg=#4a87d1 bg=Background
-r18 c33..34 fg=#4b87d1 bg=Background
-r18 c34..35 fg=#4d88d1 bg=Background
-r18 c35..36 fg=#4986d0 bg=Background
-r18 c36..37 fg=#4685d0 bg=Background
-r18 c37..39 fg=#4d88d1 bg=Background
-r18 c39..40 fg=#4b87d1 bg=Background
-r18 c40..41 fg=#4c87d1 bg=Background
-r18 c41..42 fg=#4986d0 bg=Background
-r18 c42..43 fg=#4a86d0 bg=Background
-r18 c43..44 fg=#4886d0 bg=Background
-r18 c44..45 fg=#4c87d1 bg=Background
+r18 c27..28 fg=#4883ce bg=Background
+r18 c28..29 fg=#4984cf bg=Background
+r18 c29..30 fg=#4683ce bg=Background
+r18 c30..32 fg=#5091d2 bg=Background
+r18 c32..33 fg=#4783ce bg=Background
+r18 c33..34 fg=#4984cf bg=Background
+r18 c34..35 fg=#4a85cf bg=Background
+r18 c35..36 fg=#4683ce bg=Background
+r18 c36..37 fg=#4f91d2 bg=Background
+r18 c37..39 fg=#4a85cf bg=Background
+r18 c39..41 fg=#4984cf bg=Background
+r18 c41..42 fg=#4683ce bg=Background
+r18 c42..43 fg=#4783ce bg=Background
+r18 c43..44 fg=#4583ce bg=Background
+r18 c44..45 fg=#4984cf bg=Background
 r18 c45..64 bg=Background
 r19 c0..19 bg=Background
-r19 c19..20 fg=#4c87d1 bg=Background
-r19 c20..21 fg=#4785d0 bg=Background
-r19 c21..22 fg=#4886d0 bg=Background
-r19 c22..24 fg=#4986d0 bg=Background
-r19 c24..25 fg=#4785d0 bg=Background
+r19 c19..20 fg=#4984cf bg=Background
+r19 c20..21 fg=#5091d2 bg=Background
+r19 c21..22 fg=#4583ce bg=Background
+r19 c22..24 fg=#4683ce bg=Background
+r19 c24..25 fg=#5191d2 bg=Background
 r19 c25..27 bg=Background
-r19 c27..28 fg=#4785d0 bg=Background
-r19 c28..29 fg=#4c87d1 bg=Background
-r19 c29..30 fg=#4785d0 bg=Background
-r19 c30..32 fg=#4d88d1 bg=Background
-r19 c32..33 fg=#4986d0 bg=Background
-r19 c33..34 fg=#4785d0 bg=Background
-r19 c34..35 fg=#4685d0 bg=Background
+r19 c27..28 fg=#5091d2 bg=Background
+r19 c28..29 fg=#4984cf bg=Background
+r19 c29..30 fg=#5091d2 bg=Background
+r19 c30..32 fg=#4a85cf bg=Background
+r19 c32..33 fg=#4683ce bg=Background
+r19 c33..34 fg=#5091d2 bg=Background
+r19 c34..35 fg=#4f91d2 bg=Background
 r19 c35..37 bg=Background
-r19 c37..38 fg=#4886d0 bg=Background
-r19 c38..39 fg=#4685d0 bg=Background
-r19 c39..40 fg=#4986d0 bg=Background
-r19 c40..41 fg=#4886d0 bg=Background
-r19 c41..42 fg=#4d88d1 bg=Background
-r19 c42..43 fg=#4886d0 bg=Background
-r19 c43..44 fg=#4785d0 bg=Background
-r19 c44..45 fg=#4b87d1 bg=Background
-r19 c45..46 fg=#4a87d1 bg=Background
+r19 c37..38 fg=#4583ce bg=Background
+r19 c38..39 fg=#4f91d2 bg=Background
+r19 c39..40 fg=#4683ce bg=Background
+r19 c40..41 fg=#4583ce bg=Background
+r19 c41..42 fg=#4a85cf bg=Background
+r19 c42..43 fg=#4583ce bg=Background
+r19 c43..44 fg=#5191d2 bg=Background
+r19 c44..45 fg=#4884ce bg=Background
+r19 c45..46 fg=#4783ce bg=Background
 r19 c46..64 bg=Background
 r20 c0..21 bg=Background
-r20 c21..22 fg=#4b87d1 bg=Background
+r20 c21..22 fg=#4984cf bg=Background
 r20 c22..29 bg=Background
-r20 c29..30 fg=#4c87d1 bg=Background
+r20 c29..30 fg=#4984cf bg=Background
 r20 c30..64 bg=Background
 r21 c0..64 bg=Background
 r22 c0..64 fg=Accent bg=Background
@@ -1136,7 +1144,7 @@ r15 c18..19 fg=idx73 bg=Background|Surface
 r15 c19..22 bg=Background|Surface
 r15 c22..23 fg=idx110 bg=Background|Surface
 r15 c23..24 fg=idx116 bg=Background|Surface
-r15 c24..25 fg=idx152 bg=Background|Surface
+r15 c24..25 fg=Subagent bg=Background|Surface
 r15 c25..29 bg=Background|Surface
 r15 c29..31 fg=idx110 bg=Background|Surface
 r15 c31..44 fg=idx73 bg=Background|Surface
@@ -1144,7 +1152,7 @@ r15 c44..64 bg=Background|Surface
 r16 c0..22 bg=Background|Surface
 r16 c22..23 fg=idx110 bg=Background|Surface
 r16 c23..24 fg=idx116 bg=Background|Surface
-r16 c24..25 fg=idx152 bg=Background|Surface
+r16 c24..25 fg=Subagent bg=Background|Surface
 r16 c25..30 bg=Background|Surface
 r16 c30..31 fg=idx74 bg=Background|Surface
 r16 c31..36 fg=idx73 bg=Background|Surface

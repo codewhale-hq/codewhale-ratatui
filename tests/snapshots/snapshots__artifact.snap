@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -103,7 +102,7 @@ Release checklist.md                                                        Open
 ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
 ---
 r0 c76..80 fg=Accent
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c6..21 dim
 r1 c28..56 dim
 
@@ -112,7 +111,7 @@ Release checklist.md                                                        Open
 ✓ Done · File · Size 4.2 KiB · docs/release-checklist.md
 ---
 r0 c76..80 fg=Accent
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c6..21 dim
 r1 c28..56 dim
 

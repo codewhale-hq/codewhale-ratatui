@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -558,18 +557,18 @@ r0 c28..35 dim
 r0 c37..43 dim
 r0 c45..51 dim
 r0 c53..62 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c28..35 dim
 r1 c64..65 dim
 r2 c0..1 fg=Danger
 r2 c28..35 dim
 r2 c53..62 dim
 r2 c64..65 dim
-r3 c0..1 fg=Live
+r3 c0..1 fg=Live|LivePeak
 r3 c28..35 dim
 r3 c45..51 dim
 r3 c64..65 dim
-r4 c0..1 fg=Live
+r4 c0..1 fg=Live|LivePeak
 r4 c28..35 dim
 r4 c53..62 dim
 r4 c64..65 dim
@@ -599,18 +598,18 @@ r0 c28..35 dim
 r0 c37..43 dim
 r0 c45..51 dim
 r0 c53..62 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c28..35 dim
 r1 c64..65 dim
 r2 c0..1 fg=Danger
 r2 c28..35 dim
 r2 c53..62 dim
 r2 c64..65 dim
-r3 c0..1 fg=Live
+r3 c0..1 fg=Live|LivePeak
 r3 c28..35 dim
 r3 c45..51 dim
 r3 c64..65 dim
-r4 c0..1 fg=Live
+r4 c0..1 fg=Live|LivePeak
 r4 c28..35 dim
 r4 c53..62 dim
 r4 c64..65 dim

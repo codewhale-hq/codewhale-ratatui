@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -22,21 +21,21 @@ r1 c1..71 bg=Surface
 r1 c71..72 fg=Accent bg=Surface
 r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
-r2 c3..10 fg=Foreground bg=Surface
-r2 c10..17 fg=Foreground bg=Selected
-r2 c17..47 fg=Foreground bg=Surface
+r2 c3..10 fg=Foreground|LivePeak bg=Surface
+r2 c10..17 fg=Foreground|LivePeak bg=Selected
+r2 c17..47 fg=Foreground|LivePeak bg=Surface
 r2 c47..71 bg=Surface
 r2 c71..72 fg=Accent bg=Surface
 r3 c0..1 fg=Accent bg=Surface
 r3 c1..2 bg=Surface
-r3 c2..19 fg=Foreground bg=Surface
+r3 c2..19 fg=Foreground|LivePeak bg=Surface
 r3 c19..65 fg=Muted bg=Surface
 r3 c65..71 bg=Surface
 r3 c71..72 fg=Accent bg=Surface
 r4 c0..1 fg=Accent bg=Surface
 r4 c1..2 bg=Surface
 r4 c2..19 fg=Accent bg=Surface
-r4 c19..66 fg=Foreground bg=Surface
+r4 c19..66 fg=Foreground|LivePeak bg=Surface
 r4 c66..71 bg=Surface
 r4 c71..72 fg=Accent bg=Surface
 r5 c0..1 fg=Accent bg=Surface
@@ -73,21 +72,21 @@ r1 c1..71 bg=Surface
 r1 c71..72 fg=Accent bg=Surface
 r2 c0..2 fg=Accent bg=Surface
 r2 c2..3 bg=Surface
-r2 c3..10 fg=Foreground bg=Surface
-r2 c10..17 fg=Foreground bg=Selected
-r2 c17..47 fg=Foreground bg=Surface
+r2 c3..10 fg=Foreground|LivePeak bg=Surface
+r2 c10..17 fg=Foreground|LivePeak bg=Selected
+r2 c17..47 fg=Foreground|LivePeak bg=Surface
 r2 c47..71 bg=Surface
 r2 c71..72 fg=Accent bg=Surface
 r3 c0..1 fg=Accent bg=Surface
 r3 c1..2 bg=Surface
-r3 c2..19 fg=Foreground bg=Surface
+r3 c2..19 fg=Foreground|LivePeak bg=Surface
 r3 c19..65 fg=Muted bg=Surface
 r3 c65..71 bg=Surface
 r3 c71..72 fg=Accent bg=Surface
 r4 c0..1 fg=Accent bg=Surface
 r4 c1..2 bg=Surface
 r4 c2..19 fg=Accent bg=Surface
-r4 c19..66 fg=Foreground bg=Surface
+r4 c19..66 fg=Foreground|LivePeak bg=Surface
 r4 c66..71 bg=Surface
 r4 c71..72 fg=Accent bg=Surface
 r5 c0..1 fg=Accent bg=Surface
@@ -122,17 +121,17 @@ r0 c71..72 fg=Accent bold
 r1 c0..1 fg=Accent
 r1 c71..72 fg=Accent
 r2 c0..2 fg=Accent
-r2 c3..10 fg=Foreground
-r2 c10..17 fg=Foreground bg=Selected
-r2 c17..47 fg=Foreground
+r2 c3..10 fg=Foreground|LivePeak
+r2 c10..17 fg=Foreground|LivePeak bg=Selected
+r2 c17..47 fg=Foreground|LivePeak
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
-r3 c2..19 fg=Foreground
+r3 c2..19 fg=Foreground|LivePeak
 r3 c19..65 fg=Muted
 r3 c71..72 fg=Accent
 r4 c0..1 fg=Accent
 r4 c2..19 fg=Accent
-r4 c19..66 fg=Foreground
+r4 c19..66 fg=Foreground|LivePeak
 r4 c71..72 fg=Accent
 r5 c0..1 fg=Accent
 r5 c71..72 fg=Accent
@@ -164,21 +163,21 @@ r1 c1..71 bg=Surface|Hover|DiffRemovedTint
 r1 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r2 c0..2 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r2 c2..3 bg=Surface|Hover|DiffRemovedTint
-r2 c3..10 fg=Foreground bg=Surface|Hover|DiffRemovedTint
-r2 c10..17 fg=Foreground bg=Selected
-r2 c17..47 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r2 c3..10 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
+r2 c10..17 fg=Foreground|LivePeak bg=Selected
+r2 c17..47 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r2 c47..71 bg=Surface|Hover|DiffRemovedTint
 r2 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r3 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r3 c1..2 bg=Surface|Hover|DiffRemovedTint
-r3 c2..19 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r3 c2..19 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r3 c19..65 fg=Muted bg=Surface|Hover|DiffRemovedTint
 r3 c65..71 bg=Surface|Hover|DiffRemovedTint
 r3 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r4 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r4 c1..2 bg=Surface|Hover|DiffRemovedTint
 r4 c2..19 fg=Accent bg=Surface|Hover|DiffRemovedTint
-r4 c19..66 fg=Foreground bg=Surface|Hover|DiffRemovedTint
+r4 c19..66 fg=Foreground|LivePeak bg=Surface|Hover|DiffRemovedTint
 r4 c66..71 bg=Surface|Hover|DiffRemovedTint
 r4 c71..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r5 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
@@ -213,17 +212,17 @@ r0 c71..72 fg=Accent bold
 r1 c0..1 fg=Accent
 r1 c71..72 fg=Accent
 r2 c0..2 fg=Accent
-r2 c3..10 fg=Foreground
-r2 c10..17 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r2 c17..47 fg=Foreground
+r2 c3..10 fg=Foreground|LivePeak
+r2 c10..17 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c17..47 fg=Foreground|LivePeak
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
-r3 c2..19 fg=Foreground
+r3 c2..19 fg=Foreground|LivePeak
 r3 c19..65 fg=Muted|Hint|Dim
 r3 c71..72 fg=Accent
 r4 c0..1 fg=Accent
 r4 c2..19 fg=Accent
-r4 c19..66 fg=Foreground
+r4 c19..66 fg=Foreground|LivePeak
 r4 c71..72 fg=Accent
 r5 c0..1 fg=Accent
 r5 c71..72 fg=Accent

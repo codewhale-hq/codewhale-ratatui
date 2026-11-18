@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -242,10 +241,10 @@ r6 c0..40 bg=Background
   Total                    1h 03m
 
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c0..1 fg=Danger
-r2 c0..1 fg=Live
-r3 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
+r3 c0..1 fg=Live|LivePeak
 r4 c0..1 dim
 r5 c2..26 bold
 r5 c27..33 bold
@@ -259,10 +258,10 @@ r5 c27..33 bold
   Total                    1h 03m
 
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c0..1 fg=Danger
-r2 c0..1 fg=Live
-r3 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
+r3 c0..1 fg=Live|LivePeak
 r4 c0..1 dim
 r5 c2..26 bold
 r5 c27..33 bold

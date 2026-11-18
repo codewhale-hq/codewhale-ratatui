@@ -240,8 +240,8 @@ Keep the work visible. Stay in control.
 ---
 r0 c0..20 bold
 r1 c0..10 dim
-r10 c1..8 fg=Live
-r10 c27..36 fg=Live
+r10 c1..8 fg=Live|LivePeak
+r10 c27..36 fg=Live|LivePeak
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
 r12 c1..5 fg=Accent
@@ -261,10 +261,10 @@ r20 c55..64 dim
 r20 c66..71 dim
 r20 c73..79 dim
 r20 c97..104 dim
-r21 c1..34 fg=Live bold
+r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
-r22 c1..102 fg=Live bold
-r22 c103..104 fg=Live
+r22 c1..102 fg=Live|LivePeak bold
+r22 c103..104 fg=Live|LivePeak
 r23 c1..102 dim
 r23 c103..104 dim
 
@@ -296,8 +296,8 @@ Keep the work visible. Stay in control.
 ---
 r0 c0..20 bold
 r1 c0..10 dim
-r10 c1..8 fg=Live
-r10 c27..36 fg=Live
+r10 c1..8 fg=Live|LivePeak
+r10 c27..36 fg=Live|LivePeak
 r10 c53..62 fg=Attention
 r10 c79..85 fg=Danger
 r12 c1..5 fg=Accent
@@ -317,10 +317,10 @@ r20 c55..64 dim
 r20 c66..71 dim
 r20 c73..79 dim
 r20 c97..104 dim
-r21 c1..34 fg=Live bold
+r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
-r22 c1..102 fg=Live bold
-r22 c103..104 fg=Live
+r22 c1..102 fg=Live|LivePeak bold
+r22 c103..104 fg=Live|LivePeak
 r23 c1..102 dim
 r23 c103..104 dim
 

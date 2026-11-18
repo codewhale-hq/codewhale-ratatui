@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -118,10 +117,10 @@ r2 c29..40 bg=Background
 ⣦ Running cargo test · 1 s
 ● Running cargo test · 4m 06s
 ---
-r0 c0..1 fg=Live
-r1 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
+r1 c0..1 fg=Live|LivePeak
 r1 c20..26 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c20..29 dim
 
 == unknown-ground
@@ -129,10 +128,10 @@ r2 c20..29 dim
 ⣦ Running cargo test · 1 s
 ● Running cargo test · 4m 06s
 ---
-r0 c0..1 fg=Live
-r1 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
+r1 c0..1 fg=Live|LivePeak
 r1 c20..26 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c20..29 dim
 
 == no-color

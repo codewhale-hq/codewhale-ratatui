@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -144,9 +143,9 @@ r3 c20..50 bg=Background
 ◒ Receipt: edited summary.md  (receipt)
 ┊ Divider  (divider)
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c24..37 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c20..30 dim
 r2 c0..1 dim
 r2 c28..39 dim
@@ -159,9 +158,9 @@ r3 c9..20 dim
 ◒ Receipt: edited summary.md  (receipt)
 ┊ Divider  (divider)
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c24..37 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c20..30 dim
 r2 c0..1 dim
 r2 c28..39 dim

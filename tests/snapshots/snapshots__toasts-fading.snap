@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -160,12 +159,12 @@ r3 c59..60 bg=Sidebar|Surface
                                    ✓ Theme set to Shoreline
                                          ✓ Saved summary.md
 ---
-r0 c35..36 fg=Live
+r0 c35..36 fg=Live|LivePeak
 r0 c37..59 dim
-r1 c41..42 fg=Live
+r1 c41..42 fg=Live|LivePeak
 r1 c43..59 dim
-r2 c35..36 fg=Live
-r3 c41..42 fg=Live
+r2 c35..36 fg=Live|LivePeak
+r3 c41..42 fg=Live|LivePeak
 
 == unknown-ground
                                    ✓ Theme set to Shoreline
@@ -173,12 +172,12 @@ r3 c41..42 fg=Live
                                    ✓ Theme set to Shoreline
                                          ✓ Saved summary.md
 ---
-r0 c35..36 fg=Live
+r0 c35..36 fg=Live|LivePeak
 r0 c37..59 dim
-r1 c41..42 fg=Live
+r1 c41..42 fg=Live|LivePeak
 r1 c43..59 dim
-r2 c35..36 fg=Live
-r3 c41..42 fg=Live
+r2 c35..36 fg=Live|LivePeak
+r3 c41..42 fg=Live|LivePeak
 
 == no-color
                                    ✓ Theme set to Shoreline

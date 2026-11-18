@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -1203,32 +1202,32 @@ r4 c2..110 dim
 r6 c2..3 fg=Accent
 r6 c4..7 fg=Accent bold
 r7 c2..4 dim
-r10 c2..3 fg=Live
+r10 c2..3 fg=Live|LivePeak
 r10 c48..55 dim
 r11 c2..4 dim
-r11 c4..5 fg=Live
+r11 c4..5 fg=Live|LivePeak
 r11 c48..108 dim
 r12 c2..4 dim
 r12 c4..5 fg=Attention
 r12 c48..60 dim
 r12 c96..108 dim
 r13 c2..4 dim
-r13 c4..5 fg=Live
+r13 c4..5 fg=Live|LivePeak
 r13 c48..106 dim
 r16 c2..34 dim
-r18 c2..3 fg=Live
+r18 c2..3 fg=Live|LivePeak
 r18 c36..37 dim
-r18 c37..52 fg=Live
+r18 c37..52 fg=Live|LivePeak
 r18 c52..62 dim
-r23 c2..3 fg=Live
+r23 c2..3 fg=Live|LivePeak
 r23 c25..32 dim
 r23 c58..67 bold
 r23 c101..110 dim
-r24 c2..3 fg=Live
+r24 c2..3 fg=Live|LivePeak
 r24 c25..32 dim
 r24 c38..45 dim
 r24 c58..110 dim
-r25 c2..3 fg=Live
+r25 c2..3 fg=Live|LivePeak
 r25 c25..32 dim
 r25 c58..59 fg=Accent
 r25 c60..61 fg=Attention
@@ -1311,32 +1310,32 @@ r4 c2..110 dim
 r6 c2..3 fg=Accent
 r6 c4..7 fg=Accent bold
 r7 c2..4 dim
-r10 c2..3 fg=Live
+r10 c2..3 fg=Live|LivePeak
 r10 c48..55 dim
 r11 c2..4 dim
-r11 c4..5 fg=Live
+r11 c4..5 fg=Live|LivePeak
 r11 c48..108 dim
 r12 c2..4 dim
 r12 c4..5 fg=Attention
 r12 c48..60 dim
 r12 c96..108 dim
 r13 c2..4 dim
-r13 c4..5 fg=Live
+r13 c4..5 fg=Live|LivePeak
 r13 c48..106 dim
 r16 c2..34 dim
-r18 c2..3 fg=Live
+r18 c2..3 fg=Live|LivePeak
 r18 c36..37 dim
-r18 c37..52 fg=Live
+r18 c37..52 fg=Live|LivePeak
 r18 c52..62 dim
-r23 c2..3 fg=Live
+r23 c2..3 fg=Live|LivePeak
 r23 c25..32 dim
 r23 c58..67 bold
 r23 c101..110 dim
-r24 c2..3 fg=Live
+r24 c2..3 fg=Live|LivePeak
 r24 c25..32 dim
 r24 c38..45 dim
 r24 c58..110 dim
-r25 c2..3 fg=Live
+r25 c2..3 fg=Live|LivePeak
 r25 c25..32 dim
 r25 c58..59 fg=Accent
 r25 c60..61 fg=Attention

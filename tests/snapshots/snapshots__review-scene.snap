@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -357,19 +356,19 @@ r32 c67..75 fg=Foreground bg=Background
 r32 c75..76 fg=Border bg=Background
 r32 c76..112 fg=Foreground bg=Sidebar
 r33 c0..2 fg=Foreground bg=Background
-r33 c2..3 fg=#040c22 bg=Background
-r33 c3..4 fg=#09132f bg=Background
-r33 c4..5 fg=#0d1b3c bg=Background
-r33 c5..6 fg=#112349 bg=Background
-r33 c6..7 fg=#152b56 bg=Background
-r33 c7..8 fg=#1a3263 bg=Background
+r33 c2..3 fg=#030b21 bg=Background
+r33 c3..4 fg=#06112e bg=Background
+r33 c4..5 fg=#09183a bg=Background
+r33 c5..6 fg=#0c1f47 bg=Background
+r33 c6..7 fg=#0f2653 bg=Background
+r33 c7..8 fg=#122c60 bg=Background
 r33 c8..67 fg=Border bg=Background
-r33 c67..68 fg=#1a3263 bg=Background
-r33 c68..69 fg=#152b56 bg=Background
-r33 c69..70 fg=#112349 bg=Background
-r33 c70..71 fg=#0d1b3c bg=Background
-r33 c71..72 fg=#09132f bg=Background
-r33 c72..73 fg=#040c22 bg=Background
+r33 c67..68 fg=#122c60 bg=Background
+r33 c68..69 fg=#0f2653 bg=Background
+r33 c69..70 fg=#0c1f47 bg=Background
+r33 c70..71 fg=#09183a bg=Background
+r33 c71..72 fg=#06112e bg=Background
+r33 c72..73 fg=#030b21 bg=Background
 r33 c73..75 fg=Foreground bg=Background
 r33 c75..76 fg=Border bg=Background
 r33 c76..112 fg=Foreground bg=Sidebar
@@ -754,19 +753,19 @@ r32 c67..75 fg=Foreground bg=Background
 r32 c75..76 fg=Border bg=Background
 r32 c76..112 fg=Foreground bg=Sidebar
 r33 c0..2 fg=Foreground bg=Background
-r33 c2..3 fg=#0b0d10 bg=Background
-r33 c3..4 fg=#131518 bg=Background
-r33 c4..5 fg=#1b1d20 bg=Background
-r33 c5..6 fg=#232427 bg=Background
-r33 c6..7 fg=#2b2c2f bg=Background
-r33 c7..8 fg=#333437 bg=Background
+r33 c2..3 fg=#090c11 bg=Background
+r33 c3..4 fg=#0e131a bg=Background
+r33 c4..5 fg=#141a23 bg=Background
+r33 c5..6 fg=#19212d bg=Background
+r33 c6..7 fg=#1f2836 bg=Background
+r33 c7..8 fg=#242f3f bg=Background
 r33 c8..67 fg=Border bg=Background
-r33 c67..68 fg=#333437 bg=Background
-r33 c68..69 fg=#2b2c2f bg=Background
-r33 c69..70 fg=#232427 bg=Background
-r33 c70..71 fg=#1b1d20 bg=Background
-r33 c71..72 fg=#131518 bg=Background
-r33 c72..73 fg=#0b0d10 bg=Background
+r33 c67..68 fg=#242f3f bg=Background
+r33 c68..69 fg=#1f2836 bg=Background
+r33 c69..70 fg=#19212d bg=Background
+r33 c70..71 fg=#141a23 bg=Background
+r33 c71..72 fg=#0e131a bg=Background
+r33 c72..73 fg=#090c11 bg=Background
 r33 c73..75 fg=Foreground bg=Background
 r33 c75..76 fg=Border bg=Background
 r33 c76..112 fg=Foreground bg=Sidebar
@@ -1151,19 +1150,19 @@ r32 c67..75 fg=Foreground bg=Background
 r32 c75..76 fg=Border bg=Background
 r32 c76..112 fg=Foreground bg=Sidebar
 r33 c0..2 fg=Foreground bg=Background
-r33 c2..3 fg=#f3f0e8 bg=Background
-r33 c3..4 fg=#eeebe4 bg=Background
-r33 c4..5 fg=#eae7e0 bg=Background
-r33 c5..6 fg=#e6e2db bg=Background
-r33 c6..7 fg=#e2ded7 bg=Background
-r33 c7..8 fg=#ddd9d3 bg=Background
+r33 c2..3 fg=#edf1f6 bg=Background
+r33 c3..4 fg=#e9eef3 bg=Background
+r33 c4..5 fg=#e5eaf0 bg=Background
+r33 c5..6 fg=#e1e7ec bg=Background
+r33 c6..7 fg=#dde3e9 bg=Background
+r33 c7..8 fg=#d9e0e6 bg=Background
 r33 c8..67 fg=Border bg=Background
-r33 c67..68 fg=#ddd9d3 bg=Background
-r33 c68..69 fg=#e2ded7 bg=Background
-r33 c69..70 fg=#e6e2db bg=Background
-r33 c70..71 fg=#eae7e0 bg=Background
-r33 c71..72 fg=#eeebe4 bg=Background
-r33 c72..73 fg=#f3f0e8 bg=Background
+r33 c67..68 fg=#d9e0e6 bg=Background
+r33 c68..69 fg=#dde3e9 bg=Background
+r33 c69..70 fg=#e1e7ec bg=Background
+r33 c70..71 fg=#e5eaf0 bg=Background
+r33 c71..72 fg=#e9eef3 bg=Background
+r33 c72..73 fg=#edf1f6 bg=Background
 r33 c73..75 fg=Foreground bg=Background
 r33 c75..76 fg=Border bg=Background
 r33 c76..112 fg=Foreground bg=Sidebar
@@ -2041,32 +2040,32 @@ r10 c93..101 bold
 r10 c101..102 dim
 r10 c109..110 fg=Accent
 r11 c2..8 dim
-r11 c8..9 fg=Live bold
+r11 c8..9 fg=Live|LivePeak bold
 r11 c75..76 dim
 r11 c78..79 fg=Accent
 r11 c80..91 dim
 r11 c109..110 fg=Accent
 r12 c2..8 dim
-r12 c8..9 fg=Live bold
+r12 c8..9 fg=Live|LivePeak bold
 r12 c75..76 dim
 r12 c78..79 fg=Accent
 r12 c80..82 fg=Accent bold
 r12 c82..98 bold
 r12 c109..110 fg=Accent
 r13 c2..8 dim
-r13 c8..9 fg=Live bold
+r13 c8..9 fg=Live|LivePeak bold
 r13 c75..76 dim
 r13 c78..79 fg=Accent
 r13 c80..99 dim
 r13 c109..110 fg=Accent
 r14 c2..8 dim
-r14 c8..9 fg=Live bold
+r14 c8..9 fg=Live|LivePeak bold
 r14 c75..76 dim
 r14 c78..79 fg=Accent
 r14 c80..83 dim
 r14 c109..110 fg=Accent
 r15 c2..8 dim
-r15 c8..9 fg=Live bold
+r15 c8..9 fg=Live|LivePeak bold
 r15 c75..76 dim
 r15 c78..79 fg=Accent
 r15 c80..86 fg=Attention bold
@@ -2113,18 +2112,18 @@ r23 c41..47 dim
 r23 c49..56 dim
 r23 c75..76 dim
 r23 c78..110 fg=Accent
-r24 c2..3 fg=Live
+r24 c2..3 fg=Live|LivePeak
 r24 c26..33 dim
 r24 c75..76 dim
-r25 c2..3 fg=Live
+r25 c2..3 fg=Live|LivePeak
 r25 c26..33 dim
 r25 c41..47 dim
 r25 c49..56 dim
 r25 c75..76 dim
-r26 c2..3 fg=Live
+r26 c2..3 fg=Live|LivePeak
 r26 c26..33 dim
 r26 c75..76 dim
-r26 c78..80 fg=Live
+r26 c78..80 fg=Live|LivePeak
 r26 c80..87 bold
 r26 c87..103 dim
 r27 c4..24 bold
@@ -2234,32 +2233,32 @@ r10 c93..101 bold
 r10 c101..102 dim
 r10 c109..110 fg=Accent
 r11 c2..8 dim
-r11 c8..9 fg=Live bold
+r11 c8..9 fg=Live|LivePeak bold
 r11 c75..76 dim
 r11 c78..79 fg=Accent
 r11 c80..91 dim
 r11 c109..110 fg=Accent
 r12 c2..8 dim
-r12 c8..9 fg=Live bold
+r12 c8..9 fg=Live|LivePeak bold
 r12 c75..76 dim
 r12 c78..79 fg=Accent
 r12 c80..82 fg=Accent bold
 r12 c82..98 bold
 r12 c109..110 fg=Accent
 r13 c2..8 dim
-r13 c8..9 fg=Live bold
+r13 c8..9 fg=Live|LivePeak bold
 r13 c75..76 dim
 r13 c78..79 fg=Accent
 r13 c80..99 dim
 r13 c109..110 fg=Accent
 r14 c2..8 dim
-r14 c8..9 fg=Live bold
+r14 c8..9 fg=Live|LivePeak bold
 r14 c75..76 dim
 r14 c78..79 fg=Accent
 r14 c80..83 dim
 r14 c109..110 fg=Accent
 r15 c2..8 dim
-r15 c8..9 fg=Live bold
+r15 c8..9 fg=Live|LivePeak bold
 r15 c75..76 dim
 r15 c78..79 fg=Accent
 r15 c80..86 fg=Attention bold
@@ -2306,18 +2305,18 @@ r23 c41..47 dim
 r23 c49..56 dim
 r23 c75..76 dim
 r23 c78..110 fg=Accent
-r24 c2..3 fg=Live
+r24 c2..3 fg=Live|LivePeak
 r24 c26..33 dim
 r24 c75..76 dim
-r25 c2..3 fg=Live
+r25 c2..3 fg=Live|LivePeak
 r25 c26..33 dim
 r25 c41..47 dim
 r25 c49..56 dim
 r25 c75..76 dim
-r26 c2..3 fg=Live
+r26 c2..3 fg=Live|LivePeak
 r26 c26..33 dim
 r26 c75..76 dim
-r26 c78..80 fg=Live
+r26 c78..80 fg=Live|LivePeak
 r26 c80..87 bold
 r26 c87..103 dim
 r27 c4..24 bold

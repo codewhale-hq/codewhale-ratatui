@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -46,12 +45,12 @@ r0 c30..40 bg=Background
 == ansi-16
 › Checking the received result
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 
 == unknown-ground
 › Checking the received result
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 
 == no-color
 › Checking the received result

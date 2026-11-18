@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -158,7 +157,7 @@ r4 c59..60 bg=Sidebar|Surface
            ✕ Could not save: the settings file is read-only
 ---
 r1 c51..60 dim
-r2 c35..36 fg=Live
+r2 c35..36 fg=Live|LivePeak
 r3 c17..18 fg=Attention
 r3 c57..59 dim
 r4 c11..12 fg=Danger
@@ -171,7 +170,7 @@ r4 c11..12 fg=Danger
            ✕ Could not save: the settings file is read-only
 ---
 r1 c51..60 dim
-r2 c35..36 fg=Live
+r2 c35..36 fg=Live|LivePeak
 r3 c17..18 fg=Attention
 r3 c57..59 dim
 r4 c11..12 fg=Danger

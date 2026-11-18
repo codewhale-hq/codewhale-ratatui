@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -427,17 +426,17 @@ r6 c2..56 fg=Hint bg=Background
   Total                            1h 03m ≥ ~$12.79
   — not reported · ~ estimated · ≥ some rows did not re…
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c27..34 dim
 r0 c52..53 dim
 r1 c0..1 fg=Danger
 r1 c27..34 dim
 r1 c42..51 dim
 r1 c52..53 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c27..34 dim
 r2 c52..53 dim
-r3 c0..1 fg=Live
+r3 c0..1 fg=Live|LivePeak
 r3 c27..34 dim
 r3 c42..51 dim
 r3 c52..53 dim
@@ -460,17 +459,17 @@ r6 c2..56 dim
   Total                            1h 03m ≥ ~$12.79
   — not reported · ~ estimated · ≥ some rows did not re…
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c27..34 dim
 r0 c52..53 dim
 r1 c0..1 fg=Danger
 r1 c27..34 dim
 r1 c42..51 dim
 r1 c52..53 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c27..34 dim
 r2 c52..53 dim
-r3 c0..1 fg=Live
+r3 c0..1 fg=Live|LivePeak
 r3 c27..34 dim
 r3 c42..51 dim
 r3 c52..53 dim

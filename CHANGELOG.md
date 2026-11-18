@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Upgrade to Codewhale design tokens 5.4.0 (CURRENT_DECISIONS §226, §228.5): add `Role::Subagent` and `Role::LivePeak` (`Role::COUNT` 19 to 21), resolve the light 256-color `Hover`/`Background` index-255 collision, make `Role::ansi16(appearance)` appearance-aware (`LightBlue`/`LightCyan`/`LightYellow`/`LightRed` on Dark, `Blue`/`Cyan`/`Yellow`/`Red` on Light/Unknown), and update `paint_working_glow` to use the `5.4.0` raised-cosine sweep tokens (`9`-cell half-width, `0.78` strength, `1800ms` active / `600ms` rest).
+
 - The Ocean column's waiting, approval and failure tints now ease off near the
   surface where they would push `Hint` below 4.5:1 or `Dim` below 3:1; deeper
   rows keep the full warm tint. The README boards and animations are

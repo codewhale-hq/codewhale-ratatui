@@ -14,15 +14,15 @@ scope and sort · recent
 ---
 r0 c0..23 fg=Muted bg=Background
 r0 c23..140 bg=Background
-r1 c0..90 fg=Foreground bg=Selected bold
+r1 c0..90 fg=Foreground|LivePeak bg=Selected bold
 r1 c90..140 bg=Background
-r2 c0..76 fg=Foreground bg=Background
+r2 c0..76 fg=Foreground|LivePeak bg=Background
 r2 c76..140 bg=Background
-r3 c0..94 fg=Foreground bg=Background
+r3 c0..94 fg=Foreground|LivePeak bg=Background
 r3 c94..140 bg=Background
-r4 c0..86 fg=Foreground bg=Background
+r4 c0..86 fg=Foreground|LivePeak bg=Background
 r4 c86..140 bg=Background
-r5 c0..76 fg=Foreground bg=Background
+r5 c0..76 fg=Foreground|LivePeak bg=Background
 r5 c76..140 bg=Background
 r6 c0..140 bg=Background
 r7 c0..140 bg=Background
@@ -39,15 +39,15 @@ scope and sort · recent
 ---
 r0 c0..23 fg=Muted bg=Background
 r0 c23..140 bg=Background
-r1 c0..90 fg=Foreground bg=Selected bold
+r1 c0..90 fg=Foreground|LivePeak bg=Selected bold
 r1 c90..140 bg=Background
-r2 c0..76 fg=Foreground bg=Background
+r2 c0..76 fg=Foreground|LivePeak bg=Background
 r2 c76..140 bg=Background
-r3 c0..94 fg=Foreground bg=Background
+r3 c0..94 fg=Foreground|LivePeak bg=Background
 r3 c94..140 bg=Background
-r4 c0..86 fg=Foreground bg=Background
+r4 c0..86 fg=Foreground|LivePeak bg=Background
 r4 c86..140 bg=Background
-r5 c0..76 fg=Foreground bg=Background
+r5 c0..76 fg=Foreground|LivePeak bg=Background
 r5 c76..140 bg=Background
 r6 c0..140 bg=Background
 r7 c0..140 bg=Background
@@ -63,11 +63,11 @@ scope and sort · recent
 
 ---
 r0 c0..23 fg=Muted
-r1 c0..90 fg=Foreground bg=Selected bold
-r2 c0..76 fg=Foreground
-r3 c0..94 fg=Foreground
-r4 c0..86 fg=Foreground
-r5 c0..76 fg=Foreground
+r1 c0..90 fg=Foreground|LivePeak bg=Selected bold
+r2 c0..76 fg=Foreground|LivePeak
+r3 c0..94 fg=Foreground|LivePeak
+r4 c0..86 fg=Foreground|LivePeak
+r5 c0..76 fg=Foreground|LivePeak
 
 == dark-256
 scope and sort · recent
@@ -81,15 +81,15 @@ scope and sort · recent
 ---
 r0 c0..23 fg=Muted bg=Background|DiffAddedTint
 r0 c23..140 bg=Background|DiffAddedTint
-r1 c0..90 fg=Foreground bg=Selected bold
+r1 c0..90 fg=Foreground|LivePeak bg=Selected bold
 r1 c90..140 bg=Background|DiffAddedTint
-r2 c0..76 fg=Foreground bg=Background|DiffAddedTint
+r2 c0..76 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r2 c76..140 bg=Background|DiffAddedTint
-r3 c0..94 fg=Foreground bg=Background|DiffAddedTint
+r3 c0..94 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r3 c94..140 bg=Background|DiffAddedTint
-r4 c0..86 fg=Foreground bg=Background|DiffAddedTint
+r4 c0..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r4 c86..140 bg=Background|DiffAddedTint
-r5 c0..76 fg=Foreground bg=Background|DiffAddedTint
+r5 c0..76 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r5 c76..140 bg=Background|DiffAddedTint
 r6 c0..140 bg=Background|DiffAddedTint
 r7 c0..140 bg=Background|DiffAddedTint
@@ -105,11 +105,11 @@ scope and sort · recent
 
 ---
 r0 c0..23 fg=Muted|Hint|Dim
-r1 c0..90 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r2 c0..76 fg=Foreground
-r3 c0..94 fg=Foreground
-r4 c0..86 fg=Foreground
-r5 c0..76 fg=Foreground
+r1 c0..90 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r2 c0..76 fg=Foreground|LivePeak
+r3 c0..94 fg=Foreground|LivePeak
+r4 c0..86 fg=Foreground|LivePeak
+r5 c0..76 fg=Foreground|LivePeak
 
 == ansi-16
 scope and sort · recent

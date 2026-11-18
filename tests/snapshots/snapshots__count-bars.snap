@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -251,15 +250,15 @@ r5 c49..60 bg=Background
 ? Unknown  12 files so far, total unknown
 ○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c26..27 dim
-r0 c27..42 fg=Live
+r0 c27..42 fg=Live|LivePeak
 r0 c42..52 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c25..51 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c23..24 dim
-r2 c24..48 fg=Live
+r2 c24..48 fg=Live|LivePeak
 r2 c48..49 dim
 r3 c0..1 fg=Attention
 r3 c28..29 dim
@@ -277,15 +276,15 @@ r5 c23..49 dim
 ? Unknown  12 files so far, total unknown
 ○ Ready  0 of 0 tasks  [░░░░░░░░░░░░░░░░░░░░░░░░]
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c26..27 dim
-r0 c27..42 fg=Live
+r0 c27..42 fg=Live|LivePeak
 r0 c42..52 dim
-r1 c0..1 fg=Live
+r1 c0..1 fg=Live|LivePeak
 r1 c25..51 dim
-r2 c0..1 fg=Live
+r2 c0..1 fg=Live|LivePeak
 r2 c23..24 dim
-r2 c24..48 fg=Live
+r2 c24..48 fg=Live|LivePeak
 r2 c48..49 dim
 r3 c0..1 fg=Attention
 r3 c28..29 dim

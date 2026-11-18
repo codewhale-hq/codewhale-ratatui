@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -93,7 +92,7 @@ r2 c24..40 bg=Background
                         ▸ Selected
 patch applied to 3 files
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c24..25 fg=Accent
 r2 c0..24 dim
 
@@ -102,7 +101,7 @@ r2 c0..24 dim
                         ▸ Selected
 patch applied to 3 files
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c24..25 fg=Accent
 r2 c0..24 dim
 

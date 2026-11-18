@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -91,14 +90,14 @@ r0 c59..60 fg=Muted bg=Background
 == ansi-16
 ✓ Edited summary.md                    Done 4 s 1.2k $0.01 →
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c39..43 dim
 r0 c59..60 dim
 
 == unknown-ground
 ✓ Edited summary.md                    Done 4 s 1.2k $0.01 →
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r0 c39..43 dim
 r0 c59..60 dim
 

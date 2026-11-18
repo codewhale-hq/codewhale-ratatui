@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -25,19 +24,19 @@ r1 c0..2 bg=Background
 r1 c2..25 fg=Muted bg=Background
 r1 c25..44 bg=Background
 r2 c0..2 bg=Background
-r2 c2..41 fg=Foreground bg=Selected bold
+r2 c2..41 fg=Foreground|LivePeak bg=Selected bold
 r2 c41..44 bg=Background
 r3 c0..2 bg=Background
-r3 c2..41 fg=Foreground bg=Background
+r3 c2..41 fg=Foreground|LivePeak bg=Background
 r3 c41..44 bg=Background
 r4 c0..2 bg=Background
-r4 c2..41 fg=Foreground bg=Background
+r4 c2..41 fg=Foreground|LivePeak bg=Background
 r4 c41..44 bg=Background
 r5 c0..2 bg=Background
-r5 c2..41 fg=Foreground bg=Background
+r5 c2..41 fg=Foreground|LivePeak bg=Background
 r5 c41..44 bg=Background
 r6 c0..2 bg=Background
-r6 c2..41 fg=Foreground bg=Background
+r6 c2..41 fg=Foreground|LivePeak bg=Background
 r6 c41..44 bg=Background
 r7 c0..44 bg=Background
 r8 c0..44 bg=Background
@@ -78,19 +77,19 @@ r1 c0..2 bg=Background
 r1 c2..25 fg=Muted bg=Background
 r1 c25..44 bg=Background
 r2 c0..2 bg=Background
-r2 c2..41 fg=Foreground bg=Selected bold
+r2 c2..41 fg=Foreground|LivePeak bg=Selected bold
 r2 c41..44 bg=Background
 r3 c0..2 bg=Background
-r3 c2..41 fg=Foreground bg=Background
+r3 c2..41 fg=Foreground|LivePeak bg=Background
 r3 c41..44 bg=Background
 r4 c0..2 bg=Background
-r4 c2..41 fg=Foreground bg=Background
+r4 c2..41 fg=Foreground|LivePeak bg=Background
 r4 c41..44 bg=Background
 r5 c0..2 bg=Background
-r5 c2..41 fg=Foreground bg=Background
+r5 c2..41 fg=Foreground|LivePeak bg=Background
 r5 c41..44 bg=Background
 r6 c0..2 bg=Background
-r6 c2..41 fg=Foreground bg=Background
+r6 c2..41 fg=Foreground|LivePeak bg=Background
 r6 c41..44 bg=Background
 r7 c0..44 bg=Background
 r8 c0..44 bg=Background
@@ -126,11 +125,11 @@ r11 c43..44 bg=Background
 r0 c1..11 fg=Accent bold
 r0 c11..43 fg=Border
 r1 c2..25 fg=Muted
-r2 c2..41 fg=Foreground bg=Selected bold
-r3 c2..41 fg=Foreground
-r4 c2..41 fg=Foreground
-r5 c2..41 fg=Foreground
-r6 c2..41 fg=Foreground
+r2 c2..41 fg=Foreground|LivePeak bg=Selected bold
+r3 c2..41 fg=Foreground|LivePeak
+r4 c2..41 fg=Foreground|LivePeak
+r5 c2..41 fg=Foreground|LivePeak
+r6 c2..41 fg=Foreground|LivePeak
 r10 c2..9 fg=Accent bold
 r10 c9..15 fg=Muted
 r10 c16..19 fg=Accent bold
@@ -161,19 +160,19 @@ r1 c0..2 bg=Background|DiffAddedTint
 r1 c2..25 fg=Muted bg=Background|DiffAddedTint
 r1 c25..44 bg=Background|DiffAddedTint
 r2 c0..2 bg=Background|DiffAddedTint
-r2 c2..41 fg=Foreground bg=Selected bold
+r2 c2..41 fg=Foreground|LivePeak bg=Selected bold
 r2 c41..44 bg=Background|DiffAddedTint
 r3 c0..2 bg=Background|DiffAddedTint
-r3 c2..41 fg=Foreground bg=Background|DiffAddedTint
+r3 c2..41 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r3 c41..44 bg=Background|DiffAddedTint
 r4 c0..2 bg=Background|DiffAddedTint
-r4 c2..41 fg=Foreground bg=Background|DiffAddedTint
+r4 c2..41 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r4 c41..44 bg=Background|DiffAddedTint
 r5 c0..2 bg=Background|DiffAddedTint
-r5 c2..41 fg=Foreground bg=Background|DiffAddedTint
+r5 c2..41 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r5 c41..44 bg=Background|DiffAddedTint
 r6 c0..2 bg=Background|DiffAddedTint
-r6 c2..41 fg=Foreground bg=Background|DiffAddedTint
+r6 c2..41 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r6 c41..44 bg=Background|DiffAddedTint
 r7 c0..44 bg=Background|DiffAddedTint
 r8 c0..44 bg=Background|DiffAddedTint
@@ -209,11 +208,11 @@ r11 c43..44 bg=Background|DiffAddedTint
 r0 c1..11 fg=Accent bold
 r0 c11..43 fg=Border
 r1 c2..25 fg=Muted|Hint|Dim
-r2 c2..41 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r3 c2..41 fg=Foreground
-r4 c2..41 fg=Foreground
-r5 c2..41 fg=Foreground
-r6 c2..41 fg=Foreground
+r2 c2..41 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r3 c2..41 fg=Foreground|LivePeak
+r4 c2..41 fg=Foreground|LivePeak
+r5 c2..41 fg=Foreground|LivePeak
+r6 c2..41 fg=Foreground|LivePeak
 r10 c2..9 fg=Accent bold
 r10 c9..15 fg=Muted|Hint|Dim
 r10 c16..19 fg=Accent bold

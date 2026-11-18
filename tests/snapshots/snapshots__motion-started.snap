@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -83,7 +82,7 @@ r2 c0..40 bg=Background
 ▸ Selected
 
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c0..1 fg=Accent
 
 == unknown-ground
@@ -91,7 +90,7 @@ r1 c0..1 fg=Accent
 ▸ Selected
 
 ---
-r0 c0..1 fg=Live
+r0 c0..1 fg=Live|LivePeak
 r1 c0..1 fg=Accent
 
 == no-color

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -61,7 +60,7 @@ r0 c1..6 fg=Attention bold
 r0 c6..9 dim
 r0 c9..13 fg=Accent
 r0 c13..22 dim
-r0 c22..30 fg=Live
+r0 c22..30 fg=Live|LivePeak
 
 == unknown-ground
  ● ask   work (Tab)   2 agents
@@ -70,7 +69,7 @@ r0 c1..6 fg=Attention bold
 r0 c6..9 dim
 r0 c9..13 fg=Accent
 r0 c13..22 dim
-r0 c22..30 fg=Live
+r0 c22..30 fg=Live|LivePeak
 
 == no-color
  ● ask   work (Tab)   2 agents

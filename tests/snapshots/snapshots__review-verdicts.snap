@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -555,7 +554,7 @@ Why: the review timed out
 No verdict. This is not a safety decision: your call.
 y allow once · n deny
 ---
-r0 c0..2 fg=Live
+r0 c0..2 fg=Live|LivePeak
 r0 c2..9 bold
 r0 c9..23 dim
 r1 c0..5 dim
@@ -619,7 +618,7 @@ Why: the review timed out
 No verdict. This is not a safety decision: your call.
 y allow once · n deny
 ---
-r0 c0..2 fg=Live
+r0 c0..2 fg=Live|LivePeak
 r0 c2..9 bold
 r0 c9..23 dim
 r1 c0..5 dim

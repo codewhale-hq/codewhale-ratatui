@@ -38,6 +38,11 @@ const ROLES: &[(&str, &str, &str)] = &[
     ("Selected", "selected", "The selected row."),
     ("Foreground", "foreground", "Body ink."),
     (
+        "Subagent",
+        "subagent",
+        "Calm non-interactive ink for sub-agent and external-agent tags.",
+    ),
+    (
         "Muted",
         "muted_foreground",
         "Ink that recedes: details, verbs in hints, asides.",
@@ -60,6 +65,11 @@ const ROLES: &[(&str, &str, &str)] = &[
         "The one quiet blue: links, focus and selection.",
     ),
     ("Live", "live", "Work happening now, and work done."),
+    (
+        "LivePeak",
+        "live_peak",
+        "Crest ink of the live action verb sweep.",
+    ),
     ("Attention", "attention", "Needs you."),
     ("Danger", "danger", "Failed or destructive."),
     (
@@ -104,9 +114,11 @@ const TINTS: &[(&str, &str)] = &[("diff_add", "live"), ("diff_remove", "danger")
 const GROUNDS: &[&str] = &["background", "surface", "sidebar", "hover", "selected"];
 const TEXT: &[&str] = &[
     "foreground",
+    "subagent",
     "muted_foreground",
     "accent",
     "live",
+    "live_peak",
     "attention",
     "danger",
 ];

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -88,7 +87,7 @@ r9 c102..112 bg=Background
 r10 c0..11 bg=Background
 r10 c11..12 fg=Border bg=Background
 r10 c12..13 bg=Background
-r10 c13..55 fg=Foreground bg=Selected bold
+r10 c13..55 fg=Foreground|LivePeak bg=Selected bold
 r10 c55..100 bg=Background
 r10 c100..101 fg=Border bg=Background
 r10 c101..102 bg=Hover
@@ -96,7 +95,7 @@ r10 c102..112 bg=Background
 r11 c0..11 bg=Background
 r11 c11..12 fg=Border bg=Background
 r11 c12..13 bg=Background
-r11 c13..56 fg=Foreground bg=Background
+r11 c13..56 fg=Foreground|LivePeak bg=Background
 r11 c56..100 bg=Background
 r11 c100..101 fg=Border bg=Background
 r11 c101..102 bg=Hover
@@ -104,7 +103,7 @@ r11 c102..112 bg=Background
 r12 c0..11 bg=Background
 r12 c11..12 fg=Border bg=Background
 r12 c12..13 bg=Background
-r12 c13..67 fg=Foreground bg=Background
+r12 c13..67 fg=Foreground|LivePeak bg=Background
 r12 c67..100 bg=Background
 r12 c100..101 fg=Border bg=Background
 r12 c101..102 bg=Hover
@@ -112,7 +111,7 @@ r12 c102..112 bg=Background
 r13 c0..11 bg=Background
 r13 c11..12 fg=Border bg=Background
 r13 c12..13 bg=Background
-r13 c13..62 fg=Foreground bg=Background
+r13 c13..62 fg=Foreground|LivePeak bg=Background
 r13 c62..100 bg=Background
 r13 c100..101 fg=Border bg=Background
 r13 c101..102 bg=Hover
@@ -120,7 +119,7 @@ r13 c102..112 bg=Background
 r14 c0..11 bg=Background
 r14 c11..12 fg=Border bg=Background
 r14 c12..13 bg=Background
-r14 c13..54 fg=Foreground bg=Background
+r14 c13..54 fg=Foreground|LivePeak bg=Background
 r14 c54..100 bg=Background
 r14 c100..101 fg=Border bg=Background
 r14 c101..102 bg=Hover
@@ -128,7 +127,7 @@ r14 c102..112 bg=Background
 r15 c0..11 bg=Background
 r15 c11..12 fg=Border bg=Background
 r15 c12..13 bg=Background
-r15 c13..62 fg=Foreground bg=Background
+r15 c13..62 fg=Foreground|LivePeak bg=Background
 r15 c62..100 bg=Background
 r15 c100..101 fg=Border bg=Background
 r15 c101..102 bg=Hover
@@ -285,7 +284,7 @@ r9 c102..112 bg=Background
 r10 c0..11 bg=Background
 r10 c11..12 fg=Border bg=Background
 r10 c12..13 bg=Background
-r10 c13..55 fg=Foreground bg=Selected bold
+r10 c13..55 fg=Foreground|LivePeak bg=Selected bold
 r10 c55..100 bg=Background
 r10 c100..101 fg=Border bg=Background
 r10 c101..102 bg=Hover
@@ -293,7 +292,7 @@ r10 c102..112 bg=Background
 r11 c0..11 bg=Background
 r11 c11..12 fg=Border bg=Background
 r11 c12..13 bg=Background
-r11 c13..56 fg=Foreground bg=Background
+r11 c13..56 fg=Foreground|LivePeak bg=Background
 r11 c56..100 bg=Background
 r11 c100..101 fg=Border bg=Background
 r11 c101..102 bg=Hover
@@ -301,7 +300,7 @@ r11 c102..112 bg=Background
 r12 c0..11 bg=Background
 r12 c11..12 fg=Border bg=Background
 r12 c12..13 bg=Background
-r12 c13..67 fg=Foreground bg=Background
+r12 c13..67 fg=Foreground|LivePeak bg=Background
 r12 c67..100 bg=Background
 r12 c100..101 fg=Border bg=Background
 r12 c101..102 bg=Hover
@@ -309,7 +308,7 @@ r12 c102..112 bg=Background
 r13 c0..11 bg=Background
 r13 c11..12 fg=Border bg=Background
 r13 c12..13 bg=Background
-r13 c13..62 fg=Foreground bg=Background
+r13 c13..62 fg=Foreground|LivePeak bg=Background
 r13 c62..100 bg=Background
 r13 c100..101 fg=Border bg=Background
 r13 c101..102 bg=Hover
@@ -317,7 +316,7 @@ r13 c102..112 bg=Background
 r14 c0..11 bg=Background
 r14 c11..12 fg=Border bg=Background
 r14 c12..13 bg=Background
-r14 c13..54 fg=Foreground bg=Background
+r14 c13..54 fg=Foreground|LivePeak bg=Background
 r14 c54..100 bg=Background
 r14 c100..101 fg=Border bg=Background
 r14 c101..102 bg=Hover
@@ -325,7 +324,7 @@ r14 c102..112 bg=Background
 r15 c0..11 bg=Background
 r15 c11..12 fg=Border bg=Background
 r15 c12..13 bg=Background
-r15 c13..62 fg=Foreground bg=Background
+r15 c13..62 fg=Foreground|LivePeak bg=Background
 r15 c62..100 bg=Background
 r15 c100..101 fg=Border bg=Background
 r15 c101..102 bg=Hover
@@ -453,27 +452,27 @@ r9 c13..29 fg=Accent bold
 r9 c100..101 fg=Border
 r9 c101..102 bg=Hover
 r10 c11..12 fg=Border
-r10 c13..55 fg=Foreground bg=Selected bold
+r10 c13..55 fg=Foreground|LivePeak bg=Selected bold
 r10 c100..101 fg=Border
 r10 c101..102 bg=Hover
 r11 c11..12 fg=Border
-r11 c13..56 fg=Foreground
+r11 c13..56 fg=Foreground|LivePeak
 r11 c100..101 fg=Border
 r11 c101..102 bg=Hover
 r12 c11..12 fg=Border
-r12 c13..67 fg=Foreground
+r12 c13..67 fg=Foreground|LivePeak
 r12 c100..101 fg=Border
 r12 c101..102 bg=Hover
 r13 c11..12 fg=Border
-r13 c13..62 fg=Foreground
+r13 c13..62 fg=Foreground|LivePeak
 r13 c100..101 fg=Border
 r13 c101..102 bg=Hover
 r14 c11..12 fg=Border
-r14 c13..54 fg=Foreground
+r14 c13..54 fg=Foreground|LivePeak
 r14 c100..101 fg=Border
 r14 c101..102 bg=Hover
 r15 c11..12 fg=Border
-r15 c13..62 fg=Foreground
+r15 c13..62 fg=Foreground|LivePeak
 r15 c100..101 fg=Border
 r15 c101..102 bg=Hover
 r16 c11..12 fg=Border
@@ -595,7 +594,7 @@ r9 c102..112 bg=Background|DiffAddedTint
 r10 c0..11 bg=Background|DiffAddedTint
 r10 c11..12 fg=Border bg=Background|DiffAddedTint
 r10 c12..13 bg=Background|DiffAddedTint
-r10 c13..55 fg=Foreground bg=Selected bold
+r10 c13..55 fg=Foreground|LivePeak bg=Selected bold
 r10 c55..100 bg=Background|DiffAddedTint
 r10 c100..101 fg=Border bg=Background|DiffAddedTint
 r10 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -603,7 +602,7 @@ r10 c102..112 bg=Background|DiffAddedTint
 r11 c0..11 bg=Background|DiffAddedTint
 r11 c11..12 fg=Border bg=Background|DiffAddedTint
 r11 c12..13 bg=Background|DiffAddedTint
-r11 c13..56 fg=Foreground bg=Background|DiffAddedTint
+r11 c13..56 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c56..100 bg=Background|DiffAddedTint
 r11 c100..101 fg=Border bg=Background|DiffAddedTint
 r11 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -611,7 +610,7 @@ r11 c102..112 bg=Background|DiffAddedTint
 r12 c0..11 bg=Background|DiffAddedTint
 r12 c11..12 fg=Border bg=Background|DiffAddedTint
 r12 c12..13 bg=Background|DiffAddedTint
-r12 c13..67 fg=Foreground bg=Background|DiffAddedTint
+r12 c13..67 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r12 c67..100 bg=Background|DiffAddedTint
 r12 c100..101 fg=Border bg=Background|DiffAddedTint
 r12 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -619,7 +618,7 @@ r12 c102..112 bg=Background|DiffAddedTint
 r13 c0..11 bg=Background|DiffAddedTint
 r13 c11..12 fg=Border bg=Background|DiffAddedTint
 r13 c12..13 bg=Background|DiffAddedTint
-r13 c13..62 fg=Foreground bg=Background|DiffAddedTint
+r13 c13..62 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r13 c62..100 bg=Background|DiffAddedTint
 r13 c100..101 fg=Border bg=Background|DiffAddedTint
 r13 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -627,7 +626,7 @@ r13 c102..112 bg=Background|DiffAddedTint
 r14 c0..11 bg=Background|DiffAddedTint
 r14 c11..12 fg=Border bg=Background|DiffAddedTint
 r14 c12..13 bg=Background|DiffAddedTint
-r14 c13..54 fg=Foreground bg=Background|DiffAddedTint
+r14 c13..54 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r14 c54..100 bg=Background|DiffAddedTint
 r14 c100..101 fg=Border bg=Background|DiffAddedTint
 r14 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -635,7 +634,7 @@ r14 c102..112 bg=Background|DiffAddedTint
 r15 c0..11 bg=Background|DiffAddedTint
 r15 c11..12 fg=Border bg=Background|DiffAddedTint
 r15 c12..13 bg=Background|DiffAddedTint
-r15 c13..62 fg=Foreground bg=Background|DiffAddedTint
+r15 c13..62 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r15 c62..100 bg=Background|DiffAddedTint
 r15 c100..101 fg=Border bg=Background|DiffAddedTint
 r15 c101..102 bg=Surface|Hover|DiffRemovedTint
@@ -763,27 +762,27 @@ r9 c13..29 fg=Accent bold
 r9 c100..101 fg=Border
 r9 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r10 c11..12 fg=Border
-r10 c13..55 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r10 c13..55 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r10 c100..101 fg=Border
 r10 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r11 c11..12 fg=Border
-r11 c13..56 fg=Foreground
+r11 c13..56 fg=Foreground|LivePeak
 r11 c100..101 fg=Border
 r11 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r12 c11..12 fg=Border
-r12 c13..67 fg=Foreground
+r12 c13..67 fg=Foreground|LivePeak
 r12 c100..101 fg=Border
 r12 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r13 c11..12 fg=Border
-r13 c13..62 fg=Foreground
+r13 c13..62 fg=Foreground|LivePeak
 r13 c100..101 fg=Border
 r13 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r14 c11..12 fg=Border
-r14 c13..54 fg=Foreground
+r14 c13..54 fg=Foreground|LivePeak
 r14 c100..101 fg=Border
 r14 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r15 c11..12 fg=Border
-r15 c13..62 fg=Foreground
+r15 c13..62 fg=Foreground|LivePeak
 r15 c100..101 fg=Border
 r15 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r16 c11..12 fg=Border

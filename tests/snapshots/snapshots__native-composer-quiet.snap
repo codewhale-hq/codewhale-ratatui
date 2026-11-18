@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -10,7 +9,7 @@ expression: dump(&entry)
 r0 c0..60 fg=Border bg=Surface
 r1 c0..1 fg=Accent bg=Surface
 r1 c1..2 bg=Surface
-r1 c2..24 fg=BorderStrong bg=Surface
+r1 c2..24 fg=Subagent|BorderStrong bg=Surface
 r1 c24..60 bg=Surface
 
 == dark-graphite
@@ -20,7 +19,7 @@ r1 c24..60 bg=Surface
 r0 c0..60 fg=Border bg=Surface
 r1 c0..1 fg=Accent bg=Surface
 r1 c1..2 bg=Surface
-r1 c2..24 fg=BorderStrong bg=Surface
+r1 c2..24 fg=Subagent|BorderStrong bg=Surface
 r1 c24..60 bg=Surface
 
 == light-truecolor
@@ -29,7 +28,7 @@ r1 c24..60 bg=Surface
 ---
 r0 c0..60 fg=Border
 r1 c0..1 fg=Accent
-r1 c2..24 fg=BorderStrong
+r1 c2..24 fg=Subagent|BorderStrong
 
 == dark-256
 ────────────────────────────────────────────────────────────
@@ -38,7 +37,7 @@ r1 c2..24 fg=BorderStrong
 r0 c0..60 fg=Border bg=Surface|Hover|DiffRemovedTint
 r1 c0..1 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r1 c1..2 bg=Surface|Hover|DiffRemovedTint
-r1 c2..24 fg=BorderStrong bg=Surface|Hover|DiffRemovedTint
+r1 c2..24 fg=Subagent|BorderStrong bg=Surface|Hover|DiffRemovedTint
 r1 c24..60 bg=Surface|Hover|DiffRemovedTint
 
 == light-256
@@ -47,7 +46,7 @@ r1 c24..60 bg=Surface|Hover|DiffRemovedTint
 ---
 r0 c0..60 fg=Border
 r1 c0..1 fg=Accent
-r1 c2..24 fg=BorderStrong
+r1 c2..24 fg=Subagent|BorderStrong
 
 == ansi-16
 ────────────────────────────────────────────────────────────

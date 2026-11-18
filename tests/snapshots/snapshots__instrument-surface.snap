@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -36,7 +35,7 @@ r1 c10..99 fg=Border bg=Background
 r1 c99..100 bg=Background
 r2 c0..100 bg=Background
 r3 c0..2 bg=Background
-r3 c2..37 fg=Foreground bg=Background
+r3 c2..37 fg=Foreground|LivePeak bg=Background
 r3 c37..100 bg=Background
 r4 c0..100 bg=Background
 r5 c0..2 bg=Background
@@ -106,7 +105,7 @@ r1 c10..99 fg=Border bg=Background
 r1 c99..100 bg=Background
 r2 c0..100 bg=Background
 r3 c0..2 bg=Background
-r3 c2..37 fg=Foreground bg=Background
+r3 c2..37 fg=Foreground|LivePeak bg=Background
 r3 c37..100 bg=Background
 r4 c0..100 bg=Background
 r5 c0..2 bg=Background
@@ -171,7 +170,7 @@ r23 c0..100 bg=Background
 ---
 r1 c1..10 fg=Accent bold
 r1 c10..99 fg=Border
-r3 c2..37 fg=Foreground
+r3 c2..37 fg=Foreground|LivePeak
 r5 c2..34 fg=Muted
 r6 c2..36 fg=Muted
 r7 c2..21 fg=Muted
@@ -214,7 +213,7 @@ r1 c10..99 fg=Border bg=Background|DiffAddedTint
 r1 c99..100 bg=Background|DiffAddedTint
 r2 c0..100 bg=Background|DiffAddedTint
 r3 c0..2 bg=Background|DiffAddedTint
-r3 c2..37 fg=Foreground bg=Background|DiffAddedTint
+r3 c2..37 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r3 c37..100 bg=Background|DiffAddedTint
 r4 c0..100 bg=Background|DiffAddedTint
 r5 c0..2 bg=Background|DiffAddedTint
@@ -279,7 +278,7 @@ r23 c0..100 bg=Background|DiffAddedTint
 ---
 r1 c1..10 fg=Accent bold
 r1 c10..99 fg=Border
-r3 c2..37 fg=Foreground
+r3 c2..37 fg=Foreground|LivePeak
 r5 c2..34 fg=Muted|Hint|Dim
 r6 c2..36 fg=Muted|Hint|Dim
 r7 c2..21 fg=Muted|Hint|Dim

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -45,33 +44,33 @@ r3 c0..2 bg=Background
 r3 c2..20 fg=Muted bg=Background
 r3 c20..132 bg=Background
 r4 c0..2 bg=Background
-r4 c2..22 fg=Foreground bg=Background
+r4 c2..22 fg=Foreground|LivePeak bg=Background
 r4 c22..100 bg=Background
 r4 c100..111 fg=Muted bg=Background
 r4 c111..132 bg=Background
 r5 c0..2 bg=Background
 r5 c2..54 fg=Muted bg=Background
 r5 c54..102 bg=Background
-r5 c102..105 fg=Foreground bg=Background
+r5 c102..105 fg=Foreground|LivePeak bg=Background
 r5 c105..132 bg=Background
 r6 c0..2 bg=Background
 r6 c2..3 fg=Accent bg=Selected
 r6 c3..4 bg=Selected
-r6 c4..53 fg=Foreground bg=Selected bold
+r6 c4..53 fg=Foreground|LivePeak bg=Selected bold
 r6 c53..99 bg=Selected
 r6 c99..102 bg=Background
-r6 c102..108 fg=Foreground bg=Background
+r6 c102..108 fg=Foreground|LivePeak bg=Background
 r6 c108..132 bg=Background
 r7 c0..4 bg=Background
-r7 c4..52 fg=Foreground bg=Background
+r7 c4..52 fg=Foreground|LivePeak bg=Background
 r7 c52..100 bg=Background
 r7 c100..101 fg=Accent bg=Selected
 r7 c101..102 bg=Selected
-r7 c102..106 fg=Foreground bg=Selected bold
+r7 c102..106 fg=Foreground|LivePeak bg=Selected bold
 r7 c106..130 bg=Selected
 r7 c130..132 bg=Background
 r8 c0..4 bg=Background
-r8 c4..52 fg=Foreground bg=Background
+r8 c4..52 fg=Foreground|LivePeak bg=Background
 r8 c52..132 bg=Background
 r9 c0..132 bg=Background
 r10 c0..132 bg=Background
@@ -155,33 +154,33 @@ r3 c0..2 bg=Background
 r3 c2..20 fg=Muted bg=Background
 r3 c20..132 bg=Background
 r4 c0..2 bg=Background
-r4 c2..22 fg=Foreground bg=Background
+r4 c2..22 fg=Foreground|LivePeak bg=Background
 r4 c22..100 bg=Background
 r4 c100..111 fg=Muted bg=Background
 r4 c111..132 bg=Background
 r5 c0..2 bg=Background
 r5 c2..54 fg=Muted bg=Background
 r5 c54..102 bg=Background
-r5 c102..105 fg=Foreground bg=Background
+r5 c102..105 fg=Foreground|LivePeak bg=Background
 r5 c105..132 bg=Background
 r6 c0..2 bg=Background
 r6 c2..3 fg=Accent bg=Selected
 r6 c3..4 bg=Selected
-r6 c4..53 fg=Foreground bg=Selected bold
+r6 c4..53 fg=Foreground|LivePeak bg=Selected bold
 r6 c53..99 bg=Selected
 r6 c99..102 bg=Background
-r6 c102..108 fg=Foreground bg=Background
+r6 c102..108 fg=Foreground|LivePeak bg=Background
 r6 c108..132 bg=Background
 r7 c0..4 bg=Background
-r7 c4..52 fg=Foreground bg=Background
+r7 c4..52 fg=Foreground|LivePeak bg=Background
 r7 c52..100 bg=Background
 r7 c100..101 fg=Accent bg=Selected
 r7 c101..102 bg=Selected
-r7 c102..106 fg=Foreground bg=Selected bold
+r7 c102..106 fg=Foreground|LivePeak bg=Selected bold
 r7 c106..130 bg=Selected
 r7 c130..132 bg=Background
 r8 c0..4 bg=Background
-r8 c4..52 fg=Foreground bg=Background
+r8 c4..52 fg=Foreground|LivePeak bg=Background
 r8 c52..132 bg=Background
 r9 c0..132 bg=Background
 r10 c0..132 bg=Background
@@ -258,21 +257,21 @@ r1 c21..112 fg=Border
 r1 c112..130 fg=Accent underline
 r1 c130..131 fg=Border
 r3 c2..20 fg=Muted
-r4 c2..22 fg=Foreground
+r4 c2..22 fg=Foreground|LivePeak
 r4 c100..111 fg=Muted
 r5 c2..54 fg=Muted
-r5 c102..105 fg=Foreground
+r5 c102..105 fg=Foreground|LivePeak
 r6 c2..3 fg=Accent bg=Selected
 r6 c3..4 bg=Selected
-r6 c4..53 fg=Foreground bg=Selected bold
+r6 c4..53 fg=Foreground|LivePeak bg=Selected bold
 r6 c53..99 bg=Selected
-r6 c102..108 fg=Foreground
-r7 c4..52 fg=Foreground
+r6 c102..108 fg=Foreground|LivePeak
+r7 c4..52 fg=Foreground|LivePeak
 r7 c100..101 fg=Accent bg=Selected
 r7 c101..102 bg=Selected
-r7 c102..106 fg=Foreground bg=Selected bold
+r7 c102..106 fg=Foreground|LivePeak bg=Selected bold
 r7 c106..130 bg=Selected
-r8 c4..52 fg=Foreground
+r8 c4..52 fg=Foreground|LivePeak
 r25 c2..7 fg=Accent bold
 r25 c7..11 fg=Muted
 r25 c12..17 fg=Accent bold
@@ -329,33 +328,33 @@ r3 c0..2 bg=Background|DiffAddedTint
 r3 c2..20 fg=Muted bg=Background|DiffAddedTint
 r3 c20..132 bg=Background|DiffAddedTint
 r4 c0..2 bg=Background|DiffAddedTint
-r4 c2..22 fg=Foreground bg=Background|DiffAddedTint
+r4 c2..22 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r4 c22..100 bg=Background|DiffAddedTint
 r4 c100..111 fg=Muted bg=Background|DiffAddedTint
 r4 c111..132 bg=Background|DiffAddedTint
 r5 c0..2 bg=Background|DiffAddedTint
 r5 c2..54 fg=Muted bg=Background|DiffAddedTint
 r5 c54..102 bg=Background|DiffAddedTint
-r5 c102..105 fg=Foreground bg=Background|DiffAddedTint
+r5 c102..105 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r5 c105..132 bg=Background|DiffAddedTint
 r6 c0..2 bg=Background|DiffAddedTint
 r6 c2..3 fg=Accent bg=Selected
 r6 c3..4 bg=Selected
-r6 c4..53 fg=Foreground bg=Selected bold
+r6 c4..53 fg=Foreground|LivePeak bg=Selected bold
 r6 c53..99 bg=Selected
 r6 c99..102 bg=Background|DiffAddedTint
-r6 c102..108 fg=Foreground bg=Background|DiffAddedTint
+r6 c102..108 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r6 c108..132 bg=Background|DiffAddedTint
 r7 c0..4 bg=Background|DiffAddedTint
-r7 c4..52 fg=Foreground bg=Background|DiffAddedTint
+r7 c4..52 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r7 c52..100 bg=Background|DiffAddedTint
 r7 c100..101 fg=Accent bg=Selected
 r7 c101..102 bg=Selected
-r7 c102..106 fg=Foreground bg=Selected bold
+r7 c102..106 fg=Foreground|LivePeak bg=Selected bold
 r7 c106..130 bg=Selected
 r7 c130..132 bg=Background|DiffAddedTint
 r8 c0..4 bg=Background|DiffAddedTint
-r8 c4..52 fg=Foreground bg=Background|DiffAddedTint
+r8 c4..52 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r8 c52..132 bg=Background|DiffAddedTint
 r9 c0..132 bg=Background|DiffAddedTint
 r10 c0..132 bg=Background|DiffAddedTint
@@ -432,21 +431,21 @@ r1 c21..112 fg=Border
 r1 c112..130 fg=Accent underline
 r1 c130..131 fg=Border
 r3 c2..20 fg=Muted|Hint|Dim
-r4 c2..22 fg=Foreground
+r4 c2..22 fg=Foreground|LivePeak
 r4 c100..111 fg=Muted|Hint|Dim
 r5 c2..54 fg=Muted|Hint|Dim
-r5 c102..105 fg=Foreground
+r5 c102..105 fg=Foreground|LivePeak
 r6 c2..3 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r6 c3..4 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c4..53 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r6 c4..53 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r6 c53..99 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r6 c102..108 fg=Foreground
-r7 c4..52 fg=Foreground
+r6 c102..108 fg=Foreground|LivePeak
+r7 c4..52 fg=Foreground|LivePeak
 r7 c100..101 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
 r7 c101..102 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r7 c102..106 fg=Foreground bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r7 c102..106 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
 r7 c106..130 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r8 c4..52 fg=Foreground
+r8 c4..52 fg=Foreground|LivePeak
 r25 c2..7 fg=Accent bold
 r25 c7..11 fg=Muted|Hint|Dim
 r25 c12..17 fg=Accent bold

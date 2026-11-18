@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -203,9 +202,9 @@ Reported by the host. Receipts read.
 r0 c0..13 fg=Accent bold
 r1 c4..11 bold
 r2 c0..7 italic
-r3 c0..19 fg=Live
+r3 c0..19 fg=Live|LivePeak
 r4 c0..22 dim
-r4 c22..36 fg=Live
+r4 c22..36 fg=Live|LivePeak
 r5 c0..2 dim
 r5 c2..31 italic
 r6 c0..17 dim
@@ -225,9 +224,9 @@ Reported by the host. Receipts read.
 r0 c0..13 fg=Accent bold
 r1 c4..11 bold
 r2 c0..7 italic
-r3 c0..19 fg=Live
+r3 c0..19 fg=Live|LivePeak
 r4 c0..22 dim
-r4 c22..36 fg=Live
+r4 c22..36 fg=Live|LivePeak
 r5 c0..2 dim
 r5 c2..31 italic
 r6 c0..17 dim

@@ -7,7 +7,7 @@ expression: dump(&entry)
 ---
 r0 c0..1 bg=Background
 r0 c1..3 fg=Live bg=Background
-r0 c3..22 fg=Foreground bg=Background bold
+r0 c3..22 fg=Foreground|LivePeak bg=Background bold
 r0 c22..24 bg=Background
 r0 c24..25 fg=Danger bg=Background
 r0 c25..44 fg=Hint|Dim bg=Background
@@ -29,7 +29,7 @@ r0 c107..120 bg=Background
 ---
 r0 c0..1 bg=Background
 r0 c1..3 fg=Live bg=Background
-r0 c3..22 fg=Foreground bg=Background bold
+r0 c3..22 fg=Foreground|LivePeak bg=Background bold
 r0 c22..24 bg=Background
 r0 c24..25 fg=Danger bg=Background
 r0 c25..44 fg=Hint|Dim bg=Background
@@ -50,7 +50,7 @@ r0 c107..120 bg=Background
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
 ---
 r0 c1..3 fg=Live
-r0 c3..22 fg=Foreground bold
+r0 c3..22 fg=Foreground|LivePeak bold
 r0 c24..25 fg=Danger
 r0 c25..44 fg=Hint|Dim
 r0 c46..55 fg=Muted
@@ -65,7 +65,7 @@ r0 c97..107 fg=#a94724
 ---
 r0 c0..1 bg=Background|DiffAddedTint
 r0 c1..3 fg=Live bg=Background|DiffAddedTint
-r0 c3..22 fg=Foreground bg=Background|DiffAddedTint bold
+r0 c3..22 fg=Foreground|LivePeak bg=Background|DiffAddedTint bold
 r0 c22..24 bg=Background|DiffAddedTint
 r0 c24..25 fg=Danger bg=Background|DiffAddedTint
 r0 c25..44 fg=Hint|Dim bg=Background|DiffAddedTint
@@ -86,7 +86,7 @@ r0 c107..120 bg=Background|DiffAddedTint
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
 ---
 r0 c1..3 fg=Live
-r0 c3..22 fg=Foreground bold
+r0 c3..22 fg=Foreground|LivePeak bold
 r0 c24..25 fg=Danger
 r0 c25..44 fg=Muted|Hint|Dim
 r0 c46..55 fg=Muted|Hint|Dim
@@ -99,7 +99,7 @@ r0 c97..107 fg=idx130
 == ansi-16
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
 ---
-r0 c1..3 fg=Live
+r0 c1..3 fg=Live|LivePeak
 r0 c3..22 bold
 r0 c24..25 fg=Danger
 r0 c25..44 dim
@@ -113,7 +113,7 @@ r0 c97..107 fg=Attention
 == unknown-ground
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
 ---
-r0 c1..3 fg=Live
+r0 c1..3 fg=Live|LivePeak
 r0 c3..22 bold
 r0 c24..25 fg=Danger
 r0 c25..44 dim
