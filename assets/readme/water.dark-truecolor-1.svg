@@ -275,7 +275,8 @@
 <rect x="430" y="300" width="70" height="20" fill="#01112b" />
 <rect x="500" y="300" width="70" height="20" fill="#01112c" />
 <rect x="570" y="300" width="110" height="20" fill="#01112d" />
-<rect x="680" y="300" width="70" height="20" fill="#01112e" />
+<rect x="680" y="300" width="50" height="20" fill="#01112e" />
+<rect x="730" y="300" width="20" height="20" fill="#021030" />
 <rect x="750" y="300" width="70" height="20" fill="#01102f" />
 <rect x="820" y="300" width="70" height="20" fill="#011030" />
 <rect x="890" y="300" width="70" height="20" fill="#011031" />
@@ -308,7 +309,8 @@
 <rect x="410" y="340" width="70" height="20" fill="#01112b" />
 <rect x="480" y="340" width="70" height="20" fill="#01112c" />
 <rect x="550" y="340" width="110" height="20" fill="#01112d" />
-<rect x="660" y="340" width="70" height="20" fill="#01112e" />
+<rect x="660" y="340" width="50" height="20" fill="#01112e" />
+<rect x="710" y="340" width="20" height="20" fill="#021030" />
 <rect x="730" y="340" width="70" height="20" fill="#01102f" />
 <rect x="800" y="340" width="70" height="20" fill="#011030" />
 <rect x="870" y="340" width="70" height="20" fill="#011031" />
@@ -589,7 +591,7 @@
 <text x="340" y="295" fill="#76b3f6" textLength="10" lengthAdjust="spacingAndGlyphs">⣡</text>
 <text x="350" y="295" fill="#76b3f6" textLength="10" lengthAdjust="spacingAndGlyphs">⣤</text>
 <text x="360" y="295" fill="#76b3f6" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
-<text x="620" y="295" fill="#7f8c9a" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
+<text x="520" y="295" fill="#2c3953" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
 <text x="270" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣠</text>
 <text x="280" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣾</text>
 <text x="290" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
@@ -603,14 +605,14 @@
 <text x="380" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
 <text x="390" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
 <text x="400" y="315" fill="#69aef2" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
-<text x="760" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⡰</text>
-<text x="770" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
-<text x="780" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⡢</text>
-<text x="790" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
-<text x="800" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="810" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⡤</text>
-<text x="820" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
-<text x="830" y="315" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
+<text x="730" y="315" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⢢</text>
+<text x="740" y="315" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
+<text x="750" y="315" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⡢</text>
+<text x="760" y="315" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
+<text x="770" y="315" fill="#3d4a61" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
+<text x="780" y="315" fill="#3d4a61" textLength="10" lengthAdjust="spacingAndGlyphs">⠦</text>
+<text x="790" y="315" fill="#3d4a61" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
+<text x="800" y="315" fill="#3d4a61" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
 <text x="270" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
 <text x="280" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
 <text x="290" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
@@ -621,11 +623,10 @@
 <text x="380" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
 <text x="390" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⠿</text>
 <text x="400" y="335" fill="#5da9ee" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
-<text x="500" y="335" fill="#7f8c9a" textLength="10" lengthAdjust="spacingAndGlyphs">·</text>
-<text x="850" y="335" fill="#8fbdff" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="860" y="335" fill="#8fbdff" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="870" y="335" fill="#8fbdff" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="880" y="335" fill="#8fbdff" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
+<text x="820" y="335" fill="#49566b" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="830" y="335" fill="#49566b" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="840" y="335" fill="#49566b" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
+<text x="850" y="335" fill="#49566b" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
 <text x="270" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⢿</text>
 <text x="280" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
 <text x="290" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⣄</text>
@@ -639,15 +640,14 @@
 <text x="370" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⡟</text>
 <text x="380" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
 <text x="400" y="355" fill="#50a3e9" textLength="10" lengthAdjust="spacingAndGlyphs">⠇</text>
-<text x="520" y="355" fill="#7f8c9a" textLength="10" lengthAdjust="spacingAndGlyphs">·</text>
-<text x="740" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="750" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="760" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="770" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
-<text x="790" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="800" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="810" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="820" y="355" fill="#8f9ba6" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
+<text x="710" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="720" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="730" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
+<text x="740" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
+<text x="760" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
+<text x="770" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="780" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
+<text x="790" y="355" fill="#313e57" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
 <text x="270" y="375" fill="#449ee5" textLength="10" lengthAdjust="spacingAndGlyphs">⠘</text>
 <text x="280" y="375" fill="#449ee5" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>
 <text x="290" y="375" fill="#449ee5" textLength="10" lengthAdjust="spacingAndGlyphs">⣿</text>

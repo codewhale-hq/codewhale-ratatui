@@ -1,7 +1,8 @@
 use std::time::Duration;
 
 use codewhale_ratatui::{
-    BubbleField, FishSchool, Habitat, HabitatDensity, Jellyfish, MotionMode, Paint, Role,
+    BubbleField, DistantWhale, FishSchool, Habitat, HabitatDensity, Jellyfish, MarineSnow,
+    MotionMode, Paint, Role, Shoal,
     testing::{Frame, Profile, assert_frames_keep_the_rules, frames_for, render, text},
 };
 use ratatui::{buffer::Buffer, layout::Rect};
@@ -20,7 +21,7 @@ fn density_is_bounded_and_a_school_retains_all_its_members() {
     for (density, count) in [
         (HabitatDensity::Sparse, 3),
         (HabitatDensity::Normal, 5),
-        (HabitatDensity::Rich, 7),
+        (HabitatDensity::Rich, 6),
     ] {
         let fish = FishSchool::new(Duration::ZERO, MotionMode::Full).density(density);
         let buf = render(96, 14, |area, buf| fish.paint(area, buf, &theme));
@@ -102,6 +103,9 @@ fn visitors_are_rare_unless_the_host_holds_a_visit_open() {
         Habitat::new(elapsed, MotionMode::Full)
             .fish(false)
             .bubbles(false)
+            .shoal(false)
+            .snow(false)
+            .whale(false)
             .hold_jellyfish_visit(true)
             .paint(area, buf, &theme)
     });
@@ -127,6 +131,9 @@ fn filled_blank_overlays_are_protected_by_geometry_and_clearance() {
             Habitat::new(Duration::ZERO, MotionMode::Full)
                 .fish(false)
                 .bubbles(false)
+                .shoal(false)
+                .snow(false)
+                .whale(false)
                 .hold_jellyfish_visit(true)
                 .paint(area, buf, &theme);
         });
@@ -137,6 +144,9 @@ fn filled_blank_overlays_are_protected_by_geometry_and_clearance() {
         Habitat::new(Duration::ZERO, MotionMode::Full)
             .fish(false)
             .bubbles(false)
+            .shoal(false)
+            .snow(false)
+            .whale(false)
             .hold_jellyfish_visit(true)
             .exclude_rect(Rect::new(90, 24, 12, 2))
             .paint(protected.area, &mut protected, &theme);
@@ -265,4 +275,68 @@ fn tiny_partial_and_saturated_buffer_edges_are_bounded() {
             }
         }
     }
+}
+
+#[test]
+fn the_full_ocean_keeps_clear_of_text_and_its_new_creatures_appear() {
+    let theme = Profile::DarkTrue.theme();
+    let line = "a line of prose the ocean must never touch";
+    let mut painted_any = false;
+    for ms in [0u64, 13_000, 40_000, 90_000] {
+        let elapsed = Duration::from_millis(ms);
+        let mut buf = Buffer::empty(Rect::new(0, 0, 120, 32));
+        for row in [4u16, 5, 18] {
+            buf.set_stringn(2, row, line, 60, theme.fg(Role::Foreground));
+        }
+        let before = buf.clone();
+        Habitat::new(elapsed, MotionMode::Full)
+            .density(HabitatDensity::Rich)
+            .paint(buf.area, &mut buf, &theme);
+        for y in 0..buf.area.height {
+            for x in 0..buf.area.width {
+                if buf[(x, y)] == before[(x, y)] {
+                    continue;
+                }
+                painted_any = true;
+                for (dx, dy) in (-2i32..=2).flat_map(|dx| (-1i32..=1).map(move |dy| (dx, dy))) {
+                    let (nx, ny) = (i32::from(x) + dx, i32::from(y) + dy);
+                    if nx < 0 || ny < 0 || nx >= 120 || ny >= 32 {
+                        continue;
+                    }
+                    assert_eq!(
+                        before[(nx as u16, ny as u16)].symbol(),
+                        " ",
+                        "life at ({x}, {y}) touches text at {ms} ms:\n{}",
+                        text(&buf)
+                    );
+                }
+            }
+        }
+    }
+    assert!(painted_any);
+
+    let shown = |paint: &dyn Fn(Rect, &mut Buffer)| {
+        let buf = render(120, 32, |area, buf| paint(area, buf));
+        text(&buf)
+            .chars()
+            .any(|ch| ('\u{2801}'..='\u{28ff}').contains(&ch))
+    };
+    let t = Duration::from_millis(20_000);
+    assert!(shown(
+        &|a, b| Shoal::new(t, MotionMode::Full).paint(a, b, &theme)
+    ));
+    assert!(shown(
+        &|a, b| MarineSnow::new(t, MotionMode::Full).paint(a, b, &theme)
+    ));
+    assert!(shown(
+        &|a, b| DistantWhale::new(t, MotionMode::Full).paint(a, b, &theme)
+    ));
+    assert!(!shown(&|a, b| {
+        DistantWhale::new(t, MotionMode::Reduced).paint(a, b, &theme)
+    }));
+    assert!(!shown(&|a, b| {
+        MarineSnow::new(t, MotionMode::Full)
+            .presence(0.0)
+            .paint(a, b, &theme)
+    }));
 }

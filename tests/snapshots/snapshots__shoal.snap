@@ -1,0 +1,263 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..72 bg=Background
+r5 c0..72 bg=Background
+r6 c0..32 bg=Background
+r6 c32..35 fg=#151b2b bg=Background
+r6 c35..41 bg=Background
+r6 c41..44 fg=#202636 bg=Background
+r6 c44..72 bg=Background
+r7 c0..52 bg=Background
+r7 c52..55 fg=#2a3141 bg=Background
+r7 c55..72 bg=Background
+r8 c0..36 bg=Background
+r8 c36..39 fg=#151b2b bg=Background
+r8 c39..47 bg=Background
+r8 c47..50 fg=#2a3141 bg=Background
+r8 c50..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== dark-graphite
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..72 bg=Background
+r5 c0..72 bg=Background
+r6 c0..32 bg=Background
+r6 c32..35 fg=#181c20 bg=Background
+r6 c35..41 bg=Background
+r6 c41..44 fg=#22272d bg=Background
+r6 c44..72 bg=Background
+r7 c0..52 bg=Background
+r7 c52..55 fg=#2c3239 bg=Background
+r7 c55..72 bg=Background
+r8 c0..36 bg=Background
+r8 c36..39 fg=#181c20 bg=Background
+r8 c39..47 bg=Background
+r8 c47..50 fg=#2c3239 bg=Background
+r8 c50..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== light-truecolor
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..72 bg=Background
+r5 c0..72 bg=Background
+r6 c0..32 bg=Background
+r6 c32..35 fg=#dbe0e5 bg=Background
+r6 c35..41 bg=Background
+r6 c41..44 fg=#d1d6db bg=Background
+r6 c44..72 bg=Background
+r7 c0..52 bg=Background
+r7 c52..55 fg=#c6cbd1 bg=Background
+r7 c55..72 bg=Background
+r8 c0..36 bg=Background
+r8 c36..39 fg=#dbe0e5 bg=Background
+r8 c39..47 bg=Background
+r8 c47..50 fg=#c6cbd1 bg=Background
+r8 c50..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== dark-256
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r0 c0..72 bg=Background|Surface
+r1 c0..72 bg=Background|Surface
+r2 c0..72 bg=Background|Surface
+r3 c0..72 bg=Background|Surface
+r4 c0..72 bg=Background|Surface
+r5 c0..72 bg=Background|Surface
+r6 c0..32 bg=Background|Surface
+r6 c32..35 fg=Dim bg=Background|Surface
+r6 c35..41 bg=Background|Surface
+r6 c41..44 fg=Dim bg=Background|Surface
+r6 c44..72 bg=Background|Surface
+r7 c0..52 bg=Background|Surface
+r7 c52..55 fg=Dim bg=Background|Surface
+r7 c55..72 bg=Background|Surface
+r8 c0..36 bg=Background|Surface
+r8 c36..39 fg=Dim bg=Background|Surface
+r8 c39..47 bg=Background|Surface
+r8 c47..50 fg=Dim bg=Background|Surface
+r8 c50..72 bg=Background|Surface
+r9 c0..72 bg=Background|Surface
+r10 c0..72 bg=Background|Surface
+r11 c0..72 bg=Background|Surface
+
+== light-256
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..72 bg=Background
+r5 c0..72 bg=Background
+r6 c0..32 bg=Background
+r6 c32..35 fg=Dim bg=Background
+r6 c35..41 bg=Background
+r6 c41..44 fg=Dim bg=Background
+r6 c44..72 bg=Background
+r7 c0..52 bg=Background
+r7 c52..55 fg=Dim bg=Background
+r7 c55..72 bg=Background
+r8 c0..36 bg=Background
+r8 c36..39 fg=Dim bg=Background
+r8 c39..47 bg=Background
+r8 c47..50 fg=Dim bg=Background
+r8 c50..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== ansi-16
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r6 c32..35 dim
+r6 c41..44 dim
+r7 c52..55 dim
+r8 c36..39 dim
+r8 c47..50 dim
+
+== unknown-ground
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r6 c32..35 dim
+r6 c41..44 dim
+r7 c52..55 dim
+r8 c36..39 dim
+r8 c47..50 dim
+
+== no-color
+
+
+
+
+
+
+                                ⢴⢔⠄      ⢴⢔⠄
+                                                    ⠺⠪⠂
+                                    ⠐⠗⠪        ⠐⠗⠪
+
+
+
+---
+r6 c32..35 dim
+r6 c41..44 dim
+r7 c52..55 dim
+r8 c36..39 dim
+r8 c47..50 dim
+
+== ascii
+
+
+
+
+
+
+
+
+
+
+
+
+---

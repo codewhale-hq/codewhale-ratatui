@@ -109,8 +109,10 @@ The monochrome packed geometry remains an independent conformance oracle.
 The studio paints the character after the water, using the optional
 `paint_with_contrast` floor of 3:1 for decorative ink. It mixes only insufficient
 inks toward the theme foreground; ordinary `paint` retains native ink exactly.
-Fish, rare jellyfish and bubbles occupy open water around text; their bounded
-populations and caller-clock motion settle under reduced or still policies.
+Fish, a far shoal, a rare jellyfish, marine snow, bubbles and a distant whale
+occupy open water around text at a low glow lifted from the water itself;
+their bounded populations and caller-clock motion settle under reduced or
+still policies.
 
 ## Host boundaries and verification
 

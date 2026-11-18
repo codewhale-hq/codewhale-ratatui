@@ -144,7 +144,7 @@ the chosen row; your app performs its action.
 | Show a decision or a result | `ApprovalCard`, `Receipt`, `Diff`, `Transcript` | [showcase](examples/showcase.rs), [component guide](COMPONENTS.md) |
 | Add Codewhale's background | `Theme::tui`, `TuiPalette`, `OceanColumn` | recipes F3 |
 | Add a still or animated whale | `Whale`, `WhaleState`, `whale_motion::Stage` | recipes F4/F5 |
-| Add fish, jellyfish and bubbles | `Habitat`, `FishSchool`, `Jellyfish`, `BubbleField` | [habitat](examples/habitat.rs) |
+| Add an ocean: fish, shoal, jellyfish, snow, bubbles, a distant whale | `Habitat` and its parts | [habitat](examples/habitat.rs) |
 | Show work in progress | `Spinner`, `VerificationSpinner`, `MotionSet`, `FrameBudget` | [motion](examples/motion.rs) |
 | Add the native animated whale and cove | `WhalePet`, `Stage` | [pet](examples/pet.rs) |
 | Compose the full pet work surface | `PetMode`, `PetModeState` | [pet mode](examples/pet_mode.rs) |

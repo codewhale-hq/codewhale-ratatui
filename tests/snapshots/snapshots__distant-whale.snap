@@ -1,0 +1,237 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..60 bg=Background
+r4 c60..70 fg=#151b2b bg=Background
+r4 c70..72 bg=Background
+r5 c0..60 bg=Background
+r5 c60..70 fg=#151b2b bg=Background
+r5 c70..72 bg=Background
+r6 c0..60 bg=Background
+r6 c60..70 fg=#151b2b bg=Background
+r6 c70..72 bg=Background
+r7 c0..72 bg=Background
+r8 c0..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== dark-graphite
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..60 bg=Background
+r4 c60..70 fg=#181c20 bg=Background
+r4 c70..72 bg=Background
+r5 c0..60 bg=Background
+r5 c60..70 fg=#181c20 bg=Background
+r5 c70..72 bg=Background
+r6 c0..60 bg=Background
+r6 c60..70 fg=#181c20 bg=Background
+r6 c70..72 bg=Background
+r7 c0..72 bg=Background
+r8 c0..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== light-truecolor
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..60 bg=Background
+r4 c60..70 fg=#dbe0e5 bg=Background
+r4 c70..72 bg=Background
+r5 c0..60 bg=Background
+r5 c60..70 fg=#dbe0e5 bg=Background
+r5 c70..72 bg=Background
+r6 c0..60 bg=Background
+r6 c60..70 fg=#dbe0e5 bg=Background
+r6 c70..72 bg=Background
+r7 c0..72 bg=Background
+r8 c0..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== dark-256
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r0 c0..72 bg=Background|Surface
+r1 c0..72 bg=Background|Surface
+r2 c0..72 bg=Background|Surface
+r3 c0..72 bg=Background|Surface
+r4 c0..60 bg=Background|Surface
+r4 c60..70 fg=Dim bg=Background|Surface
+r4 c70..72 bg=Background|Surface
+r5 c0..60 bg=Background|Surface
+r5 c60..70 fg=Dim bg=Background|Surface
+r5 c70..72 bg=Background|Surface
+r6 c0..60 bg=Background|Surface
+r6 c60..70 fg=Dim bg=Background|Surface
+r6 c70..72 bg=Background|Surface
+r7 c0..72 bg=Background|Surface
+r8 c0..72 bg=Background|Surface
+r9 c0..72 bg=Background|Surface
+r10 c0..72 bg=Background|Surface
+r11 c0..72 bg=Background|Surface
+
+== light-256
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r0 c0..72 bg=Background
+r1 c0..72 bg=Background
+r2 c0..72 bg=Background
+r3 c0..72 bg=Background
+r4 c0..60 bg=Background
+r4 c60..70 fg=Dim bg=Background
+r4 c70..72 bg=Background
+r5 c0..60 bg=Background
+r5 c60..70 fg=Dim bg=Background
+r5 c70..72 bg=Background
+r6 c0..60 bg=Background
+r6 c60..70 fg=Dim bg=Background
+r6 c70..72 bg=Background
+r7 c0..72 bg=Background
+r8 c0..72 bg=Background
+r9 c0..72 bg=Background
+r10 c0..72 bg=Background
+r11 c0..72 bg=Background
+
+== ansi-16
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r4 c60..70 dim
+r5 c60..70 dim
+r6 c60..70 dim
+
+== unknown-ground
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r4 c60..70 dim
+r5 c60..70 dim
+r6 c60..70 dim
+
+== no-color
+
+
+
+
+
+                                                            ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+                                                            ⠑⠒⠒⠶⠒⠒⠂
+
+
+
+
+
+---
+r4 c60..70 dim
+r5 c60..70 dim
+r6 c60..70 dim
+
+== ascii
+
+
+
+
+
+
+
+
+
+
+
+
+---

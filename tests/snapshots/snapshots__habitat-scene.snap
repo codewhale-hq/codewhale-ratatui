@@ -1,45 +1,46 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..98 bg=Background
 r0 c98..112 fg=Muted bg=Background
 r1 c0..112 bg=Background
-r2 c0..112 bg=Background
+r2 c0..73 bg=Background
+r2 c73..74 fg=#151b2b bg=Background
+r2 c74..112 bg=Background
 r3 c0..112 bg=Background
 r4 c0..2 bg=Background
 r4 c2..3 fg=Foreground bg=Background
@@ -48,8 +49,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -58,11 +59,14 @@ r6 c48..59 fg=#78b4f7 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#71b1f5 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#69aef2 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#69aef2 bg=Background
@@ -95,97 +99,104 @@ r14 c47..59 fg=#3c9be2 bg=Background
 r14 c59..61 bg=Background
 r14 c61..64 fg=#3c9be2 bg=Background
 r14 c64..112 bg=Background
-r15 c0..51 bg=Background
+r15 c0..30 bg=Background
+r15 c30..31 fg=#202636 bg=Background
+r15 c31..51 bg=Background
 r15 c51..62 fg=#3598e0 bg=Background
-r15 c62..112 bg=Background
+r15 c62..79 bg=Background
+r15 c79..80 fg=#151b2b bg=Background
+r15 c80..112 bg=Background
 r16 c0..112 bg=Background
-r17 c0..112 bg=Background
-r18 c0..112 bg=Background
+r17 c0..32 bg=Background
+r17 c32..35 fg=#151b2b bg=Background
+r17 c35..112 bg=Background
+r18 c0..36 bg=Background
+r18 c36..39 fg=#151b2b bg=Background
+r18 c39..41 bg=Background
+r18 c41..44 fg=#202636 bg=Background
+r18 c44..112 bg=Background
 r19 c0..51 bg=Background
 r19 c51..52 fg=Muted bg=Background
 r19 c52..53 bg=Background
 r19 c53..60 fg=Foreground bg=Background
 r19 c60..112 bg=Background
 r20 c0..112 bg=Background
-r21 c0..93 bg=Background
-r21 c93..98 fg=Hint bg=Background
-r21 c98..112 bg=Background
-r22 c0..93 bg=Background
-r22 c93..98 fg=Dim bg=Background
-r22 c98..112 bg=Background
-r23 c0..93 bg=Background
-r23 c93..98 fg=Dim bg=Background
-r23 c98..112 bg=Background
-r24 c0..112 bg=Background
-r25 c0..16 bg=Background
-r25 c16..17 fg=Dim bg=Background
-r25 c17..78 bg=Background
-r25 c78..79 fg=Dim bg=Background
-r25 c79..90 bg=Background
-r25 c90..91 fg=Dim bg=Background
-r25 c91..112 bg=Background
-r26 c0..3 bg=Background
-r26 c3..4 fg=Dim bg=Background
-r26 c4..49 bg=Background
-r26 c49..53 fg=Hint bg=Background
-r26 c53..57 bg=Background
-r26 c57..61 fg=Hint bg=Background
-r26 c61..62 bg=Background
-r26 c62..66 fg=Hint bg=Background
-r26 c66..112 bg=Background
-r27 c0..52 bg=Background
-r27 c52..56 fg=Hint bg=Background
-r27 c56..66 bg=Background
-r27 c66..70 fg=Accent bg=Background
-r27 c70..82 bg=Background
-r27 c82..83 fg=Dim bg=Background
-r27 c83..112 bg=Background
-r28 c0..4 bg=Background
-r28 c4..5 fg=Dim bg=Background
-r28 c5..55 bg=Background
-r28 c55..59 fg=Hint bg=Background
-r28 c59..60 bg=Background
-r28 c60..64 fg=Hint bg=Background
-r28 c64..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..81 bg=Background
+r22 c81..91 fg=#151b2b bg=Background
+r22 c91..112 bg=Background
+r23 c0..81 bg=Background
+r23 c81..91 fg=#151b2b bg=Background
+r23 c91..112 bg=Background
+r24 c0..1 bg=Background
+r24 c1..2 fg=#0b0f20 bg=Background
+r24 c2..51 bg=Background
+r24 c51..52 fg=#151b2b bg=Background
+r24 c52..81 bg=Background
+r24 c81..91 fg=#151b2b bg=Background
+r24 c91..112 bg=Background
+r25 c0..91 bg=Background
+r25 c91..92 fg=#2a3141 bg=Background
+r25 c92..112 bg=Background
+r26 c0..48 bg=Background
+r26 c48..49 fg=#202636 bg=Background
+r26 c49..104 bg=Background
+r26 c104..108 fg=#535c6a bg=Background
+r26 c108..112 bg=Background
+r27 c0..55 bg=Background
+r27 c55..56 fg=#151b2b bg=Background
+r27 c56..99 bg=Background
+r27 c99..103 fg=#535c6a bg=Background
+r27 c103..112 bg=Background
+r28 c0..5 bg=Background
+r28 c5..6 fg=#202636 bg=Background
+r28 c6..10 bg=Background
+r28 c10..11 fg=#151b2b bg=Background
+r28 c11..102 bg=Background
+r28 c102..106 fg=#535c6a bg=Background
+r28 c106..108 bg=Background
+r28 c108..112 fg=#48505e bg=Background
 r29 c0..112 bg=Background
 
 == dark-graphite
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..98 bg=Background
 r0 c98..112 fg=Muted bg=Background
 r1 c0..112 bg=Background
-r2 c0..112 bg=Background
+r2 c0..73 bg=Background
+r2 c73..74 fg=#181c20 bg=Background
+r2 c74..112 bg=Background
 r3 c0..112 bg=Background
 r4 c0..2 bg=Background
 r4 c2..3 fg=Foreground bg=Background
@@ -194,8 +205,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -204,11 +215,14 @@ r6 c48..59 fg=#78b4f7 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#71b1f5 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#69aef2 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#69aef2 bg=Background
@@ -241,97 +255,104 @@ r14 c47..59 fg=#3c9be2 bg=Background
 r14 c59..61 bg=Background
 r14 c61..64 fg=#3c9be2 bg=Background
 r14 c64..112 bg=Background
-r15 c0..51 bg=Background
+r15 c0..30 bg=Background
+r15 c30..31 fg=#22272d bg=Background
+r15 c31..51 bg=Background
 r15 c51..62 fg=#3598e0 bg=Background
-r15 c62..112 bg=Background
+r15 c62..79 bg=Background
+r15 c79..80 fg=#181c20 bg=Background
+r15 c80..112 bg=Background
 r16 c0..112 bg=Background
-r17 c0..112 bg=Background
-r18 c0..112 bg=Background
+r17 c0..32 bg=Background
+r17 c32..35 fg=#181c20 bg=Background
+r17 c35..112 bg=Background
+r18 c0..36 bg=Background
+r18 c36..39 fg=#181c20 bg=Background
+r18 c39..41 bg=Background
+r18 c41..44 fg=#22272d bg=Background
+r18 c44..112 bg=Background
 r19 c0..51 bg=Background
 r19 c51..52 fg=Muted bg=Background
 r19 c52..53 bg=Background
 r19 c53..60 fg=Foreground bg=Background
 r19 c60..112 bg=Background
 r20 c0..112 bg=Background
-r21 c0..93 bg=Background
-r21 c93..98 fg=Hint bg=Background
-r21 c98..112 bg=Background
-r22 c0..93 bg=Background
-r22 c93..98 fg=Dim bg=Background
-r22 c98..112 bg=Background
-r23 c0..93 bg=Background
-r23 c93..98 fg=Dim bg=Background
-r23 c98..112 bg=Background
-r24 c0..112 bg=Background
-r25 c0..16 bg=Background
-r25 c16..17 fg=Dim bg=Background
-r25 c17..78 bg=Background
-r25 c78..79 fg=Dim bg=Background
-r25 c79..90 bg=Background
-r25 c90..91 fg=Dim bg=Background
-r25 c91..112 bg=Background
-r26 c0..3 bg=Background
-r26 c3..4 fg=Dim bg=Background
-r26 c4..49 bg=Background
-r26 c49..53 fg=Hint bg=Background
-r26 c53..57 bg=Background
-r26 c57..61 fg=Hint bg=Background
-r26 c61..62 bg=Background
-r26 c62..66 fg=Hint bg=Background
-r26 c66..112 bg=Background
-r27 c0..52 bg=Background
-r27 c52..56 fg=Hint bg=Background
-r27 c56..66 bg=Background
-r27 c66..70 fg=Accent bg=Background
-r27 c70..82 bg=Background
-r27 c82..83 fg=Dim bg=Background
-r27 c83..112 bg=Background
-r28 c0..4 bg=Background
-r28 c4..5 fg=Dim bg=Background
-r28 c5..55 bg=Background
-r28 c55..59 fg=Hint bg=Background
-r28 c59..60 bg=Background
-r28 c60..64 fg=Hint bg=Background
-r28 c64..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..81 bg=Background
+r22 c81..91 fg=#181c20 bg=Background
+r22 c91..112 bg=Background
+r23 c0..81 bg=Background
+r23 c81..91 fg=#181c20 bg=Background
+r23 c91..112 bg=Background
+r24 c0..1 bg=Background
+r24 c1..2 fg=#0d1014 bg=Background
+r24 c2..51 bg=Background
+r24 c51..52 fg=#181c20 bg=Background
+r24 c52..81 bg=Background
+r24 c81..91 fg=#181c20 bg=Background
+r24 c91..112 bg=Background
+r25 c0..91 bg=Background
+r25 c91..92 fg=#2c3239 bg=Background
+r25 c92..112 bg=Background
+r26 c0..48 bg=Background
+r26 c48..49 fg=#22272d bg=Background
+r26 c49..104 bg=Background
+r26 c104..108 fg=#555d64 bg=Background
+r26 c108..112 bg=Background
+r27 c0..55 bg=Background
+r27 c55..56 fg=#181c20 bg=Background
+r27 c56..99 bg=Background
+r27 c99..103 fg=#555d64 bg=Background
+r27 c103..112 bg=Background
+r28 c0..5 bg=Background
+r28 c5..6 fg=#22272d bg=Background
+r28 c6..10 bg=Background
+r28 c10..11 fg=#181c20 bg=Background
+r28 c11..102 bg=Background
+r28 c102..106 fg=#555d64 bg=Background
+r28 c106..108 bg=Background
+r28 c108..112 fg=#495057 bg=Background
 r29 c0..112 bg=Background
 
 == light-truecolor
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..98 bg=Background
 r0 c98..112 fg=Muted bg=Background
 r1 c0..112 bg=Background
-r2 c0..112 bg=Background
+r2 c0..73 bg=Background
+r2 c73..74 fg=#dbe0e5 bg=Background
+r2 c74..112 bg=Background
 r3 c0..112 bg=Background
 r4 c0..2 bg=Background
 r4 c2..3 fg=Foreground bg=Background
@@ -340,8 +361,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -350,11 +371,14 @@ r6 c48..59 fg=#1a81d2 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#197cd0 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#1877ce bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#1877ce bg=Background
@@ -387,97 +411,104 @@ r14 c47..59 fg=#105bc3 bg=Background
 r14 c59..61 bg=Background
 r14 c61..64 fg=#105bc3 bg=Background
 r14 c64..112 bg=Background
-r15 c0..51 bg=Background
+r15 c0..30 bg=Background
+r15 c30..31 fg=#d1d6db bg=Background
+r15 c31..51 bg=Background
 r15 c51..62 fg=#0f56c1 bg=Background
-r15 c62..112 bg=Background
+r15 c62..79 bg=Background
+r15 c79..80 fg=#dbe0e5 bg=Background
+r15 c80..112 bg=Background
 r16 c0..112 bg=Background
-r17 c0..112 bg=Background
-r18 c0..112 bg=Background
+r17 c0..32 bg=Background
+r17 c32..35 fg=#dbe0e5 bg=Background
+r17 c35..112 bg=Background
+r18 c0..36 bg=Background
+r18 c36..39 fg=#dbe0e5 bg=Background
+r18 c39..41 bg=Background
+r18 c41..44 fg=#d1d6db bg=Background
+r18 c44..112 bg=Background
 r19 c0..51 bg=Background
 r19 c51..52 fg=Muted bg=Background
 r19 c52..53 bg=Background
 r19 c53..60 fg=Foreground bg=Background
 r19 c60..112 bg=Background
 r20 c0..112 bg=Background
-r21 c0..93 bg=Background
-r21 c93..98 fg=Hint bg=Background
-r21 c98..112 bg=Background
-r22 c0..93 bg=Background
-r22 c93..98 fg=Dim bg=Background
-r22 c98..112 bg=Background
-r23 c0..93 bg=Background
-r23 c93..98 fg=Dim bg=Background
-r23 c98..112 bg=Background
-r24 c0..112 bg=Background
-r25 c0..16 bg=Background
-r25 c16..17 fg=Dim bg=Background
-r25 c17..78 bg=Background
-r25 c78..79 fg=Dim bg=Background
-r25 c79..90 bg=Background
-r25 c90..91 fg=Dim bg=Background
-r25 c91..112 bg=Background
-r26 c0..3 bg=Background
-r26 c3..4 fg=Dim bg=Background
-r26 c4..49 bg=Background
-r26 c49..53 fg=Hint bg=Background
-r26 c53..57 bg=Background
-r26 c57..61 fg=Hint bg=Background
-r26 c61..62 bg=Background
-r26 c62..66 fg=Hint bg=Background
-r26 c66..112 bg=Background
-r27 c0..52 bg=Background
-r27 c52..56 fg=Hint bg=Background
-r27 c56..66 bg=Background
-r27 c66..70 fg=Accent bg=Background
-r27 c70..82 bg=Background
-r27 c82..83 fg=Dim bg=Background
-r27 c83..112 bg=Background
-r28 c0..4 bg=Background
-r28 c4..5 fg=Dim bg=Background
-r28 c5..55 bg=Background
-r28 c55..59 fg=Hint bg=Background
-r28 c59..60 bg=Background
-r28 c60..64 fg=Hint bg=Background
-r28 c64..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..81 bg=Background
+r22 c81..91 fg=#dbe0e5 bg=Background
+r22 c91..112 bg=Background
+r23 c0..81 bg=Background
+r23 c81..91 fg=#dbe0e5 bg=Background
+r23 c91..112 bg=Background
+r24 c0..1 bg=Background
+r24 c1..2 fg=#e6ebef bg=Background
+r24 c2..51 bg=Background
+r24 c51..52 fg=#dbe0e5 bg=Background
+r24 c52..81 bg=Background
+r24 c81..91 fg=#dbe0e5 bg=Background
+r24 c91..112 bg=Background
+r25 c0..91 bg=Background
+r25 c91..92 fg=#c6cbd1 bg=Background
+r25 c92..112 bg=Background
+r26 c0..48 bg=Background
+r26 c48..49 fg=#d1d6db bg=Background
+r26 c49..104 bg=Background
+r26 c104..108 fg=#989fa6 bg=Background
+r26 c108..112 bg=Background
+r27 c0..55 bg=Background
+r27 c55..56 fg=#dbe0e5 bg=Background
+r27 c56..99 bg=Background
+r27 c99..103 fg=#989fa6 bg=Background
+r27 c103..112 bg=Background
+r28 c0..5 bg=Background
+r28 c5..6 fg=#d1d6db bg=Background
+r28 c6..10 bg=Background
+r28 c10..11 fg=#dbe0e5 bg=Background
+r28 c11..102 bg=Background
+r28 c102..106 fg=#989fa6 bg=Background
+r28 c106..108 bg=Background
+r28 c108..112 fg=#a5abb2 bg=Background
 r29 c0..112 bg=Background
 
 == dark-256
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 fg=Foreground bg=Background|Surface bold
 r0 c23..98 bg=Background|Surface
 r0 c98..112 fg=Muted bg=Background|Surface
 r1 c0..112 bg=Background|Surface
-r2 c0..112 bg=Background|Surface
+r2 c0..73 bg=Background|Surface
+r2 c73..74 fg=Dim bg=Background|Surface
+r2 c74..112 bg=Background|Surface
 r3 c0..112 bg=Background|Surface
 r4 c0..2 bg=Background|Surface
 r4 c2..3 fg=Foreground bg=Background|Surface
@@ -486,8 +517,8 @@ r4 c4..13 fg=Foreground bg=Background|Surface bold
 r4 c13..112 bg=Background|Surface
 r5 c0..2 bg=Background|Surface
 r5 c2..4 fg=Border bg=Background|Surface
-r5 c4..19 fg=Foreground bg=Background|Surface
-r5 c19..112 bg=Background|Surface
+r5 c4..32 fg=Foreground bg=Background|Surface
+r5 c32..112 bg=Background|Surface
 r6 c0..2 bg=Background|Surface
 r6 c2..4 fg=Border bg=Background|Surface
 r6 c4..27 fg=Foreground bg=Background|Surface
@@ -496,11 +527,14 @@ r6 c48..59 fg=Accent bg=Background|Surface
 r6 c59..112 bg=Background|Surface
 r7 c0..2 bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
-r7 c4..30 fg=Foreground bg=Background|Surface
-r7 c30..46 bg=Background|Surface
+r7 c4..29 fg=Foreground bg=Background|Surface
+r7 c29..46 bg=Background|Surface
 r7 c46..62 fg=idx75 bg=Background|Surface
 r7 c62..112 bg=Background|Surface
-r8 c0..45 bg=Background|Surface
+r8 c0..2 bg=Background|Surface
+r8 c2..4 fg=Border bg=Background|Surface
+r8 c4..10 fg=Foreground bg=Background|Surface
+r8 c10..45 bg=Background|Surface
 r8 c45..51 fg=idx75 bg=Background|Surface
 r8 c51..55 bg=Background|Surface
 r8 c55..61 fg=idx75 bg=Background|Surface
@@ -533,97 +567,104 @@ r14 c47..59 fg=idx68 bg=Background|Surface
 r14 c59..61 bg=Background|Surface
 r14 c61..64 fg=idx68 bg=Background|Surface
 r14 c64..112 bg=Background|Surface
-r15 c0..51 bg=Background|Surface
+r15 c0..30 bg=Background|Surface
+r15 c30..31 fg=Dim bg=Background|Surface
+r15 c31..51 bg=Background|Surface
 r15 c51..62 fg=idx68 bg=Background|Surface
-r15 c62..112 bg=Background|Surface
+r15 c62..79 bg=Background|Surface
+r15 c79..80 fg=Dim bg=Background|Surface
+r15 c80..112 bg=Background|Surface
 r16 c0..112 bg=Background|Surface
-r17 c0..112 bg=Background|Surface
-r18 c0..112 bg=Background|Surface
+r17 c0..32 bg=Background|Surface
+r17 c32..35 fg=Dim bg=Background|Surface
+r17 c35..112 bg=Background|Surface
+r18 c0..36 bg=Background|Surface
+r18 c36..39 fg=Dim bg=Background|Surface
+r18 c39..41 bg=Background|Surface
+r18 c41..44 fg=Dim bg=Background|Surface
+r18 c44..112 bg=Background|Surface
 r19 c0..51 bg=Background|Surface
 r19 c51..52 fg=Muted bg=Background|Surface
 r19 c52..53 bg=Background|Surface
 r19 c53..60 fg=Foreground bg=Background|Surface
 r19 c60..112 bg=Background|Surface
 r20 c0..112 bg=Background|Surface
-r21 c0..93 bg=Background|Surface
-r21 c93..98 fg=Hint bg=Background|Surface
-r21 c98..112 bg=Background|Surface
-r22 c0..93 bg=Background|Surface
-r22 c93..98 fg=Dim bg=Background|Surface
-r22 c98..112 bg=Background|Surface
-r23 c0..93 bg=Background|Surface
-r23 c93..98 fg=Dim bg=Background|Surface
-r23 c98..112 bg=Background|Surface
-r24 c0..112 bg=Background|Surface
-r25 c0..16 bg=Background|Surface
-r25 c16..17 fg=Dim bg=Background|Surface
-r25 c17..78 bg=Background|Surface
-r25 c78..79 fg=Dim bg=Background|Surface
-r25 c79..90 bg=Background|Surface
-r25 c90..91 fg=Dim bg=Background|Surface
-r25 c91..112 bg=Background|Surface
-r26 c0..3 bg=Background|Surface
-r26 c3..4 fg=Dim bg=Background|Surface
-r26 c4..49 bg=Background|Surface
-r26 c49..53 fg=Hint bg=Background|Surface
-r26 c53..57 bg=Background|Surface
-r26 c57..61 fg=Hint bg=Background|Surface
-r26 c61..62 bg=Background|Surface
-r26 c62..66 fg=Hint bg=Background|Surface
-r26 c66..112 bg=Background|Surface
-r27 c0..52 bg=Background|Surface
-r27 c52..56 fg=Hint bg=Background|Surface
-r27 c56..66 bg=Background|Surface
-r27 c66..70 fg=Accent bg=Background|Surface
-r27 c70..82 bg=Background|Surface
-r27 c82..83 fg=Dim bg=Background|Surface
-r27 c83..112 bg=Background|Surface
-r28 c0..4 bg=Background|Surface
-r28 c4..5 fg=Dim bg=Background|Surface
-r28 c5..55 bg=Background|Surface
-r28 c55..59 fg=Hint bg=Background|Surface
-r28 c59..60 bg=Background|Surface
-r28 c60..64 fg=Hint bg=Background|Surface
-r28 c64..112 bg=Background|Surface
+r21 c0..112 bg=Background|Surface
+r22 c0..81 bg=Background|Surface
+r22 c81..91 fg=Dim bg=Background|Surface
+r22 c91..112 bg=Background|Surface
+r23 c0..81 bg=Background|Surface
+r23 c81..91 fg=Dim bg=Background|Surface
+r23 c91..112 bg=Background|Surface
+r24 c0..1 bg=Background|Surface
+r24 c1..2 fg=Dim bg=Background|Surface
+r24 c2..51 bg=Background|Surface
+r24 c51..52 fg=Dim bg=Background|Surface
+r24 c52..81 bg=Background|Surface
+r24 c81..91 fg=Dim bg=Background|Surface
+r24 c91..112 bg=Background|Surface
+r25 c0..91 bg=Background|Surface
+r25 c91..92 fg=Dim bg=Background|Surface
+r25 c92..112 bg=Background|Surface
+r26 c0..48 bg=Background|Surface
+r26 c48..49 fg=Dim bg=Background|Surface
+r26 c49..104 bg=Background|Surface
+r26 c104..108 fg=Hint bg=Background|Surface
+r26 c108..112 bg=Background|Surface
+r27 c0..55 bg=Background|Surface
+r27 c55..56 fg=Dim bg=Background|Surface
+r27 c56..99 bg=Background|Surface
+r27 c99..103 fg=Hint bg=Background|Surface
+r27 c103..112 bg=Background|Surface
+r28 c0..5 bg=Background|Surface
+r28 c5..6 fg=Dim bg=Background|Surface
+r28 c6..10 bg=Background|Surface
+r28 c10..11 fg=Dim bg=Background|Surface
+r28 c11..102 bg=Background|Surface
+r28 c102..106 fg=Hint bg=Background|Surface
+r28 c106..108 bg=Background|Surface
+r28 c108..112 fg=Hint bg=Background|Surface
 r29 c0..112 bg=Background|Surface
 
 == light-256
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..98 bg=Background
 r0 c98..112 fg=Muted bg=Background
 r1 c0..112 bg=Background
-r2 c0..112 bg=Background
+r2 c0..73 bg=Background
+r2 c73..74 fg=Dim bg=Background
+r2 c74..112 bg=Background
 r3 c0..112 bg=Background
 r4 c0..2 bg=Background
 r4 c2..3 fg=Foreground bg=Background
@@ -632,8 +673,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -642,11 +683,14 @@ r6 c48..59 fg=idx32 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=idx32 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=idx32 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=idx32 bg=Background
@@ -679,100 +723,107 @@ r14 c47..59 fg=Accent bg=Background
 r14 c59..61 bg=Background
 r14 c61..64 fg=Accent bg=Background
 r14 c64..112 bg=Background
-r15 c0..51 bg=Background
+r15 c0..30 bg=Background
+r15 c30..31 fg=Dim bg=Background
+r15 c31..51 bg=Background
 r15 c51..62 fg=Accent bg=Background
-r15 c62..112 bg=Background
+r15 c62..79 bg=Background
+r15 c79..80 fg=Dim bg=Background
+r15 c80..112 bg=Background
 r16 c0..112 bg=Background
-r17 c0..112 bg=Background
-r18 c0..112 bg=Background
+r17 c0..32 bg=Background
+r17 c32..35 fg=Dim bg=Background
+r17 c35..112 bg=Background
+r18 c0..36 bg=Background
+r18 c36..39 fg=Dim bg=Background
+r18 c39..41 bg=Background
+r18 c41..44 fg=Dim bg=Background
+r18 c44..112 bg=Background
 r19 c0..51 bg=Background
 r19 c51..52 fg=Muted bg=Background
 r19 c52..53 bg=Background
 r19 c53..60 fg=Foreground bg=Background
 r19 c60..112 bg=Background
 r20 c0..112 bg=Background
-r21 c0..93 bg=Background
-r21 c93..98 fg=Hint bg=Background
-r21 c98..112 bg=Background
-r22 c0..93 bg=Background
-r22 c93..98 fg=Dim bg=Background
-r22 c98..112 bg=Background
-r23 c0..93 bg=Background
-r23 c93..98 fg=Dim bg=Background
-r23 c98..112 bg=Background
-r24 c0..112 bg=Background
-r25 c0..16 bg=Background
-r25 c16..17 fg=Dim bg=Background
-r25 c17..78 bg=Background
-r25 c78..79 fg=Dim bg=Background
-r25 c79..90 bg=Background
-r25 c90..91 fg=Dim bg=Background
-r25 c91..112 bg=Background
-r26 c0..3 bg=Background
-r26 c3..4 fg=Dim bg=Background
-r26 c4..49 bg=Background
-r26 c49..53 fg=Hint bg=Background
-r26 c53..57 bg=Background
-r26 c57..61 fg=Hint bg=Background
-r26 c61..62 bg=Background
-r26 c62..66 fg=Hint bg=Background
-r26 c66..112 bg=Background
-r27 c0..52 bg=Background
-r27 c52..56 fg=Hint bg=Background
-r27 c56..66 bg=Background
-r27 c66..70 fg=Accent bg=Background
-r27 c70..82 bg=Background
-r27 c82..83 fg=Dim bg=Background
-r27 c83..112 bg=Background
-r28 c0..4 bg=Background
-r28 c4..5 fg=Dim bg=Background
-r28 c5..55 bg=Background
-r28 c55..59 fg=Hint bg=Background
-r28 c59..60 bg=Background
-r28 c60..64 fg=Hint bg=Background
-r28 c64..112 bg=Background
+r21 c0..112 bg=Background
+r22 c0..81 bg=Background
+r22 c81..91 fg=Dim bg=Background
+r22 c91..112 bg=Background
+r23 c0..81 bg=Background
+r23 c81..91 fg=Dim bg=Background
+r23 c91..112 bg=Background
+r24 c0..1 bg=Background
+r24 c1..2 fg=Dim bg=Background
+r24 c2..51 bg=Background
+r24 c51..52 fg=Dim bg=Background
+r24 c52..81 bg=Background
+r24 c81..91 fg=Dim bg=Background
+r24 c91..112 bg=Background
+r25 c0..91 bg=Background
+r25 c91..92 fg=Dim bg=Background
+r25 c92..112 bg=Background
+r26 c0..48 bg=Background
+r26 c48..49 fg=Dim bg=Background
+r26 c49..104 bg=Background
+r26 c104..108 fg=Hint bg=Background
+r26 c108..112 bg=Background
+r27 c0..55 bg=Background
+r27 c55..56 fg=Dim bg=Background
+r27 c56..99 bg=Background
+r27 c99..103 fg=Hint bg=Background
+r27 c103..112 bg=Background
+r28 c0..5 bg=Background
+r28 c5..6 fg=Dim bg=Background
+r28 c6..10 bg=Background
+r28 c10..11 fg=Dim bg=Background
+r28 c11..102 bg=Background
+r28 c102..106 fg=Hint bg=Background
+r28 c106..108 bg=Background
+r28 c108..112 fg=Hint bg=Background
 r29 c0..112 bg=Background
 
 == ansi-16
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 bold
 r0 c98..112 dim
+r2 c73..74 dim
 r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r6 c48..59 fg=Accent
 r7 c2..4 dim
 r7 c46..62 fg=Accent
+r8 c2..4 dim
 r8 c45..51 fg=Accent
 r8 c55..61 fg=Accent
 r9 c45..49 fg=Accent
@@ -786,65 +837,70 @@ r13 c46..61 fg=Accent
 r13 c64..66 fg=Accent
 r14 c47..59 fg=Accent
 r14 c61..64 fg=Accent
+r15 c30..31 dim
 r15 c51..62 fg=Accent
+r15 c79..80 dim
+r17 c32..35 dim
+r18 c36..39 dim
+r18 c41..44 dim
 r19 c51..52 dim
-r21 c93..98 dim
-r22 c93..98 dim
-r23 c93..98 dim
-r25 c16..17 dim
-r25 c78..79 dim
-r25 c90..91 dim
-r26 c3..4 dim
-r26 c49..53 dim
-r26 c57..61 dim
-r26 c62..66 dim
-r27 c52..56 dim
-r27 c66..70 fg=Accent
-r27 c82..83 dim
-r28 c4..5 dim
-r28 c55..59 dim
-r28 c60..64 dim
+r22 c81..91 dim
+r23 c81..91 dim
+r24 c1..2 dim
+r24 c51..52 dim
+r24 c81..91 dim
+r25 c91..92 dim
+r26 c48..49 dim
+r26 c104..108 dim
+r27 c55..56 dim
+r27 c99..103 dim
+r28 c5..6 dim
+r28 c10..11 dim
+r28 c102..106 dim
+r28 c108..112 dim
 
 == unknown-ground
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 bold
 r0 c98..112 dim
+r2 c73..74 dim
 r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r6 c48..59 fg=Accent
 r7 c2..4 dim
 r7 c46..62 fg=Accent
+r8 c2..4 dim
 r8 c45..51 fg=Accent
 r8 c55..61 fg=Accent
 r9 c45..49 fg=Accent
@@ -858,79 +914,88 @@ r13 c46..61 fg=Accent
 r13 c64..66 fg=Accent
 r14 c47..59 fg=Accent
 r14 c61..64 fg=Accent
+r15 c30..31 dim
 r15 c51..62 fg=Accent
+r15 c79..80 dim
+r17 c32..35 dim
+r18 c36..39 dim
+r18 c41..44 dim
 r19 c51..52 dim
-r21 c93..98 dim
-r22 c93..98 dim
-r23 c93..98 dim
-r25 c16..17 dim
-r25 c78..79 dim
-r25 c90..91 dim
-r26 c3..4 dim
-r26 c49..53 dim
-r26 c57..61 dim
-r26 c62..66 dim
-r27 c52..56 dim
-r27 c66..70 fg=Accent
-r27 c82..83 dim
-r28 c4..5 dim
-r28 c55..59 dim
-r28 c60..64 dim
+r22 c81..91 dim
+r23 c81..91 dim
+r24 c1..2 dim
+r24 c51..52 dim
+r24 c81..91 dim
+r25 c91..92 dim
+r26 c48..49 dim
+r26 c104..108 dim
+r27 c55..56 dim
+r27 c99..103 dim
+r28 c5..6 dim
+r28 c10..11 dim
+r28 c102..106 dim
+r28 c108..112 dim
 
 == no-color
 Codewhale / clear water                                                                           Native habitat
 
-
+                                                                         ⢀
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
                                              ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⠛   ⣰⠃
                                               ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁   ⡰⠃
                                                ⠙⠻⢿⣿⣿⠿⢿⣷⣿⣿⡿⠋  ⢀⠠⠊
-                                                   ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁
+                              ⠈                    ⠠⢴⣿⣿⣿⣭⠤⠤⠔⠊⠁                 ⠄
 
-
-
+                                ⢴⢔⠄
+                                    ⠠⡦⢔  ⠺⠪⠂
                                                    ○ Resting
 
-                                                                                              ⣀⣀
-                                                                                             ⠚⡖⡲⠓
-                                                                                             ⠰⠁⠇
 
-                ˚                                                             ˚           ˚
-   ˚                                             ⢀⠦⣒⠤    ⢐⠤⣒⠤ ⠠⡢⣒⠤
-                                                    ⠠⡢⣒⠤          ⠐⡤⣒⠤            ·
-    ·                                                  ⠐⡤⣒⠤ ⢀⠦⣒⠤
+
+                                                                                 ⢀⠔⠊⠉⠉⠒⢄⣀⠞
+ °                                                 ⠈                             ⠑⠒⠒⠶⠒⠒⠂
+                                                                                           ˚
+                                                ⠁                                                       ⠨⠒⠭⠒
+                                                       ⠂                                           ⠐⠕⠭⠒
+     ·    ⠂                                                                                           ⠈⠖⠭⠒  ⠜⠪⠕⠂
 
 ---
 r0 c0..23 bold
 r0 c98..112 dim
+r2 c73..74 dim
 r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
+r15 c30..31 dim
+r15 c79..80 dim
+r17 c32..35 dim
+r18 c36..39 dim
+r18 c41..44 dim
 r19 c51..52 dim
-r21 c93..98 dim
-r22 c93..98 dim
-r23 c93..98 dim
-r25 c16..17 dim
-r25 c78..79 dim
-r25 c90..91 dim
-r26 c3..4 dim
-r26 c49..53 dim
-r26 c57..61 dim
-r26 c62..66 dim
-r27 c52..56 dim
-r27 c82..83 dim
-r28 c4..5 dim
-r28 c55..59 dim
-r28 c60..64 dim
+r22 c81..91 dim
+r23 c81..91 dim
+r24 c1..2 dim
+r24 c51..52 dim
+r24 c81..91 dim
+r25 c91..92 dim
+r26 c48..49 dim
+r26 c104..108 dim
+r27 c55..56 dim
+r27 c99..103 dim
+r28 c5..6 dim
+r28 c10..11 dim
+r28 c102..106 dim
+r28 c108..112 dim
 
 == ascii
 Codewhale / clear water                                                                           Native habitat
@@ -938,9 +1003,10 @@ Codewhale / clear water                                                         
 
                                                    o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -949,20 +1015,19 @@ Codewhale / clear water                                                         
 
 
 
+                                                                                             .'-'.
+                                                                                             (___)
+                                                                                              \ |
 
 
 
 
+ O
+                                                                                           o
+                                                                                                         ><>
+                                                                                                    ><>
+     .                                                                                                 ><>  ><>
 
-                                                                                             .-~-.
-                                                                                             \___/
-                                                                                              | |
-
-                o                                                             o           o
-   o
-                                                  ><>     ><>  ><>                .
-    .                                                ><>          ><o>
-                                                        ><>  ><>
 ---
 r0 c0..23 bold
 r0 c98..112 dim
@@ -971,18 +1036,14 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
-r21 c93..98 dim
-r22 c93..98 dim
-r23 c93..98 dim
-r25 c16..17 dim
-r25 c78..79 dim
-r25 c90..91 dim
-r26 c3..4 dim
-r27 c50..53 dim
-r27 c58..61 dim
-r27 c63..66 dim
-r27 c82..83 dim
-r28 c4..5 dim
-r28 c53..56 dim
-r29 c56..59 dim
-r29 c61..64 dim
+r8 c2..4 dim
+r17 c93..98 dim
+r18 c93..98 dim
+r19 c93..98 dim
+r24 c1..2 dim
+r25 c91..92 dim
+r26 c105..108 dim
+r27 c100..103 dim
+r28 c5..6 dim
+r28 c103..106 dim
+r28 c108..111 dim

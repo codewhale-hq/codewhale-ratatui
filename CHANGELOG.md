@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- The habitat is now the whole Codewhale ocean, and the Engine draws its Underwater field through it. New `Shoal` (a far shoal of minnows), `MarineSnow` (single braille motes drifting down) and `DistantWhale` (a small whale crossing the deep every few minutes, first about twelve seconds in) join `FishSchool`, `Jellyfish` and `BubbleField`, with `Habitat::shoal`, `snow` and `whale` switches. Every creature now lifts a low, quantised glow out of the water it sits on (`ink` and `presence` builders on each part), so a frame changes only the cells a creature moves through; the school is slower with tail poses that step with travel, there are six fish at most and one to three bubble streams, the jellyfish pulses in eight poses and visits about a third of the time, it stays away while the whale passes, and every creature keeps one row and two columns clear of text. Adds `color::glow_over`. README boards and the habitat animation are regenerated.
+
 - Upgrade to Codewhale design tokens 5.4.0 (CURRENT_DECISIONS §226, §228.5): add `Role::Subagent` and `Role::LivePeak` (`Role::COUNT` 19 to 21), resolve the light 256-color `Hover`/`Background` index-255 collision, make `Role::ansi16(appearance)` appearance-aware (`LightBlue`/`LightCyan`/`LightYellow`/`LightRed` on Dark, `Blue`/`Cyan`/`Yellow`/`Red` on Light/Unknown), and update `paint_working_glow` to use the `5.4.0` raised-cosine sweep tokens (`9`-cell half-width, `0.78` strength, `1800ms` active / `600ms` rest).
 
 - The Ocean column's waiting, approval and failure tints now ease off near the

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -9,10 +8,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -48,8 +47,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -58,11 +57,14 @@ r6 c48..59 fg=#78b4f7 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#71b1f5 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#69aef2 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#69aef2 bg=Background
@@ -123,10 +125,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -162,8 +164,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -172,11 +174,14 @@ r6 c48..59 fg=#78b4f7 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#71b1f5 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#69aef2 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#69aef2 bg=Background
@@ -237,10 +242,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -276,8 +281,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -286,11 +291,14 @@ r6 c48..59 fg=#1a81d2 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=#197cd0 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=#1877ce bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=#1877ce bg=Background
@@ -351,10 +359,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -390,8 +398,8 @@ r4 c4..13 fg=Foreground bg=Background|Surface bold
 r4 c13..112 bg=Background|Surface
 r5 c0..2 bg=Background|Surface
 r5 c2..4 fg=Border bg=Background|Surface
-r5 c4..19 fg=Foreground bg=Background|Surface
-r5 c19..112 bg=Background|Surface
+r5 c4..32 fg=Foreground bg=Background|Surface
+r5 c32..112 bg=Background|Surface
 r6 c0..2 bg=Background|Surface
 r6 c2..4 fg=Border bg=Background|Surface
 r6 c4..27 fg=Foreground bg=Background|Surface
@@ -400,11 +408,14 @@ r6 c48..59 fg=Accent bg=Background|Surface
 r6 c59..112 bg=Background|Surface
 r7 c0..2 bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
-r7 c4..30 fg=Foreground bg=Background|Surface
-r7 c30..46 bg=Background|Surface
+r7 c4..29 fg=Foreground bg=Background|Surface
+r7 c29..46 bg=Background|Surface
 r7 c46..62 fg=idx75 bg=Background|Surface
 r7 c62..112 bg=Background|Surface
-r8 c0..45 bg=Background|Surface
+r8 c0..2 bg=Background|Surface
+r8 c2..4 fg=Border bg=Background|Surface
+r8 c4..10 fg=Foreground bg=Background|Surface
+r8 c10..45 bg=Background|Surface
 r8 c45..51 fg=idx75 bg=Background|Surface
 r8 c51..55 bg=Background|Surface
 r8 c55..61 fg=idx75 bg=Background|Surface
@@ -465,10 +476,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -504,8 +515,8 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..112 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..112 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..112 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
@@ -514,11 +525,14 @@ r6 c48..59 fg=idx32 bg=Background
 r6 c59..112 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..46 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..46 bg=Background
 r7 c46..62 fg=idx32 bg=Background
 r7 c62..112 bg=Background
-r8 c0..45 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..45 bg=Background
 r8 c45..51 fg=idx32 bg=Background
 r8 c51..55 bg=Background
 r8 c55..61 fg=idx32 bg=Background
@@ -579,10 +593,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -613,6 +627,7 @@ r6 c2..4 dim
 r6 c48..59 fg=Accent
 r7 c2..4 dim
 r7 c46..62 fg=Accent
+r8 c2..4 dim
 r8 c45..51 fg=Accent
 r8 c55..61 fg=Accent
 r9 c45..49 fg=Accent
@@ -635,10 +650,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -669,6 +684,7 @@ r6 c2..4 dim
 r6 c48..59 fg=Accent
 r7 c2..4 dim
 r7 c46..62 fg=Accent
+r8 c2..4 dim
 r8 c45..51 fg=Accent
 r8 c55..61 fg=Accent
 r9 c45..49 fg=Accent
@@ -691,10 +707,10 @@ Codewhale / clear water                                                         
 
 
   ● One ocean
-  ▏ A small school.
+  ▏ A small school, a far shoal.
   ▏ One visiting jellyfish.                     ⢀⣤⣶⣾⣿⣿⣿⣿⣿⡿⠃
-  ▏ Bubbles in the deep water.                ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
-                                             ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
+  ▏ Snow, bubbles, a distant                  ⢀⣴⣿⣿⣿⣿⠿⠿⢿⣿⣷⣶⣶⣤⣤⡄
+  ▏ whale.                                   ⢀⣾⣿⣿⡟⠁    ⠉⠛⠛⠛⠛⠁
                                              ⣸⣿⣿⡟             ⢀⣀⣀⣀⡀
                                              ⣿⣿⣿⡇       ⣀⣠⣤⣶⣾⣿⣿⣿⣿⣿⣿⡆
                                              ⣿⣿⣿⣷⣄⣀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⠿⠛⠛⡿⠁
@@ -723,6 +739,7 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
 r19 c51..52 dim
 
 == ascii
@@ -731,10 +748,10 @@ Codewhale / clear water                                                         
 
                                                    o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -764,3 +781,4 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim

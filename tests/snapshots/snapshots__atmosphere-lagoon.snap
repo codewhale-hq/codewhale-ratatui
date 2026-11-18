@@ -17,10 +17,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -255,10 +255,9 @@ r14 c24..26 bg=#091318
 r14 c26..28 bg=#091319
 r14 c28..37 fg=#76b3f6 bg=#091319
 r14 c37..38 bg=#091319
-r14 c38..53 bg=#09131a
-r14 c53..62 bg=#09131b
-r14 c62..63 fg=Dim bg=#09131b
-r14 c63..65 bg=#09131b
+r14 c38..52 bg=#09131a
+r14 c52..53 fg=#2c3953 bg=Sidebar
+r14 c53..65 bg=#09131b
 r14 c65..77 bg=#09131c
 r14 c77..81 bg=#09131d
 r14 c81..88 bg=#09121d
@@ -278,10 +277,11 @@ r15 c36..37 bg=#091319
 r15 c37..41 fg=#69aef2 bg=#09131a
 r15 c41..52 bg=#09131a
 r15 c52..64 bg=#09131b
-r15 c64..76 bg=#09131c
-r15 c76..80 fg=Hint bg=#09131d
-r15 c80..84 fg=Hint bg=#09121d
-r15 c84..87 bg=#09121d
+r15 c64..73 bg=#09131c
+r15 c73..77 fg=#313e57 bg=Sidebar
+r15 c77..80 fg=#3d4a61 bg=Sidebar
+r15 c80..81 fg=#3d4a61 bg=#09121d
+r15 c81..87 bg=#09121d
 r15 c87..91 bg=#09121e
 r15 c91..95 bg=#0a121e
 r15 c95..103 bg=#09121e
@@ -298,15 +298,13 @@ r16 c27..30 fg=#5da9ee bg=#091319
 r16 c30..34 bg=#091319
 r16 c34..36 fg=#5da9ee bg=#091319
 r16 c36..41 fg=#5da9ee bg=#09131a
-r16 c41..50 bg=#09131a
-r16 c50..51 fg=Dim bg=#09131a
+r16 c41..51 bg=#09131a
 r16 c51..63 bg=#09131b
 r16 c63..75 bg=#09131c
 r16 c75..79 bg=#09131d
-r16 c79..85 bg=#09121d
-r16 c85..86 fg=Accent bg=#09121d
-r16 c86..89 fg=Accent bg=#09121e
-r16 c89..90 bg=#09121e
+r16 c79..82 bg=#09121d
+r16 c82..86 fg=#49566b bg=#09121d
+r16 c86..90 bg=#09121e
 r16 c90..94 bg=#0a121e
 r16 c94..102 bg=#09121e
 r16 c102..104 bg=#0a121f
@@ -321,14 +319,13 @@ r17 c35..39 fg=#50a3e9 bg=#09131a
 r17 c39..40 bg=#09131a
 r17 c40..41 fg=#50a3e9 bg=#09131a
 r17 c41..50 bg=#09131a
-r17 c50..52 bg=#09131b
-r17 c52..53 fg=Dim bg=#09131b
-r17 c53..62 bg=#09131b
-r17 c62..74 bg=#09131c
-r17 c74..78 fg=Hint bg=#09131d
-r17 c78..79 bg=#09121d
-r17 c79..83 fg=Hint bg=#09121d
-r17 c83..85 bg=#09121d
+r17 c50..62 bg=#09131b
+r17 c62..71 bg=#09131c
+r17 c71..75 fg=#313e57 bg=Sidebar
+r17 c75..76 bg=#09131d
+r17 c76..78 fg=#313e57 bg=Sidebar
+r17 c78..80 fg=#313e57 bg=#09121d
+r17 c80..85 bg=#09121d
 r17 c85..89 bg=#09121e
 r17 c89..93 bg=#0a121e
 r17 c93..101 bg=#09121e
@@ -449,10 +446,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -683,8 +680,9 @@ r14 c24..28 bg=#0a1316
 r14 c28..37 fg=#76b3f6 bg=#0a1316
 r14 c37..40 bg=#0a1316
 r14 c40..51 bg=#0a1317
-r14 c51..62 bg=#0a1318
-r14 c62..63 fg=Dim bg=#0a1318
+r14 c51..52 bg=#0a1318
+r14 c52..53 fg=#333b45 bg=#0a1318
+r14 c53..63 bg=#0a1318
 r14 c63..67 bg=#0b1319
 r14 c67..70 bg=#0a1319
 r14 c70..79 bg=#0b1319
@@ -706,10 +704,10 @@ r15 c41..50 bg=#0a1317
 r15 c50..62 bg=#0a1318
 r15 c62..66 bg=#0b1319
 r15 c66..69 bg=#0a1319
-r15 c69..76 bg=#0b1319
-r15 c76..78 fg=Hint bg=#0b1319
-r15 c78..84 fg=Hint bg=#0b131a
-r15 c84..89 bg=#0b131a
+r15 c69..73 bg=#0b1319
+r15 c73..77 fg=#384049 bg=Sidebar
+r15 c77..81 fg=#434b55 bg=Sidebar
+r15 c81..89 bg=#0b131a
 r15 c89..91 bg=#0b131b
 r15 c91..101 bg=#0b121b
 r15 c101..104 bg=#0b121c
@@ -724,16 +722,14 @@ r16 c30..34 bg=#0a1316
 r16 c34..38 fg=#5da9ee bg=#0a1316
 r16 c38..41 fg=#5da9ee bg=#0a1317
 r16 c41..49 bg=#0a1317
-r16 c49..50 bg=#0a1318
-r16 c50..51 fg=Dim bg=#0a1318
-r16 c51..61 bg=#0a1318
+r16 c49..61 bg=#0a1318
 r16 c61..65 bg=#0b1319
 r16 c65..68 bg=#0a1319
 r16 c68..77 bg=#0b1319
-r16 c77..85 bg=#0b131a
-r16 c85..88 fg=Accent bg=#0b131a
-r16 c88..89 fg=Accent bg=#0b131b
-r16 c89..90 bg=#0b131b
+r16 c77..82 bg=#0b131a
+r16 c82..86 fg=#4e5761 bg=Sidebar
+r16 c86..88 bg=#0b131a
+r16 c88..90 bg=#0b131b
 r16 c90..100 bg=#0b121b
 r16 c100..104 bg=#0b121c
 r17 c0..4 bg=#091414
@@ -746,17 +742,14 @@ r17 c37..39 fg=#50a3e9 bg=#0a1317
 r17 c39..40 bg=#0a1317
 r17 c40..41 fg=#50a3e9 bg=#0a1317
 r17 c41..48 bg=#0a1317
-r17 c48..52 bg=#0a1318
-r17 c52..53 fg=Dim bg=#0a1318
-r17 c53..60 bg=#0a1318
+r17 c48..60 bg=#0a1318
 r17 c60..64 bg=#0b1319
 r17 c64..67 bg=#0a1319
-r17 c67..74 bg=#0b1319
-r17 c74..76 fg=Hint bg=#0b1319
-r17 c76..78 fg=Hint bg=#0b131a
-r17 c78..79 bg=#0b131a
-r17 c79..83 fg=Hint bg=#0b131a
-r17 c83..87 bg=#0b131a
+r17 c67..71 bg=#0b1319
+r17 c71..75 fg=#384049 bg=Sidebar
+r17 c75..76 bg=#0b1319
+r17 c76..80 fg=#384049 bg=Sidebar
+r17 c80..87 bg=#0b131a
 r17 c87..89 bg=#0b131b
 r17 c89..99 bg=#0b121b
 r17 c99..104 bg=#0b121c
@@ -874,10 +867,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1030,9 +1023,9 @@ r14 c6..20 bg=#f3fbff
 r14 c20..21 bg=#ebf6fc
 r14 c21..28 bg=#f3fbff
 r14 c28..37 fg=#1a7fd2 bg=Sidebar
-r14 c37..62 bg=#f3fbff
-r14 c62..63 fg=Dim bg=#f3fbff
-r14 c63..104 bg=#f3fbff
+r14 c37..52 bg=#f3fbff
+r14 c52..53 fg=#cbced3 bg=Sidebar
+r14 c53..104 bg=#f3fbff
 r15 c0..5 bg=#f3fcfe
 r15 c5..20 bg=#f3fbff
 r15 c20..21 bg=#ebf6fc
@@ -1040,9 +1033,10 @@ r15 c21..27 bg=#f3fbff
 r15 c27..36 fg=#1877ce bg=Sidebar
 r15 c36..37 bg=#f3fbff
 r15 c37..41 fg=#1877ce bg=Sidebar
-r15 c41..76 bg=#f3fbff
-r15 c76..84 fg=Hint bg=#f3fbff
-r15 c84..104 bg=#f3fbff
+r15 c41..73 bg=#f3fbff
+r15 c73..77 fg=#c3c7cb bg=Sidebar
+r15 c77..81 fg=#b6babf bg=Sidebar
+r15 c81..104 bg=#f3fbff
 r16 c0..4 bg=#f3fcfe
 r16 c4..20 bg=#f3fbff
 r16 c20..21 bg=#ebf6fc
@@ -1050,11 +1044,9 @@ r16 c21..27 bg=#f3fbff
 r16 c27..30 fg=#166fcb bg=#f3fbff
 r16 c30..34 bg=#f3fbff
 r16 c34..41 fg=#166fcb bg=#f3fbff
-r16 c41..50 bg=#f3fbff
-r16 c50..51 fg=Dim bg=#f3fbff
-r16 c51..85 bg=#f3fbff
-r16 c85..89 fg=Accent bg=#f3fbff
-r16 c89..104 bg=#f3fbff
+r16 c41..82 bg=#f3fbff
+r16 c82..86 fg=#a9aeb3 bg=Sidebar
+r16 c86..104 bg=#f3fbff
 r17 c0..3 bg=#f3fcfe
 r17 c3..20 bg=#f3fbff
 r17 c20..21 bg=#ecf6fd
@@ -1062,13 +1054,11 @@ r17 c21..27 bg=#f3fbff
 r17 c27..39 fg=#1368c8 bg=#f3fbff
 r17 c39..40 bg=#f3fbff
 r17 c40..41 fg=#1368c8 bg=#f3fbff
-r17 c41..52 bg=#f3fbff
-r17 c52..53 fg=Dim bg=#f3fbff
-r17 c53..74 bg=#f3fbff
-r17 c74..78 fg=Hint bg=#f3fbff
-r17 c78..79 bg=#f3fbff
-r17 c79..83 fg=Hint bg=#f3fbff
-r17 c83..104 bg=#f3fbff
+r17 c41..71 bg=#f3fbff
+r17 c71..75 fg=#c3c7cb bg=Sidebar
+r17 c75..76 bg=#f3fbff
+r17 c76..80 fg=#c3c7cb bg=Sidebar
+r17 c80..104 bg=#f3fbff
 r18 c0..2 bg=#f3fcfe
 r18 c2..20 bg=#f3fbff
 r18 c20..21 bg=#ecf6fd
@@ -1117,10 +1107,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1231,42 +1221,38 @@ r14 c0..20 bg=Sidebar
 r14 c20..21 bg=Background|Surface
 r14 c21..28 bg=Sidebar
 r14 c28..37 fg=Accent bg=Sidebar
-r14 c37..62 bg=Sidebar
-r14 c62..63 fg=Dim bg=Sidebar
-r14 c63..104 bg=Sidebar
+r14 c37..52 bg=Sidebar
+r14 c52..53 fg=Dim bg=Sidebar
+r14 c53..104 bg=Sidebar
 r15 c0..20 bg=Sidebar
 r15 c20..21 bg=Background|Surface
 r15 c21..27 bg=Sidebar
 r15 c27..36 fg=idx75 bg=Sidebar
 r15 c36..37 bg=Sidebar
 r15 c37..41 fg=idx75 bg=Sidebar
-r15 c41..76 bg=Sidebar
-r15 c76..84 fg=Hint bg=Sidebar
-r15 c84..104 bg=Sidebar
+r15 c41..73 bg=Sidebar
+r15 c73..81 fg=Hint bg=Sidebar
+r15 c81..104 bg=Sidebar
 r16 c0..20 bg=Sidebar
 r16 c20..21 bg=Background|Surface
 r16 c21..27 bg=Sidebar
 r16 c27..30 fg=idx75 bg=Sidebar
 r16 c30..34 bg=Sidebar
 r16 c34..41 fg=idx75 bg=Sidebar
-r16 c41..50 bg=Sidebar
-r16 c50..51 fg=Dim bg=Sidebar
-r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Accent bg=Sidebar
-r16 c89..104 bg=Sidebar
+r16 c41..82 bg=Sidebar
+r16 c82..86 fg=Hint bg=Sidebar
+r16 c86..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background|Surface
 r17 c21..27 bg=Sidebar
 r17 c27..39 fg=idx74 bg=Sidebar
 r17 c39..40 bg=Sidebar
 r17 c40..41 fg=idx74 bg=Sidebar
-r17 c41..52 bg=Sidebar
-r17 c52..53 fg=Dim bg=Sidebar
-r17 c53..74 bg=Sidebar
-r17 c74..78 fg=Hint bg=Sidebar
-r17 c78..79 bg=Sidebar
-r17 c79..83 fg=Hint bg=Sidebar
-r17 c83..104 bg=Sidebar
+r17 c41..71 bg=Sidebar
+r17 c71..75 fg=Hint bg=Sidebar
+r17 c75..76 bg=Sidebar
+r17 c76..80 fg=Hint bg=Sidebar
+r17 c80..104 bg=Sidebar
 r18 c0..20 bg=Sidebar
 r18 c20..21 bg=Background|Surface
 r18 c21..27 bg=Sidebar
@@ -1313,10 +1299,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1427,42 +1413,38 @@ r14 c0..20 bg=Sidebar|Surface
 r14 c20..21 bg=Background
 r14 c21..28 bg=Sidebar|Surface
 r14 c28..37 fg=idx32 bg=Sidebar|Surface
-r14 c37..62 bg=Sidebar|Surface
-r14 c62..63 fg=Dim bg=Sidebar|Surface
-r14 c63..104 bg=Sidebar|Surface
+r14 c37..52 bg=Sidebar|Surface
+r14 c52..53 fg=Dim bg=Sidebar|Surface
+r14 c53..104 bg=Sidebar|Surface
 r15 c0..20 bg=Sidebar|Surface
 r15 c20..21 bg=Background
 r15 c21..27 bg=Sidebar|Surface
 r15 c27..36 fg=idx32 bg=Sidebar|Surface
 r15 c36..37 bg=Sidebar|Surface
 r15 c37..41 fg=idx32 bg=Sidebar|Surface
-r15 c41..76 bg=Sidebar|Surface
-r15 c76..84 fg=Hint bg=Sidebar|Surface
-r15 c84..104 bg=Sidebar|Surface
+r15 c41..73 bg=Sidebar|Surface
+r15 c73..81 fg=Hint bg=Sidebar|Surface
+r15 c81..104 bg=Sidebar|Surface
 r16 c0..20 bg=Sidebar|Surface
 r16 c20..21 bg=Background
 r16 c21..27 bg=Sidebar|Surface
 r16 c27..30 fg=idx26 bg=Sidebar|Surface
 r16 c30..34 bg=Sidebar|Surface
 r16 c34..41 fg=idx26 bg=Sidebar|Surface
-r16 c41..50 bg=Sidebar|Surface
-r16 c50..51 fg=Dim bg=Sidebar|Surface
-r16 c51..85 bg=Sidebar|Surface
-r16 c85..89 fg=Accent bg=Sidebar|Surface
-r16 c89..104 bg=Sidebar|Surface
+r16 c41..82 bg=Sidebar|Surface
+r16 c82..86 fg=Hint bg=Sidebar|Surface
+r16 c86..104 bg=Sidebar|Surface
 r17 c0..20 bg=Sidebar|Surface
 r17 c20..21 bg=Background
 r17 c21..27 bg=Sidebar|Surface
 r17 c27..39 fg=idx26 bg=Sidebar|Surface
 r17 c39..40 bg=Sidebar|Surface
 r17 c40..41 fg=idx26 bg=Sidebar|Surface
-r17 c41..52 bg=Sidebar|Surface
-r17 c52..53 fg=Dim bg=Sidebar|Surface
-r17 c53..74 bg=Sidebar|Surface
-r17 c74..78 fg=Hint bg=Sidebar|Surface
-r17 c78..79 bg=Sidebar|Surface
-r17 c79..83 fg=Hint bg=Sidebar|Surface
-r17 c83..104 bg=Sidebar|Surface
+r17 c41..71 bg=Sidebar|Surface
+r17 c71..75 fg=Hint bg=Sidebar|Surface
+r17 c75..76 bg=Sidebar|Surface
+r17 c76..80 fg=Hint bg=Sidebar|Surface
+r17 c80..104 bg=Sidebar|Surface
 r18 c0..20 bg=Sidebar|Surface
 r18 c20..21 bg=Background
 r18 c21..27 bg=Sidebar|Surface
@@ -1509,10 +1491,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1553,19 +1535,17 @@ r9 c21..104 dim
 r10 c22..32 bold
 r13 c34..35 fg=Accent
 r14 c28..37 fg=Accent
-r14 c62..63 dim
+r14 c52..53 dim
 r15 c27..36 fg=Accent
 r15 c37..41 fg=Accent
-r15 c76..84 dim
+r15 c73..81 dim
 r16 c27..30 fg=Accent
 r16 c34..41 fg=Accent
-r16 c50..51 dim
-r16 c85..89 fg=Accent
+r16 c82..86 dim
 r17 c27..39 fg=Accent
 r17 c40..41 fg=Accent
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r17 c71..75 dim
+r17 c76..80 dim
 r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
@@ -1587,10 +1567,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1631,19 +1611,17 @@ r9 c21..104 dim
 r10 c22..32 bold
 r13 c34..35 fg=Accent
 r14 c28..37 fg=Accent
-r14 c62..63 dim
+r14 c52..53 dim
 r15 c27..36 fg=Accent
 r15 c37..41 fg=Accent
-r15 c76..84 dim
+r15 c73..81 dim
 r16 c27..30 fg=Accent
 r16 c34..41 fg=Accent
-r16 c50..51 dim
-r16 c85..89 fg=Accent
+r16 c82..86 dim
 r17 c27..39 fg=Accent
 r17 c40..41 fg=Accent
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r17 c71..75 dim
+r17 c76..80 dim
 r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
@@ -1665,10 +1643,10 @@ Codewhale / Lagoon atmosphere                                                   
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1697,12 +1675,11 @@ r8 c21..22 dim
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r14 c62..63 dim
-r15 c76..84 dim
-r16 c50..51 dim
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r14 c52..53 dim
+r15 c73..81 dim
+r16 c82..86 dim
+r17 c71..75 dim
+r17 c76..80 dim
 
 == ascii
 Codewhale / Lagoon atmosphere                                                             Finishing pass
@@ -1719,10 +1696,10 @@ Codewhale / Lagoon atmosphere                                                   
 
                              . Working
 
-                                                              o                   o
+                                                    o
 
-                                                  .                         ><>  ><>><o>
-                                                    .                     ><>  ><>
+                                                                         ><>  ><>><o>
+                                                                       ><>  ><>
 
 
 
@@ -1751,11 +1728,8 @@ r8 c21..22 dim
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r14 c62..63 dim
-r14 c82..83 dim
-r16 c50..51 dim
-r16 c76..79 dim
-r16 c81..84 dim
-r17 c52..53 dim
-r17 c74..77 dim
-r17 c79..82 dim
+r14 c52..53 dim
+r16 c73..76 dim
+r16 c78..85 dim
+r17 c71..74 dim
+r17 c76..79 dim
