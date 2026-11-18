@@ -99,6 +99,9 @@
     "fish-school",
     "jellyfish",
     "bubble-field",
+    "shoal",
+    "marine-snow",
+    "distant-whale",
     "habitat-scene",
     "habitat-ascii",
     "habitat-reduced",
@@ -857,13 +860,23 @@
       ]
     },
     {
-      "file": "habitat.dark-truecolor.svg",
+      "file": "habitat.dark-truecolor-1.svg",
       "profile": "dark-truecolor",
       "group": "habitat",
       "entries": [
         "fish-school",
         "jellyfish",
         "bubble-field",
+        "shoal",
+        "marine-snow",
+        "distant-whale"
+      ]
+    },
+    {
+      "file": "habitat.dark-truecolor-2.svg",
+      "profile": "dark-truecolor",
+      "group": "habitat",
+      "entries": [
         "habitat-ascii",
         "habitat-reduced"
       ]
@@ -1570,13 +1583,23 @@
       ]
     },
     {
-      "file": "habitat.light-truecolor.svg",
+      "file": "habitat.light-truecolor-1.svg",
       "profile": "light-truecolor",
       "group": "habitat",
       "entries": [
         "fish-school",
         "jellyfish",
         "bubble-field",
+        "shoal",
+        "marine-snow",
+        "distant-whale"
+      ]
+    },
+    {
+      "file": "habitat.light-truecolor-2.svg",
+      "profile": "light-truecolor",
+      "group": "habitat",
+      "entries": [
         "habitat-ascii",
         "habitat-reduced"
       ]

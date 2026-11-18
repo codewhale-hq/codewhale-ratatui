@@ -646,23 +646,27 @@ Spinners, notifications and calm transitions.
 
 <a id="life-in-the-water"></a>
 <details>
-<summary>Life in the water · 5 examples</summary>
+<summary>Life in the water · 8 examples</summary>
 
-Fish, jellyfish and bubbles, drawn in terminal cells.
+Fish, a far shoal, a jellyfish, marine snow, bubbles and a distant whale, drawn in terminal cells.
 
-![Fish school, Jellyfish, Bubble field, Habitat ASCII, Habitat reduced — dark truecolor](<assets/readme/habitat.dark-truecolor.svg>)
+![Fish school, Jellyfish, Bubble field, Shoal, Marine snow, Distant whale — dark truecolor](<assets/readme/habitat.dark-truecolor-1.svg>)
+
+![Habitat ASCII, Habitat reduced — dark truecolor](<assets/readme/habitat.dark-truecolor-2.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
-![Fish school, Jellyfish, Bubble field, Habitat ASCII, Habitat reduced — light truecolor](<assets/readme/habitat.light-truecolor.svg>)
+![Fish school, Jellyfish, Bubble field, Shoal, Marine snow, Distant whale — light truecolor](<assets/readme/habitat.light-truecolor-1.svg>)
+
+![Habitat ASCII, Habitat reduced — light truecolor](<assets/readme/habitat.light-truecolor-2.svg>)
 
 </details>
 
 <details>
 <summary>Watch the animation</summary>
 
-![Native fish, jellyfish and bubbles](<assets/readme/habitat-motion.gif>)
+![The native ocean: fish, shoal, jellyfish, snow, bubbles and a distant whale](<assets/readme/habitat-motion.gif>)
 
 </details>
 
@@ -828,8 +832,9 @@ interpretation of `Role::Primary` as neutral ink. Use `Role::Foreground` for
 ordinary text instead of painting `Role::Primary` as foreground.
 
 For open water, paint foreground content first, then call `Habitat::paint`.
-It protects occupied cells and their clearance; the entire jellyfish is
-withheld when its silhouette cannot fit. Pass decision and overlay rectangles
+It keeps one row and two columns clear of every occupied cell; a jellyfish or
+the distant whale is withheld whole when its silhouette cannot fit. Pass an
+`ink` and a `presence` to tint and fade life without moving it. Pass decision and overlay rectangles
 to `Habitat::protected` so their blank space stays protected too. Keep a
 dedicated habitat viewport separate from any decision overlay. The habitat
 never requests a frame itself. Selection and pointer helpers use the same clipped
@@ -884,7 +889,7 @@ on their next paint; components hold roles rather than cached colors.
 | Native views | `InstrumentSurface`, `SessionList`, `SessionRow` | TUI title/action rails, quiet gutters, session selection, ranges, search and rename presentation |
 | TUI themes | `TuiPalette`, `TuiInk` | All 16 fixed source palettes, exact grounds and distinct native permission/mode/status inks |
 | Attention and results | `AttentionQueue`, `AttentionItem`, `ArtifactShelf`, `Artifact` | Project-aware decisions, selected action hints, review/file/run/link results and reported receipts |
-| Marine life | `Habitat`, `FishSchool`, `Jellyfish`, `BubbleField`, `HabitatDensity` | Native braille poses and ASCII silhouettes, caller-clock motion, bounded populations, complete visitors and text-safe open-water collision |
+| Marine life | `Habitat`, `FishSchool`, `Shoal`, `Jellyfish`, `MarineSnow`, `BubbleField`, `DistantWhale`, `HabitatDensity` | Native braille poses and ASCII silhouettes, a quantised glow lifted from the water, caller-clock motion, bounded populations, complete visitors and text-safe open-water collision |
 | Water and palette | `OceanColumn`, `OceanRamp`, `OceanPhase`, `OceanPaintFacts`, `OceanCausticFacts`, `OceanContrastInks`, `ocean_semantic_surfaces`, `Ombre`, `WaterPalette` | Native TUI depth column, context rise, steady attention tint, completion breath and five spatial materials; contrast and fallback guards |
 | Living whale | `whale_motion::Stage`, `Director`, `ColoredGrid` | One session performance, authored clips and springs, native colored props, shared terminal cadence and hide/resume boundaries |
 | Animated pet | `WhalePet`, `PetStyle` | Full-color native whale and cove, gaze and ripples, 17 activities, Braille and words-only fallbacks |
@@ -1069,7 +1074,7 @@ cargo run --example pet                              # animated whale, actions a
 cargo run --example pet_mode                         # full pet surface at rest
 cargo run --example gallery                          # interactive catalogue
 cargo run --example showcase                         # the full terminal studio
-cargo run --example habitat                          # live fish, jellyfish, bubbles
+cargo run --example habitat                          # the live ocean
 cargo run --example motion                           # working, verification and transitions
 cargo run --example gallery -- --print dark-256     # ANSI preview to stdout
 cargo run --example gallery -- --dump out/          # .ans and styled .txt, all profiles

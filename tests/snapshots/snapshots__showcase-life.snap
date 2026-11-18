@@ -8,14 +8,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -27,19 +27,19 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 fg=Foreground|LivePeak bg=Hover bold
@@ -49,9 +49,13 @@ r2 c0..58 fg=Accent bg=#102843
 r2 c58..112 fg=Foreground|LivePeak bg=#102843
 r3 c0..112 fg=Foreground|LivePeak bg=#102842
 r4 c0..112 fg=Foreground|LivePeak bg=#0e2842
-r5 c0..112 fg=Foreground|LivePeak bg=#0e2741
+r5 c0..7 fg=Foreground|LivePeak bg=#0e2741
+r5 c7..8 fg=#2a3d53 bg=Background
+r5 c8..112 fg=Foreground|LivePeak bg=#0e2741
 r6 c0..112 fg=Foreground|LivePeak bg=#0e2740
-r7 c0..70 fg=Foreground|LivePeak bg=#0e273f
+r7 c0..28 fg=Foreground|LivePeak bg=#0e273f
+r7 c28..29 fg=#2a3d53 bg=Background
+r7 c29..70 fg=Foreground|LivePeak bg=#0e273f
 r7 c70..71 fg=#faf8f5 bg=#0e273f
 r7 c71..112 fg=Foreground|LivePeak bg=#0e273f
 r8 c0..50 fg=Foreground|LivePeak bg=#0e263e
@@ -92,7 +96,9 @@ r10 c58..59 fg=#3185d7 bg=#0d253c
 r10 c59..60 fg=#3184d7 bg=#0d253c
 r10 c60..61 fg=#3084d7 bg=#0d253c
 r10 c61..62 fg=#3083d7 bg=#0d253c
-r10 c62..112 fg=Foreground|LivePeak bg=#0d253c
+r10 c62..88 fg=Foreground|LivePeak bg=#0d253c
+r10 c88..89 fg=#2a3d53 bg=Background
+r10 c89..112 fg=Foreground|LivePeak bg=#0d253c
 r11 c0..45 fg=Foreground|LivePeak bg=#0d243b
 r11 c45..47 fg=#338cd7 bg=#0d243b
 r11 c47..48 fg=#338bd7 bg=#0d243b
@@ -104,7 +110,9 @@ r11 c58..59 fg=#3184d7 bg=#0d243b
 r11 c59..60 fg=#3084d7 bg=#0d243b
 r11 c60..61 fg=#3083d7 bg=#0d243b
 r11 c61..112 fg=Foreground|LivePeak bg=#0d243b
-r12 c0..45 fg=Foreground|LivePeak bg=#0c233a
+r12 c0..8 fg=Foreground|LivePeak bg=#0c233a
+r12 c8..9 fg=#2a3d53 bg=Background
+r12 c9..45 fg=Foreground|LivePeak bg=#0c233a
 r12 c45..46 fg=#338bd7 bg=#0c233a
 r12 c46..47 fg=#328bd7 bg=#0c233a
 r12 c47..49 fg=#328ad7 bg=#0c233a
@@ -217,46 +225,50 @@ r22 c0..51 fg=Foreground|LivePeak bg=#0b1d30
 r22 c51..52 fg=Live bg=#0b1d30
 r22 c52..112 fg=Foreground|LivePeak bg=#0b1d30
 r23 c0..112 fg=Foreground|LivePeak bg=#0b1d2f
-r24 c0..112 fg=Foreground|LivePeak bg=#0a1c2e
-r25 c0..112 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c0..53 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c53..54 fg=#15283e bg=Background
+r24 c54..69 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c69..72 fg=#35475e bg=Background
+r24 c72..80 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c80..83 fg=#1f3348 bg=Background
+r24 c83..112 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c0..65 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c65..68 fg=#35475e bg=Background
+r25 c68..76 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c76..79 fg=#2a3d53 bg=Background
+r25 c79..112 fg=Foreground|LivePeak bg=#0a1c2e
 r26 c0..112 fg=Foreground|LivePeak bg=#091b2d
 r27 c0..112 fg=Foreground|LivePeak bg=#091a2c
-r28 c0..112 fg=Foreground|LivePeak bg=#091a2b
+r28 c0..46 fg=Foreground|LivePeak bg=#091a2b
+r28 c46..47 fg=#2a3d53 bg=Background
+r28 c47..112 fg=Foreground|LivePeak bg=#091a2b
 r29 c0..93 fg=Foreground|LivePeak bg=#09192a
-r29 c93..98 fg=Hint|Dim bg=#09192a
-r29 c98..112 fg=Foreground|LivePeak bg=#09192a
+r29 c93..97 fg=#35475e bg=Background
+r29 c97..112 fg=Foreground|LivePeak bg=#09192a
 r30 c0..93 fg=Foreground|LivePeak bg=#091829
-r30 c93..98 fg=Hint|Dim bg=#091829
-r30 c98..112 fg=Foreground|LivePeak bg=#091829
-r31 c0..93 fg=Foreground|LivePeak bg=#091828
-r31 c93..98 fg=Hint|Dim bg=#091828
-r31 c98..112 fg=Foreground|LivePeak bg=#091828
+r30 c93..96 fg=#2a3d53 bg=Background
+r30 c96..112 fg=Foreground|LivePeak bg=#091829
+r31 c0..112 fg=Foreground|LivePeak bg=#091828
 r32 c0..1 fg=Foreground|LivePeak bg=#091727
-r32 c1..2 fg=Hint|Dim bg=#091727
+r32 c1..2 fg=#15283e bg=Background
 r32 c2..112 fg=Foreground|LivePeak bg=#091727
-r33 c0..92 fg=Foreground|LivePeak bg=#081726
-r33 c92..93 fg=Hint|Dim bg=#081726
-r33 c93..112 fg=Foreground|LivePeak bg=#081726
-r34 c0..63 fg=Foreground|LivePeak bg=#071725
-r34 c63..67 fg=Hint|Dim bg=#071725
-r34 c67..70 fg=Foreground|LivePeak bg=#071725
-r34 c70..74 fg=Hint|Dim bg=#071725
-r34 c74..76 fg=Foreground|LivePeak bg=#071725
-r34 c76..80 fg=Hint|Dim bg=#071725
-r34 c80..112 fg=Foreground|LivePeak bg=#071725
-r35 c0..16 fg=Foreground|LivePeak bg=#071724
-r35 c16..17 fg=Hint|Dim bg=#071724
-r35 c17..65 fg=Foreground|LivePeak bg=#071724
-r35 c65..69 fg=Hint|Dim bg=#071724
-r35 c69..80 fg=Foreground|LivePeak bg=#071724
-r35 c80..84 fg=Accent bg=#071724
-r35 c84..112 fg=Foreground|LivePeak bg=#071724
-r36 c0..57 fg=Muted bg=#071523
-r36 c57..69 fg=Foreground|LivePeak bg=#071523
-r36 c69..77 fg=Hint|Dim bg=#071523
-r36 c77..78 fg=Foreground|LivePeak bg=#071523
-r36 c78..79 fg=Hint|Dim bg=#071523
-r36 c79..112 fg=Foreground|LivePeak bg=#071523
+r33 c0..112 fg=Foreground|LivePeak bg=#081726
+r34 c0..6 fg=Foreground|LivePeak bg=#071725
+r34 c6..7 fg=#1f3348 bg=Background
+r34 c7..60 fg=Foreground|LivePeak bg=#071725
+r34 c60..64 fg=#35475e bg=Background
+r34 c64..66 fg=Foreground|LivePeak bg=#071725
+r34 c66..70 fg=#35475e bg=Background
+r34 c70..112 fg=Foreground|LivePeak bg=#071725
+r35 c0..55 fg=Foreground|LivePeak bg=#071724
+r35 c55..59 fg=#4a5c73 bg=Background
+r35 c59..69 fg=Foreground|LivePeak bg=#071724
+r35 c69..73 fg=#35475e bg=Background
+r35 c73..92 fg=Foreground|LivePeak bg=#071724
+r35 c92..93 fg=#1f3348 bg=Background
+r35 c93..112 fg=Foreground|LivePeak bg=#071724
+r36 c0..73 fg=Muted bg=#071523
+r36 c73..112 fg=Foreground|LivePeak bg=#071523
 r37 c0..44 fg=Muted bg=#071522
 r37 c44..112 fg=Foreground|LivePeak bg=#071522
 
@@ -266,14 +278,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -285,19 +297,19 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 fg=Foreground|LivePeak bg=Hover bold
@@ -307,9 +319,13 @@ r2 c0..58 fg=Accent bg=#102843
 r2 c58..112 fg=Foreground|LivePeak bg=#102843
 r3 c0..112 fg=Foreground|LivePeak bg=#102842
 r4 c0..112 fg=Foreground|LivePeak bg=#0e2842
-r5 c0..112 fg=Foreground|LivePeak bg=#0e2741
+r5 c0..7 fg=Foreground|LivePeak bg=#0e2741
+r5 c7..8 fg=#2a3d53 bg=Background
+r5 c8..112 fg=Foreground|LivePeak bg=#0e2741
 r6 c0..112 fg=Foreground|LivePeak bg=#0e2740
-r7 c0..70 fg=Foreground|LivePeak bg=#0e273f
+r7 c0..28 fg=Foreground|LivePeak bg=#0e273f
+r7 c28..29 fg=#2a3d53 bg=Background
+r7 c29..70 fg=Foreground|LivePeak bg=#0e273f
 r7 c70..71 fg=#faf8f5 bg=#0e273f
 r7 c71..112 fg=Foreground|LivePeak bg=#0e273f
 r8 c0..50 fg=Foreground|LivePeak bg=#0e263e
@@ -350,7 +366,9 @@ r10 c58..59 fg=#3185d7 bg=#0d253c
 r10 c59..60 fg=#3184d7 bg=#0d253c
 r10 c60..61 fg=#3084d7 bg=#0d253c
 r10 c61..62 fg=#3083d7 bg=#0d253c
-r10 c62..112 fg=Foreground|LivePeak bg=#0d253c
+r10 c62..88 fg=Foreground|LivePeak bg=#0d253c
+r10 c88..89 fg=#2a3d53 bg=Background
+r10 c89..112 fg=Foreground|LivePeak bg=#0d253c
 r11 c0..45 fg=Foreground|LivePeak bg=#0d243b
 r11 c45..47 fg=#338cd7 bg=#0d243b
 r11 c47..48 fg=#338bd7 bg=#0d243b
@@ -362,7 +380,9 @@ r11 c58..59 fg=#3184d7 bg=#0d243b
 r11 c59..60 fg=#3084d7 bg=#0d243b
 r11 c60..61 fg=#3083d7 bg=#0d243b
 r11 c61..112 fg=Foreground|LivePeak bg=#0d243b
-r12 c0..45 fg=Foreground|LivePeak bg=#0c233a
+r12 c0..8 fg=Foreground|LivePeak bg=#0c233a
+r12 c8..9 fg=#2a3d53 bg=Background
+r12 c9..45 fg=Foreground|LivePeak bg=#0c233a
 r12 c45..46 fg=#338bd7 bg=#0c233a
 r12 c46..47 fg=#328bd7 bg=#0c233a
 r12 c47..49 fg=#328ad7 bg=#0c233a
@@ -475,46 +495,50 @@ r22 c0..51 fg=Foreground|LivePeak bg=#0b1d30
 r22 c51..52 fg=Live bg=#0b1d30
 r22 c52..112 fg=Foreground|LivePeak bg=#0b1d30
 r23 c0..112 fg=Foreground|LivePeak bg=#0b1d2f
-r24 c0..112 fg=Foreground|LivePeak bg=#0a1c2e
-r25 c0..112 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c0..53 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c53..54 fg=#15283e bg=Background
+r24 c54..69 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c69..72 fg=#35475e bg=Background
+r24 c72..80 fg=Foreground|LivePeak bg=#0a1c2e
+r24 c80..83 fg=#1f3348 bg=Background
+r24 c83..112 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c0..65 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c65..68 fg=#35475e bg=Background
+r25 c68..76 fg=Foreground|LivePeak bg=#0a1c2e
+r25 c76..79 fg=#2a3d53 bg=Background
+r25 c79..112 fg=Foreground|LivePeak bg=#0a1c2e
 r26 c0..112 fg=Foreground|LivePeak bg=#091b2d
 r27 c0..112 fg=Foreground|LivePeak bg=#091a2c
-r28 c0..112 fg=Foreground|LivePeak bg=#091a2b
+r28 c0..46 fg=Foreground|LivePeak bg=#091a2b
+r28 c46..47 fg=#2a3d53 bg=Background
+r28 c47..112 fg=Foreground|LivePeak bg=#091a2b
 r29 c0..93 fg=Foreground|LivePeak bg=#09192a
-r29 c93..98 fg=Hint|Dim bg=#09192a
-r29 c98..112 fg=Foreground|LivePeak bg=#09192a
+r29 c93..97 fg=#35475e bg=Background
+r29 c97..112 fg=Foreground|LivePeak bg=#09192a
 r30 c0..93 fg=Foreground|LivePeak bg=#091829
-r30 c93..98 fg=Hint|Dim bg=#091829
-r30 c98..112 fg=Foreground|LivePeak bg=#091829
-r31 c0..93 fg=Foreground|LivePeak bg=#091828
-r31 c93..98 fg=Hint|Dim bg=#091828
-r31 c98..112 fg=Foreground|LivePeak bg=#091828
+r30 c93..96 fg=#2a3d53 bg=Background
+r30 c96..112 fg=Foreground|LivePeak bg=#091829
+r31 c0..112 fg=Foreground|LivePeak bg=#091828
 r32 c0..1 fg=Foreground|LivePeak bg=#091727
-r32 c1..2 fg=Hint|Dim bg=#091727
+r32 c1..2 fg=#15283e bg=Background
 r32 c2..112 fg=Foreground|LivePeak bg=#091727
-r33 c0..92 fg=Foreground|LivePeak bg=#081726
-r33 c92..93 fg=Hint|Dim bg=#081726
-r33 c93..112 fg=Foreground|LivePeak bg=#081726
-r34 c0..63 fg=Foreground|LivePeak bg=#071725
-r34 c63..67 fg=Hint|Dim bg=#071725
-r34 c67..70 fg=Foreground|LivePeak bg=#071725
-r34 c70..74 fg=Hint|Dim bg=#071725
-r34 c74..76 fg=Foreground|LivePeak bg=#071725
-r34 c76..80 fg=Hint|Dim bg=#071725
-r34 c80..112 fg=Foreground|LivePeak bg=#071725
-r35 c0..16 fg=Foreground|LivePeak bg=#071724
-r35 c16..17 fg=Hint|Dim bg=#071724
-r35 c17..65 fg=Foreground|LivePeak bg=#071724
-r35 c65..69 fg=Hint|Dim bg=#071724
-r35 c69..80 fg=Foreground|LivePeak bg=#071724
-r35 c80..84 fg=Accent bg=#071724
-r35 c84..112 fg=Foreground|LivePeak bg=#071724
-r36 c0..57 fg=Muted bg=#071523
-r36 c57..69 fg=Foreground|LivePeak bg=#071523
-r36 c69..77 fg=Hint|Dim bg=#071523
-r36 c77..78 fg=Foreground|LivePeak bg=#071523
-r36 c78..79 fg=Hint|Dim bg=#071523
-r36 c79..112 fg=Foreground|LivePeak bg=#071523
+r33 c0..112 fg=Foreground|LivePeak bg=#081726
+r34 c0..6 fg=Foreground|LivePeak bg=#071725
+r34 c6..7 fg=#1f3348 bg=Background
+r34 c7..60 fg=Foreground|LivePeak bg=#071725
+r34 c60..64 fg=#35475e bg=Background
+r34 c64..66 fg=Foreground|LivePeak bg=#071725
+r34 c66..70 fg=#35475e bg=Background
+r34 c70..112 fg=Foreground|LivePeak bg=#071725
+r35 c0..55 fg=Foreground|LivePeak bg=#071724
+r35 c55..59 fg=#4a5c73 bg=Background
+r35 c59..69 fg=Foreground|LivePeak bg=#071724
+r35 c69..73 fg=#35475e bg=Background
+r35 c73..92 fg=Foreground|LivePeak bg=#071724
+r35 c92..93 fg=#1f3348 bg=Background
+r35 c93..112 fg=Foreground|LivePeak bg=#071724
+r36 c0..73 fg=Muted bg=#071523
+r36 c73..112 fg=Foreground|LivePeak bg=#071523
 r37 c0..44 fg=Muted bg=#071522
 r37 c44..112 fg=Foreground|LivePeak bg=#071522
 
@@ -524,14 +548,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -543,19 +567,19 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 fg=Foreground|LivePeak bold
@@ -565,9 +589,13 @@ r2 c0..58 fg=Accent
 r2 c58..112 fg=Foreground|LivePeak
 r3 c0..112 fg=Foreground|LivePeak
 r4 c0..112 fg=Foreground|LivePeak
-r5 c0..112 fg=Foreground|LivePeak
+r5 c0..7 fg=Foreground|LivePeak
+r5 c7..8 fg=Hint|Dim
+r5 c8..112 fg=Foreground|LivePeak
 r6 c0..112 fg=Foreground|LivePeak
-r7 c0..70 fg=Foreground|LivePeak
+r7 c0..28 fg=Foreground|LivePeak
+r7 c28..29 fg=Hint|Dim
+r7 c29..70 fg=Foreground|LivePeak
 r7 c70..71 fg=#202123
 r7 c71..112 fg=Foreground|LivePeak
 r8 c0..50 fg=Foreground|LivePeak
@@ -616,7 +644,9 @@ r10 c58..59 fg=#1672cc
 r10 c59..60 fg=#1670cb
 r10 c60..61 fg=#156fcb
 r10 c61..62 fg=#156eca
-r10 c62..112 fg=Foreground|LivePeak
+r10 c62..88 fg=Foreground|LivePeak
+r10 c88..89 fg=Hint|Dim
+r10 c89..112 fg=Foreground|LivePeak
 r11 c0..45 fg=Foreground|LivePeak
 r11 c45..46 fg=#1a80d2
 r11 c46..47 fg=#1a7fd2
@@ -629,7 +659,9 @@ r11 c58..59 fg=#1670cb
 r11 c59..60 fg=#156fcb
 r11 c60..61 fg=#156eca
 r11 c61..112 fg=Foreground|LivePeak
-r12 c0..45 fg=Foreground|LivePeak
+r12 c0..8 fg=Foreground|LivePeak
+r12 c8..9 fg=Hint|Dim
+r12 c9..45 fg=Foreground|LivePeak
 r12 c45..46 fg=#197ed1
 r12 c46..47 fg=#197dd1
 r12 c47..48 fg=#197bd0
@@ -757,46 +789,50 @@ r22 c0..51 fg=Foreground|LivePeak
 r22 c51..52 fg=Live
 r22 c52..112 fg=Foreground|LivePeak
 r23 c0..112 fg=Foreground|LivePeak
-r24 c0..112 fg=Foreground|LivePeak
-r25 c0..112 fg=Foreground|LivePeak
+r24 c0..53 fg=Foreground|LivePeak
+r24 c53..54 fg=Hint|Dim
+r24 c54..69 fg=Foreground|LivePeak
+r24 c69..72 fg=Hint|Dim
+r24 c72..80 fg=Foreground|LivePeak
+r24 c80..83 fg=Hint|Dim
+r24 c83..112 fg=Foreground|LivePeak
+r25 c0..65 fg=Foreground|LivePeak
+r25 c65..68 fg=Hint|Dim
+r25 c68..76 fg=Foreground|LivePeak
+r25 c76..79 fg=Hint|Dim
+r25 c79..112 fg=Foreground|LivePeak
 r26 c0..112 fg=Foreground|LivePeak
 r27 c0..112 fg=Foreground|LivePeak
-r28 c0..112 fg=Foreground|LivePeak
+r28 c0..46 fg=Foreground|LivePeak
+r28 c46..47 fg=Hint|Dim
+r28 c47..112 fg=Foreground|LivePeak
 r29 c0..93 fg=Foreground|LivePeak
-r29 c93..98 fg=Hint|Dim
-r29 c98..112 fg=Foreground|LivePeak
+r29 c93..97 fg=Hint|Dim
+r29 c97..112 fg=Foreground|LivePeak
 r30 c0..93 fg=Foreground|LivePeak
-r30 c93..98 fg=Hint|Dim
-r30 c98..112 fg=Foreground|LivePeak
-r31 c0..93 fg=Foreground|LivePeak
-r31 c93..98 fg=Hint|Dim
-r31 c98..112 fg=Foreground|LivePeak
+r30 c93..96 fg=Hint|Dim
+r30 c96..112 fg=Foreground|LivePeak
+r31 c0..112 fg=Foreground|LivePeak
 r32 c0..1 fg=Foreground|LivePeak
 r32 c1..2 fg=Hint|Dim
 r32 c2..112 fg=Foreground|LivePeak
-r33 c0..92 fg=Foreground|LivePeak
-r33 c92..93 fg=Hint|Dim
-r33 c93..112 fg=Foreground|LivePeak
-r34 c0..63 fg=Foreground|LivePeak
-r34 c63..67 fg=Hint|Dim
-r34 c67..70 fg=Foreground|LivePeak
-r34 c70..74 fg=Hint|Dim
-r34 c74..76 fg=Foreground|LivePeak
-r34 c76..80 fg=Hint|Dim
-r34 c80..112 fg=Foreground|LivePeak
-r35 c0..16 fg=Foreground|LivePeak
-r35 c16..17 fg=Hint|Dim
-r35 c17..65 fg=Foreground|LivePeak
-r35 c65..69 fg=Hint|Dim
-r35 c69..80 fg=Foreground|LivePeak
-r35 c80..84 fg=Accent
-r35 c84..112 fg=Foreground|LivePeak
-r36 c0..57 fg=Muted
-r36 c57..69 fg=Foreground|LivePeak
-r36 c69..77 fg=Hint|Dim
-r36 c77..78 fg=Foreground|LivePeak
-r36 c78..79 fg=Hint|Dim
-r36 c79..112 fg=Foreground|LivePeak
+r33 c0..112 fg=Foreground|LivePeak
+r34 c0..6 fg=Foreground|LivePeak
+r34 c6..7 fg=Hint|Dim
+r34 c7..60 fg=Foreground|LivePeak
+r34 c60..64 fg=Hint|Dim
+r34 c64..66 fg=Foreground|LivePeak
+r34 c66..70 fg=Hint|Dim
+r34 c70..112 fg=Foreground|LivePeak
+r35 c0..55 fg=Foreground|LivePeak
+r35 c55..59 fg=Hint|Dim
+r35 c59..69 fg=Foreground|LivePeak
+r35 c69..73 fg=Hint|Dim
+r35 c73..92 fg=Foreground|LivePeak
+r35 c92..93 fg=Hint|Dim
+r35 c93..112 fg=Foreground|LivePeak
+r36 c0..73 fg=Muted
+r36 c73..112 fg=Foreground|LivePeak
 r37 c0..44 fg=Muted
 r37 c44..112 fg=Foreground|LivePeak
 
@@ -806,14 +842,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -825,19 +861,19 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 fg=Foreground|LivePeak bg=Background|DiffAddedTint bold
@@ -847,9 +883,13 @@ r2 c0..58 fg=Accent bg=Background|DiffAddedTint
 r2 c58..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r3 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r4 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r5 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r5 c0..7 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r5 c7..8 fg=Hint|Dim bg=Background|DiffAddedTint
+r5 c8..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r6 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r7 c0..70 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r7 c0..28 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r7 c28..29 fg=Hint|Dim bg=Background|DiffAddedTint
+r7 c29..70 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r7 c70..71 fg=idx231 bg=Background|DiffAddedTint
 r7 c71..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r8 c0..50 fg=Foreground|LivePeak bg=Background|DiffAddedTint
@@ -866,13 +906,17 @@ r9 c70..71 fg=idx231 bg=Background|DiffAddedTint
 r9 c71..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r10 c0..46 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r10 c46..62 fg=idx68 bg=Background|DiffAddedTint
-r10 c62..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r10 c62..88 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r10 c88..89 fg=Hint|Dim bg=Background|DiffAddedTint
+r10 c89..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c0..45 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c45..50 fg=idx68 bg=Background|DiffAddedTint
 r11 c50..56 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c56..61 fg=idx68 bg=Background|DiffAddedTint
 r11 c61..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r12 c0..45 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r12 c0..8 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r12 c8..9 fg=Hint|Dim bg=Background|DiffAddedTint
+r12 c9..45 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r12 c45..49 fg=idx68 bg=Background|DiffAddedTint
 r12 c49..60 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r12 c60..61 fg=idx68 bg=Background|DiffAddedTint
@@ -916,46 +960,50 @@ r22 c0..51 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r22 c51..52 fg=Live bg=Background|DiffAddedTint
 r22 c52..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r23 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r24 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r25 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r24 c0..53 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r24 c53..54 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c54..69 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r24 c69..72 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c72..80 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r24 c80..83 fg=Hint|Dim bg=Background|DiffAddedTint
+r24 c83..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r25 c0..65 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r25 c65..68 fg=Hint|Dim bg=Background|DiffAddedTint
+r25 c68..76 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r25 c76..79 fg=Hint|Dim bg=Background|DiffAddedTint
+r25 c79..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r26 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r27 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r28 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r28 c0..46 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r28 c46..47 fg=Hint|Dim bg=Background|DiffAddedTint
+r28 c47..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r29 c0..93 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r29 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
-r29 c98..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r29 c93..97 fg=Hint|Dim bg=Background|DiffAddedTint
+r29 c97..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r30 c0..93 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r30 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
-r30 c98..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r31 c0..93 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r31 c93..98 fg=Hint|Dim bg=Background|DiffAddedTint
-r31 c98..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r30 c93..96 fg=Hint|Dim bg=Background|DiffAddedTint
+r30 c96..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r31 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r32 c0..1 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r32 c1..2 fg=Hint|Dim bg=Background|DiffAddedTint
 r32 c2..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r33 c0..92 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r33 c92..93 fg=Hint|Dim bg=Background|DiffAddedTint
-r33 c93..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r34 c0..63 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r34 c63..67 fg=Hint|Dim bg=Background|DiffAddedTint
-r34 c67..70 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r34 c70..74 fg=Hint|Dim bg=Background|DiffAddedTint
-r34 c74..76 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r34 c76..80 fg=Hint|Dim bg=Background|DiffAddedTint
-r34 c80..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r35 c0..16 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r35 c16..17 fg=Hint|Dim bg=Background|DiffAddedTint
-r35 c17..65 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r35 c65..69 fg=Hint|Dim bg=Background|DiffAddedTint
-r35 c69..80 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r35 c80..84 fg=Accent bg=Background|DiffAddedTint
-r35 c84..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r36 c0..57 fg=Muted bg=Background|DiffAddedTint
-r36 c57..69 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r36 c69..77 fg=Hint|Dim bg=Background|DiffAddedTint
-r36 c77..78 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r36 c78..79 fg=Hint|Dim bg=Background|DiffAddedTint
-r36 c79..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r33 c0..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r34 c0..6 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r34 c6..7 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c7..60 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r34 c60..64 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c64..66 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r34 c66..70 fg=Hint|Dim bg=Background|DiffAddedTint
+r34 c70..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r35 c0..55 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r35 c55..59 fg=Hint|Dim bg=Background|DiffAddedTint
+r35 c59..69 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r35 c69..73 fg=Hint|Dim bg=Background|DiffAddedTint
+r35 c73..92 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r35 c92..93 fg=Hint|Dim bg=Background|DiffAddedTint
+r35 c93..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r36 c0..73 fg=Muted bg=Background|DiffAddedTint
+r36 c73..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r37 c0..44 fg=Muted bg=Background|DiffAddedTint
 r37 c44..112 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 
@@ -965,14 +1013,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -984,19 +1032,19 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 fg=Foreground|LivePeak bold
@@ -1006,9 +1054,13 @@ r2 c0..58 fg=Accent
 r2 c58..112 fg=Foreground|LivePeak
 r3 c0..112 fg=Foreground|LivePeak
 r4 c0..112 fg=Foreground|LivePeak
-r5 c0..112 fg=Foreground|LivePeak
+r5 c0..7 fg=Foreground|LivePeak
+r5 c7..8 fg=Muted|Hint|Dim
+r5 c8..112 fg=Foreground|LivePeak
 r6 c0..112 fg=Foreground|LivePeak
-r7 c0..112 fg=Foreground|LivePeak
+r7 c0..28 fg=Foreground|LivePeak
+r7 c28..29 fg=Muted|Hint|Dim
+r7 c29..112 fg=Foreground|LivePeak
 r8 c0..50 fg=Foreground|LivePeak
 r8 c50..59 fg=idx32
 r8 c59..64 fg=Foreground|LivePeak
@@ -1022,13 +1074,17 @@ r9 c70..112 fg=Foreground|LivePeak
 r10 c0..46 fg=Foreground|LivePeak
 r10 c46..57 fg=idx32
 r10 c57..62 fg=idx26
-r10 c62..112 fg=Foreground|LivePeak
+r10 c62..88 fg=Foreground|LivePeak
+r10 c88..89 fg=Muted|Hint|Dim
+r10 c89..112 fg=Foreground|LivePeak
 r11 c0..45 fg=Foreground|LivePeak
 r11 c45..50 fg=idx32
 r11 c50..56 fg=Foreground|LivePeak
 r11 c56..61 fg=idx26
 r11 c61..112 fg=Foreground|LivePeak
-r12 c0..45 fg=Foreground|LivePeak
+r12 c0..8 fg=Foreground|LivePeak
+r12 c8..9 fg=Muted|Hint|Dim
+r12 c9..45 fg=Foreground|LivePeak
 r12 c45..49 fg=idx32
 r12 c49..60 fg=Foreground|LivePeak
 r12 c60..67 fg=idx26
@@ -1070,46 +1126,50 @@ r22 c0..51 fg=Foreground|LivePeak
 r22 c51..52 fg=Live
 r22 c52..112 fg=Foreground|LivePeak
 r23 c0..112 fg=Foreground|LivePeak
-r24 c0..112 fg=Foreground|LivePeak
-r25 c0..112 fg=Foreground|LivePeak
+r24 c0..53 fg=Foreground|LivePeak
+r24 c53..54 fg=Muted|Hint|Dim
+r24 c54..69 fg=Foreground|LivePeak
+r24 c69..72 fg=Muted|Hint|Dim
+r24 c72..80 fg=Foreground|LivePeak
+r24 c80..83 fg=Muted|Hint|Dim
+r24 c83..112 fg=Foreground|LivePeak
+r25 c0..65 fg=Foreground|LivePeak
+r25 c65..68 fg=Muted|Hint|Dim
+r25 c68..76 fg=Foreground|LivePeak
+r25 c76..79 fg=Muted|Hint|Dim
+r25 c79..112 fg=Foreground|LivePeak
 r26 c0..112 fg=Foreground|LivePeak
 r27 c0..112 fg=Foreground|LivePeak
-r28 c0..112 fg=Foreground|LivePeak
+r28 c0..46 fg=Foreground|LivePeak
+r28 c46..47 fg=Muted|Hint|Dim
+r28 c47..112 fg=Foreground|LivePeak
 r29 c0..93 fg=Foreground|LivePeak
-r29 c93..98 fg=Muted|Hint|Dim
-r29 c98..112 fg=Foreground|LivePeak
+r29 c93..97 fg=Muted|Hint|Dim
+r29 c97..112 fg=Foreground|LivePeak
 r30 c0..93 fg=Foreground|LivePeak
-r30 c93..98 fg=Muted|Hint|Dim
-r30 c98..112 fg=Foreground|LivePeak
-r31 c0..93 fg=Foreground|LivePeak
-r31 c93..98 fg=Muted|Hint|Dim
-r31 c98..112 fg=Foreground|LivePeak
+r30 c93..96 fg=Muted|Hint|Dim
+r30 c96..112 fg=Foreground|LivePeak
+r31 c0..112 fg=Foreground|LivePeak
 r32 c0..1 fg=Foreground|LivePeak
 r32 c1..2 fg=Muted|Hint|Dim
 r32 c2..112 fg=Foreground|LivePeak
-r33 c0..92 fg=Foreground|LivePeak
-r33 c92..93 fg=Muted|Hint|Dim
-r33 c93..112 fg=Foreground|LivePeak
-r34 c0..63 fg=Foreground|LivePeak
-r34 c63..67 fg=Muted|Hint|Dim
-r34 c67..70 fg=Foreground|LivePeak
-r34 c70..74 fg=Muted|Hint|Dim
-r34 c74..76 fg=Foreground|LivePeak
-r34 c76..80 fg=Muted|Hint|Dim
-r34 c80..112 fg=Foreground|LivePeak
-r35 c0..16 fg=Foreground|LivePeak
-r35 c16..17 fg=Muted|Hint|Dim
-r35 c17..65 fg=Foreground|LivePeak
-r35 c65..69 fg=Muted|Hint|Dim
-r35 c69..80 fg=Foreground|LivePeak
-r35 c80..84 fg=Accent
-r35 c84..112 fg=Foreground|LivePeak
-r36 c0..57 fg=Muted|Hint|Dim
-r36 c57..69 fg=Foreground|LivePeak
-r36 c69..77 fg=Muted|Hint|Dim
-r36 c77..78 fg=Foreground|LivePeak
-r36 c78..79 fg=Muted|Hint|Dim
-r36 c79..112 fg=Foreground|LivePeak
+r33 c0..112 fg=Foreground|LivePeak
+r34 c0..6 fg=Foreground|LivePeak
+r34 c6..7 fg=Muted|Hint|Dim
+r34 c7..60 fg=Foreground|LivePeak
+r34 c60..64 fg=Muted|Hint|Dim
+r34 c64..66 fg=Foreground|LivePeak
+r34 c66..70 fg=Muted|Hint|Dim
+r34 c70..112 fg=Foreground|LivePeak
+r35 c0..55 fg=Foreground|LivePeak
+r35 c55..59 fg=Muted|Hint|Dim
+r35 c59..69 fg=Foreground|LivePeak
+r35 c69..73 fg=Muted|Hint|Dim
+r35 c73..92 fg=Foreground|LivePeak
+r35 c92..93 fg=Muted|Hint|Dim
+r35 c93..112 fg=Foreground|LivePeak
+r36 c0..73 fg=Muted|Hint|Dim
+r36 c73..112 fg=Foreground|LivePeak
 r37 c0..44 fg=Muted|Hint|Dim
 r37 c44..112 fg=Foreground|LivePeak
 
@@ -1119,14 +1179,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -1138,31 +1198,35 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
 r2 c0..58 fg=Accent
+r5 c7..8 dim
+r7 c28..29 dim
 r7 c70..71 fg=Accent
 r8 c50..59 fg=Accent
 r8 c64..71 fg=Accent
 r9 c48..59 fg=Accent
 r9 c64..71 fg=Accent
 r10 c46..62 fg=Accent
+r10 c88..89 dim
 r11 c45..50 fg=Accent
 r11 c56..61 fg=Accent
+r12 c8..9 dim
 r12 c45..49 fg=Accent
 r12 c60..67 fg=Accent
 r13 c45..49 fg=Accent
@@ -1176,20 +1240,22 @@ r17 c48..58 fg=Accent
 r17 c60..63 fg=Accent
 r18 c50..61 fg=Accent
 r22 c51..52 fg=Live|LivePeak
-r29 c93..98 dim
-r30 c93..98 dim
-r31 c93..98 dim
+r24 c53..54 dim
+r24 c69..72 dim
+r24 c80..83 dim
+r25 c65..68 dim
+r25 c76..79 dim
+r28 c46..47 dim
+r29 c93..97 dim
+r30 c93..96 dim
 r32 c1..2 dim
-r33 c92..93 dim
-r34 c63..67 dim
-r34 c70..74 dim
-r34 c76..80 dim
-r35 c16..17 dim
-r35 c65..69 dim
-r35 c80..84 fg=Accent
-r36 c0..57 dim
-r36 c69..77 dim
-r36 c78..79 dim
+r34 c6..7 dim
+r34 c60..64 dim
+r34 c66..70 dim
+r35 c55..59 dim
+r35 c69..73 dim
+r35 c92..93 dim
+r36 c0..73 dim
 r37 c0..44 dim
 
 == unknown-ground
@@ -1198,14 +1264,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -1217,31 +1283,35 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
 r2 c0..58 fg=Accent
+r5 c7..8 dim
+r7 c28..29 dim
 r7 c70..71 fg=Accent
 r8 c50..59 fg=Accent
 r8 c64..71 fg=Accent
 r9 c48..59 fg=Accent
 r9 c64..71 fg=Accent
 r10 c46..62 fg=Accent
+r10 c88..89 dim
 r11 c45..50 fg=Accent
 r11 c56..61 fg=Accent
+r12 c8..9 dim
 r12 c45..49 fg=Accent
 r12 c60..67 fg=Accent
 r13 c45..49 fg=Accent
@@ -1255,20 +1325,22 @@ r17 c48..58 fg=Accent
 r17 c60..63 fg=Accent
 r18 c50..61 fg=Accent
 r22 c51..52 fg=Live|LivePeak
-r29 c93..98 dim
-r30 c93..98 dim
-r31 c93..98 dim
+r24 c53..54 dim
+r24 c69..72 dim
+r24 c80..83 dim
+r25 c65..68 dim
+r25 c76..79 dim
+r28 c46..47 dim
+r29 c93..97 dim
+r30 c93..96 dim
 r32 c1..2 dim
-r33 c92..93 dim
-r34 c63..67 dim
-r34 c70..74 dim
-r34 c76..80 dim
-r35 c16..17 dim
-r35 c65..69 dim
-r35 c80..84 fg=Accent
-r36 c0..57 dim
-r36 c69..77 dim
-r36 c78..79 dim
+r34 c6..7 dim
+r34 c60..64 dim
+r34 c66..70 dim
+r35 c55..59 dim
+r35 c69..73 dim
+r35 c92..93 dim
+r36 c0..73 dim
 r37 c0..44 dim
 
 == no-color
@@ -1277,14 +1349,14 @@ One whale. Seventeen native actions.
 Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
 
+       ⢀
 
-
-                                                                      ⡀
+                            ⠂                                         ⡀
                                                   ⣀⣀⣤⣤⣤⣤⣤⣄⣀     ⣀⣤⣶⣶⣿⣿⣧
                                                 ⣠⣾⣿⣿⣿⣿⣿⣿⡿⠟⠋     ⠙⠛⠛⠛⠛⠛⠋
-                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤
+                                              ⢀⣾⣿⣿⡿⠛⠋⠉⠙⢻⣿⣿⣿⣷⣶⠤                          ⠁
                                              ⢠⣿⣿⣿⠋      ⠈⠉⠉⠉⠁
-                                             ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
+        ⠂                                    ⢸⣿⣿⡟           ⢀⣀⣀⣤⣤⣤⣀
                                              ⣺⣿⣿⣧      ⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⠇
                                              ⢾⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠉⢠⡏
                                              ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣿⠟⠁  ⢀⡜
@@ -1296,35 +1368,42 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
 
                                                    ● Browsing
 
+                                                     ⠄               ⠐⠗⠪        ⠠⡦⢔
+                                                                 ⠺⠪⠂        ⢴⢔⠄
 
 
-
-
-
+                                              ⠁
                                                                                              ⠴⡭⢭⠦
                                                                                              ⢠⠃⡇
 
  °
-                                                                                            ˚
-                                                               ⠕⠪⠕⠂   ⠐⡤⣒⠤  ⢀⠦⣒⠤
-                ·                                                ⢀⠦⣒⠤           ⠪⠪⠕⠂
-Native dots, colored ink, fish, one jellyfish and bubbles            ⠐⠕⠭⠒⠨⠒⠭⠒ ·
+
+      ˚                                                     ⡢⢔⡢⠄  ⢔⢔⡢⠄
+                                                       ⢔⢔⡢⠄          ⠈⠖⠭⠒                   ·
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
-r29 c93..98 dim
-r30 c93..98 dim
-r31 c93..98 dim
+r5 c7..8 dim
+r7 c28..29 dim
+r10 c88..89 dim
+r12 c8..9 dim
+r24 c53..54 dim
+r24 c69..72 dim
+r24 c80..83 dim
+r25 c65..68 dim
+r25 c76..79 dim
+r28 c46..47 dim
+r29 c93..97 dim
+r30 c93..96 dim
 r32 c1..2 dim
-r33 c92..93 dim
-r34 c63..67 dim
-r34 c70..74 dim
-r34 c76..80 dim
-r35 c16..17 dim
-r35 c65..69 dim
-r36 c0..57 dim
-r36 c69..77 dim
-r36 c78..79 dim
+r34 c6..7 dim
+r34 c60..64 dim
+r34 c66..70 dim
+r35 c55..59 dim
+r35 c69..73 dim
+r35 c92..93 dim
+r36 c0..73 dim
 r37 c0..44 dim
 
 == ascii
@@ -1361,23 +1440,21 @@ Browsing / 9 of 17 / Left, Right / Space play / F11 avatar
                                                                                              \___/
                                                                                               / \
  O
-                                                                                            o
-                                                                ><>
-                .                                                       ><>  ><>><o>
-Native dots, colored ink, fish, one jellyfish and bubbles          ><>><>  ><>
+
+      o
+                                                             ><>  ><>><o>                   .
+Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale
 Space pause / Left, Right action / F8 motion
 ---
 r0 c0..36 bold
 r29 c93..98 dim
 r30 c93..98 dim
-r31 c93..98 dim
+r31 c94..95 dim
+r31 c96..97 dim
 r32 c1..2 dim
-r33 c92..93 dim
-r34 c64..67 dim
-r35 c16..17 dim
-r35 c72..75 dim
-r35 c77..80 dim
-r36 c0..57 dim
-r36 c67..73 dim
-r36 c75..78 dim
+r34 c6..7 dim
+r35 c61..64 dim
+r35 c66..73 dim
+r35 c92..93 dim
+r36 c0..73 dim
 r37 c0..44 dim

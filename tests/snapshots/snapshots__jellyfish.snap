@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -8,8 +7,8 @@ expression: dump(&entry)
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
@@ -17,15 +16,15 @@ expression: dump(&entry)
 r0 c0..40 bg=Background
 r1 c0..40 bg=Background
 r2 c0..40 bg=Background
-r3 c0..17 bg=Background
-r3 c17..22 fg=Hint bg=Background
-r3 c22..40 bg=Background
+r3 c0..18 bg=Background
+r3 c18..20 fg=#3c4351 bg=Background
+r3 c20..40 bg=Background
 r4 c0..17 bg=Background
-r4 c17..22 fg=Dim bg=Background
-r4 c22..40 bg=Background
+r4 c17..21 fg=#202636 bg=Background
+r4 c21..40 bg=Background
 r5 c0..17 bg=Background
-r5 c17..22 fg=Dim bg=Background
-r5 c22..40 bg=Background
+r5 c17..20 fg=#202636 bg=Background
+r5 c20..40 bg=Background
 r6 c0..40 bg=Background
 r7 c0..40 bg=Background
 r8 c0..40 bg=Background
@@ -35,8 +34,8 @@ r8 c0..40 bg=Background
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
@@ -44,15 +43,15 @@ r8 c0..40 bg=Background
 r0 c0..40 bg=Background
 r1 c0..40 bg=Background
 r2 c0..40 bg=Background
-r3 c0..17 bg=Background
-r3 c17..22 fg=Hint bg=Background
-r3 c22..40 bg=Background
+r3 c0..18 bg=Background
+r3 c18..20 fg=#3d444a bg=Background
+r3 c20..40 bg=Background
 r4 c0..17 bg=Background
-r4 c17..22 fg=Dim bg=Background
-r4 c22..40 bg=Background
+r4 c17..21 fg=#22272d bg=Background
+r4 c21..40 bg=Background
 r5 c0..17 bg=Background
-r5 c17..22 fg=Dim bg=Background
-r5 c22..40 bg=Background
+r5 c17..20 fg=#22272d bg=Background
+r5 c20..40 bg=Background
 r6 c0..40 bg=Background
 r7 c0..40 bg=Background
 r8 c0..40 bg=Background
@@ -62,8 +61,8 @@ r8 c0..40 bg=Background
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
@@ -71,15 +70,15 @@ r8 c0..40 bg=Background
 r0 c0..40 bg=Background
 r1 c0..40 bg=Background
 r2 c0..40 bg=Background
-r3 c0..17 bg=Background
-r3 c17..22 fg=Hint bg=Background
-r3 c22..40 bg=Background
+r3 c0..18 bg=Background
+r3 c18..20 fg=#b1b7bd bg=Background
+r3 c20..40 bg=Background
 r4 c0..17 bg=Background
-r4 c17..22 fg=Dim bg=Background
-r4 c22..40 bg=Background
+r4 c17..21 fg=#d1d6db bg=Background
+r4 c21..40 bg=Background
 r5 c0..17 bg=Background
-r5 c17..22 fg=Dim bg=Background
-r5 c22..40 bg=Background
+r5 c17..20 fg=#d1d6db bg=Background
+r5 c20..40 bg=Background
 r6 c0..40 bg=Background
 r7 c0..40 bg=Background
 r8 c0..40 bg=Background
@@ -89,8 +88,8 @@ r8 c0..40 bg=Background
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
@@ -98,15 +97,15 @@ r8 c0..40 bg=Background
 r0 c0..40 bg=Background|Surface
 r1 c0..40 bg=Background|Surface
 r2 c0..40 bg=Background|Surface
-r3 c0..17 bg=Background|Surface
-r3 c17..22 fg=Hint bg=Background|Surface
-r3 c22..40 bg=Background|Surface
+r3 c0..18 bg=Background|Surface
+r3 c18..20 fg=Hint bg=Background|Surface
+r3 c20..40 bg=Background|Surface
 r4 c0..17 bg=Background|Surface
-r4 c17..22 fg=Dim bg=Background|Surface
-r4 c22..40 bg=Background|Surface
+r4 c17..21 fg=Dim bg=Background|Surface
+r4 c21..40 bg=Background|Surface
 r5 c0..17 bg=Background|Surface
-r5 c17..22 fg=Dim bg=Background|Surface
-r5 c22..40 bg=Background|Surface
+r5 c17..20 fg=Dim bg=Background|Surface
+r5 c20..40 bg=Background|Surface
 r6 c0..40 bg=Background|Surface
 r7 c0..40 bg=Background|Surface
 r8 c0..40 bg=Background|Surface
@@ -116,8 +115,8 @@ r8 c0..40 bg=Background|Surface
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
@@ -125,15 +124,15 @@ r8 c0..40 bg=Background|Surface
 r0 c0..40 bg=Background
 r1 c0..40 bg=Background
 r2 c0..40 bg=Background
-r3 c0..17 bg=Background
-r3 c17..22 fg=Hint bg=Background
-r3 c22..40 bg=Background
+r3 c0..18 bg=Background
+r3 c18..20 fg=Hint bg=Background
+r3 c20..40 bg=Background
 r4 c0..17 bg=Background
-r4 c17..22 fg=Dim bg=Background
-r4 c22..40 bg=Background
+r4 c17..21 fg=Dim bg=Background
+r4 c21..40 bg=Background
 r5 c0..17 bg=Background
-r5 c17..22 fg=Dim bg=Background
-r5 c22..40 bg=Background
+r5 c17..20 fg=Dim bg=Background
+r5 c20..40 bg=Background
 r6 c0..40 bg=Background
 r7 c0..40 bg=Background
 r8 c0..40 bg=Background
@@ -143,45 +142,45 @@ r8 c0..40 bg=Background
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
 ---
-r3 c17..22 dim
-r4 c17..22 dim
-r5 c17..22 dim
+r3 c18..20 dim
+r4 c17..21 dim
+r5 c17..20 dim
 
 == unknown-ground
 
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
 ---
-r3 c17..22 dim
-r4 c17..22 dim
-r5 c17..22 dim
+r3 c18..20 dim
+r4 c17..21 dim
+r5 c17..20 dim
 
 == no-color
 
 
 
                   ⣀⣀
-                 ⠐⡳⢺⠂
-                 ⠠⠃⠇
+                 ⠚⡖⡲⠓
+                 ⠰⠁⠇
 
 
 
 ---
-r3 c17..22 dim
-r4 c17..22 dim
-r5 c17..22 dim
+r3 c18..20 dim
+r4 c17..21 dim
+r5 c17..20 dim
 
 == ascii
 
@@ -196,4 +195,5 @@ r5 c17..22 dim
 ---
 r3 c18..21 dim
 r4 c18..21 dim
-r5 c18..21 dim
+r5 c18..19 dim
+r5 c20..21 dim

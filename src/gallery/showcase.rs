@@ -1170,7 +1170,7 @@ impl ShowcaseFrame<'_> {
                 band(water, water.height - 2, 1),
                 buf,
                 theme,
-                "Native dots, colored ink, fish, one jellyfish and bubbles",
+                "Native dots, colored ink, fish, shoal, jellyfish, snow, bubbles and whale",
                 Role::Muted,
             );
             caption(

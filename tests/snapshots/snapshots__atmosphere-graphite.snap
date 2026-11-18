@@ -17,10 +17,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -122,42 +122,39 @@ r14 c0..20 bg=#0d121b
 r14 c20..21 bg=#030508
 r14 c21..28 bg=#0d121b
 r14 c28..37 fg=#76b3f6 bg=#0d121b
-r14 c37..62 bg=#0d121b
-r14 c62..63 fg=Dim bg=#0d121b
-r14 c63..104 bg=#0d121b
+r14 c37..52 bg=#0d121b
+r14 c52..53 fg=#2c3953 bg=Sidebar
+r14 c53..104 bg=#0d121b
 r15 c0..20 bg=#0d121b
 r15 c20..21 bg=#030508
 r15 c21..27 bg=#0d121b
 r15 c27..36 fg=#69aef2 bg=#0d121b
 r15 c36..37 bg=#0d121b
 r15 c37..41 fg=#69aef2 bg=#0d121b
-r15 c41..76 bg=#0d121b
-r15 c76..84 fg=Hint bg=#0d121b
-r15 c84..104 bg=#0d121b
+r15 c41..73 bg=#0d121b
+r15 c73..77 fg=#313e57 bg=Sidebar
+r15 c77..81 fg=#3d4a61 bg=Sidebar
+r15 c81..104 bg=#0d121b
 r16 c0..20 bg=#0d121b
 r16 c20..21 bg=#030508
 r16 c21..27 bg=#0d121b
 r16 c27..30 fg=#5da9ee bg=#0d121b
 r16 c30..34 bg=#0d121b
 r16 c34..41 fg=#5da9ee bg=#0d121b
-r16 c41..50 bg=#0d121b
-r16 c50..51 fg=Dim bg=#0d121b
-r16 c51..85 bg=#0d121b
-r16 c85..89 fg=Accent bg=#0d121b
-r16 c89..104 bg=#0d121b
+r16 c41..82 bg=#0d121b
+r16 c82..86 fg=#49566b bg=Sidebar
+r16 c86..104 bg=#0d121b
 r17 c0..20 bg=#0d121b
 r17 c20..21 bg=#030508
 r17 c21..27 bg=#0d121b
 r17 c27..39 fg=#50a3e9 bg=#0d121b
 r17 c39..40 bg=#0d121b
 r17 c40..41 fg=#50a3e9 bg=#0d121b
-r17 c41..52 bg=#0d121b
-r17 c52..53 fg=Dim bg=#0d121b
-r17 c53..74 bg=#0d121b
-r17 c74..78 fg=Hint bg=#0d121b
-r17 c78..79 bg=#0d121b
-r17 c79..83 fg=Hint bg=#0d121b
-r17 c83..104 bg=#0d121b
+r17 c41..71 bg=#0d121b
+r17 c71..75 fg=#313e57 bg=Sidebar
+r17 c75..76 bg=#0d121b
+r17 c76..80 fg=#313e57 bg=Sidebar
+r17 c80..104 bg=#0d121b
 r18 c0..20 bg=#0d121b
 r18 c20..21 bg=#030508
 r18 c21..27 bg=#0d121b
@@ -204,10 +201,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -308,42 +305,39 @@ r14 c0..20 bg=Sidebar
 r14 c20..21 bg=Background
 r14 c21..28 bg=Sidebar
 r14 c28..37 fg=#76b3f6 bg=Sidebar
-r14 c37..62 bg=Sidebar
-r14 c62..63 fg=Dim bg=Sidebar
-r14 c63..104 bg=Sidebar
+r14 c37..52 bg=Sidebar
+r14 c52..53 fg=#333b45 bg=Sidebar
+r14 c53..104 bg=Sidebar
 r15 c0..20 bg=Sidebar
 r15 c20..21 bg=Background
 r15 c21..27 bg=Sidebar
 r15 c27..36 fg=#69aef2 bg=Sidebar
 r15 c36..37 bg=Sidebar
 r15 c37..41 fg=#69aef2 bg=Sidebar
-r15 c41..76 bg=Sidebar
-r15 c76..84 fg=Hint bg=Sidebar
-r15 c84..104 bg=Sidebar
+r15 c41..73 bg=Sidebar
+r15 c73..77 fg=#384049 bg=Sidebar
+r15 c77..81 fg=#434b55 bg=Sidebar
+r15 c81..104 bg=Sidebar
 r16 c0..20 bg=Sidebar
 r16 c20..21 bg=Background
 r16 c21..27 bg=Sidebar
 r16 c27..30 fg=#5da9ee bg=Sidebar
 r16 c30..34 bg=Sidebar
 r16 c34..41 fg=#5da9ee bg=Sidebar
-r16 c41..50 bg=Sidebar
-r16 c50..51 fg=Dim bg=Sidebar
-r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Accent bg=Sidebar
-r16 c89..104 bg=Sidebar
+r16 c41..82 bg=Sidebar
+r16 c82..86 fg=#4e5761 bg=Sidebar
+r16 c86..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background
 r17 c21..27 bg=Sidebar
 r17 c27..39 fg=#50a3e9 bg=Sidebar
 r17 c39..40 bg=Sidebar
 r17 c40..41 fg=#50a3e9 bg=Sidebar
-r17 c41..52 bg=Sidebar
-r17 c52..53 fg=Dim bg=Sidebar
-r17 c53..74 bg=Sidebar
-r17 c74..78 fg=Hint bg=Sidebar
-r17 c78..79 bg=Sidebar
-r17 c79..83 fg=Hint bg=Sidebar
-r17 c83..104 bg=Sidebar
+r17 c41..71 bg=Sidebar
+r17 c71..75 fg=#384049 bg=Sidebar
+r17 c75..76 bg=Sidebar
+r17 c76..80 fg=#384049 bg=Sidebar
+r17 c80..104 bg=Sidebar
 r18 c0..20 bg=Sidebar
 r18 c20..21 bg=Background
 r18 c21..27 bg=Sidebar
@@ -390,10 +384,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -494,42 +488,39 @@ r14 c0..20 bg=Sidebar
 r14 c20..21 bg=Background
 r14 c21..28 bg=Sidebar
 r14 c28..37 fg=#1a7fd2 bg=Sidebar
-r14 c37..62 bg=Sidebar
-r14 c62..63 fg=Dim bg=Sidebar
-r14 c63..104 bg=Sidebar
+r14 c37..52 bg=Sidebar
+r14 c52..53 fg=#cbced3 bg=Sidebar
+r14 c53..104 bg=Sidebar
 r15 c0..20 bg=Sidebar
 r15 c20..21 bg=Background
 r15 c21..27 bg=Sidebar
 r15 c27..36 fg=#1877ce bg=Sidebar
 r15 c36..37 bg=Sidebar
 r15 c37..41 fg=#1877ce bg=Sidebar
-r15 c41..76 bg=Sidebar
-r15 c76..84 fg=Hint bg=Sidebar
-r15 c84..104 bg=Sidebar
+r15 c41..73 bg=Sidebar
+r15 c73..77 fg=#c3c7cb bg=Sidebar
+r15 c77..81 fg=#b6babf bg=Sidebar
+r15 c81..104 bg=Sidebar
 r16 c0..20 bg=Sidebar
 r16 c20..21 bg=Background
 r16 c21..27 bg=Sidebar
 r16 c27..30 fg=#166fcb bg=Sidebar
 r16 c30..34 bg=Sidebar
 r16 c34..41 fg=#166fcb bg=Sidebar
-r16 c41..50 bg=Sidebar
-r16 c50..51 fg=Dim bg=Sidebar
-r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Accent bg=Sidebar
-r16 c89..104 bg=Sidebar
+r16 c41..82 bg=Sidebar
+r16 c82..86 fg=#a9aeb3 bg=Sidebar
+r16 c86..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background
 r17 c21..27 bg=Sidebar
 r17 c27..39 fg=#1368c8 bg=Sidebar
 r17 c39..40 bg=Sidebar
 r17 c40..41 fg=#1368c8 bg=Sidebar
-r17 c41..52 bg=Sidebar
-r17 c52..53 fg=Dim bg=Sidebar
-r17 c53..74 bg=Sidebar
-r17 c74..78 fg=Hint bg=Sidebar
-r17 c78..79 bg=Sidebar
-r17 c79..83 fg=Hint bg=Sidebar
-r17 c83..104 bg=Sidebar
+r17 c41..71 bg=Sidebar
+r17 c71..75 fg=#c3c7cb bg=Sidebar
+r17 c75..76 bg=Sidebar
+r17 c76..80 fg=#c3c7cb bg=Sidebar
+r17 c80..104 bg=Sidebar
 r18 c0..20 bg=Sidebar
 r18 c20..21 bg=Background
 r18 c21..27 bg=Sidebar
@@ -576,10 +567,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -690,42 +681,38 @@ r14 c0..20 bg=Sidebar
 r14 c20..21 bg=Background|Surface
 r14 c21..28 bg=Sidebar
 r14 c28..37 fg=Accent bg=Sidebar
-r14 c37..62 bg=Sidebar
-r14 c62..63 fg=Dim bg=Sidebar
-r14 c63..104 bg=Sidebar
+r14 c37..52 bg=Sidebar
+r14 c52..53 fg=Dim bg=Sidebar
+r14 c53..104 bg=Sidebar
 r15 c0..20 bg=Sidebar
 r15 c20..21 bg=Background|Surface
 r15 c21..27 bg=Sidebar
 r15 c27..36 fg=idx75 bg=Sidebar
 r15 c36..37 bg=Sidebar
 r15 c37..41 fg=idx75 bg=Sidebar
-r15 c41..76 bg=Sidebar
-r15 c76..84 fg=Hint bg=Sidebar
-r15 c84..104 bg=Sidebar
+r15 c41..73 bg=Sidebar
+r15 c73..81 fg=Hint bg=Sidebar
+r15 c81..104 bg=Sidebar
 r16 c0..20 bg=Sidebar
 r16 c20..21 bg=Background|Surface
 r16 c21..27 bg=Sidebar
 r16 c27..30 fg=idx75 bg=Sidebar
 r16 c30..34 bg=Sidebar
 r16 c34..41 fg=idx75 bg=Sidebar
-r16 c41..50 bg=Sidebar
-r16 c50..51 fg=Dim bg=Sidebar
-r16 c51..85 bg=Sidebar
-r16 c85..89 fg=Accent bg=Sidebar
-r16 c89..104 bg=Sidebar
+r16 c41..82 bg=Sidebar
+r16 c82..86 fg=Hint bg=Sidebar
+r16 c86..104 bg=Sidebar
 r17 c0..20 bg=Sidebar
 r17 c20..21 bg=Background|Surface
 r17 c21..27 bg=Sidebar
 r17 c27..39 fg=idx74 bg=Sidebar
 r17 c39..40 bg=Sidebar
 r17 c40..41 fg=idx74 bg=Sidebar
-r17 c41..52 bg=Sidebar
-r17 c52..53 fg=Dim bg=Sidebar
-r17 c53..74 bg=Sidebar
-r17 c74..78 fg=Hint bg=Sidebar
-r17 c78..79 bg=Sidebar
-r17 c79..83 fg=Hint bg=Sidebar
-r17 c83..104 bg=Sidebar
+r17 c41..71 bg=Sidebar
+r17 c71..75 fg=Hint bg=Sidebar
+r17 c75..76 bg=Sidebar
+r17 c76..80 fg=Hint bg=Sidebar
+r17 c80..104 bg=Sidebar
 r18 c0..20 bg=Sidebar
 r18 c20..21 bg=Background|Surface
 r18 c21..27 bg=Sidebar
@@ -772,10 +759,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -886,42 +873,38 @@ r14 c0..20 bg=Sidebar|Surface
 r14 c20..21 bg=Background
 r14 c21..28 bg=Sidebar|Surface
 r14 c28..37 fg=idx32 bg=Sidebar|Surface
-r14 c37..62 bg=Sidebar|Surface
-r14 c62..63 fg=Dim bg=Sidebar|Surface
-r14 c63..104 bg=Sidebar|Surface
+r14 c37..52 bg=Sidebar|Surface
+r14 c52..53 fg=Dim bg=Sidebar|Surface
+r14 c53..104 bg=Sidebar|Surface
 r15 c0..20 bg=Sidebar|Surface
 r15 c20..21 bg=Background
 r15 c21..27 bg=Sidebar|Surface
 r15 c27..36 fg=idx32 bg=Sidebar|Surface
 r15 c36..37 bg=Sidebar|Surface
 r15 c37..41 fg=idx32 bg=Sidebar|Surface
-r15 c41..76 bg=Sidebar|Surface
-r15 c76..84 fg=Hint bg=Sidebar|Surface
-r15 c84..104 bg=Sidebar|Surface
+r15 c41..73 bg=Sidebar|Surface
+r15 c73..81 fg=Hint bg=Sidebar|Surface
+r15 c81..104 bg=Sidebar|Surface
 r16 c0..20 bg=Sidebar|Surface
 r16 c20..21 bg=Background
 r16 c21..27 bg=Sidebar|Surface
 r16 c27..30 fg=idx26 bg=Sidebar|Surface
 r16 c30..34 bg=Sidebar|Surface
 r16 c34..41 fg=idx26 bg=Sidebar|Surface
-r16 c41..50 bg=Sidebar|Surface
-r16 c50..51 fg=Dim bg=Sidebar|Surface
-r16 c51..85 bg=Sidebar|Surface
-r16 c85..89 fg=Accent bg=Sidebar|Surface
-r16 c89..104 bg=Sidebar|Surface
+r16 c41..82 bg=Sidebar|Surface
+r16 c82..86 fg=Hint bg=Sidebar|Surface
+r16 c86..104 bg=Sidebar|Surface
 r17 c0..20 bg=Sidebar|Surface
 r17 c20..21 bg=Background
 r17 c21..27 bg=Sidebar|Surface
 r17 c27..39 fg=idx26 bg=Sidebar|Surface
 r17 c39..40 bg=Sidebar|Surface
 r17 c40..41 fg=idx26 bg=Sidebar|Surface
-r17 c41..52 bg=Sidebar|Surface
-r17 c52..53 fg=Dim bg=Sidebar|Surface
-r17 c53..74 bg=Sidebar|Surface
-r17 c74..78 fg=Hint bg=Sidebar|Surface
-r17 c78..79 bg=Sidebar|Surface
-r17 c79..83 fg=Hint bg=Sidebar|Surface
-r17 c83..104 bg=Sidebar|Surface
+r17 c41..71 bg=Sidebar|Surface
+r17 c71..75 fg=Hint bg=Sidebar|Surface
+r17 c75..76 bg=Sidebar|Surface
+r17 c76..80 fg=Hint bg=Sidebar|Surface
+r17 c80..104 bg=Sidebar|Surface
 r18 c0..20 bg=Sidebar|Surface
 r18 c20..21 bg=Background
 r18 c21..27 bg=Sidebar|Surface
@@ -968,10 +951,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1012,19 +995,17 @@ r9 c21..104 dim
 r10 c22..32 bold
 r13 c34..35 fg=Accent
 r14 c28..37 fg=Accent
-r14 c62..63 dim
+r14 c52..53 dim
 r15 c27..36 fg=Accent
 r15 c37..41 fg=Accent
-r15 c76..84 dim
+r15 c73..81 dim
 r16 c27..30 fg=Accent
 r16 c34..41 fg=Accent
-r16 c50..51 dim
-r16 c85..89 fg=Accent
+r16 c82..86 dim
 r17 c27..39 fg=Accent
 r17 c40..41 fg=Accent
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r17 c71..75 dim
+r17 c76..80 dim
 r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
@@ -1046,10 +1027,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1090,19 +1071,17 @@ r9 c21..104 dim
 r10 c22..32 bold
 r13 c34..35 fg=Accent
 r14 c28..37 fg=Accent
-r14 c62..63 dim
+r14 c52..53 dim
 r15 c27..36 fg=Accent
 r15 c37..41 fg=Accent
-r15 c76..84 dim
+r15 c73..81 dim
 r16 c27..30 fg=Accent
 r16 c34..41 fg=Accent
-r16 c50..51 dim
-r16 c85..89 fg=Accent
+r16 c82..86 dim
 r17 c27..39 fg=Accent
 r17 c40..41 fg=Accent
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r17 c71..75 dim
+r17 c76..80 dim
 r18 c27..37 fg=Accent
 r18 c38..40 fg=Accent
 r19 c28..39 fg=Accent
@@ -1124,10 +1103,10 @@ Codewhale / Graphite atmosphere                                                 
 
 
                                   ⡀
-                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄                         ˚
-                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                   ⡰⢔⡢⠄⠐⡤⣒⠤
-                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿         ·                                  ⠕⠪⠕⠂
-                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇           ·                     ⠕⠪⠕⠂ ⠪⠪⠕⠂
+                            ⢀⣠⣴⣶⣿⣿⣡⣤⠄               ˚
+                           ⣠⣾⣿⠟⠋⠙⠛⠋⠉ ⢀⣀⣀⣀                                ⢢⢔⡢⠄⢀⠦⣒⠤
+                           ⣿⣿⠁    ⣠⣴⣶⣿⣿⠿⣿                                         ⠪⠪⠕⠂
+                           ⢿⣿⣄⣀⣀⣤⣾⣿⡿⢿⡟⠁ ⠇                              ⠪⠪⠕⠂ ⠕⠪⠕⠂
                            ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡟ ⢀⠜
                             ⠈⠻⠿⠿⠟⣫⣿⡋⠤⠒⠁
                                 ⠈⠉⠁
@@ -1156,12 +1135,11 @@ r8 c21..22 dim
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r14 c62..63 dim
-r15 c76..84 dim
-r16 c50..51 dim
-r17 c52..53 dim
-r17 c74..78 dim
-r17 c79..83 dim
+r14 c52..53 dim
+r15 c73..81 dim
+r16 c82..86 dim
+r17 c71..75 dim
+r17 c76..80 dim
 
 == ascii
 Codewhale / Graphite atmosphere                                                           Finishing pass
@@ -1178,10 +1156,10 @@ Codewhale / Graphite atmosphere                                                 
 
                              . Working
 
-                                                              o                   o
+                                                    o
 
-                                                  .                         ><>  ><>><o>
-                                                    .                     ><>  ><>
+                                                                         ><>  ><>><o>
+                                                                       ><>  ><>
 
 
 
@@ -1210,11 +1188,8 @@ r8 c21..22 dim
 r8 c103..104 dim
 r9 c21..104 dim
 r10 c22..32 bold
-r14 c62..63 dim
-r14 c82..83 dim
-r16 c50..51 dim
-r16 c76..79 dim
-r16 c81..84 dim
-r17 c52..53 dim
-r17 c74..77 dim
-r17 c79..82 dim
+r14 c52..53 dim
+r16 c73..76 dim
+r16 c78..85 dim
+r17 c71..74 dim
+r17 c76..79 dim

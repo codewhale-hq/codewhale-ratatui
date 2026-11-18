@@ -50,7 +50,7 @@ GROUPS = {
     "chrome": ("Navigation and controls", "Headings, tabs, toggles and keyboard maps"),
     "display": ("Work and results", "Diffs, trees, progress, approvals and run results"),
     "motion": ("Motion and feedback", "Spinners, notifications and calm transitions"),
-    "habitat": ("Life in the water", "Fish, jellyfish and bubbles, drawn in terminal cells"),
+    "habitat": ("Life in the water", "Fish, a far shoal, a jellyfish, marine snow, bubbles and a distant whale, drawn in terminal cells"),
     "whales": ("A whale with a job", "Session state, attention, completion and the pod"),
     "whale-actions": ("Every whale action", "The complete v2 state vocabulary, in terminal cells"),
     "scenes": ("Optional workspace compositions", "Desktop-inspired conversation, review and fleet layouts you can compose from the library"),
@@ -89,7 +89,7 @@ def classify(name):
         return "transcript"
     if name.startswith(("workspace-scene", "review-scene", "fleet-scene", "habitat-scene")):
         return "scenes"
-    if re.search(r"habitat|fish|jelly|bubble", name):
+    if re.search(r"habitat|fish|jelly|bubble|shoal|marine-snow|distant-whale", name):
         return "habitat"
     if name == "workbar" or name.startswith("workbar-"):
         return "workbar"
@@ -423,7 +423,7 @@ def readme_gallery(readme, destination, index):
                            ("showcase-light.gif", "The same native layout in WhaleLight")],
                 "motion": [("motion-demo.gif", "Working and verification spinners — Ocean"),
                            ("motion-demo-light.gif", "Working and verification spinners — Paper")],
-                "habitat": [("habitat-motion.gif", "Native fish, jellyfish and bubbles")],
+                "habitat": [("habitat-motion.gif", "The native ocean: fish, shoal, jellyfish, snow, bubbles and a distant whale")],
                 "whale-actions": [("whale-performance.gif", "All seventeen native whale actions")],
             }.get(family, [])
             if movies:

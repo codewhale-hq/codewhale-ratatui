@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -9,11 +8,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -21,13 +19,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..70 bg=Background
@@ -46,62 +45,59 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..84 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..84 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..84 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
 r6 c27..84 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..84 bg=Background
-r8 c0..84 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..84 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..84 bg=Background
 r9 c0..84 bg=Background
 r10 c0..84 bg=Background
 r11 c0..84 bg=Background
 r12 c0..84 bg=Background
 r13 c0..84 bg=Background
-r14 c0..84 bg=Background
+r14 c0..70 bg=Background
+r14 c70..75 fg=#3c4351 bg=Background
+r14 c75..84 bg=Background
 r15 c0..70 bg=Background
-r15 c70..75 fg=Hint bg=Background
+r15 c70..75 fg=#353d4c bg=Background
 r15 c75..84 bg=Background
-r16 c0..70 bg=Background
-r16 c70..75 fg=Hint bg=Background
-r16 c75..84 bg=Background
-r17 c0..70 bg=Background
-r17 c70..75 fg=Hint bg=Background
-r17 c75..84 bg=Background
-r18 c0..84 bg=Background
-r19 c0..6 bg=Background
-r19 c6..7 fg=Dim bg=Background
-r19 c7..22 bg=Background
-r19 c22..23 fg=Dim bg=Background
-r19 c23..72 bg=Background
-r19 c72..73 fg=Dim bg=Background
-r19 c73..84 bg=Background
-r20 c0..59 bg=Background
-r20 c59..60 fg=Dim bg=Background
-r20 c60..84 bg=Background
-r21 c0..36 bg=Background
-r21 c36..39 fg=Hint bg=Background
-r21 c39..44 bg=Background
-r21 c44..47 fg=Hint bg=Background
-r21 c47..49 bg=Background
-r21 c49..52 fg=Hint bg=Background
-r21 c52..84 bg=Background
-r22 c0..4 bg=Background
-r22 c4..5 fg=Dim bg=Background
-r22 c5..39 bg=Background
-r22 c39..42 fg=Hint bg=Background
-r22 c42..52 bg=Background
-r22 c52..56 fg=Accent bg=Background
-r22 c56..84 bg=Background
-r23 c0..42 bg=Background
-r23 c42..45 fg=Hint bg=Background
-r23 c45..47 bg=Background
-r23 c47..50 fg=Hint bg=Background
-r23 c50..84 bg=Background
+r16 c0..71 bg=Background
+r16 c71..72 fg=#353d4c bg=Background
+r16 c72..73 bg=Background
+r16 c73..74 fg=#353d4c bg=Background
+r16 c74..84 bg=Background
+r17 c0..84 bg=Background
+r18 c0..8 bg=Background
+r18 c8..9 fg=#0b0f20 bg=Background
+r18 c9..84 bg=Background
+r19 c0..84 bg=Background
+r20 c0..29 bg=Background
+r20 c29..32 fg=#48505e bg=Background
+r20 c32..84 bg=Background
+r21 c0..24 bg=Background
+r21 c24..27 fg=#303645 bg=Background
+r21 c27..34 bg=Background
+r21 c34..41 fg=#535c6a bg=Background
+r21 c41..58 bg=Background
+r21 c58..59 fg=#202636 bg=Background
+r21 c59..84 bg=Background
+r22 c0..6 bg=Background
+r22 c6..7 fg=#202636 bg=Background
+r22 c7..27 bg=Background
+r22 c27..30 fg=#3c4351 bg=Background
+r22 c30..32 bg=Background
+r22 c32..35 fg=#535c6a bg=Background
+r22 c35..84 bg=Background
+r23 c0..84 bg=Background
 
 == dark-graphite
 Codewhale / clear water                                               Native habitat
@@ -109,11 +105,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -121,13 +116,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..70 bg=Background
@@ -146,62 +142,59 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..84 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..84 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..84 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
 r6 c27..84 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..84 bg=Background
-r8 c0..84 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..84 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..84 bg=Background
 r9 c0..84 bg=Background
 r10 c0..84 bg=Background
 r11 c0..84 bg=Background
 r12 c0..84 bg=Background
 r13 c0..84 bg=Background
-r14 c0..84 bg=Background
+r14 c0..70 bg=Background
+r14 c70..75 fg=#3d444a bg=Background
+r14 c75..84 bg=Background
 r15 c0..70 bg=Background
-r15 c70..75 fg=Hint bg=Background
+r15 c70..75 fg=#373d45 bg=Background
 r15 c75..84 bg=Background
-r16 c0..70 bg=Background
-r16 c70..75 fg=Hint bg=Background
-r16 c75..84 bg=Background
-r17 c0..70 bg=Background
-r17 c70..75 fg=Hint bg=Background
-r17 c75..84 bg=Background
-r18 c0..84 bg=Background
-r19 c0..6 bg=Background
-r19 c6..7 fg=Dim bg=Background
-r19 c7..22 bg=Background
-r19 c22..23 fg=Dim bg=Background
-r19 c23..72 bg=Background
-r19 c72..73 fg=Dim bg=Background
-r19 c73..84 bg=Background
-r20 c0..59 bg=Background
-r20 c59..60 fg=Dim bg=Background
-r20 c60..84 bg=Background
-r21 c0..36 bg=Background
-r21 c36..39 fg=Hint bg=Background
-r21 c39..44 bg=Background
-r21 c44..47 fg=Hint bg=Background
-r21 c47..49 bg=Background
-r21 c49..52 fg=Hint bg=Background
-r21 c52..84 bg=Background
-r22 c0..4 bg=Background
-r22 c4..5 fg=Dim bg=Background
-r22 c5..39 bg=Background
-r22 c39..42 fg=Hint bg=Background
-r22 c42..52 bg=Background
-r22 c52..56 fg=Accent bg=Background
-r22 c56..84 bg=Background
-r23 c0..42 bg=Background
-r23 c42..45 fg=Hint bg=Background
-r23 c45..47 bg=Background
-r23 c47..50 fg=Hint bg=Background
-r23 c50..84 bg=Background
+r16 c0..71 bg=Background
+r16 c71..72 fg=#373d45 bg=Background
+r16 c72..73 bg=Background
+r16 c73..74 fg=#373d45 bg=Background
+r16 c74..84 bg=Background
+r17 c0..84 bg=Background
+r18 c0..8 bg=Background
+r18 c8..9 fg=#0d1014 bg=Background
+r18 c9..84 bg=Background
+r19 c0..84 bg=Background
+r20 c0..29 bg=Background
+r20 c29..32 fg=#495057 bg=Background
+r20 c32..84 bg=Background
+r21 c0..24 bg=Background
+r21 c24..27 fg=#32373d bg=Background
+r21 c27..34 bg=Background
+r21 c34..41 fg=#555d64 bg=Background
+r21 c41..58 bg=Background
+r21 c58..59 fg=#22272d bg=Background
+r21 c59..84 bg=Background
+r22 c0..6 bg=Background
+r22 c6..7 fg=#22272d bg=Background
+r22 c7..27 bg=Background
+r22 c27..30 fg=#3d444a bg=Background
+r22 c30..32 bg=Background
+r22 c32..35 fg=#555d64 bg=Background
+r22 c35..84 bg=Background
+r23 c0..84 bg=Background
 
 == light-truecolor
 Codewhale / clear water                                               Native habitat
@@ -209,11 +202,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -221,13 +213,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..70 bg=Background
@@ -246,62 +239,59 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..84 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..84 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..84 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
 r6 c27..84 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..84 bg=Background
-r8 c0..84 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..84 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..84 bg=Background
 r9 c0..84 bg=Background
 r10 c0..84 bg=Background
 r11 c0..84 bg=Background
 r12 c0..84 bg=Background
 r13 c0..84 bg=Background
-r14 c0..84 bg=Background
+r14 c0..70 bg=Background
+r14 c70..75 fg=#b1b7bd bg=Background
+r14 c75..84 bg=Background
 r15 c0..70 bg=Background
-r15 c70..75 fg=Hint bg=Background
+r15 c70..75 fg=#bbc1c7 bg=Background
 r15 c75..84 bg=Background
-r16 c0..70 bg=Background
-r16 c70..75 fg=Hint bg=Background
-r16 c75..84 bg=Background
-r17 c0..70 bg=Background
-r17 c70..75 fg=Hint bg=Background
-r17 c75..84 bg=Background
-r18 c0..84 bg=Background
-r19 c0..6 bg=Background
-r19 c6..7 fg=Dim bg=Background
-r19 c7..22 bg=Background
-r19 c22..23 fg=Dim bg=Background
-r19 c23..72 bg=Background
-r19 c72..73 fg=Dim bg=Background
-r19 c73..84 bg=Background
-r20 c0..59 bg=Background
-r20 c59..60 fg=Dim bg=Background
-r20 c60..84 bg=Background
-r21 c0..36 bg=Background
-r21 c36..39 fg=Hint bg=Background
-r21 c39..44 bg=Background
-r21 c44..47 fg=Hint bg=Background
-r21 c47..49 bg=Background
-r21 c49..52 fg=Hint bg=Background
-r21 c52..84 bg=Background
-r22 c0..4 bg=Background
-r22 c4..5 fg=Dim bg=Background
-r22 c5..39 bg=Background
-r22 c39..42 fg=Hint bg=Background
-r22 c42..52 bg=Background
-r22 c52..56 fg=Accent bg=Background
-r22 c56..84 bg=Background
-r23 c0..42 bg=Background
-r23 c42..45 fg=Hint bg=Background
-r23 c45..47 bg=Background
-r23 c47..50 fg=Hint bg=Background
-r23 c50..84 bg=Background
+r16 c0..71 bg=Background
+r16 c71..72 fg=#bbc1c7 bg=Background
+r16 c72..73 bg=Background
+r16 c73..74 fg=#bbc1c7 bg=Background
+r16 c74..84 bg=Background
+r17 c0..84 bg=Background
+r18 c0..8 bg=Background
+r18 c8..9 fg=#e6ebef bg=Background
+r18 c9..84 bg=Background
+r19 c0..84 bg=Background
+r20 c0..29 bg=Background
+r20 c29..32 fg=#a5abb2 bg=Background
+r20 c32..84 bg=Background
+r21 c0..24 bg=Background
+r21 c24..27 fg=#bec4c9 bg=Background
+r21 c27..34 bg=Background
+r21 c34..41 fg=#989fa6 bg=Background
+r21 c41..58 bg=Background
+r21 c58..59 fg=#d1d6db bg=Background
+r21 c59..84 bg=Background
+r22 c0..6 bg=Background
+r22 c6..7 fg=#d1d6db bg=Background
+r22 c7..27 bg=Background
+r22 c27..30 fg=#b1b7bd bg=Background
+r22 c30..32 bg=Background
+r22 c32..35 fg=#989fa6 bg=Background
+r22 c35..84 bg=Background
+r23 c0..84 bg=Background
 
 == dark-256
 Codewhale / clear water                                               Native habitat
@@ -309,11 +299,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -321,13 +310,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 fg=Foreground bg=Background|Surface bold
 r0 c23..70 bg=Background|Surface
@@ -346,62 +336,59 @@ r4 c4..13 fg=Foreground bg=Background|Surface bold
 r4 c13..84 bg=Background|Surface
 r5 c0..2 bg=Background|Surface
 r5 c2..4 fg=Border bg=Background|Surface
-r5 c4..19 fg=Foreground bg=Background|Surface
-r5 c19..84 bg=Background|Surface
+r5 c4..32 fg=Foreground bg=Background|Surface
+r5 c32..84 bg=Background|Surface
 r6 c0..2 bg=Background|Surface
 r6 c2..4 fg=Border bg=Background|Surface
 r6 c4..27 fg=Foreground bg=Background|Surface
 r6 c27..84 bg=Background|Surface
 r7 c0..2 bg=Background|Surface
 r7 c2..4 fg=Border bg=Background|Surface
-r7 c4..30 fg=Foreground bg=Background|Surface
-r7 c30..84 bg=Background|Surface
-r8 c0..84 bg=Background|Surface
+r7 c4..29 fg=Foreground bg=Background|Surface
+r7 c29..84 bg=Background|Surface
+r8 c0..2 bg=Background|Surface
+r8 c2..4 fg=Border bg=Background|Surface
+r8 c4..10 fg=Foreground bg=Background|Surface
+r8 c10..84 bg=Background|Surface
 r9 c0..84 bg=Background|Surface
 r10 c0..84 bg=Background|Surface
 r11 c0..84 bg=Background|Surface
 r12 c0..84 bg=Background|Surface
 r13 c0..84 bg=Background|Surface
-r14 c0..84 bg=Background|Surface
+r14 c0..70 bg=Background|Surface
+r14 c70..75 fg=Hint bg=Background|Surface
+r14 c75..84 bg=Background|Surface
 r15 c0..70 bg=Background|Surface
-r15 c70..75 fg=Hint bg=Background|Surface
+r15 c70..75 fg=Dim bg=Background|Surface
 r15 c75..84 bg=Background|Surface
-r16 c0..70 bg=Background|Surface
-r16 c70..75 fg=Hint bg=Background|Surface
-r16 c75..84 bg=Background|Surface
-r17 c0..70 bg=Background|Surface
-r17 c70..75 fg=Hint bg=Background|Surface
-r17 c75..84 bg=Background|Surface
-r18 c0..84 bg=Background|Surface
-r19 c0..6 bg=Background|Surface
-r19 c6..7 fg=Dim bg=Background|Surface
-r19 c7..22 bg=Background|Surface
-r19 c22..23 fg=Dim bg=Background|Surface
-r19 c23..72 bg=Background|Surface
-r19 c72..73 fg=Dim bg=Background|Surface
-r19 c73..84 bg=Background|Surface
-r20 c0..59 bg=Background|Surface
-r20 c59..60 fg=Dim bg=Background|Surface
-r20 c60..84 bg=Background|Surface
-r21 c0..36 bg=Background|Surface
-r21 c36..39 fg=Hint bg=Background|Surface
-r21 c39..44 bg=Background|Surface
-r21 c44..47 fg=Hint bg=Background|Surface
-r21 c47..49 bg=Background|Surface
-r21 c49..52 fg=Hint bg=Background|Surface
-r21 c52..84 bg=Background|Surface
-r22 c0..4 bg=Background|Surface
-r22 c4..5 fg=Dim bg=Background|Surface
-r22 c5..39 bg=Background|Surface
-r22 c39..42 fg=Hint bg=Background|Surface
-r22 c42..52 bg=Background|Surface
-r22 c52..56 fg=Accent bg=Background|Surface
-r22 c56..84 bg=Background|Surface
-r23 c0..42 bg=Background|Surface
-r23 c42..45 fg=Hint bg=Background|Surface
-r23 c45..47 bg=Background|Surface
-r23 c47..50 fg=Hint bg=Background|Surface
-r23 c50..84 bg=Background|Surface
+r16 c0..71 bg=Background|Surface
+r16 c71..72 fg=Dim bg=Background|Surface
+r16 c72..73 bg=Background|Surface
+r16 c73..74 fg=Dim bg=Background|Surface
+r16 c74..84 bg=Background|Surface
+r17 c0..84 bg=Background|Surface
+r18 c0..8 bg=Background|Surface
+r18 c8..9 fg=Dim bg=Background|Surface
+r18 c9..84 bg=Background|Surface
+r19 c0..84 bg=Background|Surface
+r20 c0..29 bg=Background|Surface
+r20 c29..32 fg=Hint bg=Background|Surface
+r20 c32..84 bg=Background|Surface
+r21 c0..24 bg=Background|Surface
+r21 c24..27 fg=Hint bg=Background|Surface
+r21 c27..34 bg=Background|Surface
+r21 c34..41 fg=Hint bg=Background|Surface
+r21 c41..58 bg=Background|Surface
+r21 c58..59 fg=Dim bg=Background|Surface
+r21 c59..84 bg=Background|Surface
+r22 c0..6 bg=Background|Surface
+r22 c6..7 fg=Dim bg=Background|Surface
+r22 c7..27 bg=Background|Surface
+r22 c27..30 fg=Hint bg=Background|Surface
+r22 c30..32 bg=Background|Surface
+r22 c32..35 fg=Hint bg=Background|Surface
+r22 c35..84 bg=Background|Surface
+r23 c0..84 bg=Background|Surface
 
 == light-256
 Codewhale / clear water                                               Native habitat
@@ -409,11 +396,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -421,13 +407,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 fg=Foreground bg=Background bold
 r0 c23..70 bg=Background
@@ -446,62 +433,59 @@ r4 c4..13 fg=Foreground bg=Background bold
 r4 c13..84 bg=Background
 r5 c0..2 bg=Background
 r5 c2..4 fg=Border bg=Background
-r5 c4..19 fg=Foreground bg=Background
-r5 c19..84 bg=Background
+r5 c4..32 fg=Foreground bg=Background
+r5 c32..84 bg=Background
 r6 c0..2 bg=Background
 r6 c2..4 fg=Border bg=Background
 r6 c4..27 fg=Foreground bg=Background
 r6 c27..84 bg=Background
 r7 c0..2 bg=Background
 r7 c2..4 fg=Border bg=Background
-r7 c4..30 fg=Foreground bg=Background
-r7 c30..84 bg=Background
-r8 c0..84 bg=Background
+r7 c4..29 fg=Foreground bg=Background
+r7 c29..84 bg=Background
+r8 c0..2 bg=Background
+r8 c2..4 fg=Border bg=Background
+r8 c4..10 fg=Foreground bg=Background
+r8 c10..84 bg=Background
 r9 c0..84 bg=Background
 r10 c0..84 bg=Background
 r11 c0..84 bg=Background
 r12 c0..84 bg=Background
 r13 c0..84 bg=Background
-r14 c0..84 bg=Background
+r14 c0..70 bg=Background
+r14 c70..75 fg=Hint bg=Background
+r14 c75..84 bg=Background
 r15 c0..70 bg=Background
-r15 c70..75 fg=Hint bg=Background
+r15 c70..75 fg=Dim bg=Background
 r15 c75..84 bg=Background
-r16 c0..70 bg=Background
-r16 c70..75 fg=Hint bg=Background
-r16 c75..84 bg=Background
-r17 c0..70 bg=Background
-r17 c70..75 fg=Hint bg=Background
-r17 c75..84 bg=Background
-r18 c0..84 bg=Background
-r19 c0..6 bg=Background
-r19 c6..7 fg=Dim bg=Background
-r19 c7..22 bg=Background
-r19 c22..23 fg=Dim bg=Background
-r19 c23..72 bg=Background
-r19 c72..73 fg=Dim bg=Background
-r19 c73..84 bg=Background
-r20 c0..59 bg=Background
-r20 c59..60 fg=Dim bg=Background
-r20 c60..84 bg=Background
-r21 c0..36 bg=Background
-r21 c36..39 fg=Hint bg=Background
-r21 c39..44 bg=Background
-r21 c44..47 fg=Hint bg=Background
-r21 c47..49 bg=Background
-r21 c49..52 fg=Hint bg=Background
-r21 c52..84 bg=Background
-r22 c0..4 bg=Background
-r22 c4..5 fg=Dim bg=Background
-r22 c5..39 bg=Background
-r22 c39..42 fg=Hint bg=Background
-r22 c42..52 bg=Background
-r22 c52..56 fg=Accent bg=Background
-r22 c56..84 bg=Background
-r23 c0..42 bg=Background
-r23 c42..45 fg=Hint bg=Background
-r23 c45..47 bg=Background
-r23 c47..50 fg=Hint bg=Background
-r23 c50..84 bg=Background
+r16 c0..71 bg=Background
+r16 c71..72 fg=Dim bg=Background
+r16 c72..73 bg=Background
+r16 c73..74 fg=Dim bg=Background
+r16 c74..84 bg=Background
+r17 c0..84 bg=Background
+r18 c0..8 bg=Background
+r18 c8..9 fg=Dim bg=Background
+r18 c9..84 bg=Background
+r19 c0..84 bg=Background
+r20 c0..29 bg=Background
+r20 c29..32 fg=Hint bg=Background
+r20 c32..84 bg=Background
+r21 c0..24 bg=Background
+r21 c24..27 fg=Hint bg=Background
+r21 c27..34 bg=Background
+r21 c34..41 fg=Hint bg=Background
+r21 c41..58 bg=Background
+r21 c58..59 fg=Dim bg=Background
+r21 c59..84 bg=Background
+r22 c0..6 bg=Background
+r22 c6..7 fg=Dim bg=Background
+r22 c7..27 bg=Background
+r22 c27..30 fg=Hint bg=Background
+r22 c30..32 bg=Background
+r22 c32..35 fg=Hint bg=Background
+r22 c35..84 bg=Background
+r23 c0..84 bg=Background
 
 == ansi-16
 Codewhale / clear water                                               Native habitat
@@ -509,11 +493,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -521,13 +504,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 bold
 r0 c70..84 dim
@@ -536,21 +520,19 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
+r14 c70..75 dim
 r15 c70..75 dim
-r16 c70..75 dim
-r17 c70..75 dim
-r19 c6..7 dim
-r19 c22..23 dim
-r19 c72..73 dim
-r20 c59..60 dim
-r21 c36..39 dim
-r21 c44..47 dim
-r21 c49..52 dim
-r22 c4..5 dim
-r22 c39..42 dim
-r22 c52..56 fg=Accent
-r23 c42..45 dim
-r23 c47..50 dim
+r16 c71..72 dim
+r16 c73..74 dim
+r18 c8..9 dim
+r20 c29..32 dim
+r21 c24..27 dim
+r21 c34..41 dim
+r21 c58..59 dim
+r22 c6..7 dim
+r22 c27..30 dim
+r22 c32..35 dim
 
 == unknown-ground
 Codewhale / clear water                                               Native habitat
@@ -558,11 +540,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -570,13 +551,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 bold
 r0 c70..84 dim
@@ -585,21 +567,19 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
+r14 c70..75 dim
 r15 c70..75 dim
-r16 c70..75 dim
-r17 c70..75 dim
-r19 c6..7 dim
-r19 c22..23 dim
-r19 c72..73 dim
-r20 c59..60 dim
-r21 c36..39 dim
-r21 c44..47 dim
-r21 c49..52 dim
-r22 c4..5 dim
-r22 c39..42 dim
-r22 c52..56 fg=Accent
-r23 c42..45 dim
-r23 c47..50 dim
+r16 c71..72 dim
+r16 c73..74 dim
+r18 c8..9 dim
+r20 c29..32 dim
+r21 c24..27 dim
+r21 c34..41 dim
+r21 c58..59 dim
+r22 c6..7 dim
+r22 c27..30 dim
+r22 c32..35 dim
 
 == no-color
 Codewhale / clear water                                               Native habitat
@@ -607,11 +587,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -619,13 +598,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 bold
 r0 c70..84 dim
@@ -634,20 +614,19 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
+r14 c70..75 dim
 r15 c70..75 dim
-r16 c70..75 dim
-r17 c70..75 dim
-r19 c6..7 dim
-r19 c22..23 dim
-r19 c72..73 dim
-r20 c59..60 dim
-r21 c36..39 dim
-r21 c44..47 dim
-r21 c49..52 dim
-r22 c4..5 dim
-r22 c39..42 dim
-r23 c42..45 dim
-r23 c47..50 dim
+r16 c71..72 dim
+r16 c73..74 dim
+r18 c8..9 dim
+r20 c29..32 dim
+r21 c24..27 dim
+r21 c34..41 dim
+r21 c58..59 dim
+r22 c6..7 dim
+r22 c27..30 dim
+r22 c32..35 dim
 
 == ascii
 Codewhale / clear water                                               Native habitat
@@ -655,11 +634,10 @@ Codewhale / clear water                                               Native hab
 
                                      o Resting
   . One ocean
-  | A small school.
+  | A small school, a far shoal.
   | One visiting jellyfish.
-  | Bubbles in the deep water.
-
-
+  | Snow, bubbles, a distant
+  | whale.
 
 
 
@@ -667,13 +645,14 @@ Codewhale / clear water                                               Native hab
 
                                                                       .-~-.
                                                                       \___/
-                                                                       | |
+                                                                       | /
 
-      o               o                                                 o
-                                                           o
-                                    ><>     ><>  ><>
-    .                                  ><>          ><o>
-                                          ><>  ><>
+        O
+
+                             ><>
+                        ><>       ><>><o>                 .
+      .                    ><>  ><>
+
 ---
 r0 c0..23 bold
 r0 c70..84 dim
@@ -682,17 +661,16 @@ r4 c4..13 bold
 r5 c2..4 dim
 r6 c2..4 dim
 r7 c2..4 dim
+r8 c2..4 dim
+r14 c70..75 dim
 r15 c70..75 dim
-r16 c70..75 dim
-r17 c70..75 dim
-r19 c6..7 dim
-r19 c22..23 dim
-r19 c72..73 dim
-r20 c59..60 dim
-r21 c36..39 dim
-r21 c44..47 dim
-r21 c49..52 dim
-r22 c4..5 dim
-r22 c39..42 dim
-r23 c42..45 dim
-r23 c47..50 dim
+r16 c71..72 dim
+r16 c73..74 dim
+r18 c8..9 dim
+r20 c29..32 dim
+r21 c24..27 dim
+r21 c34..41 dim
+r21 c58..59 dim
+r22 c6..7 dim
+r22 c27..30 dim
+r22 c32..35 dim

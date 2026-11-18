@@ -3,7 +3,7 @@ source: tests/snapshots.rs
 expression: dump(&entry)
 ---
 == dark-truecolor
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -13,15 +13,15 @@ expression: dump(&entry)
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -43,7 +43,9 @@ r0 c25..36 fg=Foreground|LivePeak bg=#0e253d
 r0 c36..37 fg=Foreground|LivePeak bg=#0f2740
 r0 c37..48 fg=Foreground|LivePeak bg=#0e253d
 r0 c48..49 fg=Foreground|LivePeak bg=#0f2740
-r0 c49..60 fg=Foreground|LivePeak bg=#0e253d
+r0 c49..58 fg=Foreground|LivePeak bg=#0e253d
+r0 c58..59 fg=#15283e bg=Background
+r0 c59..60 fg=Foreground|LivePeak bg=#0e253d
 r0 c60..61 fg=Foreground|LivePeak bg=#0f2740
 r0 c61..72 fg=Foreground|LivePeak bg=#0e253d
 r0 c72..73 fg=Foreground|LivePeak bg=#0f2740
@@ -120,31 +122,29 @@ r8 c28..31 fg=Border bg=#0b1f33
 r8 c31..34 fg=Muted bg=#0b1f33
 r8 c34..104 fg=Foreground|LivePeak bg=#0b1f33
 r9 c0..104 fg=Foreground|LivePeak bg=#0b1e32
-r10 c0..104 fg=Foreground|LivePeak bg=#0b1e30
+r10 c0..48 fg=Foreground|LivePeak bg=#0b1e30
+r10 c48..49 fg=#2a3d53 bg=Background
+r10 c49..104 fg=Foreground|LivePeak bg=#0b1e30
 r11 c0..86 fg=Foreground|LivePeak bg=#0b1d2f
-r11 c86..91 fg=Hint|Dim bg=#0b1d2f
-r11 c91..104 fg=Foreground|LivePeak bg=#0b1d2f
+r11 c86..90 fg=#35475e bg=Background
+r11 c90..104 fg=Foreground|LivePeak bg=#0b1d2f
 r12 c0..86 fg=Foreground|LivePeak bg=#0a1c2e
-r12 c86..91 fg=Hint|Dim bg=#0a1c2e
-r12 c91..104 fg=Foreground|LivePeak bg=#0a1c2e
-r13 c0..86 fg=Foreground|LivePeak bg=#0a1b2e
-r13 c86..91 fg=Hint|Dim bg=#0a1b2e
-r13 c91..104 fg=Foreground|LivePeak bg=#0a1b2e
-r14 c0..33 fg=Foreground|LivePeak bg=#091a2c
-r14 c33..34 fg=Hint|Dim bg=#091a2c
-r14 c34..104 fg=Foreground|LivePeak bg=#091a2c
+r12 c86..89 fg=#2a3d53 bg=Background
+r12 c89..104 fg=Foreground|LivePeak bg=#0a1c2e
+r13 c0..104 fg=Foreground|LivePeak bg=#0a1b2e
+r14 c0..104 fg=Foreground|LivePeak bg=#091a2c
 r15 c0..104 fg=Foreground|LivePeak bg=#091a2b
-r16 c0..67 fg=Foreground|LivePeak bg=#09182a
-r16 c67..71 fg=Hint|Dim bg=#09182a
-r16 c71..104 fg=Foreground|LivePeak bg=#09182a
-r17 c0..70 fg=Foreground|LivePeak bg=#091828
-r17 c70..74 fg=Accent bg=#091828
-r17 c74..104 fg=Foreground|LivePeak bg=#091828
-r18 c0..64 fg=Foreground|LivePeak bg=#091828
-r18 c64..68 fg=Hint|Dim bg=#091828
-r18 c68..86 fg=Foreground|LivePeak bg=#091828
-r18 c86..87 fg=Hint|Dim bg=#091828
-r18 c87..104 fg=Foreground|LivePeak bg=#091828
+r16 c0..58 fg=Foreground|LivePeak bg=#09182a
+r16 c58..62 fg=#35475e bg=Background
+r16 c62..86 fg=Foreground|LivePeak bg=#09182a
+r16 c86..87 fg=#1f3348 bg=Background
+r16 c87..104 fg=Foreground|LivePeak bg=#09182a
+r17 c0..61 fg=Foreground|LivePeak bg=#091828
+r17 c61..65 fg=#35475e bg=Background
+r17 c65..104 fg=Foreground|LivePeak bg=#091828
+r18 c0..55 fg=Foreground|LivePeak bg=#091828
+r18 c55..59 fg=#35475e bg=Background
+r18 c59..104 fg=Foreground|LivePeak bg=#091828
 r19 c0..104 fg=Foreground|LivePeak bg=#081726
 r20 c0..104 fg=Accent bg=#071724
 r21 c0..2 fg=Accent bg=#071524
@@ -205,7 +205,7 @@ r29 c1..103 fg=Live bg=#071522
 r29 c103..104 fg=Foreground|LivePeak bg=#071522
 
 == dark-graphite
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -215,15 +215,15 @@ r29 c103..104 fg=Foreground|LivePeak bg=#071522
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -245,7 +245,9 @@ r0 c25..36 fg=Foreground|LivePeak bg=#0e253d
 r0 c36..37 fg=Foreground|LivePeak bg=#0f2740
 r0 c37..48 fg=Foreground|LivePeak bg=#0e253d
 r0 c48..49 fg=Foreground|LivePeak bg=#0f2740
-r0 c49..60 fg=Foreground|LivePeak bg=#0e253d
+r0 c49..58 fg=Foreground|LivePeak bg=#0e253d
+r0 c58..59 fg=#15283e bg=Background
+r0 c59..60 fg=Foreground|LivePeak bg=#0e253d
 r0 c60..61 fg=Foreground|LivePeak bg=#0f2740
 r0 c61..72 fg=Foreground|LivePeak bg=#0e253d
 r0 c72..73 fg=Foreground|LivePeak bg=#0f2740
@@ -322,31 +324,29 @@ r8 c28..31 fg=Border bg=#0b1f33
 r8 c31..34 fg=Muted bg=#0b1f33
 r8 c34..104 fg=Foreground|LivePeak bg=#0b1f33
 r9 c0..104 fg=Foreground|LivePeak bg=#0b1e32
-r10 c0..104 fg=Foreground|LivePeak bg=#0b1e30
+r10 c0..48 fg=Foreground|LivePeak bg=#0b1e30
+r10 c48..49 fg=#2a3d53 bg=Background
+r10 c49..104 fg=Foreground|LivePeak bg=#0b1e30
 r11 c0..86 fg=Foreground|LivePeak bg=#0b1d2f
-r11 c86..91 fg=Hint|Dim bg=#0b1d2f
-r11 c91..104 fg=Foreground|LivePeak bg=#0b1d2f
+r11 c86..90 fg=#35475e bg=Background
+r11 c90..104 fg=Foreground|LivePeak bg=#0b1d2f
 r12 c0..86 fg=Foreground|LivePeak bg=#0a1c2e
-r12 c86..91 fg=Hint|Dim bg=#0a1c2e
-r12 c91..104 fg=Foreground|LivePeak bg=#0a1c2e
-r13 c0..86 fg=Foreground|LivePeak bg=#0a1b2e
-r13 c86..91 fg=Hint|Dim bg=#0a1b2e
-r13 c91..104 fg=Foreground|LivePeak bg=#0a1b2e
-r14 c0..33 fg=Foreground|LivePeak bg=#091a2c
-r14 c33..34 fg=Hint|Dim bg=#091a2c
-r14 c34..104 fg=Foreground|LivePeak bg=#091a2c
+r12 c86..89 fg=#2a3d53 bg=Background
+r12 c89..104 fg=Foreground|LivePeak bg=#0a1c2e
+r13 c0..104 fg=Foreground|LivePeak bg=#0a1b2e
+r14 c0..104 fg=Foreground|LivePeak bg=#091a2c
 r15 c0..104 fg=Foreground|LivePeak bg=#091a2b
-r16 c0..67 fg=Foreground|LivePeak bg=#09182a
-r16 c67..71 fg=Hint|Dim bg=#09182a
-r16 c71..104 fg=Foreground|LivePeak bg=#09182a
-r17 c0..70 fg=Foreground|LivePeak bg=#091828
-r17 c70..74 fg=Accent bg=#091828
-r17 c74..104 fg=Foreground|LivePeak bg=#091828
-r18 c0..64 fg=Foreground|LivePeak bg=#091828
-r18 c64..68 fg=Hint|Dim bg=#091828
-r18 c68..86 fg=Foreground|LivePeak bg=#091828
-r18 c86..87 fg=Hint|Dim bg=#091828
-r18 c87..104 fg=Foreground|LivePeak bg=#091828
+r16 c0..58 fg=Foreground|LivePeak bg=#09182a
+r16 c58..62 fg=#35475e bg=Background
+r16 c62..86 fg=Foreground|LivePeak bg=#09182a
+r16 c86..87 fg=#1f3348 bg=Background
+r16 c87..104 fg=Foreground|LivePeak bg=#09182a
+r17 c0..61 fg=Foreground|LivePeak bg=#091828
+r17 c61..65 fg=#35475e bg=Background
+r17 c65..104 fg=Foreground|LivePeak bg=#091828
+r18 c0..55 fg=Foreground|LivePeak bg=#091828
+r18 c55..59 fg=#35475e bg=Background
+r18 c59..104 fg=Foreground|LivePeak bg=#091828
 r19 c0..104 fg=Foreground|LivePeak bg=#081726
 r20 c0..104 fg=Accent bg=#071724
 r21 c0..2 fg=Accent bg=#071524
@@ -526,7 +526,7 @@ r29 c1..103 fg=Live
 r29 c103..104 fg=Foreground|LivePeak
 
 == dark-256
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -536,15 +536,15 @@ r29 c103..104 fg=Foreground|LivePeak
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -557,7 +557,9 @@ r29 c103..104 fg=Foreground|LivePeak
  ✓ Preserve session selection
  ● Refine the narrow layout
 ---
-r0 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r0 c0..58 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r0 c58..59 fg=Hint|Dim bg=Background|DiffAddedTint
+r0 c59..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r1 c0..1 fg=Accent bg=Background|DiffAddedTint bold
 r1 c1..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r2 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
@@ -576,31 +578,29 @@ r8 c28..31 fg=Border bg=Background|DiffAddedTint
 r8 c31..34 fg=Muted bg=Background|DiffAddedTint
 r8 c34..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r9 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r10 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r10 c0..48 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r10 c48..49 fg=Hint|Dim bg=Background|DiffAddedTint
+r10 c49..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c0..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r11 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
-r11 c91..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r11 c86..90 fg=Hint|Dim bg=Background|DiffAddedTint
+r11 c90..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r12 c0..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r12 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
-r12 c91..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r13 c0..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r13 c86..91 fg=Hint|Dim bg=Background|DiffAddedTint
-r13 c91..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r14 c0..33 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r14 c33..34 fg=Hint|Dim bg=Background|DiffAddedTint
-r14 c34..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r12 c86..89 fg=Hint|Dim bg=Background|DiffAddedTint
+r12 c89..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r13 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r14 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r15 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r16 c0..67 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r16 c67..71 fg=Hint|Dim bg=Background|DiffAddedTint
-r16 c71..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r17 c0..70 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r17 c70..74 fg=Accent bg=Background|DiffAddedTint
-r17 c74..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r18 c0..64 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r18 c64..68 fg=Hint|Dim bg=Background|DiffAddedTint
-r18 c68..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r18 c86..87 fg=Hint|Dim bg=Background|DiffAddedTint
-r18 c87..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r16 c0..58 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r16 c58..62 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c62..86 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r16 c86..87 fg=Hint|Dim bg=Background|DiffAddedTint
+r16 c87..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r17 c0..61 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r17 c61..65 fg=Hint|Dim bg=Background|DiffAddedTint
+r17 c65..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r18 c0..55 fg=Foreground|LivePeak bg=Background|DiffAddedTint
+r18 c55..59 fg=Hint|Dim bg=Background|DiffAddedTint
+r18 c59..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r19 c0..104 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r20 c0..104 fg=Accent bg=Surface|Hover|DiffRemovedTint
 r21 c0..2 fg=Accent bg=Surface|Hover|DiffRemovedTint
@@ -774,7 +774,7 @@ r29 c1..103 fg=Live
 r29 c103..104 fg=Foreground|LivePeak
 
 == ansi-16
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -784,15 +784,15 @@ r29 c103..104 fg=Foreground|LivePeak
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -805,6 +805,7 @@ r29 c103..104 fg=Foreground|LivePeak
  ✓ Preserve session selection
  ● Refine the narrow layout
 ---
+r0 c58..59 dim
 r1 c0..1 fg=Accent bold
 r3 c0..1 fg=Accent bold
 r4 c0..2 dim
@@ -812,14 +813,13 @@ r5 c0..2 dim
 r6 c0..2 dim
 r8 c0..1 fg=Live|LivePeak
 r8 c28..34 dim
-r11 c86..91 dim
-r12 c86..91 dim
-r13 c86..91 dim
-r14 c33..34 dim
-r16 c67..71 dim
-r17 c70..74 fg=Accent
-r18 c64..68 dim
-r18 c86..87 dim
+r10 c48..49 dim
+r11 c86..90 dim
+r12 c86..89 dim
+r16 c58..62 dim
+r16 c86..87 dim
+r17 c61..65 dim
+r18 c55..59 dim
 r20 c0..104 fg=Accent
 r21 c0..2 fg=Accent
 r21 c99..102 fg=Accent bold
@@ -850,7 +850,7 @@ r28 c1..103 fg=Live|LivePeak
 r29 c1..103 fg=Live|LivePeak
 
 == unknown-ground
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -860,15 +860,15 @@ r29 c1..103 fg=Live|LivePeak
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -881,6 +881,7 @@ r29 c1..103 fg=Live|LivePeak
  ✓ Preserve session selection
  ● Refine the narrow layout
 ---
+r0 c58..59 dim
 r1 c0..1 fg=Accent bold
 r3 c0..1 fg=Accent bold
 r4 c0..2 dim
@@ -888,14 +889,13 @@ r5 c0..2 dim
 r6 c0..2 dim
 r8 c0..1 fg=Live|LivePeak
 r8 c28..34 dim
-r11 c86..91 dim
-r12 c86..91 dim
-r13 c86..91 dim
-r14 c33..34 dim
-r16 c67..71 dim
-r17 c70..74 fg=Accent
-r18 c64..68 dim
-r18 c86..87 dim
+r10 c48..49 dim
+r11 c86..90 dim
+r12 c86..89 dim
+r16 c58..62 dim
+r16 c86..87 dim
+r17 c61..65 dim
+r18 c55..59 dim
 r20 c0..104 fg=Accent
 r21 c0..2 fg=Accent
 r21 c99..102 fg=Accent bold
@@ -926,7 +926,7 @@ r28 c1..103 fg=Live|LivePeak
 r29 c1..103 fg=Live|LivePeak
 
 == no-color
-
+                                                          ⠠
 ▎ Make the session picker readable in narrow windows.
 
 ● The list now keeps its search field, numbering and current-session marker.
@@ -936,15 +936,15 @@ r29 c1..103 fg=Live|LivePeak
 
 ⣀ Checking the narrow layout · 6 s
 
-
+                                                ⠁
                                                                                       ⠴⡭⢭⠦
                                                                                       ⢠⠃⡇
 
-                                 °
 
-                                                                   ⡰⢔⡢⠄
-                                                                      ⠐⠕⠭⠒
-                                                                ⠕⠪⠕⠂                  ·
+
+                                                          ⢔⢔⡢⠄                        ˚
+                                                             ⠈⠖⠭⠒
+                                                       ⠜⠪⠕⠂
 
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │❯ Also preserve the search shortcut.                                                              [↵] │
@@ -957,19 +957,20 @@ r29 c1..103 fg=Live|LivePeak
  ✓ Preserve session selection
  ● Refine the narrow layout
 ---
+r0 c58..59 dim
 r1 c0..1 bold
 r3 c0..1 bold
 r4 c0..2 dim
 r5 c0..2 dim
 r6 c0..2 dim
 r8 c28..34 dim
-r11 c86..91 dim
-r12 c86..91 dim
-r13 c86..91 dim
-r14 c33..34 dim
-r16 c67..71 dim
-r18 c64..68 dim
-r18 c86..87 dim
+r10 c48..49 dim
+r11 c86..90 dim
+r12 c86..89 dim
+r16 c58..62 dim
+r16 c86..87 dim
+r17 c61..65 dim
+r18 c55..59 dim
 r21 c99..102 bold
 r23 c1..6 bold
 r23 c6..20 dim
@@ -1006,11 +1007,11 @@ r27 c46..103 dim
                                                                                       .-~-.
                                                                                       \___/
                                                                                        / \
-                                 O
 
 
-                                                                   ><>><o>
-                                                                 ><>                  .
+                                                                                      o
+                                                          ><>><o>
+                                                        ><>
 
 +------------------------------------------------------------------------------------------------------+
 |> Also preserve the search shortcut.                                                              [>] |
@@ -1031,11 +1032,11 @@ r6 c0..2 dim
 r8 c28..34 dim
 r11 c86..91 dim
 r12 c86..91 dim
-r13 c86..91 dim
-r14 c33..34 dim
-r17 c67..70 dim
-r18 c65..68 dim
-r18 c86..87 dim
+r13 c87..88 dim
+r13 c89..90 dim
+r16 c86..87 dim
+r17 c58..65 dim
+r18 c56..59 dim
 r21 c99..102 bold
 r23 c1..6 bold
 r23 c6..20 dim
