@@ -95,22 +95,22 @@ r2 c29..40 bg=Background|Surface
 ⣦ Running cargo test · 1 s
 ● Running cargo test · 4m 06s
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..20 fg=Foreground bg=Background
-r0 c20..40 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..20 fg=Foreground bg=Background
-r1 c20..23 fg=Border bg=Background
-r1 c23..26 fg=Muted bg=Background
-r1 c26..40 bg=Background
-r2 c0..1 fg=Live bg=Background
-r2 c1..2 bg=Background
-r2 c2..20 fg=Foreground bg=Background
-r2 c20..23 fg=Border bg=Background
-r2 c23..29 fg=Muted bg=Background
-r2 c29..40 bg=Background
+r0 c0..1 fg=Live bg=Sidebar|Background|Surface
+r0 c1..2 bg=Sidebar|Background|Surface
+r0 c2..20 fg=Foreground bg=Sidebar|Background|Surface
+r0 c20..40 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Live bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..20 fg=Foreground bg=Sidebar|Background|Surface
+r1 c20..23 fg=Border bg=Sidebar|Background|Surface
+r1 c23..26 fg=Muted bg=Sidebar|Background|Surface
+r1 c26..40 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Live bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..20 fg=Foreground bg=Sidebar|Background|Surface
+r2 c20..23 fg=Border bg=Sidebar|Background|Surface
+r2 c23..29 fg=Muted bg=Sidebar|Background|Surface
+r2 c29..40 bg=Sidebar|Background|Surface
 
 == ansi-16
 › Running cargo test

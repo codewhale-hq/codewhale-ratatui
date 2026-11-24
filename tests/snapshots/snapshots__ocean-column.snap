@@ -74,31 +74,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=#0f161e bold
-r0 c24..63 bg=#0f161e
-r0 c63..80 fg=Muted bg=#0f161e
-r1 c0..80 bg=#0d141c
-r2 c0..1 fg=Accent bg=#0d1219
-r2 c1..2 bg=#0d1219
-r2 c2..5 fg=Accent bg=#0d1219 bold
-r2 c5..80 bg=#0d1219
-r3 c0..2 fg=Border bg=#0c1017
-r3 c2..39 fg=Foreground bg=#0c1017
-r3 c39..80 bg=#0c1017
-r4 c0..80 bg=#0b0f14
-r5 c0..80 bg=#090d12
-r6 c0..1 fg=Foreground bg=#080c12
-r6 c1..2 bg=#080c12
-r6 c2..11 fg=Foreground bg=#080c12 bold
-r6 c11..80 bg=#080c12
-r7 c0..2 fg=Border bg=#070b10
-r7 c2..48 fg=Foreground bg=#070b10
-r7 c48..80 bg=#070b10
-r8 c0..80 bg=#07090f
-r9 c0..80 bg=#06090d
+r0 c0..24 fg=Foreground bg=#0e141c bold
+r0 c24..63 bg=#0e141c
+r0 c63..80 fg=Muted bg=#0e141c
+r1 c0..80 bg=#0d121a
+r2 c0..1 fg=Accent bg=#0d1118
+r2 c1..2 bg=#0d1118
+r2 c2..5 fg=Accent bg=#0d1118 bold
+r2 c5..80 bg=#0d1118
+r3 c0..2 fg=Border bg=#0c1016
+r3 c2..39 fg=Foreground bg=#0c1016
+r3 c39..80 bg=#0c1016
+r4 c0..80 bg=#0b0f15
+r5 c0..80 bg=#0a0d13
+r6 c0..1 fg=Foreground bg=#090c13
+r6 c1..2 bg=#090c13
+r6 c2..11 fg=Foreground bg=#090c13 bold
+r6 c11..80 bg=#090c13
+r7 c0..2 fg=Border bg=#090b12
+r7 c2..48 fg=Foreground bg=#090b12
+r7 c48..80 bg=#090b12
+r8 c0..80 bg=#080b10
+r9 c0..80 bg=#080a0f
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=#05080c
+r11 c0..80 bg=#070a0e
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -128,31 +128,31 @@ Selected / src/ocean.rs
 
 
 ---
-r0 c0..24 fg=Foreground bg=#f5f7fb bold
-r0 c24..63 bg=#f5f7fb
-r0 c63..80 fg=Muted bg=#f5f7fb
-r1 c0..80 bg=#f5f7fb
-r2 c0..1 fg=Accent bg=#f3f6fb
-r2 c1..2 bg=#f3f6fb
-r2 c2..5 fg=Accent bg=#f3f6fb bold
-r2 c5..80 bg=#f3f6fb
-r3 c0..2 fg=Border bg=#f3f5fa
-r3 c2..39 fg=Foreground bg=#f3f5fa
-r3 c39..80 bg=#f3f5fa
-r4 c0..80 bg=#f2f5f9
+r0 c0..24 fg=Foreground bg=#f8f9fd bold
+r0 c24..63 bg=#f8f9fd
+r0 c63..80 fg=Muted bg=#f8f9fd
+r1 c0..80 bg=#f8f9fd
+r2 c0..1 fg=Accent bg=#f6f8fd
+r2 c1..2 bg=#f6f8fd
+r2 c2..5 fg=Accent bg=#f6f8fd bold
+r2 c5..80 bg=#f6f8fd
+r3 c0..2 fg=Border bg=#f6f7fd
+r3 c2..39 fg=Foreground bg=#f6f7fd
+r3 c39..80 bg=#f6f7fd
+r4 c0..80 bg=#f5f7fc
 r5 c0..80 bg=Background
-r6 c0..1 fg=Foreground bg=#f0f4f9
-r6 c1..2 bg=#f0f4f9
-r6 c2..11 fg=Foreground bg=#f0f4f9 bold
-r6 c11..80 bg=#f0f4f9
-r7 c0..2 fg=Border bg=#f0f4f9
-r7 c2..48 fg=Foreground bg=#f0f4f9
-r7 c48..80 bg=#f0f4f9
-r8 c0..80 bg=#eef2f8
-r9 c0..80 bg=#eef2f8
+r6 c0..1 fg=Foreground bg=#f4f6fc
+r6 c1..2 bg=#f4f6fc
+r6 c2..11 fg=Foreground bg=#f4f6fc bold
+r6 c11..80 bg=#f4f6fc
+r7 c0..2 fg=Border bg=#f3f6fc
+r7 c2..48 fg=Foreground bg=#f3f6fc
+r7 c48..80 bg=#f3f6fc
+r8 c0..80 bg=#f2f5fb
+r9 c0..80 bg=#f1f4fb
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=#ebf1f7
+r11 c0..80 bg=#eff3fa
 r12 c0..1 bg=Surface
 r12 c1..30 fg=Foreground bg=Surface bold
 r12 c30..80 bg=Surface
@@ -240,45 +240,45 @@ Selected / src/ocean.rs
 │ ● Working                                                                    │
 ╰──────────────────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..24 fg=Foreground bg=Background bold
-r0 c24..63 bg=Background
-r0 c63..80 fg=Muted bg=Background
-r1 c0..80 bg=Background
-r2 c0..1 fg=Accent bg=Background
-r2 c1..2 bg=Background
-r2 c2..5 fg=Accent bg=Background bold
-r2 c5..80 bg=Background
-r3 c0..2 fg=Border bg=Background
-r3 c2..39 fg=Foreground bg=Background
-r3 c39..80 bg=Background
-r4 c0..80 bg=Background
-r5 c0..80 bg=Background
-r6 c0..1 fg=Foreground bg=Background
-r6 c1..2 bg=Background
-r6 c2..11 fg=Foreground bg=Background bold
-r6 c11..80 bg=Background
-r7 c0..2 fg=Border bg=Background
-r7 c2..48 fg=Foreground bg=Background
-r7 c48..80 bg=Background
-r8 c0..80 bg=Background
-r9 c0..80 bg=Background
+r0 c0..24 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c24..63 bg=Sidebar|Background|Surface
+r0 c63..80 fg=Muted bg=Sidebar|Background|Surface
+r1 c0..80 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..5 fg=Accent bg=Sidebar|Background|Surface bold
+r2 c5..80 bg=Sidebar|Background|Surface
+r3 c0..2 fg=Border bg=Sidebar|Background|Surface
+r3 c2..39 fg=Foreground bg=Sidebar|Background|Surface
+r3 c39..80 bg=Sidebar|Background|Surface
+r4 c0..80 bg=Sidebar|Background|Surface
+r5 c0..80 bg=Sidebar|Background|Surface
+r6 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r6 c1..2 bg=Sidebar|Background|Surface
+r6 c2..11 fg=Foreground bg=Sidebar|Background|Surface bold
+r6 c11..80 bg=Sidebar|Background|Surface
+r7 c0..2 fg=Border bg=Sidebar|Background|Surface
+r7 c2..48 fg=Foreground bg=Sidebar|Background|Surface
+r7 c48..80 bg=Sidebar|Background|Surface
+r8 c0..80 bg=Sidebar|Background|Surface
+r9 c0..80 bg=Sidebar|Background|Surface
 r10 c0..23 fg=Muted bg=Selected
 r10 c23..80 bg=Selected
-r11 c0..80 bg=Background
-r12 c0..80 fg=BorderStrong bg=Sidebar|Surface
-r13 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r13 c1..2 bg=Sidebar|Surface
-r13 c2..31 fg=Foreground bg=Sidebar|Surface bold
-r13 c31..79 bg=Sidebar|Surface
-r13 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r14 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r14 c1..2 bg=Sidebar|Surface
-r14 c2..3 fg=Live bg=Sidebar|Surface
-r14 c3..4 bg=Sidebar|Surface
-r14 c4..11 fg=Foreground bg=Sidebar|Surface
-r14 c11..79 bg=Sidebar|Surface
-r14 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r15 c0..80 fg=BorderStrong bg=Sidebar|Surface
+r11 c0..80 bg=Sidebar|Background|Surface
+r12 c0..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r13 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r13 c1..2 bg=Sidebar|Background|Surface
+r13 c2..31 fg=Foreground bg=Sidebar|Background|Surface bold
+r13 c31..79 bg=Sidebar|Background|Surface
+r13 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r14 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r14 c1..2 bg=Sidebar|Background|Surface
+r14 c2..3 fg=Live bg=Sidebar|Background|Surface
+r14 c3..4 bg=Sidebar|Background|Surface
+r14 c4..11 fg=Foreground bg=Sidebar|Background|Surface
+r14 c11..79 bg=Sidebar|Background|Surface
+r14 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r15 c0..80 fg=BorderStrong bg=Sidebar|Background|Surface
 
 == ansi-16
 Codewhale / native ocean                                       Working / fixture

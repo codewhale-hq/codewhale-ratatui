@@ -128,30 +128,26 @@ r3 c59..60 bg=Background|Surface
                                    ✓ Theme set to Shoreline
                                          ✓ Saved summary.md
 ---
-r0 c0..34 bg=Background
-r0 c34..35 bg=Sidebar|Surface
-r0 c35..36 fg=Live bg=Sidebar|Surface
-r0 c36..37 bg=Sidebar|Surface
-r0 c37..59 fg=Hint bg=Sidebar|Surface
-r0 c59..60 bg=Sidebar|Surface
-r1 c0..40 bg=Background
-r1 c40..41 bg=Sidebar|Surface
-r1 c41..42 fg=Live bg=Sidebar|Surface
-r1 c42..43 bg=Sidebar|Surface
-r1 c43..59 fg=Dim bg=Sidebar|Surface
-r1 c59..60 bg=Sidebar|Surface
-r2 c0..34 bg=Background
-r2 c34..35 bg=Sidebar|Surface
-r2 c35..36 fg=Live bg=Sidebar|Surface
-r2 c36..37 bg=Sidebar|Surface
-r2 c37..59 fg=Foreground bg=Sidebar|Surface
-r2 c59..60 bg=Sidebar|Surface
-r3 c0..40 bg=Background
-r3 c40..41 bg=Sidebar|Surface
-r3 c41..42 fg=Live bg=Sidebar|Surface
-r3 c42..43 bg=Sidebar|Surface
-r3 c43..59 fg=Foreground bg=Sidebar|Surface
-r3 c59..60 bg=Sidebar|Surface
+r0 c0..35 bg=Sidebar|Background|Surface
+r0 c35..36 fg=Live bg=Sidebar|Background|Surface
+r0 c36..37 bg=Sidebar|Background|Surface
+r0 c37..59 fg=Hint bg=Sidebar|Background|Surface
+r0 c59..60 bg=Sidebar|Background|Surface
+r1 c0..41 bg=Sidebar|Background|Surface
+r1 c41..42 fg=Live bg=Sidebar|Background|Surface
+r1 c42..43 bg=Sidebar|Background|Surface
+r1 c43..59 fg=Dim bg=Sidebar|Background|Surface
+r1 c59..60 bg=Sidebar|Background|Surface
+r2 c0..35 bg=Sidebar|Background|Surface
+r2 c35..36 fg=Live bg=Sidebar|Background|Surface
+r2 c36..37 bg=Sidebar|Background|Surface
+r2 c37..59 fg=Foreground bg=Sidebar|Background|Surface
+r2 c59..60 bg=Sidebar|Background|Surface
+r3 c0..41 bg=Sidebar|Background|Surface
+r3 c41..42 fg=Live bg=Sidebar|Background|Surface
+r3 c42..43 bg=Sidebar|Background|Surface
+r3 c43..59 fg=Foreground bg=Sidebar|Background|Surface
+r3 c59..60 bg=Sidebar|Background|Surface
 
 == ansi-16
                                    ✓ Theme set to Shoreline

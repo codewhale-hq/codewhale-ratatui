@@ -112,25 +112,25 @@ read    ███████████▍                            18.2k to
 wrote   █▌                                      2400 tokens
 cached  ██████████████████████████████████████  61k tokens
 ---
-r0 c0..16 fg=Foreground bg=Background bold
-r0 c16..60 bg=Background
-r1 c0..6 fg=Foreground bg=Background
-r1 c6..8 bg=Background
-r1 c8..20 fg=Accent bg=Background
-r1 c20..48 bg=Background
-r1 c48..60 fg=Muted bg=Background
-r2 c0..6 fg=Foreground bg=Background
-r2 c6..8 bg=Background
-r2 c8..10 fg=Accent bg=Background
-r2 c10..48 bg=Background
-r2 c48..59 fg=Muted bg=Background
-r2 c59..60 bg=Background
-r3 c0..6 fg=Foreground bg=Background
-r3 c6..8 bg=Background
-r3 c8..46 fg=Accent bg=Background
-r3 c46..48 bg=Background
-r3 c48..58 fg=Muted bg=Background
-r3 c58..60 bg=Background
+r0 c0..16 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c16..60 bg=Sidebar|Background|Surface
+r1 c0..6 fg=Foreground bg=Sidebar|Background|Surface
+r1 c6..8 bg=Sidebar|Background|Surface
+r1 c8..20 fg=Accent bg=Sidebar|Background|Surface
+r1 c20..48 bg=Sidebar|Background|Surface
+r1 c48..60 fg=Muted bg=Sidebar|Background|Surface
+r2 c0..6 fg=Foreground bg=Sidebar|Background|Surface
+r2 c6..8 bg=Sidebar|Background|Surface
+r2 c8..10 fg=Accent bg=Sidebar|Background|Surface
+r2 c10..48 bg=Sidebar|Background|Surface
+r2 c48..59 fg=Muted bg=Sidebar|Background|Surface
+r2 c59..60 bg=Sidebar|Background|Surface
+r3 c0..6 fg=Foreground bg=Sidebar|Background|Surface
+r3 c6..8 bg=Sidebar|Background|Surface
+r3 c8..46 fg=Accent bg=Sidebar|Background|Surface
+r3 c46..48 bg=Sidebar|Background|Surface
+r3 c48..58 fg=Muted bg=Sidebar|Background|Surface
+r3 c58..60 bg=Sidebar|Background|Surface
 
 == ansi-16
 Tokens this turn

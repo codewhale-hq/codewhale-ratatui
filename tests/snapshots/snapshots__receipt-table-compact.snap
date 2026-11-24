@@ -343,79 +343,79 @@ r6 c2..56 fg=Hint bg=Background|Surface
   Total                            1h 03m ≥ ~$12.79
   — not reported · ~ estimated · ≥ some rows did not re…
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..26 fg=Foreground bg=Background
-r0 c26..27 bg=Background
-r0 c27..34 fg=Muted bg=Background
-r0 c34..35 bg=Background
-r0 c35..41 fg=Foreground bg=Background
-r0 c41..42 bg=Background
-r0 c42..51 fg=Foreground bg=Background
-r0 c51..52 bg=Background
-r0 c52..53 fg=Muted bg=Background
-r0 c53..56 bg=Background
-r1 c0..1 fg=Danger bg=Background
-r1 c1..2 bg=Background
-r1 c2..26 fg=Foreground bg=Background
-r1 c26..27 bg=Background
-r1 c27..34 fg=Muted bg=Background
-r1 c34..35 bg=Background
-r1 c35..41 fg=Foreground bg=Background
-r1 c41..42 bg=Background
-r1 c42..51 fg=Hint bg=Background
-r1 c51..52 bg=Background
-r1 c52..53 fg=Muted bg=Background
-r1 c53..56 bg=Background
-r2 c0..1 fg=Live bg=Background
-r2 c1..2 bg=Background
-r2 c2..26 fg=Foreground bg=Background
-r2 c26..27 bg=Background
-r2 c27..34 fg=Muted bg=Background
-r2 c34..35 bg=Background
-r2 c35..41 fg=Foreground bg=Background
-r2 c41..42 bg=Background
-r2 c42..51 fg=Foreground bg=Background
-r2 c51..52 bg=Background
-r2 c52..53 fg=Muted bg=Background
-r2 c53..56 bg=Background
-r3 c0..1 fg=Live bg=Background
-r3 c1..2 bg=Background
-r3 c2..26 fg=Foreground bg=Background
-r3 c26..27 bg=Background
-r3 c27..34 fg=Muted bg=Background
-r3 c34..35 bg=Background
-r3 c35..41 fg=Foreground bg=Background
-r3 c41..42 bg=Background
-r3 c42..51 fg=Muted bg=Background
-r3 c51..52 bg=Background
-r3 c52..53 fg=Muted bg=Background
-r3 c53..56 bg=Background
-r4 c0..1 fg=Muted bg=Background
-r4 c1..2 bg=Background
-r4 c2..26 fg=Foreground bg=Background
-r4 c26..27 bg=Background
-r4 c27..34 fg=Muted bg=Background
-r4 c34..35 bg=Background
-r4 c35..41 fg=Foreground bg=Background
-r4 c41..42 bg=Background
-r4 c42..51 fg=Foreground bg=Background
-r4 c51..52 bg=Background
-r4 c52..53 fg=Muted bg=Background
-r4 c53..56 bg=Background
-r5 c0..2 bg=Background
-r5 c2..26 fg=Foreground bg=Background bold
-r5 c26..27 bg=Background
-r5 c27..34 fg=Muted bg=Background
-r5 c34..35 bg=Background
-r5 c35..41 fg=Foreground bg=Background bold
-r5 c41..42 bg=Background
-r5 c42..51 fg=Muted bg=Background bold
-r5 c51..52 bg=Background
-r5 c52..53 fg=Muted bg=Background
-r5 c53..56 bg=Background
-r6 c0..2 bg=Background
-r6 c2..56 fg=Hint bg=Background
+r0 c0..1 fg=Live bg=Sidebar|Background|Surface
+r0 c1..2 bg=Sidebar|Background|Surface
+r0 c2..26 fg=Foreground bg=Sidebar|Background|Surface
+r0 c26..27 bg=Sidebar|Background|Surface
+r0 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r0 c34..35 bg=Sidebar|Background|Surface
+r0 c35..41 fg=Foreground bg=Sidebar|Background|Surface
+r0 c41..42 bg=Sidebar|Background|Surface
+r0 c42..51 fg=Foreground bg=Sidebar|Background|Surface
+r0 c51..52 bg=Sidebar|Background|Surface
+r0 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r0 c53..56 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Danger bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..26 fg=Foreground bg=Sidebar|Background|Surface
+r1 c26..27 bg=Sidebar|Background|Surface
+r1 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r1 c34..35 bg=Sidebar|Background|Surface
+r1 c35..41 fg=Foreground bg=Sidebar|Background|Surface
+r1 c41..42 bg=Sidebar|Background|Surface
+r1 c42..51 fg=Hint bg=Sidebar|Background|Surface
+r1 c51..52 bg=Sidebar|Background|Surface
+r1 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r1 c53..56 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Live bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..26 fg=Foreground bg=Sidebar|Background|Surface
+r2 c26..27 bg=Sidebar|Background|Surface
+r2 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r2 c34..35 bg=Sidebar|Background|Surface
+r2 c35..41 fg=Foreground bg=Sidebar|Background|Surface
+r2 c41..42 bg=Sidebar|Background|Surface
+r2 c42..51 fg=Foreground bg=Sidebar|Background|Surface
+r2 c51..52 bg=Sidebar|Background|Surface
+r2 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r2 c53..56 bg=Sidebar|Background|Surface
+r3 c0..1 fg=Live bg=Sidebar|Background|Surface
+r3 c1..2 bg=Sidebar|Background|Surface
+r3 c2..26 fg=Foreground bg=Sidebar|Background|Surface
+r3 c26..27 bg=Sidebar|Background|Surface
+r3 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r3 c34..35 bg=Sidebar|Background|Surface
+r3 c35..41 fg=Foreground bg=Sidebar|Background|Surface
+r3 c41..42 bg=Sidebar|Background|Surface
+r3 c42..51 fg=Muted bg=Sidebar|Background|Surface
+r3 c51..52 bg=Sidebar|Background|Surface
+r3 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r3 c53..56 bg=Sidebar|Background|Surface
+r4 c0..1 fg=Muted bg=Sidebar|Background|Surface
+r4 c1..2 bg=Sidebar|Background|Surface
+r4 c2..26 fg=Foreground bg=Sidebar|Background|Surface
+r4 c26..27 bg=Sidebar|Background|Surface
+r4 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r4 c34..35 bg=Sidebar|Background|Surface
+r4 c35..41 fg=Foreground bg=Sidebar|Background|Surface
+r4 c41..42 bg=Sidebar|Background|Surface
+r4 c42..51 fg=Foreground bg=Sidebar|Background|Surface
+r4 c51..52 bg=Sidebar|Background|Surface
+r4 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r4 c53..56 bg=Sidebar|Background|Surface
+r5 c0..2 bg=Sidebar|Background|Surface
+r5 c2..26 fg=Foreground bg=Sidebar|Background|Surface bold
+r5 c26..27 bg=Sidebar|Background|Surface
+r5 c27..34 fg=Muted bg=Sidebar|Background|Surface
+r5 c34..35 bg=Sidebar|Background|Surface
+r5 c35..41 fg=Foreground bg=Sidebar|Background|Surface bold
+r5 c41..42 bg=Sidebar|Background|Surface
+r5 c42..51 fg=Muted bg=Sidebar|Background|Surface bold
+r5 c51..52 bg=Sidebar|Background|Surface
+r5 c52..53 fg=Muted bg=Sidebar|Background|Surface
+r5 c53..56 bg=Sidebar|Background|Surface
+r6 c0..2 bg=Sidebar|Background|Surface
+r6 c2..56 fg=Hint bg=Sidebar|Background|Surface
 
 == ansi-16
 ✓ Edited summary.md        Done       4 s     $0.01

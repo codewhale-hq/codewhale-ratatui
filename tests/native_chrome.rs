@@ -2,7 +2,7 @@ use std::time::Duration;
 
 use codewhale_ratatui::{
     NativeComposer, NativeComposerDensity, Paint, TuiPalette, WorkflowProgress, WorkflowRun,
-    WorkflowRunState,
+    WorkflowRunState, native_composer_height,
     testing::{Profile, render, text},
 };
 use ratatui::{buffer::Buffer, layout::Rect, style::Color};
@@ -91,10 +91,10 @@ fn queued_large_and_folded_run_facts_follow_native_thresholds() {
 
 #[test]
 fn composer_density_enclosure_and_send_geometry_match_the_mounted_policy() {
-    for (density, quiet, enclosed) in [
-        (NativeComposerDensity::Compact, 2, 3),
-        (NativeComposerDensity::Comfortable, 3, 4),
-        (NativeComposerDensity::Spacious, 4, 5),
+    for (density, quiet, enclosed, cap) in [
+        (NativeComposerDensity::Compact, 2, 3, 7),
+        (NativeComposerDensity::Comfortable, 3, 4, 9),
+        (NativeComposerDensity::Spacious, 4, 5, 12),
     ] {
         let composer = NativeComposer::new("").density(density);
         assert_eq!(
@@ -108,6 +108,7 @@ fn composer_density_enclosure_and_send_geometry_match_the_mounted_policy() {
                 .desired_height(80, 60),
             43
         );
+        assert_eq!(native_composer_height(41, 1, 60, density, true), cap);
         assert_eq!(composer.desired_height(80, 1), 1);
     }
     let composer = NativeComposer::new("ship it")

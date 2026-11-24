@@ -282,10 +282,12 @@ fn mix(ink: u32, ground: u32, percent: u32) -> u32 {
 /// derivation otherwise.
 fn derive(colors: &mut BTreeMap<String, u32>, mode: &str, grounds: &[u32]) {
     let (muted, background) = (colors["muted_foreground"], colors["background"]);
+    let disabled = colors["disabled"];
     let holds = |value: u32, floor: f32| {
         grounds
             .iter()
             .all(|g| contrast_ratio(rgb(value), rgb(*g)).expect("rgb") >= floor)
+            && contrast_ratio(rgb(value), rgb(disabled)).expect("rgb") >= 1.1
     };
     let weight = |floor: f32| {
         (0..=100u32)

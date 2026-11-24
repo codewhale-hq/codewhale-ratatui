@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -357,76 +356,76 @@ r11 c0..70 fg=Accent bg=Background|Surface
 │                                                                    │
 ╰────────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..70 fg=Accent bg=Sidebar|Surface
-r1 c0..1 fg=Accent bg=Sidebar|Surface
-r1 c1..69 bg=Sidebar|Surface
-r1 c69..70 fg=Accent bg=Sidebar|Surface
-r2 c0..1 fg=Accent bg=Sidebar|Surface
-r2 c1..2 bg=Sidebar|Surface
-r2 c2..29 fg=Foreground bg=Sidebar|Surface bold
-r2 c29..69 bg=Sidebar|Surface
-r2 c69..70 fg=Accent bg=Sidebar|Surface
-r3 c0..1 fg=Accent bg=Sidebar|Surface
-r3 c1..69 bg=Sidebar|Surface
-r3 c69..70 fg=Accent bg=Sidebar|Surface
-r4 c0..1 fg=Accent bg=Sidebar|Surface
-r4 c1..2 bg=Sidebar|Surface
-r4 c2..4 fg=Accent bg=Sidebar|Surface bold
-r4 c4..66 fg=Foreground bg=Sidebar|Surface bold
-r4 c66..69 bg=Sidebar|Surface
-r4 c69..70 fg=Accent bg=Sidebar|Surface
-r5 c0..1 fg=Accent bg=Sidebar|Surface
-r5 c1..2 bg=Sidebar|Surface
-r5 c2..21 fg=Muted bg=Sidebar|Surface
-r5 c21..69 bg=Sidebar|Surface
-r5 c69..70 fg=Accent bg=Sidebar|Surface
-r6 c0..1 fg=Accent bg=Sidebar|Surface
-r6 c1..2 bg=Sidebar|Surface
-r6 c2..4 fg=Attention bg=Sidebar|Surface bold
-r6 c4..37 fg=Foreground bg=Sidebar|Surface bold
-r6 c37..40 fg=Border bg=Sidebar|Surface
-r6 c40..41 fg=Foreground bg=Sidebar|Surface bold
-r6 c41..50 fg=Muted bg=Sidebar|Surface
-r6 c50..53 fg=Border bg=Sidebar|Surface
-r6 c53..67 fg=Foreground bg=Sidebar|Surface bold
-r6 c67..69 bg=Sidebar|Surface
-r6 c69..70 fg=Accent bg=Sidebar|Surface
-r7 c0..1 fg=Accent bg=Sidebar|Surface
-r7 c1..2 bg=Sidebar|Surface
-r7 c2..11 fg=Foreground bg=Sidebar|Surface bold
-r7 c11..69 bg=Sidebar|Surface
-r7 c69..70 fg=Accent bg=Sidebar|Surface
-r8 c0..1 fg=Accent bg=Sidebar|Surface
-r8 c1..2 bg=Sidebar|Surface
-r8 c2..3 fg=Accent bg=Sidebar|Surface bold
-r8 c3..4 fg=Foreground bg=Sidebar|Surface
-r8 c4..5 fg=Foreground bg=Sidebar|Surface bold
-r8 c5..16 fg=Foreground bg=Sidebar|Surface
-r8 c16..19 fg=Border bg=Sidebar|Surface
-r8 c19..20 fg=Accent bg=Sidebar|Surface bold
-r8 c20..21 fg=Foreground bg=Sidebar|Surface
-r8 c21..22 fg=Foreground bg=Sidebar|Surface bold
-r8 c22..45 fg=Foreground bg=Sidebar|Surface
-r8 c45..48 fg=Border bg=Sidebar|Surface
+r0 c0..70 fg=Accent bg=Sidebar|Background|Surface
+r1 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r1 c1..69 bg=Sidebar|Background|Surface
+r1 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r2 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..29 fg=Foreground bg=Sidebar|Background|Surface bold
+r2 c29..69 bg=Sidebar|Background|Surface
+r2 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r3 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r3 c1..69 bg=Sidebar|Background|Surface
+r3 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r4 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r4 c1..2 bg=Sidebar|Background|Surface
+r4 c2..4 fg=Accent bg=Sidebar|Background|Surface bold
+r4 c4..66 fg=Foreground bg=Sidebar|Background|Surface bold
+r4 c66..69 bg=Sidebar|Background|Surface
+r4 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r5 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r5 c1..2 bg=Sidebar|Background|Surface
+r5 c2..21 fg=Muted bg=Sidebar|Background|Surface
+r5 c21..69 bg=Sidebar|Background|Surface
+r5 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r6 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r6 c1..2 bg=Sidebar|Background|Surface
+r6 c2..4 fg=Attention bg=Sidebar|Background|Surface bold
+r6 c4..37 fg=Foreground bg=Sidebar|Background|Surface bold
+r6 c37..40 fg=Border bg=Sidebar|Background|Surface
+r6 c40..41 fg=Foreground bg=Sidebar|Background|Surface bold
+r6 c41..50 fg=Muted bg=Sidebar|Background|Surface
+r6 c50..53 fg=Border bg=Sidebar|Background|Surface
+r6 c53..67 fg=Foreground bg=Sidebar|Background|Surface bold
+r6 c67..69 bg=Sidebar|Background|Surface
+r6 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r7 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r7 c1..2 bg=Sidebar|Background|Surface
+r7 c2..11 fg=Foreground bg=Sidebar|Background|Surface bold
+r7 c11..69 bg=Sidebar|Background|Surface
+r7 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r8 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r8 c1..2 bg=Sidebar|Background|Surface
+r8 c2..3 fg=Accent bg=Sidebar|Background|Surface bold
+r8 c3..4 fg=Foreground bg=Sidebar|Background|Surface
+r8 c4..5 fg=Foreground bg=Sidebar|Background|Surface bold
+r8 c5..16 fg=Foreground bg=Sidebar|Background|Surface
+r8 c16..19 fg=Border bg=Sidebar|Background|Surface
+r8 c19..20 fg=Accent bg=Sidebar|Background|Surface bold
+r8 c20..21 fg=Foreground bg=Sidebar|Background|Surface
+r8 c21..22 fg=Foreground bg=Sidebar|Background|Surface bold
+r8 c22..45 fg=Foreground bg=Sidebar|Background|Surface
+r8 c45..48 fg=Border bg=Sidebar|Background|Surface
 r8 c48..49 fg=Accent bg=Selected bold
 r8 c49..50 fg=Foreground bg=Selected
 r8 c50..51 fg=Foreground bg=Selected bold
 r8 c51..52 fg=Foreground bg=Selected
 r8 c52..56 fg=Foreground bg=Selected bold
-r8 c56..69 bg=Sidebar|Surface
-r8 c69..70 fg=Accent bg=Sidebar|Surface
-r9 c0..1 fg=Accent bg=Sidebar|Surface
-r9 c1..2 bg=Sidebar|Surface
-r9 c2..3 fg=Accent bg=Sidebar|Surface bold
-r9 c3..4 fg=Foreground bg=Sidebar|Surface
-r9 c4..5 fg=Foreground bg=Sidebar|Surface bold
-r9 c5..22 fg=Foreground bg=Sidebar|Surface
-r9 c22..69 bg=Sidebar|Surface
-r9 c69..70 fg=Accent bg=Sidebar|Surface
-r10 c0..1 fg=Accent bg=Sidebar|Surface
-r10 c1..69 bg=Sidebar|Surface
-r10 c69..70 fg=Accent bg=Sidebar|Surface
-r11 c0..70 fg=Accent bg=Sidebar|Surface
+r8 c56..69 bg=Sidebar|Background|Surface
+r8 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r9 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r9 c1..2 bg=Sidebar|Background|Surface
+r9 c2..3 fg=Accent bg=Sidebar|Background|Surface bold
+r9 c3..4 fg=Foreground bg=Sidebar|Background|Surface
+r9 c4..5 fg=Foreground bg=Sidebar|Background|Surface bold
+r9 c5..22 fg=Foreground bg=Sidebar|Background|Surface
+r9 c22..69 bg=Sidebar|Background|Surface
+r9 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r10 c0..1 fg=Accent bg=Sidebar|Background|Surface
+r10 c1..69 bg=Sidebar|Background|Surface
+r10 c69..70 fg=Accent bg=Sidebar|Background|Surface
+r11 c0..70 fg=Accent bg=Sidebar|Background|Surface
 
 == ansi-16
 ╭────────────────────────────────────────────────────────────────────╮

@@ -202,16 +202,16 @@ r9 c7..60 bg=Background|Surface
 @@ -40,3 +41,3 @@ impl Pod {
 +8 more
 ---
-r0 c0..29 fg=Muted bg=Background
-r0 c29..60 bg=Background
-r1 c0..1 fg=Foreground bg=Background
-r1 c1..2 bg=Background
-r1 c2..13 fg=Foreground bg=Background
-r1 c13..60 bg=Background
-r2 c0..1 fg=Foreground bg=Background
-r2 c1..2 bg=Background
-r2 c2..25 fg=Foreground bg=Background
-r2 c25..60 bg=Background
+r0 c0..29 fg=Muted bg=Sidebar|Background|Surface
+r0 c29..60 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..13 fg=Foreground bg=Sidebar|Background|Surface
+r1 c13..60 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..25 fg=Foreground bg=Sidebar|Background|Surface
+r2 c25..60 bg=Sidebar|Background|Surface
 r3 c0..1 fg=Danger bg=DiffRemovedTint bold
 r3 c1..2 bg=DiffRemovedTint
 r3 c2..20 fg=Foreground bg=DiffRemovedTint
@@ -224,18 +224,18 @@ r5 c0..1 fg=Live bg=DiffAddedTint bold
 r5 c1..2 bg=DiffAddedTint
 r5 c2..19 fg=Foreground bg=DiffAddedTint
 r5 c19..60 bg=DiffAddedTint
-r6 c0..1 fg=Foreground bg=Background
-r6 c1..2 bg=Background
-r6 c2..25 fg=Foreground bg=Background
-r6 c25..60 bg=Background
-r7 c0..1 fg=Foreground bg=Background
-r7 c1..2 bg=Background
-r7 c2..3 fg=Foreground bg=Background
-r7 c3..60 bg=Background
-r8 c0..28 fg=Muted bg=Background
-r8 c28..60 bg=Background
-r9 c0..7 fg=Muted bg=Background
-r9 c7..60 bg=Background
+r6 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r6 c1..2 bg=Sidebar|Background|Surface
+r6 c2..25 fg=Foreground bg=Sidebar|Background|Surface
+r6 c25..60 bg=Sidebar|Background|Surface
+r7 c0..1 fg=Foreground bg=Sidebar|Background|Surface
+r7 c1..2 bg=Sidebar|Background|Surface
+r7 c2..3 fg=Foreground bg=Sidebar|Background|Surface
+r7 c3..60 bg=Sidebar|Background|Surface
+r8 c0..28 fg=Muted bg=Sidebar|Background|Surface
+r8 c28..60 bg=Sidebar|Background|Surface
+r9 c0..7 fg=Muted bg=Sidebar|Background|Surface
+r9 c7..60 bg=Sidebar|Background|Surface
 
 == ansi-16
 @@ -10,5 +10,6 @@ fn main() {

@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -251,57 +250,57 @@ Read crates/tui/src/tui/views/mod.rs
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
 ---
-r0 c0..17 fg=Muted bg=Background
-r0 c17..80 bg=Background
-r1 c0..26 fg=Muted bg=Background
-r1 c26..80 bg=Background
-r2 c0..36 fg=Muted bg=Background
-r2 c36..80 bg=Background
-r3 c0..80 fg=BorderStrong bg=Sidebar|Surface
-r4 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r4 c1..79 bg=Sidebar|Surface
-r4 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r5 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r5 c1..2 bg=Sidebar|Surface
-r5 c2..10 fg=Foreground bg=Sidebar|Surface bold
-r5 c10..69 bg=Sidebar|Surface
-r5 c69..78 fg=Muted bg=Sidebar|Surface
-r5 c78..79 bg=Sidebar|Surface
-r5 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r6 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r6 c1..2 bg=Sidebar|Surface
-r6 c2..78 fg=Foreground bg=Sidebar|Surface
-r6 c78..79 bg=Sidebar|Surface
-r6 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r7 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r7 c1..2 bg=Sidebar|Surface
-r7 c2..78 fg=Foreground bg=Sidebar|Surface
-r7 c78..79 bg=Sidebar|Surface
-r7 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r8 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r8 c1..2 bg=Sidebar|Surface
-r8 c2..78 fg=Foreground bg=Sidebar|Surface
-r8 c78..79 bg=Sidebar|Surface
-r8 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r9 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r9 c1..2 bg=Sidebar|Surface
-r9 c2..4 fg=Foreground bg=Sidebar|Surface bold
-r9 c4..5 bg=Sidebar|Surface
-r9 c5..9 fg=Muted bg=Sidebar|Surface
-r9 c9..12 fg=Border bg=Sidebar|Surface
-r9 c12..17 fg=Foreground bg=Sidebar|Surface bold
-r9 c17..18 bg=Sidebar|Surface
-r9 c18..24 fg=Muted bg=Sidebar|Surface
-r9 c24..27 fg=Border bg=Sidebar|Surface
-r9 c27..30 fg=Foreground bg=Sidebar|Surface bold
-r9 c30..31 bg=Sidebar|Surface
-r9 c31..36 fg=Muted bg=Sidebar|Surface
-r9 c36..79 bg=Sidebar|Surface
-r9 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r10 c0..1 fg=BorderStrong bg=Sidebar|Surface
-r10 c1..79 bg=Sidebar|Surface
-r10 c79..80 fg=BorderStrong bg=Sidebar|Surface
-r11 c0..80 fg=BorderStrong bg=Sidebar|Surface
+r0 c0..17 fg=Muted bg=Sidebar|Background|Surface
+r0 c17..80 bg=Sidebar|Background|Surface
+r1 c0..26 fg=Muted bg=Sidebar|Background|Surface
+r1 c26..80 bg=Sidebar|Background|Surface
+r2 c0..36 fg=Muted bg=Sidebar|Background|Surface
+r2 c36..80 bg=Sidebar|Background|Surface
+r3 c0..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r4 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r4 c1..79 bg=Sidebar|Background|Surface
+r4 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r5 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r5 c1..2 bg=Sidebar|Background|Surface
+r5 c2..10 fg=Foreground bg=Sidebar|Background|Surface bold
+r5 c10..69 bg=Sidebar|Background|Surface
+r5 c69..78 fg=Muted bg=Sidebar|Background|Surface
+r5 c78..79 bg=Sidebar|Background|Surface
+r5 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r6 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r6 c1..2 bg=Sidebar|Background|Surface
+r6 c2..78 fg=Foreground bg=Sidebar|Background|Surface
+r6 c78..79 bg=Sidebar|Background|Surface
+r6 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r7 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r7 c1..2 bg=Sidebar|Background|Surface
+r7 c2..78 fg=Foreground bg=Sidebar|Background|Surface
+r7 c78..79 bg=Sidebar|Background|Surface
+r7 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r8 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r8 c1..2 bg=Sidebar|Background|Surface
+r8 c2..78 fg=Foreground bg=Sidebar|Background|Surface
+r8 c78..79 bg=Sidebar|Background|Surface
+r8 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r9 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r9 c1..2 bg=Sidebar|Background|Surface
+r9 c2..4 fg=Foreground bg=Sidebar|Background|Surface bold
+r9 c4..5 bg=Sidebar|Background|Surface
+r9 c5..9 fg=Muted bg=Sidebar|Background|Surface
+r9 c9..12 fg=Border bg=Sidebar|Background|Surface
+r9 c12..17 fg=Foreground bg=Sidebar|Background|Surface bold
+r9 c17..18 bg=Sidebar|Background|Surface
+r9 c18..24 fg=Muted bg=Sidebar|Background|Surface
+r9 c24..27 fg=Border bg=Sidebar|Background|Surface
+r9 c27..30 fg=Foreground bg=Sidebar|Background|Surface bold
+r9 c30..31 bg=Sidebar|Background|Surface
+r9 c31..36 fg=Muted bg=Sidebar|Background|Surface
+r9 c36..79 bg=Sidebar|Background|Surface
+r9 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r10 c0..1 fg=BorderStrong bg=Sidebar|Background|Surface
+r10 c1..79 bg=Sidebar|Background|Surface
+r10 c79..80 fg=BorderStrong bg=Sidebar|Background|Surface
+r11 c0..80 fg=BorderStrong bg=Sidebar|Background|Surface
 
 == ansi-16
 Edited summary.md

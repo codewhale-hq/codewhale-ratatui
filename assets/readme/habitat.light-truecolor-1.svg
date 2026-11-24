@@ -1,89 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1184" height="1832" viewBox="0 0 1184 1832" role="img" aria-labelledby="title desc"><title id="title">Life in the water — Truecolor / Paper · page 1/2</title><desc id="desc">Fish, a far shoal, a jellyfish, marine snow, bubbles and a distant whale, drawn in terminal cells. Actual ratatui buffer renders: fish-school, jellyfish, bubble-field, shoal, marine-snow, distant-whale</desc><rect width="100%" height="100%" fill="#f1f5f9" /><text x="32" y="48" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="600">Life in the water</text><text x="1152" y="72" fill="#455168" font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" text-anchor="end">Truecolor / Paper · page 1/2</text><path d="M32 80H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 320H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 588H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 856H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 1184H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 1472H1152" stroke="#5b6780" stroke-width="1" /><g data-entry="fish-school"><text x="32" y="111" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Fish school</text><svg width="720" height="160" viewBox="0 0 720 160" role="img" x="32" y="136"><title>Ratatui buffer, 72 columns by 8 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<svg xmlns="http://www.w3.org/2000/svg" width="1184" height="1832" viewBox="0 0 1184 1832" role="img" aria-labelledby="title desc"><title id="title">Life in the water — Truecolor / Paper · page 1/2</title><desc id="desc">Fish, a far shoal, a jellyfish, marine snow, bubbles and a distant whale, drawn in terminal cells. Actual ratatui buffer renders: fish-school, jellyfish, bubble-field, shoal, marine-snow, distant-whale</desc><rect width="100%" height="100%" fill="#f4f7fc" /><text x="32" y="48" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="600">Life in the water</text><text x="1152" y="72" fill="#455168" font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" text-anchor="end">Truecolor / Paper · page 1/2</text><path d="M32 80H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 320H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 588H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 856H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 1184H1152" stroke="#5b6780" stroke-width="1" /><path d="M32 1472H1152" stroke="#5b6780" stroke-width="1" /><g data-entry="fish-school"><text x="32" y="111" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Fish school</text><svg width="720" height="160" viewBox="0 0 720 160" role="img" x="32" y="136"><title>Ratatui buffer, 72 columns by 8 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="350" y="95" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
-<text x="360" y="95" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠦</text>
-<text x="370" y="95" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
-<text x="380" y="95" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
-<text x="400" y="95" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⢢</text>
-<text x="410" y="95" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
-<text x="420" y="95" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⡢</text>
-<text x="430" y="95" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
-<text x="300" y="115" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="310" y="115" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⡤</text>
-<text x="320" y="115" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
-<text x="330" y="115" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
-<text x="440" y="115" fill="#a5abb2" textLength="10" lengthAdjust="spacingAndGlyphs">⠨</text>
-<text x="450" y="115" fill="#a5abb2" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="460" y="115" fill="#a5abb2" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
-<text x="470" y="115" fill="#a5abb2" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="330" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠨</text>
-<text x="340" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="350" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
-<text x="360" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="380" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="390" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
-<text x="400" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
-<text x="410" y="135" fill="#bec4c9" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-</g></svg></g><g data-entry="jellyfish"><text x="32" y="359" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Jellyfish</text><svg width="400" height="180" viewBox="0 0 400 180" role="img" x="32" y="384"><title>Ratatui buffer, 40 columns by 9 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<text x="350" y="95" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
+<text x="360" y="95" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠦</text>
+<text x="370" y="95" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
+<text x="380" y="95" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
+<text x="400" y="95" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⢢</text>
+<text x="410" y="95" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
+<text x="420" y="95" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⡢</text>
+<text x="430" y="95" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
+<text x="300" y="115" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
+<text x="310" y="115" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⡤</text>
+<text x="320" y="115" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⣒</text>
+<text x="330" y="115" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠤</text>
+<text x="440" y="115" fill="#a6adb6" textLength="10" lengthAdjust="spacingAndGlyphs">⠨</text>
+<text x="450" y="115" fill="#a6adb6" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="460" y="115" fill="#a6adb6" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
+<text x="470" y="115" fill="#a6adb6" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="330" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠨</text>
+<text x="340" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="350" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
+<text x="360" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="380" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
+<text x="390" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠕</text>
+<text x="400" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠭</text>
+<text x="410" y="135" fill="#c0c6cd" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+</g></svg></g><g data-entry="jellyfish"><text x="32" y="359" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Jellyfish</text><svg width="400" height="180" viewBox="0 0 400 180" role="img" x="32" y="384"><title>Ratatui buffer, 40 columns by 9 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="180" y="75" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
-<text x="190" y="75" fill="#b1b7bd" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
-<text x="170" y="95" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠚</text>
-<text x="180" y="95" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⡖</text>
-<text x="190" y="95" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⡲</text>
-<text x="200" y="95" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠓</text>
-<text x="170" y="115" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠰</text>
-<text x="180" y="115" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
-<text x="190" y="115" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠇</text>
-</g></svg></g><g data-entry="bubble-field"><text x="32" y="627" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Bubble field</text><svg width="720" height="180" viewBox="0 0 720 180" role="img" x="32" y="652"><title>Ratatui buffer, 72 columns by 9 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<text x="180" y="75" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
+<text x="190" y="75" fill="#b3b9c2" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
+<text x="170" y="95" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠚</text>
+<text x="180" y="95" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⡖</text>
+<text x="190" y="95" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⡲</text>
+<text x="200" y="95" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠓</text>
+<text x="170" y="115" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠰</text>
+<text x="180" y="115" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠁</text>
+<text x="190" y="115" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠇</text>
+</g></svg></g><g data-entry="bubble-field"><text x="32" y="627" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Bubble field</text><svg width="720" height="180" viewBox="0 0 720 180" role="img" x="32" y="652"><title>Ratatui buffer, 72 columns by 9 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="590" y="75" fill="#e6ebef" textLength="10" lengthAdjust="spacingAndGlyphs">°</text>
-<text x="290" y="95" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
-<text x="670" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
-</g></svg></g><g data-entry="shoal"><text x="32" y="895" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Shoal</text><svg width="720" height="240" viewBox="0 0 720 240" role="img" x="32" y="920"><title>Ratatui buffer, 72 columns by 12 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<text x="590" y="75" fill="#e8ecf2" textLength="10" lengthAdjust="spacingAndGlyphs">°</text>
+<text x="290" y="95" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
+<text x="670" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">˚</text>
+</g></svg></g><g data-entry="shoal"><text x="32" y="895" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Shoal</text><svg width="720" height="240" viewBox="0 0 720 240" role="img" x="32" y="920"><title>Ratatui buffer, 72 columns by 12 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="320" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⢴</text>
-<text x="330" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
-<text x="340" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
-<text x="410" y="135" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⢴</text>
-<text x="420" y="135" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
-<text x="430" y="135" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
-<text x="520" y="155" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠺</text>
-<text x="530" y="155" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="540" y="155" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
-<text x="360" y="175" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="370" y="175" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠗</text>
-<text x="380" y="175" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-<text x="470" y="175" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="480" y="175" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠗</text>
-<text x="490" y="175" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
-</g></svg></g><g data-entry="marine-snow"><text x="32" y="1223" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Marine snow</text><svg width="720" height="200" viewBox="0 0 720 200" role="img" x="32" y="1248"><title>Ratatui buffer, 72 columns by 10 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<text x="320" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⢴</text>
+<text x="330" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
+<text x="340" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
+<text x="410" y="135" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⢴</text>
+<text x="420" y="135" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⢔</text>
+<text x="430" y="135" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠄</text>
+<text x="520" y="155" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠺</text>
+<text x="530" y="155" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="540" y="155" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
+<text x="360" y="175" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
+<text x="370" y="175" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠗</text>
+<text x="380" y="175" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+<text x="470" y="175" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
+<text x="480" y="175" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠗</text>
+<text x="490" y="175" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠪</text>
+</g></svg></g><g data-entry="marine-snow"><text x="32" y="1223" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Marine snow</text><svg width="720" height="200" viewBox="0 0 720 200" role="img" x="32" y="1248"><title>Ratatui buffer, 72 columns by 10 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="120" y="15" fill="#e6ebef" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
-<text x="250" y="15" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
-<text x="60" y="35" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
-<text x="610" y="55" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
-<text x="660" y="55" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
-<text x="60" y="75" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
-<text x="310" y="75" fill="#e6ebef" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
-<text x="0" y="195" fill="#c6cbd1" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
-<text x="70" y="195" fill="#d1d6db" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
-</g></svg></g><g data-entry="distant-whale"><text x="32" y="1511" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Distant whale</text><svg width="720" height="240" viewBox="0 0 720 240" role="img" x="32" y="1536"><title>Ratatui buffer, 72 columns by 12 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+<text x="120" y="15" fill="#e8ecf2" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
+<text x="250" y="15" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
+<text x="60" y="35" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
+<text x="610" y="55" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
+<text x="660" y="55" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠐</text>
+<text x="60" y="75" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠠</text>
+<text x="310" y="75" fill="#e8ecf2" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
+<text x="0" y="195" fill="#c5cbd2" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
+<text x="70" y="195" fill="#d1d6dd" textLength="10" lengthAdjust="spacingAndGlyphs">⠈</text>
+</g></svg></g><g data-entry="distant-whale"><text x="32" y="1511" fill="#14213a" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Distant whale</text><svg width="720" height="240" viewBox="0 0 720 240" role="img" x="32" y="1536"><title>Ratatui buffer, 72 columns by 12 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <g font-family="'DejaVu Sans Mono','Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" xml:space="preserve">
-<text x="600" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
-<text x="610" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠔</text>
-<text x="620" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠊</text>
-<text x="630" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠉</text>
-<text x="640" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠉</text>
-<text x="650" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="660" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⢄</text>
-<text x="670" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
-<text x="680" y="115" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠞</text>
-<text x="600" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠑</text>
-<text x="610" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="620" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="630" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠶</text>
-<text x="640" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="650" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
-<text x="660" y="135" fill="#dbe0e5" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
+<text x="600" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⢀</text>
+<text x="610" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠔</text>
+<text x="620" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠊</text>
+<text x="630" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠉</text>
+<text x="640" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠉</text>
+<text x="650" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="660" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⢄</text>
+<text x="670" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⣀</text>
+<text x="680" y="115" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠞</text>
+<text x="600" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠑</text>
+<text x="610" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="620" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="630" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠶</text>
+<text x="640" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="650" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠒</text>
+<text x="660" y="135" fill="#dde1e7" textLength="10" lengthAdjust="spacingAndGlyphs">⠂</text>
 </g></svg></g></svg>

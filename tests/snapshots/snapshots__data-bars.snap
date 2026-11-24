@@ -133,29 +133,29 @@ tui       ███████████████████████�
 runtime   ██████████████▎                                131
 protocol  ████▊                                          44
 ---
-r0 c0..14 fg=Foreground bg=Background bold
-r0 c14..60 bg=Background
-r1 c0..8 fg=Foreground bg=Background
-r1 c8..10 bg=Background
-r1 c10..55 fg=Accent bg=Background
-r1 c55..57 bg=Background
-r1 c57..60 fg=Muted bg=Background
-r2 c0..8 fg=Foreground bg=Background
-r2 c8..10 bg=Background
-r2 c10..40 fg=Accent bg=Background
-r2 c40..57 bg=Background
-r2 c57..60 fg=Muted bg=Background
-r3 c0..8 fg=Foreground bg=Background
-r3 c8..10 bg=Background
-r3 c10..25 fg=Accent bg=Background
-r3 c25..57 bg=Background
-r3 c57..60 fg=Muted bg=Background
-r4 c0..8 fg=Foreground bg=Background
-r4 c8..10 bg=Background
-r4 c10..15 fg=Accent bg=Background
-r4 c15..57 bg=Background
-r4 c57..59 fg=Muted bg=Background
-r4 c59..60 bg=Background
+r0 c0..14 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c14..60 bg=Sidebar|Background|Surface
+r1 c0..8 fg=Foreground bg=Sidebar|Background|Surface
+r1 c8..10 bg=Sidebar|Background|Surface
+r1 c10..55 fg=Accent bg=Sidebar|Background|Surface
+r1 c55..57 bg=Sidebar|Background|Surface
+r1 c57..60 fg=Muted bg=Sidebar|Background|Surface
+r2 c0..8 fg=Foreground bg=Sidebar|Background|Surface
+r2 c8..10 bg=Sidebar|Background|Surface
+r2 c10..40 fg=Accent bg=Sidebar|Background|Surface
+r2 c40..57 bg=Sidebar|Background|Surface
+r2 c57..60 fg=Muted bg=Sidebar|Background|Surface
+r3 c0..8 fg=Foreground bg=Sidebar|Background|Surface
+r3 c8..10 bg=Sidebar|Background|Surface
+r3 c10..25 fg=Accent bg=Sidebar|Background|Surface
+r3 c25..57 bg=Sidebar|Background|Surface
+r3 c57..60 fg=Muted bg=Sidebar|Background|Surface
+r4 c0..8 fg=Foreground bg=Sidebar|Background|Surface
+r4 c8..10 bg=Sidebar|Background|Surface
+r4 c10..15 fg=Accent bg=Sidebar|Background|Surface
+r4 c15..57 bg=Sidebar|Background|Surface
+r4 c57..59 fg=Muted bg=Sidebar|Background|Surface
+r4 c59..60 bg=Sidebar|Background|Surface
 
 == ansi-16
 Tests by crate

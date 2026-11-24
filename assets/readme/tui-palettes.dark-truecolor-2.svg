@@ -472,7 +472,7 @@
 <text x="1000" y="475" fill="#6b606e" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
 <text x="1010" y="475" fill="#6b606e" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
 <text x="1030" y="475" fill="#d7ced5" textLength="10" lengthAdjust="spacingAndGlyphs">│</text>
-</g></svg></g><g data-entry="tui-theme-whale"><text x="32" y="679" fill="#f6f2e8" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Tui theme whale</text><svg width="1040" height="480" viewBox="0 0 1040 480" role="img" x="32" y="704"><title>Ratatui buffer, 104 columns by 24 rows</title><rect width="100%" height="100%" fill="#000415" />
+</g></svg></g><g data-entry="tui-theme-whale"><text x="32" y="679" fill="#f6f2e8" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Tui theme whale</text><svg width="1040" height="480" viewBox="0 0 1040 480" role="img" x="32" y="704"><title>Ratatui buffer, 104 columns by 24 rows</title><rect width="100%" height="100%" fill="#01061a" />
 <rect x="410" y="100" width="210" height="20" fill="#1a2c63" />
 <rect x="830" y="100" width="210" height="20" fill="#232d41" />
 <rect x="410" y="120" width="210" height="20" fill="#1a2c63" />
@@ -920,7 +920,7 @@
 <text x="1000" y="475" fill="#93a0b8" textLength="10" lengthAdjust="spacingAndGlyphs">r</text>
 <text x="1010" y="475" fill="#93a0b8" textLength="10" lengthAdjust="spacingAndGlyphs">e</text>
 <text x="1030" y="475" fill="#2a3f72" textLength="10" lengthAdjust="spacingAndGlyphs">│</text>
-</g></svg></g><g data-entry="tui-theme-whale-light"><text x="32" y="1247" fill="#f6f2e8" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Tui theme whale light</text><svg width="1040" height="480" viewBox="0 0 1040 480" role="img" x="32" y="1272"><title>Ratatui buffer, 104 columns by 24 rows</title><rect width="100%" height="100%" fill="#f1f5f9" />
+</g></svg></g><g data-entry="tui-theme-whale-light"><text x="32" y="1247" fill="#f6f2e8" font-family="'Geist Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei UI','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="600">Tui theme whale light</text><svg width="1040" height="480" viewBox="0 0 1040 480" role="img" x="32" y="1272"><title>Ratatui buffer, 104 columns by 24 rows</title><rect width="100%" height="100%" fill="#f4f7fc" />
 <rect x="410" y="100" width="210" height="20" fill="#e8eef8" />
 <rect x="830" y="100" width="210" height="20" fill="#eef6ff" />
 <rect x="410" y="120" width="210" height="20" fill="#e8eef8" />

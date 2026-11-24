@@ -173,34 +173,34 @@ Read the linked guide                              │
                                                 │↓││
                                                 ╰─╯│
 ---
-r0 c0..31 fg=Attention bg=Sidebar|Surface
-r0 c31..51 bg=Sidebar|Surface
-r0 c51..52 fg=Border bg=Sidebar|Surface
-r1 c0..4 fg=Foreground bg=Sidebar|Surface
+r0 c0..31 fg=Attention bg=Sidebar|Background|Surface
+r0 c31..51 bg=Sidebar|Background|Surface
+r0 c51..52 fg=Border bg=Sidebar|Background|Surface
+r1 c0..4 fg=Foreground bg=Sidebar|Background|Surface
 r1 c4..18 fg=Foreground bg=Selected
-r1 c18..39 fg=Foreground bg=Sidebar|Surface
-r1 c39..51 bg=Sidebar|Surface
-r1 c51..52 fg=Live bg=Sidebar|Surface
-r2 c0..31 fg=Foreground bg=Sidebar|Surface
-r2 c31..51 bg=Sidebar|Surface
-r2 c51..52 fg=Live bg=Sidebar|Surface
-r3 c0..26 fg=Live bg=Sidebar|Surface
-r3 c26..51 bg=Sidebar|Surface
-r3 c51..52 fg=Live bg=Sidebar|Surface
-r4 c0..35 fg=Attention bg=Sidebar|Surface
-r4 c35..51 bg=Sidebar|Surface
-r4 c51..52 fg=Border bg=Sidebar|Surface
-r5 c0..21 fg=Accent bg=Sidebar|Surface underline
-r5 c21..51 bg=Sidebar|Surface
-r5 c51..52 fg=Border bg=Sidebar|Surface
-r6 c0..48 bg=Sidebar|Surface
-r6 c48..52 fg=Border bg=Sidebar|Surface
-r7 c0..48 bg=Sidebar|Surface
-r7 c48..49 fg=Border bg=Sidebar|Surface
-r7 c49..50 fg=Live bg=Sidebar|Surface bold
-r7 c50..52 fg=Border bg=Sidebar|Surface
-r8 c0..48 bg=Sidebar|Surface
-r8 c48..52 fg=Border bg=Sidebar|Surface
+r1 c18..39 fg=Foreground bg=Sidebar|Background|Surface
+r1 c39..51 bg=Sidebar|Background|Surface
+r1 c51..52 fg=Live bg=Sidebar|Background|Surface
+r2 c0..31 fg=Foreground bg=Sidebar|Background|Surface
+r2 c31..51 bg=Sidebar|Background|Surface
+r2 c51..52 fg=Live bg=Sidebar|Background|Surface
+r3 c0..26 fg=Live bg=Sidebar|Background|Surface
+r3 c26..51 bg=Sidebar|Background|Surface
+r3 c51..52 fg=Live bg=Sidebar|Background|Surface
+r4 c0..35 fg=Attention bg=Sidebar|Background|Surface
+r4 c35..51 bg=Sidebar|Background|Surface
+r4 c51..52 fg=Border bg=Sidebar|Background|Surface
+r5 c0..21 fg=Accent bg=Sidebar|Background|Surface underline
+r5 c21..51 bg=Sidebar|Background|Surface
+r5 c51..52 fg=Border bg=Sidebar|Background|Surface
+r6 c0..48 bg=Sidebar|Background|Surface
+r6 c48..52 fg=Border bg=Sidebar|Background|Surface
+r7 c0..48 bg=Sidebar|Background|Surface
+r7 c48..49 fg=Border bg=Sidebar|Background|Surface
+r7 c49..50 fg=Live bg=Sidebar|Background|Surface bold
+r7 c50..52 fg=Border bg=Sidebar|Background|Surface
+r8 c0..48 bg=Sidebar|Background|Surface
+r8 c48..52 fg=Border bg=Sidebar|Background|Surface
 
 == ansi-16
 User: Review the changed source                    │

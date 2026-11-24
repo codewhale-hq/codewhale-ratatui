@@ -9,20 +9,20 @@ expression: dump(&entry)
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#030b21 bg=Background
-r0 c1..2 fg=#06112e bg=Background
-r0 c2..3 fg=#09183a bg=Background
-r0 c3..4 fg=#0c1f47 bg=Background
-r0 c4..5 fg=#0f2653 bg=Background
-r0 c5..6 fg=#122c60 bg=Background
+r0 c0..1 fg=#030c24 bg=Background
+r0 c1..2 fg=#06112f bg=Background
+r0 c2..3 fg=#081739 bg=Background
+r0 c3..4 fg=#0a1c43 bg=Background
+r0 c4..5 fg=#0c224d bg=Background
+r0 c5..6 fg=#0f2758 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#122c60 bg=Background
-r0 c59..60 fg=#0f2653 bg=Background
-r0 c60..61 fg=#0c1f47 bg=Background
-r0 c61..62 fg=#09183a bg=Background
-r0 c62..63 fg=#06112e bg=Background
-r0 c63..64 fg=#030b21 bg=Background
+r0 c58..59 fg=#0f2758 bg=Background
+r0 c59..60 fg=#0c224d bg=Background
+r0 c60..61 fg=#0a1c43 bg=Background
+r0 c61..62 fg=#081739 bg=Background
+r0 c62..63 fg=#06112f bg=Background
+r0 c63..64 fg=#030c24 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -50,20 +50,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#090c11 bg=Background
+r0 c0..1 fg=#0a0d13 bg=Background
 r0 c1..2 fg=#0e131a bg=Background
-r0 c2..3 fg=#141a23 bg=Background
-r0 c3..4 fg=#19212d bg=Background
-r0 c4..5 fg=#1f2836 bg=Background
-r0 c5..6 fg=#242f3f bg=Background
+r0 c2..3 fg=#131922 bg=Background
+r0 c3..4 fg=#181e29 bg=Background
+r0 c4..5 fg=#1d2431 bg=Background
+r0 c5..6 fg=#212a38 bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#242f3f bg=Background
-r0 c59..60 fg=#1f2836 bg=Background
-r0 c60..61 fg=#19212d bg=Background
-r0 c61..62 fg=#141a23 bg=Background
+r0 c58..59 fg=#212a38 bg=Background
+r0 c59..60 fg=#1d2431 bg=Background
+r0 c60..61 fg=#181e29 bg=Background
+r0 c61..62 fg=#131922 bg=Background
 r0 c62..63 fg=#0e131a bg=Background
-r0 c63..64 fg=#090c11 bg=Background
+r0 c63..64 fg=#0a0d13 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -91,20 +91,20 @@ r4 c50..64 bg=Background
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..1 fg=#edf1f6 bg=Background
-r0 c1..2 fg=#e9eef3 bg=Background
-r0 c2..3 fg=#e5eaf0 bg=Background
-r0 c3..4 fg=#e1e7ec bg=Background
-r0 c4..5 fg=#dde3e9 bg=Background
-r0 c5..6 fg=#d9e0e6 bg=Background
+r0 c0..1 fg=#f0f3f9 bg=Background
+r0 c1..2 fg=#ebf0f6 bg=Background
+r0 c2..3 fg=#e7ecf3 bg=Background
+r0 c3..4 fg=#e2e8f1 bg=Background
+r0 c4..5 fg=#dee4ee bg=Background
+r0 c5..6 fg=#d9e1eb bg=Background
 r0 c6..32 fg=Muted bg=Background
 r0 c32..58 fg=Border bg=Background
-r0 c58..59 fg=#d9e0e6 bg=Background
-r0 c59..60 fg=#dde3e9 bg=Background
-r0 c60..61 fg=#e1e7ec bg=Background
-r0 c61..62 fg=#e5eaf0 bg=Background
-r0 c62..63 fg=#e9eef3 bg=Background
-r0 c63..64 fg=#edf1f6 bg=Background
+r0 c58..59 fg=#d9e1eb bg=Background
+r0 c59..60 fg=#dee4ee bg=Background
+r0 c60..61 fg=#e2e8f1 bg=Background
+r0 c61..62 fg=#e7ecf3 bg=Background
+r0 c62..63 fg=#ebf0f6 bg=Background
+r0 c63..64 fg=#f0f3f9 bg=Background
 r1 c0..2 fg=Accent bg=Background
 r1 c2..53 fg=Foreground bg=Background
 r1 c53..64 bg=Background
@@ -162,28 +162,28 @@ r4 c50..64 bg=Background|Surface
 
 Enter send · Shift+Enter new line · Ctrl+O details
 ---
-r0 c0..6 fg=Border bg=Background
-r0 c6..32 fg=Muted bg=Background
-r0 c32..64 fg=Border bg=Background
-r1 c0..2 fg=Accent bg=Background
-r1 c2..53 fg=Foreground bg=Background
-r1 c53..64 bg=Background
-r2 c0..2 fg=Accent bg=Background
-r2 c2..49 fg=Foreground bg=Background
-r2 c49..64 bg=Background
-r3 c0..64 bg=Background
-r4 c0..5 fg=Foreground bg=Background bold
-r4 c5..6 bg=Background
-r4 c6..10 fg=Muted bg=Background
-r4 c10..13 fg=Border bg=Background
-r4 c13..24 fg=Foreground bg=Background bold
-r4 c24..25 bg=Background
-r4 c25..33 fg=Muted bg=Background
-r4 c33..36 fg=Border bg=Background
-r4 c36..42 fg=Foreground bg=Background bold
-r4 c42..43 bg=Background
-r4 c43..50 fg=Muted bg=Background
-r4 c50..64 bg=Background
+r0 c0..6 fg=Border bg=Sidebar|Background|Surface
+r0 c6..32 fg=Muted bg=Sidebar|Background|Surface
+r0 c32..64 fg=Border bg=Sidebar|Background|Surface
+r1 c0..2 fg=Accent bg=Sidebar|Background|Surface
+r1 c2..53 fg=Foreground bg=Sidebar|Background|Surface
+r1 c53..64 bg=Sidebar|Background|Surface
+r2 c0..2 fg=Accent bg=Sidebar|Background|Surface
+r2 c2..49 fg=Foreground bg=Sidebar|Background|Surface
+r2 c49..64 bg=Sidebar|Background|Surface
+r3 c0..64 bg=Sidebar|Background|Surface
+r4 c0..5 fg=Foreground bg=Sidebar|Background|Surface bold
+r4 c5..6 bg=Sidebar|Background|Surface
+r4 c6..10 fg=Muted bg=Sidebar|Background|Surface
+r4 c10..13 fg=Border bg=Sidebar|Background|Surface
+r4 c13..24 fg=Foreground bg=Sidebar|Background|Surface bold
+r4 c24..25 bg=Sidebar|Background|Surface
+r4 c25..33 fg=Muted bg=Sidebar|Background|Surface
+r4 c33..36 fg=Border bg=Sidebar|Background|Surface
+r4 c36..42 fg=Foreground bg=Sidebar|Background|Surface bold
+r4 c42..43 bg=Sidebar|Background|Surface
+r4 c43..50 fg=Muted bg=Sidebar|Background|Surface
+r4 c50..64 bg=Sidebar|Background|Surface
 
 == ansi-16
 ────── codewhale-ratatui / wor… ────────────────────────────────

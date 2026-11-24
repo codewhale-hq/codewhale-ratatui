@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -55,8 +54,8 @@ r1 c23..40 bg=Selected
 Title
 › 鲸鱼日报 café 👩‍💻 夜间
 ---
-r0 c0..5 fg=Foreground bg=Background bold
-r0 c5..40 bg=Background
+r0 c0..5 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c5..40 bg=Sidebar|Background|Surface
 r1 c0..1 fg=Accent bg=Selected
 r1 c1..2 bg=Selected
 r1 c2..21 fg=Foreground bg=Selected

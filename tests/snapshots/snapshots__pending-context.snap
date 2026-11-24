@@ -108,24 +108,24 @@ r3 c31..40 bg=Background|Surface
 ◆ unconfirmed / draft.md
 +2 more  Send now / Edit / Drop
 ---
-r0 c0..8 fg=Accent bg=Background
-r0 c8..40 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..10 fg=Live bg=Background
-r1 c10..13 bg=Background
-r1 c13..21 fg=Foreground bg=Background
-r1 c21..30 fg=Muted bg=Background
-r1 c30..40 bg=Background
-r2 c0..1 fg=Attention bg=Background
-r2 c1..2 bg=Background
-r2 c2..13 fg=Attention bg=Background
-r2 c13..16 bg=Background
-r2 c16..24 fg=Foreground bg=Background
-r2 c24..40 bg=Background
-r3 c0..9 fg=Muted bg=Background
-r3 c9..31 fg=Accent bg=Background
-r3 c31..40 bg=Background
+r0 c0..8 fg=Accent bg=Sidebar|Background|Surface
+r0 c8..40 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Live bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..10 fg=Live bg=Sidebar|Background|Surface
+r1 c10..13 bg=Sidebar|Background|Surface
+r1 c13..21 fg=Foreground bg=Sidebar|Background|Surface
+r1 c21..30 fg=Muted bg=Sidebar|Background|Surface
+r1 c30..40 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Attention bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..13 fg=Attention bg=Sidebar|Background|Surface
+r2 c13..16 bg=Sidebar|Background|Surface
+r2 c16..24 fg=Foreground bg=Sidebar|Background|Surface
+r2 c24..40 bg=Sidebar|Background|Surface
+r3 c0..9 fg=Muted bg=Sidebar|Background|Surface
+r3 c9..31 fg=Accent bg=Sidebar|Background|Surface
+r3 c31..40 bg=Sidebar|Background|Surface
 
 == ansi-16
 1 queued
