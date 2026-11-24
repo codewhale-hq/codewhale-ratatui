@@ -2,7 +2,7 @@ use std::time::Duration;
 
 use codewhale_ratatui::{
     NativeComposer, NativeComposerDensity, Paint, TuiPalette, WorkflowProgress, WorkflowRun,
-    WorkflowRunState,
+    WorkflowRunState, native_composer_height,
     testing::{Profile, render, text},
 };
 use ratatui::{buffer::Buffer, layout::Rect, style::Color};
@@ -106,8 +106,9 @@ fn composer_density_enclosure_and_send_geometry_match_the_mounted_policy() {
             NativeComposer::new("x\n".repeat(40))
                 .density(density)
                 .desired_height(80, 60),
-            cap
+            43
         );
+        assert_eq!(native_composer_height(41, 1, 60, density, true), cap);
         assert_eq!(composer.desired_height(80, 1), 1);
     }
     let composer = NativeComposer::new("ship it")
@@ -265,7 +266,7 @@ fn native_chrome_is_bounded_in_tiny_offset_and_maximum_origin_buffers() {
                     ),
                     Box::new(WorkflowProgress::new(vec![
                         WorkflowRun::new("鲸鱼 cafe\u{301}", WorkflowRunState::Failed)
-                            .outcomes(usize::MAX, usize::MAX, usize::MAX, usize::MAX)
+                            .outcomes(usize::MAX, usize::MAX, usize::MAX, u64::MAX)
                             .reason("retry later"),
                     ])),
                 ];

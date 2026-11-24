@@ -116,26 +116,26 @@ r3 c20..50 bg=Background|Surface
 ◒ Receipt: edited summary.md  (receipt)
 ┊ Divider  (divider)
 ---
-r0 c0..1 fg=Live bg=Background
-r0 c1..2 bg=Background
-r0 c2..24 fg=Foreground bg=Background
-r0 c24..37 fg=Muted bg=Background
-r0 c37..50 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..20 fg=Foreground bg=Background
-r1 c20..30 fg=Muted bg=Background
-r1 c30..50 bg=Background
-r2 c0..1 fg=Muted bg=Background
-r2 c1..2 bg=Background
-r2 c2..28 fg=Foreground bg=Background
-r2 c28..39 fg=Muted bg=Background
-r2 c39..50 bg=Background
-r3 c0..1 fg=Border bg=Background
-r3 c1..2 bg=Background
-r3 c2..9 fg=Foreground bg=Background
-r3 c9..20 fg=Muted bg=Background
-r3 c20..50 bg=Background
+r0 c0..1 fg=Live bg=Sidebar|Background|Surface
+r0 c1..2 bg=Sidebar|Background|Surface
+r0 c2..24 fg=Foreground bg=Sidebar|Background|Surface
+r0 c24..37 fg=Muted bg=Sidebar|Background|Surface
+r0 c37..50 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Live bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..20 fg=Foreground bg=Sidebar|Background|Surface
+r1 c20..30 fg=Muted bg=Sidebar|Background|Surface
+r1 c30..50 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Muted bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..28 fg=Foreground bg=Sidebar|Background|Surface
+r2 c28..39 fg=Muted bg=Sidebar|Background|Surface
+r2 c39..50 bg=Sidebar|Background|Surface
+r3 c0..1 fg=Border bg=Sidebar|Background|Surface
+r3 c1..2 bg=Sidebar|Background|Surface
+r3 c2..9 fg=Foreground bg=Sidebar|Background|Surface
+r3 c9..20 fg=Muted bg=Sidebar|Background|Surface
+r3 c20..50 bg=Sidebar|Background|Surface
 
 == ansi-16
 ◎ Searching the codebase  (searching)

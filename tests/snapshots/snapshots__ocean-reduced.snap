@@ -42,19 +42,19 @@ r6 c0..80 bg=#0c2339
 r7 c0..80 bg=#0c2237
 r8 c0..28 fg=Foreground bg=#1e2d3b bold
 r8 c28..80 bg=#1e2d3b
-r9 c0..1 fg=Attention bg=#1d2b39
-r9 c1..2 bg=#1d2b39
-r9 c2..11 fg=Foreground bg=#1d2b39
-r9 c11..80 bg=#1d2b39
-r10 c0..80 bg=#1c2a38
-r11 c0..80 bg=#1b2936
-r12 c0..20 fg=Foreground bg=#1e2738 bold
-r12 c20..80 bg=#1e2738
+r9 c0..1 fg=Attention bg=#1e2c39
+r9 c1..2 bg=#1e2c39
+r9 c2..11 fg=Foreground bg=#1e2c39
+r9 c11..80 bg=#1e2c39
+r10 c0..80 bg=#1c2b38
+r11 c0..80 bg=#1c2936
+r12 c0..20 fg=Foreground bg=#1e2838 bold
+r12 c20..80 bg=#1e2838
 r13 c0..1 fg=Danger bg=#1e2736
 r13 c1..2 bg=#1e2736
 r13 c2..8 fg=Foreground bg=#1e2736
 r13 c8..80 bg=#1e2736
-r14 c0..80 bg=#1d2634
+r14 c0..80 bg=#1d2635
 r15 c0..80 bg=#1d2533
 r16 c0..24 fg=Foreground bg=#081726 bold
 r16 c24..80 bg=#081726
@@ -87,38 +87,38 @@ Done / static completion
 
 
 ---
-r0 c0..21 fg=Foreground bg=#0f151d bold
-r0 c21..80 bg=#0f151d
-r1 c0..1 fg=Live bg=#0d131b
-r1 c1..2 bg=#0d131b
-r1 c2..9 fg=Foreground bg=#0d131b
-r1 c9..80 bg=#0d131b
-r2 c0..80 bg=#0d1219
-r3 c0..80 bg=#0b1017
-r4 c0..23 fg=Foreground bg=#0a0f15 bold
-r4 c23..80 bg=#0a0f15
-r5 c0..1 fg=Live bg=#0a0e13
-r5 c1..2 bg=#0a0e13
-r5 c2..9 fg=Foreground bg=#0a0e13
-r5 c9..80 bg=#0a0e13
-r6 c0..80 bg=#080d12
-r7 c0..80 bg=#080b10
-r8 c0..28 fg=Foreground bg=#1a1919 bold
-r8 c28..80 bg=#1a1919
-r9 c0..1 fg=Attention bg=#181717
-r9 c1..2 bg=#181717
-r9 c2..11 fg=Foreground bg=#181717
-r9 c11..80 bg=#181717
-r10 c0..80 bg=#181716
-r11 c0..80 bg=#171615
-r12 c0..20 fg=Foreground bg=#191518 bold
-r12 c20..80 bg=#191518
-r13 c0..1 fg=Danger bg=#191517
-r13 c1..2 bg=#191517
-r13 c2..8 fg=Foreground bg=#191517
-r13 c8..80 bg=#191517
-r14 c0..80 bg=#191417
-r15 c0..80 bg=#191416
+r0 c0..21 fg=Foreground bg=#0e131b bold
+r0 c21..80 bg=#0e131b
+r1 c0..1 fg=Live bg=#0e1119
+r1 c1..2 bg=#0e1119
+r1 c2..9 fg=Foreground bg=#0e1119
+r1 c9..80 bg=#0e1119
+r2 c0..80 bg=#0c1118
+r3 c0..80 bg=#0c0f16
+r4 c0..23 fg=Foreground bg=#0b0e15 bold
+r4 c23..80 bg=#0b0e15
+r5 c0..1 fg=Live bg=#0a0e14
+r5 c1..2 bg=#0a0e14
+r5 c2..9 fg=Foreground bg=#0a0e14
+r5 c9..80 bg=#0a0e14
+r6 c0..80 bg=#090c13
+r7 c0..80 bg=#090c11
+r8 c0..28 fg=Foreground bg=#1b1a19 bold
+r8 c28..80 bg=#1b1a19
+r9 c0..1 fg=Attention bg=#1b1918
+r9 c1..2 bg=#1b1918
+r9 c2..11 fg=Foreground bg=#1b1918
+r9 c11..80 bg=#1b1918
+r10 c0..80 bg=#191818
+r11 c0..80 bg=#191717
+r12 c0..20 fg=Foreground bg=#1b161a bold
+r12 c20..80 bg=#1b161a
+r13 c0..1 fg=Danger bg=#1b161a
+r13 c1..2 bg=#1b161a
+r13 c2..8 fg=Foreground bg=#1b161a
+r13 c8..80 bg=#1b161a
+r14 c0..80 bg=#1b1619
+r15 c0..80 bg=#1b1619
 r16 c0..24 fg=Foreground bg=Background bold
 r16 c24..80 bg=Background
 r17 c0..1 fg=Live bg=Background
@@ -150,46 +150,46 @@ Done / static completion
 
 
 ---
-r0 c0..21 fg=Foreground bg=#f6f8fb bold
-r0 c21..80 bg=#f6f8fb
-r1 c0..1 fg=Live bg=#f6f8fb
-r1 c1..2 bg=#f6f8fb
-r1 c2..9 fg=Foreground bg=#f6f8fb
-r1 c9..80 bg=#f6f8fb
-r2 c0..80 bg=#f4f8fb
-r3 c0..80 bg=#f4f7fb
-r4 c0..23 fg=Foreground bg=#f4f6fa bold
-r4 c23..80 bg=#f4f6fa
-r5 c0..1 fg=Live bg=#f3f6f9
-r5 c1..2 bg=#f3f6f9
-r5 c2..9 fg=Foreground bg=#f3f6f9
-r5 c9..80 bg=#f3f6f9
-r6 c0..80 bg=#f2f6f9
-r7 c0..80 bg=#f2f5f9
-r8 c0..28 fg=Foreground bg=#e7e7e5 bold
-r8 c28..80 bg=#e7e7e5
-r9 c0..1 fg=Attention bg=#e8e7e5
-r9 c1..2 bg=#e8e7e5
-r9 c2..11 fg=Foreground bg=#e8e7e5
-r9 c11..80 bg=#e8e7e5
-r10 c0..80 bg=#e6e6e5
-r11 c0..80 bg=#e6e6e6
-r12 c0..20 fg=Foreground bg=#e7e1e5 bold
-r12 c20..80 bg=#e7e1e5
-r13 c0..1 fg=Danger bg=#e7e0e5
-r13 c1..2 bg=#e7e0e5
-r13 c2..8 fg=Foreground bg=#e7e0e5
-r13 c8..80 bg=#e7e0e5
-r14 c0..80 bg=#e5e0e5
-r15 c0..80 bg=#e5dee5
-r16 c0..24 fg=Foreground bg=#eaf0f6 bold
-r16 c24..80 bg=#eaf0f6
-r17 c0..1 fg=Live bg=#eaf0f5
-r17 c1..2 bg=#eaf0f5
-r17 c2..6 fg=Foreground bg=#eaf0f5
-r17 c6..80 bg=#eaf0f5
-r18 c0..80 bg=#e8eef5
-r19 c0..80 bg=#e8eef5
+r0 c0..21 fg=Foreground bg=#f9fafd bold
+r0 c21..80 bg=#f9fafd
+r1 c0..1 fg=Live bg=#f9fafd
+r1 c1..2 bg=#f9fafd
+r1 c2..9 fg=Foreground bg=#f9fafd
+r1 c9..80 bg=#f9fafd
+r2 c0..80 bg=#f7fafd
+r3 c0..80 bg=#f7f9fd
+r4 c0..23 fg=Foreground bg=#f7f8fd bold
+r4 c23..80 bg=#f7f8fd
+r5 c0..1 fg=Live bg=#f6f8fc
+r5 c1..2 bg=#f6f8fc
+r5 c2..9 fg=Foreground bg=#f6f8fc
+r5 c9..80 bg=#f6f8fc
+r6 c0..80 bg=#f5f8fc
+r7 c0..80 bg=#f5f8fc
+r8 c0..28 fg=Foreground bg=#eae9e8 bold
+r8 c28..80 bg=#eae9e8
+r9 c0..1 fg=Attention bg=#eae9e8
+r9 c1..2 bg=#eae9e8
+r9 c2..11 fg=Foreground bg=#eae9e8
+r9 c11..80 bg=#eae9e8
+r10 c0..80 bg=#eae9e8
+r11 c0..80 bg=#e9e9e8
+r12 c0..20 fg=Foreground bg=#ebe2e8 bold
+r12 c20..80 bg=#ebe2e8
+r13 c0..1 fg=Danger bg=#eae2e8
+r13 c1..2 bg=#eae2e8
+r13 c2..8 fg=Foreground bg=#eae2e8
+r13 c8..80 bg=#eae2e8
+r14 c0..80 bg=#e9e1e8
+r15 c0..80 bg=#e8e0e8
+r16 c0..24 fg=Foreground bg=#eef3f9 bold
+r16 c24..80 bg=#eef3f9
+r17 c0..1 fg=Live bg=#eef3f8
+r17 c1..2 bg=#eef3f8
+r17 c2..6 fg=Foreground bg=#eef3f8
+r17 c6..80 bg=#eef3f8
+r18 c0..80 bg=#ecf1f8
+r19 c0..80 bg=#ecf1f8
 
 == dark-256
 Working / quiet light
@@ -276,46 +276,46 @@ Done / static completion
 
 
 ---
-r0 c0..21 fg=Foreground bg=Background bold
-r0 c21..80 bg=Background
-r1 c0..1 fg=Live bg=Background
-r1 c1..2 bg=Background
-r1 c2..9 fg=Foreground bg=Background
-r1 c9..80 bg=Background
-r2 c0..80 bg=Background
-r3 c0..80 bg=Background
-r4 c0..23 fg=Foreground bg=Background bold
-r4 c23..80 bg=Background
-r5 c0..1 fg=Live bg=Background
-r5 c1..2 bg=Background
-r5 c2..9 fg=Foreground bg=Background
-r5 c9..80 bg=Background
-r6 c0..80 bg=Background
-r7 c0..80 bg=Background
-r8 c0..28 fg=Foreground bg=Background bold
-r8 c28..80 bg=Background
-r9 c0..1 fg=Attention bg=Background
-r9 c1..2 bg=Background
-r9 c2..11 fg=Foreground bg=Background
-r9 c11..80 bg=Background
-r10 c0..80 bg=Background
-r11 c0..80 bg=Background
-r12 c0..20 fg=Foreground bg=Background bold
-r12 c20..80 bg=Background
-r13 c0..1 fg=Danger bg=Background
-r13 c1..2 bg=Background
-r13 c2..8 fg=Foreground bg=Background
-r13 c8..80 bg=Background
-r14 c0..80 bg=Background
-r15 c0..80 bg=Background
-r16 c0..24 fg=Foreground bg=Background bold
-r16 c24..80 bg=Background
-r17 c0..1 fg=Live bg=Background
-r17 c1..2 bg=Background
-r17 c2..6 fg=Foreground bg=Background
-r17 c6..80 bg=Background
-r18 c0..80 bg=Background
-r19 c0..80 bg=Background
+r0 c0..21 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c21..80 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Live bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..9 fg=Foreground bg=Sidebar|Background|Surface
+r1 c9..80 bg=Sidebar|Background|Surface
+r2 c0..80 bg=Sidebar|Background|Surface
+r3 c0..80 bg=Sidebar|Background|Surface
+r4 c0..23 fg=Foreground bg=Sidebar|Background|Surface bold
+r4 c23..80 bg=Sidebar|Background|Surface
+r5 c0..1 fg=Live bg=Sidebar|Background|Surface
+r5 c1..2 bg=Sidebar|Background|Surface
+r5 c2..9 fg=Foreground bg=Sidebar|Background|Surface
+r5 c9..80 bg=Sidebar|Background|Surface
+r6 c0..80 bg=Sidebar|Background|Surface
+r7 c0..80 bg=Sidebar|Background|Surface
+r8 c0..28 fg=Foreground bg=Sidebar|Background|Surface bold
+r8 c28..80 bg=Sidebar|Background|Surface
+r9 c0..1 fg=Attention bg=Sidebar|Background|Surface
+r9 c1..2 bg=Sidebar|Background|Surface
+r9 c2..11 fg=Foreground bg=Sidebar|Background|Surface
+r9 c11..80 bg=Sidebar|Background|Surface
+r10 c0..80 bg=Sidebar|Background|Surface
+r11 c0..80 bg=Sidebar|Background|Surface
+r12 c0..20 fg=Foreground bg=Sidebar|Background|Surface bold
+r12 c20..80 bg=Sidebar|Background|Surface
+r13 c0..1 fg=Danger bg=Sidebar|Background|Surface
+r13 c1..2 bg=Sidebar|Background|Surface
+r13 c2..8 fg=Foreground bg=Sidebar|Background|Surface
+r13 c8..80 bg=Sidebar|Background|Surface
+r14 c0..80 bg=Sidebar|Background|Surface
+r15 c0..80 bg=Sidebar|Background|Surface
+r16 c0..24 fg=Foreground bg=Sidebar|Background|Surface bold
+r16 c24..80 bg=Sidebar|Background|Surface
+r17 c0..1 fg=Live bg=Sidebar|Background|Surface
+r17 c1..2 bg=Sidebar|Background|Surface
+r17 c2..6 fg=Foreground bg=Sidebar|Background|Surface
+r17 c6..80 bg=Sidebar|Background|Surface
+r18 c0..80 bg=Sidebar|Background|Surface
+r19 c0..80 bg=Sidebar|Background|Surface
 
 == ansi-16
 Working / quiet light

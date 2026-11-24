@@ -17,13 +17,13 @@ r0 c0..72 bg=Background
 r1 c0..72 bg=Background
 r2 c0..72 bg=Background
 r3 c0..59 bg=Background
-r3 c59..60 fg=#0b0f20 bg=Background
+r3 c59..60 fg=#0c1125 bg=Background
 r3 c60..72 bg=Background
 r4 c0..29 bg=Background
-r4 c29..30 fg=#2a3141 bg=Background
+r4 c29..30 fg=#2c3446 bg=Background
 r4 c30..72 bg=Background
 r5 c0..67 bg=Background
-r5 c67..68 fg=#151b2b bg=Background
+r5 c67..68 fg=#171d30 bg=Background
 r5 c68..72 bg=Background
 r6 c0..72 bg=Background
 r7 c0..72 bg=Background
@@ -44,13 +44,13 @@ r0 c0..72 bg=Background
 r1 c0..72 bg=Background
 r2 c0..72 bg=Background
 r3 c0..59 bg=Background
-r3 c59..60 fg=#0d1014 bg=Background
+r3 c59..60 fg=#0f1217 bg=Background
 r3 c60..72 bg=Background
 r4 c0..29 bg=Background
-r4 c29..30 fg=#2c3239 bg=Background
+r4 c29..30 fg=#2f343c bg=Background
 r4 c30..72 bg=Background
 r5 c0..67 bg=Background
-r5 c67..68 fg=#181c20 bg=Background
+r5 c67..68 fg=#1a1e24 bg=Background
 r5 c68..72 bg=Background
 r6 c0..72 bg=Background
 r7 c0..72 bg=Background
@@ -71,13 +71,13 @@ r0 c0..72 bg=Background
 r1 c0..72 bg=Background
 r2 c0..72 bg=Background
 r3 c0..59 bg=Background
-r3 c59..60 fg=#e6ebef bg=Background
+r3 c59..60 fg=#e8ecf2 bg=Background
 r3 c60..72 bg=Background
 r4 c0..29 bg=Background
-r4 c29..30 fg=#c6cbd1 bg=Background
+r4 c29..30 fg=#c5cbd2 bg=Background
 r4 c30..72 bg=Background
 r5 c0..67 bg=Background
-r5 c67..68 fg=#dbe0e5 bg=Background
+r5 c67..68 fg=#dde1e7 bg=Background
 r5 c68..72 bg=Background
 r6 c0..72 bg=Background
 r7 c0..72 bg=Background
@@ -121,21 +121,21 @@ r8 c0..72 bg=Background|Surface
 
 
 ---
-r0 c0..72 bg=Background
-r1 c0..72 bg=Background
-r2 c0..72 bg=Background
-r3 c0..59 bg=Background
-r3 c59..60 fg=Dim bg=Background
-r3 c60..72 bg=Background
-r4 c0..29 bg=Background
-r4 c29..30 fg=Dim bg=Background
-r4 c30..72 bg=Background
-r5 c0..67 bg=Background
-r5 c67..68 fg=Dim bg=Background
-r5 c68..72 bg=Background
-r6 c0..72 bg=Background
-r7 c0..72 bg=Background
-r8 c0..72 bg=Background
+r0 c0..72 bg=Sidebar|Background|Surface
+r1 c0..72 bg=Sidebar|Background|Surface
+r2 c0..72 bg=Sidebar|Background|Surface
+r3 c0..59 bg=Sidebar|Background|Surface
+r3 c59..60 fg=Dim bg=Sidebar|Background|Surface
+r3 c60..72 bg=Sidebar|Background|Surface
+r4 c0..29 bg=Sidebar|Background|Surface
+r4 c29..30 fg=Dim bg=Sidebar|Background|Surface
+r4 c30..72 bg=Sidebar|Background|Surface
+r5 c0..67 bg=Sidebar|Background|Surface
+r5 c67..68 fg=Dim bg=Sidebar|Background|Surface
+r5 c68..72 bg=Sidebar|Background|Surface
+r6 c0..72 bg=Sidebar|Background|Surface
+r7 c0..72 bg=Sidebar|Background|Surface
+r8 c0..72 bg=Sidebar|Background|Surface
 
 == ansi-16
 

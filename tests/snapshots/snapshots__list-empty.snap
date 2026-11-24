@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -82,16 +81,16 @@ r4 c0..48 bg=Background|Surface
 
 
 ---
-r0 c0..48 bg=Background
-r1 c0..14 bg=Background
-r1 c14..16 fg=Muted bg=Background
-r1 c16..33 fg=Foreground bg=Background bold
-r1 c33..48 bg=Background
-r2 c0..12 bg=Background
-r2 c12..36 fg=Accent bg=Background
-r2 c36..48 bg=Background
-r3 c0..48 bg=Background
-r4 c0..48 bg=Background
+r0 c0..48 bg=Sidebar|Background|Surface
+r1 c0..14 bg=Sidebar|Background|Surface
+r1 c14..16 fg=Muted bg=Sidebar|Background|Surface
+r1 c16..33 fg=Foreground bg=Sidebar|Background|Surface bold
+r1 c33..48 bg=Sidebar|Background|Surface
+r2 c0..12 bg=Sidebar|Background|Surface
+r2 c12..36 fg=Accent bg=Sidebar|Background|Surface
+r2 c36..48 bg=Sidebar|Background|Surface
+r3 c0..48 bg=Sidebar|Background|Surface
+r4 c0..48 bg=Sidebar|Background|Surface
 
 == ansi-16
 

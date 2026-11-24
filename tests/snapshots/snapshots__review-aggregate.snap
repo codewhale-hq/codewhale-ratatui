@@ -144,33 +144,33 @@ Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you
 
 Auto-Review · nothing checked yet
 ---
-r0 c0..11 fg=Foreground bg=Background bold
-r0 c11..14 fg=Border bg=Background
-r0 c14..16 fg=Live bg=Background
-r0 c16..19 fg=Foreground bg=Background bold
-r0 c19..26 fg=Foreground bg=Background
-r0 c26..29 fg=Border bg=Background
-r0 c29..31 fg=Danger bg=Background
-r0 c31..33 fg=Foreground bg=Background bold
-r0 c33..39 fg=Foreground bg=Background
-r0 c39..42 fg=Border bg=Background
-r0 c42..44 fg=Attention bg=Background
-r0 c44..46 fg=Foreground bg=Background bold
-r0 c46..58 fg=Foreground bg=Background
-r0 c58..70 bg=Background
-r1 c0..2 fg=Muted bg=Background
-r1 c2..4 fg=Foreground bg=Background bold
-r1 c4..20 fg=Foreground bg=Background
-r1 c20..23 fg=Border bg=Background
-r1 c23..25 fg=Live bg=Background
-r1 c25..35 fg=Foreground bg=Background
-r1 c35..36 fg=Foreground bg=Background bold
-r1 c36..70 bg=Background
-r2 c0..70 bg=Background
-r3 c0..11 fg=Foreground bg=Background bold
-r3 c11..14 fg=Border bg=Background
-r3 c14..33 fg=Muted bg=Background
-r3 c33..70 bg=Background
+r0 c0..11 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c11..14 fg=Border bg=Sidebar|Background|Surface
+r0 c14..16 fg=Live bg=Sidebar|Background|Surface
+r0 c16..19 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c19..26 fg=Foreground bg=Sidebar|Background|Surface
+r0 c26..29 fg=Border bg=Sidebar|Background|Surface
+r0 c29..31 fg=Danger bg=Sidebar|Background|Surface
+r0 c31..33 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c33..39 fg=Foreground bg=Sidebar|Background|Surface
+r0 c39..42 fg=Border bg=Sidebar|Background|Surface
+r0 c42..44 fg=Attention bg=Sidebar|Background|Surface
+r0 c44..46 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c46..58 fg=Foreground bg=Sidebar|Background|Surface
+r0 c58..70 bg=Sidebar|Background|Surface
+r1 c0..2 fg=Muted bg=Sidebar|Background|Surface
+r1 c2..4 fg=Foreground bg=Sidebar|Background|Surface bold
+r1 c4..20 fg=Foreground bg=Sidebar|Background|Surface
+r1 c20..23 fg=Border bg=Sidebar|Background|Surface
+r1 c23..25 fg=Live bg=Sidebar|Background|Surface
+r1 c25..35 fg=Foreground bg=Sidebar|Background|Surface
+r1 c35..36 fg=Foreground bg=Sidebar|Background|Surface bold
+r1 c36..70 bg=Sidebar|Background|Surface
+r2 c0..70 bg=Sidebar|Background|Surface
+r3 c0..11 fg=Foreground bg=Sidebar|Background|Surface bold
+r3 c11..14 fg=Border bg=Sidebar|Background|Surface
+r3 c14..33 fg=Muted bg=Sidebar|Background|Surface
+r3 c33..70 bg=Sidebar|Background|Surface
 
 == ansi-16
 Auto-Review · ✓ 42 allowed · ✕ 3 denied · ◆ 1 held for you

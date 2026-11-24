@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -39,9 +38,9 @@ r1 c0..40 bg=Background|Surface
 No artifacts reported
 
 ---
-r0 c0..21 fg=Hint bg=Background
-r0 c21..40 bg=Background
-r1 c0..40 bg=Background
+r0 c0..21 fg=Hint bg=Sidebar|Background|Surface
+r0 c21..40 bg=Sidebar|Background|Surface
+r1 c0..40 bg=Sidebar|Background|Surface
 
 == ansi-16
 No artifacts reported

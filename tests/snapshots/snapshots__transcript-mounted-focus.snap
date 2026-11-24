@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -83,15 +82,15 @@ The pure viewport keeps the banner pinned
 
 
 ---
-r0 c0..24 fg=Attention bg=Sidebar|Surface bold
-r0 c24..52 bg=Sidebar|Surface
-r1 c0..41 fg=Foreground bg=Sidebar|Surface
-r1 c41..52 bg=Sidebar|Surface
-r2 c0..41 fg=Foreground bg=Sidebar|Surface
-r2 c41..52 bg=Sidebar|Surface
-r3 c0..52 bg=Sidebar|Surface
-r4 c0..52 bg=Sidebar|Surface
-r5 c0..52 bg=Sidebar|Surface
+r0 c0..24 fg=Attention bg=Sidebar|Background|Surface bold
+r0 c24..52 bg=Sidebar|Background|Surface
+r1 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r1 c41..52 bg=Sidebar|Background|Surface
+r2 c0..41 fg=Foreground bg=Sidebar|Background|Surface
+r2 c41..52 bg=Sidebar|Background|Surface
+r3 c0..52 bg=Sidebar|Background|Surface
+r4 c0..52 bg=Sidebar|Background|Surface
+r5 c0..52 bg=Sidebar|Background|Surface
 
 == ansi-16
 Worker: Builder | paused
