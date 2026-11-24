@@ -29,7 +29,7 @@ expression: dump(&entry)
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -182,16 +182,18 @@ r26 c12..21 fg=Muted bg=#071522
 r26 c21..23 fg=Foreground|LivePeak bg=#071522
 r26 c23..31 fg=Muted bg=#071522
 r26 c31..33 fg=Foreground|LivePeak bg=#071522
-r26 c33..42 fg=Muted bg=#071522
-r26 c42..44 fg=Foreground|LivePeak bg=#071522
-r26 c44..53 fg=Muted bg=#071522
-r26 c53..55 fg=Foreground|LivePeak bg=#071522
-r26 c55..64 fg=Muted bg=#071522
-r26 c64..66 fg=Foreground|LivePeak bg=#071522
-r26 c66..71 fg=Muted bg=#071522
-r26 c71..73 fg=Foreground|LivePeak bg=#071522
-r26 c73..79 fg=Muted bg=#071522
-r26 c79..101 fg=Foreground|LivePeak bg=#071522
+r26 c33..43 fg=Muted bg=#071522
+r26 c43..45 fg=Foreground|LivePeak bg=#071522
+r26 c45..54 fg=Muted bg=#071522
+r26 c54..56 fg=Foreground|LivePeak bg=#071522
+r26 c56..65 fg=Muted bg=#071522
+r26 c65..67 fg=Foreground|LivePeak bg=#071522
+r26 c67..76 fg=Muted bg=#071522
+r26 c76..78 fg=Foreground|LivePeak bg=#071522
+r26 c78..83 fg=Muted bg=#071522
+r26 c83..85 fg=Foreground|LivePeak bg=#071522
+r26 c85..91 fg=Muted bg=#071522
+r26 c91..101 fg=Foreground|LivePeak bg=#071522
 r26 c101..104 fg=Hint|Dim bg=#071522
 r27 c0..1 fg=Foreground|LivePeak bg=#071522
 r27 c1..46 fg=Live bg=#071522 bold
@@ -231,7 +233,7 @@ r29 c103..104 fg=Foreground|LivePeak bg=#071522
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -384,16 +386,18 @@ r26 c12..21 fg=Muted bg=#071522
 r26 c21..23 fg=Foreground|LivePeak bg=#071522
 r26 c23..31 fg=Muted bg=#071522
 r26 c31..33 fg=Foreground|LivePeak bg=#071522
-r26 c33..42 fg=Muted bg=#071522
-r26 c42..44 fg=Foreground|LivePeak bg=#071522
-r26 c44..53 fg=Muted bg=#071522
-r26 c53..55 fg=Foreground|LivePeak bg=#071522
-r26 c55..64 fg=Muted bg=#071522
-r26 c64..66 fg=Foreground|LivePeak bg=#071522
-r26 c66..71 fg=Muted bg=#071522
-r26 c71..73 fg=Foreground|LivePeak bg=#071522
-r26 c73..79 fg=Muted bg=#071522
-r26 c79..101 fg=Foreground|LivePeak bg=#071522
+r26 c33..43 fg=Muted bg=#071522
+r26 c43..45 fg=Foreground|LivePeak bg=#071522
+r26 c45..54 fg=Muted bg=#071522
+r26 c54..56 fg=Foreground|LivePeak bg=#071522
+r26 c56..65 fg=Muted bg=#071522
+r26 c65..67 fg=Foreground|LivePeak bg=#071522
+r26 c67..76 fg=Muted bg=#071522
+r26 c76..78 fg=Foreground|LivePeak bg=#071522
+r26 c78..83 fg=Muted bg=#071522
+r26 c83..85 fg=Foreground|LivePeak bg=#071522
+r26 c85..91 fg=Muted bg=#071522
+r26 c91..101 fg=Foreground|LivePeak bg=#071522
 r26 c101..104 fg=Hint|Dim bg=#071522
 r27 c0..1 fg=Foreground|LivePeak bg=#071522
 r27 c1..46 fg=Live bg=#071522 bold
@@ -433,7 +437,7 @@ r29 c103..104 fg=Foreground|LivePeak bg=#071522
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -503,16 +507,18 @@ r26 c12..21 fg=Muted
 r26 c21..23 fg=Foreground|LivePeak
 r26 c23..31 fg=Muted
 r26 c31..33 fg=Foreground|LivePeak
-r26 c33..42 fg=Muted
-r26 c42..44 fg=Foreground|LivePeak
-r26 c44..53 fg=Muted
-r26 c53..55 fg=Foreground|LivePeak
-r26 c55..64 fg=Muted
-r26 c64..66 fg=Foreground|LivePeak
-r26 c66..71 fg=Muted
-r26 c71..73 fg=Foreground|LivePeak
-r26 c73..79 fg=Muted
-r26 c79..101 fg=Foreground|LivePeak
+r26 c33..43 fg=Muted
+r26 c43..45 fg=Foreground|LivePeak
+r26 c45..54 fg=Muted
+r26 c54..56 fg=Foreground|LivePeak
+r26 c56..65 fg=Muted
+r26 c65..67 fg=Foreground|LivePeak
+r26 c67..76 fg=Muted
+r26 c76..78 fg=Foreground|LivePeak
+r26 c78..83 fg=Muted
+r26 c83..85 fg=Foreground|LivePeak
+r26 c85..91 fg=Muted
+r26 c91..101 fg=Foreground|LivePeak
 r26 c101..104 fg=Hint|Dim
 r27 c0..1 fg=Foreground|LivePeak
 r27 c1..46 fg=Live bold
@@ -552,7 +558,7 @@ r29 c103..104 fg=Foreground|LivePeak
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -638,16 +644,18 @@ r26 c12..21 fg=Muted bg=Sidebar
 r26 c21..23 fg=Foreground|LivePeak bg=Sidebar
 r26 c23..31 fg=Muted bg=Sidebar
 r26 c31..33 fg=Foreground|LivePeak bg=Sidebar
-r26 c33..42 fg=Muted bg=Sidebar
-r26 c42..44 fg=Foreground|LivePeak bg=Sidebar
-r26 c44..53 fg=Muted bg=Sidebar
-r26 c53..55 fg=Foreground|LivePeak bg=Sidebar
-r26 c55..64 fg=Muted bg=Sidebar
-r26 c64..66 fg=Foreground|LivePeak bg=Sidebar
-r26 c66..71 fg=Muted bg=Sidebar
-r26 c71..73 fg=Foreground|LivePeak bg=Sidebar
-r26 c73..79 fg=Muted bg=Sidebar
-r26 c79..101 fg=Foreground|LivePeak bg=Sidebar
+r26 c33..43 fg=Muted bg=Sidebar
+r26 c43..45 fg=Foreground|LivePeak bg=Sidebar
+r26 c45..54 fg=Muted bg=Sidebar
+r26 c54..56 fg=Foreground|LivePeak bg=Sidebar
+r26 c56..65 fg=Muted bg=Sidebar
+r26 c65..67 fg=Foreground|LivePeak bg=Sidebar
+r26 c67..76 fg=Muted bg=Sidebar
+r26 c76..78 fg=Foreground|LivePeak bg=Sidebar
+r26 c78..83 fg=Muted bg=Sidebar
+r26 c83..85 fg=Foreground|LivePeak bg=Sidebar
+r26 c85..91 fg=Muted bg=Sidebar
+r26 c91..101 fg=Foreground|LivePeak bg=Sidebar
 r26 c101..104 fg=Hint|Dim bg=Sidebar
 r27 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r27 c1..46 fg=Live bg=Sidebar bold
@@ -687,7 +695,7 @@ r29 c103..104 fg=Foreground|LivePeak bg=Sidebar
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -751,16 +759,18 @@ r26 c12..21 fg=Muted|Hint|Dim
 r26 c21..23 fg=Foreground|LivePeak
 r26 c23..31 fg=Muted|Hint|Dim
 r26 c31..33 fg=Foreground|LivePeak
-r26 c33..42 fg=Muted|Hint|Dim
-r26 c42..44 fg=Foreground|LivePeak
-r26 c44..53 fg=Muted|Hint|Dim
-r26 c53..55 fg=Foreground|LivePeak
-r26 c55..64 fg=Muted|Hint|Dim
-r26 c64..66 fg=Foreground|LivePeak
-r26 c66..71 fg=Muted|Hint|Dim
-r26 c71..73 fg=Foreground|LivePeak
-r26 c73..79 fg=Muted|Hint|Dim
-r26 c79..101 fg=Foreground|LivePeak
+r26 c33..43 fg=Muted|Hint|Dim
+r26 c43..45 fg=Foreground|LivePeak
+r26 c45..54 fg=Muted|Hint|Dim
+r26 c54..56 fg=Foreground|LivePeak
+r26 c56..65 fg=Muted|Hint|Dim
+r26 c65..67 fg=Foreground|LivePeak
+r26 c67..76 fg=Muted|Hint|Dim
+r26 c76..78 fg=Foreground|LivePeak
+r26 c78..83 fg=Muted|Hint|Dim
+r26 c83..85 fg=Foreground|LivePeak
+r26 c85..91 fg=Muted|Hint|Dim
+r26 c91..101 fg=Foreground|LivePeak
 r26 c101..104 fg=Muted|Hint|Dim
 r27 c0..1 fg=Foreground|LivePeak
 r27 c1..46 fg=Live bold
@@ -800,7 +810,7 @@ r29 c103..104 fg=Foreground|LivePeak
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -838,11 +848,12 @@ r25 c0..104 dim
 r26 c1..10 bold
 r26 c12..21 dim
 r26 c23..31 dim
-r26 c33..42 dim
-r26 c44..53 dim
-r26 c55..64 dim
-r26 c66..71 dim
-r26 c73..79 dim
+r26 c33..43 dim
+r26 c45..54 dim
+r26 c56..65 dim
+r26 c67..76 dim
+r26 c78..83 dim
+r26 c85..91 dim
 r26 c101..104 dim
 r27 c1..46 fg=Live|LivePeak bold
 r27 c46..103 dim
@@ -876,7 +887,7 @@ r29 c1..103 fg=Live|LivePeak
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -914,11 +925,12 @@ r25 c0..104 dim
 r26 c1..10 bold
 r26 c12..21 dim
 r26 c23..31 dim
-r26 c33..42 dim
-r26 c44..53 dim
-r26 c55..64 dim
-r26 c66..71 dim
-r26 c73..79 dim
+r26 c33..43 dim
+r26 c45..54 dim
+r26 c56..65 dim
+r26 c67..76 dim
+r26 c78..83 dim
+r26 c85..91 dim
 r26 c101..104 dim
 r27 c1..46 fg=Live|LivePeak bold
 r27 c46..103 dim
@@ -952,7 +964,7 @@ r29 c1..103 fg=Live|LivePeak
  ● ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        ×
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            ×
  Goal: Make session navigation feel effortless                                      TODO · 1/2 · 1 left
  ✓ Preserve session selection
  ● Refine the narrow layout
@@ -983,11 +995,12 @@ r25 c0..104 dim
 r26 c1..10 bold
 r26 c12..21 dim
 r26 c23..31 dim
-r26 c33..42 dim
-r26 c44..53 dim
-r26 c55..64 dim
-r26 c66..71 dim
-r26 c73..79 dim
+r26 c33..43 dim
+r26 c45..54 dim
+r26 c56..65 dim
+r26 c67..76 dim
+r26 c78..83 dim
+r26 c85..91 dim
 r26 c101..104 dim
 r27 c1..46 bold
 r27 c46..103 dim
@@ -1019,7 +1032,7 @@ r27 c46..103 dim
  . ask  Shift+Tab   work   working 6 s   Esc to interrupt
  deepseek-v4   ctx 24%   codewhale-ratatui   session-layout                               F6 components
 --------------------------------------------------------------------------------------------------------
-  Tasks 2    Fleet 2    Jobs 1    Files 2    Notes 2    Context    Git    Cost                        X
+  Tasks 2    Fleet 2    Jobs 1    Terminal    Files 2    Notes 2    Context    Git    Cost            X
  Goal: Make session navigation feel effortless                                      TODO . 1/2 . 1 left
  Y Preserve session selection
  . Refine the narrow layout
@@ -1049,11 +1062,12 @@ r25 c0..104 dim
 r26 c1..10 bold
 r26 c12..21 dim
 r26 c23..31 dim
-r26 c33..42 dim
-r26 c44..53 dim
-r26 c55..64 dim
-r26 c66..71 dim
-r26 c73..79 dim
+r26 c33..43 dim
+r26 c45..54 dim
+r26 c56..65 dim
+r26 c67..76 dim
+r26 c78..83 dim
+r26 c85..91 dim
 r26 c101..104 dim
 r27 c1..46 bold
 r27 c46..103 dim

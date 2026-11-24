@@ -25,7 +25,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c0..90 bg=Background
@@ -119,9 +119,9 @@ r22 c1..6 fg=#e09948 bg=Background bold
 r22 c6..30 fg=Hint|Dim bg=Background
 r22 c30..34 fg=#7eb4e8 bg=Background
 r22 c34..43 fg=Hint|Dim bg=Background
-r22 c43..51 fg=Live bg=Background
-r22 c51..54 fg=Hint|Dim bg=Background
-r22 c54..68 fg=Live bg=Background
+r22 c43..57 fg=Live bg=Background
+r22 c57..60 fg=Hint|Dim bg=Background
+r22 c60..68 fg=Live bg=Background
 r22 c68..87 fg=Hint|Dim bg=Background
 r22 c87..90 bg=Background
 r22 c90..91 fg=Border bg=Sidebar
@@ -171,7 +171,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c0..90 bg=Background
@@ -265,9 +265,9 @@ r22 c1..6 fg=#e09948 bg=Background bold
 r22 c6..30 fg=Hint|Dim bg=Background
 r22 c30..34 fg=#7eb4e8 bg=Background
 r22 c34..43 fg=Hint|Dim bg=Background
-r22 c43..51 fg=Live bg=Background
-r22 c51..54 fg=Hint|Dim bg=Background
-r22 c54..68 fg=Live bg=Background
+r22 c43..57 fg=Live bg=Background
+r22 c57..60 fg=Hint|Dim bg=Background
+r22 c60..68 fg=Live bg=Background
 r22 c68..87 fg=Hint|Dim bg=Background
 r22 c87..90 bg=Background
 r22 c90..91 fg=Border bg=Sidebar
@@ -317,7 +317,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c90..91 fg=Border
@@ -388,9 +388,9 @@ r22 c1..6 fg=#92400e bold
 r22 c6..30 fg=Hint|Dim
 r22 c30..34 fg=#1636b2
 r22 c34..43 fg=Hint|Dim
-r22 c43..51 fg=Live
-r22 c51..54 fg=Hint|Dim
-r22 c54..68 fg=Live
+r22 c43..57 fg=Live
+r22 c57..60 fg=Hint|Dim
+r22 c60..68 fg=Live
 r22 c68..87 fg=Hint|Dim
 r22 c90..91 fg=Border
 r22 c91..120 fg=Foreground|LivePeak
@@ -435,7 +435,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c0..90 bg=Background|DiffAddedTint
@@ -529,9 +529,9 @@ r22 c1..6 fg=idx173 bg=Background|DiffAddedTint bold
 r22 c6..30 fg=Hint|Dim bg=Background|DiffAddedTint
 r22 c30..34 fg=idx110 bg=Background|DiffAddedTint
 r22 c34..43 fg=Hint|Dim bg=Background|DiffAddedTint
-r22 c43..51 fg=Live bg=Background|DiffAddedTint
-r22 c51..54 fg=Hint|Dim bg=Background|DiffAddedTint
-r22 c54..68 fg=Live bg=Background|DiffAddedTint
+r22 c43..57 fg=Live bg=Background|DiffAddedTint
+r22 c57..60 fg=Hint|Dim bg=Background|DiffAddedTint
+r22 c60..68 fg=Live bg=Background|DiffAddedTint
 r22 c68..87 fg=Hint|Dim bg=Background|DiffAddedTint
 r22 c87..90 bg=Background|DiffAddedTint
 r22 c90..91 fg=Border bg=Sidebar
@@ -581,7 +581,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c90..91 fg=Border
@@ -652,9 +652,9 @@ r22 c1..6 fg=Attention bold
 r22 c6..30 fg=Muted|Hint|Dim
 r22 c30..34 fg=Accent
 r22 c34..43 fg=Muted|Hint|Dim
-r22 c43..51 fg=Live
-r22 c51..54 fg=Muted|Hint|Dim
-r22 c54..68 fg=Live
+r22 c43..57 fg=Live
+r22 c57..60 fg=Muted|Hint|Dim
+r22 c60..68 fg=Live
 r22 c68..87 fg=Muted|Hint|Dim
 r22 c90..91 fg=Border
 r22 c91..120 fg=Foreground|LivePeak
@@ -691,7 +691,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c90..91 dim
@@ -732,9 +732,9 @@ r22 c1..6 fg=Attention bold
 r22 c6..30 dim
 r22 c30..34 fg=Accent
 r22 c34..43 dim
-r22 c43..51 fg=Live|LivePeak
-r22 c51..54 dim
-r22 c54..68 fg=Live|LivePeak
+r22 c43..57 fg=Live|LivePeak
+r22 c57..60 dim
+r22 c60..68 fg=Live|LivePeak
 r22 c68..87 dim
 r22 c90..91 dim
 r23 c0..11 fg=Accent
@@ -768,7 +768,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c90..91 dim
@@ -809,9 +809,9 @@ r22 c1..6 fg=Attention bold
 r22 c6..30 dim
 r22 c30..34 fg=Accent
 r22 c34..43 dim
-r22 c43..51 fg=Live|LivePeak
-r22 c51..54 dim
-r22 c54..68 fg=Live|LivePeak
+r22 c43..57 fg=Live|LivePeak
+r22 c57..60 dim
+r22 c60..68 fg=Live|LivePeak
 r22 c68..87 dim
 r22 c90..91 dim
 r23 c0..11 fg=Accent
@@ -845,7 +845,7 @@ I’m checking the selected files and the running tasks.                        
 ╭────────────────────────────────────────────────────────────────────────────────────────╮│
 │❯ Keep the changes focused.                                                         [↵] ││
 ╰Enter send ─────────────────────────────────────────────────────────────────────────────╯│
- ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   │
+ ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   │
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   ↓ 1.2K                       /help│
 ---
 r0 c90..91 dim
@@ -880,7 +880,7 @@ r21 c90..91 dim
 r22 c1..6 bold
 r22 c6..30 dim
 r22 c34..43 dim
-r22 c51..54 dim
+r22 c57..60 dim
 r22 c68..87 dim
 r22 c90..91 dim
 r23 c11..17 dim
@@ -912,7 +912,7 @@ I'm checking the selected files and the running tasks.                          
 +----------------------------------------------------------------------------------------+|
 |> Keep the changes focused.                                                         [>] ||
 +Enter send -----------------------------------------------------------------------------+|
- . ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt   |
+ . ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt   |
 deepseek-v4   ctx 61%   $0.42   ttft 400ms   38 tok/s   v 1.2K                       /help|
 ---
 r0 c90..91 dim
@@ -947,7 +947,7 @@ r21 c90..91 dim
 r22 c1..6 bold
 r22 c6..30 dim
 r22 c34..43 dim
-r22 c51..54 dim
+r22 c57..60 dim
 r22 c68..87 dim
 r22 c90..91 dim
 r23 c11..17 dim

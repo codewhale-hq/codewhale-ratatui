@@ -23,7 +23,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -88,16 +88,18 @@ r20 c12..21 fg=Muted|Live bg=Sidebar|Background
 r20 c21..23 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c23..31 fg=Muted|Live bg=Sidebar|Background
 r20 c31..33 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c33..42 fg=Muted|Live bg=Sidebar|Background
-r20 c42..44 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c44..53 fg=Muted|Live bg=Sidebar|Background
-r20 c53..55 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c55..64 fg=Muted|Live bg=Sidebar|Background
-r20 c64..66 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c66..71 fg=Muted|Live bg=Sidebar|Background
-r20 c71..73 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c73..79 fg=Muted|Live bg=Sidebar|Background
-r20 c79..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c33..43 fg=Muted|Live bg=Sidebar|Background
+r20 c43..45 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c45..54 fg=Muted|Live bg=Sidebar|Background
+r20 c54..56 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c56..65 fg=Muted|Live bg=Sidebar|Background
+r20 c65..67 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c67..76 fg=Muted|Live bg=Sidebar|Background
+r20 c76..78 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c78..83 fg=Muted|Live bg=Sidebar|Background
+r20 c83..85 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c85..91 fg=Muted|Live bg=Sidebar|Background
+r20 c91..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r21 c1..34 fg=Subagent|BorderStrong|Accent bg=Sidebar|Background bold
@@ -133,7 +135,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -198,16 +200,18 @@ r20 c12..21 fg=Muted|Live bg=Sidebar|Background
 r20 c21..23 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c23..31 fg=Muted|Live bg=Sidebar|Background
 r20 c31..33 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c33..42 fg=Muted|Live bg=Sidebar|Background
-r20 c42..44 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c44..53 fg=Muted|Live bg=Sidebar|Background
-r20 c53..55 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c55..64 fg=Muted|Live bg=Sidebar|Background
-r20 c64..66 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c66..71 fg=Muted|Live bg=Sidebar|Background
-r20 c71..73 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c73..79 fg=Muted|Live bg=Sidebar|Background
-r20 c79..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c33..43 fg=Muted|Live bg=Sidebar|Background
+r20 c43..45 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c45..54 fg=Muted|Live bg=Sidebar|Background
+r20 c54..56 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c56..65 fg=Muted|Live bg=Sidebar|Background
+r20 c65..67 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c67..76 fg=Muted|Live bg=Sidebar|Background
+r20 c76..78 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c78..83 fg=Muted|Live bg=Sidebar|Background
+r20 c83..85 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c85..91 fg=Muted|Live bg=Sidebar|Background
+r20 c91..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r21 c1..34 fg=Subagent|BorderStrong|Accent bg=Sidebar|Background bold
@@ -243,7 +247,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -308,16 +312,18 @@ r20 c12..21 fg=Muted|Live bg=Sidebar|Background
 r20 c21..23 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c23..31 fg=Muted|Live bg=Sidebar|Background
 r20 c31..33 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c33..42 fg=Muted|Live bg=Sidebar|Background
-r20 c42..44 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c44..53 fg=Muted|Live bg=Sidebar|Background
-r20 c53..55 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c55..64 fg=Muted|Live bg=Sidebar|Background
-r20 c64..66 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c66..71 fg=Muted|Live bg=Sidebar|Background
-r20 c71..73 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c73..79 fg=Muted|Live bg=Sidebar|Background
-r20 c79..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c33..43 fg=Muted|Live bg=Sidebar|Background
+r20 c43..45 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c45..54 fg=Muted|Live bg=Sidebar|Background
+r20 c54..56 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c56..65 fg=Muted|Live bg=Sidebar|Background
+r20 c65..67 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c67..76 fg=Muted|Live bg=Sidebar|Background
+r20 c76..78 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c78..83 fg=Muted|Live bg=Sidebar|Background
+r20 c83..85 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c85..91 fg=Muted|Live bg=Sidebar|Background
+r20 c91..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r21 c1..34 fg=Subagent|BorderStrong|Accent bg=Sidebar|Background bold
@@ -353,7 +359,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -416,16 +422,18 @@ r20 c12..21 fg=Muted|Live bg=Sidebar|Background
 r20 c21..23 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c23..31 fg=Muted|Live bg=Sidebar|Background
 r20 c31..33 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c33..42 fg=Muted|Live bg=Sidebar|Background
-r20 c42..44 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c44..53 fg=Muted|Live bg=Sidebar|Background
-r20 c53..55 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c55..64 fg=Muted|Live bg=Sidebar|Background
-r20 c64..66 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c66..71 fg=Muted|Live bg=Sidebar|Background
-r20 c71..73 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c73..79 fg=Muted|Live bg=Sidebar|Background
-r20 c79..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c33..43 fg=Muted|Live bg=Sidebar|Background
+r20 c43..45 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c45..54 fg=Muted|Live bg=Sidebar|Background
+r20 c54..56 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c56..65 fg=Muted|Live bg=Sidebar|Background
+r20 c65..67 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c67..76 fg=Muted|Live bg=Sidebar|Background
+r20 c76..78 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c78..83 fg=Muted|Live bg=Sidebar|Background
+r20 c83..85 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c85..91 fg=Muted|Live bg=Sidebar|Background
+r20 c91..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r21 c1..34 fg=Subagent|BorderStrong|Accent bg=Sidebar|Background bold
@@ -461,7 +469,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -524,16 +532,18 @@ r20 c12..21 fg=Muted|Live bg=Sidebar|Background
 r20 c21..23 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c23..31 fg=Muted|Live bg=Sidebar|Background
 r20 c31..33 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c33..42 fg=Muted|Live bg=Sidebar|Background
-r20 c42..44 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c44..53 fg=Muted|Live bg=Sidebar|Background
-r20 c53..55 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c55..64 fg=Muted|Live bg=Sidebar|Background
-r20 c64..66 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c66..71 fg=Muted|Live bg=Sidebar|Background
-r20 c71..73 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
-r20 c73..79 fg=Muted|Live bg=Sidebar|Background
-r20 c79..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c33..43 fg=Muted|Live bg=Sidebar|Background
+r20 c43..45 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c45..54 fg=Muted|Live bg=Sidebar|Background
+r20 c54..56 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c56..65 fg=Muted|Live bg=Sidebar|Background
+r20 c65..67 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c67..76 fg=Muted|Live bg=Sidebar|Background
+r20 c76..78 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c78..83 fg=Muted|Live bg=Sidebar|Background
+r20 c83..85 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
+r20 c85..91 fg=Muted|Live bg=Sidebar|Background
+r20 c91..97 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r20 c97..104 fg=Hint|Dim bg=Sidebar|Background
 r21 c0..1 fg=Foreground|LivePeak|Danger bg=Sidebar|Background
 r21 c1..34 fg=Subagent|BorderStrong|Accent bg=Sidebar|Background bold
@@ -569,7 +579,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -591,11 +601,12 @@ r19 c0..104 dim
 r20 c1..10 bold
 r20 c12..21 dim
 r20 c23..31 dim
-r20 c33..42 dim
-r20 c44..53 dim
-r20 c55..64 dim
-r20 c66..71 dim
-r20 c73..79 dim
+r20 c33..43 dim
+r20 c45..54 dim
+r20 c56..65 dim
+r20 c67..76 dim
+r20 c78..83 dim
+r20 c85..91 dim
 r20 c97..104 dim
 r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
@@ -625,7 +636,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -647,11 +658,12 @@ r19 c0..104 dim
 r20 c1..10 bold
 r20 c12..21 dim
 r20 c23..31 dim
-r20 c33..42 dim
-r20 c44..53 dim
-r20 c55..64 dim
-r20 c66..71 dim
-r20 c73..79 dim
+r20 c33..43 dim
+r20 c45..54 dim
+r20 c56..65 dim
+r20 c67..76 dim
+r20 c78..83 dim
+r20 c85..91 dim
 r20 c97..104 dim
 r21 c1..34 fg=Live|LivePeak bold
 r21 c34..102 dim
@@ -681,7 +693,7 @@ Keep the work visible. Stay in control.
 
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc ×
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc ×
  Goal: Make the work dock reusable                                                 TODO · 1/3 · 2 left
  2 · ● Extract the native work dock                                                        in progress ┃
                                                                                               ↓ 1 more │
@@ -693,11 +705,12 @@ r19 c0..104 dim
 r20 c1..10 bold
 r20 c12..21 dim
 r20 c23..31 dim
-r20 c33..42 dim
-r20 c44..53 dim
-r20 c55..64 dim
-r20 c66..71 dim
-r20 c73..79 dim
+r20 c33..43 dim
+r20 c45..54 dim
+r20 c56..65 dim
+r20 c67..76 dim
+r20 c78..83 dim
+r20 c85..91 dim
 r20 c97..104 dim
 r21 c1..34 bold
 r21 c34..102 dim
@@ -726,7 +739,7 @@ Keep the work visible. Stay in control.
 
 
 --------------------------------------------------------------------------------------------------------
-  Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                    Esc X
+  Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost        Esc X
  Goal: Make the work dock reusable                                                 TODO . 1/3 . 2 left
  2 . . Extract the native work dock                                                        in progress |
                                                                                               v 1 more |
@@ -738,11 +751,12 @@ r19 c0..104 dim
 r20 c1..10 bold
 r20 c12..21 dim
 r20 c23..31 dim
-r20 c33..42 dim
-r20 c44..53 dim
-r20 c55..64 dim
-r20 c66..71 dim
-r20 c73..79 dim
+r20 c33..43 dim
+r20 c45..54 dim
+r20 c56..65 dim
+r20 c67..76 dim
+r20 c78..83 dim
+r20 c85..91 dim
 r20 c97..104 dim
 r21 c1..34 bold
 r21 c34..102 dim

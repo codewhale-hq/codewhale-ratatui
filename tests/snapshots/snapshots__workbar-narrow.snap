@@ -4,7 +4,7 @@ expression: dump(&entry)
 ---
 == dark-truecolor
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -19,9 +19,7 @@ r1 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r1 c10..17 fg=Muted bg=Sidebar
 r1 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r1 c19..25 fg=Muted bg=Sidebar
-r1 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r1 c27..34 fg=Muted bg=Sidebar
-r1 c34..35 fg=Foreground|LivePeak bg=Sidebar
+r1 c25..35 fg=Foreground|LivePeak bg=Sidebar
 r1 c35..38 fg=Hint|Dim bg=Sidebar
 r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..30 fg=Live bg=Sidebar bold
@@ -48,7 +46,7 @@ r7 c37..38 fg=Border bg=Sidebar
 
 == dark-graphite
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -63,9 +61,7 @@ r1 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r1 c10..17 fg=Muted bg=Sidebar
 r1 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r1 c19..25 fg=Muted bg=Sidebar
-r1 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r1 c27..34 fg=Muted bg=Sidebar
-r1 c34..35 fg=Foreground|LivePeak bg=Sidebar
+r1 c25..35 fg=Foreground|LivePeak bg=Sidebar
 r1 c35..38 fg=Hint|Dim bg=Sidebar
 r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..30 fg=Live bg=Sidebar bold
@@ -92,7 +88,7 @@ r7 c37..38 fg=Border bg=Sidebar
 
 == light-truecolor
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -107,9 +103,7 @@ r1 c8..10 fg=Foreground|LivePeak
 r1 c10..17 fg=Muted
 r1 c17..19 fg=Foreground|LivePeak
 r1 c19..25 fg=Muted
-r1 c25..27 fg=Foreground|LivePeak
-r1 c27..34 fg=Muted
-r1 c34..35 fg=Foreground|LivePeak
+r1 c25..35 fg=Foreground|LivePeak
 r1 c35..38 fg=Hint|Dim
 r2 c0..1 fg=Foreground|LivePeak
 r2 c1..30 fg=Live bold
@@ -136,7 +130,7 @@ r7 c37..38 fg=Border
 
 == dark-256
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -151,9 +145,7 @@ r1 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r1 c10..17 fg=Muted bg=Sidebar
 r1 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r1 c19..25 fg=Muted bg=Sidebar
-r1 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r1 c27..34 fg=Muted bg=Sidebar
-r1 c34..35 fg=Foreground|LivePeak bg=Sidebar
+r1 c25..35 fg=Foreground|LivePeak bg=Sidebar
 r1 c35..38 fg=Hint|Dim bg=Sidebar
 r2 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r2 c1..30 fg=Live bg=Sidebar bold
@@ -180,7 +172,7 @@ r7 c37..38 fg=Border bg=Sidebar
 
 == light-256
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -195,9 +187,7 @@ r1 c8..10 fg=Foreground|LivePeak
 r1 c10..17 fg=Muted|Hint|Dim
 r1 c17..19 fg=Foreground|LivePeak
 r1 c19..25 fg=Muted|Hint|Dim
-r1 c25..27 fg=Foreground|LivePeak
-r1 c27..34 fg=Muted|Hint|Dim
-r1 c34..35 fg=Foreground|LivePeak
+r1 c25..35 fg=Foreground|LivePeak
 r1 c35..38 fg=Muted|Hint|Dim
 r2 c0..1 fg=Foreground|LivePeak
 r2 c1..30 fg=Live bold
@@ -224,7 +214,7 @@ r7 c37..38 fg=Border
 
 == ansi-16
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -236,7 +226,6 @@ r0 c0..38 dim
 r1 c1..8 bold
 r1 c10..17 dim
 r1 c19..25 dim
-r1 c27..34 dim
 r1 c35..38 dim
 r2 c1..30 fg=Live|LivePeak bold
 r3 c1..21 dim
@@ -251,7 +240,7 @@ r7 c37..38 dim
 
 == unknown-ground
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -263,7 +252,6 @@ r0 c0..38 dim
 r1 c1..8 bold
 r1 c10..17 dim
 r1 c19..25 dim
-r1 c27..34 dim
 r1 c35..38 dim
 r2 c1..30 fg=Live|LivePeak bold
 r3 c1..21 dim
@@ -278,7 +266,7 @@ r7 c37..38 dim
 
 == no-color
 ──────────────────────────────────────
-  Tasks    Fleet    Jobs    Files   ×
+  Tasks    Fleet    Jobs            ×
  Goal: Extract the native dock
  TODO · 3/12 · 9 left
   4 · ● Plan step 4                  │
@@ -290,7 +278,6 @@ r0 c0..38 dim
 r1 c1..8 bold
 r1 c10..17 dim
 r1 c19..25 dim
-r1 c27..34 dim
 r1 c35..38 dim
 r2 c1..30 bold
 r3 c1..21 dim
@@ -304,7 +291,7 @@ r7 c37..38 dim
 
 == ascii
 --------------------------------------
-  Tasks    Fleet    Jobs    Files   X
+  Tasks    Fleet    Jobs            X
  Goal: Extract the native dock
  TODO . 3/12 . 9 left
   4 . . Plan step 4                  |
@@ -316,7 +303,6 @@ r0 c0..38 dim
 r1 c1..8 bold
 r1 c10..17 dim
 r1 c19..25 dim
-r1 c27..34 dim
 r1 c35..38 dim
 r2 c1..30 bold
 r3 c1..21 dim

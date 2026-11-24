@@ -27,7 +27,7 @@ expression: dump(&entry)
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -87,9 +87,7 @@ r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
 r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
+r24 c25..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
 r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
@@ -127,7 +125,7 @@ r27 c39..40 fg=Live bg=Sidebar
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -187,9 +185,7 @@ r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
 r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
+r24 c25..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
 r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
@@ -227,7 +223,7 @@ r27 c39..40 fg=Live bg=Sidebar
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -287,9 +283,7 @@ r24 c8..10 fg=Foreground|LivePeak
 r24 c10..17 fg=Muted
 r24 c17..19 fg=Foreground|LivePeak
 r24 c19..25 fg=Muted
-r24 c25..27 fg=Foreground|LivePeak
-r24 c27..34 fg=Muted
-r24 c34..37 fg=Foreground|LivePeak
+r24 c25..37 fg=Foreground|LivePeak
 r24 c37..40 fg=Hint|Dim
 r25 c0..1 fg=Foreground|LivePeak
 r25 c1..38 fg=Live bold
@@ -327,7 +321,7 @@ r27 c39..40 fg=Live
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -387,9 +381,7 @@ r24 c8..10 fg=Foreground|LivePeak bg=Sidebar
 r24 c10..17 fg=Muted bg=Sidebar
 r24 c17..19 fg=Foreground|LivePeak bg=Sidebar
 r24 c19..25 fg=Muted bg=Sidebar
-r24 c25..27 fg=Foreground|LivePeak bg=Sidebar
-r24 c27..34 fg=Muted bg=Sidebar
-r24 c34..37 fg=Foreground|LivePeak bg=Sidebar
+r24 c25..37 fg=Foreground|LivePeak bg=Sidebar
 r24 c37..40 fg=Hint|Dim bg=Sidebar
 r25 c0..1 fg=Foreground|LivePeak bg=Sidebar
 r25 c1..38 fg=Live bg=Sidebar bold
@@ -427,7 +419,7 @@ r27 c39..40 fg=Live bg=Sidebar
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -484,9 +476,7 @@ r24 c8..10 fg=Foreground|LivePeak
 r24 c10..17 fg=Muted|Hint|Dim
 r24 c17..19 fg=Foreground|LivePeak
 r24 c19..25 fg=Muted|Hint|Dim
-r24 c25..27 fg=Foreground|LivePeak
-r24 c27..34 fg=Muted|Hint|Dim
-r24 c34..37 fg=Foreground|LivePeak
+r24 c25..37 fg=Foreground|LivePeak
 r24 c37..40 fg=Muted|Hint|Dim
 r25 c0..1 fg=Foreground|LivePeak
 r25 c1..38 fg=Live bold
@@ -524,7 +514,7 @@ r27 c39..40 fg=Live
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -553,7 +543,6 @@ r23 c0..40 dim
 r24 c1..8 bold
 r24 c10..17 dim
 r24 c19..25 dim
-r24 c27..34 dim
 r24 c37..40 dim
 r25 c1..38 fg=Live|LivePeak bold
 r26 c1..18 dim
@@ -585,7 +574,7 @@ r27 c39..40 fg=Live|LivePeak
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -614,7 +603,6 @@ r23 c0..40 dim
 r24 c1..8 bold
 r24 c10..17 dim
 r24 c19..25 dim
-r24 c27..34 dim
 r24 c37..40 dim
 r25 c1..38 fg=Live|LivePeak bold
 r26 c1..18 dim
@@ -646,7 +634,7 @@ r27 c39..40 fg=Live|LivePeak
  ● ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ────────────────────────────────────────
-  Tasks    Fleet    Jobs    Files     ×
+  Tasks    Fleet    Jobs              ×
  Goal: Make session navigation feel e…
  TODO · 2/2 · done
  ✓ Preserve session selection          ┃
@@ -667,7 +655,6 @@ r23 c0..40 dim
 r24 c1..8 bold
 r24 c10..17 dim
 r24 c19..25 dim
-r24 c27..34 dim
 r24 c37..40 dim
 r25 c1..38 bold
 r26 c1..18 dim
@@ -697,7 +684,7 @@ Y Done                               6 s
  . ask  Shift+Tab   work   worked 6 s
  deepseek-v4   ctx 24%
 ----------------------------------------
-  Tasks    Fleet    Jobs    Files     X
+  Tasks    Fleet    Jobs              X
  Goal: Make session navigation feel...
  TODO . 2/2 . done
  Y Preserve session selection          |
@@ -718,7 +705,6 @@ r23 c0..40 dim
 r24 c1..8 bold
 r24 c10..17 dim
 r24 c19..25 dim
-r24 c27..34 dim
 r24 c37..40 dim
 r25 c1..38 bold
 r26 c1..18 dim
