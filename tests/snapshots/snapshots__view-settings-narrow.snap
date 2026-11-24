@@ -23,7 +23,7 @@ expression: dump(&entry)
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -78,12 +78,14 @@ r19 c2..60 fg=Muted bg=Background
 r19 c60..80 bg=Background
 r20 c0..3 bg=Background
 r20 c3..8 fg=#e09948 bg=Background bold
-r20 c8..32 fg=Hint|Dim bg=Background
-r20 c32..36 fg=#7eb4e8 bg=Background
-r20 c36..45 fg=Hint|Dim bg=Background
-r20 c45..53 fg=Live bg=Background
-r20 c53..72 fg=Hint|Dim bg=Background
-r20 c72..80 bg=Background
+r20 c8..11 fg=Hint|Dim bg=Background
+r20 c11..15 fg=#7eb4e8 bg=Background
+r20 c15..24 fg=Hint|Dim bg=Background
+r20 c24..38 fg=Live bg=Background
+r20 c38..41 fg=Hint|Dim bg=Background
+r20 c41..49 fg=Live bg=Background
+r20 c49..68 fg=Hint|Dim bg=Background
+r20 c68..80 bg=Background
 r21 c0..2 bg=Background
 r21 c2..8 fg=Accent bg=Background bold
 r21 c8..14 fg=Muted bg=Background
@@ -126,7 +128,7 @@ r23 c0..80 bg=Background
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -181,12 +183,14 @@ r19 c2..60 fg=Muted bg=Background
 r19 c60..80 bg=Background
 r20 c0..3 bg=Background
 r20 c3..8 fg=#e09948 bg=Background bold
-r20 c8..32 fg=Hint|Dim bg=Background
-r20 c32..36 fg=#7eb4e8 bg=Background
-r20 c36..45 fg=Hint|Dim bg=Background
-r20 c45..53 fg=Live bg=Background
-r20 c53..72 fg=Hint|Dim bg=Background
-r20 c72..80 bg=Background
+r20 c8..11 fg=Hint|Dim bg=Background
+r20 c11..15 fg=#7eb4e8 bg=Background
+r20 c15..24 fg=Hint|Dim bg=Background
+r20 c24..38 fg=Live bg=Background
+r20 c38..41 fg=Hint|Dim bg=Background
+r20 c41..49 fg=Live bg=Background
+r20 c49..68 fg=Hint|Dim bg=Background
+r20 c68..80 bg=Background
 r21 c0..2 bg=Background
 r21 c2..8 fg=Accent bg=Background bold
 r21 c8..14 fg=Muted bg=Background
@@ -229,7 +233,7 @@ r23 c0..80 bg=Background
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -250,11 +254,13 @@ r17 c2..35 fg=Muted
 r18 c2..61 fg=Muted
 r19 c2..60 fg=Muted
 r20 c3..8 fg=#92400e bold
-r20 c8..32 fg=Hint|Dim
-r20 c32..36 fg=#1636b2
-r20 c36..45 fg=Hint|Dim
-r20 c45..53 fg=Live
-r20 c53..72 fg=Hint|Dim
+r20 c8..11 fg=Hint|Dim
+r20 c11..15 fg=#1636b2
+r20 c15..24 fg=Hint|Dim
+r20 c24..38 fg=Live
+r20 c38..41 fg=Hint|Dim
+r20 c41..49 fg=Live
+r20 c49..68 fg=Hint|Dim
 r21 c2..8 fg=Accent bold
 r21 c8..14 fg=Muted
 r21 c15..20 fg=Accent bold
@@ -288,7 +294,7 @@ r22 c1..79 fg=Border
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -343,12 +349,14 @@ r19 c2..60 fg=Muted bg=Background|DiffAddedTint
 r19 c60..80 bg=Background|DiffAddedTint
 r20 c0..3 bg=Background|DiffAddedTint
 r20 c3..8 fg=idx173 bg=Background|DiffAddedTint bold
-r20 c8..32 fg=Hint|Dim bg=Background|DiffAddedTint
-r20 c32..36 fg=idx110 bg=Background|DiffAddedTint
-r20 c36..45 fg=Hint|Dim bg=Background|DiffAddedTint
-r20 c45..53 fg=Live bg=Background|DiffAddedTint
-r20 c53..72 fg=Hint|Dim bg=Background|DiffAddedTint
-r20 c72..80 bg=Background|DiffAddedTint
+r20 c8..11 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c11..15 fg=idx110 bg=Background|DiffAddedTint
+r20 c15..24 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c24..38 fg=Live bg=Background|DiffAddedTint
+r20 c38..41 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c41..49 fg=Live bg=Background|DiffAddedTint
+r20 c49..68 fg=Hint|Dim bg=Background|DiffAddedTint
+r20 c68..80 bg=Background|DiffAddedTint
 r21 c0..2 bg=Background|DiffAddedTint
 r21 c2..8 fg=Accent bg=Background|DiffAddedTint bold
 r21 c8..14 fg=Muted bg=Background|DiffAddedTint
@@ -391,7 +399,7 @@ r23 c0..80 bg=Background|DiffAddedTint
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -412,11 +420,13 @@ r17 c2..35 fg=Muted|Hint|Dim
 r18 c2..61 fg=Muted|Hint|Dim
 r19 c2..60 fg=Muted|Hint|Dim
 r20 c3..8 fg=Attention bold
-r20 c8..32 fg=Muted|Hint|Dim
-r20 c32..36 fg=Accent
-r20 c36..45 fg=Muted|Hint|Dim
-r20 c45..53 fg=Live
-r20 c53..72 fg=Muted|Hint|Dim
+r20 c8..11 fg=Muted|Hint|Dim
+r20 c11..15 fg=Accent
+r20 c15..24 fg=Muted|Hint|Dim
+r20 c24..38 fg=Live
+r20 c38..41 fg=Muted|Hint|Dim
+r20 c41..49 fg=Live
+r20 c49..68 fg=Muted|Hint|Dim
 r21 c2..8 fg=Accent bold
 r21 c8..14 fg=Muted|Hint|Dim
 r21 c15..20 fg=Accent bold
@@ -450,7 +460,7 @@ r22 c1..79 fg=Border
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -467,11 +477,13 @@ r17 c2..35 dim
 r18 c2..61 dim
 r19 c2..60 dim
 r20 c3..8 fg=Attention bold
-r20 c8..32 dim
-r20 c32..36 fg=Accent
-r20 c36..45 dim
-r20 c45..53 fg=Live|LivePeak
-r20 c53..72 dim
+r20 c8..11 dim
+r20 c11..15 fg=Accent
+r20 c15..24 dim
+r20 c24..38 fg=Live|LivePeak
+r20 c38..41 dim
+r20 c41..49 fg=Live|LivePeak
+r20 c49..68 dim
 r21 c2..8 fg=Accent bold
 r21 c8..14 dim
 r21 c15..20 fg=Accent bold
@@ -505,7 +517,7 @@ r22 c1..79 dim
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -522,11 +534,13 @@ r17 c2..35 dim
 r18 c2..61 dim
 r19 c2..60 dim
 r20 c3..8 fg=Attention bold
-r20 c8..32 dim
-r20 c32..36 fg=Accent
-r20 c36..45 dim
-r20 c45..53 fg=Live|LivePeak
-r20 c53..72 dim
+r20 c8..11 dim
+r20 c11..15 fg=Accent
+r20 c15..24 dim
+r20 c24..38 fg=Live|LivePeak
+r20 c38..41 dim
+r20 c41..49 fg=Live|LivePeak
+r20 c49..68 dim
 r21 c2..8 fg=Accent bold
 r21 c8..14 dim
 r21 c15..20 fg=Accent bold
@@ -560,7 +574,7 @@ r22 c1..79 dim
   Theme: underwater — Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  ↑/↓ move  Enter edit  PgUp/PgDn scroll  Esc close
  ──────────────────────────────────────────────────────────────────────────────
 
@@ -577,9 +591,10 @@ r17 c2..35 dim
 r18 c2..61 dim
 r19 c2..60 dim
 r20 c3..8 bold
-r20 c8..32 dim
-r20 c36..45 dim
-r20 c53..72 dim
+r20 c8..11 dim
+r20 c15..24 dim
+r20 c38..41 dim
+r20 c49..68 dim
 r21 c2..8 bold
 r21 c8..14 dim
 r21 c15..20 bold
@@ -613,7 +628,7 @@ r22 c1..79 dim
   Theme: underwater - Enter to edit
   current: underwater  saved: underwater  startup: underwater
   source: settings.toml  scope: user  apply: applies on save
-   . ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt
+   . ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt
    type filter  Up/Dn move  Enter edit  PgUp/PgDn scroll  Esc close
  ------------------------------------------------------------------------------
 
@@ -630,9 +645,10 @@ r17 c2..35 dim
 r18 c2..61 dim
 r19 c2..60 dim
 r20 c3..8 bold
-r20 c8..32 dim
-r20 c36..45 dim
-r20 c53..72 dim
+r20 c8..11 dim
+r20 c15..24 dim
+r20 c38..41 dim
+r20 c49..68 dim
 r21 c2..8 bold
 r21 c8..14 dim
 r21 c15..22 bold

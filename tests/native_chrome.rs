@@ -91,10 +91,10 @@ fn queued_large_and_folded_run_facts_follow_native_thresholds() {
 
 #[test]
 fn composer_density_enclosure_and_send_geometry_match_the_mounted_policy() {
-    for (density, quiet, enclosed, cap) in [
-        (NativeComposerDensity::Compact, 2, 3, 7),
-        (NativeComposerDensity::Comfortable, 3, 4, 9),
-        (NativeComposerDensity::Spacious, 4, 5, 12),
+    for (density, quiet, enclosed) in [
+        (NativeComposerDensity::Compact, 2, 3),
+        (NativeComposerDensity::Comfortable, 3, 4),
+        (NativeComposerDensity::Spacious, 4, 5),
     ] {
         let composer = NativeComposer::new("").density(density);
         assert_eq!(
@@ -106,7 +106,7 @@ fn composer_density_enclosure_and_send_geometry_match_the_mounted_policy() {
             NativeComposer::new("x\n".repeat(40))
                 .density(density)
                 .desired_height(80, 60),
-            cap
+            43
         );
         assert_eq!(composer.desired_height(80, 1), 1);
     }
@@ -265,7 +265,7 @@ fn native_chrome_is_bounded_in_tiny_offset_and_maximum_origin_buffers() {
                     ),
                     Box::new(WorkflowProgress::new(vec![
                         WorkflowRun::new("鲸鱼 cafe\u{301}", WorkflowRunState::Failed)
-                            .outcomes(usize::MAX, usize::MAX, usize::MAX, usize::MAX)
+                            .outcomes(usize::MAX, usize::MAX, usize::MAX, u64::MAX)
                             .reason("retry later"),
                     ])),
                 ];

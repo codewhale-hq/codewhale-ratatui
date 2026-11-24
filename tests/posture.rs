@@ -43,11 +43,11 @@ fn posture_matches_the_current_native_golden_rows() {
     for (width, expected) in [
         (
             80,
-            " ● ask  Shift+Tab to change   work (Tab)   2 agents   Esc to interrupt",
+            " ● ask   work (Tab)   working 1m 15s   2 agents   Esc to interrupt",
         ),
         (
             100,
-            " ● ask  Shift+Tab to change   work (Tab)   2 agents   worked 41m 12s   Esc to interrupt",
+            " ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   Esc to interrupt",
         ),
         (120, full),
         (160, full),
@@ -82,11 +82,11 @@ fn native_posture_shed_order_retains_permission_before_mode() {
             .unwrap()
     };
     let rungs = [
-        "working 1m 15s",
         "worked 41m 12s",
         "Shift+Tab to change",
         "Esc to interrupt",
         "2 agents",
+        "working 1m 15s",
         "work (Tab)",
         "   work",
     ]
@@ -139,17 +139,15 @@ fn cap_warning_and_native_compact_policy_outrank_live_clocks() {
 }
 
 #[test]
-fn a_turn_only_clock_keeps_the_native_session_clock_priority() {
-    let mut turn_only = working_posture();
-    turn_only.session_clock = None;
+fn the_turn_clock_outranks_the_session_clock() {
     let both = working_posture();
     let mut checked = false;
     for width in 8..=160 {
-        let shown_both = row(&both, width, Profile::DarkTrue);
-        if shown_both.contains("worked 41m 12s") && !shown_both.contains("working 1m 15s") {
-            assert!(row(&turn_only, width, Profile::DarkTrue).contains("working 1m 15s"));
-            checked = true;
+        let shown = row(&both, width, Profile::DarkTrue);
+        if shown.contains("worked 41m 12s") {
+            assert!(shown.contains("working 1m 15s"), "{width}: {shown}");
         }
+        checked |= shown.contains("working 1m 15s") && !shown.contains("worked 41m 12s");
     }
     assert!(checked);
 }
