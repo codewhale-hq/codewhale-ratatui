@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add `WorkbarPanel::Terminal` between Jobs and Files, matching the Engine's vendored work dock; the gallery and studio show host-supplied terminal rows, and the snapshots, README boards and studio animations are regenerated.
 - Upgrade to Codewhale design tokens `5.5.0` (Obsidian/Porcelain palette and 6 ADE vector icons): sync `vendor/codewhale-design`, regenerate `src/roles.rs` (keeping derived `Role::Hint` at least 1.1:1 above `Role::Dim` on Obsidian's darker `Hover` ground and recording the 256-color Porcelain `Sidebar`/`Background`/`Surface` collapse), and refresh Insta snapshots, 145 README gallery boards, and 10 README animations.
 - Mirror generic Engine `0.2.1` adaptations upstream: narrow-terminal `PostureBar` turn clock shedding after hints and counts without being covered by the right notice, `MetricKind::Update` with hover styling, `NativeComposerFrame` bounded non-ASCII wrapping (`native_composer_source_row_count`, `source_plan`, `input_rows_budget`, `plan_with_source`), public `NativeComposerPlan::paint` and full available height without an open menu, `motion` activity sweep helpers (`ACTIVITY_SWEEP_TRAVEL`, `ACTIVITY_SWEEP_PEAK`, `activity_sweep_strength`, `activity_sweep_ink`), and `WorkflowRun` `total: u64`. Bump crate version from `0.1.0` to `0.2.2` so upstream stays ahead of the Engine-published `0.2.1` on crates.io.
 

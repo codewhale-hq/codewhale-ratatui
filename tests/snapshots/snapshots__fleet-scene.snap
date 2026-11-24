@@ -36,7 +36,7 @@ expression: dump(&entry)
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -198,16 +198,18 @@ r33 c14..23 fg=Foreground bg=Selected bold
 r33 c23..25 fg=Foreground bg=Sidebar
 r33 c25..33 fg=Muted bg=Sidebar
 r33 c33..35 fg=Foreground bg=Sidebar
-r33 c35..44 fg=Muted bg=Sidebar
-r33 c44..46 fg=Foreground bg=Sidebar
-r33 c46..55 fg=Muted bg=Sidebar
-r33 c55..57 fg=Foreground bg=Sidebar
-r33 c57..66 fg=Muted bg=Sidebar
-r33 c66..68 fg=Foreground bg=Sidebar
-r33 c68..73 fg=Muted bg=Sidebar
-r33 c73..75 fg=Foreground bg=Sidebar
-r33 c75..81 fg=Muted bg=Sidebar
-r33 c81..103 fg=Foreground bg=Sidebar
+r33 c35..45 fg=Muted bg=Sidebar
+r33 c45..47 fg=Foreground bg=Sidebar
+r33 c47..56 fg=Muted bg=Sidebar
+r33 c56..58 fg=Foreground bg=Sidebar
+r33 c58..67 fg=Muted bg=Sidebar
+r33 c67..69 fg=Foreground bg=Sidebar
+r33 c69..78 fg=Muted bg=Sidebar
+r33 c78..80 fg=Foreground bg=Sidebar
+r33 c80..85 fg=Muted bg=Sidebar
+r33 c85..87 fg=Foreground bg=Sidebar
+r33 c87..93 fg=Muted bg=Sidebar
+r33 c93..103 fg=Foreground bg=Sidebar
 r33 c103..110 fg=Hint bg=Sidebar
 r33 c110..112 fg=Foreground bg=Background
 r34 c0..2 fg=Foreground bg=Background
@@ -266,7 +268,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -428,16 +430,18 @@ r33 c14..23 fg=Foreground bg=Selected bold
 r33 c23..25 fg=Foreground bg=Sidebar
 r33 c25..33 fg=Muted bg=Sidebar
 r33 c33..35 fg=Foreground bg=Sidebar
-r33 c35..44 fg=Muted bg=Sidebar
-r33 c44..46 fg=Foreground bg=Sidebar
-r33 c46..55 fg=Muted bg=Sidebar
-r33 c55..57 fg=Foreground bg=Sidebar
-r33 c57..66 fg=Muted bg=Sidebar
-r33 c66..68 fg=Foreground bg=Sidebar
-r33 c68..73 fg=Muted bg=Sidebar
-r33 c73..75 fg=Foreground bg=Sidebar
-r33 c75..81 fg=Muted bg=Sidebar
-r33 c81..103 fg=Foreground bg=Sidebar
+r33 c35..45 fg=Muted bg=Sidebar
+r33 c45..47 fg=Foreground bg=Sidebar
+r33 c47..56 fg=Muted bg=Sidebar
+r33 c56..58 fg=Foreground bg=Sidebar
+r33 c58..67 fg=Muted bg=Sidebar
+r33 c67..69 fg=Foreground bg=Sidebar
+r33 c69..78 fg=Muted bg=Sidebar
+r33 c78..80 fg=Foreground bg=Sidebar
+r33 c80..85 fg=Muted bg=Sidebar
+r33 c85..87 fg=Foreground bg=Sidebar
+r33 c87..93 fg=Muted bg=Sidebar
+r33 c93..103 fg=Foreground bg=Sidebar
 r33 c103..110 fg=Hint bg=Sidebar
 r33 c110..112 fg=Foreground bg=Background
 r34 c0..2 fg=Foreground bg=Background
@@ -496,7 +500,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -658,16 +662,18 @@ r33 c14..23 fg=Foreground bg=Selected bold
 r33 c23..25 fg=Foreground bg=Sidebar
 r33 c25..33 fg=Muted bg=Sidebar
 r33 c33..35 fg=Foreground bg=Sidebar
-r33 c35..44 fg=Muted bg=Sidebar
-r33 c44..46 fg=Foreground bg=Sidebar
-r33 c46..55 fg=Muted bg=Sidebar
-r33 c55..57 fg=Foreground bg=Sidebar
-r33 c57..66 fg=Muted bg=Sidebar
-r33 c66..68 fg=Foreground bg=Sidebar
-r33 c68..73 fg=Muted bg=Sidebar
-r33 c73..75 fg=Foreground bg=Sidebar
-r33 c75..81 fg=Muted bg=Sidebar
-r33 c81..103 fg=Foreground bg=Sidebar
+r33 c35..45 fg=Muted bg=Sidebar
+r33 c45..47 fg=Foreground bg=Sidebar
+r33 c47..56 fg=Muted bg=Sidebar
+r33 c56..58 fg=Foreground bg=Sidebar
+r33 c58..67 fg=Muted bg=Sidebar
+r33 c67..69 fg=Foreground bg=Sidebar
+r33 c69..78 fg=Muted bg=Sidebar
+r33 c78..80 fg=Foreground bg=Sidebar
+r33 c80..85 fg=Muted bg=Sidebar
+r33 c85..87 fg=Foreground bg=Sidebar
+r33 c87..93 fg=Muted bg=Sidebar
+r33 c93..103 fg=Foreground bg=Sidebar
 r33 c103..110 fg=Hint bg=Sidebar
 r33 c110..112 fg=Foreground bg=Background
 r34 c0..2 fg=Foreground bg=Background
@@ -726,7 +732,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -888,16 +894,18 @@ r33 c14..23 fg=Foreground bg=Selected bold
 r33 c23..25 fg=Foreground bg=Sidebar
 r33 c25..33 fg=Muted bg=Sidebar
 r33 c33..35 fg=Foreground bg=Sidebar
-r33 c35..44 fg=Muted bg=Sidebar
-r33 c44..46 fg=Foreground bg=Sidebar
-r33 c46..55 fg=Muted bg=Sidebar
-r33 c55..57 fg=Foreground bg=Sidebar
-r33 c57..66 fg=Muted bg=Sidebar
-r33 c66..68 fg=Foreground bg=Sidebar
-r33 c68..73 fg=Muted bg=Sidebar
-r33 c73..75 fg=Foreground bg=Sidebar
-r33 c75..81 fg=Muted bg=Sidebar
-r33 c81..103 fg=Foreground bg=Sidebar
+r33 c35..45 fg=Muted bg=Sidebar
+r33 c45..47 fg=Foreground bg=Sidebar
+r33 c47..56 fg=Muted bg=Sidebar
+r33 c56..58 fg=Foreground bg=Sidebar
+r33 c58..67 fg=Muted bg=Sidebar
+r33 c67..69 fg=Foreground bg=Sidebar
+r33 c69..78 fg=Muted bg=Sidebar
+r33 c78..80 fg=Foreground bg=Sidebar
+r33 c80..85 fg=Muted bg=Sidebar
+r33 c85..87 fg=Foreground bg=Sidebar
+r33 c87..93 fg=Muted bg=Sidebar
+r33 c93..103 fg=Foreground bg=Sidebar
 r33 c103..110 fg=Hint bg=Sidebar
 r33 c110..112 fg=Foreground bg=Background|Surface
 r34 c0..2 fg=Foreground bg=Background|Surface
@@ -956,7 +964,7 @@ r37 c92..112 fg=Foreground bg=Sidebar
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -1117,16 +1125,18 @@ r33 c14..23 fg=Foreground bg=Selected bold
 r33 c23..25 fg=Foreground bg=Sidebar|Background|Surface
 r33 c25..33 fg=Muted bg=Sidebar|Background|Surface
 r33 c33..35 fg=Foreground bg=Sidebar|Background|Surface
-r33 c35..44 fg=Muted bg=Sidebar|Background|Surface
-r33 c44..46 fg=Foreground bg=Sidebar|Background|Surface
-r33 c46..55 fg=Muted bg=Sidebar|Background|Surface
-r33 c55..57 fg=Foreground bg=Sidebar|Background|Surface
-r33 c57..66 fg=Muted bg=Sidebar|Background|Surface
-r33 c66..68 fg=Foreground bg=Sidebar|Background|Surface
-r33 c68..73 fg=Muted bg=Sidebar|Background|Surface
-r33 c73..75 fg=Foreground bg=Sidebar|Background|Surface
-r33 c75..81 fg=Muted bg=Sidebar|Background|Surface
-r33 c81..103 fg=Foreground bg=Sidebar|Background|Surface
+r33 c35..45 fg=Muted bg=Sidebar|Background|Surface
+r33 c45..47 fg=Foreground bg=Sidebar|Background|Surface
+r33 c47..56 fg=Muted bg=Sidebar|Background|Surface
+r33 c56..58 fg=Foreground bg=Sidebar|Background|Surface
+r33 c58..67 fg=Muted bg=Sidebar|Background|Surface
+r33 c67..69 fg=Foreground bg=Sidebar|Background|Surface
+r33 c69..78 fg=Muted bg=Sidebar|Background|Surface
+r33 c78..80 fg=Foreground bg=Sidebar|Background|Surface
+r33 c80..85 fg=Muted bg=Sidebar|Background|Surface
+r33 c85..87 fg=Foreground bg=Sidebar|Background|Surface
+r33 c87..93 fg=Muted bg=Sidebar|Background|Surface
+r33 c93..103 fg=Foreground bg=Sidebar|Background|Surface
 r33 c103..110 fg=Hint bg=Sidebar|Background|Surface
 r33 c110..112 fg=Foreground bg=Sidebar|Background|Surface
 r34 c0..3 fg=Foreground bg=Sidebar|Background|Surface
@@ -1179,7 +1189,7 @@ r37 c92..112 fg=Foreground bg=Sidebar|Background|Surface
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -1239,11 +1249,12 @@ r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold
 r33 c25..33 dim
-r33 c35..44 dim
-r33 c46..55 dim
-r33 c57..66 dim
-r33 c68..73 dim
-r33 c75..81 dim
+r33 c35..45 dim
+r33 c47..56 dim
+r33 c58..67 dim
+r33 c69..78 dim
+r33 c80..85 dim
+r33 c87..93 dim
 r33 c103..110 dim
 r34 c3..5 bold
 r34 c5..26 bold dim
@@ -1287,7 +1298,7 @@ r37 c2..92 dim
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -1347,11 +1358,12 @@ r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold
 r33 c25..33 dim
-r33 c35..44 dim
-r33 c46..55 dim
-r33 c57..66 dim
-r33 c68..73 dim
-r33 c75..81 dim
+r33 c35..45 dim
+r33 c47..56 dim
+r33 c58..67 dim
+r33 c69..78 dim
+r33 c80..85 dim
+r33 c87..93 dim
 r33 c103..110 dim
 r34 c3..5 bold
 r34 c5..26 bold dim
@@ -1395,7 +1407,7 @@ r37 c2..92 dim
 
 
   ────────────────────────────────────────────────────────────────────────────────────────────────────────────
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc ×
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc ×
    ● Builder   running    Extract the dock and keep the native layout      12m 34s · ↓ 111.9k tokens · 2 left
    ✓ Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -1438,11 +1450,12 @@ r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold
 r33 c25..33 dim
-r33 c35..44 dim
-r33 c46..55 dim
-r33 c57..66 dim
-r33 c68..73 dim
-r33 c75..81 dim
+r33 c35..45 dim
+r33 c47..56 dim
+r33 c58..67 dim
+r33 c69..78 dim
+r33 c80..85 dim
+r33 c87..93 dim
 r33 c103..110 dim
 r34 c3..5 bold
 r34 c5..26 bold dim
@@ -1486,7 +1499,7 @@ r37 c2..92 dim
 
 
   ------------------------------------------------------------------------------------------------------------
-    Tasks 3    Fleet 2    Jobs 1    Files 3    Notes 2    Context    Git    Cost                        Esc X
+    Tasks 3    Fleet 2    Jobs 1    Terminal    Files 3    Notes 2    Context    Git    Cost            Esc X
    . Builder   running    Extract the dock and keep the native layout      12m 34s . v 111.9k tokens . 2 left
    Y Reviewer  completed  Review tab and keyboard navigation                                           3m 03s
 
@@ -1529,11 +1542,12 @@ r32 c2..110 dim
 r33 c3..12 dim
 r33 c14..23 bold
 r33 c25..33 dim
-r33 c35..44 dim
-r33 c46..55 dim
-r33 c57..66 dim
-r33 c68..73 dim
-r33 c75..81 dim
+r33 c35..45 dim
+r33 c47..56 dim
+r33 c58..67 dim
+r33 c69..78 dim
+r33 c80..85 dim
+r33 c87..93 dim
 r33 c103..110 dim
 r34 c3..5 bold
 r34 c5..26 bold dim

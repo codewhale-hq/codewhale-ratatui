@@ -27,7 +27,7 @@ expression: dump(&entry)
                                                                            │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -265,14 +265,12 @@ r24 c12..19 fg=Muted bg=Sidebar
 r24 c19..21 fg=Foreground bg=Sidebar
 r24 c21..27 fg=Muted bg=Sidebar
 r24 c27..29 fg=Foreground bg=Sidebar
-r24 c29..36 fg=Muted bg=Sidebar
-r24 c36..38 fg=Foreground bg=Sidebar
-r24 c38..45 fg=Muted bg=Sidebar
-r24 c45..47 fg=Foreground bg=Sidebar
-r24 c47..56 fg=Muted bg=Sidebar
-r24 c56..58 fg=Foreground bg=Sidebar
-r24 c58..63 fg=Muted bg=Sidebar
-r24 c63..66 fg=Foreground bg=Sidebar
+r24 c29..39 fg=Muted bg=Sidebar
+r24 c39..41 fg=Foreground bg=Sidebar
+r24 c41..48 fg=Muted bg=Sidebar
+r24 c48..50 fg=Foreground bg=Sidebar
+r24 c50..57 fg=Muted bg=Sidebar
+r24 c57..66 fg=Foreground bg=Sidebar
 r24 c66..73 fg=Hint bg=Sidebar
 r24 c73..75 fg=Foreground bg=Background
 r24 c75..76 fg=Border bg=Background
@@ -416,7 +414,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
                                                                            │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -654,14 +652,12 @@ r24 c12..19 fg=Muted bg=Sidebar
 r24 c19..21 fg=Foreground bg=Sidebar
 r24 c21..27 fg=Muted bg=Sidebar
 r24 c27..29 fg=Foreground bg=Sidebar
-r24 c29..36 fg=Muted bg=Sidebar
-r24 c36..38 fg=Foreground bg=Sidebar
-r24 c38..45 fg=Muted bg=Sidebar
-r24 c45..47 fg=Foreground bg=Sidebar
-r24 c47..56 fg=Muted bg=Sidebar
-r24 c56..58 fg=Foreground bg=Sidebar
-r24 c58..63 fg=Muted bg=Sidebar
-r24 c63..66 fg=Foreground bg=Sidebar
+r24 c29..39 fg=Muted bg=Sidebar
+r24 c39..41 fg=Foreground bg=Sidebar
+r24 c41..48 fg=Muted bg=Sidebar
+r24 c48..50 fg=Foreground bg=Sidebar
+r24 c50..57 fg=Muted bg=Sidebar
+r24 c57..66 fg=Foreground bg=Sidebar
 r24 c66..73 fg=Hint bg=Sidebar
 r24 c73..75 fg=Foreground bg=Background
 r24 c75..76 fg=Border bg=Background
@@ -805,7 +801,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
                                                                            │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -1043,14 +1039,12 @@ r24 c12..19 fg=Muted bg=Sidebar
 r24 c19..21 fg=Foreground bg=Sidebar
 r24 c21..27 fg=Muted bg=Sidebar
 r24 c27..29 fg=Foreground bg=Sidebar
-r24 c29..36 fg=Muted bg=Sidebar
-r24 c36..38 fg=Foreground bg=Sidebar
-r24 c38..45 fg=Muted bg=Sidebar
-r24 c45..47 fg=Foreground bg=Sidebar
-r24 c47..56 fg=Muted bg=Sidebar
-r24 c56..58 fg=Foreground bg=Sidebar
-r24 c58..63 fg=Muted bg=Sidebar
-r24 c63..66 fg=Foreground bg=Sidebar
+r24 c29..39 fg=Muted bg=Sidebar
+r24 c39..41 fg=Foreground bg=Sidebar
+r24 c41..48 fg=Muted bg=Sidebar
+r24 c48..50 fg=Foreground bg=Sidebar
+r24 c50..57 fg=Muted bg=Sidebar
+r24 c57..66 fg=Foreground bg=Sidebar
 r24 c66..73 fg=Hint bg=Sidebar
 r24 c73..75 fg=Foreground bg=Background
 r24 c75..76 fg=Border bg=Background
@@ -1194,7 +1188,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -1436,14 +1430,12 @@ r24 c12..19 fg=Muted bg=Sidebar
 r24 c19..21 fg=Foreground bg=Sidebar
 r24 c21..27 fg=Muted bg=Sidebar
 r24 c27..29 fg=Foreground bg=Sidebar
-r24 c29..36 fg=Muted bg=Sidebar
-r24 c36..38 fg=Foreground bg=Sidebar
-r24 c38..45 fg=Muted bg=Sidebar
-r24 c45..47 fg=Foreground bg=Sidebar
-r24 c47..56 fg=Muted bg=Sidebar
-r24 c56..58 fg=Foreground bg=Sidebar
-r24 c58..63 fg=Muted bg=Sidebar
-r24 c63..66 fg=Foreground bg=Sidebar
+r24 c29..39 fg=Muted bg=Sidebar
+r24 c39..41 fg=Foreground bg=Sidebar
+r24 c41..48 fg=Muted bg=Sidebar
+r24 c48..50 fg=Foreground bg=Sidebar
+r24 c50..57 fg=Muted bg=Sidebar
+r24 c57..66 fg=Foreground bg=Sidebar
 r24 c66..73 fg=Hint bg=Sidebar
 r24 c73..75 fg=Foreground bg=Background|Surface
 r24 c75..76 fg=Border bg=Background|Surface
@@ -1575,7 +1567,7 @@ r37 c90..112 fg=Foreground bg=Sidebar
   ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -1816,14 +1808,12 @@ r24 c12..19 fg=Muted bg=Sidebar|Background|Surface
 r24 c19..21 fg=Foreground bg=Sidebar|Background|Surface
 r24 c21..27 fg=Muted bg=Sidebar|Background|Surface
 r24 c27..29 fg=Foreground bg=Sidebar|Background|Surface
-r24 c29..36 fg=Muted bg=Sidebar|Background|Surface
-r24 c36..38 fg=Foreground bg=Sidebar|Background|Surface
-r24 c38..45 fg=Muted bg=Sidebar|Background|Surface
-r24 c45..47 fg=Foreground bg=Sidebar|Background|Surface
-r24 c47..56 fg=Muted bg=Sidebar|Background|Surface
-r24 c56..58 fg=Foreground bg=Sidebar|Background|Surface
-r24 c58..63 fg=Muted bg=Sidebar|Background|Surface
-r24 c63..66 fg=Foreground bg=Sidebar|Background|Surface
+r24 c29..39 fg=Muted bg=Sidebar|Background|Surface
+r24 c39..41 fg=Foreground bg=Sidebar|Background|Surface
+r24 c41..48 fg=Muted bg=Sidebar|Background|Surface
+r24 c48..50 fg=Foreground bg=Sidebar|Background|Surface
+r24 c50..57 fg=Muted bg=Sidebar|Background|Surface
+r24 c57..66 fg=Foreground bg=Sidebar|Background|Surface
 r24 c66..73 fg=Hint bg=Sidebar|Background|Surface
 r24 c73..75 fg=Foreground bg=Sidebar|Background|Surface
 r24 c75..76 fg=Border bg=Sidebar|Background|Surface
@@ -1950,7 +1940,7 @@ r37 c90..112 fg=Foreground bg=Sidebar|Background|Surface
   ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -2049,10 +2039,9 @@ r23 c75..76 dim
 r24 c3..10 bold
 r24 c12..19 dim
 r24 c21..27 dim
-r24 c29..36 dim
-r24 c38..45 dim
-r24 c47..56 dim
-r24 c58..63 dim
+r24 c29..39 dim
+r24 c41..48 dim
+r24 c50..57 dim
 r24 c66..73 dim
 r24 c75..76 dim
 r25 c3..36 fg=Live|LivePeak bold
@@ -2120,7 +2109,7 @@ r37 c2..90 dim
   ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -2219,10 +2208,9 @@ r23 c75..76 dim
 r24 c3..10 bold
 r24 c12..19 dim
 r24 c21..27 dim
-r24 c29..36 dim
-r24 c38..45 dim
-r24 c47..56 dim
-r24 c58..63 dim
+r24 c29..39 dim
+r24 c41..48 dim
+r24 c50..57 dim
 r24 c66..73 dim
 r24 c75..76 dim
 r25 c3..36 fg=Live|LivePeak bold
@@ -2290,7 +2278,7 @@ r37 c2..90 dim
   ╰─────────────────────────────────────────────────────────────────────╯  │  ▏ Open visual review
                                                                            │
   ───────────────────────────────────────────────────────────────────────  │
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc ×   │
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc ×   │
    Goal: Make the work dock reusable                                       │
    TODO · 1/3 · 2 left                                                     │
    1 · ✓ Read the existing component                          completed ┃  │               ⣀⡀
@@ -2371,10 +2359,9 @@ r23 c75..76 dim
 r24 c3..10 bold
 r24 c12..19 dim
 r24 c21..27 dim
-r24 c29..36 dim
-r24 c38..45 dim
-r24 c47..56 dim
-r24 c58..63 dim
+r24 c29..39 dim
+r24 c41..48 dim
+r24 c50..57 dim
 r24 c66..73 dim
 r24 c75..76 dim
 r25 c3..36 bold
@@ -2427,7 +2414,7 @@ r37 c2..90 dim
   +---------------------------------------------------------------------+  |  | Open visual review
                                                                            |
   -----------------------------------------------------------------------  |
-    Tasks    Fleet    Jobs    Files    Notes    Context    Git     Esc X   |
+    Tasks    Fleet    Jobs    Terminal    Files    Notes           Esc X   |
    Goal: Make the work dock reusable                                       |
    TODO . 1/3 . 2 left                                                     |      . Working alongside you
    1 . Y Read the existing component                          completed |  |
@@ -2508,10 +2495,9 @@ r23 c75..76 dim
 r24 c3..10 bold
 r24 c12..19 dim
 r24 c21..27 dim
-r24 c29..36 dim
-r24 c38..45 dim
-r24 c47..56 dim
-r24 c58..63 dim
+r24 c29..39 dim
+r24 c41..48 dim
+r24 c50..57 dim
 r24 c66..73 dim
 r24 c75..76 dim
 r25 c3..36 bold
