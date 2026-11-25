@@ -11,11 +11,11 @@ pub(crate) fn entries() -> Vec<Entry> {
         name: "primitives",
         width: 56,
         height: 10,
-        draw,
+        draw: draw_primitives,
     }]
 }
 
-fn draw(area: Rect, buf: &mut Buffer, theme: &Theme) {
+fn draw_primitives(area: Rect, buf: &mut Buffer, theme: &Theme) {
     let area = area.intersection(buf.area);
     if area.is_empty() {
         return;

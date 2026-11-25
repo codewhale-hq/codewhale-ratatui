@@ -52,6 +52,8 @@
     "workbar-narrow",
     "workbar-left",
     "workbar-right",
+    "workbar-task-progress",
+    "diff-review-header",
     "tui-theme-underwater",
     "tui-theme-underwater-retro",
     "tui-theme-shoreline",
@@ -91,11 +93,14 @@
     "attention-focused",
     "attention-narrow",
     "attention-empty",
+    "attention-pill",
     "artifact",
     "artifact-shelf",
     "artifact-narrow",
     "artifact-unknown",
     "artifact-empty",
+    "artifact-chip",
+    "artifact-chip-row",
     "fish-school",
     "jellyfish",
     "bubble-field",
@@ -159,6 +164,7 @@
     "receipt-table-compact",
     "receipt-table-minimal",
     "receipt-table-clipped",
+    "turn-summary",
     "diff",
     "diff-wrapped",
     "diff-no-numbers",
@@ -197,6 +203,8 @@
     "fleet",
     "setting-row",
     "setting-detail",
+    "settings-rail",
+    "session-group-header",
     "atmosphere-ocean",
     "atmosphere-lagoon",
     "atmosphere-dusk",
@@ -213,6 +221,7 @@
     "pending-context",
     "pending-native-mixed",
     "pending-native-queued",
+    "primitives",
     "transcript-mounted",
     "transcript-mounted-focus",
     "transcript-prose",
@@ -523,7 +532,8 @@
       "entries": [
         "workbar-narrow",
         "workbar-left",
-        "workbar-right"
+        "workbar-right",
+        "workbar-task-progress"
       ]
     },
     {
@@ -696,8 +706,9 @@
         "attention-focused",
         "attention-narrow",
         "attention-empty",
-        "data-sparkline",
-        "data-bars"
+        "attention-pill",
+        "turn-summary",
+        "data-sparkline"
       ]
     },
     {
@@ -705,6 +716,7 @@
       "profile": "dark-truecolor",
       "group": "components",
       "entries": [
+        "data-bars",
         "data-bars-growing",
         "data-trend",
         "data-trend-drawing",
@@ -720,7 +732,9 @@
       "profile": "dark-truecolor",
       "group": "components",
       "entries": [
-        "fleet"
+        "fleet",
+        "session-group-header",
+        "primitives"
       ]
     },
     {
@@ -783,7 +797,8 @@
         "toggle",
         "segmented",
         "setting-row",
-        "setting-detail"
+        "setting-detail",
+        "settings-rail"
       ]
     },
     {
@@ -791,11 +806,14 @@
       "profile": "dark-truecolor",
       "group": "display",
       "entries": [
+        "diff-review-header",
         "artifact",
         "artifact-shelf",
         "artifact-narrow",
         "artifact-unknown",
         "artifact-empty",
+        "artifact-chip",
+        "artifact-chip-row",
         "receipt-row",
         "receipt-table",
         "receipt-table-compact",
@@ -1246,7 +1264,8 @@
       "entries": [
         "workbar-narrow",
         "workbar-left",
-        "workbar-right"
+        "workbar-right",
+        "workbar-task-progress"
       ]
     },
     {
@@ -1419,8 +1438,9 @@
         "attention-focused",
         "attention-narrow",
         "attention-empty",
-        "data-sparkline",
-        "data-bars"
+        "attention-pill",
+        "turn-summary",
+        "data-sparkline"
       ]
     },
     {
@@ -1428,6 +1448,7 @@
       "profile": "light-truecolor",
       "group": "components",
       "entries": [
+        "data-bars",
         "data-bars-growing",
         "data-trend",
         "data-trend-drawing",
@@ -1443,7 +1464,9 @@
       "profile": "light-truecolor",
       "group": "components",
       "entries": [
-        "fleet"
+        "fleet",
+        "session-group-header",
+        "primitives"
       ]
     },
     {
@@ -1506,7 +1529,8 @@
         "toggle",
         "segmented",
         "setting-row",
-        "setting-detail"
+        "setting-detail",
+        "settings-rail"
       ]
     },
     {
@@ -1514,11 +1538,14 @@
       "profile": "light-truecolor",
       "group": "display",
       "entries": [
+        "diff-review-header",
         "artifact",
         "artifact-shelf",
         "artifact-narrow",
         "artifact-unknown",
         "artifact-empty",
+        "artifact-chip",
+        "artifact-chip-row",
         "receipt-row",
         "receipt-table",
         "receipt-table-compact",

@@ -342,20 +342,20 @@ Composer geometry, permission and mode, workflow rows and model/context metrics.
 
 <a id="the-native-workbar"></a>
 <details>
-<summary>The native workbar · 12 examples</summary>
+<summary>The native workbar · 13 examples</summary>
 
 Tasks, Fleet, Jobs, Files, Notes, Context, Git and Cost; bottom, top and side placement.
 
 ![Workbar tasks, Workbar fleet, Workbar jobs, Workbar files, Workbar notes, Workbar context, Workbar git, Workbar cost, Workbar top — dark truecolor](<assets/readme/workbar.dark-truecolor-1.svg>)
 
-![Workbar narrow, Workbar left, Workbar right — dark truecolor](<assets/readme/workbar.dark-truecolor-2.svg>)
+![Workbar narrow, Workbar left, Workbar right, Workbar task progress — dark truecolor](<assets/readme/workbar.dark-truecolor-2.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
 ![Workbar tasks, Workbar fleet, Workbar jobs, Workbar files, Workbar notes, Workbar context, Workbar git, Workbar cost, Workbar top — light truecolor](<assets/readme/workbar.light-truecolor-1.svg>)
 
-![Workbar narrow, Workbar left, Workbar right — light truecolor](<assets/readme/workbar.light-truecolor-2.svg>)
+![Workbar narrow, Workbar left, Workbar right, Workbar task progress — light truecolor](<assets/readme/workbar.light-truecolor-2.svg>)
 
 </details>
 
@@ -495,16 +495,16 @@ Editable fields, forms, lists and focused choices.
 
 <a id="navigation-and-controls"></a>
 <details>
-<summary>Navigation and controls · 7 examples</summary>
+<summary>Navigation and controls · 8 examples</summary>
 
 Headings, tabs, toggles and keyboard maps.
 
-![Keymap hints, Heading, Tabs, Toggle, Segmented, Setting row, Setting detail — dark truecolor](<assets/readme/chrome.dark-truecolor.svg>)
+![Keymap hints, Heading, Tabs, Toggle, Segmented, Setting row, Setting detail, Settings rail — dark truecolor](<assets/readme/chrome.dark-truecolor.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
-![Keymap hints, Heading, Tabs, Toggle, Segmented, Setting row, Setting detail — light truecolor](<assets/readme/chrome.light-truecolor.svg>)
+![Keymap hints, Heading, Tabs, Toggle, Segmented, Setting row, Setting detail, Settings rail — light truecolor](<assets/readme/chrome.light-truecolor.svg>)
 
 </details>
 
@@ -531,24 +531,24 @@ Rich prose, code, attached context and the next instruction.
 
 <a id="conversation-and-agents"></a>
 <details>
-<summary>Conversation and agents · 19 examples</summary>
+<summary>Conversation and agents · 23 examples</summary>
 
 Inline messages and optional tool, agent and fleet cards.
 
-![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Data sparkline, Data bars — dark truecolor](<assets/readme/components.dark-truecolor-1.svg>)
+![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Attention pill, Turn summary, Data sparkline — dark truecolor](<assets/readme/components.dark-truecolor-1.svg>)
 
-![Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — dark truecolor](<assets/readme/components.dark-truecolor-2.svg>)
+![Data bars, Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — dark truecolor](<assets/readme/components.dark-truecolor-2.svg>)
 
-![Fleet — dark truecolor](<assets/readme/components.dark-truecolor-3.svg>)
+![Fleet, Session group header, Primitives — dark truecolor](<assets/readme/components.dark-truecolor-3.svg>)
 
 <details>
 <summary>Light appearance</summary>
 
-![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Data sparkline, Data bars — light truecolor](<assets/readme/components.light-truecolor-1.svg>)
+![Workbench frame, Pane header, Context ribbon, Context ribbon narrow, Attention queue, Attention focused, Attention narrow, Attention empty, Attention pill, Turn summary, Data sparkline — light truecolor](<assets/readme/components.light-truecolor-1.svg>)
 
-![Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — light truecolor](<assets/readme/components.light-truecolor-2.svg>)
+![Data bars, Data bars growing, Data trend, Data trend drawing, Data from agent, Message, Composer, Tool card, Agent card — light truecolor](<assets/readme/components.light-truecolor-2.svg>)
 
-![Fleet — light truecolor](<assets/readme/components.light-truecolor-3.svg>)
+![Fleet, Session group header, Primitives — light truecolor](<assets/readme/components.light-truecolor-3.svg>)
 
 </details>
 
@@ -556,11 +556,11 @@ Inline messages and optional tool, agent and fleet cards.
 
 <a id="work-and-results"></a>
 <details>
-<summary>Work and results · 25 examples</summary>
+<summary>Work and results · 28 examples</summary>
 
 Diffs, trees, progress, approvals and run results.
 
-![Artifact, Artifact shelf, Artifact narrow, Artifact unknown, Artifact empty, Receipt row, Receipt table, Receipt table compact, Receipt table minimal, Receipt table clipped — dark truecolor](<assets/readme/display.dark-truecolor-1.svg>)
+![Diff review header, Artifact, Artifact shelf, Artifact narrow, Artifact unknown, Artifact empty, Artifact chip, Artifact chip row, Receipt row, Receipt table, Receipt table compact, Receipt table minimal, Receipt table clipped — dark truecolor](<assets/readme/display.dark-truecolor-1.svg>)
 
 ![Diff, Diff wrapped, Diff no numbers, Diff highlighted, Count bars — dark truecolor](<assets/readme/display.dark-truecolor-2.svg>)
 
@@ -571,7 +571,7 @@ Diffs, trees, progress, approvals and run results.
 <details>
 <summary>Light appearance</summary>
 
-![Artifact, Artifact shelf, Artifact narrow, Artifact unknown, Artifact empty, Receipt row, Receipt table, Receipt table compact, Receipt table minimal, Receipt table clipped — light truecolor](<assets/readme/display.light-truecolor-1.svg>)
+![Diff review header, Artifact, Artifact shelf, Artifact narrow, Artifact unknown, Artifact empty, Artifact chip, Artifact chip row, Receipt row, Receipt table, Receipt table compact, Receipt table minimal, Receipt table clipped — light truecolor](<assets/readme/display.light-truecolor-1.svg>)
 
 ![Diff, Diff wrapped, Diff no numbers, Diff highlighted, Count bars — light truecolor](<assets/readme/display.light-truecolor-2.svg>)
 
