@@ -94,6 +94,19 @@ fn notice_paints_tonal_surface_when_grounds_differ() {
     let mut mono_buf = Buffer::empty(area);
     notice.paint(area, &mut mono_buf, &mono_theme);
     assert_eq!(mono_buf[(0, 0)].symbol(), "▏");
+
+    assert_eq!(NoticeTone::Info.role(), Role::Accent);
+    assert!(!NoticeTone::Info.role().is_ground());
+    let ansi_theme = Profile::Ansi16.theme();
+    let mut ansi_buf = Buffer::empty(area);
+    notice.paint(area, &mut ansi_buf, &ansi_theme);
+    assert!(
+        ansi_buf[(2, 0)].fg != ratatui::style::Color::Reset,
+        "Info mark must keep ANSI-16 semantic color"
+    );
+
+    let narrow = render_text(&notice, 2, 1, Profile::DarkTrue);
+    assert_eq!(narrow, "▏●");
 }
 
 #[test]

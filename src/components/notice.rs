@@ -39,7 +39,7 @@ impl NoticeTone {
     #[must_use]
     pub const fn role(self) -> Role {
         match self {
-            NoticeTone::Info => Role::Primary,
+            NoticeTone::Info => Role::Accent,
             NoticeTone::Warning => Role::Attention,
             NoticeTone::Success => Role::Live,
             NoticeTone::Error => Role::Danger,
@@ -225,12 +225,20 @@ impl Paint for Notice<'_> {
         let mut row = 0u16;
         if row < total_rows {
             let y = area.y + row;
-            if area.width == 1 {
-                Line::from(Span::styled(mark, mark_style)).render(
+            if area.width <= 2 {
+                let spans = if area.width == 1 {
+                    vec![Span::styled(mark, mark_style)]
+                } else {
+                    vec![
+                        Span::styled(rail, rail_style),
+                        Span::styled(mark, mark_style),
+                    ]
+                };
+                Line::from(spans).render(
                     Rect {
                         x: area.x,
                         y,
-                        width: 1,
+                        width: area.width,
                         height: 1,
                     },
                     buf,
@@ -287,7 +295,7 @@ impl Paint for Notice<'_> {
 
         if self.has_footer() && row < total_rows {
             let y = area.y + row;
-            let sep = glyphs::pick(glyphs::NEUTRAL, ascii);
+            let sep = if ascii { "  " } else { " · " };
             let mut parts = Vec::new();
             if let Some(action) = &self.action {
                 parts.push(format_hint(action));
@@ -295,7 +303,7 @@ impl Paint for Notice<'_> {
             if let Some(dismiss) = &self.dismiss {
                 parts.push(format_hint(dismiss));
             }
-            let joined = parts.join(&format!(" {sep} "));
+            let joined = parts.join(sep);
             let clipped = text::truncate(&joined, content_width, ascii);
             let spans = vec![
                 Span::styled(rail, rail_style),

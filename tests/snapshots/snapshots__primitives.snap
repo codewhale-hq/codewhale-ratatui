@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -280,7 +279,7 @@ r7 c15..20 dim
 == ascii
 | * Provider rate limit
 | Using fallback route while quota recovers.
-| r retry . Esc dismiss
+| r retry  Esc dismiss
 
 --------------------------------------------------------
 ---------------------------------
@@ -291,7 +290,7 @@ r7 c15..20 dim
 ---
 r0 c4..23 bold
 r1 c2..44 dim
-r2 c2..23 dim
+r2 c2..22 dim
 r4 c0..56 dim
 r5 c0..33 dim
 r7 c15..20 dim
