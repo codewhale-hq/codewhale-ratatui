@@ -47,6 +47,7 @@ mod pending_input;
 mod pet;
 mod picker;
 mod posture;
+mod primitives;
 mod scenes;
 mod settings;
 pub mod showcase;
@@ -115,6 +116,7 @@ pub fn entries() -> Vec<Entry> {
         atmosphere::entries(),
         ocean::entries(),
         pending_input::entries(),
+        primitives::entries(),
         transcript::entries(),
     ]
     .into_iter()

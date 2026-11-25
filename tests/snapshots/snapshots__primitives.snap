@@ -1,0 +1,297 @@
+---
+source: tests/snapshots.rs
+assertion_line: 37
+expression: dump(&entry)
+---
+== dark-truecolor
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention bg=Surface
+r0 c1..2 bg=Surface
+r0 c2..3 fg=Attention bg=Surface
+r0 c3..4 bg=Surface
+r0 c4..23 fg=Foreground bg=Surface bold
+r0 c23..56 bg=Surface
+r1 c0..1 fg=Attention bg=Surface
+r1 c1..2 bg=Surface
+r1 c2..44 fg=Muted bg=Surface
+r1 c44..56 bg=Surface
+r2 c0..1 fg=Attention bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..23 fg=Muted bg=Surface
+r2 c23..56 bg=Surface
+r3 c0..56 bg=Background
+r4 c0..56 fg=Dim bg=Background
+r5 c0..33 fg=Dim bg=Background
+r5 c33..56 bg=Background
+r6 c0..56 bg=Background
+r7 c0..3 fg=Attention bg=Background
+r7 c3..6 bg=Background
+r7 c6..7 fg=Live bg=Background
+r7 c7..8 bg=Background
+r7 c8..15 fg=Foreground bg=Background
+r7 c15..20 fg=Muted bg=Background
+r7 c20..56 bg=Background
+r8 c0..56 bg=Background
+r9 c0..56 bg=Background
+
+== dark-graphite
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention bg=Surface
+r0 c1..2 bg=Surface
+r0 c2..3 fg=Attention bg=Surface
+r0 c3..4 bg=Surface
+r0 c4..23 fg=Foreground bg=Surface bold
+r0 c23..56 bg=Surface
+r1 c0..1 fg=Attention bg=Surface
+r1 c1..2 bg=Surface
+r1 c2..44 fg=Muted bg=Surface
+r1 c44..56 bg=Surface
+r2 c0..1 fg=Attention bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..23 fg=Muted bg=Surface
+r2 c23..56 bg=Surface
+r3 c0..56 bg=Background
+r4 c0..56 fg=Dim bg=Background
+r5 c0..33 fg=Dim bg=Background
+r5 c33..56 bg=Background
+r6 c0..56 bg=Background
+r7 c0..3 fg=Attention bg=Background
+r7 c3..6 bg=Background
+r7 c6..7 fg=Live bg=Background
+r7 c7..8 bg=Background
+r7 c8..15 fg=Foreground bg=Background
+r7 c15..20 fg=Muted bg=Background
+r7 c20..56 bg=Background
+r8 c0..56 bg=Background
+r9 c0..56 bg=Background
+
+== light-truecolor
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention bg=Surface
+r0 c1..2 bg=Surface
+r0 c2..3 fg=Attention bg=Surface
+r0 c3..4 bg=Surface
+r0 c4..23 fg=Foreground bg=Surface bold
+r0 c23..56 bg=Surface
+r1 c0..1 fg=Attention bg=Surface
+r1 c1..2 bg=Surface
+r1 c2..44 fg=Muted bg=Surface
+r1 c44..56 bg=Surface
+r2 c0..1 fg=Attention bg=Surface
+r2 c1..2 bg=Surface
+r2 c2..23 fg=Muted bg=Surface
+r2 c23..56 bg=Surface
+r3 c0..56 bg=Background
+r4 c0..56 fg=Dim bg=Background
+r5 c0..33 fg=Dim bg=Background
+r5 c33..56 bg=Background
+r6 c0..56 bg=Background
+r7 c0..3 fg=Attention bg=Background
+r7 c3..6 bg=Background
+r7 c6..7 fg=Live bg=Background
+r7 c7..8 bg=Background
+r7 c8..15 fg=Foreground bg=Background
+r7 c15..20 fg=Muted bg=Background
+r7 c20..56 bg=Background
+r8 c0..56 bg=Background
+r9 c0..56 bg=Background
+
+== dark-256
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention bg=Background|Surface
+r0 c1..2 bg=Background|Surface
+r0 c2..3 fg=Attention bg=Background|Surface
+r0 c3..4 bg=Background|Surface
+r0 c4..23 fg=Foreground bg=Background|Surface bold
+r0 c23..56 bg=Background|Surface
+r1 c0..1 fg=Attention bg=Background|Surface
+r1 c1..2 bg=Background|Surface
+r1 c2..44 fg=Muted bg=Background|Surface
+r1 c44..56 bg=Background|Surface
+r2 c0..1 fg=Attention bg=Background|Surface
+r2 c1..2 bg=Background|Surface
+r2 c2..23 fg=Muted bg=Background|Surface
+r2 c23..56 bg=Background|Surface
+r3 c0..56 bg=Background|Surface
+r4 c0..56 fg=Dim bg=Background|Surface
+r5 c0..33 fg=Dim bg=Background|Surface
+r5 c33..56 bg=Background|Surface
+r6 c0..56 bg=Background|Surface
+r7 c0..3 fg=Attention bg=Background|Surface
+r7 c3..6 bg=Background|Surface
+r7 c6..7 fg=Live bg=Background|Surface
+r7 c7..8 bg=Background|Surface
+r7 c8..15 fg=Foreground bg=Background|Surface
+r7 c15..20 fg=Muted bg=Background|Surface
+r7 c20..56 bg=Background|Surface
+r8 c0..56 bg=Background|Surface
+r9 c0..56 bg=Background|Surface
+
+== light-256
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention bg=Sidebar|Background|Surface
+r0 c1..2 bg=Sidebar|Background|Surface
+r0 c2..3 fg=Attention bg=Sidebar|Background|Surface
+r0 c3..4 bg=Sidebar|Background|Surface
+r0 c4..23 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c23..56 bg=Sidebar|Background|Surface
+r1 c0..1 fg=Attention bg=Sidebar|Background|Surface
+r1 c1..2 bg=Sidebar|Background|Surface
+r1 c2..44 fg=Muted bg=Sidebar|Background|Surface
+r1 c44..56 bg=Sidebar|Background|Surface
+r2 c0..1 fg=Attention bg=Sidebar|Background|Surface
+r2 c1..2 bg=Sidebar|Background|Surface
+r2 c2..23 fg=Muted bg=Sidebar|Background|Surface
+r2 c23..56 bg=Sidebar|Background|Surface
+r3 c0..56 bg=Sidebar|Background|Surface
+r4 c0..56 fg=Dim bg=Sidebar|Background|Surface
+r5 c0..33 fg=Dim bg=Sidebar|Background|Surface
+r5 c33..56 bg=Sidebar|Background|Surface
+r6 c0..56 bg=Sidebar|Background|Surface
+r7 c0..3 fg=Attention bg=Sidebar|Background|Surface
+r7 c3..6 bg=Sidebar|Background|Surface
+r7 c6..7 fg=Live bg=Sidebar|Background|Surface
+r7 c7..8 bg=Sidebar|Background|Surface
+r7 c8..15 fg=Foreground bg=Sidebar|Background|Surface
+r7 c15..20 fg=Muted bg=Sidebar|Background|Surface
+r7 c20..56 bg=Sidebar|Background|Surface
+r8 c0..56 bg=Sidebar|Background|Surface
+r9 c0..56 bg=Sidebar|Background|Surface
+
+== ansi-16
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention
+r0 c2..3 fg=Attention
+r0 c4..23 bold
+r1 c0..1 fg=Attention
+r1 c2..44 dim
+r2 c0..1 fg=Attention
+r2 c2..23 dim
+r4 c0..56 dim
+r5 c0..33 dim
+r7 c0..3 fg=Attention
+r7 c6..7 fg=Live|LivePeak
+r7 c15..20 dim
+
+== unknown-ground
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c0..1 fg=Attention
+r0 c2..3 fg=Attention
+r0 c4..23 bold
+r1 c0..1 fg=Attention
+r1 c2..44 dim
+r2 c0..1 fg=Attention
+r2 c2..23 dim
+r4 c0..56 dim
+r5 c0..33 dim
+r7 c0..3 fg=Attention
+r7 c6..7 fg=Live|LivePeak
+r7 c15..20 dim
+
+== no-color
+▏ ◆ Provider rate limit
+▏ Using fallback route while quota recovers.
+▏ r retry · Esc dismiss
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+99+   ✓ Passing (12)
+
+
+---
+r0 c4..23 bold
+r1 c2..44 dim
+r2 c2..23 dim
+r4 c0..56 dim
+r5 c0..33 dim
+r7 c15..20 dim
+
+== ascii
+| * Provider rate limit
+| Using fallback route while quota recovers.
+| r retry . Esc dismiss
+
+--------------------------------------------------------
+---------------------------------
+
+99+   Y Passing (12)
+
+
+---
+r0 c4..23 bold
+r1 c2..44 dim
+r2 c2..23 dim
+r4 c0..56 dim
+r5 c0..33 dim
+r7 c15..20 dim
