@@ -1,0 +1,53 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 fg=Muted bg=Background
+r0 c50..60 bg=Background
+
+== dark-graphite
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 fg=Muted bg=Background
+r0 c50..60 bg=Background
+
+== light-truecolor
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 fg=Muted bg=Background
+r0 c50..60 bg=Background
+
+== dark-256
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 fg=Muted bg=Background|Surface
+r0 c50..60 bg=Background|Surface
+
+== light-256
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 fg=Muted bg=Sidebar|Background|Surface
+r0 c50..60 bg=Sidebar|Background|Surface
+
+== ansi-16
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 dim
+
+== unknown-ground
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 dim
+
+== no-color
+Worked for 2m 14s · 6 steps · 12.4k tokens · $0.14
+---
+r0 c0..50 dim
+
+== ascii
+Worked for 2m 14s - 6 steps - 12.4k tokens - $0.14
+---
+r0 c0..50 dim

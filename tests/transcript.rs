@@ -422,3 +422,44 @@ fn mounted_viewport_offset_buffers_empty_resize_and_real_gallery_stay_bounded() 
         });
     }
 }
+
+#[test]
+fn code_block_docked_and_default_headers_clip_safely_at_narrow_widths() {
+    use codewhale_ratatui::{CodeBlock, Paint};
+    let block = CodeBlock::new(
+        "typescript-react-very-long-language-name",
+        "const a = 1;\nconst b = 2;\nconst c = 3;",
+    )
+    .docked_header(true);
+    for profile in [Profile::DarkTrue, Profile::Ascii] {
+        let theme = profile.theme();
+        for width in [1u16, 8, 20, 40, 80] {
+            let lines = block.lines(width, &theme);
+            assert!(!lines.is_empty());
+            let head = lines[0].to_string();
+            assert!(
+                codewhale_ratatui::text::width(&head) <= usize::from(width),
+                "docked header overflowed {width}: {head:?}"
+            );
+            if width >= 40 {
+                assert!(head.contains("3 lines"), "missing line count in {head:?}");
+                assert!(head.ends_with("Copy"), "Copy not right-aligned in {head:?}");
+            }
+            if profile == Profile::Ascii {
+                assert!(head.is_ascii(), "non-ASCII docked header: {head:?}");
+            }
+            let buf = render(width, 4, |area, buf| block.paint(area, buf, &theme));
+            assert_eq!(buf.area.width, width);
+        }
+    }
+
+    let plain = CodeBlock::new("typescript-react-very-long-language-name", "x");
+    for width in [1u16, 8, 16, 40] {
+        let theme = Profile::DarkTrue.theme();
+        let head = plain.lines(width, &theme)[0].to_string();
+        assert!(
+            codewhale_ratatui::text::width(&head) <= usize::from(width),
+            "default header overflowed {width}: {head:?}"
+        );
+    }
+}

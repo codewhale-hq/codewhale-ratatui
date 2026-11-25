@@ -128,3 +128,37 @@ fn every_workspace_surface_is_bounded_at_degenerate_sizes_and_buffer_edges() {
         }
     }
 }
+
+#[test]
+fn tool_card_diff_outcome_path_subject_and_edge_bounds() {
+    use codewhale_ratatui::testing;
+    let card = ToolCard::new("Edit", "packages/core/src/receipts.ts", State::Done)
+        .diff_outcome(14, 3)
+        .path_subject(true)
+        .output("updated summary")
+        .omitted_lines(2);
+
+    let dark = Profile::DarkTrue.theme();
+    let mut buf = Buffer::empty(Rect::new(0, 0, 60, 8));
+    card.paint(buf.area, &mut buf, &dark);
+    let shown = testing::text(&buf);
+    assert!(shown.contains("+14"));
+    assert!(shown.contains("\u{2212}3"));
+    assert!(shown.contains("packages/core/src/receipts.ts"));
+
+    let ascii = Profile::Ascii.theme();
+    let mut ascii_buf = Buffer::empty(Rect::new(0, 0, 60, 8));
+    card.paint(ascii_buf.area, &mut ascii_buf, &ascii);
+    let ascii_shown = testing::text(&ascii_buf);
+    assert!(ascii_shown.contains("+14 -3"));
+    assert!(ascii_shown.is_ascii());
+
+    let edge = Rect::new(u16::MAX - 12, u16::MAX - 6, 12, 6);
+    let mut edge_buf = Buffer::empty(edge);
+    card.paint(edge, &mut edge_buf, &dark);
+    let fleet = Fleet::new(vec![
+        AgentCard::new("Reviewer", State::Working).task("Checking diff"),
+    ])
+    .title("Active subagents");
+    fleet.paint(edge, &mut edge_buf, &dark);
+}

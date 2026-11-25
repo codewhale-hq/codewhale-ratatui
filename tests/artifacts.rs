@@ -340,3 +340,34 @@ fn the_last_representable_terminal_edges_keep_unicode_and_actions_in_bounds() {
         }
     }
 }
+
+#[test]
+fn artifact_chip_and_chip_row_handle_overflow_and_ascii() {
+    use codewhale_ratatui::{ArtifactChip, ArtifactChipRow, testing};
+
+    let chip = ArtifactChip::new("summary.md", ArtifactKind::File, State::Done);
+    let dark = Profile::DarkTrue.theme();
+    let mut buf = Buffer::empty(Rect::new(0, 0, 40, 1));
+    chip.paint(buf.area, &mut buf, &dark);
+    let text = testing::text(&buf);
+    assert!(text.contains("[File] summary.md"));
+    assert!(text.contains("Done"));
+
+    let row = ArtifactChipRow::new(vec![
+        ArtifactChip::new("summary.md", ArtifactKind::File, State::Done),
+        ArtifactChip::new("review.diff", ArtifactKind::Review, State::NeedsYou),
+        ArtifactChip::new("ci-log.txt", ArtifactKind::Run, State::Working),
+    ]);
+    let mut narrow = Buffer::empty(Rect::new(0, 0, 38, 1));
+    row.paint(narrow.area, &mut narrow, &dark);
+    let narrow_text = testing::text(&narrow);
+    assert!(narrow_text.contains("[File] summary.md"));
+    assert!(narrow_text.contains("+2 more"));
+
+    let ascii = Profile::Ascii.theme();
+    for width in [0u16, 1, 8, 20, 40, 80] {
+        let mut b = Buffer::empty(Rect::new(0, 0, width, 1));
+        row.paint(b.area, &mut b, &ascii);
+        assert!(testing::text(&b).is_ascii());
+    }
+}
