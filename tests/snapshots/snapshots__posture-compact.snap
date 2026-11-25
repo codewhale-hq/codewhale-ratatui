@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -52,9 +51,9 @@ r0 c95..96 bg=Background|DiffAddedTint
  ● ask   work (Tab)                                                               /rc connected
 ---
 r0 c1..6 fg=Attention bold
-r0 c6..9 fg=Muted|Hint|Dim
-r0 c9..13 fg=Accent
-r0 c13..19 fg=Muted|Hint|Dim
+r0 c6..9 fg=Hint|Dim
+r0 c9..13 fg=idx25
+r0 c13..19 fg=Hint|Dim
 r0 c82..95 fg=Accent
 
 == ansi-16

@@ -235,13 +235,13 @@ The conversation keeps its space.                                         │
 r0 c0..9 fg=Foreground|LivePeak
 r0 c74..75 fg=Border
 r0 c75..76 fg=Foreground|LivePeak
-r0 c76..103 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c76..103 fg=Foreground|LivePeak bg=Selected bold
 r0 c103..104 fg=Foreground|LivePeak
 r1 c74..75 fg=Border
 r1 c75..102 fg=Foreground|LivePeak
-r1 c102..103 fg=Muted|Hint|Dim
+r1 c102..103 fg=Muted
 r1 c103..104 fg=Foreground|LivePeak
-r2 c0..33 fg=Muted|Hint|Dim
+r2 c0..33 fg=Muted
 r2 c74..75 fg=Border
 r2 c75..104 fg=Foreground|LivePeak
 r3 c74..75 fg=Border

@@ -239,27 +239,43 @@ r5 c41..64 bg=Background|DiffAddedTint
 r0 c0..2 fg=Accent
 r0 c2..3 fg=Live
 r0 c4..19 fg=Foreground|LivePeak
-r0 c19..43 fg=Muted|Hint|Dim
-r1 c0..2 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c2..4 fg=Muted|Hint|Dim bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c4..5 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c5..6 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c6..17 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r1 c17..19 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c19..62 fg=Muted|Hint|Dim bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r1 c62..64 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r0 c19..26 fg=Muted
+r0 c26..29 fg=Hint|Dim
+r0 c29..35 fg=Muted
+r0 c35..38 fg=Hint|Dim
+r0 c38..43 fg=Muted
+r1 c0..2 fg=Accent bg=Selected
+r1 c2..4 fg=Hint|Dim bg=Selected
+r1 c4..5 fg=Live bg=Selected
+r1 c5..6 bg=Selected
+r1 c6..17 fg=Foreground|LivePeak bg=Selected bold
+r1 c17..19 fg=Foreground|LivePeak bg=Selected
+r1 c19..23 fg=Muted bg=Selected
+r1 c23..26 fg=Hint|Dim bg=Selected
+r1 c26..34 fg=Muted bg=Selected
+r1 c34..37 fg=Hint|Dim bg=Selected
+r1 c37..43 fg=Muted bg=Selected
+r1 c43..46 fg=Hint|Dim bg=Selected
+r1 c46..62 fg=Muted bg=Selected
+r1 c62..64 bg=Selected
 r2 c0..2 fg=Accent
-r2 c2..4 fg=Muted|Hint|Dim
+r2 c2..4 fg=Hint|Dim
 r2 c4..5 fg=Live
 r2 c6..19 fg=Foreground|LivePeak
-r2 c19..42 fg=Muted|Hint|Dim
+r2 c19..26 fg=Muted
+r2 c26..29 fg=Hint|Dim
+r2 c29..42 fg=Muted
 r3 c0..2 fg=Accent
-r3 c2..6 fg=Muted|Hint|Dim
+r3 c2..6 fg=Hint|Dim
 r3 c6..7 fg=Live
 r3 c8..19 fg=Foreground|LivePeak
-r3 c19..56 fg=Muted|Hint|Dim
-r4 c2..9 fg=Muted|Hint|Dim
-r5 c2..41 fg=Muted|Hint|Dim
+r3 c19..26 fg=Muted
+r3 c26..29 fg=Hint|Dim
+r3 c29..49 fg=Muted
+r3 c49..52 fg=Hint|Dim
+r3 c52..56 fg=Muted
+r4 c2..9 fg=Muted
+r5 c2..41 fg=Muted
 
 == ansi-16
   ● Release notes  working · 4m 06s · $0.38

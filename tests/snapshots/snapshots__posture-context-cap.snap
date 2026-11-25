@@ -43,7 +43,7 @@ r0 c43..57 fg=Live
 r0 c57..60 fg=Hint|Dim
 r0 c60..68 fg=Live
 r0 c68..71 fg=Hint|Dim
-r0 c71..96 fg=#a94724
+r0 c71..96 fg=Attention
 
 == dark-256
  ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   ▲ surface soon — /compact
@@ -64,14 +64,14 @@ r0 c96..112 bg=Background|DiffAddedTint
  ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   ▲ surface soon — /compact
 ---
 r0 c1..6 fg=Attention bold
-r0 c6..30 fg=Muted|Hint|Dim
-r0 c30..34 fg=Accent
-r0 c34..43 fg=Muted|Hint|Dim
+r0 c6..30 fg=Hint|Dim
+r0 c30..34 fg=idx25
+r0 c34..43 fg=Hint|Dim
 r0 c43..57 fg=Live
-r0 c57..60 fg=Muted|Hint|Dim
+r0 c57..60 fg=Hint|Dim
 r0 c60..68 fg=Live
-r0 c68..71 fg=Muted|Hint|Dim
-r0 c71..96 fg=idx130
+r0 c68..71 fg=Hint|Dim
+r0 c71..96 fg=Attention
 
 == ansi-16
  ● ask  Shift+Tab to change   work (Tab)   working 1m 15s   2 agents   ▲ surface soon — /compact

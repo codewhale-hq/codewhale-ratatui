@@ -495,9 +495,9 @@ r3 c29..89 fg=Border
 r3 c89..116 fg=Accent bold
 r3 c116..158 fg=Border
 r5 c3..31 fg=Foreground|LivePeak
-r5 c90..113 fg=Muted|Hint|Dim
+r5 c90..113 fg=Muted
 r6 c3..43 fg=Foreground|LivePeak
-r6 c90..156 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r6 c90..156 fg=Foreground|LivePeak bg=Selected bold
 r7 c3..28 fg=Foreground|LivePeak
 r7 c90..156 fg=Foreground|LivePeak
 r8 c3..36 fg=Foreground|LivePeak
@@ -511,23 +511,23 @@ r14 c3..13 fg=Foreground|LivePeak
 r15 c3..64 fg=Foreground|LivePeak
 r16 c3..63 fg=Foreground|LivePeak
 r25 c2..9 fg=Accent bold
-r25 c9..15 fg=Muted|Hint|Dim
+r25 c9..15 fg=Muted
 r25 c16..19 fg=Accent bold
-r25 c19..25 fg=Muted|Hint|Dim
+r25 c19..25 fg=Muted
 r25 c26..29 fg=Accent bold
-r25 c29..33 fg=Muted|Hint|Dim
+r25 c29..33 fg=Muted
 r25 c34..37 fg=Accent bold
-r25 c37..43 fg=Muted|Hint|Dim
+r25 c37..43 fg=Muted
 r25 c44..47 fg=Accent bold
-r25 c47..61 fg=Muted|Hint|Dim
+r25 c47..61 fg=Muted
 r25 c62..65 fg=Accent bold
-r25 c65..72 fg=Muted|Hint|Dim
+r25 c65..72 fg=Muted
 r25 c73..76 fg=Accent bold
-r25 c76..84 fg=Muted|Hint|Dim
+r25 c76..84 fg=Muted
 r25 c85..88 fg=Accent bold
-r25 c88..94 fg=Muted|Hint|Dim
+r25 c88..94 fg=Muted
 r25 c95..100 fg=Accent bold
-r25 c100..105 fg=Muted|Hint|Dim
+r25 c100..105 fg=Muted
 r26 c1..159 fg=Border
 
 == ansi-16

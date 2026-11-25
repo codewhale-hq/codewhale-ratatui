@@ -182,33 +182,33 @@ r7 c37..38 fg=Border bg=Sidebar
 ---
 r0 c0..38 fg=Border
 r1 c0..1 fg=Foreground|LivePeak
-r1 c1..8 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r1 c1..8 fg=Foreground|LivePeak bg=Selected bold
 r1 c8..10 fg=Foreground|LivePeak
-r1 c10..17 fg=Muted|Hint|Dim
+r1 c10..17 fg=Muted
 r1 c17..19 fg=Foreground|LivePeak
-r1 c19..25 fg=Muted|Hint|Dim
+r1 c19..25 fg=Muted
 r1 c25..35 fg=Foreground|LivePeak
-r1 c35..38 fg=Muted|Hint|Dim
+r1 c35..38 fg=Hint|Dim
 r2 c0..1 fg=Foreground|LivePeak
 r2 c1..30 fg=Live bold
 r2 c30..38 fg=Foreground|LivePeak
 r3 c0..1 fg=Foreground|LivePeak
-r3 c1..21 fg=Muted|Hint|Dim
+r3 c1..21 fg=Muted
 r3 c21..38 fg=Foreground|LivePeak
 r4 c0..1 fg=Foreground|LivePeak
-r4 c1..36 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r4 c1..36 fg=Live bg=Selected bold
 r4 c36..37 fg=Foreground|LivePeak
 r4 c37..38 fg=Border
 r5 c0..1 fg=Foreground|LivePeak
-r5 c1..36 fg=Muted|Hint|Dim
+r5 c1..36 fg=Muted
 r5 c36..37 fg=Foreground|LivePeak
 r5 c37..38 fg=Live
 r6 c0..1 fg=Foreground|LivePeak
-r6 c1..36 fg=Muted|Hint|Dim
+r6 c1..36 fg=Muted
 r6 c36..37 fg=Foreground|LivePeak
 r6 c37..38 fg=Border
 r7 c0..1 fg=Foreground|LivePeak
-r7 c1..36 fg=Muted|Hint|Dim
+r7 c1..36 fg=Muted
 r7 c36..37 fg=Foreground|LivePeak
 r7 c37..38 fg=Border
 

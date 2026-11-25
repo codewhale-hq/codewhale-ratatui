@@ -93,9 +93,9 @@ r2 c138..140 bg=Background
  ✕ Release-readiness audit  ××××××××××××××××××××  0/2 done · 2 failed  355ms   Authorization failed: sign in again
  ◆ Port the fixture suite   ███████████████×××××  3/4 done · 1 failed  2m 14s  finished with gaps · Timed out waiting for the model after…
 ---
-r0 c1..3 fg=#14763d
+r0 c1..3 fg=Live
 r0 c3..26 fg=Foreground|LivePeak bold
-r0 c28..48 fg=#14763d
+r0 c28..48 fg=Live
 r0 c50..58 fg=Muted
 r0 c71..77 fg=Muted
 r1 c1..3 fg=Danger
@@ -105,14 +105,14 @@ r1 c50..58 fg=Muted
 r1 c58..69 fg=Danger
 r1 c71..77 fg=Muted
 r1 c79..114 fg=Danger
-r2 c1..3 fg=#a94724
+r2 c1..3 fg=Attention
 r2 c3..26 fg=Foreground|LivePeak bold
-r2 c28..43 fg=#14763d
+r2 c28..43 fg=Live
 r2 c43..48 fg=Danger
 r2 c50..58 fg=Muted
 r2 c58..69 fg=Danger
 r2 c71..77 fg=Muted
-r2 c79..138 fg=#a94724
+r2 c79..138 fg=Attention
 
 == dark-256
  ✓ Inspect the files        ████████████████████  3/3 done             59s
@@ -165,23 +165,23 @@ r2 c138..140 bg=Background|DiffAddedTint
 r0 c1..3 fg=Live
 r0 c3..26 fg=Foreground|LivePeak bold
 r0 c28..48 fg=Live
-r0 c50..58 fg=Muted|Hint|Dim
-r0 c71..77 fg=Muted|Hint|Dim
+r0 c50..58 fg=Muted
+r0 c71..77 fg=Muted
 r1 c1..3 fg=Danger
 r1 c3..26 fg=Foreground|LivePeak bold
 r1 c28..48 fg=Danger
-r1 c50..58 fg=Muted|Hint|Dim
+r1 c50..58 fg=Muted
 r1 c58..69 fg=Danger
-r1 c71..77 fg=Muted|Hint|Dim
+r1 c71..77 fg=Muted
 r1 c79..114 fg=Danger
-r2 c1..3 fg=idx130
+r2 c1..3 fg=Attention
 r2 c3..26 fg=Foreground|LivePeak bold
 r2 c28..43 fg=Live
 r2 c43..48 fg=Danger
-r2 c50..58 fg=Muted|Hint|Dim
+r2 c50..58 fg=Muted
 r2 c58..69 fg=Danger
-r2 c71..77 fg=Muted|Hint|Dim
-r2 c79..138 fg=idx130
+r2 c71..77 fg=Muted
+r2 c79..138 fg=Attention
 
 == ansi-16
  ✓ Inspect the files        ████████████████████  3/3 done             59s

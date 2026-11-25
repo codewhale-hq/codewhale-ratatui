@@ -207,18 +207,18 @@ r11 c43..44 bg=Background|DiffAddedTint
 ---
 r0 c1..11 fg=Accent bold
 r0 c11..43 fg=Border
-r1 c2..25 fg=Muted|Hint|Dim
-r2 c2..41 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r1 c2..25 fg=Muted
+r2 c2..41 fg=Foreground|LivePeak bg=Selected bold
 r3 c2..41 fg=Foreground|LivePeak
 r4 c2..41 fg=Foreground|LivePeak
 r5 c2..41 fg=Foreground|LivePeak
 r6 c2..41 fg=Foreground|LivePeak
 r10 c2..9 fg=Accent bold
-r10 c9..15 fg=Muted|Hint|Dim
+r10 c9..15 fg=Muted
 r10 c16..19 fg=Accent bold
-r10 c19..25 fg=Muted|Hint|Dim
+r10 c19..25 fg=Muted
 r10 c26..31 fg=Accent bold
-r10 c31..36 fg=Muted|Hint|Dim
+r10 c31..36 fg=Muted
 r11 c1..43 fg=Border
 
 == ansi-16

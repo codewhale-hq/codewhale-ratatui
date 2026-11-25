@@ -113,9 +113,9 @@ r10 c0..2 bg=Background
 r10 c2..5 fg=Foreground|LivePeak bg=Background
 r10 c5..8 fg=Hint|Dim bg=Background
 r10 c8..30 fg=Foreground|LivePeak bg=Background
-r10 c34..36 bg=Live
-r10 c36..38 bg=Attention
-r10 c38..40 bg=Primary
+r10 c34..36 bg=#7fdfc8
+r10 c36..38 bg=#f0be82
+r10 c38..40 bg=#94beff
 r10 c40..42 bg=Background
 r10 c42..100 fg=Hint|Dim bg=Background
 r10 c100..120 bg=Background
@@ -123,9 +123,9 @@ r11 c0..2 bg=Background
 r11 c2..5 fg=Foreground|LivePeak bg=Background
 r11 c5..8 fg=Hint|Dim bg=Background
 r11 c8..30 fg=Foreground|LivePeak bg=Background
-r11 c34..36 bg=#08766d
-r11 c36..38 bg=#7a5500
-r11 c38..40 bg=#1535b2
+r11 c34..36 bg=#146857
+r11 c36..38 bg=#7b4b06
+r11 c38..40 bg=#1552c6
 r11 c40..42 bg=Background
 r11 c42..96 fg=Hint|Dim bg=Background
 r11 c96..120 bg=Background
@@ -366,9 +366,9 @@ r10 c0..2 bg=Background
 r10 c2..5 fg=Foreground|LivePeak bg=Background
 r10 c5..8 fg=Hint|Dim bg=Background
 r10 c8..30 fg=Foreground|LivePeak bg=Background
-r10 c34..36 bg=Live
-r10 c36..38 bg=Attention
-r10 c38..40 bg=Primary
+r10 c34..36 bg=#7fdfc8
+r10 c36..38 bg=#f0be82
+r10 c38..40 bg=#94beff
 r10 c40..42 bg=Background
 r10 c42..100 fg=Hint|Dim bg=Background
 r10 c100..120 bg=Background
@@ -376,9 +376,9 @@ r11 c0..2 bg=Background
 r11 c2..5 fg=Foreground|LivePeak bg=Background
 r11 c5..8 fg=Hint|Dim bg=Background
 r11 c8..30 fg=Foreground|LivePeak bg=Background
-r11 c34..36 bg=#08766d
-r11 c36..38 bg=#7a5500
-r11 c38..40 bg=#1535b2
+r11 c34..36 bg=#146857
+r11 c36..38 bg=#7b4b06
+r11 c38..40 bg=#1552c6
 r11 c40..42 bg=Background
 r11 c42..96 fg=Hint|Dim bg=Background
 r11 c96..120 bg=Background
@@ -569,7 +569,7 @@ r7 c8..30 fg=Foreground|LivePeak
 r7 c30..32 bg=#f5f0e9
 r7 c32..34 bg=#ece5e0
 r7 c34..36 bg=#1f7a6b
-r7 c36..38 bg=Attention
+r7 c36..38 bg=#7a5500
 r7 c38..40 bg=#006684
 r7 c42..99 fg=Hint|Dim
 r8 c2..5 fg=Foreground|LivePeak bg=Selected bold
@@ -593,9 +593,9 @@ r9 c42..101 fg=Hint|Dim
 r10 c2..5 fg=Foreground|LivePeak
 r10 c5..8 fg=Hint|Dim
 r10 c8..30 fg=Foreground|LivePeak
-r10 c34..36 bg=#4fd1c5
-r10 c36..38 bg=#f6c453
-r10 c38..40 bg=#6aa6dc
+r10 c34..36 bg=#7fdfc8
+r10 c36..38 bg=#f0be82
+r10 c38..40 bg=#94beff
 r10 c42..100 fg=Hint|Dim
 r11 c2..5 fg=Foreground|LivePeak
 r11 c5..8 fg=Hint|Dim
@@ -802,9 +802,9 @@ r10 c0..2 bg=Background|DiffAddedTint
 r10 c2..5 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r10 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
 r10 c8..30 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r10 c34..36 bg=Live
-r10 c36..38 bg=Attention
-r10 c38..40 bg=Primary
+r10 c34..36 bg=idx116
+r10 c36..38 bg=idx216
+r10 c38..40 bg=idx111
 r10 c40..42 bg=Background|DiffAddedTint
 r10 c42..100 fg=Hint|Dim bg=Background|DiffAddedTint
 r10 c100..120 bg=Background|DiffAddedTint
@@ -812,9 +812,9 @@ r11 c0..2 bg=Background|DiffAddedTint
 r11 c2..5 fg=Foreground|LivePeak bg=Background|DiffAddedTint
 r11 c5..8 fg=Hint|Dim bg=Background|DiffAddedTint
 r11 c8..30 fg=Foreground|LivePeak bg=Background|DiffAddedTint
-r11 c34..36 bg=idx29
+r11 c34..36 bg=idx23
 r11 c36..38 bg=idx94
-r11 c38..40 bg=idx25
+r11 c38..40 bg=idx26
 r11 c40..42 bg=Background|DiffAddedTint
 r11 c42..96 fg=Hint|Dim bg=Background|DiffAddedTint
 r11 c96..120 bg=Background|DiffAddedTint
@@ -976,153 +976,153 @@ r27 c0..120 bg=Background|DiffAddedTint
 r1 c1..23 fg=Accent bold
 r1 c23..119 fg=Border
 r4 c2..5 fg=Foreground|LivePeak
-r4 c5..8 fg=Muted|Hint|Dim
+r4 c5..8 fg=Hint|Dim
 r4 c8..30 fg=Foreground|LivePeak
 r4 c34..36 bg=Live
 r4 c36..38 bg=Attention
 r4 c38..40 bg=Primary
-r4 c42..99 fg=Muted|Hint|Dim
+r4 c42..99 fg=Hint|Dim
 r5 c2..5 fg=Foreground|LivePeak
-r5 c5..8 fg=Muted|Hint|Dim
+r5 c5..8 fg=Hint|Dim
 r5 c8..30 fg=Foreground|LivePeak
 r5 c34..36 bg=Cyan
 r5 c36..38 bg=Yellow
 r5 c38..40 bg=Blue
-r5 c42..108 fg=Muted|Hint|Dim
+r5 c42..108 fg=Hint|Dim
 r6 c2..5 fg=Foreground|LivePeak
-r6 c5..8 fg=Muted|Hint|Dim
+r6 c5..8 fg=Hint|Dim
 r6 c8..30 fg=Foreground|LivePeak
 r6 c30..32 bg=Foreground|LivePeak
 r6 c32..34 bg=idx236
 r6 c34..36 bg=idx116
 r6 c36..38 bg=idx221
 r6 c38..40 bg=idx74
-r6 c42..107 fg=Muted|Hint|Dim
+r6 c42..107 fg=Hint|Dim
 r7 c2..5 fg=Foreground|LivePeak
-r7 c5..8 fg=Muted|Hint|Dim
+r7 c5..8 fg=Hint|Dim
 r7 c8..30 fg=Foreground|LivePeak
-r7 c30..32 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c30..32 bg=Hover
 r7 c32..34 bg=idx254
-r7 c34..36 bg=Live
+r7 c34..36 bg=idx29
 r7 c36..38 bg=Attention
 r7 c38..40 bg=idx24
-r7 c42..99 fg=Muted|Hint|Dim
-r8 c2..5 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r8 c5..8 fg=Live bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r8 c8..30 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r7 c42..99 fg=Hint|Dim
+r8 c2..5 fg=Foreground|LivePeak bg=Selected bold
+r8 c5..8 fg=Live bg=Selected bold
+r8 c8..30 fg=Foreground|LivePeak bg=Selected bold
 r8 c30..32 bg=idx234
 r8 c32..34 bg=Foreground|LivePeak
 r8 c34..36 bg=idx80
 r8 c36..38 bg=idx221
 r8 c38..40 bg=idx74
-r8 c42..103 fg=Muted|Hint|Dim bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c42..103 fg=Hint|Dim bg=Selected
 r9 c2..5 fg=Foreground|LivePeak
-r9 c5..8 fg=Muted|Hint|Dim
+r9 c5..8 fg=Hint|Dim
 r9 c8..30 fg=Foreground|LivePeak
 r9 c30..34 bg=idx233
 r9 c34..36 bg=idx80
 r9 c36..38 bg=idx221
 r9 c38..40 bg=idx74
-r9 c42..101 fg=Muted|Hint|Dim
+r9 c42..101 fg=Hint|Dim
 r10 c2..5 fg=Foreground|LivePeak
-r10 c5..8 fg=Muted|Hint|Dim
+r10 c5..8 fg=Hint|Dim
 r10 c8..30 fg=Foreground|LivePeak
-r10 c34..36 bg=idx80
-r10 c36..38 bg=idx221
-r10 c38..40 bg=idx74
-r10 c42..100 fg=Muted|Hint|Dim
+r10 c34..36 bg=idx116
+r10 c36..38 bg=idx216
+r10 c38..40 bg=idx111
+r10 c42..100 fg=Hint|Dim
 r11 c2..5 fg=Foreground|LivePeak
-r11 c5..8 fg=Muted|Hint|Dim
+r11 c5..8 fg=Hint|Dim
 r11 c8..30 fg=Foreground|LivePeak
 r11 c34..36 bg=Live
 r11 c36..38 bg=Attention
 r11 c38..40 bg=Primary
-r11 c42..96 fg=Muted|Hint|Dim
+r11 c42..96 fg=Hint|Dim
 r12 c2..5 fg=Foreground|LivePeak
-r12 c5..8 fg=Muted|Hint|Dim
+r12 c5..8 fg=Hint|Dim
 r12 c8..30 fg=Foreground|LivePeak
 r12 c30..32 bg=idx232
 r12 c32..34 bg=idx233
 r12 c34..36 bg=idx249
 r12 c36..38 bg=idx252
-r12 c38..40 bg=idx253
-r12 c42..69 fg=Muted|Hint|Dim
+r12 c38..40 bg=DiffAddedTint
+r12 c42..69 fg=Hint|Dim
 r13 c2..5 fg=Foreground|LivePeak
-r13 c5..9 fg=Muted|Hint|Dim
+r13 c5..9 fg=Hint|Dim
 r13 c9..31 fg=Foreground|LivePeak
 r13 c31..33 bg=Foreground|LivePeak
 r13 c33..35 bg=idx234
 r13 c35..37 bg=idx117
 r13 c37..39 bg=idx216
 r13 c39..41 bg=idx111
-r13 c43..68 fg=Muted|Hint|Dim
+r13 c43..68 fg=Hint|Dim
 r14 c2..5 fg=Foreground|LivePeak
-r14 c5..9 fg=Muted|Hint|Dim
+r14 c5..9 fg=Hint|Dim
 r14 c9..31 fg=Foreground|LivePeak
 r14 c31..35 bg=idx234
 r14 c35..37 bg=idx117
 r14 c37..39 bg=idx215
 r14 c39..41 bg=idx111
-r14 c43..73 fg=Muted|Hint|Dim
+r14 c43..73 fg=Hint|Dim
 r15 c2..5 fg=Foreground|LivePeak
-r15 c5..9 fg=Muted|Hint|Dim
+r15 c5..9 fg=Hint|Dim
 r15 c9..31 fg=Foreground|LivePeak
 r15 c31..33 bg=idx236
 r15 c33..35 bg=Foreground|LivePeak
 r15 c35..37 bg=idx117
 r15 c37..39 bg=idx215
 r15 c39..41 bg=idx141
-r15 c43..71 fg=Muted|Hint|Dim
+r15 c43..71 fg=Hint|Dim
 r16 c2..5 fg=Foreground|LivePeak
-r16 c5..9 fg=Muted|Hint|Dim
+r16 c5..9 fg=Hint|Dim
 r16 c9..31 fg=Foreground|LivePeak
 r16 c31..33 bg=Foreground|LivePeak
 r16 c33..35 bg=idx237
 r16 c35..37 bg=idx108
 r16 c37..39 bg=idx208
 r16 c39..41 bg=idx108
-r16 c43..67 fg=Muted|Hint|Dim
+r16 c43..67 fg=Hint|Dim
 r17 c2..5 fg=Foreground|LivePeak
-r17 c5..9 fg=Muted|Hint|Dim
+r17 c5..9 fg=Hint|Dim
 r17 c9..31 fg=Foreground|LivePeak
 r17 c31..33 bg=idx233
 r17 c33..35 bg=Foreground|LivePeak
 r17 c35..37 bg=idx73
 r17 c37..39 bg=idx179
 r17 c39..41 bg=idx173
-r17 c43..60 fg=Muted|Hint|Dim
+r17 c43..60 fg=Hint|Dim
 r18 c2..5 fg=Foreground|LivePeak
-r18 c5..9 fg=Muted|Hint|Dim
+r18 c5..9 fg=Hint|Dim
 r18 c9..31 fg=Foreground|LivePeak
 r18 c31..35 bg=idx16
 r18 c35..37 bg=idx28
 r18 c37..39 bg=idx120
 r18 c39..41 bg=idx40
-r18 c43..74 fg=Muted|Hint|Dim
+r18 c43..74 fg=Hint|Dim
 r19 c2..5 fg=Foreground|LivePeak
-r19 c5..9 fg=Muted|Hint|Dim
+r19 c5..9 fg=Hint|Dim
 r19 c9..31 fg=Foreground|LivePeak
 r19 c31..33 bg=idx230
-r19 c33..35 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r19 c33..35 bg=Hover
 r19 c35..37 bg=idx36
 r19 c37..39 bg=idx166
 r19 c39..41 bg=idx32
-r19 c43..116 fg=Muted|Hint|Dim
+r19 c43..116 fg=Hint|Dim
 r20 c2..5 fg=Foreground|LivePeak
-r20 c5..9 fg=Muted|Hint|Dim
+r20 c5..9 fg=Hint|Dim
 r20 c9..31 fg=Foreground|LivePeak
 r20 c31..33 bg=idx233
 r20 c33..35 bg=idx234
 r20 c35..37 bg=idx122
 r20 c37..39 bg=idx222
 r20 c39..41 bg=idx218
-r20 c43..86 fg=Muted|Hint|Dim
+r20 c43..86 fg=Hint|Dim
 r25 c2..7 fg=Accent bold
-r25 c7..14 fg=Muted|Hint|Dim
+r25 c7..14 fg=Muted
 r25 c15..22 fg=Accent bold
-r25 c22..26 fg=Muted|Hint|Dim
+r25 c22..26 fg=Muted
 r25 c27..32 fg=Accent bold
-r25 c32..38 fg=Muted|Hint|Dim
+r25 c32..38 fg=Muted
 r26 c1..119 fg=Border
 
 == ansi-16

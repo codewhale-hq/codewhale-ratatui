@@ -233,17 +233,17 @@ r11 c30..104 bg=Background|DiffAddedTint
                              │
 ---
 r0 c0..1 fg=Foreground|LivePeak
-r0 c1..28 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c1..28 fg=Foreground|LivePeak bg=Selected bold
 r0 c28..29 fg=Foreground|LivePeak
 r0 c29..30 fg=Border
 r0 c30..39 fg=Foreground|LivePeak
 r1 c0..27 fg=Foreground|LivePeak
-r1 c27..28 fg=Muted|Hint|Dim
+r1 c27..28 fg=Muted
 r1 c28..29 fg=Foreground|LivePeak
 r1 c29..30 fg=Border
 r2 c0..29 fg=Foreground|LivePeak
 r2 c29..30 fg=Border
-r2 c30..63 fg=Muted|Hint|Dim
+r2 c30..63 fg=Muted
 r3 c0..29 fg=Foreground|LivePeak
 r3 c29..30 fg=Border
 r4 c0..29 fg=Foreground|LivePeak

@@ -872,7 +872,7 @@ r5 c87..88 fg=Accent
 r5 c88..104 fg=Foreground|LivePeak
 r6 c0..16 fg=Foreground|LivePeak
 r6 c16..17 fg=Accent
-r6 c18..31 fg=Muted|Hint|Dim
+r6 c18..31 fg=Muted
 r6 c31..39 fg=Foreground|LivePeak bold
 r6 c87..88 fg=Accent
 r6 c88..104 fg=Foreground|LivePeak
@@ -884,12 +884,12 @@ r7 c87..88 fg=Accent
 r7 c88..104 fg=Foreground|LivePeak
 r8 c0..16 fg=Foreground|LivePeak
 r8 c16..17 fg=Accent
-r8 c18..37 fg=Muted|Hint|Dim
+r8 c18..37 fg=Muted
 r8 c87..88 fg=Accent
 r8 c88..104 fg=Foreground|LivePeak
 r9 c0..16 fg=Foreground|LivePeak
 r9 c16..17 fg=Accent
-r9 c18..21 fg=Muted|Hint|Dim
+r9 c18..21 fg=Muted
 r9 c21..38 fg=Foreground|LivePeak
 r9 c87..88 fg=Accent
 r9 c88..104 fg=Foreground|LivePeak
@@ -910,11 +910,11 @@ r12 c19..20 fg=Foreground|LivePeak
 r12 c20..21 fg=Foreground|LivePeak bold
 r12 c21..32 fg=Foreground|LivePeak
 r12 c32..35 fg=Border
-r12 c35..36 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r12 c36..37 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r12 c37..38 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r12 c38..39 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r12 c39..51 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r12 c35..36 fg=Accent bg=Selected bold
+r12 c36..37 fg=Foreground|LivePeak bg=Selected
+r12 c37..38 fg=Foreground|LivePeak bg=Selected bold
+r12 c38..39 fg=Foreground|LivePeak bg=Selected
+r12 c39..51 fg=Foreground|LivePeak bg=Selected bold
 r12 c87..88 fg=Accent
 r12 c88..104 fg=Foreground|LivePeak
 r13 c0..16 fg=Foreground|LivePeak
@@ -924,13 +924,13 @@ r13 c88..104 fg=Foreground|LivePeak
 r14 c0..16 fg=Foreground|LivePeak
 r14 c16..17 fg=Accent
 r14 c18..20 fg=Foreground|LivePeak bold
-r14 c21..25 fg=Muted|Hint|Dim
+r14 c21..25 fg=Muted
 r14 c25..28 fg=Border
 r14 c28..33 fg=Foreground|LivePeak bold
-r14 c34..40 fg=Muted|Hint|Dim
+r14 c34..40 fg=Muted
 r14 c40..43 fg=Border
 r14 c43..46 fg=Foreground|LivePeak bold
-r14 c47..53 fg=Muted|Hint|Dim
+r14 c47..53 fg=Muted
 r14 c87..88 fg=Accent
 r14 c88..104 fg=Foreground|LivePeak
 r15 c0..16 fg=Foreground|LivePeak

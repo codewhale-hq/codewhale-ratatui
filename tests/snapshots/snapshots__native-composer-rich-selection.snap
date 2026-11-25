@@ -213,12 +213,12 @@ r1 c0..1 fg=Accent
 r1 c71..72 fg=Accent
 r2 c0..2 fg=Accent
 r2 c3..10 fg=Foreground|LivePeak
-r2 c10..17 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c10..17 fg=Foreground|LivePeak bg=Selected
 r2 c17..47 fg=Foreground|LivePeak
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
 r3 c2..19 fg=Foreground|LivePeak
-r3 c19..65 fg=Muted|Hint|Dim
+r3 c19..65 fg=Muted
 r3 c71..72 fg=Accent
 r4 c0..1 fg=Accent
 r4 c2..19 fg=Accent
@@ -232,7 +232,7 @@ r7 c0..1 fg=Accent
 r7 c67..70 fg=Accent bold
 r7 c71..72 fg=Accent
 r8 c0..1 fg=Accent
-r8 c1..32 fg=Muted|Hint|Dim
+r8 c1..32 fg=Muted
 r8 c32..72 fg=Accent
 
 == ansi-16

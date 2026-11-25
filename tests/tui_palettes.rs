@@ -318,6 +318,59 @@ fn each_native_palette_has_a_named_gallery_entry_that_paints_its_own_preset() {
 }
 
 #[test]
+fn whale_palettes_match_design_5_5_0_obsidian_and_porcelain_tokens() {
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Foreground),
+        Color::Rgb(237, 241, 247)
+    );
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Accent),
+        Color::Rgb(148, 190, 255)
+    );
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Live),
+        Color::Rgb(127, 223, 200)
+    );
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Attention),
+        Color::Rgb(240, 190, 130)
+    );
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Danger),
+        Color::Rgb(244, 168, 160)
+    );
+    assert_eq!(
+        TuiPalette::Whale.color(Role::Border),
+        Color::Rgb(38, 48, 64)
+    );
+
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Foreground),
+        Color::Rgb(22, 34, 48)
+    );
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Accent),
+        Color::Rgb(21, 82, 198)
+    );
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Live),
+        Color::Rgb(20, 104, 87)
+    );
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Attention),
+        Color::Rgb(123, 75, 6)
+    );
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Danger),
+        Color::Rgb(164, 37, 49)
+    );
+    assert_eq!(
+        TuiPalette::WhaleLight.color(Role::Border),
+        Color::Rgb(213, 221, 232)
+    );
+}
+
+#[test]
 fn native_palette_gallery_keeps_bounds_and_fallback_profiles() {
     let entries = gallery::entries();
     for entry in entries

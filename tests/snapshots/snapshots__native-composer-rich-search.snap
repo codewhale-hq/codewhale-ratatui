@@ -154,14 +154,14 @@ r6 c32..72 fg=Accent bg=Surface|Hover|DiffRemovedTint
 ╰Enter chooses; Esc closes menu ───────────────────────────────────────╯
 ---
 r0 c0..1 fg=Accent
-r0 c1..16 fg=Muted|Hint|Dim
+r0 c1..16 fg=Muted
 r0 c16..63 fg=Accent
 r0 c63..71 fg=Attention bold
 r0 c71..72 fg=Accent bold
 r1 c0..1 fg=Accent
 r1 c71..72 fg=Accent
 r2 c0..1 fg=Accent
-r2 c1..23 fg=Muted|Hint|Dim
+r2 c1..23 fg=Muted
 r2 c71..72 fg=Accent
 r3 c0..1 fg=Accent
 r3 c1..22 fg=Foreground|LivePeak
@@ -172,7 +172,7 @@ r5 c0..1 fg=Accent
 r5 c67..70 fg=Accent bold
 r5 c71..72 fg=Accent
 r6 c0..1 fg=Accent
-r6 c1..32 fg=Muted|Hint|Dim
+r6 c1..32 fg=Muted
 r6 c32..72 fg=Accent
 
 == ansi-16

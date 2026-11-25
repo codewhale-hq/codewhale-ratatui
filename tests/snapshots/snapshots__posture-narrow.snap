@@ -48,9 +48,9 @@ r0 c36..40 bg=Background|DiffAddedTint
  ● ask   work (Tab)   working 1m 15s
 ---
 r0 c1..6 fg=Attention bold
-r0 c6..9 fg=Muted|Hint|Dim
-r0 c9..13 fg=Accent
-r0 c13..22 fg=Muted|Hint|Dim
+r0 c6..9 fg=Hint|Dim
+r0 c9..13 fg=idx25
+r0 c13..22 fg=Hint|Dim
 r0 c22..36 fg=Live
 
 == ansi-16

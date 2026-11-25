@@ -1,6 +1,5 @@
 ---
 source: tests/snapshots.rs
-assertion_line: 37
 expression: dump(&entry)
 ---
 == dark-truecolor
@@ -53,9 +52,11 @@ r0 c29..32 bg=Background|DiffAddedTint
 deepseek-v4   ctx 61%   $0.42
 ---
 r0 c0..11 fg=Accent
-r0 c11..17 fg=Muted|Hint|Dim
+r0 c11..14 fg=Hint|Dim
+r0 c14..17 fg=Muted
 r0 c18..21 fg=Accent
-r0 c21..29 fg=Muted|Hint|Dim
+r0 c21..24 fg=Hint|Dim
+r0 c24..29 fg=Muted
 
 == ansi-16
 deepseek-v4   ctx 61%   $0.42

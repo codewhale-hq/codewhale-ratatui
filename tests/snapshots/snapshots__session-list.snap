@@ -104,8 +104,8 @@ scope and sort · recent
 
 
 ---
-r0 c0..23 fg=Muted|Hint|Dim
-r1 c0..90 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
+r0 c0..23 fg=Muted
+r1 c0..90 fg=Foreground|LivePeak bg=Selected bold
 r2 c0..76 fg=Foreground|LivePeak
 r3 c0..94 fg=Foreground|LivePeak
 r4 c0..86 fg=Foreground|LivePeak

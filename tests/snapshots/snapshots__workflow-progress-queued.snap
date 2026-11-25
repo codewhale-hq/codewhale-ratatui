@@ -57,8 +57,8 @@ r0 c46..55 fg=Muted
 r0 c55..66 fg=Danger
 r0 c68..70 fg=Muted
 r0 c72..78 fg=Muted
-r0 c80..96 fg=#a94724
-r0 c97..107 fg=#a94724
+r0 c80..96 fg=Attention
+r0 c97..107 fg=Attention
 
 == dark-256
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued
@@ -88,13 +88,13 @@ r0 c107..120 bg=Background|DiffAddedTint
 r0 c1..3 fg=Live
 r0 c3..22 fg=Foreground|LivePeak bold
 r0 c24..25 fg=Danger
-r0 c25..44 fg=Muted|Hint|Dim
-r0 c46..55 fg=Muted|Hint|Dim
+r0 c25..44 fg=Hint|Dim
+r0 c46..55 fg=Muted
 r0 c55..66 fg=Danger
-r0 c68..70 fg=Muted|Hint|Dim
-r0 c72..78 fg=Muted|Hint|Dim
-r0 c80..96 fg=idx130
-r0 c97..107 fg=idx130
+r0 c68..70 fg=Muted
+r0 c72..78 fg=Muted
+r0 c80..96 fg=Attention
+r0 c97..107 fg=Attention
 
 == ansi-16
  • Compare the modules  ×░░░░░░░░░░░░░░░░░░░  0/25 done · 1 failed  5s  ↓48.4k  ⚠ Large workflow · 2 queued

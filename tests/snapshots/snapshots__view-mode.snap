@@ -404,46 +404,46 @@ r3 c7..13 fg=Accent bold
 r3 c13..74 fg=Border
 r4 c6..7 fg=Border
 r4 c73..74 fg=Border
-r4 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r4 c74..75 bg=Hover
 r5 c6..7 fg=Border
-r5 c8..9 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c9..10 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c10..21 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold
-r5 c21..71 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r5 c71..72 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c8..9 fg=Accent bg=Selected
+r5 c9..10 bg=Selected
+r5 c10..21 fg=Foreground|LivePeak bg=Selected bold
+r5 c21..71 fg=Foreground|LivePeak bg=Selected
+r5 c71..72 bg=Selected
 r5 c73..74 fg=Border
-r5 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r5 c74..75 bg=Hover
 r6 c6..7 fg=Border
 r6 c10..21 fg=Foreground|LivePeak
-r6 c21..70 fg=Muted|Hint|Dim
+r6 c21..70 fg=Muted
 r6 c73..74 fg=Border
-r6 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r6 c74..75 bg=Hover
 r7 c6..7 fg=Border
 r7 c10..21 fg=Foreground|LivePeak
-r7 c21..69 fg=Muted|Hint|Dim
+r7 c21..69 fg=Muted
 r7 c73..74 fg=Border
-r7 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r7 c74..75 bg=Hover
 r8 c6..7 fg=Border
 r8 c73..74 fg=Border
-r8 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c74..75 bg=Hover
 r9 c6..7 fg=Border
 r9 c73..74 fg=Border
-r9 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r9 c74..75 bg=Hover
 r10 c6..7 fg=Border
 r10 c8..13 fg=Accent bold
-r10 c13..17 fg=Muted|Hint|Dim
+r10 c13..17 fg=Muted
 r10 c18..25 fg=Accent bold
-r10 c25..31 fg=Muted|Hint|Dim
+r10 c25..31 fg=Muted
 r10 c32..37 fg=Accent bold
-r10 c37..43 fg=Muted|Hint|Dim
+r10 c37..43 fg=Muted
 r10 c73..74 fg=Border
-r10 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r10 c74..75 bg=Hover
 r11 c6..7 fg=Border
 r11 c73..74 fg=Border
-r11 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r11 c74..75 bg=Hover
 r12 c6..74 fg=Border
-r12 c74..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r13 c7..75 bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c74..75 bg=Hover
+r13 c7..75 bg=Hover
 
 == ansi-16
 

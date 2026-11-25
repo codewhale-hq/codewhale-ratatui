@@ -45,7 +45,7 @@ r0 c90..110 bg=Background
 ---
 r0 c1..3 fg=Live
 r0 c3..31 fg=Foreground|LivePeak bold
-r0 c33..41 fg=#14763d
+r0 c33..41 fg=Live
 r0 c41..43 fg=Danger
 r0 c43..53 fg=Hint|Dim
 r0 c55..64 fg=Muted
@@ -79,11 +79,11 @@ r0 c1..3 fg=Live
 r0 c3..31 fg=Foreground|LivePeak bold
 r0 c33..41 fg=Live
 r0 c41..43 fg=Danger
-r0 c43..53 fg=Muted|Hint|Dim
-r0 c55..64 fg=Muted|Hint|Dim
+r0 c43..53 fg=Hint|Dim
+r0 c55..64 fg=Muted
 r0 c64..75 fg=Danger
-r0 c77..83 fg=Muted|Hint|Dim
-r0 c85..90 fg=Muted|Hint|Dim
+r0 c77..83 fg=Muted
+r0 c85..90 fg=Muted
 
 == ansi-16
  • Compare Cline with Codewhale  ████████××░░░░░░░░░░  4/10 done · 1 failed  2m 14s  ↓1.2M

@@ -655,50 +655,50 @@ Deep                        Stage                       Raised                  
 r0 c0..10 fg=Foreground|LivePeak bold
 r0 c10..112 fg=Foreground|LivePeak
 r1 c0..112 fg=Foreground|LivePeak
-r2 c0..1 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r2 c1..6 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
-r2 c6..7 fg=Accent bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r2 c0..1 fg=Accent bg=Selected
+r2 c1..6 fg=Foreground|LivePeak bg=Selected bold underline
+r2 c6..7 fg=Accent bg=Selected
 r2 c7..9 fg=Foreground|LivePeak
-r2 c9..15 fg=Muted|Hint|Dim
+r2 c9..15 fg=Muted
 r2 c15..18 fg=Foreground|LivePeak
-r2 c18..22 fg=Muted|Hint|Dim
+r2 c18..22 fg=Muted
 r2 c22..25 fg=Foreground|LivePeak
-r2 c25..30 fg=Muted|Hint|Dim
+r2 c25..30 fg=Muted
 r2 c30..33 fg=Foreground|LivePeak
-r2 c33..41 fg=Muted|Hint|Dim
+r2 c33..41 fg=Muted
 r2 c41..112 fg=Foreground|LivePeak
 r3 c0..112 fg=Foreground|LivePeak
-r4 c0..1 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r4 c1..5 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
-r4 c5..6 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r4 c0..1 fg=Foreground|LivePeak bg=Selected
+r4 c1..5 fg=Foreground|LivePeak bg=Selected bold underline
+r4 c5..6 fg=Foreground|LivePeak bg=Selected
 r4 c6..8 fg=Foreground|LivePeak
-r4 c8..15 fg=Muted|Hint|Dim
+r4 c8..15 fg=Muted
 r4 c15..18 fg=Foreground|LivePeak
-r4 c18..23 fg=Muted|Hint|Dim
+r4 c18..23 fg=Muted
 r4 c23..112 fg=Foreground|LivePeak
 r5 c0..112 fg=Foreground|LivePeak
-r6 c0..36 fg=Muted|Hint|Dim
+r6 c0..36 fg=Muted
 r6 c36..112 fg=Foreground|LivePeak
 r7 c0..112 fg=Foreground|LivePeak
 r8 c0..1 fg=Foreground|LivePeak
-r8 c1..9 fg=Muted|Hint|Dim
+r8 c1..9 fg=Muted
 r8 c9..11 fg=Foreground|LivePeak
-r8 c11..12 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
-r8 c12..20 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint bold underline
-r8 c20..21 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r8 c11..12 fg=Foreground|LivePeak bg=Selected
+r8 c12..20 fg=Foreground|LivePeak bg=Selected bold underline
+r8 c20..21 fg=Foreground|LivePeak bg=Selected
 r8 c21..112 fg=Foreground|LivePeak
 r9 c0..112 fg=Foreground|LivePeak
 r10 c0..112 fg=Foreground|LivePeak
 r11 c0..112 fg=Foreground|LivePeak
 r12 c0..33 fg=Foreground|LivePeak
-r12 c33..36 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c33..36 fg=Foreground|LivePeak bg=Hover
 r12 c36..70 fg=Foreground|LivePeak
-r12 c70..73 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r12 c70..73 fg=Foreground|LivePeak bg=Selected
 r12 c73..112 fg=Foreground|LivePeak
 r13 c0..33 fg=Foreground|LivePeak
 r13 c33..36 fg=Subagent|BorderStrong
 r13 c36..70 fg=Foreground|LivePeak
-r13 c70..73 fg=Muted|Hint|Dim
+r13 c70..73 fg=Muted
 r13 c73..107 fg=Foreground|LivePeak
 r13 c107..110 fg=Border
 r13 c110..112 fg=Foreground|LivePeak
@@ -719,21 +719,21 @@ r16 c33..36 fg=Attention
 r16 c36..70 fg=Foreground|LivePeak
 r16 c70..73 fg=Danger
 r16 c73..107 fg=Foreground|LivePeak
-r16 c107..110 fg=Muted|Hint|Dim
+r16 c107..110 fg=Hint|Dim
 r16 c110..112 fg=Foreground|LivePeak
 r17 c0..33 fg=Foreground|LivePeak
-r17 c33..36 fg=Muted|Hint|Dim
+r17 c33..36 fg=Hint|Dim
 r17 c36..70 fg=Foreground|LivePeak
-r17 c70..73 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c70..73 fg=Foreground|LivePeak bg=DiffAddedTint
 r17 c73..107 fg=Foreground|LivePeak
-r17 c107..110 fg=Foreground|LivePeak bg=Hover|Selected|DiffAddedTint|DiffRemovedTint
+r17 c107..110 fg=Foreground|LivePeak bg=DiffRemovedTint
 r17 c110..112 fg=Foreground|LivePeak
 r18 c0..112 fg=Foreground|LivePeak
 r19 c0..112 fg=Foreground|LivePeak
 r20 c0..112 fg=Foreground|LivePeak
 r21 c0..112 fg=Foreground|LivePeak
 r22 c0..6 fg=Border
-r22 c6..24 fg=Muted|Hint|Dim
+r22 c6..24 fg=Muted
 r22 c24..112 fg=Border
 r23 c0..112 fg=Foreground|LivePeak
 r24 c0..112 fg=Foreground|LivePeak
