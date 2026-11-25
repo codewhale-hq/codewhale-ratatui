@@ -1,4 +1,4 @@
-//! Four small marks, one cell each: sonar, tide, shell and kelp.
+//! Small marks, one cell each: sonar, tide, shell, kelp, and the v5.5.0 ADE marks.
 //!
 //! Drawn in the spirit of Susan Kare's icons: precise, friendly, and each
 //! with a word for screen readers and an ASCII form for plain terminals. They

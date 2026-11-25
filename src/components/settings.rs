@@ -536,7 +536,7 @@ impl Paint for SettingsRail<'_> {
     }
 
     fn height(&self, _width: u16, _theme: &Theme) -> u16 {
-        let cue = u16::from(self.searching && !self.clear_hint.is_empty());
+        let cue = u16::from(self.searching && !text::display_safe(&self.clear_hint).is_empty());
         u16::try_from(self.sections.len())
             .unwrap_or(u16::MAX)
             .saturating_add(cue)

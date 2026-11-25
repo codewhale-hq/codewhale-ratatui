@@ -909,15 +909,16 @@ fn path_subject_line(line: &str, theme: &Theme) -> Line<'static> {
     if let Some(cut) = line.rfind(['/', '\\']) {
         let dir = &line[..=cut];
         let base = &line[cut + 1..];
-        if !base.is_empty() {
-            return Line::from(vec![
-                Span::styled(dir.to_owned(), theme.fg(Role::Muted)),
-                Span::styled(
-                    base.to_owned(),
-                    theme.fg(Role::Foreground).add_modifier(Modifier::BOLD),
-                ),
-            ]);
+        if base.is_empty() {
+            return Line::from(Span::styled(dir.to_owned(), theme.fg(Role::Muted)));
         }
+        return Line::from(vec![
+            Span::styled(dir.to_owned(), theme.fg(Role::Muted)),
+            Span::styled(
+                base.to_owned(),
+                theme.fg(Role::Foreground).add_modifier(Modifier::BOLD),
+            ),
+        ]);
     }
     Line::from(Span::styled(
         line.to_owned(),

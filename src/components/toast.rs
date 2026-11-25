@@ -39,12 +39,12 @@ pub enum Ttl {
 }
 
 impl Ttl {
-    /// What [`Toast::new`] gives a state: failures and things that need the
-    /// person stay until seen, everything else lasts five seconds.
+    /// What [`Toast::new`] gives a state: failures, blocked states, and things
+    /// that need the person stay until seen; everything else lasts five seconds.
     #[must_use]
     pub const fn for_state(state: State) -> Self {
         match state {
-            State::Failed | State::NeedsYou => Self::UntilSeen,
+            State::Failed | State::NeedsYou | State::Blocked => Self::UntilSeen,
             _ => Self::Seconds(5),
         }
     }

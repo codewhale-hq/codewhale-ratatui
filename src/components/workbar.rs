@@ -1511,8 +1511,9 @@ impl Paint for TaskProgressHeader<'_> {
         }
         if let Some(active) = &self.active {
             let clean = text::display_safe(active.as_ref());
-            if !clean.is_empty() && used + sep.len() + 1 < width {
-                let rem = width.saturating_sub(used + sep.len());
+            let sep_w = text::width(sep);
+            if !clean.is_empty() && used + sep_w + 1 < width {
+                let rem = width.saturating_sub(used + sep_w);
                 spans.push(Span::styled(sep, theme.fg(Role::Muted)));
                 spans.push(Span::styled(
                     text::truncate(&clean, rem, ascii).into_owned(),

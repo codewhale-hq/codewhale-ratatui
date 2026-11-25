@@ -24,7 +24,7 @@ r0 c45..64 bg=Background
 Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
 ---
 r0 c0..11 fg=Foreground|LivePeak bold
-r0 c13..15 fg=#14763d
+r0 c13..15 fg=Live
 r0 c15..45 fg=Muted
 
 == dark-256
@@ -41,7 +41,7 @@ Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
 ---
 r0 c0..11 fg=Foreground|LivePeak bold
 r0 c13..15 fg=Live
-r0 c15..45 fg=Muted|Hint|Dim
+r0 c15..45 fg=Muted
 
 == ansi-16
 Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
