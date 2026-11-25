@@ -1,6 +1,7 @@
 use codewhale_ratatui::{
-    AgentCard, CountBar, MotionMode, State, Subagent, SubagentControls, SubagentEvent,
-    SubagentIntent, SubagentUsage, SubagentView, SubagentViewState, SubagentViewWords,
+    AgentCard, CountBar, MotionMode, Paint, SessionGroupHeader, State, Subagent, SubagentControls,
+    SubagentEvent, SubagentIntent, SubagentUsage, SubagentView, SubagentViewState,
+    SubagentViewWords,
     testing::{self, Profile},
     whale_motion::{Activity, Context, Inputs, Presence},
 };
@@ -565,13 +566,33 @@ fn structured_receipts_distinguish_missing_zero_and_subcent_costs() {
         state.update(&agents, Instant::now(), MotionMode::Reduced);
         state.handle_key(&agents, key(KeyCode::Right));
         let output = testing::text(&render(&agents, &mut state, profile, 48, 26));
-        assert!(output.contains("$0.000001"), "{output}");
+        assert!(output.contains("<$0.0001"), "{output}");
         assert!(output.contains(if profile.theme().ascii() {
             "in 0 / out -"
         } else {
             "↓ 0 / ↑ —"
         }));
         assert!(!output.contains("legacy display"));
+    }
+
+    for (micros, expected) in [
+        (Some(0), "$0.00"),
+        (Some(4_200), "$0.0042"),
+        (Some(380_000), "$0.38"),
+        (None, "$—"),
+    ] {
+        let mut agent = Subagent::new("c", AgentCard::new("Cost", State::Done));
+        agent.usage = Some(SubagentUsage {
+            input_tokens: Some(100),
+            output_tokens: Some(50),
+            cost_microusd: micros,
+        });
+        let agents = [agent];
+        let mut state = SubagentViewState::default();
+        state.update(&agents, Instant::now(), MotionMode::Reduced);
+        state.handle_key(&agents, key(KeyCode::Right));
+        let output = testing::text(&render(&agents, &mut state, Profile::DarkTrue, 48, 26));
+        assert!(output.contains(expected), "{micros:?}: {output}");
     }
 }
 
@@ -716,4 +737,69 @@ fn a_tiny_roster_range_indicator_is_not_a_hidden_worker_hit_target() {
         ));
         assert_eq!(state.selected_id(), Some("0"));
     }
+}
+
+#[test]
+fn session_group_header_paints_active_idle_and_attention_cue() {
+    let idle = SessionGroupHeader::idle(5);
+    for profile in Profile::ALL {
+        let theme = profile.theme();
+        let cue = if theme.ascii() {
+            "Tab - 1 needs you"
+        } else {
+            "Tab · 1 needs you"
+        };
+        let active = SessionGroupHeader::in_progress(3).attention_cue(cue);
+        assert_eq!(active.height(48, &theme), 1);
+        assert_eq!(idle.height(48, &theme), 1);
+        let buf = testing::render(48, 1, |area, buf| active.paint(area, buf, &theme));
+        let text = testing::text(&buf);
+        assert!(
+            text.contains("In Progress (3)"),
+            "{}: {text}",
+            profile.name()
+        );
+        assert!(text.contains(cue), "{}: {text}", profile.name());
+        let narrow = testing::render(16, 1, |area, buf| active.paint(area, buf, &theme));
+        let narrow_text = testing::text(&narrow);
+        assert!(narrow_text.contains("In Progress"), "{narrow_text}");
+        assert!(!narrow_text.contains("Tab"), "{narrow_text}");
+
+        let idle_buf = testing::render(32, 1, |area, buf| idle.paint(area, buf, &theme));
+        assert!(testing::text(&idle_buf).contains("Idle (5)"));
+    }
+    testing::assert_rules(1, |area, buf, theme| {
+        let cue = if theme.ascii() {
+            "Tab - 1 needs you"
+        } else {
+            "Tab · 1 needs you"
+        };
+        SessionGroupHeader::in_progress(3)
+            .attention_cue(cue)
+            .paint(area, buf, theme)
+    });
+    testing::assert_rules(1, |area, buf, theme| idle.paint(area, buf, theme));
+}
+
+#[test]
+fn unified_words_preset_labels_agents_and_tasks() {
+    let words = SubagentViewWords::unified();
+    assert_eq!(words.title, "Agents & Tasks");
+    assert_eq!(words.empty, "No agents or tasks reported");
+
+    let summary_words = SubagentViewWords::unified_summary(2, 1);
+    assert_eq!(summary_words.summary.as_deref(), Some("2 agents / 1 task"));
+
+    let agents = [fixture("a", State::Working)];
+    let mut state = SubagentViewState::default();
+    state.update(&agents, Instant::now(), MotionMode::Reduced);
+    let theme = Profile::DarkTrue.theme();
+    let buf = testing::render(80, 20, |area, buf| {
+        SubagentView::new(&agents, &theme)
+            .words(summary_words)
+            .render(area, buf, &mut state)
+    });
+    let text = testing::text(&buf);
+    assert!(text.contains("Agents & Tasks"), "{text}");
+    assert!(text.contains("2 agents / 1 task"), "{text}");
 }

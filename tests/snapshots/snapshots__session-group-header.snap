@@ -1,0 +1,90 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent bg=Background
+r0 c2..17 fg=Foreground bg=Background bold
+r0 c17..39 bg=Background
+r0 c39..56 fg=Attention bg=Background
+r1 c0..10 fg=Muted bg=Background
+r1 c10..56 bg=Background
+
+== dark-graphite
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent bg=Background
+r0 c2..17 fg=Foreground bg=Background bold
+r0 c17..39 bg=Background
+r0 c39..56 fg=Attention bg=Background
+r1 c0..10 fg=Muted bg=Background
+r1 c10..56 bg=Background
+
+== light-truecolor
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent bg=Background
+r0 c2..17 fg=Foreground bg=Background bold
+r0 c17..39 bg=Background
+r0 c39..56 fg=Attention bg=Background
+r1 c0..10 fg=Muted bg=Background
+r1 c10..56 bg=Background
+
+== dark-256
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent bg=Background|Surface
+r0 c2..17 fg=Foreground bg=Background|Surface bold
+r0 c17..39 bg=Background|Surface
+r0 c39..56 fg=Attention bg=Background|Surface
+r1 c0..10 fg=Muted bg=Background|Surface
+r1 c10..56 bg=Background|Surface
+
+== light-256
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent bg=Sidebar|Background|Surface
+r0 c2..17 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c17..39 bg=Sidebar|Background|Surface
+r0 c39..56 fg=Attention bg=Sidebar|Background|Surface
+r1 c0..10 fg=Muted bg=Sidebar|Background|Surface
+r1 c10..56 bg=Sidebar|Background|Surface
+
+== ansi-16
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent
+r0 c2..17 bold
+r0 c39..56 fg=Attention
+r1 c0..10 dim
+
+== unknown-ground
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c0..2 fg=Accent
+r0 c2..17 bold
+r0 c39..56 fg=Attention
+r1 c0..10 dim
+
+== no-color
+● In Progress (3)                      Tab · 1 needs you
+○ Idle (5)
+---
+r0 c2..17 bold
+r1 c0..10 dim
+
+== ascii
+. In Progress (3)                      Tab - 1 needs you
+o Idle (5)
+---
+r0 c2..17 bold
+r1 c0..10 dim

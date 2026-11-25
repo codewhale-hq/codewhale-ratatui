@@ -1,0 +1,213 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent bg=Selected
+r0 c2..9 fg=Foreground bg=Selected bold
+r0 c9..27 bg=Selected
+r0 c27..28 fg=Foreground bg=Selected
+r1 c0..2 fg=Muted bg=Background
+r1 c2..11 fg=Muted bg=Background dim
+r1 c11..27 bg=Background
+r1 c27..28 fg=Muted bg=Background dim
+r2 c0..2 fg=Muted bg=Background
+r2 c2..8 fg=Foreground bg=Background
+r2 c8..27 bg=Background
+r2 c27..28 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..27 bg=Background
+r3 c27..28 fg=Muted bg=Background
+r4 c0..28 bg=Background
+r5 c0..9 fg=Hint bg=Background
+r5 c9..28 bg=Background
+
+== dark-graphite
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent bg=Selected
+r0 c2..9 fg=Foreground bg=Selected bold
+r0 c9..27 bg=Selected
+r0 c27..28 fg=Foreground bg=Selected
+r1 c0..2 fg=Muted bg=Background
+r1 c2..11 fg=Muted bg=Background dim
+r1 c11..27 bg=Background
+r1 c27..28 fg=Muted bg=Background dim
+r2 c0..2 fg=Muted bg=Background
+r2 c2..8 fg=Foreground bg=Background
+r2 c8..27 bg=Background
+r2 c27..28 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..27 bg=Background
+r3 c27..28 fg=Muted bg=Background
+r4 c0..28 bg=Background
+r5 c0..9 fg=Hint bg=Background
+r5 c9..28 bg=Background
+
+== light-truecolor
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent bg=Selected
+r0 c2..9 fg=Foreground bg=Selected bold
+r0 c9..27 bg=Selected
+r0 c27..28 fg=Foreground bg=Selected
+r1 c0..2 fg=Muted bg=Background
+r1 c2..11 fg=Muted bg=Background dim
+r1 c11..27 bg=Background
+r1 c27..28 fg=Muted bg=Background dim
+r2 c0..2 fg=Muted bg=Background
+r2 c2..8 fg=Foreground bg=Background
+r2 c8..27 bg=Background
+r2 c27..28 fg=Muted bg=Background
+r3 c0..2 fg=Muted bg=Background
+r3 c2..12 fg=Foreground bg=Background
+r3 c12..27 bg=Background
+r3 c27..28 fg=Muted bg=Background
+r4 c0..28 bg=Background
+r5 c0..9 fg=Hint bg=Background
+r5 c9..28 bg=Background
+
+== dark-256
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent bg=Selected
+r0 c2..9 fg=Foreground bg=Selected bold
+r0 c9..27 bg=Selected
+r0 c27..28 fg=Foreground bg=Selected
+r1 c0..2 fg=Muted bg=Background|Surface
+r1 c2..11 fg=Muted bg=Background|Surface dim
+r1 c11..27 bg=Background|Surface
+r1 c27..28 fg=Muted bg=Background|Surface dim
+r2 c0..2 fg=Muted bg=Background|Surface
+r2 c2..8 fg=Foreground bg=Background|Surface
+r2 c8..27 bg=Background|Surface
+r2 c27..28 fg=Muted bg=Background|Surface
+r3 c0..2 fg=Muted bg=Background|Surface
+r3 c2..12 fg=Foreground bg=Background|Surface
+r3 c12..27 bg=Background|Surface
+r3 c27..28 fg=Muted bg=Background|Surface
+r4 c0..28 bg=Background|Surface
+r5 c0..9 fg=Hint bg=Background|Surface
+r5 c9..28 bg=Background|Surface
+
+== light-256
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent bg=Selected
+r0 c2..9 fg=Foreground bg=Selected bold
+r0 c9..27 bg=Selected
+r0 c27..28 fg=Foreground bg=Selected
+r1 c0..2 fg=Muted bg=Sidebar|Background|Surface
+r1 c2..11 fg=Muted bg=Sidebar|Background|Surface dim
+r1 c11..27 bg=Sidebar|Background|Surface
+r1 c27..28 fg=Muted bg=Sidebar|Background|Surface dim
+r2 c0..2 fg=Muted bg=Sidebar|Background|Surface
+r2 c2..8 fg=Foreground bg=Sidebar|Background|Surface
+r2 c8..27 bg=Sidebar|Background|Surface
+r2 c27..28 fg=Muted bg=Sidebar|Background|Surface
+r3 c0..2 fg=Muted bg=Sidebar|Background|Surface
+r3 c2..12 fg=Foreground bg=Sidebar|Background|Surface
+r3 c12..27 bg=Sidebar|Background|Surface
+r3 c27..28 fg=Muted bg=Sidebar|Background|Surface
+r4 c0..28 bg=Sidebar|Background|Surface
+r5 c0..9 fg=Hint bg=Sidebar|Background|Surface
+r5 c9..28 bg=Sidebar|Background|Surface
+
+== ansi-16
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent
+r0 c2..9 bold
+r1 c0..11 dim
+r1 c27..28 dim
+r2 c0..2 dim
+r2 c27..28 dim
+r3 c0..2 dim
+r3 c27..28 dim
+r5 c0..9 dim
+
+== unknown-ground
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c0..2 fg=Accent
+r0 c2..9 bold
+r1 c0..11 dim
+r1 c27..28 dim
+r2 c0..2 dim
+r2 c27..28 dim
+r3 c0..2 dim
+r3 c27..28 dim
+r5 c0..9 dim
+
+== no-color
+▸ General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c2..9 bold
+r1 c0..11 dim
+r1 c27..28 dim
+r2 c0..2 dim
+r2 c27..28 dim
+r3 c0..2 dim
+r3 c27..28 dim
+r5 c0..9 dim
+
+== ascii
+> General                  4
+  Providers                0
+  Models                   2
+  Appearance               3
+
+Esc clear
+---
+r0 c2..9 bold
+r1 c0..11 dim
+r1 c27..28 dim
+r2 c0..2 dim
+r2 c27..28 dim
+r3 c0..2 dim
+r3 c27..28 dim
+r5 c0..9 dim
