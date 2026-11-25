@@ -1,5 +1,6 @@
 use codewhale_ratatui::{
-    AttentionItem, AttentionQueue, AttentionWords, KeyHint, KeyHints, Paint, State, glyphs,
+    AttentionItem, AttentionQueue, AttentionWords, KeyHint, KeyHints, NeedsAttentionPill, Paint,
+    State, glyphs,
     testing::{self, Profile, render, text},
 };
 use ratatui::{buffer::Buffer, layout::Rect};
@@ -275,4 +276,69 @@ fn saturated_coordinates_clip_long_unicode_status_footer_and_empty_copy() {
             }
         }
     }
+}
+
+#[test]
+fn hidden_footer_truncates_cleanly_at_narrow_widths() {
+    let items: Vec<_> = ["One", "Two", "Three"]
+        .into_iter()
+        .map(|project| AttentionItem::new(project, "Agent", "Request", State::NeedsYou))
+        .collect();
+    for profile in [Profile::DarkTrue, Profile::Ascii] {
+        let theme = profile.theme();
+        let queue = AttentionQueue::new(&items);
+        let buf = render(12, 7, |area, buf| queue.paint(area, buf, &theme));
+        let last_line = text(&buf).lines().last().unwrap_or_default().to_owned();
+        if profile == Profile::Ascii {
+            assert!(last_line.is_ascii(), "{last_line}");
+            assert!(last_line.contains("..."), "{last_line}");
+        } else {
+            assert!(last_line.contains('…'), "{last_line}");
+        }
+    }
+}
+
+#[test]
+fn needs_attention_pill_renders_shape_and_count_and_respects_ascii_and_zero() {
+    let empty = NeedsAttentionPill::new(0);
+    assert_eq!(empty.height(40, &Profile::DarkTrue.theme()), 0);
+    assert!(empty.spans(&Profile::DarkTrue.theme()).is_empty());
+
+    let pill = NeedsAttentionPill::new(3);
+    for profile in Profile::ALL {
+        let theme = profile.theme();
+        let buf = render(32, 1, |area, buf| pill.paint(area, buf, &theme));
+        let shown = text(&buf);
+        let mark = glyphs::pick(State::NeedsYou.glyph(), theme.ascii());
+        assert!(
+            shown.contains(&format!("{mark} Needs attention (3)")),
+            "{}: {shown}",
+            profile.name()
+        );
+        if profile == Profile::Ascii {
+            assert!(shown.is_ascii(), "{shown}");
+        }
+    }
+    testing::assert_rules(1, |area, buf, theme| {
+        NeedsAttentionPill::new(2).paint(area, buf, theme);
+    });
+}
+
+#[test]
+fn next_index_cycles_in_priority_order() {
+    let empty: [AttentionItem<'_>; 0] = [];
+    assert_eq!(AttentionQueue::new(&empty).next_index(None), None);
+    assert_eq!(AttentionQueue::new(&empty).next_index(Some(0)), None);
+
+    let items = [
+        AttentionItem::new("First", "a", "r1", State::NeedsYou).priority(10),
+        AttentionItem::new("Second", "b", "r2", State::Failed).priority(80),
+        AttentionItem::new("Third", "c", "r3", State::Unknown).priority(80),
+    ];
+    let queue = AttentionQueue::new(&items);
+    assert_eq!(queue.next_index(None), Some(1));
+    assert_eq!(queue.next_index(Some(1)), Some(2));
+    assert_eq!(queue.next_index(Some(2)), Some(0));
+    assert_eq!(queue.next_index(Some(0)), Some(1));
+    assert_eq!(queue.next_index(Some(99)), Some(1));
 }

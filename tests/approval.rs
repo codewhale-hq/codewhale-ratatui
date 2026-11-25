@@ -1884,3 +1884,86 @@ fn native_band_sanitizes_every_styled_field_before_fit_and_paint() {
     assert_eq!(plan.action_rects, vec![Rect::default(); 3]);
     assert!(!plan.save_shown);
 }
+
+#[test]
+fn subject_path_falls_back_when_target_is_empty_and_displays_in_details_when_both_exist() {
+    let theme = Profile::DarkTrue.theme();
+    let fallback = ApprovalSubject::new(ApprovalKind::FileChange, "")
+        .path("/tmp/notes\u{202e}.md")
+        .scope(ApprovalScope::Outside);
+    let (buf, report) = card_buf(&fallback, 60, 16, &theme);
+    let text = all_text(&buf);
+    assert!(!report.clipped(), "{report:?}");
+    assert!(!text.contains("(empty)"), "{text}");
+    assert!(text.contains("/tmp/notes‹RLO›.md"), "{text}");
+
+    let both = ApprovalSubject::new(ApprovalKind::FileChange, "write_file")
+        .path("src/lib.rs")
+        .scope(ApprovalScope::Inside);
+    let (buf, report) = card_buf(&both, 60, 16, &theme);
+    let text = all_text(&buf);
+    assert!(!report.clipped(), "{report:?}");
+    assert!(text.contains("write_file"), "{text}");
+    assert!(text.contains("› src/lib.rs"), "{text}");
+}
+
+#[test]
+fn diff_preview_colors_patch_lines_semantically_while_preserving_escaping() {
+    let theme = Profile::DarkTrue.theme();
+    let subject = ApprovalSubject::new(ApprovalKind::FileChange, "src/lib.rs")
+        .scope(ApprovalScope::Inside)
+        .preview_line("@@ -1,2 +1,2 @@")
+        .preview_line("-old_line()")
+        .preview_line("+new_line(\u{1b}[31m)");
+    let state = choices();
+    let card = ApprovalCard::new(&subject, &state).diff_preview(true);
+    let height = card.height(64, &theme);
+    let buf = testing::render(64, height, |area, buf| {
+        let report = card.render(area, buf, &theme);
+        assert!(!report.clipped(), "{report:?}");
+    });
+    let text = all_text(&buf);
+    assert!(text.contains("+new_line(‹ESC›[31m)"), "{text}");
+
+    let find_row_fg = |needle: &str| {
+        (0..buf.area.height).find_map(|y| {
+            let line: String = (0..buf.area.width).map(|x| buf[(x, y)].symbol()).collect();
+            let col = line.find(needle)?;
+            let cell_x = line[..col].chars().count() as u16;
+            Some(buf[(cell_x, y)].fg)
+        })
+    };
+    assert_eq!(
+        find_row_fg("@@ -1,2"),
+        theme.fg(codewhale_ratatui::Role::Muted).fg
+    );
+    assert_eq!(
+        find_row_fg("-old_line"),
+        theme.fg(codewhale_ratatui::Role::Danger).fg
+    );
+    assert_eq!(
+        find_row_fg("+new_line"),
+        theme.fg(codewhale_ratatui::Role::Live).fg
+    );
+    let reversed: String = buf
+        .content()
+        .iter()
+        .filter(|c| c.modifier.contains(Modifier::REVERSED))
+        .map(|c| c.symbol())
+        .collect();
+    assert_eq!(reversed, "‹ESC›");
+}
+
+#[test]
+fn allow_session_constructor_creates_a_grant_choice() {
+    let choice = ApprovalChoice::allow_session(ALLOW_SESSION, "Allow for session").char_key('a');
+    assert_eq!(choice.id, ALLOW_SESSION);
+    assert_eq!(choice.effect, ApprovalEffect::Grants);
+    assert_eq!(choice.label, "Allow for session");
+    let state = ApprovalState::new(vec![
+        choice,
+        ApprovalChoice::new(DENY, "Deny", ApprovalEffect::Refuses).char_key('n'),
+    ]);
+    assert!(state.grants(ALLOW_SESSION));
+    assert_eq!(state.focused(), Some(DENY));
+}

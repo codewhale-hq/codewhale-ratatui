@@ -225,3 +225,42 @@ fn verification_follows_the_kit_rules_in_every_terminal_profile_and_width() {
     }
     testing::assert_rules(1, paint);
 }
+
+#[test]
+fn verification_detail_renders_and_truncates_safely_in_all_profiles() {
+    let indicator = VerificationSpinner::new("Checking", ms(400), MotionMode::Full)
+        .detail("cargo\u{202e} test --workspace");
+    for profile in Profile::ALL {
+        let theme = profile.theme();
+        let wide = render(60, 1, |area, buf| indicator.paint(area, buf, &theme));
+        let shown = text(&wide);
+        assert!(!shown.contains('\u{202e}'), "{shown}");
+        if theme.ascii() {
+            assert!(shown.is_ascii(), "{shown}");
+            assert!(
+                shown.contains("Checking - cargo test --workspace"),
+                "{shown}"
+            );
+        } else {
+            assert!(
+                shown.contains("Checking · cargo test --workspace"),
+                "{shown}"
+            );
+        }
+        for width in [1, 4, 10, 16, 24] {
+            let narrow = render(width, 1, |area, buf| indicator.paint(area, buf, &theme));
+            assert_eq!(
+                narrow[(0, 0)].symbol(),
+                VerificationSpinner::frame(ms(400), MotionMode::Full, theme.ascii())
+            );
+            if theme.ascii() {
+                assert!(text(&narrow).is_ascii());
+            }
+        }
+    }
+    testing::assert_rules(1, |area, buf, theme| {
+        VerificationSpinner::new("Checking", ms(1400), MotionMode::Full)
+            .detail("cargo test")
+            .paint(area, buf, theme);
+    });
+}

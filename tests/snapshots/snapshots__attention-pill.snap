@@ -1,0 +1,61 @@
+---
+source: tests/snapshots.rs
+assertion_line: 37
+expression: dump(&entry)
+---
+== dark-truecolor
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bg=Background bold
+r0 c2..21 fg=Attention bg=Background
+r0 c21..32 bg=Background
+
+== dark-graphite
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bg=Background bold
+r0 c2..21 fg=Attention bg=Background
+r0 c21..32 bg=Background
+
+== light-truecolor
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bg=Background bold
+r0 c2..21 fg=Attention bg=Background
+r0 c21..32 bg=Background
+
+== dark-256
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bg=Background|Surface bold
+r0 c2..21 fg=Attention bg=Background|Surface
+r0 c21..32 bg=Background|Surface
+
+== light-256
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bg=Sidebar|Background|Surface bold
+r0 c2..21 fg=Attention bg=Sidebar|Background|Surface
+r0 c21..32 bg=Sidebar|Background|Surface
+
+== ansi-16
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bold
+r0 c2..21 fg=Attention
+
+== unknown-ground
+◆ Needs attention (3)
+---
+r0 c0..2 fg=Attention bold
+r0 c2..21 fg=Attention
+
+== no-color
+◆ Needs attention (3)
+---
+r0 c0..2 bold
+
+== ascii
+* Needs attention (3)
+---
+r0 c0..2 bold
