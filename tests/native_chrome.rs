@@ -622,3 +622,21 @@ fn mounted_prompt_separator_keeps_raw_ink_for_placeholder_input_and_selection() 
         }
     }
 }
+
+#[test]
+fn native_composer_attachments_chip_paints_in_top_border() {
+    let chip = codewhale_ratatui::native_composer_paste_chip(24, false);
+    let composer = NativeComposer::new("review this").attachments(chip);
+    let unicode = text(&render(60, 4, |area, buf| {
+        composer.paint(area, buf, &Profile::DarkTrue.theme())
+    }));
+    assert!(unicode.contains("Pasted text · 24 lines"), "{unicode}");
+
+    let ascii_chip = codewhale_ratatui::native_composer_paste_chip(1, true);
+    let ascii_composer = NativeComposer::new("review this").attachments(ascii_chip);
+    let ascii = text(&render(60, 4, |area, buf| {
+        ascii_composer.paint(area, buf, &Profile::Ascii.theme())
+    }));
+    assert!(ascii.contains("Pasted text . 1 line"), "{ascii}");
+    assert!(!ascii.contains('·'), "{ascii}");
+}

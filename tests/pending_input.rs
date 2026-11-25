@@ -391,3 +391,48 @@ fn native_sanitization_is_measured_once_and_clipped_paint_preserves_other_cells(
     assert_eq!(buf[(4, 6)], before[(4, 6)]);
     assert_eq!(buf[(6, 6)], before[(6, 6)]);
 }
+
+#[test]
+fn pasted_text_chips_header_style_and_clipped_controls() {
+    use codewhale_ratatui::{PendingCard, PendingCardContext, PendingCardStyles, PendingCardWords};
+    use ratatui::style::Color;
+
+    let one = ContextPreviewItem::pasted_text("p1", 1, ContextPreviewState::Included);
+    let many = ContextPreviewItem::pasted_text("p2", 42, ContextPreviewState::Removable);
+    let preview = PendingInputPreview::new(Vec::new(), vec![one, many]);
+
+    let unicode = testing::text(&render(80, 4, |area, buf| {
+        preview.paint(area, buf, &Profile::DarkTrue.theme())
+    }));
+    assert!(unicode.contains("Pasted text · 1 line"), "{unicode}");
+    assert!(unicode.contains("Pasted text · 42 lines"), "{unicode}");
+
+    let ascii = testing::text(&render(80, 4, |area, buf| {
+        preview.paint(area, buf, &Profile::Ascii.theme())
+    }));
+    assert!(ascii.contains("Pasted text . 1 line"), "{ascii}");
+    assert!(ascii.contains("Pasted text . 42 lines"), "{ascii}");
+    assert!(!ascii.contains('·'), "{ascii}");
+
+    let mut card = PendingCard::new(PendingCardWords::default());
+    card.context.push(PendingCardContext::pasted_text(18, true));
+    card.editing = Some("draft".into());
+    card.queued.push("next".into());
+    let custom_muted = ratatui::style::Style::default().fg(Color::Rgb(12, 34, 56));
+    let theme = Profile::DarkTrue.theme();
+    let mut styles = PendingCardStyles::for_theme(&theme);
+    styles.context_muted = custom_muted;
+    card.styles = Some(styles);
+
+    let buf = render(20, 12, |area, buf| card.paint(area, buf, &theme));
+    let header_cell = &buf[(0, 0)];
+    assert_eq!(header_cell.fg, Color::Rgb(12, 34, 56));
+    let rendered = testing::text(&buf);
+    for line in rendered.lines() {
+        assert!(
+            codewhale_ratatui::text::width(line) <= 20,
+            "line exceeded width 20: {line:?}"
+        );
+    }
+    assert!(rendered.contains("…"), "{rendered}");
+}

@@ -131,3 +131,23 @@ fn mounted_menu_column_truncation_retains_native_space_and_whole_buffer_styles()
         }
     }
 }
+
+#[test]
+fn native_composer_paste_chip_formats_singular_plural_and_ascii() {
+    assert_eq!(
+        codewhale_ratatui::native_composer_paste_chip(1, false),
+        "Pasted text · 1 line"
+    );
+    assert_eq!(
+        codewhale_ratatui::native_composer_paste_chip(15, false),
+        "Pasted text · 15 lines"
+    );
+    assert_eq!(
+        codewhale_ratatui::native_composer_paste_chip(1, true),
+        "Pasted text . 1 line"
+    );
+    assert_eq!(
+        codewhale_ratatui::native_composer_paste_chip(15, true),
+        "Pasted text . 15 lines"
+    );
+}

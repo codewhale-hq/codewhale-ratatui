@@ -333,3 +333,54 @@ fn every_profile_and_clipped_buffer_is_bounded_and_only_one_row_paints() {
         }
     }
 }
+
+#[test]
+fn canonical_posture_constructors_thinking_shed_right_ink_and_thinking_metric() {
+    for (bar, expected) in [
+        (PostureBar::ask(), "Ask"),
+        (PostureBar::accept_edits(), "Accept Edits"),
+        (PostureBar::plan(), "Plan"),
+        (PostureBar::auto_review(), "Auto-Review"),
+        (PostureBar::full_access(), "Full Access"),
+    ] {
+        let shown = row(&bar, 60, Profile::DarkTrue);
+        assert!(shown.contains(expected), "{expected} missing in {shown}");
+    }
+
+    let with_thinking = PostureBar::ask()
+        .mode("work", Role::Accent)
+        .mode_key("Tab")
+        .thinking("high", Role::Muted);
+    let first_width = |needle: &str| {
+        (8..=120)
+            .find(|width| row(&with_thinking, *width, Profile::DarkTrue).contains(needle))
+            .unwrap()
+    };
+    assert!(first_width("work (Tab)") > first_width("high"));
+    assert!(first_width("high") > first_width("work"));
+
+    let theme = Profile::DarkTrue.theme();
+    let mut with_right_ink = PostureBar::ask();
+    with_right_ink.right =
+        Some(PostureFact::new("synced", Role::Muted).ink(codewhale_ratatui::TuiInk::Success));
+    let buf = render(60, 1, |area, buf| with_right_ink.paint(area, buf, &theme));
+    let synced_cell = buf
+        .content
+        .iter()
+        .rfind(|cell| cell.symbol() == "y")
+        .unwrap();
+    assert_eq!(
+        synced_cell.fg,
+        theme
+            .tui_ink(codewhale_ratatui::TuiInk::Success)
+            .fg
+            .unwrap()
+    );
+
+    assert_eq!(MetricKind::Thinking.shed_priority(), 4);
+    let metrics = MetricsLine::new(vec![
+        MetricSegment::new(MetricKind::Model, "", "deepseek-v4"),
+        MetricSegment::new(MetricKind::Thinking, "think", "high"),
+    ]);
+    assert!(row(&metrics, 60, Profile::DarkTrue).contains("think high"));
+}
