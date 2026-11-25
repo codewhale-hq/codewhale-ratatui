@@ -334,3 +334,65 @@ fn cycle_order_release_events_and_hidden_focus_match_native_routing() {
     assert_eq!(state.handle_key(key, &[], 2), WorkbarOutcome::Ignored);
     assert_eq!(state.panel, WorkbarPanel::Tasks);
 }
+
+#[test]
+fn task_progress_header_paints_beads_and_respects_ascii_and_bounds() {
+    let header = codewhale_ratatui::TaskProgressHeader::new(2, 5).active("Run verification");
+    for profile in codewhale_ratatui::testing::Profile::ALL {
+        let theme = profile.theme();
+        for width in [0u16, 1, 8, 20, 40, 80] {
+            let rendered = codewhale_ratatui::testing::render(width, 1, |area, buf| {
+                codewhale_ratatui::Paint::paint(&header, area, buf, &theme);
+            });
+            let out = codewhale_ratatui::testing::text(&rendered);
+            if width >= 20 {
+                assert!(out.contains("2/5"), "{}: {out}", profile.name());
+            }
+            if theme.ascii() {
+                assert!(out.is_ascii(), "non-ASCII output: {out}");
+            }
+        }
+    }
+}
+
+#[test]
+fn agent_row_prefix_uses_tone_color_while_preserving_row_background() {
+    let theme = codewhale_ratatui::testing::Profile::DarkTrue.theme();
+    let rows = vec![
+        codewhale_ratatui::WorkbarRow::new("a1", "reviewer")
+            .mark("✓")
+            .tone(codewhale_ratatui::WorkbarTone::Success)
+            .agent(codewhale_ratatui::WorkbarAgent::new(
+                "reviewer",
+                "done",
+                "audit diff",
+            )),
+        codewhale_ratatui::WorkbarRow::new("a2", "builder")
+            .mark("✕")
+            .tone(codewhale_ratatui::WorkbarTone::Failure)
+            .agent(codewhale_ratatui::WorkbarAgent::new(
+                "builder", "failed", "compile",
+            )),
+    ];
+    let bar = codewhale_ratatui::Workbar::new(codewhale_ratatui::WorkbarPanel::Fleet, rows);
+    let buf = codewhale_ratatui::testing::render(60, 6, |area, buf| {
+        codewhale_ratatui::Paint::paint(&bar, area, buf, &theme);
+    });
+    let mut saw_success = false;
+    let mut saw_failure = false;
+    let success_fg = theme.tui_ink(codewhale_ratatui::TuiInk::Success).fg;
+    let danger_fg = theme.fg(codewhale_ratatui::Role::Danger).fg;
+    for cell in &buf.content {
+        if cell.symbol() == "✓" && cell.fg == success_fg.unwrap_or_default() {
+            saw_success = true;
+        }
+        if cell.symbol() == "✕" && cell.fg == danger_fg.unwrap_or_default() {
+            saw_failure = true;
+        }
+    }
+    assert!(
+        saw_success,
+        "expected live-green ✓ prefix on Success agent row"
+    );
+    assert!(saw_failure, "expected danger ✕ prefix on Failure agent row");
+}

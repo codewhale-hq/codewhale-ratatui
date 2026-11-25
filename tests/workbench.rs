@@ -98,3 +98,26 @@ fn workbench_text_is_sanitized_and_all_surfaces_stay_in_their_bounds() {
         }
     }
 }
+
+#[test]
+fn pane_header_count_pill_and_workspace_frame_narrow_bounds() {
+    for profile in Profile::ALL {
+        let theme = profile.theme();
+        let header = PaneHeader::new("Review").meta("Branch").count(12);
+        for width in [8u16, 20, 40, 60, 80] {
+            let rendered = render(width, 2, |area, buf| header.paint(area, buf, &theme));
+            let shown = text(&rendered);
+            if width >= 20 {
+                assert!(shown.contains("12"), "{}: {shown}", profile.name());
+            }
+        }
+        let frame = WorkspaceFrame::new("codewhale")
+            .branch("main")
+            .footer("ready");
+        for width in [40u16, 60, 80] {
+            let rendered = render(width, 16, |area, buf| frame.paint(area, buf, &theme));
+            let shown = text(&rendered);
+            assert!(shown.contains("Codewhale"), "{}: {shown}", profile.name());
+        }
+    }
+}

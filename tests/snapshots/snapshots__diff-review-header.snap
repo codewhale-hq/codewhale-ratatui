@@ -1,0 +1,81 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 fg=Foreground bg=Background bold
+r0 c6..15 fg=Muted bg=Background
+r0 c15..18 fg=Live bg=Background
+r0 c18..19 bg=Background
+r0 c19..21 fg=Danger bg=Background
+r0 c21..48 bg=Background
+
+== dark-graphite
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 fg=Foreground bg=Background bold
+r0 c6..15 fg=Muted bg=Background
+r0 c15..18 fg=Live bg=Background
+r0 c18..19 bg=Background
+r0 c19..21 fg=Danger bg=Background
+r0 c21..48 bg=Background
+
+== light-truecolor
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 fg=Foreground bg=Background bold
+r0 c6..15 fg=Muted bg=Background
+r0 c15..18 fg=Live bg=Background
+r0 c18..19 bg=Background
+r0 c19..21 fg=Danger bg=Background
+r0 c21..48 bg=Background
+
+== dark-256
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 fg=Foreground bg=Background|Surface bold
+r0 c6..15 fg=Muted bg=Background|Surface
+r0 c15..18 fg=Live bg=Background|Surface
+r0 c18..19 bg=Background|Surface
+r0 c19..21 fg=Danger bg=Background|Surface
+r0 c21..48 bg=Background|Surface
+
+== light-256
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 fg=Foreground bg=Sidebar|Background|Surface bold
+r0 c6..15 fg=Muted bg=Sidebar|Background|Surface
+r0 c15..18 fg=Live bg=Sidebar|Background|Surface
+r0 c18..19 bg=Sidebar|Background|Surface
+r0 c19..21 fg=Danger bg=Sidebar|Background|Surface
+r0 c21..48 bg=Sidebar|Background|Surface
+
+== ansi-16
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 bold
+r0 c6..15 dim
+r0 c15..18 fg=Live|LivePeak
+r0 c19..21 fg=Danger
+
+== unknown-ground
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 bold
+r0 c6..15 dim
+r0 c15..18 fg=Live|LivePeak
+r0 c19..21 fg=Danger
+
+== no-color
+Branch · 1/2 · +42 −8
+---
+r0 c0..6 bold
+r0 c6..15 dim
+
+== ascii
+Branch - 1/2 - +42 -8
+---
+r0 c0..6 bold
+r0 c6..15 dim

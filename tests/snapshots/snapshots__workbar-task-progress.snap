@@ -1,0 +1,70 @@
+---
+source: tests/snapshots.rs
+expression: dump(&entry)
+---
+== dark-truecolor
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 fg=Foreground|LivePeak bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..15 fg=#9bd66f bg=Background
+r0 c15..45 fg=Muted bg=Background
+r0 c45..64 bg=Background
+
+== dark-graphite
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 fg=Foreground|LivePeak bg=Background bold
+r0 c11..13 bg=Background
+r0 c13..15 fg=#9bd66f bg=Background
+r0 c15..45 fg=Muted bg=Background
+r0 c45..64 bg=Background
+
+== light-truecolor
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 fg=Foreground|LivePeak bold
+r0 c13..15 fg=#14763d
+r0 c15..45 fg=Muted
+
+== dark-256
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 fg=Foreground|LivePeak bg=Background|DiffAddedTint bold
+r0 c11..13 bg=Background|DiffAddedTint
+r0 c13..15 fg=idx113 bg=Background|DiffAddedTint
+r0 c15..45 fg=Muted bg=Background|DiffAddedTint
+r0 c45..64 bg=Background|DiffAddedTint
+
+== light-256
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 fg=Foreground|LivePeak bold
+r0 c13..15 fg=Live
+r0 c15..45 fg=Muted|Hint|Dim
+
+== ansi-16
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 bold
+r0 c13..15 fg=Live|LivePeak
+r0 c15..45 dim
+
+== unknown-ground
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 bold
+r0 c13..15 fg=Live|LivePeak
+r0 c15..45 dim
+
+== no-color
+Tasks · 2/5  ✓✓○○○ · Verify workbar snapshots
+---
+r0 c0..11 bold
+r0 c15..45 dim
+
+== ascii
+Tasks - 2/5  xxooo - Verify workbar snapshots
+---
+r0 c0..11 bold
+r0 c15..45 dim

@@ -145,3 +145,27 @@ fn missing_active_tab_and_hovered_tab_use_the_same_paint_and_target_plan() {
         DockTabTarget::Panel(WorkbarPanel::Context)
     );
 }
+
+#[test]
+fn dock_sanitizes_close_and_keeps_sole_active_tab_truncated_on_narrow_widths() {
+    let tabs = [
+        WorkbarTab::new(WorkbarPanel::Terminal).count(2),
+        WorkbarTab::new(WorkbarPanel::Files).count(4),
+    ];
+    let row = DockTabRow {
+        tabs: &tabs,
+        active: WorkbarPanel::Terminal,
+        bottom: false,
+        close: " Esc\u{1b}\u{202e} × ".into(),
+        hovered: None,
+        pressed: None,
+        styles: styles(),
+    };
+    let narrow = Rect::new(0, 0, 12, 1);
+    let plan = row.plan(narrow);
+    assert!(!plan.close.contains(['\u{1b}', '\u{202e}']));
+    assert_eq!(plan.tabs.len(), 1);
+    assert_eq!(plan.tabs[0].tab.panel, WorkbarPanel::Terminal);
+    assert!(plan.tabs[0].area.right() <= plan.close_area.x);
+    assert_eq!(plan.tabs[0].area.intersection(narrow), plan.tabs[0].area);
+}
